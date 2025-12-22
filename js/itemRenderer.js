@@ -9,20 +9,38 @@ import { CONFIG } from './config.js';
  */
 export function createItemCard(item) {
     // 优先使用 animal-crossing 提供的图片 URL
-    const imagePath = item.imageUrl;
+    const imagePath = item.hasVariations && item.variations[0].imageUrl ? item.variations[0].imageUrl : item.imageUrl;
+    const id = item.hasVariations && item.variations[0].id ? item.variations[0].id : item.id;
+    const itemId = `item-${id}`;
+    
+    // 生成变体圆点HTML
+    let variationDots = '';
+    if (item.hasVariations && item.variations.length > 1) {
+        variationDots = `
+            <div class="variation-dots">
+                ${item.variations.map((v, index) => 
+                    `<span class="variation-dot ${index === 0 ? 'active' : ''}" 
+                           data-index="${index}"
+                           title="${v.name || '变体 ' + (index + 1)}">
+                        ${index + 1}
+                    </span>`
+                ).join('')}
+            </div>
+        `;
+    }
     
     return `
-        <div class="item-card ${item.owned ? 'item-owned' : ''}">
+        <div class="item-card ${item.owned ? 'item-owned' : ''}" id="${itemId}" data-item='${JSON.stringify(item).replace(/'/g, "&apos;")}'>
             <img src="${imagePath}" 
                  alt="${item.name}" 
                  class="item-image"
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="item-image missing" style="display:none;">无图片</div>
-            <div class="item-name">${item.name}</div>
-            <div class="item-price">${(item.price || 0).toLocaleString()}</div>
-            <div class="item-id">ID: ${item.id[0] || 'N/A'}</div>
+            <div class="item-name">${item.name}${item.hasVariations && item.variations[0].name ? ' - ' + item.variations[0].name : ''}</div>
+            <div class="item-id">ID: ${id || 'N/A'}</div>
             ${item.DiyRecipe ? '<div class="item-recipe">可DIY</div>' : ''}
             ${item.owned ? '<div class="owned-badge">已拥有</div>' : ''}
+            ${variationDots}
         </div>
     `;
 }
@@ -37,7 +55,44 @@ export function renderItems(items, container) {
     }
     
     container.innerHTML = items.map(item => createItemCard(item)).join('');
+    
+    // 添加变体切换事件监听
+    setupVariationListeners(container);
+    
     return true;
+}
+
+/**
+ * 设置变体切换监听器
+ */
+function setupVariationListeners(container) {
+    container.addEventListener('click', (e) => {
+        if (e.target.classList.contains('variation-dot')) {
+            const dot = e.target;
+            const card = dot.closest('.item-card');
+            const itemData = JSON.parse(card.dataset.item);
+            const variantIndex = parseInt(dot.dataset.index);
+            
+            // 切换激活状态
+            card.querySelectorAll('.variation-dot').forEach(d => d.classList.remove('active'));
+            dot.classList.add('active');
+            
+            // 更新图片和名称
+            const variation = itemData.variations[variantIndex];
+            const img = card.querySelector('.item-image');
+            const nameEl = card.querySelector('.item-name');
+            
+            img.src = variation.imageUrl;
+            img.style.display = 'block';
+            img.nextElementSibling.style.display = 'none';
+            
+            nameEl.textContent = itemData.name + (variation.name ? ' - ' + variation.name : '');
+
+            // 更新id
+            const idEl = card.querySelector('.item-id');
+            idEl.textContent = `ID: ${variation.id || itemData.id || 'N/A'}`;
+        }
+    });
 }
 
 /**

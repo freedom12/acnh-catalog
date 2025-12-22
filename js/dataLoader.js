@@ -31,30 +31,32 @@ export async function loadCatalogData() {
  */
 export function processItemsData(acnhItems, ownedItemsSet) {
     // 定义服饰类分类
-    const clothingCategories = ['Accessories', 'Tops', 'Bottoms', 'Dress-Up', 'Headwear', 'Socks', 'Shoes', 'Bags', 'Umbrellas'];
+    // const clothingCategories = ['Accessories', 'Tops', 'Bottoms', 'Dress-Up', 'Headwear', 'Socks', 'Shoes', 'Bags', 'Umbrellas'];
     
     return acnhItems.map(item => {
-        // 获取中文名称
-        const chineseName = item.translations?.cNzh || item.name;
-        let id = item.internalId;
-        // 获取图片 URL
-        let imageUrl = item.image || item.storageImage || item.closetImage || item.framedImage;
-        const isClothing = clothingCategories.includes(item.sourceSheet);
+        const name = item.translations?.cNzh || item.name;
+        const id = item.internalId;
+        const imageUrl = item.image || item.storageImage || item.closetImage || item.framedImage;
+        // const isClothing = clothingCategories.includes(item.sourceSheet);
         
+        // 处理变体信息
+        let variations = [];
         if (item.variations && item.variations.length > 0) {
-            const variation = item.variations[0];
-            imageUrl = variation.image || variation.storageImage || variation.closetImage || variation.framedImage || imageUrl;
-            id = variation.internalId || id;
+            variations = item.variations.map(v => ({
+                name: v.variantTranslations?.cNzh || v.variation || '',
+                imageUrl: v.image || v.storageImage || v.closetImage || v.framedImage || imageUrl,
+                id: v.internalId || id
+            }));
         }
 
         return {
-            name: chineseName,
-            id: [id],
-            buy: item.buy || 0,
-            sell: item.sell || 0,
+            name: name,
+            id: id,
             category: item.sourceSheet || 'Other',
             imageUrl: imageUrl,
-            owned: ownedItemsSet.has(chineseName),
+            owned: ownedItemsSet.has(name),
+            variations: variations,
+            hasVariations: variations.length > 0,
             // 保留原始数据以备使用
             originalData: item
         };
