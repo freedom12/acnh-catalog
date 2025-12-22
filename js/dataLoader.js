@@ -52,7 +52,7 @@ export function processItemsData(acnhItems, ownedItemsSet) {
         if (variations.length > 0)
         {
             // 如果有变体，使用第一个变体的信息作为默认
-            name = variations[0].name || name;
+            // name = variations[0].name || name;
             id = variations[0].id || id;
             imageUrl = variations[0].imageUrl || imageUrl;
         }
