@@ -32,10 +32,10 @@ export function sortItems(items, sortValue) {
                 return a.name.localeCompare(b.name, 'zh-CN');
             case CONFIG.SORT_OPTIONS.NAME_DESC:
                 return b.name.localeCompare(a.name, 'zh-CN');
-            case CONFIG.SORT_OPTIONS.PRICE_ASC:
-                return (a.price || 0) - (b.price || 0);
-            case CONFIG.SORT_OPTIONS.PRICE_DESC:
-                return (b.price || 0) - (a.price || 0);
+            // case CONFIG.SORT_OPTIONS.PRICE_ASC:
+            //     return (a.price || 0) - (b.price || 0);
+            // case CONFIG.SORT_OPTIONS.PRICE_DESC:
+            //     return (b.price || 0) - (a.price || 0);
             case CONFIG.SORT_OPTIONS.ID_ASC:
                 return (a.id || 0) - (b.id || 0);
             case CONFIG.SORT_OPTIONS.ID_DESC:

@@ -26,7 +26,7 @@
         "Music": "音乐",
         "Photos": "照片",
         "Posters": "海报",
-        // "Message Cards": "留言卡",
+        "Message Cards": "留言卡",
         "Other": "其他"
     },
     "sources": {
