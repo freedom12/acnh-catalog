@@ -44,6 +44,7 @@ export function processItemsData(acnhItems, ownedItemsSet) {
       // 处理两层变体信息：variant(款式) 和 pattern(图案)
       let variantGroups = [];
       let hasVariations = false;
+      let colors = item.colors || [];
 
       if (item.variations && item.variations.length > 0) {
         // 按 variant 分组
@@ -70,6 +71,7 @@ export function processItemsData(acnhItems, ownedItemsSet) {
               imageUrl,
             id: v.internalId || id,
             uniqueEntryId: v.uniqueEntryId,
+            colors: v.colors || item.colors || [],
           });
         });
 
@@ -81,6 +83,7 @@ export function processItemsData(acnhItems, ownedItemsSet) {
           const firstPattern = variantGroups[0].patterns[0];
           id = firstPattern.id || id;
           imageUrl = firstPattern.imageUrl || imageUrl;
+          colors = firstPattern.colors || colors;
         }
       }
 
@@ -89,6 +92,7 @@ export function processItemsData(acnhItems, ownedItemsSet) {
         id: id,
         category: item.sourceSheet || "Other",
         imageUrl: imageUrl,
+        colors: colors,
         owned: ownedItemsSet.has(name),
         variantGroups: variantGroups,
         hasVariations: hasVariations,

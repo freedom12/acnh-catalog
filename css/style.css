@@ -179,6 +179,60 @@ h1 {
     border-radius: 4px;
     text-align: center;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* 颜色块 */
+.color-block {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+/* 单色块 */
+.color-block[data-color="Red"] { background: #e74c3c; }
+.color-block[data-color="Orange"] { background: #e67e22; }
+.color-block[data-color="Yellow"] { background: #f1c40f; }
+.color-block[data-color="Green"] { background: #27ae60; }
+.color-block[data-color="Blue"] { background: #3498db; }
+.color-block[data-color="Aqua"] { background: #1abc9c; }
+.color-block[data-color="Purple"] { background: #9b59b6; }
+.color-block[data-color="Pink"] { background: #ff69b4; }
+.color-block[data-color="White"] { background: #ecf0f1; }
+.color-block[data-color="Black"] { background: #2c3e50; }
+.color-block[data-color="Gray"] { background: #95a5a6; }
+.color-block[data-color="Brown"] { background: #8b6f47; }
+.color-block[data-color="Beige"] { background: #d4c5b9; }
+.color-block[data-color="Colorful"] { background: linear-gradient(135deg, #e74c3c 0%, #f1c40f 25%, #27ae60 50%, #3498db 75%, #9b59b6 100%); }
+
+/* 多色块（斜向渐变）*/
+.color-block.multi-color[data-colors*="Red"][data-colors*="Blue"] { background: linear-gradient(135deg, #e74c3c 50%, #3498db 50%); }
+.color-block.multi-color[data-colors*="Red"][data-colors*="Green"] { background: linear-gradient(135deg, #e74c3c 50%, #27ae60 50%); }
+.color-block.multi-color[data-colors*="Red"][data-colors*="White"] { background: linear-gradient(135deg, #e74c3c 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Blue"][data-colors*="White"] { background: linear-gradient(135deg, #3498db 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Blue"][data-colors*="Yellow"] { background: linear-gradient(135deg, #3498db 50%, #f1c40f 50%); }
+.color-block.multi-color[data-colors*="Green"][data-colors*="White"] { background: linear-gradient(135deg, #27ae60 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Green"][data-colors*="Yellow"] { background: linear-gradient(135deg, #27ae60 50%, #f1c40f 50%); }
+.color-block.multi-color[data-colors*="Black"][data-colors*="White"] { background: linear-gradient(135deg, #2c3e50 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Brown"][data-colors*="White"] { background: linear-gradient(135deg, #8b6f47 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Pink"][data-colors*="White"] { background: linear-gradient(135deg, #ff69b4 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Orange"][data-colors*="White"] { background: linear-gradient(135deg, #e67e22 50%, #ecf0f1 50%); }
+.color-block.multi-color[data-colors*="Purple"][data-colors*="White"] { background: linear-gradient(135deg, #9b59b6 50%, #ecf0f1 50%); }
+
+/* 通用多色渐变（超过2种颜色或未定义的组合）*/
+.color-block.multi-color:not([data-colors*=","]:not([data-colors*=","][data-colors*=","])) {
+    background: linear-gradient(135deg, 
+        var(--color1, #e74c3c) 0%, 
+        var(--color1, #e74c3c) 50%, 
+        var(--color2, #3498db) 50%, 
+        var(--color2, #3498db) 100%);
 }
 
 .item-card:hover {

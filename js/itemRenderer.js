@@ -4,6 +4,47 @@
 
 import { CONFIG, getSourceName } from './config.js';
 
+// 颜色映射表
+const COLOR_MAP = {
+    'Red': '#e74c3c',
+    'Orange': '#e67e22',
+    'Yellow': '#f1c40f',
+    'Green': '#27ae60',
+    'Blue': '#3498db',
+    'Aqua': '#1abc9c',
+    'Purple': '#9b59b6',
+    'Pink': '#ff69b4',
+    'White': '#ecf0f1',
+    'Black': '#2c3e50',
+    'Gray': '#95a5a6',
+    'Brown': '#8b6f47',
+    'Beige': '#d4c5b9',
+    'Colorful': 'linear-gradient(135deg, #e74c3c 0%, #f1c40f 25%, #27ae60 50%, #3498db 75%, #9b59b6 100%)'
+};
+
+/**
+ * 生成颜色块HTML
+ */
+function generateColorBlock(colors) {
+    if (colors.length === 0) return '';
+    
+    if (colors.length === 1) {
+        const color = COLOR_MAP[colors[0]] || '#ccc';
+        return `<span class="color-block" style="background: ${color};"></span>`;
+    } else {
+        // 多色：生成斜向渐变
+        const colorValues = colors.map(c => COLOR_MAP[c] || '#ccc');
+        const step = 100 / colors.length;
+        const gradientStops = colorValues.map((color, index) => {
+            const start = index * step;
+            const end = (index + 1) * step;
+            return `${color} ${start}%, ${color} ${end}%`;
+        }).join(', ');
+        const gradient = `linear-gradient(135deg, ${gradientStops})`;
+        return `<span class="color-block" style="background: ${gradient};"></span>`;
+    }
+}
+
 /**
  * 创建物品卡片HTML
  */
@@ -77,7 +118,15 @@ export function createItemCard(item) {
     // 获取尺寸信息
     const size = item.originalData?.size || '';
     const tag = item.originalData?.tag || '';
-    const sizeTagInfo = (size || tag) ? `<div class="size-tag-info">${size ? '📏 ' + size : ''}${size && tag ? ' · ' : ''}${tag ? '🏷️ ' + tag : ''}</div>` : '';
+    const colors = item.colors || [];
+    
+    // 生成颜色块HTML
+    let colorBlocks = '';
+    if (colors.length > 0) {
+        colorBlocks = generateColorBlock(colors);
+    }
+    
+    const sizeTagInfo = (size || tag || colors.length > 0) ? `<div class="size-tag-info">${size ? '📏 ' + size : ''}${size && tag ? ' · ' : ''}${tag ? '🏷️ ' + tag : ''}${(size || tag) && colors.length > 0 ? ' ' : ''}${colorBlocks}</div>` : '';
     
     return `
         <div class="item-card ${item.owned ? 'item-owned' : ''}" id="${itemId}" data-item='${JSON.stringify(item).replace(/'/g, "&apos;")}'>
@@ -172,6 +221,7 @@ function updateItemDisplay(card, itemData, variantIndex, patternIndex) {
     const img = card.querySelector('.item-image');
     const nameEl = card.querySelector('.item-name');
     const idEl = card.querySelector('.item-id');
+    const sizeTagEl = card.querySelector('.size-tag-info');
     
     // 更新图片
     img.src = pattern.imageUrl;
@@ -186,6 +236,22 @@ function updateItemDisplay(card, itemData, variantIndex, patternIndex) {
     
     // 更新ID
     idEl.textContent = `ID: ${pattern.id || itemData.id || 'N/A'}`;
+    
+    // 更新颜色块
+    if (sizeTagEl && pattern.colors) {
+        const size = itemData.originalData?.size || '';
+        const tag = itemData.originalData?.tag || '';
+        const colors = pattern.colors || [];
+        
+        // 生成颜色块HTML
+        let colorBlocks = '';
+        if (colors.length > 0) {
+            colorBlocks = generateColorBlock(colors);
+        }
+        
+        const sizeTagInfo = (size || tag || colors.length > 0) ? `${size ? '📏 ' + size : ''}${size && tag ? ' · ' : ''}${tag ? '🏷️ ' + tag : ''}${(size || tag) && colors.length > 0 ? ' ' : ''}${colorBlocks}` : '';
+        sizeTagEl.innerHTML = sizeTagInfo;
+    }
 }
 
 /**
