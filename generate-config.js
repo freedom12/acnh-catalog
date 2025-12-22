@@ -28,15 +28,24 @@ const interiorStructuresPath = path.join(
   "config",
   "Interior Structures.json"
 );
-const interiorStructures = JSON.parse(fs.readFileSync(interiorStructuresPath, "utf-8"));
+const interiorStructures = JSON.parse(
+  fs.readFileSync(interiorStructuresPath, "utf-8")
+);
 const mergedItems = filteredItems.concat(interiorStructures);
 fs.writeFileSync(itemsPath, JSON.stringify(mergedItems, null, 2));
 
-
-const achievementsPath = path.join(__dirname, "config", "acnh-achievements.json");
+const achievementsPath = path.join(
+  __dirname,
+  "config",
+  "acnh-achievements.json"
+);
 fs.writeFileSync(achievementsPath, JSON.stringify(achievements, null, 2));
 
-const constructionPath = path.join(__dirname, "config", "acnh-construction.json");
+const constructionPath = path.join(
+  __dirname,
+  "config",
+  "acnh-construction.json"
+);
 fs.writeFileSync(constructionPath, JSON.stringify(construction, null, 2));
 
 const creaturesPath = path.join(__dirname, "config", "acnh-creatures.json");
@@ -58,7 +67,11 @@ fs.writeFileSync(
   JSON.stringify(seasonsAndEvents, null, 2)
 );
 
-const translationsPath = path.join(__dirname, "config", "acnh-translations.json");
+const translationsPath = path.join(
+  __dirname,
+  "config",
+  "acnh-translations.json"
+);
 fs.writeFileSync(translationsPath, JSON.stringify(translations, null, 2));
 
 const villagersPath = path.join(__dirname, "config", "acnh-villagers.json");
@@ -66,7 +79,6 @@ fs.writeFileSync(villagersPath, JSON.stringify(villagers, null, 2));
 
 const npcsPath = path.join(__dirname, "config", "acnh-npcs.json");
 fs.writeFileSync(npcsPath, JSON.stringify(npcs, null, 2));
-
 
 console.log(`✅ 已生成物品数据: ${itemsPath}`);
 console.log(`📊 共 ${items.length} 个物品`);
@@ -77,7 +89,7 @@ console.log(`📊 共 ${construction.length} 个建筑项目`);
 console.log(`✅ 已生成生物数据: ${creaturesPath}`);
 console.log(`📊 共 ${creatures.length} 个生物`);
 console.log(`✅ 已生成反应数据: ${reactionsPath}`);
-console.log(`📊 共 ${reactions.length} 个反应`)
+console.log(`📊 共 ${reactions.length} 个反应`);
 console.log(`✅ 已生成季节和活动数据: ${seasonsAndEventsPath}`);
 console.log(`📊 共 ${seasonsAndEvents.length} 个季节和活动`);
 console.log(`✅ 已生成配方数据: ${recipesPath}`);
