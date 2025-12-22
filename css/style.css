@@ -186,6 +186,22 @@ h1 {
     gap: 6px;
 }
 
+/* 标签和系列信息 */
+.tag-series-info {
+    font-size: 11px;
+    color: #495057;
+    margin-top: 5px;
+    padding: 4px 8px;
+    background: #fff3cd;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
 /* 颜色块 */
 .color-block {
     display: inline-block;

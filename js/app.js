@@ -4,7 +4,7 @@
 
 import { CONFIG, loadTranslations } from './config.js';
 import { loadItemsData, loadCatalogData, processItemsData } from './dataLoader.js';
-import { filterItems, sortItems, populateCategoryFilter, populateVersionFilter, populateSourceFilter, populateSizeFilter, populateTagFilter, populateColorFilter } from './filters.js';
+import { filterItems, sortItems, populateCategoryFilter, populateVersionFilter, populateSourceFilter, populateSizeFilter, populateTagFilter, populateColorFilter, populateSeriesFilter } from './filters.js';
 import { renderItems, updateStats, updatePagination } from './itemRenderer.js';
 
 class ACNHCatalogApp {
@@ -42,6 +42,7 @@ class ACNHCatalogApp {
         populateSizeFilter(this.allItems);
         populateTagFilter(this.allItems);
         populateColorFilter(this.allItems);
+        populateSeriesFilter(this.allItems);
     }
     
     setupEventListeners() {
@@ -86,6 +87,11 @@ class ACNHCatalogApp {
         
         // 颜色筛选
         document.getElementById('colorFilter').addEventListener('change', () => {
+            this.handleFilterChange();
+        });
+        
+        // 系列筛选
+        document.getElementById('seriesFilter').addEventListener('change', () => {
             this.handleFilterChange();
         });
         
@@ -136,8 +142,9 @@ class ACNHCatalogApp {
         const sizeFilter = document.getElementById('sizeFilter').value;
         const tagFilter = document.getElementById('tagFilter').value;
         const colorFilter = document.getElementById('colorFilter').value;
+        const seriesFilter = document.getElementById('seriesFilter').value;
         
-        this.filteredItems = filterItems(this.allItems, searchTerm, category, ownedFilter, versionFilter, sourceFilter, sizeFilter, tagFilter, colorFilter);
+        this.filteredItems = filterItems(this.allItems, searchTerm, category, ownedFilter, versionFilter, sourceFilter, sizeFilter, tagFilter, colorFilter, seriesFilter);
         this.handleSortChange();
         this.currentPage = 1;
         this.updateDisplay();

@@ -2,12 +2,12 @@
  * 筛选和排序模块
  */
 
-import { CONFIG, getCategoryName, getSourceName, getColorName, getTagName, getCategoryOrder, getSourceOrder, getColorOrder } from './config.js';
+import { CONFIG, getCategoryName, getSourceName, getColorName, getTagName, getSeriesName, getCategoryOrder, getSourceOrder, getColorOrder } from './config.js';
 
 /**
  * 筛选物品
  */
-export function filterItems(allItems, searchTerm, category, ownedFilter, versionFilter, sourceFilter, sizeFilter, tagFilter, colorFilter) {
+export function filterItems(allItems, searchTerm, category, ownedFilter, versionFilter, sourceFilter, sizeFilter, tagFilter, colorFilter, seriesFilter) {
     return allItems.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
         const matchesCategory = !category || item.category === category;
@@ -18,6 +18,7 @@ export function filterItems(allItems, searchTerm, category, ownedFilter, version
         const matchesSource = !sourceFilter || (item.source && item.source.includes(sourceFilter));
         const matchesSize = !sizeFilter || item.size === sizeFilter;
         const matchesTag = !tagFilter || item.tag === tagFilter;
+        const matchesSeries = !seriesFilter || item.series === seriesFilter;
         let matchesColor = !colorFilter || (item.colors && item.colors.includes(colorFilter));
         for (var i = 0; i < (item.variantGroups ? item.variantGroups.length : 0); i++) {
             var variation = item.variantGroups[i];
@@ -36,7 +37,7 @@ export function filterItems(allItems, searchTerm, category, ownedFilter, version
         }
 
         
-        const matches = matchesSearch && matchesCategory && matchesOwned && matchesVersion && matchesSource && matchesSize && matchesTag && matchesColor;
+        const matches = matchesSearch && matchesCategory && matchesOwned && matchesVersion && matchesSource && matchesSize && matchesTag && matchesColor && matchesSeries;
         
         // 如果有颜色筛选且物品匹配，调整显示的变体
         if (matches && colorFilter && item.hasVariations && item.variantGroups) {
@@ -241,5 +242,31 @@ export function populateColorFilter(items) {
         option.value = color;
         option.textContent = getColorName(color);
         colorFilter.appendChild(option);
+    });
+}
+
+/**
+ * 填充系列筛选器
+ */
+export function populateSeriesFilter(items) {
+    const seriesFilter = document.getElementById('seriesFilter');
+    const seriesMap = new Map(); // 用于存储 series -> seriesName 的映射
+    
+    items.forEach(item => {
+        if (item.series && !seriesMap.has(item.series)) {
+            seriesMap.set(item.series, item.seriesName || item.series);
+        }
+    });
+    
+    // 按中文名称排序
+    const sortedSeries = [...seriesMap.entries()].sort((a, b) => {
+        return a[1].localeCompare(b[1], 'zh-CN');
+    });
+    
+    sortedSeries.forEach(([seriesValue, seriesName]) => {
+        const option = document.createElement('option');
+        option.value = seriesValue;
+        option.textContent = seriesName;
+        seriesFilter.appendChild(option);
     });
 }

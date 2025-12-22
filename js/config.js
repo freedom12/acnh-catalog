@@ -83,6 +83,14 @@ export function getTagName(tag) {
     return translationsCache.tags[tag] || tag;
 }
 
+// 获取系列的中文名称
+export function getSeriesName(series) {
+    if (!translationsCache || !translationsCache.series) {
+        return series;
+    }
+    return translationsCache.series[series] || series;
+}
+
 // 获取所有分类的排序顺序
 export function getCategoryOrder() {
     if (!translationsCache || !translationsCache.categories) {

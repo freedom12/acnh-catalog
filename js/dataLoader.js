@@ -119,6 +119,8 @@ export function processItemsData(acnhItems, ownedData) {
         source: item.source,
         size: item.size,
         tag: item.tag,
+        series: item.series,
+        seriesName: item.seriesTranslations?.cNzh || item.series,
         // 保留原始数据以备使用
         originalData: item,
       };

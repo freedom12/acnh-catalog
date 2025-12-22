@@ -2,7 +2,7 @@
  * 物品渲染模块
  */
 
-import { CONFIG, getSourceName } from './config.js';
+import { CONFIG, getSourceName, getTagName } from './config.js';
 
 // 颜色映射表
 const COLOR_MAP = {
@@ -147,7 +147,6 @@ export function createItemCard(item) {
     
     // 获取尺寸信息
     const size = item.originalData?.size || '';
-    const tag = item.originalData?.tag || '';
     
     // 生成颜色块HTML
     let colorBlocks = '';
@@ -155,7 +154,13 @@ export function createItemCard(item) {
         colorBlocks = generateColorBlock(displayColors);
     }
     
-    const sizeTagInfo = (size || tag || displayColors.length > 0) ? `<div class="size-tag-info">${size ? '📏 ' + size : ''}${size && tag ? ' · ' : ''}${tag ? '🏷️ ' + tag : ''}${(size || tag) && displayColors.length > 0 ? ' ' : ''}${colorBlocks}</div>` : '';
+    const sizeInfo = (size || displayColors.length > 0) ? `<div class="size-tag-info">${size ? '📏 ' + size : ''}${size && displayColors.length > 0 ? ' ' : ''}${colorBlocks}</div>` : '';
+    
+    // 获取标签和系列信息
+    const tag = item.originalData?.tag || '';
+    const tagName = tag ? getTagName(tag) : '';
+    const seriesName = item.seriesName || '';
+    const tagSeriesInfo = (tag || seriesName) ? `<div class="tag-series-info">${tagName ? '🏷️ ' + tagName : ''}${tagName && seriesName ? ' · ' : ''}${seriesName ? '📦 ' + seriesName : ''}</div>` : '';
     
     return `
         <div class="item-card ${item.owned ? 'item-owned' : ''}" id="${itemId}" data-item='${JSON.stringify(item).replace(/'/g, "&apos;")}'>
@@ -168,7 +173,8 @@ export function createItemCard(item) {
             <div class="item-name">${displayName}</div>
             <div class="item-id">ID: ${displayId || 'N/A'}</div>
             ${sourceBadge}
-            ${sizeTagInfo}
+            ${sizeInfo}
+            ${tagSeriesInfo}
             ${item.DiyRecipe ? '<div class="item-recipe">可DIY</div>' : ''}
             ${variationControls}
         </div>
@@ -287,6 +293,7 @@ function updateItemDisplay(card, itemData) {
     if (sizeTagEl && pattern.colors) {
         const size = itemData.originalData?.size || '';
         const tag = itemData.originalData?.tag || '';
+        const tagName = tag ? getTagName(tag) : '';
         const colors = pattern.colors || [];
         
         // 生成颜色块HTML
@@ -295,7 +302,7 @@ function updateItemDisplay(card, itemData) {
             colorBlocks = generateColorBlock(colors);
         }
         
-        const sizeTagInfo = (size || tag || colors.length > 0) ? `${size ? '📏 ' + size : ''}${size && tag ? ' · ' : ''}${tag ? '🏷️ ' + tag : ''}${(size || tag) && colors.length > 0 ? ' ' : ''}${colorBlocks}` : '';
+        const sizeTagInfo = (size || tagName || colors.length > 0) ? `${size ? '📏 ' + size : ''}${size && tagName ? ' · ' : ''}${tagName ? '🏷️ ' + tagName : ''}${(size || tagName) && colors.length > 0 ? ' ' : ''}${colorBlocks}` : '';
         sizeTagEl.innerHTML = sizeTagInfo;
     }
 }
