@@ -75,6 +75,14 @@ export function getColorName(color) {
     return translationsCache.colors[color] || color;
 }
 
+// 获取标签的中文名称
+export function getTagName(tag) {
+    if (!translationsCache || !translationsCache.tags) {
+        return tag;
+    }
+    return translationsCache.tags[tag] || tag;
+}
+
 // 获取所有分类的排序顺序
 export function getCategoryOrder() {
     if (!translationsCache || !translationsCache.categories) {

@@ -2,7 +2,7 @@
  * 筛选和排序模块
  */
 
-import { CONFIG, getCategoryName, getSourceName, getColorName, getCategoryOrder, getSourceOrder, getColorOrder } from './config.js';
+import { CONFIG, getCategoryName, getSourceName, getColorName, getTagName, getCategoryOrder, getSourceOrder, getColorOrder } from './config.js';
 
 /**
  * 筛选物品
@@ -203,12 +203,12 @@ export function populateTagFilter(items) {
     const tags = [...new Set(items
         .map(item => item.tag)
         .filter(t => t))]
-        .sort((a, b) => a.localeCompare(b, 'en'));
+        .sort((a, b) => getTagName(a).localeCompare(getTagName(b), 'zh-CN'));
     
     tags.forEach(tag => {
         const option = document.createElement('option');
         option.value = tag;
-        option.textContent = tag;
+        option.textContent = getTagName(tag);
         tagFilter.appendChild(option);
     });
 }
