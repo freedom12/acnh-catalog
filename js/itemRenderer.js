@@ -64,8 +64,13 @@ export function createItemCard(item) {
         if (variant.patterns[0].patternName) displayName += ` - ${variant.patterns[0].patternName}`;
     }
     
+    // 获取版本信息
+    const versionAdded = item.originalData?.versionAdded || '';
+    const versionBadge = versionAdded ? `<div class="version-badge">${versionAdded}</div>` : '';
+    
     return `
         <div class="item-card ${item.owned ? 'item-owned' : ''}" id="${itemId}" data-item='${JSON.stringify(item).replace(/'/g, "&apos;")}'>
+            ${versionBadge}
             <img src="${imagePath}" 
                  alt="${item.name}" 
                  class="item-image"
@@ -179,9 +184,6 @@ export function updateStats(allItems, filteredItems) {
     
     const ownedCount = allItems.filter(item => item.owned).length;
     document.getElementById('ownedItems').textContent = ownedCount.toLocaleString();
-    
-    const totalValue = filteredItems.reduce((sum, item) => sum + (item.price || 0), 0);
-    document.getElementById('totalValue').textContent = totalValue.toLocaleString();
 }
 
 /**

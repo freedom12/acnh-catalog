@@ -7,14 +7,15 @@ import { CONFIG } from './config.js';
 /**
  * 筛选物品
  */
-export function filterItems(allItems, searchTerm, category, ownedFilter) {
+export function filterItems(allItems, searchTerm, category, ownedFilter, versionFilter) {
     return allItems.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
         const matchesCategory = !category || item.category === category;
         const matchesOwned = ownedFilter === CONFIG.FILTER_OPTIONS.ALL || 
                             (ownedFilter === CONFIG.FILTER_OPTIONS.OWNED && item.owned) ||
                             (ownedFilter === CONFIG.FILTER_OPTIONS.NOT_OWNED && !item.owned);
-        return matchesSearch && matchesCategory && matchesOwned;
+        const matchesVersion = !versionFilter || item.originalData?.versionAdded === versionFilter;
+        return matchesSearch && matchesCategory && matchesOwned && matchesVersion;
     });
 }
 
@@ -58,5 +59,33 @@ export function populateCategoryFilter(items) {
         option.value = category;
         option.textContent = category;
         categoryFilter.appendChild(option);
+    });
+}
+
+/**
+ * 填充版本筛选器
+ */
+export function populateVersionFilter(items) {
+    const versionFilter = document.getElementById('versionFilter');
+    const versions = [...new Set(items
+        .map(item => item.originalData?.versionAdded)
+        .filter(v => v))]
+        .sort((a, b) => {
+            // 按版本号排序
+            const aParts = a.split('.').map(Number);
+            const bParts = b.split('.').map(Number);
+            for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+                const aVal = aParts[i] || 0;
+                const bVal = bParts[i] || 0;
+                if (aVal !== bVal) return aVal - bVal;
+            }
+            return 0;
+        });
+    
+    versions.forEach(version => {
+        const option = document.createElement('option');
+        option.value = version;
+        option.textContent = `v${version}`;
+        versionFilter.appendChild(option);
     });
 }

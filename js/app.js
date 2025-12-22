@@ -4,7 +4,7 @@
 
 import { CONFIG } from './config.js';
 import { loadItemsData, loadCatalogData, processItemsData } from './dataLoader.js';
-import { filterItems, sortItems, populateCategoryFilter } from './filters.js';
+import { filterItems, sortItems, populateCategoryFilter, populateVersionFilter } from './filters.js';
 import { renderItems, updateStats, updatePagination } from './itemRenderer.js';
 
 class ACNHCatalogApp {
@@ -36,6 +36,7 @@ class ACNHCatalogApp {
         this.filteredItems = [...this.allItems];
         
         populateCategoryFilter(this.allItems);
+        populateVersionFilter(this.allItems);
     }
     
     setupEventListeners() {
@@ -54,7 +55,15 @@ class ACNHCatalogApp {
             this.handleFilterChange();
         });
         
-        // 排序
+        // 版本筛选
+        document.getElementById('versionFilter').addEventListener('change', () => {
+            this.handleFilterChange();
+        });
+                // 版本筛选
+        document.getElementById('versionFilter').addEventListener('change', () => {
+            this.handleFilterChange();
+        });
+                // 排序
         document.getElementById('sortSelect').addEventListener('change', () => {
             this.handleSortChange();
         });
@@ -96,8 +105,9 @@ class ACNHCatalogApp {
         const searchTerm = document.getElementById('searchInput').value;
         const category = document.getElementById('categoryFilter').value;
         const ownedFilter = document.getElementById('ownedFilter').value;
+        const versionFilter = document.getElementById('versionFilter').value;
         
-        this.filteredItems = filterItems(this.allItems, searchTerm, category, ownedFilter);
+        this.filteredItems = filterItems(this.allItems, searchTerm, category, ownedFilter, versionFilter);
         this.handleSortChange();
         this.currentPage = 1;
         this.updateDisplay();
