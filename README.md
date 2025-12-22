@@ -39,10 +39,19 @@ npm start
 ```
 acnh-catalog/
 ├── index.html              # 主页面
+├── css/
+│   └── style.css          # 样式文件
+├── js/
+│   ├── app.js             # 主应用逻辑
+│   ├── config.js          # 配置文件
+│   ├── dataLoader.js      # 数据加载模块
+│   ├── filters.js         # 筛选和排序模块
+│   └── itemRenderer.js    # 物品渲染模块
 ├── items_CNzh.json        # 物品数据（中文）
 ├── catalog_items.json     # 已拥有的物品数据
 ├── images/                # 物品图片文件夹
 ├── package.json           # npm 项目配置
+├── .gitignore            # Git 忽略文件
 └── README.md             # 项目说明文档
 ```
 
@@ -70,8 +79,18 @@ acnh-catalog/
 
 - HTML5
 - CSS3（使用 Flexbox 和 Grid 布局）
-- 原生 JavaScript（ES6+）
+- 原生 JavaScript（ES6+ Modules）
 - Fetch API
+
+## 项目架构
+
+项目采用模块化设计，代码分离为以下几个部分：
+
+- **config.js**: 应用配置（数据路径、分页设置、排序选项等）
+- **dataLoader.js**: 负责加载和处理 JSON 数据
+- **filters.js**: 物品筛选和排序逻辑
+- **itemRenderer.js**: 物品卡片渲染和 UI 更新
+- **app.js**: 主应用类，协调各模块工作
 
 ## 浏览器支持
 
