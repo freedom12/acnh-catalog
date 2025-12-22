@@ -8,15 +8,15 @@ import { CONFIG } from './config.js';
  * 创建物品卡片HTML
  */
 export function createItemCard(item) {
-    const imageId = item.id[0] || item.internal_name || 'unknown';
-    const imagePath = `${CONFIG.IMAGES.BASE_PATH}${imageId}${CONFIG.IMAGES.EXTENSION}`;
+    // 优先使用 animal-crossing 提供的图片 URL
+    const imagePath = item.imageUrl;
     
     return `
         <div class="item-card ${item.owned ? 'item-owned' : ''}">
             <img src="${imagePath}" 
                  alt="${item.name}" 
                  class="item-image"
-                 onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="item-image missing" style="display:none;">无图片</div>
             <div class="item-name">${item.name}</div>
             <div class="item-price">${(item.price || 0).toLocaleString()}</div>

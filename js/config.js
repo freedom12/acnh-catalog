@@ -5,14 +5,8 @@
 export const CONFIG = {
     // 数据文件路径
     DATA_FILES: {
-        ITEMS: 'items_CNzh.json',
+        ITEMS: 'config/acnh-items.json',
         CATALOG: 'catalog_items.json'
-    },
-    
-    // 图片路径配置
-    IMAGES: {
-        BASE_PATH: 'images/',
-        EXTENSION: '.png'
     },
     
     // 分页配置

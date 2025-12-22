@@ -11,7 +11,7 @@
 - ✅ 标记已拥有的物品
 - 📄 分页显示（可选择每页显示数量）
 - 📊 统计信息（总物品数、已拥有数量、总价值）
-- 🖼️ 自动加载物品图片
+- 🖼️ 从 CDN 加载物品图片（基于 animal-crossing 数据库）
 
 ## 快速开始
 
@@ -49,7 +49,6 @@ acnh-catalog/
 │   └── itemRenderer.js    # 物品渲染模块
 ├── items_CNzh.json        # 物品数据（中文）
 ├── catalog_items.json     # 已拥有的物品数据
-├── images/                # 物品图片文件夹
 ├── package.json           # npm 项目配置
 ├── .gitignore            # Git 忽略文件
 └── README.md             # 项目说明文档
@@ -103,10 +102,14 @@ acnh-catalog/
 
 本项目使用纯前端技术，无需后端服务器。所有数据都存储在 JSON 文件中。
 
+### 图片来源
+
+物品图片从 [acnhcdn.com](https://acnhcdn.com) CDN 加载。本项目依赖 [animal-crossing](https://github.com/Norviah/animal-crossing) npm 包提供的数据结构，图片通过物品的 `internal_name` 字段从 CDN 获取。
+
 ### 如何添加新物品
 
-1. 编辑 `items_CNzh.json` 添加物品信息
-2. 将物品图片放入 `images/` 目录，文件名为物品ID.png
+1. 编辑 `items_CNzh.json` 添加物品信息（确保包含正确的 `internal_name` 字段）
+2. 图片会自动从 CDN 加载，无需本地存储
 
 ### 如何标记已拥有的物品
 

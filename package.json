@@ -6,7 +6,8 @@
   "scripts": {
     "start": "http-server -p 8000 -o",
     "dev": "http-server -p 8000",
-    "serve": "python -m http.server 8000"
+    "serve": "python -m http.server 8000",
+    "generate-images": "node generate-image-map.js"
   },
   "keywords": [
     "animal-crossing",
@@ -17,6 +18,9 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "animal-crossing": "^8.2.0"
+  },
   "devDependencies": {
     "http-server": "^14.1.1"
   },

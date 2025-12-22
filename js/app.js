@@ -3,7 +3,7 @@
  */
 
 import { CONFIG } from './config.js';
-import { loadItemsData, loadCatalogData, mergeItemsData } from './dataLoader.js';
+import { loadItemsData, loadCatalogData, processItemsData } from './dataLoader.js';
 import { filterItems, sortItems, populateCategoryFilter } from './filters.js';
 import { renderItems, updateStats, updatePagination } from './itemRenderer.js';
 
@@ -29,10 +29,10 @@ class ACNHCatalogApp {
     }
     
     async loadData() {
-        const itemsData = await loadItemsData();
+        const acnhItems = await loadItemsData();
         const ownedItemsSet = await loadCatalogData();
         
-        this.allItems = mergeItemsData(itemsData, ownedItemsSet);
+        this.allItems = processItemsData(acnhItems, ownedItemsSet);
         this.filteredItems = [...this.allItems];
         
         populateCategoryFilter(this.allItems);
