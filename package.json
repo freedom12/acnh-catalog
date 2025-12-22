@@ -1,0 +1,27 @@
+{
+  "name": "acnh-catalog",
+  "version": "1.0.0",
+  "description": "动物森友会物品目录浏览器",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "http-server -p 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "animal-crossing",
+    "acnh",
+    "catalog",
+    "items",
+    "动物森友会"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
