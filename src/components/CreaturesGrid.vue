@@ -2,6 +2,7 @@
 import type { Creature } from '../types/creature';
 import { ENTITY_ICONS, UI_TEXT } from '../constants';
 import { getChineseText, formatNumber } from '../utils/common';
+import VersionBadge from './VersionBadge.vue';
 
 interface Props {
   creatures: Creature[];
@@ -33,6 +34,7 @@ const formatPrice = (price: number): string => {
 <template>
   <div class="creatures-grid">
     <div v-for="creature in creatures" :key="creature.uniqueEntryId" class="creature-card">
+      <VersionBadge :version="creature.versionAdded" />
       <div class="creature-image-wrapper">
         <img :src="creature.iconImage" :alt="creature.name" class="creature-image" />
       </div>
@@ -75,6 +77,7 @@ const formatPrice = (price: number): string => {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   cursor: pointer;
+  position: relative;
 }
 
 .creature-card:hover {

@@ -2,6 +2,7 @@
 import type { Reaction } from '../types/reaction';
 import { UI_TEXT } from '../constants';
 import { getChineseText, joinArray } from '../utils/common';
+import VersionBadge from './VersionBadge.vue';
 
 interface Props {
   reactions: Reaction[];
@@ -23,6 +24,7 @@ const getSourceText = (sources: string[]): string => {
 <template>
   <div class="reactions-grid">
     <div v-for="reaction in reactions" :key="reaction.uniqueEntryId" class="reaction-card">
+      <VersionBadge :version="reaction.versionAdded" />
       <div class="reaction-image-wrapper">
         <img :src="reaction.image" :alt="reaction.name" class="reaction-image" />
       </div>
@@ -32,10 +34,6 @@ const getSourceText = (sources: string[]): string => {
           <div class="detail-item source">
             <span class="label">{{ UI_TEXT.LABELS.SOURCE }}</span>
             <span class="value">{{ getSourceText(reaction.source) }}</span>
-          </div>
-          <div class="detail-item version" v-if="reaction.versionAdded">
-            <span class="label">{{ UI_TEXT.LABELS.VERSION }}</span>
-            <span class="value">{{ reaction.versionAdded }}</span>
           </div>
           <div class="detail-item event" v-if="reaction.seasonEvent">
             <span class="label">{{ UI_TEXT.LABELS.EVENT }}</span>
@@ -66,6 +64,7 @@ const getSourceText = (sources: string[]): string => {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .reaction-card:hover {
@@ -122,10 +121,6 @@ const getSourceText = (sources: string[]): string => {
 
 .detail-item.source {
   background-color: #f3e5f5;
-}
-
-.detail-item.version {
-  background-color: #fff9c4;
 }
 
 .detail-item.event {

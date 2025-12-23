@@ -2,6 +2,7 @@
 import type { NPC } from '../types/npc';
 import { ENTITY_ICONS, UI_TEXT } from '../constants';
 import { getChineseText } from '../utils/common';
+import VersionBadge from './VersionBadge.vue';
 
 interface Props {
   npcs: NPC[];
@@ -23,6 +24,7 @@ const getGenderIcon = (gender: string): string => {
 <template>
   <div class="npcs-grid">
     <div v-for="npc in npcs" :key="npc.uniqueEntryId" class="npc-card">
+      <VersionBadge :version="npc.versionAdded" />
       <div class="npc-image-wrapper">
         <img :src="npc.iconImage" :alt="npc.name" class="npc-image" />
       </div>
@@ -61,6 +63,7 @@ const getGenderIcon = (gender: string): string => {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .npc-card:hover {

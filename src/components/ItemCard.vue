@@ -5,6 +5,7 @@ import type { Item } from '../types';
 import { getSourceName, getTagName } from '../services/dataService';
 import { ItemModel } from '../models';
 import { useColorDisplay } from '../composables/useColorDisplay';
+import VersionBadge from './VersionBadge.vue';
 
 const props = defineProps<{
   item: Item;
@@ -99,9 +100,7 @@ const handleCardClick = (event: MouseEvent) => {
 
 <template>
   <div class="item-card" :class="{ 'item-owned': item.owned }" @click="handleCardClick">
-    <div v-if="version !== '未知版本'" class="version-badge">
-      {{ version }}
-    </div>
+    <VersionBadge :version="version !== '未知版本' ? version : undefined" />
     
     <div class="image-container">
       <img 
@@ -198,18 +197,6 @@ const handleCardClick = (event: MouseEvent) => {
 .item-owned {
   background: #e8f5e9;
   border: 2px solid #4caf50;
-}
-
-.version-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #ff9800;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 11px;
-  font-weight: 600;
 }
 
 .image-container {

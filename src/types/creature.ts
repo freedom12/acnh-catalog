@@ -27,6 +27,7 @@ export interface Creature {
   internalId: number;
   uniqueEntryId: string;
   translations?: Translation;
+  versionAdded?: string;
   // 时间相关（会在某些生物中出现）
   nMonths?: string[];
   sMonths?: string[];

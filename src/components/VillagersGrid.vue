@@ -2,6 +2,7 @@
 import type { Villager } from '../types/villager';
 import { ENTITY_ICONS, PERSONALITY_MAP, UI_TEXT } from '../constants';
 import { getChineseText } from '../utils/common';
+import VersionBadge from './VersionBadge.vue';
 
 interface Props {
   villagers: Villager[];
@@ -28,6 +29,7 @@ const getPersonalityChinese = (personality: string): string => {
 <template>
   <div class="villagers-grid">
     <div v-for="villager in villagers" :key="villager.name" class="villager-card">
+      <VersionBadge :version="villager.versionAdded" />
       <div class="villager-image-wrapper">
         <img :src="villager.iconImage" :alt="villager.name" class="villager-image" />
       </div>
@@ -71,6 +73,7 @@ const getPersonalityChinese = (personality: string): string => {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .villager-card:hover {
