@@ -8,7 +8,8 @@
  * @param num 数字
  * @returns 格式化后的字符串，如 "1,234"
  */
-export function formatNumber(num: number): string {
+export function formatNumber(num: number | null | undefined): string {
+  if (num == null) return '--';
   return num.toLocaleString();
 }
 

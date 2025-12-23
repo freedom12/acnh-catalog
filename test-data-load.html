@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Data Load Test</title>
+</head>
+<body>
+  <h1>Data Loading Test</h1>
+  <div id="output"></div>
+  
+  <script>
+    const output = document.getElementById('output');
+    
+    async function testDataLoad() {
+      const files = [
+        '/config/acnh-items.json',
+        '/config/acnh-villagers.json',
+        '/config/acnh-npcs.json',
+        '/config/acnh-creatures.json',
+        '/config/acnh-reactions.json',
+        '/config/acnh-recipes.json',
+        '/config/acnh-construction.json'
+      ];
+      
+      output.innerHTML = '<h2>Testing data files...</h2>';
+      
+      for (const file of files) {
+        try {
+          const response = await fetch(file);
+          if (!response.ok) {
+            output.innerHTML += `<p style="color: red;">鉁?${file}: Failed (${response.status})</p>`;
+          } else {
+            const data = await response.json();
+            const count = Array.isArray(data) ? data.length : 'object';
+            output.innerHTML += `<p style="color: green;">鉁?${file}: Success (${count} items)</p>`;
+          }
+        } catch (error) {
+          output.innerHTML += `<p style="color: red;">鉁?${file}: Error - ${error.message}</p>`;
+        }
+      }
+    }
+    
+    testDataLoad();
+  </script>
+</body>
+</html>

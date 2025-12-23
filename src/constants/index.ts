@@ -12,6 +12,8 @@ export const DATA_LOADING = {
   NPCS: '正在加载NPC数据...',
   CREATURES: '正在加载生物数据...',
   REACTIONS: '正在加载表情反应数据...',
+  RECIPES: '正在加载DIY配方数据...',
+  CONSTRUCTION: '正在加载改建数据...',
   ERROR_GENERIC: '加载数据失败，请确保数据文件存在'
 } as const;
 
@@ -24,6 +26,8 @@ export const ENTITY_ICONS = {
   NPCS: '✨',
   CREATURES: '🦋',
   REACTIONS: '😊',
+  RECIPES: '📜',
+  CONSTRUCTION: '🏗️',
   // 生物类型
   INSECTS: '🦋',
   FISH: '🐟',

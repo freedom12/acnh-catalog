@@ -1,4 +1,6 @@
 import type { RawItem, CatalogItem, Translations, Item, Villager, NPC, Creature, Reaction } from '../types';
+import type { Recipe } from '../types/recipe';
+import type { Construction } from '../types/construction';
 import { CONFIG } from '../config';
 import * as itemHelpers from '../utils/itemHelpers';
 
@@ -231,6 +233,40 @@ export async function loadReactionsData(): Promise<Reaction[]> {
     return await response.json();
   } catch (error) {
     console.error('加载表情反应数据失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 加载DIY配方数据
+ * @returns DIY配方数据数组
+ */
+export async function loadRecipesData(): Promise<Recipe[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.RECIPES);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载DIY配方数据失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 加载改建数据
+ * @returns 改建数据数组
+ */
+export async function loadConstructionData(): Promise<Construction[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.CONSTRUCTION);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载改建数据失败:', error);
     throw error;
   }
 }

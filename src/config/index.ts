@@ -13,7 +13,9 @@ export const CONFIG = {
     VILLAGERS: '/config/acnh-villagers.json',
     NPCS: '/config/acnh-npcs.json',
     CREATURES: '/config/acnh-creatures.json',
-    REACTIONS: '/config/acnh-reactions.json'
+    REACTIONS: '/config/acnh-reactions.json',
+    RECIPES: '/config/acnh-recipes.json',
+    CONSTRUCTION: '/config/acnh-construction.json'
   },
   
   /**

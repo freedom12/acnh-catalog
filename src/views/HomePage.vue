@@ -7,6 +7,8 @@ import VillagersTab from './VillagersTab.vue';
 import NPCsTab from './NPCsTab.vue';
 import CreaturesTab from './CreaturesTab.vue';
 import ReactionsTab from './ReactionsTab.vue';
+import RecipesTab from './RecipesTab.vue';
+import ConstructionTab from './ConstructionTab.vue';
 
 // 当前选中的标签
 const activeTab = ref<TabType>('items');
@@ -27,6 +29,8 @@ const activeTab = ref<TabType>('items');
     <NPCsTab v-else-if="activeTab === 'npcs'" />
     <CreaturesTab v-else-if="activeTab === 'creatures'" />
     <ReactionsTab v-else-if="activeTab === 'reactions'" />
+    <RecipesTab v-else-if="activeTab === 'recipes'" />
+    <ConstructionTab v-else-if="activeTab === 'construction'" />
   </div>
 </template>
 
