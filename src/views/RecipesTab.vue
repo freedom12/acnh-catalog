@@ -9,7 +9,7 @@ import RecipesGrid from '../components/RecipesGrid.vue';
 const { allRecipes, loading, error, loadData } = useRecipesData();
 
 // 加载物品数据以便查找材料
-const { allItems, loadData: loadItemsData } = useItemsData();
+const { loadData: loadItemsData } = useItemsData();
 
 // 组件挂载时加载数据
 onMounted(() => {
@@ -27,7 +27,7 @@ onMounted(() => {
       <div class="stats">
         <p class="stat-item">{{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ allRecipes.length }} 个配方</p>
       </div>
-      <RecipesGrid :recipes="allRecipes" :all-items="allItems" />
+      <RecipesGrid :recipes="allRecipes" />
     </template>
   </div>
 </template>
