@@ -1,5 +1,5 @@
 <script setup lang="ts">
-export type TabType = 'items' | 'villagers' | 'npcs';
+export type TabType = 'items' | 'villagers' | 'npcs' | 'creatures' | 'reactions';
 
 interface Tab {
   id: TabType;
@@ -20,7 +20,9 @@ const emit = defineEmits<{
 const tabs: Tab[] = [
   { id: 'items', label: '物品', icon: '🪑' },
   { id: 'villagers', label: '村民', icon: '🐾' },
-  { id: 'npcs', label: 'NPC', icon: '✨' }
+  { id: 'npcs', label: 'NPC', icon: '✨' },
+  { id: 'creatures', label: '生物', icon: '🦋' },
+  { id: 'reactions', label: '表情', icon: '😊' }
 ];
 
 const selectTab = (tabId: TabType) => {

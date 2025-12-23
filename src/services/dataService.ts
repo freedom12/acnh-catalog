@@ -1,4 +1,4 @@
-import type { RawItem, CatalogItem, Translations, Item, Villager, NPC } from '../types';
+import type { RawItem, CatalogItem, Translations, Item, Villager, NPC, Creature, Reaction } from '../types';
 import { CONFIG } from '../config';
 import * as itemHelpers from '../utils/itemHelpers';
 
@@ -197,6 +197,40 @@ export async function loadNPCsData(): Promise<NPC[]> {
     return await response.json();
   } catch (error) {
     console.error('加载NPC数据失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 加载生物数据（昆虫、鱼类等）
+ * @returns 生物数据数组
+ */
+export async function loadCreaturesData(): Promise<Creature[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.CREATURES);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载生物数据失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 加载表情反应数据
+ * @returns 表情反应数据数组
+ */
+export async function loadReactionsData(): Promise<Reaction[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.REACTIONS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载表情反应数据失败:', error);
     throw error;
   }
 }

@@ -11,7 +11,9 @@ export const CONFIG = {
     CATALOG: '/catalog_items.json',
     TRANSLATIONS: '/config/translations.json',
     VILLAGERS: '/config/acnh-villagers.json',
-    NPCS: '/config/acnh-npcs.json'
+    NPCS: '/config/acnh-npcs.json',
+    CREATURES: '/config/acnh-creatures.json',
+    REACTIONS: '/config/acnh-reactions.json'
   },
   
   /**

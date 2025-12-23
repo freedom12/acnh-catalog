@@ -10,3 +10,5 @@ export { useItemsFilter } from './useItemsFilter';
 export { useDebounce } from './useDebounce';
 export { useVillagersData } from './useVillagersData';
 export { useNPCsData } from './useNPCsData';
+export { useCreaturesData } from './useCreaturesData';
+export { useReactionsData } from './useReactionsData';

@@ -3,9 +3,11 @@
  * 包含应用中使用的所有 TypeScript 接口和类型定义
  */
 
-// 导出村民和NPC类型
+// 导出村民、NPC、生物和表情类型
 export * from './villager';
 export * from './npc';
+export * from './creature';
+export * from './reaction';
 
 /**
  * 翻译接口
