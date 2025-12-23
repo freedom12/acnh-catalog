@@ -10,11 +10,6 @@ interface Props {
 
 defineProps<Props>();
 
-// 获取中文名称
-const getChineseName = (villager: Villager): string => {
-  return getChineseText(villager);
-};
-
 // 获取性别emoji
 const getGenderIcon = (gender: string): string => {
   return gender === 'Male' ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
@@ -34,7 +29,7 @@ const getPersonalityChinese = (personality: string): string => {
         <img :src="villager.iconImage" :alt="villager.name" class="villager-image" />
       </div>
       <div class="villager-info">
-        <h3 class="villager-name">{{ getChineseName(villager) }}</h3>
+        <h3 class="villager-name">{{ getChineseText(villager) }}</h3>
         <div class="villager-details">
           <span class="detail-item">
             {{ getGenderIcon(villager.gender) }} {{ villager.species }}

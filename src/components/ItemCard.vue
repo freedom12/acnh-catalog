@@ -3,6 +3,7 @@ import { computed, ref, onMounted, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import type { Item } from '../types';
 import { getSourceName, getTagName } from '../services/dataService';
+import { formatPrice } from '../utils/common';
 import { ItemModel } from '../models';
 import { useColorDisplay } from '../composables/useColorDisplay';
 import VersionBadge from './VersionBadge.vue';
@@ -50,12 +51,6 @@ const tag = computed(() => itemModel.getTag());
 // 价格信息
 const buyPrice = computed(() => itemModel.getBuyPrice());
 const sellPrice = computed(() => itemModel.getSellPrice());
-
-// 格式化价格显示
-const formatPrice = (price: number | undefined): string => {
-  if (price === undefined || price === null) return '';
-  return price.toLocaleString('zh-CN');
-};
 
 // 应用颜色筛选
 const applyColorFilter = () => {

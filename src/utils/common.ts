@@ -3,14 +3,16 @@
  * 提供跨模块使用的工具方法
  */
 
+import type { Translation } from "../types";
+
 /**
  * 格式化数字为带千位分隔符的字符串
  * @param num 数字
  * @returns 格式化后的字符串，如 "1,234"
  */
-export function formatNumber(num: number | null | undefined): string {
-  if (num == null) return '--';
-  return num.toLocaleString();
+export function formatPrice(price: number | null | undefined): string {
+  if (price == null || price === -1) return '--';
+  return price.toLocaleString();
 }
 
 /**
@@ -19,11 +21,10 @@ export function formatNumber(num: number | null | undefined): string {
  * @param fallback 回退值
  * @returns 中文文本或回退值
  */
-export function getChineseText<T extends { translations?: { cNzh?: string }; name: string }>(
-  obj: T,
-  fallback?: string
+export function getChineseText<T extends { translations?: Translation; name: string }>(
+  obj: T
 ): string {
-  return obj.translations?.cNzh || fallback || obj.name;
+  return obj.translations?.cNzh || obj.name;
 }
 
 /**
@@ -42,7 +43,7 @@ export function first<T>(arr: T[] | undefined): T | undefined {
  * @param fallback 数组为空时的回退值
  * @returns 连接后的字符串
  */
-export function joinArray(arr: string[] | undefined, separator = ', ', fallback = '未知'): string {
+export function joinArray(arr: string[] | undefined, separator = ', ', fallback = '--'): string {
   if (!arr || arr.length === 0) return fallback;
   return arr.join(separator);
 }

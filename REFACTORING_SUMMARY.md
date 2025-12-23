@@ -29,7 +29,7 @@ const icon = gender === 'Male' ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
 
 ### 2. **创建通用工具函数库** (`utils/common.ts`)
 新增9个通用工具函数：
-- `formatNumber()` - 数字格式化
+- `formatPrice()` - 数字格式化
 - `getChineseText()` - 获取中文翻译
 - `joinArray()` - 数组连接
 - `isEmpty()` - 空值判断
@@ -46,9 +46,9 @@ const name = villager.translations?.cNzh || villager.name;
 const price = price.toLocaleString();
 
 // 新代码
-import { getChineseText, formatNumber } from '../utils/common';
+import { getChineseText, formatPrice } from '../utils/common';
 const name = getChineseText(villager);
-const price = formatNumber(price);
+const price = formatPrice(price);
 ```
 
 ### 3. **优化类型定义结构**
@@ -89,7 +89,7 @@ export interface Villager {
 |------|---------|
 | VillagersGrid | 使用ENTITY_ICONS, PERSONALITY_MAP, getChineseText |
 | NPCsGrid | 使用ENTITY_ICONS, UI_TEXT, getChineseText |
-| CreaturesGrid | 使用ENTITY_ICONS, UI_TEXT, formatNumber |
+| CreaturesGrid | 使用ENTITY_ICONS, UI_TEXT, formatPrice |
 | ReactionsGrid | 使用UI_TEXT, getChineseText, joinArray |
 
 ### 6. **优化所有Tab组件**

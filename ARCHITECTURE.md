@@ -118,7 +118,7 @@ src/
 - 类型/接口: PascalCase (如 `Item`, `Villager`)
 
 ### 函数命名
-- 普通函数: camelCase (如 `formatNumber`)
+- 普通函数: camelCase (如 `formatPrice`)
 - Composables: use前缀 + camelCase (如 `useItemsData`)
 - 事件处理: handle前缀 + camelCase (如 `handleClick`)
 

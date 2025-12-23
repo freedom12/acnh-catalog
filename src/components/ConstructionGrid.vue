@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Construction } from '../types/construction';
-import { getChineseText, formatNumber, joinArray } from '../utils/common';
+import { getChineseText, formatPrice, joinArray } from '../utils/common';
 import VersionBadge from './VersionBadge.vue';
 
 interface Props {
@@ -8,22 +8,6 @@ interface Props {
 }
 
 defineProps<Props>();
-
-// 获取中文名称
-const getChineseName = (item: Construction): string => {
-  return getChineseText(item);
-};
-
-// 格式化价格
-const formatPrice = (price: number | null | undefined): string => {
-  if (price == null || price === -1) return '--';
-  return formatNumber(price);
-};
-
-// 获取来源
-const getSource = (item: Construction): string => {
-  return joinArray(item.source) || '--';
-};
 </script>
 
 <template>
@@ -35,7 +19,7 @@ const getSource = (item: Construction): string => {
         <img :src="item.image" :alt="item.name" class="construction-image" />
       </div>
       <div class="construction-info">
-        <h3 class="construction-name">{{ getChineseName(item) }}</h3>
+        <h3 class="construction-name">{{ getChineseText(item) }}</h3>
         <div class="construction-details">
           <div class="detail-row">
             <span class="detail-label">分类</span>
@@ -47,7 +31,7 @@ const getSource = (item: Construction): string => {
           </div>
           <div class="detail-row">
             <span class="detail-label">来源</span>
-            <span class="detail-value">{{ getSource(item) }}</span>
+            <span class="detail-value">{{ joinArray(item.source) }}</span>
           </div>
         </div>
       </div>

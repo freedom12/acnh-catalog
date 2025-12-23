@@ -10,11 +10,6 @@ interface Props {
 
 defineProps<Props>();
 
-// 获取中文名称
-const getChineseName = (npc: NPC): string => {
-  return getChineseText(npc);
-};
-
 // 获取性别emoji
 const getGenderIcon = (gender: string): string => {
   return gender === 'Male' ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
@@ -29,7 +24,7 @@ const getGenderIcon = (gender: string): string => {
         <img :src="npc.iconImage" :alt="npc.name" class="npc-image" />
       </div>
       <div class="npc-info">
-        <h3 class="npc-name">{{ getChineseName(npc) }}</h3>
+        <h3 class="npc-name">{{ getChineseText(npc) }}</h3>
         <div class="npc-details">
           <span class="detail-item">
             {{ getGenderIcon(npc.gender) }}

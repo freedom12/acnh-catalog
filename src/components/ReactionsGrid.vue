@@ -10,15 +10,6 @@ interface Props {
 
 defineProps<Props>();
 
-// 获取中文名称
-const getChineseName = (reaction: Reaction): string => {
-  return getChineseText(reaction);
-};
-
-// 获取来源文本
-const getSourceText = (sources: string[]): string => {
-  return joinArray(sources);
-};
 </script>
 
 <template>
@@ -29,11 +20,11 @@ const getSourceText = (sources: string[]): string => {
         <img :src="reaction.image" :alt="reaction.name" class="reaction-image" />
       </div>
       <div class="reaction-info">
-        <h3 class="reaction-name">{{ getChineseName(reaction) }}</h3>
+        <h3 class="reaction-name">{{ getChineseText(reaction) }}</h3>
         <div class="reaction-details">
           <div class="detail-item source">
             <span class="label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-            <span class="value">{{ getSourceText(reaction.source) }}</span>
+            <span class="value">{{ joinArray(reaction.source) }}</span>
           </div>
           <div class="detail-item event" v-if="reaction.seasonEvent">
             <span class="label">{{ UI_TEXT.LABELS.EVENT }}</span>

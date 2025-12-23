@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import type { Creature } from '../types/creature';
 import { UI_TEXT } from '../constants';
-import { getChineseText, formatNumber } from '../utils/common';
+import { getChineseText, formatPrice } from '../utils/common';
 import VersionBadge from './VersionBadge.vue';
-import { ref } from 'vue';
 
 interface Props {
   creatures: Creature[];
@@ -11,16 +10,6 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-
-// 获取中文名称
-const getChineseName = (creature: Creature): string => {
-  return getChineseText(creature);
-};
-
-// 格式化价格
-const formatPrice = (price: number): string => {
-  return formatNumber(price);
-};
 
 // 获取月份信息
 const getMonths = (creature: Creature): string => {
@@ -60,7 +49,7 @@ const getLocation = (creature: Creature): string => {
           <img :src="creature.iconImage" :alt="creature.name" class="creature-image" />
         </div>
         <div class="creature-info">
-          <h3 class="creature-name">{{ getChineseName(creature) }}</h3>
+          <h3 class="creature-name">{{ getChineseText(creature) }}</h3>
           <div class="creature-details">
             <div class="detail-row">
               <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>

@@ -9,7 +9,7 @@ import { COLOR_MAP } from '../config';
 
 const route = useRoute();
 const router = useRouter();
-const { allItems, loading, error, loadData } = useItemsData();
+const { allItems, itemNameMap, loading, error, loadData } = useItemsData();
 
 // 获取物品ID
 const itemId = computed(() => Number(route.params.id));
@@ -52,9 +52,7 @@ const hasMaterials = computed(() => {
 // 获取材料信息
 const getMaterialInfo = (materialKey: string) => {
     // 在所有物品中查找材料名称对应的物品
-    const materialItem = allItems.value.find(item =>
-        item.originalData?.name.toLowerCase() === materialKey.toLowerCase()
-    );
+    const materialItem = itemNameMap.value[materialKey];
 
     // 返回材料的名称、图标和ID
     return {
@@ -172,9 +170,7 @@ const goToNookipedia = () => {
 
 // 加载数据
 onMounted(() => {
-    if (allItems.value.length === 0) {
-        loadData();
-    }
+    loadData();
 });
 </script>
 
@@ -443,7 +439,7 @@ onMounted(() => {
                             <div class="variant-name">
                                 {{ variant.variantName }}
                                 <span v-if="variant.patternName" class="pattern-name"> - {{ variant.patternName
-                                }}</span>
+                                    }}</span>
                             </div>
                         </div>
                     </div>

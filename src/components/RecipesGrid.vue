@@ -2,7 +2,7 @@
 import type { Recipe } from '../types/recipe';
 import { UI_TEXT } from '../constants';
 import { useItemsData } from '../composables/useItemsData';
-import { getChineseText, formatNumber, joinArray } from '../utils/common';
+import { getChineseText, formatPrice, joinArray } from '../utils/common';
 import VersionBadge from './VersionBadge.vue';
 import { useRouter } from 'vue-router';
 
@@ -12,29 +12,12 @@ interface Props {
 
 const props = defineProps<Props>();
 const router = useRouter();
-const { allItems } = useItemsData();
-// 获取中文名称
-const getChineseName = (recipe: Recipe): string => {
-    return getChineseText(recipe);
-};
-
-// 格式化价格
-const formatPrice = (price: number | null | undefined): string => {
-    if (price == null || price === -1) return '--';
-    return formatNumber(price);
-};
-
-// 获取来源
-const getSource = (recipe: Recipe): string => {
-    return joinArray(recipe.source) || '--';
-};
+const { itemNameMap } = useItemsData();
 
 // 获取材料信息
 const getMaterialInfo = (materialKey: string) => {
     // 在所有物品中查找材料名称对应的物品
-    const materialItem = allItems.value.find(item =>
-        item.originalData?.name.toLowerCase() === materialKey.toLowerCase()
-    );
+    const materialItem = itemNameMap.value[materialKey];
 
     // 返回材料的名称、图标和ID
     return {
@@ -62,7 +45,7 @@ const goToMaterial = (materialKey: string) => {
                 <img :src="recipe.image" :alt="recipe.name" class="recipe-image" />
             </div>
             <div class="recipe-info">
-                <h3 class="recipe-name">{{ getChineseName(recipe) }}</h3>
+                <h3 class="recipe-name">{{ getChineseText(recipe) }}</h3>
                 <div class="recipe-details">
                     <div class="detail-row">
                         <span class="detail-label">分类</span>
@@ -74,7 +57,7 @@ const goToMaterial = (materialKey: string) => {
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-                        <span class="detail-value">{{ getSource(recipe) }}</span>
+                        <span class="detail-value">{{ joinArray(recipe.source) }}</span>
                     </div>
                     <div v-if="recipe.materials && Object.keys(recipe.materials).length > 0" class="materials-section">
                         <span class="materials-label">所需材料</span>
