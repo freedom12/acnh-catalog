@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, watch } from 'vue';
+import { useRouter } from 'vue-router';
 import type { Item } from '../types';
 import { getSourceName, getTagName } from '../services/dataService';
 import { ItemModel } from '../models';
@@ -9,6 +10,8 @@ const props = defineProps<{
   item: Item;
   colorFilter?: string;
 }>();
+
+const router = useRouter();
 
 // 创建 ItemModel 实例
 const itemModel = new ItemModel(props.item);
@@ -81,10 +84,21 @@ const imageError = ref(false);
 const handleImageError = (): void => {
   imageError.value = true;
 };
+
+// 点击卡片跳转到详情页
+const handleCardClick = (event: MouseEvent) => {
+  // 如果点击的是款式或图案切换按钮，不跳转
+  const target = event.target as HTMLElement;
+  if (target.classList.contains('variation-dot')) {
+    return;
+  }
+  
+  router.push(`/item/${props.item.id}`);
+};
 </script>
 
 <template>
-  <div class="item-card" :class="{ 'item-owned': item.owned }">
+  <div class="item-card" :class="{ 'item-owned': item.owned }" @click="handleCardClick">
     <div v-if="version !== '未知版本'" class="version-badge">
       {{ version }}
     </div>
@@ -173,6 +187,7 @@ const handleImageError = (): void => {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  cursor: pointer;
 }
 
 .item-card:hover {

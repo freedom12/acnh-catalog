@@ -68,12 +68,13 @@ function processVariations(rawItem: RawItem): VariantGroup[] {
     }
     
     const variant = variantMap.get(variantName)!;
+    const patternColors = v.colors || rawItem.colors || [];
     variant.patterns.push({
       patternName: v.patternTranslations?.cNzh || v.pattern || "",
       imageUrl: v.image || v.storageImage || v.closetImage || v.framedImage || rawItem.inventoryImage || '',
       id: v.internalId || rawItem.internalId,
       uniqueEntryId: v.uniqueEntryId,
-      colors: v.colors || rawItem.colors || [],
+      colors: [...new Set(patternColors)],
     });
   });
 
@@ -90,7 +91,7 @@ function getDefaultDisplayProperties(
   let id = rawItem.internalId;
   let imageUrl = rawItem.image || rawItem.storageImage || rawItem.closetImage || 
                  rawItem.framedImage || rawItem.inventoryImage || '';
-  let colors = rawItem.colors || [];
+  let colors = [...new Set(rawItem.colors || [])];
 
   // 如果有变体，使用第一个变体的第一个图案
   if (variantGroups.length > 0) {
