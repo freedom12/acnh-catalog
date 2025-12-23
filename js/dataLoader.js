@@ -2,7 +2,7 @@
  * 数据加载模块
  */
 
-import { CONFIG } from "./config.js";
+import { CONFIG } from './config.js';
 
 /**
  * 加载物品数据（从 acnh-items.json）
@@ -15,23 +15,25 @@ export async function loadItemsData() {
 /**
  * 加载已拥有物品数据
  */
-export async function loadCatalogData() {
+export async function loadCatalogData(data) {
   try {
-    const response = await fetch(CONFIG.DATA_FILES.CATALOG);
-    const data = await response.json();
+    // const response = await fetch(CONFIG.DATA_FILES.CATALOG);
+    // const data = await response.json();
     const ownedNames = new Set();
     const ownedIds = new Set();
-    
-    data.items.forEach(item => {
-      // 添加物品名称（主要用于判断拥有状态）
-      ownedNames.add(item.label);
-      // 添加物品的 unique_id
-      ownedIds.add(item.unique_id);
-    });
-    
+
+    if (data) {
+      data.items.forEach((item) => {
+        // 添加物品名称（主要用于判断拥有状态）
+        ownedNames.add(item.label);
+        // 添加物品的 unique_id
+        ownedIds.add(item.unique_id);
+      });
+    }
+
     return { ownedNames, ownedIds };
   } catch (error) {
-    console.log("无法加载 catalog_items.json，将不显示拥有状态");
+    // console.log('无法加载 catalog_items.json，将不显示拥有状态');
     return { ownedNames: new Set(), ownedIds: new Set() };
   }
 }
@@ -41,7 +43,7 @@ export async function loadCatalogData() {
  */
 export function processItemsData(acnhItems, ownedData) {
   const { ownedNames, ownedIds } = ownedData;
-  
+
   return acnhItems
     .map((item) => {
       let name = item.translations?.cNzh || item.name;
@@ -64,7 +66,7 @@ export function processItemsData(acnhItems, ownedData) {
         const variantMap = new Map();
 
         item.variations.forEach((v) => {
-          const variantName = v.variantTranslations?.cNzh || v.variation || "";
+          const variantName = v.variantTranslations?.cNzh || v.variation || '';
 
           if (!variantMap.has(variantName)) {
             variantMap.set(variantName, {
@@ -72,9 +74,9 @@ export function processItemsData(acnhItems, ownedData) {
               patterns: [],
             });
           }
-          
+
           variantMap.get(variantName).patterns.push({
-            patternName: v.patternTranslations?.cNzh || v.pattern || "",
+            patternName: v.patternTranslations?.cNzh || v.pattern || '',
             imageUrl:
               v.image ||
               v.storageImage ||
@@ -99,21 +101,24 @@ export function processItemsData(acnhItems, ownedData) {
           colors = firstPattern.colors || colors;
         }
       }
-      
+
       // 检查是否拥有（通过名称或ID）
-      owned = ownedNames.has(name) || ownedIds.has(item.internalId) || ownedIds.has(item.uniqueEntryId);
+      owned =
+        ownedNames.has(name) ||
+        ownedIds.has(item.internalId) ||
+        ownedIds.has(item.uniqueEntryId);
 
       return {
         name: name,
         id: id,
-        category: item.sourceSheet || "Other",
+        category: item.sourceSheet || 'Other',
         imageUrl: imageUrl,
         colors: colors,
         owned: owned,
         variantGroups: variantGroups,
         hasVariations: hasVariations,
-        vIndex: 0,  // 默认显示第一个变体
-        pIndex: 0,  // 默认显示第一个图案
+        vIndex: 0, // 默认显示第一个变体
+        pIndex: 0, // 默认显示第一个图案
         // 提升筛选所需字段到顶层
         versionAdded: item.versionAdded,
         source: item.source,
