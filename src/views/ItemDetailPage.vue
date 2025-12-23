@@ -52,10 +52,10 @@ const hasMaterials = computed(() => {
 // 获取材料信息
 const getMaterialInfo = (materialKey: string) => {
     // 在所有物品中查找材料名称对应的物品
-    const materialItem = allItems.value.find(item => 
+    const materialItem = allItems.value.find(item =>
         item.originalData?.name.toLowerCase() === materialKey.toLowerCase()
     );
-    
+
     // 返回材料的名称、图标和ID
     return {
         name: materialItem?.name || materialKey,
@@ -218,7 +218,7 @@ onMounted(() => {
                             <span>📏 {{ size }}</span>
                         </div>
 
-                        <div v-if="displayColors.length > 0" class="info-item full-width">
+                        <div v-if="displayColors.length > 0" class="info-item">
                             <label>颜色:</label>
                             <div class="color-display">
                                 <span v-for="(color, idx) in displayColors" :key="idx" class="color-tag">
@@ -374,7 +374,7 @@ onMounted(() => {
                             <div class="recipe-info-grid">
                                 <div v-if="recipeData.source && recipeData.source.length > 0" class="recipe-info-item">
                                     <label>配方来源:</label>
-                                    <span>📍 {{ recipeData.source.join(', ') }}</span>
+                                    <span>📍 {{recipeData.source.map(s => getSourceName(s)).join(', ')}}</span>
                                 </div>
                                 <div v-if="recipeData.seasonEvent" class="recipe-info-item">
                                     <label>季节活动:</label>
@@ -396,16 +396,13 @@ onMounted(() => {
                     <div v-if="hasMaterials" class="materials-section">
                         <h4>所需材料</h4>
                         <div class="materials-grid">
-                            <div v-for="(quantity, material) in recipeData.materials" 
-                                 :key="material" 
-                                 class="material-item"
-                                 :class="{ 'material-clickable': getMaterialInfo(material).id }"
-                                 @click="goToMaterial(material)">
+                            <div v-for="(quantity, material) in recipeData.materials" :key="material"
+                                class="material-item" :class="{ 'material-clickable': getMaterialInfo(material).id }"
+                                @click="goToMaterial(material)">
                                 <div class="material-info">
-                                    <img v-if="getMaterialInfo(material).imageUrl" 
-                                         :src="getMaterialInfo(material).imageUrl" 
-                                         :alt="getMaterialInfo(material).name"
-                                         class="material-icon" />
+                                    <img v-if="getMaterialInfo(material).imageUrl"
+                                        :src="getMaterialInfo(material).imageUrl" :alt="getMaterialInfo(material).name"
+                                        class="material-icon" />
                                     <span class="material-name">{{ getMaterialInfo(material).name }}</span>
                                 </div>
                                 <span class="material-quantity">× {{ quantity }}</span>
@@ -436,7 +433,7 @@ onMounted(() => {
                             <div class="variant-name">
                                 {{ variant.variantName }}
                                 <span v-if="variant.patternName" class="pattern-name"> - {{ variant.patternName
-                                    }}</span>
+                                }}</span>
                             </div>
                         </div>
                     </div>
@@ -515,45 +512,45 @@ onMounted(() => {
 }
 
 .owned-badge {
-  width: 100%;
-  padding: 16px 24px;
-  border: 3px solid #e0e0e0;
-  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 18px;
-  font-weight: 700;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  position: relative;
-  overflow: hidden;
-  color: #999;
+    width: 100%;
+    padding: 16px 24px;
+    border: 3px solid #e0e0e0;
+    background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    position: relative;
+    overflow: hidden;
+    color: #999;
 }
 
 .owned-badge::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transition: left 0.5s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s;
 }
 
 .owned-badge:hover::before {
-  left: 100%;
+    left: 100%;
 }
 
 .owned-badge.owned {
-  background: linear-gradient(135deg, #66bb6a 0%, #4a9b4f 100%);
-  border-color: #4a9b4f;
-  color: white;
-  box-shadow: 0 4px 16px rgba(74, 155, 79, 0.3);
-  transform: translateY(-2px);
+    background: linear-gradient(135deg, #66bb6a 0%, #4a9b4f 100%);
+    border-color: #4a9b4f;
+    color: white;
+    box-shadow: 0 4px 16px rgba(74, 155, 79, 0.3);
+    transform: translateY(-2px);
 }
 
 .owned-icon {
@@ -575,12 +572,15 @@ onMounted(() => {
 }
 
 @keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 .owned-text {
