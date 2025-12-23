@@ -4,6 +4,7 @@ import ItemCard from './ItemCard.vue';
 
 defineProps<{
   items: Item[];
+  colorFilter?: string;
 }>();
 </script>
 
@@ -13,7 +14,7 @@ defineProps<{
     <h2>没有找到匹配的物品</h2>
   </div>
   <div v-else class="items-grid">
-    <ItemCard v-for="item in items" :key="item.id" :item="item" />
+    <ItemCard v-for="item in items" :key="item.id" :item="item" :color-filter="colorFilter" />
   </div>
 </template>
 

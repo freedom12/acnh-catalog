@@ -70,7 +70,7 @@ onMounted(() => {
         :owned-items="ownedItemsCount"
       />
 
-      <ItemsGrid :items="itemsToDisplay" />
+      <ItemsGrid :items="itemsToDisplay" :color-filter="filters.colorFilter" />
 
       <Pagination
         v-if="totalPages > 1 || itemsPerPage !== filteredItems.length"

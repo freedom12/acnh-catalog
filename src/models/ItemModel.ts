@@ -1,5 +1,6 @@
 import type { Item, VariantGroup, Pattern, RawItem } from '../types';
 import { ref, type Ref } from 'vue';
+import * as itemHelpers from '../utils/itemHelpers';
 
 /**
  * 物品数据工厂类
@@ -190,14 +191,14 @@ export class ItemModel {
    * 获取版本信息（安全访问）
    */
   getVersion(): string {
-    return this._data.versionAdded || '未知版本';
+    return itemHelpers.getItemVersion(this._data);
   }
 
   /**
    * 获取尺寸信息（安全访问）
    */
   getSize(): string {
-    return this._data.size || '未知尺寸';
+    return itemHelpers.getItemSize(this._data);
   }
 
   /**
@@ -226,14 +227,14 @@ export class ItemModel {
    * 获取来源列表（安全访问）
    */
   getSources(): string[] {
-    return this._data.source || [];
+    return itemHelpers.getItemSources(this._data);
   }
 
   /**
    * 检查是否有指定来源
    */
   hasSource(source: string): boolean {
-    return this.getSources().includes(source);
+    return itemHelpers.hasSource(this._data, source);
   }
 
   /**
@@ -247,7 +248,7 @@ export class ItemModel {
    * 检查是否包含指定颜色
    */
   hasColor(color: string): boolean {
-    return this.getColors().includes(color);
+    return itemHelpers.hasColor(this._data, color);
   }
 
   // ============ 变体相关 ============
@@ -256,9 +257,7 @@ export class ItemModel {
    * 是否有变体
    */
   get hasVariations(): boolean {
-    return this._data.variantGroups.length > 0 && 
-           (this._data.variantGroups.length > 1 || 
-            (this._data.variantGroups[0]?.patterns.length ?? 0) > 1);
+    return itemHelpers.hasVariations(this._data);
   }
 
   /**
@@ -279,7 +278,7 @@ export class ItemModel {
    * 是否有多个变体
    */
   hasMultipleVariants(): boolean {
-    return this.getVariantCount() > 1;
+    return itemHelpers.hasMultipleVariants(this._data);
   }
 
   /**
@@ -472,24 +471,7 @@ export class ItemModel {
    * 根据颜色筛选查找匹配的变体和图案
    */
   findVariantByColor(color: string): { variantIndex: number; patternIndex: number } | null {
-    if (this.hasColor(color)) {
-      return { variantIndex: 0, patternIndex: 0 };
-    }
-
-    const variants = this.getVariantGroups();
-    for (let vIdx = 0; vIdx < variants.length; vIdx++) {
-      const variant = variants[vIdx];
-      if (variant) {
-        for (let pIdx = 0; pIdx < variant.patterns.length; pIdx++) {
-          const pattern = variant.patterns[pIdx];
-          if (pattern?.colors?.includes(color)) {
-            return { variantIndex: vIdx, patternIndex: pIdx };
-          }
-        }
-      }
-    }
-
-    return null;
+    return itemHelpers.findColorVariantIndex(this._data, color);
   }
 
   /**

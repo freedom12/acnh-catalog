@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue';
+import { computed, reactive, onMounted, watch } from 'vue';
 import type { Item } from '../types';
 import { getSourceName, getTagName } from '../services/dataService';
 import { ItemModel } from '../models';
@@ -7,57 +7,112 @@ import { useColorDisplay } from '../composables/useColorDisplay';
 
 const props = defineProps<{
   item: Item;
+  colorFilter?: string;
 }>();
 
-// 使用 ref 存储 ItemModel 实例,避免每次都重新创建
-const itemModel = ref(new ItemModel(props.item));
+// 直接创建 ItemModel 实例，不使用 ref 包裹
+const itemModel = new ItemModel(props.item);
 
-// 当 item prop 变化时更新 itemModel
-watch(() => props.item, (newItem) => {
-  itemModel.value = new ItemModel(newItem);
+// 应用颜色筛选的辅助函数
+const applyColorFilter = () => {
+  if (props.colorFilter && props.item.variantGroups && props.item.variantGroups.length > 0) {
+    const match = itemModel.findVariantByColor(props.colorFilter);
+    if (match) {
+      itemModel.setVariantIndex(match.variantIndex);
+      itemModel.setPatternIndex(match.patternIndex);
+      forceUpdate();
+    }
+  }
+};
+
+// 如果有颜色筛选，初始化时切换到匹配的变体
+onMounted(() => {
+  applyColorFilter();
 });
 
-// 计算属性
-const currentVariant = computed(() => itemModel.value.getCurrentVariant());
-const displayImage = computed(() => itemModel.value.getDisplayImage());
-const displayId = computed(() => itemModel.value.getDisplayId());
-const displayColors = computed(() => itemModel.value.getDisplayColors());
-const displayName = computed(() => itemModel.value.getDisplayName());
-const hasMultipleVariants = computed(() => itemModel.value.hasMultipleVariants());
-const hasPatterns = computed(() => itemModel.value.hasPatterns());
+// 监听颜色筛选器变化
+watch(() => props.colorFilter, () => {
+  // 重置为默认变体
+  itemModel.setVariantIndex(0);
+  itemModel.setPatternIndex(0);
+  // 应用新的颜色筛选
+  applyColorFilter();
+});
+
+// 创建一个响应式状态来触发更新
+const updateKey = reactive({ value: 0 });
+
+// 强制更新的辅助函数
+const forceUpdate = () => {
+  updateKey.value++;
+};
+
+// 计算属性 - 依赖 updateKey 来确保响应式
+const currentVariant = computed(() => {
+  updateKey.value; // 触发依赖
+  return itemModel.getCurrentVariant();
+});
+
+const displayImage = computed(() => {
+  updateKey.value;
+  return itemModel.getDisplayImage();
+});
+
+const displayId = computed(() => {
+  updateKey.value;
+  return itemModel.getDisplayId();
+});
+
+const displayColors = computed(() => {
+  updateKey.value;
+  return itemModel.getDisplayColors();
+});
+
+const displayName = computed(() => {
+  updateKey.value;
+  return itemModel.getDisplayName();
+});
+
+const hasMultipleVariants = computed(() => itemModel.hasMultipleVariants());
+const hasPatterns = computed(() => {
+  updateKey.value;
+  return itemModel.hasPatterns();
+});
 
 // 响应式索引
-const vIndex = computed({
-  get: () => itemModel.value.getVariantIndex(),
-  set: (value: number) => itemModel.value.setVariantIndex(value)
+const vIndex = computed(() => {
+  updateKey.value;
+  return itemModel.getVariantIndex();
 });
 
-const pIndex = computed({
-  get: () => itemModel.value.getPatternIndex(),
-  set: (value: number) => itemModel.value.setPatternIndex(value)
+const pIndex = computed(() => {
+  updateKey.value;
+  return itemModel.getPatternIndex();
 });
 
 // 使用颜色显示组合函数
 const { conicGradientStyle: colorBlockStyle } = useColorDisplay(displayColors);
 
 // 便捷方法
-const version = computed(() => itemModel.value.getVersion());
-const size = computed(() => itemModel.value.getSize());
-const sources = computed(() => itemModel.value.getSources());
-const seriesName = computed(() => itemModel.value.getSeriesName());
-const tag = computed(() => itemModel.value.getTag());
+const version = computed(() => itemModel.getVersion());
+const size = computed(() => itemModel.getSize());
+const sources = computed(() => itemModel.getSources());
+const seriesName = computed(() => itemModel.getSeriesName());
+const tag = computed(() => itemModel.getTag());
 
 // 方法
 const selectVariant = (index: number): void => {
-  itemModel.value.setVariantIndex(index);
+  itemModel.setVariantIndex(index);
+  forceUpdate();
 };
 
 const selectPattern = (index: number): void => {
-  itemModel.value.setPatternIndex(index);
+  itemModel.setPatternIndex(index);
+  forceUpdate();
 };
 
 // 图片加载错误处理
-const imageError = ref(false);
+const imageError = reactive({ value: false });
 const handleImageError = (): void => {
   imageError.value = true;
 };
@@ -71,7 +126,7 @@ const handleImageError = (): void => {
     
     <div class="image-container">
       <img 
-        v-if="!imageError"
+        v-if="!imageError.value"
         :src="displayImage" 
         :alt="item.name" 
         class="item-image" 

@@ -6,6 +6,7 @@ import {
   getSourceOrder,
   getColorOrder
 } from '../services/dataService';
+import { getItemVersion, getItemSources } from '../utils/itemHelpers';
 
 export interface FilterOption {
   value: string;
@@ -55,8 +56,8 @@ export function useFilterOptions(): FilterOptionsData {
   const populateVersions = (items: Item[]): void => {
     versions.value = [...new Set(
       items
-        .map(item => item.versionAdded)
-        .filter((v): v is string => !!v)
+        .map(item => getItemVersion(item))
+        .filter(v => v !== '未知版本')
     )].sort();
   };
 
@@ -68,7 +69,7 @@ export function useFilterOptions(): FilterOptionsData {
     const itemSources = new Set<string>();
     
     items.forEach(item => {
-      item.source?.forEach(s => itemSources.add(s));
+      getItemSources(item).forEach(s => itemSources.add(s));
     });
     
     sources.value = [

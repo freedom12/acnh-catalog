@@ -1,5 +1,13 @@
 import type { Item, FilterOptions } from '../types';
 import { CONFIG } from '../config';
+import { 
+  itemMatchesColor, 
+  itemMatchesVersion,
+  itemMatchesSource,
+  itemMatchesSize,
+  itemMatchesTag,
+  itemMatchesSeries 
+} from '../utils/itemHelpers';
 
 /**
  * 检查物品是否匹配搜索词
@@ -29,60 +37,44 @@ function matchesOwnedFilter(item: Item, ownedFilter: string): boolean {
  * 检查物品是否匹配版本筛选
  */
 function matchesVersion(item: Item, versionFilter: string): boolean {
-  return !versionFilter || (item.versionAdded === versionFilter);
+  return itemMatchesVersion(item, versionFilter);
 }
 
 /**
  * 检查物品是否匹配来源筛选
  */
 function matchesSource(item: Item, sourceFilter: string): boolean {
-  return !sourceFilter || (item.source?.includes(sourceFilter) ?? false);
+  return itemMatchesSource(item, sourceFilter);
 }
 
 /**
  * 检查物品是否匹配尺寸筛选
  */
 function matchesSize(item: Item, sizeFilter: string): boolean {
-  return !sizeFilter || (item.size === sizeFilter);
+  return itemMatchesSize(item, sizeFilter);
 }
 
 /**
  * 检查物品是否匹配标签筛选
  */
 function matchesTag(item: Item, tagFilter: string): boolean {
-  return !tagFilter || (item.tag === tagFilter);
+  return itemMatchesTag(item, tagFilter);
 }
 
 /**
  * 检查物品是否匹配系列筛选
  */
 function matchesSeries(item: Item, seriesFilter: string): boolean {
-  return !seriesFilter || (item.series === seriesFilter);
+  return itemMatchesSeries(item, seriesFilter);
 }
 
 /**
  * 检查物品或其变体是否匹配颜色筛选
- * 优化后避免每次创建 ItemModel 实例
+ * 使用 itemHelpers 工具函数进行颜色匹配
  * @returns 是否匹配颜色
  */
 function matchesColor(item: Item, colorFilter: string): boolean {
-  if (!colorFilter) return true;
-  
-  // 检查物品本身的颜色
-  if (item.colors?.includes(colorFilter)) {
-    return true;
-  }
-  
-  // 检查所有变体和图案是否包含该颜色
-  if (item.variantGroups && item.variantGroups.length > 0) {
-    return item.variantGroups.some(variant => 
-      variant.patterns.some(pattern => 
-        pattern.colors?.includes(colorFilter)
-      )
-    );
-  }
-  
-  return false;
+  return itemMatchesColor(item, colorFilter);
 }
 
 /**
