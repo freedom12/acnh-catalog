@@ -1,4 +1,4 @@
-import type { RawItem, CatalogItem, Translations, Item } from '../types';
+import type { RawItem, CatalogItem, Translations, Item, Villager, NPC } from '../types';
 import { CONFIG } from '../config';
 import * as itemHelpers from '../utils/itemHelpers';
 
@@ -165,4 +165,38 @@ export function getSourceOrder(): string[] {
  */
 export function getColorOrder(): string[] {
   return Object.keys(translationsCache?.colors || {});
+}
+
+/**
+ * 加载村民数据
+ * @returns 村民数据数组
+ */
+export async function loadVillagersData(): Promise<Villager[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.VILLAGERS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载村民数据失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 加载NPC数据
+ * @returns NPC数据数组
+ */
+export async function loadNPCsData(): Promise<NPC[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.NPCS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('加载NPC数据失败:', error);
+    throw error;
+  }
 }

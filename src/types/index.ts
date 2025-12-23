@@ -3,6 +3,10 @@
  * 包含应用中使用的所有 TypeScript 接口和类型定义
  */
 
+// 导出村民和NPC类型
+export * from './villager';
+export * from './npc';
+
 /**
  * 翻译接口
  * 包含物品在不同语言版本中的名称

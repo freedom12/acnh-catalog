@@ -9,7 +9,9 @@ export const CONFIG = {
   DATA_FILES: {
     ITEMS: '/config/acnh-items.json',
     CATALOG: '/catalog_items.json',
-    TRANSLATIONS: '/config/translations.json'
+    TRANSLATIONS: '/config/translations.json',
+    VILLAGERS: '/config/acnh-villagers.json',
+    NPCS: '/config/acnh-npcs.json'
   },
   
   /**
