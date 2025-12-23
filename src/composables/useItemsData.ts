@@ -8,6 +8,7 @@ export interface UseItemsDataReturn {
   loading: Ref<boolean>;
   error: Ref<string>;
   loadData: () => Promise<void>;
+  updateCatalogData: (catalogData: { items: Array<{ label: string; unique_id: string }> }) => void;
 }
 
 /**
@@ -44,10 +45,37 @@ export function useItemsData(): UseItemsDataReturn {
     }
   };
 
+  /**
+   * 使用上传的目录数据更新物品拥有状态
+   */
+  const updateCatalogData = (catalogData: { items: Array<{ label: string; unique_id: string }> }): void => {
+    const ownedNames = new Set<string>();
+    const ownedIds = new Set<string>();
+    
+    catalogData.items.forEach(item => {
+      ownedNames.add(item.label);
+      ownedIds.add(item.unique_id);
+    });
+
+    // 更新所有物品的拥有状态
+    allItems.value = allItems.value.map(item => {
+      const uniqueEntryId = item.originalData?.uniqueEntryId || '';
+      const internalId = item.originalData?.internalId?.toString() || '';
+      
+      return {
+        ...item,
+        owned: ownedNames.has(item.name) || 
+               ownedIds.has(internalId) || 
+               ownedIds.has(uniqueEntryId)
+      };
+    });
+  };
+
   return {
     allItems,
     loading,
     error,
-    loadData
+    loadData,
+    updateCatalogData
   };
 }

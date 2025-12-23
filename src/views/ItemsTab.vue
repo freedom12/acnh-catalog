@@ -6,10 +6,10 @@ import { DATA_LOADING } from '../constants';
 import FilterControls from '../components/FilterControls.vue';
 import ItemsGrid from '../components/ItemsGrid.vue';
 import Pagination from '../components/Pagination.vue';
-import StatsDisplay from '../components/StatsDisplay.vue';
+import CatalogUploader from '../components/CatalogUploader.vue';
 
 // 使用数据加载组合函数
-const { allItems, loading, error, loadData } = useItemsData();
+const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
 
 // 使用筛选和分页组合函数
 const {
@@ -42,6 +42,11 @@ watch(allItems, (newItems) => {
 onMounted(() => {
   loadData();
 });
+
+// 处理目录文件上传
+const handleCatalogUpload = (data: { items: Array<{ label: string; unique_id: string }> }) => {
+  updateCatalogData(data);
+};
 </script>
 
 <template>
@@ -60,11 +65,14 @@ onMounted(() => {
         @per-page-change="handlePerPageChange"
       />
 
-      <StatsDisplay
-        :total-items="allItems.length"
-        :displayed-items="filteredItems.length"
-        :owned-items="ownedItemsCount"
-      />
+      <div class="stats">
+        <div class="stats-content">
+          <div class="stat-item">总物品数: <strong>{{ allItems.length.toLocaleString() }}</strong></div>
+          <div class="stat-item">当前显示: <strong>{{ filteredItems.length.toLocaleString() }}</strong></div>
+          <div class="stat-item">已拥有: <strong>{{ ownedItemsCount.toLocaleString() }}</strong></div>
+        </div>
+        <CatalogUploader @catalog-uploaded="handleCatalogUpload" />
+      </div>
 
       <ItemsGrid :items="itemsToDisplay" :color-filter="filters.colorFilter" />
 
@@ -83,6 +91,34 @@ onMounted(() => {
 <style scoped>
 .items-tab {
   width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stats-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.stat-item {
+  font-size: 1.1em;
+  color: #4a9b4f;
+  font-weight: 600;
+  margin: 0;
 }
 
 .loading, .error {
