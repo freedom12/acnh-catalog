@@ -1,93 +1,30 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
 import type { Item } from '../types';
 import { getSourceName, getTagName } from '../services/dataService';
-import { COLOR_MAP } from '../config';
+import { useItemVariants } from '../composables/useItemVariants';
+import { useColorDisplay } from '../composables/useColorDisplay';
 
 const props = defineProps<{
   item: Item;
 }>();
 
-const vIndex = ref(props.item.vIndex || 0);
-const pIndex = ref(props.item.pIndex || 0);
+// 使用物品变体管理组合函数
+const {
+  currentVariant,
+  displayImage,
+  displayId,
+  displayColors,
+  displayName,
+  hasMultipleVariants,
+  hasPatterns,
+  selectVariant,
+  selectPattern,
+  vIndex,
+  pIndex
+} = useItemVariants(props.item);
 
-const currentVariant = computed(() => {
-  if (props.item.hasVariations && props.item.variantGroups && props.item.variantGroups.length > 0) {
-    return props.item.variantGroups[vIndex.value] || props.item.variantGroups[0];
-  }
-  return null;
-});
-
-const currentPattern = computed(() => {
-  if (currentVariant.value && currentVariant.value.patterns && currentVariant.value.patterns.length > 0) {
-    return currentVariant.value.patterns[pIndex.value] || currentVariant.value.patterns[0];
-  }
-  return null;
-});
-
-const displayImage = computed(() => {
-  return currentPattern.value?.imageUrl || props.item.imageUrl;
-});
-
-const displayId = computed(() => {
-  return currentPattern.value?.id || props.item.id;
-});
-
-const displayColors = computed(() => {
-  return currentPattern.value?.colors || props.item.colors || [];
-});
-
-const displayName = computed(() => {
-  let name = props.item.name;
-  if (currentVariant.value?.variantName) name += ` - ${currentVariant.value.variantName}`;
-  if (currentPattern.value?.patternName) name += ` - ${currentPattern.value.patternName}`;
-  return name;
-});
-
-const hasMultipleVariants = computed(() => {
-  return props.item.hasVariations && props.item.variantGroups.length > 1;
-});
-
-const hasPatterns = computed(() => {
-  return currentVariant.value && currentVariant.value.patterns.length > 1;
-});
-
-const colorBlockStyle = computed(() => {
-  if (displayColors.value.length === 0) return '';
-  
-  const sectionDeg = 360 / displayColors.value.length;
-  const gradientStops: string[] = [];
-  let currentDeg = 0;
-  
-  displayColors.value.forEach(color => {
-    const endDeg = currentDeg + sectionDeg;
-    
-    if (color === 'Colorful') {
-      const rainbowColors = ['#e74c3c', '#e67e22', '#f1c40f', '#27ae60', '#1abc9c', '#3498db', '#9b59b6'];
-      const rainbowStep = sectionDeg / (rainbowColors.length - 1);
-      rainbowColors.forEach((c, i) => {
-        gradientStops.push(`${c} ${currentDeg + rainbowStep * i}deg`);
-      });
-    } else {
-      const colorValue = COLOR_MAP[color] || '#ccc';
-      gradientStops.push(`${colorValue} ${currentDeg}deg`);
-      gradientStops.push(`${colorValue} ${endDeg}deg`);
-    }
-    
-    currentDeg = endDeg;
-  });
-  
-  return `conic-gradient(from -135deg, ${gradientStops.join(', ')})`;
-});
-
-function selectVariant(index: number) {
-  vIndex.value = index;
-  pIndex.value = 0;
-}
-
-function selectPattern(index: number) {
-  pIndex.value = index;
-}
+// 使用颜色显示组合函数
+const { conicGradientStyle: colorBlockStyle } = useColorDisplay(displayColors);
 </script>
 
 <template>

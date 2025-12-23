@@ -1,3 +1,10 @@
+/**
+ * 应用配置常量
+ */
+
+/**
+ * 数据文件路径配置
+ */
 export const CONFIG = {
   DATA_FILES: {
     ITEMS: '/config/acnh-items.json',
@@ -5,11 +12,17 @@ export const CONFIG = {
     TRANSLATIONS: '/config/translations.json'
   },
   
+  /**
+   * 分页配置
+   */
   PAGINATION: {
     DEFAULT_PER_PAGE: 100,
     OPTIONS: [20, 40, 60, 100, 'all'] as const
   },
   
+  /**
+   * 排序选项
+   */
   SORT_OPTIONS: {
     NAME_ASC: 'name-asc',
     NAME_DESC: 'name-desc',
@@ -17,13 +30,20 @@ export const CONFIG = {
     ID_DESC: 'id-desc'
   } as const,
   
+  /**
+   * 筛选选项
+   */
   FILTER_OPTIONS: {
     ALL: 'all',
     OWNED: 'owned',
     NOT_OWNED: 'not-owned'
   } as const
-};
+} as const;
 
+/**
+ * 颜色映射表
+ * 将颜色名称映射到 CSS 颜色值
+ */
 export const COLOR_MAP: Record<string, string> = {
   'Red': '#e74c3c',
   'Orange': '#e67e22',
@@ -38,4 +58,5 @@ export const COLOR_MAP: Record<string, string> = {
   'Gray': '#95a5a6',
   'Brown': '#8b6f47',
   'Beige': '#d4c5b9',
-};
+} as const;
+

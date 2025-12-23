@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, watch, computed, onMounted } from 'vue';
+import { watch, computed, onMounted } from 'vue';
 import type { Item, FilterOptions } from '../types';
-import { getCategoryName, getSourceName, getColorName, getTagName, getCategoryOrder, getSourceOrder, getColorOrder } from '../services/dataService';
+import { getCategoryName, getSourceName, getColorName, getTagName } from '../services/dataService';
+import { useFilterOptions } from '../composables/useFilterOptions';
 
 const props = defineProps<{
   filters: FilterOptions;
@@ -19,14 +20,19 @@ const emit = defineEmits<{
   (e: 'per-page-change', value: number | 'all'): void;
 }>();
 
-const categories = ref<string[]>([]);
-const versions = ref<string[]>([]);
-const sources = ref<string[]>([]);
-const sizes = ref<string[]>([]);
-const tags = ref<string[]>([]);
-const colors = ref<string[]>([]);
-const seriesOptions = ref<Array<{ value: string; name: string }>>([]);
+// 使用组合函数管理筛选器选项
+const {
+  categories,
+  versions,
+  sources,
+  sizes,
+  tags,
+  colors,
+  series: seriesOptions,
+  populateFilters
+} = useFilterOptions();
 
+// 双向绑定的计算属性
 const localFilters = computed({
   get: () => props.filters,
   set: (value) => {
@@ -52,63 +58,14 @@ const localPerPage = computed({
   }
 });
 
-function populateFilters() {
-  const categoryOrder = getCategoryOrder();
-  const itemCategories = new Set(props.allItems.map(item => item.category));
-  categories.value = categoryOrder.filter(cat => itemCategories.has(cat));
-  itemCategories.forEach(cat => {
-    if (!categories.value.includes(cat)) categories.value.push(cat);
-  });
-
-  versions.value = [...new Set(props.allItems.map(item => item.versionAdded).filter((v): v is string => !!v))].sort();
-
-  const sourceOrder = getSourceOrder();
-  const itemSources = new Set<string>();
-  props.allItems.forEach(item => {
-    item.source?.forEach(s => itemSources.add(s));
-  });
-  sources.value = sourceOrder.filter(src => itemSources.has(src));
-  itemSources.forEach(src => {
-    if (!sources.value.includes(src)) sources.value.push(src);
-  });
-
-  sizes.value = [...new Set(props.allItems.map(item => item.size).filter((s): s is string => !!s))].sort((a, b) => {
-    const [aWidth, aHeight] = a.split('x').map(Number);
-    const [bWidth, bHeight] = b.split('x').map(Number);
-    if (aWidth !== undefined && bWidth !== undefined && aWidth !== bWidth) return aWidth - bWidth;
-    return (aHeight || 0) - (bHeight || 0);
-  });
-
-  const tagsSet = new Set(props.allItems.map(item => item.tag).filter((t): t is string => !!t));
-  tags.value = [...tagsSet].sort((a, b) => getTagName(a).localeCompare(getTagName(b), 'zh-CN'));
-
-  const colorOrder = getColorOrder();
-  const itemColors = new Set<string>();
-  props.allItems.forEach(item => {
-    item.colors?.forEach(c => itemColors.add(c));
-  });
-  colors.value = colorOrder.filter(color => itemColors.has(color));
-  itemColors.forEach(color => {
-    if (!colors.value.includes(color)) colors.value.push(color);
-  });
-
-  const seriesMap = new Map<string, string>();
-  props.allItems.forEach(item => {
-    if (item.series && !seriesMap.has(item.series)) {
-      seriesMap.set(item.series, item.seriesName || item.series);
-    }
-  });
-  seriesOptions.value = [...seriesMap.entries()]
-    .map(([value, name]) => ({ value, name }))
-    .sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'));
-}
-
+// 组件挂载时填充筛选器
 onMounted(() => {
-  populateFilters();
+  populateFilters(props.allItems);
 });
 
-watch(() => props.allItems, () => {
-  populateFilters();
+// 监听物品列表变化
+watch(() => props.allItems, (newItems) => {
+  populateFilters(newItems);
 });
 </script>
 

@@ -1,78 +1,43 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
-import type { Item, FilterOptions } from './types';
-import { loadTranslations, loadItemsData, loadCatalogData, processItemsData } from './services/dataService';
-import { filterItems, sortItems } from './services/filterService';
-import { CONFIG } from './config';
+import { onMounted, watch, computed } from 'vue';
+import { useItemsData } from './composables/useItemsData';
+import { useItemsFilter } from './composables/useItemsFilter';
 import FilterControls from './components/FilterControls.vue';
 import ItemsGrid from './components/ItemsGrid.vue';
 import Pagination from './components/Pagination.vue';
 import StatsDisplay from './components/StatsDisplay.vue';
 
-const allItems = ref<Item[]>([]);
-const filteredItems = ref<Item[]>([]);
-const currentPage = ref(1);
-const itemsPerPage = ref(CONFIG.PAGINATION.DEFAULT_PER_PAGE);
-const sortValue = ref(CONFIG.SORT_OPTIONS.ID_ASC);
-const loading = ref(true);
-const error = ref('');
+// 使用数据加载组合函数
+const { allItems, loading, error, loadData } = useItemsData();
 
-const filters = ref<FilterOptions>({
-  searchTerm: '',
-  category: '',
-  ownedFilter: 'all',
-  versionFilter: '',
-  sourceFilter: '',
-  sizeFilter: '',
-  tagFilter: '',
-  colorFilter: '',
-  seriesFilter: ''
-});
+// 使用筛选和分页组合函数
+const {
+  filters,
+  sortValue,
+  itemsPerPage,
+  currentPage,
+  filteredItems,
+  totalPages,
+  itemsToDisplay,
+  handleFilterChange,
+  handleSortChange,
+  handlePageChange,
+  handlePerPageChange
+} = useItemsFilter(allItems);
 
-const totalPages = computed(() => Math.ceil(filteredItems.value.length / itemsPerPage.value));
+// 计算拥有的物品数量
+const ownedItemsCount = computed(() => 
+  allItems.value.filter(item => item.owned).length
+);
 
-const itemsToDisplay = computed(() => {
-  const startIndex = (currentPage.value - 1) * itemsPerPage.value;
-  const endIndex = Math.min(startIndex + itemsPerPage.value, filteredItems.value.length);
-  return filteredItems.value.slice(startIndex, endIndex);
-});
-
-async function loadData() {
-  try {
-    loading.value = true;
-    await loadTranslations();
-    const acnhItems = await loadItemsData();
-    const ownedData = await loadCatalogData();
-    
-    allItems.value = processItemsData(acnhItems, ownedData);
-    filteredItems.value = [...allItems.value];
-    loading.value = false;
-  } catch (err) {
-    console.error('加载数据失败:', err);
-    error.value = '加载数据失败，请确保数据文件存在';
-    loading.value = false;
+// 监听数据加载完成，初始化筛选列表
+watch(allItems, (newItems) => {
+  if (newItems.length > 0) {
+    filteredItems.value = [...newItems];
   }
-}
+});
 
-function handleFilterChange() {
-  filteredItems.value = filterItems(allItems.value, filters.value);
-  filteredItems.value = sortItems(filteredItems.value, sortValue.value);
-  currentPage.value = 1;
-}
-
-function handleSortChange() {
-  filteredItems.value = sortItems(filteredItems.value, sortValue.value);
-}
-
-function handlePageChange(page: number) {
-  currentPage.value = page;
-}
-
-function handlePerPageChange(value: number | 'all') {
-  itemsPerPage.value = value === 'all' ? filteredItems.value.length : value;
-  currentPage.value = 1;
-}
-
+// 组件挂载时加载数据
 onMounted(() => {
   loadData();
 });
@@ -102,7 +67,7 @@ onMounted(() => {
       <StatsDisplay
         :total-items="allItems.length"
         :displayed-items="filteredItems.length"
-        :owned-items="allItems.filter(item => item.owned).length"
+        :owned-items="ownedItemsCount"
       />
 
       <ItemsGrid :items="itemsToDisplay" />
