@@ -8,11 +8,11 @@ interface Props {
   displayName: string;
 }
 
-defineProps<Props>();
+const props = defineProps<Props>();
 </script>
 
 <template>
-  <div class="card" :class="colorClass">
+  <div class="card" :class="colorClass" @click="$emit('click', $event)">
     <VersionBadge :version="version" />
     <div class="card-image-wrapper">
       <img :src="image" :alt="displayName" class="card-image" />

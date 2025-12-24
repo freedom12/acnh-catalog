@@ -5,8 +5,8 @@ import type { Item } from "../types";
 import { getSeriesName, getTagName } from "../services/dataService";
 import { formatPrice, joinArray } from "../utils/common";
 import { ItemModel } from "../models";
-import { useColorDisplay } from "../composables/useColorDisplay";
-import VersionBadge from "./VersionBadge.vue";
+import BaseCard from "./BaseCard.vue";
+import ColorBlock from "./ColorBlock.vue";
 import { UI_TEXT } from "../constants";
 
 const props = defineProps<{
@@ -39,9 +39,6 @@ const displayName = computed(() => itemModel.getDisplayName());
 const hasMultipleVariants = computed(() => itemModel.hasMultipleVariants());
 const hasPatterns = computed(() => itemModel.hasPatterns());
 
-// 使用颜色显示组合函数
-const { conicGradientStyle: colorBlockStyle } = useColorDisplay(displayColors);
-
 // 便捷方法
 const version = computed(() => itemModel.getVersion());
 const size = computed(() => itemModel.getSize());
@@ -63,6 +60,13 @@ const applyColorFilter = () => {
   }
 };
 
+// 重置并应用颜色筛选
+const resetAndApplyColorFilter = () => {
+  variantIndex.value = 0;
+  patternIndex.value = 0;
+  applyColorFilter();
+};
+
 // 初始化时应用颜色筛选
 onMounted(() => {
   applyColorFilter();
@@ -71,18 +75,13 @@ onMounted(() => {
 // 监听颜色筛选器变化
 watch(
   () => props.colorFilter,
-  () => {
-    variantIndex.value = 0;
-    patternIndex.value = 0;
-    applyColorFilter();
-  }
+  resetAndApplyColorFilter
 );
 
 // 点击卡片跳转到详情页
 const handleCardClick = (event: MouseEvent) => {
   // 如果点击的是款式或图案切换按钮，不跳转
-  const target = event.target as HTMLElement;
-  if (target.classList.contains("variation-dot")) {
+  if ((event.target as HTMLElement)?.closest('.variation-dot')) {
     return;
   }
 
@@ -91,84 +90,78 @@ const handleCardClick = (event: MouseEvent) => {
 </script>
 
 <template>
-  <div
-    class="card card--green"
+  <BaseCard
+    colorClass="card--green"
     :class="{ 'item-owned': props.data.owned }"
+    :version="version !== '未知版本' ? version : undefined"
+    :image="displayImage"
+    :displayName="displayName"
     @click="handleCardClick"
   >
-    <VersionBadge :version="version !== '未知版本' ? version : undefined" />
-    <div class="card-image-wrapper">
-      <img :src="displayImage" :alt="displayName" class="card-image" />
+    <span class="detail-row detail-center">
+      ID: {{ displayId || "N/A" }}
+      <ColorBlock
+        v-if="displayColors.length > 0"
+        :displayColors="displayColors"
+        :size="16"
+      />
+    </span>
+    <div class="detail-row">
+      <span class="detail-label">尺寸</span>
+      <span class="detail-value">{{ size }}</span>
     </div>
-    <div class="card-info">
-      <h3 class="card-name">{{ displayName }}</h3>
-      <div class="item-id"></div>
-      <div class="card-details">
-        <span class="detail-row detail-center">
-          ID: {{ displayId || "N/A" }}
-          <span
-            v-if="displayColors.length > 0"
-            class="color-block"
-            :style="{ background: colorBlockStyle }"
-          ></span>
+    <div class="detail-row">
+      <span class="detail-label">系列</span>
+      <span class="detail-value">{{ getSeriesName(seriesName) }}</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">标签</span>
+      <span class="detail-value">{{ getTagName(tag) }}</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
+      <span class="detail-value">{{ joinArray(props.data.source) }}</span>
+    </div>
+    <div class="detail-row">
+      <span class="buy-price" title="购买价格">
+        💰 {{ formatPrice(buyPrice) }}
+      </span>
+      <span class="sell-price" title="出售价格">
+        💵 {{ formatPrice(sellPrice) }}
+      </span>
+    </div>
+
+    <div v-if="hasMultipleVariants" class="variants-section variant-row">
+      <span class="variants-label">款式</span>
+      <div class="variants-list">
+        <span
+          v-for="(vg, vIdx) in props.data.variantGroups"
+          :key="vIdx"
+          class="variation-dot variant-dot"
+          :class="{ active: vIdx === variantIndex }"
+          :title="vg.variantName || `款式 ${vIdx + 1}`"
+          @click="variantIndex = vIdx"
+        >
+          {{ vIdx + 1 }}
         </span>
-        <div class="detail-row">
-          <span class="detail-label">尺寸</span>
-          <span class="detail-value">{{ size }}</span>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">系列</span>
-          <span class="detail-value">{{ getSeriesName(seriesName) }}</span>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">标签</span>
-          <span class="detail-value">{{ getTagName(tag) }}</span>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-          <span class="detail-value">{{ joinArray(props.data.source) }}</span>
-        </div>
-        <div class="detail-row">
-          <span class="buy-price" title="购买价格"
-            >💰 {{ formatPrice(buyPrice) }}</span
-          >
-          <span class="sell-price" title="出售价格"
-            >💵 {{ formatPrice(sellPrice) }}</span
-          >
-        </div>
-      </div>
-      <div v-if="hasMultipleVariants" class="variation-row variant-row">
-        <span class="variation-label">款式:</span>
-        <div class="variation-dots">
-          <span
-            v-for="(vg, vIdx) in props.data.variantGroups"
-            :key="vIdx"
-            class="variation-dot variant-dot"
-            :class="{ active: vIdx === variantIndex }"
-            :title="vg.variantName || `款式 ${vIdx + 1}`"
-            @click="variantIndex = vIdx"
-          >
-            {{ vIdx + 1 }}
-          </span>
-        </div>
-      </div>
-      <div v-if="hasPatterns" class="variation-row pattern-row">
-        <span class="variation-label">图案:</span>
-        <div class="variation-dots">
-          <span
-            v-for="(p, pIdx) in currentVariant!.patterns"
-            :key="pIdx"
-            class="variation-dot pattern-dot"
-            :class="{ active: pIdx === patternIndex }"
-            :title="p.patternName || `图案 ${pIdx + 1}`"
-            @click="patternIndex = pIdx"
-          >
-            {{ pIdx + 1 }}
-          </span>
-        </div>
       </div>
     </div>
-  </div>
+    <div v-if="hasPatterns" class="variants-section pattern-row">
+      <span class="variants-label">图案</span>
+      <div class="variants-list">
+        <span
+          v-for="(p, pIdx) in currentVariant!.patterns"
+          :key="pIdx"
+          class="variation-dot pattern-dot"
+          :class="{ active: pIdx === patternIndex }"
+          :title="p.patternName || `图案 ${pIdx + 1}`"
+          @click="patternIndex = pIdx"
+        >
+          {{ pIdx + 1 }}
+        </span>
+      </div>
+    </div>
+  </BaseCard>
 </template>
 
 <style scoped>
@@ -193,40 +186,31 @@ const handleCardClick = (event: MouseEvent) => {
   color: #51cf66;
 }
 
-.color-block {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 1.5px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;
-  margin: 0 6px;
-  vertical-align: text-top;
-}
-
 .detail-center {
   justify-content: center !important;
   align-items: center;
 }
 
-.variation-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 5px;
+.variants-section {
+  background: #f0f9f0;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #c8e6c8;
+  margin-top: 8px;
 }
 
-.variation-label {
-  font-size: 12px;
-  color: #666;
+.variants-label {
   font-weight: 600;
+  color: #4a9b4f;
+  font-size: 0.85em;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.variation-dots {
+.variants-list {
   display: flex;
-  gap: 5px;
   flex-wrap: wrap;
+  gap: 6px;
 }
 
 .variation-dot {
