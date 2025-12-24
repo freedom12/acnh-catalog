@@ -19,29 +19,17 @@ const showPagination = computed(() => {
 
 <template>
   <div v-if="showPagination" class="pagination">
-    <button
-      :disabled="currentPage === 1"
-      @click="emit('page-change', 1)"
-    >
+    <button :disabled="currentPage === 1" @click="emit('page-change', 1)">
       首页
     </button>
-    <button
-      :disabled="currentPage === 1"
-      @click="emit('page-change', currentPage - 1)"
-    >
+    <button :disabled="currentPage === 1" @click="emit('page-change', currentPage - 1)">
       上一页
     </button>
     <span class="page-info">第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span>
-    <button
-      :disabled="currentPage === totalPages"
-      @click="emit('page-change', currentPage + 1)"
-    >
+    <button :disabled="currentPage === totalPages" @click="emit('page-change', currentPage + 1)">
       下一页
     </button>
-    <button
-      :disabled="currentPage === totalPages"
-      @click="emit('page-change', totalPages)"
-    >
+    <button :disabled="currentPage === totalPages" @click="emit('page-change', totalPages)">
       末页
     </button>
   </div>

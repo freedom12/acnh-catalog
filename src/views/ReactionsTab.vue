@@ -2,7 +2,8 @@
 import { onMounted } from 'vue';
 import { useReactionsData } from '../composables/useReactionsData';
 import { DATA_LOADING, UI_TEXT } from '../constants';
-import ReactionsGrid from '../components/ReactionsGrid.vue';
+import Grid from '../components/Grid.vue';
+import ReactionCard from '../components/ReactionCard.vue';
 
 // 使用表情反应数据加载组合函数
 const { allReactions, loading, error, loadData } = useReactionsData();
@@ -14,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="reactions-tab">
+  <div class="tab">
     <div v-if="loading" class="loading">{{ DATA_LOADING.REACTIONS }}</div>
     <div v-else-if="error" class="error">{{ error }}</div>
     
@@ -22,39 +23,11 @@ onMounted(() => {
       <div class="stats">
         <p class="stat-item">{{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ allReactions.length }}{{ UI_TEXT.STATS.REACTIONS_UNIT }}</p>
       </div>
-      <ReactionsGrid :reactions="allReactions" />
+      <Grid :datas="allReactions" :card-component="ReactionCard" />
     </template>
   </div>
 </template>
 
 <style scoped>
-.reactions-tab {
-  width: 100%;
-}
-
-.loading, .error {
-  text-align: center;
-  padding: 40px;
-  font-size: 1.2em;
-}
-
-.error {
-  color: #e74c3c;
-}
-
-.stats {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.stat-item {
-  font-size: 1.1em;
-  color: #9c27b0;
-  font-weight: 600;
-  margin: 0;
-}
+@import '../styles/tab-styles.css';
 </style>

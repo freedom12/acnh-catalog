@@ -2,7 +2,8 @@
 import { onMounted } from 'vue';
 import { useNPCsData } from '../composables/useNPCsData';
 import { DATA_LOADING, UI_TEXT } from '../constants';
-import NPCsGrid from '../components/NPCsGrid.vue';
+import Grid from '../components/Grid.vue';
+import NPCCard from '../components/NPCCard.vue';
 
 // 使用NPC数据加载组合函数
 const { allNPCs, loading, error, loadData } = useNPCsData();
@@ -14,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="npcs-tab">
+  <div class="tab">
     <div v-if="loading" class="loading">{{ DATA_LOADING.NPCS }}</div>
     <div v-else-if="error" class="error">{{ error }}</div>
     
@@ -22,39 +23,11 @@ onMounted(() => {
       <div class="stats">
         <p class="stat-item">{{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ allNPCs.length }}{{ UI_TEXT.STATS.NPCS_UNIT }}</p>
       </div>
-      <NPCsGrid :npcs="allNPCs" />
+      <Grid :datas="allNPCs" :card-component="NPCCard" />
     </template>
   </div>
 </template>
 
 <style scoped>
-.npcs-tab {
-  width: 100%;
-}
-
-.loading, .error {
-  text-align: center;
-  padding: 40px;
-  font-size: 1.2em;
-}
-
-.error {
-  color: #e74c3c;
-}
-
-.stats {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.stat-item {
-  font-size: 1.1em;
-  color: #e67e22;
-  font-weight: 600;
-  margin: 0;
-}
+@import '../styles/tab-styles.css';
 </style>

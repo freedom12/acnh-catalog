@@ -17,7 +17,7 @@ const activeTab = ref<TabType>('items');
 <template>
   <div class="container">
     <header>
-      <h1>🍃 动物森友会目录 🍃</h1>
+      <h1>动物森友会目录</h1>
     </header>
 
     <TabSelector v-model:active-tab="activeTab" />

@@ -2,7 +2,8 @@
 import { onMounted, ref, computed } from 'vue';
 import { useCreaturesData } from '../composables/useCreaturesData';
 import { DATA_LOADING, UI_TEXT } from '../constants';
-import CreaturesGrid from '../components/CreaturesGrid.vue';
+import Grid from '../components/Grid.vue';
+import CreatureCard from '../components/CreatureCard.vue';
 
 // 使用生物数据加载组合函数
 const { allCreatures, loading, error, loadData } = useCreaturesData();
@@ -73,7 +74,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="creatures-tab">
+  <div class="tab">
     <div v-if="loading" class="loading">{{ DATA_LOADING.CREATURES }}</div>
     <div v-else-if="error" class="error">{{ error }}</div>
     
@@ -107,25 +108,13 @@ onMounted(() => {
           </button>
         </div>
       </div>
-      <CreaturesGrid :creatures="filteredCreatures" :hemisphere="selectedHemisphere" />
+      <Grid :datas="filteredCreatures" :card-component="CreatureCard" :card-props="{ hemisphere: selectedHemisphere }" />
     </template>
   </div>
 </template>
 
 <style scoped>
-.creatures-tab {
-  width: 100%;
-}
-
-.loading, .error {
-  text-align: center;
-  padding: 40px;
-  font-size: 1.2em;
-}
-
-.error {
-  color: #e74c3c;
-}
+@import '../styles/tab-styles.css';
 
 .filter-row {
   display: flex;
@@ -146,91 +135,6 @@ onMounted(() => {
   border-radius: 25px;
   padding: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.hemisphere-btn {
-  padding: 8px 20px;
-  background: transparent;
-  border: none;
-  border-radius: 21px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: #666;
-}
-
-.hemisphere-btn:hover {
-  color: #333;
-}
-
-.hemisphere-btn.active {
-  background: white;
-  color: #4caf50;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-.category-filter {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.category-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 20px;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1em;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.category-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  border-color: #4caf50;
-}
-
-.category-btn.active {
-  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
-  color: white;
-  border-color: #4caf50;
-  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
-}
-
-.category-icon {
-  font-size: 1.3em;
-}
-
-.category-label {
-  font-weight: 600;
-}
-
-.category-count {
-  font-size: 0.9em;
-  opacity: 0.8;
-}
-
-.stats {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.stat-item {
-  font-size: 1.1em;
-  color: #4caf50;
-  font-weight: 600;
-  margin: 0;
 }
 
 @media (max-width: 768px) {

@@ -1,22 +1,23 @@
 <script setup lang="ts">
-import { computed, ref, onMounted, watch } from 'vue';
+import { computed, onMounted, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import type { Item } from '../types';
-import { getSourceName, getTagName } from '../services/dataService';
-import { formatPrice } from '../utils/common';
+import { getSeriesName, getTagName } from '../services/dataService';
+import { formatPrice, joinArray } from '../utils/common';
 import { ItemModel } from '../models';
 import { useColorDisplay } from '../composables/useColorDisplay';
 import VersionBadge from './VersionBadge.vue';
+import { UI_TEXT } from '../constants';
 
 const props = defineProps<{
-  item: Item;
+  data: Item;
   colorFilter?: string;
 }>();
 
 const router = useRouter();
 
 // 创建 ItemModel 实例
-const itemModel = new ItemModel(props.item);
+const itemModel = new ItemModel(props.data);
 
 // 使用简单的 ref 管理响应式状态 - 直接访问 ItemModel 内部的 ref
 const variantIndex = computed({
@@ -44,7 +45,6 @@ const { conicGradientStyle: colorBlockStyle } = useColorDisplay(displayColors);
 // 便捷方法
 const version = computed(() => itemModel.getVersion());
 const size = computed(() => itemModel.getSize());
-const sources = computed(() => itemModel.getSources());
 const seriesName = computed(() => itemModel.getSeriesName());
 const tag = computed(() => itemModel.getTag());
 
@@ -54,7 +54,7 @@ const sellPrice = computed(() => itemModel.getSellPrice());
 
 // 应用颜色筛选
 const applyColorFilter = () => {
-  if (props.colorFilter && props.item.variantGroups?.length) {
+  if (props.colorFilter && props.data.variantGroups?.length) {
     const match = itemModel.findVariantByColor(props.colorFilter);
     if (match) {
       variantIndex.value = match.variantIndex;
@@ -75,12 +75,6 @@ watch(() => props.colorFilter, () => {
   applyColorFilter();
 });
 
-// 图片加载错误处理
-const imageError = ref(false);
-const handleImageError = (): void => {
-  imageError.value = true;
-};
-
 // 点击卡片跳转到详情页
 const handleCardClick = (event: MouseEvent) => {
   // 如果点击的是款式或图案切换按钮，不跳转
@@ -88,209 +82,82 @@ const handleCardClick = (event: MouseEvent) => {
   if (target.classList.contains('variation-dot')) {
     return;
   }
-  
-  router.push(`/item/${props.item.id}`);
+
+  router.push(`/item/${props.data.id}`);
 };
 </script>
 
 <template>
-  <div class="item-card" :class="{ 'item-owned': item.owned }" @click="handleCardClick">
+  <div class="card card--green" :class="{ 'item-owned': props.data.owned }" @click="handleCardClick">
     <VersionBadge :version="version !== '未知版本' ? version : undefined" />
-    
-    <div class="image-container">
-      <img 
-        v-if="!imageError"
-        :src="displayImage" 
-        :alt="item.name" 
-        class="item-image" 
-        loading="lazy"
-        @error="handleImageError"
-      >
-      <div v-else class="image-placeholder">
-        <span>📦</span>
-        <span class="placeholder-text">图片加载失败</span>
-      </div>
+    <div class="card-image-wrapper">
+      <img :src="displayImage" :alt="displayName" class="card-image" />
     </div>
-    
-    <div class="item-name">{{ displayName }}</div>
-    <div class="item-id">ID: {{ displayId || 'N/A' }}</div>
-    
-    <div v-if="sources.length > 0" class="source-info">
-      📍 {{ sources.map(s => getSourceName(s)).join(', ') }}
-    </div>
-    
-    <div v-if="size !== '未知尺寸' || displayColors.length > 0" class="size-tag-info">
-      <span v-if="size !== '未知尺寸'">📏 {{ size }}</span>
-      <span v-if="displayColors.length > 0" class="color-block" :style="{ background: colorBlockStyle }"></span>
-    </div>
-    
-    <div v-if="tag || seriesName !== '无系列'" class="tag-series-info">
-      <span v-if="tag">🏷️ {{ getTagName(tag) }}</span>
-      <span v-if="tag && seriesName !== '无系列'"> · </span>
-      <span v-if="seriesName !== '无系列'">📦 {{ seriesName }}</span>
-    </div>
-    
-    <div v-if="buyPrice || sellPrice" class="price-info">
-      <span v-if="buyPrice" class="buy-price" title="购买价格">💰 {{ formatPrice(buyPrice) }}</span>
-      <span v-if="buyPrice && sellPrice" class="price-separator">·</span>
-      <span v-if="sellPrice" class="sell-price" title="出售价格">💵 {{ formatPrice(sellPrice) }}</span>
-    </div>
-    
-    <div v-if="hasMultipleVariants" class="variation-row variant-row">
-      <span class="variation-label">款式:</span>
-      <div class="variation-dots">
-        <span
-          v-for="(vg, vIdx) in item.variantGroups"
-          :key="vIdx"
-          class="variation-dot variant-dot"
-          :class="{ active: vIdx === variantIndex }"
-          :title="vg.variantName || `款式 ${vIdx + 1}`"
-          @click="variantIndex = vIdx"
-        >
-          {{ vIdx + 1 }}
+    <div class="card-info">
+      <h3 class="card-name">{{ displayName }}</h3>
+      <div class="item-id"></div>
+      <div class="card-details">
+        <span class="detail-row detail-center">
+          ID: {{ displayId || 'N/A' }}
+          <span v-if="displayColors.length > 0" class="color-block" :style="{ background: colorBlockStyle }"></span>
         </span>
+        <div class="detail-row">
+          <span class="detail-label">尺寸</span>
+          <span class="detail-value">{{ size }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">系列</span>
+          <span class="detail-value">{{ getSeriesName(seriesName) }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">标签</span>
+          <span class="detail-value">{{ getTagName(tag) }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
+          <span class="detail-value">{{ joinArray(props.data.source) }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="buy-price" title="购买价格">💰 {{ formatPrice(buyPrice) }}</span>
+          <span class="sell-price" title="出售价格">💵 {{ formatPrice(sellPrice) }}</span>
+        </div>
       </div>
-    </div>
-    
-    <div v-if="hasPatterns" class="variation-row pattern-row">
-      <span class="variation-label">图案:</span>
-      <div class="variation-dots">
-        <span
-          v-for="(p, pIdx) in currentVariant!.patterns"
-          :key="pIdx"
-          class="variation-dot pattern-dot"
-          :class="{ active: pIdx === patternIndex }"
-          :title="p.patternName || `图案 ${pIdx + 1}`"
-          @click="patternIndex = pIdx"
-        >
-          {{ pIdx + 1 }}
-        </span>
+      <div v-if="hasMultipleVariants" class="variation-row variant-row">
+        <span class="variation-label">款式:</span>
+        <div class="variation-dots">
+          <span v-for="(vg, vIdx) in props.data.variantGroups" :key="vIdx" class="variation-dot variant-dot"
+            :class="{ active: vIdx === variantIndex }" :title="vg.variantName || `款式 ${vIdx + 1}`"
+            @click="variantIndex = vIdx">
+            {{ vIdx + 1 }}
+          </span>
+        </div>
+      </div>
+      <div v-if="hasPatterns" class="variation-row pattern-row">
+        <span class="variation-label">图案:</span>
+        <div class="variation-dots">
+          <span v-for="(p, pIdx) in currentVariant!.patterns" :key="pIdx" class="variation-dot pattern-dot"
+            :class="{ active: pIdx === patternIndex }" :title="p.patternName || `图案 ${pIdx + 1}`"
+            @click="patternIndex = pIdx">
+            {{ pIdx + 1 }}
+          </span>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.item-card {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  cursor: pointer;
-}
-
-.item-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
+@import '../styles/Card.css';
 
 .item-owned {
   background: #e8f5e9;
   border: 2px solid #4caf50;
 }
 
-.image-container {
-  width: 100%;
-  min-height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.item-image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 4px;
-}
-
-.image-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  color: #999;
-  padding: 20px;
-}
-
-.image-placeholder span:first-child {
-  font-size: 48px;
-}
-
-.placeholder-text {
-  font-size: 12px;
-}
-
-.item-name {
-  font-weight: 600;
-  font-size: 14px;
-  color: #333;
-  text-align: center;
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .item-id {
   font-size: 12px;
   color: #666;
   text-align: center;
-}
-
-.source-info {
-  font-size: 11px;
-  color: #495057;
-  margin-top: 5px;
-  padding: 4px 8px;
-  background: #f8f9fa;
-  border-radius: 4px;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.size-tag-info {
-  font-size: 11px;
-  color: #495057;
-  padding: 4px 8px;
-  background: #e9ecef;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-
-.tag-series-info {
-  font-size: 11px;
-  color: #495057;
-  padding: 4px 8px;
-  background: #fff3cd;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: 500;
-}
-
-.price-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 6px 8px;
-  background: #f0f8ff;
-  border-radius: 4px;
 }
 
 .buy-price {
@@ -301,10 +168,6 @@ const handleCardClick = (event: MouseEvent) => {
   color: #51cf66;
 }
 
-.price-separator {
-  color: #ccc;
-}
-
 .color-block {
   display: inline-block;
   width: 16px;
@@ -313,6 +176,13 @@ const handleCardClick = (event: MouseEvent) => {
   border: 1.5px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   flex-shrink: 0;
+  margin: 0 6px;
+  vertical-align: text-top;
+}
+
+.detail-center {
+  justify-content: center !important;
+  align-items: center;
 }
 
 .variation-row {

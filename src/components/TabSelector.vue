@@ -36,12 +36,8 @@ const selectTab = (tabId: TabType) => {
 
 <template>
   <div class="tab-selector">
-    <button
-      v-for="tab in tabs"
-      :key="tab.id"
-      :class="['tab-button', { active: activeTab === tab.id }]"
-      @click="selectTab(tab.id)"
-    >
+    <button v-for="tab in tabs" :key="tab.id" :class="['tab-button', { active: activeTab === tab.id }]"
+      @click="selectTab(tab.id)">
       <span class="tab-icon">{{ tab.icon }}</span>
       <span class="tab-label">{{ tab.label }}</span>
     </button>
@@ -98,12 +94,12 @@ const selectTab = (tabId: TabType) => {
   .tab-selector {
     gap: 8px;
   }
-  
+
   .tab-button {
     padding: 10px 20px;
     font-size: 1em;
   }
-  
+
   .tab-icon {
     font-size: 1.2em;
   }

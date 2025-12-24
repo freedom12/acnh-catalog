@@ -16,7 +16,7 @@ const handleFileSelect = () => {
 const handleFileChange = async (event: Event) => {
   const target = event.target as HTMLInputElement;
   const file = target.files?.[0];
-  
+
   if (!file) {
     return;
   }
@@ -32,7 +32,7 @@ const handleFileChange = async (event: Event) => {
   try {
     const text = await file.text();
     const data = JSON.parse(text);
-    
+
     // 验证数据格式
     if (!data.items || !Array.isArray(data.items)) {
       uploadStatus.value = '文件格式错误：缺少 items 数组';
@@ -41,7 +41,7 @@ const handleFileChange = async (event: Event) => {
     }
 
     // 验证数组中的项
-    const isValid = data.items.every((item: any) => 
+    const isValid = data.items.every((item: any) =>
       item.label && item.unique_id
     );
 
@@ -53,7 +53,7 @@ const handleFileChange = async (event: Event) => {
 
     uploadStatus.value = `成功加载 ${data.items.length} 个物品`;
     emit('catalog-uploaded', data);
-    
+
     // 3秒后清除状态消息
     setTimeout(() => {
       uploadStatus.value = '';
@@ -72,24 +72,15 @@ const handleFileChange = async (event: Event) => {
 
 <template>
   <div class="catalog-uploader">
-    <input
-      ref="fileInput"
-      type="file"
-      accept=".json"
-      style="display: none"
-      @change="handleFileChange"
-    />
-    
-    <button 
-      class="upload-button"
-      :disabled="isUploading"
-      @click="handleFileSelect"
-    >
+    <input ref="fileInput" type="file" accept=".json" style="display: none" @change="handleFileChange" />
+
+    <button class="upload-button" :disabled="isUploading" @click="handleFileSelect">
       <span class="icon">📁</span>
       <span>{{ isUploading ? '正在上传...' : '上传目录文件' }}</span>
     </button>
 
-    <div v-if="uploadStatus" class="upload-status" :class="{ error: uploadStatus.includes('错误') || uploadStatus.includes('失败') }">
+    <div v-if="uploadStatus" class="upload-status"
+      :class="{ error: uploadStatus.includes('错误') || uploadStatus.includes('失败') }">
       {{ uploadStatus }}
     </div>
   </div>
