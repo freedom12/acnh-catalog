@@ -1,21 +1,22 @@
 /**
  * 应用配置常量
  */
+const BASE_PATH = import.meta.env.BASE_URL;
 
 /**
  * 数据文件路径配置
  */
 export const CONFIG = {
   DATA_FILES: {
-    ITEMS: "/config/acnh-items.json",
-    CATALOG: "/catalog_items.json",
-    TRANSLATIONS: "/config/translations.json",
-    VILLAGERS: "/config/acnh-villagers.json",
-    NPCS: "/config/acnh-npcs.json",
-    CREATURES: "/config/acnh-creatures.json",
-    REACTIONS: "/config/acnh-reactions.json",
-    RECIPES: "/config/acnh-recipes.json",
-    CONSTRUCTION: "/config/acnh-construction.json",
+    ITEMS: `${BASE_PATH}config/acnh-items.json`,
+    CATALOG: `${BASE_PATH}catalog_items.json`,
+    TRANSLATIONS: `${BASE_PATH}config/translations.json`,
+    VILLAGERS: `${BASE_PATH}config/acnh-villagers.json`,
+    NPCS: `${BASE_PATH}config/acnh-npcs.json`,
+    CREATURES: `${BASE_PATH}config/acnh-creatures.json`,
+    REACTIONS: `${BASE_PATH}config/acnh-reactions.json`,
+    RECIPES: `${BASE_PATH}config/acnh-recipes.json`,
+    CONSTRUCTION: `${BASE_PATH}config/acnh-construction.json`,
   },
 
   /**
