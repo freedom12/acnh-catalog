@@ -54,14 +54,14 @@ export function useItemsData(): UseItemsDataReturn {
       // 处理物品数据
       allItems.value = processItemsData(acnhItems, ownedData);
 
-      const allOtherItemMap: Record<string, Item> = {};
+      const itemMap: Record<string, Item> = {};
       allItems.value.forEach((item) => {
         const name = item.originalData?.name;
         if (name) {
-          allOtherItemMap[name] = item;
+          itemMap[name] = item;
         }
       });
-      itemNameMap.value = allOtherItemMap;
+      itemNameMap.value = itemMap;
 
       loading.value = false;
       isDataLoaded = true; // 标记数据已加载

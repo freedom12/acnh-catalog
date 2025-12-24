@@ -131,6 +131,8 @@ const goToNookipedia = () => {
 // 加载数据
 onMounted(() => {
   loadData();
+  // 滚动到页面顶部
+  window.scrollTo(0, 0);
 });
 </script>
 
