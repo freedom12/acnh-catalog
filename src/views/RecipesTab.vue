@@ -26,7 +26,7 @@ const filteredRecipes = computed(() => {
 });
 
 // 分页相关
-const itemsPerPage = ref(20);
+const itemsPerPage = ref(100);
 const currentPage = ref(1);
 const totalPages = computed(() => {
   return Math.ceil(filteredRecipes.value.length / itemsPerPage.value);

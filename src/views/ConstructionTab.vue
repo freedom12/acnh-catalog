@@ -4,6 +4,7 @@ import { useConstructionData } from "../composables/useConstructionData";
 import { DATA_LOADING, UI_TEXT } from "../constants";
 import Grid from "../components/Grid.vue";
 import ConstructionCard from "../components/ConstructionCard.vue";
+import Pagination from "../components/Pagination.vue";
 
 // 使用改建数据加载组合函数
 const { allConstruction, loading, error, loadData } = useConstructionData();
@@ -61,6 +62,22 @@ const categoryStats = computed(() => {
   return stats;
 });
 
+// 分页相关
+const itemsPerPage = ref(100);
+const currentPage = ref(1);
+const totalPages = computed(() => {
+  return Math.ceil(filteredConstruction.value.length / itemsPerPage.value);
+});
+const constructionToDisplay = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
+  return filteredConstruction.value.slice(start, end);
+});
+const handlePageChange = (page: number) => {
+  currentPage.value = page;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 // 组件挂载时加载数据
 onMounted(() => {
   loadData();
@@ -93,7 +110,15 @@ onMounted(() => {
           >
         </button>
       </div>
-      <Grid :datas="filteredConstruction" :card-component="ConstructionCard" />
+      <Grid :datas="constructionToDisplay" :card-component="ConstructionCard" />
+      <Pagination
+        v-if="totalPages > 1"
+        :current-page="currentPage"
+        :total-pages="totalPages"
+        :per-page="itemsPerPage"
+        :items-count="filteredConstruction.length"
+        @page-change="handlePageChange"
+      />
     </template>
   </div>
 </template>

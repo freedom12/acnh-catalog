@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { onMounted, ref, computed } from "vue";
+import { onMounted, ref, computed, watch } from "vue";
 import { useVillagersData } from "../composables/useVillagersData";
 import { DATA_LOADING } from "../constants";
 import Grid from "../components/Grid.vue";
 import VillagerCard from "../components/VillagerCard.vue";
 import VillagerFilterControls from "../components/VillagerFilterControls.vue";
+import Pagination from "../components/Pagination.vue";
 
 // 使用村民数据加载组合函数
 const { allVillagers, loading, error, loadData } = useVillagersData();
@@ -35,10 +36,31 @@ const filteredVillagers = computed(() => {
   return result;
 });
 
+// 分页相关
+const itemsPerPage = ref(100);
+const currentPage = ref(1);
+const totalPages = computed(() => {
+  return Math.ceil(filteredVillagers.value.length / itemsPerPage.value);
+});
+const villagersToDisplay = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
+  return filteredVillagers.value.slice(start, end);
+});
+const handlePageChange = (page: number) => {
+  currentPage.value = page;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 // 组件挂载时加载数据
 onMounted(() => {
   loadData();
 });
+
+// 当筛选条件改变时，重置到第一页
+watch(filters, () => {
+  currentPage.value = 1;
+}, { deep: true });
 </script>
 
 <template>
@@ -79,7 +101,15 @@ onMounted(() => {
           />
         </div>
       </div>
-      <Grid :datas="filteredVillagers" :card-component="VillagerCard" />
+      <Grid :datas="villagersToDisplay" :card-component="VillagerCard" />
+      <Pagination
+        v-if="totalPages > 1"
+        :current-page="currentPage"
+        :total-pages="totalPages"
+        :per-page="itemsPerPage"
+        :items-count="filteredVillagers.length"
+        @page-change="handlePageChange"
+      />
     </template>
   </div>
 </template>

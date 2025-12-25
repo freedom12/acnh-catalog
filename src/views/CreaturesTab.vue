@@ -5,6 +5,7 @@ import { DATA_LOADING, UI_TEXT } from '../constants';
 import Grid from '../components/Grid.vue';
 import CreatureCard from '../components/CreatureCard.vue';
 import ToggleGroup from '../components/ToggleGroup.vue';
+import Pagination from '../components/Pagination.vue';
 
 // 使用生物数据加载组合函数
 const { allCreatures, loading, error, loadData } = useCreaturesData();
@@ -74,6 +75,22 @@ const categoryStats = computed(() => {
   return stats;
 });
 
+// 分页相关
+const itemsPerPage = ref(100);
+const currentPage = ref(1);
+const totalPages = computed(() => {
+  return Math.ceil(filteredCreatures.value.length / itemsPerPage.value);
+});
+const creaturesToDisplay = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
+  return filteredCreatures.value.slice(start, end);
+});
+const handlePageChange = (page: number) => {
+  currentPage.value = page;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 // 组件挂载时加载数据
 onMounted(() => {
   loadData();
@@ -105,7 +122,15 @@ onMounted(() => {
           />
         </div>
       </div>
-      <Grid :datas="filteredCreatures" :card-component="CreatureCard" :card-props="{ hemisphere: selectedHemisphere }" />
+      <Grid :datas="creaturesToDisplay" :card-component="CreatureCard" :card-props="{ hemisphere: selectedHemisphere }" />
+      <Pagination
+        v-if="totalPages > 1"
+        :current-page="currentPage"
+        :total-pages="totalPages"
+        :per-page="itemsPerPage"
+        :items-count="filteredCreatures.length"
+        @page-change="handlePageChange"
+      />
     </template>
   </div>
 </template>
