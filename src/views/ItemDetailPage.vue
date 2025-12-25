@@ -155,7 +155,7 @@ onMounted(() => {
             @click="goToNookipedia"
             title="点击查看Nookipedia页面"
           >
-            <img :src="displayImage" :alt="displayName" />
+            <img :src="displayImage" :alt="displayName" loading="lazy" />
           </div>
           <div class="owned-badge" :class="{ owned: isOwned }">
             <span class="owned-icon">{{ isOwned ? "✓" : "✗" }}</span>
@@ -366,7 +366,7 @@ onMounted(() => {
         <div class="recipe-content">
           <div class="recipe-header">
             <div v-if="recipeData.image" class="recipe-image">
-              <img :src="recipeData.image" :alt="recipeData.name" />
+              <img :src="recipeData.image" :alt="recipeData.name" loading="lazy" />
             </div>
             <div class="recipe-basic-info">
               <h4>{{ recipeData.name }}</h4>
@@ -433,6 +433,7 @@ onMounted(() => {
               <img
                 :src="variant.imageUrl"
                 :alt="`${variant.variantName} - ${variant.patternName}`"
+                loading="lazy"
               />
             </div>
             <div class="variant-info">

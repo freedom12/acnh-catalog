@@ -42,6 +42,7 @@ const iconSize = computed(() => 24);
         :alt="materialItem?.name || material"
         class="material-icon"
         :style="{ width: iconSize + 'px', height: iconSize + 'px' }"
+        loading="lazy"
       />
       <span class="material-name">{{ materialItem?.name || material }}</span>
     </div>

@@ -52,6 +52,7 @@ const handleClick = () => {
       :alt="props.itemName"
       :style="{ width: props.size + 'px', height: props.size + 'px' }"
       class="item-icon"
+      loading="lazy"
     />
     <transition name="preview">
       <div v-if="showPreview" class="preview-overlay">
@@ -60,6 +61,7 @@ const handleClick = () => {
           :src="item.imageUrl"
           alt="preview"
           class="preview-icon"
+          loading="lazy"
         />
         <hr v-if="chineseName" class="preview-separator" />
         <span v-if="chineseName" class="preview-name">{{ chineseName }}</span>
