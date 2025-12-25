@@ -29,9 +29,9 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value price"
-        >{{ formatPrice(props.data.sell) }} {{ UI_TEXT.CURRENCY }}</span
-      >
+      <span class="detail-value price">
+        {{ formatPrice(props.data.sell) }} {{ UI_TEXT.CURRENCY }}
+      </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

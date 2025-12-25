@@ -12,6 +12,7 @@ import {
 import { processImageUrl } from "../utils/imageUtils";
 import MaterialItem from "../components/MaterialItem.vue";
 import ColorBlock from "../components/ColorBlock.vue";
+import type { Color } from "../types";
 
 const route = useRoute();
 const router = useRouter();
@@ -85,7 +86,7 @@ const allVariants = computed(() => {
     patternName: string;
     image: string;
     id: number;
-    colors: string[];
+    colors: Color[];
   }> = [];
 
   variants.forEach((variant) => {
@@ -95,7 +96,7 @@ const allVariants = computed(() => {
         patternName: pattern.name,
         image: pattern.image,
         id: pattern.id,
-        colors: pattern.colors.map(c => colorNameMap[c] || ""),
+        colors: pattern.colors,
       });
     });
   });
@@ -431,7 +432,7 @@ onMounted(() => {
           >
             <div class="variant-image">
               <img
-                :src="variant.image"
+                :src="processImageUrl(variant.image)"
                 :alt="`${variant.variantName} - ${variant.patternName}`"
                 loading="lazy"
               />

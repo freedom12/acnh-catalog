@@ -14,6 +14,7 @@ export const DATA_LOADING = {
   REACTIONS: "正在加载表情反应数据...",
   RECIPES: "正在加载DIY配方数据...",
   CONSTRUCTION: "正在加载改建数据...",
+  MESSAGE_CARDS: "正在加载消息卡片数据...",
   ERROR_GENERIC: "加载数据失败，请确保数据文件存在",
 } as const;
 
@@ -28,6 +29,7 @@ export const ENTITY_ICONS = {
   REACTIONS: "😊",
   RECIPES: "📜",
   CONSTRUCTION: "🏗️",
+  MESSAGE_CARDS: "💌",
   // 生物类型
   INSECTS: "🦋",
   FISH: "🐟",

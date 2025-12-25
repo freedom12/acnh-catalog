@@ -54,7 +54,7 @@ export function formatPrice(price: number | null | undefined): string {
 export function getChineseText<
   T extends { translations?: Translation; name: string }
 >(obj: T): string {
-  return obj.translations?.cNzh || obj.name;
+  return obj.translations?.cNzh || obj.name || "--";
 }
 
 /**

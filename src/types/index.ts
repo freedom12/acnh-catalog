@@ -9,6 +9,7 @@ export * from "./villager";
 export * from "./npc";
 export * from "./creature";
 export * from "./reaction";
+export * from "./messagecard";
 
 /**
  * 翻译接口

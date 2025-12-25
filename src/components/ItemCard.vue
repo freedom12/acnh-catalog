@@ -34,7 +34,6 @@ const currentVariant = computed(() => itemModel.getCurrentVariant());
 const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
 const displayName = computed(() => itemModel.getDisplayName());
-const displayImage = computed(() => itemModel.getDisplayImage());
 const hasMultipleVariants = computed(() => itemModel.hasMultipleVariants());
 const hasPatterns = computed(() => itemModel.hasPatterns());
 

@@ -3,7 +3,11 @@
  */
 
 import { items as oldItems } from "animal-crossing";
-import type { Item as NewItem, RecipeData, VariantGroup } from "../src/types/item";
+import type {
+  Item as NewItem,
+  RecipeData,
+  VariantGroup,
+} from "../src/types/item";
 import { ItemCategory, Version, ItemSize, Color } from "../src/types/item";
 import * as fs from "fs";
 import * as path from "path";
@@ -253,9 +257,6 @@ function convertItem(oldItem: OldItem): NewItem {
   if (oldItem.recipe) {
     images.push(processImageUrlForStorage(oldItem.recipe.image));
   }
-  if (images.length > 1) {
-    console.log(`Item ${name} has multiple images (${images.length})`);
-  }
   const result: NewItem = {
     name,
     rawName: oldItem.name,
@@ -283,18 +284,29 @@ function convertItem(oldItem: OldItem): NewItem {
   return result;
 }
 
+let messageCards = [];
 // 遍历 animal-crossing 包中的 oldItems 数据，转换为newItems 结构
 for (const oldItem of oldItems) {
   if (oldItem.sourceSheet === OldItemSourceSheet.MessageCards) {
-    continue; // 跳过无效物品
+    oldItem.version = undefined; // 消息卡片不需要版本信息
+    messageCards.push(oldItem);
+  } else {
+    const newItem = convertItem(oldItem);
+    newItems.push(newItem);
   }
-  const newItem = convertItem(oldItem);
-  newItems.push(newItem);
 }
+
+messageCards.sort((a, b) => a.internalId! - b.internalId!);
 
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, "acnh-items.small.json"),
   JSON.stringify(newItems),
+  "utf-8"
+);
+
+fs.writeFileSync(
+  path.join(outputPath, "acnh-message-cards.json"),
+  JSON.stringify(messageCards, null, 2),
   "utf-8"
 );

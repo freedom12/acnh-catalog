@@ -1,7 +1,15 @@
 import { ref, type Ref } from "vue";
 import { ItemModel } from "../models/ItemModel";
 import { Color, ItemCategory, ItemSize, Version } from "../types/item";
-import { getCategoryName, getColorName, getSizeName, getVersionName } from "../services/dataService";
+import {
+  getCategoryName,
+  getColorName,
+  getSeriesName,
+  getSizeName,
+  getSourceName,
+  getTagName,
+  getVersionName,
+} from "../services/dataService";
 
 export interface FilterOption<T = string> {
   value?: T;
@@ -32,19 +40,25 @@ export function useFilterOptions(): FilterOptionsData {
   const colors = ref<FilterOption<Color>[]>([]);
   const series = ref<FilterOption[]>([]);
 
-  const populateCategories = (): void => {
-    categories.value = Object.values(ItemCategory).map((category) => ({
-      value: category,
-      name: getCategoryName(category),
-    }));
-  }
+  categories.value = Object.values(ItemCategory).map((category) => ({
+    value: category,
+    name: getCategoryName(category),
+  }));
 
-  const populateVersions = (): void => {
-    versions.value = Object.values(Version).map((version) => ({
-      value: version,
-      name: getVersionName(version),
-    }));
-  }
+  versions.value = Object.values(Version).map((version) => ({
+    value: version,
+    name: getVersionName(version),
+  }));
+
+  sizes.value = Object.values(ItemSize).map((size) => ({
+    value: size,
+    name: getSizeName(size),
+  }));
+
+  colors.value = Object.values(Color).map((color) => ({
+    value: color,
+    name: getColorName(color),
+  }));
 
   const populateSources = (items: ItemModel[]): void => {
     const itemSources = new Set<string>();
@@ -55,68 +69,37 @@ export function useFilterOptions(): FilterOptionsData {
 
     sources.value = [...itemSources].sort().map((source) => ({
       value: source,
-      name: source,
+      name: getSourceName(source),
     }));
   };
 
-  const populateSizes = (): void => {
-    sizes.value = Object.values(ItemSize).map((size) => ({
-      value: size,
-      name: getSizeName(size),
-    }));
-  }
-
-  /**
-   * 从物品列表中填充标签选项
-   */
   const populateTags = (items: ItemModel[]): void => {
     const tagsSet = new Set(
       items.map((item) => item.getTag()).filter((t): t is string => !!t)
     );
 
-    tags.value = [...tagsSet].sort().map((tag) => ({
-      value: tag,
-      name: tag,
-    })).sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
-  };
-
-  const populateColors = (): void => {
-    colors.value = Object.values(Color).map((color) => ({
-      value: color,
-      name: getColorName(color),
-    }));
-  }
-
-  /**
-   * 从物品列表中填充系列选项
-   */
-  const populateSeries = (items: ItemModel[]): void => {
-    const seriesMap = new Map<string, string>();
-
-    items.forEach((item) => {
-      const series = item.getSeries();
-      if (series && !seriesMap.has(series)) {
-        // 从原始数据中获取翻译后的系列名称
-        const seriesName = series;
-        seriesMap.set(series, seriesName);
-      }
-    });
-
-    series.value = [...seriesMap.entries()]
-      .map(([value, name]) => ({ value, name }))
+    tags.value = [...tagsSet]
+      .sort()
+      .map((tag) => ({
+        value: tag,
+        name: getTagName(tag),
+      }))
       .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
   };
 
-  /**
-   * 填充所有筛选器选项
-   */
+  const populateSeries = (items: ItemModel[]): void => {
+    const seriesSet = new Set(
+      items.map((item) => item.getSeries()).filter((s): s is string => !!s)
+    );
+    series.value = [...seriesSet].sort().map((ser) => ({
+      value: ser,
+      name: getSeriesName(ser),
+    }));
+  };
+
   const populateFilters = (items: ItemModel[]): void => {
-    populateCategories();
-    populateVersions();
     populateSources(items);
-    populateSizes();
     populateTags(items);
-    populateColors();
     populateSeries(items);
   };
 

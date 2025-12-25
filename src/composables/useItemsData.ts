@@ -9,6 +9,7 @@ import { DATA_LOADING } from "../constants";
 
 export interface UseItemsDataReturn {
   allItems: Ref<ItemModel[]>;
+  itemIdMap: Ref<Record<number, ItemModel>>;
   itemNameMap: Ref<Record<string, ItemModel>>;
   loading: Ref<boolean>;
   error: Ref<string>;
@@ -20,6 +21,7 @@ export interface UseItemsDataReturn {
 
 // 全局状态，所有组件共享
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
+const itemIdMap = ref<Record<number, ItemModel>>({});
 const itemNameMap = ref<Record<string, ItemModel>>({});
 const loading = ref(true);
 const error = ref("");
@@ -59,14 +61,18 @@ export function useItemsData(): UseItemsDataReturn {
         })
         .sort((a, b) => a.id - b.id);
 
-      const itemMap: Record<string, ItemModel> = {};
+      let _itemIdMap: Record<number, ItemModel> = {};
+      allItems.value.forEach((item) => {
+        _itemIdMap[item.id] = item;
+      });
+      itemIdMap.value = _itemIdMap;
+
+      const _itemNameMap: Record<string, ItemModel> = {};
       allItems.value.forEach((item) => {
         const name = item.raw.rawName;
-        if (name) {
-          itemMap[name] = item as ItemModel;
-        }
+        _itemNameMap[name] = item;
       });
-      itemNameMap.value = itemMap;
+      itemNameMap.value = _itemNameMap;
 
       loading.value = false;
       isDataLoaded = true; // 标记数据已加载
@@ -96,6 +102,7 @@ export function useItemsData(): UseItemsDataReturn {
 
   return {
     allItems,
+    itemIdMap,
     itemNameMap,
     loading,
     error,
