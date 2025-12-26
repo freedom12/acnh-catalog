@@ -84,7 +84,7 @@ const handleFileChange = async (event: Event) => {
     />
 
     <button
-      class="upload-button"
+      class="action-btn success"
       :disabled="isUploading"
       @click="handleFileSelect"
     >
@@ -105,47 +105,12 @@ const handleFileChange = async (event: Event) => {
 </template>
 
 <style scoped>
+@import "../styles/button-styles.css";
+
 .catalog-uploader {
   display: flex;
   align-items: center;
   gap: 12px;
-}
-
-.upload-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: linear-gradient(135deg, #4a9b4f 0%, #5db663 100%);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  white-space: nowrap;
-}
-
-.upload-button:hover:not(:disabled) {
-  background: linear-gradient(135deg, #3d8342 0%, #4a9b4f 100%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transform: translateY(-1px);
-}
-
-.upload-button:active:not(:disabled) {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.upload-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.upload-button .icon {
-  font-size: 12px;
 }
 
 .upload-status {

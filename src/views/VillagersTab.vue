@@ -86,7 +86,7 @@ watch(filters, () => {
           </div>
           <div class="action-buttons">
             <button
-              class="toggle-filter-btn"
+              class="action-btn primary"
               @click="isFilterExpanded = !isFilterExpanded"
             >
               <span>{{ isFilterExpanded ? "收起筛选" : "展开筛选" }}</span>
@@ -116,6 +116,7 @@ watch(filters, () => {
 
 <style scoped>
 @import "../styles/tab-styles.css";
+@import "../styles/button-styles.css";
 
 .filter-section {
   margin-bottom: 20px;

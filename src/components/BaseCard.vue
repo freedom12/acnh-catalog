@@ -113,5 +113,5 @@ const nextImage = () => {
 </template>
 
 <style>
-@import "../styles/Card.css";
+@import "../styles/card-styles.css";
 </style>

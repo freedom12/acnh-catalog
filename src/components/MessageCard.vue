@@ -37,7 +37,7 @@ const handleClick = () => {
     @click="handleClick"
   >
     <template #name>
-      <h3 class="card-name" :style="{ color: props.data.penColor1 }">
+      <h3 class="card-name" :style="{ color: props.data.headColor }">
         {{ props.data.name }}
       </h3>
     </template>

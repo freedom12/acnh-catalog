@@ -32,6 +32,8 @@ export function useItemsFilter(allItems: Ref<ItemModel[]>): UseItemsFilterReturn
     tagFilter: "",
     colorFilter: undefined,
     seriesFilter: "",
+    themeFilter: "",
+    styleFilter: "",
   });
 
   const sortValue = ref(CONFIG.SORT_OPTIONS.ID_ASC);

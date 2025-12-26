@@ -30,6 +30,8 @@ const {
   tags,
   colors,
   series: seriesOptions,
+  themes,
+  styles,
   populateFilters,
 } = useFilterOptions();
 
@@ -95,6 +97,30 @@ watch(
     populateFilters(newItems);
   }
 );
+
+// 清空所有筛选条件
+const clearAllFilters = () => {
+  const clearedFilters: FilterOptions = {
+    searchTerm: "",
+    category: undefined,
+    ownedFilter: undefined,
+    versionFilter: undefined,
+    sourceFilter: "",
+    sizeFilter: undefined,
+    tagFilter: "",
+    colorFilter: undefined,
+    seriesFilter: "",
+    themeFilter: "",
+    styleFilter: "",
+  };
+
+  // 清空搜索框
+  searchInput.value = "";
+
+  // 更新筛选条件
+  emit("update:filters", clearedFilters);
+  emit("filter-change");
+};
 </script>
 
 <template>
@@ -107,14 +133,6 @@ watch(
     />
 
     <div class="filter-section">
-      <label>分类：</label>
-      <select v-model="localFilters.category" @change="emit('filter-change')">
-        <option :value="undefined">全部分类</option>
-        <option v-for="cat in categories" :key="cat.value" :value="cat.value">
-          {{cat.name}}
-        </option>
-      </select>
-
       <label>排序：</label>
       <select v-model="localSort">
         <option value="name-asc">名称 A-Z</option>
@@ -137,9 +155,17 @@ watch(
         v-model="localFilters.ownedFilter"
         @change="emit('filter-change')"
       >
-        <option :value="undefined">全部物品</option>
+        <option :value="undefined">全部</option>
         <option :value="true">仅已拥有</option>
         <option :value="false">仅未拥有</option>
+      </select>
+
+      <label>分类：</label>
+      <select v-model="localFilters.category" @change="emit('filter-change')">
+        <option :value="undefined">全部</option>
+        <option v-for="cat in categories" :key="cat.value" :value="cat.value">
+          {{ cat.name }}
+        </option>
       </select>
 
       <label>版本：</label>
@@ -147,7 +173,7 @@ watch(
         v-model="localFilters.versionFilter"
         @change="emit('filter-change')"
       >
-        <option :value="undefined">全部版本</option>
+        <option :value="undefined">全部</option>
         <option v-for="ver in versions" :key="ver.value" :value="ver.value">
           {{ ver.name }}
         </option>
@@ -155,39 +181,39 @@ watch(
 
       <label>尺寸：</label>
       <select v-model="localFilters.sizeFilter" @change="emit('filter-change')">
-        <option :value="undefined">全部尺寸</option>
+        <option :value="undefined">全部</option>
         <option v-for="size in sizes" :key="size.value" :value="size.value">
           {{ size.name }}
         </option>
       </select>
-    </div>
 
-    <div class="filter-section">
       <label>颜色：</label>
       <select
         v-model="localFilters.colorFilter"
         @change="emit('filter-change')"
       >
-        <option :value="undefined">全部颜色</option>
+        <option :value="undefined">全部</option>
         <option v-for="color in colors" :key="color.value" :value="color.value">
           {{ color.name }}
         </option>
       </select>
+    </div>
 
+    <div class="filter-section">
       <label>标签：</label>
       <select v-model="localFilters.tagFilter" @change="emit('filter-change')">
-        <option value="">全部标签</option>
+        <option value="">全部</option>
         <option v-for="tag in tags" :key="tag.value" :value="tag.value">
           {{ tag.name }}
         </option>
       </select>
 
-      <label>系列：</label>
+      <label>HHA主题：</label>
       <select
         v-model="localFilters.seriesFilter"
         @change="emit('filter-change')"
       >
-        <option value="">全部系列</option>
+        <option value="">全部</option>
         <option
           v-for="series in seriesOptions"
           :key="series.value"
@@ -197,21 +223,53 @@ watch(
         </option>
       </select>
 
+      <label>服饰主题：</label>
+      <select
+        v-model="localFilters.themeFilter"
+        @change="emit('filter-change')"
+      >
+        <option value="">全部</option>
+        <option v-for="theme in themes" :key="theme.value" :value="theme.value">
+          {{ theme.name }}
+        </option>
+      </select>
+
+      <label>服饰风格：</label>
+      <select
+        v-model="localFilters.styleFilter"
+        @change="emit('filter-change')"
+      >
+        <option value="">全部</option>
+        <option v-for="style in styles" :key="style.value" :value="style.value">
+          {{ style.name }}
+        </option>
+      </select>
+
       <label>来源：</label>
       <select
         v-model="localFilters.sourceFilter"
         @change="emit('filter-change')"
       >
-        <option value="">全部来源</option>
-        <option v-for="source in sources" :key="source.value" :value="source.value">
+        <option value="">全部</option>
+        <option
+          v-for="source in sources"
+          :key="source.value"
+          :value="source.value"
+        >
           {{ source.name }}
         </option>
       </select>
+
+      <button class="action-btn danger" @click="clearAllFilters">
+        清空筛选
+      </button>
     </div>
   </div>
 </template>
 
 <style scoped>
+@import "../styles/button-styles.css";
+
 .controls {
   display: flex;
   flex-wrap: wrap;

@@ -6,8 +6,8 @@ export interface MessageCard {
   sourceSheet: string;
   name: string;
   image: string;
-  buy: number | null;
-  backColor: string | null;
+  buy?: number;
+  backColor?: string;
   bodyColor: string;
   headColor: string;
   footColor: string;
@@ -15,11 +15,11 @@ export interface MessageCard {
   penColor2: string;
   penColor3: string;
   penColor4: string;
-  startDate: string | null;
-  endDate: string | null;
-  nhStartDate: string | null;
-  nhEndDate: string | null;
-  shStartDate: string | null;
-  shEndDate: string | null;
+  startDate?: string;
+  endDate?: string;
+  nhStartDate?: string;
+  nhEndDate?: string;
+  shStartDate?: string;
+  shEndDate?: string;
   uniqueEntryId: string;
 }

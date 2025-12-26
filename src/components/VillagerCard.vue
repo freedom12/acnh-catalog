@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from "vue";
 import type { Villager } from "../types/villager";
-import { ENTITY_ICONS, PERSONALITY_MAP } from "../constants";
+import { ENTITY_ICONS } from "../constants";
 import { getChineseText, lightenColor } from "../utils/common";
 import { useItemsData } from "../composables/useItemsData";
 import BaseCard from "./BaseCard.vue";
 import ItemIcon from "./ItemIcon.vue";
+import {
+  getHobbyName,
+  getPersonalityName,
+  getSpeciesName,
+} from "../services/dataService";
 
 interface Props {
   data: Villager;
@@ -33,11 +38,6 @@ const currentShape = computed(() =>
 // 获取性别emoji
 const getGenderIcon = (gender: string): string => {
   return gender === "Male" ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
-};
-
-// 获取性格中文
-const getPersonalityChinese = (personality: string): string => {
-  return PERSONALITY_MAP[personality] || personality;
 };
 
 // 获取家具列表
@@ -95,12 +95,13 @@ const toggleFurnitureExpanded = () => {
       </h3>
     </template>
     <span class="detail-row detail-center">
-      {{ getGenderIcon(props.data.gender) }} {{ props.data.species }}
+      {{ getGenderIcon(props.data.gender) }}
+      {{ getSpeciesName(props.data.species) }}
     </span>
     <span class="detail-row detail-center">
-      {{ getPersonalityChinese(props.data.personality) }} -
-      {{ props.data.subtype }} /
-      {{ props.data.hobby }}
+      {{ getPersonalityName(props.data.personality) }}({{ props.data.subtype }})
+      /
+      {{ getHobbyName(props.data.hobby) }}
     </span>
     <span class="detail-row detail-center"> 🎂 {{ props.data.birthday }} </span>
 

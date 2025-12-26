@@ -2,45 +2,20 @@
 import { computed, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { useItemsData } from "../composables/useItemsData";
-import {
-  getSourceName,
-  getTagName,
-  getCategoryName,
-  getColorName,
-  colorNameMap,
-} from "../services/dataService";
+import { getSourceName } from "../services/dataService";
 import { processImageUrl } from "../utils/imageUtils";
 import MaterialItem from "../components/MaterialItem.vue";
 import ColorBlock from "../components/ColorBlock.vue";
 import type { Color } from "../types";
+import { joinArray } from "../utils";
 
 const route = useRoute();
 const router = useRouter();
-const { allItems, loading, error, loadData } = useItemsData();
+const { itemIdMap, loading, error, loadData } = useItemsData();
 
-// 获取物品ID
 const itemId = computed(() => Number(route.params.id));
+const itemModel = computed(() => itemIdMap.value[itemId.value]);
 
-// 查找当前物品
-const currentItem = computed(() =>
-  allItems.value.find((item) => item.id === itemId.value)
-);
-
-// 使用当前物品作为 ItemModel
-const itemModel = currentItem;
-
-// 获取物品详细信息
-const displayImage = computed(() => itemModel.value?.getDisplayImage() || "");
-const displayName = computed(() => itemModel.value?.getDisplayName() || "");
-const displayId = computed(() => itemModel.value?.getDisplayId() || "");
-const displayColors = computed(() => itemModel.value?.getDisplayColors() || []);
-const version = computed(() => itemModel.value?.getVersion() || "");
-const size = computed(() => itemModel.value?.getSize() || "");
-const sources = computed(() => itemModel.value?.getSources() || []);
-const seriesName = computed(() => itemModel.value?.getSeriesName() || "");
-const tag = computed(() => itemModel.value?.getTag() || "");
-const buyPrice = computed(() => itemModel.value?.getBuyPrice());
-const sellPrice = computed(() => itemModel.value?.getSellPrice());
 const isDIY = computed(() => false);
 const isCustomizable = computed(() => false);
 const isOutdoor = computed(() => false);
@@ -49,7 +24,7 @@ const hhaPoints = computed(() => null);
 const stackSize = computed(() => 1);
 
 // 获取配方数据
-const recipeData = computed(() => currentItem.value?.raw.recipe);
+const recipeData = computed(() => itemModel.value?.raw.recipe);
 const recipeImageUrl = computed(() => {
   return recipeData.value?.image ? processImageUrl(recipeData.value.image) : "";
 });
@@ -64,8 +39,6 @@ const hasMaterials = computed(() => {
 
 const kitCost = computed(() => null);
 const cyrusPrice = computed(() => null);
-const exchangePrice = computed(() => null);
-const exchangeCurrency = computed(() => null);
 const surface = computed(() => null);
 const seasonEvent = computed(() => null);
 const hhaCategory = computed(() => null);
@@ -78,7 +51,7 @@ const setName = computed(() => null);
 // 获取所有变体
 const allVariants = computed(() => {
   if (!itemModel.value) return [];
-  const variants = itemModel.value.getVariantGroups();
+  const variants = itemModel.value.variantGroups;
 
   // 将变体展平为列表，每个图案作为一个独立项
   const flatVariants: Array<{
@@ -118,8 +91,8 @@ const goBack = () => {
 
 // 跳转到Nookipedia页面
 const goToNookipedia = () => {
-  if (currentItem.value?.name) {
-    const itemName = currentItem.value.name;
+  if (itemModel.value?.name) {
+    const itemName = itemModel.value.rawName;
     // 将空格替换为下划线，构建Nookipedia URL格式：Item:ItemName_(New_Horizons)
     const urlName = itemName.replace(/ /g, "_");
     window.open(
@@ -141,7 +114,7 @@ onMounted(() => {
   <div class="detail-container">
     <div v-if="loading" class="loading">正在加载物品数据...</div>
     <div v-else-if="error" class="error">{{ error }}</div>
-    <div v-else-if="!currentItem" class="error">未找到该物品</div>
+    <div v-else-if="!itemModel" class="error">未找到该物品</div>
 
     <template v-else>
       <div class="header">
@@ -156,7 +129,7 @@ onMounted(() => {
             @click="goToNookipedia"
             title="点击查看Nookipedia页面"
           >
-            <img :src="displayImage" :alt="displayName" loading="lazy" />
+            <img :src="itemModel.image" :alt="itemModel.name" loading="lazy" />
           </div>
           <div class="owned-badge" :class="{ owned: isOwned }">
             <span class="owned-icon">{{ isOwned ? "✓" : "✗" }}</span>
@@ -166,9 +139,9 @@ onMounted(() => {
 
         <div class="info-section">
           <div class="title-section">
-            <h2>{{ displayName }}</h2>
-            <div v-if="version !== '未知版本'" class="version-badge">
-              {{ version }}
+            <h2>{{ itemModel.name }}</h2>
+            <div v-if="itemModel.version" class="version-badge">
+              {{ itemModel.versionName }}
             </div>
           </div>
 
@@ -176,66 +149,59 @@ onMounted(() => {
           <div class="info-grid">
             <div class="info-item">
               <label>物品ID:</label>
-              <span>{{ displayId || "N/A" }}</span>
+              <span>{{ itemModel.id }}</span>
             </div>
 
             <div class="info-item">
               <label>分类:</label>
-              <span>{{ getCategoryName(currentItem.category) }}</span>
+              <span>{{ itemModel.categoryName }}</span>
             </div>
 
-            <div v-if="size !== '未知尺寸'" class="info-item">
+            <div v-if="itemModel.size" class="info-item">
               <label>尺寸:</label>
-              <span>📏 {{ size }}</span>
+              <span>📏 {{ itemModel.sizeName }}</span>
             </div>
 
-            <div v-if="displayColors.length > 0" class="info-item">
+            <div v-if="itemModel.colors.length > 0" class="info-item">
               <label>颜色:</label>
               <div class="color-display">
                 <span
-                  v-for="(color, idx) in displayColors"
+                  v-for="(colorName, idx) in itemModel.colorNames"
                   :key="idx"
                   class="color-tag"
                 >
-                  {{ getColorName(color) }}
+                  {{ colorName }}
                 </span>
-                <ColorBlock :displayColors="displayColors" />
+                <ColorBlock :displayColors="itemModel.colors" />
               </div>
             </div>
 
-            <div v-if="sources.length > 0" class="info-item full-width">
+            <div
+              v-if="itemModel.sources.length > 0"
+              class="info-item full-width"
+            >
               <label>来源:</label>
-              <span
-                >📍 {{ sources.map((s) => getSourceName(s)).join(", ") }}</span
-              >
+              <span>📍 {{ joinArray(itemModel.sourceNames) }}</span>
             </div>
 
-            <div v-if="tag" class="info-item">
+            <div v-if="itemModel.tag" class="info-item">
               <label>标签:</label>
-              <span>🏷️ {{ getTagName(tag) }}</span>
+              <span>🏷️ {{ itemModel.tagName }}</span>
             </div>
 
-            <div v-if="seriesName !== '无系列'" class="info-item">
+            <div v-if="itemModel.series" class="info-item">
               <label>系列:</label>
-              <span>📦 {{ seriesName }}</span>
+              <span>📦 {{ itemModel.seriesName }}</span>
             </div>
 
-            <div v-if="buyPrice" class="info-item">
+            <div v-if="itemModel.buyPrice" class="info-item">
               <label>购买价格:</label>
-              <span class="price">💰 {{ formatPrice(buyPrice) }} 铃钱</span>
+              <span class="price">💰 {{ itemModel.buyPriceStr }} 铃钱</span>
             </div>
 
-            <div v-if="sellPrice" class="info-item">
+            <div v-if="itemModel.sellPrice" class="info-item">
               <label>出售价格:</label>
-              <span class="price">💵 {{ formatPrice(sellPrice) }} 铃钱</span>
-            </div>
-
-            <div v-if="exchangePrice && exchangeCurrency" class="info-item">
-              <label>兑换价格:</label>
-              <span class="price"
-                >🎫 {{ formatPrice(exchangePrice) }}
-                {{ exchangeCurrency }}</span
-              >
+              <span class="price">💵 {{ itemModel.sellPriceStr }} 铃钱</span>
             </div>
           </div>
 
@@ -367,7 +333,11 @@ onMounted(() => {
         <div class="recipe-content">
           <div class="recipe-header">
             <div v-if="recipeImageUrl" class="recipe-image">
-              <img :src="recipeImageUrl" :alt="recipeData.name" loading="lazy" />
+              <img
+                :src="recipeImageUrl"
+                :alt="recipeData.name"
+                loading="lazy"
+              />
             </div>
             <div class="recipe-basic-info">
               <h4>{{ recipeData.name }}</h4>

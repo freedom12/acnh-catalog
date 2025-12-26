@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from "vue";
 import { useRouter } from "vue-router";
-import { formatPrice, joinArray } from "../utils/common";
+import { joinArray } from "../utils/common";
 import { ItemModel } from "../models";
 import BaseCard from "./BaseCard.vue";
 import ColorBlock from "./ColorBlock.vue";
@@ -20,32 +20,21 @@ const itemModel = props.data;
 
 // 使用简单的 ref 管理响应式状态 - 直接访问 ItemModel 内部的 ref
 const variantIndex = computed({
-  get: () => itemModel.getVariantIndex(),
-  set: (val: number) => itemModel.setVariantIndex(val),
+  get: () => itemModel.variantIndex,
+  set: (val: number) => (itemModel.variantIndex = val),
 });
 
 const patternIndex = computed({
-  get: () => itemModel.getPatternIndex(),
-  set: (val: number) => itemModel.setPatternIndex(val),
+  get: () => itemModel.patternIndex,
+  set: (val: number) => (itemModel.patternIndex = val),
 });
 
 // 计算属性 - 基于 ItemModel 方法，这些会自动响应内部 ref 的变化
-const currentVariant = computed(() => itemModel.getCurrentVariant());
+const currentVariant = computed(() => itemModel.currentVariant);
 const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
 const displayName = computed(() => itemModel.getDisplayName());
-const hasMultipleVariants = computed(() => itemModel.hasMultipleVariants());
-const hasPatterns = computed(() => itemModel.hasPatterns());
-
-// 便捷方法
-const version = computed(() => itemModel.getVersion());
-const size = computed(() => itemModel.getSize());
-const seriesName = computed(() => itemModel.getSeriesName());
-const tag = computed(() => itemModel.getTag());
-
-// 价格信息
-const buyPrice = computed(() => itemModel.getBuyPrice());
-const sellPrice = computed(() => itemModel.getSellPrice());
+const displayImages = computed(() => itemModel.getDisplayImages());
 
 // 应用颜色筛选
 const applyColorFilter = () => {
@@ -71,22 +60,19 @@ onMounted(() => {
 });
 
 // 监听颜色筛选器变化
-watch(
-  () => props.colorFilter,
-  resetAndApplyColorFilter
-);
+watch(() => props.colorFilter, resetAndApplyColorFilter);
 
 const handleClick = () => {
-  router.push(`/item/${props.data.id}`);
+  router.push(`/item/${itemModel.id}`);
 };
 </script>
 
 <template>
   <BaseCard
     colorClass="card--green"
-    :class="{ 'item-owned': props.data.owned }"
-    :version="version !== '未知版本' ? version : undefined"
-    :images="props.data.images"
+    :class="{ 'item-owned': itemModel.owned }"
+    :version="itemModel.version ? itemModel.versionName : undefined"
+    :images="displayImages"
     :displayName="displayName"
     :shape="'rounded'"
     @click="handleClick"
@@ -101,34 +87,54 @@ const handleClick = () => {
     </span>
     <div class="detail-row">
       <span class="detail-label">尺寸</span>
-      <span class="detail-value">{{ size }}</span>
+      <span class="detail-value">{{ itemModel.sizeName }}</span>
     </div>
-    <div class="detail-row">
-      <span class="detail-label">系列</span>
-      <span class="detail-value">{{ seriesName }}</span>
-    </div>
-    <div class="detail-row">
+    <div v-if="!itemModel.isClothing" class="detail-row">
       <span class="detail-label">标签</span>
-      <span class="detail-value">{{ tag }}</span>
+      <span class="detail-value">{{ itemModel.tagName }}</span>
+    </div>
+
+    <div v-if="!itemModel.isClothing" class="detail-row">
+      <span class="detail-label">HHA主题</span>
+      <span class="detail-value">{{ itemModel.seriesName }}</span>
+    </div>
+    <div v-if="!itemModel.isClothing" class="detail-row">
+      <span class="detail-label">HHA场景</span>
+      <span class="detail-value">
+        {{ joinArray(itemModel.conceptNames) }}
+      </span>
+    </div>
+    <div v-if="!itemModel.isClothing" class="detail-row">
+      <span class="detail-label">HHA套组</span>
+      <span class="detail-value">{{ itemModel.setName }}</span>
+    </div>
+
+    <div v-if="itemModel.isClothing" class="detail-row">
+      <span class="detail-label">服饰风格</span>
+      <span class="detail-value">{{ joinArray(itemModel.styleNames) }}</span>
+    </div>
+    <div v-if="itemModel.isClothing" class="detail-row">
+      <span class="detail-label">服饰主题</span>
+      <span class="detail-value">{{ joinArray(itemModel.themeNames) }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-      <span class="detail-value">{{ joinArray(props.data.getSources()) }}</span>
+      <span class="detail-value">{{ joinArray(itemModel.sourceNames) }}</span>
     </div>
     <div class="detail-row">
       <span class="buy-price" title="购买价格">
-        💰 {{ formatPrice(buyPrice) }}
+        💰 {{ itemModel.buyPriceStr }}
       </span>
       <span class="sell-price" title="出售价格">
-        💵 {{ formatPrice(sellPrice) }}
+        💵 {{ itemModel.sellPriceStr }}
       </span>
     </div>
 
-    <div v-if="hasMultipleVariants" class="variants-section variant-row">
+    <div v-if="itemModel.hasVariations" class="variants-section variant-row">
       <span class="variants-label">款式</span>
       <div class="variants-list">
         <span
-          v-for="(vg, vIdx) in props.data.getVariantGroups()"
+          v-for="(vg, vIdx) in itemModel.variantGroups"
           :key="vIdx"
           class="variation-dot variant-dot"
           :class="{ active: vIdx === variantIndex }"
@@ -139,7 +145,7 @@ const handleClick = () => {
         </span>
       </div>
     </div>
-    <div v-if="hasPatterns" class="variants-section pattern-row">
+    <div v-if="itemModel.hasPatterns" class="variants-section pattern-row">
       <span class="variants-label">图案</span>
       <div class="variants-list">
         <span
@@ -158,7 +164,7 @@ const handleClick = () => {
 </template>
 
 <style scoped>
-@import "../styles/Card.css";
+@import "../styles/card-styles.css";
 
 .item-owned {
   background: #e8f5e9;

@@ -130,39 +130,6 @@
   opacity: 0.8;
 }
 
-/* 筛选器切换按钮样式 */
-.toggle-filter-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: linear-gradient(135deg, #3498db 0%, #5dade2 100%);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  white-space: nowrap;
-}
-
-.toggle-filter-btn:hover {
-  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transform: translateY(-1px);
-}
-
-.toggle-filter-btn:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.toggle-filter-btn .icon {
-  font-size: 12px;
-}
-
 /* 筛选器容器样式 */
 .filter-controls-wrapper {
   background-color: white;

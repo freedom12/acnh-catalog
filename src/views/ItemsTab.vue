@@ -84,7 +84,7 @@ const toggleFilter = () => {
             </div>
           </div>
           <div class="action-buttons">
-            <button class="toggle-filter-btn" @click="toggleFilter">
+            <button class="action-btn primary" @click="toggleFilter">
               <span>{{ isFilterExpanded ? "收起筛选" : "展开筛选" }}</span>
               <span class="icon">{{ isFilterExpanded ? "▲" : "▼" }}</span>
             </button>
@@ -125,6 +125,7 @@ const toggleFilter = () => {
 
 <style scoped>
 @import "../styles/tab-styles.css";
+@import "../styles/button-styles.css";
 
 .filter-section {
   margin-bottom: 20px;

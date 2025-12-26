@@ -12,6 +12,7 @@ import type { Construction } from "../types/construction";
 import type { MessageCard } from "../types/messagecard";
 import { CONFIG } from "../config";
 import { ItemCategory, Version, ItemSize, Color } from "../types/item";
+import { PERSONALITY_MAP } from "../constants";
 
 let translationsCache: Translations | null = null;
 
@@ -21,6 +22,7 @@ export const ItemCategoryNameMap: Record<ItemCategory, string> = {
   [ItemCategory.Miscellaneous]: "家具/小物件",
   [ItemCategory.WallMounted]: "家具/壁挂物",
   [ItemCategory.CeilingDecor]: "家具/天花板",
+  [ItemCategory.InteriorStructures]: "家具/其他",
   [ItemCategory.Tops]: "服饰/上装",
   [ItemCategory.Bottoms]: "服饰/下装",
   [ItemCategory.DressUp]: "服饰/套装",
@@ -118,7 +120,7 @@ export async function loadTranslations(): Promise<Translations> {
   } catch (error) {
     console.error("加载翻译数据失败:", error);
     // 返回空翻译对象作为降级方案
-    return { categories: {}, sources: {}, colors: {}, tags: {}, series: {} };
+    return { sources: {}, tags: {}, series: {}, hobbys: {}, species: {}, concepts: {}, styles: {}, sets: {} };
   }
 }
 
@@ -188,15 +190,6 @@ export function getCategoryName(category: ItemCategory): string {
 }
 
 /**
- * 获取来源名称
- * @param source 来源键
- * @returns 翻译后的来源名称
- */
-export function getSourceName(source: string): string {
-  return getTranslation(source, translationsCache?.sources);
-}
-
-/**
  * 获取版本名称
  * @param ver 版本键（数字）
  * @returns 版本字符串
@@ -227,6 +220,15 @@ export function getColorName(color: Color | string): string {
 }
 
 /**
+ * 获取来源名称
+ * @param source 来源键
+ * @returns 翻译后的来源名称
+ */
+export function getSourceName(source: string): string {
+  return getTranslation(source, translationsCache?.sources);
+}
+
+/**
  * 获取标签名称
  * @param tag 标签键
  * @returns 翻译后的标签名称
@@ -242,6 +244,69 @@ export function getTagName(tag: string): string {
  */
 export function getSeriesName(series: string): string {
   return getTranslation(series, translationsCache?.series);
+}
+
+/**
+ * 获取爱好名称
+ * @param hobby 爱好键
+ * @returns 翻译后的爱好名称
+ */
+export function getHobbyName(hobby: string): string {
+  return getTranslation(hobby, translationsCache?.hobbys);
+}
+
+/**
+ * 获取物种名称
+ * @param species 物种键
+ * @returns 翻译后的物种名称
+ */
+export function getSpeciesName(species: string): string {
+  return getTranslation(species, translationsCache?.species);
+}
+
+/**
+ * 获取概念名称
+ * @param concept 概念键
+ * @returns 翻译后的概念名称
+ */
+export function getConceptName(concept: string): string {
+  return getTranslation(concept, translationsCache?.concepts);
+}
+
+/**
+ * 获取风格名称
+ * @param style 风格键
+ * @returns 翻译后的风格名称
+ */
+export function getStyleName(style: string): string {
+  return getTranslation(style, translationsCache?.styles);
+}
+
+/**
+ * 获取主题名称
+ * @param theme 主题键
+ * @returns 翻译后的主题名称
+ */
+export function getThemeName(theme: string): string {
+  return getTranslation(theme, translationsCache?.series);
+}
+
+/**
+ * 获取套组名称
+ * @param set 套组键
+ * @returns 翻译后的套组名称
+ */
+export function getSetName(set: string): string {
+  return getTranslation(set, translationsCache?.sets);
+}
+
+export function getPersonalityName(personality: string): string {
+  return PERSONALITY_MAP[personality] || personality;
+};
+export function getGenderName(gender: string): string {
+  if (gender === "Male") return "男性";
+  if (gender === "Female") return "女性";
+  return gender;
 }
 
 /**

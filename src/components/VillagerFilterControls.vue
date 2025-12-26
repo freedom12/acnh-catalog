@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import type { Villager } from "../types/villager";
+import { getGenderName, getHobbyName, getPersonalityName, getSpeciesName } from "../services/dataService";
 
 const props = defineProps<{
   filters: Record<string, string>;
@@ -49,25 +50,29 @@ const localFilters = computed({
     <select v-model="localFilters.species">
       <option value="">全部</option>
       <option v-for="sp in speciesOptions" :key="sp" :value="sp">
-        {{ sp }}
+        {{ getSpeciesName(sp) }}
       </option>
     </select>
     <label>性别：</label>
     <select v-model="localFilters.gender">
       <option value="">全部</option>
-      <option v-for="g in genderOptions" :key="g" :value="g">{{ g }}</option>
+      <option v-for="g in genderOptions" :key="g" :value="g">
+        {{ getGenderName(g) }}
+      </option>
     </select>
     <label>性格：</label>
     <select v-model="localFilters.personality">
       <option value="">全部</option>
       <option v-for="p in personalityOptions" :key="p" :value="p">
-        {{ p }}
+        {{ getPersonalityName(p) }}
       </option>
     </select>
     <label>爱好：</label>
     <select v-model="localFilters.hobby">
       <option value="">全部</option>
-      <option v-for="h in hobbyOptions" :key="h" :value="h">{{ h }}</option>
+      <option v-for="h in hobbyOptions" :key="h" :value="h">
+        {{ getHobbyName(h) }}
+      </option>
     </select>
   </div>
 </template>

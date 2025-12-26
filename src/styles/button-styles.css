@@ -1,0 +1,67 @@
+/* 通用按钮样式 */
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.action-btn:hover:not(:disabled) {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.action-btn:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.action-btn .icon {
+  font-size: 12px;
+}
+
+/* 按钮变体 */
+.action-btn.primary {
+  background: linear-gradient(135deg, #3498db 0%, #5dade2 100%);
+}
+
+.action-btn.primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+}
+
+.action-btn.success {
+  background: linear-gradient(135deg, #4a9b4f 0%, #5db663 100%);
+}
+
+.action-btn.success:hover:not(:disabled) {
+  background: linear-gradient(135deg, #3d8342 0%, #4a9b4f 100%);
+}
+
+.action-btn.danger {
+  background-color: #f44336;
+  background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
+  font-weight: 600;
+}
+
+.action-btn.danger:hover:not(:disabled) {
+  background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
+}
+
+.action-btn.danger:active:not(:disabled) {
+  background: #b71c1c;
+}

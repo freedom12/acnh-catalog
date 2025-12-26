@@ -45,8 +45,8 @@ const handleClick = () => {
     @mouseleave="handleMouseLeave"
   >
     <img
-      v-if="item?.getDisplayImage()"
-      :src="item.getDisplayImage()"
+      v-if="item?.image"
+      :src="item.image"
       :alt="props.itemName"
       :style="{ width: props.size + 'px', height: props.size + 'px' }"
       class="item-icon"
@@ -55,8 +55,8 @@ const handleClick = () => {
     <transition name="preview">
       <div v-if="showPreview" class="preview-overlay">
         <img
-          v-if="item?.getDisplayImage()"
-          :src="item.getDisplayImage()"
+          v-if="item?.image"
+          :src="item.image"
           alt="preview"
           class="preview-icon"
           loading="lazy"

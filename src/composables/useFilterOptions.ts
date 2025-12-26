@@ -9,6 +9,8 @@ import {
   getSourceName,
   getTagName,
   getVersionName,
+  getStyleName,
+  getThemeName,
 } from "../services/dataService";
 
 export interface FilterOption<T = string> {
@@ -24,6 +26,8 @@ export interface FilterOptionsData {
   tags: Ref<FilterOption[]>;
   colors: Ref<FilterOption<Color>[]>;
   series: Ref<FilterOption[]>;
+  themes: Ref<FilterOption[]>;
+  styles: Ref<FilterOption[]>;
   populateFilters: (items: ItemModel[]) => void;
 }
 
@@ -39,6 +43,8 @@ export function useFilterOptions(): FilterOptionsData {
   const tags = ref<FilterOption[]>([]);
   const colors = ref<FilterOption<Color>[]>([]);
   const series = ref<FilterOption[]>([]);
+  const themes = ref<FilterOption[]>([]);
+  const styles = ref<FilterOption[]>([]);
 
   categories.value = Object.values(ItemCategory).map((category) => ({
     value: category,
@@ -64,22 +70,23 @@ export function useFilterOptions(): FilterOptionsData {
     const itemSources = new Set<string>();
 
     items.forEach((item) => {
-      item.getSources().forEach((s) => itemSources.add(s));
+      item.sources.forEach((s) => itemSources.add(s));
     });
 
-    sources.value = [...itemSources].sort().map((source) => ({
-      value: source,
-      name: getSourceName(source),
-    }));
+    sources.value = [...itemSources]
+      .map((source) => ({
+        value: source,
+        name: getSourceName(source),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
   };
 
   const populateTags = (items: ItemModel[]): void => {
     const tagsSet = new Set(
-      items.map((item) => item.getTag()).filter((t): t is string => !!t)
+      items.map((item) => item.tag).filter((t): t is string => !!t)
     );
 
     tags.value = [...tagsSet]
-      .sort()
       .map((tag) => ({
         value: tag,
         name: getTagName(tag),
@@ -89,18 +96,48 @@ export function useFilterOptions(): FilterOptionsData {
 
   const populateSeries = (items: ItemModel[]): void => {
     const seriesSet = new Set(
-      items.map((item) => item.getSeries()).filter((s): s is string => !!s)
+      items.map((item) => item.series).filter((s): s is string => !!s)
     );
-    series.value = [...seriesSet].sort().map((ser) => ({
-      value: ser,
-      name: getSeriesName(ser),
-    }));
+    series.value = [...seriesSet]
+      .map((ser) => ({
+        value: ser,
+        name: getSeriesName(ser),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
+  };
+
+  const populateThemes = (items: ItemModel[]): void => {
+    const themesSet = new Set<string>();
+    items.forEach((item) => {
+      item.themes.forEach((theme) => themesSet.add(theme));
+    });
+    themes.value = [...themesSet]
+      .map((theme) => ({
+        value: theme,
+        name: getThemeName(theme),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
+  };
+
+  const populateStyles = (items: ItemModel[]): void => {
+    const stylesSet = new Set<string>();
+    items.forEach((item) => {
+      item.styles.forEach((style) => stylesSet.add(style));
+    });
+    styles.value = [...stylesSet]
+      .map((style) => ({
+        value: style,
+        name: getStyleName(style),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
   };
 
   const populateFilters = (items: ItemModel[]): void => {
     populateSources(items);
     populateTags(items);
     populateSeries(items);
+    populateThemes(items);
+    populateStyles(items);
   };
 
   return {
@@ -111,6 +148,8 @@ export function useFilterOptions(): FilterOptionsData {
     tags,
     colors,
     series,
+    themes,
+    styles,
     populateFilters,
   };
 }

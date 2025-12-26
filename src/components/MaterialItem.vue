@@ -37,14 +37,14 @@ const iconSize = computed(() => 24);
   <div :class="themeClasses" @click="handleClick">
     <div class="material-info">
       <img
-        v-if="materialItem?.getDisplayImage()"
-        :src="materialItem.getDisplayImage()"
-        :alt="materialItem?.name || material"
+        v-if="materialItem?.image"
+        :src="materialItem.image"
+        :alt="materialItem?.name"
         class="material-icon"
         :style="{ width: iconSize + 'px', height: iconSize + 'px' }"
         loading="lazy"
       />
-      <span class="material-name">{{ materialItem?.name || material }}</span>
+      <span class="material-name">{{ materialItem?.name }}</span>
     </div>
     <span class="material-quantity">× {{ quantity }}</span>
   </div>

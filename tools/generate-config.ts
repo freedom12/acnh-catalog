@@ -16,9 +16,8 @@ import {
 } from "animal-crossing";
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.join(process.cwd(), "tools");
 
 const itemsPath = path.join(__dirname, "..", "public", "acnh-items.json");
 // 删除items中sourceSheet = Message Cards的项
@@ -28,9 +27,6 @@ const filteredItems = items.filter(
 // 读取Interior Structures.json中的数据 并合并到filteredItems
 const interiorStructuresPath = path.join(
   __dirname,
-  "..",
-  "public",
-  "config",
   "Interior Structures.json"
 );
 const interiorStructures = JSON.parse(
