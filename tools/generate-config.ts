@@ -478,6 +478,7 @@ for (const [groupName, parts] of fossilGroups) {
   };
   newFossils.push(fossil);
 }
+newFossils.sort((a, b) => a.parts.length - b.parts.length);
 
 const interiorStructures = JSON.parse(
   fs.readFileSync(path.join(__dirname, "Interior Structures.json"), "utf-8")
