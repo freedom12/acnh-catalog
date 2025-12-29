@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, computed } from "vue";
+import { onMounted, ref, computed, watch } from "vue";
 import { useCreaturesData } from "../composables/useCreaturesData";
 import { DATA_LOADING, UI_TEXT } from "../constants";
 import Grid from "../components/Grid.vue";
@@ -24,6 +24,11 @@ const hemisphereOptions = [
 const selectedCategory = ref<"all" | CreatureType>("all");
 const categories = computed(() => {
   return ["all" as const, ...Object.values(CreatureType)];
+});
+
+// 监听分类变化，切换时回到第一页
+watch(selectedCategory, () => {
+  currentPage.value = 1;
 });
 
 // 根据分类筛选的生物

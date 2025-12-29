@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, computed } from "vue";
+import { onMounted, ref, computed, watch } from "vue";
 import { useConstructionData } from "../composables/useConstructionData";
 import { DATA_LOADING, UI_TEXT } from "../constants";
 import Grid from "../components/Grid.vue";
@@ -14,6 +14,11 @@ const { allConstruction, loading, error, loadData } = useConstructionData();
 const selectedCategory = ref<"all" | ConstructionType>("all");
 const categories = computed(() => {
   return ["all" as const, ...Object.values(ConstructionType)];
+});
+
+// 监听分类变化，切换时回到第一页
+watch(selectedCategory, () => {
+  currentPage.value = 1;
 });
 
 // 根据分类筛选的改建项目

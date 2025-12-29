@@ -19,6 +19,11 @@ const filters = ref({
 });
 const isFilterExpanded = ref(false);
 
+// 监听筛选变化，切换时回到第一页
+watch(filters, () => {
+  currentPage.value = 1;
+}, { deep: true });
+
 const filteredVillagers = computed(() => {
   let result = allVillagers.value;
   if (filters.value.species) {

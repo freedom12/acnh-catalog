@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, computed } from "vue";
+import { onMounted, ref, computed, watch } from "vue";
 import { useRecipesData } from "../composables/useRecipesData";
 import { useItemsData } from "../composables/useItemsData";
 import { DATA_LOADING, UI_TEXT } from "../constants";
@@ -16,6 +16,11 @@ const { loadData: loadItemsData } = useItemsData();
 const selectedCategory = ref<"all" | RecipeType>("all");
 const categories = computed(() => {
   return ["all" as const, ...Object.values(RecipeType)];
+});
+
+// 监听分类变化，切换时回到第一页
+watch(selectedCategory, () => {
+  currentPage.value = 1;
 });
 const filteredRecipes = computed(() => {
   if (selectedCategory.value === "all") return allRecipes.value;
