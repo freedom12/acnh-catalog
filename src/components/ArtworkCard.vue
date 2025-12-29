@@ -103,11 +103,23 @@ const handleTitleClick = () => {
       </div>
     </template>
     <div class="detail-row detail-row--full">
-      <span class="detail-value detail-value--clickable" @click="handleTitleClick">{{ props.data.title }}</span>
+      <span
+        class="detail-value detail-value--clickable"
+        @click="handleTitleClick"
+        >{{ props.data.title }}</span
+      >
     </div>
     <div class="detail-row detail-row--full">
       <span class="detail-label">作者</span>
       <span class="detail-value--full">{{ props.data.artist }}</span>
+    </div>
+    <div class="detail-row detail-row--full">
+      <span class="detail-label">年代</span>
+      <span class="detail-value--full">{{ props.data.age }}</span>
+    </div>
+    <div class="detail-row detail-row--full">
+      <span class="detail-label">技法</span>
+      <span class="detail-value--full">{{ props.data.technique }}</span>
     </div>
     <div class="detail-row detail-row--full">
       <span class="detail-label">介绍</span>
@@ -115,7 +127,9 @@ const handleTitleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">分类</span>
-      <span class="detail-value">{{ getItemTypeName(props.data.itemType) }}</span>
+      <span class="detail-value">{{
+        getItemTypeName(props.data.itemType)
+      }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">尺寸</span>

@@ -12,6 +12,8 @@ export interface Artwork {
   colors: Color[];
   title: string;
   artist: string;
+  age: string;
+  technique: string;
   desc: string;
   itemType: ItemType;
   source: string[];

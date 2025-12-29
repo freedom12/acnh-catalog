@@ -409,6 +409,8 @@ for (const oldItem of oldItems) {
 
 for (const [name, realArtwork] of realArtworks) {
   const fakeArtwork = fakeArtworks.get(name);
+  const l = realArtwork.artist!.split(",");
+
   const newArtwork: NewArtwork = {
     id: realArtwork.internalId!,
     name: realArtwork.translations!.cNzh,
@@ -429,7 +431,9 @@ for (const [name, realArtwork] of realArtworks) {
       )
     ),
     title: realArtwork.realArtworkTitle!,
-    artist: realArtwork.artist!,
+    artist: l[0]!.trim(),
+    age: l[1]!.trim(),
+    technique: l[2]!.trim(),
     desc: realArtwork.description![0]!,
     itemType: sourceSheetMap[realArtwork.category!],
     source: realArtwork.source!,

@@ -12,7 +12,9 @@
       6
     ],
     "title": "The Hunters in the Snow",
-    "artist": "Pieter Brueghel the Elder, 1565, Oil on wood panel",
+    "artist": "Pieter Brueghel the Elder",
+    "age": "1565",
+    "technique": "Oil on wood panel",
     "desc": "A landscape artist from the late Renaissance period, Brueghel was known as the \"Peasant Artist.\" He earned the title for depicting scenes from common peasant life, such as the moment captured here. Note the contrast between the weary hunters and the people frolicking below on icy ponds.",
     "itemType": 3,
     "source": [
@@ -39,7 +41,9 @@
       1
     ],
     "title": "Beauty Looking Back",
-    "artist": "Hishikawa Moronobu, 17th century, Color on silk",
+    "artist": "Hishikawa Moronobu",
+    "age": "17th century",
+    "technique": "Color on silk",
     "desc": "A hand-painted piece by Hishikawa Moronobu, an artist known for popularizing the ukiyo-e style. This stirring painting depicts a fashionable woman glancing back over her shoulder.",
     "itemType": 3,
     "source": [
@@ -66,7 +70,9 @@
       11
     ],
     "title": "The Milkmaid",
-    "artist": "Johannes Vermeer, circa 1658, Oil on canvas",
+    "artist": "Johannes Vermeer",
+    "age": "circa 1658",
+    "technique": "Oil on canvas",
     "desc": "This piece earned Vermeer the nickname \"Master of Light\" thanks to its exquisite contrast and depth. Vermeer painted this masterpiece at only 25 years of age. Many note that it is surprisingly small in real life.",
     "itemType": 3,
     "source": [
@@ -93,7 +99,9 @@
       5
     ],
     "title": "The Blue Boy",
-    "artist": "Thomas Gainsborough, 1770, Oil on canvas",
+    "artist": "Thomas Gainsborough",
+    "age": "1770",
+    "technique": "Oil on canvas",
     "desc": "Gainsborough was known for his innovative use of colors in his traditional portraits, like this one. Although he preferred painting landscapes, his portraits would be the defining work of his career.",
     "itemType": 3,
     "source": [
@@ -120,7 +128,9 @@
       13
     ],
     "title": "Mona Lisa",
-    "artist": "Leonardo da Vinci, circa 1503, Oil on poplar",
+    "artist": "Leonardo da Vinci",
+    "age": "circa 1503",
+    "technique": "Oil on poplar",
     "desc": "The world's most famous smile. It's said that da Vinci kept this painting for himself until the very end... Given its power to beguile visitors all these years later, it's easy to see why.",
     "itemType": 3,
     "source": [
@@ -147,7 +157,9 @@
       11
     ],
     "title": "Apples and Oranges",
-    "artist": "Paul Cézanne, circa 1899, Oil on canvas",
+    "artist": "Paul Cézanne",
+    "age": "circa 1899",
+    "technique": "Oil on canvas",
     "desc": "This still life is known to have inspired the work of many other artists, including Pablo Picasso. Rather than trying to recreate an image, Cézanne captured the beauty of shapes from many angles. With this work, Cézanne draws on both the atmosphere of his subjects and the spirit of its beholders.",
     "itemType": 3,
     "source": [
@@ -169,7 +181,9 @@
       13
     ],
     "title": "Lady with an Ermine",
-    "artist": "Leonardo da Vinci, circa 1490, Oil on wood panel",
+    "artist": "Leonardo da Vinci",
+    "age": "circa 1490",
+    "technique": "Oil on wood panel",
     "desc": "One of only four portraits of women painted by da Vinci, one of which is the \"Mona Lisa.\" Some believe that the \"ermine\" is not actually an ermine, but rather a white ferret!",
     "itemType": 3,
     "source": [
@@ -196,7 +210,9 @@
       13
     ],
     "title": "Girl with a Pearl Earring",
-    "artist": "Johannes Vermeer, circa 1665, Oil on canvas",
+    "artist": "Johannes Vermeer",
+    "age": "circa 1665",
+    "technique": "Oil on canvas",
     "desc": "Also known as \"Girl with a Turban,\" this piece uses ultramarine paint, which was expensive at the time. It seems the expense was worth it, as the vivid blue colors draw the eye and help make the piece a classic. The only question is... Is that a real pearl earring? Or something else...",
     "itemType": 3,
     "source": [
@@ -223,7 +239,9 @@
       9
     ],
     "title": "The Birth of Venus",
-    "artist": "Sandro Botticelli, circa 1485, Tempera on canvas",
+    "artist": "Sandro Botticelli",
+    "age": "circa 1485",
+    "technique": "Tempera on canvas",
     "desc": "A painting of the Roman goddess Venus riding a scallop shell after being born in the ocean. The name Botticelli is said to actually be a nickname given to the artist's brother, who was built like a barrel. Why this nickname was transferred between siblings is a mystery lost to the ages.",
     "itemType": 3,
     "source": [
@@ -250,7 +268,9 @@
       11
     ],
     "title": "The Clothed Maja",
-    "artist": "Francisco de Goya, circa 1805, Oil on canvas",
+    "artist": "Francisco de Goya",
+    "age": "circa 1805",
+    "technique": "Oil on canvas",
     "desc": "It is said that this painting is a more discreet version of an earlier work known as \"The Nude Maja.\" It is also known that Francisco de Goya was quite popular in his own time. Could these facts be related? A third, unrelated fact—the word \"maja\" refers to a \"stylish young lady of Madrid.\"",
     "itemType": 3,
     "source": [
@@ -271,7 +291,9 @@
       13
     ],
     "title": "Thirty-Six Views of Mount Fuji The Great Wave off Kanagawa",
-    "artist": "Katsushika Hokusai, circa 1831, Woodblock print",
+    "artist": "Katsushika Hokusai",
+    "age": "circa 1831",
+    "technique": "Woodblock print",
     "desc": "The signature piece of ukiyo-e artist Katsushika Hokusai, painted as part of a series when he was in his 60s. Although it is dubbed \"Thirty-Six Views,\" he eventually added 10 more to make 46 in total.",
     "itemType": 3,
     "source": [
@@ -293,7 +315,9 @@
       3
     ],
     "title": "Summer",
-    "artist": "Giuseppe Arcimboldo, circa 1563, Oil on canvas",
+    "artist": "Giuseppe Arcimboldo",
+    "age": "circa 1563",
+    "technique": "Oil on canvas",
     "desc": "A curious portrait by Giuseppe Arcimboldo, an Italian painter from the late 16th century. It doesn't take a particularly sharp eye to see that the entire portrait is composed of fresh produce.",
     "itemType": 3,
     "source": [
@@ -320,7 +344,9 @@
       9
     ],
     "title": "The Gleaners",
-    "artist": "Jean-François Millet, 1857, Oil on canvas",
+    "artist": "Jean-François Millet",
+    "age": "1857",
+    "technique": "Oil on canvas",
     "desc": "The signature piece from Millet, who was known for depicting the lives of commoners in the 19th century. Notice the abundant crops visible in the background relative to the meager wheat remaining for workers. This art served as social commentary in a time of great inequality.",
     "itemType": 3,
     "source": [
@@ -342,7 +368,9 @@
       11
     ],
     "title": "A Bar at the Folies-Bergère",
-    "artist": "Édouard Manet, circa 1882, Oil on canvas",
+    "artist": "Édouard Manet",
+    "age": "circa 1882",
+    "technique": "Oil on canvas",
     "desc": "Close inspection of the mirror behind this painting's subject reveals many mysteries and paradoxes... In fact, the painting is based on multiple perspectives, which explains the unusual placement of some items. Sadly, this is Manet's last major work. He passed away a year after it was complete, at age 51.",
     "itemType": 3,
     "source": [
@@ -364,7 +392,9 @@
       1
     ],
     "title": "The Fifer",
-    "artist": "Édouard Manet, 1866, Oil on canvas",
+    "artist": "Édouard Manet",
+    "age": "1866",
+    "technique": "Oil on canvas",
     "desc": "One of Manet's earlier works, this painting depicts a young flautist dressed in military uniform. Manet's works are notable for their lack of linear perspective and strong color contrast. These attributes led some to call him \"The Father of Impressionism\" and make comparisons to Vélazquez. Fun fact—flautists can determine what note the boy is playing just by studying the painting closely.",
     "itemType": 3,
     "source": [
@@ -386,7 +416,9 @@
       12
     ],
     "title": "Sunflowers",
-    "artist": "Vincent van Gogh, circa 1888, Oil on canvas",
+    "artist": "Vincent van Gogh",
+    "age": "circa 1888",
+    "technique": "Oil on canvas",
     "desc": "Van Gogh painted this piece when he moved to the south of France in search of more vibrant colors. Yellow was Van Gogh's favorite color, and he made seven paintings that featured sunflowers during this time.",
     "itemType": 3,
     "source": [
@@ -408,7 +440,9 @@
       11
     ],
     "title": "The Sower",
-    "artist": "Jean-François Millet, circa 1850, Oil on canvas",
+    "artist": "Jean-François Millet",
+    "age": "circa 1850",
+    "technique": "Oil on canvas",
     "desc": "Millet painted this piece of a farmer sowing wheat seeds in a field after moving to the countryside from Paris. If the piece reminds you of Van Gogh, that's likely because Van Gogh himself was inspired by it!",
     "itemType": 3,
     "source": [
@@ -429,7 +463,9 @@
       10
     ],
     "title": "The Night Watch",
-    "artist": "Rembrandt van Rijn, 1642, Oil on canvas",
+    "artist": "Rembrandt van Rijn",
+    "age": "1642",
+    "technique": "Oil on canvas",
     "desc": "This masterpiece, painted by 17th century Dutch artist Rembrandt, depicts a military gathering. At the time, portraits usually showed their subjects standing still. So this was a leap forward in technique. For many years, art scholars thought the painting was set at night, but a restoration revealed a dark varnish. We can now see the dynamic poses and lighting as they were meant to be seen—in the daytime!",
     "itemType": 3,
     "source": [
@@ -455,7 +491,9 @@
       11
     ],
     "title": "Ōtani Oniji the 3rd as Yakko Edobei",
-    "artist": "Tōshūsai Sharaku, 1794, Woodblock print",
+    "artist": "Tōshūsai Sharaku",
+    "age": "1794",
+    "technique": "Woodblock print",
     "desc": "A print from the mid-Edo period by Tōshūsai Sharaku depicting a famous actor of the time. Sharaku made roughly 140 ukiyo-e prints in his career, even though it only spanned around 10 months!",
     "itemType": 3,
     "source": [
@@ -482,7 +520,9 @@
       13
     ],
     "title": "Liberty Leading the People",
-    "artist": "Eugène Delacroix, 1830, Oil on canvas",
+    "artist": "Eugène Delacroix",
+    "age": "1830",
+    "technique": "Oil on canvas",
     "desc": "Painted by leading 19th century Romantic artist Delacroix in the same year as a French revolution. The woman in the center is often mistaken for Joan of Arc, but she is actually the fictional \"Marianne.\"",
     "itemType": 3,
     "source": [
@@ -504,7 +544,9 @@
       13
     ],
     "title": "Las Meninas",
-    "artist": "Diego Velázquez, circa 1656, Oil on canvas",
+    "artist": "Diego Velázquez",
+    "age": "circa 1656",
+    "technique": "Oil on canvas",
     "desc": "This famous piece by Velázquez, who served the Spanish court, shows us something about perspective. It depicts a young princess with her \"ladies-in-waiting.\" The artist himself is seen to the left. The king and queen are reflected in the mirror to the artist's right, so the perspective is that of the king. The king...watching the artist...paint the king and the queen...",
     "itemType": 3,
     "source": [
@@ -531,7 +573,9 @@
       12
     ],
     "title": "Folding Screen of Fūjin and Raijin (R)",
-    "artist": "Tawaraya Sōtatsu, 17th century, Gold leaf and ink on paper",
+    "artist": "Tawaraya Sōtatsu",
+    "age": "17th century",
+    "technique": "Gold leaf and ink on paper",
     "desc": "This folding screen shows dynamic brushwork of Fūjin and Raijin on a gold-leaf background. It is thought to be the masterpiece of Tawaraya Sōtatsu, an early-Edo-period artist. The simplification of the subjects is a style that was carried on by Ogata Kōrin. It's a style still in use today in the Rinpa school of Japanese painting.",
     "itemType": 1,
     "source": [
@@ -558,7 +602,9 @@
       11
     ],
     "title": "A Sunday Afternoon on the Island of La Grande Jatte",
-    "artist": "Georges Seurat, circa 1885, Oil on canvas",
+    "artist": "Georges Seurat",
+    "age": "circa 1885",
+    "technique": "Oil on canvas",
     "desc": "Seurat, known as the founder of neo-impressionism, invented the use of brightly colored dots. His method, which does not involve mixing pigments, took time. This piece, for instance, took two years. It shows a crowd enjoying a day off at the river Seine in France.",
     "itemType": 3,
     "source": [
@@ -579,7 +625,9 @@
       11
     ],
     "title": "Capitoline Wolf",
-    "artist": "Artist Unknown, 5th century BCE, Bronze",
+    "artist": "Artist Unknown",
+    "age": "5th century BCE",
+    "technique": "Bronze",
     "desc": "This wolf from Roman mythology raises a pair of twins, along with some controversy. The original bronze sculpture of the wolf is a masterpiece that dates back to 5th century BCE. The twins were added during the 15th century...or so it was thought. Recent research has given rise to speculation that the original piece may be from the 11th or 12th century. (We will, however, stick with the 5th century BCE estimate for now.)",
     "itemType": 1,
     "source": [
@@ -603,7 +651,9 @@
       9
     ],
     "title": "David",
-    "artist": "Michelangelo, circa 1504, Marble",
+    "artist": "Michelangelo",
+    "age": "circa 1504",
+    "technique": "Marble",
     "desc": "Young David glares at his enemies, sling slung over his shoulder. It took Michelangelo more than three years to sculpt this piece. Close inspection shows heart-shaped eyes, but that's probably meant to depict light hitting them. Hearts didn't have the lovey-dovey symbolism back then that they do today.",
     "itemType": 1,
     "source": [
@@ -627,7 +677,9 @@
       9
     ],
     "title": "Discobolus",
-    "artist": "Artist Unknown, 2nd century CE, Marble",
+    "artist": "Artist Unknown",
+    "age": "2nd century CE",
+    "technique": "Marble",
     "desc": "This ancient Roman statue is based on the ancient Greek statue crafted by Myron. It's a piece that shows the grandeur of the human body, beautiful from any angle.",
     "itemType": 1,
     "source": [
@@ -651,7 +703,9 @@
       11
     ],
     "title": "Jōmon Period \"Dogū\" Figurine Shakōki-dogū",
-    "artist": "Artist Unknown, 1000-400 BCE, Fired pottery",
+    "artist": "Artist Unknown",
+    "age": "1000-400 BCE",
+    "technique": "Fired pottery",
     "desc": "A mysterious, riveting doll made from kneaded, unglazed dirt during the Jōmon period. Its large round eyes resemble goggles that intercept light, so its name should come as no surprise. \"Shakōki\" means \"light-intercepting goggles,\" and a dogū is a small animal figurine.",
     "itemType": 2,
     "source": [
@@ -676,7 +730,9 @@
       3
     ],
     "title": "King Kamehameha I",
-    "artist": "Thomas Ridgeway Gould, circa 1883, Bronze",
+    "artist": "Thomas Ridgeway Gould",
+    "age": "circa 1883",
+    "technique": "Bronze",
     "desc": "A bronze sculpture of King Kamehameha I, who founded the Kingdom of Hawaii in 1810. Traditionally, the sculpture is draped with many leis every year on June 11th.",
     "itemType": 1,
     "source": [
@@ -696,7 +752,9 @@
       9
     ],
     "title": "Venus de Milo",
-    "artist": "Artist Unknown, circa 130 BCE, Marble",
+    "artist": "Artist Unknown",
+    "age": "circa 130 BCE",
+    "technique": "Marble",
     "desc": "A statue of the Roman goddess of love and beauty, Venus was found on the island of Milos. This beautiful sculpture makes many wonder what her original pose might have been.",
     "itemType": 1,
     "source": [
@@ -721,7 +779,9 @@
       10
     ],
     "title": "Bust of Nefertiti",
-    "artist": "Thutmose, circa 1345 BCE, Limestone",
+    "artist": "Thutmose",
+    "age": "circa 1345 BCE",
+    "technique": "Limestone",
     "desc": "A bust of Nefertiti, whose name means \"the beautiful one has come.\" A \"royal wife,\" she was known as one of the three most beautiful women in ancient Egypt. It is not known whether the left eye is missing because it fell out, or because it was never completed.",
     "itemType": 2,
     "source": [
@@ -745,7 +805,9 @@
       9
     ],
     "title": "Nike of Samothrace",
-    "artist": "Artist Unknown, circa 190 BCE, Marble",
+    "artist": "Artist Unknown",
+    "age": "circa 190 BCE",
+    "technique": "Marble",
     "desc": "A statue of the goddess of victory, Nike, found on Samothrace. It shows Nike alighting on the prow of a ship. Originally found in separate pieces, it has largely been restored, but the arms and head are still missing.",
     "itemType": 1,
     "source": [
@@ -769,7 +831,9 @@
       11
     ],
     "title": "Olmec Colossal Head",
-    "artist": "Artist Unknown, circa 1000 BCE, Basalt, andesite",
+    "artist": "Artist Unknown",
+    "age": "circa 1000 BCE",
+    "technique": "Basalt",
     "desc": "Giant stone head thought to be from the ancient Mesoamerican Olmec civilization. The larger ones can reach three meters in height. Scholars think they only crafted heads, no bodies.",
     "itemType": 1,
     "source": [
@@ -793,7 +857,9 @@
       10
     ],
     "title": "Rosetta Stone",
-    "artist": "Artist Unknown, 196 BCE, Granodiorite",
+    "artist": "Artist Unknown",
+    "age": "196 BCE",
+    "technique": "Granodiorite",
     "desc": "A stone slab found in Rosetta, Egypt in 1799. Helped efforts to decipher ancient Egyptian hieroglyphs. Almost identical text is written in hieroglyphs at the top, then Demotic script, and lastly Greek script.",
     "itemType": 1,
     "source": [
@@ -817,7 +883,9 @@
       4
     ],
     "title": "Houmuwu Ding",
-    "artist": "Artist Unknown, 1200 BCE, Bronze",
+    "artist": "Artist Unknown",
+    "age": "1200 BCE",
+    "technique": "Bronze",
     "desc": "This bronze ding from ancient China is the largest and heaviest ever found. The script on the inside suggests it was created to honor the king's mother.",
     "itemType": 1,
     "source": [
@@ -841,7 +909,9 @@
       11
     ],
     "title": "Terracotta Army",
-    "artist": "Artist Unknown, 210 BCE, Earthenware",
+    "artist": "Artist Unknown",
+    "age": "210 BCE",
+    "technique": "Earthenware",
     "desc": "These terracotta warriors were buried with the first Qin emperor to protect him in the afterlife. Nearly 2,000 years later, in 1974, about 8,000 of them were found. Each statue is said to have been handmade with different poses, expressions, and clothing.",
     "itemType": 1,
     "source": [
@@ -865,7 +935,9 @@
       4
     ],
     "title": "The Thinker",
-    "artist": "Auguste Rodin, 1902, Bronze",
+    "artist": "Auguste Rodin",
+    "age": "1902",
+    "technique": "Bronze",
     "desc": "This bronze sculpture was crafted by the French sculptor Rodin, known as the father of modern sculpture. The incredibly famous original is located in France. The sculpture was casted over 20 times. As such, authentic pieces can be found all around the world.",
     "itemType": 1,
     "source": [
@@ -887,7 +959,9 @@
       12
     ],
     "title": "Folding Screen of Fūjin and Raijin (L)",
-    "artist": "Tawaraya Sōtatsu, 17th century, Gold leaf and ink on paper",
+    "artist": "Tawaraya Sōtatsu",
+    "age": "17th century",
+    "technique": "Gold leaf and ink on paper",
     "desc": "This folding screen shows dynamic brushwork of Fūjin and Raijin on a gold-leaf background. It is thought to be the masterpiece of Tawaraya Sōtatsu, an early-Edo-period artist. The simplification of the subjects is a style that was carried on by Ogata Kōrin. It's a style still in use today in the Rinpa school of Japanese painting.",
     "itemType": 1,
     "source": [
@@ -914,7 +988,9 @@
       10
     ],
     "title": "The Starry Night",
-    "artist": "Vincent van Gogh, 1889, Oil on canvas",
+    "artist": "Vincent van Gogh",
+    "age": "1889",
+    "technique": "Oil on canvas",
     "desc": "Van Gogh's signature piece, painted while he was hospitalized at an asylum. This view from his room includes memories and imaginations. In letters to friends, the artist called it a failure.",
     "itemType": 3,
     "source": [
@@ -935,7 +1011,9 @@
       13
     ],
     "title": "Vitruvian Man",
-    "artist": "Leonardo da Vinci, circa 1487, Pen and ink on paper",
+    "artist": "Leonardo da Vinci",
+    "age": "circa 1487",
+    "technique": "Pen and ink on paper",
     "desc": "This drawing is based on the \"ideal\" human-body ratio, as stated in \"De architectura.\" \"De architectura\" was a treatise by Vitruvius, an architect from the early 1st century BCE.",
     "itemType": 3,
     "source": [
@@ -962,7 +1040,9 @@
       9
     ],
     "title": "Ophelia",
-    "artist": "John Everett Millais, 1852, Oil on canvas",
+    "artist": "John Everett Millais",
+    "age": "1852",
+    "technique": "Oil on canvas",
     "desc": "Ophelia is a tragic figure in the Shakespearean play \"Hamlet.\" There is an otherworldly expression on her face as she lies unconscious in a river. She is surrounded by the beauty of nature as she floats between life and death.",
     "itemType": 3,
     "source": [
@@ -984,7 +1064,9 @@
       4
     ],
     "title": "Ajisai Sōkeizu",
-    "artist": "Itō Jakuchū, 18th century, Dyed silk",
+    "artist": "Itō Jakuchū",
+    "age": "18th century",
+    "technique": "Dyed silk",
     "desc": "A detailed, colorful, and dynamic piece by Itō Jakuchū, a successful Kyoto artist in the mid-Edo period. High-quality paints on silk help it maintain its brilliant color even now, 200 years after its creation.",
     "itemType": 3,
     "source": [
@@ -1011,7 +1093,9 @@
       11
     ],
     "title": "The Fighting Temeraire",
-    "artist": "Joseph Mallord William Turner, 1839, Oil on canvas",
+    "artist": "Joseph Mallord William Turner",
+    "age": "1839",
+    "technique": "Oil on canvas",
     "desc": "A famous piece by Turner, a \"painter of light.\" It shows an English Navy ship commanded by Admiral Nelson as it's being tugged toward its dismantling.",
     "itemType": 3,
     "source": [
@@ -1033,7 +1117,9 @@
       11
     ],
     "title": "Isle of the Dead",
-    "artist": "Arnold Böcklin, 1883, Oil on wood",
+    "artist": "Arnold Böcklin",
+    "age": "1883",
+    "technique": "Oil on wood",
     "desc": "A small boat carrying a corpse glides quietly over a still sea to an island of graves surrounded by cliffs. The air of this piece by symbolist painter Böcklin is chilling, but also somehow calm. Böcklin worked here to capture not what he could see, but some of humanity's inner contemplations.",
     "itemType": 3,
     "source": [
