@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { Reaction } from "../types/reaction";
 import { UI_TEXT } from "../constants";
-import { getChineseText, joinArray } from "../utils/common";
+import { joinArray } from "../utils/common";
 import BaseCard from "./BaseCard.vue";
-import { getSourceName } from "../services/dataService";
+import { getSeasonEventName, getSourceName } from "../services/dataService";
 
 interface Props {
   data: Reaction;
@@ -12,25 +12,29 @@ interface Props {
 const props = defineProps<Props>();
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.name}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
 };
 </script>
 
 <template>
   <BaseCard
     colorClass="card--purple"
-    :version="props.data.versionAdded"
+    :version="props.data.ver"
     :images="[props.data.image]"
-    :displayName="getChineseText(props.data)"
+    :displayName="props.data.name"
     @click="handleClick"
   >
     <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-      <span class="detail-value">{{ joinArray(props.data.source.map(getSourceName)) }}</span>
+      <span class="detail-label">季节/活动</span>
+      <span class="detail-value">{{
+        getSeasonEventName(props.data.seasonEvent || "") || "--"
+      }}</span>
     </div>
-    <div class="detail-row" v-if="props.data.seasonEvent">
-      <span class="detail-label">{{ UI_TEXT.LABELS.EVENT }}</span>
-      <span class="detail-value">{{ props.data.seasonEvent }}</span>
+    <div class="detail-row">
+      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
+      <span class="detail-value">{{
+        joinArray(props.data.source.map(getSourceName))
+      }}</span>
     </div>
   </BaseCard>
 </template>

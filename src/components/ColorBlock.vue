@@ -19,7 +19,7 @@ const RAINBOW_COLORS = [
 ];
 
 interface Props {
-  displayColors?: string[] | Color[];
+  colors?: Color[];
   size?: number;
 }
 
@@ -29,15 +29,7 @@ const props = defineProps<Props>();
  * 生成圆锥渐变样式
  */
 const blockStyle = computed(() => {
-  // 如果时Color数组，转换为string数组
-  const colors: string[] = (props.displayColors || []).map((c) => {
-    if (typeof c === "string") {
-      return c;
-    } else {
-      return Object.entries(Color).find(([_, v]) => v === c)?.[0] || "";
-    }
-  });
-
+  const colors = props.colors || [];
   if (colors.length === 0) return {};
 
   const sectionDeg = 360 / colors.length;
@@ -47,7 +39,7 @@ const blockStyle = computed(() => {
   colors.forEach((color) => {
     const endDeg = currentDeg + sectionDeg;
 
-    if (color === "Colorful") {
+    if (color === Color.Colorful) {
       // 生成彩虹渐变
       const rainbowStep = sectionDeg / (RAINBOW_COLORS.length - 1);
       RAINBOW_COLORS.forEach((rainbowColor, i) => {
@@ -57,7 +49,7 @@ const blockStyle = computed(() => {
       });
     } else {
       // 生成单色渐变
-      const colorValue = COLOR_MAP[color] || "#ccc";
+      const colorValue = COLOR_MAP[color];
       gradientStops.push(
         `${colorValue} ${currentDeg}deg`,
         `${colorValue} ${endDeg}deg`

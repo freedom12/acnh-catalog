@@ -5,45 +5,26 @@ import { DATA_LOADING, UI_TEXT } from "../constants";
 import Grid from "../components/Grid.vue";
 import ConstructionCard from "../components/ConstructionCard.vue";
 import Pagination from "../components/Pagination.vue";
+import { ConstructionType } from "../types/construction";
+import { getConstrunctionTypeName } from "../services/dataService";
 
 // 使用改建数据加载组合函数
 const { allConstruction, loading, error, loadData } = useConstructionData();
 
-// 当前选择的分类
-const selectedCategory = ref<string>("all");
-
-// 分类选项（根据实际数据动态生成）
+const selectedCategory = ref<"all" | ConstructionType>("all");
 const categories = computed(() => {
-  const categorySet = new Set<string>();
-  allConstruction.value.forEach((item) => {
-    if (item.category) {
-      categorySet.add(item.category);
-    }
-  });
-
-  const categoryList = [{ value: "all", label: "全部", icon: "🏗️" }];
-
-  Array.from(categorySet)
-    .sort()
-    .forEach((cat) => {
-      categoryList.push({ value: cat, label: cat, icon: "📦" });
-    });
-
-  return categoryList;
+  return ["all" as const, ...Object.values(ConstructionType)];
 });
 
 // 根据分类筛选的改建项目
 const filteredConstruction = computed(() => {
   if (selectedCategory.value === "all") {
-    // 全部分类下按类型排序
     return [...allConstruction.value].sort((a, b) => {
-      const catA = a.category || "未知";
-      const catB = b.category || "未知";
-      return catA.localeCompare(catB, "zh-CN");
+      return a.id - b.id;
     });
   }
   return allConstruction.value.filter(
-    (item) => item.category === selectedCategory.value
+    (item) => item.type === selectedCategory.value
   );
 });
 
@@ -54,8 +35,8 @@ const categoryStats = computed(() => {
   };
 
   allConstruction.value.forEach((item) => {
-    if (item.category) {
-      stats[item.category] = (stats[item.category] || 0) + 1;
+    if (item.type) {
+      stats[item.type] = (stats[item.type] || 0) + 1;
     }
   });
 
@@ -98,16 +79,16 @@ onMounted(() => {
       </div>
       <div class="category-filter">
         <button
-          v-for="category in categories"
-          :key="category.value"
+          v-for="cat in categories"
+          :key="cat"
           class="category-btn"
-          :class="{ active: selectedCategory === category.value }"
-          @click="selectedCategory = category.value"
+          :class="{ active: selectedCategory === cat }"
+          @click="selectedCategory = cat"
         >
-          <span class="category-label">{{ category.label }}</span>
-          <span class="category-count"
-            >({{ categoryStats[category.value] || 0 }})</span
-          >
+          <span class="category-label">{{
+            cat === "all" ? "全部" : getConstrunctionTypeName(cat)
+          }}</span>
+          <span class="category-count">({{ categoryStats[cat] || 0 }})</span>
         </button>
       </div>
       <Grid :datas="constructionToDisplay" :card-component="ConstructionCard" />

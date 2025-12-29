@@ -4,17 +4,14 @@ import type { Version } from "../types/item";
 import { getVersionName } from "../services/dataService";
 
 interface Props {
-  version?: Version | string | null;
+  version?: Version | null;
 }
 
 const props = defineProps<Props>();
 
 const displayVersion = computed(() => {
-  if (props.version === null || props.version === undefined) return null;
-  if (typeof props.version === "number") {
-    return getVersionName(props.version);
-  }
-  return props.version;
+  if (!props.version) return null;
+  return getVersionName(props.version);
 });
 </script>
 

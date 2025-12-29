@@ -6,7 +6,7 @@ import type { Version } from "../types/item";
 
 interface Props {
   colorClass: string;
-  version?: Version | string | null;
+  version?: Version;
   images: string[];
   displayName: string;
   shape?: "circle" | "rounded" | "square";

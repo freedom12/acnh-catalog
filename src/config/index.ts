@@ -1,3 +1,5 @@
+import { Color } from "../types";
+
 /**
  * 应用配置常量
  */
@@ -9,15 +11,15 @@ const BASE_PATH = import.meta.env.BASE_URL;
 export const CONFIG = {
   DATA_FILES: {
     CATALOG: `${BASE_PATH}catalog_items.json`,
-    ITEMS: `${BASE_PATH}config/acnh-items.small.json`,
-    VILLAGERS: `${BASE_PATH}config/acnh-villagers.small.json`,
-    NPCS: `${BASE_PATH}config/acnh-npcs.small.json`,
-    CREATURES: `${BASE_PATH}config/acnh-creatures.small.json`,
+    TRANSLATIONS: `${BASE_PATH}translations.json`,
+    ITEMS: `${BASE_PATH}config/acnh-items.json`,
+    VILLAGERS: `${BASE_PATH}config/acnh-villagers.json`,
+    NPCS: `${BASE_PATH}config/acnh-npcs.json`,
+    CREATURES: `${BASE_PATH}config/acnh-creatures.json`,
     REACTIONS: `${BASE_PATH}config/acnh-reactions.json`,
-    RECIPES: `${BASE_PATH}config/acnh-recipes.small.json`,
-    CONSTRUCTION: `${BASE_PATH}config/acnh-construction.json`,
+    RECIPES: `${BASE_PATH}config/acnh-recipes.json`,
+    CONSTRUCTIONS: `${BASE_PATH}config/acnh-constructions.json`,
     MESSAGE_CARDS: `${BASE_PATH}config/acnh-message-cards.json`,
-    TRANSLATIONS: `${BASE_PATH}config/translations.json`,
   },
 
   /**
@@ -48,22 +50,19 @@ export const CONFIG = {
   } as const,
 } as const;
 
-/**
- * 颜色映射表
- * 将颜色名称映射到 CSS 颜色值
- */
-export const COLOR_MAP: Record<string, string> = {
-  Red: "#e74c3c",
-  Orange: "#e67e22",
-  Yellow: "#f1c40f",
-  Green: "#27ae60",
-  Blue: "#3498db",
-  Aqua: "#1abc9c",
-  Purple: "#9b59b6",
-  Pink: "#ff69b4",
-  White: "#ecf0f1",
-  Black: "#2c3e50",
-  Gray: "#95a5a6",
-  Brown: "#8b6f47",
-  Beige: "#d4c5b9",
+export const COLOR_MAP: Record<Color, string> = {
+  [Color.Red]: "#e74c3c",
+  [Color.Orange]: "#e67e22",
+  [Color.Yellow]: "#f1c40f",
+  [Color.Green]: "#27ae60",
+  [Color.Blue]: "#3498db",
+  [Color.Aqua]: "#1abc9c",
+  [Color.Purple]: "#9b59b6",
+  [Color.Pink]: "#ff69b4",
+  [Color.White]: "#ecf0f1",
+  [Color.Black]: "#2c3e50",
+  [Color.Gray]: "#95a5a6",
+  [Color.Brown]: "#8b6f47",
+  [Color.Beige]: "#d4c5b9",
+  [Color.Colorful]: "#000000",
 } as const;

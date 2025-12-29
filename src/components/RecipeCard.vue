@@ -7,7 +7,7 @@ import MaterialItem from "./MaterialItem.vue";
 import { processImageUrl } from "../utils/imageUtils";
 import {
   getRecipeTypeName,
-  getSeasonName,
+  getSeasonEventName,
   getSourceName,
 } from "../services/dataService";
 import { useRouter } from "vue-router";
@@ -43,9 +43,9 @@ const handleClick = () => {
       </span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">{{ "季节" }}</span>
+      <span class="detail-label">{{ "季节/活动" }}</span>
       <span class="detail-value">{{
-        getSeasonName(props.data.season || "") || "--"
+        getSeasonEventName(props.data.seasonEvent || "") || "--"
       }}</span>
     </div>
     <div class="detail-row">

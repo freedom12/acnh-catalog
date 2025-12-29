@@ -3,7 +3,7 @@ import { ref } from "vue";
 import type { MessageCard } from "../types/messagecard";
 import BaseCard from "./BaseCard.vue";
 import { UI_TEXT } from "../constants";
-import { formatPrice } from "../utils/common";
+import { formatPrice, lightenColor } from "../utils/common";
 
 const props = defineProps<{
   data: MessageCard;
@@ -19,14 +19,14 @@ const onImageLoad = () => {
 };
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.name}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
 };
 </script>
 
 <template>
   <BaseCard
     colorClass="card--brown"
-    :version="undefined"
+    :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
     :shape="'rounded'"
@@ -37,7 +37,7 @@ const handleClick = () => {
     @click="handleClick"
   >
     <template #name>
-      <h3 class="card-name" :style="{ color: props.data.headColor }">
+      <h3 class="card-name" :style="{ color: lightenColor(props.data.bodyColor, 0.5) }">
         {{ props.data.name }}
       </h3>
     </template>

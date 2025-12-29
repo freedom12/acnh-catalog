@@ -14,7 +14,7 @@ import {
 } from "../types";
 import { RecipeType, type Recipe } from "../types/recipe";
 
-import type { Construction } from "../types/construction";
+import { ConstructionType, type Construction } from "../types/construction";
 import type { MessageCard } from "../types/messagecard";
 import { CONFIG } from "../config";
 import { ItemType, Version, ItemSize, Color } from "../types/item";
@@ -189,8 +189,8 @@ export function getRecipeTypeName(type: RecipeType): string {
   return RecipeTypeNameMap[type] || "";
 }
 
-export function getSeasonName(season: string): string {
-  return getTranslation(season, translationsCache?.seasons);
+export function getSeasonEventName(seasonEvent: string): string {
+  return getTranslation(seasonEvent, translationsCache?.seasonEvents);
 }
 
 export function getCreatureTypeName(type: CreatureType): string {
@@ -277,6 +277,19 @@ export function getGenderIcon(gender: Gender): string {
   return gender === Gender.Male ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
 }
 
+export const ConstructionTypeNameMap: Record<ConstructionType, string> = {
+  [ConstructionType.Bridge]: "桥梁",
+  [ConstructionType.Door]: "门",
+  [ConstructionType.Incline]: "斜坡",
+  [ConstructionType.Mailbox]: "信箱",
+  [ConstructionType.Roofing]: "屋顶",
+  [ConstructionType.Siding]: "外墙",
+  [ConstructionType.Other]: "建筑",
+};
+
+export function getConstrunctionTypeName(type: ConstructionType): string {
+  return ConstructionTypeNameMap[type];
+}
 
 export async function loadItemsData(): Promise<Item[]> {
   try {
@@ -378,9 +391,9 @@ export async function loadRecipesData(): Promise<Recipe[]> {
   }
 }
 
-export async function loadConstructionData(): Promise<Construction[]> {
+export async function loadConstructionsData(): Promise<Construction[]> {
   try {
-    const response = await fetch(CONFIG.DATA_FILES.CONSTRUCTION);
+    const response = await fetch(CONFIG.DATA_FILES.CONSTRUCTIONS);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -400,6 +413,21 @@ export async function loadMessageCardsData(): Promise<MessageCard[]> {
     return await response.json();
   } catch (error) {
     console.error("加载消息卡片数据失败:", error);
+    throw error;
+  }
+}
+
+export async function loadTranslations(): Promise<Translations> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.TRANSLATIONS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data: Translations = await response.json();
+    translationsCache = data;
+    return data;
+  } catch (error) {
+    console.error("加载翻译数据失败:", error);
     throw error;
   }
 }

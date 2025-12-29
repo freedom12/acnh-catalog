@@ -21,11 +21,7 @@ export function useReactionsData(): UseReactionsDataReturn {
     try {
       loading.value = true;
       error.value = "";
-
-      const reactions = await loadReactionsData();
-      allReactions.value = reactions.sort(
-        (a, b) => a.internalId - b.internalId
-      );
+      allReactions.value = await loadReactionsData();
       loading.value = false;
     } catch (err) {
       console.error("加载表情反应数据失败:", err);

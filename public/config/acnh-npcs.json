@@ -1,0 +1,957 @@
+[
+  {
+    "id": "alp",
+    "order": 0,
+    "name": "健兆",
+    "rawName": "Cyrus",
+    "images": [
+      "latest/NpcIcon/alp.png",
+      "latest/NpcPoster/NpcSpAlp.png"
+    ],
+    "ver": 3,
+    "gender": 2,
+    "birthday": "1/26",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#4ddcd9"
+  },
+  {
+    "id": "alw",
+    "order": 1,
+    "name": "莉咏",
+    "rawName": "Reese",
+    "images": [
+      "latest/NpcIcon/alw.png",
+      "latest/NpcPoster/NpcSpAlw.png"
+    ],
+    "ver": 3,
+    "gender": 1,
+    "birthday": "7/5",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#ffaad1"
+  },
+  {
+    "id": "bev",
+    "order": 2,
+    "name": "俞正",
+    "rawName": "Chip",
+    "images": [
+      "latest/NpcIcon/bev.png",
+      "latest/NpcPoster/NpcSpBev.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "12/9",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#77614c"
+  },
+  {
+    "id": "fsl",
+    "order": 3,
+    "name": "博陆恩",
+    "rawName": "Phineas",
+    "images": [
+      "latest/NpcIcon/fsl.png",
+      "latest/NpcPoster/NpcSpFsl.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "6/20",
+    "nameColor": "#feffca",
+    "bubbleColor": "#d38856"
+  },
+  {
+    "id": "boa",
+    "order": 4,
+    "name": "曹谷",
+    "rawName": "Joan",
+    "images": [
+      "latest/NpcIcon/boa.png",
+      "latest/NpcPoster/NpcSpBoa.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "1/8",
+    "nameColor": "#f3af18",
+    "bubbleColor": "#a04c27"
+  },
+  {
+    "id": "bpt",
+    "order": 5,
+    "name": "星薇",
+    "rawName": "Katrina",
+    "images": [
+      "latest/NpcIcon/bpt.png",
+      "latest/NpcPoster/NpcSpBpt.png"
+    ],
+    "ver": 13,
+    "gender": 1,
+    "birthday": "10/28",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#1c2f60"
+  },
+  {
+    "id": "chm",
+    "order": 6,
+    "name": "龙山先生",
+    "rawName": "Nat",
+    "images": [
+      "latest/NpcIcon/chm.png",
+      "latest/NpcPoster/NpcSpChm.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "7/25",
+    "nameColor": "#f3f338",
+    "bubbleColor": "#72aa1c"
+  },
+  {
+    "id": "cml",
+    "order": 7,
+    "name": "骆岚",
+    "rawName": "Saharah",
+    "images": [
+      "latest/NpcIcon/cml.png",
+      "latest/NpcBromide/NpcSpCml.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "11/10",
+    "nameColor": "#954f07",
+    "bubbleColor": "#fcbb3a"
+  },
+  {
+    "id": "tkkA",
+    "order": 8,
+    "name": "K.K.",
+    "rawName": "K.K.",
+    "images": [
+      "latest/NpcIcon/tkkA.png",
+      "latest/NpcBromide/NpcSpTkkA.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "8/23",
+    "nameColor": "#595757",
+    "bubbleColor": "#ffffff"
+  },
+  {
+    "id": "fox",
+    "order": 9,
+    "name": "狐利",
+    "rawName": "Redd",
+    "images": [
+      "latest/NpcIcon/fox.png",
+      "latest/NpcPoster/NpcSpFox.png"
+    ],
+    "ver": 3,
+    "gender": 2,
+    "birthday": "10/18",
+    "nameColor": "#4f1904",
+    "bubbleColor": "#ebb020"
+  },
+  {
+    "id": "grf",
+    "order": 10,
+    "name": "葛瑞斯",
+    "rawName": "Gracie",
+    "images": [
+      "latest/NpcIcon/grf.png",
+      "latest/NpcPoster/NpcSpGrf.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "11/14",
+    "nameColor": "#d254c7",
+    "bubbleColor": "#ffffc1"
+  },
+  {
+    "id": "hgc",
+    "order": 11,
+    "name": "绵儿",
+    "rawName": "Label",
+    "images": [
+      "latest/NpcIcon/hgc.png",
+      "latest/NpcBromide/NpcSpHgc.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "10/31",
+    "nameColor": "#fffee0",
+    "bubbleColor": "#7f5174"
+  },
+  {
+    "id": "hgh",
+    "order": 12,
+    "name": "绢儿",
+    "rawName": "Mabel",
+    "images": [
+      "latest/NpcIcon/hgh.png",
+      "latest/NpcBromide/NpcSpHgh.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "5/22",
+    "nameColor": "#fffad4",
+    "bubbleColor": "#3c4c78"
+  },
+  {
+    "id": "hgs",
+    "order": 13,
+    "name": "麻儿",
+    "rawName": "Sable",
+    "images": [
+      "latest/NpcIcon/hgs.png",
+      "latest/NpcBromide/NpcSpHgs.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "11/22",
+    "nameColor": "#fffee0",
+    "bubbleColor": "#895452"
+  },
+  {
+    "id": "kpg",
+    "order": 14,
+    "name": "阿玉婆婆",
+    "rawName": "Grams",
+    "images": [
+      "latest/NpcIcon/kpg.png",
+      "latest/NpcPoster/NpcSpKpg.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "4/15",
+    "nameColor": "#fff364",
+    "bubbleColor": "#7dcc00"
+  },
+  {
+    "id": "kpm",
+    "order": 15,
+    "name": "沽玉",
+    "rawName": "Leilani",
+    "images": [
+      "latest/NpcIcon/kpm.png",
+      "latest/NpcPoster/NpcSpKpm.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "9/26",
+    "nameColor": "#fff364",
+    "bubbleColor": "#7dcc00"
+  },
+  {
+    "id": "kpp",
+    "order": 16,
+    "name": "航平",
+    "rawName": "Kapp'n",
+    "images": [
+      "latest/NpcIcon/kpp.png",
+      "latest/NpcPoster/NpcSpKpp.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "7/12",
+    "nameColor": "#fff364",
+    "bubbleColor": "#7dcc00"
+  },
+  {
+    "id": "kps",
+    "order": 17,
+    "name": "沽沽",
+    "rawName": "Leila",
+    "images": [
+      "latest/NpcIcon/kps.png",
+      "latest/NpcPoster/NpcSpKps.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "8/16",
+    "nameColor": "#fff364",
+    "bubbleColor": "#7dcc00"
+  },
+  {
+    "id": "mnk",
+    "order": 19,
+    "name": "车长叔叔",
+    "rawName": "Porter",
+    "images": [
+      "latest/NpcIcon/mnk.png",
+      "latest/NpcPoster/NpcSpMnk.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "4/17",
+    "nameColor": "#efe956",
+    "bubbleColor": "#3e54cf"
+  },
+  {
+    "id": "mob",
+    "order": 20,
+    "name": "开关叔叔",
+    "rawName": "Don",
+    "images": [
+      "latest/NpcIcon/mob.png",
+      "latest/NpcPoster/NpcSpMob.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "5/1",
+    "nameColor": "#612f0a",
+    "bubbleColor": "#d97012"
+  },
+  {
+    "id": "mol",
+    "order": 21,
+    "name": "电源叔叔",
+    "rawName": "Resetti",
+    "images": [
+      "latest/NpcIcon/mol.png",
+      "latest/NpcPoster/NpcSpMol.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "4/6",
+    "nameColor": "#612f0a",
+    "bubbleColor": "#d97012"
+  },
+  {
+    "id": "ott",
+    "order": 22,
+    "name": "阿本先生",
+    "rawName": "Lyle",
+    "images": [
+      "latest/NpcIcon/ott.png",
+      "latest/NpcPoster/NpcSpOtt.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "6/6",
+    "nameColor": "#fffad4",
+    "bubbleColor": "#506b94"
+  },
+  {
+    "id": "owl",
+    "order": 23,
+    "name": "傅达",
+    "rawName": "Blathers",
+    "images": [
+      "latest/NpcIcon/owl.png",
+      "latest/NpcBromide/NpcSpOwl.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "9/24",
+    "nameColor": "#f7f0c2",
+    "bubbleColor": "#7d593c"
+  },
+  {
+    "id": "ows",
+    "order": 24,
+    "name": "傅珂",
+    "rawName": "Celeste",
+    "images": [
+      "latest/NpcIcon/ows.png",
+      "latest/NpcBromide/NpcSpOws.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "9/7",
+    "nameColor": "#f7f0c2",
+    "bubbleColor": "#81280a"
+  },
+  {
+    "id": "pck",
+    "order": 25,
+    "name": "阿欢",
+    "rawName": "Pavé",
+    "images": [
+      "latest/NpcIcon/pck.png",
+      "latest/NpcPoster/NpcSpPck.png"
+    ],
+    "ver": 8,
+    "gender": 2,
+    "birthday": "3/3",
+    "nameColor": "#edebd6",
+    "bubbleColor": "#0a96ae"
+  },
+  {
+    "id": "plk",
+    "order": 26,
+    "name": "宋信子",
+    "rawName": "Pelly",
+    "images": [
+      "latest/NpcIcon/plk.png",
+      "latest/NpcPoster/NpcSpPlk.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "3/19",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#fe9ee0"
+  },
+  {
+    "id": "plm",
+    "order": 27,
+    "name": "宋信美",
+    "rawName": "Phyllis",
+    "images": [
+      "latest/NpcIcon/plm.png",
+      "latest/NpcPoster/NpcSpPlm.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "11/21",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#dd8dfa"
+  },
+  {
+    "id": "pge",
+    "order": 28,
+    "name": "老板",
+    "rawName": "Brewster",
+    "images": [
+      "latest/NpcIcon/pge.png",
+      "latest/NpcPoster/NpcSpPge.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "10/15",
+    "nameColor": "#333333",
+    "bubbleColor": "#689a8b"
+  },
+  {
+    "id": "dga",
+    "order": 30,
+    "name": "警察叔叔",
+    "rawName": "Copper",
+    "images": [
+      "latest/NpcIcon/dga.png",
+      "latest/NpcPoster/NpcSpDga.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "6/28",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#e69111"
+  },
+  {
+    "id": "plo",
+    "order": 31,
+    "name": "程信雄",
+    "rawName": "Pete",
+    "images": [
+      "latest/NpcIcon/plo.png",
+      "latest/NpcPoster/NpcSpPlo.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "3/8",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#44c04f"
+  },
+  {
+    "id": "dgb",
+    "order": 32,
+    "name": "警察叔叔",
+    "rawName": "Booker",
+    "images": [
+      "latest/NpcIcon/dgb.png",
+      "latest/NpcPoster/NpcSpDgb.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "4/23",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#c67022"
+  },
+  {
+    "id": "poo",
+    "order": 33,
+    "name": "刀丽茹",
+    "rawName": "Harriet",
+    "images": [
+      "latest/NpcIcon/poo.png",
+      "latest/NpcPoster/NpcSpPoo.png"
+    ],
+    "ver": 13,
+    "gender": 1,
+    "birthday": "1/31",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#fc81d9"
+  },
+  {
+    "id": "rco",
+    "order": 34,
+    "name": "狸克",
+    "rawName": "Tom Nook",
+    "images": [
+      "latest/NpcIcon/rco.png",
+      "latest/NpcBromide/NpcSpRco.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "5/30",
+    "nameColor": "#4d2a20",
+    "bubbleColor": "#de8735"
+  },
+  {
+    "id": "gul",
+    "order": 35,
+    "name": "吕游",
+    "rawName": "Gulliver",
+    "images": [
+      "latest/NpcIcon/gul.png",
+      "latest/NpcBromide/NpcSpGul.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "5/25",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#0073ff"
+  },
+  {
+    "id": "seo",
+    "order": 36,
+    "name": "阿獭",
+    "rawName": "Pascal",
+    "images": [
+      "latest/NpcIcon/seo.png",
+      "latest/NpcPoster/NpcSpSeo.png"
+    ],
+    "ver": 4,
+    "gender": 2,
+    "birthday": "7/19",
+    "nameColor": "#fffd87",
+    "bubbleColor": "#f44957"
+  },
+  {
+    "id": "skk",
+    "order": 37,
+    "name": "薛革",
+    "rawName": "Kicks",
+    "images": [
+      "latest/NpcIcon/skk.png",
+      "latest/NpcBromide/NpcSpSkk.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "11/30",
+    "nameColor": "#78b3c7",
+    "bubbleColor": "#2a4869"
+  },
+  {
+    "id": "sza",
+    "order": 38,
+    "name": "西施惠",
+    "rawName": "Isabelle",
+    "images": [
+      "latest/NpcIcon/sza.png",
+      "latest/NpcBromide/NpcSpSza.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "12/20",
+    "nameColor": "#f4aa16",
+    "bubbleColor": "#fff98f"
+  },
+  {
+    "id": "ttlA",
+    "order": 39,
+    "name": "寿伯",
+    "rawName": "Tortimer",
+    "images": [
+      "latest/NpcIcon/ttlA.png",
+      "latest/NpcPoster/NpcSpTtlA.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "12/31",
+    "nameColor": "#705800",
+    "bubbleColor": "#ffea6b"
+  },
+  {
+    "id": "tuk",
+    "order": 40,
+    "name": "富蓝",
+    "rawName": "Franklin",
+    "images": [
+      "latest/NpcIcon/tuk.png",
+      "latest/NpcPoster/NpcSpTuk.png"
+    ],
+    "ver": 7,
+    "gender": 2,
+    "birthday": "10/10",
+    "nameColor": "#4b4496",
+    "bubbleColor": "#ff97ca"
+  },
+  {
+    "id": "upa",
+    "order": 41,
+    "name": "笑匠",
+    "rawName": "Shrunk",
+    "images": [
+      "latest/NpcIcon/upa.png",
+      "latest/NpcPoster/NpcSpUpa.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "1/2",
+    "nameColor": "#a90d0a",
+    "bubbleColor": "#ffb0b0"
+  },
+  {
+    "id": "xct",
+    "order": 42,
+    "name": "陌陌",
+    "rawName": "Rover",
+    "images": [
+      "latest/NpcIcon/xct.png",
+      "latest/NpcPoster/NpcSpXct.png"
+    ],
+    "ver": 3,
+    "gender": 2,
+    "birthday": "2/1",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#5a66d2"
+  },
+  {
+    "id": "slo",
+    "order": 43,
+    "name": "然然",
+    "rawName": "Leif",
+    "images": [
+      "latest/NpcIcon/slo.png",
+      "latest/NpcPoster/NpcSpSlo.png"
+    ],
+    "ver": 3,
+    "gender": 2,
+    "birthday": "8/8",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#c0ab72"
+  },
+  {
+    "id": "mka",
+    "order": 44,
+    "name": "无脸猫",
+    "rawName": "Blanca",
+    "images": [
+      "latest/NpcIcon/mka.png",
+      "latest/NpcPoster/NpcSpMka.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "2/8",
+    "nameColor": "#fe8885",
+    "bubbleColor": "#ffffff"
+  },
+  {
+    "id": "tap",
+    "order": 45,
+    "name": "梦美",
+    "rawName": "Luna",
+    "images": [
+      "latest/NpcIcon/tap.png",
+      "latest/NpcPoster/NpcSpTap.png"
+    ],
+    "ver": 5,
+    "gender": 1,
+    "birthday": "2/29",
+    "nameColor": "#ffceff",
+    "bubbleColor": "#bc40a9"
+  },
+  {
+    "id": "lom",
+    "order": 46,
+    "name": "咪露",
+    "rawName": "Katie",
+    "images": [
+      "latest/NpcIcon/lom.png",
+      "latest/NpcPoster/NpcSpLom.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "10/22",
+    "nameColor": "#9c4e00",
+    "bubbleColor": "#feff4f"
+  },
+  {
+    "id": "pyn",
+    "order": 47,
+    "name": "蹦蹦",
+    "rawName": "Zipper",
+    "images": [
+      "latest/NpcIcon/pyn.png",
+      "latest/NpcPoster/NpcSpPyn.png"
+    ],
+    "ver": 2,
+    "gender": 2,
+    "birthday": "3/11",
+    "nameColor": "#0ea8c7",
+    "bubbleColor": "#ffe20b"
+  },
+  {
+    "id": "rei",
+    "order": 48,
+    "name": "铃铃鹿",
+    "rawName": "Jingle",
+    "images": [
+      "latest/NpcIcon/rei.png",
+      "latest/NpcPoster/NpcSpRei.png"
+    ],
+    "ver": 7,
+    "gender": 2,
+    "birthday": "12/24",
+    "nameColor": "#fffe69",
+    "bubbleColor": "#d6781a"
+  },
+  {
+    "id": "szo",
+    "order": 49,
+    "name": "西施德",
+    "rawName": "Digby",
+    "images": [
+      "latest/NpcIcon/szo.png",
+      "latest/NpcPoster/NpcSpSzo.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "12/20",
+    "nameColor": "#664734",
+    "bubbleColor": "#c1a081"
+  },
+  {
+    "id": "wrl",
+    "order": 50,
+    "name": "海项",
+    "rawName": "Wendell",
+    "images": [
+      "latest/NpcIcon/wrl.png",
+      "latest/NpcPoster/NpcSpWrl.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "2/25",
+    "nameColor": "#fffce9",
+    "bubbleColor": "#8c99fd"
+  },
+  {
+    "id": "rct",
+    "order": 51,
+    "name": "粒狸",
+    "rawName": "Tommy",
+    "images": [
+      "latest/NpcIcon/rct.png",
+      "latest/NpcBromide/NpcSpRct.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "6/7",
+    "nameColor": "#4d2a20",
+    "bubbleColor": "#de8735"
+  },
+  {
+    "id": "rcm",
+    "order": 52,
+    "name": "豆狸",
+    "rawName": "Timmy",
+    "images": [
+      "latest/NpcIcon/rcm.png",
+      "latest/NpcBromide/NpcSpRcm.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "6/7",
+    "nameColor": "#4d2a20",
+    "bubbleColor": "#de8735"
+  },
+  {
+    "id": "gstA",
+    "order": 55,
+    "name": "幽幽",
+    "rawName": "Wisp",
+    "images": [
+      "latest/NpcIcon/gstA.png",
+      "latest/NpcPoster/NpcSpGst.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "2/26",
+    "nameColor": "#7490c2",
+    "bubbleColor": "#e3ecf5"
+  },
+  {
+    "id": "otg",
+    "order": 56,
+    "name": "巧美",
+    "rawName": "Lottie",
+    "images": [
+      "latest/NpcIcon/otg.png",
+      "latest/NpcPoster/NpcSpOtg.png"
+    ],
+    "ver": 13,
+    "gender": 1,
+    "birthday": "9/12",
+    "nameColor": "#5e2818",
+    "bubbleColor": "#ffa6aa"
+  },
+  {
+    "id": "pkn",
+    "order": 57,
+    "name": "南瓜王",
+    "rawName": "Jack",
+    "images": [
+      "latest/NpcIcon/pkn.png",
+      "latest/NpcPoster/NpcSpPkn.png"
+    ],
+    "ver": 6,
+    "gender": 2,
+    "birthday": "10/31",
+    "nameColor": "#080800",
+    "bubbleColor": "#ff6d00"
+  },
+  {
+    "id": "spn",
+    "order": 58,
+    "name": "巴猎",
+    "rawName": "Harvey",
+    "images": [
+      "latest/NpcIcon/spn.png",
+      "latest/NpcPoster/NpcSpSpn.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "8/2",
+    "nameColor": "#714f31",
+    "bubbleColor": "#ebc83c"
+  },
+  {
+    "id": "bey",
+    "order": 59,
+    "name": "俞司廷",
+    "rawName": "C.J.",
+    "images": [
+      "latest/NpcIcon/bey.png",
+      "latest/NpcPoster/NpcSpBey.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "3/7",
+    "nameColor": "#f9db2f",
+    "bubbleColor": "#a99d6e"
+  },
+  {
+    "id": "boc",
+    "order": 61,
+    "name": "曹卖",
+    "rawName": "Daisy Mae",
+    "images": [
+      "latest/NpcIcon/boc.png",
+      "latest/NpcPoster/NpcSpBoc.png"
+    ],
+    "ver": 1,
+    "gender": 1,
+    "birthday": "3/30",
+    "nameColor": "#ab2629",
+    "bubbleColor": "#ff9b43"
+  },
+  {
+    "id": "dod",
+    "order": 62,
+    "name": "莫里",
+    "rawName": "Orville",
+    "images": [
+      "latest/NpcIcon/dod.png",
+      "latest/NpcPoster/NpcSpDod.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "10/2",
+    "nameColor": "#38889e",
+    "bubbleColor": "#ffdf50"
+  },
+  {
+    "id": "chy",
+    "order": 63,
+    "name": "龙克斯",
+    "rawName": "Flick",
+    "images": [
+      "latest/NpcIcon/chy.png",
+      "latest/NpcPoster/NpcSpChy.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "5/10",
+    "nameColor": "#fb646b",
+    "bubbleColor": "#25251a"
+  },
+  {
+    "id": "tkkB",
+    "order": 65,
+    "name": "DJ KK",
+    "rawName": "DJ KK",
+    "images": [
+      "latest/NpcIcon/tkkB.png",
+      "latest/NpcPoster/NpcSpTkkB.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "8/23",
+    "nameColor": "#545259",
+    "bubbleColor": "#ffffff"
+  },
+  {
+    "id": "doc",
+    "order": 66,
+    "name": "陆德里",
+    "rawName": "Wilbur",
+    "images": [
+      "latest/NpcIcon/doc.png",
+      "latest/NpcPoster/NpcSpDoc.png"
+    ],
+    "ver": 1,
+    "gender": 2,
+    "birthday": "7/4",
+    "nameColor": "#38889e",
+    "bubbleColor": "#ffdf50"
+  },
+  {
+    "id": "man",
+    "order": 67,
+    "name": "纳提",
+    "rawName": "Wardell",
+    "images": [
+      "latest/NpcIcon/man.png",
+      "latest/NpcPoster/NpcSpMan.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "2/7"
+  },
+  {
+    "id": "mnc",
+    "order": 68,
+    "name": "尼可",
+    "rawName": "Niko",
+    "images": [
+      "latest/NpcIcon/mnc.png",
+      "latest/NpcPoster/NpcSpMnc.png"
+    ],
+    "ver": 13,
+    "gender": 2,
+    "birthday": "1/11"
+  },
+  {
+    "id": "gulB",
+    "order": 69,
+    "name": "海盗",
+    "rawName": "Gullivarrr",
+    "images": [
+      "latest/NpcIcon/gulB.png"
+    ],
+    "ver": 4,
+    "gender": 2,
+    "birthday": "5/25",
+    "nameColor": "#fffbe8",
+    "bubbleColor": "#f52c2c"
+  }
+]

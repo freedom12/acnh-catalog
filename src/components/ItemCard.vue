@@ -81,7 +81,7 @@ const handleClick = () => {
       ID: {{ displayId }}
       <ColorBlock
         v-if="displayColors.length > 0"
-        :displayColors="displayColors"
+        :colors="displayColors"
         :size="16"
       />
     </span>
@@ -123,6 +123,10 @@ const handleClick = () => {
     <div v-if="itemModel.isClothing" class="detail-row">
       <span class="detail-label">服饰主题</span>
       <span class="detail-value">{{ joinArray(itemModel.closingThemeNames) }}</span>
+    </div>
+        <div class="detail-row">
+      <span class="detail-label">季节/活动</span>
+      <span class="detail-value">{{ itemModel.seasonEventName }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

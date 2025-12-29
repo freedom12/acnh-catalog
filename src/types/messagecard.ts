@@ -2,24 +2,24 @@
  * 消息卡片类型定义
  */
 
+import type { Version } from "./item";
+
 export interface MessageCard {
-  sourceSheet: string;
+  id: number;
   name: string;
+  rawName: string;
   image: string;
+  ver: Version;
   buy?: number;
   backColor?: string;
   bodyColor: string;
   headColor: string;
   footColor: string;
-  penColor1: string;
-  penColor2: string;
-  penColor3: string;
-  penColor4: string;
+  penColors: string[];
   startDate?: string;
   endDate?: string;
   nhStartDate?: string;
   nhEndDate?: string;
   shStartDate?: string;
   shEndDate?: string;
-  uniqueEntryId: string;
 }

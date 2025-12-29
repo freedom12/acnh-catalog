@@ -1,20 +1,16 @@
-import type { Translation } from "./index";
+import type { Version } from "./item";
 
 /**
  * 表情反应数据类型
  */
 export interface Reaction {
-  sourceSheet: string;
-  num: number;
+  id: number;
+  order: number;
   name: string;
+  rawName: string;
   image: string;
+  ver: Version;
   source: string[];
-  sourceNotes: string | null;
-  seasonEvent: string | null;
-  seasonEventExclusive: string | null;
-  versionAdded: string;
-  iconFilename: string;
-  internalId: number;
-  uniqueEntryId: string;
-  translations?: Translation;
+  sourceNotes?: string[];
+  seasonEvent?: string;
 }

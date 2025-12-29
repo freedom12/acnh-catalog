@@ -172,7 +172,7 @@ onMounted(() => {
                 >
                   {{ colorName }}
                 </span>
-                <ColorBlock :displayColors="itemModel.colors" />
+                <ColorBlock :colors="itemModel.colors" />
               </div>
             </div>
 
@@ -354,9 +354,9 @@ onMounted(() => {
                     }}</span
                   >
                 </div>
-                <div v-if="recipe.season" class="recipe-info-item">
+                <div v-if="recipe.seasonEvent" class="recipe-info-item">
                   <label>季节活动:</label>
-                  <span>🎉 {{ recipe.season }}</span>
+                  <span>🎉 {{ recipe.seasonEvent }}</span>
                 </div>
                 <div v-if="recipe.sell" class="recipe-info-item">
                   <label>出售价格:</label>
@@ -412,7 +412,7 @@ onMounted(() => {
                 <span class="variant-id-text">ID: {{ variant.id }}</span>
                 <ColorBlock
                   v-if="variant.colors.length > 0"
-                  :displayColors="variant.colors"
+                  :colors="variant.colors"
                   :size="20"
                 />
               </div>

@@ -80,7 +80,7 @@ const toggleFurnitureExpanded = () => {
     <span class="detail-row detail-center">
       {{ getGenderIcon(props.data.gender) }}
       {{ getSpeciesName(props.data.species) }}
-      <ColorBlock :displayColors="props.data.colors" :size="16" />
+      <ColorBlock :colors="props.data.colors" :size="16" />
     </span>
     <span class="detail-row detail-center">
       {{ getPersonalityName(props.data.personality) }}({{ props.data.subtype }})

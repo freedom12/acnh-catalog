@@ -1,6 +1,6 @@
 import { ref } from "vue";
 import type { Construction } from "../types/construction";
-import { loadConstructionData } from "../services/dataService";
+import { loadConstructionsData } from "../services/dataService";
 import { DATA_LOADING } from "../constants";
 
 export function useConstructionData() {
@@ -12,10 +12,10 @@ export function useConstructionData() {
     loading.value = true;
     error.value = null;
     try {
-      const data = await loadConstructionData();
+      const data = await loadConstructionsData();
       allConstruction.value = data.map((item) => ({
         ...item,
-        category: item.category || "Other",
+        category: item.type || "Other",
       }));
     } catch (e) {
       error.value = DATA_LOADING.ERROR_GENERIC;

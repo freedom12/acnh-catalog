@@ -22,5 +22,5 @@ export interface Translations {
   themes: Record<string, string>;
   sets: Record<string, string>;
   categories: Record<string, string>;
-  seasons: Record<string, string>;
+  seasonEvents: Record<string, string>;
 }

@@ -174,6 +174,8 @@ export interface Item {
   buy?: number; // 购买价格
   sell: number; // 出售价格
   source?: string[]; // 获取来源
+  sourceNotes?: string[];
+  seasonEvent?: string;
 
   tag?: string; // 标签（家具）
   points?: number; // HHA积分

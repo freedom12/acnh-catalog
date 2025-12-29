@@ -14,6 +14,7 @@ import {
   getHHASetName,
   getClothingThemeName,
   getHHACategoryName,
+  getSeasonEventName,
 } from "../services/dataService";
 import {
   Color,
@@ -159,6 +160,18 @@ export class ItemModel {
 
   get sourceNames(): string[] {
     return this.sources.map((s) => getSourceName(s) || s);
+  }
+
+  get sourceNotes(): string[] {
+    return this._data.sourceNotes || [];
+  }
+
+  get seasonEvent(): string | null {
+    return this._data.seasonEvent || null;
+  }
+
+  get seasonEventName(): string {
+    return getSeasonEventName(this.seasonEvent || "") || "--";
   }
 
   get hhaPoints(): number | null {
