@@ -55,9 +55,8 @@ export const UI_TEXT = {
     CREATURES_UNIT: "种生物",
     REACTIONS_UNIT: "个表情",
     ARTWORKS_UNIT: "件艺术品",
-    FOSSILS_UNIT: "件化石",
+    FOSSILS_UNIT: "组化石",
   },
-  TOTAL: "共",
   LABELS: {
     PRICE: "售价",
     LOCATION: "位置",
