@@ -74,12 +74,12 @@ const selectTab = (tabId: TabType) => {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
+  padding: 8px 16px;
   border: 2px solid #e0e0e0;
   border-radius: 25px;
   background-color: white;
   cursor: pointer;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 500;
   transition: all 0.3s ease;
   color: #666;
@@ -109,16 +109,16 @@ const selectTab = (tabId: TabType) => {
 
 @media (max-width: 600px) {
   .tab-selector {
-    gap: 8px;
+    gap: 6px;
   }
 
   .tab-button {
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 6px 12px;
+    font-size: 0.9em;
   }
 
   .tab-icon {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 </style>
