@@ -8,6 +8,7 @@ export * from "./npc";
 export * from "./creature";
 export * from "./reaction";
 export * from "./messagecard";
+export * from "./artwork";
 
 export interface Translation {
   cNzh: string;

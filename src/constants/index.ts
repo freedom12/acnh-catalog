@@ -15,6 +15,7 @@ export const DATA_LOADING = {
   RECIPES: "正在加载DIY配方数据...",
   CONSTRUCTION: "正在加载改建数据...",
   MESSAGE_CARDS: "正在加载消息卡片数据...",
+  ARTWORKS: "正在加载艺术品数据...",
   ERROR_GENERIC: "加载数据失败，请确保数据文件存在",
 } as const;
 
@@ -30,6 +31,7 @@ export const ENTITY_ICONS = {
   RECIPES: "📜",
   CONSTRUCTION: "🏗️",
   MESSAGE_CARDS: "💌",
+  ARTWORKS: "🎨",
   // 生物类型
   INSECTS: "🦋",
   FISH: "🐟",
@@ -50,7 +52,9 @@ export const UI_TEXT = {
     NPCS_UNIT: "位NPC",
     CREATURES_UNIT: "种生物",
     REACTIONS_UNIT: "个表情",
+    ARTWORKS_UNIT: "件艺术品",
   },
+  TOTAL: "共",
   LABELS: {
     PRICE: "售价",
     LOCATION: "位置",

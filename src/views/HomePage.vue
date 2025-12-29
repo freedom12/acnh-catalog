@@ -10,6 +10,7 @@ import ReactionsTab from "./ReactionsTab.vue";
 import RecipesTab from "./RecipesTab.vue";
 import ConstructionTab from "./ConstructionTab.vue";
 import MessageCardTab from "./MessageCardTab.vue";
+import ArtworkTab from "./ArtworkTab.vue";
 
 // 当前选中的标签
 const activeTab = ref<TabType>("items");
@@ -49,6 +50,7 @@ onUnmounted(() => {
     <VillagersTab v-else-if="activeTab === 'villagers'" />
     <NPCsTab v-else-if="activeTab === 'npcs'" />
     <CreaturesTab v-else-if="activeTab === 'creatures'" />
+    <ArtworkTab v-else-if="activeTab === 'artwork'" />
     <ReactionsTab v-else-if="activeTab === 'reactions'" />
     <RecipesTab v-else-if="activeTab === 'recipes'" />
     <ConstructionTab v-else-if="activeTab === 'construction'" />

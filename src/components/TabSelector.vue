@@ -9,7 +9,8 @@ export type TabType =
   | "reactions"
   | "recipes"
   | "construction"
-  | "messagecard";
+  | "messagecard"
+  | "artwork";
 
 interface Tab {
   id: TabType;
@@ -32,6 +33,7 @@ const tabs: Tab[] = [
   { id: "villagers", label: "村民", icon: ENTITY_ICONS.VILLAGERS },
   { id: "npcs", label: "NPC", icon: ENTITY_ICONS.NPCS },
   { id: "creatures", label: "生物", icon: ENTITY_ICONS.CREATURES },
+  { id: "artwork", label: "艺术品", icon: ENTITY_ICONS.ARTWORKS },
   { id: "reactions", label: "表情", icon: ENTITY_ICONS.REACTIONS },
   { id: "recipes", label: "DIY配方", icon: ENTITY_ICONS.RECIPES },
   { id: "construction", label: "改建", icon: ENTITY_ICONS.CONSTRUCTION },

@@ -28,6 +28,7 @@ import {
 } from "../src/types/villager";
 import type { NPC as NewNPC } from "../src/types/npc";
 import type { Reaction as NewReaction } from "../src/types/reaction";
+import type { Artwork as NewArtwork } from "../src/types/artwork";
 import {
   ConstructionType,
   type Construction as NewConstruction,
@@ -68,7 +69,7 @@ function processImageUrl(imageUrl: string): string {
     url = url.substring(CDN_PREFIX.length);
   }
   if (url.endsWith(".png")) {
-     url = url.substring(0, url.length - 4);
+    url = url.substring(0, url.length - 4);
   }
   return url;
 }
@@ -187,8 +188,7 @@ let newRecipeNameMap = new Map<string, NewRecipe>();
 for (const oldRecipe of oldRecipes) {
   let images = [];
   images.push(processImageUrl(oldRecipe.image));
-  if (oldRecipe.imageSh)
-    images.push(processImageUrl(oldRecipe.imageSh));
+  if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
 
   if (oldRecipe.seasonEvent && !oldRecipe.seasonEventExclusive) {
     oldRecipe.seasonEvent = null; // 非专属季节活动配方不记录季节活动,仅有树篱
@@ -241,9 +241,7 @@ function processVariations(oldItem: OldItem): Variant[] {
     const patternColors = v.colors || oldItem.colors || [];
     variant.patterns.push({
       name: v.patternTranslations?.cNzh || v.pattern || "",
-      image: processImageUrl(
-        v.image || v.storageImage || v.closetImage || ""
-      ),
+      image: processImageUrl(v.image || v.storageImage || v.closetImage || ""),
       id: v.internalId,
       colors: Array.from(
         new Set(
@@ -298,20 +296,15 @@ function convertItem(oldItem: OldItem): NewItem {
   if (oldItem.inventoryImage)
     images.push(processImageUrl(oldItem.inventoryImage));
   if (oldItem.image) images.push(processImageUrl(oldItem.image));
-  if (oldItem.storageImage)
-    images.push(processImageUrl(oldItem.storageImage));
-  if (oldItem.closetImage)
-    images.push(processImageUrl(oldItem.closetImage));
-  if (oldItem.framedImage)
-    images.push(processImageUrl(oldItem.framedImage));
-  if (oldItem.albumImage)
-    images.push(processImageUrl(oldItem.albumImage));
+  if (oldItem.storageImage) images.push(processImageUrl(oldItem.storageImage));
+  if (oldItem.closetImage) images.push(processImageUrl(oldItem.closetImage));
+  if (oldItem.framedImage) images.push(processImageUrl(oldItem.framedImage));
+  if (oldItem.albumImage) images.push(processImageUrl(oldItem.albumImage));
 
   if (images.length === 0) {
     let variation = oldItem.variations?.[0];
     if (variation) {
-      if (variation.image)
-        images.push(processImageUrl(variation.image));
+      if (variation.image) images.push(processImageUrl(variation.image));
       if (variation.storageImage)
         images.push(processImageUrl(variation.storageImage));
       if (variation.closetImage)
@@ -366,6 +359,11 @@ let newItems: NewItem[] = [];
 let newItemIdMap = new Map<number, NewItem>();
 let newItemNameMap = new Map<string, NewItem>();
 let messageCards: MessageCard[] = [];
+let newArtworks: NewArtwork[] = [];
+
+let fakeArtworks = new Map<string, OldItem>();
+let realArtworks = new Map<string, OldItem>();
+
 for (const oldItem of oldItems) {
   if (oldItem.sourceSheet === OldItemSourceSheet.MessageCards) {
     const messageCard: MessageCard = {
@@ -398,9 +396,59 @@ for (const oldItem of oldItems) {
     newItems.push(newItem);
     newItemIdMap.set(newItem.id, newItem);
     newItemNameMap.set(newItem.rawName, newItem);
+
+    if (oldItem.sourceSheet === OldItemSourceSheet.Artwork) {
+      if (oldItem.genuine === true) {
+        realArtworks.set(oldItem.name, oldItem);
+      } else {
+        fakeArtworks.set(oldItem.name, oldItem);
+      }
+    }
   }
 }
+
+for (const [name, realArtwork] of realArtworks) {
+  const fakeArtwork = fakeArtworks.get(name);
+  const newArtwork: NewArtwork = {
+    id: realArtwork.internalId!,
+    name: realArtwork.translations!.cNzh,
+    rawName: realArtwork.name,
+    image: processImageUrl(realArtwork.image!),
+    texture: realArtwork.highResTexture
+      ? processImageUrl(realArtwork.highResTexture)
+      : undefined,
+    ver: realArtwork.versionAdded
+      ? versionAddedMap[realArtwork.versionAdded]
+      : Version.The100,
+    size: realArtwork.size ? sizeMap[realArtwork.size] : ItemSize.The1X1,
+    colors: Array.from(
+      new Set(
+        (realArtwork.colors || [])
+          .map((c) => colorMap[c])
+          .filter((c) => c !== undefined)
+      )
+    ),
+    title: realArtwork.realArtworkTitle!,
+    artist: realArtwork.artist!,
+    desc: realArtwork.description![0]!,
+    itemType: sourceSheetMap[realArtwork.category!],
+    source: realArtwork.source!,
+    buy: realArtwork.buy!,
+    sell: realArtwork.sell!,
+    fake: fakeArtwork
+      ? {
+          id: fakeArtwork.internalId || 0,
+          image: processImageUrl(fakeArtwork.image!),
+          texture: fakeArtwork.highResTexture
+            ? processImageUrl(fakeArtwork.highResTexture)
+            : undefined,
+        }
+      : undefined,
+  };
+  newArtworks.push(newArtwork);
+}
 messageCards.sort((a, b) => a.id - b.id);
+newArtworks.sort((a, b) => a.id - b.id);
 
 const interiorStructures = JSON.parse(
   fs.readFileSync(path.join(__dirname, "Interior Structures.json"), "utf-8")
@@ -663,6 +711,12 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.join(outputPath, "acnh-message-cards.json"),
   JSON.stringify(messageCards.map(removeNullFields), null, 2),
+  "utf-8"
+);
+
+fs.writeFileSync(
+  path.join(outputPath, "acnh-artworks.json"),
+  JSON.stringify(newArtworks.map(removeNullFields), null, 2),
   "utf-8"
 );
 

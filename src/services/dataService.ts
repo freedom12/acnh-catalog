@@ -6,6 +6,7 @@ import {
   type NPC,
   type Creature,
   type Reaction,
+  type Artwork,
   CreatureType,
   Gender,
   Personality,
@@ -413,6 +414,19 @@ export async function loadMessageCardsData(): Promise<MessageCard[]> {
     return await response.json();
   } catch (error) {
     console.error("加载消息卡片数据失败:", error);
+    throw error;
+  }
+}
+
+export async function loadArtworkData(): Promise<Artwork[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.ARTWORKS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("加载艺术品数据失败:", error);
     throw error;
   }
 }

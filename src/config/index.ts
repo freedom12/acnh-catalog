@@ -20,6 +20,7 @@ export const CONFIG = {
     RECIPES: `${BASE_PATH}config/acnh-recipes.json`,
     CONSTRUCTIONS: `${BASE_PATH}config/acnh-constructions.json`,
     MESSAGE_CARDS: `${BASE_PATH}config/acnh-message-cards.json`,
+    ARTWORKS: `${BASE_PATH}config/acnh-artworks.json`,
   },
 
   /**
