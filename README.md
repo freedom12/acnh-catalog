@@ -1,52 +1,45 @@
-# 动物森友会物品目录 - Vue 3 + TypeScript
+# 动物森友会物品目录 (ACNH Catalog)
 
-这是一个使用 Vue 3 + TypeScript + Vite 构建的动物森友会物品目录应用。
+这是一个基于 Vue 3 + TypeScript + Vite 构建的动物森友会 (Animal Crossing: New Horizons) 物品目录应用。提供全面的物品浏览、搜索、筛选和管理功能，帮助玩家更好地管理游戏中的物品收藏。
 
-## 功能特性
+## ✨ 功能特性
 
-- ✨ 物品浏览和搜索
-- 🎨 多条件筛选（分类、来源、颜色、标签、系列等）
-- 📄 分页显示
-- 🎭 物品变体选择器
-- 📊 统计信息展示
-- 🌏 中文翻译支持
-- ✅ 已拥有物品追踪
+- 🏠 **多类别物品浏览**: 支持艺术品、建筑、生物、化石、物品、明信片、NPC、反应、配方、村民等多个类别
+- 🔍 **智能搜索和筛选**: 提供多维度筛选条件，包括分类、来源、颜色、标签、系列、版本、尺寸等
+- 📄 **分页显示**: 支持大量物品的分页浏览，提升用户体验
+- 🎭 **物品变体选择**: 查看物品的不同变体和颜色选项
+- 📊 **统计信息**: 显示收藏进度和统计数据
+- 🌏 **多语言支持**: 内置中文翻译
+- ✅ **拥有状态追踪**: 标记已拥有的物品，支持导入/导出收藏数据
+- 📱 **响应式设计**: 适配不同设备屏幕
 
-## 技术栈
+## 🛠️ 技术栈
 
-- **Vue 3** - 渐进式JavaScript框架
-- **TypeScript** - 类型安全的JavaScript超集
-- **Vite** - 下一代前端构建工具
-- **Composition API** - Vue 3 组合式 API
+- **Vue 3** - 使用 Composition API 的现代前端框架
+- **TypeScript** - 提供类型安全和更好的开发体验
+- **Vite** - 快速的构建工具和开发服务器
+- **Vue Router** - 单页应用路由管理
+- **Animal Crossing API** - 游戏数据接口
 
-## 项目结构
+## 🚀 快速开始
 
-```
-src/
-├── components/          # Vue 组件
-│   ├── FilterControls.vue
-│   ├── ItemCard.vue
-│   ├── ItemsGrid.vue
-│   ├── Pagination.vue
-│   └── StatsDisplay.vue
-├── config/              # 配置文件
-│   └── index.ts
-├── services/            # 服务层
-│   ├── dataService.ts
-│   └── filterService.ts
-├── types/               # TypeScript 类型定义
-│   └── index.ts
-├── App.vue             # 主应用组件
-├── main.ts             # 应用入口
-└── style.css           # 全局样式
-```
+### 环境要求
 
-## 开发指南
+- Node.js 16+
+- npm 或 yarn 或 pnpm
 
 ### 安装依赖
 
 ```bash
 npm install
+```
+
+### 生成配置文件
+
+项目使用工具脚本从原始数据生成配置文件：
+
+```bash
+npm run gencfg
 ```
 
 ### 启动开发服务器
@@ -55,7 +48,7 @@ npm install
 npm run dev
 ```
 
-开发服务器将在 http://localhost:5173 启动
+开发服务器将在 `http://localhost:5173` 启动，您可以在浏览器中访问应用。
 
 ### 构建生产版本
 
@@ -63,32 +56,76 @@ npm run dev
 npm run build
 ```
 
+构建后的文件将输出到 `dist` 目录。
+
 ### 预览生产构建
 
 ```bash
 npm run preview
 ```
 
-## 数据文件
+## 📊 数据管理
 
-项目需要以下数据文件（需要放在 `public` 目录下）：
+### 数据文件说明
 
-- `public/config/acnh-items.json` - 物品数据
-- `public/config/translations.json` - 翻译数据
-- `public/catalog_items.json` - 已拥有物品数据（可选）
+- **游戏数据**: 位于 `public/config/` 目录下的 JSON 文件，包含各种物品的详细信息
+- **翻译文件**: `public/translations.json` 提供中文翻译支持
+- **用户收藏**: `public/catalog_items.json` 存储用户的拥有状态（可选）
 
-## 筛选功能
+### 更新数据
 
-- **搜索**: 按物品名称搜索
-- **分类**: 家具、服饰、工具等
-- **来源**: 商店、制作、活动等
-- **颜色**: 按物品颜色筛选
-- **标签**: 按标签分类
-- **系列**: 按系列套装筛选
-- **版本**: 按游戏版本筛选
-- **尺寸**: 按物品尺寸筛选
-- **拥有状态**: 已拥有/未拥有
+当游戏更新或需要新数据时，可以运行配置生成器：
 
-## 许可证
+```bash
+npm run gencfg
+```
 
-MIT
+## 🎯 使用指南
+
+### 物品浏览
+
+1. 选择顶部标签页查看不同类别的物品
+2. 使用搜索框快速查找特定物品
+3. 应用筛选条件缩小结果范围
+4. 点击物品卡片查看详细信息和变体
+
+### 筛选功能
+
+- **文本搜索**: 输入物品名称进行模糊匹配
+- **分类筛选**: 选择物品类型（如家具、服饰等）
+- **来源筛选**: 按获取方式筛选（商店、制作、活动等）
+- **颜色筛选**: 根据物品颜色进行筛选
+- **系列筛选**: 查看同系列物品
+- **版本筛选**: 按游戏版本过滤
+- **尺寸筛选**: 根据物品尺寸筛选
+- **拥有状态**: 显示/隐藏已拥有或未拥有的物品
+
+### 收藏管理
+
+- 点击物品卡片切换拥有状态
+- 上传/下载收藏数据文件
+- 查看收藏统计信息
+
+## 🤝 贡献指南
+
+欢迎提交 Issue 和 Pull Request！
+
+1. Fork 本项目
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 创建 Pull Request
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
+## 🙏 致谢
+
+- 感谢 Nintendo 创造的《动物森友会》系列游戏
+- 数据来源于社区贡献的游戏资源
+- 感谢所有为项目做出贡献的开发者
+
+---
+
+**享受您的动物森友会之旅！ 🏝️**
