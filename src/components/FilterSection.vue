@@ -1,16 +1,12 @@
 <template>
-  <div
-    class="filter-section"
-    :class="{ 'filter-expanded': isExpanded }"
-  >
+  <div class="filter-section" :class="{ 'filter-expanded': isExpanded }">
     <div class="stats stats-layout-flex">
       <div class="stats-content">
         <slot name="stats"></slot>
       </div>
       <div class="action-buttons">
         <slot name="action-buttons"></slot>
-        <button class="action-btn primary" @click="toggle">
-          <span>{{ isExpanded ? (props.collapseText || "收起筛选") : (props.expandText || "展开筛选") }}</span>
+        <button class="action-btn primary round-btn" @click="toggle">
           <span class="icon">{{ isExpanded ? "▲" : "▼" }}</span>
         </button>
       </div>
@@ -23,7 +19,9 @@
           placeholder="搜索..."
           @input="handleSearch(($event.target as HTMLInputElement).value)"
         />
-        <button class="action-btn danger" @click="handleClearFilters">清除筛选</button>
+        <button class="action-btn danger" @click="handleClearFilters">
+          清除筛选
+        </button>
       </div>
       <div v-if="props.filters" class="filters-wrapper">
         <div
@@ -31,15 +29,24 @@
           :key="filter.value"
           class="filter-group"
         >
-          <label v-if="props.filters.length > 1" class="filter-title">{{ filter.label }}</label>
+          <label v-if="props.filters.length > 1" class="filter-title">{{
+            filter.label
+          }}</label>
           <!-- 单个筛选维度时显示按钮 -->
           <div v-if="props.filters.length === 1" class="category-filter">
             <button
               v-for="option in getFilterOptions(filter)"
               :key="option.value"
               class="category-btn"
-              :class="{ active: getSelectedValue(filter.value) === option.value }"
-              @click="handleFilterChange({ dimension: filter.value, value: option.value })"
+              :class="{
+                active: getSelectedValue(filter.value) === option.value,
+              }"
+              @click="
+                handleFilterChange({
+                  dimension: filter.value,
+                  value: option.value,
+                })
+              "
             >
               <span class="category-label">{{ option.label }}</span>
             </button>
@@ -49,7 +56,15 @@
             v-else
             class="filter-select"
             :value="getSelectedValue(filter.value)"
-            @change="handleFilterChange({ dimension: filter.value, value: ($event.target as HTMLSelectElement).value })"
+            @change="
+              handleFilterChange({
+                dimension: filter.value,
+                value: convertToT(
+                  ($event.target as HTMLSelectElement).value,
+                  filter
+                ),
+              })
+            "
           >
             <option
               v-for="option in getFilterOptions(filter)"
@@ -67,44 +82,58 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { ref, watch } from "vue";
+
+type FilterOptionValue = string | number;
+
+interface FilterOption {
+  value: FilterOptionValue;
+  label: string;
+}
+
+interface Filter {
+  label: string;
+  value: string;
+  options: FilterOption[];
+}
 
 const emit = defineEmits<{
-  filtersChanged: [filters: { searchQuery: string; selectedFilters: Record<string, string | number> }];
+  filtersChanged: [
+    filters: {
+      searchQuery: string;
+      selectedFilters: Record<string, FilterOptionValue>;
+    }
+  ];
 }>();
 
 const isExpanded = ref(false);
 
-const searchQuery = ref('');
-const selectedFilters = ref<Record<string, string | number>>({});
+const searchQuery = ref("");
+const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 
 const props = defineProps<{
-  expandText?: string;
-  collapseText?: string;
-  filters?: Array<{
-    label: string;
-    value: string;
-    options: Array<{ value: string | number; label: string }>;
-  }>;
+  filters?: Filter[];
 }>();
 
 // 默认选中全部选项
 const initializeDefaultFilters = () => {
   if (props.filters) {
-    const newFilters: Record<string, string | number> = {};
-    props.filters.forEach(filter => {
+    const newFilters: Record<string, FilterOptionValue> = {};
+    props.filters.forEach((filter) => {
       // 根据filter的第一个选项的类型决定"全部"选项的值
       const firstOption = filter.options[0];
-      let allValue: string | number = 0; // 默认数字0
-
-      if (firstOption && typeof firstOption.value === 'string') {
-        allValue = 'all'; // 如果第一个选项是字符串，使用'all'
+      let allValue: FilterOptionValue = 0; // 默认数字0
+      if (firstOption && typeof firstOption.value === "string") {
+        allValue = "all"; // 如果第一个选项是字符串，使用'all'
       }
 
       newFilters[filter.value] = allValue;
     });
     selectedFilters.value = newFilters;
-    emit('filtersChanged', { searchQuery: searchQuery.value, selectedFilters: selectedFilters.value });
+    emit("filtersChanged", {
+      searchQuery: searchQuery.value,
+      selectedFilters: selectedFilters.value,
+    });
   }
 };
 
@@ -112,23 +141,20 @@ const initializeDefaultFilters = () => {
 watch(() => props.filters, initializeDefaultFilters, { immediate: true });
 
 // 为每个筛选维度生成包含"全部"选项的完整选项列表
-const getFilterOptions = (filter: any) => {
+const getFilterOptions = (filter: Filter) => {
   // 根据filter的第一个选项的类型决定"全部"选项的值
   const firstOption = filter.options[0];
-  let allValue: string | number = 0; // 默认数字0
+  let allValue: FilterOptionValue = 0; // 默认数字0
 
-  if (firstOption && typeof firstOption.value === 'string') {
-    allValue = 'all'; // 如果第一个选项是字符串，使用'all'
+  if (firstOption && typeof firstOption.value === "string") {
+    allValue = "all"; // 如果第一个选项是字符串，使用'all'
   }
 
-  return [
-    { value: allValue, label: '全部' },
-    ...filter.options
-  ];
+  return [{ value: allValue, label: "全部" }, ...filter.options];
 };
 
-const getSelectedValue = (dimension: string) => {
-  return selectedFilters.value[dimension];
+const getSelectedValue = (dimension: string): FilterOptionValue => {
+  return selectedFilters.value[dimension]!;
 };
 
 const toggle = () => {
@@ -137,26 +163,45 @@ const toggle = () => {
 
 const handleSearch = (query: string) => {
   searchQuery.value = query;
-  emit('filtersChanged', { searchQuery: searchQuery.value, selectedFilters: selectedFilters.value });
+  emit("filtersChanged", {
+    searchQuery: searchQuery.value,
+    selectedFilters: selectedFilters.value,
+  });
 };
 
-const handleFilterChange = (event: { dimension: string; value: string | number }) => {
-  selectedFilters.value = { ...selectedFilters.value, [event.dimension]: event.value };
-  emit('filtersChanged', { searchQuery: searchQuery.value, selectedFilters: selectedFilters.value });
+const convertToT = (value: string, filter: Filter): FilterOptionValue => {
+  if (filter.options[0] && typeof filter.options[0].value === "number") {
+    return parseInt(value);
+  } else {
+    return value;
+  }
+};
+
+const handleFilterChange = (event: {
+  dimension: string;
+  value: FilterOptionValue;
+}) => {
+  selectedFilters.value = {
+    ...selectedFilters.value,
+    [event.dimension]: event.value,
+  };
+  emit("filtersChanged", {
+    searchQuery: searchQuery.value,
+    selectedFilters: selectedFilters.value,
+  });
 };
 
 const handleClearFilters = () => {
-  searchQuery.value = '';
+  searchQuery.value = "";
   // 将所有筛选重置为"全部"
   if (props.filters) {
-    const clearedFilters: Record<string, string | number> = {};
-    props.filters.forEach(filter => {
+    const clearedFilters: Record<string, FilterOptionValue> = {};
+    props.filters.forEach((filter) => {
       // 根据filter的第一个选项的类型决定"全部"选项的值
       const firstOption = filter.options[0];
-      let allValue: string | number = 0; // 默认数字0
-
-      if (firstOption && typeof firstOption.value === 'string') {
-        allValue = 'all'; // 如果第一个选项是字符串，使用'all'
+      let allValue: FilterOptionValue = 0; // 默认数字0
+      if (firstOption && typeof firstOption.value === "string") {
+        allValue = "all"; // 如果第一个选项是字符串，使用'all'
       }
 
       clearedFilters[filter.value] = allValue;
@@ -165,7 +210,10 @@ const handleClearFilters = () => {
   } else {
     selectedFilters.value = {};
   }
-  emit('filtersChanged', { searchQuery: '', selectedFilters: selectedFilters.value });
+  emit("filtersChanged", {
+    searchQuery: "",
+    selectedFilters: selectedFilters.value,
+  });
 };
 </script>
 
@@ -265,13 +313,13 @@ const handleClearFilters = () => {
   font-size: 14px;
   font-weight: 500;
   transition: all 0.2s;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   white-space: nowrap;
 }
 
 .category-btn:hover {
   background: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transform: translateY(-1px);
 }
 

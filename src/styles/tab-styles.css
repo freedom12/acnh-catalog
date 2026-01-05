@@ -232,3 +232,14 @@
     font-size: 1em;
   }
 }
+
+/* 圆形按钮样式 */
+.round-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}

@@ -84,11 +84,10 @@ const toggleFilter = () => {
             </div>
           </div>
           <div class="action-buttons">
-            <button class="action-btn primary" @click="toggleFilter">
-              <span>{{ isFilterExpanded ? "收起筛选" : "展开筛选" }}</span>
+            <CatalogUploader @catalog-uploaded="handleCatalogUpload" />
+            <button class="action-btn primary round-btn" @click="toggleFilter">
               <span class="icon">{{ isFilterExpanded ? "▲" : "▼" }}</span>
             </button>
-            <CatalogUploader @catalog-uploaded="handleCatalogUpload" />
           </div>
         </div>
 
