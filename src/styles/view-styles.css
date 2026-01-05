@@ -1,4 +1,4 @@
-/* 公共View样式 */
+/* ==================== 状态提示 ==================== */
 .loading,
 .error {
   text-align: center;
@@ -10,7 +10,7 @@
   color: var(--danger-color);
 }
 
-/* Stats 基础样式 */
+/* ==================== 统计信息 ==================== */
 .stats {
   background-color: white;
   border-radius: var(--border-radius-md);
@@ -20,7 +20,6 @@
   text-align: center;
 }
 
-/* 筛选器展开时的stats样式 */
 .filter-expanded .stats {
   border-radius: var(--border-radius-md) var(--border-radius-md) 0 0;
   margin-bottom: 0;
@@ -31,7 +30,6 @@
   justify-content: space-between;
   align-items: center;
   gap: var(--spacing-xl);
-  text-align: center;
 }
 
 .stats-content {
@@ -48,7 +46,7 @@
   margin: 0;
 }
 
-/* 通用按钮样式 */
+/* ==================== 按钮组件 ==================== */
 .action-btn {
   display: flex;
   align-items: center;
@@ -78,14 +76,12 @@
 .action-btn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-  transform: none;
 }
 
 .action-btn .icon {
   font-size: 12px;
 }
 
-/* 按钮变体 */
 .action-btn.primary {
   background: linear-gradient(135deg, var(--primary-color) 0%, #5dade2 100%);
 }
@@ -103,7 +99,6 @@
 }
 
 .action-btn.danger {
-  background-color: var(--danger-color);
   background: linear-gradient(135deg, var(--danger-color) 0%, #e53935 100%);
   font-weight: 600;
 }
@@ -116,7 +111,25 @@
   background: #b71c1c;
 }
 
-/* 分类筛选器样式 */
+.round-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+/* ==================== 筛选器组件 ==================== */
+.filter-controls-wrapper {
+  background-color: white;
+  border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
+  padding: var(--spacing-md);
+  margin-top: calc(-1 * var(--border-radius-md));
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  z-index: 1;
+}
+
 .category-filter {
   display: flex;
   gap: var(--spacing-sm);
@@ -164,22 +177,8 @@
   opacity: 0.8;
 }
 
-/* 筛选器容器样式 */
-.filter-controls-wrapper {
-  background-color: white;
-  border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
-  padding: var(--spacing-md);
-  margin-top: calc(-1 * var(--border-radius-md));
-  padding-top: var(--spacing-md);
-  box-shadow: var(--shadow-sm);
-  position: relative;
-  z-index: 1;
-}
-
-/* 通用toggle样式 */
 .toggle-group {
   display: inline-flex;
-  gap: 0;
   margin-left: auto;
   background: var(--border-color);
   border-radius: var(--border-radius-xl);
@@ -209,10 +208,52 @@
   box-shadow: var(--shadow-sm);
 }
 
-/* 响应式设计 */
+/* ==================== 网格布局 ==================== */
+.generic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-lg, 20px);
+  margin: var(--spacing-lg, 20px) 0;
+}
+
+/* ==================== 空状态 ==================== */
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px var(--spacing-lg, 20px);
+  color: var(--text-muted, #666);
+  text-align: center;
+}
+
+.no-results-icon {
+  font-size: 60px;
+  margin-bottom: var(--spacing-lg, 20px);
+  opacity: 0.8;
+}
+
+.no-results-title {
+  color: var(--text-light, #999);
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* ==================== 响应式设计 ==================== */
+@media (max-width: 1200px) {
+  .generic-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
-  .category-filter {
-    gap: var(--spacing-sm);
+  .stats {
+    padding: 15px;
+  }
+
+  .stat-item {
+    font-size: 1em;
   }
 
   .category-btn {
@@ -224,22 +265,27 @@
     font-size: 1.2em;
   }
 
-  .stats {
-    padding: 15px;
+  .generic-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--spacing-md, 15px);
   }
 
-  .stat-item {
+  .no-results {
+    padding: 40px var(--spacing-md, 15px);
+  }
+
+  .no-results-icon {
+    font-size: 48px;
+  }
+
+  .no-results-title {
     font-size: 1em;
   }
 }
 
-/* 圆形按钮样式 */
-.round-btn {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+@media (max-width: 480px) {
+  .generic-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: var(--spacing-sm, 10px);
+  }
 }
