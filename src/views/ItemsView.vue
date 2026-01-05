@@ -259,18 +259,13 @@ const handleCatalogUpload = (data: {
 <template>
   <DataView :loading="loading" :error="error" :on-load="loadData" :datas="filteredData" :per-page="100" :card-component="ItemCard">
     <template #filters>
-      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            总物品数: {{ allItems.length.toLocaleString() }}
-          </div>
-          <div>
-            当前显示: {{ filteredData.length.toLocaleString() }}
-          </div>
-          <div>
-            已拥有: {{ ownedItemsCount.toLocaleString() }}
-          </div>
-        </template>
+      <FilterSection 
+        :filters="filters" 
+        :total-count="allItems.length" 
+        :current-count="filteredData.length"
+        :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
+        @filters-changed="handleFiltersChanged"
+      >
         <template #action-buttons>
           <CatalogUploader @catalog-uploaded="handleCatalogUpload" />
         </template>

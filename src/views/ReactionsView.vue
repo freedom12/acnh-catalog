@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useReactionsData } from "../composables/useReactionsData";
 import { useFilter } from "../composables/useFilter";
-import { UI_TEXT } from "../constants";
 import DataView from "../components/DataView.vue";
 import ReactionCard from "../components/ReactionCard.vue";
 import FilterSection from "../components/FilterSection.vue";
@@ -13,14 +12,11 @@ const { filteredData, handleFiltersChanged } = useFilter(allReactions);
 <template>
   <DataView :loading="loading" :error="error" :on-load="loadData" :datas="filteredData" :card-component="ReactionCard">
     <template #filters>
-      <FilterSection @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length
-            }}{{ UI_TEXT.STATS.REACTIONS_UNIT }}
-          </div>
-        </template>
-      </FilterSection>
+      <FilterSection 
+        :total-count="allReactions.length" 
+        :current-count="filteredData.length"
+        @filters-changed="handleFiltersChanged"
+      />
     </template>
   </DataView>
 </template>

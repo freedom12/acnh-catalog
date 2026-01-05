@@ -2,7 +2,6 @@
 import { computed } from "vue";
 import { useVillagersData } from "../composables/useVillagersData";
 import { useFilter } from "../composables/useFilter";
-import { UI_TEXT } from "../constants";
 import DataView from "../components/DataView.vue";
 import VillagerCard from "../components/VillagerCard.vue";
 import FilterSection from "../components/FilterSection.vue";
@@ -55,15 +54,12 @@ const { filteredData, handleFiltersChanged } = useFilter(allVillagers);
 <template>
   <DataView :loading="loading" :error="error" :on-load="loadData" :datas="filteredData" :per-page="100" :card-component="VillagerCard">
     <template #filters>
-      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            {{ UI_TEXT.STATS.TOTAL_ITEMS
-            }}{{ filteredData.length.toLocaleString()
-            }}{{ UI_TEXT.STATS.VILLAGERS_UNIT }}
-          </div>
-        </template>
-      </FilterSection>
+      <FilterSection 
+        :filters="filters" 
+        :total-count="allVillagers.length" 
+        :current-count="filteredData.length"
+        @filters-changed="handleFiltersChanged"
+      />
     </template>
   </DataView>
 </template>

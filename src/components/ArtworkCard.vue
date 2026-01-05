@@ -88,26 +88,21 @@ const handleTitleClick = () => {
     :shape="'rounded'"
     @click="handleClick"
   >
-    <template #name>
-      <h3 class="card-name">{{ props.data.name }}</h3>
-      <div class="artwork-images">
-        <div
-          v-for="img in imgs"
-          :key="img.id"
-          class="artwork-image-item"
-          @click="handleImageClick(img.id)"
-        >
-          <img :src="img.image" :alt="img.title" class="thumbnail" />
-          <span class="image-title">{{ img.title }}</span>
-        </div>
-      </div>
-    </template>
-    <div class="detail-row detail-center">
-      <span
-        class="clickable"
-        @click="handleTitleClick"
-        >{{ props.data.title }}</span
+    <div class="artwork-images">
+      <div
+        v-for="img in imgs"
+        :key="img.id"
+        class="artwork-image-item"
+        @click="handleImageClick(img.id)"
       >
+        <img :src="img.image" :alt="img.title" class="thumbnail" />
+        <span class="image-title">{{ img.title }}</span>
+      </div>
+    </div>
+    <div class="detail-row detail-center">
+      <span class="clickable" @click="handleTitleClick">{{
+        props.data.title
+      }}</span>
     </div>
     <div class="detail-row full">
       <span class="detail-label">艺术家</span>

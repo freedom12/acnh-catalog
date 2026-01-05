@@ -2,11 +2,10 @@
 import { ref, computed } from "vue";
 import { useCreaturesData } from "../composables/useCreaturesData";
 import { useFilter } from "../composables/useFilter";
-import { UI_TEXT } from "../constants";
 import DataView from "../components/DataView.vue";
 import CreatureCard from "../components/CreatureCard.vue";
-import ToggleGroup from "../components/ToggleGroup.vue";
 import FilterSection from "../components/FilterSection.vue";
+import ToggleGroup from "../components/ToggleGroup.vue";
 import { CreatureType } from "../types";
 import { getCreatureTypeName } from "../services/dataService";
 
@@ -39,7 +38,6 @@ const sortedFilteredData = computed(() => {
     return a.order - b.order;
   });
 });
-
 </script>
 
 <template>
@@ -52,13 +50,12 @@ const sortedFilteredData = computed(() => {
     :card-props="{ hemisphere: selectedHemisphere }"
   >
     <template #filters>
-      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ sortedFilteredData.length
-            }}{{ UI_TEXT.STATS.CREATURES_UNIT }}
-          </div>
-        </template>
+      <FilterSection 
+        :filters="filters" 
+        :total-count="allCreatures.length" 
+        :current-count="sortedFilteredData.length"
+        @filters-changed="handleFiltersChanged"
+      >
         <template #action-buttons>
           <ToggleGroup
             v-model="selectedHemisphere"

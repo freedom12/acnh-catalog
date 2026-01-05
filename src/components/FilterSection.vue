@@ -2,10 +2,20 @@
   <div class="filter-section" :class="{ 'filter-expanded': isExpanded }">
     <div class="stats stats-layout-flex">
       <div class="stats-content">
+        <div v-if="props.totalCount !== undefined">
+          总数: {{ props.totalCount.toLocaleString() }}
+        </div>
+        <div v-if="props.currentCount !== undefined">
+          当前: {{ props.currentCount.toLocaleString() }}
+        </div>
+        <div v-for="stat in props.extraStats" :key="stat.label">
+          {{ stat.label }}: {{ stat.value.toLocaleString() }}
+        </div>
         <slot name="stats"></slot>
       </div>
       <div class="action-buttons">
         <slot name="action-buttons"></slot>
+        <ToggleGroup v-model="viewMode" :options="viewModeOptions" />
         <button class="action-btn primary round-btn" @click="toggle">
           <span class="icon">{{ isExpanded ? "▲" : "▼" }}</span>
         </button>
@@ -83,6 +93,8 @@
 
 <script setup lang="ts">
 import { ref, watch } from "vue";
+import { useViewMode } from "../composables/useViewMode";
+import ToggleGroup from "./ToggleGroup.vue";
 
 export type FilterOptionValue = string | number;
 
@@ -111,8 +123,20 @@ const isExpanded = ref(false);
 const searchQuery = ref("");
 const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 
+// 使用全局共享的视图模式
+const { viewMode } = useViewMode();
+
+// 视图模式选项
+const viewModeOptions = [
+  { value: "detailed", label: "详细" },
+  { value: "simple", label: "简略" },
+];
+
 const props = defineProps<{
   filters?: Filter[];
+  totalCount?: number;
+  currentCount?: number;
+  extraStats?: Array<{ label: string; value: number }>;
 }>();
 
 // 默认选中全部选项

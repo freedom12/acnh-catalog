@@ -2,7 +2,6 @@
 import { computed } from "vue";
 import { useConstructionData } from "../composables/useConstructionData";
 import { useFilter } from "../composables/useFilter";
-import { UI_TEXT } from "../constants";
 import DataView from "../components/DataView.vue";
 import ConstructionCard from "../components/ConstructionCard.vue";
 import FilterSection from "../components/FilterSection.vue";
@@ -31,14 +30,12 @@ const sortedFilteredData = computed(() => {
 <template>
   <DataView :loading="loading" :error="error" :on-load="loadData" :datas="sortedFilteredData" :per-page="100" :card-component="ConstructionCard">
     <template #filters>
-      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ sortedFilteredData.length
-            }}{{ UI_TEXT.STATS.CONSTRUCTION_UNIT }}
-          </div>
-        </template>
-      </FilterSection>
+      <FilterSection 
+        :filters="filters" 
+        :total-count="allConstruction.length" 
+        :current-count="sortedFilteredData.length"
+        @filters-changed="handleFiltersChanged"
+      />
     </template>
   </DataView>
 </template>

@@ -1,6 +1,7 @@
 <script setup lang="ts" generic="T">
 import { computed, onMounted, ref, watch, type Ref } from "vue";
 import { usePagination } from "../composables/usePagination";
+import { useViewMode } from "../composables/useViewMode";
 import Pagination from "./Pagination.vue";
 
 interface Props {
@@ -27,6 +28,14 @@ const datas = computed(() => props.datas || []);
 const perPageCount = ref(props.perPage);
 const { currentPage, displayDatas, totalPageCount, handlePageChange } =
   usePagination(datas as Ref<T[]>, perPageCount);
+
+// 使用全局共享的视图模式
+const { viewMode } = useViewMode();
+
+const mergedCardProps = computed(() => ({
+  ...props.cardProps,
+  detailed: viewMode.value === 'detailed',
+}));
 
 // 监听数据变化，重置到首页
 watch(datas, () => {
@@ -68,7 +77,7 @@ onMounted(() => {
           :key="(data as any).id || index"
           :is="cardComponent"
           :data="data"
-          v-bind="cardProps"
+          v-bind="mergedCardProps"
         />
       </div>
 

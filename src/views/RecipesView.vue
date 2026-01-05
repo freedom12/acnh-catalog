@@ -3,7 +3,6 @@ import { computed } from "vue";
 import { useRecipesData } from "../composables/useRecipesData";
 import { useItemsData } from "../composables/useItemsData";
 import { useFilter } from "../composables/useFilter";
-import { UI_TEXT } from "../constants";
 import { RecipeType } from "../types/recipe";
 import DataView from "../components/DataView.vue";
 import RecipeCard from "../components/RecipeCard.vue";
@@ -35,14 +34,12 @@ const onLoad = () => {
 <template>
   <DataView :loading="loading" :error="error" :on-load="onLoad" :datas="filteredData" :per-page="100" :card-component="RecipeCard">
     <template #filters>
-      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
-        <template #stats>
-          <div>
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length
-            }}{{ UI_TEXT.STATS.RECIPES_UNIT }}
-          </div>
-        </template>
-      </FilterSection>
+      <FilterSection 
+        :filters="filters" 
+        :total-count="allRecipes.length" 
+        :current-count="filteredData.length"
+        @filters-changed="handleFiltersChanged"
+      />
     </template>
   </DataView>
 </template>

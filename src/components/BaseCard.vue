@@ -10,6 +10,7 @@ interface Props {
   images: string[];
   displayName: string;
   shape?: "circle" | "rounded" | "square";
+  detailed?: boolean;
 }
 
 const props = defineProps<Props>();
@@ -106,7 +107,7 @@ const nextImage = () => {
       <slot name="name">
         <h3 class="card-name">{{ displayName }}</h3>
       </slot>
-      <div class="card-details">
+      <div v-if="detailed" class="card-details">
         <slot></slot>
       </div>
     </div>

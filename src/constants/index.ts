@@ -47,19 +47,6 @@ export const ENTITY_ICONS = {
  * UI文本
  */
 export const UI_TEXT = {
-  STATS: {
-    TOTAL_ITEMS: "共",
-    ITEMS_UNIT: "个物品",
-    VILLAGERS_UNIT: "位村民",
-    NPCS_UNIT: "位NPC",
-    CREATURES_UNIT: "种生物",
-    REACTIONS_UNIT: "个表情",
-    ARTWORKS_UNIT: "件艺术品",
-    FOSSILS_UNIT: "组化石",
-    RECIPES_UNIT: "个配方",
-    CONSTRUCTION_UNIT: "个改建项目",
-    MESSAGE_CARDS_UNIT: "张消息卡片",
-  },
   LABELS: {
     PRICE: "售价",
     LOCATION: "位置",
