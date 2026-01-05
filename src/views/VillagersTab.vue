@@ -16,10 +16,7 @@ import {
   getSpeciesName,
 } from "../services/dataService";
 
-// 使用村民数据加载组合函数
 const { allVillagers, loading, error, loadData } = useVillagersData();
-
-// 过滤器配置
 const filters = computed(() => [
   {
     label: "种族",
@@ -54,11 +51,7 @@ const filters = computed(() => [
     })),
   },
 ]);
-
-// 使用通用筛选 composable
 const { filteredData, handleFiltersChanged } = useFilter(allVillagers);
-
-// 分页相关
 const perPageCount = ref(100);
 const { currentPage, totalPageCount, displayDatas, handlePageChange } =
   usePagination(filteredData, perPageCount);

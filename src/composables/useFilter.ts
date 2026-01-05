@@ -5,7 +5,10 @@ export interface UseFilterReturn<T> {
   searchQuery: Ref<string>;
   selectedFilters: Ref<Record<string, FilterOptionValue>>;
   filteredData: Ref<T[]>;
-  handleFiltersChanged: (filters: { searchQuery: string; selectedFilters: Record<string, FilterOptionValue> }) => void;
+  handleFiltersChanged: (filters: {
+    searchQuery: string;
+    selectedFilters: Record<string, FilterOptionValue>;
+  }) => void;
 }
 
 /**
@@ -15,7 +18,11 @@ export interface UseFilterReturn<T> {
  */
 export function useFilter<T>(
   allData: Ref<T[]>,
-  filterFn?: (item: T, searchQuery: string, selectedFilters: Record<string, FilterOptionValue>) => boolean
+  filterFn?: (
+    item: T,
+    searchQuery: string,
+    selectedFilters: Record<string, FilterOptionValue>
+  ) => boolean
 ): UseFilterReturn<T> {
   const searchQuery = ref("");
   const selectedFilters = ref<Record<string, FilterOptionValue>>({});
@@ -26,7 +33,9 @@ export function useFilter<T>(
     // 搜索筛选
     if (searchQuery.value) {
       result = result.filter((item) =>
-        (item as any).name?.toLowerCase().includes(searchQuery.value.toLowerCase())
+        (item as any).name
+          ?.toLowerCase()
+          .includes(searchQuery.value.toLowerCase())
       );
     }
 
@@ -39,13 +48,18 @@ export function useFilter<T>(
 
     // 自定义筛选函数（如果提供）
     if (filterFn) {
-      result = result.filter((item) => filterFn(item, searchQuery.value, selectedFilters.value));
+      result = result.filter((item) =>
+        filterFn(item, searchQuery.value, selectedFilters.value)
+      );
     }
 
     return result;
   });
 
-  const handleFiltersChanged = (filters: { searchQuery: string; selectedFilters: Record<string, FilterOptionValue> }) => {
+  const handleFiltersChanged = (filters: {
+    searchQuery: string;
+    selectedFilters: Record<string, FilterOptionValue>;
+  }) => {
     searchQuery.value = filters.searchQuery;
     selectedFilters.value = filters.selectedFilters;
   };

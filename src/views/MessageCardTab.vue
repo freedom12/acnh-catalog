@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, computed } from "vue";
+import { onMounted } from "vue";
 import { useMessageCardsData } from "../composables/useMessageCardsData";
 import { useFilter } from "../composables/useFilter";
 import { DATA_LOADING, UI_TEXT } from "../constants";
@@ -7,16 +7,8 @@ import MessageCard from "../components/MessageCard.vue";
 import FilterSection from "../components/FilterSection.vue";
 import Grid from "../components/Grid.vue";
 
-// 使用数据加载组合函数
 const { allMessageCards, loading, error, loadData } = useMessageCardsData();
-
-// 过滤器配置（空配置，仅用于搜索）
-const filters = computed(() => []);
-
-// 使用通用筛选 composable
 const { filteredData, handleFiltersChanged } = useFilter(allMessageCards);
-
-// 组件挂载时加载数据
 onMounted(() => {
   loadData();
 });
@@ -32,13 +24,11 @@ onMounted(() => {
     </div>
 
     <template v-else>
-      <FilterSection
-        :filters="filters"
-        @filters-changed="handleFiltersChanged"
-      >
+      <FilterSection @filters-changed="handleFiltersChanged">
         <template #stats>
           <div class="stat-item">
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length }}{{ UI_TEXT.STATS.MESSAGE_CARDS_UNIT }}
+            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length
+            }}{{ UI_TEXT.STATS.MESSAGE_CARDS_UNIT }}
           </div>
         </template>
       </FilterSection>

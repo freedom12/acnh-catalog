@@ -14,8 +14,6 @@ import { getRecipeTypeName } from "../services/dataService";
 
 const { allRecipes, loading, error, loadData } = useRecipesData();
 const { loadData: loadItemsData } = useItemsData();
-
-// 过滤器配置
 const filters = computed(() => [
   {
     label: "类型",
@@ -28,15 +26,11 @@ const filters = computed(() => [
     })),
   },
 ]);
-
-// 使用通用筛选 composable
 const { filteredData, handleFiltersChanged } = useFilter(allRecipes);
-
-// 分页相关
 const perPageCount = ref(100);
-const { currentPage, totalPageCount, displayDatas, handlePageChange } = usePagination(filteredData, perPageCount);
+const { currentPage, totalPageCount, displayDatas, handlePageChange } =
+  usePagination(filteredData, perPageCount);
 
-// 组件挂载时加载数据
 onMounted(() => {
   loadData();
   loadItemsData();
@@ -49,13 +43,11 @@ onMounted(() => {
     <div v-else-if="error" class="error">{{ error }}</div>
 
     <template v-else>
-      <FilterSection
-        :filters="filters"
-        @filters-changed="handleFiltersChanged"
-      >
+      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
         <template #stats>
           <div class="stat-item">
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length }}{{ UI_TEXT.STATS.RECIPES_UNIT }}
+            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length
+            }}{{ UI_TEXT.STATS.RECIPES_UNIT }}
           </div>
         </template>
       </FilterSection>

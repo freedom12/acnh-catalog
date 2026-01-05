@@ -11,10 +11,7 @@ import Pagination from "../components/Pagination.vue";
 import { ConstructionType } from "../types/construction";
 import { getConstrunctionTypeName } from "../services/dataService";
 
-// 使用改建数据加载组合函数
 const { allConstruction, loading, error, loadData } = useConstructionData();
-
-// 过滤器配置
 const filters = computed(() => [
   {
     label: "类型",
@@ -27,20 +24,14 @@ const filters = computed(() => [
     })),
   },
 ]);
-
-// 使用通用筛选 composable
 const { filteredData, handleFiltersChanged } = useFilter(allConstruction);
-
-// 排序后的筛选数据
 const sortedFilteredData = computed(() => {
   return filteredData.value.sort((a: any, b: any) => a.id - b.id);
 });
-
-// 分页相关
 const perPageCount = ref(100);
-const { currentPage, totalPageCount, displayDatas, handlePageChange } = usePagination(sortedFilteredData, perPageCount);
+const { currentPage, totalPageCount, displayDatas, handlePageChange } =
+  usePagination(sortedFilteredData, perPageCount);
 
-// 组件挂载时加载数据
 onMounted(() => {
   loadData();
 });
@@ -52,13 +43,11 @@ onMounted(() => {
     <div v-else-if="error" class="error">{{ error }}</div>
 
     <template v-else>
-      <FilterSection
-        :filters="filters"
-        @filters-changed="handleFiltersChanged"
-      >
+      <FilterSection :filters="filters" @filters-changed="handleFiltersChanged">
         <template #stats>
           <div class="stat-item">
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ sortedFilteredData.length }}{{ UI_TEXT.STATS.CONSTRUCTION_UNIT }}
+            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ sortedFilteredData.length
+            }}{{ UI_TEXT.STATS.CONSTRUCTION_UNIT }}
           </div>
         </template>
       </FilterSection>

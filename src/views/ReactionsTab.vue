@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, computed } from "vue";
+import { onMounted } from "vue";
 import { useReactionsData } from "../composables/useReactionsData";
 import { useFilter } from "../composables/useFilter";
 import { DATA_LOADING, UI_TEXT } from "../constants";
@@ -7,16 +7,9 @@ import Grid from "../components/Grid.vue";
 import ReactionCard from "../components/ReactionCard.vue";
 import FilterSection from "../components/FilterSection.vue";
 
-// 使用表情反应数据加载组合函数
 const { allReactions, loading, error, loadData } = useReactionsData();
-
-// 过滤器配置（空配置，仅用于搜索）
-const filters = computed(() => []);
-
-// 使用通用筛选 composable
 const { filteredData, handleFiltersChanged } = useFilter(allReactions);
 
-// 组件挂载时加载数据
 onMounted(() => {
   loadData();
 });
@@ -28,13 +21,11 @@ onMounted(() => {
     <div v-else-if="error" class="error">{{ error }}</div>
 
     <template v-else>
-      <FilterSection
-        :filters="filters"
-        @filters-changed="handleFiltersChanged"
-      >
+      <FilterSection @filters-changed="handleFiltersChanged">
         <template #stats>
           <div class="stat-item">
-            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length }}{{ UI_TEXT.STATS.REACTIONS_UNIT }}
+            {{ UI_TEXT.STATS.TOTAL_ITEMS }}{{ filteredData.length
+            }}{{ UI_TEXT.STATS.REACTIONS_UNIT }}
           </div>
         </template>
       </FilterSection>
