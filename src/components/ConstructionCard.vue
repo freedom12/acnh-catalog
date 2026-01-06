@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { UI_TEXT } from "../constants";
 import { getConstrunctionTypeName } from "../services/dataService";
 import type { Construction } from "../types/construction";
 import { formatPrice } from "../utils/common";
@@ -32,14 +33,14 @@ const handleClick = () => {
       </span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">售价</span>
-      <span class="detail-value price">
-        {{ formatPrice(props.data.buy) }} 铃钱
-      </span>
+      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
+      <SourceList class="detail-value" :sources="props.data.source" />
     </div>
     <div class="detail-row">
-      <span class="detail-label">来源</span>
-      <SourceList class="detail-value" :sources="props.data.source" />
+      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
+      <span class="detail-value price">
+        {{ formatPrice(props.data.buy) }} {{ UI_TEXT.CURRENCY }}
+      </span>
     </div>
   </BaseCard>
 </template>

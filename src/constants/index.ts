@@ -48,7 +48,7 @@ export const ENTITY_ICONS = {
  */
 export const UI_TEXT = {
   LABELS: {
-    PRICE: "售价",
+    PRICE: "出售",
     LOCATION: "位置",
     SIZE: "大小",
     SOURCE: "来源",

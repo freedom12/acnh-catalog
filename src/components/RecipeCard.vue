@@ -34,12 +34,6 @@ const handleClick = () => {
       <span class="detail-value">{{ getRecipeTypeName(props.data.type) }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value price">
-        {{ formatPrice(props.data.sell) }} {{ UI_TEXT.CURRENCY }}
-      </span>
-    </div>
-    <div class="detail-row">
       <span class="detail-label">{{ "季节/活动" }}</span>
       <span class="detail-value">{{
         getSeasonEventName(props.data.seasonEvent || "") || "--"
@@ -52,6 +46,12 @@ const handleClick = () => {
         :sources="props.data.source"
         :sourceNotes="props.data.sourceNotes"
       />
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
+      <span class="detail-value price">
+        {{ formatPrice(props.data.sell) }} {{ UI_TEXT.CURRENCY }}
+      </span>
     </div>
     <div
       v-if="Object.keys(props.data.materials).length > 0"

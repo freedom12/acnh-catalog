@@ -148,14 +148,17 @@ const handleClick = () => {
       </span>
     </div>
     <div class="detail-row">
-      <span class="buy-price" title="购买价格">
+      <span class="detail-label">购买</span>
+      <span class="detail-value price">
         {{ itemModel.buyPriceStr }} {{ UI_TEXT.CURRENCY }}
       </span>
-      <span class="sell-price" title="出售价格">
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
+      <span class="detail-value price">
         {{ itemModel.sellPriceStr }} {{ UI_TEXT.CURRENCY }}
       </span>
     </div>
-
     <div v-if="itemModel.hasVariations" class="variants-section variant-row">
       <span class="variants-label">款式</span>
       <div class="variants-list">
