@@ -94,6 +94,7 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
 import { useViewMode } from "../composables/useViewMode";
+import { useDebounce } from "../composables/useDebounce";
 import ToggleGroup from "./ToggleGroup.vue";
 
 export type FilterOptionValue = string | number;
@@ -121,6 +122,7 @@ const emit = defineEmits<{
 const isExpanded = ref(false);
 
 const searchQuery = ref("");
+const debouncedSearchQuery = useDebounce(searchQuery, 300);
 const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 const filters = ref<Filter[]>([]);
 
@@ -175,6 +177,14 @@ const initializeDefaultFilters = () => {
 // 监听filters变化，初始化默认选择
 watch(() => props.filters, initializeDefaultFilters, { immediate: true });
 
+// 监听防抖后的搜索查询
+watch(debouncedSearchQuery, () => {
+  emit("filtersChanged", {
+    searchQuery: debouncedSearchQuery.value,
+    selectedFilters: selectedFilters.value,
+  });
+});
+
 const getSelectedValue = (dimension: string): FilterOptionValue => {
   return selectedFilters.value[dimension]!;
 };
@@ -185,10 +195,6 @@ const toggle = () => {
 
 const handleSearch = (query: string) => {
   searchQuery.value = query;
-  emit("filtersChanged", {
-    searchQuery: searchQuery.value,
-    selectedFilters: selectedFilters.value,
-  });
 };
 
 const convertToT = (value: string, filter: Filter): FilterOptionValue => {
