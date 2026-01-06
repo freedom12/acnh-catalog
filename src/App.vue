@@ -1,8 +1,13 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, watch } from "vue";
+import ItemDetailModal from "./components/ItemDetailModal.vue";
+import { useItemDetailModal } from "./composables/useItemDetailModal";
 
 // 回到顶部按钮显示状态
 const showBackToTop = ref(false);
+
+// 物品详情模态框
+const { isOpen, currentItemId, closeModal } = useItemDetailModal();
 
 // 滚动事件处理
 const handleScroll = () => {
@@ -14,12 +19,23 @@ const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
+// 防止滚动穿透 - 监听isOpen状态
+watch(isOpen, (open) => {
+  if (open) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = '';
+  }
+}, { immediate: true });
+
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
 });
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
+  // 清理时恢复滚动
+  document.body.style.overflow = '';
 });
 </script>
 
@@ -30,6 +46,13 @@ onUnmounted(() => {
     </header>
 
     <RouterView />
+
+    <!-- 物品详情模态框 -->
+    <ItemDetailModal
+      v-if="isOpen"
+      :itemId="currentItemId"
+      @close="closeModal"
+    />
 
     <!-- 回到顶部按钮 -->
     <button

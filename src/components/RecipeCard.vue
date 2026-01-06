@@ -7,17 +7,17 @@ import MaterialItem from "./MaterialItem.vue";
 import SourceList from "./SourceList.vue";
 import { processImageUrl } from "../utils/imageUtils";
 import { getRecipeTypeName, getSeasonEventName } from "../services/dataService";
-import { useRouter } from "vue-router";
+import { useItemDetailModal } from "../composables/useItemDetailModal";
 
 interface Props {
   data: Recipe;
 }
 
 const props = defineProps<Props>();
-const router = useRouter();
+const { openModal } = useItemDetailModal();
 
 const handleClick = () => {
-  router.push(`/item/${props.data.itemId}`);
+  openModal(props.data.itemId);
 };
 </script>
 

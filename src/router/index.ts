@@ -62,12 +62,6 @@ const routes: RouteRecordRaw[] = [
       },
     ],
   },
-  {
-    path: "/item/:id",
-    name: "ItemDetail",
-    component: () => import("../views/ItemDetailPage.vue"),
-    props: true,
-  },
 ];
 
 const router = createRouter({

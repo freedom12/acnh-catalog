@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from "vue";
-import { useRouter } from "vue-router";
 import { joinArray } from "../utils/common";
 import { ItemModel } from "../models";
 import BaseCard from "./BaseCard.vue";
@@ -8,13 +7,14 @@ import ColorBlock from "./ColorBlock.vue";
 import SourceList from "./SourceList.vue";
 import { UI_TEXT } from "../constants";
 import { Color } from "../types/item";
+import { useItemDetailModal } from "../composables/useItemDetailModal";
 
 const props = defineProps<{
   data: ItemModel;
   colorFilter?: Color;
 }>();
 
-const router = useRouter();
+const { openModal } = useItemDetailModal();
 
 // 使用传入的 ItemModel 实例
 const itemModel = props.data;
@@ -64,7 +64,7 @@ onMounted(() => {
 watch(() => props.colorFilter, resetAndApplyColorFilter);
 
 const handleClick = () => {
-  router.push(`/item/${itemModel.id}`);
+  openModal(itemModel.id);
 };
 </script>
 

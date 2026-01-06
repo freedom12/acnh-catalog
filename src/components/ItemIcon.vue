@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { useRouter } from "vue-router";
 import { useItemsData } from "../composables/useItemsData";
+import { useItemDetailModal } from "../composables/useItemDetailModal";
 
 const props = defineProps({
   itemId: {
@@ -14,7 +14,7 @@ const props = defineProps({
   },
 });
 
-const router = useRouter();
+const { openModal } = useItemDetailModal();
 const { itemIdMap } = useItemsData();
 
 const itemModel = computed(() => itemIdMap.value[props.itemId]);
@@ -31,7 +31,7 @@ const handleMouseLeave = () => {
 };
 
 const handleClick = () => {
-  if (itemModel.value?.id) router.push(`/item/${itemModel.value.id}`);
+  if (itemModel.value?.id) openModal(itemModel.value.id);
 };
 </script>
 
