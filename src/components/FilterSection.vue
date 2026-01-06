@@ -1,6 +1,6 @@
 <template>
-  <div class="filter-section" :class="{ 'filter-expanded': isExpanded }">
-    <div class="stats stats-layout-flex">
+  <div class="filter-container">
+    <div class="stats">
       <div class="stats-content">
         <div v-if="props.totalCount !== undefined">
           总数: {{ props.totalCount.toLocaleString() }}
@@ -21,8 +21,8 @@
         </button>
       </div>
     </div>
-    <div v-if="isExpanded" class="filter-controls-wrapper">
-      <div class="search-bar">
+    <div v-if="isExpanded" class="filter-expanded-content">
+      <div class="filter-search">
         <input
           v-model="searchQuery"
           type="text"
@@ -33,21 +33,21 @@
           清除筛选
         </button>
       </div>
-      <div v-if="filters.length > 0" class="filters-wrapper">
+      <div v-if="filters.length > 0" class="filter-options">
         <div
           v-for="filter in filters"
           :key="filter.value"
-          class="filter-group"
+          class="filter-option-group"
         >
-          <label v-if="filters.length > 1" class="filter-title">{{
+          <label v-if="filters.length > 1" class="filter-label">{{
             filter.label
           }}</label>
           <!-- 单个筛选维度时显示按钮 -->
-          <div v-if="filters.length === 1" class="category-filter">
+          <div v-if="filters.length === 1" class="filter-buttons">
             <button
               v-for="option in filter.options"
               :key="option.value"
-              class="category-btn"
+              class="filter-btn"
               :class="{
                 active: getSelectedValue(filter.value) === option.value,
               }"
@@ -58,7 +58,7 @@
                 })
               "
             >
-              <span class="category-label">{{ option.label }}</span>
+              <span>{{ option.label }}</span>
             </button>
           </div>
           <!-- 多个筛选维度时显示下拉框 -->
@@ -146,7 +146,7 @@ const initializeDefaultFilters = () => {
   if (props.filters) {
     const newFilters: Record<string, FilterOptionValue> = {};
     const newFiltersWithAll: Filter[] = [];
-    
+
     props.filters.forEach((filter) => {
       // 根据filter的第一个选项的类型决定"全部"选项的值
       const firstOption = filter.options[0];
@@ -156,17 +156,17 @@ const initializeDefaultFilters = () => {
       }
 
       newFilters[filter.value] = allValue;
-      
+
       // 为每个筛选维度添加"全部"选项
       newFiltersWithAll.push({
         ...filter,
-        options: [{ value: allValue, label: "全部" }, ...filter.options]
+        options: [{ value: allValue, label: "全部" }, ...filter.options],
       });
     });
-    
+
     selectedFilters.value = newFilters;
     filters.value = newFiltersWithAll;
-    
+
     emit("filtersChanged", {
       searchQuery: searchQuery.value,
       selectedFilters: selectedFilters.value,
@@ -241,39 +241,54 @@ const handleClearFilters = () => {
 <style scoped>
 @import "../styles/view-styles.css";
 
-.filter-section {
+/* 筛选器容器 */
+.filter-container {
+  background-color: white;
+  border-radius: var(--border-radius-md, 8px);
+  padding: var(--spacing-md, 16px);
   margin-bottom: 20px;
+  box-shadow: var(--shadow-sm, 0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: all 0.3s ease;
 }
 
+/* 操作按钮区 */
 .action-buttons {
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
-.search-bar {
-  width: 100%;
-  margin-bottom: 10px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
+/* 展开内容区 */
+.filter-expanded-content {
+  margin-top: var(--spacing-md, 16px);
+  padding-top: var(--spacing-md, 16px);
+  border-top: 1px solid var(--border-color, #e8e8e8);
 }
 
-.search-bar input {
+/* 搜索栏 */
+.filter-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-search input {
   flex: 1;
   padding: 12px;
   font-size: 16px;
-  border: 2px solid #ddd;
-  border-radius: 6px;
+  border: 2px solid var(--border-color, #ddd);
+  border-radius: var(--border-radius-sm, 6px);
   box-sizing: border-box;
+  transition: border-color 0.2s;
 }
 
-.search-bar input:focus {
+.filter-search input:focus {
   outline: none;
-  border-color: #4a9b4f;
+  border-color: var(--primary-color, #4a9b4f);
 }
 
-.filters-wrapper {
+/* 筛选选项容器 */
+.filter-options {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -282,52 +297,51 @@ const handleClearFilters = () => {
   justify-content: center;
 }
 
-.filter-group {
+/* 筛选选项组 */
+.filter-option-group {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
 }
 
-.filter-title {
+/* 筛选标签 */
+.filter-label {
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary, #333);
   white-space: nowrap;
   margin: 0;
 }
 
+/* 筛选下拉框 */
 .filter-select {
   padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: var(--border-radius-sm, 4px);
   background: white;
   cursor: pointer;
   font-size: 14px;
   min-width: 120px;
+  transition: border-color 0.2s;
 }
 
 .filter-select:focus {
   outline: none;
-  border-color: #4a9b4f;
+  border-color: var(--primary-color, #4a9b4f);
 }
 
-.filter-select option {
-  padding: 8px;
-}
-
-.category-filter {
+/* 筛选按钮容器 */
+.filter-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.category-btn {
-  display: flex;
-  align-items: center;
-  gap: 4px;
+/* 筛选按钮 */
+.filter-btn {
   padding: 8px 16px;
-  color: #28a745;
-  border: 1px solid #28a745;
+  color: var(--success-color, #28a745);
+  border: 1px solid var(--success-color, #28a745);
   border-radius: 20px;
   background: white;
   cursor: pointer;
@@ -338,19 +352,15 @@ const handleClearFilters = () => {
   white-space: nowrap;
 }
 
-.category-btn:hover {
-  background: #f8f9fa;
+.filter-btn:hover {
+  background: var(--bg-hover, #f8f9fa);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transform: translateY(-1px);
 }
 
-.category-btn.active {
-  background: #28a745;
+.filter-btn.active {
+  background: var(--success-color, #28a745);
   color: white;
-  border-color: #28a745;
-}
-
-.category-btn .category-label {
-  font-weight: 500;
+  border-color: var(--success-color, #28a745);
 }
 </style>
