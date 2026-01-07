@@ -223,7 +223,7 @@ for (const oldRecipe of oldRecipes) {
     sourceNotes: oldRecipe.sourceNotes ?? undefined,
     activity: oldRecipe.seasonEvent ?? undefined,
     itemId: oldRecipe.craftedItemInternalId,
-    color: oldRecipe.cardColor ?? undefined,
+    cardColor: oldRecipe.cardColor ?? undefined,
     materials: oldRecipe.materials,
   };
   newRecipes.push(newRecipe);
@@ -231,7 +231,6 @@ for (const oldRecipe of oldRecipes) {
   newRecipeNameMap.set(newRecipe.rawName, newRecipe);
 }
 newRecipes.sort((a, b) => a.id - b.id);
-
 /**
  * 处理变体数据
  */
@@ -789,9 +788,9 @@ for (const sae of oldSeasonsAndEvents) {
     console.log(`活动 ${activity.name}: ${sae.eventNotes}`);
   }
   activitys.push(activity);
-  console.log(
-    `${activity.name}: ${sae.unlockDate} - ${sae.unlockMethod} - ${sae.year} - ${sae.datesNorthernHemisphere}`
-  );
+  // console.log(
+  //   `${activity.name}: ${sae.unlockDate} - ${sae.unlockMethod} - ${sae.year} - ${sae.datesNorthernHemisphere}`
+  // );
 }
 
 // 输出到文件

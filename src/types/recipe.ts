@@ -34,7 +34,7 @@ export interface Recipe {
   ver: Version;
   buy?: Price;
   sell?: Price;
-  color?: string;
+  cardColor?: string;
   itemId: number;
   activity?: string;
   source: string[];

@@ -517,7 +517,7 @@
     "source": [
       "Jack"
     ],
-    "seasonEvent": "Halloween"
+    "activity": "Halloween"
   },
   {
     "id": 805,
@@ -529,7 +529,7 @@
     "source": [
       "All villagers"
     ],
-    "seasonEvent": "Halloween"
+    "activity": "Halloween"
   },
   {
     "id": 808,
@@ -640,7 +640,7 @@
     "source": [
       "Viva Festivale Reaction Set"
     ],
-    "seasonEvent": "Festivale (ready days); Festivale"
+    "activity": "Festivale (ready days); Festivale"
   },
   {
     "id": 851,
@@ -652,7 +652,7 @@
     "source": [
       "Viva Festivale Reaction Set"
     ],
-    "seasonEvent": "Festivale (ready days); Festivale"
+    "activity": "Festivale (ready days); Festivale"
   },
   {
     "id": 855,
@@ -664,7 +664,7 @@
     "source": [
       "Viva Festivale Reaction Set"
     ],
-    "seasonEvent": "Festivale (ready days); Festivale"
+    "activity": "Festivale (ready days); Festivale"
   },
   {
     "id": 856,
@@ -676,7 +676,7 @@
     "source": [
       "Viva Festivale Reaction Set"
     ],
-    "seasonEvent": "Festivale (ready days); Festivale"
+    "activity": "Festivale (ready days); Festivale"
   },
   {
     "id": 993,
@@ -907,7 +907,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1105,
@@ -919,7 +919,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1106,
@@ -931,7 +931,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1107,
@@ -943,7 +943,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1110,
@@ -955,7 +955,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1111,
@@ -967,7 +967,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1109,
@@ -979,7 +979,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1108,
@@ -991,7 +991,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1104,
@@ -1003,7 +1003,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1113,
@@ -1015,7 +1015,7 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   },
   {
     "id": 1112,
@@ -1027,6 +1027,6 @@
     "source": [
       "DJ KK concert"
     ],
-    "seasonEvent": "Happy Home Paradise"
+    "activity": "Happy Home Paradise"
   }
 ]
