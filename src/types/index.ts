@@ -24,6 +24,6 @@ export interface Translations {
   themes: Record<string, string>;
   sets: Record<string, string>;
   categories: Record<string, string>;
-  seasonEvents: Record<string, string>;
+  activitys: Record<string, string>;
   itemVariantTitles: Record<string, string>;
 }

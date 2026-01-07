@@ -188,7 +188,7 @@ export interface Item {
 
   source?: string[]; // 获取来源
   sourceNotes?: string[];
-  seasonEvent?: string;
+  activity?: string;
 
   tag?: string; // 标签（家具）
   points?: number; // HHA积分

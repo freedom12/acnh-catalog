@@ -215,8 +215,8 @@ export function getRecipeTypeName(type: RecipeType): string {
   return RecipeTypeNameMap[type] || "";
 }
 
-export function getSeasonEventName(seasonEvent: string): string {
-  return getTranslation(seasonEvent, translationsCache?.seasonEvents);
+export function getActivityName(activity: string): string {
+  return getTranslation(activity, translationsCache?.activitys);
 }
 
 export function getItemVariantTitle(title: string): string {

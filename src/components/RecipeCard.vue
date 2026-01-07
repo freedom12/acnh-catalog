@@ -5,7 +5,7 @@ import BaseCard from "./BaseCard.vue";
 import MaterialItem from "./MaterialItem.vue";
 import SourceList from "./SourceList.vue";
 import { processImageUrl } from "../utils/imageUtils";
-import { getPriceStr, getRecipeTypeName, getSeasonEventName } from "../services/dataService";
+import { getPriceStr, getRecipeTypeName, getActivityName } from "../services/dataService";
 import { useItemDetailModal } from "../composables/useItemDetailModal";
 
 interface Props {
@@ -33,9 +33,9 @@ const handleClick = () => {
       <span class="detail-value">{{ getRecipeTypeName(props.data.type) }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">{{ "季节/活动" }}</span>
+      <span class="detail-label">{{ "季节/庆典" }}</span>
       <span class="detail-value">{{
-        getSeasonEventName(props.data.seasonEvent || "") || "--"
+        getActivityName(props.data.activity || "") || "--"
       }}</span>
     </div>
     <div class="detail-row">

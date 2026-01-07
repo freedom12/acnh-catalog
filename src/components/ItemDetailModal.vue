@@ -47,7 +47,7 @@ const hasMaterials = computed(() => {
 const kitCost = computed(() => null);
 const cyrusPrice = computed(() => null);
 const surface = computed(() => null);
-const seasonEvent = computed(() => null);
+const activity = computed(() => null);
 const hhaCategory = computed(() => null);
 const speakerType = computed(() => null);
 const lightingType = computed(() => null);
@@ -274,7 +274,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                   v-if="
                     hhaPoints ||
                     hhaCategory ||
-                    seasonEvent ||
+                    activity ||
                     stackSize > 1 ||
                     speakerType ||
                     lightingType ||
@@ -294,9 +294,9 @@ const handleOverlayClick = (e: MouseEvent) => {
                       <span>{{ hhaCategory }}</span>
                     </div>
 
-                    <div v-if="seasonEvent" class="info-item">
+                    <div v-if="activity" class="info-item">
                       <label>季节活动:</label>
-                      <span>🎉 {{ seasonEvent }}</span>
+                      <span>🎉 {{ activity }}</span>
                     </div>
 
                     <div v-if="stackSize > 1" class="info-item">
@@ -382,9 +382,9 @@ const handleOverlayClick = (e: MouseEvent) => {
                           }}</span
                         >
                       </div>
-                      <div v-if="recipe.seasonEvent" class="recipe-info-item">
+                      <div v-if="recipe.activity" class="recipe-info-item">
                         <label>季节活动:</label>
-                        <span>🎉 {{ recipe.seasonEvent }}</span>
+                        <span>🎉 {{ recipe.activity }}</span>
                       </div>
                       <div v-if="recipe.sell" class="recipe-info-item">
                         <label>出售价格:</label>

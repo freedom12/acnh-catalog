@@ -14,7 +14,7 @@ import {
   getHHASetName,
   getClothingThemeName,
   getHHACategoryName,
-  getSeasonEventName,
+  getActivityName,
   type Price,
   getPriceStr,
   getItemVariantTitle,
@@ -184,12 +184,12 @@ export class ItemModel {
     }));
   }
 
-  get seasonEvent(): string | null {
-    return this._data.seasonEvent || null;
+  get activity(): string | null {
+    return this._data.activity || null;
   }
 
-  get seasonEventName(): string {
-    return getSeasonEventName(this.seasonEvent || "") || "--";
+  get activityName(): string {
+    return getActivityName(this.activity || "") || "--";
   }
 
   get hhaPoints(): number | null {

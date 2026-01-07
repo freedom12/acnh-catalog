@@ -36,7 +36,7 @@ export interface Recipe {
   sell?: Price;
   color?: string;
   itemId: number;
-  seasonEvent?: string;
+  activity?: string;
   source: string[];
   sourceNotes?: string[];
   materials: Record<string, number>;

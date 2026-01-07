@@ -119,8 +119,8 @@ const handleClick = () => {
       }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">季节/活动</span>
-      <span class="detail-value">{{ itemModel.seasonEventName }}</span>
+      <span class="detail-label">季节/庆典</span>
+      <span class="detail-value">{{ itemModel.activityName }}</span>
     </div>
     <div class="detail-row source-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

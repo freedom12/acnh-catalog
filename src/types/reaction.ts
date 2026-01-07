@@ -12,5 +12,5 @@ export interface Reaction {
   ver: Version;
   source: string[];
   sourceNotes?: string[];
-  seasonEvent?: string;
+  activity?: string;
 }

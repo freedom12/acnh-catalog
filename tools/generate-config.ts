@@ -221,7 +221,7 @@ for (const oldRecipe of oldRecipes) {
     sell: oldRecipe.sell ?? undefined,
     source: oldRecipe.source,
     sourceNotes: oldRecipe.sourceNotes ?? undefined,
-    seasonEvent: oldRecipe.seasonEvent ?? undefined,
+    activity: oldRecipe.seasonEvent ?? undefined,
     itemId: oldRecipe.craftedItemInternalId,
     color: oldRecipe.cardColor ?? undefined,
     materials: oldRecipe.materials,
@@ -349,7 +349,7 @@ function convertItem(oldItem: OldItem): NewItem {
       : Version.The100,
     source: oldItem.source,
     sourceNotes: oldItem.sourceNotes || undefined,
-    seasonEvent: oldItem.seasonEvent || undefined,
+    activity: oldItem.seasonEvent || undefined,
     size: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
     points: oldItem.hhaBasePoints ?? undefined,
@@ -732,7 +732,7 @@ for (const oldReaction of oldReactions) {
     ver: versionAddedMap[oldReaction.versionAdded],
     source: oldReaction.source,
     sourceNotes: oldReaction.sourceNotes || undefined,
-    seasonEvent: oldReaction.seasonEvent || undefined,
+    activity: oldReaction.seasonEvent || undefined,
   };
   newReactions.push(newReaction);
 }
