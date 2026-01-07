@@ -6,7 +6,7 @@ import DataView from "../components/DataView.vue";
 import ConstructionCard from "../components/ConstructionCard.vue";
 import FilterSection from "../components/FilterSection.vue";
 import { ConstructionType } from "../types/construction";
-import { getConstrunctionTypeName } from "../services/dataService";
+import { getConstructionTypeName } from "../services/dataService";
 
 const { allConstruction, loading, error, loadData } = useConstructionData();
 const filters = computed(() => [
@@ -15,7 +15,7 @@ const filters = computed(() => [
     value: "type",
     options: Object.values(ConstructionType).map((type) => ({
       value: type,
-      label: `${getConstrunctionTypeName(type)} (${
+      label: `${getConstructionTypeName(type)} (${
         allConstruction.value.filter((item) => item.type === type).length
       })`,
     })),
