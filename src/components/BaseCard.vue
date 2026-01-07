@@ -15,11 +15,13 @@ interface Props {
   detailed?: boolean;
   variant?: "light" | "dark";
   showCheckmark?: boolean;
+  shiny?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   variant: "light",
   shape: "circle",
+  shiny: false,
 });
 
 const emit = defineEmits<{
@@ -101,7 +103,7 @@ const themeStyles = computed(() => {
 <template>
   <div 
     class="card" 
-    :class="[colorClass, variantClass, { 'card--with-checkmark': showCheckmark, 'card--custom-theme': colorTheme }]"
+    :class="[colorClass, variantClass, { 'card--with-checkmark': showCheckmark, 'card--custom-theme': colorTheme, 'card--shiny': shiny }]"
     :style="themeStyles"
   >
     <VersionBadge :version="version" />

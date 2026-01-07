@@ -386,6 +386,38 @@
   background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
 }
 
+/* ==================== 闪光效果 ==================== */
+.card--shiny {
+  position: relative;
+  overflow: hidden;
+}
+
+.card--shiny::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 70%
+  );
+  animation: shine 3s infinite;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
 /* ==================== 响应式设计 ==================== */
 @media (max-width: 768px) {
   .card {

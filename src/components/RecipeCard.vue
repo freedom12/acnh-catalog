@@ -51,6 +51,12 @@ const themeColor = computed(() => {
   return (color && color in colorMap ? colorMap[color] : colorMap["orange"])!;
 });
 
+// 判断是否为金银主题
+const isShiny = computed(() => {
+  const color = props.data.cardColor;
+  return color === "gold" || color === "silver";
+});
+
 </script>
 
 <template>
@@ -59,6 +65,7 @@ const themeColor = computed(() => {
     :version="props.data.ver"
     :images="props.data.images.map(processImageUrl)"
     :displayName="props.data.name"
+    :shiny="isShiny"
     variant="dark"
     @click="handleClick"
   >
