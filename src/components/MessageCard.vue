@@ -25,7 +25,7 @@ const nameColor = computed(() => {
     :displayName="props.data.name"
     :shape="'rounded'"
     :style="{
-      background: `linear-gradient(to bottom, ${props.data.headColor} 0%, ${props.data.headColor} 4%, ${props.data.bodyColor} 4%, ${props.data.bodyColor} 96%, ${props.data.footColor} 96%, ${props.data.footColor} 100%)`,
+      background: `linear-gradient(5deg, ${props.data.headColor} 0%, ${props.data.headColor} 10%, ${props.data.bodyColor} 10.5%, ${props.data.bodyColor} 90%, ${props.data.footColor} 90.5%, ${props.data.footColor} 100%)`,
       border: '3px solid ' + (props.data.backColor || props.data.bodyColor),
     }"
     @click="handleClick"
