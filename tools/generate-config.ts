@@ -15,6 +15,7 @@ import {
   npcs as oldNpcs,
   reactions as oldReactions,
   construction as oldConstructions,
+  seasonsAndEvents as oldSeasonsAndEvents,
 } from "animal-crossing";
 import type { Item as NewItem, Variant } from "../src/types/item";
 import {
@@ -46,6 +47,7 @@ import {
   type Creature as NewCreature,
 } from "../src/types/creature";
 import type { MessageCard } from "../src/types/messagecard";
+import { ActivityType, type Activity } from "../src/types/activity";
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -763,6 +765,35 @@ for (const oldConstruction of oldConstructions) {
 }
 newConstructions.sort((a, b) => a.id - b.id);
 
+const SeasonsAndEventsTypesMap: Record<string, ActivityType> = {
+  "Basegame event": ActivityType.BasegameEvent,
+  "Crafting season": ActivityType.CraftingSeason,
+  "Nook Shopping event": ActivityType.NookShoppingEvent,
+  "Shopping season": ActivityType.ShoppingSeason,
+  "Special event": ActivityType.SpecialEvent,
+  "Zodiac season": ActivityType.ZodiacSeason,
+};
+
+let activitys: Activity[] = [];
+let activityId = 0;
+for (const sae of oldSeasonsAndEvents) {
+  activityId += 1;
+  const activity: Activity = {
+    id: activityId,
+    name: sae.translations?.cNzh || sae.displayName,
+    rawName: sae.name,
+    ver: versionAddedMap[sae.versionAdded] || Version.The100,
+    type: SeasonsAndEventsTypesMap[sae.type] || ActivityType.BasegameEvent,
+  };
+  if (sae.eventNotes) {
+    console.log(`活动 ${activity.name}: ${sae.eventNotes}`);
+  }
+  activitys.push(activity);
+  console.log(
+    `${activity.name}: ${sae.unlockDate} - ${sae.unlockMethod} - ${sae.year} - ${sae.datesNorthernHemisphere}`
+  );
+}
+
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, "acnh-items.json"),
@@ -821,6 +852,12 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.join(outputPath, "acnh-constructions.json"),
   JSON.stringify(newConstructions.map(removeNullFields), null, 2),
+  "utf-8"
+);
+
+fs.writeFileSync(
+  path.join(outputPath, "acnh-activitys.json"),
+  JSON.stringify(activitys.map(removeNullFields), null, 2),
   "utf-8"
 );
 
