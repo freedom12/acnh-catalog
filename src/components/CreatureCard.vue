@@ -51,11 +51,25 @@ const handleClick = () => {
 const handleImageIndexChanged = (index: number) => {
   currentImageIndex.value = index;
 };
+
+// 根据生物类型选择颜色主题
+const colorClass = computed(() => {
+  switch (props.data.type) {
+    case 1: // Insects
+      return "card--red";
+    case 2: // Fish
+      return "card--blue";
+    case 3: // SeaCreatures
+      return "card--yellow";
+    default:
+      return "card--green";
+  }
+});
 </script>
 
 <template>
   <BaseCard
-    colorClass="card--green"
+    :colorClass="colorClass"
     :version="props.data.ver"
     :images="props.data.images.map(processImageUrl)"
     :displayName="props.data.name"

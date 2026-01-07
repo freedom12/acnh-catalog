@@ -17,12 +17,70 @@
   box-shadow: var(--shadow-lg);
 }
 
-.item-owned {
-  border: 3px solid var(--success-color);
-  background: linear-gradient(135deg, #e8f5e8 0%, #f1f8e9 100%);
+/* ==================== 卡片变体样式 ==================== */
+/* Light 变体 */
+.card--variant-light {
+  border: 2px solid #e0e0e0;
+  background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
 }
 
-.item-owned::before {
+/* Dark 变体 - 默认绿色 */
+.card--variant-dark {
+  border: 3px solid var(--success-color);
+  background: #e8f5e8;
+}
+
+/* Dark 变体 - 不同颜色主题 */
+.card--green.card--variant-dark {
+  border: 3px solid #66bb6a;
+  background: #e8f5e9;
+}
+
+.card--blue.card--variant-dark {
+  border: 3px solid #42a5f5;
+  background: #e3f2fd;
+}
+
+.card--yellow.card--variant-dark {
+  border: 3px solid #ffc107;
+  background: #fff9e6;
+}
+
+.card--purple.card--variant-dark {
+  border: 3px solid #ab47bc;
+  background: #f3e5f5;
+}
+
+.card--orange.card--variant-dark {
+  border: 3px solid #ff9800;
+  background: #fff3e0;
+}
+
+.card--brown.card--variant-dark {
+  border: 3px solid #8d6e63;
+  background: #efebe9;
+}
+
+/* 自定义主题颜色 */
+.card--custom-theme {
+  background: var(--card-bg);
+  border: 3px solid var(--card-border);
+}
+
+.card--custom-theme .card-name {
+  color: var(--card-color);
+}
+
+.card--custom-theme .detail-value.price {
+  color: var(--card-color);
+}
+
+.card--custom-theme .card-image-wrapper {
+  background: var(--card-image-bg);
+}
+
+/* 对号图标 - 独立控制 */
+.card--with-checkmark::before {
   content: "✓";
   position: absolute;
   top: var(--spacing-sm);
@@ -33,7 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--success-color);
+  background: var(--card-color);
   border-radius: 50%;
   color: white;
   font-size: 14px;
@@ -221,38 +279,42 @@
 /* ==================== 颜色主题 ==================== */
 .card--brown {
   --card-hover-shadow: rgba(121, 85, 72, 0.2);
-  --card-name-color: #795548;
-  --card-price-color: #795548;
+  --card-color: #795548;
 }
 
 .card--green {
   --card-hover-shadow: rgba(76, 175, 80, 0.2);
-  --card-name-color: #4caf50;
-  --card-price-color: #4caf50;
+  --card-color: #4caf50;
 }
 
 .card--orange {
   --card-hover-shadow: rgba(255, 152, 0, 0.2);
-  --card-name-color: #ff9800;
-  --card-price-color: #ff9800;
+  --card-color: #ff9800;
 }
 
 .card--purple {
   --card-hover-shadow: rgba(156, 39, 176, 0.2);
-  --card-name-color: #9c27b0;
-  --card-price-color: #9c27b0;
+  --card-color: #9c27b0;
 }
 
-.card--green-dark {
-  --card-hover-shadow: rgba(74, 155, 79, 0.2);
-  --card-name-color: #4a9b4f;
-  --card-price-color: #4a9b4f;
+.card--blue {
+  --card-hover-shadow: rgba(33, 150, 243, 0.2);
+  --card-color: #2196f3;
 }
 
-.card--orange-dark {
-  --card-hover-shadow: rgba(255, 200, 100, 0.3);
-  --card-name-color: #e67e22;
-  --card-price-color: #e67e22;
+.card--yellow {
+  --card-hover-shadow: rgba(255, 193, 7, 0.2);
+  --card-color: #ffc107;
+}
+
+.card--gray {
+  --card-hover-shadow: rgba(96, 125, 139, 0.2);
+  --card-color: #607d8b;
+}
+
+.card--red {
+  --card-hover-shadow: rgba(244, 67, 54, 0.2);
+  --card-color: #f44336;
 }
 
 /* 应用主题：卡片名称 */
@@ -260,9 +322,11 @@
 .card--green .card-name,
 .card--orange .card-name,
 .card--purple .card-name,
-.card--green-dark .card-name,
-.card--orange-dark .card-name {
-  color: var(--card-name-color);
+.card--blue .card-name,
+.card--yellow .card-name,
+.card--gray .card-name,
+.card--red .card-name {
+  color: var(--card-color);
 }
 
 /* 应用主题：价格 */
@@ -270,9 +334,11 @@
 .card--green .detail-value.price,
 .card--orange .detail-value.price,
 .card--purple .detail-value.price,
-.card--green-dark .detail-value.price,
-.card--orange-dark .detail-value.price {
-  color: var(--card-price-color);
+.card--blue .detail-value.price,
+.card--yellow .detail-value.price,
+.card--gray .detail-value.price,
+.card--red .detail-value.price {
+  color: var(--card-color);
 }
 
 /* 应用主题：悬停阴影 */
@@ -280,8 +346,10 @@
 .card--green:hover,
 .card--orange:hover,
 .card--purple:hover,
-.card--green-dark:hover,
-.card--orange-dark:hover {
+.card--blue:hover,
+.card--yellow:hover,
+.card--gray:hover,
+.card--red:hover {
   box-shadow: 0 6px 20px var(--card-hover-shadow);
 }
 
@@ -302,12 +370,20 @@
   background: var(--gradient-purple-light);
 }
 
-.card--green-dark .card-image-wrapper {
-  background: var(--gradient-green-dark);
+.card--blue .card-image-wrapper {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
 }
 
-.card--orange-dark .card-image-wrapper {
-  background: var(--gradient-orange-light);
+.card--yellow .card-image-wrapper {
+  background: linear-gradient(135deg, #fff9e6 0%, #ffecb3 100%);
+}
+
+.card--gray .card-image-wrapper {
+  background: linear-gradient(135deg, #eceff1 0%, #cfd8dc 100%);
+}
+
+.card--red .card-image-wrapper {
+  background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
 }
 
 /* ==================== 响应式设计 ==================== */

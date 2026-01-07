@@ -60,7 +60,8 @@ const handleClick = () => {
 <template>
   <BaseCard
     colorClass="card--green"
-    :class="{ 'item-owned': itemModel.owned }"
+    :variant="itemModel.owned ? 'dark' : 'light'"
+    :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
     :displayName="displayName"
@@ -182,11 +183,6 @@ const handleClick = () => {
 
 <style scoped>
 @import "../styles/card-styles.css";
-
-.item-owned {
-  background: var(--gradient-success-light);
-  border: 2px solid var(--success-color);
-}
 
 .detail-center {
   justify-content: center !important;

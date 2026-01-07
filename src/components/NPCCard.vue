@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import type { NPC } from "../types/npc";
-import { lightenColor } from "../utils/common";
 import BaseCard from "./BaseCard.vue";
 import { getGenderIcon } from "../services/dataService";
 
@@ -24,16 +23,12 @@ const handleImageIndexChanged = (index: number) => {
 
 <template>
   <BaseCard
-    colorClass="card--orange-dark"
+    :colorTheme="props.data.bubbleColor || '#ffe082'"
     :version="props.data.ver"
     :images="props.data.images"
     :displayName="props.data.name"
     :shape="currentShape"
-    :style="{
-      background: props.data.bubbleColor || '#ffe082',
-      border:
-        '3px solid ' + lightenColor(props.data.bubbleColor || '#ffe082', -0.5),
-    }"
+    variant="dark"
     @click="handleClick"
     @image-index-changed="handleImageIndexChanged"
   >

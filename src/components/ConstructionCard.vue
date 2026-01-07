@@ -18,7 +18,7 @@ const handleClick = () => {
 
 <template>
   <BaseCard
-    colorClass="card--brown"
+    colorClass="card--gray"
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"

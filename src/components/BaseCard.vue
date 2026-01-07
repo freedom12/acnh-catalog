@@ -1,19 +1,26 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import { processImageUrl } from "../utils/imageUtils";
+import { adjustBrightness } from "../utils/common";
 import VersionBadge from "./VersionBadge.vue";
 import type { Version } from "../types/item";
 
 interface Props {
-  colorClass: string;
+  colorClass?: string;
+  colorTheme?: string;
   version?: Version;
   images: string[];
   displayName: string;
   shape?: "circle" | "rounded" | "square";
   detailed?: boolean;
+  variant?: "light" | "dark";
+  showCheckmark?: boolean;
 }
 
-const props = defineProps<Props>();
+const props = withDefaults(defineProps<Props>(), {
+  variant: "light",
+  shape: "circle",
+});
 
 const emit = defineEmits<{
   "image-index-changed": [index: number];
@@ -21,7 +28,7 @@ const emit = defineEmits<{
 }>();
 
 // 当前图片形状
-const currentShape = computed(() => props.shape || "circle");
+const currentShape = computed(() => props.shape);
 
 // 当前显示的图片索引
 const currentImageIndex = ref(0);
@@ -55,10 +62,48 @@ const nextImage = () => {
     emit("image-index-changed", currentImageIndex.value);
   }
 };
+
+// 计算卡片变体类名
+const variantClass = computed(() => {
+  return props.variant === "light" ? "card--variant-light" : "card--variant-dark";
+});
+
+// 基于 colorTheme 计算样式
+const themeStyles = computed(() => {
+  if (!props.colorTheme) return {};
+  
+  const baseColor = props.colorTheme;
+  const mainColor = adjustBrightness(baseColor, -0.5);
+  let bgColor, borderColor, textColor, imageWrapperBg;
+  if (props.variant === "dark") {
+    // dark 变体：使用原色作为背景，边框和文本更深
+    bgColor = baseColor;
+    borderColor = mainColor;
+    textColor = mainColor;
+    imageWrapperBg = adjustBrightness(baseColor, 0.8);
+  } else {
+    // light 变体：
+    bgColor = "#ffffff";
+    borderColor = "#ffffff";
+    textColor = mainColor;
+    imageWrapperBg = adjustBrightness(baseColor, 0.8);
+  }
+  
+  return {
+    '--card-bg': bgColor,
+    '--card-border': borderColor,
+    '--card-color': textColor,
+    '--card-image-bg': imageWrapperBg,
+  };
+});
 </script>
 
 <template>
-  <div class="card" :class="colorClass">
+  <div 
+    class="card" 
+    :class="[colorClass, variantClass, { 'card--with-checkmark': showCheckmark, 'card--custom-theme': colorTheme }]"
+    :style="themeStyles"
+  >
     <VersionBadge :version="version" />
     <div class="card-image-container">
       <div

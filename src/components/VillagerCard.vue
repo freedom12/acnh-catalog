@@ -11,7 +11,7 @@ import {
   getPersonalityName,
   getSpeciesName,
 } from "../services/dataService";
-import { joinArray, lightenColor } from "../utils/common";
+import { joinArray } from "../utils/common";
 import ColorBlock from "./ColorBlock.vue";
 import { processImageUrl } from "../utils/imageUtils";
 
@@ -55,15 +55,12 @@ const toggleFurnitureExpanded = () => {
 
 <template>
   <BaseCard
-    colorClass="card--green-dark"
+    :colorTheme="props.data.bubbleColor"
     :version="props.data.ver"
     :images="props.data.images"
     :displayName="props.data.name"
     :shape="currentShape"
-    :style="{
-      background: props.data.bubbleColor,
-      border: '3px solid ' + lightenColor(props.data.bubbleColor, -0.5),
-    }"
+    variant="dark"
     @click="handleClick"
     @image-index-changed="handleImageIndexChanged"
   >

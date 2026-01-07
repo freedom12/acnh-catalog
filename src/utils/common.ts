@@ -1,32 +1,83 @@
 /**
- * 颜色变浅工具函数（支持 #RRGGBB 格式），白色边框时返回浅灰色
+ * 颜色变换工具函数（支持 #RGB 和 #RRGGBB 格式）
  * @param hex 颜色字符串
- * @param percent 变浅比例，默认0.7
+ * @param percent 亮度调整比例，取值范围 -1 到 1
+ *                0: 原色
+ *                正值: 向白色过渡
+ *                负值: 向黑色过渡
+ *                1: 接近白色
+ *                -1: 接近黑色
+ *                保持色相和饱和度不变
  */
-export function lightenColor(hex: string, percent = 0.7): string {
-  if (!hex) return "#f5f5f5";
-  const c = hex.replace("#", "").toLowerCase();
-  // 判断常见白色
-  if (c === "fff" || c === "ffffff" || c === "fffce9" || c === "fffbe6")
-    return "#f5f5f5";
+export function adjustBrightness(hex: string, percent = 0): string {
+  if (!hex) return "#000000";
+  
+  // 移除 # 并规范化为 6 位格式
+  let c = hex.replace("#", "").toLowerCase();
   if (c.length === 3) {
-    if (c === "fff") return "#f5f5f5";
-    hex =
-      "#" +
-      c
-        .split("")
-        .map((x) => x + x)
-        .join("");
+    c = c.split("").map((x) => x + x).join("");
   }
-  if (c.length !== 6) return "#f5f5f5";
+  if (c.length !== 6) return "#000000";
+  
+  // 解析 RGB
   const num = parseInt(c, 16);
-  let r = (num >> 16) & 0xff;
-  let g = (num >> 8) & 0xff;
-  let b = num & 0xff;
-  r = Math.round(r + (255 - r) * percent);
-  g = Math.round(g + (255 - g) * percent);
-  b = Math.round(b + (255 - b) * percent);
-  return `rgb(${r},${g},${b})`;
+  let r = ((num >> 16) & 0xff) / 255;
+  let g = ((num >> 8) & 0xff) / 255;
+  let b = (num & 0xff) / 255;
+  
+  // RGB 转 HSL
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  let h = 0, s = 0, l = (max + min) / 2;
+  
+  if (max !== min) {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    
+    switch (max) {
+      case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
+      case g: h = ((b - r) / d + 2) / 6; break;
+      case b: h = ((r - g) / d + 4) / 6; break;
+    }
+  }
+  
+  // 调整亮度，保持色相不变
+  if (percent > 0) {
+    // 向白色过渡
+    l = l + (1 - l) * percent;
+  } else if (percent < 0) {
+    // 向黑色过渡
+    l = l * (1 + percent);
+  }
+  
+  // HSL 转 RGB
+  const hue2rgb = (p: number, q: number, t: number) => {
+    if (t < 0) t += 1;
+    if (t > 1) t -= 1;
+    if (t < 1/6) return p + (q - p) * 6 * t;
+    if (t < 1/2) return q;
+    if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+    return p;
+  };
+  
+  let r2, g2, b2;
+  if (s === 0) {
+    r2 = g2 = b2 = l;
+  } else {
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    r2 = hue2rgb(p, q, h + 1/3);
+    g2 = hue2rgb(p, q, h);
+    b2 = hue2rgb(p, q, h - 1/3);
+  }
+  
+  // 转换回 RGB 值
+  const toHex = (n: number) => {
+    const hex = Math.round(n * 255).toString(16);
+    return hex.length === 1 ? "0" + hex : hex;
+  };
+  
+  return `#${toHex(r2)}${toHex(g2)}${toHex(b2)}`;
 }
 
 /**
