@@ -44,6 +44,7 @@ const hideTooltip = () => {
     </template>
   </span>
   <span v-else class="source-list-multi">
+    <span v-if="sourceWithNotes.length === 0" class="source-wrapper"> -- </span>
     <span
       v-for="(source, index) in sourceWithNotes"
       :key="index"

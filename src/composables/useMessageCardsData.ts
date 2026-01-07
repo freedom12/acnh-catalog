@@ -28,7 +28,7 @@ export function useMessageCardsData(): UseMessageCardsDataReturn {
       isDataLoaded = true;
     } catch (err) {
       error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error("加载消息卡片数据失败:", err);
+      console.error("加载贺卡数据失败:", err);
     } finally {
       loading.value = false;
     }

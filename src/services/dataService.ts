@@ -442,7 +442,7 @@ export async function loadMessageCardsData(): Promise<MessageCard[]> {
     }
     return await response.json();
   } catch (error) {
-    console.error("加载消息卡片数据失败:", error);
+    console.error("加载贺卡数据失败:", error);
     throw error;
   }
 }

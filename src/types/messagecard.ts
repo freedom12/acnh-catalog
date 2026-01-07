@@ -1,5 +1,5 @@
 /**
- * 消息卡片类型定义
+ * 贺卡类型定义
  */
 
 import type { Price } from "../services/dataService";

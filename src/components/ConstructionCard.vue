@@ -38,7 +38,7 @@ const handleClick = () => {
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
       <span class="detail-value price">
-        {{ getPriceStr(props.data.buy) }}
+        {{ getPriceStr(props.data.buy) || "不可购买" }}
       </span>
     </div>
   </BaseCard>

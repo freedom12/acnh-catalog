@@ -26,6 +26,7 @@ const displayVersion = computed(() => {
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 20;
   background: #ff9800;
   color: white;
   padding: 2px 8px;

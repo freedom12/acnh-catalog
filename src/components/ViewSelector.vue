@@ -20,7 +20,7 @@ const views: ViewItem[] = [
   { path: "/reactions", label: "表情", icon: ENTITY_ICONS.REACTIONS },
   { path: "/recipes", label: "DIY配方", icon: ENTITY_ICONS.RECIPES },
   { path: "/constructions", label: "改建", icon: ENTITY_ICONS.CONSTRUCTION },
-  { path: "/message-cards", label: "消息卡片", icon: ENTITY_ICONS.MESSAGE_CARDS },
+  { path: "/message-cards", label: "贺卡", icon: ENTITY_ICONS.MESSAGE_CARDS },
 ];
 
 const isActive = (path: string) => {
