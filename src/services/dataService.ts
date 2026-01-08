@@ -248,6 +248,24 @@ export function getRecipeTypeName(type: RecipeType): string {
   return RecipeTypeNameMap[type] || "";
 }
 
+export function getRecipeTypeIcon(type: RecipeType): string {
+  const iconMap: Record<RecipeType, string> = {
+    [RecipeType.Tools]: "/acnh-catalog/img/icon/recipe_type/recipe_type_1.png",
+    [RecipeType.Housewares]: "/acnh-catalog/img/icon/recipe_type/recipe_type_2.png",
+    [RecipeType.Miscellaneous]: "/acnh-catalog/img/icon/recipe_type/recipe_type_3.png",
+    [RecipeType.WallMounted]: "/acnh-catalog/img/icon/recipe_type/recipe_type_4.png",
+    [RecipeType.CeilingDecor]: "/acnh-catalog/img/icon/recipe_type/recipe_type_5.png",
+    [RecipeType.Wallpaper]: "/acnh-catalog/img/icon/recipe_type/recipe_type_6.png",
+    [RecipeType.Floors]: "/acnh-catalog/img/icon/recipe_type/recipe_type_7.png",
+    [RecipeType.Rugs]: "/acnh-catalog/img/icon/recipe_type/recipe_type_8.png",
+    [RecipeType.Equipment]: "/acnh-catalog/img/icon/recipe_type/recipe_type_9.png",
+    [RecipeType.Other]: "/acnh-catalog/img/icon/recipe_type/recipe_type_10.png",
+    [RecipeType.Savory]: "/acnh-catalog/img/icon/recipe_type/recipe_type_11.png",
+    [RecipeType.Sweet]: "/acnh-catalog/img/icon/recipe_type/recipe_type_11.png",
+  };
+  return iconMap[type];
+}
+
 export function getActivityName(activity: string): string {
   return getTranslation(activity, translationsCache?.activitys);
 }

@@ -9,6 +9,7 @@ import { processImageUrl } from "../utils/imageUtils";
 import {
   getPriceWithIcon,
   getRecipeTypeName,
+  getRecipeTypeIcon,
   getActivityName,
 } from "../services/dataService";
 import { useItemDetailModal } from "../composables/useItemDetailModal";
@@ -94,7 +95,10 @@ const isShiny = computed(() => {
   >
     <div class="detail-row">
       <span class="detail-label">分类</span>
-      <span class="detail-value">{{ getRecipeTypeName(props.data.type) }}</span>
+      <span class="detail-value">
+        {{ getRecipeTypeName(props.data.type) }}
+        <img :src="getRecipeTypeIcon(props.data.type)" :alt="getRecipeTypeName(props.data.type)" class="inline-icon themed" />
+      </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ "季节/庆典" }}</span>
