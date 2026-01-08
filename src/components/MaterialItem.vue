@@ -65,7 +65,7 @@ const iconSize = computed(() => 24);
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* 基础样式 */
 .material-item {
   display: flex;
@@ -76,12 +76,12 @@ const iconSize = computed(() => 24);
   border-radius: var(--border-radius-xl);
   border: 2px solid #ffcc80;
   transition: all 0.2s;
-}
 
-.material-item.material-clickable:hover {
-  border-color: #ff9800;
-  transform: translateY(-3px);
-  box-shadow: 0 2px 6px rgba(255, 152, 0, 0.15);
+  &.material-clickable:hover {
+    border-color: #ff9800;
+    transform: translateY(-3px);
+    box-shadow: 0 2px 6px rgb(255, 152, 0, 0.15);
+  }
 }
 
 .material-info {

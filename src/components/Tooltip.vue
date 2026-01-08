@@ -17,20 +17,20 @@ const { visible, position, content, maxWidth } = useTooltip();
   </Teleport>
 </template>
 
-<style>
+<style lang="scss">
 .tooltip-fixed {
   position: fixed;
   transform: translate(-50%, -100%);
   padding: 12px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(0, 0, 0, 0.9);
   color: #fff;
   font-size: 12px;
   border-radius: var(--border-radius-xl);
   white-space: pre-wrap;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   pointer-events: none;
   z-index: 999999;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.3);
 }
 
 .tooltip-arrow {
@@ -42,6 +42,6 @@ const { visible, position, content, maxWidth } = useTooltip();
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid rgba(0, 0, 0, 0.9);
+  border-top: 5px solid rgb(0, 0, 0, 0.9);
 }
 </style>

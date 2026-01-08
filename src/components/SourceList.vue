@@ -58,7 +58,7 @@ const hideTooltip = () => {
   </span>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .source-list-multi {
   display: flex;
   flex-direction: column;

@@ -163,6 +163,6 @@ const cardStyles = computed(() => {
   </div>
 </template>
 
-<style>
-@import "../styles/card-styles.css";
+<style lang="scss">
+@use "../styles/card-styles";
 </style>

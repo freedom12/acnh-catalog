@@ -188,7 +188,7 @@ const handleTitleClick = () => {
   </BaseCard>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .artwork-images {
   display: flex;
   gap: 8px;
@@ -248,7 +248,7 @@ const handleTitleClick = () => {
   background: white;
   border-radius: 8px;
   padding: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.3);
 }
 
 .preview-overlay {
@@ -257,7 +257,7 @@ const handleTitleClick = () => {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0, 0.5);
   z-index: 10000;
   display: flex;
   align-items: center;
@@ -268,7 +268,7 @@ const handleTitleClick = () => {
   background: white;
   border-radius: var(--border-radius-xl);
   padding: 25px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgb(0, 0, 0, 0.3);
   max-width: 90vw;
   max-height: 90vh;
   display: flex;
@@ -282,7 +282,7 @@ const handleTitleClick = () => {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(0, 0, 0, 0.7);
   color: white;
   border: none;
   border-radius: 50%;
@@ -298,7 +298,7 @@ const handleTitleClick = () => {
 }
 
 .nav-btn:hover {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(0, 0, 0, 0.9);
   transform: translateY(-50%) scale(1.1);
 }
 

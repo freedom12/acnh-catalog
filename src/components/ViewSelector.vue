@@ -42,7 +42,7 @@ const isActive = (path: string) => {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .view-selector {
   display: flex;
   gap: 8px;
@@ -89,7 +89,7 @@ const isActive = (path: string) => {
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .view-selector {
     gap: 6px;
   }

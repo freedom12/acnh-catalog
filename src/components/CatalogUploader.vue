@@ -103,8 +103,8 @@ const handleFileChange = async (event: Event) => {
   </div>
 </template>
 
-<style scoped>
-@import "../styles/view-styles.css";
+<style scoped lang="scss">
+@use "../styles/view-styles";
 
 .catalog-uploader {
   display: flex;

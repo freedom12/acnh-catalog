@@ -67,7 +67,7 @@ const blockStyle = computed(() => {
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .color-block {
   border-radius: 50%;
   border: 2px solid #ddd;

@@ -52,8 +52,8 @@ const showPagination = computed(() => {
   </div>
 </template>
 
-<style scoped>
-@import "../styles/view-styles.css";
+<style scoped lang="scss">
+@use "../styles/view-styles";
 
 .pagination {
   display: flex;

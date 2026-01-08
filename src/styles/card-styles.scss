@@ -1,0 +1,381 @@
+/* ==================== 基础卡片样式 ==================== */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: var(--border-radius-xl);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: var(--transition-normal);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px var(--shadow-color);
+  }
+
+  /* 对号图标 */
+  &--with-checkmark::before {
+    content: "✓";
+    position: absolute;
+    top: var(--spacing-sm);
+    left: var(--spacing-sm);
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  /* ==================== 卡片变体样式 ==================== */
+
+  /* Light 变体 */
+  &--variant-light {
+    background: #fff;
+    border: 5px solid #fff;
+
+    .card-image-wrapper {
+      background: linear-gradient(
+        135deg,
+        var(--base-color) 0%,
+        var(--main-color) 500%
+      );
+    }
+  }
+
+  &--variant-dark {
+    background: var(--base-color);
+    border: 5px solid var(--main-color);
+
+    .card-image-wrapper {
+      background: #f8f9fa;
+    }
+  }
+
+  /* ==================== 颜色主题 ==================== */
+  &--brown {
+    --shadow-color: rgb(121, 85, 72, 0.2);
+    --main-color: #795548;
+    --base-color: #efebe9;
+  }
+
+  &--green {
+    --shadow-color: rgb(76, 175, 80, 0.2);
+    --main-color: #4caf50;
+    --base-color: #e8f5e9;
+  }
+
+  &--orange {
+    --shadow-color: rgb(255, 152, 0, 0.2);
+    --main-color: #ff9800;
+    --base-color: #fff3e0;
+  }
+
+  &--purple {
+    --shadow-color: rgb(156, 39, 176, 0.2);
+    --main-color: #9c27b0;
+    --base-color: #f3e5f5;
+  }
+
+  &--blue {
+    --shadow-color: rgb(33, 150, 243, 0.2);
+    --main-color: #2196f3;
+    --base-color: #e3f2fd;
+  }
+
+  &--yellow {
+    --shadow-color: rgb(255, 193, 7, 0.2);
+    --main-color: #ffc107;
+    --base-color: #fff9e6;
+  }
+
+  &--gray {
+    --shadow-color: rgb(96, 125, 139, 0.2);
+    --main-color: #607d8b;
+    --base-color: #eceff1;
+  }
+
+  &--red {
+    --shadow-color: rgb(244, 67, 54, 0.2);
+    --main-color: #f44336;
+    --base-color: #ffebee;
+  }
+
+  /* ==================== 闪光效果 ==================== */
+  &--shiny {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgb(255, 255, 255, 0.3) 50%,
+        transparent 70%
+      );
+      animation: shine 3s infinite;
+      pointer-events: none;
+    }
+  }
+}
+
+/* ==================== 图片容器 ==================== */
+.card-image-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto var(--spacing-sm);
+
+  /* 简略模式 - 图片尽可能大 */
+  &.large-image {
+    width: 100%;
+  }
+}
+
+.card-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto var(--spacing-sm);
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform var(--transition-normal);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &.rounded {
+    border-radius: var(--border-radius-xl);
+  }
+
+  &.square {
+    border-radius: 0;
+  }
+
+  &.large-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
+}
+
+.card-image {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+
+  &.large-image {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+/* 图片导航按钮 */
+.image-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgb(0, 0, 0, 0.8);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  &:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  &.image-nav-prev {
+    left: -32px;
+  }
+
+  &.image-nav-next {
+    right: -32px;
+  }
+}
+
+/* 图片指示器 */
+.image-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 4px;
+}
+
+.indicator {
+  width: 6px;
+  height: 6px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(0, 0, 0, 0.7);
+    transform: scale(1.3);
+  }
+
+  &.active {
+    background: rgb(0, 0, 0, 0.9);
+    transform: scale(1.2);
+  }
+}
+
+/* ==================== 卡片内容 ==================== */
+.card-info {
+  width: 100%;
+}
+
+.card-name {
+  margin: 0 0 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--spacing-xs) 10px;
+  background-color: #f8f9fa;
+  border-radius: var(--border-radius-lg);
+  font-size: 0.85em;
+  line-height: 1.4;
+
+  &.full {
+    display: block;
+
+    .detail-label {
+      display: block;
+      margin-bottom: var(--spacing-xs);
+      font-weight: 600;
+      color: var(--secondary-color);
+      text-align: left;
+    }
+
+    .detail-value {
+      display: block;
+      max-width: 100%;
+      padding-left: 0;
+      text-align: left;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+  }
+
+  &.detail-center {
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+  }
+
+  &.highlight {
+    border: 2px solid var(--main-color);
+  }
+}
+
+.detail-label {
+  flex-shrink: 0;
+  font-weight: 600;
+  color: var(--secondary-color);
+
+  &.highlight {
+    font-weight: 600;
+    color: var(--main-color);
+  }
+}
+
+.detail-value {
+  max-width: 80%;
+  color: var(--secondary-color);
+  text-align: right;
+  overflow-wrap: break-word;
+
+  &.highlight {
+    font-weight: 600;
+    color: var(--main-color);
+  }
+}
+
+/* ==================== 闪光动画 ==================== */
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
+/* ==================== 响应式设计 ==================== */
+@media (width <= 768px) {
+  .card {
+    padding: var(--spacing-sm);
+
+    &--simple .card-image-wrapper {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      height: auto;
+    }
+  }
+
+  .card-image-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-name {
+    font-size: 1em;
+  }
+
+  .detail-row {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 0.8em;
+  }
+}

@@ -82,7 +82,7 @@ const handleClick = () => {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .item-icon {
   padding: 5px;
 }
@@ -96,10 +96,10 @@ const handleClick = () => {
   background: white;
   border-radius: var(--border-radius-lg);
   transition: all 0.2s ease;
-}
 
-.item-icon-container.item-icon-clickable {
-  cursor: pointer;
+  &.item-icon-clickable {
+    cursor: pointer;
+  }
 }
 
 .preview-overlay {
@@ -126,7 +126,7 @@ const handleClick = () => {
   width: 100%;
   border: none;
   border-top: 1px solid #e0e0e0;
-  margin: -2px 0 -2px 0;
+  margin: -2px 0;
 }
 
 .preview-name {
@@ -135,7 +135,7 @@ const handleClick = () => {
   overflow: visible;
   text-overflow: unset;
   white-space: normal;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   color: #333;
   padding: 0 4px;
 }
@@ -145,23 +145,15 @@ const handleClick = () => {
   transition: all 0.3s ease;
 }
 
-.preview-enter-from {
-  opacity: 0;
-  transform: translate(-50%, -50%) scale(0.8);
-}
-
-.preview-enter-to {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.preview-leave-from {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
+.preview-enter-from,
 .preview-leave-to {
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.8);
+}
+
+.preview-enter-to,
+.preview-leave-from {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 </style>

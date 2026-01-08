@@ -55,6 +55,6 @@ const handleClick = () => {
   </BaseCard>
 </template>
 
-<style scoped>
-@import "../styles/card-styles.css";
+<style scoped lang="scss">
+@use "../styles/card-styles";
 </style>

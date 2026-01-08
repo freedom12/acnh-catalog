@@ -181,8 +181,8 @@ const handleClick = () => {
   </BaseCard>
 </template>
 
-<style scoped>
-@import "../styles/card-styles.css";
+<style scoped lang="scss">
+@use "../styles/card-styles";
 
 .variants-section {
   background: #f0f9f0;
@@ -220,15 +220,15 @@ const handleClick = () => {
   color: #666;
   cursor: pointer;
   transition: all 0.2s;
-}
 
-.variation-dot:hover {
-  background: #c8c8c8;
-  transform: scale(1.1);
-}
+  &:hover {
+    background: #c8c8c8;
+    transform: scale(1.1);
+  }
 
-.variation-dot.active {
-  background: #4a9b4f;
-  color: white;
+  &.active {
+    background: #4a9b4f;
+    color: white;
+  }
 }
 </style>

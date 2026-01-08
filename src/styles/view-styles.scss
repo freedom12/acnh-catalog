@@ -48,54 +48,54 @@
   transition: var(--transition-normal);
   box-shadow: var(--shadow-sm);
   white-space: nowrap;
-}
 
-.action-btn:hover:not(:disabled) {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
-}
+  &:hover:not(:disabled) {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+  }
 
-.action-btn:active:not(:disabled) {
-  transform: translateY(0);
-  box-shadow: var(--shadow-sm);
-}
+  &:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+  }
 
-.action-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 
-.action-btn .icon {
-  font-size: 12px;
-}
+  .icon {
+    font-size: 12px;
+  }
 
-.action-btn.primary {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #5dade2 100%);
-}
+  &.primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #5dade2 100%);
 
-.action-btn.primary:hover:not(:disabled) {
-  background: linear-gradient(135deg, var(--primary-hover) 0%, #3498db 100%);
-}
+    &:hover:not(:disabled) {
+      background: linear-gradient(135deg, var(--primary-hover) 0%, #3498db 100%);
+    }
+  }
 
-.action-btn.success {
-  background: linear-gradient(135deg, var(--success-color) 0%, #5db663 100%);
-}
+  &.success {
+    background: linear-gradient(135deg, var(--success-color) 0%, #5db663 100%);
 
-.action-btn.success:hover:not(:disabled) {
-  background: linear-gradient(135deg, #3d8342 0%, var(--success-color) 100%);
-}
+    &:hover:not(:disabled) {
+      background: linear-gradient(135deg, #3d8342 0%, var(--success-color) 100%);
+    }
+  }
 
-.action-btn.danger {
-  background: linear-gradient(135deg, var(--danger-color) 0%, #e53935 100%);
-  font-weight: 600;
-}
+  &.danger {
+    background: linear-gradient(135deg, var(--danger-color) 0%, #e53935 100%);
+    font-weight: 600;
 
-.action-btn.danger:hover:not(:disabled) {
-  background: linear-gradient(135deg, #d32f2f 0%, var(--danger-color) 100%);
-}
+    &:hover:not(:disabled) {
+      background: linear-gradient(135deg, #d32f2f 0%, var(--danger-color) 100%);
+    }
 
-.action-btn.danger:active:not(:disabled) {
-  background: #b71c1c;
+    &:active:not(:disabled) {
+      background: #b71c1c;
+    }
+  }
 }
 
 .round-btn {
@@ -126,16 +126,16 @@
   font-size: 0.9em;
   font-weight: 600;
   color: var(--secondary-color);
-}
 
-.toggle-btn:hover {
-  color: var(--secondary-color);
-}
+  &:hover {
+    color: var(--secondary-color);
+  }
 
-.toggle-btn.active {
-  background: white;
-  color: var(--success-color);
-  box-shadow: var(--shadow-sm);
+  &.active {
+    background: white;
+    color: var(--success-color);
+    box-shadow: var(--shadow-sm);
+  }
 }
 
 /* ==================== 网格布局 ==================== */
@@ -165,13 +165,13 @@
 }
 
 /* ==================== 响应式设计 ==================== */
-@media (max-width: 1200px) {
+@media (width <= 1200px) {
   .generic-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .stats {
     padding: 15px;
   }
@@ -203,7 +203,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .generic-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: var(--spacing-sm, 10px);

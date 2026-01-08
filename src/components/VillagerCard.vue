@@ -145,7 +145,7 @@ const toggleFurnitureExpanded = () => {
   </BaseCard>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .default-items-section {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -168,7 +168,6 @@ const toggleFurnitureExpanded = () => {
   font-weight: 600;
   color: #4a9b4f;
   font-size: 0.85em;
-  display: block;
   cursor: pointer;
   user-select: none;
   display: flex;

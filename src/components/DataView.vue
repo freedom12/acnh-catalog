@@ -93,6 +93,6 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped>
-@import "../styles/view-styles.css";
+<style scoped lang="scss">
+@use "../styles/view-styles";
 </style>

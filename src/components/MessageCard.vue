@@ -44,7 +44,7 @@ const nameColor = computed(() => {
   </BaseCard>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* 所有模式 - MessageCard 特殊的图片样式 */
 :deep(.card-image-wrapper) {
   width: 100%;

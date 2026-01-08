@@ -1,0 +1,9 @@
+# 忽略目录
+node_modules/
+dist/
+.venv/
+
+# 忽略文件类型
+*.min.css
+*.json
+*.md

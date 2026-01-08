@@ -238,8 +238,8 @@ const handleClearFilters = () => {
 };
 </script>
 
-<style scoped>
-@import "../styles/view-styles.css";
+<style scoped lang="scss">
+@use "../styles/view-styles";
 
 /* 筛选器容器 */
 .filter-container {
@@ -247,7 +247,7 @@ const handleClearFilters = () => {
   border-radius: var(--border-radius-xl);
   padding: var(--spacing-md, 16px);
   margin-bottom: 20px;
-  box-shadow: var(--shadow-sm, 0 2px 4px rgba(0, 0, 0, 0.1));
+  box-shadow: var(--shadow-sm, 0 2px 4px rgb(0, 0, 0, 0.1));
   transition: all 0.3s ease;
 }
 
@@ -348,13 +348,13 @@ const handleClearFilters = () => {
   font-size: 14px;
   font-weight: 500;
   transition: all 0.2s;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
   white-space: nowrap;
 }
 
 .filter-btn:hover {
   background: var(--bg-hover, #f8f9fa);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.15);
   transform: translateY(-1px);
 }
 

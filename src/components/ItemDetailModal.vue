@@ -459,8 +459,8 @@ const handleOverlayClick = (e: MouseEvent) => {
   </Transition>
 </template>
 
-<style scoped>
-@import "../styles/view-styles.css";
+<style scoped lang="scss">
+@use "../styles/view-styles";
 
 /* 模态框动画 */
 .modal-enter-active,
@@ -486,11 +486,8 @@ const handleOverlayClick = (e: MouseEvent) => {
 /* 模态框遮罩层 */
 .modal-overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  inset: 0;
+  background: rgb(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -508,16 +505,15 @@ const handleOverlayClick = (e: MouseEvent) => {
   width: 100%;
   max-height: 80vh;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
 }
 
 /* 滚动区域 */
 .detail-container {
-  padding: 15px 20px 15px 20px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  padding: 15px 20px;
+  overflow: hidden auto;
   flex: 1;
 }
 
@@ -531,12 +527,12 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .detail-container::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgb(0, 0, 0, 0.3);
   border-radius: 4px;
 }
 
 .detail-container::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0, 0.5);
 }
 
 /* 关闭按钮 */
@@ -550,7 +546,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   min-height: 44px;
   border-radius: 50%;
   border: none;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0, 0, 0, 0.6);
   color: white;
   font-size: 24px;
   line-height: 1;
@@ -566,7 +562,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .modal-close:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(0, 0, 0, 0.8);
   transform: rotate(90deg) scale(1.1);
 }
 
@@ -589,7 +585,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   background: white;
   border-radius: 12px;
   padding: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
 }
 
 .image-section {
@@ -616,7 +612,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 .main-image:hover {
   background: #e8f5e9;
   transform: scale(1.02);
-  box-shadow: 0 4px 12px rgba(74, 155, 79, 0.2);
+  box-shadow: 0 4px 12px rgb(74, 155, 79, 0.2);
 }
 
 .main-image::after {
@@ -625,7 +621,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(74, 155, 79, 0.9);
+  background: rgb(74, 155, 79, 0.9);
   color: white;
   padding: 8px;
   text-align: center;
@@ -649,7 +645,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   width: 100%;
   padding: 16px 24px;
   border: 3px solid #e0e0e0;
-  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #f5f5f5 0%, #fff 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -658,7 +654,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   font-size: 18px;
   font-weight: 700;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.06);
   position: relative;
   overflow: hidden;
   color: #999;
@@ -674,7 +670,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 255, 255, 0.3),
+    rgb(255, 255, 255, 0.3),
     transparent
   );
   transition: left 0.5s;
@@ -688,7 +684,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   background: linear-gradient(135deg, #66bb6a 0%, #4a9b4f 100%);
   border-color: #4a9b4f;
   color: white;
-  box-shadow: 0 4px 16px rgba(74, 155, 79, 0.3);
+  box-shadow: 0 4px 16px rgb(74, 155, 79, 0.3);
   transform: translateY(-2px);
 }
 
@@ -701,12 +697,12 @@ const handleOverlayClick = (e: MouseEvent) => {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
 
 .owned-badge.owned .owned-icon {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(255, 255, 255, 0.25);
   animation: pulse 2s ease-in-out infinite;
 }
 
@@ -817,7 +813,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 .additional-section h3,
 .concepts-section h3,
 .variants-section h3 {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   color: #333;
 }
 
@@ -882,14 +878,14 @@ const handleOverlayClick = (e: MouseEvent) => {
 .recipe-section {
   margin-top: 30px;
   padding: 30px;
-  background: linear-gradient(135deg, #fff9e6 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
   border: 2px solid #ffd54f;
 }
 
 .recipe-section h3 {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   color: #e65100;
   font-size: 1.5em;
 }
@@ -916,7 +912,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
 }
 
 .recipe-image img {
@@ -926,7 +922,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .recipe-basic-info h4 {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   color: #333;
   font-size: 1.3em;
 }
@@ -958,11 +954,11 @@ const handleOverlayClick = (e: MouseEvent) => {
   padding: 20px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.05);
 }
 
 .materials-section h4 {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   color: #333;
   font-size: 1.1em;
 }
@@ -992,11 +988,11 @@ const handleOverlayClick = (e: MouseEvent) => {
   padding: 30px;
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
 }
 
 .variants-section h3 {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   color: #333;
   font-size: 1.5em;
 }
@@ -1018,7 +1014,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 
 .variant-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
   border-color: #4a9b4f;
 }
 
@@ -1083,11 +1079,11 @@ const handleOverlayClick = (e: MouseEvent) => {
   display: flex;
   gap: 8px;
   align-items: center;
-}
 
-.variant-name {
-  font-weight: 500;
-  color: #333;
+  .variant-name {
+    font-weight: 500;
+    color: #333;
+  }
 }
 
 .pattern-count {
@@ -1106,7 +1102,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   color: #e74c3c;
 }
 
-@media (max-width: 968px) {
+@media (width <= 968px) {
   .detail-content {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -1136,7 +1132,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   }
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .info-grid {
     grid-template-columns: 1fr;
   }

@@ -20,7 +20,7 @@ defineProps<{
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .stats {
   display: flex;
   gap: 20px;

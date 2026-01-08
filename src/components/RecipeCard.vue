@@ -132,7 +132,7 @@ const isShiny = computed(() => {
   </BaseCard>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* RecipeCard特殊样式 */
 .materials-section {
   background: #fff9f0;

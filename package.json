@@ -8,7 +8,9 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "gencfg": "tsx tools/generate-config.ts",
-    "gencfg-old": "tsx tools/generate-config-old.ts"
+    "gencfg-old": "tsx tools/generate-config-old.ts",
+    "lint:style": "stylelint \"src/**/*.{vue,scss,css}\"",
+    "lint:style:fix": "stylelint \"src/**/*.{vue,scss,css}\" --fix"
   },
   "dependencies": {
     "vue": "^3.5.24",
@@ -19,6 +21,10 @@
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
     "animal-crossing": "^8.2.0",
+    "sass-embedded": "^1.97.2",
+    "stylelint": "^16.26.1",
+    "stylelint-config-recommended-vue": "^1.6.1",
+    "stylelint-config-standard-scss": "^16.0.0",
     "tsx": "^4.21.0",
     "typescript": "~5.9.3",
     "vite": "^7.2.4",

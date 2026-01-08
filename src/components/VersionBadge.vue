@@ -21,7 +21,7 @@ const displayVersion = computed(() => {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .version-badge {
   position: absolute;
   top: 10px;
