@@ -406,7 +406,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                   <h4>所需材料</h4>
                   <div class="materials-grid">
                     <MaterialItem
-                      v-for="(quantity, material) in recipe.materials"
+                      v-for="[material, quantity] in recipe.materials"
                       :key="material"
                       :material="material"
                       :quantity="quantity"

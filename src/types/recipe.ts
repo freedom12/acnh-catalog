@@ -39,5 +39,5 @@ export interface Recipe {
   activity?: string;
   source: string[];
   sourceNotes?: string[];
-  materials: Record<string, number>;
+  materials: [number, number][];
 }

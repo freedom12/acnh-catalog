@@ -5,7 +5,6 @@ import { DATA_LOADING } from "../constants";
 
 const allRecipes = ref<Recipe[]>([]);
 const recipeIdMap = ref<Record<number, Recipe>>({});
-const recipeNameMap = ref<Record<string, Recipe>>({});
 const loading = ref(false);
 const error = ref("");
 let isDataLoaded = false;
@@ -20,10 +19,8 @@ export function useRecipesData() {
       error.value = "";
       allRecipes.value = await loadRecipesData();
       recipeIdMap.value = {};
-      recipeNameMap.value = {};
       allRecipes.value.forEach((recipe) => {
         recipeIdMap.value[recipe.id] = recipe;
-        recipeNameMap.value[recipe.name] = recipe;
       });
       isDataLoaded = true;
     } catch (e) {
@@ -37,7 +34,6 @@ export function useRecipesData() {
   return {
     allRecipes,
     recipeIdMap,
-    recipeNameMap,
     loading,
     error,
     loadData,

@@ -199,38 +199,11 @@ const currencyMap: Record<string, Currency> = {
   Poki: Currency.Poki,
 };
 
-let newRecipes: NewRecipe[] = [];
-let newRecipeIdMap = new Map<number, NewRecipe>();
-let newRecipeNameMap = new Map<string, NewRecipe>();
+let recipeIdMap = new Map<number, number>();
 for (const oldRecipe of oldRecipes) {
-  let images = [];
-  images.push(processImageUrl(oldRecipe.image));
-  if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
-
-  if (oldRecipe.seasonEvent && !oldRecipe.seasonEventExclusive) {
-    oldRecipe.seasonEvent = null; // 非专属季节活动配方不记录季节活动,仅有树篱
-  }
-  const newRecipe: NewRecipe = {
-    id: oldRecipe.internalId,
-    type: recipeCategoryMap[oldRecipe.category],
-    name: oldRecipe.translations.cNzh,
-    rawName: oldRecipe.name,
-    images: images,
-    ver: versionAddedMap[oldRecipe.versionAdded],
-    buy: oldRecipe.buy ?? undefined,
-    sell: oldRecipe.sell ?? undefined,
-    source: oldRecipe.source,
-    sourceNotes: oldRecipe.sourceNotes ?? undefined,
-    activity: oldRecipe.seasonEvent ?? undefined,
-    itemId: oldRecipe.craftedItemInternalId,
-    cardColor: oldRecipe.cardColor ?? undefined,
-    materials: oldRecipe.materials,
-  };
-  newRecipes.push(newRecipe);
-  newRecipeIdMap.set(newRecipe.id, newRecipe);
-  newRecipeNameMap.set(newRecipe.rawName, newRecipe);
+  recipeIdMap.set(oldRecipe.internalId, oldRecipe.internalId);
 }
-newRecipes.sort((a, b) => a.id - b.id);
+
 /**
  * 处理变体数据
  */
@@ -363,7 +336,7 @@ function convertItem(oldItem: OldItem): NewItem {
     concepts,
     category,
     recipe: oldItem.recipe
-      ? newRecipeIdMap.get(oldItem.recipe.internalId)?.id
+      ? recipeIdMap.get(oldItem.recipe.internalId)
       : undefined,
     buy: oldItem.buy ?? undefined,
     sell: oldItem.sell ?? undefined,
@@ -574,6 +547,55 @@ newItems.sort((a, b) => {
   }
   return a.id - b.id;
 });
+
+let newRecipes: NewRecipe[] = [];
+for (const oldRecipe of oldRecipes) {
+  let images = [];
+  images.push(processImageUrl(oldRecipe.image));
+  if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
+
+  if (oldRecipe.seasonEvent && !oldRecipe.seasonEventExclusive) {
+    oldRecipe.seasonEvent = null; // 非专属季节活动配方不记录季节活动,仅有树篱
+  }
+
+  let materials: [number, number][] = [];
+  for (const [materialName, quantity] of Object.entries(oldRecipe.materials)) {
+    const item = newItemNameMap.get(materialName);
+    if (item) {
+      materials.push([item.id, quantity]);
+    } else {
+      console.log(
+        `配方 ${oldRecipe.translations.cNzh} 所需材料 ${materialName} 未找到对应物品`
+      );
+      if (materialName.indexOf("Bells") !== -1) {
+        let l = materialName.split(" ");
+        materials.push([7730, parseInt(l[0].replace(/,/g, ""))]);
+      } else if (materialName.indexOf("turnips") !== -1) {
+        let l = materialName.split(" ");
+        materials.push([7734, parseInt(l[0])]);
+      }
+    }
+  }
+
+  const newRecipe: NewRecipe = {
+    id: oldRecipe.internalId,
+    type: recipeCategoryMap[oldRecipe.category],
+    name: oldRecipe.translations.cNzh,
+    rawName: oldRecipe.name,
+    images: images,
+    ver: versionAddedMap[oldRecipe.versionAdded],
+    buy: oldRecipe.buy ?? undefined,
+    sell: oldRecipe.sell ?? undefined,
+    source: oldRecipe.source,
+    sourceNotes: oldRecipe.sourceNotes ?? undefined,
+    activity: oldRecipe.seasonEvent ?? undefined,
+    itemId: oldRecipe.craftedItemInternalId,
+    cardColor: oldRecipe.cardColor ?? undefined,
+    materials: materials,
+  };
+  newRecipes.push(newRecipe);
+}
+newRecipes.sort((a, b) => a.id - b.id);
 
 const genderMap: Record<string, Gender> = {
   Male: Gender.Male,
@@ -860,8 +882,8 @@ fs.writeFileSync(
   "utf-8"
 );
 
-for (const oldItem of oldItems) {
-  if (oldItem.exchangeCurrency) {
-    console.log(oldItem.translations?.cNzh || oldItem.name, oldItem.exchangeCurrency);
-  }
-}
+// for (const oldItem of oldItems) {
+//   if (oldItem.exchangeCurrency) {
+//     console.log(oldItem.translations?.cNzh || oldItem.name, oldItem.exchangeCurrency);
+//   }
+// }

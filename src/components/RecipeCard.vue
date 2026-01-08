@@ -122,7 +122,7 @@ const isShiny = computed(() => {
       <span class="materials-label">所需材料</span>
       <div class="materials-list">
         <MaterialItem
-          v-for="(quantity, material) in props.data.materials"
+          v-for="[material, quantity] in props.data.materials"
           :key="material"
           :material="material"
           :quantity="quantity"

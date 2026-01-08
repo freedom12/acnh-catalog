@@ -4,29 +4,17 @@ import { useItemsData } from "../composables/useItemsData";
 import { useItemDetailModal } from "../composables/useItemDetailModal";
 
 interface Props {
-  material: string;
+  material: number;
   quantity: number;
 }
 
 const props = defineProps<Props>();
 const { openModal } = useItemDetailModal();
-const { itemNameMap } = useItemsData();
+const { itemIdMap } = useItemsData();
 
 const material = computed(() => {
-  let itemModel = itemNameMap.value[props.material];
-  if (itemModel) {
-    return itemModel;
-  }
-  // let name = props.material;
-  // let l = props.material.split(" ");
-  // if (l.length >= 2 && Number.isInteger(Number(l[0]))) {
-  //   name = l.slice(1).join(" ");
-  // }
-  return {
-    id: null,
-    name: props.material,
-    image: null,
-  };
+  let itemModel = itemIdMap.value[props.material];
+  return itemModel;
 });
 
 const handleClick = () => {

@@ -9,7 +9,6 @@ import { DATA_LOADING } from "../constants";
 
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
 const itemIdMap = ref<Record<number, ItemModel>>({});
-const itemNameMap = ref<Record<string, ItemModel>>({});
 const loading = ref(true);
 const error = ref("");
 let isDataLoaded = false;
@@ -36,7 +35,6 @@ export function useItemsData() {
         });
       allItems.value.forEach((item) => {
         itemIdMap.value[item.id] = item;
-        itemNameMap.value[item.rawName] = item;
       });
       isDataLoaded = true;
     } catch (err) {
@@ -67,7 +65,6 @@ export function useItemsData() {
   return {
     allItems,
     itemIdMap,
-    itemNameMap,
     loading,
     error,
     loadData,
