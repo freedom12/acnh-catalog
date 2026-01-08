@@ -104,7 +104,7 @@ const variant = computed(() => {
       <span class="detail-label">分类</span>
       <span class="detail-value">
         {{ getCreatureTypeName(props.data.type) }}
-        <img :src="getCreatureTypeIcon(props.data.type)" :alt="getCreatureTypeName(props.data.type)" class="inline-icon" />
+        <img :src="getCreatureTypeIcon(props.data.type)" :alt="getCreatureTypeName(props.data.type)" class="inline-icon gray" />
       </span>
     </div>
     <div class="detail-row" :class="{ highlight: isCurrentMonthAvailable }">

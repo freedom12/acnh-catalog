@@ -249,21 +249,7 @@ export function getRecipeTypeName(type: RecipeType): string {
 }
 
 export function getRecipeTypeIcon(type: RecipeType): string {
-  const iconMap: Record<RecipeType, string> = {
-    [RecipeType.Tools]: "/acnh-catalog/img/icon/recipe_type/recipe_type_1.png",
-    [RecipeType.Housewares]: "/acnh-catalog/img/icon/recipe_type/recipe_type_2.png",
-    [RecipeType.Miscellaneous]: "/acnh-catalog/img/icon/recipe_type/recipe_type_3.png",
-    [RecipeType.WallMounted]: "/acnh-catalog/img/icon/recipe_type/recipe_type_4.png",
-    [RecipeType.CeilingDecor]: "/acnh-catalog/img/icon/recipe_type/recipe_type_5.png",
-    [RecipeType.Wallpaper]: "/acnh-catalog/img/icon/recipe_type/recipe_type_6.png",
-    [RecipeType.Floors]: "/acnh-catalog/img/icon/recipe_type/recipe_type_7.png",
-    [RecipeType.Rugs]: "/acnh-catalog/img/icon/recipe_type/recipe_type_8.png",
-    [RecipeType.Equipment]: "/acnh-catalog/img/icon/recipe_type/recipe_type_9.png",
-    [RecipeType.Other]: "/acnh-catalog/img/icon/recipe_type/recipe_type_10.png",
-    [RecipeType.Savory]: "/acnh-catalog/img/icon/recipe_type/recipe_type_11.png",
-    [RecipeType.Sweet]: "/acnh-catalog/img/icon/recipe_type/recipe_type_11.png",
-  };
-  return iconMap[type];
+  return `/acnh-catalog/img/icon/recipe_type/recipe_type_${type}.png`;
 }
 
 export function getActivityName(activity: string): string {
@@ -348,6 +334,10 @@ export function getSpeciesName(species: Species): string {
   return SpeciesNameMap[species];
 }
 
+export function getSpeciesIcon(species: Species): string {
+  return `/acnh-catalog/img/icon/species/species_${species}.png`;
+}
+
 export function getGenderName(gender: Gender): string {
   if (gender === Gender.Male) return "男性";
   if (gender === Gender.Female) return "女性";
@@ -429,7 +419,7 @@ export function getConstellation(birthday: string): Constellation {
 }
 
 export function getConstellationIcon(constellation: Constellation): string {
-  return `/acnh-catalog/img/icon/constellation_${constellation}.png`;
+  return `/acnh-catalog/img/icon/constellation/constellation_${constellation}.png`;
 }
 
 export function getConstellationName(constellation: Constellation): string {
@@ -451,16 +441,7 @@ export function getConstructionTypeName(type: ConstructionType): string {
 }
 
 export function getConstructionTypeIcon(type: ConstructionType): string {
-  const iconMap: Record<ConstructionType, string> = {
-    [ConstructionType.Roofing]: "/acnh-catalog/img/icon/construction_type_1.png",
-    [ConstructionType.Siding]: "/acnh-catalog/img/icon/construction_type_2.png",
-    [ConstructionType.Door]: "/acnh-catalog/img/icon/construction_type_3.png",
-    [ConstructionType.Mailbox]: "/acnh-catalog/img/icon/construction_type_4.png",
-    [ConstructionType.Bridge]: "/acnh-catalog/img/icon/construction_type_5.png",
-    [ConstructionType.Incline]: "/acnh-catalog/img/icon/construction_type_6.png",
-    [ConstructionType.Other]: "/acnh-catalog/img/icon/construction_type_7.png",
-  };
-  return iconMap[type];
+  return `/acnh-catalog/img/icon/construction_type/construction_type_${type}.png`;
 }
 
 export async function loadItemsData(): Promise<Item[]> {

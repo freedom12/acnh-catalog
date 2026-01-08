@@ -7,7 +7,7 @@ import CreatureCard from "../components/CreatureCard.vue";
 import FilterSection from "../components/FilterSection.vue";
 import ToggleGroup from "../components/ToggleGroup.vue";
 import { CreatureType } from "../types";
-import { getCreatureTypeName, getCreatureTypeIcon } from "../services/dataService";
+import { getCreatureTypeName } from "../services/dataService";
 
 const { allCreatures, loading, error, loadData } = useCreaturesData();
 
@@ -32,7 +32,6 @@ const filters = computed(() => [
       label: `${getCreatureTypeName(type)} (${
         allCreatures.value.filter((r) => r.type === type).length
       })`,
-      icon: getCreatureTypeIcon(type),
     })),
   },
 ]);

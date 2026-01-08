@@ -27,7 +27,7 @@ const handleClick = () => {
       <span class="detail-label">分类</span>
       <span class="detail-value">
         {{ getConstructionTypeName(props.data.type) }}
-        <img :src="getConstructionTypeIcon(props.data.type)" :alt="getConstructionTypeName(props.data.type)" class="inline-icon themed" />
+        <img :src="getConstructionTypeIcon(props.data.type)" :alt="getConstructionTypeName(props.data.type)" class="inline-icon gray" />
       </span>
     </div>
     <div class="detail-row">

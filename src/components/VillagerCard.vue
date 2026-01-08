@@ -10,6 +10,7 @@ import {
   getHobbyName,
   getPersonalityName,
   getSpeciesName,
+  getSpeciesIcon,
   getConstellation,
   getConstellationIcon,
   getConstellationName,
@@ -74,6 +75,12 @@ const toggleFurnitureExpanded = () => {
       <span class="detail-label">
         <img :src="getGenderIcon(props.data.gender)" class="inline-icon" />
         {{ getSpeciesName(props.data.species) }}
+        <img
+          :src="getSpeciesIcon(props.data.species)"
+          :alt="getSpeciesName(props.data.species)"
+          :title="getSpeciesName(props.data.species)"
+          class="inline-icon gray"
+        />
       </span>
       <ColorBlock :colors="props.data.colors" :size="16" />
     </span>

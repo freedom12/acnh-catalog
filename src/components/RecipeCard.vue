@@ -97,7 +97,7 @@ const isShiny = computed(() => {
       <span class="detail-label">分类</span>
       <span class="detail-value">
         {{ getRecipeTypeName(props.data.type) }}
-        <img :src="getRecipeTypeIcon(props.data.type)" :alt="getRecipeTypeName(props.data.type)" class="inline-icon themed" />
+        <img :src="getRecipeTypeIcon(props.data.type)" :alt="getRecipeTypeName(props.data.type)" class="inline-icon gray" />
       </span>
     </div>
     <div class="detail-row">
