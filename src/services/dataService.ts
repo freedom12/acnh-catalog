@@ -432,6 +432,19 @@ export function getConstructionTypeName(type: ConstructionType): string {
   return ConstructionTypeNameMap[type];
 }
 
+export function getConstructionTypeIcon(type: ConstructionType): string {
+  const iconMap: Record<ConstructionType, string> = {
+    [ConstructionType.Roofing]: "/acnh-catalog/img/icon/construction_type_1.png",
+    [ConstructionType.Siding]: "/acnh-catalog/img/icon/construction_type_2.png",
+    [ConstructionType.Door]: "/acnh-catalog/img/icon/construction_type_3.png",
+    [ConstructionType.Mailbox]: "/acnh-catalog/img/icon/construction_type_4.png",
+    [ConstructionType.Bridge]: "/acnh-catalog/img/icon/construction_type_5.png",
+    [ConstructionType.Incline]: "/acnh-catalog/img/icon/construction_type_6.png",
+    [ConstructionType.Other]: "/acnh-catalog/img/icon/construction_type_7.png",
+  };
+  return iconMap[type];
+}
+
 export async function loadItemsData(): Promise<Item[]> {
   try {
     const response = await fetch(CONFIG.DATA_FILES.ITEMS);

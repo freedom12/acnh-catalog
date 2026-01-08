@@ -129,4 +129,42 @@ body {
   display: inline-block;
   margin-left: 2px;
   margin-right: 2px;
+  
+  &.themed {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(0%) hue-rotate(0deg);
+    opacity: 0.8;
+  }
+}
+
+// 为不同的card主题色应用滤镜
+.card--gray .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(42%) saturate(397%) hue-rotate(152deg) brightness(94%) contrast(87%);
+}
+
+.card--brown .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(26%) saturate(991%) hue-rotate(339deg) brightness(95%) contrast(90%);
+}
+
+.card--green .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(61%) saturate(505%) hue-rotate(76deg) brightness(96%) contrast(87%);
+}
+
+.card--orange .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(93%) saturate(1676%) hue-rotate(360deg) brightness(102%) contrast(101%);
+}
+
+.card--purple .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(88%) saturate(3144%) hue-rotate(283deg) brightness(81%) contrast(92%);
+}
+
+.card--blue .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(98%) saturate(1777%) hue-rotate(188deg) brightness(99%) contrast(91%);
+}
+
+.card--yellow .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(77%) sepia(80%) saturate(1549%) hue-rotate(0deg) brightness(101%) contrast(101%);
+}
+
+.card--red .inline-icon.themed {
+  filter: brightness(0) saturate(100%) invert(37%) sepia(92%) saturate(3173%) hue-rotate(347deg) brightness(97%) contrast(93%);
 }

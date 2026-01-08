@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { UI_TEXT } from "../constants";
-import { getPriceWithIcon, getConstructionTypeName } from "../services/dataService";
+import { getPriceWithIcon, getConstructionTypeName, getConstructionTypeIcon } from "../services/dataService";
 import type { Construction } from "../types/construction";
 import BaseCard from "./BaseCard.vue";
 import SourceList from "./SourceList.vue";
@@ -27,6 +27,7 @@ const handleClick = () => {
       <span class="detail-label">分类</span>
       <span class="detail-value">
         {{ getConstructionTypeName(props.data.type) }}
+        <img :src="getConstructionTypeIcon(props.data.type)" :alt="getConstructionTypeName(props.data.type)" class="inline-icon themed" />
       </span>
     </div>
     <div class="detail-row">
