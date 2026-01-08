@@ -23,7 +23,7 @@ const nameColor = computed(() => {
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
-    :shape="'rounded'"
+    :shape="'square'"
     :style="{
       background: `linear-gradient(5deg, ${props.data.headColor} 0%, ${props.data.headColor} 10%, ${props.data.bodyColor} 10.5%, ${props.data.bodyColor} 90%, ${props.data.footColor} 90.5%, ${props.data.footColor} 100%)`,
       border: '3px solid ' + (props.data.backColor || props.data.bodyColor),
@@ -45,10 +45,10 @@ const nameColor = computed(() => {
 </template>
 
 <style scoped>
+/* 所有模式 - MessageCard 特殊的图片样式 */
 :deep(.card-image-wrapper) {
   width: 100%;
   height: auto;
-  /* max-width: none; */
   background: none;
 }
 
@@ -57,5 +57,10 @@ const nameColor = computed(() => {
   height: auto;
   object-fit: contain;
   display: block;
+}
+
+/* 简略模式 - 覆盖 BaseCard 的 aspect-ratio */
+:deep(.card-image-wrapper.large-image) {
+  aspect-ratio: unset !important;
 }
 </style>

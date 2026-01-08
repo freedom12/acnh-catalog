@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
+import { ref, computed } from "vue";
 import { processImageUrl } from "../utils/imageUtils";
 import { adjustBrightness } from "../utils/common";
 import VersionBadge from "./VersionBadge.vue";
@@ -65,6 +65,12 @@ const nextImage = () => {
   }
 };
 
+// 切换到指定索引的图片
+const goToImage = (index: number) => {
+  currentImageIndex.value = index;
+  emit("image-index-changed", index);
+};
+
 // 计算卡片变体类名
 const variantClass = computed(() => {
   return props.variant === "light"
@@ -72,30 +78,15 @@ const variantClass = computed(() => {
     : "card--variant-dark";
 });
 
-// 随机倾斜角度
-const randomRotation = ref(0);
-
-// 组件挂载时生成随机倾斜角度（-1.5 到 1.5 度之间）
-onMounted(() => {
-  randomRotation.value = (Math.random() - 0.5) * 3; // -1.5 到 1.5 度
-});
-
-// 卡片样式（包含主题和随机倾斜）
+// 卡片样式
 const cardStyles = computed(() => {
   const styles: Record<string, string> = {};
-  
-  // 只在简略状态下（非详细状态）应用倾斜
-  if (!props.detailed) {
-    styles.transform = `rotate(${randomRotation.value}deg)`;
-  }
-  
   if (props.colorTheme) {
     const baseColor = props.colorTheme;
     const mainColor = adjustBrightness(baseColor, -0.3);
     styles["--base-color"] = baseColor;
     styles["--main-color"] = mainColor;
   }
-  
   return styles;
 });
 </script>
@@ -115,12 +106,13 @@ const cardStyles = computed(() => {
     :style="cardStyles"
   >
     <VersionBadge :version="version" />
-    <div class="card-image-container">
+    <div class="card-image-container" :class="{ 'large-image': !detailed }">
       <div
         class="card-image-wrapper"
         :class="{
           rounded: currentShape === 'rounded',
           square: currentShape === 'square',
+          'large-image': !detailed,
         }"
         @click="$emit('click', $event)"
       >
@@ -128,6 +120,7 @@ const cardStyles = computed(() => {
           :src="currentImage"
           :alt="displayName"
           class="card-image"
+          :class="{ 'large-image': !detailed }"
           loading="lazy"
         />
       </div>
@@ -139,19 +132,20 @@ const cardStyles = computed(() => {
           :key="index"
           class="indicator"
           :class="{ active: index === currentImageIndex }"
+          @click.stop="goToImage(index)"
         ></span>
       </div>
 
       <!-- 左右切换按钮 -->
       <button
-        v-if="hasMultipleImages"
+        v-if="hasMultipleImages && detailed"
         class="image-nav-btn image-nav-prev"
         @click.stop="prevImage"
       >
         ‹
       </button>
       <button
-        v-if="hasMultipleImages"
+        v-if="hasMultipleImages && detailed"
         class="image-nav-btn image-nav-next"
         @click.stop="nextImage"
       >
