@@ -2,12 +2,12 @@ import type { Price } from "../services/dataService";
 import type { Version } from "./index";
 
 export const ConstructionType = {
-  Bridge: 1,
-  Door: 2,
-  Incline: 3,
-  Mailbox: 4,
-  Roofing: 5,
-  Siding: 6,
+  Door: 1,
+  Mailbox: 2,
+  Siding: 3,
+  Roofing: 4,
+  Bridge: 5,
+  Incline: 6,
   Other: 7,
 } as const;
 

@@ -6,7 +6,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardE",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -18,7 +18,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -30,7 +30,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -42,7 +42,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileF",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -54,7 +54,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -66,7 +66,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneB",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -78,7 +78,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoB",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -90,7 +90,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -102,7 +102,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -114,7 +114,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeH",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -126,7 +126,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -138,7 +138,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardH",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -150,7 +150,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileH",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -162,7 +162,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -174,7 +174,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -186,7 +186,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeBlack",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -198,7 +198,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -210,7 +210,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardBlack",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -222,7 +222,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -234,7 +234,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareBlack",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -246,7 +246,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneH",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -258,7 +258,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoH",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -270,7 +270,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedH",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -282,7 +282,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardH",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -294,7 +294,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -306,7 +306,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -318,7 +318,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -330,7 +330,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneF",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -342,7 +342,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -354,7 +354,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileE",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -366,7 +366,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -378,7 +378,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -390,7 +390,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeBlue",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -402,7 +402,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -414,7 +414,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -426,7 +426,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardBlue",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -438,7 +438,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -450,7 +450,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -462,7 +462,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareBlue",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -474,7 +474,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wdqferbgf%20%20",
     "ver": 1,
     "buy": 228000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -486,7 +486,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneE",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -498,7 +498,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoE",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -510,7 +510,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardF",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -522,7 +522,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -534,7 +534,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -546,7 +546,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -558,7 +558,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodBlue",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -570,7 +570,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wr3t453y46ujyk%2Cj",
     "ver": 1,
     "buy": 128000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -582,7 +582,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardC",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -594,7 +594,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wqearthyjuk,",
     "ver": 1,
     "buy": 198000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -606,7 +606,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1dafsgdb",
     "ver": 1,
     "buy": 198000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -618,7 +618,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeB",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -630,7 +630,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneC",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -642,7 +642,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileG",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -654,7 +654,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -666,7 +666,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -678,7 +678,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -690,7 +690,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneG",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -702,7 +702,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedB",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -714,7 +714,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -726,7 +726,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -738,7 +738,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeA",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -750,7 +750,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneB",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -762,7 +762,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodDark",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -774,7 +774,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneA",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -786,7 +786,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -798,7 +798,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardA",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -810,7 +810,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeG",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -822,7 +822,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -834,7 +834,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -846,7 +846,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -858,7 +858,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedG",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -870,7 +870,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedD",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -882,7 +882,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedA",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -894,7 +894,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneH",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -906,7 +906,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -918,7 +918,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -930,7 +930,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -942,7 +942,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -954,7 +954,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -966,7 +966,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneA",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -978,7 +978,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoC",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -990,7 +990,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedE",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1002,7 +1002,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1014,7 +1014,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1026,7 +1026,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardD",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1038,7 +1038,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1050,7 +1050,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneG",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1062,7 +1062,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1074,7 +1074,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileD",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1086,7 +1086,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1098,7 +1098,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1110,7 +1110,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1122,7 +1122,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeGreen",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1134,7 +1134,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1146,7 +1146,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardGreen",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1158,7 +1158,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1170,7 +1170,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareGreen",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1182,7 +1182,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneF",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1194,7 +1194,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardD",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -1206,7 +1206,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1218,7 +1218,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1230,7 +1230,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1242,7 +1242,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodGreen",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1254,7 +1254,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1266,7 +1266,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1278,7 +1278,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1290,7 +1290,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wdaeteyhrjtuy",
     "ver": 1,
     "buy": 228000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -1302,7 +1302,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1314,7 +1314,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1326,7 +1326,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1338,7 +1338,7 @@
     "image": "latest/HousePostIcon/FtrPostLarge",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1350,7 +1350,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1362,7 +1362,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeD",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1374,7 +1374,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1386,7 +1386,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1adsvfbgnhjh",
     "ver": 1,
     "buy": 98000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -1398,7 +1398,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1awr3t45y6u5jky",
     "ver": 1,
     "buy": 168000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -1410,7 +1410,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1422,7 +1422,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1434,7 +1434,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1446,7 +1446,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1458,7 +1458,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1470,7 +1470,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1482,7 +1482,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1qewt453yw46ujyk",
     "ver": 1,
     "buy": 98000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -1494,7 +1494,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeF",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1506,7 +1506,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneE",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1518,7 +1518,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileA",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1530,7 +1530,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneC",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1542,7 +1542,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedC",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1554,7 +1554,7 @@
     "image": "latest/HousePostIcon/FtrPostStandard",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1566,7 +1566,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1578,7 +1578,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1590,7 +1590,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1602,7 +1602,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1614,7 +1614,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardF",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1626,7 +1626,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileB",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1638,7 +1638,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1650,7 +1650,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1662,7 +1662,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1674,7 +1674,7 @@
     "image": "latest/HousePostIcon/FtrPostLargePink",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1686,7 +1686,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1698,7 +1698,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardPink",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1710,7 +1710,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1722,7 +1722,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1734,7 +1734,7 @@
     "image": "latest/HousePostIcon/FtrPostSquarePink",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1746,7 +1746,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoG",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1758,7 +1758,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardB",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -1770,7 +1770,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1782,7 +1782,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1794,7 +1794,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodPink",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -1806,7 +1806,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1818,7 +1818,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1830,7 +1830,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1842,7 +1842,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1854,7 +1854,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardG",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -1866,7 +1866,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1878,7 +1878,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1890,7 +1890,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardJR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1902,7 +1902,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeC",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1914,7 +1914,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StoneD",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1926,7 +1926,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1938,7 +1938,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardG",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -1950,7 +1950,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1962,7 +1962,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1974,7 +1974,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1986,7 +1986,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillIR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -1998,7 +1998,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeRed",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2010,7 +2010,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2022,7 +2022,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2034,7 +2034,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardRed",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2046,7 +2046,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2058,7 +2058,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareRed",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2070,7 +2070,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wretehryjm",
     "ver": 1,
     "buy": 228000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2082,7 +2082,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StoneD",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2094,7 +2094,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoD",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2106,7 +2106,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardA",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -2118,7 +2118,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2130,7 +2130,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2142,7 +2142,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2154,7 +2154,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodRed",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2166,7 +2166,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1wdqfegrhtryjmm",
     "ver": 1,
     "buy": 228000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2178,7 +2178,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2190,7 +2190,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2202,7 +2202,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardB",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2214,7 +2214,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2226,7 +2226,7 @@
     "image": "latest/HousePostIcon/FtrPostSimple",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "Tent"
     ]
@@ -2238,7 +2238,7 @@
     "image": "latest/HousePostIcon/FtrPostSquare",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2250,7 +2250,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1adwfesgrdthfgmj",
     "ver": 1,
     "buy": 168000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2262,7 +2262,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1ewfweaf",
     "ver": 1,
     "buy": 168000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2274,7 +2274,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1sxdaefwrge5yhyjum",
     "ver": 1,
     "buy": 129800,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2286,7 +2286,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2298,7 +2298,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2310,7 +2310,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2322,7 +2322,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2334,7 +2334,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2346,7 +2346,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2358,7 +2358,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2370,7 +2370,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronGrillFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2382,7 +2382,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeWhite",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2394,7 +2394,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorLatticeGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2406,7 +2406,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronpartsHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2418,7 +2418,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardWhite",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2430,7 +2430,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimplicityBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2442,7 +2442,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2454,7 +2454,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareWhite",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2466,7 +2466,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoA",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2478,7 +2478,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04ThatchedF",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2490,7 +2490,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2502,7 +2502,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2514,7 +2514,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardHR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2526,7 +2526,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodWhite",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2538,7 +2538,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseGR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2550,7 +2550,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1qwr3t4y56ujj",
     "ver": 1,
     "buy": 128000,
-    "type": 3,
+    "type": 6,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2562,7 +2562,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorWindowAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2574,7 +2574,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1adsfhngm",
     "ver": 1,
     "buy": 168000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2586,7 +2586,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorStandardAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2598,7 +2598,7 @@
     "image": "latest/HousePostIcon/FtrPostWood",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2610,7 +2610,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCercleWindowCR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2622,7 +2622,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04WoodframeE",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2634,7 +2634,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorReliefER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2646,7 +2646,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StandardE",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2658,7 +2658,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04WesterntileC",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2670,7 +2670,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorCarvingFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2682,7 +2682,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorChineseDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2694,7 +2694,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorIronDR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2706,7 +2706,7 @@
     "image": "latest/HousePostIcon/FtrPostLargeYellow",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2718,7 +2718,7 @@
     "image": "latest/HousePostIcon/FtrPostStandardYellow",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2730,7 +2730,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorSimpleFR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2742,7 +2742,7 @@
     "image": "latest/HousePostIcon/FtrPostSquareYellow",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2754,7 +2754,7 @@
     "image": "latest/HouseWallIcon/HouseWallPA04StuccoF",
     "ver": 1,
     "buy": 5000,
-    "type": 6,
+    "type": 3,
     "source": [
       "5th House Upgrade (2nd Floor)"
     ]
@@ -2766,7 +2766,7 @@
     "image": "latest/HouseRoofIcon/HouseRoofPA04StandardC",
     "ver": 1,
     "buy": 5000,
-    "type": 5,
+    "type": 4,
     "source": [
       "Initial House"
     ]
@@ -2778,7 +2778,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorVerticalWindowER",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2790,7 +2790,7 @@
     "image": "latest/HousePostIcon/FtrPostWoodYellow",
     "ver": 1,
     "buy": 5000,
-    "type": 4,
+    "type": 2,
     "source": [
       "3rd House Upgrade (Left Room)"
     ]
@@ -2802,7 +2802,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseBR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]
@@ -2814,7 +2814,7 @@
     "image": "http://acnhcdn.com/drivesync/bridgearamp/NewCanvas1w",
     "ver": 1,
     "buy": 228000,
-    "type": 1,
+    "type": 5,
     "source": [
       "Resident Services Upgrade"
     ]
@@ -2826,7 +2826,7 @@
     "image": "latest/HouseDoorIcon/HouseDoorJapaneseAR",
     "ver": 1,
     "buy": 5000,
-    "type": 2,
+    "type": 1,
     "source": [
       "4th House Upgrade (Right Room)"
     ]

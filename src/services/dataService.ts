@@ -192,11 +192,11 @@ export function getCurrencyName(currency: Currency): string {
 
 export function getCurrencyIcon(currency: Currency): string {
   const iconMap: Record<Currency, string> = {
-    [Currency.Bells]: "/acnh-catalog/img/currency/bells.png",
-    [Currency.HeartCrystals]: "/acnh-catalog/img/currency/heart_crystals.png",
-    [Currency.NookMiles]: "/acnh-catalog/img/currency/nook_miles.png",
-    [Currency.NookPoints]: "/acnh-catalog/img/currency/nook_points.png",
-    [Currency.Poki]: "/acnh-catalog/img/currency/poki.png",
+    [Currency.Bells]: "/acnh-catalog/img/icon/currency_1.png",
+    [Currency.HeartCrystals]: "/acnh-catalog/img/icon/currency_2.png",
+    [Currency.NookMiles]: "/acnh-catalog/img/icon/currency_3.png",
+    [Currency.NookPoints]: "/acnh-catalog/img/icon/currency_4.png",
+    [Currency.Poki]: "/acnh-catalog/img/icon/currency_5.png",
   };
   return iconMap[currency];
 }
