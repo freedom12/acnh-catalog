@@ -82,26 +82,31 @@ const toggleFurnitureExpanded = () => {
           class="inline-icon gray"
         />
       </span>
-      <ColorBlock :colors="props.data.colors" :size="16" />
     </span>
-    <span class="detail-row detail-center">
-      <span class="detail-label">
+    <span class="detail-row">
+      <span class="detail-label">生日</span>
+      <span class="detail-value">
+        {{ props.data.birthday }}
+        <img
+          class="inline-icon"
+          :src="getConstellationIcon(getConstellation(props.data.birthday))"
+          :alt="getConstellationName(getConstellation(props.data.birthday))"
+          :title="getConstellationName(getConstellation(props.data.birthday))"
+        />
+      </span>
+    </span>
+    <span class="detail-row">
+      <span class="detail-label">性格/爱好</span>
+      <span class="detail-value">
         {{ getPersonalityName(props.data.personality) }}({{
           props.data.subtype
         }}) /
         {{ getHobbyName(props.data.hobby) }}
       </span>
     </span>
-    <span class="detail-row detail-center">
-      <span class="detail-label">
-        {{ props.data.birthday }}
-        <img 
-          class="inline-icon" 
-          :src="getConstellationIcon(getConstellation(props.data.birthday))"
-          :alt="getConstellationName(getConstellation(props.data.birthday))"
-          :title="getConstellationName(getConstellation(props.data.birthday))"
-        />
-      </span>
+    <span class="detail-row">
+      <span class="detail-label">喜爱颜色</span>
+        <ColorBlock :colors="props.data.colors" :size="16" />
     </span>
     <span class="detail-row">
       <span class="detail-label">服饰风格</span>

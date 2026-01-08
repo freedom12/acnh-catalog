@@ -56,8 +56,9 @@ const handleImageIndexChanged = (index: number) => {
         {{ props.data.id }}
       </span>
     </span>
-    <span class="detail-row detail-center">
-      <span class="detail-label">
+    <span class="detail-row">
+      <span class="detail-label">生日</span>
+      <span class="detail-value">
         {{ props.data.birthday }}
         <img
           class="inline-icon"
