@@ -54,7 +54,7 @@ $gradient-green-dark: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
   transition: $property $transition-normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Han+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -96,7 +96,7 @@ $gradient-green-dark: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
   --gradient-orange-light: #{$gradient-orange-light};
   --gradient-purple-light: #{$gradient-purple-light};
   --gradient-green-dark: #{$gradient-green-dark};
-  font-family: 'Source Han Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light;

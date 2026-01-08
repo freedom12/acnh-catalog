@@ -18,6 +18,7 @@ import {
   type Price,
   getItemVariantTitle,
   getPriceWithIcon,
+  getCusCost,
 } from "../services/dataService";
 import {
   Color,
@@ -258,14 +259,18 @@ export class ItemModel {
   }
 
   // ============ 变体相关 ============
+  get canCustomize(): boolean {
+    return !this.isClothing && this.hasVariations;
+  }
+
   get vTitle(): string {
-    return this._data.vTitle || "";
+    return this._data.vt || "";
   }
   get vTitleName(): string {
     return getItemVariantTitle(this.vTitle) || "样式";
   }
   get pTitle(): string {
-    return this._data.pTitle || "";
+    return this._data.pt || "";
   }
   get pTitleName(): string {
     return getItemVariantTitle(this.pTitle) || "图案";
@@ -294,6 +299,47 @@ export class ItemModel {
   get patternCount(): number {
     const variant = this.currentVariant;
     return variant ? variant.patterns.length : 0;
+  }
+
+  isVariantCusOnlyByCyrus(vIndex?: number): boolean {
+    if (!this.canCustomize) return false;
+    if (!this._data.iv) return true; // 图案可定制则不是纯定制
+    let vIdx = vIndex === undefined ? this.variantIndex : vIndex;
+    const variant = this.variantGroups[vIdx];
+    if (!variant) return false;
+    const pattern = variant.patterns[0];
+    if (!pattern) return false;
+    if (!pattern.cus) return false;
+    if (pattern.cus[1][0]) return false;
+    return true;
+  }
+
+  isPatternCusOnlyByCyrus(pIndex?: number): boolean {
+    if (!this.canCustomize) return false;
+    if (!this._data.ip) return true; // 变体可定制则不是纯定制
+    let pIdx = pIndex === undefined ? this.patternIndex : pIndex;
+    const variant = this.variantGroups[0];
+    if (!variant) return false;
+    const pattern = variant.patterns[pIdx];
+    if (!pattern) return false;
+    if (!pattern.cus) return false;
+    if (pattern.cus[1][0]) return false;
+    return true;
+  }
+
+  getCostStrs(vIndex?: number, pIndex?: number): string[] {
+    const pattern = this.getPattern(vIndex, pIndex);
+    if (!pattern || !pattern.cus) return [];
+    const [price, cusCost] = pattern.cus;
+    const parts: string[] = [];
+    if (price) {
+      parts.push(getPriceWithIcon(price));
+    }
+    if (cusCost) {
+      const [kitCost, _] = cusCost;
+      if (kitCost) parts.push(getCusCost(cusCost));
+    }
+    return parts;
   }
 
   get variantIndex(): number {
@@ -418,13 +464,15 @@ export class ItemModel {
     return false;
   }
 
-  getPattern(vIndex: number, pIndex: number): Pattern | null {
+  getPattern(vIndex?: number, pIndex?: number): Pattern | null {
+    let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
+    let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
     const variants = this.variantGroups;
-    if (vIndex < 0 || vIndex >= variants.length) return null;
-    const variant = variants[vIndex];
+    if (vIdx < 0 || vIdx >= variants.length) return null;
+    const variant = variants[vIdx];
     if (!variant) return null;
-    if (pIndex < 0 || pIndex >= variant.patterns.length) return null;
-    return variant.patterns[pIndex] || null;
+    if (pIdx < 0 || pIdx >= variant.patterns.length) return null;
+    return variant.patterns[pIdx] || null;
   }
 
   // ============ 匹配筛选方法 ============

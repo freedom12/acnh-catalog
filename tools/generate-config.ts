@@ -17,7 +17,7 @@ import {
   construction as oldConstructions,
   seasonsAndEvents as oldSeasonsAndEvents,
 } from "animal-crossing";
-import type { Item as NewItem, Variant } from "../src/types/item";
+import { KitType, type Item as NewItem, type Variant } from "../src/types/item";
 import {
   ItemType,
   Version,
@@ -48,6 +48,7 @@ import {
 } from "../src/types/creature";
 import type { MessageCard } from "../src/types/messagecard";
 import { ActivityType, type Activity } from "../src/types/activity";
+import type { CusCost } from "../src/services/dataService";
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -199,6 +200,12 @@ const currencyMap: Record<string, Currency> = {
   Poki: Currency.Poki,
 };
 
+const kitTypeMap: Record<string, KitType> = {
+  Normal: KitType.Normal,
+  Pumpkin: KitType.Pumpkin,
+  "Rainbow feather": KitType.RainbowFeather,
+};
+
 let recipeIdMap = new Map<number, number>();
 for (const oldRecipe of oldRecipes) {
   recipeIdMap.set(oldRecipe.internalId, oldRecipe.internalId);
@@ -212,6 +219,8 @@ function processVariations(oldItem: OldItem): Variant[] {
     return [];
   }
 
+  let cusKitCost = oldItem.kitCost || 0;
+  let cusKitType: KitType = KitType.Normal;
   const variantMap = new Map<string, Variant>();
 
   oldItem.variations.forEach((v) => {
@@ -228,6 +237,15 @@ function processVariations(oldItem: OldItem): Variant[] {
 
     const variant = variantMap.get(variantName)!;
     const patternColors = v.colors || oldItem.colors || [];
+
+    if (v.kitType && v.variation !== "Damaged") {
+      cusKitType = kitTypeMap[v.kitType];
+    } else {
+      cusKitCost = 0;
+      cusKitType = KitType.Normal;
+    }
+    const cusPrice = v.cyrusCustomizePrice || 0;
+    const cus = [cusPrice, [cusKitCost, cusKitType]] as [number, CusCost];
     variant.patterns.push({
       name: v.patternTranslations?.cNzh || v.pattern || "",
       image: processImageUrl(v.image || v.storageImage || v.closetImage || ""),
@@ -237,6 +255,7 @@ function processVariations(oldItem: OldItem): Variant[] {
           patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined)
         )
       ),
+      cus: cus,
     });
   });
 
@@ -309,6 +328,10 @@ function convertItem(oldItem: OldItem): NewItem {
   concepts = concepts && concepts.length > 0 ? concepts : undefined;
   let category =
     oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
+
+  const isContainsDamaged = oldItem.variations?.some(
+    (v) => v.variation === "Damaged"
+  );
   return {
     id,
     name,
@@ -324,11 +347,11 @@ function convertItem(oldItem: OldItem): NewItem {
     activity: oldItem.seasonEvent || undefined,
     size: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
-    points: oldItem.hhaBasePoints ?? undefined,
-    series: oldItem.series ?? undefined,
+    points: oldItem.hhaBasePoints || undefined,
+    series: oldItem.series || undefined,
     themes:
       oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
-    set: oldItem.set ?? undefined,
+    set: oldItem.set || undefined,
     styles:
       oldItem.styles && oldItem.styles.length > 0
         ? Array.from(new Set(oldItem.styles))
@@ -338,14 +361,16 @@ function convertItem(oldItem: OldItem): NewItem {
     recipe: oldItem.recipe
       ? recipeIdMap.get(oldItem.recipe.internalId)
       : undefined,
-    buy: oldItem.buy ?? undefined,
-    sell: oldItem.sell ?? undefined,
+    buy: oldItem.buy || undefined,
+    sell: oldItem.sell || undefined,
     exch: oldItem.exchangePrice
       ? [oldItem.exchangePrice, currencyMap[oldItem.exchangeCurrency!]]
       : undefined,
     variants: variants.length > 0 ? variants : undefined,
-    vTitle: oldItem.bodyTitle || undefined,
-    pTitle: oldItem.variations?.[0].patternTitle || undefined,
+    vt: oldItem.bodyTitle || undefined,
+    pt: oldItem.variations?.[0].patternTitle || undefined,
+    iv: oldItem.bodyCustomize || isContainsDamaged || undefined,
+    ip: oldItem.patternCustomize || undefined,
   };
 }
 

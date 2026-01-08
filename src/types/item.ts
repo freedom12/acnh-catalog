@@ -1,4 +1,4 @@
-import type { Price } from "../services/dataService";
+import type { CusCost, Price } from "../services/dataService";
 
 /**
  * 物品分类枚举（数字枚举）
@@ -164,6 +164,7 @@ export interface Pattern {
   image: string; // 图案图片
   id: number; // 图案ID
   colors: Color[]; // 图案颜色列表
+  cus?: [number, CusCost]; // 定制价格和材料
 }
 
 /**
@@ -208,8 +209,10 @@ export interface Item {
   styles?: string[]; // 服饰风格（村民喜好）
 
   variants?: Variant[]; // 变体组列表
-  vTitle?: string; // 变体标题
-  pTitle?: string; // 图案标题
+  vt?: string; // 变体标题
+  pt?: string; // 图案标题
+  iv?: boolean;
+  ip?: boolean;
   recipe?: number; // 配方数据
 }
 

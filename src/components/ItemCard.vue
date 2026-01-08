@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from "vue";
 import { joinArray } from "../utils/common";
+import { getItemTypeIcon } from "../services/dataService";
 import { ItemModel } from "../models";
 import BaseCard from "./BaseCard.vue";
 import ColorBlock from "./ColorBlock.vue";
@@ -32,7 +33,9 @@ const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
 const displayName = computed(() => itemModel.getDisplayName());
 const displayImages = computed(() => itemModel.getDisplayImages());
-
+const displayCusCostStrs = computed(() => {
+  return itemModel.getCostStrs();
+});
 const applyColorFilter = () => {
   if (props.colorFilter !== undefined && itemModel.hasVariations) {
     const match = itemModel.findVariantByColor(props.colorFilter);
@@ -70,7 +73,15 @@ const handleClick = () => {
     @click="handleClick"
   >
     <span class="detail-row detail-center">
-      <span class="detail-label"> ID: {{ displayId }} </span>
+      <span class="detail-label">
+        <img
+          :src="getItemTypeIcon(itemModel.type)"
+          :alt="itemModel.typeName"
+          :title="itemModel.typeName"
+          class="inline-icon gray"
+        />
+        ID: {{ displayId }}
+      </span>
       <ColorBlock
         v-if="displayColors.length > 0"
         :colors="displayColors"
@@ -136,8 +147,11 @@ const handleClick = () => {
       <span class="detail-label">购买</span>
       <span class="detail-value highlight">
         <template v-if="itemModel.buyPrices.length > 0">
-          <div v-for="(priceStr, index) in itemModel.buyPriceStrs" :key="index" v-html="priceStr">
-          </div>
+          <div
+            v-for="(priceStr, index) in itemModel.buyPriceStrs"
+            :key="index"
+            v-html="priceStr"
+          ></div>
         </template>
         <div v-else>不可购买</div>
       </span>
@@ -147,33 +161,73 @@ const handleClick = () => {
       <span class="detail-value highlight" v-html="itemModel.sellPriceStr">
       </span>
     </div>
-    <div v-if="itemModel.hasVariations" class="variants-section variant-row">
-      <span class="variants-label">{{ itemModel.vTitleName }}</span>
+
+    <div
+      v-if="itemModel.hasVariations"
+      :class="[
+        'variants-section',
+        { 'variants-section--pink': !itemModel.canCustomize },
+      ]"
+    >
+      <span class="variants-label">
+        <img
+          v-if="itemModel.canCustomize"
+          src="/acnh-catalog/img/icon/icon_cus_v.png"
+          :alt="itemModel.typeName"
+          :title="itemModel.typeName"
+          class="inline-icon"
+        />
+        {{ itemModel.vTitleName }}
+      </span>
       <div class="variants-list">
         <span
           v-for="(vg, vIdx) in itemModel.variantGroups"
           :key="vIdx"
           class="variation-dot variant-dot"
-          :class="{ active: vIdx === variantIndex }"
+          :class="{
+            active: vIdx === variantIndex,
+            blue: itemModel.isVariantCusOnlyByCyrus(vIdx),
+          }"
           :title="vg.name || `${itemModel.vTitleName} ${vIdx + 1}`"
           @click="variantIndex = vIdx"
         >
           {{ vIdx + 1 }}
         </span>
       </div>
-    </div>
-    <div v-if="itemModel.hasPatterns" class="variants-section pattern-row">
-      <span class="variants-label">{{ itemModel.pTitleName }}</span>
-      <div class="variants-list">
+
+      <span v-if="itemModel.hasPatterns" class="variants-label">
+        <img
+          v-if="itemModel.canCustomize"
+          src="/acnh-catalog/img/icon/icon_cus_p.png"
+          :alt="itemModel.typeName"
+          :title="itemModel.typeName"
+          class="inline-icon"
+        />
+        {{ itemModel.pTitleName }}
+      </span>
+      <div v-if="itemModel.hasPatterns" class="variants-list">
         <span
           v-for="(p, pIdx) in currentVariant!.patterns"
           :key="pIdx"
-          class="variation-dot pattern-dot"
-          :class="{ active: pIdx === patternIndex }"
+          class="variation-dot"
+          :class="{
+            active: pIdx === patternIndex,
+            blue: itemModel.isPatternCusOnlyByCyrus(pIdx),
+          }"
           :title="p.name || `${itemModel.pTitleName} ${pIdx + 1}`"
           @click="patternIndex = pIdx"
         >
           {{ pIdx + 1 }}
+        </span>
+      </div>
+      <div v-if="itemModel.canCustomize" class="detail-row">
+        <span class="detail-label">花费</span>
+        <span class="detail-value">
+          <div
+            v-for="(str, index) in displayCusCostStrs"
+            :key="index"
+            v-html="str"
+          ></div>
         </span>
       </div>
     </div>
@@ -183,19 +237,22 @@ const handleClick = () => {
 <style scoped lang="scss">
 @use "../styles/card-styles";
 .variants-section {
-  background: #f0f9f0;
+  background: #fff9e6;
   border-radius: var(--border-radius-xl);
   padding: 8px;
-  border: 2px solid #c8e6c8;
+  border: 2px solid #ffea9e;
   margin-top: 8px;
 }
 
 .variants-label {
   font-weight: 600;
-  color: #4a9b4f;
+  color: #b07a00;
   font-size: 0.85em;
   display: block;
-  margin-bottom: 8px;
+
+  &.blue {
+    color: #0b4f80;
+  }
 }
 
 .variants-list {
@@ -209,24 +266,71 @@ const handleClick = () => {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #e0e0e0;
+  background: #fff9e6;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 11px;
   font-weight: 600;
-  color: #666;
+  color: #b07a00;
   cursor: pointer;
   transition: all 0.2s;
+  border: 2px #ffea9e solid;
 
   &:hover {
-    background: #c8c8c8;
     transform: scale(1.1);
   }
 
   &.active {
-    background: #4a9b4f;
-    color: white;
+    background: #ffea9e;
   }
+
+  &.blue {
+    background: #e6f4ff;
+    color: #0b4f80;
+    border-color: #bfe8ff;
+  }
+
+  &.blue.active {
+    background: #2b8cff;
+    color: #fff;
+    border-color: #1976d2;
+  }
+}
+
+/* Pink theme for variants-section */
+.variants-section--pink {
+  background: #fff0f6;
+  border-color: #ffd0e6;
+}
+
+.variants-section--pink .variants-label {
+  color: #b0005a;
+}
+
+.variants-section--pink .variation-dot {
+  background: #fff0f6;
+  color: #b0005a;
+  border-color: #ffd0e6;
+}
+
+.variants-section--pink .variation-dot:hover {
+  transform: scale(1.1);
+}
+
+.variants-section--pink .variation-dot.active {
+  background: #ffd0e6;
+}
+
+.variants-section--pink .variation-dot.blue {
+  background: #fff0f6;
+  color: #7a003a;
+  border-color: #ffd6e8;
+}
+
+.variants-section--pink .variation-dot.blue.active {
+  background: #ff4d9e;
+  color: #fff;
+  border-color: #e60073;
 }
 </style>

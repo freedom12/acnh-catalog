@@ -19,9 +19,10 @@ import { RecipeType, type Recipe } from "../types/recipe";
 import { ConstructionType, type Construction } from "../types/construction";
 import type { MessageCard } from "../types/messagecard";
 import { CONFIG } from "../config";
-import { ItemType, Version, ItemSize, Color, Currency } from "../types/item";
+import { ItemType, Version, ItemSize, Color, Currency, KitType } from "../types/item";
 
 export type Price = [number, Currency] | number;
+export type CusCost = [number, KitType];
 let translationsCache: Translations | null = null;
 
 export const ItemTypeNameMap: Record<ItemType, string> = {
@@ -167,6 +168,23 @@ export function getPriceWithIcon(price: Price | null | undefined): string {
   return `${amount.toLocaleString()} <img src="${icon}" alt="${getCurrencyName(
     currency
   )}" class="inline-icon" />`;
+}
+
+export function getKitTypeIcon(kitType: KitType): string {
+  const iconMap: Record<KitType, string> = {
+    [KitType.Normal]: "/acnh-catalog/img/icon/kit_type_1.png",
+    [KitType.Pumpkin]: "/acnh-catalog/img/icon/kit_type_2.png",
+    [KitType.RainbowFeather]: "/acnh-catalog/img/icon/kit_type_3.png",
+  };
+  return iconMap[kitType];
+}
+
+export function getCusCost(cusCost: CusCost | null | undefined): string {
+  if (!cusCost) return "";
+  let [kitCost, kitType] = cusCost;
+  if (kitCost <= 0) return "";
+  const icon = getKitTypeIcon(kitType);
+  return `${kitCost.toLocaleString()} <img src="${icon}" class="inline-icon" />`;
 }
 
 export function getItemTypeName(type: ItemType): string {
@@ -442,6 +460,10 @@ export function getConstructionTypeName(type: ConstructionType): string {
 
 export function getConstructionTypeIcon(type: ConstructionType): string {
   return `/acnh-catalog/img/icon/construction_type/construction_type_${type}.png`;
+}
+
+export function getItemTypeIcon(type: ItemType): string {
+  return `/acnh-catalog/img/icon/item_type/item_type_${type}.png`;
 }
 
 export async function loadItemsData(): Promise<Item[]> {
