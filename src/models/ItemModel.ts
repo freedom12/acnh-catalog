@@ -16,8 +16,8 @@ import {
   getHHACategoryName,
   getActivityName,
   type Price,
-  getPriceStr,
   getItemVariantTitle,
+  getPriceWithIcon,
 } from "../services/dataService";
 import {
   Color,
@@ -141,7 +141,7 @@ export class ItemModel {
 
   get buyPriceStrs(): string[] {
     return this.buyPrices
-      .map((price) => getPriceStr(price))
+      .map((price) => getPriceWithIcon(price))
       .filter((str) => str !== "");
   }
 
@@ -150,7 +150,7 @@ export class ItemModel {
   }
 
   get sellPriceStr(): string {
-    return getPriceStr(this.sellPrice) || "不可出售";
+    return getPriceWithIcon(this.sellPrice) || "不可出售";
   }
 
   get tag(): string {

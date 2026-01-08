@@ -120,3 +120,26 @@ body {
 #app {
   min-height: 100vh;
 }
+
+// 图标全局样式
+.inline-icon {
+  height: 1.2em;
+  width: auto;
+  vertical-align: text-bottom;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+// 星座图标（雪碧图）
+.constellation-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background-image: url('/acnh-catalog/img/icon/constellation.png');
+  background-size: 400% 300%; /* 4x3 网格 */
+  vertical-align: text-bottom;
+  margin-left: 4px;
+  border-radius: 50%;
+  padding: 2px;
+}

@@ -2,7 +2,7 @@
 import { ref, computed } from "vue";
 import type { NPC } from "../types/npc";
 import BaseCard from "./BaseCard.vue";
-import { getGenderIcon } from "../services/dataService";
+import { getGenderIcon, getGenderName, getConstellation, getConstellationIconStyle, getConstellationName } from "../services/dataService";
 
 const props = defineProps<{
   data: NPC;
@@ -42,11 +42,19 @@ const handleImageIndexChanged = (index: number) => {
     </template>
     <span class="detail-row detail-center">
       <span class="detail-label">
-        {{ getGenderIcon(props.data.gender) }} {{ props.data.id }}
+        <img :src="getGenderIcon(props.data.gender)" :alt="getGenderName(props.data.gender)" class="inline-icon" />
+        {{ props.data.id }}
       </span>
     </span>
     <span class="detail-row detail-center">
-      <span class="detail-label"> 🎂 {{ props.data.birthday }} </span>
+      <span class="detail-label">
+        {{ props.data.birthday }}
+        <span 
+          class="constellation-icon" 
+          :style="getConstellationIconStyle(getConstellation(props.data.birthday))"
+          :title="getConstellationName(getConstellation(props.data.birthday))"
+        ></span>
+      </span>
     </span>
   </BaseCard>
 </template>

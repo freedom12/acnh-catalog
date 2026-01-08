@@ -2,7 +2,7 @@
 import type { MessageCard } from "../types/messagecard";
 import BaseCard from "./BaseCard.vue";
 import { selectHighestContrastColor } from "../utils/common";
-import { getPriceStr } from "../services/dataService";
+import { getPriceWithIcon } from "../services/dataService";
 import { computed } from "vue";
 
 const props = defineProps<{
@@ -37,8 +37,7 @@ const nameColor = computed(() => {
     </template>
     <div class="detail-row">
       <span class="detail-label">价格</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(props.data.buy) || "不可购买" }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.buy) || '不可购买'">
       </span>
     </div>
   </BaseCard>

@@ -860,8 +860,8 @@ fs.writeFileSync(
   "utf-8"
 );
 
-// for (const oldItem of oldItems) {
-//   if (oldItem.exchangeCurrency) {
-//     console.log(oldItem.translations?.cNzh || oldItem.name, oldItem.exchangeCurrency);
-//   }
-// }
+for (const oldItem of oldItems) {
+  if (oldItem.exchangeCurrency) {
+    console.log(oldItem.translations?.cNzh || oldItem.name, oldItem.exchangeCurrency);
+  }
+}

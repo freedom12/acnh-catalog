@@ -4,7 +4,7 @@ import { UI_TEXT } from "../constants";
 import BaseCard from "./BaseCard.vue";
 import { ref, computed } from "vue";
 import { processImageUrl } from "../utils/imageUtils";
-import { getPriceStr, getCreatureTypeName } from "../services/dataService";
+import { getPriceWithIcon, getCreatureTypeName, getCreatureTypeIcon } from "../services/dataService";
 
 const props = defineProps<{
   data: Creature;
@@ -102,9 +102,10 @@ const variant = computed(() => {
   >
     <div class="detail-row">
       <span class="detail-label">分类</span>
-      <span class="detail-value">{{
-        getCreatureTypeName(props.data.type)
-      }}</span>
+      <span class="detail-value">
+        {{ getCreatureTypeName(props.data.type) }}
+        <img :src="getCreatureTypeIcon(props.data.type)" :alt="getCreatureTypeName(props.data.type)" class="inline-icon" />
+      </span>
     </div>
     <div class="detail-row" :class="{ highlight: isCurrentMonthAvailable }">
       <span class="detail-label">月份</span>
@@ -140,8 +141,7 @@ const variant = computed(() => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(props.data.sell) }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell)">
       </span>
     </div>
   </BaseCard>

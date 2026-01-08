@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getPriceStr, getItemTypeName, itemSizeNameMap } from "../services/dataService";
+import { getPriceWithIcon, getItemTypeName, itemSizeNameMap } from "../services/dataService";
 import type { Artwork } from "../types/artwork";
 import BaseCard from "./BaseCard.vue";
 import { computed, ref } from "vue";
@@ -133,8 +133,7 @@ const handleTitleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(props.data.sell) }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell)">
       </span>
     </div>
 

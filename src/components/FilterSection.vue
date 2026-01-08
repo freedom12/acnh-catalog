@@ -58,6 +58,7 @@
                 })
               "
             >
+              <img v-if="option.icon" :src="option.icon" :alt="option.label" class="inline-icon" />
               <span>{{ option.label }}</span>
             </button>
           </div>
@@ -102,6 +103,7 @@ export type FilterOptionValue = string | number;
 export interface FilterOption {
   value: FilterOptionValue;
   label: string;
+  icon?: string; // 图标 URL
 }
 
 export interface Filter {

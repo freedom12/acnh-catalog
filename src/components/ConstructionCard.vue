@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { UI_TEXT } from "../constants";
-import { getPriceStr, getConstructionTypeName } from "../services/dataService";
+import { getPriceWithIcon, getConstructionTypeName } from "../services/dataService";
 import type { Construction } from "../types/construction";
 import BaseCard from "./BaseCard.vue";
 import SourceList from "./SourceList.vue";
@@ -35,8 +35,7 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(props.data.buy) || "不可购买" }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.buy) || '不可购买'">
       </span>
     </div>
   </BaseCard>

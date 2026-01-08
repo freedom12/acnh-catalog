@@ -3,7 +3,7 @@ import { ref, computed } from "vue";
 import { UI_TEXT } from "../constants";
 import type { Fossil } from "../types/fossil";
 import BaseCard from "./BaseCard.vue";
-import { getPriceStr } from "../services/dataService";
+import { getPriceWithIcon } from "../services/dataService";
 
 const props = defineProps<{
   data: Fossil;
@@ -48,8 +48,7 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(currentPrice) }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(currentPrice)">
       </span>
     </div>
   </BaseCard>

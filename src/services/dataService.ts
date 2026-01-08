@@ -20,7 +20,6 @@ import { ConstructionType, type Construction } from "../types/construction";
 import type { MessageCard } from "../types/messagecard";
 import { CONFIG } from "../config";
 import { ItemType, Version, ItemSize, Color, Currency } from "../types/item";
-import { ENTITY_ICONS } from "../constants";
 
 export type Price = [number, Currency] | number;
 let translationsCache: Translations | null = null;
@@ -135,7 +134,7 @@ export const CurrencyNameMap: Record<Currency, string> = {
   [Currency.HeartCrystals]: "爱的结晶",
   [Currency.NookMiles]: "Nook里程",
   [Currency.NookPoints]: "Nook点数",
-  [Currency.Poki]: "波奇",
+  [Currency.Poki]: "波金",
 };
 
 function getTranslation(
@@ -154,6 +153,18 @@ export function getPriceStr(price: Price | null | undefined): string {
   if (amount < 0) return "";
 
   return `${amount.toLocaleString()} ${getCurrencyName(currency)}`;
+}
+
+export function getPriceWithIcon(price: Price | null | undefined): string {
+  if (!price) return "";
+  if (price && !Array.isArray(price)) {
+    price = [price, Currency.Bells];
+  }
+  let [amount, currency] = price as [number, Currency];
+  if (amount < 0) return "";
+
+  const icon = getCurrencyIcon(currency);
+  return `${amount.toLocaleString()} <img src="${icon}" alt="${getCurrencyName(currency)}" class="inline-icon" />`;
 }
 
 export function getItemTypeName(type: ItemType): string {
@@ -177,6 +188,26 @@ export function getColorName(color: Color | string): string {
 
 export function getCurrencyName(currency: Currency): string {
   return CurrencyNameMap[currency];
+}
+
+export function getCurrencyIcon(currency: Currency): string {
+  const iconMap: Record<Currency, string> = {
+    [Currency.Bells]: "/acnh-catalog/img/currency/bells.png",
+    [Currency.HeartCrystals]: "/acnh-catalog/img/currency/heart_crystals.png",
+    [Currency.NookMiles]: "/acnh-catalog/img/currency/nook_miles.png",
+    [Currency.NookPoints]: "/acnh-catalog/img/currency/nook_points.png",
+    [Currency.Poki]: "/acnh-catalog/img/currency/poki.png",
+  };
+  return iconMap[currency];
+}
+
+export function getCreatureTypeIcon(type: CreatureType): string {
+  const iconMap: Record<CreatureType, string> = {
+    [CreatureType.Insects]: "/acnh-catalog/img/icon/creature_type_1.png",
+    [CreatureType.Fish]: "/acnh-catalog/img/icon/creature_type_2.png",
+    [CreatureType.SeaCreatures]: "/acnh-catalog/img/icon/creature_type_3.png",
+  };
+  return iconMap[type];
 }
 
 export function getSourceName(source: string): string {
@@ -304,7 +335,104 @@ export function getGenderName(gender: Gender): string {
 }
 
 export function getGenderIcon(gender: Gender): string {
-  return gender === Gender.Male ? ENTITY_ICONS.MALE : ENTITY_ICONS.FEMALE;
+  const iconMap: Record<Gender, string> = {
+    [Gender.Male]: "/acnh-catalog/img/icon/gender_2.png",
+    [Gender.Female]: "/acnh-catalog/img/icon/gender_1.png",
+  };
+  return iconMap[gender];
+}
+
+// 星座枚举
+export const Constellation = {
+  Aries: 1,        // 白羊座
+  Taurus: 2,       // 金牛座
+  Gemini: 3,       // 双子座
+  Cancer: 4,       // 巨蟹座
+  Leo: 5,          // 狮子座
+  Virgo: 6,        // 处女座
+  Libra: 7,        // 天秤座
+  Scorpio: 8,      // 天蝎座
+  Sagittarius: 9,  // 射手座
+  Capricorn: 10,   // 魔羯座
+  Aquarius: 11,    // 水瓶座
+  Pisces: 12,      // 双鱼座
+} as const;
+
+export type Constellation = (typeof Constellation)[keyof typeof Constellation];
+
+export const ConstellationNameMap: Record<Constellation, string> = {
+  [Constellation.Aries]: "白羊座",
+  [Constellation.Taurus]: "金牛座",
+  [Constellation.Gemini]: "双子座",
+  [Constellation.Cancer]: "巨蟹座",
+  [Constellation.Leo]: "狮子座",
+  [Constellation.Virgo]: "处女座",
+  [Constellation.Libra]: "天秤座",
+  [Constellation.Scorpio]: "天蝎座",
+  [Constellation.Sagittarius]: "射手座",
+  [Constellation.Capricorn]: "魔羯座",
+  [Constellation.Aquarius]: "水瓶座",
+  [Constellation.Pisces]: "双鱼座",
+};
+export const ConstellationColorMap: Record<Constellation, string> = {
+  [Constellation.Aries]: "#ff6b6b",        // 红色 - 火象
+  [Constellation.Taurus]: "#8bc34a",       // 绿色 - 土象
+  [Constellation.Gemini]: "#ffd93d",       // 黄色 - 风象
+  [Constellation.Cancer]: "#81c7d4",       // 青色 - 水象
+  [Constellation.Leo]: "#ff8c42",          // 橙色 - 火象
+  [Constellation.Virgo]: "#a1887f",        // 棕色 - 土象
+  [Constellation.Libra]: "#b8e994",        // 浅绿 - 风象
+  [Constellation.Scorpio]: "#596275",      // 深蓝 - 水象
+  [Constellation.Sagittarius]: "#ee5a6f",  // 粉红 - 火象
+  [Constellation.Capricorn]: "#795548",    // 深棕 - 土象
+  [Constellation.Aquarius]: "#82ccdd",     // 浅蓝 - 风象
+  [Constellation.Pisces]: "#9b59b6",       // 紫色 - 水象
+};
+// 根据生日计算星座
+export function getConstellation(birthday: string): Constellation {
+  // birthday 格式如 "1/15" 或 "12/25"
+  const [monthStr, dayStr] = birthday.split("/");
+  const month = Number(monthStr);
+  const day = Number(dayStr);
+  
+  if (!month || !day) return Constellation.Aries; // 默认返回白羊座
+  
+  if ((month === 3 && day >= 21) || (month === 4 && day <= 19)) return Constellation.Aries;
+  if ((month === 4 && day >= 20) || (month === 5 && day <= 20)) return Constellation.Taurus;
+  if ((month === 5 && day >= 21) || (month === 6 && day <= 20)) return Constellation.Gemini;
+  if ((month === 6 && day >= 21) || (month === 7 && day <= 22)) return Constellation.Cancer;
+  if ((month === 7 && day >= 23) || (month === 8 && day <= 22)) return Constellation.Leo;
+  if ((month === 8 && day >= 23) || (month === 9 && day <= 22)) return Constellation.Virgo;
+  if ((month === 9 && day >= 23) || (month === 10 && day <= 22)) return Constellation.Libra;
+  if ((month === 10 && day >= 23) || (month === 11 && day <= 21)) return Constellation.Scorpio;
+  if ((month === 11 && day >= 22) || (month === 12 && day <= 21)) return Constellation.Sagittarius;
+  if ((month === 12 && day >= 22) || (month === 1 && day <= 19)) return Constellation.Capricorn;
+  if ((month === 1 && day >= 20) || (month === 2 && day <= 18)) return Constellation.Aquarius;
+  return Constellation.Pisces; // 2/19 - 3/20
+}
+
+// 获取星座图标的背景位置（4x3雪碧图）
+export function getConstellationIconStyle(constellation: Constellation): { backgroundPosition: string; backgroundColor: string; boxShadow: string } {
+  // 图标按 4x3 排列，每个占 33.33% 宽度和 50% 高度
+  const index = constellation - 1; // 0-11
+  const col = index % 4;
+  const row = Math.floor(index / 4);
+  const x = col * 33.33;
+  const y = row * 50;
+  const color = getConstellationColor(constellation);
+  return {
+    backgroundPosition: `${x}% ${y}%`,
+    backgroundColor: color,
+    boxShadow: `0 0 4px ${color}`,
+  };
+}
+
+export function getConstellationName(constellation: Constellation): string {
+  return ConstellationNameMap[constellation];
+}
+
+export function getConstellationColor(constellation: Constellation): string {
+  return ConstellationColorMap[constellation];
 }
 
 export const ConstructionTypeNameMap: Record<ConstructionType, string> = {

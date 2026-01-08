@@ -136,8 +136,7 @@ const handleClick = () => {
       <span class="detail-label">购买</span>
       <span class="detail-value highlight">
         <template v-if="itemModel.buyPrices.length > 0">
-          <div v-for="(priceStr, index) in itemModel.buyPriceStrs" :key="index">
-            {{ priceStr }}
+          <div v-for="(priceStr, index) in itemModel.buyPriceStrs" :key="index" v-html="priceStr">
           </div>
         </template>
         <div v-else>不可购买</div>
@@ -145,8 +144,7 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ itemModel.sellPriceStr }}
+      <span class="detail-value highlight" v-html="itemModel.sellPriceStr">
       </span>
     </div>
     <div v-if="itemModel.hasVariations" class="variants-section variant-row">
@@ -184,7 +182,6 @@ const handleClick = () => {
 
 <style scoped lang="scss">
 @use "../styles/card-styles";
-
 .variants-section {
   background: #f0f9f0;
   border-radius: var(--border-radius-xl);

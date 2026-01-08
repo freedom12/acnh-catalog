@@ -7,7 +7,7 @@ import MaterialItem from "./MaterialItem.vue";
 import SourceList from "./SourceList.vue";
 import { processImageUrl } from "../utils/imageUtils";
 import {
-  getPriceStr,
+  getPriceWithIcon,
   getRecipeTypeName,
   getActivityName,
 } from "../services/dataService";
@@ -112,8 +112,7 @@ const isShiny = computed(() => {
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight">
-        {{ getPriceStr(props.data.sell) || "不可出售" }}
+      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell) || '不可出售'">
       </span>
     </div>
     <div

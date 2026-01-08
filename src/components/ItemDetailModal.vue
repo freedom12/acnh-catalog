@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from "vue";
 import { useItemsData } from "../composables/useItemsData";
-import { getPriceStr, getSourceName } from "../services/dataService";
+import { getPriceWithIcon, getSourceName } from "../services/dataService";
 import { processImageUrl } from "../utils/imageUtils";
 import MaterialItem from "./MaterialItem.vue";
 import ColorBlock from "./ColorBlock.vue";
@@ -209,13 +209,18 @@ const handleOverlayClick = (e: MouseEvent) => {
                   <div class="info-item">
                     <label>购买价格:</label>
                     <span class="price">
-                      💰 {{ itemModel.buyPriceStrs.join(",") || "不可购买" }}
+                      <template v-if="itemModel.buyPrices.length > 0">
+                        <span v-for="(priceStr, index) in itemModel.buyPriceStrs" :key="index">
+                          <span v-html="priceStr"></span><template v-if="index < itemModel.buyPriceStrs.length - 1">, </template>
+                        </span>
+                      </template>
+                      <template v-else>不可购买</template>
                     </span>
                   </div>
 
                   <div class="info-item">
                     <label>出售价格:</label>
-                    <span class="price"> 💵 {{ itemModel.sellPriceStr }} </span>
+                    <span class="price" v-html="itemModel.sellPriceStr"></span>
                   </div>
                 </div>
 
@@ -260,8 +265,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                     </div>
                     <div v-if="cyrusPrice" class="info-item">
                       <label>Cyrus定制价格:</label>
-                      <span class="price"
-                        >💰 {{ getPriceStr(cyrusPrice) }}
+                      <span class="price" v-html="getPriceWithIcon(cyrusPrice)">
                       </span>
                     </div>
                   </div>
@@ -386,9 +390,8 @@ const handleOverlayClick = (e: MouseEvent) => {
                       </div>
                       <div v-if="recipe.sell" class="recipe-info-item">
                         <label>出售价格:</label>
-                        <span class="price"
-                          >💵 {{ getPriceStr(recipe.sell) }}</span
-                        >
+                        <span class="price" v-html="getPriceWithIcon(recipe.sell)">
+                        </span>
                       </div>
                       <div v-if="recipe.ver" class="recipe-info-item">
                         <label>添加版本:</label>
