@@ -333,7 +333,7 @@ export class ItemModel {
   set variantIndex(index: number) {
     if (index >= 0 && index < this.variantCount) {
       this._state.currentVariantIndex = index;
-      this._state.currentPatternIndex = 0; // 切换变体时重置图案
+      this.patternIndex = this.patternIndex;
     }
   }
 
@@ -349,6 +349,8 @@ export class ItemModel {
       index < currentVariant.patterns.length
     ) {
       this._state.currentPatternIndex = index;
+    } else {
+      this._state.currentPatternIndex = 0;
     }
   }
 
