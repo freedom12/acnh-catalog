@@ -60,6 +60,11 @@ const routes: RouteRecordRaw[] = [
         name: 'MessageCards',
         component: () => import('../views/MessageCardView.vue'),
       },
+      {
+        path: 'patterns',
+        name: 'Misc',
+        component: () => import('../views/MiscView.vue'),
+      },
     ],
   },
 ];

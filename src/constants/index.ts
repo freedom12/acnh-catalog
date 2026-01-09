@@ -34,6 +34,7 @@ export const ENTITY_ICONS = {
   MESSAGE_CARDS: '💌',
   ARTWORKS: '🎨',
   FOSSILS: '🦕',
+  MISC: '📦',
   // 生物类型
   INSECTS: '🦋',
   FISH: '🐟',

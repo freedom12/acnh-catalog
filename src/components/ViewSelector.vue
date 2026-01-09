@@ -21,6 +21,7 @@ const views: ViewItem[] = [
   { path: '/recipes', label: 'DIY配方', icon: ENTITY_ICONS.RECIPES },
   { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTION },
   { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
+  { path: '/patterns', label: '杂项', icon: ENTITY_ICONS.MISC },
 ];
 
 const isActive = (path: string) => {
