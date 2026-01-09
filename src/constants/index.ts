@@ -33,6 +33,7 @@ export const ENTITY_ICONS = {
   CONSTRUCTION: '🏗️',
   MESSAGE_CARDS: '💌',
   ARTWORKS: '🎨',
+  MUSICS: '🎵',
   FOSSILS: '🦕',
   MISC: '📦',
   // 生物类型

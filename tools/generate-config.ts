@@ -38,6 +38,7 @@ import {
 import { RecipeType } from '../src/types/recipe';
 import { CreatureType, type Creature as NewCreature } from '../src/types/creature';
 import type { MessageCard } from '../src/types/messagecard';
+import type { Music } from '../src/types/music';
 import { ActivityType, type Activity } from '../src/types/activity';
 import type { CusCost } from '../src/services/dataService';
 
@@ -345,6 +346,7 @@ let newItems: NewItem[] = [];
 let newItemIdMap = new Map<number, NewItem>();
 let newItemNameMap = new Map<string, NewItem>();
 let messageCards: MessageCard[] = [];
+let musics: Music[] = [];
 let fakeArtworks = new Map<string, OldItem>();
 let realArtworks = new Map<string, OldItem>();
 let fossilGroups = new Map<string, OldItem[]>();
@@ -355,7 +357,7 @@ for (const oldItem of oldItems) {
       name: oldItem.translations?.cNzh || oldItem.name,
       rawName: oldItem.name,
       image: processImageUrl(oldItem.image || ''),
-      ver: versionAddedMap[oldItem.version!] || Version.The200,
+      ver: versionAddedMap[oldItem.version!] || Version.The100,
       buy: oldItem.buy ?? undefined,
       backColor: oldItem.backColor || undefined,
       bodyColor: oldItem.bodyColor!,
@@ -396,9 +398,30 @@ for (const oldItem of oldItems) {
       }
       fossilGroups.get(groupName)!.push(oldItem);
     }
+
+    if (oldItem.sourceSheet === OldItemSourceSheet.Music) {
+      const music: Music = {
+        id: oldItem.internalId || 0,
+        order: oldItem.internalId || 0,
+        name: oldItem.translations?.cNzh || oldItem.name,
+        rawName: oldItem.name,
+        image: processImageUrl(
+          oldItem.albumImage || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
+        ),
+        ver: versionAddedMap[oldItem.versionAdded!] || Version.The100,
+        hasRadio: oldItem.albumImage ? true : false,
+      };
+      musics.push(music);
+    }
   }
 }
 messageCards.sort((a, b) => a.id - b.id);
+// hasRadio排在前面
+musics.sort((a, b) => {
+  if (a.hasRadio && !b.hasRadio) return -1;
+  if (!a.hasRadio && b.hasRadio) return 1;
+  return a.order - b.order;
+});
 
 let newArtworks: NewArtwork[] = [];
 for (const [name, realArtwork] of realArtworks) {
@@ -865,6 +888,12 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.join(outputPath, 'acnh-activitys.json'),
   JSON.stringify(activitys.map(removeNullFields), null, 2),
+  'utf-8'
+);
+
+fs.writeFileSync(
+  path.join(outputPath, 'acnh-musics.json'),
+  JSON.stringify(musics.map(removeNullFields), null, 2),
   'utf-8'
 );
 

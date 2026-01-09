@@ -18,6 +18,7 @@ import { RecipeType, type Recipe } from '../types/recipe';
 
 import { ConstructionType, type Construction } from '../types/construction';
 import type { MessageCard } from '../types/messagecard';
+import type { Music } from '../types/music';
 import { BASE_PATH, CONFIG } from '../config';
 import { ItemType, Version, ItemSize, Color, Currency, KitType } from '../types/item';
 
@@ -627,6 +628,19 @@ export async function loadFossilsData(): Promise<Fossil[]> {
     return (await response.json()) as Fossil[];
   } catch (error) {
     console.error('加载化石数据失败:', error);
+    throw error;
+  }
+}
+
+export async function loadMusicData(): Promise<Music[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.MUSICS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return (await response.json()) as Music[];
+  } catch (error) {
+    console.error('加载音乐数据失败:', error);
     throw error;
   }
 }

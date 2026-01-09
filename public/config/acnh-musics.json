@@ -1,0 +1,992 @@
+[
+  {
+    "id": 2405,
+    "order": 2405,
+    "name": "K.K.赞美诗歌",
+    "rawName": "K.K. Chorale",
+    "image": "latest/Audio/mjk_Sanbika",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2406,
+    "order": 2406,
+    "name": "K.K.进行曲",
+    "rawName": "K.K. March",
+    "image": "latest/Audio/mjk_March",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2407,
+    "order": 2407,
+    "name": "K.K.圆舞曲",
+    "rawName": "K.K. Waltz",
+    "image": "latest/Audio/mjk_Waltz",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2408,
+    "order": 2408,
+    "name": "K.K.摇摆乐",
+    "rawName": "K.K. Swing",
+    "image": "latest/Audio/mjk_Swing",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2409,
+    "order": 2409,
+    "name": "K.K.爵士乐",
+    "rawName": "K.K. Jazz",
+    "image": "latest/Audio/mjk_Jazz",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2410,
+    "order": 2410,
+    "name": "K.K.融合爵士乐",
+    "rawName": "K.K. Fusion",
+    "image": "latest/Audio/mjk_Fusion",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2411,
+    "order": 2411,
+    "name": "K.K.练习曲",
+    "rawName": "K.K. Étude",
+    "image": "latest/Audio/mjk_Etude",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2412,
+    "order": 2412,
+    "name": "K.K.摇篮曲",
+    "rawName": "K.K. Lullaby",
+    "image": "latest/Audio/mjk_Lullaby",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2413,
+    "order": 2413,
+    "name": "K.K.咏叹调",
+    "rawName": "K.K. Aria",
+    "image": "latest/Audio/mjk_Maria",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2414,
+    "order": 2414,
+    "name": "K.K.桑巴",
+    "rawName": "K.K. Samba",
+    "image": "latest/Audio/mjk_Samba",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2415,
+    "order": 2415,
+    "name": "K.K.巴萨诺瓦",
+    "rawName": "K.K. Bossa",
+    "image": "latest/Audio/mjk_Bossa",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2416,
+    "order": 2416,
+    "name": "K.K.卡利普索",
+    "rawName": "K.K. Calypso",
+    "image": "latest/Audio/mjk_Caripso",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2417,
+    "order": 2417,
+    "name": "K.K.萨尔萨",
+    "rawName": "K.K. Salsa",
+    "image": "latest/Audio/mjk_Salsa",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2418,
+    "order": 2418,
+    "name": "K.K.曼波",
+    "rawName": "K.K. Mambo",
+    "image": "latest/Audio/mjk_Mambo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2419,
+    "order": 2419,
+    "name": "K.K.雷鬼",
+    "rawName": "K.K. Reggae",
+    "image": "latest/Audio/mjk_Reggae",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2420,
+    "order": 2420,
+    "name": "K.K.斯卡",
+    "rawName": "K.K. Ska",
+    "image": "latest/Audio/mjk_Ska",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2421,
+    "order": 2421,
+    "name": "K.K.探戈",
+    "rawName": "K.K. Tango",
+    "image": "latest/Audio/mjk_Tango",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2422,
+    "order": 2422,
+    "name": "冲绳K.K.",
+    "rawName": "K.K. Faire",
+    "image": "latest/Audio/mjk_Haisai",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2423,
+    "order": 2423,
+    "name": "夏威夷K.K.",
+    "rawName": "Aloha K.K.",
+    "image": "latest/Audio/mjk_Aloha",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2424,
+    "order": 2424,
+    "name": "爱尔兰乐曲",
+    "rawName": "Lucky K.K.",
+    "image": "latest/Audio/mjk_Irish",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2425,
+    "order": 2425,
+    "name": "秘鲁之歌",
+    "rawName": "K.K. Condor",
+    "image": "latest/Audio/mjk_Peru",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2426,
+    "order": 2426,
+    "name": "哥萨克乐曲",
+    "rawName": "K.K. Steppe",
+    "image": "latest/Audio/mjk_Cossack",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2427,
+    "order": 2427,
+    "name": "K.K.中华",
+    "rawName": "Imperial K.K.",
+    "image": "latest/Audio/mjk_China",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2428,
+    "order": 2428,
+    "name": "土耳其乐曲",
+    "rawName": "K.K. Casbah",
+    "image": "latest/Audio/mjk_Turkey",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2429,
+    "order": 2429,
+    "name": "K.K.非洲音乐",
+    "rawName": "K.K. Safari",
+    "image": "latest/Audio/mjk_Afro",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2430,
+    "order": 2430,
+    "name": "K.K.民谣",
+    "rawName": "K.K. Folk",
+    "image": "latest/Audio/mjk_Minyo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2431,
+    "order": 2431,
+    "name": "K.K.摇滚",
+    "rawName": "K.K. Rock",
+    "image": "latest/Audio/mjk_Rock",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2432,
+    "order": 2432,
+    "name": "K.K.50年代摇滚",
+    "rawName": "Rockin' K.K.",
+    "image": "latest/Audio/mjk_RocknRoll",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2433,
+    "order": 2433,
+    "name": "拉格泰姆音乐",
+    "rawName": "K.K. Ragtime",
+    "image": "latest/Audio/mjk_RagTime",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2434,
+    "order": 2434,
+    "name": "新奥尔良乐曲",
+    "rawName": "K.K. Gumbo",
+    "image": "latest/Audio/mjk_NewOrleans",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2435,
+    "order": 2435,
+    "name": "K.K.放克",
+    "rawName": "The K. Funk",
+    "image": "latest/Audio/mjk_Funk",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2436,
+    "order": 2436,
+    "name": "K.K.蓝调",
+    "rawName": "K.K. Blues",
+    "image": "latest/Audio/mjk_Blues",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2437,
+    "order": 2437,
+    "name": "K.K.心灵音乐",
+    "rawName": "Soulful K.K.",
+    "image": "latest/Audio/mjk_Gospel",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2438,
+    "order": 2438,
+    "name": "K.K.灵魂乐",
+    "rawName": "K.K. Soul",
+    "image": "latest/Audio/mjk_Soul",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2439,
+    "order": 2439,
+    "name": "都市K.K.",
+    "rawName": "K.K. Cruisin'",
+    "image": "latest/Audio/mjk_Urban",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2440,
+    "order": 2440,
+    "name": "K.K.情歌",
+    "rawName": "K.K. Love Song",
+    "image": "latest/Audio/mjk_LoveSong",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2441,
+    "order": 2441,
+    "name": "鼓打贝斯",
+    "rawName": "K.K. D&B",
+    "image": "latest/Audio/mjk_Drumnbass",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2442,
+    "order": 2442,
+    "name": "电音节奏",
+    "rawName": "K.K. Technopop",
+    "image": "latest/Audio/mjk_TechnoBeat",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2443,
+    "order": 2443,
+    "name": "欧陆节拍",
+    "rawName": "DJ K.K.",
+    "image": "latest/Audio/mjk_EuroBeat",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2444,
+    "order": 2444,
+    "name": "只有我",
+    "rawName": "Only Me",
+    "image": "latest/Audio/mjk_OnlyMe",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2445,
+    "order": 2445,
+    "name": "K.K.乡村",
+    "rawName": "K.K. Country",
+    "image": "latest/Audio/mjk_Country",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2446,
+    "order": 2446,
+    "name": "电吉他乐曲",
+    "rawName": "Surfin' K.K.",
+    "image": "latest/Audio/mjk_Eleki",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2447,
+    "order": 2447,
+    "name": "K.K.叙事歌谣",
+    "rawName": "K.K. Ballad",
+    "image": "latest/Audio/mjk_Ballad",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2448,
+    "order": 2448,
+    "name": "昭和K.K.歌谣",
+    "rawName": "Comrade K.K.",
+    "image": "latest/Audio/mjk_ShowaKayo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2449,
+    "order": 2449,
+    "name": "K.K.演歌",
+    "rawName": "K.K. Lament",
+    "image": "latest/Audio/mjk_Enka",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2450,
+    "order": 2450,
+    "name": "冲吧！K.K.摩托车手",
+    "rawName": "Go K.K. Rider",
+    "image": "latest/Audio/mjk_KekeRider",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2451,
+    "order": 2451,
+    "name": "惊悚歌",
+    "rawName": "K.K. Dirge",
+    "image": "latest/Audio/mjk_KowaiUta",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2452,
+    "order": 2452,
+    "name": "K.K.西部",
+    "rawName": "K.K. Western",
+    "image": "latest/Audio/mjk_Western",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2453,
+    "order": 2453,
+    "name": "K.K.老师",
+    "rawName": "Mr. K.K.",
+    "image": "latest/Audio/mjk_Sensei",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2454,
+    "order": 2454,
+    "name": "K.K.巴黎",
+    "rawName": "Café K.K.",
+    "image": "latest/Audio/mjk_Paris",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2455,
+    "order": 2455,
+    "name": "K.K.嘉年华",
+    "rawName": "K.K. Parade",
+    "image": "latest/Audio/mjk_Parade",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2456,
+    "order": 2456,
+    "name": "墨西哥绅士K.K.",
+    "rawName": "K.K. Mariachi",
+    "image": "latest/Audio/mjk_Senor",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2457,
+    "order": 2457,
+    "name": "K.K.乐曲",
+    "rawName": "K.K. Song",
+    "image": "latest/Audio/mjk_KekeSong",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2458,
+    "order": 2458,
+    "name": "我爱你",
+    "rawName": "I Love You",
+    "image": "latest/Audio/mjk_Daisuki",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2459,
+    "order": 2459,
+    "name": "前天",
+    "rawName": "Two Days Ago",
+    "image": "latest/Audio/mjk_Ototoi",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2460,
+    "order": 2460,
+    "name": "我的归所",
+    "rawName": "My Place",
+    "image": "latest/Audio/mjk_BokuNoBasho",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2461,
+    "order": 2461,
+    "name": "森林生活",
+    "rawName": "Forest Life",
+    "image": "latest/Audio/mjk_MoriNoSeikatsu",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2462,
+    "order": 2462,
+    "name": "漫弥",
+    "rawName": "To the Edge",
+    "image": "latest/Audio/mjk_NamiNami",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2463,
+    "order": 2463,
+    "name": "思考中",
+    "rawName": "Pondering",
+    "image": "latest/Audio/mjk_KangaeChu",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2464,
+    "order": 2464,
+    "name": "K.K.迪克西",
+    "rawName": "K.K. Dixie",
+    "image": "latest/Audio/mjk_Dixie",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2465,
+    "order": 2465,
+    "name": "K.K.甘美朗",
+    "rawName": "K.K. Marathon",
+    "image": "latest/Audio/mjk_Gamelan",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2466,
+    "order": 2466,
+    "name": "K.K.领主",
+    "rawName": "King K.K.",
+    "image": "latest/Audio/mjk_Daimyo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2467,
+    "order": 2467,
+    "name": "阿尔卑斯山乐曲",
+    "rawName": "Mountain Song",
+    "image": "latest/Audio/mjk_Alpine",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2468,
+    "order": 2468,
+    "name": "船歌2001",
+    "rawName": "Marine Song 2001",
+    "image": "latest/Audio/mjk_HunaUta2001",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2469,
+    "order": 2469,
+    "name": "意大利面",
+    "rawName": "Neapolitan",
+    "image": "latest/Audio/mjk_Napolitan",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2470,
+    "order": 2470,
+    "name": "二段斜坡",
+    "rawName": "Steep Hill",
+    "image": "latest/Audio/mjk_NiDanZaka",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2471,
+    "order": 2471,
+    "name": "K.K.乡村摇滚",
+    "rawName": "K.K. Rockabilly",
+    "image": "latest/Audio/mjk_KekeBilly",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2472,
+    "order": 2472,
+    "name": "K.K.刑警",
+    "rawName": "Agent K.K.",
+    "image": "latest/Audio/mjk_Keiji",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2473,
+    "order": 2473,
+    "name": "K.K.大和祭典",
+    "rawName": "K.K. Rally",
+    "image": "latest/Audio/mjk_Ondo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2474,
+    "order": 2474,
+    "name": "K.K.金属摇滚",
+    "rawName": "K.K. Metal",
+    "image": "latest/Audio/mjk_Metal",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2475,
+    "order": 2475,
+    "name": "蓝色饭团",
+    "rawName": "Stale Cupcakes",
+    "image": "latest/Audio/mjk_BlueOnigiri",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2476,
+    "order": 2476,
+    "name": "春暖花开",
+    "rawName": "Spring Blossoms",
+    "image": "latest/Audio/mjk_HaruNoKomorebi",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2477,
+    "order": 2477,
+    "name": "流浪",
+    "rawName": "Wandering",
+    "image": "latest/Audio/mjk_Horo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2478,
+    "order": 2478,
+    "name": "K.K.浩室",
+    "rawName": "K.K. House",
+    "image": "latest/Audio/mjk_House",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2479,
+    "order": 2479,
+    "name": "K.K.奏鸣曲",
+    "rawName": "K.K. Sonata",
+    "image": "latest/Audio/mjk_Sonata",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2480,
+    "order": 2480,
+    "name": "白日梦",
+    "rawName": "Hypno K.K.",
+    "image": "latest/Audio/mjk_UtataneNoYume",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2481,
+    "order": 2481,
+    "name": "散散步",
+    "rawName": "K.K. Stroll",
+    "image": "latest/Audio/mjk_Osanpo",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2482,
+    "order": 2482,
+    "name": "动物岛",
+    "rawName": "K.K. Island",
+    "image": "latest/Audio/mjk_DoubutsuNoShima",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2483,
+    "order": 2483,
+    "name": "极简音乐",
+    "rawName": "Space K.K.",
+    "image": "latest/Audio/mjk_Minimal",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2484,
+    "order": 2484,
+    "name": "K.K.好莱坞",
+    "rawName": "K.K. Adventure",
+    "image": "latest/Audio/mjk_Hollywood",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2485,
+    "order": 2485,
+    "name": "K.K.印度王公",
+    "rawName": "K.K. Oasis",
+    "image": "latest/Audio/mjk_Maharaja",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2486,
+    "order": 2486,
+    "name": "K.K.吉普赛",
+    "rawName": "K.K. Bazaar",
+    "image": "latest/Audio/mjk_Roma",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2487,
+    "order": 2487,
+    "name": "K.K.米隆加",
+    "rawName": "K.K. Milonga",
+    "image": "latest/Audio/mjk_Milonga",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2488,
+    "order": 2488,
+    "name": "K.K.律动",
+    "rawName": "K.K. Groove",
+    "image": "latest/Audio/mjk_Raregroove",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2489,
+    "order": 2489,
+    "name": "K.K.三味线",
+    "rawName": "K.K. Jongara",
+    "image": "latest/Audio/mjk_Jongara",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2490,
+    "order": 2490,
+    "name": "K.K.佛朗明哥",
+    "rawName": "K.K. Flamenco",
+    "image": "latest/Audio/mjk_Flamenco",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2491,
+    "order": 2491,
+    "name": "K.K.波蕾洛",
+    "rawName": "K.K. Moody",
+    "image": "latest/Audio/mjk_Bolero",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2492,
+    "order": 2492,
+    "name": "K.K.偶像",
+    "rawName": "Bubblegum K.K.",
+    "image": "latest/Audio/mjk_Idol",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2493,
+    "order": 2493,
+    "name": "K.K.电子民谣",
+    "rawName": "K.K. Synth",
+    "image": "latest/Audio/mjk_Electronica",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2494,
+    "order": 2494,
+    "name": "K.K.迪斯科",
+    "rawName": "K.K. Disco",
+    "image": "latest/Audio/mjk_Disco",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 2495,
+    "order": 2495,
+    "name": "你的生日",
+    "rawName": "K.K. Birthday",
+    "image": "latest/Audio/mjk_BirthdaySong",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 4312,
+    "order": 4312,
+    "name": "动物城镇",
+    "rawName": "Animal City",
+    "image": "latest/Audio/mjk_DoubutuNoMachi",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 4313,
+    "order": 4313,
+    "name": "再会",
+    "rawName": "Farewell",
+    "image": "latest/Audio/mjk_Sayonara",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 4314,
+    "order": 4314,
+    "name": "兜风",
+    "rawName": "Drivin'",
+    "image": "latest/Audio/mjk_Drive",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 4318,
+    "order": 4318,
+    "name": "大家集合吧",
+    "rawName": "Welcome Horizons",
+    "image": "latest/Audio/mjk_MainTheme",
+    "ver": 1,
+    "hasRadio": true
+  },
+  {
+    "id": 7657,
+    "order": 7657,
+    "name": "K.K.赋格曲",
+    "rawName": "K.K. Fugue",
+    "image": "latest/Audio/mjk_Fugue",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7658,
+    "order": 7658,
+    "name": "K.K.波尔卡舞曲",
+    "rawName": "K.K. Polka",
+    "image": "latest/Audio/mjk_Polka",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7659,
+    "order": 7659,
+    "name": "K.K.Slack-Key吉他",
+    "rawName": "K.K. Slack-Key",
+    "image": "latest/Audio/mjk_Slackkey",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7660,
+    "order": 7660,
+    "name": "K.K.咻乐",
+    "rawName": "K.K. Chorinho",
+    "image": "latest/Audio/mjk_Choro",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7661,
+    "order": 7661,
+    "name": "冷波",
+    "rawName": "Chillwave",
+    "image": "latest/Audio/mjk_Chillwave",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7662,
+    "order": 7662,
+    "name": "K.K.混搭音乐",
+    "rawName": "K.K. Dub",
+    "image": "latest/Audio/mjk_Dub",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7663,
+    "order": 7663,
+    "name": "K.K.爱人们",
+    "rawName": "K.K. Lovers",
+    "image": "latest/Audio/mjk_Lovers",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7664,
+    "order": 7664,
+    "name": "K.K.舞场雷鬼",
+    "rawName": "K.K. Bashment",
+    "image": "latest/Audio/mjk_Bashment",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7665,
+    "order": 7665,
+    "name": "K.K.嘻哈",
+    "rawName": "K.K. Hop",
+    "image": "latest/Audio/mjk_Hiphop",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7666,
+    "order": 7666,
+    "name": "K.K.地板舞",
+    "rawName": "K.K. Break",
+    "image": "latest/Audio/mjk_Break",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7667,
+    "order": 7667,
+    "name": "K.K.喉音",
+    "rawName": "K.K. Khoomei",
+    "image": "latest/Audio/mjk_Khoomii",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 7668,
+    "order": 7668,
+    "name": "K.K.电子合成音",
+    "rawName": "K.K. Robot Synth",
+    "image": "latest/Audio/mjk_Android",
+    "ver": 13,
+    "hasRadio": true
+  },
+  {
+    "id": 4315,
+    "order": 4315,
+    "name": "はずれ01",
+    "rawName": "Hazure01",
+    "image": "latest/NpcBromide/NpcSpTkkA",
+    "ver": 1,
+    "hasRadio": false
+  },
+  {
+    "id": 4316,
+    "order": 4316,
+    "name": "はずれ02",
+    "rawName": "Hazure02",
+    "image": "latest/NpcBromide/NpcSpTkkA",
+    "ver": 1,
+    "hasRadio": false
+  },
+  {
+    "id": 4317,
+    "order": 4317,
+    "name": "はずれ03",
+    "rawName": "Hazure03",
+    "image": "latest/NpcBromide/NpcSpTkkA",
+    "ver": 1,
+    "hasRadio": false
+  }
+]

@@ -17,6 +17,7 @@ const views: ViewItem[] = [
   { path: '/creatures', label: '生物', icon: ENTITY_ICONS.CREATURES },
   { path: '/fossils', label: '化石', icon: ENTITY_ICONS.FOSSILS },
   { path: '/artworks', label: '艺术品', icon: ENTITY_ICONS.ARTWORKS },
+  { path: '/music', label: '音乐', icon: ENTITY_ICONS.MUSICS },
   { path: '/reactions', label: '表情', icon: ENTITY_ICONS.REACTIONS },
   { path: '/recipes', label: 'DIY配方', icon: ENTITY_ICONS.RECIPES },
   { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTION },
