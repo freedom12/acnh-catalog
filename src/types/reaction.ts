@@ -1,4 +1,4 @@
-import type { Version } from "./item";
+import type { Version } from './item';
 
 /**
  * 表情反应数据类型

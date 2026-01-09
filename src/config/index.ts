@@ -1,4 +1,4 @@
-import { Color } from "../types";
+import { Color } from '../types';
 
 /**
  * 应用配置常量
@@ -29,33 +29,33 @@ export const CONFIG = {
    */
   PAGINATION: {
     DEFAULT_PER_PAGE: 100,
-    OPTIONS: [20, 40, 60, 100, "all"] as const,
+    OPTIONS: [20, 40, 60, 100, 'all'] as const,
   },
 
   /**
    * 排序选项
    */
   SORT_OPTIONS: {
-    NAME_ASC: "name-asc",
-    NAME_DESC: "name-desc",
-    ID_ASC: "id-asc",
-    ID_DESC: "id-desc",
+    NAME_ASC: 'name-asc',
+    NAME_DESC: 'name-desc',
+    ID_ASC: 'id-asc',
+    ID_DESC: 'id-desc',
   } as const,
 } as const;
 
 export const COLOR_MAP: Record<Color, string> = {
-  [Color.Red]: "#e74c3c",
-  [Color.Orange]: "#e67e22",
-  [Color.Yellow]: "#f1c40f",
-  [Color.Green]: "#27ae60",
-  [Color.Blue]: "#3498db",
-  [Color.Aqua]: "#1abc9c",
-  [Color.Purple]: "#9b59b6",
-  [Color.Pink]: "#ff69b4",
-  [Color.White]: "#ecf0f1",
-  [Color.Black]: "#2c3e50",
-  [Color.Gray]: "#95a5a6",
-  [Color.Brown]: "#8b6f47",
-  [Color.Beige]: "#d4c5b9",
-  [Color.Colorful]: "#000000",
+  [Color.Red]: '#e74c3c',
+  [Color.Orange]: '#e67e22',
+  [Color.Yellow]: '#f1c40f',
+  [Color.Green]: '#27ae60',
+  [Color.Blue]: '#3498db',
+  [Color.Aqua]: '#1abc9c',
+  [Color.Purple]: '#9b59b6',
+  [Color.Pink]: '#ff69b4',
+  [Color.White]: '#ecf0f1',
+  [Color.Black]: '#2c3e50',
+  [Color.Gray]: '#95a5a6',
+  [Color.Brown]: '#8b6f47',
+  [Color.Beige]: '#d4c5b9',
+  [Color.Colorful]: '#000000',
 } as const;

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import { UI_TEXT } from "../constants";
-import type { Fossil } from "../types/fossil";
-import BaseCard from "./BaseCard.vue";
-import { getPriceWithIcon } from "../services/dataService";
+import { ref, computed } from 'vue';
+import { UI_TEXT } from '../constants';
+import type { Fossil } from '../types/fossil';
+import BaseCard from './BaseCard.vue';
+import { getPriceWithIcon } from '../services/dataService';
 
 const props = defineProps<{
   data: Fossil;
@@ -20,7 +20,7 @@ const handleImageIndexChanged = (index: number) => {
 };
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/Fossils`, "_blank");
+  window.open(`https://nookipedia.com/wiki/Fossils`, '_blank');
 };
 </script>
 
@@ -55,5 +55,5 @@ const handleClick = () => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/card-styles";
+@use '../styles/card-styles';
 </style>

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { computed, onMounted } from "vue";
-import { useItemsData } from "../composables/useItemsData";
-import { getPriceWithIcon, getSourceName } from "../services/dataService";
-import { processImageUrl } from "../utils/imageUtils";
-import MaterialItem from "./MaterialItem.vue";
-import ColorBlock from "./ColorBlock.vue";
-import type { Color } from "../types";
-import { joinArray } from "../utils";
+import { computed, onMounted } from 'vue';
+import { useItemsData } from '../composables/useItemsData';
+import { getPriceWithIcon, getSourceName } from '../services/dataService';
+import { processImageUrl } from '../utils/imageUtils';
+import MaterialItem from './MaterialItem.vue';
+import ColorBlock from './ColorBlock.vue';
+import type { Color } from '../types';
+import { joinArray } from '../utils';
 
 const props = defineProps<{
   itemId: number | null;
@@ -18,9 +18,7 @@ const emit = defineEmits<{
 
 const { itemIdMap, loading, error, loadData } = useItemsData();
 
-const itemModel = computed(() =>
-  props.itemId ? itemIdMap.value[props.itemId] : null
-);
+const itemModel = computed(() => (props.itemId ? itemIdMap.value[props.itemId] : null));
 
 const isDIY = computed(() => false);
 const isCustomizable = computed(() => false);
@@ -34,12 +32,10 @@ const recipe = computed(() => itemModel.value?.recipe);
 const recipeImageUrl = computed(() => {
   return recipe.value?.images && recipe.value.images[0]
     ? processImageUrl(recipe.value.images[0])
-    : "";
+    : '';
 });
 const hasMaterials = computed(() => {
-  return (
-    recipe.value?.materials && Object.keys(recipe.value.materials).length > 0
-  );
+  return recipe.value?.materials && Object.keys(recipe.value.materials).length > 0;
 });
 
 // 获取原始数据中的更多信息
@@ -89,7 +85,7 @@ const isOwned = computed(() => itemModel.value?.owned || false);
 
 // 返回首页
 const closeModal = () => {
-  emit("close");
+  emit('close');
 };
 
 // 跳转到Nookipedia页面
@@ -97,11 +93,8 @@ const goToNookipedia = () => {
   if (itemModel.value?.name) {
     const itemName = itemModel.value.rawName;
     // 将空格替换为下划线,构建Nookipedia URL格式：Item:ItemName_(New_Horizons)
-    const urlName = itemName.replace(/ /g, "_");
-    window.open(
-      `https://nookipedia.com/wiki/Item:${urlName}_(New_Horizons)`,
-      "_blank"
-    );
+    const urlName = itemName.replace(/ /g, '_');
+    window.open(`https://nookipedia.com/wiki/Item:${urlName}_(New_Horizons)`, '_blank');
   }
 };
 
@@ -135,17 +128,11 @@ const handleOverlayClick = (e: MouseEvent) => {
                   @click="goToNookipedia"
                   title="点击查看Nookipedia页面"
                 >
-                  <img
-                    :src="itemModel.image"
-                    :alt="itemModel.name"
-                    loading="lazy"
-                  />
+                  <img :src="itemModel.image" :alt="itemModel.name" loading="lazy" />
                 </div>
                 <div class="owned-badge" :class="{ owned: isOwned }">
-                  <span class="owned-icon">{{ isOwned ? "✓" : "✗" }}</span>
-                  <span class="owned-text">{{
-                    isOwned ? "已拥有" : "未拥有"
-                  }}</span>
+                  <span class="owned-icon">{{ isOwned ? '✓' : '✗' }}</span>
+                  <span class="owned-text">{{ isOwned ? '已拥有' : '未拥有' }}</span>
                 </div>
               </div>
 
@@ -188,10 +175,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                     </div>
                   </div>
 
-                  <div
-                    v-if="itemModel.sources.length > 0"
-                    class="info-item full-width"
-                  >
+                  <div v-if="itemModel.sources.length > 0" class="info-item full-width">
                     <label>来源:</label>
                     <span>📍 {{ joinArray(itemModel.sourceNames) }}</span>
                   </div>
@@ -210,8 +194,14 @@ const handleOverlayClick = (e: MouseEvent) => {
                     <label>购买价格:</label>
                     <span class="price">
                       <template v-if="itemModel.buyPrices.length > 0">
-                        <span v-for="(priceStr, index) in itemModel.buyPriceStrs" :key="index">
-                          <span v-html="priceStr"></span><template v-if="index < itemModel.buyPriceStrs.length - 1">, </template>
+                        <span
+                          v-for="(priceStr, index) in itemModel.buyPriceStrs"
+                          :key="index"
+                        >
+                          <span v-html="priceStr"></span
+                          ><template v-if="index < itemModel.buyPriceStrs.length - 1"
+                            >,
+                          </template>
                         </span>
                       </template>
                       <template v-else>不可购买</template>
@@ -237,21 +227,15 @@ const handleOverlayClick = (e: MouseEvent) => {
                 >
                   <h3>功能特性</h3>
                   <div class="features-grid">
-                    <div v-if="isDIY" class="feature-badge diy">
-                      🔨 可DIY制作
-                    </div>
+                    <div v-if="isDIY" class="feature-badge diy">🔨 可DIY制作</div>
                     <div v-if="isCustomizable" class="feature-badge customize">
                       🎨 可定制
                     </div>
-                    <div v-if="isOutdoor" class="feature-badge outdoor">
-                      🌳 户外物品
-                    </div>
+                    <div v-if="isOutdoor" class="feature-badge outdoor">🌳 户外物品</div>
                     <div v-if="isInteractive" class="feature-badge interactive">
                       ✨ 可交互
                     </div>
-                    <div v-if="surface" class="feature-badge surface">
-                      📦 可放置物品
-                    </div>
+                    <div v-if="surface" class="feature-badge surface">📦 可放置物品</div>
                   </div>
                 </div>
 
@@ -265,8 +249,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                     </div>
                     <div v-if="cyrusPrice" class="info-item">
                       <label>Cyrus定制价格:</label>
-                      <span class="price" v-html="getPriceWithIcon(cyrusPrice)">
-                      </span>
+                      <span class="price" v-html="getPriceWithIcon(cyrusPrice)"> </span>
                     </div>
                   </div>
                 </div>
@@ -324,16 +307,10 @@ const handleOverlayClick = (e: MouseEvent) => {
                 </div>
 
                 <!-- 概念和套装 -->
-                <div
-                  v-if="concepts.length > 0 || setName"
-                  class="concepts-section"
-                >
+                <div v-if="concepts.length > 0 || setName" class="concepts-section">
                   <h3>主题与套装</h3>
                   <div class="info-grid">
-                    <div
-                      v-if="concepts.length > 0"
-                      class="info-item full-width"
-                    >
+                    <div v-if="concepts.length > 0" class="info-item full-width">
                       <label>主题概念:</label>
                       <div class="concepts-list">
                         <span
@@ -361,11 +338,7 @@ const handleOverlayClick = (e: MouseEvent) => {
               <div class="recipe-content">
                 <div class="recipe-header">
                   <div v-if="recipeImageUrl" class="recipe-image">
-                    <img
-                      :src="recipeImageUrl"
-                      :alt="recipe.name"
-                      loading="lazy"
-                    />
+                    <img :src="recipeImageUrl" :alt="recipe.name" loading="lazy" />
                   </div>
                   <div class="recipe-basic-info">
                     <h4>{{ recipe.name }}</h4>
@@ -378,9 +351,7 @@ const handleOverlayClick = (e: MouseEvent) => {
                         <span
                           >📍
                           {{
-                            recipe.source
-                              .map((s) => getSourceName(s))
-                              .join(", ")
+                            recipe.source.map((s) => getSourceName(s)).join(', ')
                           }}</span
                         >
                       </div>
@@ -463,7 +434,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 
 /* 模态框动画 */
 .modal-enter-active,
@@ -619,7 +590,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .main-image::after {
-  content: "🔗 查看详情";
+  content: '🔗 查看详情';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -664,18 +635,13 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .owned-badge::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgb(255, 255, 255, 0.3),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, rgb(255, 255, 255, 0.3), transparent);
   transition: left 0.5s;
 }
 

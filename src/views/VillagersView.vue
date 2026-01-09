@@ -1,47 +1,47 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { useVillagersData } from "../composables/useVillagersData";
-import { useFilter } from "../composables/useFilter";
-import DataView from "../components/DataView.vue";
-import VillagerCard from "../components/VillagerCard.vue";
-import FilterSection from "../components/FilterSection.vue";
-import { Gender, Hobby, Personality, Species } from "../types/villager";
+import { computed } from 'vue';
+import { useVillagersData } from '../composables/useVillagersData';
+import { useFilter } from '../composables/useFilter';
+import DataView from '../components/DataView.vue';
+import VillagerCard from '../components/VillagerCard.vue';
+import FilterSection from '../components/FilterSection.vue';
+import { Gender, Hobby, Personality, Species } from '../types/villager';
 import {
   getGenderName,
   getHobbyName,
   getPersonalityName,
   getSpeciesName,
-} from "../services/dataService";
+} from '../services/dataService';
 
 const { allVillagers, loading, error, loadData } = useVillagersData();
 const filters = computed(() => [
   {
-    label: "种族",
-    value: "species",
+    label: '种族',
+    value: 'species',
     options: Object.values(Species).map((species) => ({
       value: species,
       label: getSpeciesName(species),
     })),
   },
   {
-    label: "性别",
-    value: "gender",
+    label: '性别',
+    value: 'gender',
     options: Object.values(Gender).map((gender) => ({
       value: gender,
       label: getGenderName(gender),
     })),
   },
   {
-    label: "性格",
-    value: "personality",
+    label: '性格',
+    value: 'personality',
     options: Object.values(Personality).map((personality) => ({
       value: personality,
       label: getPersonalityName(personality),
     })),
   },
   {
-    label: "爱好",
-    value: "hobby",
+    label: '爱好',
+    value: 'hobby',
     options: Object.values(Hobby).map((hobby) => ({
       value: hobby,
       label: getHobbyName(hobby),
@@ -52,11 +52,18 @@ const { filteredData, handleFiltersChanged } = useFilter(allVillagers);
 </script>
 
 <template>
-  <DataView :loading="loading" :error="error" :on-load="loadData" :datas="filteredData" :per-page="100" :card-component="VillagerCard">
+  <DataView
+    :loading="loading"
+    :error="error"
+    :on-load="loadData"
+    :datas="filteredData"
+    :per-page="100"
+    :card-component="VillagerCard"
+  >
     <template #filters>
-      <FilterSection 
-        :filters="filters" 
-        :total-count="allVillagers.length" 
+      <FilterSection
+        :filters="filters"
+        :total-count="allVillagers.length"
         :current-count="filteredData.length"
         @filters-changed="handleFiltersChanged"
       />

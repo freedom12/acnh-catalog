@@ -1,5 +1,5 @@
-import type { Price } from "../services/dataService";
-import type { Version } from "./item";
+import type { Price } from '../services/dataService';
+import type { Version } from './item';
 
 /**
  * DIY配方数据类型

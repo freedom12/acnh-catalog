@@ -18,7 +18,7 @@
 
   /* 对号图标 */
   &--with-checkmark::before {
-    content: "✓";
+    content: '✓';
     position: absolute;
     top: var(--spacing-sm);
     left: var(--spacing-sm);
@@ -43,11 +43,7 @@
     border: 5px solid #fff;
 
     .card-image-wrapper {
-      background: linear-gradient(
-        135deg,
-        var(--base-color) 0%,
-        var(--main-color) 500%
-      );
+      background: linear-gradient(135deg, var(--base-color) 0%, var(--main-color) 500%);
     }
   }
 
@@ -115,7 +111,7 @@
     overflow: hidden;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       top: -50%;
       left: -50%;
@@ -135,7 +131,9 @@
 
 /* ==================== DIY背景样式 ==================== */
 .recipe-bg {
-  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5)), url("@/assets/img/diy_bg.png");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)),
+    url('@/assets/img/diy_bg.png');
   background-size: 100%;
   background-position: top;
   background-repeat: repeat;

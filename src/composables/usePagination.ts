@@ -3,7 +3,9 @@ import { ref, computed, type Ref } from 'vue';
 export function usePagination<T>(datas: Ref<T[]>, perPageCount: Ref<number> = ref(100)) {
   const currentPage = ref(1);
 
-  const totalPageCount = computed(() => Math.ceil(datas.value.length / perPageCount.value));
+  const totalPageCount = computed(() =>
+    Math.ceil(datas.value.length / perPageCount.value)
+  );
 
   const displayDatas = computed(() => {
     const start = (currentPage.value - 1) * perPageCount.value;
@@ -20,6 +22,6 @@ export function usePagination<T>(datas: Ref<T[]>, perPageCount: Ref<number> = re
     currentPage,
     totalPageCount,
     displayDatas,
-    handlePageChange
+    handlePageChange,
   };
 }

@@ -1,28 +1,32 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed } from 'vue';
 
 const props = defineProps<{
   currentPage: number;
   totalPages: number;
-  perPage: number | "all";
+  perPage: number | 'all';
   datasCount: number;
 }>();
 
 const emit = defineEmits<{
-  (e: "page-change", page: number): void;
+  (e: 'page-change', page: number): void;
 }>();
 
 const showPagination = computed(() => {
   return (
-    props.perPage !== "all" &&
-    props.datasCount > (typeof props.perPage === "number" ? props.perPage : 0)
+    props.perPage !== 'all' &&
+    props.datasCount > (typeof props.perPage === 'number' ? props.perPage : 0)
   );
 });
 </script>
 
 <template>
   <div v-if="showPagination" class="pagination">
-    <button class="action-btn primary" :disabled="currentPage === 1" @click="emit('page-change', 1)">
+    <button
+      class="action-btn primary"
+      :disabled="currentPage === 1"
+      @click="emit('page-change', 1)"
+    >
       首页
     </button>
     <button
@@ -32,9 +36,7 @@ const showPagination = computed(() => {
     >
       上一页
     </button>
-    <span class="page-info"
-      >第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span
-    >
+    <span class="page-info">第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span>
     <button
       class="action-btn primary"
       :disabled="currentPage === totalPages"
@@ -53,7 +55,7 @@ const showPagination = computed(() => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 
 .pagination {
   display: flex;

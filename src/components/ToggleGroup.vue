@@ -13,11 +13,11 @@ interface Props {
 const props = defineProps<Props>();
 
 const emit = defineEmits<{
-  "update:modelValue": [value: string | number];
+  'update:modelValue': [value: string | number];
 }>();
 
 const handleSelect = (value: string | number) => {
-  emit("update:modelValue", value);
+  emit('update:modelValue', value);
 };
 </script>
 
@@ -37,5 +37,5 @@ const handleSelect = (value: string | number) => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 </style>

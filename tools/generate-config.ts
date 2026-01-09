@@ -1,12 +1,12 @@
 /**
  * 从 animal-crossing 包生成数据文件
  */
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from 'fs';
+import * as path from 'path';
 import {
   ItemSourceSheet as OldItemSourceSheet,
   type Item as OldItem,
-} from "animal-crossing/lib/types/Item";
+} from 'animal-crossing/lib/types/Item';
 import {
   items as oldItems,
   recipes as oldRecipes,
@@ -16,46 +16,37 @@ import {
   reactions as oldReactions,
   construction as oldConstructions,
   seasonsAndEvents as oldSeasonsAndEvents,
-} from "animal-crossing";
-import { KitType, type Item as NewItem, type Variant } from "../src/types/item";
-import {
-  ItemType,
-  Version,
-  ItemSize,
-  Color,
-  Currency,
-} from "../src/types/item";
-import type { Recipe as NewRecipe } from "../src/types/recipe";
+} from 'animal-crossing';
+import { KitType, type Item as NewItem, type Variant } from '../src/types/item';
+import { ItemType, Version, ItemSize, Color, Currency } from '../src/types/item';
+import type { Recipe as NewRecipe } from '../src/types/recipe';
 import {
   Gender,
   Hobby,
   Personality,
   Species,
   type Villager as NewVillager,
-} from "../src/types/villager";
-import type { NPC as NewNPC } from "../src/types/npc";
-import type { Reaction as NewReaction } from "../src/types/reaction";
-import type { Artwork as NewArtwork } from "../src/types/artwork";
-import type { Fossil as NewFossil } from "../src/types/fossil";
+} from '../src/types/villager';
+import type { NPC as NewNPC } from '../src/types/npc';
+import type { Reaction as NewReaction } from '../src/types/reaction';
+import type { Artwork as NewArtwork } from '../src/types/artwork';
+import type { Fossil as NewFossil } from '../src/types/fossil';
 import {
   ConstructionType,
   type Construction as NewConstruction,
-} from "../src/types/construction";
-import { RecipeType } from "../src/types/recipe";
-import {
-  CreatureType,
-  type Creature as NewCreature,
-} from "../src/types/creature";
-import type { MessageCard } from "../src/types/messagecard";
-import { ActivityType, type Activity } from "../src/types/activity";
-import type { CusCost } from "../src/services/dataService";
+} from '../src/types/construction';
+import { RecipeType } from '../src/types/recipe';
+import { CreatureType, type Creature as NewCreature } from '../src/types/creature';
+import type { MessageCard } from '../src/types/messagecard';
+import { ActivityType, type Activity } from '../src/types/activity';
+import type { CusCost } from '../src/services/dataService';
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
  */
 function removeNullFields(obj: any): any {
   if (obj === null || obj === undefined) return undefined;
-  if (typeof obj !== "object") return obj;
+  if (typeof obj !== 'object') return obj;
   if (Array.isArray(obj)) {
     return obj.map(removeNullFields).filter((item) => item !== undefined);
   }
@@ -72,20 +63,20 @@ function removeNullFields(obj: any): any {
 }
 
 function processImageUrl(imageUrl: string): string {
-  if (!imageUrl) return "";
-  const CDN_PREFIX = "https://acnhcdn.com/";
+  if (!imageUrl) return '';
+  const CDN_PREFIX = 'https://acnhcdn.com/';
   let url = imageUrl;
   if (url.startsWith(CDN_PREFIX)) {
     url = url.substring(CDN_PREFIX.length);
   }
-  if (url.endsWith(".png")) {
+  if (url.endsWith('.png')) {
     url = url.substring(0, url.length - 4);
   }
   return url;
 }
 
-const __dirname = path.join(process.cwd(), "tools");
-const outputPath = path.join(__dirname, "..", "public", "config");
+const __dirname = path.join(process.cwd(), 'tools');
+const outputPath = path.join(__dirname, '..', 'public', 'config');
 
 // 映射对象：字符串到数字枚举
 const sourceSheetMap: Record<string, ItemType> = {
@@ -93,9 +84,9 @@ const sourceSheetMap: Record<string, ItemType> = {
   Artwork: ItemType.Artwork,
   Bags: ItemType.Bags,
   Bottoms: ItemType.Bottoms,
-  "Ceiling Decor": ItemType.CeilingDecor,
-  "Clothing Other": ItemType.ClothingOther,
-  "Dress-Up": ItemType.DressUp,
+  'Ceiling Decor': ItemType.CeilingDecor,
+  'Clothing Other': ItemType.ClothingOther,
+  'Dress-Up': ItemType.DressUp,
   Fencing: ItemType.Fencing,
   Floors: ItemType.Floors,
   Fossils: ItemType.Fossils,
@@ -110,10 +101,10 @@ const sourceSheetMap: Record<string, ItemType> = {
   Rugs: ItemType.Rugs,
   Shoes: ItemType.Shoes,
   Socks: ItemType.Socks,
-  "Tools/Goods": ItemType.ToolsGoods,
+  'Tools/Goods': ItemType.ToolsGoods,
   Tops: ItemType.Tops,
   Umbrellas: ItemType.Umbrellas,
-  "Wall-mounted": ItemType.WallMounted,
+  'Wall-mounted': ItemType.WallMounted,
   Wallpaper: ItemType.Wallpaper,
   Creature: ItemType.Creature,
 };
@@ -121,8 +112,8 @@ const sourceSheetMap: Record<string, ItemType> = {
 const recipeCategoryMap: Record<string, RecipeType> = {
   Housewares: RecipeType.Housewares,
   Miscellaneous: RecipeType.Miscellaneous,
-  "Wall-mounted": RecipeType.WallMounted,
-  "Ceiling Decor": RecipeType.CeilingDecor,
+  'Wall-mounted': RecipeType.WallMounted,
+  'Ceiling Decor': RecipeType.CeilingDecor,
   Equipment: RecipeType.Equipment,
   Other: RecipeType.Other,
   Floors: RecipeType.Floors,
@@ -136,43 +127,43 @@ const recipeCategoryMap: Record<string, RecipeType> = {
 const creatureTypeMap: Record<string, CreatureType> = {
   Insects: CreatureType.Insects,
   Fish: CreatureType.Fish,
-  "Sea Creatures": CreatureType.SeaCreatures,
+  'Sea Creatures': CreatureType.SeaCreatures,
 };
 
 const versionAddedMap: Record<string, Version> = {
-  "1.0.0": Version.The100,
-  "1.1.0": Version.The110,
-  "1.10.0": Version.The1100,
-  "1.11.0": Version.The1110,
-  "1.2.0": Version.The120,
-  "1.3.0": Version.The130,
-  "1.4.0": Version.The140,
-  "1.5.0": Version.The150,
-  "1.6.0": Version.The160,
-  "1.7.0": Version.The170,
-  "1.8.0": Version.The180,
-  "1.9.0": Version.The190,
-  "2.0.0": Version.The200,
-  "2.0.4": Version.The204,
+  '1.0.0': Version.The100,
+  '1.1.0': Version.The110,
+  '1.10.0': Version.The1100,
+  '1.11.0': Version.The1110,
+  '1.2.0': Version.The120,
+  '1.3.0': Version.The130,
+  '1.4.0': Version.The140,
+  '1.5.0': Version.The150,
+  '1.6.0': Version.The160,
+  '1.7.0': Version.The170,
+  '1.8.0': Version.The180,
+  '1.9.0': Version.The190,
+  '2.0.0': Version.The200,
+  '2.0.4': Version.The204,
 };
 
 const sizeMap: Record<string, ItemSize> = {
-  "0.5x1": ItemSize.The05X1,
-  "1.5x1.5": ItemSize.The15X15,
-  "1x0.5": ItemSize.The1X05,
-  "1x1": ItemSize.The1X1,
-  "1x1.5": ItemSize.The1X15,
-  "1x2": ItemSize.The1X2,
-  "2x0.5": ItemSize.The2X05,
-  "2x1": ItemSize.The2X1,
-  "2x1.5": ItemSize.The2X15,
-  "2x2": ItemSize.The2X2,
-  "3x1": ItemSize.The3X1,
-  "3x2": ItemSize.The3X2,
-  "3x3": ItemSize.The3X3,
-  "4x3": ItemSize.The4X3,
-  "4x4": ItemSize.The4X4,
-  "5x5": ItemSize.The5X5,
+  '0.5x1': ItemSize.The05X1,
+  '1.5x1.5': ItemSize.The15X15,
+  '1x0.5': ItemSize.The1X05,
+  '1x1': ItemSize.The1X1,
+  '1x1.5': ItemSize.The1X15,
+  '1x2': ItemSize.The1X2,
+  '2x0.5': ItemSize.The2X05,
+  '2x1': ItemSize.The2X1,
+  '2x1.5': ItemSize.The2X15,
+  '2x2': ItemSize.The2X2,
+  '3x1': ItemSize.The3X1,
+  '3x2': ItemSize.The3X2,
+  '3x3': ItemSize.The3X3,
+  '4x3': ItemSize.The4X3,
+  '4x4': ItemSize.The4X4,
+  '5x5': ItemSize.The5X5,
 };
 
 const colorMap: Record<string, Color> = {
@@ -194,16 +185,16 @@ const colorMap: Record<string, Color> = {
 
 const currencyMap: Record<string, Currency> = {
   Bells: Currency.Bells,
-  "Heart Crystals": Currency.HeartCrystals,
-  "Nook Miles": Currency.NookMiles,
-  "Nook Points": Currency.NookPoints,
+  'Heart Crystals': Currency.HeartCrystals,
+  'Nook Miles': Currency.NookMiles,
+  'Nook Points': Currency.NookPoints,
   Poki: Currency.Poki,
 };
 
 const kitTypeMap: Record<string, KitType> = {
   Normal: KitType.Normal,
   Pumpkin: KitType.Pumpkin,
-  "Rainbow feather": KitType.RainbowFeather,
+  'Rainbow feather': KitType.RainbowFeather,
 };
 
 let recipeIdMap = new Map<number, number>();
@@ -223,9 +214,7 @@ function processVariations(oldItem: OldItem): Variant[] {
   const variantMap = new Map<string, Variant>();
 
   oldItem.variations.forEach((v) => {
-    const variantName = String(
-      v.variantTranslations?.cNzh || v.variation || ""
-    );
+    const variantName = String(v.variantTranslations?.cNzh || v.variation || '');
 
     if (!variantMap.has(variantName)) {
       variantMap.set(variantName, {
@@ -237,19 +226,17 @@ function processVariations(oldItem: OldItem): Variant[] {
     const variant = variantMap.get(variantName)!;
     const patternColors = v.colors || oldItem.colors || [];
     let cusKitType = v.kitType ? kitTypeMap[v.kitType] : KitType.Normal;
-    if (v.variation === "Damaged") {
+    if (v.variation === 'Damaged') {
       cusKitCost = 0;
     }
     const cusPrice = v.cyrusCustomizePrice || 0;
     const cus = [cusPrice, [cusKitCost, cusKitType]] as [number, CusCost];
     variant.patterns.push({
-      name: v.patternTranslations?.cNzh || v.pattern || "",
-      image: processImageUrl(v.image || v.storageImage || v.closetImage || ""),
+      name: v.patternTranslations?.cNzh || v.pattern || '',
+      image: processImageUrl(v.image || v.storageImage || v.closetImage || ''),
       id: v.internalId,
       colors: Array.from(
-        new Set(
-          patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined)
-        )
+        new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
       ),
       cus: cus,
     });
@@ -264,11 +251,7 @@ function getDefaultDisplayProperties(
 ): { id: number; colors: Color[] } {
   let id = oldItem.internalId ?? 0;
   let colors = Array.from(
-    new Set(
-      (oldItem.colors || [])
-        .map((c) => colorMap[c])
-        .filter((c) => c !== undefined)
-    )
+    new Set((oldItem.colors || []).map((c) => colorMap[c]).filter((c) => c !== undefined))
   );
 
   // 如果有变体，使用第一个变体的第一个图案
@@ -297,8 +280,7 @@ function convertItem(oldItem: OldItem): NewItem {
   const { id, colors } = getDefaultDisplayProperties(oldItem, variants);
 
   let images = [];
-  if (oldItem.inventoryImage)
-    images.push(processImageUrl(oldItem.inventoryImage));
+  if (oldItem.inventoryImage) images.push(processImageUrl(oldItem.inventoryImage));
   if (oldItem.image) images.push(processImageUrl(oldItem.image));
   if (oldItem.storageImage) images.push(processImageUrl(oldItem.storageImage));
   if (oldItem.closetImage) images.push(processImageUrl(oldItem.closetImage));
@@ -309,25 +291,19 @@ function convertItem(oldItem: OldItem): NewItem {
     let variation = oldItem.variations?.[0];
     if (variation) {
       if (variation.image) images.push(processImageUrl(variation.image));
-      if (variation.storageImage)
-        images.push(processImageUrl(variation.storageImage));
-      if (variation.closetImage)
-        images.push(processImageUrl(variation.closetImage));
+      if (variation.storageImage) images.push(processImageUrl(variation.storageImage));
+      if (variation.closetImage) images.push(processImageUrl(variation.closetImage));
     }
   }
   if (oldItem.recipe) {
     images.push(processImageUrl(oldItem.recipe.image));
   }
 
-  let concepts =
-    oldItem.concepts || oldItem.variations?.[0].concepts || undefined;
+  let concepts = oldItem.concepts || oldItem.variations?.[0].concepts || undefined;
   concepts = concepts && concepts.length > 0 ? concepts : undefined;
-  let category =
-    oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
+  let category = oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
 
-  const isContainsDamaged = oldItem.variations?.some(
-    (v) => v.variation === "Damaged"
-  );
+  const isContainsDamaged = oldItem.variations?.some((v) => v.variation === 'Damaged');
   return {
     id,
     name,
@@ -335,9 +311,7 @@ function convertItem(oldItem: OldItem): NewItem {
     type: sourceSheetMap[oldItem.sourceSheet],
     images,
     colors,
-    ver: oldItem.versionAdded
-      ? versionAddedMap[oldItem.versionAdded]
-      : Version.The100,
+    ver: oldItem.versionAdded ? versionAddedMap[oldItem.versionAdded] : Version.The100,
     source: oldItem.source,
     sourceNotes: oldItem.sourceNotes || undefined,
     activity: oldItem.seasonEvent || undefined,
@@ -345,8 +319,7 @@ function convertItem(oldItem: OldItem): NewItem {
     tag: oldItem.tag,
     points: oldItem.hhaBasePoints || undefined,
     series: oldItem.series || undefined,
-    themes:
-      oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
+    themes: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
     set: oldItem.set || undefined,
     styles:
       oldItem.styles && oldItem.styles.length > 0
@@ -354,9 +327,7 @@ function convertItem(oldItem: OldItem): NewItem {
         : undefined,
     concepts,
     category,
-    recipe: oldItem.recipe
-      ? recipeIdMap.get(oldItem.recipe.internalId)
-      : undefined,
+    recipe: oldItem.recipe ? recipeIdMap.get(oldItem.recipe.internalId) : undefined,
     buy: oldItem.buy || undefined,
     sell: oldItem.sell || undefined,
     exch: oldItem.exchangePrice
@@ -365,11 +336,7 @@ function convertItem(oldItem: OldItem): NewItem {
     variants: variants.length > 0 ? variants : undefined,
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
-    iv:
-      oldItem.bodyCustomize ||
-      oldItem.customize ||
-      isContainsDamaged ||
-      undefined,
+    iv: oldItem.bodyCustomize || oldItem.customize || isContainsDamaged || undefined,
     ip: oldItem.patternCustomize || undefined,
   };
 }
@@ -387,7 +354,7 @@ for (const oldItem of oldItems) {
       id: oldItem.internalId || 0,
       name: oldItem.translations?.cNzh || oldItem.name,
       rawName: oldItem.name,
-      image: processImageUrl(oldItem.image || ""),
+      image: processImageUrl(oldItem.image || ''),
       ver: versionAddedMap[oldItem.version!] || Version.The200,
       buy: oldItem.buy ?? undefined,
       backColor: oldItem.backColor || undefined,
@@ -436,7 +403,7 @@ messageCards.sort((a, b) => a.id - b.id);
 let newArtworks: NewArtwork[] = [];
 for (const [name, realArtwork] of realArtworks) {
   const fakeArtwork = fakeArtworks.get(name);
-  const l = realArtwork.artist!.split(",");
+  const l = realArtwork.artist!.split(',');
 
   const newArtwork: NewArtwork = {
     id: realArtwork.internalId!,
@@ -452,9 +419,7 @@ for (const [name, realArtwork] of realArtworks) {
     size: realArtwork.size ? sizeMap[realArtwork.size] : ItemSize.The1X1,
     colors: Array.from(
       new Set(
-        (realArtwork.colors || [])
-          .map((c) => colorMap[c])
-          .filter((c) => c !== undefined)
+        (realArtwork.colors || []).map((c) => colorMap[c]).filter((c) => c !== undefined)
       )
     ),
     title: realArtwork.realArtworkTitle!,
@@ -500,7 +465,7 @@ for (const [groupName, parts] of fossilGroups) {
 newFossils.sort((a, b) => a.parts.length - b.parts.length);
 
 const interiorStructures = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "Interior Structures.json"), "utf-8")
+  fs.readFileSync(path.join(__dirname, 'Interior Structures.json'), 'utf-8')
 );
 for (const structure of interiorStructures) {
   structure.colors = [structure.color1, structure.color2]; // 修正颜色字段
@@ -592,11 +557,11 @@ for (const oldRecipe of oldRecipes) {
       console.log(
         `配方 ${oldRecipe.translations.cNzh} 所需材料 ${materialName} 未找到对应物品`
       );
-      if (materialName.indexOf("Bells") !== -1) {
-        let l = materialName.split(" ");
-        materials.push([7730, parseInt(l[0].replace(/,/g, ""))]);
-      } else if (materialName.indexOf("turnips") !== -1) {
-        let l = materialName.split(" ");
+      if (materialName.indexOf('Bells') !== -1) {
+        let l = materialName.split(' ');
+        materials.push([7730, parseInt(l[0].replace(/,/g, ''))]);
+      } else if (materialName.indexOf('turnips') !== -1) {
+        let l = materialName.split(' ');
         materials.push([7734, parseInt(l[0])]);
       }
     }
@@ -635,7 +600,7 @@ const personalityMap: Record<string, Personality> = {
   Normal: Personality.Normal,
   Peppy: Personality.Peppy,
   Snooty: Personality.Snooty,
-  "Big Sister": Personality.BigSister,
+  'Big Sister': Personality.BigSister,
 };
 
 const hobbyMap: Record<string, Hobby> = {
@@ -651,7 +616,7 @@ const speciesMap: Record<string, Species> = {
   Alligator: Species.Alligator,
   Anteater: Species.Anteater,
   Bear: Species.Bear,
-  "Bear cub": Species.BearCub,
+  'Bear cub': Species.BearCub,
   Bird: Species.Bird,
   Bull: Species.Bull,
   Cat: Species.Cat,
@@ -690,13 +655,11 @@ const speciesMap: Record<string, Species> = {
  * @param str 输入字符串，如 "3122,2_0" 或 "7142"
  * @returns 三个数字的数组
  */
-function processFurnitureString(
-  str: string | number
-): [number, number, number] {
-  const parts = String(str).split(",");
+function processFurnitureString(str: string | number): [number, number, number] {
+  const parts = String(str).split(',');
   const first = Number(parts[0]);
   if (parts.length > 1) {
-    const secondParts = parts[1].split("_");
+    const secondParts = parts[1].split('_');
     return [first, Number(secondParts[0] || 0), Number(secondParts[1] || 0)];
   } else {
     return [first, 0, 0];
@@ -712,7 +675,7 @@ for (const oldVillager of oldVillagers) {
     images: [
       processImageUrl(oldVillager.iconImage),
       processImageUrl(oldVillager.photoImage),
-    ].filter((url) => url !== ""),
+    ].filter((url) => url !== ''),
     ver: versionAddedMap[oldVillager.versionAdded],
     species: speciesMap[oldVillager.species],
     gender: genderMap[oldVillager.gender],
@@ -753,11 +716,9 @@ for (const oldNpc of oldNpcs) {
     rawName: oldNpc.name,
     images: [
       processImageUrl(oldNpc.iconImage),
-      processImageUrl(oldNpc.photoImage || ""),
-    ].filter((url) => url !== ""),
-    ver: oldNpc.versionAdded
-      ? versionAddedMap[oldNpc.versionAdded]
-      : Version.The100,
+      processImageUrl(oldNpc.photoImage || ''),
+    ].filter((url) => url !== ''),
+    ver: oldNpc.versionAdded ? versionAddedMap[oldNpc.versionAdded] : Version.The100,
     gender: genderMap[oldNpc.gender],
     birthday: oldNpc.birthday,
     nameColor: oldNpc.nameColor!,
@@ -799,12 +760,12 @@ for (const oldConstruction of oldConstructions) {
   id += 1;
   const newConstruction = {
     id: id,
-    name: oldConstruction.translations?.cNzh || oldConstruction.name || "",
-    rawName: oldConstruction.name || "",
+    name: oldConstruction.translations?.cNzh || oldConstruction.name || '',
+    rawName: oldConstruction.name || '',
     image: processImageUrl(oldConstruction.image),
     ver: versionAddedMap[oldConstruction.versionAdded] || Version.The200,
     buy: oldConstruction.buy || undefined,
-    type: constructionTypeMap[oldConstruction.category || "Other"],
+    type: constructionTypeMap[oldConstruction.category || 'Other'],
     source: oldConstruction.source || [],
   };
   newConstructions.push(newConstruction);
@@ -812,12 +773,12 @@ for (const oldConstruction of oldConstructions) {
 newConstructions.sort((a, b) => a.id - b.id);
 
 const SeasonsAndEventsTypesMap: Record<string, ActivityType> = {
-  "Basegame event": ActivityType.BasegameEvent,
-  "Crafting season": ActivityType.CraftingSeason,
-  "Nook Shopping event": ActivityType.NookShoppingEvent,
-  "Shopping season": ActivityType.ShoppingSeason,
-  "Special event": ActivityType.SpecialEvent,
-  "Zodiac season": ActivityType.ZodiacSeason,
+  'Basegame event': ActivityType.BasegameEvent,
+  'Crafting season': ActivityType.CraftingSeason,
+  'Nook Shopping event': ActivityType.NookShoppingEvent,
+  'Shopping season': ActivityType.ShoppingSeason,
+  'Special event': ActivityType.SpecialEvent,
+  'Zodiac season': ActivityType.ZodiacSeason,
 };
 
 let activitys: Activity[] = [];
@@ -842,69 +803,69 @@ for (const sae of oldSeasonsAndEvents) {
 
 // 输出到文件
 fs.writeFileSync(
-  path.join(outputPath, "acnh-items.json"),
+  path.join(outputPath, 'acnh-items.json'),
   JSON.stringify(newItems.map(removeNullFields)),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-message-cards.json"),
+  path.join(outputPath, 'acnh-message-cards.json'),
   JSON.stringify(messageCards.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-artworks.json"),
+  path.join(outputPath, 'acnh-artworks.json'),
   JSON.stringify(newArtworks.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-fossils.json"),
+  path.join(outputPath, 'acnh-fossils.json'),
   JSON.stringify(newFossils.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-recipes.json"),
+  path.join(outputPath, 'acnh-recipes.json'),
   JSON.stringify(newRecipes.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-creatures.json"),
+  path.join(outputPath, 'acnh-creatures.json'),
   JSON.stringify(newCreatures.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-villagers.json"),
+  path.join(outputPath, 'acnh-villagers.json'),
   JSON.stringify(newVillagers.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-npcs.json"),
+  path.join(outputPath, 'acnh-npcs.json'),
   JSON.stringify(newNpcs.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-reactions.json"),
+  path.join(outputPath, 'acnh-reactions.json'),
   JSON.stringify(newReactions.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-constructions.json"),
+  path.join(outputPath, 'acnh-constructions.json'),
   JSON.stringify(newConstructions.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 fs.writeFileSync(
-  path.join(outputPath, "acnh-activitys.json"),
+  path.join(outputPath, 'acnh-activitys.json'),
   JSON.stringify(activitys.map(removeNullFields), null, 2),
-  "utf-8"
+  'utf-8'
 );
 
 // for (const oldItem of oldItems) {

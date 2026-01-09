@@ -1,16 +1,16 @@
-import { ref, type Ref } from "vue";
-import { ItemModel } from "../models/ItemModel";
+import { ref, type Ref } from 'vue';
+import { ItemModel } from '../models/ItemModel';
 import {
   loadTranslations,
   loadItemsData,
   loadCatalogData,
-} from "../services/dataService";
-import { DATA_LOADING } from "../constants";
+} from '../services/dataService';
+import { DATA_LOADING } from '../constants';
 
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
 const itemIdMap = ref<Record<number, ItemModel>>({});
 const loading = ref(true);
-const error = ref("");
+const error = ref('');
 let isDataLoaded = false;
 
 export function useItemsData() {
@@ -20,26 +20,25 @@ export function useItemsData() {
     }
     try {
       loading.value = true;
-      error.value = "";
+      error.value = '';
       const [, acnhItems, ownedIds] = await Promise.all([
         loadTranslations(),
         loadItemsData(),
         loadCatalogData(),
       ]);
 
-      allItems.value = acnhItems
-        .map((item) => {
-          const model = new ItemModel(item);
-          model.owned = ownedIds.has(item.id);
-          return model;
-        });
+      allItems.value = acnhItems.map((item) => {
+        const model = new ItemModel(item);
+        model.owned = ownedIds.has(item.id);
+        return model;
+      });
       allItems.value.forEach((item) => {
         itemIdMap.value[item.id] = item;
       });
       isDataLoaded = true;
     } catch (err) {
       error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error("加载数据失败:", err);
+      console.error('加载数据失败:', err);
     } finally {
       loading.value = false;
     }

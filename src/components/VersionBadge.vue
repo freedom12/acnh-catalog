@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import type { Version } from "../types/item";
-import { getVersionName } from "../services/dataService";
+import { computed } from 'vue';
+import type { Version } from '../types/item';
+import { getVersionName } from '../services/dataService';
 
 interface Props {
   version?: Version | null;

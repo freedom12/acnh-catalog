@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import { processImageUrl } from "../utils/imageUtils";
-import { adjustBrightness } from "../utils/common";
-import VersionBadge from "./VersionBadge.vue";
-import type { Version } from "../types/item";
+import { ref, computed } from 'vue';
+import { processImageUrl } from '../utils/imageUtils';
+import { adjustBrightness } from '../utils/common';
+import VersionBadge from './VersionBadge.vue';
+import type { Version } from '../types/item';
 
 interface Props {
   colorClass?: string;
@@ -11,21 +11,21 @@ interface Props {
   version?: Version;
   images: string[];
   displayName: string;
-  shape?: "circle" | "rounded" | "square";
+  shape?: 'circle' | 'rounded' | 'square';
   detailed?: boolean;
-  variant?: "light" | "dark";
+  variant?: 'light' | 'dark';
   showCheckmark?: boolean;
   shiny?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  variant: "light",
-  shape: "circle",
+  variant: 'light',
+  shape: 'circle',
   shiny: false,
 });
 
 const emit = defineEmits<{
-  "image-index-changed": [index: number];
+  'image-index-changed': [index: number];
   click: [event: Event];
 }>();
 
@@ -37,7 +37,7 @@ const currentImageIndex = ref(0);
 
 // 当前显示的图片
 const currentImage = computed(() =>
-  processImageUrl(props.images[currentImageIndex.value] || "")
+  processImageUrl(props.images[currentImageIndex.value] || '')
 );
 
 // 是否有多个图片
@@ -47,10 +47,8 @@ const hasMultipleImages = computed(() => props.images.length > 1);
 const prevImage = () => {
   if (hasMultipleImages.value) {
     currentImageIndex.value =
-      currentImageIndex.value > 0
-        ? currentImageIndex.value - 1
-        : props.images.length - 1;
-    emit("image-index-changed", currentImageIndex.value);
+      currentImageIndex.value > 0 ? currentImageIndex.value - 1 : props.images.length - 1;
+    emit('image-index-changed', currentImageIndex.value);
   }
 };
 
@@ -58,24 +56,20 @@ const prevImage = () => {
 const nextImage = () => {
   if (hasMultipleImages.value) {
     currentImageIndex.value =
-      currentImageIndex.value < props.images.length - 1
-        ? currentImageIndex.value + 1
-        : 0;
-    emit("image-index-changed", currentImageIndex.value);
+      currentImageIndex.value < props.images.length - 1 ? currentImageIndex.value + 1 : 0;
+    emit('image-index-changed', currentImageIndex.value);
   }
 };
 
 // 切换到指定索引的图片
 const goToImage = (index: number) => {
   currentImageIndex.value = index;
-  emit("image-index-changed", index);
+  emit('image-index-changed', index);
 };
 
 // 计算卡片变体类名
 const variantClass = computed(() => {
-  return props.variant === "light"
-    ? "card--variant-light"
-    : "card--variant-dark";
+  return props.variant === 'light' ? 'card--variant-light' : 'card--variant-dark';
 });
 
 // 卡片样式
@@ -84,8 +78,8 @@ const cardStyles = computed(() => {
   if (props.colorTheme) {
     const baseColor = props.colorTheme;
     const mainColor = adjustBrightness(baseColor, -0.3);
-    styles["--base-color"] = baseColor;
-    styles["--main-color"] = mainColor;
+    styles['--base-color'] = baseColor;
+    styles['--main-color'] = mainColor;
   }
   return styles;
 });
@@ -164,5 +158,5 @@ const cardStyles = computed(() => {
 </template>
 
 <style lang="scss">
-@use "../styles/card-styles";
+@use '../styles/card-styles';
 </style>

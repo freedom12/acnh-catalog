@@ -1,6 +1,6 @@
-import { type Item, type Variant, type Pattern } from "../types";
-import { reactive } from "vue";
-import { processImageUrl } from "../utils/imageUtils";
+import { type Item, type Variant, type Pattern } from '../types';
+import { reactive } from 'vue';
+import { processImageUrl } from '../utils/imageUtils';
 import {
   ItemTypeNameMap,
   versionNameMap,
@@ -19,7 +19,7 @@ import {
   getItemVariantTitle,
   getPriceWithIcon,
   getCusCost,
-} from "../services/dataService";
+} from '../services/dataService';
 import {
   Color,
   Version,
@@ -27,9 +27,9 @@ import {
   FurnitureTypes,
   ClothingTypes,
   ItemType,
-} from "../types/item";
-import type { Recipe } from "../types/recipe";
-import { useRecipesData } from "../composables/useRecipesData";
+} from '../types/item';
+import type { Recipe } from '../types/recipe';
+import { useRecipesData } from '../composables/useRecipesData';
 
 const { recipeIdMap } = useRecipesData();
 export class ItemModel {
@@ -78,7 +78,7 @@ export class ItemModel {
   }
 
   get image(): string {
-    return this.images[0] || "";
+    return this.images[0] || '';
   }
 
   get type(): ItemType {
@@ -98,7 +98,7 @@ export class ItemModel {
   }
 
   get typeName(): string {
-    return ItemTypeNameMap[this.type] || "未知类型";
+    return ItemTypeNameMap[this.type] || '未知类型';
   }
 
   get version(): Version {
@@ -106,7 +106,7 @@ export class ItemModel {
   }
 
   get versionName(): string {
-    return versionNameMap[this.version] || "未知版本";
+    return versionNameMap[this.version] || '未知版本';
   }
 
   get size(): ItemSize | undefined {
@@ -114,8 +114,8 @@ export class ItemModel {
   }
 
   get sizeName(): string {
-    if (this.size === undefined) return "未知尺寸";
-    return itemSizeNameMap[this.size] || "未知尺寸";
+    if (this.size === undefined) return '未知尺寸';
+    return itemSizeNameMap[this.size] || '未知尺寸';
   }
   get colors(): Color[] {
     return this._data.colors;
@@ -126,7 +126,7 @@ export class ItemModel {
   }
 
   get colorNames(): string[] {
-    return this.colors.map((color) => getColorName(color) || "");
+    return this.colors.map((color) => getColorName(color) || '');
   }
 
   get buyPrices(): Price[] {
@@ -143,7 +143,7 @@ export class ItemModel {
   get buyPriceStrs(): string[] {
     return this.buyPrices
       .map((price) => getPriceWithIcon(price))
-      .filter((str) => str !== "");
+      .filter((str) => str !== '');
   }
 
   get sellPrice(): Price | null {
@@ -151,15 +151,15 @@ export class ItemModel {
   }
 
   get sellPriceStr(): string {
-    return getPriceWithIcon(this.sellPrice) || "不可出售";
+    return getPriceWithIcon(this.sellPrice) || '不可出售';
   }
 
   get tag(): string {
-    return this._data.tag || "";
+    return this._data.tag || '';
   }
 
   get tagName(): string {
-    return getTagName(this.tag) || "--";
+    return getTagName(this.tag) || '--';
   }
 
   get sources(): string[] {
@@ -190,7 +190,7 @@ export class ItemModel {
   }
 
   get activityName(): string {
-    return getActivityName(this.activity || "") || "--";
+    return getActivityName(this.activity || '') || '--';
   }
 
   get hhaPoints(): number | null {
@@ -198,11 +198,11 @@ export class ItemModel {
   }
 
   get hhaSeries(): string {
-    return this._data.series || "";
+    return this._data.series || '';
   }
 
   get hhaSeriesName(): string {
-    return getHHASeriesName(this.hhaSeries) || "--";
+    return getHHASeriesName(this.hhaSeries) || '--';
   }
 
   get hhaConcepts(): string[] {
@@ -214,19 +214,19 @@ export class ItemModel {
   }
 
   get hhaSet(): string {
-    return this._data.set || "";
+    return this._data.set || '';
   }
 
   get hhaSetName(): string {
-    return getHHASetName(this.hhaSet) || "--";
+    return getHHASetName(this.hhaSet) || '--';
   }
 
   get hhaCategory(): string {
-    return this._data.category || "";
+    return this._data.category || '';
   }
 
   get hhaCategoryName(): string {
-    return getHHACategoryName(this.hhaCategory) || "--";
+    return getHHACategoryName(this.hhaCategory) || '--';
   }
 
   get closingThemes(): string[] {
@@ -264,22 +264,21 @@ export class ItemModel {
   }
 
   get vTitle(): string {
-    return this._data.vt || "";
+    return this._data.vt || '';
   }
   get vTitleName(): string {
-    return getItemVariantTitle(this.vTitle) || "样式";
+    return getItemVariantTitle(this.vTitle) || '样式';
   }
   get pTitle(): string {
-    return this._data.pt || "";
+    return this._data.pt || '';
   }
   get pTitleName(): string {
-    return getItemVariantTitle(this.pTitle) || "图案";
+    return getItemVariantTitle(this.pTitle) || '图案';
   }
   get hasVariations(): boolean {
     const groups = this.variantGroups;
     return (
-      groups.length > 0 &&
-      (groups.length > 1 || (groups[0]?.patterns.length ?? 0) > 1)
+      groups.length > 0 && (groups.length > 1 || (groups[0]?.patterns.length ?? 0) > 1)
     );
   }
 
@@ -343,11 +342,7 @@ export class ItemModel {
 
   set patternIndex(index: number) {
     const currentVariant = this.currentVariant;
-    if (
-      currentVariant &&
-      index >= 0 &&
-      index < currentVariant.patterns.length
-    ) {
+    if (currentVariant && index >= 0 && index < currentVariant.patterns.length) {
       this._state.currentPatternIndex = index;
     } else {
       this._state.currentPatternIndex = 0;
@@ -405,7 +400,7 @@ export class ItemModel {
     if (pattern?.name) {
       parts.push(pattern.name);
     }
-    return parts.join(" - ");
+    return parts.join(' - ');
   }
   // ============ 工具方法 ============
 

@@ -1,5 +1,5 @@
-import type { Price } from "../services/dataService";
-import type { Version } from "./index";
+import type { Price } from '../services/dataService';
+import type { Version } from './index';
 
 export const ConstructionType = {
   Roofing: 1,

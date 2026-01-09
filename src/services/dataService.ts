@@ -147,7 +147,7 @@ export const getImgUrl = (path: string) => {
   //   console.log(path, 111, import.meta, 222, url);
   //   return url.href;
   // }
-   return `${location.origin}${BASE_PATH}${path}`;
+  return `${location.origin}${BASE_PATH}${path}`;
 };
 
 function getTranslation(

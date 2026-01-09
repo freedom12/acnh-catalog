@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import type { MessageCard } from "../types/messagecard";
-import BaseCard from "./BaseCard.vue";
-import { selectHighestContrastColor } from "../utils/common";
-import { getPriceWithIcon } from "../services/dataService";
-import { computed } from "vue";
+import type { MessageCard } from '../types/messagecard';
+import BaseCard from './BaseCard.vue';
+import { selectHighestContrastColor } from '../utils/common';
+import { getPriceWithIcon } from '../services/dataService';
+import { computed } from 'vue';
 
 const props = defineProps<{
   data: MessageCard;
 }>();
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
 const nameColor = computed(() => {
@@ -37,7 +37,10 @@ const nameColor = computed(() => {
     </template>
     <div class="detail-row">
       <span class="detail-label">价格</span>
-      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.buy) || '不可购买'">
+      <span
+        class="detail-value highlight"
+        v-html="getPriceWithIcon(props.data.buy) || '不可购买'"
+      >
       </span>
     </div>
   </BaseCard>

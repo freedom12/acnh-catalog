@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useRoute } from "vue-router";
-import { ENTITY_ICONS } from "../constants";
+import { useRoute } from 'vue-router';
+import { ENTITY_ICONS } from '../constants';
 
 interface ViewItem {
   path: string;
@@ -11,16 +11,16 @@ interface ViewItem {
 const route = useRoute();
 
 const views: ViewItem[] = [
-  { path: "/items", label: "物品", icon: ENTITY_ICONS.ITEMS },
-  { path: "/villagers", label: "村民", icon: ENTITY_ICONS.VILLAGERS },
-  { path: "/npcs", label: "NPC", icon: ENTITY_ICONS.NPCS },
-  { path: "/creatures", label: "生物", icon: ENTITY_ICONS.CREATURES },
-  { path: "/fossils", label: "化石", icon: ENTITY_ICONS.FOSSILS },
-  { path: "/artworks", label: "艺术品", icon: ENTITY_ICONS.ARTWORKS },
-  { path: "/reactions", label: "表情", icon: ENTITY_ICONS.REACTIONS },
-  { path: "/recipes", label: "DIY配方", icon: ENTITY_ICONS.RECIPES },
-  { path: "/constructions", label: "改建", icon: ENTITY_ICONS.CONSTRUCTION },
-  { path: "/message-cards", label: "贺卡", icon: ENTITY_ICONS.MESSAGE_CARDS },
+  { path: '/items', label: '物品', icon: ENTITY_ICONS.ITEMS },
+  { path: '/villagers', label: '村民', icon: ENTITY_ICONS.VILLAGERS },
+  { path: '/npcs', label: 'NPC', icon: ENTITY_ICONS.NPCS },
+  { path: '/creatures', label: '生物', icon: ENTITY_ICONS.CREATURES },
+  { path: '/fossils', label: '化石', icon: ENTITY_ICONS.FOSSILS },
+  { path: '/artworks', label: '艺术品', icon: ENTITY_ICONS.ARTWORKS },
+  { path: '/reactions', label: '表情', icon: ENTITY_ICONS.REACTIONS },
+  { path: '/recipes', label: 'DIY配方', icon: ENTITY_ICONS.RECIPES },
+  { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTION },
+  { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
 ];
 
 const isActive = (path: string) => {

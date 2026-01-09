@@ -2,8 +2,8 @@
  * 贺卡类型定义
  */
 
-import type { Price } from "../services/dataService";
-import type { Version } from "./item";
+import type { Price } from '../services/dataService';
+import type { Version } from './item';
 
 export interface MessageCard {
   id: number;

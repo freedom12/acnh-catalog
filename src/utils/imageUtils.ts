@@ -5,7 +5,7 @@
 /**
  * CDN 主机地址
  */
-const CDN_HOST = "https://acnhcdn.com/";
+const CDN_HOST = 'https://acnhcdn.com/';
 
 /**
  * 处理图片 URL，如果不是完整 URL 则添加 CDN 前缀
@@ -13,20 +13,20 @@ const CDN_HOST = "https://acnhcdn.com/";
  * @returns 处理后的完整 URL
  */
 export function processImageUrl(imageUrl: string): string {
-  if (!imageUrl) return "";
+  if (!imageUrl) return '';
 
   let url = imageUrl;
-  if (!imageUrl.startsWith("http://") && !imageUrl.startsWith("https://")) {
+  if (!imageUrl.startsWith('http://') && !imageUrl.startsWith('https://')) {
     url = CDN_HOST + imageUrl;
   }
 
   if (
-    !url.endsWith(".png") &&
-    !url.endsWith(".jpg") &&
-    !url.endsWith(".jpeg") &&
-    !url.endsWith(".gif")
+    !url.endsWith('.png') &&
+    !url.endsWith('.jpg') &&
+    !url.endsWith('.jpeg') &&
+    !url.endsWith('.gif')
   ) {
-    url += ".png";
+    url += '.png';
   }
   return url;
 }

@@ -1,4 +1,4 @@
-import type { CusCost, Price } from "../services/dataService";
+import type { CusCost, Price } from '../services/dataService';
 
 /**
  * 物品分类枚举（数字枚举）

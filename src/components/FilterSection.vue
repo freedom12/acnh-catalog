@@ -17,7 +17,7 @@
         <slot name="action-buttons"></slot>
         <ToggleGroup v-model="viewMode" :options="viewModeOptions" />
         <button class="action-btn primary round-btn" @click="toggle">
-          <span class="icon">{{ isExpanded ? "▲" : "▼" }}</span>
+          <span class="icon">{{ isExpanded ? '▲' : '▼' }}</span>
         </button>
       </div>
     </div>
@@ -29,19 +29,11 @@
           placeholder="搜索..."
           @input="handleSearch(($event.target as HTMLInputElement).value)"
         />
-        <button class="action-btn danger" @click="handleClearFilters">
-          清除筛选
-        </button>
+        <button class="action-btn danger" @click="handleClearFilters">清除筛选</button>
       </div>
       <div v-if="filters.length > 0" class="filter-options">
-        <div
-          v-for="filter in filters"
-          :key="filter.value"
-          class="filter-option-group"
-        >
-          <label v-if="filters.length > 1" class="filter-label">{{
-            filter.label
-          }}</label>
+        <div v-for="filter in filters" :key="filter.value" class="filter-option-group">
+          <label v-if="filters.length > 1" class="filter-label">{{ filter.label }}</label>
           <!-- 单个筛选维度时显示按钮 -->
           <div v-if="filters.length === 1" class="filter-buttons">
             <button
@@ -58,7 +50,12 @@
                 })
               "
             >
-              <img v-if="option.icon" :src="option.icon" :alt="option.label" class="inline-icon" />
+              <img
+                v-if="option.icon"
+                :src="option.icon"
+                :alt="option.label"
+                class="inline-icon"
+              />
               <span>{{ option.label }}</span>
             </button>
           </div>
@@ -70,10 +67,7 @@
             @change="
               handleFilterChange({
                 dimension: filter.value,
-                value: convertToT(
-                  ($event.target as HTMLSelectElement).value,
-                  filter
-                ),
+                value: convertToT(($event.target as HTMLSelectElement).value, filter),
               })
             "
           >
@@ -93,10 +87,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from "vue";
-import { useViewMode } from "../composables/useViewMode";
-import { useDebounce } from "../composables/useDebounce";
-import ToggleGroup from "./ToggleGroup.vue";
+import { ref, watch } from 'vue';
+import { useViewMode } from '../composables/useViewMode';
+import { useDebounce } from '../composables/useDebounce';
+import ToggleGroup from './ToggleGroup.vue';
 
 export type FilterOptionValue = string | number;
 
@@ -117,13 +111,13 @@ const emit = defineEmits<{
     filters: {
       searchQuery: string;
       selectedFilters: Record<string, FilterOptionValue>;
-    }
+    },
   ];
 }>();
 
 const isExpanded = ref(false);
 
-const searchQuery = ref("");
+const searchQuery = ref('');
 const debouncedSearchQuery = useDebounce(searchQuery, 300);
 const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 const filters = ref<Filter[]>([]);
@@ -133,8 +127,8 @@ const { viewMode } = useViewMode();
 
 // 视图模式选项
 const viewModeOptions = [
-  { value: "detailed", label: "详细" },
-  { value: "simple", label: "简略" },
+  { value: 'detailed', label: '详细' },
+  { value: 'simple', label: '简略' },
 ];
 
 const props = defineProps<{
@@ -153,8 +147,8 @@ const initializeDefaultFilters = () => {
       // 根据filter的第一个选项的类型决定"全部"选项的值
       const firstOption = filter.options[0];
       let allValue: FilterOptionValue = 0; // 默认数字0
-      if (firstOption && typeof firstOption.value === "string") {
-        allValue = ""; // 如果第一个选项是字符串，使用''
+      if (firstOption && typeof firstOption.value === 'string') {
+        allValue = ''; // 如果第一个选项是字符串，使用''
       }
 
       newFilters[filter.value] = allValue;
@@ -162,14 +156,14 @@ const initializeDefaultFilters = () => {
       // 为每个筛选维度添加"全部"选项
       newFiltersWithAll.push({
         ...filter,
-        options: [{ value: allValue, label: "全部" }, ...filter.options],
+        options: [{ value: allValue, label: '全部' }, ...filter.options],
       });
     });
 
     selectedFilters.value = newFilters;
     filters.value = newFiltersWithAll;
 
-    emit("filtersChanged", {
+    emit('filtersChanged', {
       searchQuery: searchQuery.value,
       selectedFilters: selectedFilters.value,
     });
@@ -181,7 +175,7 @@ watch(() => props.filters, initializeDefaultFilters, { immediate: true });
 
 // 监听防抖后的搜索查询
 watch(debouncedSearchQuery, () => {
-  emit("filtersChanged", {
+  emit('filtersChanged', {
     searchQuery: debouncedSearchQuery.value,
     selectedFilters: selectedFilters.value,
   });
@@ -200,48 +194,45 @@ const handleSearch = (query: string) => {
 };
 
 const convertToT = (value: string, filter: Filter): FilterOptionValue => {
-  if (filter.options[0] && typeof filter.options[0].value === "number") {
+  if (filter.options[0] && typeof filter.options[0].value === 'number') {
     return parseInt(value);
   } else {
     return value;
   }
 };
 
-const handleFilterChange = (event: {
-  dimension: string;
-  value: FilterOptionValue;
-}) => {
+const handleFilterChange = (event: { dimension: string; value: FilterOptionValue }) => {
   selectedFilters.value = {
     ...selectedFilters.value,
     [event.dimension]: event.value,
   };
-  emit("filtersChanged", {
+  emit('filtersChanged', {
     searchQuery: searchQuery.value,
     selectedFilters: selectedFilters.value,
   });
 };
 
 const handleClearFilters = () => {
-  searchQuery.value = "";
+  searchQuery.value = '';
   // 将所有筛选重置为"全部"
   if (filters.value.length > 0) {
     const clearedFilters: Record<string, FilterOptionValue> = {};
     filters.value.forEach((filter) => {
-      clearedFilters[filter.value] = filter.options[0]?.value ?? "";
+      clearedFilters[filter.value] = filter.options[0]?.value ?? '';
     });
     selectedFilters.value = clearedFilters;
   } else {
     selectedFilters.value = {};
   }
-  emit("filtersChanged", {
-    searchQuery: "",
+  emit('filtersChanged', {
+    searchQuery: '',
     selectedFilters: selectedFilters.value,
   });
 };
 </script>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 
 /* 筛选器容器 */
 .filter-container {

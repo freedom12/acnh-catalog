@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import type { NPC } from "../types/npc";
-import BaseCard from "./BaseCard.vue";
+import { ref, computed } from 'vue';
+import type { NPC } from '../types/npc';
+import BaseCard from './BaseCard.vue';
 import {
   getGenderIcon,
   getGenderName,
   getConstellation,
   getConstellationIcon,
   getConstellationName,
-} from "../services/dataService";
+} from '../services/dataService';
 
 const props = defineProps<{
   data: NPC;
 }>();
 const currentImageIndex = ref(0);
 const currentShape = computed(() =>
-  currentImageIndex.value === 0 ? "circle" : "rounded"
+  currentImageIndex.value === 0 ? 'circle' : 'rounded'
 );
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
 const handleImageIndexChanged = (index: number) => {
@@ -39,10 +39,7 @@ const handleImageIndexChanged = (index: number) => {
     @image-index-changed="handleImageIndexChanged"
   >
     <template #name>
-      <h3
-        class="card-name"
-        :style="{ color: props.data.nameColor || '#e67e22' }"
-      >
+      <h3 class="card-name" :style="{ color: props.data.nameColor || '#e67e22' }">
         {{ props.data.name }}
       </h3>
     </template>

@@ -1,11 +1,11 @@
-import { ref } from "vue";
-import { type Creature } from "../types";
-import { loadCreaturesData } from "../services/dataService";
-import { DATA_LOADING } from "../constants";
+import { ref } from 'vue';
+import { type Creature } from '../types';
+import { loadCreaturesData } from '../services/dataService';
+import { DATA_LOADING } from '../constants';
 
 const allCreatures = ref<Creature[]>([]);
 const loading = ref(false);
-const error = ref("");
+const error = ref('');
 let isDataLoaded = false;
 
 export function useCreaturesData() {
@@ -15,11 +15,11 @@ export function useCreaturesData() {
     }
     try {
       loading.value = true;
-      error.value = "";
+      error.value = '';
       allCreatures.value = await loadCreaturesData();
       isDataLoaded = true;
     } catch (err) {
-      console.error("加载生物数据失败:", err);
+      console.error('加载生物数据失败:', err);
       error.value = DATA_LOADING.ERROR_GENERIC;
     } finally {
       loading.value = false;

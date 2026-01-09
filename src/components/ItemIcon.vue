@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
-import { useItemsData } from "../composables/useItemsData";
-import { useItemDetailModal } from "../composables/useItemDetailModal";
-import { processImageUrl } from "../utils/imageUtils";
+import { computed, ref } from 'vue';
+import { useItemsData } from '../composables/useItemsData';
+import { useItemDetailModal } from '../composables/useItemDetailModal';
+import { processImageUrl } from '../utils/imageUtils';
 
 const props = defineProps({
   itemId: {
@@ -20,16 +20,16 @@ const props = defineProps({
   pIndex: {
     type: Number,
     default: 0,
-  }
+  },
 });
 
 const { openModal } = useItemDetailModal();
 const { itemIdMap } = useItemsData();
 
 const itemModel = computed(() => itemIdMap.value[props.itemId]);
-const name = computed(() => itemModel.value?.name || "");
+const name = computed(() => itemModel.value?.name || '');
 const image = computed(() => {
-  if (!itemModel.value) return "";
+  if (!itemModel.value) return '';
   const pattern = itemModel.value.getPattern(props.vIndex, props.pIndex);
   return pattern ? processImageUrl(pattern.image) : itemModel.value.image;
 });

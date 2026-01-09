@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import { useTooltip } from "../composables/useTooltip";
+import { useTooltip } from '../composables/useTooltip';
 
 const { visible, position, content, maxWidth } = useTooltip();
 </script>
 
 <template>
   <Teleport to="body">
-    <div
-      v-show="visible"
-      class="tooltip-fixed"
-      :style="{ ...position, maxWidth }"
-    >
+    <div v-show="visible" class="tooltip-fixed" :style="{ ...position, maxWidth }">
       {{ content }}
       <div class="tooltip-arrow"></div>
     </div>

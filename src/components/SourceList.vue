@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { getSourceName } from "../services/dataService";
-import { useTooltip } from "../composables/useTooltip";
+import { computed } from 'vue';
+import { getSourceName } from '../services/dataService';
+import { useTooltip } from '../composables/useTooltip';
 
 const props = defineProps<{
   sources: string[];

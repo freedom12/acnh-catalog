@@ -102,7 +102,9 @@ $gradient-green-dark: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
   color-scheme: light;
   color: #213547;
   background-color: #e8f5e9;
-  background-image: linear-gradient(rgba(232, 245, 233, 0.4), rgba(232, 245, 233, 0.8)), url("@/assets/img/bg.jpg");
+  background-image:
+    linear-gradient(rgba(232, 245, 233, 0.4), rgba(232, 245, 233, 0.8)),
+    url('@/assets/img/bg.jpg');
   background-size: auto;
   background-position: top;
   background-repeat: repeat;
@@ -129,9 +131,10 @@ body {
   display: inline-block;
   margin-left: 2px;
   margin-right: 2px;
-  
+
   &.gray {
-    filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(0%) hue-rotate(0deg);
+    filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(0%)
+      hue-rotate(0deg);
     opacity: 0.8;
   }
 }

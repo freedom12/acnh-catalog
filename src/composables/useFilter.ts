@@ -1,5 +1,5 @@
-import { ref, computed, type Ref } from "vue";
-import type { FilterOptionValue } from "../components/FilterSection.vue";
+import { ref, computed, type Ref } from 'vue';
+import type { FilterOptionValue } from '../components/FilterSection.vue';
 
 export interface UseFilterReturn<T> {
   searchQuery: Ref<string>;
@@ -26,7 +26,7 @@ export function useFilter<T>(
   ) => boolean,
   filterMode: 'append' | 'replace' = 'append'
 ): UseFilterReturn<T> {
-  const searchQuery = ref("");
+  const searchQuery = ref('');
   const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 
   const filteredData = computed(() => {
@@ -43,9 +43,7 @@ export function useFilter<T>(
     // 搜索筛选
     if (searchQuery.value) {
       result = result.filter((item) =>
-        (item as any).name
-          ?.toLowerCase()
-          .includes(searchQuery.value.toLowerCase())
+        (item as any).name?.toLowerCase().includes(searchQuery.value.toLowerCase())
       );
     }
 
@@ -71,12 +69,12 @@ export function useFilter<T>(
     selectedFilters: Record<string, FilterOptionValue>;
   }) => {
     searchQuery.value = filters.searchQuery.trim();
-    
+
     // 清理 selectedFilters，只保留有效的筛选值
     const cleanedFilters: Record<string, FilterOptionValue> = {};
     Object.entries(filters.selectedFilters).forEach(([key, value]) => {
       // 只保留非空、非0的有效筛选值
-      if (value && value !== "" && value !== 0) {
+      if (value && value !== '' && value !== 0) {
         cleanedFilters[key] = value;
       }
     });

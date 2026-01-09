@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { useItemsData } from "../composables/useItemsData";
-import { useFilter } from "../composables/useFilter";
-import DataView from "../components/DataView.vue";
-import FilterSection, { type Filter } from "../components/FilterSection.vue";
-import ItemCard from "../components/ItemCard.vue";
-import CatalogUploader from "../components/CatalogUploader.vue";
+import { computed } from 'vue';
+import { useItemsData } from '../composables/useItemsData';
+import { useFilter } from '../composables/useFilter';
+import DataView from '../components/DataView.vue';
+import FilterSection, { type Filter } from '../components/FilterSection.vue';
+import ItemCard from '../components/ItemCard.vue';
+import CatalogUploader from '../components/CatalogUploader.vue';
 import {
   getItemTypeName,
   getVersionName,
@@ -18,11 +18,10 @@ import {
   getHHACategoryName,
   getClothingThemeName,
   getClothingStyleName,
-} from "../services/dataService";
-import { ItemType, Version, ItemSize, Color } from "../types/item";
+} from '../services/dataService';
+import { ItemType, Version, ItemSize, Color } from '../types/item';
 
-const { allItems, loading, error, loadData, updateCatalogData } =
-  useItemsData();
+const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
 
 const filters = computed<Filter[]>(() => {
   const itemsArray = allItems.value;
@@ -35,8 +34,8 @@ const filters = computed<Filter[]>(() => {
 
   // 拥有状态选项
   const ownedOptions = [
-    { value: 1, label: "仅已拥有" },
-    { value: 2, label: "仅未拥有" },
+    { value: 1, label: '仅已拥有' },
+    { value: 2, label: '仅未拥有' },
   ];
 
   // 版本选项
@@ -67,7 +66,7 @@ const filters = computed<Filter[]>(() => {
       value: source,
       label: getSourceName(source),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA主题选项
   const seriesSet = new Set(
@@ -78,7 +77,7 @@ const filters = computed<Filter[]>(() => {
       value: ser,
       label: getHHASeriesName(ser),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA场景选项
   const conceptsSet = new Set<string>();
@@ -90,7 +89,7 @@ const filters = computed<Filter[]>(() => {
       value: concept,
       label: getHHAConceptName(concept),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA套组选项
   const setsSet = new Set(
@@ -101,7 +100,7 @@ const filters = computed<Filter[]>(() => {
       value: set,
       label: getHHASetName(set),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA分类选项
   const categoriesSet = new Set(
@@ -112,7 +111,7 @@ const filters = computed<Filter[]>(() => {
       value: category,
       label: getHHACategoryName(category),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // 服饰主题选项
   const themesSet = new Set<string>();
@@ -124,7 +123,7 @@ const filters = computed<Filter[]>(() => {
       value: theme,
       label: getClothingThemeName(theme),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // 服饰风格选项
   const stylesSet = new Set<string>();
@@ -136,21 +135,21 @@ const filters = computed<Filter[]>(() => {
       value: style,
       label: getClothingStyleName(style),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   return [
-    { label: "类型", value: "typesFilter", options: typesOptions },
-    { label: "拥有状态", value: "ownedFilter", options: ownedOptions },
-    { label: "版本", value: "versionFilter", options: versionsOptions },
-    { label: "尺寸", value: "sizeFilter", options: sizesOptions },
-    { label: "颜色", value: "colorFilter", options: colorsOptions },
-    { label: "来源", value: "sourceFilter", options: sourcesOptions },
-    { label: "HHA主题", value: "seriesFilter", options: seriesOptions },
-    { label: "HHA场景", value: "conceptsFilter", options: conceptsOptions },
-    { label: "HHA套组", value: "setFilter", options: setsOptions },
-    { label: "HHA分类", value: "categoryFilter", options: categoriesOptions },
-    { label: "服饰主题", value: "themeFilter", options: themesOptions },
-    { label: "服饰风格", value: "styleFilter", options: stylesOptions },
+    { label: '类型', value: 'typesFilter', options: typesOptions },
+    { label: '拥有状态', value: 'ownedFilter', options: ownedOptions },
+    { label: '版本', value: 'versionFilter', options: versionsOptions },
+    { label: '尺寸', value: 'sizeFilter', options: sizesOptions },
+    { label: '颜色', value: 'colorFilter', options: colorsOptions },
+    { label: '来源', value: 'sourceFilter', options: sourcesOptions },
+    { label: 'HHA主题', value: 'seriesFilter', options: seriesOptions },
+    { label: 'HHA场景', value: 'conceptsFilter', options: conceptsOptions },
+    { label: 'HHA套组', value: 'setFilter', options: setsOptions },
+    { label: 'HHA分类', value: 'categoryFilter', options: categoriesOptions },
+    { label: '服饰主题', value: 'themeFilter', options: themesOptions },
+    { label: '服饰风格', value: 'styleFilter', options: stylesOptions },
   ];
 });
 const { filteredData, handleFiltersChanged } = useFilter(
@@ -166,8 +165,7 @@ const { filteredData, handleFiltersChanged } = useFilter(
 
     // 类型筛选
     if (selectedFilters.typesFilter) {
-      if (!item.matchesType(selectedFilters.typesFilter as ItemType))
-        return false;
+      if (!item.matchesType(selectedFilters.typesFilter as ItemType)) return false;
     }
 
     // 拥有状态筛选
@@ -177,14 +175,12 @@ const { filteredData, handleFiltersChanged } = useFilter(
 
     // 版本筛选
     if (selectedFilters.versionFilter) {
-      if (!item.matchesVersion(selectedFilters.versionFilter as Version))
-        return false;
+      if (!item.matchesVersion(selectedFilters.versionFilter as Version)) return false;
     }
 
     // 尺寸筛选
     if (selectedFilters.sizeFilter) {
-      if (!item.matchesSize(selectedFilters.sizeFilter as ItemSize))
-        return false;
+      if (!item.matchesSize(selectedFilters.sizeFilter as ItemSize)) return false;
     }
 
     // 颜色筛选 - 使用matchesColor并切换到匹配的变体
@@ -199,20 +195,17 @@ const { filteredData, handleFiltersChanged } = useFilter(
 
     // 来源筛选
     if (selectedFilters.sourceFilter) {
-      if (!item.matchesSource(selectedFilters.sourceFilter as string))
-        return false;
+      if (!item.matchesSource(selectedFilters.sourceFilter as string)) return false;
     }
 
     // HHA主题筛选
     if (selectedFilters.seriesFilter) {
-      if (!item.matchesSeries(selectedFilters.seriesFilter as string))
-        return false;
+      if (!item.matchesSeries(selectedFilters.seriesFilter as string)) return false;
     }
 
     // HHA场景筛选
     if (selectedFilters.conceptsFilter) {
-      if (!item.matchesConcept(selectedFilters.conceptsFilter as string))
-        return false;
+      if (!item.matchesConcept(selectedFilters.conceptsFilter as string)) return false;
     }
 
     // HHA套组筛选
@@ -222,25 +215,22 @@ const { filteredData, handleFiltersChanged } = useFilter(
 
     // HHA分类筛选
     if (selectedFilters.categoryFilter) {
-      if (!item.matchesCategory(selectedFilters.categoryFilter as string))
-        return false;
+      if (!item.matchesCategory(selectedFilters.categoryFilter as string)) return false;
     }
 
     // 服饰主题筛选
     if (selectedFilters.themeFilter) {
-      if (!item.matchesTheme(selectedFilters.themeFilter as string))
-        return false;
+      if (!item.matchesTheme(selectedFilters.themeFilter as string)) return false;
     }
 
     // 服饰风格筛选
     if (selectedFilters.styleFilter) {
-      if (!item.matchesStyle(selectedFilters.styleFilter as string))
-        return false;
+      if (!item.matchesStyle(selectedFilters.styleFilter as string)) return false;
     }
 
     return true;
   },
-  "replace" // 使用 replace 模式完全替换默认筛选
+  'replace' // 使用 replace 模式完全替换默认筛选
 );
 
 // 计算拥有的物品数量
@@ -257,11 +247,18 @@ const handleCatalogUpload = (data: {
 </script>
 
 <template>
-  <DataView :loading="loading" :error="error" :on-load="loadData" :datas="filteredData" :per-page="100" :card-component="ItemCard">
+  <DataView
+    :loading="loading"
+    :error="error"
+    :on-load="loadData"
+    :datas="filteredData"
+    :per-page="100"
+    :card-component="ItemCard"
+  >
     <template #filters>
-      <FilterSection 
-        :filters="filters" 
-        :total-count="allItems.length" 
+      <FilterSection
+        :filters="filters"
+        :total-count="allItems.length"
         :current-count="filteredData.length"
         :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
         @filters-changed="handleFiltersChanged"

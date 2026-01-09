@@ -1,4 +1,4 @@
-import type { Gender, Version } from "./index";
+import type { Gender, Version } from './index';
 
 /**
  * NPC数据类型

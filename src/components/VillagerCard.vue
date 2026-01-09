@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
-import type { Villager } from "../types/villager";
-import { useItemsData } from "../composables/useItemsData";
-import BaseCard from "./BaseCard.vue";
-import ItemIcon from "./ItemIcon.vue";
+import { ref, computed, onMounted } from 'vue';
+import type { Villager } from '../types/villager';
+import { useItemsData } from '../composables/useItemsData';
+import BaseCard from './BaseCard.vue';
+import ItemIcon from './ItemIcon.vue';
 import {
   getClothingStyleName,
   getGenderIcon,
@@ -14,10 +14,10 @@ import {
   getConstellation,
   getConstellationIcon,
   getConstellationName,
-} from "../services/dataService";
-import { joinArray } from "../utils/common";
-import ColorBlock from "./ColorBlock.vue";
-import { processImageUrl } from "../utils/imageUtils";
+} from '../services/dataService';
+import { joinArray } from '../utils/common';
+import ColorBlock from './ColorBlock.vue';
+import { processImageUrl } from '../utils/imageUtils';
 
 const props = defineProps<{
   data: Villager;
@@ -31,7 +31,7 @@ onMounted(() => {
 const currentImageIndex = ref(0);
 const isFurnitureExpanded = ref(false);
 const currentShape = computed(() =>
-  currentImageIndex.value === 0 ? "circle" : "rounded"
+  currentImageIndex.value === 0 ? 'circle' : 'rounded'
 );
 
 const furnitureList = computed(() => {
@@ -43,7 +43,7 @@ const defaultItems = computed(() => {
 });
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
 const handleImageIndexChanged = (index: number) => {
@@ -98,15 +98,13 @@ const toggleFurnitureExpanded = () => {
     <span class="detail-row">
       <span class="detail-label">性格/爱好</span>
       <span class="detail-value">
-        {{ getPersonalityName(props.data.personality) }}({{
-          props.data.subtype
-        }}) /
+        {{ getPersonalityName(props.data.personality) }}({{ props.data.subtype }}) /
         {{ getHobbyName(props.data.hobby) }}
       </span>
     </span>
     <span class="detail-row">
       <span class="detail-label">喜爱颜色</span>
-        <ColorBlock :colors="props.data.colors" :size="16" />
+      <ColorBlock :colors="props.data.colors" :size="16" />
     </span>
     <span class="detail-row">
       <span class="detail-label">服饰风格</span>
@@ -125,12 +123,7 @@ const toggleFurnitureExpanded = () => {
     <!-- 默认物品图片 -->
     <div v-if="defaultItems.length > 0" class="default-items-section">
       <div class="default-items-list">
-        <ItemIcon
-          v-for="item in defaultItems"
-          :key="item"
-          :itemId="item"
-          :size="60"
-        />
+        <ItemIcon v-for="item in defaultItems" :key="item" :itemId="item" :size="60" />
       </div>
     </div>
 
@@ -138,7 +131,7 @@ const toggleFurnitureExpanded = () => {
     <div v-if="furnitureList.length > 0" class="furniture-section">
       <span class="furniture-label" @click="toggleFurnitureExpanded">
         家具 ({{ furnitureList.length }})
-        <span class="toggle-icon">{{ isFurnitureExpanded ? "▼" : "▶" }}</span>
+        <span class="toggle-icon">{{ isFurnitureExpanded ? '▼' : '▶' }}</span>
       </span>
       <div v-if="isFurnitureExpanded" class="furniture-list">
         <div v-for="furniture in furnitureList" :key="furniture">

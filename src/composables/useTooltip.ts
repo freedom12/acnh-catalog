@@ -1,9 +1,9 @@
-import { ref } from "vue";
+import { ref } from 'vue';
 
 const visible = ref(false);
-const position = ref({ top: "0px", left: "0px" });
-const content = ref("");
-const maxWidth = ref("300px");
+const position = ref({ top: '0px', left: '0px' });
+const content = ref('');
+const maxWidth = ref('300px');
 
 export function useTooltip() {
   const show = (event: MouseEvent, text: string, width?: string) => {
@@ -13,7 +13,7 @@ export function useTooltip() {
     const rect = target.getBoundingClientRect();
 
     content.value = text;
-    maxWidth.value = width || "300px";
+    maxWidth.value = width || '300px';
     position.value = {
       top: `${rect.top - 8}px`,
       left: `${rect.left + rect.width / 2}px`,

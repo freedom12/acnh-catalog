@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue';
 
 const emit = defineEmits<{
-  "catalog-uploaded": [
-    data: { items: Array<{ label: string; unique_id: number }> }
-  ];
+  'catalog-uploaded': [data: { items: Array<{ label: string; unique_id: number }> }];
 }>();
 
 const fileInput = ref<HTMLInputElement | null>(null);
-const uploadStatus = ref<string>("");
+const uploadStatus = ref<string>('');
 const isUploading = ref(false);
 
 const handleFileSelect = () => {
@@ -23,13 +21,13 @@ const handleFileChange = async (event: Event) => {
     return;
   }
 
-  if (!file.name.endsWith(".json")) {
-    uploadStatus.value = "请选择 JSON 文件";
+  if (!file.name.endsWith('.json')) {
+    uploadStatus.value = '请选择 JSON 文件';
     return;
   }
 
   isUploading.value = true;
-  uploadStatus.value = "正在读取文件...";
+  uploadStatus.value = '正在读取文件...';
 
   try {
     const text = await file.text();
@@ -37,37 +35,35 @@ const handleFileChange = async (event: Event) => {
 
     // 验证数据格式
     if (!data.items || !Array.isArray(data.items)) {
-      uploadStatus.value = "文件格式错误：缺少 items 数组";
+      uploadStatus.value = '文件格式错误：缺少 items 数组';
       isUploading.value = false;
       return;
     }
 
     // 验证数组中的项
-    const isValid = data.items.every(
-      (item: any) => item.label && item.unique_id
-    );
+    const isValid = data.items.every((item: any) => item.label && item.unique_id);
 
     if (!isValid) {
-      uploadStatus.value = "文件格式错误：items 中缺少必要字段";
+      uploadStatus.value = '文件格式错误：items 中缺少必要字段';
       isUploading.value = false;
       return;
     }
 
     uploadStatus.value = `成功加载 ${data.items.length} 个物品`;
-    emit("catalog-uploaded", data);
+    emit('catalog-uploaded', data);
 
     // 3秒后清除状态消息
     setTimeout(() => {
-      uploadStatus.value = "";
+      uploadStatus.value = '';
     }, 3000);
   } catch (error) {
     uploadStatus.value =
-      "文件解析失败：" + (error instanceof Error ? error.message : "未知错误");
+      '文件解析失败：' + (error instanceof Error ? error.message : '未知错误');
   } finally {
     isUploading.value = false;
     // 清空文件输入，允许重复上传相同文件
     if (target) {
-      target.value = "";
+      target.value = '';
     }
   }
 };
@@ -83,12 +79,8 @@ const handleFileChange = async (event: Event) => {
       @change="handleFileChange"
     />
 
-    <button
-      class="action-btn success"
-      :disabled="isUploading"
-      @click="handleFileSelect"
-    >
-      <span>{{ isUploading ? "正在上传..." : "上传目录文件" }}</span>
+    <button class="action-btn success" :disabled="isUploading" @click="handleFileSelect">
+      <span>{{ isUploading ? '正在上传...' : '上传目录文件' }}</span>
     </button>
 
     <div
@@ -104,7 +96,7 @@ const handleFileChange = async (event: Event) => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 
 .catalog-uploader {
   display: flex;

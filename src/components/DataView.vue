@@ -1,8 +1,8 @@
 <script setup lang="ts" generic="T">
-import { computed, onMounted, ref, watch, type Ref } from "vue";
-import { usePagination } from "../composables/usePagination";
-import { useViewMode } from "../composables/useViewMode";
-import Pagination from "./Pagination.vue";
+import { computed, onMounted, ref, watch, type Ref } from 'vue';
+import { usePagination } from '../composables/usePagination';
+import { useViewMode } from '../composables/useViewMode';
+import Pagination from './Pagination.vue';
 
 interface Props {
   loading?: boolean;
@@ -18,7 +18,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   loading: false,
-  error: "",
+  error: '',
   perPage: 100,
 });
 
@@ -26,8 +26,10 @@ const hasError = computed(() => !!props.error);
 
 const datas = computed(() => props.datas || []);
 const perPageCount = ref(props.perPage);
-const { currentPage, displayDatas, totalPageCount, handlePageChange } =
-  usePagination(datas as Ref<T[]>, perPageCount);
+const { currentPage, displayDatas, totalPageCount, handlePageChange } = usePagination(
+  datas as Ref<T[]>,
+  perPageCount
+);
 
 // 使用全局共享的视图模式
 const { viewMode } = useViewMode();
@@ -44,9 +46,7 @@ watch(datas, () => {
 const showPagination = computed(() => {
   return datas.value.length > props.perPage;
 });
-const hasDatas = computed(
-  () => displayDatas.value && displayDatas.value.length > 0
-);
+const hasDatas = computed(() => displayDatas.value && displayDatas.value.length > 0);
 onMounted(() => {
   if (props.onLoad) {
     props.onLoad();
@@ -60,11 +60,7 @@ onMounted(() => {
     <div v-else-if="hasError" class="error">{{ error }}</div>
     <template v-else>
       <!-- 筛选器插槽 -->
-      <slot
-        name="filters"
-        :display-datas="displayDatas"
-        :total-datas="datas.length"
-      />
+      <slot name="filters" :display-datas="displayDatas" :total-datas="datas.length" />
 
       <!-- Grid内容 -->
       <div v-if="!hasDatas" class="no-results">
@@ -94,5 +90,5 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/view-styles";
+@use '../styles/view-styles';
 </style>

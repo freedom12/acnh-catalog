@@ -1,4 +1,4 @@
-import type { Version } from "./item";
+import type { Version } from './item';
 
 export const ActivityType = {
   BasegameEvent: 1,

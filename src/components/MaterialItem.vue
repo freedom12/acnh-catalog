@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { useItemsData } from "../composables/useItemsData";
-import { useItemDetailModal } from "../composables/useItemDetailModal";
+import { computed } from 'vue';
+import { useItemsData } from '../composables/useItemsData';
+import { useItemDetailModal } from '../composables/useItemDetailModal';
 
 interface Props {
   material: number;
@@ -26,9 +26,9 @@ const handleClick = () => {
 const isClickable = computed(() => !!material.value?.id);
 
 const themeClasses = computed(() => {
-  const baseClasses = ["material-item"];
+  const baseClasses = ['material-item'];
   if (isClickable.value) {
-    baseClasses.push("material-clickable");
+    baseClasses.push('material-clickable');
   }
   return baseClasses;
 });

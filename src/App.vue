@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, watch } from "vue";
-import ItemDetailModal from "./components/ItemDetailModal.vue";
-import Tooltip from "./components/Tooltip.vue";
-import { useItemDetailModal } from "./composables/useItemDetailModal";
+import { ref, onMounted, onUnmounted, watch } from 'vue';
+import ItemDetailModal from './components/ItemDetailModal.vue';
+import Tooltip from './components/Tooltip.vue';
+import { useItemDetailModal } from './composables/useItemDetailModal';
 
 // 回到顶部按钮显示状态
 const showBackToTop = ref(false);
@@ -21,13 +21,17 @@ const scrollToTop = () => {
 };
 
 // 防止滚动穿透 - 监听isOpen状态
-watch(isOpen, (open) => {
-  if (open) {
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.body.style.overflow = '';
-  }
-}, { immediate: true });
+watch(
+  isOpen,
+  (open) => {
+    if (open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  },
+  { immediate: true }
+);
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
@@ -49,11 +53,7 @@ onUnmounted(() => {
     <RouterView />
 
     <!-- 物品详情模态框 -->
-    <ItemDetailModal
-      v-if="isOpen"
-      :itemId="currentItemId"
-      @close="closeModal"
-    />
+    <ItemDetailModal v-if="isOpen" :itemId="currentItemId" @close="closeModal" />
 
     <!-- 全局 Tooltip -->
     <Tooltip />

@@ -13,80 +13,88 @@ import {
   translations,
   villagers,
   npcs,
-} from "animal-crossing";
-import fs from "fs";
-import path from "path";
+} from 'animal-crossing';
+import fs from 'fs';
+import path from 'path';
 
-const __dirname = path.join(process.cwd(), "tools");
+const __dirname = path.join(process.cwd(), 'tools');
 
-const itemsPath = path.join(__dirname, "..", "public", "acnh-items.json");
+const itemsPath = path.join(__dirname, '..', 'public', 'acnh-items.json');
 // 删除items中sourceSheet = Message Cards的项
-const filteredItems = items.filter(
-  (item) => item.sourceSheet !== "Message Cards"
-);
+const filteredItems = items.filter((item) => item.sourceSheet !== 'Message Cards');
 // 读取Interior Structures.json中的数据 并合并到filteredItems
-const interiorStructuresPath = path.join(
-  __dirname,
-  "Interior Structures.json"
-);
-const interiorStructures = JSON.parse(
-  fs.readFileSync(interiorStructuresPath, "utf-8")
-);
+const interiorStructuresPath = path.join(__dirname, 'Interior Structures.json');
+const interiorStructures = JSON.parse(fs.readFileSync(interiorStructuresPath, 'utf-8'));
 const mergedItems = filteredItems.concat(interiorStructures);
 fs.writeFileSync(itemsPath, JSON.stringify(mergedItems, null, 2));
 
 const achievementsPath = path.join(
   __dirname,
-  "..",
-  "public",
-  "config",
-  "acnh-achievements.json"
+  '..',
+  'public',
+  'config',
+  'acnh-achievements.json'
 );
 fs.writeFileSync(achievementsPath, JSON.stringify(achievements, null, 2));
 
 const constructionPath = path.join(
   __dirname,
-  "..",
-  "public",
-  "config",
-  "acnh-construction.json"
+  '..',
+  'public',
+  'config',
+  'acnh-construction.json'
 );
 fs.writeFileSync(constructionPath, JSON.stringify(construction, null, 2));
 
-const creaturesPath = path.join(__dirname, "..", "public", "config", "acnh-creatures.json");
+const creaturesPath = path.join(
+  __dirname,
+  '..',
+  'public',
+  'config',
+  'acnh-creatures.json'
+);
 fs.writeFileSync(creaturesPath, JSON.stringify(creatures, null, 2));
 
-const reactionsPath = path.join(__dirname, "..", "public", "config", "acnh-reactions.json");
+const reactionsPath = path.join(
+  __dirname,
+  '..',
+  'public',
+  'config',
+  'acnh-reactions.json'
+);
 fs.writeFileSync(reactionsPath, JSON.stringify(reactions, null, 2));
 
-const recipesPath = path.join(__dirname, "..", "public", "config", "acnh-recipes.json");
+const recipesPath = path.join(__dirname, '..', 'public', 'config', 'acnh-recipes.json');
 fs.writeFileSync(recipesPath, JSON.stringify(recipes, null, 2));
 
 const seasonsAndEventsPath = path.join(
   __dirname,
-  "..",
-  "public",
-  "config",
-  "acnh-seasons-and-events.json"
+  '..',
+  'public',
+  'config',
+  'acnh-seasons-and-events.json'
 );
-fs.writeFileSync(
-  seasonsAndEventsPath,
-  JSON.stringify(seasonsAndEvents, null, 2)
-);
+fs.writeFileSync(seasonsAndEventsPath, JSON.stringify(seasonsAndEvents, null, 2));
 
 const translationsPath = path.join(
   __dirname,
-  "..",
-  "public",
-  "config",
-  "acnh-translations.json"
+  '..',
+  'public',
+  'config',
+  'acnh-translations.json'
 );
 fs.writeFileSync(translationsPath, JSON.stringify(translations, null, 2));
 
-const villagersPath = path.join(__dirname, "..", "public", "config", "acnh-villagers.json");
+const villagersPath = path.join(
+  __dirname,
+  '..',
+  'public',
+  'config',
+  'acnh-villagers.json'
+);
 fs.writeFileSync(villagersPath, JSON.stringify(villagers, null, 2));
 
-const npcsPath = path.join(__dirname, "..", "public", "config", "acnh-npcs.json");
+const npcsPath = path.join(__dirname, '..', 'public', 'config', 'acnh-npcs.json');
 fs.writeFileSync(npcsPath, JSON.stringify(npcs, null, 2));
 
 console.log(`✅ 已生成物品数据: ${itemsPath}`);

@@ -1,4 +1,4 @@
-import type { Price } from "../services/dataService";
+import type { Price } from '../services/dataService';
 
 export interface Fossil {
   name: string;

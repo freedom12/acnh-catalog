@@ -1,11 +1,15 @@
 <script setup lang="ts">
-import { getPriceWithIcon, getItemTypeName, itemSizeNameMap } from "../services/dataService";
-import type { Artwork } from "../types/artwork";
-import BaseCard from "./BaseCard.vue";
-import { computed, ref } from "vue";
-import { processImageUrl } from "../utils/imageUtils";
-import { Teleport } from "vue";
-import { UI_TEXT } from "../constants";
+import {
+  getPriceWithIcon,
+  getItemTypeName,
+  itemSizeNameMap,
+} from '../services/dataService';
+import type { Artwork } from '../types/artwork';
+import BaseCard from './BaseCard.vue';
+import { computed, ref } from 'vue';
+import { processImageUrl } from '../utils/imageUtils';
+import { Teleport } from 'vue';
+import { UI_TEXT } from '../constants';
 
 interface Props {
   data: Artwork;
@@ -18,17 +22,15 @@ const imgs = computed(() => {
   let list = [
     {
       id: props.data.id,
-      title: "真品",
+      title: '真品',
       image: processImageUrl(props.data.image),
-      texture: props.data.texture
-        ? processImageUrl(props.data.texture)
-        : undefined,
+      texture: props.data.texture ? processImageUrl(props.data.texture) : undefined,
     },
   ];
   if (props.data.fake) {
     list.push({
       id: props.data.fake.id,
-      title: "赝品",
+      title: '赝品',
       image: processImageUrl(props.data.fake.image),
       texture: props.data.fake.texture
         ? processImageUrl(props.data.fake.texture)
@@ -47,36 +49,29 @@ const handleClosePreview = () => {
 };
 
 const handlePrevImage = () => {
-  const currentIndex = imgs.value.findIndex(
-    (img) => img.id === hoveredImageId.value
-  );
+  const currentIndex = imgs.value.findIndex((img) => img.id === hoveredImageId.value);
   if (currentIndex > 0) {
-    hoveredImageId.value =
-      imgs.value[currentIndex - 1]?.id ?? hoveredImageId.value;
+    hoveredImageId.value = imgs.value[currentIndex - 1]?.id ?? hoveredImageId.value;
   } else {
-    hoveredImageId.value =
-      imgs.value[imgs.value.length - 1]?.id ?? hoveredImageId.value;
+    hoveredImageId.value = imgs.value[imgs.value.length - 1]?.id ?? hoveredImageId.value;
   }
 };
 
 const handleNextImage = () => {
-  const currentIndex = imgs.value.findIndex(
-    (img) => img.id === hoveredImageId.value
-  );
+  const currentIndex = imgs.value.findIndex((img) => img.id === hoveredImageId.value);
   if (currentIndex < imgs.value.length - 1) {
-    hoveredImageId.value =
-      imgs.value[currentIndex + 1]?.id ?? hoveredImageId.value;
+    hoveredImageId.value = imgs.value[currentIndex + 1]?.id ?? hoveredImageId.value;
   } else {
     hoveredImageId.value = imgs.value[0]?.id ?? hoveredImageId.value;
   }
 };
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, "_blank");
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
 const handleTitleClick = () => {
-  window.open(`https://en.wikipedia.org/wiki/${props.data.title}`, "_blank");
+  window.open(`https://en.wikipedia.org/wiki/${props.data.title}`, '_blank');
 };
 </script>
 
@@ -101,9 +96,7 @@ const handleTitleClick = () => {
       </div>
     </div>
     <div class="detail-row detail-center">
-      <span class="clickable" @click="handleTitleClick">{{
-        props.data.title
-      }}</span>
+      <span class="clickable" @click="handleTitleClick">{{ props.data.title }}</span>
     </div>
     <div class="detail-row full">
       <span class="detail-label">艺术家</span>
@@ -123,9 +116,7 @@ const handleTitleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">分类</span>
-      <span class="detail-value">{{
-        getItemTypeName(props.data.itemType)
-      }}</span>
+      <span class="detail-value">{{ getItemTypeName(props.data.itemType) }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">尺寸</span>
@@ -171,10 +162,7 @@ const handleTitleClick = () => {
 
           <!-- 下一张按钮 -->
           <button
-            v-if="
-              imgs.findIndex((img) => img.id === hoveredImageId) <
-              imgs.length - 1
-            "
+            v-if="imgs.findIndex((img) => img.id === hoveredImageId) < imgs.length - 1"
             class="nav-btn nav-btn-next"
             @click="handleNextImage"
             aria-label="下一张"
@@ -216,7 +204,7 @@ const handleTitleClick = () => {
 
 .thumbnail:hover {
   background-color: #ddd;
-} 
+}
 
 .image-title {
   font-size: 12px;

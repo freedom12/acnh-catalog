@@ -1,4 +1,4 @@
-import type { Color, Version } from "./index";
+import type { Color, Version } from './index';
 
 export const Gender = {
   Female: 1,
@@ -20,10 +20,11 @@ export const Personality = {
 export type Personality = (typeof Personality)[keyof typeof Personality];
 
 export const PersonalitySubtype = {
-  A: "A",
-  B: "B",
+  A: 'A',
+  B: 'B',
 } as const;
-export type PersonalitySubtype = (typeof PersonalitySubtype)[keyof typeof PersonalitySubtype];
+export type PersonalitySubtype =
+  (typeof PersonalitySubtype)[keyof typeof PersonalitySubtype];
 
 export const Hobby = {
   Education: 1,
@@ -36,7 +37,7 @@ export const Hobby = {
 export type Hobby = (typeof Hobby)[keyof typeof Hobby];
 
 export const Species = {
-  Alligator:1,
+  Alligator: 1,
   Anteater: 2,
   Bear: 3,
   BearCub: 4,
@@ -48,7 +49,7 @@ export const Species = {
   Deer: 10,
   Dog: 11,
   Duck: 12,
-  Eagle:13,
+  Eagle: 13,
   Elephant: 14,
   Frog: 15,
   Goat: 16,
