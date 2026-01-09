@@ -288,47 +288,47 @@ const patternGroups = groupNames.map((name, index) => ({
 }));
 
 const polishings = [
-  'polishing_1.png',
-  'polishing_2.png',
-  'polishing_3.png',
-  'polishing_4.png',
-  'polishing_5.png',
-  'polishing_6.png',
-  'polishing_7.png',
-  'polishing_8.png',
-  'polishing_9.png',
-  'polishing_10.png',
-  'polishing_11.png',
-  'polishing_12.png',
-  'polishing_13.png',
-  'polishing_14.png',
+  { name: '闪亮', file: 'polishing_1.png' },
+  { name: '爱心', file: 'polishing_2.png' },
+  { name: '漩涡', file: 'polishing_3.png' },
+  { name: '神圣', file: 'polishing_4.png' },
+  { name: '水滴', file: 'polishing_5.png' },
+  { name: '温馨', file: 'polishing_6.png' },
+  { name: '阴沉', file: 'polishing_7.png' },
+  { name: '蒸汽', file: 'polishing_8.png' },
+  { name: '寒气', file: 'polishing_9.png' },
+  { name: '电流', file: 'polishing_10.png' },
+  { name: '气味', file: 'polishing_11.png' },
+  { name: '震动', file: 'polishing_12.png' },
+  { name: '翩翩飞舞', file: 'polishing_13.png' },
+  { name: '信息框', file: 'polishing_14.png' },
 ];
 
 const soundscapes = [
-  'soundscape_0.png',
-  'soundscape_1.png',
-  'soundscape_2.png',
-  'soundscape_3.png',
-  'soundscape_4.png',
-  'soundscape_5.png',
-  'soundscape_6.png',
-  'soundscape_7.png',
-  'soundscape_8.png',
-  'soundscape_9.png',
-  'soundscape_10.png',
-  'soundscape_11.png',
-  'soundscape_12.png',
-  'soundscape_13.png',
-  'soundscape_14.png',
-  'soundscape_15.png',
-  'soundscape_16.png',
-  'soundscape_17.png',
-  'soundscape_18.png',
-  'soundscape_19.png',
-  'soundscape_20.png',
-  'soundscape_21.png',
-  'soundscape_22.png',
-  'soundscape_23.png',
+  { name: '无', file: 'soundscape_0.png' },
+  { name: '回声', file: 'soundscape_1.png' },
+  { name: '海', file: 'soundscape_2.png' },
+  { name: '水中', file: 'soundscape_3.png' },
+  { name: '高原', file: 'soundscape_4.png' },
+  { name: '森林', file: 'soundscape_5.png' },
+  { name: '丛林', file: 'soundscape_6.png' },
+  { name: '洞穴', file: 'soundscape_7.png' },
+  { name: '风', file: 'soundscape_8.png' },
+  { name: '雨', file: 'soundscape_9.png' },
+  { name: '暴风雨', file: 'soundscape_10.png' },
+  { name: '地面震动', file: 'soundscape_11.png' },
+  { name: '广场', file: 'soundscape_12.png' },
+  { name: '都会', file: 'soundscape_13.png' },
+  { name: '嘈杂', file: 'soundscape_14.png' },
+  { name: '欢呼', file: 'soundscape_15.png' },
+  { name: '火车', file: 'soundscape_16.png' },
+  { name: '施工', file: 'soundscape_17.png' },
+  { name: '工厂', file: 'soundscape_18.png' },
+  { name: '小巷', file: 'soundscape_19.png' },
+  { name: '太空', file: 'soundscape_20.png' },
+  { name: '网络', file: 'soundscape_21.png' },
+  { name: '治愈', file: 'soundscape_22.png' },
+  { name: '嘎嘎作响', file: 'soundscape_23.png' },
 ];
 </script>
 
@@ -344,9 +344,12 @@ const soundscapes = [
       </h2>
       <transition name="slide">
         <div v-show="expandedSections.polishings" class="misc-grid">
-          <div v-for="polishing in polishings" :key="polishing" class="misc-item">
-            <img :src="`${baseUrl}img/polishing/${polishing}`" :alt="polishing" />
-            <!-- <p>{{ polishing }}</p> -->
+          <div v-for="polishing in polishings" :key="polishing.file" class="misc-item">
+            <img
+              :src="`${baseUrl}img/polishing/${polishing.file}`"
+              :alt="polishing.name"
+            />
+            <p class="item-name">{{ polishing.name }}</p>
           </div>
         </div>
       </transition>
@@ -362,9 +365,12 @@ const soundscapes = [
       </h2>
       <transition name="slide">
         <div v-show="expandedSections.soundscapes" class="misc-grid">
-          <div v-for="soundscape in soundscapes" :key="soundscape" class="misc-item">
-            <img :src="`${baseUrl}img/soundscape/${soundscape}`" :alt="soundscape" />
-            <!-- <p>{{ soundscape }}</p> -->
+          <div v-for="soundscape in soundscapes" :key="soundscape.file" class="misc-item">
+            <img
+              :src="`${baseUrl}img/soundscape/${soundscape.file}`"
+              :alt="soundscape.name"
+            />
+            <p class="item-name">{{ soundscape.name }}</p>
           </div>
         </div>
       </transition>
@@ -376,7 +382,7 @@ const soundscapes = [
         class="section-header"
       >
         <span class="toggle-icon">{{ expandedSections.patterns ? '▼' : '▶' }}</span>
-        花纹样式
+        图案样式
       </h2>
       <transition name="slide">
         <div v-show="expandedSections.patterns">
@@ -498,6 +504,17 @@ const soundscapes = [
   height: 100px;
   object-fit: contain;
   flex-shrink: 0;
+}
+
+.item-name {
+  /* margin-top: 8px; */
+  font-size: 0.9em;
+  text-align: center;
+  color: var(--text-color);
+  font-weight: 500;
+  background: #ddd;
+  padding: 4px 20px;
+  border-radius: var(--border-radius-xl);
 }
 
 .group-header {
