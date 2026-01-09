@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted, watch } from 'vue';
 import ItemDetailModal from './components/ItemDetailModal.vue';
 import Tooltip from './components/Tooltip.vue';
+import AudioPlayer from './components/AudioPlayer.vue';
 import { useItemDetailModal } from './composables/useItemDetailModal';
 
 // 回到顶部按钮显示状态
@@ -57,6 +58,9 @@ onUnmounted(() => {
 
     <!-- 全局 Tooltip -->
     <Tooltip />
+
+    <!-- 全局音频播放器 -->
+    <AudioPlayer />
 
     <!-- 回到顶部按钮 -->
     <button

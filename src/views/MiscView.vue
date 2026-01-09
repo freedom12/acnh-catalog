@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { BASE_PATH } from '../config';
+import { useAudioPlayer } from '../composables/useAudioPlayer';
 
 const baseUrl = BASE_PATH;
+const { playTrack } = useAudioPlayer();
+
 const expandedSections = ref({
   patterns: true,
   polishings: true,
@@ -306,31 +309,39 @@ const polishings = [
 ];
 
 const soundscapes = [
-  { name: '无', file: 'soundscape_0.png' },
-  { name: '回声', file: 'soundscape_1.png' },
-  { name: '海', file: 'soundscape_2.png' },
-  { name: '水中', file: 'soundscape_3.png' },
-  { name: '高原', file: 'soundscape_4.png' },
-  { name: '森林', file: 'soundscape_5.png' },
-  { name: '丛林', file: 'soundscape_6.png' },
-  { name: '洞穴', file: 'soundscape_7.png' },
-  { name: '风', file: 'soundscape_8.png' },
-  { name: '雨', file: 'soundscape_9.png' },
-  { name: '暴风雨', file: 'soundscape_10.png' },
-  { name: '地面震动', file: 'soundscape_11.png' },
-  { name: '广场', file: 'soundscape_12.png' },
-  { name: '都会', file: 'soundscape_13.png' },
-  { name: '嘈杂', file: 'soundscape_14.png' },
-  { name: '欢呼', file: 'soundscape_15.png' },
-  { name: '火车', file: 'soundscape_16.png' },
-  { name: '施工', file: 'soundscape_17.png' },
-  { name: '工厂', file: 'soundscape_18.png' },
-  { name: '小巷', file: 'soundscape_19.png' },
-  { name: '太空', file: 'soundscape_20.png' },
-  { name: '网络', file: 'soundscape_21.png' },
-  { name: '治愈', file: 'soundscape_22.png' },
-  { name: '嘎嘎作响', file: 'soundscape_23.png' },
+  { name: '无', file: 'soundscape_a.png', audio: null },
+  { name: '回声', file: 'soundscape_b.png', audio: null },
+  { name: '海', file: 'soundscape_1.png', audio: '1.flac' },
+  { name: '水中', file: 'soundscape_2.png', audio: '2.flac' },
+  { name: '高原', file: 'soundscape_3.png', audio: '3.flac' },
+  { name: '森林', file: 'soundscape_4.png', audio: '4.flac' },
+  { name: '丛林', file: 'soundscape_5.png', audio: '5.flac' },
+  { name: '洞穴', file: 'soundscape_6.png', audio: '6.flac' },
+  { name: '风', file: 'soundscape_7.png', audio: '7.flac' },
+  { name: '雨', file: 'soundscape_8.png', audio: '8.flac' },
+  { name: '暴风雨', file: 'soundscape_9.png', audio: '9.flac' },
+  { name: '地面震动', file: 'soundscape_10.png', audio: '10.flac' },
+  { name: '广场', file: 'soundscape_11.png', audio: '11.flac' },
+  { name: '都会', file: 'soundscape_12.png', audio: '12.flac' },
+  { name: '嘈杂', file: 'soundscape_13.png', audio: '13.flac' },
+  { name: '欢呼', file: 'soundscape_14.png', audio: '14.flac' },
+  { name: '火车', file: 'soundscape_15.png', audio: '15.flac' },
+  { name: '施工', file: 'soundscape_16.png', audio: '16.flac' },
+  { name: '工厂', file: 'soundscape_17.png', audio: '17.flac' },
+  { name: '小巷', file: 'soundscape_18.png', audio: '18.flac' },
+  { name: '太空', file: 'soundscape_19.png', audio: '19.flac' },
+  { name: '网络', file: 'soundscape_20.png', audio: '20.flac' },
+  { name: '治愈', file: 'soundscape_21.png', audio: '21.flac' },
+  { name: '嘎嘎作响', file: 'soundscape_22.png', audio: '22.flac' },
 ];
+
+const playSoundscape = (soundscape: { name: string; file: string; audio: string | null }) => {
+  if (!soundscape.audio) return;
+  playTrack({
+    title: `环境音: ${soundscape.name}`,
+    url: `${baseUrl}sound/soundscape/${soundscape.audio}`,
+  });
+};
 </script>
 
 <template>
@@ -366,12 +377,19 @@ const soundscapes = [
       </h2>
       <transition name="slide">
         <div v-show="expandedSections.soundscapes" class="misc-grid">
-          <div v-for="soundscape in soundscapes" :key="soundscape.file" class="misc-item">
+          <div
+            v-for="soundscape in soundscapes"
+            :key="soundscape.file"
+            class="misc-item"
+            :class="{ 'clickable': soundscape.audio, 'unclickable': !soundscape.audio }"
+            @click="playSoundscape(soundscape)"
+          >
             <img
               :src="`${baseUrl}img/soundscape/${soundscape.file}`"
               :alt="soundscape.name"
             />
             <p class="item-name">{{ soundscape.name }}</p>
+            <span v-if="soundscape.audio" class="play-icon">🎵</span>
           </div>
         </div>
       </transition>
@@ -409,7 +427,7 @@ const soundscapes = [
                 <div
                   v-for="pattern in group.patterns"
                   :key="pattern"
-                  class="misc-item"
+                  class="misc-item clickable"
                   @click="openPatternModal(pattern)"
                 >
                   <img :src="`${baseUrl}img/pattern/${pattern}`" :alt="pattern" />
@@ -498,6 +516,36 @@ const soundscapes = [
   padding: 10px;
   background: white;
   box-sizing: border-box;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.misc-item.clickable {
+  cursor: pointer;
+}
+
+.misc-item.clickable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-color);
+}
+
+.misc-item.unclickable {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.play-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.misc-item.clickable:hover .play-icon {
+  opacity: 1;
 }
 
 .misc-item img {

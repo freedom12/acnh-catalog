@@ -15,3 +15,4 @@ export { useRecipesData } from './useRecipesData';
 export { useConstructionData } from './useConstructionData';
 export { useMessageCardsData } from './useMessageCardsData';
 export { useArtworkData } from './useArtworkData';
+export { useAudioPlayer } from './useAudioPlayer';
