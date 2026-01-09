@@ -276,6 +276,10 @@
   color: var(--main-color);
 }
 
+.card-name:last-child {
+  margin-bottom: 0;
+}
+
 .card-details {
   display: flex;
   flex-direction: column;

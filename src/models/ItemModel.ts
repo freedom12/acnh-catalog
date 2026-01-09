@@ -229,12 +229,12 @@ export class ItemModel {
     return getHHACategoryName(this.hhaCategory) || '--';
   }
 
-  get closingThemes(): string[] {
+  get clothingThemes(): string[] {
     return this._data.themes || [];
   }
 
-  get closingThemeNames(): string[] {
-    return this.closingThemes.map((t) => getClothingThemeName(t) || t);
+  get clothingThemeNames(): string[] {
+    return this.clothingThemes.map((t) => getClothingThemeName(t) || t);
   }
 
   get clothingStyles(): string[] {
@@ -494,7 +494,7 @@ export class ItemModel {
 
   matchesTheme(theme: string): boolean {
     if (!theme) return true;
-    return this.closingThemes.includes(theme);
+    return this.clothingThemes.includes(theme);
   }
 
   matchesStyle(style: string): boolean {

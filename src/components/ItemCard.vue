@@ -31,7 +31,7 @@ const patternIndex = computed({
 const currentVariant = computed(() => itemModel.currentVariant);
 const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
-const displayName = computed(() => itemModel.getDisplayName());
+// const displayName = computed(() => itemModel.getDisplayName());
 const displayImages = computed(() => itemModel.getDisplayImages());
 const displayCusCostStrs = computed(() => {
   return itemModel.getCostStrs();
@@ -68,7 +68,7 @@ const handleClick = () => {
     :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
-    :displayName="displayName"
+    :displayName="itemModel.name"
     :shape="'rounded'"
     @click="handleClick"
   >
@@ -121,7 +121,7 @@ const handleClick = () => {
     </div>
     <div v-if="itemModel.isClothing" class="detail-row">
       <span class="detail-label">服饰主题</span>
-      <span class="detail-value">{{ joinArray(itemModel.closingThemeNames) }}</span>
+      <span class="detail-value">{{ joinArray(itemModel.clothingThemeNames) }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">季节/庆典</span>
@@ -165,8 +165,9 @@ const handleClick = () => {
           :title="itemModel.typeName"
           class="inline-icon"
         />
-        {{ itemModel.vTitleName }}
+        {{ itemModel.vTitleName }} - {{ itemModel.currentVariant?.name }}
       </span>
+      <span class="variants-label"></span>
       <div class="variants-list">
         <span
           v-for="(vg, vIdx) in itemModel.variantGroups"
@@ -191,7 +192,7 @@ const handleClick = () => {
           :title="itemModel.typeName"
           class="inline-icon"
         />
-        {{ itemModel.pTitleName }}
+        {{ itemModel.pTitleName }} - {{ itemModel.currentPattern?.name }}
       </span>
       <div v-if="itemModel.hasPatterns" class="variants-list">
         <span
@@ -207,7 +208,11 @@ const handleClick = () => {
           {{ pIdx + 1 }}
         </span>
       </div>
-      <div v-if="itemModel.canCustomize" class="detail-row">
+      <div
+        v-if="itemModel.canCustomize"
+        class="detail-row"
+        style="border: 2px #ffea9e solid; background: #fff9e6"
+      >
         <span class="detail-label">花费</span>
         <span class="detail-value">
           <div v-for="(str, index) in displayCusCostStrs" :key="index" v-html="str"></div>

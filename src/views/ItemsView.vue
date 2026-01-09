@@ -116,7 +116,7 @@ const filters = computed<Filter[]>(() => {
   // 服饰主题选项
   const themesSet = new Set<string>();
   itemsArray.forEach((item) => {
-    item.closingThemes.forEach((theme) => themesSet.add(theme));
+    item.clothingThemes.forEach((theme) => themesSet.add(theme));
   });
   const themesOptions = [...themesSet]
     .map((theme) => ({
