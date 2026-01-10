@@ -33,7 +33,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'artworks',
         name: 'Artworks',
-        component: () => import('../views/ArtworkView.vue'),
+        component: () => import('../views/ArtworksView.vue'),
       },
       {
         path: 'plants',
@@ -41,9 +41,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('../views/PlantsView.vue'),
       },
       {
-        path: 'music',
-        name: 'Music',
-        component: () => import('../views/MusicView.vue'),
+        path: 'musics',
+        name: 'Musics',
+        component: () => import('../views/MusicsView.vue'),
       },
       {
         path: 'villagers',
@@ -63,15 +63,15 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'constructions',
         name: 'Constructions',
-        component: () => import('../views/ConstructionView.vue'),
+        component: () => import('../views/ConstructionsView.vue'),
       },
       {
         path: 'message-cards',
         name: 'MessageCards',
-        component: () => import('../views/MessageCardView.vue'),
+        component: () => import('../views/MessageCardsView.vue'),
       },
       {
-        path: 'patterns',
+        path: 'misc',
         name: 'Misc',
         component: () => import('../views/MiscView.vue'),
       },

@@ -2,7 +2,7 @@
 import type { Creature } from '../types/creature';
 import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import {
   getPriceWithIcon,
@@ -14,14 +14,6 @@ const props = defineProps<{
   data: Creature;
   hemisphere: 'north' | 'south';
 }>();
-
-// 当前图片索引
-const currentImageIndex = ref(0);
-
-// 当前形状
-const currentShape = computed(() =>
-  currentImageIndex.value === 0 ? 'circle' : 'rounded'
-);
 
 // 获取月份信息
 const getMonths = (creature: Creature): string => {
@@ -47,11 +39,6 @@ const getLocation = (creature: Creature): string => {
 
 const handleClick = () => {
   window.open(`https://nookipedia.com/wiki/${props.data.name}`, '_blank');
-};
-
-// 图片索引变更处理函数
-const handleImageIndexChanged = (index: number) => {
-  currentImageIndex.value = index;
 };
 
 // 根据生物类型选择颜色主题
@@ -100,9 +87,8 @@ const variant = computed(() => {
     :version="props.data.ver"
     :images="props.data.images.map(processImageUrl)"
     :displayName="props.data.name"
-    :shape="currentShape"
+    shape="rounded"
     @click="handleClick"
-    @image-index-changed="handleImageIndexChanged"
   >
     <div class="detail-row">
       <span class="detail-label">分类</span>

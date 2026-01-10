@@ -7,7 +7,7 @@
     "images": [
       "latest/MenuIcon/PltOak"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 240,
     "product": 5727,
     "seeds": 2794
@@ -20,7 +20,7 @@
     "images": [
       "latest/MenuIcon/PltConifer"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 240,
     "product": 5728,
     "seeds": 2800
@@ -33,7 +33,7 @@
     "images": [
       "latest/MenuIcon/PltMoney"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 240,
     "product": 7731,
     "seeds": 2794
@@ -46,7 +46,7 @@
     "images": [
       "latest/MenuIcon/PltApple"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 300,
     "product": 2213,
     "seeds": 2213
@@ -59,7 +59,7 @@
     "images": [
       "latest/MenuIcon/PltOrange"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 300,
     "product": 2214,
     "seeds": 2214
@@ -72,7 +72,7 @@
     "images": [
       "latest/MenuIcon/PltPear"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 300,
     "product": 2285,
     "seeds": 2285
@@ -85,7 +85,7 @@
     "images": [
       "latest/MenuIcon/PltPeach"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 300,
     "product": 2286,
     "seeds": 2286
@@ -98,7 +98,7 @@
     "images": [
       "latest/MenuIcon/PltCherry"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 300,
     "product": 2287,
     "seeds": 2287
@@ -111,7 +111,7 @@
     "images": [
       "latest/MenuIcon/PltPalm"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 500,
     "product": 2288,
     "seeds": 2288
@@ -124,7 +124,7 @@
     "images": [
       "latest/MenuIcon/PltBamboo"
     ],
-    "type": "树木",
+    "type": 1,
     "sell": 1500,
     "product": 2295,
     "seeds": 2295
@@ -137,7 +137,7 @@
     "images": [
       "latest/MenuIcon/PltHolly"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3024
   },
@@ -149,7 +149,7 @@
     "images": [
       "latest/MenuIcon/PltAzaleaWhite"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 2820
   },
@@ -161,7 +161,7 @@
     "images": [
       "latest/MenuIcon/PltAzaleaPink"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3786
   },
@@ -173,7 +173,7 @@
     "images": [
       "latest/MenuIcon/PltHibiscusRed"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3019
   },
@@ -185,7 +185,7 @@
     "images": [
       "latest/MenuIcon/PltHibiscusYellow"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3790
   },
@@ -197,7 +197,7 @@
     "images": [
       "latest/MenuIcon/PltHydrangeaPink"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3794
   },
@@ -209,7 +209,7 @@
     "images": [
       "latest/MenuIcon/PltHydrangeaBlue"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 3798
   },
@@ -221,7 +221,7 @@
     "images": [
       "latest/MenuIcon/PltBushOsmathusYellow"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 12476
   },
@@ -233,7 +233,7 @@
     "images": [
       "latest/MenuIcon/PltBushOsmathusOrange"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 12480
   },
@@ -245,7 +245,7 @@
     "images": [
       "latest/MenuIcon/PltBushCamelliaRed"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 12487
   },
@@ -257,7 +257,7 @@
     "images": [
       "latest/MenuIcon/PltBushCamelliaPink"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 12490
   },
@@ -269,7 +269,7 @@
     "images": [
       "latest/MenuIcon/PltBushPlumeriaPink"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 13262
   },
@@ -281,7 +281,7 @@
     "images": [
       "latest/MenuIcon/PltBushPlumeriaWhite"
     ],
-    "type": "灌木",
+    "type": 2,
     "sell": 140,
     "seeds": 13348
   },
@@ -293,7 +293,7 @@
     "images": [
       "latest/MenuIcon/PltTomato"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 2570,
     "seeds": 2649
@@ -306,7 +306,7 @@
     "images": [
       "latest/MenuIcon/PltWheat"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 3029,
     "seeds": 3030
@@ -319,7 +319,7 @@
     "images": [
       "latest/MenuIcon/PltSugarCane"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 3034,
     "seeds": 3035
@@ -332,7 +332,7 @@
     "images": [
       "latest/MenuIcon/PltPotato"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 3039,
     "seeds": 3040
@@ -345,7 +345,7 @@
     "images": [
       "latest/MenuIcon/PltCarrot"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 3044,
     "seeds": 3045
@@ -358,7 +358,7 @@
     "images": [
       "latest/MenuIcon/PltSquashOrange"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 4525,
     "seeds": 13227
@@ -371,7 +371,7 @@
     "images": [
       "latest/MenuIcon/PltSquashYellow"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 4526,
     "seeds": 13227
@@ -384,7 +384,7 @@
     "images": [
       "latest/MenuIcon/PltSquashGreen"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 4527,
     "seeds": 13227
@@ -397,7 +397,7 @@
     "images": [
       "latest/MenuIcon/PltSquashWhite"
     ],
-    "type": "作物",
+    "type": 3,
     "sell": 350,
     "product": 4528,
     "seeds": 13227
@@ -410,7 +410,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3709,
     "seeds": 3710
@@ -423,7 +423,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3713,
     "seeds": 3714
@@ -436,7 +436,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3723,
     "seeds": 3724
@@ -449,7 +449,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3717
   },
@@ -461,7 +461,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3720
   },
@@ -473,7 +473,7 @@
     "images": [
       "latest/MenuIcon/PltAnemone4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 3727
   },
@@ -485,7 +485,7 @@
     "images": [
       "latest/MenuIcon/PltPansi0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2907,
     "seeds": 2908
@@ -498,7 +498,7 @@
     "images": [
       "latest/MenuIcon/PltPansi2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2911,
     "seeds": 2912
@@ -511,7 +511,7 @@
     "images": [
       "latest/MenuIcon/PltPansi1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2915,
     "seeds": 2916
@@ -524,7 +524,7 @@
     "images": [
       "latest/MenuIcon/PltPansi4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2919
   },
@@ -536,7 +536,7 @@
     "images": [
       "latest/MenuIcon/PltPansi3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 2923
   },
@@ -548,7 +548,7 @@
     "images": [
       "latest/MenuIcon/PltPansi5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2927
   },
@@ -560,7 +560,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2863,
     "seeds": 2864
@@ -573,7 +573,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2304,
     "seeds": 2626
@@ -586,7 +586,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2305,
     "seeds": 2629
@@ -599,7 +599,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2867
   },
@@ -611,7 +611,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2871
   },
@@ -623,7 +623,7 @@
     "images": [
       "latest/MenuIcon/PltCosmos5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 2875
   },
@@ -635,7 +635,7 @@
     "images": [
       "latest/MenuIcon/PltMum0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3754,
     "seeds": 3755
@@ -648,7 +648,7 @@
     "images": [
       "latest/MenuIcon/PltMum1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3758,
     "seeds": 3759
@@ -661,7 +661,7 @@
     "images": [
       "latest/MenuIcon/PltMum2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3768,
     "seeds": 3769
@@ -674,7 +674,7 @@
     "images": [
       "latest/MenuIcon/PltMum3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3765
   },
@@ -686,7 +686,7 @@
     "images": [
       "latest/MenuIcon/PltMum5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3762
   },
@@ -698,7 +698,7 @@
     "images": [
       "latest/MenuIcon/PltMum4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 5175
   },
@@ -710,7 +710,7 @@
     "images": [
       "latest/MenuIcon/PltYuri0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2979,
     "seeds": 2980
@@ -723,7 +723,7 @@
     "images": [
       "latest/MenuIcon/PltYuri2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2983,
     "seeds": 2984
@@ -736,7 +736,7 @@
     "images": [
       "latest/MenuIcon/PltYuri1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2987,
     "seeds": 2988
@@ -749,7 +749,7 @@
     "images": [
       "latest/MenuIcon/PltYuri4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2991
   },
@@ -761,7 +761,7 @@
     "images": [
       "latest/MenuIcon/PltYuri3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2995
   },
@@ -773,7 +773,7 @@
     "images": [
       "latest/MenuIcon/PltYuri5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2999
   },
@@ -785,7 +785,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3730,
     "seeds": 3731
@@ -798,7 +798,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3734,
     "seeds": 3735
@@ -811,7 +811,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 3744,
     "seeds": 3745
@@ -824,7 +824,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3738
   },
@@ -836,7 +836,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3741
   },
@@ -848,7 +848,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth6"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 3748
   },
@@ -860,7 +860,7 @@
     "images": [
       "latest/MenuIcon/PltHyacinth5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 3751
   },
@@ -872,7 +872,7 @@
     "images": [
       "latest/MenuIcon/PltTurip1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2879,
     "seeds": 2880
@@ -885,7 +885,7 @@
     "images": [
       "latest/MenuIcon/PltTurip0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2883,
     "seeds": 2884
@@ -898,7 +898,7 @@
     "images": [
       "latest/MenuIcon/PltTurip2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2887,
     "seeds": 2888
@@ -911,7 +911,7 @@
     "images": [
       "latest/MenuIcon/PltTurip3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2891
   },
@@ -923,7 +923,7 @@
     "images": [
       "latest/MenuIcon/PltTurip6"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2895
   },
@@ -935,7 +935,7 @@
     "images": [
       "latest/MenuIcon/PltTurip4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 2899
   },
@@ -947,7 +947,7 @@
     "images": [
       "latest/MenuIcon/PltTurip5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2903
   },
@@ -959,7 +959,7 @@
     "images": [
       "latest/MenuIcon/PltRose1"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2931,
     "seeds": 2932
@@ -972,7 +972,7 @@
     "images": [
       "latest/MenuIcon/PltRose0"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2935,
     "seeds": 2936
@@ -985,7 +985,7 @@
     "images": [
       "latest/MenuIcon/PltRose2"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 40,
     "product": 2939,
     "seeds": 2940
@@ -998,7 +998,7 @@
     "images": [
       "latest/MenuIcon/PltRose3"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2943
   },
@@ -1010,7 +1010,7 @@
     "images": [
       "latest/MenuIcon/PltRose4"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 80,
     "product": 2947
   },
@@ -1022,7 +1022,7 @@
     "images": [
       "latest/MenuIcon/PltRose5"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 2951
   },
@@ -1034,7 +1034,7 @@
     "images": [
       "latest/MenuIcon/PltRose6"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 240,
     "product": 2955
   },
@@ -1046,7 +1046,7 @@
     "images": [
       "latest/MenuIcon/PltRose7"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 1000,
     "product": 2959
   },
@@ -1058,7 +1058,7 @@
     "images": [
       "latest/MenuIcon/PltGoldenRose"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 1000,
     "product": 2963
   },
@@ -1070,7 +1070,7 @@
     "images": [
       "latest/MenuIcon/PltSuzuran"
     ],
-    "type": "花朵",
+    "type": 4,
     "sell": 222
   },
   {
@@ -1082,7 +1082,7 @@
       "latest/MenuIcon/Mush0",
       "latest/FtrIcon/MushSplendid"
     ],
-    "type": "菌类",
+    "type": 5,
     "sell": 10000
   },
   {
@@ -1094,7 +1094,7 @@
       "latest/MenuIcon/Mush1",
       "latest/FtrIcon/MushRound"
     ],
-    "type": "菌类",
+    "type": 5,
     "sell": 200
   },
   {
@@ -1106,7 +1106,7 @@
       "latest/MenuIcon/Mush2",
       "latest/FtrIcon/MushSlender"
     ],
-    "type": "菌类",
+    "type": 5,
     "sell": 300
   },
   {
@@ -1118,7 +1118,7 @@
       "latest/MenuIcon/Mush3",
       "latest/FtrIcon/MushFlat"
     ],
-    "type": "菌类",
+    "type": 5,
     "sell": 200
   },
   {
@@ -1130,7 +1130,7 @@
       "latest/MenuIcon/Mush4",
       "latest/FtrIcon/MushRare"
     ],
-    "type": "菌类",
+    "type": 5,
     "sell": 16000
   },
   {
@@ -1142,7 +1142,7 @@
       "latest/MenuIcon/Weed",
       "latest/FtrIcon/PltWeed"
     ],
-    "type": "其他",
+    "type": 6,
     "sell": 10
   },
   {
@@ -1154,7 +1154,7 @@
       "latest/MenuIcon/PltWeedLight",
       "latest/FtrIcon/PltWeedLight"
     ],
-    "type": "其他",
+    "type": 6,
     "sell": 25
   },
   {
@@ -1166,7 +1166,7 @@
       "latest/MenuIcon/PltVine",
       "latest/FtrIcon/PltVine"
     ],
-    "type": "其他",
+    "type": 6,
     "sell": 50
   }
 ]

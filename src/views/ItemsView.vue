@@ -158,7 +158,8 @@ const filters = computed<Filter[]>(() => {
     const tagsSet = new Set(
       itemsArray
         .map((item) => {
-          if (item.tag && item.type === ItemType.Rugs) {
+          if (item.tag) {
+            //} && item.type === ItemType.Rugs) {
             return item.tag;
           } else {
             return null;

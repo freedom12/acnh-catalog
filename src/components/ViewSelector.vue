@@ -12,18 +12,18 @@ const route = useRoute();
 
 const views: ViewItem[] = [
   { path: '/items', label: '物品', icon: ENTITY_ICONS.ITEMS },
+  { path: '/recipes', label: '配方', icon: ENTITY_ICONS.RECIPES },
   { path: '/villagers', label: '村民', icon: ENTITY_ICONS.VILLAGERS },
   { path: '/npcs', label: '角色', icon: ENTITY_ICONS.NPCS },
   { path: '/creatures', label: '生物', icon: ENTITY_ICONS.CREATURES },
   { path: '/fossils', label: '化石', icon: ENTITY_ICONS.FOSSILS },
   { path: '/artworks', label: '艺术品', icon: ENTITY_ICONS.ARTWORKS },
   { path: '/plants', label: '植物', icon: ENTITY_ICONS.PLANTS },
-  { path: '/music', label: '音乐', icon: ENTITY_ICONS.MUSICS },
+  { path: '/musics', label: '音乐', icon: ENTITY_ICONS.MUSICS },
   { path: '/reactions', label: '表情', icon: ENTITY_ICONS.REACTIONS },
-  { path: '/recipes', label: '配方', icon: ENTITY_ICONS.RECIPES },
-  { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTION },
+  { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTIONS },
   { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
-  { path: '/patterns', label: '杂项', icon: ENTITY_ICONS.MISC },
+  { path: '/misc', label: '杂项', icon: ENTITY_ICONS.MISC },
 ];
 
 const isActive = (path: string) => {

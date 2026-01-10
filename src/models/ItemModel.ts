@@ -557,6 +557,15 @@ export class ItemModel {
       } else {
         return 1;
       }
+    } else if (this.type === ItemType.Creature) {
+      const tag = this.tag;
+      if (tag === 'Insects') {
+        return 1;
+      } else if (tag === 'Fish') {
+        return 2;
+      } else if (tag === 'Sea Creatures') {
+        return 3;
+      }
     }
     return 0;
   }

@@ -14,9 +14,9 @@ import {
   Personality,
   Hobby,
   Species,
+  PlantType,
 } from '../types';
 import { RecipeType, type Recipe } from '../types/recipe';
-
 import { ConstructionType, type Construction } from '../types/construction';
 import type { MessageCard } from '../types/messagecard';
 import type { Music } from '../types/music';
@@ -481,6 +481,22 @@ export function getItemTypeIcon(type: ItemType): string {
 
 export function getItemSubtypeIcon(type: ItemType, subtype: number): string {
   return getImgUrl(`img/icon/item_subtype/type_${type}_${subtype}.png`);
+}
+
+export const PlantTypeNameMap: Record<PlantType, string> = {
+  [PlantType.Tree]: '树木',
+  [PlantType.Bush]: '灌木',
+  [PlantType.Crop]: '作物',
+  [PlantType.Flower]: '花朵',
+  [PlantType.Mushroom]: '菌类',
+  [PlantType.Other]: '其他',
+};
+export function getPlantTypeName(type: PlantType): string {
+  return PlantTypeNameMap[type];
+}
+
+export function getPlantTypeIcon(type: PlantType): string {
+  return getImgUrl(`img/icon/plant_type/plant_type_${type}.png`);
 }
 
 export async function loadItemsData(): Promise<Item[]> {

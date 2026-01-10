@@ -6,9 +6,7 @@
     "name": "白粉蝶",
     "rawName": "common butterfly",
     "images": [
-      "latest/MenuIcon/Ins0",
-      "latest/BookInsectIcon/InsectMonshirochoCropped",
-      "latest/FtrIcon/FtrInsectMonshirochoCropped"
+      "latest/BookInsectIcon/InsectMonshirochoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -106,9 +104,7 @@
     "name": "斑缘点粉蝶",
     "rawName": "yellow butterfly",
     "images": [
-      "latest/MenuIcon/Ins1",
-      "latest/BookInsectIcon/InsectMonkichoCropped",
-      "latest/FtrIcon/FtrInsectMonkichoCropped"
+      "latest/BookInsectIcon/InsectMonkichoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -199,9 +195,7 @@
     "name": "凤蝶",
     "rawName": "tiger butterfly",
     "images": [
-      "latest/MenuIcon/Ins2",
-      "latest/BookInsectIcon/InsectAgehachoCropped",
-      "latest/FtrIcon/FtrInsectAgehachoCropped"
+      "latest/BookInsectIcon/InsectAgehachoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -293,9 +287,7 @@
     "name": "乌鸦凤蝶",
     "rawName": "peacock butterfly",
     "images": [
-      "latest/MenuIcon/Ins3",
-      "latest/BookInsectIcon/InsectKarasuagehaCropped",
-      "latest/FtrIcon/FtrInsectKarasuagehaCropped"
+      "latest/BookInsectIcon/InsectKarasuagehaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -380,9 +372,7 @@
     "name": "青带凤蝶",
     "rawName": "common bluebottle",
     "images": [
-      "latest/MenuIcon/Ins72",
-      "latest/BookInsectIcon/InsectAosujiagehaCropped",
-      "latest/FtrIcon/FtrInsectAosujiagehaCropped"
+      "latest/BookInsectIcon/InsectAosujiagehaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -470,9 +460,7 @@
     "name": "大白斑蝶",
     "rawName": "paper kite butterfly",
     "images": [
-      "latest/MenuIcon/Ins73",
-      "latest/BookInsectIcon/InsectOhgomamadaraCropped",
-      "latest/FtrIcon/FtrInsectOhgomamadaraCropped"
+      "latest/BookInsectIcon/InsectOhgomamadaraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -565,9 +553,7 @@
     "name": "大紫蛱蝶",
     "rawName": "great purple emperor",
     "images": [
-      "latest/MenuIcon/Ins74",
-      "latest/BookInsectIcon/InsectOhmurasakiCropped",
-      "latest/FtrIcon/FtrInsectOhmurasakiCropped"
+      "latest/BookInsectIcon/InsectOhmurasakiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -653,9 +639,7 @@
     "name": "大桦斑蝶",
     "rawName": "monarch butterfly",
     "images": [
-      "latest/MenuIcon/Ins4",
-      "latest/BookInsectIcon/InsectOhkabamadaraCropped",
-      "latest/FtrIcon/FtrInsectOhkabamadaraCropped"
+      "latest/BookInsectIcon/InsectOhkabamadaraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -734,9 +718,7 @@
     "name": "大蓝闪蝶",
     "rawName": "emperor butterfly",
     "images": [
-      "latest/MenuIcon/Ins5",
-      "latest/BookInsectIcon/InsectMorufuochoCropped",
-      "latest/FtrIcon/FtrInsectMorufuochoCropped"
+      "latest/BookInsectIcon/InsectMorufuochoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -833,9 +815,7 @@
     "name": "彩袄蛱蝶",
     "rawName": "agrias butterfly",
     "images": [
-      "latest/MenuIcon/Ins6",
-      "latest/BookInsectIcon/InsectMiirotatehaCropped",
-      "latest/FtrIcon/FtrInsectMiirotatehaCropped"
+      "latest/BookInsectIcon/InsectMiirotatehaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -913,9 +893,7 @@
     "name": "红颈凤蝶",
     "rawName": "Rajah Brooke's birdwing",
     "images": [
-      "latest/MenuIcon/Ins7",
-      "latest/BookInsectIcon/InsectAkaeritoribaneagehaCropped",
-      "latest/FtrIcon/FtrInsectAkaeritoribaneagehaCropped"
+      "latest/BookInsectIcon/InsectAkaeritoribaneagehaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1002,9 +980,7 @@
     "name": "亚历山大凤蝶",
     "rawName": "Queen Alexandra's birdwing",
     "images": [
-      "latest/MenuIcon/Ins8",
-      "latest/BookInsectIcon/InsectArekisandoratoribaneagehaCropped",
-      "latest/FtrIcon/FtrInsectArekisandoratoribaneagehaCropped"
+      "latest/BookInsectIcon/InsectArekisandoratoribaneagehaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1078,9 +1054,7 @@
     "name": "飞蛾",
     "rawName": "moth",
     "images": [
-      "latest/MenuIcon/Ins9",
-      "latest/BookInsectIcon/InsectGaCropped",
-      "latest/FtrIcon/FtrInsectGaCropped"
+      "latest/BookInsectIcon/InsectGaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1169,9 +1143,7 @@
     "name": "皇蛾",
     "rawName": "Atlas moth",
     "images": [
-      "latest/MenuIcon/Ins10",
-      "latest/BookInsectIcon/InsectYonagunisanCropped",
-      "latest/FtrIcon/FtrInsectYonagunisanCropped"
+      "latest/BookInsectIcon/InsectYonagunisanCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1249,9 +1221,7 @@
     "name": "日落蛾",
     "rawName": "Madagascan sunset moth",
     "images": [
-      "latest/MenuIcon/Ins79",
-      "latest/BookInsectIcon/InsectNishikiohtsubamegaCropped",
-      "latest/FtrIcon/FtrInsectNishikiohtsubamegaCropped"
+      "latest/BookInsectIcon/InsectNishikiohtsubamegaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1327,9 +1297,7 @@
     "name": "中华剑角蝗",
     "rawName": "long locust",
     "images": [
-      "latest/MenuIcon/Ins13",
-      "latest/BookInsectIcon/InsectShoryobattaCropped",
-      "latest/FtrIcon/FtrInsectShoryobattaCropped"
+      "latest/BookInsectIcon/InsectShoryobattaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1415,9 +1383,7 @@
     "name": "飞蝗",
     "rawName": "migratory locust",
     "images": [
-      "latest/MenuIcon/Ins14",
-      "latest/BookInsectIcon/InsectTonosamabattaCropped",
-      "latest/FtrIcon/FtrInsectTonosamabattaCropped"
+      "latest/BookInsectIcon/InsectTonosamabattaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1494,9 +1460,7 @@
     "name": "稻蝗",
     "rawName": "rice grasshopper",
     "images": [
-      "latest/MenuIcon/Ins67",
-      "latest/BookInsectIcon/InsectInagoCropped",
-      "latest/FtrIcon/FtrInsectInagoCropped"
+      "latest/BookInsectIcon/InsectInagoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1573,9 +1537,7 @@
     "name": "蚱蜢",
     "rawName": "grasshopper",
     "images": [
-      "latest/MenuIcon/Ins32",
-      "latest/BookInsectIcon/InsectKirigirisuCropped",
-      "latest/FtrIcon/FtrInsectKirigirisuCropped"
+      "latest/BookInsectIcon/InsectKirigirisuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1646,9 +1608,7 @@
     "name": "蟋蟀",
     "rawName": "cricket",
     "images": [
-      "latest/MenuIcon/Ins30",
-      "latest/BookInsectIcon/InsectKohrogiCropped",
-      "latest/FtrIcon/FtrInsectKohrogiCropped"
+      "latest/BookInsectIcon/InsectKohrogiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1731,9 +1691,7 @@
     "name": "铃虫",
     "rawName": "bell cricket",
     "images": [
-      "latest/MenuIcon/Ins31",
-      "latest/BookInsectIcon/InsectSuzumushiCropped",
-      "latest/FtrIcon/FtrInsectSuzumushiCropped"
+      "latest/BookInsectIcon/InsectSuzumushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1814,9 +1772,7 @@
     "name": "螳螂",
     "rawName": "mantis",
     "images": [
-      "latest/MenuIcon/Ins15",
-      "latest/BookInsectIcon/InsectKamakiriCropped",
-      "latest/FtrIcon/FtrInsectKamakiriCropped"
+      "latest/BookInsectIcon/InsectKamakiriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1899,9 +1855,7 @@
     "name": "兰花螳螂",
     "rawName": "orchid mantis",
     "images": [
-      "latest/MenuIcon/Ins16",
-      "latest/BookInsectIcon/InsectHanakamakiriCropped",
-      "latest/FtrIcon/FtrInsectHanakamakiriCropped"
+      "latest/BookInsectIcon/InsectHanakamakiriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -1985,9 +1939,7 @@
     "name": "蜜蜂",
     "rawName": "honeybee",
     "images": [
-      "latest/MenuIcon/Ins11",
-      "latest/BookInsectIcon/InsectMitsubachiCropped",
-      "latest/FtrIcon/FtrInsectMitsubachiCropped"
+      "latest/BookInsectIcon/InsectMitsubachiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2063,9 +2015,7 @@
     "name": "黄蜂",
     "rawName": "wasp",
     "images": [
-      "latest/MenuIcon/Ins12",
-      "latest/BookInsectIcon/InsectHachiCropped",
-      "latest/FtrIcon/FtrInsectHachiCropped"
+      "latest/BookInsectIcon/InsectHachiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2184,9 +2134,7 @@
     "name": "油蝉",
     "rawName": "brown cicada",
     "images": [
-      "latest/MenuIcon/Ins17",
-      "latest/BookInsectIcon/InsectAburazemiCropped",
-      "latest/FtrIcon/FtrInsectAburazemiCropped"
+      "latest/BookInsectIcon/InsectAburazemiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2255,9 +2203,7 @@
     "name": "斑透翅蝉",
     "rawName": "robust cicada",
     "images": [
-      "latest/MenuIcon/Ins18",
-      "latest/BookInsectIcon/InsectMinminzemiCropped",
-      "latest/FtrIcon/FtrInsectMinminzemiCropped"
+      "latest/BookInsectIcon/InsectMinminzemiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2326,9 +2272,7 @@
     "name": "熊蝉",
     "rawName": "giant cicada",
     "images": [
-      "latest/MenuIcon/Ins65",
-      "latest/BookInsectIcon/InsectKumazemiCropped",
-      "latest/FtrIcon/FtrInsectKumazemiCropped"
+      "latest/BookInsectIcon/InsectKumazemiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2397,9 +2341,7 @@
     "name": "寒蝉",
     "rawName": "walker cicada",
     "images": [
-      "latest/MenuIcon/Ins19",
-      "latest/BookInsectIcon/InsectTsukutsukuhousiCropped",
-      "latest/FtrIcon/FtrInsectTsukutsukuhousiCropped"
+      "latest/BookInsectIcon/InsectTsukutsukuhousiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2468,9 +2410,7 @@
     "name": "暮蝉",
     "rawName": "evening cicada",
     "images": [
-      "latest/MenuIcon/Ins20",
-      "latest/BookInsectIcon/InsectHigurashiCropped",
-      "latest/FtrIcon/FtrInsectHigurashiCropped"
+      "latest/BookInsectIcon/InsectHigurashiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2545,9 +2485,7 @@
     "name": "蝉蜕",
     "rawName": "cicada shell",
     "images": [
-      "latest/MenuIcon/Ins69",
-      "latest/BookInsectIcon/InsectSeminonukegaraCropped",
-      "latest/FtrIcon/FtrInsectSeminonukegaraCropped"
+      "latest/BookInsectIcon/InsectSeminonukegaraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2646,9 +2584,7 @@
     "name": "红蜻蜓",
     "rawName": "red dragonfly",
     "images": [
-      "latest/MenuIcon/Ins22",
-      "latest/BookInsectIcon/InsectAkiakaneCropped",
-      "latest/FtrIcon/FtrInsectAkiakaneCropped"
+      "latest/BookInsectIcon/InsectAkiakaneCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2721,9 +2657,7 @@
     "name": "绿胸晏蜓",
     "rawName": "darner dragonfly",
     "images": [
-      "latest/MenuIcon/Ins23",
-      "latest/BookInsectIcon/InsectGinyanmaCropped",
-      "latest/FtrIcon/FtrInsectGinyanmaCropped"
+      "latest/BookInsectIcon/InsectGinyanmaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2802,9 +2736,7 @@
     "name": "无霸勾蜓",
     "rawName": "banded dragonfly",
     "images": [
-      "latest/MenuIcon/Ins24",
-      "latest/BookInsectIcon/InsectOniyanmaCropped",
-      "latest/FtrIcon/FtrInsectOniyanmaCropped"
+      "latest/BookInsectIcon/InsectOniyanmaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2882,9 +2814,7 @@
     "name": "豆娘",
     "rawName": "damselfly",
     "images": [
-      "latest/MenuIcon/Ins81",
-      "latest/BookInsectIcon/InsectItotonboCropped",
-      "latest/FtrIcon/FtrInsectItotonboCropped"
+      "latest/BookInsectIcon/InsectItotonboCropped"
     ],
     "ver": 1,
     "colors": [
@@ -2988,9 +2918,7 @@
     "name": "萤火虫",
     "rawName": "firefly",
     "images": [
-      "latest/MenuIcon/Ins41",
-      "latest/BookInsectIcon/InsectHotaruCropped",
-      "latest/FtrIcon/FtrInsectHotaruCropped"
+      "latest/BookInsectIcon/InsectHotaruCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3057,9 +2985,7 @@
     "name": "蝼蛄",
     "rawName": "mole cricket",
     "images": [
-      "latest/MenuIcon/Ins33",
-      "latest/BookInsectIcon/InsectOkeraCropped",
-      "latest/FtrIcon/FtrInsectOkeraCropped"
+      "latest/BookInsectIcon/InsectOkeraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3169,9 +3095,7 @@
     "name": "水黾",
     "rawName": "pondskater",
     "images": [
-      "latest/MenuIcon/Ins27",
-      "latest/BookInsectIcon/InsectAmenboCropped",
-      "latest/FtrIcon/FtrInsectAmenboCropped"
+      "latest/BookInsectIcon/InsectAmenboCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3251,9 +3175,7 @@
     "name": "龙虱",
     "rawName": "diving beetle",
     "images": [
-      "latest/MenuIcon/Ins28",
-      "latest/BookInsectIcon/InsectGengorouCropped",
-      "latest/FtrIcon/FtrInsectGengorouCropped"
+      "latest/BookInsectIcon/InsectGengorouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3333,9 +3255,7 @@
     "name": "田鳖",
     "rawName": "giant water bug",
     "images": [
-      "latest/MenuIcon/Ins76",
-      "latest/BookInsectIcon/InsectTagameCropped",
-      "latest/FtrIcon/FtrInsectTagameCropped"
+      "latest/BookInsectIcon/InsectTagameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3421,9 +3341,7 @@
     "name": "椿象",
     "rawName": "stinkbug",
     "images": [
-      "latest/MenuIcon/Ins64",
-      "latest/BookInsectIcon/InsectKamemushiCropped",
-      "latest/FtrIcon/FtrInsectKamemushiCropped"
+      "latest/BookInsectIcon/InsectKamemushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3535,9 +3453,7 @@
     "name": "人面椿象",
     "rawName": "man-faced stink bug",
     "images": [
-      "latest/MenuIcon/Ins78",
-      "latest/BookInsectIcon/InsectJinmenkamemushiCropped",
-      "latest/FtrIcon/FtrInsectJinmenkamemushiCropped"
+      "latest/BookInsectIcon/InsectJinmenkamemushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3627,9 +3543,7 @@
     "name": "瓢虫",
     "rawName": "ladybug",
     "images": [
-      "latest/MenuIcon/Ins37",
-      "latest/BookInsectIcon/InsectTentoumushiCropped",
-      "latest/FtrIcon/FtrInsectTentoumushiCropped"
+      "latest/BookInsectIcon/InsectTentoumushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3706,9 +3620,7 @@
     "name": "虎甲虫",
     "rawName": "tiger beetle",
     "images": [
-      "latest/MenuIcon/Ins70",
-      "latest/BookInsectIcon/InsectHanmyouCropped",
-      "latest/FtrIcon/FtrInsectHanmyouCropped"
+      "latest/BookInsectIcon/InsectHanmyouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3822,9 +3734,7 @@
     "name": "吉丁虫",
     "rawName": "jewel beetle",
     "images": [
-      "latest/MenuIcon/Ins44",
-      "latest/BookInsectIcon/InsectTamamushiCropped",
-      "latest/FtrIcon/FtrInsectTamamushiCropped"
+      "latest/BookInsectIcon/InsectTamamushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -3930,9 +3840,7 @@
     "name": "提琴虫",
     "rawName": "violin beetle",
     "images": [
-      "latest/MenuIcon/Ins38",
-      "latest/BookInsectIcon/InsectBaiorinmushiCropped",
-      "latest/FtrIcon/FtrInsectBaiorinmushiCropped"
+      "latest/BookInsectIcon/InsectBaiorinmushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4039,9 +3947,7 @@
     "name": "星天牛",
     "rawName": "citrus long-horned beetle",
     "images": [
-      "latest/MenuIcon/Ins39",
-      "latest/BookInsectIcon/InsectGomadarakamikiriCropped",
-      "latest/FtrIcon/FtrInsectGomadarakamikiriCropped"
+      "latest/BookInsectIcon/InsectGomadarakamikiriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4160,9 +4066,7 @@
     "name": "琉璃星天牛",
     "rawName": "rosalia batesi beetle",
     "images": [
-      "latest/MenuIcon/Ins82",
-      "latest/BookInsectIcon/InsectRuriboshikamikiriCropped",
-      "latest/FtrIcon/FtrInsectRuriboshikamikiriCropped"
+      "latest/BookInsectIcon/InsectRuriboshikamikiriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4268,9 +4172,7 @@
     "name": "宝石象鼻虫",
     "rawName": "blue weevil beetle",
     "images": [
-      "latest/MenuIcon/Ins80",
-      "latest/BookInsectIcon/InsectHousekizoumushiCropped",
-      "latest/FtrIcon/FtrInsectHousekizoumushiCropped"
+      "latest/BookInsectIcon/InsectHousekizoumushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4369,9 +4271,7 @@
     "name": "蜣螂",
     "rawName": "dung beetle",
     "images": [
-      "latest/MenuIcon/Ins40",
-      "latest/BookInsectIcon/InsectFunkorogashiCropped",
-      "latest/FtrIcon/FtrInsectFunkorogashiCropped"
+      "latest/BookInsectIcon/InsectFunkorogashiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4473,9 +4373,7 @@
     "name": "雪隐金龟",
     "rawName": "earth-boring dung beetle",
     "images": [
-      "latest/MenuIcon/Ins42",
-      "latest/BookInsectIcon/InsectOhsenchikoganeCropped",
-      "latest/FtrIcon/FtrInsectSenchikoganeCropped"
+      "latest/BookInsectIcon/InsectOhsenchikoganeCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4576,9 +4474,7 @@
     "name": "宝石金龟",
     "rawName": "scarab beetle",
     "images": [
-      "latest/MenuIcon/Ins43",
-      "latest/BookInsectIcon/InsectPurachinakoganeCropped",
-      "latest/FtrIcon/FtrInsectPurachinakoganeCropped"
+      "latest/BookInsectIcon/InsectPurachinakoganeCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4647,9 +4543,7 @@
     "name": "日铜锣花金龟",
     "rawName": "drone beetle",
     "images": [
-      "latest/MenuIcon/Ins75",
-      "latest/BookInsectIcon/InsectKanabunCropped",
-      "latest/FtrIcon/FtrInsectKanabunCropped"
+      "latest/BookInsectIcon/InsectKanabunCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4751,9 +4645,7 @@
     "name": "歌利亚大角花金龟",
     "rawName": "goliath beetle",
     "images": [
-      "latest/MenuIcon/Ins55",
-      "latest/BookInsectIcon/InsectGoraiasuohtsunohanamuguriCropped",
-      "latest/FtrIcon/FtrInsectGoraiasuohtsunohanamuguriCropped"
+      "latest/BookInsectIcon/InsectGoraiasuohtsunohanamuguriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4839,9 +4731,7 @@
     "name": "锯锹形虫",
     "rawName": "saw stag",
     "images": [
-      "latest/MenuIcon/Ins46",
-      "latest/BookInsectIcon/InsectNokogirikuwagataCropped",
-      "latest/FtrIcon/FtrInsectNokogirikuwagataCropped"
+      "latest/BookInsectIcon/InsectNokogirikuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -4940,9 +4830,7 @@
     "name": "深山锹形虫",
     "rawName": "miyama stag",
     "images": [
-      "latest/MenuIcon/Ins45",
-      "latest/BookInsectIcon/InsectMiyamakuwagataCropped",
-      "latest/FtrIcon/FtrInsectMiyamakuwagataCropped"
+      "latest/BookInsectIcon/InsectMiyamakuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5040,9 +4928,7 @@
     "name": "大锹形虫",
     "rawName": "giant stag",
     "images": [
-      "latest/MenuIcon/Ins47",
-      "latest/BookInsectIcon/InsectOhkuwagataCropped",
-      "latest/FtrIcon/FtrInsectOhkuwagataCropped"
+      "latest/BookInsectIcon/InsectOhkuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5110,9 +4996,7 @@
     "name": "彩虹锹形虫",
     "rawName": "rainbow stag",
     "images": [
-      "latest/MenuIcon/Ins48",
-      "latest/BookInsectIcon/InsectNijiirokuwagataCropped",
-      "latest/FtrIcon/FtrInsectNijiirokuwagataCropped"
+      "latest/BookInsectIcon/InsectNijiirokuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5194,9 +5078,7 @@
     "name": "细身赤锹形虫",
     "rawName": "cyclommatus stag",
     "images": [
-      "latest/MenuIcon/Ins49",
-      "latest/BookInsectIcon/InsectHosoakakuwagataCropped",
-      "latest/FtrIcon/FtrInsectHosoakakuwagataCropped"
+      "latest/BookInsectIcon/InsectHosoakakuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5276,9 +5158,7 @@
     "name": "黄金鬼锹形虫",
     "rawName": "golden stag",
     "images": [
-      "latest/MenuIcon/Ins50",
-      "latest/BookInsectIcon/InsectOugononikuwagataCropped",
-      "latest/FtrIcon/FtrInsectOugononikuwagataCropped"
+      "latest/BookInsectIcon/InsectOugononikuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5359,9 +5239,7 @@
     "name": "长颈鹿锯锹形虫",
     "rawName": "giraffe stag",
     "images": [
-      "latest/MenuIcon/Ins77",
-      "latest/BookInsectIcon/InsectGirafanokogirikuwagataCropped",
-      "latest/FtrIcon/FtrInsectGirafanokogirikuwagataCropped"
+      "latest/BookInsectIcon/InsectGirafanokogirikuwagataCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5441,9 +5319,7 @@
     "name": "独角仙",
     "rawName": "horned dynastid",
     "images": [
-      "latest/MenuIcon/Ins51",
-      "latest/BookInsectIcon/InsectKabutomushiCropped",
-      "latest/FtrIcon/FtrInsectKabutomushiCropped"
+      "latest/BookInsectIcon/InsectKabutomushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5524,9 +5400,7 @@
     "name": "高卡萨斯南洋大兜虫",
     "rawName": "horned atlas",
     "images": [
-      "latest/MenuIcon/Ins52",
-      "latest/BookInsectIcon/InsectKohkasasuohkabutoCropped",
-      "latest/FtrIcon/FtrInsectKohkasasuohkabutoCropped"
+      "latest/BookInsectIcon/InsectKohkasasuohkabutoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5606,9 +5480,7 @@
     "name": "象兜虫",
     "rawName": "horned elephant",
     "images": [
-      "latest/MenuIcon/Ins53",
-      "latest/BookInsectIcon/InsectZoukabutoCropped",
-      "latest/FtrIcon/FtrInsectZoukabutoCropped"
+      "latest/BookInsectIcon/InsectZoukabutoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5689,9 +5561,7 @@
     "name": "长戟大兜虫",
     "rawName": "horned hercules",
     "images": [
-      "latest/MenuIcon/Ins54",
-      "latest/BookInsectIcon/InsectHerakuresuohkabutoCropped",
-      "latest/FtrIcon/FtrInsectHerakuresuohkabutoCropped"
+      "latest/BookInsectIcon/InsectHerakuresuohkabutoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5772,9 +5642,7 @@
     "name": "竹节虫",
     "rawName": "walking stick",
     "images": [
-      "latest/MenuIcon/Ins35",
-      "latest/BookInsectIcon/InsectNanafushiCropped",
-      "latest/FtrIcon/FtrInsectNanafushiCropped"
+      "latest/BookInsectIcon/InsectNanafushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5853,9 +5721,7 @@
     "name": "叶竹节虫",
     "rawName": "walking leaf",
     "images": [
-      "latest/MenuIcon/Ins34",
-      "latest/BookInsectIcon/InsectKonohamushiCropped",
-      "latest/FtrIcon/FtrInsectKonohamushiCropped"
+      "latest/BookInsectIcon/InsectKonohamushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -5955,9 +5821,7 @@
     "name": "蓑衣虫",
     "rawName": "bagworm",
     "images": [
-      "latest/MenuIcon/Ins36",
-      "latest/BookInsectIcon/InsectMinomushiCropped",
-      "latest/FtrIcon/FtrInsectMinomushiCropped"
+      "latest/BookInsectIcon/InsectMinomushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6076,9 +5940,7 @@
     "name": "蚂蚁",
     "rawName": "ant",
     "images": [
-      "latest/MenuIcon/Ins26",
-      "latest/BookInsectIcon/InsectAriCropped",
-      "latest/FtrIcon/FtrInsectAriCropped"
+      "latest/BookInsectIcon/InsectAriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6197,9 +6059,7 @@
     "name": "寄居蟹",
     "rawName": "hermit crab",
     "images": [
-      "latest/MenuIcon/Ins66",
-      "latest/BookInsectIcon/InsectYadokariCropped",
-      "latest/FtrIcon/FtrInsectYadokariCropped"
+      "latest/BookInsectIcon/InsectYadokariCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6296,9 +6156,7 @@
     "name": "海蟑螂",
     "rawName": "wharf roach",
     "images": [
-      "latest/MenuIcon/Ins71",
-      "latest/BookInsectIcon/InsectFunamushiCropped",
-      "latest/FtrIcon/FtrInsectFunamushiCropped"
+      "latest/BookInsectIcon/InsectFunamushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6417,9 +6275,7 @@
     "name": "苍蝇",
     "rawName": "fly",
     "images": [
-      "latest/MenuIcon/Ins59",
-      "latest/BookInsectIcon/InsectHaeCropped",
-      "latest/FtrIcon/FtrInsectHaeCropped"
+      "latest/BookInsectIcon/InsectHaeCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6538,9 +6394,7 @@
     "name": "蚊子",
     "rawName": "mosquito",
     "images": [
-      "latest/MenuIcon/Ins58",
-      "latest/BookInsectIcon/InsectKaCropped",
-      "latest/FtrIcon/FtrInsectKaCropped"
+      "latest/BookInsectIcon/InsectKaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6618,9 +6472,7 @@
     "name": "跳蚤",
     "rawName": "flea",
     "images": [
-      "latest/MenuIcon/Ins56",
-      "latest/BookInsectIcon/InsectNomiCropped",
-      "latest/FtrIcon/FtrInsectNomiCropped"
+      "latest/BookInsectIcon/InsectNomiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6732,9 +6584,7 @@
     "name": "蜗牛",
     "rawName": "snail",
     "images": [
-      "latest/MenuIcon/Ins29",
-      "latest/BookInsectIcon/InsectKatatsumuriCropped",
-      "latest/FtrIcon/FtrInsectKatatsumuriCropped"
+      "latest/BookInsectIcon/InsectKatatsumuriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6853,9 +6703,7 @@
     "name": "鼠妇",
     "rawName": "pill bug",
     "images": [
-      "latest/MenuIcon/Ins57",
-      "latest/BookInsectIcon/InsectDangomushiCropped",
-      "latest/FtrIcon/FtrInsectDangomushiCropped"
+      "latest/BookInsectIcon/InsectDangomushiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -6957,9 +6805,7 @@
     "name": "蜈蚣",
     "rawName": "centipede",
     "images": [
-      "latest/MenuIcon/Ins60",
-      "latest/BookInsectIcon/InsectMukadeCropped",
-      "latest/FtrIcon/FtrInsectMukadeCropped"
+      "latest/BookInsectIcon/InsectMukadeCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7041,9 +6887,7 @@
     "name": "蜘蛛",
     "rawName": "spider",
     "images": [
-      "latest/MenuIcon/Ins61",
-      "latest/BookInsectIcon/InsectKumoCropped",
-      "latest/FtrIcon/FtrInsectKumoCropped"
+      "latest/BookInsectIcon/InsectKumoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7140,9 +6984,7 @@
     "name": "狼蛛",
     "rawName": "tarantula",
     "images": [
-      "latest/MenuIcon/Ins62",
-      "latest/BookInsectIcon/InsectTaranchuraCropped",
-      "latest/FtrIcon/FtrInsectTaranchuraCropped"
+      "latest/BookInsectIcon/InsectTaranchuraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7220,9 +7062,7 @@
     "name": "蝎子",
     "rawName": "scorpion",
     "images": [
-      "latest/MenuIcon/Ins63",
-      "latest/BookInsectIcon/InsectSasoriCropped",
-      "latest/FtrIcon/FtrInsectSasoriCropped"
+      "latest/BookInsectIcon/InsectSasoriCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7299,9 +7139,7 @@
     "name": "红目鲫",
     "rawName": "bitterling",
     "images": [
-      "latest/MenuIcon/Fish0",
-      "latest/BookFishIcon/FishTanagoCropped",
-      "latest/FtrIcon/FtrFishTanago"
+      "latest/BookFishIcon/FishTanagoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7406,9 +7244,7 @@
     "name": "溪哥",
     "rawName": "pale chub",
     "images": [
-      "latest/MenuIcon/Fish1",
-      "latest/BookFishIcon/FishOikawaCropped",
-      "latest/FtrIcon/FtrFishOikawa"
+      "latest/BookFishIcon/FishOikawaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7491,9 +7327,7 @@
     "name": "鲫鱼",
     "rawName": "crucian carp",
     "images": [
-      "latest/MenuIcon/Fish2",
-      "latest/BookFishIcon/FishFunaCropped",
-      "latest/FtrIcon/FtrFishFuna"
+      "latest/BookFishIcon/FishFunaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7611,9 +7445,7 @@
     "name": "雅罗鱼",
     "rawName": "dace",
     "images": [
-      "latest/MenuIcon/Fish3",
-      "latest/BookFishIcon/FishUguiCropped",
-      "latest/FtrIcon/FtrFishUgui"
+      "latest/BookFishIcon/FishUguiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7717,9 +7549,7 @@
     "name": "鲤鱼",
     "rawName": "carp",
     "images": [
-      "latest/MenuIcon/Fish5",
-      "latest/BookFishIcon/FishKoiCropped",
-      "latest/FtrIcon/FtrFishKoi"
+      "latest/BookFishIcon/FishKoiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7837,9 +7667,7 @@
     "name": "锦鲤",
     "rawName": "koi",
     "images": [
-      "latest/MenuIcon/Fish6",
-      "latest/BookFishIcon/FishNishikigoiCropped",
-      "latest/FtrIcon/FtrFishNishikigoi"
+      "latest/BookFishIcon/FishNishikigoiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -7943,9 +7771,7 @@
     "name": "金鱼",
     "rawName": "goldfish",
     "images": [
-      "latest/MenuIcon/Fish7",
-      "latest/BookFishIcon/FishKingyoCropped",
-      "latest/FtrIcon/FtrFishKingyo"
+      "latest/BookFishIcon/FishKingyoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8063,9 +7889,7 @@
     "name": "龙睛金鱼",
     "rawName": "pop-eyed goldfish",
     "images": [
-      "latest/MenuIcon/Fish8",
-      "latest/BookFishIcon/FishDemekinCropped",
-      "latest/FtrIcon/FtrFishDemekin"
+      "latest/BookFishIcon/FishDemekinCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8149,9 +7973,7 @@
     "name": "兰寿金鱼",
     "rawName": "ranchu goldfish",
     "images": [
-      "latest/MenuIcon/Fish85",
-      "latest/BookFishIcon/FishRanchuCropped",
-      "latest/FtrIcon/FtrFishRanchu"
+      "latest/BookFishIcon/FishRanchuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8235,9 +8057,7 @@
     "name": "稻田鱼",
     "rawName": "killifish",
     "images": [
-      "latest/MenuIcon/Fish9",
-      "latest/BookFishIcon/FishMedakaCropped",
-      "latest/FtrIcon/FtrFishMedaka"
+      "latest/BookFishIcon/FishMedakaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8342,9 +8162,7 @@
     "name": "淡水龙虾",
     "rawName": "crawfish",
     "images": [
-      "latest/MenuIcon/Fish10",
-      "latest/BookFishIcon/FishZariganiCropped",
-      "latest/FtrIcon/FtrFishZarigani"
+      "latest/BookFishIcon/FishZariganiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8451,9 +8269,7 @@
     "name": "鳖",
     "rawName": "soft-shelled turtle",
     "images": [
-      "latest/MenuIcon/Fish65",
-      "latest/BookFishIcon/FishSupponCropped",
-      "latest/FtrIcon/FtrFishSuppon"
+      "latest/BookFishIcon/FishSupponCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8537,9 +8353,7 @@
     "name": "拟鳄龟",
     "rawName": "snapping turtle",
     "images": [
-      "latest/MenuIcon/Fish78",
-      "latest/BookFishIcon/FishKamitsukigameCropped",
-      "latest/FtrIcon/FtrFishKamitukigame"
+      "latest/BookFishIcon/FishKamitsukigameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8614,9 +8428,7 @@
     "name": "蝌蚪",
     "rawName": "tadpole",
     "images": [
-      "latest/MenuIcon/Fish64",
-      "latest/BookFishIcon/FishOtamajakusiCropped",
-      "latest/FtrIcon/FtrFishOtama"
+      "latest/BookFishIcon/FishOtamajakusiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8721,9 +8533,7 @@
     "name": "青蛙",
     "rawName": "frog",
     "images": [
-      "latest/MenuIcon/Fish11",
-      "latest/BookFishIcon/FishKaeruCropped",
-      "latest/FtrIcon/FtrFishKaeru"
+      "latest/BookFishIcon/FishKaeruCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8826,9 +8636,7 @@
     "name": "塘鳢鱼",
     "rawName": "freshwater goby",
     "images": [
-      "latest/MenuIcon/Fish12",
-      "latest/BookFishIcon/FishDonkoCropped",
-      "latest/FtrIcon/FtrFishDonko"
+      "latest/BookFishIcon/FishDonkoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -8932,9 +8740,7 @@
     "name": "泥鳅",
     "rawName": "loach",
     "images": [
-      "latest/MenuIcon/Fish13",
-      "latest/BookFishIcon/FishDojouCropped",
-      "latest/FtrIcon/FtrFishDojou"
+      "latest/BookFishIcon/FishDojouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9034,9 +8840,7 @@
     "name": "鲶鱼",
     "rawName": "catfish",
     "images": [
-      "latest/MenuIcon/Fish14",
-      "latest/BookFishIcon/FishNamazuCropped",
-      "latest/FtrIcon/FtrFishNamazu"
+      "latest/BookFishIcon/FishNamazuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9128,9 +8932,7 @@
     "name": "黑鱼",
     "rawName": "giant snakehead",
     "images": [
-      "latest/MenuIcon/Fish16",
-      "latest/BookFishIcon/FishRaigyoCropped",
-      "latest/FtrIcon/FtrFishRaigyo"
+      "latest/BookFishIcon/FishRaigyoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9196,9 +8998,7 @@
     "name": "蓝腮太阳鱼",
     "rawName": "bluegill",
     "images": [
-      "latest/MenuIcon/Fish17",
-      "latest/BookFishIcon/FishBlueguillCropped",
-      "latest/FtrIcon/FtrFishBlueguill"
+      "latest/BookFishIcon/FishBlueguillCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9282,9 +9082,7 @@
     "name": "黄鲈鱼",
     "rawName": "yellow perch",
     "images": [
-      "latest/MenuIcon/Fish18",
-      "latest/BookFishIcon/FishYellowparchCropped",
-      "latest/FtrIcon/FtrFishYellowparch"
+      "latest/BookFishIcon/FishYellowparchCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9391,9 +9189,7 @@
     "name": "黑鲈鱼",
     "rawName": "black bass",
     "images": [
-      "latest/MenuIcon/Fish19",
-      "latest/BookFishIcon/FishBlackbassCropped",
-      "latest/FtrIcon/FtrFishBlackbass"
+      "latest/BookFishIcon/FishBlackbassCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9511,9 +9307,7 @@
     "name": "吴郭鱼",
     "rawName": "tilapia",
     "images": [
-      "latest/MenuIcon/Fish76",
-      "latest/BookFishIcon/FishThirapiaCropped",
-      "latest/FtrIcon/FtrFishThirapia"
+      "latest/BookFishIcon/FishThirapiaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9617,9 +9411,7 @@
     "name": "白斑狗鱼",
     "rawName": "pike",
     "images": [
-      "latest/MenuIcon/Fish20",
-      "latest/BookFishIcon/FishPaikuCropped",
-      "latest/FtrIcon/FtrFishPaiku"
+      "latest/BookFishIcon/FishPaikuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9721,9 +9513,7 @@
     "name": "西太公鱼",
     "rawName": "pond smelt",
     "images": [
-      "latest/MenuIcon/Fish21",
-      "latest/BookFishIcon/FishWakasagiCropped",
-      "latest/FtrIcon/FtrFishWakasagi"
+      "latest/BookFishIcon/FishWakasagiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9824,9 +9614,7 @@
     "name": "香鱼",
     "rawName": "sweetfish",
     "images": [
-      "latest/MenuIcon/Fish22",
-      "latest/BookFishIcon/FishAyuCropped",
-      "latest/FtrIcon/FtrFishAyu"
+      "latest/BookFishIcon/FishAyuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -9926,9 +9714,7 @@
     "name": "樱花钩吻鲑",
     "rawName": "cherry salmon",
     "images": [
-      "latest/MenuIcon/Fish23",
-      "latest/BookFishIcon/FishYamameCropped",
-      "latest/FtrIcon/FtrFishYamame"
+      "latest/BookFishIcon/FishYamameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10031,9 +9817,7 @@
     "name": "花羔红点鲑",
     "rawName": "char",
     "images": [
-      "latest/MenuIcon/Fish24",
-      "latest/BookFishIcon/FishOoiwanaCropped",
-      "latest/FtrIcon/FtrFishOoiwana"
+      "latest/BookFishIcon/FishOoiwanaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10136,9 +9920,7 @@
     "name": "金鳟",
     "rawName": "golden trout",
     "images": [
-      "latest/MenuIcon/Fish79",
-      "latest/BookFishIcon/FishGoldenTorautoCropped",
-      "latest/FtrIcon/FtrFishGoldenTorauto"
+      "latest/BookFishIcon/FishGoldenTorautoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10232,9 +10014,7 @@
     "name": "远东哲罗鱼",
     "rawName": "stringfish",
     "images": [
-      "latest/MenuIcon/Fish26",
-      "latest/BookFishIcon/FishItouCropped",
-      "latest/FtrIcon/FtrFishItou"
+      "latest/BookFishIcon/FishItouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10323,9 +10103,7 @@
     "name": "鲑鱼",
     "rawName": "salmon",
     "images": [
-      "latest/MenuIcon/Fish27",
-      "latest/BookFishIcon/FishSakeCropped",
-      "latest/FtrIcon/FtrFishSake"
+      "latest/BookFishIcon/FishSakeCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10421,9 +10199,7 @@
     "name": "帝王鲑",
     "rawName": "king salmon",
     "images": [
-      "latest/MenuIcon/Fish28",
-      "latest/BookFishIcon/FishKingsalmonCropped",
-      "latest/FtrIcon/FtrFishKingsalmon"
+      "latest/BookFishIcon/FishKingsalmonCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10519,9 +10295,7 @@
     "name": "中华绒螯蟹",
     "rawName": "mitten crab",
     "images": [
-      "latest/MenuIcon/Fish66",
-      "latest/BookFishIcon/FishSyanhaiganiCropped",
-      "latest/FtrIcon/FtrFishShanghai"
+      "latest/BookFishIcon/FishSyanhaiganiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10607,9 +10381,7 @@
     "name": "孔雀鱼",
     "rawName": "guppy",
     "images": [
-      "latest/MenuIcon/Fish29",
-      "latest/BookFishIcon/FishGuppiCropped",
-      "latest/FtrIcon/FtrFishGuppi"
+      "latest/BookFishIcon/FishGuppiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10686,9 +10458,7 @@
     "name": "温泉医生鱼",
     "rawName": "nibble fish",
     "images": [
-      "latest/MenuIcon/Fish67",
-      "latest/BookFishIcon/FishDokutaafishCropped",
-      "latest/FtrIcon/FtrFishDoctor"
+      "latest/BookFishIcon/FishDokutaafishCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10759,9 +10529,7 @@
     "name": "神仙鱼",
     "rawName": "angelfish",
     "images": [
-      "latest/MenuIcon/Fish30",
-      "latest/BookFishIcon/FishAngelfishCropped",
-      "latest/FtrIcon/FtrFishAngelfish"
+      "latest/BookFishIcon/FishAngelfishCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10854,9 +10622,7 @@
     "name": "斗鱼",
     "rawName": "betta",
     "images": [
-      "latest/MenuIcon/Fish77",
-      "latest/BookFishIcon/FishBetaCropped",
-      "latest/FtrIcon/FtrFishBeta"
+      "latest/BookFishIcon/FishBetaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -10929,9 +10695,7 @@
     "name": "霓虹灯鱼",
     "rawName": "neon tetra",
     "images": [
-      "latest/MenuIcon/Fish31",
-      "latest/BookFishIcon/FishNeontetoraCropped",
-      "latest/FtrIcon/FtrFishNeontetora"
+      "latest/BookFishIcon/FishNeontetoraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11008,9 +10772,7 @@
     "name": "彩虹鱼",
     "rawName": "rainbowfish",
     "images": [
-      "latest/MenuIcon/Fish80",
-      "latest/BookFishIcon/FishRainbowfishCropped",
-      "latest/FtrIcon/FtrFishRainbowfish"
+      "latest/BookFishIcon/FishRainbowfishCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11083,9 +10845,7 @@
     "name": "食人鱼",
     "rawName": "piranha",
     "images": [
-      "latest/MenuIcon/Fish32",
-      "latest/BookFishIcon/FishPiraniaCropped",
-      "latest/FtrIcon/FtrFishPirania"
+      "latest/BookFishIcon/FishPiraniaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11178,9 +10938,7 @@
     "name": "骨舌鱼",
     "rawName": "arowana",
     "images": [
-      "latest/MenuIcon/Fish33",
-      "latest/BookFishIcon/FishArowanaCropped",
-      "latest/FtrIcon/FtrFishArowana"
+      "latest/BookFishIcon/FishArowanaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11269,9 +11027,7 @@
     "name": "黄金河虎",
     "rawName": "dorado",
     "images": [
-      "latest/MenuIcon/Fish34",
-      "latest/BookFishIcon/FishDoladoCropped",
-      "latest/FtrIcon/FtrFishDolado"
+      "latest/BookFishIcon/FishDoladoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11360,9 +11116,7 @@
     "name": "雀鳝",
     "rawName": "gar",
     "images": [
-      "latest/MenuIcon/Fish35",
-      "latest/BookFishIcon/FishGaCropped",
-      "latest/FtrIcon/FtrFishGa"
+      "latest/BookFishIcon/FishGaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11451,9 +11205,7 @@
     "name": "巨骨舌鱼",
     "rawName": "arapaima",
     "images": [
-      "latest/MenuIcon/Fish36",
-      "latest/BookFishIcon/FishPirarukuCropped",
-      "latest/FtrIcon/FtrFishPiraruku"
+      "latest/BookFishIcon/FishPirarukuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11542,9 +11294,7 @@
     "name": "恩氏多鳍鱼",
     "rawName": "saddled bichir",
     "images": [
-      "latest/MenuIcon/Fish68",
-      "latest/BookFishIcon/FishEndorikeriiCropped",
-      "latest/FtrIcon/FtrFishEndlicheri"
+      "latest/BookFishIcon/FishEndorikeriiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11613,9 +11363,7 @@
     "name": "鲟鱼",
     "rawName": "sturgeon",
     "images": [
-      "latest/MenuIcon/Fish75",
-      "latest/BookFishIcon/FishTyouzameCropped",
-      "latest/FtrIcon/FtrFishTyouzame"
+      "latest/BookFishIcon/FishTyouzameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11723,9 +11471,7 @@
     "name": "海天使",
     "rawName": "sea butterfly",
     "images": [
-      "latest/MenuIcon/Fish37",
-      "latest/BookFishIcon/FishKurioneCropped",
-      "latest/FtrIcon/FtrFishKurione"
+      "latest/BookFishIcon/FishKurioneCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11828,9 +11574,7 @@
     "name": "海马",
     "rawName": "sea horse",
     "images": [
-      "latest/MenuIcon/Fish39",
-      "latest/BookFishIcon/FishTatsunootoshigoCropped",
-      "latest/FtrIcon/FtrFishTatsunootoshigo"
+      "latest/BookFishIcon/FishTatsunootoshigoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -11941,9 +11685,7 @@
     "name": "小丑鱼",
     "rawName": "clown fish",
     "images": [
-      "latest/MenuIcon/Fish40",
-      "latest/BookFishIcon/FishKumanomiCropped",
-      "latest/FtrIcon/FtrFishKumanomi"
+      "latest/BookFishIcon/FishKumanomiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12050,9 +11792,7 @@
     "name": "拟刺尾鲷",
     "rawName": "surgeonfish",
     "images": [
-      "latest/MenuIcon/Fish41",
-      "latest/BookFishIcon/FishNanyouhagiCropped",
-      "latest/FtrIcon/FtrFishNanyouhagi"
+      "latest/BookFishIcon/FishNanyouhagiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12159,9 +11899,7 @@
     "name": "耳带蝴蝶鱼",
     "rawName": "butterfly fish",
     "images": [
-      "latest/MenuIcon/Fish42",
-      "latest/BookFishIcon/FishChouchouuoCropped",
-      "latest/FtrIcon/FtrFishChouchouuo"
+      "latest/BookFishIcon/FishChouchouuoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12268,9 +12006,7 @@
     "name": "苏眉鱼",
     "rawName": "Napoleonfish",
     "images": [
-      "latest/MenuIcon/Fish43",
-      "latest/BookFishIcon/FishNaporeonfishCropped",
-      "latest/FtrIcon/FtrFishNaporeonfish"
+      "latest/BookFishIcon/FishNaporeonfishCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12354,9 +12090,7 @@
     "name": "狮子鱼",
     "rawName": "zebra turkeyfish",
     "images": [
-      "latest/MenuIcon/Fish44",
-      "latest/BookFishIcon/FishMinokasagoCropped",
-      "latest/FtrIcon/FtrFishMinokasago"
+      "latest/BookFishIcon/FishMinokasagoCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12467,9 +12201,7 @@
     "name": "河豚",
     "rawName": "blowfish",
     "images": [
-      "latest/MenuIcon/Fish73",
-      "latest/BookFishIcon/FishFuguCropped",
-      "latest/FtrIcon/FtrFishFugu"
+      "latest/BookFishIcon/FishFuguCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12538,9 +12270,7 @@
     "name": "刺豚",
     "rawName": "puffer fish",
     "images": [
-      "latest/MenuIcon/Fish45",
-      "latest/BookFishIcon/FishHarisenbonCropped",
-      "latest/FtrIcon/FtrFishHarisenbon"
+      "latest/BookFishIcon/FishHarisenbonCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12640,9 +12370,7 @@
     "name": "凤尾鱼",
     "rawName": "anchovy",
     "images": [
-      "latest/MenuIcon/Fish81",
-      "latest/BookFishIcon/FishAntyobiCropped",
-      "latest/FtrIcon/FtrFishAntyobi"
+      "latest/BookFishIcon/FishAntyobiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12746,9 +12474,7 @@
     "name": "竹荚鱼",
     "rawName": "horse mackerel",
     "images": [
-      "latest/MenuIcon/Fish46",
-      "latest/BookFishIcon/FishAjiCropped",
-      "latest/FtrIcon/FtrFishAji"
+      "latest/BookFishIcon/FishAjiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12866,9 +12592,7 @@
     "name": "条石鲷",
     "rawName": "barred knifejaw",
     "images": [
-      "latest/MenuIcon/Fish47",
-      "latest/BookFishIcon/FishIshidaiCropped",
-      "latest/FtrIcon/FtrFishIshidai"
+      "latest/BookFishIcon/FishIshidaiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -12981,9 +12705,7 @@
     "name": "鲈鱼",
     "rawName": "sea bass",
     "images": [
-      "latest/MenuIcon/Fish48",
-      "latest/BookFishIcon/FishSuzukiCropped",
-      "latest/FtrIcon/FtrFishSuzuki"
+      "latest/BookFishIcon/FishSuzukiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13101,9 +12823,7 @@
     "name": "鲷鱼",
     "rawName": "red snapper",
     "images": [
-      "latest/MenuIcon/Fish49",
-      "latest/BookFishIcon/FishTaiCropped",
-      "latest/FtrIcon/FtrFishTai"
+      "latest/BookFishIcon/FishTaiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13221,9 +12941,7 @@
     "name": "鲽鱼",
     "rawName": "dab",
     "images": [
-      "latest/MenuIcon/Fish50",
-      "latest/BookFishIcon/FishKareiCropped",
-      "latest/FtrIcon/FtrFishKarei"
+      "latest/BookFishIcon/FishKareiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13332,9 +13050,7 @@
     "name": "比目鱼",
     "rawName": "olive flounder",
     "images": [
-      "latest/MenuIcon/Fish51",
-      "latest/BookFishIcon/FishHirameCropped",
-      "latest/FtrIcon/FtrFishHirame"
+      "latest/BookFishIcon/FishHirameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13452,9 +13168,7 @@
     "name": "鱿鱼",
     "rawName": "squid",
     "images": [
-      "latest/MenuIcon/Fish52",
-      "latest/BookFishIcon/FishIkaCropped",
-      "latest/FtrIcon/FtrFishIka"
+      "latest/BookFishIcon/FishIkaCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13568,9 +13282,7 @@
     "name": "裸胸鳝",
     "rawName": "moray eel",
     "images": [
-      "latest/MenuIcon/Fish55",
-      "latest/BookFishIcon/FishUtsuboCropped",
-      "latest/FtrIcon/FtrFishUtsubo"
+      "latest/BookFishIcon/FishUtsuboCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13670,9 +13382,7 @@
     "name": "五彩鳗",
     "rawName": "ribbon eel",
     "images": [
-      "latest/MenuIcon/Fish71",
-      "latest/BookFishIcon/FishHanahigeutuboCropped",
-      "latest/FtrIcon/FtrFishHanahige"
+      "latest/BookFishIcon/FishHanahigeutuboCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13777,9 +13487,7 @@
     "name": "鲔鱼",
     "rawName": "tuna",
     "images": [
-      "latest/MenuIcon/Fish57",
-      "latest/BookFishIcon/FishMaguroCropped",
-      "latest/FtrIcon/FtrFishMaguro"
+      "latest/BookFishIcon/FishMaguroCropped"
     ],
     "ver": 1,
     "colors": [
@@ -13886,9 +13594,7 @@
     "name": "旗鱼",
     "rawName": "blue marlin",
     "images": [
-      "latest/MenuIcon/Fish58",
-      "latest/BookFishIcon/FishKajikiCropped",
-      "latest/FtrIcon/FtrFishKajiki"
+      "latest/BookFishIcon/FishKajikiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14003,9 +13709,7 @@
     "name": "白面弄鱼",
     "rawName": "giant trevally",
     "images": [
-      "latest/MenuIcon/Fish70",
-      "latest/BookFishIcon/FishRouninajiCropped",
-      "latest/FtrIcon/FtrFishGT"
+      "latest/BookFishIcon/FishRouninajiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14111,9 +13815,7 @@
     "name": "鬼头刀",
     "rawName": "mahi-mahi",
     "images": [
-      "latest/MenuIcon/Fish82",
-      "latest/BookFishIcon/FishShiiraCropped",
-      "latest/FtrIcon/FtrFishShiira"
+      "latest/BookFishIcon/FishShiiraCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14220,9 +13922,7 @@
     "name": "翻车鱼",
     "rawName": "ocean sunfish",
     "images": [
-      "latest/MenuIcon/Fish60",
-      "latest/BookFishIcon/FishManbouCropped",
-      "latest/FtrIcon/FtrFishManbou"
+      "latest/BookFishIcon/FishManbouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14308,9 +14008,7 @@
     "name": "鳐鱼",
     "rawName": "ray",
     "images": [
-      "latest/MenuIcon/Fish59",
-      "latest/BookFishIcon/FishEiCropped",
-      "latest/FtrIcon/FtrFishEi"
+      "latest/BookFishIcon/FishEiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14398,9 +14096,7 @@
     "name": "锯鲨",
     "rawName": "saw shark",
     "images": [
-      "latest/MenuIcon/Fish74",
-      "latest/BookFishIcon/FishNokogirizameCropped",
-      "latest/FtrIcon/FtrFishNokogiri"
+      "latest/BookFishIcon/FishNokogirizameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14489,9 +14185,7 @@
     "name": "双髻鲨",
     "rawName": "hammerhead shark",
     "images": [
-      "latest/MenuIcon/Fish61",
-      "latest/BookFishIcon/FishShumokuzameCropped",
-      "latest/FtrIcon/FtrFishShumokuzame"
+      "latest/BookFishIcon/FishShumokuzameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14579,9 +14273,7 @@
     "name": "鲨鱼",
     "rawName": "great white shark",
     "images": [
-      "latest/MenuIcon/Fish62",
-      "latest/BookFishIcon/FishSameCropped",
-      "latest/FtrIcon/FtrFishSame"
+      "latest/BookFishIcon/FishSameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14669,9 +14361,7 @@
     "name": "鲸鲨",
     "rawName": "whale shark",
     "images": [
-      "latest/MenuIcon/Fish72",
-      "latest/BookFishIcon/FishJinbeezameCropped",
-      "latest/FtrIcon/FtrFishJinbee"
+      "latest/BookFishIcon/FishJinbeezameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14774,9 +14464,7 @@
     "name": "吸盘鱼",
     "rawName": "suckerfish",
     "images": [
-      "latest/MenuIcon/Fish83",
-      "latest/BookFishIcon/FishKobanzameCropped",
-      "latest/FtrIcon/FtrFishKobanzame"
+      "latest/BookFishIcon/FishKobanzameCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14878,9 +14566,7 @@
     "name": "灯笼鱼",
     "rawName": "football fish",
     "images": [
-      "latest/MenuIcon/Fish56",
-      "latest/BookFishIcon/FishChouchinankouCropped",
-      "latest/FtrIcon/FtrFishChouchinankou"
+      "latest/BookFishIcon/FishChouchinankouCropped"
     ],
     "ver": 1,
     "colors": [
@@ -14970,9 +14656,7 @@
     "name": "皇带鱼",
     "rawName": "oarfish",
     "images": [
-      "latest/MenuIcon/Fish69",
-      "latest/BookFishIcon/FishRyuuguunotukaiCropped",
-      "latest/FtrIcon/FtrFishRyugu"
+      "latest/BookFishIcon/FishRyuuguunotukaiCropped"
     ],
     "ver": 1,
     "colors": [
@@ -15079,9 +14763,7 @@
     "name": "太平洋桶眼鱼",
     "rawName": "barreleye",
     "images": [
-      "latest/MenuIcon/Fish84",
-      "latest/BookFishIcon/FishDemenigisuCropped",
-      "latest/FtrIcon/FtrFishDemenigisu"
+      "latest/BookFishIcon/FishDemenigisuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -15164,9 +14846,7 @@
     "name": "矛尾鱼",
     "rawName": "coelacanth",
     "images": [
-      "latest/MenuIcon/Fish63",
-      "latest/BookFishIcon/FishSirakansuCropped",
-      "latest/FtrIcon/FtrFishSirakansu"
+      "latest/BookFishIcon/FishSirakansuCropped"
     ],
     "ver": 1,
     "colors": [
@@ -15283,9 +14963,7 @@
     "name": "裙带菜",
     "rawName": "seaweed",
     "images": [
-      "latest/MenuIcon/Wakame",
-      "latest/BookDiveFishIcon/DiveFishWakameCropped",
-      "latest/FtrIcon/FtrDiveFishWakame"
+      "latest/BookDiveFishIcon/DiveFishWakameCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15397,9 +15075,7 @@
     "name": "海葡萄",
     "rawName": "sea grapes",
     "images": [
-      "latest/MenuIcon/Umibudou",
-      "latest/BookDiveFishIcon/DiveFishUmibudouCropped",
-      "latest/FtrIcon/FtrDiveFishUmibudou"
+      "latest/BookDiveFishIcon/DiveFishUmibudouCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15498,9 +15174,7 @@
     "name": "海参",
     "rawName": "sea cucumber",
     "images": [
-      "latest/MenuIcon/Namako",
-      "latest/BookDiveFishIcon/DiveFishNamakoCropped",
-      "latest/FtrIcon/FtrDiveFishNamako"
+      "latest/BookDiveFishIcon/DiveFishNamakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15603,9 +15277,7 @@
     "name": "海猪",
     "rawName": "sea pig",
     "images": [
-      "latest/MenuIcon/Senjunamako",
-      "latest/BookDiveFishIcon/DiveFishSenjunamakoCropped",
-      "latest/FtrIcon/FtrDiveFishSenjunamako"
+      "latest/BookDiveFishIcon/DiveFishSenjunamakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15690,9 +15362,7 @@
     "name": "海星",
     "rawName": "sea star",
     "images": [
-      "latest/MenuIcon/Hitode",
-      "latest/BookDiveFishIcon/DiveFishHitodeCropped",
-      "latest/FtrIcon/FtrDiveFishHitode"
+      "latest/BookDiveFishIcon/DiveFishHitodeCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15806,9 +15476,7 @@
     "name": "海胆",
     "rawName": "sea urchin",
     "images": [
-      "latest/MenuIcon/Uni",
-      "latest/BookDiveFishIcon/DiveFishUniCropped",
-      "latest/FtrIcon/FtrDiveFishUni"
+      "latest/BookDiveFishIcon/DiveFishUniCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15909,9 +15577,7 @@
     "name": "石笔海胆",
     "rawName": "slate pencil urchin",
     "images": [
-      "latest/MenuIcon/Paipuuni",
-      "latest/BookDiveFishIcon/DiveFishPaipuuniCropped",
-      "latest/FtrIcon/FtrDiveFishPaipuuni"
+      "latest/BookDiveFishIcon/DiveFishPaipuuniCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -15998,9 +15664,7 @@
     "name": "海葵",
     "rawName": "sea anemone",
     "images": [
-      "latest/MenuIcon/Isogintyaku",
-      "latest/BookDiveFishIcon/DiveFishIsogintyakuCropped",
-      "latest/FtrIcon/FtrDiveFishIsogintyaku"
+      "latest/BookDiveFishIcon/DiveFishIsogintyakuCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16114,9 +15778,7 @@
     "name": "海月水母",
     "rawName": "moon jellyfish",
     "images": [
-      "latest/MenuIcon/Mizukurage",
-      "latest/BookDiveFishIcon/DiveFishMizukurageCropped",
-      "latest/FtrIcon/FtrDiveFishMizukurage"
+      "latest/BookDiveFishIcon/DiveFishMizukurageCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16212,9 +15874,7 @@
     "name": "海蛞蝓",
     "rawName": "sea slug",
     "images": [
-      "latest/MenuIcon/Umiushi",
-      "latest/BookDiveFishIcon/DiveFishUmiushiCropped",
-      "latest/FtrIcon/FtrDiveFishUmiushi"
+      "latest/BookDiveFishIcon/DiveFishUmiushiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16328,9 +15988,7 @@
     "name": "马氏珠母贝",
     "rawName": "pearl oyster",
     "images": [
-      "latest/MenuIcon/Akoyagai",
-      "latest/BookDiveFishIcon/DiveFishAkoyagaiCropped",
-      "latest/FtrIcon/FtrDiveFishAkoyagai"
+      "latest/BookDiveFishIcon/DiveFishAkoyagaiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16444,9 +16102,7 @@
     "name": "贻贝",
     "rawName": "mussel",
     "images": [
-      "latest/MenuIcon/Muhrugai",
-      "latest/BookDiveFishIcon/DiveFishMuhrugaiCropped",
-      "latest/FtrIcon/FtrDiveFishMuhrugai"
+      "latest/BookDiveFishIcon/DiveFishMuhrugaiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16551,9 +16207,7 @@
     "name": "牡蛎",
     "rawName": "oyster",
     "images": [
-      "latest/MenuIcon/Kaki",
-      "latest/BookDiveFishIcon/DiveFishOysterCropped",
-      "latest/FtrIcon/FtrDiveFishKaki"
+      "latest/BookDiveFishIcon/DiveFishOysterCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16656,9 +16310,7 @@
     "name": "虾夷扇贝",
     "rawName": "scallop",
     "images": [
-      "latest/MenuIcon/Hotate",
-      "latest/BookDiveFishIcon/DiveFishHotateCropped",
-      "latest/FtrIcon/FtrDiveFishHotate"
+      "latest/BookDiveFishIcon/DiveFishHotateCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16772,9 +16424,7 @@
     "name": "花螺",
     "rawName": "whelk",
     "images": [
-      "latest/MenuIcon/Baigai",
-      "latest/BookDiveFishIcon/DiveFishBaigaiCropped",
-      "latest/FtrIcon/FtrDiveFishBaigai"
+      "latest/BookDiveFishIcon/DiveFishBaigaiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16888,9 +16538,7 @@
     "name": "角蝾螺",
     "rawName": "turban shell",
     "images": [
-      "latest/MenuIcon/Sazae",
-      "latest/BookDiveFishIcon/DiveFishSazaeCropped",
-      "latest/FtrIcon/FtrDiveFishSazae"
+      "latest/BookDiveFishIcon/DiveFishSazaeCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -16996,9 +16644,7 @@
     "name": "鲍鱼",
     "rawName": "abalone",
     "images": [
-      "latest/MenuIcon/Awabi",
-      "latest/BookDiveFishIcon/DiveFishAwabiCropped",
-      "latest/FtrIcon/FtrDiveFishAwabi"
+      "latest/BookDiveFishIcon/DiveFishAwabiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17092,9 +16738,7 @@
     "name": "大砗磲",
     "rawName": "gigas giant clam",
     "images": [
-      "latest/MenuIcon/Shakogai",
-      "latest/BookDiveFishIcon/DiveFishShakogaiCropped",
-      "latest/FtrIcon/FtrDiveFishShakogai"
+      "latest/BookDiveFishIcon/DiveFishShakogaiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17195,9 +16839,7 @@
     "name": "鹦鹉螺",
     "rawName": "chambered nautilus",
     "images": [
-      "latest/MenuIcon/Oumugai",
-      "latest/BookDiveFishIcon/DiveFishOumugaiCropped",
-      "latest/FtrIcon/FtrDiveFishOumugai"
+      "latest/BookDiveFishIcon/DiveFishOumugaiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17289,9 +16931,7 @@
     "name": "章鱼",
     "rawName": "octopus",
     "images": [
-      "latest/MenuIcon/Tako",
-      "latest/BookDiveFishIcon/DiveFishTakoCropped",
-      "latest/FtrIcon/FtrDiveFishTako"
+      "latest/BookDiveFishIcon/DiveFishTakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17405,9 +17045,7 @@
     "name": "扁面蛸",
     "rawName": "umbrella octopus",
     "images": [
-      "latest/MenuIcon/Mendako",
-      "latest/BookDiveFishIcon/DiveFishMendakoCropped",
-      "latest/FtrIcon/FtrDiveFishMendako"
+      "latest/BookDiveFishIcon/DiveFishMendakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17511,9 +17149,7 @@
     "name": "吸血鬼乌贼",
     "rawName": "vampire squid",
     "images": [
-      "latest/MenuIcon/Koumoridako",
-      "latest/BookDiveFishIcon/DiveFishKoumoridakoCropped",
-      "latest/FtrIcon/FtrDiveFishKoumoridako"
+      "latest/BookDiveFishIcon/DiveFishKoumoridakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17598,9 +17234,7 @@
     "name": "萤火鱿",
     "rawName": "firefly squid",
     "images": [
-      "latest/MenuIcon/Hotaruika",
-      "latest/BookDiveFishIcon/DiveFishHotaruikaCropped",
-      "latest/FtrIcon/FtrDiveFishHotaruika"
+      "latest/BookDiveFishIcon/DiveFishHotaruikaCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17664,9 +17298,7 @@
     "name": "梭子蟹",
     "rawName": "gazami crab",
     "images": [
-      "latest/MenuIcon/Gazami",
-      "latest/BookDiveFishIcon/DiveFishGazamiCropped",
-      "latest/FtrIcon/FtrDiveFishGazami"
+      "latest/BookDiveFishIcon/DiveFishGazamiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17769,9 +17401,7 @@
     "name": "珍宝蟹",
     "rawName": "Dungeness crab",
     "images": [
-      "latest/MenuIcon/DungenessCrab",
-      "latest/BookDiveFishIcon/DiveFishDungenessCrabCropped",
-      "latest/FtrIcon/FtrDiveFishDungenessCrab"
+      "latest/BookDiveFishIcon/DiveFishDungenessCrabCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17876,9 +17506,7 @@
     "name": "松叶蟹",
     "rawName": "snow crab",
     "images": [
-      "latest/MenuIcon/Zuwaigani",
-      "latest/BookDiveFishIcon/DiveFishZuwaiganiCropped",
-      "latest/FtrIcon/FtrDiveFishZuwaigani"
+      "latest/BookDiveFishIcon/DiveFishZuwaiganiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -17981,9 +17609,7 @@
     "name": "帝王蟹",
     "rawName": "red king crab",
     "images": [
-      "latest/MenuIcon/Tarabagani",
-      "latest/BookDiveFishIcon/DiveFishTarabaganiCropped",
-      "latest/FtrIcon/FtrDiveFishTarabagani"
+      "latest/BookDiveFishIcon/DiveFishTarabaganiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18084,9 +17710,7 @@
     "name": "藤壶",
     "rawName": "acorn barnacle",
     "images": [
-      "latest/MenuIcon/Fujitsubo",
-      "latest/BookDiveFishIcon/DiveFishFujitsuboCropped",
-      "latest/FtrIcon/FtrDiveFishFujitsubo"
+      "latest/BookDiveFishIcon/DiveFishFujitsuboCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18200,9 +17824,7 @@
     "name": "高脚蟹",
     "rawName": "spider crab",
     "images": [
-      "latest/MenuIcon/Takaashigani",
-      "latest/BookDiveFishIcon/DiveFishTakaashiganiCropped",
-      "latest/FtrIcon/FtrDiveFishTakaashigani"
+      "latest/BookDiveFishIcon/DiveFishTakaashiganiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18296,9 +17918,7 @@
     "name": "日本对虾",
     "rawName": "tiger prawn",
     "images": [
-      "latest/MenuIcon/Kurumaebi",
-      "latest/BookDiveFishIcon/DiveFishKurumaebiCropped",
-      "latest/FtrIcon/FtrDiveFishKurumaebi"
+      "latest/BookDiveFishIcon/DiveFishKurumaebiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18383,9 +18003,7 @@
     "name": "甜虾",
     "rawName": "sweet shrimp",
     "images": [
-      "latest/MenuIcon/Amaebi",
-      "latest/BookDiveFishIcon/DiveFishAmaebiCropped",
-      "latest/FtrIcon/FtrDiveFishAmaebi"
+      "latest/BookDiveFishIcon/DiveFishAmaebiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18474,9 +18092,7 @@
     "name": "虾蛄",
     "rawName": "mantis shrimp",
     "images": [
-      "latest/MenuIcon/Shako",
-      "latest/BookDiveFishIcon/DiveFishSyakoCropped",
-      "latest/FtrIcon/FtrDiveFishShako"
+      "latest/BookDiveFishIcon/DiveFishSyakoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18576,9 +18192,7 @@
     "name": "伊势龙虾",
     "rawName": "spiny lobster",
     "images": [
-      "latest/MenuIcon/Iseebi",
-      "latest/BookDiveFishIcon/DiveFishIseebiCropped",
-      "latest/FtrIcon/FtrDiveFishIseebi"
+      "latest/BookDiveFishIcon/DiveFishIseebiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18640,9 +18254,7 @@
     "name": "龙虾",
     "rawName": "lobster",
     "images": [
-      "latest/MenuIcon/Fish54",
-      "latest/BookDiveFishIcon/DiveFishLobsterCropped",
-      "latest/FtrIcon/FtrDiveFishLobster"
+      "latest/BookDiveFishIcon/DiveFishLobsterCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18745,9 +18357,7 @@
     "name": "大王具足虫",
     "rawName": "giant isopod",
     "images": [
-      "latest/MenuIcon/Daiougusokumushi",
-      "latest/BookDiveFishIcon/DiveFishDaiougusokumushiCropped",
-      "latest/FtrIcon/FtrDiveFishDaiougusokumushi"
+      "latest/BookDiveFishIcon/DiveFishDaiougusokumushiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18835,9 +18445,7 @@
     "name": "鲎",
     "rawName": "horseshoe crab",
     "images": [
-      "latest/MenuIcon/Kabutogani",
-      "latest/BookDiveFishIcon/DiveFishKabutoganiCropped",
-      "latest/FtrIcon/FtrDiveFishKabutogani"
+      "latest/BookDiveFishIcon/DiveFishKabutoganiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -18899,9 +18507,7 @@
     "name": "海鞘",
     "rawName": "sea pineapple",
     "images": [
-      "latest/MenuIcon/Hoya",
-      "latest/BookDiveFishIcon/DiveFishHoyaCropped",
-      "latest/FtrIcon/FtrDiveFishHoya"
+      "latest/BookDiveFishIcon/DiveFishHoyaCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -19002,9 +18608,7 @@
     "name": "花园鳗",
     "rawName": "spotted garden eel",
     "images": [
-      "latest/MenuIcon/Chinanago",
-      "latest/BookDiveFishIcon/DiveFishChinanagoCropped",
-      "latest/FtrIcon/FtrDiveFishChinanago"
+      "latest/BookDiveFishIcon/DiveFishChinanagoCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -19093,9 +18697,7 @@
     "name": "海扁虫",
     "rawName": "flatworm",
     "images": [
-      "latest/MenuIcon/Hiramushi",
-      "latest/BookDiveFishIcon/DiveFishHiramushiCropped",
-      "latest/FtrIcon/FtrDiveFishHiramushi"
+      "latest/BookDiveFishIcon/DiveFishHiramushiCropped"
     ],
     "ver": 4,
     "colors": [],
@@ -19175,9 +18777,7 @@
     "name": "偕老同穴",
     "rawName": "Venus' flower basket",
     "images": [
-      "latest/MenuIcon/Kairoudouketsu",
-      "latest/BookDiveFishIcon/DiveFishKairoudouketsuCropped",
-      "latest/FtrIcon/FtrDiveFishKairoudouketsu"
+      "latest/BookDiveFishIcon/DiveFishKairoudouketsuCropped"
     ],
     "ver": 4,
     "colors": [],

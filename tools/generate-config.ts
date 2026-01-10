@@ -550,9 +550,7 @@ for (const oldCreature of oldCreatures) {
     name: oldCreature.translations?.cNzh || oldCreature.name,
     rawName: oldCreature.name,
     images: [
-      processImageUrl(oldCreature.iconImage),
       processImageUrl(oldCreature.critterpediaImage),
-      processImageUrl(oldCreature.furnitureImage),
     ],
     ver: oldCreature.versionAdded
       ? versionAddedMap[oldCreature.versionAdded]
@@ -570,7 +568,7 @@ for (const oldCreature of oldCreatures) {
 
   const newItem: NewItem = {
     id: newCreature.id,
-    order: 100000,
+    order: newCreature.order,
     name: newCreature.name,
     rawName: newCreature.rawName,
     images: newCreature.images,
@@ -581,6 +579,7 @@ for (const oldCreature of oldCreatures) {
     sell: newCreature.sell,
     points: oldCreature.hhaBasePoints,
     category: oldCreature.hhaCategory ?? undefined,
+    tag: oldCreature.sourceSheet,
   };
   newItems.push(newItem);
   newItemIdMap.set(newItem.id, newItem);
@@ -609,7 +608,7 @@ for (const entry of plantsConfig) {
     continue;
   }
 
-  const plantType = entry.type || '';
+  const plantType = entry.type!;
 
   for (const itemEntry of entry.list) {
     const plants = Array.isArray(itemEntry) ? itemEntry : [itemEntry];
@@ -686,7 +685,12 @@ for (const oldRecipe of oldRecipes) {
   };
   newRecipes.push(newRecipe);
 }
-newRecipes.sort((a, b) => a.id - b.id);
+newRecipes.sort((a, b) => {
+  if (a.type !== b.type) {
+    return a.type - b.type;
+  }
+  return a.id - b.id;
+});
 
 const genderMap: Record<string, Gender> = {
   Male: Gender.Male,

@@ -2,7 +2,7 @@
 import BaseCard from './BaseCard.vue';
 import type { Plant } from '../types/plant';
 import { UI_TEXT } from '../constants';
-import { getPriceWithIcon } from '../services/dataService';
+import { getPlantTypeName, getPlantTypeIcon, getPriceWithIcon } from '../services/dataService';
 import ItemIcon from './ItemIcon.vue';
 import { computed, onMounted } from 'vue';
 import { useItemsData } from '../composables/useItemsData';
@@ -39,7 +39,13 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">类型</span>
-      <span class="detail-value">{{ props.data.type }}</span>
+      <span class="detail-value">{{ getPlantTypeName(props.data.type) }}
+                <img
+          :src="getPlantTypeIcon(props.data.type)"
+          :alt="getPlantTypeName(props.data.type)"
+          class="inline-icon gray"
+        />
+      </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>

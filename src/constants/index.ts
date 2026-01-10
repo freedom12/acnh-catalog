@@ -31,20 +31,13 @@ export const ENTITY_ICONS = {
   CREATURES: '🦋',
   REACTIONS: '😊',
   RECIPES: '📜',
-  CONSTRUCTION: '🏗️',
+  CONSTRUCTIONS: '🏗️',
   MESSAGE_CARDS: '💌',
   ARTWORKS: '🎨',
   MUSICS: '🎵',
   FOSSILS: '🦕',
   PLANTS: '🌱',
   MISC: '📦',
-  // 生物类型
-  INSECTS: '🦋',
-  FISH: '🐟',
-  SEA_CREATURES: '🦞',
-  // 性别
-  MALE: '♂️',
-  FEMALE: '♀️',
 } as const;
 
 /**
