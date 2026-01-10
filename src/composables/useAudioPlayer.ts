@@ -13,9 +13,30 @@ const currentTime = ref(0);
 const duration = ref(0);
 const volume = ref(0.7);
 const isVisible = ref(false);
+const playlist = ref<AudioTrack[]>([]);
+const currentIndex = ref(-1);
 
 // 设置初始音量
 audioElement.volume = volume.value;
+
+const startTrack = (track: AudioTrack) => {
+  currentTrack.value = track;
+  audioElement.src = track.url;
+  audioElement.load();
+  audioElement.play();
+  isVisible.value = true;
+};
+
+const playNextInQueue = () => {
+  const nextIndex = currentIndex.value + 1;
+  const hasNext = playlist.value.length > 0 && nextIndex < playlist.value.length;
+  if (!hasNext) return false;
+  const nextTrack = playlist.value[nextIndex];
+  if (!nextTrack) return false;
+  currentIndex.value = nextIndex;
+  startTrack(nextTrack);
+  return true;
+};
 
 // 音频事件监听
 audioElement.addEventListener('timeupdate', () => {
@@ -27,8 +48,11 @@ audioElement.addEventListener('durationchange', () => {
 });
 
 audioElement.addEventListener('ended', () => {
-  isPlaying.value = false;
-  currentTime.value = 0;
+  const advanced = playNextInQueue();
+  if (!advanced) {
+    isPlaying.value = false;
+    currentTime.value = 0;
+  }
 });
 
 audioElement.addEventListener('play', () => {
@@ -51,12 +75,20 @@ export function useAudioPlayer() {
       return;
     }
 
-    // 切换新歌曲
-    currentTrack.value = track;
-    audioElement.src = track.url;
-    audioElement.load();
-    audioElement.play();
-    isVisible.value = true;
+    // 切换新歌曲并重置播放队列
+    playlist.value = [track];
+    currentIndex.value = 0;
+    startTrack(track);
+  };
+
+  const playTracks = (tracks: AudioTrack[], startAt = 0) => {
+    if (!tracks || tracks.length === 0) return;
+    const startIndex = Math.min(Math.max(startAt, 0), tracks.length - 1);
+    playlist.value = [...tracks];
+    currentIndex.value = startIndex;
+    const startTrackItem = playlist.value[startIndex];
+    if (!startTrackItem) return;
+    startTrack(startTrackItem);
   };
 
   const play = () => {
@@ -88,6 +120,8 @@ export function useAudioPlayer() {
     audioElement.currentTime = 0;
     currentTrack.value = null;
     isVisible.value = false;
+    playlist.value = [];
+    currentIndex.value = -1;
   };
 
   return {
@@ -100,6 +134,7 @@ export function useAudioPlayer() {
     isVisible: readonly(isVisible),
     // 方法
     playTrack,
+    playTracks,
     play,
     pause,
     seek,

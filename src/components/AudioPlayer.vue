@@ -34,6 +34,10 @@ const volumeIcon = computed(() => {
   return '🔊';
 });
 
+const toggleMute = () => {
+  setVolume(volume.value > 0 ? 0 : 0.5);
+};
+
 const handleProgressClick = (e: MouseEvent) => {
   const target = e.currentTarget as HTMLElement;
   const rect = target.getBoundingClientRect();
@@ -43,28 +47,43 @@ const handleProgressClick = (e: MouseEvent) => {
 </script>
 
 <template>
-  <transition name="player-slide">
-    <div v-if="isVisible && currentTrack" class="audio-player">
-      <div class="player-content">
-        <div class="track-info">
-          <div class="track-title">{{ currentTrack.title }}</div>
-        </div>
+  <transition name="player-fade">
+    <div
+      v-if="isVisible && currentTrack"
+      class="audio-player"
+      role="complementary"
+      aria-label="音频播放器"
+    >
+      <div class="player-surface">
+        <button
+          class="primary-btn"
+          :aria-label="isPlaying ? '暂停' : '播放'"
+          @click="isPlaying ? pause() : play()"
+        >
+          {{ isPlaying ? '⏸' : '▶' }}
+        </button>
 
-        <div class="player-controls">
-          <button @click="isPlaying ? pause() : play()" class="control-btn play-btn">
-            {{ isPlaying ? '⏸' : '▶' }}
-          </button>
-
-          <div class="progress-container">
+        <div class="info-block">
+          <div class="track-title" :title="currentTrack.title">{{ currentTrack.title }}</div>
+          <div class="progress-combo">
             <span class="time">{{ formatTime(currentTime) }}</span>
             <div class="progress-bar" @click="handleProgressClick">
               <div class="progress-fill" :style="{ width: `${progress}%` }"></div>
             </div>
             <span class="time">{{ formatTime(duration) }}</span>
           </div>
+        </div>
 
-          <div class="volume-control">
-            <button class="control-btn volume-btn">{{ volumeIcon }}</button>
+        <div class="controls-block">
+          <div class="volume-row">
+            <button
+              class="volume-icon"
+              type="button"
+              aria-label="静音切换"
+              @click="toggleMute"
+            >
+              {{ volumeIcon }}
+            </button>
             <input
               type="range"
               min="0"
@@ -73,10 +92,10 @@ const handleProgressClick = (e: MouseEvent) => {
               :value="volume"
               @input="(e) => setVolume(parseFloat((e.target as HTMLInputElement).value))"
               class="volume-slider"
+              aria-label="调整音量"
             />
           </div>
-
-          <button @click="close" class="control-btn close-btn">✕</button>
+          <button class="icon-btn" @click="close" aria-label="关闭音频播放器">✕</button>
         </div>
       </div>
     </div>
@@ -86,83 +105,160 @@ const handleProgressClick = (e: MouseEvent) => {
 <style scoped>
 .audio-player {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 1000;
-  padding: 16px 24px;
-}
-
-.player-content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.track-info {
-  margin-bottom: 12px;
-}
-
-.track-title {
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.player-controls {
+  right: var(--spacing-xl);
+  bottom: calc(var(--spacing-xl) + 50px + var(--spacing-sm));
+  width: min(460px, 92vw);
+  height: 90px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: flex-end;
+  z-index: 1001;
 }
 
-.control-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: none;
-  color: white;
-  width: 40px;
-  height: 40px;
+.player-surface {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;
+  gap: 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 18px;
-  transition: all 0.3s ease;
-  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  transition: width 0.25s ease, height 0.25s ease, border-radius 0.25s ease,
+    padding 0.25s ease, gap 0.25s ease;
 }
 
-.control-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.05);
+.audio-player:hover .player-surface,
+.audio-player:focus-within .player-surface {
+  width: 100%;
+  height: 78px;
+  padding: 12px 72px 12px 16px;
+  border-radius: 999px;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
 }
 
-.play-btn {
+.primary-btn {
   width: 48px;
   height: 48px;
-  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.2s ease;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
-.progress-container {
-  flex: 1;
+.primary-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.audio-player:hover .primary-btn,
+.audio-player:focus-within .primary-btn {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  left: auto;
+  top: auto;
+  transform: none;
+}
+
+.info-block,
+.controls-block {
+  opacity: 0;
+  max-width: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease 0.05s, max-width 0.25s ease;
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.time {
+.info-block {
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.controls-block {
+  gap: 10px;
+}
+
+.audio-player:hover .info-block,
+.audio-player:focus-within .info-block,
+.audio-player:hover .controls-block,
+.audio-player:focus-within .controls-block {
+  opacity: 1;
+  max-width: 999px;
+  pointer-events: auto;
+}
+
+.track-title {
+  font-size: 14px;
+  font-weight: 700;
   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.icon-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.icon-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.progress-combo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 240px;
+  flex: 1;
+}
+
+.time {
   font-size: 12px;
-  min-width: 40px;
+  min-width: 42px;
   text-align: center;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .progress-bar {
   flex: 1;
   height: 6px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -171,78 +267,108 @@ const handleProgressClick = (e: MouseEvent) => {
 .progress-fill {
   height: 100%;
   background: white;
-  border-radius: 3px;
+  border-radius: 999px;
   transition: width 0.1s ease;
 }
 
-.volume-control {
+.volume-row {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.volume-btn {
+.volume-icon {
   font-size: 16px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.volume-icon:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
 }
 
 .volume-slider {
-  width: 80px;
-  height: 4px;
+  width: 40px;
+  height: 3px;
   appearance: none;
   -webkit-appearance: none;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
   outline: none;
 }
 
 .volume-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   background: white;
   border-radius: 50%;
   cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .volume-slider::-moz-range-thumb {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   background: white;
   border-radius: 50%;
   cursor: pointer;
   border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.close-btn {
-  font-size: 20px;
+.player-fade-enter-active,
+.player-fade-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.player-slide-enter-active,
-.player-slide-leave-active {
-  transition: transform 0.3s ease;
-}
-
-.player-slide-enter-from,
-.player-slide-leave-to {
-  transform: translateY(100%);
+.player-fade-enter-from,
+.player-fade-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
 }
 
 @media (max-width: 768px) {
   .audio-player {
-    padding: 12px 16px;
+    right: var(--spacing-lg);
+    bottom: calc(var(--spacing-lg) + 58px);
+    width: min(360px, 94vw);
+    height: 78px;
+    justify-content: flex-end;
+  }
+
+  .player-surface {
+    height: 70px;
+  }
+
+  .audio-player:hover .player-surface,
+  .audio-player:focus-within .player-surface {
+    height: 74px;
+    padding: 12px 68px 12px 14px;
+  }
+
+  .audio-player:hover .primary-btn,
+  .audio-player:focus-within .primary-btn {
+    right: 10px;
+    bottom: 10px;
   }
 
   .track-title {
-    font-size: 14px;
-  }
-
-  .volume-control {
-    display: none;
+    max-width: 120px;
   }
 
   .time {
-    font-size: 11px;
-    min-width: 35px;
+    min-width: 38px;
   }
 }
 </style>
