@@ -114,10 +114,37 @@
 音乐
 
 
-Type 5 (InteriorStructures): Counter, FtrWall, Pillar
-Type 18 (Wallpaper): Art Deco Walls; Asia; Brick; Camouflage; Chocolate; Cloth Walls; Country; Crown Walls; Cute Walls; Diner Walls; Dollhouse Walls; Dot; Flower Pop Walls; Flower Walls; Fruit Walls; Hall Walls; Heart Walls; Herringbone; Honeycomb; Iron Walls; Library Walls; Manor Walls; Metro Walls; Morocco; Nature Walls; Neta Walls; Painted Wood; Panel Mold Walls; Pegboard Walls; Puzzle Walls; Rose Walls; Sanrio Walls; Simple Walls; Special Cool Nature Walls; Special Inorganic Walls; Special Walls; Special Warm Nature Walls; Stone Walls; Stripe Walls; Stucco Walls; Tea Room Walls; Tile Walls; Tin Walls; Toy Walls; Two-Tone Tile Walls; WallFacility; WallGoldSilverBronze; Wood Plank Walls; Wood Tile Walls; Wood Walls
-Type 19 (Floors): Animal Floor; Arched Brick; Argyle; Brick; Camouflage; Chocolate; Cloth Floors; Colorful Wood; Country; Decadence; Deco Wood; Dot; FloorSimpleGlodSilverBronze; Grassland; Herringbone; Honeycomb; Iron; Iron Parquet; Japanese; Kitchen Floors; Luxury; Machine Floor; Morocco; Nature - Brown; Nature - Fallen Leaves; Nature - Green; Nature - White; Neta; Painted Wood; Panel; Parquet; Puzzle Mat; Rubber; Sanrio Floor; Sidewalk; Simple Carpet; Simple Parquet; Special Inorganic Floors; Special Nature Floors; Sports Floor; Stone Floors; Tatami; Tatami Panel; Tile Checker; Tile Floors; Wood Floors
-Type 20 (Rugs): Fruit Rugs; Heart Rugs; Icon Rugs; Kitchen Rugs; Message Mats; Park Rugs; Pattern Rugs; Rose Rug; Sanrio Rugs; Shaggy Round Rugs; Simple Rugs; Slender Pattern Rugs; Slender Rugs; Wood Rugs
-Type 23 (Artwork): Picture; Sculpture
-Type 24 (Gyroids): Haniwa
-Type 28 (Other): Etc; FieldVine; FieldWeedLight; FossilUnknown; HaniwaPiece; Unnecessary
+Type 1 (Housewares): total 958 items, 53 tags
+Arch 17; Audio 18; Bathroom Things 4; Bathtub 13; Bed 47; Chair 88; Chest 32; Cinnamoroll 5; Compass 5; Desk 14; Dresser 10; Easter 6; Facility Decor 29; Fan 3; Fireplace 4; Fish 1; Folk Craft Decor 23; Garden 12; Heating 1; Hello Kitty 4; Home Appliances 9; Hospital 8; Insect 3; Japanese Style 31; Kerokerokeroppi 4; Kiki & Lala 4; Kitchen 16; Lamp 26; Mario 8; Museum 6; Musical Instrument 24; My Melody 4; Plants 34; Playground 8; Pompompurin 4; Ranch 31; School 9; Screen 33; Seaside 19; Seasonal Decor 26; Shelf 28; Shop 21; Sofa 30; Space 13; Sports 33; Supplies 22; TV 6; Table 84; Toilet 10; Toy 21; Vehicle 31; Work Bench 5.
+
+Type 2 (Miscellaneous): total 757 items, 41 tags
+Animal 13; Audio 22; Bathroom Things 8; Bromide 1; Chair 8; Cinnamoroll 1; Compass 2; Desk 2; Dining 25; DishDrink 20; DishFood 186; Dresser 4; Easter 2; Fish 79; Folk Craft Decor 24; Game Console 5; Hello Kitty 1; Insect 77; Japanese Style 10; Kerokerokeroppi 2; Kitchen Things 35; Lamp 31; Mario 6; Museum 12; Musical Instrument 7; Office 6; Plants 15; Pompompurin 1; School 5; Seaside 12; Seasonal Decor 17; Shop 23; Special Fish 2; Special Insect 4; Sports 7; Study 19; Supplies 16; TV 8; TableClock 4; Toilet 1; Toy 34.
+
+Type 3 (WallMounted): total 174 items, 28 tags
+Air Conditioning 2; Animal 2; Bathroom Things 1; Bathtub 1; Chest 1; Clock 15; Facility Decor 4; Heating 1; Hello Kitty 1; Home Appliances 5; House Door Decor 52; Kiki & Lala 1; Kitchen Things 3; Lamp 7; My Melody 1; Plants 9; Pompompurin 1; Posters 1; Seasonal Decor 13; Shelf 4; Shop 10; Special Fish 3; Special Insect 3; Sports 2; Study 12; Supplies 15; TV 2; Toy 2.
+
+Type 4 (CeilingDecor): total 39 items, 2 tags
+CeilingEtc 17; CeilingLamp 22.
+
+Type 5 (InteriorStructures): total 22 items, 3 tags
+Counter 14; FtrWall 1; Pillar 7.
+
+Type 18 (Wallpaper): total 306 items, 51 tags
+Art Deco Walls 2; Asia 9; Brick 6; Camouflage 4; Chocolate 3; Cloth Walls 20; Country 4; Crown Walls 4; Cute Walls 5; Diner Walls 4; Dollhouse Walls 4; Dot 4; Flower Pop Walls 4; Flower Walls 4; Fruit Walls 5; Hall Walls 4; Heart Walls 4; Herringbone 2; Honeycomb 4; Iron Walls 8; Japanese Style 6; Library Walls 2; Manor Walls 4; Metro Walls 2; Morocco 4; Nature Walls 17; Neta Walls 11; Painted Wood 4; Panel Mold Walls 4; Pegboard Walls 4; Puzzle Walls 4; Rose Walls 4; Sanrio Walls 6; Simple Walls 5; Special Cool Nature Walls 19; Special Inorganic Walls 11; Special Walls 18; Special Warm Nature Walls 7; Stone Walls 10; Stripe Walls 6; Stucco Walls 4; Tea Room Walls 4; Tile Walls 7; Tin Walls 4; Toy Walls 4; Two-Tone Tile Walls 4; WallFacility 11; WallGoldSilverBronze 1; Wood Plank Walls 2; Wood Tile Walls 4; Wood Walls 9.
+
+Type 19 (Floors): total 209 items, 46 tags
+Animal Floor 4; Arched Brick 1; Argyle 2; Brick 4; Camouflage 4; Chocolate 3; Cloth Floors 9; Colorful Wood 2; Country 2; Decadence 4; Deco Wood 4; Dot 5; FloorSimpleGlodSilverBronze 1; Grassland 3; Herringbone 2; Honeycomb 4; Iron 3; Iron Parquet 4; Japanese 1; Kitchen Floors 2; Luxury 5; Machine Floor 3; Morocco 5; Nature - Brown 8; Nature - Fallen Leaves 3; Nature - Green 5; Nature - White 6; Neta 1; Painted Wood 4; Panel 2; Parquet 3; Puzzle Mat 4; Rubber 2; Sanrio Floor 6; Sidewalk 7; Simple Carpet 5; Simple Parquet 4; Special Inorganic Floors 8; Special Nature Floors 9; Sports Floor 4; Stone Floors 7; Tatami 2; Tatami Panel 2; Tile Checker 4; Tile Floors 21; Wood Floors 15.
+
+Type 20 (Rugs): total 209 items, 14 tags
+Fruit Rugs 7; Heart Rugs 4; Icon Rugs 18; Kitchen Rugs 14; Message Mats 4; Park Rugs 10; Pattern Rugs 39; Rose Rug 4; Sanrio Rugs 6; Shaggy Round Rugs 16; Simple Rugs 18; Slender Pattern Rugs 32; Slender Rugs 16; Wood Rugs 21.
+
+Type 23 (Artwork): total 70 items, 2 tags
+Picture 46; Sculpture 24.
+
+Type 24 (Gyroids): total 36 items, 1 tag
+Haniwa 36.
+
+Type 28 (Other): total 410 items, 7 tags
+Etc 122; FieldVine 1; FieldWeedLight 1; FossilUnknown 1; HaniwaPiece 1; Plants 206; Unnecessary 78.
+
+

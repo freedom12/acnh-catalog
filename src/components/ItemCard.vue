@@ -80,10 +80,13 @@ const handleClick = () => {
           :title="itemModel.typeName"
           class="inline-icon gray"
         />
-        <img v-if="itemModel.subtype"
-          :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
-          class="inline-icon gray"
-        />
+        <template v-if="itemModel.subtype">
+          -
+          <img
+            :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
+            class="inline-icon gray"
+          />
+        </template>
         ID: {{ displayId }}
       </span>
       <ColorBlock v-if="displayColors.length > 0" :colors="displayColors" :size="16" />
