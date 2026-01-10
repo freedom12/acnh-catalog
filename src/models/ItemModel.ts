@@ -27,6 +27,9 @@ import {
   FurnitureTypes,
   ClothingTypes,
   ItemType,
+  itemTagOrderMap,
+  HousewaresTagGroups,
+  MiscellaneousTagGroups,
 } from '../types/item';
 import type { Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
@@ -164,6 +167,10 @@ export class ItemModel {
 
   get tagName(): string {
     return getTagName(this.tag) || '--';
+  }
+
+  get tagOrder(): number {
+    return itemTagOrderMap[this.tag] || 999999;
   }
 
   get sources(): string[] {
@@ -520,4 +527,39 @@ export class ItemModel {
     if (!category) return true;
     return this.hhaCategory === category;
   }
+
+  get subtype(): number {
+    if (!this.tag) return 0;
+    if (this.type === ItemType.Housewares) {
+      const tag = this.tag;
+      for (let i = 0; i < HousewaresTagGroups.length; i++) {
+        if (HousewaresTagGroups[i]?.includes(tag)) {
+          return i + 1; // use 1-based group index
+        }
+      }
+    } else if (this.type === ItemType.Miscellaneous) {
+      const tag = this.tag;
+      for (let i = 0; i < MiscellaneousTagGroups.length; i++) {
+        if (MiscellaneousTagGroups[i]?.includes(tag)) {
+          return i + 1; // use 1-based group index
+        }
+      }
+    } else if (this.type === ItemType.CeilingDecor) {
+      const tag = this.tag;
+      if (tag === 'CeilingLamp') {
+        return 1;
+      } else if (tag === 'CeilingEtc') {
+        return 2;
+      }
+    } else if (this.type === ItemType.Wallpaper || this.type === ItemType.Floors) {
+      if (this._data.vfx) {
+        return 2;
+      } else {
+        return 1;
+      }
+    }
+    return 0;
+  }
 }
+
+

@@ -20,7 +20,7 @@ import {
   getClothingStyleName,
   getTagName,
 } from '../services/dataService';
-import { ItemType, Version, ItemSize, Color } from '../types/item';
+import { ItemType, Version, ItemSize, Color, itemTagOrderMap } from '../types/item';
 
 const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
 
@@ -66,25 +66,6 @@ const filters = computed<Filter[]>(() => {
     .map((source) => ({
       value: source,
       label: getSourceName(source),
-    }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
-
-  // 标签选项
-  const tagsSet = new Set(
-    itemsArray
-      .map((item) => {
-        if (item.tag && item.type == ItemType.Other) {
-          return item.tag;
-        } else {
-          return null;
-        }
-      })
-      .filter((t): t is string => !!t)
-  );
-  const tagsOptions = [...tagsSet]
-    .map((tag) => ({
-      value: tag,
-      label: tag + ' - ' + getTagName(tag),
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
@@ -157,14 +138,13 @@ const filters = computed<Filter[]>(() => {
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
-  return [
+  const filtersList: Filter[] = [
     { label: '类型', value: 'typesFilter', options: typesOptions },
     { label: '拥有状态', value: 'ownedFilter', options: ownedOptions },
     { label: '版本', value: 'versionFilter', options: versionsOptions },
     { label: '尺寸', value: 'sizeFilter', options: sizesOptions },
     { label: '颜色', value: 'colorFilter', options: colorsOptions },
     { label: '来源', value: 'sourceFilter', options: sourcesOptions },
-    { label: '标签', value: 'tagFilter', options: tagsOptions },
     { label: 'HHA主题', value: 'seriesFilter', options: seriesOptions },
     { label: 'HHA场景', value: 'conceptsFilter', options: conceptsOptions },
     { label: 'HHA套组', value: 'setFilter', options: setsOptions },
@@ -172,6 +152,36 @@ const filters = computed<Filter[]>(() => {
     { label: '服饰主题', value: 'themeFilter', options: themesOptions },
     { label: '服饰风格', value: 'styleFilter', options: stylesOptions },
   ];
+
+  if (import.meta.env.DEV) {
+    // 标签选项
+    const tagsSet = new Set(
+      itemsArray
+        .map((item) => {
+          if (item.tag && item.type === ItemType.Rugs) {
+            return item.tag;
+          } else {
+            return null;
+          }
+        })
+        .filter((t): t is string => !!t)
+    );
+    const tagsOptions = [...tagsSet]
+      .map((tag) => ({
+        value: tag,
+        label: tag + ' - ' + getTagName(tag),
+      }))
+      .sort((a, b) => {
+        let order1 = itemTagOrderMap[a.value] || 999999;
+        let order2 = itemTagOrderMap[b.value] || 999999;
+        if (order1 !== order2) {
+          return order1 - order2;
+        }
+        return a.label.localeCompare(b.label, 'zh-CN');
+      });
+    filtersList.push({ label: '标签', value: 'tagFilter', options: tagsOptions });
+  }
+  return filtersList;
 });
 const { filteredData, handleFiltersChanged } = useFilter(
   allItems,
@@ -264,8 +274,14 @@ const sortedItems = computed(() => {
     const typeDiff = a.type - b.type;
     if (typeDiff !== 0) return typeDiff;
 
+    const subtypeDiff = a.subtype - b.subtype;
+    if (subtypeDiff !== 0) return subtypeDiff;
+
     const orderDiff = a.order - b.order;
     if (orderDiff !== 0) return orderDiff;
+
+    const tagOrderDiff = a.tagOrder - b.tagOrder;
+    if (tagOrderDiff !== 0) return tagOrderDiff;
 
     const nameDiff = a.name.localeCompare(b.name, 'zh-CN');
     if (nameDiff !== 0) return nameDiff;

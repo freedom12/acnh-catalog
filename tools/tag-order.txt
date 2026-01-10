@@ -1,0 +1,70 @@
+Chair
+Sofa
+Desk
+Table
+Bed
+Chest
+Dresser
+Shelf
+Arch
+Screen
+Work Bench
+Kitchen
+Dining
+Kitchen Things
+DishFood
+DishDrink
+Lamp
+Audio
+TV
+Game Console
+TableClock
+Clock
+Musical Instrument
+Fan
+Fireplace
+Heating
+Home Appliances
+Air Conditioning
+Bathroom Things
+Bathtub
+Toilet
+Plants
+House Door Decor
+Bromide
+Posters
+CeilingLamp
+CeilingEtc
+Facility Decor
+Hospital
+Museum
+School
+Shop
+Supplies
+Office
+Study
+Seaside
+Space
+Vehicle
+Animal
+Fish
+Insect
+Playground
+Sports
+Toy
+Special Fish
+Special Insect
+Garden
+Ranch
+Folk Craft Decor
+Japanese Style
+Compass
+Easter
+Seasonal Decor
+Cinnamoroll
+Hello Kitty
+Kerokerokeroppi
+Kiki & Lala
+My Melody
+Pompompurin
+Mario

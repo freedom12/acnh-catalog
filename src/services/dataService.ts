@@ -479,6 +479,10 @@ export function getItemTypeIcon(type: ItemType): string {
   return getImgUrl(`img/icon/item_type/item_type_${type}.png`);
 }
 
+export function getItemSubtypeIcon(type: ItemType, subtype: number): string {
+  return getImgUrl(`img/icon/item_subtype/type_${type}_${subtype}.png`);
+}
+
 export async function loadItemsData(): Promise<Item[]> {
   try {
     const response = await fetch(CONFIG.DATA_FILES.ITEMS);

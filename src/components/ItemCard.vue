@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from 'vue';
 import { joinArray } from '../utils/common';
-import { getImgUrl, getItemTypeIcon } from '../services/dataService';
+import { getImgUrl, getItemTypeIcon, getItemSubtypeIcon } from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
 import ColorBlock from './ColorBlock.vue';
@@ -80,6 +80,10 @@ const handleClick = () => {
           :title="itemModel.typeName"
           class="inline-icon gray"
         />
+        <img v-if="itemModel.subtype"
+          :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
+          class="inline-icon gray"
+        />
         ID: {{ displayId }}
       </span>
       <ColorBlock v-if="displayColors.length > 0" :colors="displayColors" :size="16" />
@@ -88,10 +92,10 @@ const handleClick = () => {
       <span class="detail-label">尺寸</span>
       <span class="detail-value">{{ itemModel.sizeName }}</span>
     </div>
-    <!-- <div v-if="!itemModel.isClothing" class="detail-row">
+    <div v-if="itemModel.tag" class="detail-row">
       <span class="detail-label">标签</span>
       <span class="detail-value">{{ itemModel.tagName }}</span>
-    </div> -->
+    </div>
     <div v-if="!itemModel.isClothing" class="detail-row">
       <span class="detail-label">HHA分数</span>
       <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>

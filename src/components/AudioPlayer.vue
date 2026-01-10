@@ -95,7 +95,7 @@ const handleProgressClick = (e: MouseEvent) => {
               aria-label="调整音量"
             />
           </div>
-          <button class="icon-btn" @click="close" aria-label="关闭音频播放器">✕</button>
+          <button class="icon-btn close-btn" @click="close" aria-label="关闭音频播放器">■</button>
         </div>
       </div>
     </div>
@@ -233,6 +233,17 @@ const handleProgressClick = (e: MouseEvent) => {
   align-items: center;
   justify-content: center;
   transition: background 0.2s ease;
+}
+
+.close-btn {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.26);
 }
 
 .icon-btn:hover {

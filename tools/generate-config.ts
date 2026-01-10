@@ -375,6 +375,7 @@ function convertItem(oldItem: OldItem): NewItem {
     pt: oldItem.variations?.[0].patternTitle || undefined,
     iv: oldItem.bodyCustomize || oldItem.customize || isContainsDamaged || undefined,
     ip: oldItem.patternCustomize || undefined,
+    vfx: oldItem.vfx || undefined,
   };
 }
 
@@ -870,7 +871,10 @@ for (const oldConstruction of oldConstructions) {
   };
   newConstructions.push(newConstruction);
 }
-newConstructions.sort((a, b) => a.id - b.id);
+newConstructions.sort((a, b) => {
+  if (a.type !== b.type) return a.type - b.type;
+  return a.id - b.id;
+});
 
 const SeasonsAndEventsTypesMap: Record<string, ActivityType> = {
   'Basegame event': ActivityType.BasegameEvent,
@@ -981,7 +985,11 @@ fs.writeFileSync(
 );
 
 // for (const oldItem of oldItems) {
-//   if (oldItem.sourceSheet === OldItemSourceSheet.Other && !oldItem.tag) {
-//     console.log(oldItem.internalId, oldItem.translations?.cNzh || oldItem.name);
+//   if (oldItem.sourceSheet === OldItemSourceSheet.ToolsGoods) {
+//     let id = oldItem.internalId;
+//     if (oldItem.variations && oldItem.variations.length > 0) {
+//       id = oldItem.variations[0].internalId;
+//     }
+//     console.log(id, oldItem.translations?.cNzh || oldItem.name);
 //   }
 // }

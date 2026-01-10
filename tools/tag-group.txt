@@ -26,6 +26,7 @@
 - TV
 - Game Console
 - TableClock
+- Clock
 乐器
 - Musical Instrument
 家电/暖气
@@ -67,7 +68,6 @@
 世界杂货
 - Folk Craft Decor
 - Japanese Style
-- Folk Craft Decor
 活动杂货
 - Compass
 - Easter
@@ -112,3 +112,12 @@
 - Posters
 陶俑
 音乐
+
+
+Type 5 (InteriorStructures): Counter, FtrWall, Pillar
+Type 18 (Wallpaper): Art Deco Walls; Asia; Brick; Camouflage; Chocolate; Cloth Walls; Country; Crown Walls; Cute Walls; Diner Walls; Dollhouse Walls; Dot; Flower Pop Walls; Flower Walls; Fruit Walls; Hall Walls; Heart Walls; Herringbone; Honeycomb; Iron Walls; Library Walls; Manor Walls; Metro Walls; Morocco; Nature Walls; Neta Walls; Painted Wood; Panel Mold Walls; Pegboard Walls; Puzzle Walls; Rose Walls; Sanrio Walls; Simple Walls; Special Cool Nature Walls; Special Inorganic Walls; Special Walls; Special Warm Nature Walls; Stone Walls; Stripe Walls; Stucco Walls; Tea Room Walls; Tile Walls; Tin Walls; Toy Walls; Two-Tone Tile Walls; WallFacility; WallGoldSilverBronze; Wood Plank Walls; Wood Tile Walls; Wood Walls
+Type 19 (Floors): Animal Floor; Arched Brick; Argyle; Brick; Camouflage; Chocolate; Cloth Floors; Colorful Wood; Country; Decadence; Deco Wood; Dot; FloorSimpleGlodSilverBronze; Grassland; Herringbone; Honeycomb; Iron; Iron Parquet; Japanese; Kitchen Floors; Luxury; Machine Floor; Morocco; Nature - Brown; Nature - Fallen Leaves; Nature - Green; Nature - White; Neta; Painted Wood; Panel; Parquet; Puzzle Mat; Rubber; Sanrio Floor; Sidewalk; Simple Carpet; Simple Parquet; Special Inorganic Floors; Special Nature Floors; Sports Floor; Stone Floors; Tatami; Tatami Panel; Tile Checker; Tile Floors; Wood Floors
+Type 20 (Rugs): Fruit Rugs; Heart Rugs; Icon Rugs; Kitchen Rugs; Message Mats; Park Rugs; Pattern Rugs; Rose Rug; Sanrio Rugs; Shaggy Round Rugs; Simple Rugs; Slender Pattern Rugs; Slender Rugs; Wood Rugs
+Type 23 (Artwork): Picture; Sculpture
+Type 24 (Gyroids): Haniwa
+Type 28 (Other): Etc; FieldVine; FieldWeedLight; FossilUnknown; HaniwaPiece; Unnecessary

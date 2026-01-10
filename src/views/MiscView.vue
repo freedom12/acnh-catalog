@@ -464,6 +464,10 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
 
 .section {
   margin-bottom: 40px;
+  padding: 20px;
+  background: #f8f9fb;
+  border-radius: var(--border-radius-xl);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .section h2 {

@@ -215,6 +215,8 @@ export interface Item {
   iv?: boolean;
   ip?: boolean;
   recipe?: number; // 配方数据
+
+  vfx?: boolean; // 是否有特效(壁纸/地板)
 }
 
 /**
@@ -240,23 +242,173 @@ export interface CatalogItem {
   shop_remakable?: boolean;
 }
 
-/**
- * 筛选选项接口
- * 定义物品筛选的各种条件
- */
-export interface FilterOptions {
-  searchTerm: string; // 搜索关键词
-  ownedFilter?: boolean; // 拥有状态筛选
-  typesFilter?: ItemType; // 类型筛选（枚举键名）
-  versionFilter?: Version; // 版本筛选（枚举键名）
-  colorFilter?: Color; // 颜色筛选（枚举键名）
-  sizeFilter?: ItemSize; // 尺寸筛选（枚举键名）
-  sourceFilter: string; // 来源筛选
-  tagFilter: string; // 标签筛选
-  seriesFilter: string; // 系列筛选
-  themeFilter: string; // 主题筛选
-  styleFilter: string; // 风格筛选
-  conceptsFilter: string; // HHA场景筛选
-  setFilter: string; // HHA套组筛选
-  categoryFilter: string; // HHA分类筛选
-}
+export const itemTagOrderMap: Record<string, number> = {
+  Chair: 1,
+  Sofa: 2,
+  Desk: 3,
+  Table: 4,
+  Bed: 5,
+  Chest: 6,
+  Dresser: 7,
+  Shelf: 8,
+  Arch: 9,
+  Screen: 10,
+  'Work Bench': 11,
+  Kitchen: 12,
+  Dining: 13,
+  'Kitchen Things': 14,
+  DishFood: 15,
+  DishDrink: 16,
+  Lamp: 17,
+  Audio: 18,
+  TV: 19,
+  'Game Console': 20,
+  TableClock: 21,
+  Clock: 22,
+  'Musical Instrument': 23,
+  Fan: 24,
+  Fireplace: 25,
+  Heating: 26,
+  'Home Appliances': 27,
+  'Air Conditioning': 28,
+  'Bathroom Things': 29,
+  Bathtub: 30,
+  Toilet: 31,
+  Plants: 32,
+  'House Door Decor': 33,
+  Bromide: 34,
+  Posters: 35,
+  CeilingLamp: 36,
+  CeilingEtc: 37,
+  'Facility Decor': 38,
+  Hospital: 39,
+  Museum: 40,
+  School: 41,
+  Shop: 42,
+  Supplies: 43,
+  Office: 44,
+  Study: 45,
+  Seaside: 46,
+  Space: 47,
+  Vehicle: 48,
+  Animal: 49,
+  Fish: 50,
+  Insect: 51,
+  Playground: 52,
+  Sports: 53,
+  Toy: 54,
+  'Special Fish': 55,
+  'Special Insect': 56,
+  Garden: 57,
+  Ranch: 58,
+  'Folk Craft Decor': 59,
+  'Japanese Style': 60,
+  Compass: 61,
+  Easter: 62,
+  'Seasonal Decor': 63,
+  Cinnamoroll: 64,
+  'Hello Kitty': 65,
+  Kerokerokeroppi: 66,
+  'Kiki & Lala': 67,
+  'My Melody': 68,
+  Pompompurin: 69,
+  Mario: 70,
+};
+
+export const HousewaresTagGroups = [
+  ['Chair', 'Sofa'],
+  ['Desk', 'Table'],
+  ['Bed'],
+  ['Chest', 'Dresser', 'Shelf'],
+  ['Arch', 'Screen'],
+  ['Work Bench'],
+  ['Kitchen', 'Dining', 'Kitchen Things'],
+  ['Lamp'],
+  ['Audio', 'TV', 'Game Console'],
+  ['Musical Instrument'],
+  ['Fan', 'Fireplace', 'Heating', 'Home Appliances'],
+  ['Bathroom Things', 'Bathtub', 'Toilet'],
+  ['Plants'],
+  [
+    'Facility Decor',
+    'Hospital',
+    'Museum',
+    'School',
+    'Shop',
+    'Supplies',
+    'Office',
+    'Study',
+  ],
+  ['Seaside', 'Space', 'Vehicle'],
+  [
+    'Animal',
+    'Fish',
+    'Insect',
+    'Playground',
+    'Sports',
+    'Toy',
+    'Special Fish',
+    'Special Insect',
+  ],
+  ['Garden', 'Ranch'],
+  ['Folk Craft Decor', 'Japanese Style'],
+  [
+    'Compass',
+    'Easter',
+    'Seasonal Decor',
+    'Cinnamoroll',
+    'Hello Kitty',
+    'Kerokerokeroppi',
+    'Kiki & Lala',
+    'My Melody',
+    'Pompompurin',
+    'Mario',
+  ],
+];
+
+export const MiscellaneousTagGroups = [
+  ['Chair'],
+  ['Desk', 'Dresser'],
+  ['Kitchen', 'Dining', 'Kitchen Things'],
+  ['DishFood'],
+  ['DishDrink'],
+  ['Lamp'],
+  ['Audio', 'TV', 'Game Console', 'TableClock'],
+  ['Musical Instrument'],
+  ['Bathroom Things', 'Bathtub', 'Toilet'],
+  ['Plants'],
+  [
+    'Facility Decor',
+    'Hospital',
+    'Museum',
+    'School',
+    'Shop',
+    'Supplies',
+    'Office',
+    'Study',
+  ],
+  ['Seaside', 'Space', 'Vehicle'],
+  [
+    'Animal',
+    'Fish',
+    'Insect',
+    'Playground',
+    'Sports',
+    'Toy',
+    'Special Fish',
+    'Special Insect',
+  ],
+  ['Folk Craft Decor', 'Japanese Style'],
+  [
+    'Compass',
+    'Easter',
+    'Seasonal Decor',
+    'Cinnamoroll',
+    'Hello Kitty',
+    'Kerokerokeroppi',
+    'Kiki & Lala',
+    'My Melody',
+    'Pompompurin',
+    'Mario',
+  ],
+];
