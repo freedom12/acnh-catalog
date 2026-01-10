@@ -65,6 +65,10 @@ export class ItemModel {
     return this._data.id;
   }
 
+  get order(): number {
+    return this._data.order;
+  }
+
   get name(): string {
     return this._data.name;
   }

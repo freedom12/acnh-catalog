@@ -183,6 +183,7 @@ export interface Variant {
  */
 export interface Item {
   id: number; // 物品ID
+  order: number; // 物品排序
   name: string; // 物品名称
   rawName: string; // 物品原始名称
   images: string[]; // 物品所有图片

@@ -270,6 +270,40 @@ function getDefaultDisplayProperties(
   return { id, colors };
 }
 
+function applyOtherItemsOrder(orderFilePath: string) {
+  if (!fs.existsSync(orderFilePath)) return;
+
+  const lines = fs.readFileSync(orderFilePath, 'utf-8').split(/\r?\n/);
+  let order = 1;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    const match = trimmed.match(/^(\d+)\s+(.+)$/);
+    if (!match) continue;
+
+    const id = Number(match[1]);
+    const name = match[2];
+    const item = newItemIdMap.get(id);
+
+    if (!item) {
+      console.log(`其他物品排序未找到: ${id} ${name}`);
+      order += 1;
+      continue;
+    }
+
+    if (item.type !== ItemType.Other) {
+      console.log(`其他物品排序类型不匹配: ${id} ${name}`);
+      order += 1;
+      continue;
+    }
+
+    item.order = order;
+    order += 1;
+  }
+}
+
 /**
  * 从原始数据创建 Item
  * @param oldItem 原始物品数据
@@ -307,6 +341,7 @@ function convertItem(oldItem: OldItem): NewItem {
   const isContainsDamaged = oldItem.variations?.some((v) => v.variation === 'Damaged');
   return {
     id,
+    order: 100000,
     name,
     rawName: oldItem.name,
     type: sourceSheetMap[oldItem.sourceSheet],
@@ -533,6 +568,7 @@ for (const oldCreature of oldCreatures) {
 
   const newItem: NewItem = {
     id: newCreature.id,
+    order: 100000,
     name: newCreature.name,
     rawName: newCreature.rawName,
     images: newCreature.images,
@@ -554,6 +590,7 @@ newCreatures.sort((a, b) => {
   }
   return a.order - b.order;
 });
+applyOtherItemsOrder(path.join(__dirname, 'other-item-order.txt'));
 newItems.sort((a, b) => {
   if (a.type !== b.type) {
     return a.type - b.type;
@@ -824,6 +861,13 @@ for (const sae of oldSeasonsAndEvents) {
   // );
 }
 
+
+
+
+
+
+
+
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, 'acnh-items.json'),
@@ -897,8 +941,8 @@ fs.writeFileSync(
   'utf-8'
 );
 
-// for (const oldItem of oldItems) {
-//   if (oldItem.exchangeCurrency) {
-//     console.log(oldItem.translations?.cNzh || oldItem.name, oldItem.exchangeCurrency);
-//   }
-// }
+for (const oldItem of oldItems) {
+  if (oldItem.sourceSheet === OldItemSourceSheet.Other && !oldItem.tag) {
+    console.log(oldItem.internalId, oldItem.translations?.cNzh || oldItem.name);
+  }
+}

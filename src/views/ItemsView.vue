@@ -18,6 +18,7 @@ import {
   getHHACategoryName,
   getClothingThemeName,
   getClothingStyleName,
+  getTagName,
 } from '../services/dataService';
 import { ItemType, Version, ItemSize, Color } from '../types/item';
 
@@ -65,6 +66,25 @@ const filters = computed<Filter[]>(() => {
     .map((source) => ({
       value: source,
       label: getSourceName(source),
+    }))
+    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
+
+  // 标签选项
+  const tagsSet = new Set(
+    itemsArray
+      .map((item) => {
+        if (item.tag && item.type == ItemType.Other) {
+          return item.tag;
+        } else {
+          return null;
+        }
+      })
+      .filter((t): t is string => !!t)
+  );
+  const tagsOptions = [...tagsSet]
+    .map((tag) => ({
+      value: tag,
+      label: tag + ' - ' + getTagName(tag),
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
@@ -144,6 +164,7 @@ const filters = computed<Filter[]>(() => {
     { label: '尺寸', value: 'sizeFilter', options: sizesOptions },
     { label: '颜色', value: 'colorFilter', options: colorsOptions },
     { label: '来源', value: 'sourceFilter', options: sourcesOptions },
+    { label: '标签', value: 'tagFilter', options: tagsOptions },
     { label: 'HHA主题', value: 'seriesFilter', options: seriesOptions },
     { label: 'HHA场景', value: 'conceptsFilter', options: conceptsOptions },
     { label: 'HHA套组', value: 'setFilter', options: setsOptions },
@@ -198,6 +219,11 @@ const { filteredData, handleFiltersChanged } = useFilter(
       if (!item.matchesSource(selectedFilters.sourceFilter as string)) return false;
     }
 
+    // 标签筛选
+    if (selectedFilters.tagFilter) {
+      if (!item.matchesTag(selectedFilters.tagFilter as string)) return false;
+    }
+
     // HHA主题筛选
     if (selectedFilters.seriesFilter) {
       if (!item.matchesSeries(selectedFilters.seriesFilter as string)) return false;
@@ -233,6 +259,21 @@ const { filteredData, handleFiltersChanged } = useFilter(
   'replace' // 使用 replace 模式完全替换默认筛选
 );
 
+const sortedItems = computed(() => {
+  return [...filteredData.value].sort((a, b) => {
+    const typeDiff = a.type - b.type;
+    if (typeDiff !== 0) return typeDiff;
+
+    const orderDiff = a.order - b.order;
+    if (orderDiff !== 0) return orderDiff;
+
+    const nameDiff = a.name.localeCompare(b.name, 'zh-CN');
+    if (nameDiff !== 0) return nameDiff;
+
+    return a.id - b.id;
+  });
+});
+
 // 计算拥有的物品数量
 const ownedItemsCount = computed(
   () => allItems.value.filter((item) => item.owned).length
@@ -251,7 +292,7 @@ const handleCatalogUpload = (data: {
     :loading="loading"
     :error="error"
     :on-load="loadData"
-    :datas="filteredData"
+    :datas="sortedItems"
     :per-page="100"
     :card-component="ItemCard"
   >
