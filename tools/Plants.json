@@ -1,0 +1,502 @@
+[
+  {
+    "type": "树木",
+    "list": [
+      {
+        "id": 2799,
+        "product": 5727,
+        "seeds": 2794
+      },
+      {
+        "id": 2805,
+        "product": 5728,
+        "seeds": 2800
+      },
+      {
+        "id": 4426,
+        "product": 7731,
+        "seeds": 2794
+      },
+      {
+        "id": 3360,
+        "product": 2213,
+        "seeds": 2213
+      },
+      {
+        "id": 3365,
+        "product": 2214,
+        "seeds": 2214
+      },
+      {
+        "id": 3370,
+        "product": 2285,
+        "seeds": 2285
+      },
+      {
+        "id": 3375,
+        "product": 2286,
+        "seeds": 2286
+      },
+      {
+        "id": 3381,
+        "product": 2287,
+        "seeds": 2287
+      },
+      {
+        "id": 2810,
+        "product": 2288,
+        "seeds": 2288
+      },
+      {
+        "id": 2815,
+        "product": 2295,
+        "seeds": 2295
+      }
+    ]
+  },
+  {
+    "type": "灌木",
+    "list": [
+      {
+        "id": 3027,
+        "product": 0,
+        "seeds": 3024
+      },
+      {
+        "id": 2861,
+        "product": 0,
+        "seeds": 2820
+      },
+      {
+        "id": 3788,
+        "product": 0,
+        "seeds": 3786
+      },
+      {
+        "id": 3022,
+        "product": 0,
+        "seeds": 3019
+      },
+      {
+        "id": 3792,
+        "product": 0,
+        "seeds": 3790
+      },
+      {
+        "id": 3796,
+        "product": 0,
+        "seeds": 3794
+      },
+      {
+        "id": 3800,
+        "product": 0,
+        "seeds": 3798
+      },
+      {
+        "id": 12478,
+        "product": 0,
+        "seeds": 12476
+      },
+      {
+        "id": 12482,
+        "product": 0,
+        "seeds": 12480
+      },
+      {
+        "id": 12489,
+        "product": 0,
+        "seeds": 12487
+      },
+      {
+        "id": 12492,
+        "product": 0,
+        "seeds": 12490
+      },
+      {
+        "id": 13264,
+        "product": 0,
+        "seeds": 13262
+      },
+      {
+        "id": 13350,
+        "product": 0,
+        "seeds": 13348
+      }
+    ]
+  },
+  {
+    "type": "作物",
+    "list": [
+      {
+        "id": 12898,
+        "product": 2570,
+        "seeds": 2649
+      },
+      {
+        "id": 12899,
+        "product": 3029,
+        "seeds": 3030
+      },
+      {
+        "id": 12900,
+        "product": 3034,
+        "seeds": 3035
+      },
+      {
+        "id": 12902,
+        "product": 3039,
+        "seeds": 3040
+      },
+      {
+        "id": 12905,
+        "product": 3044,
+        "seeds": 3045
+      },
+      {
+        "id": 4532,
+        "product": 4525,
+        "seeds": 13227
+      },
+      {
+        "id": 4536,
+        "product": 4526,
+        "seeds": 13227
+      },
+      {
+        "id": 4540,
+        "product": 4527,
+        "seeds": 13227
+      },
+      {
+        "id": 4544,
+        "product": 4528,
+        "seeds": 13227
+      }
+    ]
+  },
+  {
+    "type": "花朵",
+    "list": [
+      {
+        "id": 3898,
+        "product": 3709,
+        "seeds": 3710
+      },
+      {
+        "id": 3900,
+        "product": 3713,
+        "seeds": 3714
+      },
+      {
+        "id": 3906,
+        "product": 3723,
+        "seeds": 3724
+      },
+      {
+        "id": 3902,
+        "product": 3717,
+        "seeds": 0
+      },
+      {
+        "id": 3904,
+        "product": 3720,
+        "seeds": 0
+      },
+      {
+        "id": 3908,
+        "product": 3727,
+        "seeds": 0
+      },
+      {
+        "id": 3850,
+        "product": 2907,
+        "seeds": 2908
+      },
+      {
+        "id": 3852,
+        "product": 2911,
+        "seeds": 2912
+      },
+      {
+        "id": 3854,
+        "product": 2915,
+        "seeds": 2916
+      },
+      {
+        "id": 3856,
+        "product": 2919,
+        "seeds": 0
+      },
+      {
+        "id": 3858,
+        "product": 2923,
+        "seeds": 0
+      },
+      {
+        "id": 3860,
+        "product": 2927,
+        "seeds": 0
+      },
+      {
+        "id": 3828,
+        "product": 2863,
+        "seeds": 2864
+      },
+      {
+        "id": 3824,
+        "product": 2304,
+        "seeds": 2626
+      },
+      {
+        "id": 3826,
+        "product": 2305,
+        "seeds": 2629
+      },
+      {
+        "id": 3830,
+        "product": 2867,
+        "seeds": 0
+      },
+      {
+        "id": 3832,
+        "product": 2871,
+        "seeds": 0
+      },
+      {
+        "id": 3834,
+        "product": 2875,
+        "seeds": 0
+      },
+      {
+        "id": 3924,
+        "product": 3754,
+        "seeds": 3755
+      },
+      {
+        "id": 3926,
+        "product": 3758,
+        "seeds": 3759
+      },
+      {
+        "id": 3932,
+        "product": 3768,
+        "seeds": 3769
+      },
+      {
+        "id": 3930,
+        "product": 3765,
+        "seeds": 0
+      },
+      {
+        "id": 3928,
+        "product": 3762,
+        "seeds": 0
+      },
+      {
+        "id": 3934,
+        "product": 5175,
+        "seeds": 0
+      },
+      {
+        "id": 3886,
+        "product": 2979,
+        "seeds": 2980
+      },
+      {
+        "id": 3888,
+        "product": 2983,
+        "seeds": 2984
+      },
+      {
+        "id": 3890,
+        "product": 2987,
+        "seeds": 2988
+      },
+      {
+        "id": 3892,
+        "product": 2991,
+        "seeds": 0
+      },
+      {
+        "id": 3894,
+        "product": 2995,
+        "seeds": 0
+      },
+      {
+        "id": 3896,
+        "product": 2999,
+        "seeds": 0
+      },
+      {
+        "id": 3910,
+        "product": 3730,
+        "seeds": 3731
+      },
+      {
+        "id": 3912,
+        "product": 3734,
+        "seeds": 3735
+      },
+      {
+        "id": 3918,
+        "product": 3744,
+        "seeds": 3745
+      },
+      {
+        "id": 3914,
+        "product": 3738,
+        "seeds": 0
+      },
+      {
+        "id": 3916,
+        "product": 3741,
+        "seeds": 0
+      },
+      {
+        "id": 3920,
+        "product": 3748,
+        "seeds": 0
+      },
+      {
+        "id": 3922,
+        "product": 3751,
+        "seeds": 0
+      },
+      {
+        "id": 3836,
+        "product": 2879,
+        "seeds": 2880
+      },
+      {
+        "id": 3838,
+        "product": 2883,
+        "seeds": 2884
+      },
+      {
+        "id": 3840,
+        "product": 2887,
+        "seeds": 2888
+      },
+      {
+        "id": 3842,
+        "product": 2891,
+        "seeds": 0
+      },
+      {
+        "id": 3844,
+        "product": 2895,
+        "seeds": 0
+      },
+      {
+        "id": 3846,
+        "product": 2899,
+        "seeds": 0
+      },
+      {
+        "id": 3848,
+        "product": 2903,
+        "seeds": 0
+      },
+      {
+        "id": 3862,
+        "product": 2931,
+        "seeds": 2932
+      },
+      {
+        "id": 3864,
+        "product": 2935,
+        "seeds": 2936
+      },
+      {
+        "id": 3866,
+        "product": 2939,
+        "seeds": 2940
+      },
+      {
+        "id": 3868,
+        "product": 2943,
+        "seeds": 0
+      },
+      {
+        "id": 3870,
+        "product": 2947,
+        "seeds": 0
+      },
+      {
+        "id": 3872,
+        "product": 2951,
+        "seeds": 0
+      },
+      {
+        "id": 3874,
+        "product": 2955,
+        "seeds": 0
+      },
+      {
+        "id": 3876,
+        "product": 2959,
+        "seeds": 0
+      },
+      {
+        "id": 3878,
+        "product": 2963,
+        "seeds": 0
+      },
+      {
+        "id": 7651,
+        "product": 0,
+        "seeds": 0
+      }
+    ]
+  },
+  {
+    "type": "菌类",
+    "list": [
+      {
+        "id": 3276,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 3277,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 3278,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 3279,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 3280,
+        "product": 0,
+        "seeds": 0
+      }
+    ]
+  },
+  {
+    "type": "其他",
+    "list": [
+      {
+        "id": 2624,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 12550,
+        "product": 0,
+        "seeds": 0
+      },
+      {
+        "id": 12551,
+        "product": 0,
+        "seeds": 0
+      }
+    ]
+  }
+]

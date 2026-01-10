@@ -16,6 +16,7 @@ export const DATA_LOADING = {
   CONSTRUCTION: '正在加载改建数据...',
   MESSAGE_CARDS: '正在加载贺卡数据...',
   ARTWORKS: '正在加载艺术品数据...',
+  PLANTS: '正在加载植物数据...',
   FOSSILS: '正在加载化石数据...',
   ERROR_GENERIC: '加载数据失败',
 } as const;
@@ -35,6 +36,7 @@ export const ENTITY_ICONS = {
   ARTWORKS: '🎨',
   MUSICS: '🎵',
   FOSSILS: '🦕',
+  PLANTS: '🌱',
   MISC: '📦',
   // 生物类型
   INSECTS: '🦋',

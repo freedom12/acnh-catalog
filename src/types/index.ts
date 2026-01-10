@@ -10,6 +10,7 @@ export * from './reaction';
 export * from './messagecard';
 export * from './artwork';
 export * from './fossil';
+export * from './plant';
 
 export interface Translation {
   cNzh: string;

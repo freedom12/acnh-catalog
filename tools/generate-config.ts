@@ -41,6 +41,7 @@ import type { MessageCard } from '../src/types/messagecard';
 import type { Music } from '../src/types/music';
 import { ActivityType, type Activity } from '../src/types/activity';
 import type { CusCost } from '../src/services/dataService';
+import type { Plant } from '../src/types/plant';
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -598,6 +599,45 @@ newItems.sort((a, b) => {
   return a.id - b.id;
 });
 
+const plantsConfig = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'Plants.json'), 'utf-8')
+);
+let newPlants: Plant[] = [];
+for (const entry of plantsConfig) {
+  if (!entry || typeof entry !== 'object' || !Array.isArray(entry.list)) {
+    continue;
+  }
+
+  const plantType = entry.type || '';
+
+  for (const itemEntry of entry.list) {
+    const plants = Array.isArray(itemEntry) ? itemEntry : [itemEntry];
+    for (const plantItem of plants) {
+      let plantId = plantItem.id;
+      let product: number = plantItem.product ?? 0;
+      let seeds: number = plantItem.seeds ?? 0;
+      if (!plantId) continue;
+
+      const item = newItemIdMap.get(plantId);
+      if (!item) {
+        console.log(`Plants.json 中未找到物品: ${plantId}`);
+        continue;
+      }
+      newPlants.push({
+        id: item.id,
+        name: item.name,
+        rawName: item.rawName,
+        ver: item.ver,
+        images: item.images,
+        type: plantType,
+        sell: item.sell ?? 0,
+        product: product || undefined,
+        seeds: seeds || undefined,
+      });
+    }
+  }
+}
+
 let newRecipes: NewRecipe[] = [];
 for (const oldRecipe of oldRecipes) {
   let images = [];
@@ -861,13 +901,6 @@ for (const sae of oldSeasonsAndEvents) {
   // );
 }
 
-
-
-
-
-
-
-
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, 'acnh-items.json'),
@@ -941,8 +974,14 @@ fs.writeFileSync(
   'utf-8'
 );
 
-for (const oldItem of oldItems) {
-  if (oldItem.sourceSheet === OldItemSourceSheet.Other && !oldItem.tag) {
-    console.log(oldItem.internalId, oldItem.translations?.cNzh || oldItem.name);
-  }
-}
+fs.writeFileSync(
+  path.join(outputPath, 'acnh-plants.json'),
+  JSON.stringify(newPlants.map(removeNullFields), null, 2),
+  'utf-8'
+);
+
+// for (const oldItem of oldItems) {
+//   if (oldItem.sourceSheet === OldItemSourceSheet.Other && !oldItem.tag) {
+//     console.log(oldItem.internalId, oldItem.translations?.cNzh || oldItem.name);
+//   }
+// }

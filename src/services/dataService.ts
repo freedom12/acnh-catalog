@@ -8,6 +8,7 @@ import {
   type Reaction,
   type Artwork,
   type Fossil,
+  type Plant,
   CreatureType,
   Gender,
   Personality,
@@ -615,6 +616,19 @@ export async function loadArtworkData(): Promise<Artwork[]> {
     return (await response.json()) as Artwork[];
   } catch (error) {
     console.error('加载艺术品数据失败:', error);
+    throw error;
+  }
+}
+
+export async function loadPlantsData(): Promise<Plant[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.PLANTS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return (await response.json()) as Plant[];
+  } catch (error) {
+    console.error('加载植物数据失败:', error);
     throw error;
   }
 }
