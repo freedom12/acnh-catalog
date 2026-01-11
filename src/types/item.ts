@@ -242,80 +242,92 @@ export interface CatalogItem {
   shop_remakable?: boolean;
 }
 
-export const itemTagOrderMap: Record<string, number> = {
-  Chair: 1,
-  Sofa: 2,
-  Desk: 3,
-  Table: 4,
-  Bed: 5,
-  Chest: 6,
-  Dresser: 7,
-  Shelf: 8,
-  Arch: 9,
-  Screen: 10,
-  'Work Bench': 11,
-  Kitchen: 12,
-  Dining: 13,
-  'Kitchen Things': 14,
-  DishFood: 15,
-  DishDrink: 16,
-  Lamp: 17,
-  Audio: 18,
-  TV: 19,
-  'Game Console': 20,
-  TableClock: 21,
-  Clock: 22,
-  'Musical Instrument': 23,
-  Fan: 24,
-  Fireplace: 25,
-  Heating: 26,
-  'Home Appliances': 27,
-  'Air Conditioning': 28,
-  'Bathroom Things': 29,
-  Bathtub: 30,
-  Toilet: 31,
-  Plants: 32,
-  'House Door Decor': 33,
-  Bromide: 34,
-  Posters: 35,
-  CeilingLamp: 36,
-  CeilingEtc: 37,
-  'Facility Decor': 38,
-  Hospital: 39,
-  Museum: 40,
-  School: 41,
-  Shop: 42,
-  Supplies: 43,
-  Office: 44,
-  Study: 45,
-  Seaside: 46,
-  Space: 47,
-  Vehicle: 48,
-  Animal: 49,
-  Fish: 50,
-  Insect: 51,
-  Playground: 52,
-  Sports: 53,
-  Toy: 54,
-  'Special Fish': 55,
-  'Special Insect': 56,
-  Garden: 57,
-  Ranch: 58,
-  'Folk Craft Decor': 59,
-  'Japanese Style': 60,
-  Compass: 61,
-  Easter: 62,
-  'Seasonal Decor': 63,
-  Cinnamoroll: 64,
-  'Hello Kitty': 65,
-  Kerokerokeroppi: 66,
-  'Kiki & Lala': 67,
-  'My Melody': 68,
-  Pompompurin: 69,
-  Mario: 70,
+export const itemTagOrderList = [
+  'Chair',
+  'Sofa',
+  'Desk',
+  'Table',
+  'Bed',
+  'Chest',
+  'Dresser',
+  'Shelf',
+  'Arch',
+  'Screen',
+  'Work Bench',
+  'Kitchen',
+  'Dining',
+  'Kitchen Things',
+  'DishFood',
+  'DishDrink',
+  'Lamp',
+  'Audio',
+  'TV',
+  'Game Console',
+  'TableClock',
+  'Clock',
+  'Musical Instrument',
+  'Fan',
+  'Fireplace',
+  'Heating',
+  'Home Appliances',
+  'Air Conditioning',
+  'Bathroom Things',
+  'Bathtub',
+  'Toilet',
+  'Plants',
+  'House Door Decor',
+  'Bromide',
+  'Posters',
+  'CeilingLamp',
+  'CeilingEtc',
+  'Facility Decor',
+  'Hospital',
+  'Museum',
+  'School',
+  'Shop',
+  'Supplies',
+  'Office',
+  'Study',
+  'Seaside',
+  'Space',
+  'Vehicle',
+  'Animal',
+  'Fish',
+  'Insect',
+  'Playground',
+  'Sports',
+  'Toy',
+  'Special Fish',
+  'Special Insect',
+  'Garden',
+  'Ranch',
+  'Folk Craft Decor',
+  'Japanese Style',
+  'Compass',
+  'Easter',
+  'Seasonal Decor',
+  'Cinnamoroll',
+  'Hello Kitty',
+  'Kerokerokeroppi',
+  'Kiki & Lala',
+  'My Melody',
+  'Pompompurin',
+  'Mario',
+] as const;
+
+const itemTagOrderCache: Record<string, number> = itemTagOrderList.reduce(
+  (acc, tag, idx) => {
+    acc[tag] = idx + 1;
+    return acc;
+  },
+  {} as Record<string, number>
+);
+
+export const getItemTagOrder = (tag: string): number => {
+  return itemTagOrderCache[tag] ?? 999999;
 };
 
-export const HousewaresTagGroups = [
+export const housewareTagGroups = [
   ['Chair', 'Sofa'],
   ['Desk', 'Table'],
   ['Bed'],
@@ -366,7 +378,7 @@ export const HousewaresTagGroups = [
   ],
 ];
 
-export const MiscellaneousTagGroups = [
+export const miscellaneousTagGroups = [
   ['Chair'],
   ['Desk', 'Dresser'],
   ['Kitchen', 'Dining', 'Kitchen Things'],
@@ -412,3 +424,31 @@ export const MiscellaneousTagGroups = [
     'Mario',
   ],
 ];
+
+const housewareTagGroupCache: Record<string, number> = housewareTagGroups.reduce(
+  (acc, group, groupIdx) => {
+    group.forEach((tag) => {
+      acc[tag] = groupIdx + 1; // 1-based group index
+    });
+    return acc;
+  },
+  {} as Record<string, number>
+);
+
+const miscellaneousTagGroupCache: Record<string, number> = miscellaneousTagGroups.reduce(
+  (acc, group, groupIdx) => {
+    group.forEach((tag) => {
+      acc[tag] = groupIdx + 1; // 1-based group index
+    });
+    return acc;
+  },
+  {} as Record<string, number>
+);
+
+export const getHousewareTagGroupIndex = (tag: string): number => {
+  return housewareTagGroupCache[tag] ?? 9999;
+};
+
+export const getMiscellaneousTagGroupIndex = (tag: string): number => {
+  return miscellaneousTagGroupCache[tag] ?? 9999;
+};

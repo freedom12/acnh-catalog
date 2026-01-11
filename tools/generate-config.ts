@@ -271,7 +271,7 @@ function getDefaultDisplayProperties(
   return { id, colors };
 }
 
-function applyOtherItemsOrder(orderFilePath: string) {
+function applyOtherItemsOrder(orderFilePath: string, itemType: ItemType = ItemType.Other) {
   if (!fs.existsSync(orderFilePath)) return;
 
   const lines = fs.readFileSync(orderFilePath, 'utf-8').split(/\r?\n/);
@@ -294,7 +294,7 @@ function applyOtherItemsOrder(orderFilePath: string) {
       continue;
     }
 
-    if (item.type !== ItemType.Other) {
+    if (item.type !== itemType) {
       console.log(`其他物品排序类型不匹配: ${id} ${name}`);
       order += 1;
       continue;
@@ -591,7 +591,8 @@ newCreatures.sort((a, b) => {
   }
   return a.order - b.order;
 });
-applyOtherItemsOrder(path.join(__dirname, 'other-item-order.txt'));
+applyOtherItemsOrder(path.join(__dirname, 'other-item-order.txt'), ItemType.Other);
+applyOtherItemsOrder(path.join(__dirname, 'tools-item-order.txt'), ItemType.ToolsGoods);
 newItems.sort((a, b) => {
   if (a.type !== b.type) {
     return a.type - b.type;

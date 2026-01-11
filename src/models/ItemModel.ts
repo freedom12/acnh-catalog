@@ -27,9 +27,9 @@ import {
   FurnitureTypes,
   ClothingTypes,
   ItemType,
-  itemTagOrderMap,
-  HousewaresTagGroups,
-  MiscellaneousTagGroups,
+  getItemTagOrder,
+  getHousewareTagGroupIndex,
+  getMiscellaneousTagGroupIndex,
 } from '../types/item';
 import type { Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
@@ -170,7 +170,7 @@ export class ItemModel {
   }
 
   get tagOrder(): number {
-    return itemTagOrderMap[this.tag] || 999999;
+    return getItemTagOrder(this.tag);
   }
 
   get sources(): string[] {
@@ -532,18 +532,12 @@ export class ItemModel {
     if (!this.tag) return 0;
     if (this.type === ItemType.Housewares) {
       const tag = this.tag;
-      for (let i = 0; i < HousewaresTagGroups.length; i++) {
-        if (HousewaresTagGroups[i]?.includes(tag)) {
-          return i + 1; // use 1-based group index
-        }
-      }
+      const groupIndex = getHousewareTagGroupIndex(tag);
+      if (groupIndex) return groupIndex;
     } else if (this.type === ItemType.Miscellaneous) {
       const tag = this.tag;
-      for (let i = 0; i < MiscellaneousTagGroups.length; i++) {
-        if (MiscellaneousTagGroups[i]?.includes(tag)) {
-          return i + 1; // use 1-based group index
-        }
-      }
+      const groupIndex = getMiscellaneousTagGroupIndex(tag);
+      if (groupIndex) return groupIndex;
     } else if (this.type === ItemType.CeilingDecor) {
       const tag = this.tag;
       if (tag === 'CeilingLamp') {

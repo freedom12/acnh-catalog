@@ -20,7 +20,7 @@ import {
   getClothingStyleName,
   getTagName,
 } from '../services/dataService';
-import { ItemType, Version, ItemSize, Color, itemTagOrderMap } from '../types/item';
+import { ItemType, Version, ItemSize, Color, getItemTagOrder } from '../types/item';
 
 const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
 
@@ -173,8 +173,8 @@ const filters = computed<Filter[]>(() => {
         label: tag + ' - ' + getTagName(tag),
       }))
       .sort((a, b) => {
-        let order1 = itemTagOrderMap[a.value] || 999999;
-        let order2 = itemTagOrderMap[b.value] || 999999;
+        const order1 = getItemTagOrder(a.value);
+        const order2 = getItemTagOrder(b.value);
         if (order1 !== order2) {
           return order1 - order2;
         }
