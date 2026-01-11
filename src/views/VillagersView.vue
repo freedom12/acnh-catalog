@@ -6,11 +6,13 @@ import DataView from '../components/DataView.vue';
 import VillagerCard from '../components/VillagerCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 import { Gender, Hobby, Personality, Species } from '../types/villager';
+import { Version } from '../types/item';
 import {
   getGenderName,
   getHobbyName,
   getPersonalityName,
   getSpeciesName,
+  getVersionName,
 } from '../services/dataService';
 
 const { allVillagers, loading, error, loadData } = useVillagersData();
@@ -45,6 +47,14 @@ const filters = computed(() => [
     options: Object.values(Hobby).map((hobby) => ({
       value: hobby,
       label: getHobbyName(hobby),
+    })),
+  },
+  {
+    label: '版本',
+    value: 'ver',
+    options: Object.values(Version).map((version) => ({
+      value: version,
+      label: getVersionName(version),
     })),
   },
 ]);
