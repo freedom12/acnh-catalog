@@ -12,9 +12,9 @@ const { allMusic, loading, error, loadData } = useMusicData();
 const { filteredData, handleFiltersChanged } = useFilter(allMusic);
 const { playTracks } = useAudioPlayer();
 
-const getAudioPath = (rawName: string, type: 'live' | 'radio') => {
+const getAudioPath = (name: string, type: 'live' | 'radio') => {
   const folder = type === 'live' ? 'live' : 'radio';
-  return `${BASE_PATH}sound/music/${folder}/${rawName}.mp3`;
+  return `${BASE_PATH}sound/music/${folder}/${name}.mp3`;
 };
 
 const playAll = (type: 'live' | 'radio') => {
@@ -22,7 +22,7 @@ const playAll = (type: 'live' | 'radio') => {
     .filter((item) => (type === 'live' ? true : item.hasRadio))
     .map((item) => ({
       title: type === 'radio' ? `${item.name} (Radio)` : item.name,
-      url: getAudioPath(item.rawName, type),
+      url: getAudioPath(item.order + '', type),
     }));
 
   playTracks(tracks);
