@@ -23,12 +23,23 @@
     </div>
     <div v-if="isExpanded" class="filter-expanded-content">
       <div class="filter-search">
-        <input
-          v-model="searchQuery"
-          type="text"
-          placeholder="搜索..."
-          @input="handleSearch(($event.target as HTMLInputElement).value)"
-        />
+        <div class="search-input-wrapper">
+          <input
+            v-model="searchQuery"
+            type="text"
+            placeholder="搜索..."
+            @input="handleSearch(($event.target as HTMLInputElement).value)"
+          />
+          <button
+            v-if="searchQuery"
+            type="button"
+            class="search-clear-btn"
+            aria-label="清空搜索"
+            @click="handleClearSearch"
+          >
+            X
+          </button>
+        </div>
         <button class="action-btn danger" @click="handleClearFilters">清除筛选</button>
       </div>
       <div v-if="filters.length > 0" class="filter-options">
@@ -115,7 +126,13 @@ const emit = defineEmits<{
   ];
 }>();
 
-const isExpanded = ref(false);
+const STORAGE_KEY = 'filter-section-expanded';
+const getStoredExpanded = (): boolean => {
+  if (typeof localStorage === 'undefined') return false;
+  return localStorage.getItem(STORAGE_KEY) === '1';
+};
+
+const isExpanded = ref(getStoredExpanded());
 
 const searchQuery = ref('');
 const debouncedSearchQuery = useDebounce(searchQuery, 300);
@@ -189,6 +206,12 @@ const toggle = () => {
   isExpanded.value = !isExpanded.value;
 };
 
+watch(isExpanded, (val) => {
+  if (typeof localStorage !== 'undefined') {
+    localStorage.setItem(STORAGE_KEY, val ? '1' : '0');
+  }
+});
+
 const handleSearch = (query: string) => {
   searchQuery.value = query;
 };
@@ -224,6 +247,14 @@ const handleClearFilters = () => {
   } else {
     selectedFilters.value = {};
   }
+  emit('filtersChanged', {
+    searchQuery: '',
+    selectedFilters: selectedFilters.value,
+  });
+};
+
+const handleClearSearch = () => {
+  searchQuery.value = '';
   emit('filtersChanged', {
     searchQuery: '',
     selectedFilters: selectedFilters.value,
@@ -265,8 +296,13 @@ const handleClearFilters = () => {
   margin-bottom: 10px;
 }
 
-.filter-search input {
+.search-input-wrapper {
+  position: relative;
   flex: 1;
+}
+
+.filter-search input {
+  width: 100%;
   padding: 12px;
   font-size: 16px;
   border: 2px solid var(--border-color, #ddd);
@@ -278,6 +314,24 @@ const handleClearFilters = () => {
 .filter-search input:focus {
   outline: none;
   border-color: var(--primary-color, #4a9b4f);
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: var(--text-secondary, #888);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+  line-height: 1;
+}
+
+.search-clear-btn:hover {
+  color: var(--text-primary, #333);
 }
 
 /* 筛选选项容器 */
