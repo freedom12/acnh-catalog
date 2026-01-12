@@ -18,7 +18,6 @@ export const DATA_LOADING = {
   ARTWORKS: '正在加载艺术品数据...',
   PLANTS: '正在加载植物数据...',
   FOSSILS: '正在加载化石数据...',
-  ERROR_GENERIC: '加载数据失败',
 } as const;
 
 /**

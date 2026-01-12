@@ -1,7 +1,6 @@
 import { ref } from 'vue';
 import type { Music } from '../types/music';
 import { loadMusicData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export function useMusicData() {
   const allMusic = ref<Music[]>([]);
@@ -13,8 +12,8 @@ export function useMusicData() {
       error.value = '';
       allMusic.value = await loadMusicData();
     } catch (e) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('Failed to load music:', e);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', e);
     } finally {
       loading.value = false;
     }

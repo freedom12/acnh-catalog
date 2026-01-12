@@ -1,7 +1,6 @@
 import { ref } from 'vue';
 import type { Recipe } from '../types/recipe';
 import { loadRecipesData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 const allRecipes = ref<Recipe[]>([]);
 const recipeIdMap = ref<Record<number, Recipe>>({});
@@ -24,8 +23,8 @@ export function useRecipesData() {
       });
       isDataLoaded = true;
     } catch (e) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('Failed to load recipes:', e);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', e);
     } finally {
       loading.value = false;
     }

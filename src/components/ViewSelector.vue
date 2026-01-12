@@ -5,7 +5,7 @@ import { ENTITY_ICONS } from '../constants';
 interface ViewItem {
   path: string;
   label: string;
-  icon: string;
+  icon?: string;
 }
 
 const route = useRoute();
@@ -39,7 +39,7 @@ const isActive = (path: string) => {
       :to="view.path"
       :class="['view-button', { active: isActive(view.path) }]"
     >
-      <span class="view-icon">{{ view.icon }}</span>
+      <!-- <span v-if="view.icon" class="view-icon">{{ view.icon }}</span> -->
       <span class="view-label">{{ view.label }}</span>
     </RouterLink>
   </div>

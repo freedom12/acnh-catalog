@@ -1,7 +1,6 @@
 import { ref, type Ref } from 'vue';
 import type { MessageCard } from '../types/messagecard';
 import { loadMessageCardsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export interface UseMessageCardsDataReturn {
   allMessageCards: Ref<MessageCard[]>;
@@ -27,8 +26,8 @@ export function useMessageCardsData(): UseMessageCardsDataReturn {
       allMessageCards.value = await loadMessageCardsData();
       isDataLoaded = true;
     } catch (err) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('加载贺卡数据失败:', err);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', err);
     } finally {
       loading.value = false;
     }
