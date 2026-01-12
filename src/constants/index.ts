@@ -11,14 +11,13 @@ export const DATA_LOADING = {
   VILLAGERS: '正在加载村民数据...',
   NPCS: '正在加载NPC数据...',
   CREATURES: '正在加载生物数据...',
-  REACTIONS: '正在加载表情反应数据...',
-  RECIPES: '正在加载DIY配方数据...',
+  REACTIONS: '正在加载反应数据...',
+  RECIPES: '正在加载配方数据...',
   CONSTRUCTION: '正在加载改建数据...',
   MESSAGE_CARDS: '正在加载贺卡数据...',
   ARTWORKS: '正在加载艺术品数据...',
   PLANTS: '正在加载植物数据...',
   FOSSILS: '正在加载化石数据...',
-  ERROR_GENERIC: '加载数据失败',
 } as const;
 
 /**

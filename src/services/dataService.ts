@@ -583,7 +583,7 @@ export async function loadReactionsData(): Promise<Reaction[]> {
     }
     return (await response.json()) as Reaction[];
   } catch (error) {
-    console.error('加载表情反应数据失败:', error);
+    console.error('加载反应数据失败:', error);
     throw error;
   }
 }
@@ -596,7 +596,7 @@ export async function loadRecipesData(): Promise<Recipe[]> {
     }
     return (await response.json()) as Recipe[];
   } catch (error) {
-    console.error('加载DIY配方数据失败:', error);
+    console.error('加载配方数据失败:', error);
     throw error;
   }
 }

@@ -1,7 +1,6 @@
 import { ref } from 'vue';
 import type { Plant } from '../types/plant';
 import { loadPlantsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export function usePlantsData() {
   const allPlants = ref<Plant[]>([]);
@@ -14,8 +13,8 @@ export function usePlantsData() {
       error.value = '';
       allPlants.value = await loadPlantsData();
     } catch (e) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('加载植物数据失败:', e);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', e);
     } finally {
       loading.value = false;
     }

@@ -1,7 +1,7 @@
 import type { Version } from './item';
 
 /**
- * 表情反应数据类型
+ * 反应数据类型
  */
 export interface Reaction {
   id: number;

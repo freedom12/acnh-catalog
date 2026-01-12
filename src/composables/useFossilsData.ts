@@ -1,7 +1,6 @@
 import { ref } from 'vue';
 import type { Fossil } from '../types/fossil';
 import { loadFossilsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export function useFossilsData() {
   const allFossils = ref<Fossil[]>([]);
@@ -13,8 +12,8 @@ export function useFossilsData() {
       error.value = '';
       allFossils.value = await loadFossilsData();
     } catch (e) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('Failed to load fossils:', e);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', e);
     } finally {
       loading.value = false;
     }

@@ -11,7 +11,7 @@ import { getConstructionTypeName } from '../services/dataService';
 const { allConstruction, loading, error, loadData } = useConstructionData();
 const filters = computed(() => [
   {
-    label: '类型',
+    label: '分类',
     value: 'type',
     options: Object.values(ConstructionType).map((type) => ({
       value: type,

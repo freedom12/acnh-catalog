@@ -57,11 +57,43 @@ const filters = computed<Filter[]>(() => {
     label: getColorName(color),
   }));
 
-  // 来源选项
   const sourcesSet = new Set<string>();
+  const seriesSet = new Set<string>();
+  const conceptsSet = new Set<string>();
+  const setsSet = new Set<string>();
+  const categoriesSet = new Set<string>();
+  const themesSet = new Set<string>();
+  const stylesSet = new Set<string>();
+  const tagsSet = new Set<string>();
   itemsArray.forEach((item) => {
+    // 收集来源
     item.sources.forEach((s) => sourcesSet.add(s));
+
+    // 收集 HHA 主题
+    if (item.hhaSeries) seriesSet.add(item.hhaSeries);
+
+    // 收集 HHA 场景
+    item.hhaConcepts.forEach((concept) => conceptsSet.add(concept));
+
+    // 收集 HHA 套组
+    if (item.hhaSet) setsSet.add(item.hhaSet);
+
+    // 收集 HHA 分类
+    if (item.hhaCategory) categoriesSet.add(item.hhaCategory);
+
+    // 收集服饰主题
+    item.clothingThemes.forEach((theme) => themesSet.add(theme));
+
+    // 收集服饰风格
+    item.clothingStyles.forEach((style) => stylesSet.add(style));
+
+    // 收集标签
+    if (import.meta.env.DEV && item.tag) {
+      tagsSet.add(item.tag);
+    }
   });
+
+  // 来源选项
   const sourcesOptions = [...sourcesSet]
     .map((source) => ({
       value: source,
@@ -70,9 +102,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA主题选项
-  const seriesSet = new Set(
-    itemsArray.map((item) => item.hhaSeries).filter((s): s is string => !!s)
-  );
   const seriesOptions = [...seriesSet]
     .map((ser) => ({
       value: ser,
@@ -81,10 +110,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA场景选项
-  const conceptsSet = new Set<string>();
-  itemsArray.forEach((item) => {
-    item.hhaConcepts.forEach((concept) => conceptsSet.add(concept));
-  });
   const conceptsOptions = [...conceptsSet]
     .map((concept) => ({
       value: concept,
@@ -93,9 +118,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA套组选项
-  const setsSet = new Set(
-    itemsArray.map((item) => item.hhaSet).filter((s): s is string => !!s)
-  );
   const setsOptions = [...setsSet]
     .map((set) => ({
       value: set,
@@ -104,9 +126,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // HHA分类选项
-  const categoriesSet = new Set(
-    itemsArray.map((item) => item.hhaCategory).filter((c): c is string => !!c)
-  );
   const categoriesOptions = [...categoriesSet]
     .map((category) => ({
       value: category,
@@ -115,10 +134,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // 服饰主题选项
-  const themesSet = new Set<string>();
-  itemsArray.forEach((item) => {
-    item.clothingThemes.forEach((theme) => themesSet.add(theme));
-  });
   const themesOptions = [...themesSet]
     .map((theme) => ({
       value: theme,
@@ -127,10 +142,6 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   // 服饰风格选项
-  const stylesSet = new Set<string>();
-  itemsArray.forEach((item) => {
-    item.clothingStyles.forEach((style) => stylesSet.add(style));
-  });
   const stylesOptions = [...stylesSet]
     .map((style) => ({
       value: style,
@@ -139,34 +150,22 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   const filtersList: Filter[] = [
-    { label: '类型', value: 'typesFilter', options: typesOptions },
-    { label: '拥有状态', value: 'ownedFilter', options: ownedOptions },
-    { label: '版本', value: 'versionFilter', options: versionsOptions },
-    { label: '尺寸', value: 'sizeFilter', options: sizesOptions },
-    { label: '颜色', value: 'colorFilter', options: colorsOptions },
-    { label: '来源', value: 'sourceFilter', options: sourcesOptions },
-    { label: 'HHA主题', value: 'seriesFilter', options: seriesOptions },
-    { label: 'HHA场景', value: 'conceptsFilter', options: conceptsOptions },
-    { label: 'HHA套组', value: 'setFilter', options: setsOptions },
-    { label: 'HHA分类', value: 'categoryFilter', options: categoriesOptions },
-    { label: '服饰主题', value: 'themeFilter', options: themesOptions },
-    { label: '服饰风格', value: 'styleFilter', options: stylesOptions },
+    { label: '分类', value: 'type', options: typesOptions },
+    { label: '拥有状态', value: 'owned', options: ownedOptions },
+    { label: '版本', value: 'version', options: versionsOptions },
+    { label: '尺寸', value: 'size', options: sizesOptions },
+    { label: '颜色', value: 'color', options: colorsOptions },
+    { label: '来源', value: 'source', options: sourcesOptions },
+    { label: 'HHA主题', value: 'series', options: seriesOptions },
+    { label: 'HHA场景', value: 'concept', options: conceptsOptions },
+    { label: 'HHA套组', value: 'set', options: setsOptions },
+    { label: 'HHA分类', value: 'category', options: categoriesOptions },
+    { label: '服饰主题', value: 'theme', options: themesOptions },
+    { label: '服饰风格', value: 'style', options: stylesOptions },
   ];
 
   if (import.meta.env.DEV) {
     // 标签选项
-    const tagsSet = new Set(
-      itemsArray
-        .map((item) => {
-          if (item.tag) {
-            //} && item.type === ItemType.Rugs) {
-            return item.tag;
-          } else {
-            return null;
-          }
-        })
-        .filter((t): t is string => !!t)
-    );
     const tagsOptions = [...tagsSet]
       .map((tag) => ({
         value: tag,
@@ -180,10 +179,11 @@ const filters = computed<Filter[]>(() => {
         }
         return a.label.localeCompare(b.label, 'zh-CN');
       });
-    filtersList.push({ label: '标签', value: 'tagFilter', options: tagsOptions });
+    filtersList.push({ label: '标签', value: 'tag', options: tagsOptions });
   }
   return filtersList;
 });
+
 const { filteredData, handleFiltersChanged } = useFilter(
   allItems,
   (item, searchQuery, selectedFilters) => {
@@ -289,6 +289,8 @@ const sortedItems = computed(() => {
 
     return a.id - b.id;
   });
+
+  // return filteredData.value;
 });
 
 // 计算拥有的物品数量

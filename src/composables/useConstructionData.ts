@@ -1,7 +1,6 @@
 import { ref } from 'vue';
 import type { Construction } from '../types/construction';
 import { loadConstructionsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export function useConstructionData() {
   const allConstruction = ref<Construction[]>([]);
@@ -13,8 +12,8 @@ export function useConstructionData() {
       error.value = '';
       allConstruction.value = await loadConstructionsData();
     } catch (e) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('Failed to load construction:', e);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', e);
     } finally {
       loading.value = false;
     }

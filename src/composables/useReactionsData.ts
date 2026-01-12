@@ -1,7 +1,6 @@
 import { ref, type Ref } from 'vue';
 import type { Reaction } from '../types';
 import { loadReactionsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export interface UseReactionsDataReturn {
   allReactions: Ref<Reaction[]>;
@@ -20,8 +19,8 @@ export function useReactionsData(): UseReactionsDataReturn {
       error.value = '';
       allReactions.value = await loadReactionsData();
     } catch (err) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('加载表情反应数据失败:', err);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', err);
     } finally {
       loading.value = false;
     }

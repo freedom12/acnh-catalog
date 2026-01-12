@@ -18,7 +18,7 @@ const handleClick = () => {
 
 const getAudioPath = (type: 'live' | 'radio') => {
   const folder = type === 'live' ? 'live' : 'radio';
-  return `${BASE_PATH}sound/music/${folder}/${props.data.rawName}.mp3`;
+  return `${BASE_PATH}sound/music/${folder}/${props.data.order}.mp3`;
 };
 
 const isCurrentlyPlaying = (type: 'live' | 'radio') => {
@@ -49,6 +49,15 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
     :shape="'square'"
     @click="handleClick"
   >
+    <div class="detail-row detail-center">
+      <span class="detail-label">
+        {{ props.data.rawName }}
+      </span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">心情</span>
+      <span class="detail-value">{{ props.data.mood || "--"}}</span>
+    </div>
     <div class="music-actions">
       <button @click="(e) => handlePlayClick(e, 'live')" class="play-button">
         <span class="play-icon">{{ isLivePlaying ? '⏸' : '▶' }}</span> 现场
@@ -65,23 +74,6 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
 </template>
 
 <style scoped>
-.detail-row {
-  display: flex;
-  gap: 8px;
-  padding: 4px 0;
-  font-size: 14px;
-}
-
-.label {
-  color: #666;
-  flex-shrink: 0;
-}
-
-.value {
-  color: #333;
-  word-break: break-word;
-}
-
 .music-actions {
   margin-top: 12px;
   display: flex;

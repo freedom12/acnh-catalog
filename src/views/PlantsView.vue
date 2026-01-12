@@ -12,7 +12,7 @@ const { allPlants, loading, error, loadData } = usePlantsData();
 
 const filters = computed(() => [
   {
-    label: '类型',
+    label: '分类',
     value: 'type',
     options: Object.values(PlantType).map((type) => ({
       value: type,

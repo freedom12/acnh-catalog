@@ -8,4 +8,5 @@ export interface Music {
   image: string;
   ver: Version;
   hasRadio: boolean;
+  mood: string;
 }

@@ -105,7 +105,7 @@ export class ItemModel {
   }
 
   get typeName(): string {
-    return ItemTypeNameMap[this.type] || '未知类型';
+    return ItemTypeNameMap[this.type] || '未知分类';
   }
 
   get version(): Version {

@@ -5,7 +5,7 @@ import { ENTITY_ICONS } from '../constants';
 interface ViewItem {
   path: string;
   label: string;
-  icon: string;
+  icon?: string;
 }
 
 const route = useRoute();
@@ -20,7 +20,7 @@ const views: ViewItem[] = [
   { path: '/artworks', label: '艺术品', icon: ENTITY_ICONS.ARTWORKS },
   { path: '/plants', label: '植物', icon: ENTITY_ICONS.PLANTS },
   { path: '/musics', label: '音乐', icon: ENTITY_ICONS.MUSICS },
-  { path: '/reactions', label: '表情', icon: ENTITY_ICONS.REACTIONS },
+  { path: '/reactions', label: '反应', icon: ENTITY_ICONS.REACTIONS },
   { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTIONS },
   { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
   { path: '/misc', label: '杂项', icon: ENTITY_ICONS.MISC },
@@ -39,7 +39,7 @@ const isActive = (path: string) => {
       :to="view.path"
       :class="['view-button', { active: isActive(view.path) }]"
     >
-      <span class="view-icon">{{ view.icon }}</span>
+      <!-- <span v-if="view.icon" class="view-icon">{{ view.icon }}</span> -->
       <span class="view-label">{{ view.label }}</span>
     </RouterLink>
   </div>

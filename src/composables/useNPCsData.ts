@@ -1,7 +1,6 @@
 import { ref, type Ref } from 'vue';
 import type { NPC } from '../types';
 import { loadNPCsData } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 export interface UseNPCsDataReturn {
   allNPCs: Ref<NPC[]>;
@@ -10,9 +9,6 @@ export interface UseNPCsDataReturn {
   loadData: () => Promise<void>;
 }
 
-/**
- * 组合函数：管理NPC数据加载
- */
 export function useNPCsData(): UseNPCsDataReturn {
   const allNPCs = ref<NPC[]>([]);
   const loading = ref(false);
@@ -23,8 +19,8 @@ export function useNPCsData(): UseNPCsDataReturn {
       error.value = '';
       allNPCs.value = await loadNPCsData();
     } catch (err) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
-      console.error('加载NPC数据失败:', err);
+      error.value = '加载数据失败';
+      console.error('加载数据失败:', err);
     } finally {
       loading.value = false;
     }

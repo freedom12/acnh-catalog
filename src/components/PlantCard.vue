@@ -2,7 +2,11 @@
 import BaseCard from './BaseCard.vue';
 import type { Plant } from '../types/plant';
 import { UI_TEXT } from '../constants';
-import { getPlantTypeName, getPlantTypeIcon, getPriceWithIcon } from '../services/dataService';
+import {
+  getPlantTypeName,
+  getPlantTypeIcon,
+  getPriceWithIcon,
+} from '../services/dataService';
 import ItemIcon from './ItemIcon.vue';
 import { computed, onMounted } from 'vue';
 import { useItemsData } from '../composables/useItemsData';
@@ -38,9 +42,10 @@ const handleClick = () => {
       <span class="detail-label">ID: {{ props.data.id }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">类型</span>
-      <span class="detail-value">{{ getPlantTypeName(props.data.type) }}
-                <img
+      <span class="detail-label">分类</span>
+      <span class="detail-value"
+        >{{ getPlantTypeName(props.data.type) }}
+        <img
           :src="getPlantTypeIcon(props.data.type)"
           :alt="getPlantTypeName(props.data.type)"
           class="inline-icon gray"
@@ -56,13 +61,13 @@ const handleClick = () => {
       v-if="showProduct || showSeeds"
       :class="['grow-section', { 'two-cols': showProduct && showSeeds }]"
     >
-      <div v-if="showProduct" class="grow-item">
-        <ItemIcon :itemId="props.data.product!" :size="72" />
-        <span class="grow-label">产出</span>
-      </div>
       <div v-if="showSeeds" class="grow-item">
         <ItemIcon :itemId="props.data.seeds!" :size="72" />
         <span class="grow-label">种子</span>
+      </div>
+      <div v-if="showProduct" class="grow-item">
+        <ItemIcon :itemId="props.data.product!" :size="72" />
+        <span class="grow-label">产出</span>
       </div>
     </div>
   </BaseCard>

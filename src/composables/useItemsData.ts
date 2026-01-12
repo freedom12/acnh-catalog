@@ -5,7 +5,6 @@ import {
   loadItemsData,
   loadCatalogData,
 } from '../services/dataService';
-import { DATA_LOADING } from '../constants';
 
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
 const itemIdMap = ref<Record<number, ItemModel>>({});
@@ -37,7 +36,7 @@ export function useItemsData() {
       });
       isDataLoaded = true;
     } catch (err) {
-      error.value = DATA_LOADING.ERROR_GENERIC;
+      error.value = '加载数据失败';
       console.error('加载数据失败:', err);
     } finally {
       loading.value = false;
