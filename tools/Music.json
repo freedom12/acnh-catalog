@@ -1,0 +1,662 @@
+[
+  {
+    "order": 1,
+    "name": "K.K.赞美诗歌",
+    "rawName": "K.K. Chorale",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 2,
+    "name": "K.K.进行曲",
+    "rawName": "K.K. March",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 3,
+    "name": "K.K.圆舞曲",
+    "rawName": "K.K. Waltz",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 4,
+    "name": "K.K.摇摆乐",
+    "rawName": "K.K. Swing",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 5,
+    "name": "K.K.爵士乐",
+    "rawName": "K.K. Jazz",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 6,
+    "name": "K.K.融合爵士乐",
+    "rawName": "K.K. Fusion",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 7,
+    "name": "K.K.练习曲",
+    "rawName": "K.K. Étude",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 8,
+    "name": "K.K.摇篮曲",
+    "rawName": "K.K. Lullaby",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 9,
+    "name": "K.K.咏叹调",
+    "rawName": "K.K. Aria",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 10,
+    "name": "K.K.桑巴",
+    "rawName": "K.K. Samba",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 11,
+    "name": "K.K.巴萨诺瓦",
+    "rawName": "K.K. Bossa",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 12,
+    "name": "K.K.卡利普索",
+    "rawName": "K.K. Calypso",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 13,
+    "name": "K.K.萨尔萨",
+    "rawName": "K.K. Salsa",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 14,
+    "name": "K.K.曼波",
+    "rawName": "K.K. Mambo",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 15,
+    "name": "K.K.雷鬼",
+    "rawName": "K.K. Reggae",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 16,
+    "name": "K.K.斯卡",
+    "rawName": "K.K. Ska",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 17,
+    "name": "K.K.探戈",
+    "rawName": "K.K. Tango",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 18,
+    "name": "冲绳K.K.",
+    "rawName": "K.K. Faire",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 19,
+    "name": "夏威夷K.K.",
+    "rawName": "Aloha K.K.",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 20,
+    "name": "爱尔兰乐曲",
+    "rawName": "Lucky K.K.",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 21,
+    "name": "秘鲁之歌",
+    "rawName": "K.K. Condor",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 22,
+    "name": "哥萨克乐曲",
+    "rawName": "K.K. Steppe",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 23,
+    "name": "K.K.中华",
+    "rawName": "Imperial K.K.",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 24,
+    "name": "土耳其乐曲",
+    "rawName": "K.K. Casbah",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 25,
+    "name": "K.K.非洲音乐",
+    "rawName": "K.K. Safari",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 26,
+    "name": "K.K.民谣",
+    "rawName": "K.K. Folk",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 27,
+    "name": "K.K.摇滚",
+    "rawName": "K.K. Rock",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 28,
+    "name": "K.K.50年代摇滚",
+    "rawName": "Rockin' K.K.",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 29,
+    "name": "拉格泰姆音乐",
+    "rawName": "K.K. Ragtime",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 30,
+    "name": "新奥尔良乐曲",
+    "rawName": "K.K. Gumbo",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 31,
+    "name": "K.K.放克",
+    "rawName": "The K. Funk",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 32,
+    "name": "K.K.蓝调",
+    "rawName": "K.K. Blues",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 33,
+    "name": "K.K.心灵音乐",
+    "rawName": "Soulful K.K.",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 34,
+    "name": "K.K.灵魂乐",
+    "rawName": "K.K. Soul",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 35,
+    "name": "都市K.K.",
+    "rawName": "K.K. Cruisin'",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 36,
+    "name": "K.K.情歌",
+    "rawName": "K.K. Love Song",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 37,
+    "name": "鼓打贝斯",
+    "rawName": "K.K. D&B",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 38,
+    "name": "电音节奏",
+    "rawName": "K.K. Technopop",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 39,
+    "name": "欧陆节拍",
+    "rawName": "DJ K.K.",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 40,
+    "name": "只有我",
+    "rawName": "Only Me",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 41,
+    "name": "K.K.乡村",
+    "rawName": "K.K. Country",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 42,
+    "name": "电吉他乐曲",
+    "rawName": "Surfin' K.K.",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 43,
+    "name": "K.K.叙事歌谣",
+    "rawName": "K.K. Ballad",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 44,
+    "name": "昭和K.K.歌谣",
+    "rawName": "Comrade K.K.",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 45,
+    "name": "K.K.演歌",
+    "rawName": "K.K. Lament",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 46,
+    "name": "冲吧！K.K.摩托车手",
+    "rawName": "Go K.K. Rider",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 47,
+    "name": "惊悚歌",
+    "rawName": "K.K. Dirge",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 48,
+    "name": "K.K.西部",
+    "rawName": "K.K. Western",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 49,
+    "name": "K.K.老师",
+    "rawName": "Mr. K.K.",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 50,
+    "name": "K.K.巴黎",
+    "rawName": "Café K.K.",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 51,
+    "name": "K.K.嘉年华",
+    "rawName": "K.K. Parade",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 52,
+    "name": "墨西哥绅士K.K.",
+    "rawName": "K.K. Mariachi",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 53,
+    "name": "K.K.乐曲",
+    "rawName": "K.K. Song",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 54,
+    "name": "我爱你",
+    "rawName": "I Love You",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 55,
+    "name": "前天",
+    "rawName": "Two Days Ago",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 56,
+    "name": "我的归所",
+    "rawName": "My Place",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 57,
+    "name": "森林生活",
+    "rawName": "Forest Life",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 58,
+    "name": "漫弥",
+    "rawName": "To the Edge",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 59,
+    "name": "思考中",
+    "rawName": "Pondering",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 60,
+    "name": "K.K.迪克西",
+    "rawName": "K.K. Dixie",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 61,
+    "name": "K.K.甘美朗",
+    "rawName": "K.K. Marathon",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 62,
+    "name": "K.K.领主",
+    "rawName": "King K.K.",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 63,
+    "name": "阿尔卑斯山乐曲",
+    "rawName": "Mountain Song",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 64,
+    "name": "船歌2001",
+    "rawName": "Marine Song 2001",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 65,
+    "name": "意大利面",
+    "rawName": "Neapolitan",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 66,
+    "name": "二段斜坡",
+    "rawName": "Steep Hill",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 67,
+    "name": "K.K.乡村摇滚",
+    "rawName": "K.K. Rockabilly",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 68,
+    "name": "K.K.刑警",
+    "rawName": "Agent K.K.",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 69,
+    "name": "K.K.大和祭典",
+    "rawName": "K.K. Rally",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 70,
+    "name": "K.K.金属摇滚",
+    "rawName": "K.K. Metal",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 71,
+    "name": "蓝色饭团",
+    "rawName": "Stale Cupcakes",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 72,
+    "name": "春暖花开",
+    "rawName": "Spring Blossoms",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 73,
+    "name": "流浪",
+    "rawName": "Wandering",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 74,
+    "name": "K.K.浩室",
+    "rawName": "K.K. House",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 75,
+    "name": "K.K.奏鸣曲",
+    "rawName": "K.K. Sonata",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 76,
+    "name": "白日梦",
+    "rawName": "Hypno K.K.",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 77,
+    "name": "散散步",
+    "rawName": "K.K. Stroll",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 78,
+    "name": "动物岛",
+    "rawName": "K.K. Island",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 79,
+    "name": "极简音乐",
+    "rawName": "Space K.K.",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 80,
+    "name": "K.K.好莱坞",
+    "rawName": "K.K. Adventure",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 81,
+    "name": "K.K.印度王公",
+    "rawName": "K.K. Oasis",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 82,
+    "name": "K.K.吉普赛",
+    "rawName": "K.K. Bazaar",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 83,
+    "name": "K.K.米隆加",
+    "rawName": "K.K. Milonga",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 84,
+    "name": "K.K.律动",
+    "rawName": "K.K. Groove",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 85,
+    "name": "K.K.三味线",
+    "rawName": "K.K. Jongara",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 86,
+    "name": "K.K.佛朗明哥",
+    "rawName": "K.K. Flamenco",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 87,
+    "name": "K.K.波蕾洛",
+    "rawName": "K.K. Moody",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 88,
+    "name": "K.K.偶像",
+    "rawName": "Bubblegum K.K.",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 89,
+    "name": "K.K.电子民谣",
+    "rawName": "K.K. Synth",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 90,
+    "name": "K.K.迪斯科",
+    "rawName": "K.K. Disco",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 91,
+    "name": "你的生日",
+    "rawName": "K.K. Birthday",
+    "mood": "Only on the player's birthday"
+  },
+  {
+    "order": 92,
+    "name": "动物城镇",
+    "rawName": "Animal City",
+    "mood": "Request only"
+  },
+  {
+    "order": 93,
+    "name": "再会",
+    "rawName": "Drivin'",
+    "mood": "Request only"
+  },
+  {
+    "order": 94,
+    "name": "兜风",
+    "rawName": "Farewell",
+    "mood": "Request only"
+  },
+  {
+    "order": 95,
+    "name": "大家集合吧",
+    "rawName": "Welcome Horizons",
+    "mood": "Request only"
+  },
+  {
+    "order": 96,
+    "name": "K.K.赋格曲",
+    "rawName": "K.K. Fugue",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 97,
+    "name": "K.K.波尔卡舞曲",
+    "rawName": "K.K. Polka",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 98,
+    "name": "K.K.Slack-Key吉他",
+    "rawName": "K.K. Slack-Key",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 99,
+    "name": "K.K.咻乐",
+    "rawName": "K.K. Chorinho",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 100,
+    "name": "冷波",
+    "rawName": "Chillwave",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 101,
+    "name": "K.K.混搭音乐",
+    "rawName": "K.K. Dub",
+    "mood": "Laid-back"
+  },
+  {
+    "order": 102,
+    "name": "K.K.爱人们",
+    "rawName": "K.K. Lovers",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 103,
+    "name": "K.K.舞场雷鬼",
+    "rawName": "K.K. Bashment",
+    "mood": "A little blue..."
+  },
+  {
+    "order": 104,
+    "name": "K.K.嘻哈",
+    "rawName": "K.K. Hop",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 105,
+    "name": "K.K.地板舞",
+    "rawName": "K.K. Break",
+    "mood": "A little grumpy..."
+  },
+  {
+    "order": 106,
+    "name": "K.K.喉音",
+    "rawName": "K.K. Khoomei",
+    "mood": "It's hard to say"
+  },
+  {
+    "order": 107,
+    "name": "K.K.电子合成音",
+    "rawName": "K.K. Robot Synth",
+    "mood": "I feel good!"
+  },
+  {
+    "order": 108,
+    "name": "隐藏曲1",
+    "rawName": "Hazure01",
+    "mood": ""
+  },
+  {
+    "order": 109,
+    "name": "隐藏曲2",
+    "rawName": "Hazure02",
+    "mood": ""
+  },
+  {
+    "order": 110,
+    "name": "隐藏曲3",
+    "rawName": "Hazure03",
+    "mood": ""
+  }
+]

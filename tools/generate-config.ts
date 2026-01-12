@@ -271,7 +271,10 @@ function getDefaultDisplayProperties(
   return { id, colors };
 }
 
-function applyOtherItemsOrder(orderFilePath: string, itemType: ItemType = ItemType.Other) {
+function applyOtherItemsOrder(
+  orderFilePath: string,
+  itemType: ItemType = ItemType.Other
+) {
   if (!fs.existsSync(orderFilePath)) return;
 
   const lines = fs.readFileSync(orderFilePath, 'utf-8').split(/\r?\n/);
@@ -383,7 +386,6 @@ let newItems: NewItem[] = [];
 let newItemIdMap = new Map<number, NewItem>();
 let newItemNameMap = new Map<string, NewItem>();
 let messageCards: MessageCard[] = [];
-let musics: Music[] = [];
 let fakeArtworks = new Map<string, OldItem>();
 let realArtworks = new Map<string, OldItem>();
 let fossilGroups = new Map<string, OldItem[]>();
@@ -435,30 +437,9 @@ for (const oldItem of oldItems) {
       }
       fossilGroups.get(groupName)!.push(oldItem);
     }
-
-    if (oldItem.sourceSheet === OldItemSourceSheet.Music) {
-      const music: Music = {
-        id: oldItem.internalId || 0,
-        order: oldItem.internalId || 0,
-        name: oldItem.translations?.cNzh || oldItem.name,
-        rawName: oldItem.name,
-        image: processImageUrl(
-          oldItem.albumImage || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
-        ),
-        ver: versionAddedMap[oldItem.versionAdded!] || Version.The100,
-        hasRadio: oldItem.albumImage ? true : false,
-      };
-      musics.push(music);
-    }
   }
 }
 messageCards.sort((a, b) => a.id - b.id);
-// hasRadio排在前面
-musics.sort((a, b) => {
-  if (a.hasRadio && !b.hasRadio) return -1;
-  if (!a.hasRadio && b.hasRadio) return 1;
-  return a.order - b.order;
-});
 
 let newArtworks: NewArtwork[] = [];
 for (const [name, realArtwork] of realArtworks) {
@@ -524,6 +505,32 @@ for (const [groupName, parts] of fossilGroups) {
 }
 newFossils.sort((a, b) => a.parts.length - b.parts.length);
 
+const musicCfg = JSON.parse(fs.readFileSync(path.join(__dirname, 'Music.json'), 'utf-8'));
+let musics: Music[] = [];
+for (const entry of musicCfg) {
+  const item = newItemNameMap.get(entry.rawName);
+  if (!item) {
+    console.log(`音乐未找到物品: ${entry.rawName}`);
+    continue;
+  }
+  const music: Music = {
+    id: item.id,
+    order: entry.order || 0,
+    name: entry.name,
+    rawName: item.rawName,
+    image: processImageUrl(
+      item.images?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
+    ),
+    ver: item.ver,
+    mood: entry.mood || '',
+    hasRadio: item.images?.[1] ? true : false,
+  };
+  musics.push(music);
+}
+musics.sort((a, b) => {
+  return a.order - b.order;
+});
+
 const interiorStructures = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'Interior Structures.json'), 'utf-8')
 );
@@ -549,9 +556,7 @@ for (const oldCreature of oldCreatures) {
     type: creatureTypeMap[oldCreature.sourceSheet],
     name: oldCreature.translations?.cNzh || oldCreature.name,
     rawName: oldCreature.name,
-    images: [
-      processImageUrl(oldCreature.critterpediaImage),
-    ],
+    images: [processImageUrl(oldCreature.critterpediaImage)],
     ver: oldCreature.versionAdded
       ? versionAddedMap[oldCreature.versionAdded]
       : Version.The100,
