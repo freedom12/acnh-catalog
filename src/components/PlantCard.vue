@@ -42,7 +42,7 @@ const handleClick = () => {
       <span class="detail-label">ID: {{ props.data.id }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">类型</span>
+      <span class="detail-label">分类</span>
       <span class="detail-value"
         >{{ getPlantTypeName(props.data.type) }}
         <img

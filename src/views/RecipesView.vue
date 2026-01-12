@@ -13,7 +13,7 @@ const { allRecipes, loading, error, loadData } = useRecipesData();
 const { loadData: loadItemsData } = useItemsData();
 const filters = computed(() => [
   {
-    label: '类型',
+    label: '分类',
     value: 'type',
     options: Object.values(RecipeType).map((type) => ({
       value: type,

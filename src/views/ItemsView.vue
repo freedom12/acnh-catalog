@@ -139,7 +139,7 @@ const filters = computed<Filter[]>(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
   const filtersList: Filter[] = [
-    { label: '类型', value: 'typesFilter', options: typesOptions },
+    { label: '分类', value: 'typesFilter', options: typesOptions },
     { label: '拥有状态', value: 'ownedFilter', options: ownedOptions },
     { label: '版本', value: 'versionFilter', options: versionsOptions },
     { label: '尺寸', value: 'sizeFilter', options: sizesOptions },

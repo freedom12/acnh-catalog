@@ -72,29 +72,30 @@ const handleClick = () => {
     :shape="'rounded'"
     @click="handleClick"
   >
-    <span class="detail-row detail-center">
-      <span class="detail-label">
+    <div class="detail-row detail-center">
+      <span class="detail-label"> ID: {{ displayId }} - {{ itemModel.sizeName }} - </span>
+      <ColorBlock v-if="displayColors.length > 0" :colors="displayColors" :size="16" />
+    </div>
+    <div v-if="!itemModel.isClothing" class="detail-row">
+      <span class="detail-label">分类</span>
+      <span class="detail-value">
         <img
           :src="getItemTypeIcon(itemModel.type)"
           :alt="itemModel.typeName"
           :title="itemModel.typeName"
-          class="inline-icon gray"
-        />
+          class="inline-icon gray" />
         <template v-if="itemModel.subtype">
           -
           <img
             :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
             class="inline-icon gray"
-          />
-        </template>
-        ID: {{ displayId }}
-      </span>
-      <ColorBlock v-if="displayColors.length > 0" :colors="displayColors" :size="16" />
-    </span>
-    <div class="detail-row">
+          /> </template
+      ></span>
+    </div>
+    <!-- <div class="detail-row">
       <span class="detail-label">尺寸</span>
       <span class="detail-value">{{ itemModel.sizeName }}</span>
-    </div>
+    </div> -->
     <!-- <div v-if="itemModel.tag" class="detail-row">
       <span class="detail-label">标签</span>
       <span class="detail-value">{{ itemModel.tagName }}</span>
