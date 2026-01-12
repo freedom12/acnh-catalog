@@ -43,7 +43,7 @@ const handleClick = () => {
       <SourceList class="detail-value" :sources="props.data.source" />
     </div>
     <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
+      <span class="detail-label">购买</span>
       <span
         class="detail-value highlight"
         v-html="getPriceWithIcon(props.data.buy) || '不可购买'"

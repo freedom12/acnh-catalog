@@ -20,7 +20,7 @@ const views: ViewItem[] = [
   { path: '/artworks', label: '艺术品', icon: ENTITY_ICONS.ARTWORKS },
   { path: '/plants', label: '植物', icon: ENTITY_ICONS.PLANTS },
   { path: '/musics', label: '音乐', icon: ENTITY_ICONS.MUSICS },
-  { path: '/reactions', label: '表情', icon: ENTITY_ICONS.REACTIONS },
+  { path: '/reactions', label: '反应', icon: ENTITY_ICONS.REACTIONS },
   { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTIONS },
   { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
   { path: '/misc', label: '杂项', icon: ENTITY_ICONS.MISC },
