@@ -196,28 +196,28 @@ const { filteredData, handleFiltersChanged } = useFilter(
     }
 
     // 类型筛选
-    if (selectedFilters.typesFilter) {
-      if (!item.matchesType(selectedFilters.typesFilter as ItemType)) return false;
+    if (selectedFilters.type) {
+      if (!item.matchesType(selectedFilters.type as ItemType)) return false;
     }
 
     // 拥有状态筛选
-    if (selectedFilters.ownedFilter !== undefined) {
-      if (item.owned !== (selectedFilters.ownedFilter === 1)) return false;
+    if (selectedFilters.owned !== undefined) {
+      if (item.owned !== (selectedFilters.owned === 1)) return false;
     }
 
     // 版本筛选
-    if (selectedFilters.versionFilter) {
-      if (!item.matchesVersion(selectedFilters.versionFilter as Version)) return false;
+    if (selectedFilters.version) {
+      if (!item.matchesVersion(selectedFilters.version as Version)) return false;
     }
 
     // 尺寸筛选
-    if (selectedFilters.sizeFilter) {
-      if (!item.matchesSize(selectedFilters.sizeFilter as ItemSize)) return false;
+    if (selectedFilters.size) {
+      if (!item.matchesSize(selectedFilters.size as ItemSize)) return false;
     }
 
     // 颜色筛选 - 使用matchesColor并切换到匹配的变体
-    if (selectedFilters.colorFilter) {
-      const color = selectedFilters.colorFilter as Color;
+    if (selectedFilters.color) {
+      const color = selectedFilters.color as Color;
       if (!item.matchesColor(color)) {
         return false;
       }
@@ -226,43 +226,43 @@ const { filteredData, handleFiltersChanged } = useFilter(
     }
 
     // 来源筛选
-    if (selectedFilters.sourceFilter) {
-      if (!item.matchesSource(selectedFilters.sourceFilter as string)) return false;
+    if (selectedFilters.source) {
+      if (!item.matchesSource(selectedFilters.source as string)) return false;
     }
 
     // 标签筛选
-    if (selectedFilters.tagFilter) {
-      if (!item.matchesTag(selectedFilters.tagFilter as string)) return false;
+    if (selectedFilters.tag) {
+      if (!item.matchesTag(selectedFilters.tag as string)) return false;
     }
 
     // HHA主题筛选
-    if (selectedFilters.seriesFilter) {
-      if (!item.matchesSeries(selectedFilters.seriesFilter as string)) return false;
+    if (selectedFilters.series) {
+      if (!item.matchesSeries(selectedFilters.series as string)) return false;
     }
 
     // HHA场景筛选
-    if (selectedFilters.conceptsFilter) {
-      if (!item.matchesConcept(selectedFilters.conceptsFilter as string)) return false;
+    if (selectedFilters.concept) {
+      if (!item.matchesConcept(selectedFilters.concept as string)) return false;
     }
 
     // HHA套组筛选
-    if (selectedFilters.setFilter) {
-      if (!item.matchesSet(selectedFilters.setFilter as string)) return false;
+    if (selectedFilters.set) {
+      if (!item.matchesSet(selectedFilters.set as string)) return false;
     }
 
     // HHA分类筛选
-    if (selectedFilters.categoryFilter) {
-      if (!item.matchesCategory(selectedFilters.categoryFilter as string)) return false;
+    if (selectedFilters.category) {
+      if (!item.matchesCategory(selectedFilters.category as string)) return false;
     }
 
     // 服饰主题筛选
-    if (selectedFilters.themeFilter) {
-      if (!item.matchesTheme(selectedFilters.themeFilter as string)) return false;
+    if (selectedFilters.theme) {
+      if (!item.matchesTheme(selectedFilters.theme as string)) return false;
     }
 
     // 服饰风格筛选
-    if (selectedFilters.styleFilter) {
-      if (!item.matchesStyle(selectedFilters.styleFilter as string)) return false;
+    if (selectedFilters.style) {
+      if (!item.matchesStyle(selectedFilters.style as string)) return false;
     }
 
     return true;
