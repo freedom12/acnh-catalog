@@ -26,12 +26,31 @@ const props = defineProps({
 const { openModal } = useItemDetailModal();
 const { itemIdMap } = useItemsData();
 
-const itemModel = computed(() => itemIdMap.value[props.itemId]);
+const itemModel = computed(() => {
+  let item = itemIdMap.value[props.itemId]
+  if (!item) {
+    console.warn(`ItemIcon: Item model not found for itemId ${props.itemId}`);
+  }
+  return item;
+});
 const name = computed(() => itemModel.value?.name || '');
 const image = computed(() => {
-  if (!itemModel.value) return '';
-  const pattern = itemModel.value.getPattern(props.vIndex, props.pIndex);
-  return pattern ? processImageUrl(pattern.image) : itemModel.value.image;
+  if (!itemModel.value) {
+    // console.warn(`ItemIcon: Item model not found for itemId ${props.itemId}`);
+    return '';
+  };
+
+  let pattern = itemModel.value.getPattern(props.vIndex, props.pIndex);
+  if (!pattern) {
+    return itemModel.value.image;
+  }
+  if (pattern.id != props.itemId) {
+    pattern = itemModel.value.getPatternById(props.itemId);
+  }
+  if (!pattern) {
+    return itemModel.value.image;
+  }
+  return processImageUrl(pattern.image);
 });
 
 const showPreview = ref(false);

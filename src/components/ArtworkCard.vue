@@ -91,7 +91,7 @@ const handleTitleClick = () => {
         class="artwork-image-item"
         @click="handleImageClick(img.id)"
       >
-        <img :src="img.image" :alt="img.title" class="thumbnail" />
+        <img :src="img.image" :alt="img.title" class="thumbnail" loading="lazy" />
         <span class="image-title">{{ img.title }}</span>
       </div>
     </div>
@@ -153,6 +153,7 @@ const handleTitleClick = () => {
             "
             :alt="imgs.find((img) => img.id === hoveredImageId)?.title"
             class="preview-image"
+            loading="lazy"
           />
 
           <!-- 预览标题 -->

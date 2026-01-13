@@ -360,6 +360,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
             <img
               :src="`${baseUrl}img/polishing/${polishing.file}`"
               :alt="polishing.name"
+              loading="lazy"
             />
             <p class="item-name">{{ polishing.name }}</p>
           </div>
@@ -387,6 +388,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
             <img
               :src="`${baseUrl}img/soundscape/${soundscape.file}`"
               :alt="soundscape.name"
+              loading="lazy"
             />
             <p class="item-name">{{ soundscape.name }}</p>
             <span v-if="soundscape.audio" class="play-icon">🎵</span>
@@ -430,7 +432,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
                   class="misc-item clickable"
                   @click="openPatternModal(pattern)"
                 >
-                  <img :src="`${baseUrl}img/pattern/${pattern}`" :alt="pattern" />
+                  <img :src="`${baseUrl}img/pattern/${pattern}`" :alt="pattern" loading="lazy" />
                   <!-- <p>{{ pattern }}</p> -->
                 </div>
               </div>
@@ -449,7 +451,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
             :key="index"
             class="preview-item"
           >
-            <img :src="croppedSrc" :alt="`Cropped pattern ${index + 1}`" />
+            <img :src="croppedSrc" :alt="`Cropped pattern ${index + 1}`" loading="lazy" />
           </div>
         </div>
       </div>

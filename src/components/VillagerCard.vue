@@ -73,13 +73,14 @@ const toggleFurnitureExpanded = () => {
     </template>
     <span class="detail-row detail-center">
       <span class="detail-label">
-        <img :src="getGenderIcon(props.data.gender)" class="inline-icon" />
+        <img :src="getGenderIcon(props.data.gender)" class="inline-icon" loading="lazy" />
         {{ getSpeciesName(props.data.species) }}
         <img
           :src="getSpeciesIcon(props.data.species)"
           :alt="getSpeciesName(props.data.species)"
           :title="getSpeciesName(props.data.species)"
           class="inline-icon gray"
+          loading="lazy"
         />
       </span>
     </span>
@@ -92,6 +93,7 @@ const toggleFurnitureExpanded = () => {
           :src="getConstellationIcon(getConstellation(props.data.birthday))"
           :alt="getConstellationName(getConstellation(props.data.birthday))"
           :title="getConstellationName(getConstellation(props.data.birthday))"
+          loading="lazy"
         />
       </span>
     </span>
@@ -155,6 +157,7 @@ const toggleFurnitureExpanded = () => {
           :alt="'House Image'"
           :style="{ width: '60px', height: '60px', borderRadius: '4px' }"
           :key="'houseImage'"
+          loading="lazy"
         />
       </div>
     </div>

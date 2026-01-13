@@ -189,9 +189,15 @@ const { filteredData, handleFiltersChanged } = useFilter(
   (item, searchQuery, selectedFilters) => {
     // 搜索筛选
     if (searchQuery) {
-      const lowerQuery = searchQuery.toLowerCase();
-      if (!item.name.toLowerCase().includes(lowerQuery)) {
-        return false;
+      if (searchQuery.startsWith('#')) {
+        if ('#' + item.id !== searchQuery) {
+          return false;
+        }
+      } else {
+        const lowerQuery = searchQuery.toLowerCase();
+        if (!item.name.toLowerCase().includes(lowerQuery)) {
+          return false;
+        }
       }
     }
 

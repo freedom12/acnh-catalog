@@ -35,6 +35,7 @@ const handleClick = () => {
           :src="getConstructionTypeIcon(props.data.type)"
           :alt="getConstructionTypeName(props.data.type)"
           class="inline-icon gray"
+          loading="lazy"
         />
       </span>
     </div>

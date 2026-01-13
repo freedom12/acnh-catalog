@@ -22,7 +22,7 @@ export function useItemsData() {
     if (loadingPromise) {
       return loadingPromise;
     }
-    
+
     loadingPromise = (async () => {
       try {
         loading.value = true;
@@ -40,6 +40,11 @@ export function useItemsData() {
         });
         allItems.value.forEach((item) => {
           itemIdMap.value[item.id] = item;
+          item.variantGroups.forEach((group) => {
+            group.patterns.forEach((pattern) => {
+              itemIdMap.value[pattern.id] = item;
+            });
+          });
         });
         isDataLoaded = true;
       } catch (err) {
@@ -50,7 +55,7 @@ export function useItemsData() {
         loading.value = false;
       }
     })();
-    
+
     return loadingPromise;
   };
 

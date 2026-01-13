@@ -413,6 +413,17 @@ export class ItemModel {
     }
     return parts.join(' - ');
   }
+
+  getPatternById(id: number): Pattern | null {
+    for (const variantGroup of this.variantGroups) {
+      for (const pattern of variantGroup.patterns) {
+        if (pattern.id === id) {
+          return pattern;
+        }
+      }
+    }
+    return null;
+  }
   // ============ 工具方法 ============
 
   /**
@@ -564,5 +575,3 @@ export class ItemModel {
     return 0;
   }
 }
-
-

@@ -66,6 +66,7 @@
                 :src="option.icon"
                 :alt="option.label"
                 class="inline-icon"
+                loading="lazy"
               />
               <span>{{ option.label }}</span>
             </button>

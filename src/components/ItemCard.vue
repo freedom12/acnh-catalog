@@ -83,12 +83,15 @@ const handleClick = () => {
           :src="getItemTypeIcon(itemModel.type)"
           :alt="itemModel.typeName"
           :title="itemModel.typeName"
-          class="inline-icon gray" />
+          class="inline-icon gray"
+          loading="lazy"
+        />
         <template v-if="itemModel.subtype">
           -
           <img
             :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
             class="inline-icon gray"
+            loading="lazy"
           /> </template
       ></span>
     </div>
@@ -172,6 +175,7 @@ const handleClick = () => {
           :alt="itemModel.typeName"
           :title="itemModel.typeName"
           class="inline-icon"
+          loading="lazy"
         />
         {{ itemModel.vTitleName }} - {{ itemModel.currentVariant?.name }}
       </span>
@@ -199,6 +203,7 @@ const handleClick = () => {
           :alt="itemModel.typeName"
           :title="itemModel.typeName"
           class="inline-icon"
+          loading="lazy"
         />
         {{ itemModel.pTitleName }} - {{ itemModel.currentPattern?.name }}
       </span>

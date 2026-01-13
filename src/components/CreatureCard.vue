@@ -98,6 +98,7 @@ const variant = computed(() => {
           :src="getCreatureTypeIcon(props.data.type)"
           :alt="getCreatureTypeName(props.data.type)"
           class="inline-icon gray"
+          loading="lazy"
         />
       </span>
     </div>

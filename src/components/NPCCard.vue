@@ -49,6 +49,7 @@ const handleImageIndexChanged = (index: number) => {
           :src="getGenderIcon(props.data.gender)"
           :alt="getGenderName(props.data.gender)"
           class="inline-icon"
+          loading="lazy"
         />
         {{ props.data.id }}
       </span>
@@ -62,6 +63,7 @@ const handleImageIndexChanged = (index: number) => {
           :src="getConstellationIcon(getConstellation(props.data.birthday))"
           :alt="getConstellationName(getConstellation(props.data.birthday))"
           :title="getConstellationName(getConstellation(props.data.birthday))"
+          loading="lazy"
         />
       </span>
     </span>
