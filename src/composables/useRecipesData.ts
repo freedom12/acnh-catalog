@@ -6,6 +6,7 @@ const allRecipes = ref<Recipe[]>([]);
 const recipeIdMap = ref<Record<number, Recipe>>({});
 const loading = ref(false);
 const error = ref('');
+let loadingPromise: Promise<void> | null = null;
 let isDataLoaded = false;
 
 export function useRecipesData() {
@@ -13,21 +14,28 @@ export function useRecipesData() {
     if (isDataLoaded) {
       return;
     }
-    try {
-      loading.value = true;
-      error.value = '';
-      allRecipes.value = await loadRecipesData();
-      recipeIdMap.value = {};
-      allRecipes.value.forEach((recipe) => {
-        recipeIdMap.value[recipe.id] = recipe;
-      });
-      isDataLoaded = true;
-    } catch (e) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', e);
-    } finally {
-      loading.value = false;
+    if (loadingPromise) {
+      return loadingPromise;
     }
+    loadingPromise = (async () => {
+      try {
+        loading.value = true;
+        error.value = '';
+        allRecipes.value = await loadRecipesData();
+        recipeIdMap.value = {};
+        allRecipes.value.forEach((recipe) => {
+          recipeIdMap.value[recipe.id] = recipe;
+        });
+        isDataLoaded = true;
+      } catch (e) {
+        error.value = '加载数据失败';
+        console.error('加载数据失败:', e);
+        loadingPromise = null;
+      } finally {
+        loading.value = false;
+      }
+    })();
+    return loadingPromise;
   };
 
   return {

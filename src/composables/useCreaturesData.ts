@@ -6,23 +6,31 @@ const allCreatures = ref<Creature[]>([]);
 const loading = ref(false);
 const error = ref('');
 let isDataLoaded = false;
+let loadingPromise: Promise<void> | null = null;
 
 export function useCreaturesData() {
   const loadData = async (): Promise<void> => {
     if (isDataLoaded) {
       return;
     }
-    try {
-      loading.value = true;
-      error.value = '';
-      allCreatures.value = await loadCreaturesData();
-      isDataLoaded = true;
-    } catch (err) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', err);
-    } finally {
-      loading.value = false;
+    if (loadingPromise) {
+      return loadingPromise;
     }
+    loadingPromise = (async () => {
+      try {
+        loading.value = true;
+        error.value = '';
+        allCreatures.value = await loadCreaturesData();
+        isDataLoaded = true;
+      } catch (err) {
+        error.value = '加载数据失败';
+        console.error('加载数据失败:', err);
+        loadingPromise = null;
+      } finally {
+        loading.value = false;
+      }
+    })();
+    return loadingPromise;
   };
 
   return {

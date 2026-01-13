@@ -11,36 +11,47 @@ const itemIdMap = ref<Record<number, ItemModel>>({});
 const loading = ref(true);
 const error = ref('');
 let isDataLoaded = false;
+let loadingPromise: Promise<void> | null = null;
 
 export function useItemsData() {
   const loadData = async (): Promise<void> => {
     if (isDataLoaded) {
       return;
     }
-    try {
-      loading.value = true;
-      error.value = '';
-      const [, acnhItems, ownedIds] = await Promise.all([
-        loadTranslations(),
-        loadItemsData(),
-        loadCatalogData(),
-      ]);
-
-      allItems.value = acnhItems.map((item) => {
-        const model = new ItemModel(item);
-        model.owned = ownedIds.has(item.id);
-        return model;
-      });
-      allItems.value.forEach((item) => {
-        itemIdMap.value[item.id] = item;
-      });
-      isDataLoaded = true;
-    } catch (err) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', err);
-    } finally {
-      loading.value = false;
+    // 如果正在加载中，返回现有的 Promise
+    if (loadingPromise) {
+      return loadingPromise;
     }
+    
+    loadingPromise = (async () => {
+      try {
+        loading.value = true;
+        error.value = '';
+        const [, acnhItems, ownedIds] = await Promise.all([
+          loadTranslations(),
+          loadItemsData(),
+          loadCatalogData(),
+        ]);
+
+        allItems.value = acnhItems.map((item) => {
+          const model = new ItemModel(item);
+          model.owned = ownedIds.has(item.id);
+          return model;
+        });
+        allItems.value.forEach((item) => {
+          itemIdMap.value[item.id] = item;
+        });
+        isDataLoaded = true;
+      } catch (err) {
+        error.value = '加载数据失败';
+        console.error('加载数据失败:', err);
+        loadingPromise = null; // 失败时重置，允许重试
+      } finally {
+        loading.value = false;
+      }
+    })();
+    
+    return loadingPromise;
   };
 
   /**
