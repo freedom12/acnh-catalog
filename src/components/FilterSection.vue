@@ -126,13 +126,7 @@ const emit = defineEmits<{
   ];
 }>();
 
-const STORAGE_KEY = 'filter-section-expanded';
-const getStoredExpanded = (): boolean => {
-  if (typeof localStorage === 'undefined') return false;
-  return localStorage.getItem(STORAGE_KEY) === '1';
-};
-
-const isExpanded = ref(getStoredExpanded());
+const isExpanded = ref(false);
 
 const searchQuery = ref('');
 const debouncedSearchQuery = useDebounce(searchQuery, 300);
@@ -205,12 +199,6 @@ const getSelectedValue = (dimension: string): FilterOptionValue => {
 const toggle = () => {
   isExpanded.value = !isExpanded.value;
 };
-
-watch(isExpanded, (val) => {
-  if (typeof localStorage !== 'undefined') {
-    localStorage.setItem(STORAGE_KEY, val ? '1' : '0');
-  }
-});
 
 const handleSearch = (query: string) => {
   searchQuery.value = query;
