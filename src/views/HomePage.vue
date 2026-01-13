@@ -7,6 +7,10 @@ import ViewSelector from '../components/ViewSelector.vue';
     <ViewSelector />
 
     <!-- 通过路由显示对应视图 -->
-    <RouterView />
+    <RouterView v-slot="{ Component , route}">
+      <KeepAlive>
+        <component :is="Component" :key="route.fullPath" />
+      </KeepAlive>
+    </RouterView>
   </div>
 </template>
