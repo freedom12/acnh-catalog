@@ -4,7 +4,7 @@ import { useItemsData } from '../composables/useItemsData';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import FilterSection, { type Filter } from '../components/FilterSection.vue';
-import ItemCard from '../components/ItemCard.vue';
+import ClothingCard from '../components/ClothingCard.vue';
 import CatalogUploader from '../components/CatalogUploader.vue';
 import {
   getItemTypeName,
@@ -12,22 +12,19 @@ import {
   getSizeName,
   getColorName,
   getSourceName,
-  getHHASeriesName,
-  getHHAConceptName,
-  getHHASetName,
-  getHHACategoryName,
-  getTagName,
+  getClothingThemeName,
+  getClothingStyleName,
 } from '../services/dataService';
-import { ItemType, Version, ItemSize, Color, getItemTagOrder, ClothingTypes } from '../types/item';
+import { ItemType, Version, ItemSize, Color, ClothingTypes } from '../types/item';
 
 const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
 
 const filters = computed<Filter[]>(() => {
   const itemsArray = allItems.value;
 
-  // 类型选项
+  // 类型选项 - 只显示服饰类型
   const typesOptions = Object.values(ItemType)
-    .filter((type) => ClothingTypes.indexOf(type) === -1)
+    .filter((type) => ClothingTypes.indexOf(type) !== -1)
     .map((type) => ({
       value: type,
       label: getItemTypeName(type),
@@ -58,31 +55,15 @@ const filters = computed<Filter[]>(() => {
   }));
 
   const sourcesSet = new Set<string>();
-  const seriesSet = new Set<string>();
-  const conceptsSet = new Set<string>();
-  const setsSet = new Set<string>();
-  const categoriesSet = new Set<string>();
-  const tagsSet = new Set<string>();
+  const themesSet = new Set<string>();
+  const stylesSet = new Set<string>();
   itemsArray.forEach((item) => {
     // 收集来源
     item.sources.forEach((s) => sourcesSet.add(s));
-
-    // 收集 HHA 主题
-    if (item.hhaSeries) seriesSet.add(item.hhaSeries);
-
-    // 收集 HHA 场景
-    item.hhaConcepts.forEach((concept) => conceptsSet.add(concept));
-
-    // 收集 HHA 套组
-    if (item.hhaSet) setsSet.add(item.hhaSet);
-
-    // 收集 HHA 分类
-    if (item.hhaCategory) categoriesSet.add(item.hhaCategory);
-
-    // 收集标签
-    if (import.meta.env.DEV && item.tag) {
-      tagsSet.add(item.tag);
-    }
+    // 收集服饰主题
+    item.clothingThemes.forEach((theme) => themesSet.add(theme));
+    // 收集服饰风格
+    item.clothingStyles.forEach((style) => stylesSet.add(style));
   });
 
   // 来源选项
@@ -93,35 +74,19 @@ const filters = computed<Filter[]>(() => {
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
-  // HHA主题选项
-  const seriesOptions = [...seriesSet]
-    .map((ser) => ({
-      value: ser,
-      label: getHHASeriesName(ser),
+  // 服饰主题选项
+  const themesOptions = [...themesSet]
+    .map((theme) => ({
+      value: theme,
+      label: getClothingThemeName(theme),
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
-  // HHA场景选项
-  const conceptsOptions = [...conceptsSet]
-    .map((concept) => ({
-      value: concept,
-      label: getHHAConceptName(concept),
-    }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
-
-  // HHA套组选项
-  const setsOptions = [...setsSet]
-    .map((set) => ({
-      value: set,
-      label: getHHASetName(set),
-    }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
-
-  // HHA分类选项
-  const categoriesOptions = [...categoriesSet]
-    .map((category) => ({
-      value: category,
-      label: getHHACategoryName(category),
+  // 服饰风格选项
+  const stylesOptions = [...stylesSet]
+    .map((style) => ({
+      value: style,
+      label: getClothingStyleName(style),
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
@@ -132,36 +97,16 @@ const filters = computed<Filter[]>(() => {
     { label: '尺寸', value: 'size', options: sizesOptions },
     { label: '颜色', value: 'color', options: colorsOptions },
     { label: '来源', value: 'source', options: sourcesOptions },
-    { label: 'HHA主题', value: 'series', options: seriesOptions },
-    { label: 'HHA场景', value: 'concept', options: conceptsOptions },
-    { label: 'HHA套组', value: 'set', options: setsOptions },
-    { label: 'HHA分类', value: 'category', options: categoriesOptions }
+    { label: '服饰主题', value: 'theme', options: themesOptions },
+    { label: '服饰风格', value: 'style', options: stylesOptions },
   ];
-
-  if (import.meta.env.DEV) {
-    // 标签选项
-    const tagsOptions = [...tagsSet]
-      .map((tag) => ({
-        value: tag,
-        label: tag + ' - ' + getTagName(tag),
-      }))
-      .sort((a, b) => {
-        const order1 = getItemTagOrder(a.value);
-        const order2 = getItemTagOrder(b.value);
-        if (order1 !== order2) {
-          return order1 - order2;
-        }
-        return a.label.localeCompare(b.label, 'zh-CN');
-      });
-    filtersList.push({ label: '标签', value: 'tag', options: tagsOptions });
-  }
   return filtersList;
 });
 
 const { filteredData, handleFiltersChanged } = useFilter(
   allItems,
   (item, searchQuery, selectedFilters) => {
-    if (item.isClothing) {
+    if (!item.isClothing) {
       return false;
     }
     // 搜索筛选
@@ -213,29 +158,14 @@ const { filteredData, handleFiltersChanged } = useFilter(
       if (!item.matchesSource(selectedFilters.source as string)) return false;
     }
 
-    // 标签筛选
-    if (selectedFilters.tag) {
-      if (!item.matchesTag(selectedFilters.tag as string)) return false;
+    // 服饰主题筛选
+    if (selectedFilters.theme) {
+      if (!item.matchesTheme(selectedFilters.theme as string)) return false;
     }
 
-    // HHA主题筛选
-    if (selectedFilters.series) {
-      if (!item.matchesSeries(selectedFilters.series as string)) return false;
-    }
-
-    // HHA场景筛选
-    if (selectedFilters.concept) {
-      if (!item.matchesConcept(selectedFilters.concept as string)) return false;
-    }
-
-    // HHA套组筛选
-    if (selectedFilters.set) {
-      if (!item.matchesSet(selectedFilters.set as string)) return false;
-    }
-
-    // HHA分类筛选
-    if (selectedFilters.category) {
-      if (!item.matchesCategory(selectedFilters.category as string)) return false;
+    // 服饰风格筛选
+    if (selectedFilters.style) {
+      if (!item.matchesStyle(selectedFilters.style as string)) return false;
     }
 
     return true;
@@ -268,7 +198,7 @@ const sortedItems = computed(() => {
 
 // 计算拥有的物品数量
 const ownedItemsCount = computed(
-  () => allItems.value.filter((item) => item.owned).length
+  () => allItems.value.filter((item) => item.owned && item.isClothing).length
 );
 
 // 处理目录文件上传
@@ -286,12 +216,12 @@ const handleCatalogUpload = (data: {
     :on-load="loadData"
     :datas="sortedItems"
     :per-page="100"
-    :card-component="ItemCard"
+    :card-component="ClothingCard"
   >
     <template #filters>
       <FilterSection
         :filters="filters"
-        :total-count="allItems.length"
+        :total-count="allItems.filter(item => item.isClothing).length"
         :current-count="filteredData.length"
         :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
         @filters-changed="handleFiltersChanged"

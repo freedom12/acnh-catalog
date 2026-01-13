@@ -12,6 +12,7 @@ const route = useRoute();
 
 const views: ViewItem[] = [
   { path: '/items', label: '物品', icon: ENTITY_ICONS.ITEMS },
+  { path: '/clothing', label: '服饰', icon: ENTITY_ICONS.CLOTHING },
   { path: '/recipes', label: '配方', icon: ENTITY_ICONS.RECIPES },
   { path: '/villagers', label: '村民', icon: ENTITY_ICONS.VILLAGERS },
   { path: '/npcs', label: '角色', icon: ENTITY_ICONS.NPCS },

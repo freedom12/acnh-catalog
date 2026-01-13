@@ -25,6 +25,7 @@ export const DATA_LOADING = {
  */
 export const ENTITY_ICONS = {
   ITEMS: '🪑',
+  CLOTHING: '👕',
   VILLAGERS: '🐾',
   NPCS: '✨',
   CREATURES: '🦋',

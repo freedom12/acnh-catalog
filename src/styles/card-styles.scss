@@ -105,6 +105,12 @@
     --base-color: #ffebee;
   }
 
+  &--pink {
+    --shadow-color: rgb(233, 30, 99, 0.2);
+    --main-color: #e91e63;
+    --base-color: #fce4ec;
+  }
+
   /* ==================== 闪光效果 ==================== */
   &--shiny {
     position: relative;
