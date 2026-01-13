@@ -6,7 +6,6 @@ import {
   getItemTypeIcon,
   getItemSubtypeIcon,
   getSizeIcon,
-  getSizeName,
 } from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
@@ -170,8 +169,6 @@ const handleClick = () => {
       <span class="variants-label">
         <img
           :src="getImgUrl('img/icon/icon_cus_v.png')"
-          :alt="itemModel.typeName"
-          :title="itemModel.typeName"
           class="inline-icon"
           loading="lazy"
         />
@@ -197,8 +194,6 @@ const handleClick = () => {
       <span v-if="itemModel.hasPatterns" class="variants-label">
         <img
           :src="getImgUrl('img/icon/icon_cus_p.png')"
-          :alt="itemModel.typeName"
-          :title="itemModel.typeName"
           class="inline-icon"
           loading="lazy"
         />

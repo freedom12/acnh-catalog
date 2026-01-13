@@ -55,6 +55,12 @@ export const ClothingTypes: ItemType[] = [
   ItemType.ClothingOther,
 ];
 
+export const InteriorTypes: ItemType[] = [
+  ItemType.Wallpaper,
+  ItemType.Floors,
+  ItemType.Rugs,
+];
+
 export const MuseumTypes: ItemType[] = [
   ItemType.Creature,
   ItemType.Fossils,
