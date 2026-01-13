@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from 'vue';
 import { joinArray } from '../utils/common';
-import { getImgUrl, getItemTypeIcon, getItemSubtypeIcon } from '../services/dataService';
+import {
+  getImgUrl,
+  getItemTypeIcon,
+  getItemSubtypeIcon,
+  getSizeIcon,
+  getSizeName,
+} from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
 import ColorBlock from './ColorBlock.vue';
@@ -73,7 +79,13 @@ const handleClick = () => {
     @click="handleClick"
   >
     <div class="detail-row detail-center">
-      <span class="detail-label"> ID: {{ displayId }} - {{ itemModel.sizeName }} - </span>
+      <span class="detail-label"> ID: {{ displayId }} </span>
+      <img
+        v-if="itemModel.size"
+        :src="getSizeIcon(itemModel.size)"
+        :title="itemModel.sizeName"
+        class="inline-icon"
+      />
       <ColorBlock :colors="displayColors" :size="16" />
     </div>
     <div class="detail-row">

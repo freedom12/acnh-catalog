@@ -141,14 +141,6 @@ export const CurrencyNameMap: Record<Currency, string> = {
 };
 
 export const getImgUrl = (path: string) => {
-  // const isDev = !/.js$/.test(import.meta.url);
-  // if (isDev) {
-  // return `${location.origin}${BASE_PATH}${path}`;
-  // } else {
-  //   const url = new URL(path, import.meta.url);
-  //   console.log(path, 111, import.meta, 222, url);
-  //   return url.href;
-  // }
   return `${location.origin}${BASE_PATH}${path}`;
 };
 
@@ -181,7 +173,7 @@ export function getPriceWithIcon(price: Price | null | undefined): string {
   const icon = getCurrencyIcon(currency);
   return `${amount.toLocaleString()} <img src="${icon}" alt="${getCurrencyName(
     currency
-  )}" class="inline-icon" />`;
+  )}" title="${getCurrencyName(currency)}" class="inline-icon" />`;
 }
 
 export function getKitTypeIcon(kitType: KitType): string {
@@ -193,12 +185,21 @@ export function getKitTypeIcon(kitType: KitType): string {
   return iconMap[kitType];
 }
 
+export function getKitTypeName(kitType: KitType): string {
+  const nameMap: Record<KitType, string> = {
+    [KitType.Normal]: '改造工具组',
+    [KitType.Pumpkin]: '南瓜',
+    [KitType.RainbowFeather]: '彩虹羽毛',
+  };
+  return nameMap[kitType];
+}
+
 export function getCusCost(cusCost: CusCost | null | undefined): string {
   if (!cusCost) return '';
   let [kitCost, kitType] = cusCost;
   if (kitCost <= 0) return '';
   const icon = getKitTypeIcon(kitType);
-  return `${kitCost.toLocaleString()} <img src="${icon}" class="inline-icon" />`;
+  return `${kitCost.toLocaleString()} <img src="${icon}" title="${getKitTypeName(kitType)}" class="inline-icon" />`;
 }
 
 export function getItemTypeName(type: ItemType): string {
@@ -211,6 +212,28 @@ export function getVersionName(ver: Version): string {
 
 export function getSizeName(size: ItemSize): string {
   return itemSizeNameMap[size];
+}
+
+export function getSizeIcon(size: ItemSize): string {
+  const iconMap: Record<ItemSize, string> = {
+    [ItemSize.The05X1]: 'Size_0.5_x_1.0.png',
+    [ItemSize.The1X05]: 'Size_1.0_x_0.5.png',
+    [ItemSize.The1X1]: 'Size_1.0_x_1.0.png',
+    [ItemSize.The1X15]: 'Size_1.0_x_1.5.png',
+    [ItemSize.The1X2]: 'Size_1.0_x_2.0.png',
+    [ItemSize.The15X15]: 'Size_1.5_x_1.5.png',
+    [ItemSize.The2X05]: 'Size_2.0_x_0.5.png',
+    [ItemSize.The2X1]: 'Size_2.0_x_1.0.png',
+    [ItemSize.The2X15]: 'Size_2.0_x_1.5.png',
+    [ItemSize.The2X2]: 'Size_2.0_x_2.0.png',
+    [ItemSize.The3X1]: 'Size_3.0_x_1.0.png',
+    [ItemSize.The3X2]: 'Size_3.0_x_2.0.png',
+    [ItemSize.The3X3]: 'Size_3.0_x_3.0.png',
+    [ItemSize.The4X3]: 'Size_4.0_x_3.0.png',
+    [ItemSize.The4X4]: 'Size_4.0_x_4.0.png',
+    [ItemSize.The5X5]: 'Size_5.0_x_5.0.png',
+  };
+  return getImgUrl(`img/icon/size/${iconMap[size]}`);
 }
 
 export function getColorName(color: Color | string): string {

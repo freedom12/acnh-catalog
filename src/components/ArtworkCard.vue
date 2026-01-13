@@ -3,6 +3,7 @@ import {
   getPriceWithIcon,
   getItemTypeName,
   itemSizeNameMap,
+  getSizeIcon,
 } from '../services/dataService';
 import type { Artwork } from '../types/artwork';
 import BaseCard from './BaseCard.vue';
@@ -120,7 +121,10 @@ const handleTitleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">尺寸</span>
-      <span class="detail-value">{{ itemSizeNameMap[props.data.size] }}</span>
+      <span class="detail-value">
+        {{ itemSizeNameMap[props.data.size] }}
+        <img :src="getSizeIcon(props.data.size)" class="inline-icon" />
+      </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
