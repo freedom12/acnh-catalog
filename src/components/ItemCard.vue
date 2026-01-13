@@ -206,10 +206,7 @@ const handleClick = () => {
           {{ pIdx + 1 }}
         </span>
       </div>
-      <div
-        class="detail-row"
-        style="border: 2px #ffea9e solid; background: #fff9e6"
-      >
+      <div class="detail-row" style="border: 2px #ffea9e solid; background: #fff9e6">
         <span class="detail-label">花费</span>
         <span class="detail-value">
           <div v-for="(str, index) in displayCusCostStrs" :key="index" v-html="str"></div>

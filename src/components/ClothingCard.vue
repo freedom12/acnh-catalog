@@ -68,7 +68,7 @@ const handleClick = () => {
     @click="handleClick"
   >
     <div class="detail-row detail-center">
-      <span class="detail-label"> ID: {{ displayId }} - {{ itemModel.sizeName }} - </span>
+      <span class="detail-label"> ID: {{ displayId }} </span>
       <ColorBlock :colors="displayColors" :size="16" />
     </div>
     <div class="detail-row">
@@ -82,6 +82,10 @@ const handleClick = () => {
           loading="lazy"
         />
       </span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">HHA分数</span>
+      <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>
     </div>
     <div class="detail-row">
       <span class="detail-label">服饰风格</span>

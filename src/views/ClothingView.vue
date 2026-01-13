@@ -9,15 +9,21 @@ import CatalogUploader from '../components/CatalogUploader.vue';
 import {
   getItemTypeName,
   getVersionName,
-  getSizeName,
   getColorName,
   getSourceName,
   getClothingThemeName,
   getClothingStyleName,
 } from '../services/dataService';
-import { ItemType, Version, ItemSize, Color, ClothingTypes } from '../types/item';
+import { ItemType, Version, Color, ClothingTypes } from '../types/item';
 
-const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
+const {
+  allItems: _allItems,
+  loading,
+  error,
+  loadData,
+  updateCatalogData,
+} = useItemsData();
+const allItems = computed(() => _allItems.value.filter((item) => item.isClothing));
 
 const filters = computed<Filter[]>(() => {
   const itemsArray = allItems.value;
@@ -40,12 +46,6 @@ const filters = computed<Filter[]>(() => {
   const versionsOptions = Object.values(Version).map((version) => ({
     value: version,
     label: getVersionName(version),
-  }));
-
-  // 尺寸选项
-  const sizesOptions = Object.values(ItemSize).map((size) => ({
-    value: size,
-    label: getSizeName(size),
   }));
 
   // 颜色选项
@@ -94,7 +94,6 @@ const filters = computed<Filter[]>(() => {
     { label: '分类', value: 'type', options: typesOptions },
     { label: '拥有状态', value: 'owned', options: ownedOptions },
     { label: '版本', value: 'version', options: versionsOptions },
-    { label: '尺寸', value: 'size', options: sizesOptions },
     { label: '颜色', value: 'color', options: colorsOptions },
     { label: '来源', value: 'source', options: sourcesOptions },
     { label: '服饰主题', value: 'theme', options: themesOptions },
@@ -106,9 +105,6 @@ const filters = computed<Filter[]>(() => {
 const { filteredData, handleFiltersChanged } = useFilter(
   allItems,
   (item, searchQuery, selectedFilters) => {
-    if (!item.isClothing) {
-      return false;
-    }
     // 搜索筛选
     if (searchQuery) {
       if (searchQuery.startsWith('#')) {
@@ -136,11 +132,6 @@ const { filteredData, handleFiltersChanged } = useFilter(
     // 版本筛选
     if (selectedFilters.version) {
       if (!item.matchesVersion(selectedFilters.version as Version)) return false;
-    }
-
-    // 尺寸筛选
-    if (selectedFilters.size) {
-      if (!item.matchesSize(selectedFilters.size as ItemSize)) return false;
     }
 
     // 颜色筛选 - 使用matchesColor并切换到匹配的变体
@@ -178,15 +169,6 @@ const sortedItems = computed(() => {
     const typeDiff = a.type - b.type;
     if (typeDiff !== 0) return typeDiff;
 
-    const subtypeDiff = a.subtype - b.subtype;
-    if (subtypeDiff !== 0) return subtypeDiff;
-
-    const orderDiff = a.order - b.order;
-    if (orderDiff !== 0) return orderDiff;
-
-    const tagOrderDiff = a.tagOrder - b.tagOrder;
-    if (tagOrderDiff !== 0) return tagOrderDiff;
-
     const nameDiff = a.name.localeCompare(b.name, 'zh-CN');
     if (nameDiff !== 0) return nameDiff;
 
@@ -198,7 +180,7 @@ const sortedItems = computed(() => {
 
 // 计算拥有的物品数量
 const ownedItemsCount = computed(
-  () => allItems.value.filter((item) => item.owned && item.isClothing).length
+  () => allItems.value.filter((item) => item.owned).length
 );
 
 // 处理目录文件上传
@@ -221,7 +203,7 @@ const handleCatalogUpload = (data: {
     <template #filters>
       <FilterSection
         :filters="filters"
-        :total-count="allItems.filter(item => item.isClothing).length"
+        :total-count="allItems.length"
         :current-count="filteredData.length"
         :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
         @filters-changed="handleFiltersChanged"

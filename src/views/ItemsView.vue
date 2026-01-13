@@ -18,10 +18,23 @@ import {
   getHHACategoryName,
   getTagName,
 } from '../services/dataService';
-import { ItemType, Version, ItemSize, Color, getItemTagOrder, ClothingTypes } from '../types/item';
+import {
+  ItemType,
+  Version,
+  ItemSize,
+  Color,
+  getItemTagOrder,
+  ClothingTypes,
+} from '../types/item';
 
-const { allItems, loading, error, loadData, updateCatalogData } = useItemsData();
-
+const {
+  allItems: _allItems,
+  loading,
+  error,
+  loadData,
+  updateCatalogData,
+} = useItemsData();
+const allItems = computed(() => _allItems.value.filter((item) => !item.isClothing));
 const filters = computed<Filter[]>(() => {
   const itemsArray = allItems.value;
 
@@ -135,7 +148,7 @@ const filters = computed<Filter[]>(() => {
     { label: 'HHA主题', value: 'series', options: seriesOptions },
     { label: 'HHA场景', value: 'concept', options: conceptsOptions },
     { label: 'HHA套组', value: 'set', options: setsOptions },
-    { label: 'HHA分类', value: 'category', options: categoriesOptions }
+    { label: 'HHA分类', value: 'category', options: categoriesOptions },
   ];
 
   if (import.meta.env.DEV) {
@@ -161,9 +174,6 @@ const filters = computed<Filter[]>(() => {
 const { filteredData, handleFiltersChanged } = useFilter(
   allItems,
   (item, searchQuery, selectedFilters) => {
-    if (item.isClothing) {
-      return false;
-    }
     // 搜索筛选
     if (searchQuery) {
       if (searchQuery.startsWith('#')) {
