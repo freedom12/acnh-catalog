@@ -963,9 +963,7 @@ newConstructions.sort((a, b) => {
 });
 
 let newAchievements: NewAchievement[] = [];
-let index = 0;
 for (const oldAchievement of oldAchievements) {
-  index += 1;
   let tiers: Tier[] = [];
   let oldTiers = oldAchievement.tiers;
   for (let i = 1; i <= Number(oldAchievement.numOfTiers); i++) {
@@ -980,7 +978,7 @@ for (const oldAchievement of oldAchievements) {
   }
   const newAchievement: NewAchievement = {
     id: Number(oldAchievement.internalId),
-    order: index,
+    order: oldAchievement.num,
     name: oldAchievement.name,
     rawName: oldAchievement.internalName,
     type: oldAchievement.internalCategory,
@@ -993,6 +991,7 @@ for (const oldAchievement of oldAchievements) {
   newAchievements.push(newAchievement);
 }
 newAchievements.sort((a, b) => a.order - b.order);
+
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, 'acnh-items.json'),

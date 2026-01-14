@@ -1,36 +1,7 @@
 [
   {
-    "id": 86,
-    "order": 1,
-    "name": "(island name) Icons",
-    "rawName": "ChangeSymbol",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "At Resident Services, we want new ideas for the island flag and island tune. We have Nook Miles in store for those creative types who can redesign and rewrite! It's good to take pride in our island symbols.",
-    "criteria": "Awarded for changing your island flag and town tune for the first time.",
-    "isSeq": false,
-    "tiers": [
-      {
-        "num": 0,
-        "reward": 500,
-        "modifier": "Flapping",
-        "nouns": [
-          "Flag Waver"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 500,
-        "modifier": "Humming",
-        "nouns": [
-          "Musician"
-        ]
-      }
-    ]
-  },
-  {
     "id": 53,
-    "order": 2,
+    "order": 1,
     "name": "(island name) Miles!",
     "rawName": "ImmigratetoIsland",
     "type": "Event",
@@ -50,61 +21,8 @@
     ]
   },
   {
-    "id": 21,
-    "order": 3,
-    "name": "Active Island Resident",
-    "rawName": "DayPlayed",
-    "type": "Event",
-    "ver": 1,
-    "desc": "Life on the island has lots of promise, hm? To illustrate this, I'll award you some Nook Miles based on the number of active days you've spent here. Please take them and enjoy them.",
-    "criteria": "Number of total unique days you've played the game",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 3,
-        "reward": 300,
-        "modifier": "Self-Paced",
-        "nouns": [
-          "Chill Soul"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Active",
-        "nouns": [
-          "Specialist"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Sleepless",
-        "nouns": [
-          "Adventurer"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Nicknamed",
-        "nouns": [
-          "Gamer"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 3000,
-        "modifier": "Ready-Made",
-        "nouns": [
-          "MVP"
-        ]
-      }
-    ]
-  },
-  {
     "id": 0,
-    "order": 4,
+    "order": 2,
     "name": "Angling for Perfection!",
     "rawName": "CatchFish",
     "type": "Fish",
@@ -157,164 +75,168 @@
     ]
   },
   {
-    "id": 11,
-    "order": 5,
-    "name": "Bell Ringer",
-    "rawName": "HowmuchBuyItem",
-    "type": "Money",
+    "id": 3,
+    "order": 3,
+    "name": "Island Ichthyologist",
+    "rawName": "FillFishList",
+    "type": "Fish",
     "ver": 1,
-    "desc": "Spending your Bells on the island helps revitalize the local economy, yes, yes! I'll reward you with miles based on how many Bells you've spent.",
-    "criteria": "Number of total bells you've spent in shops",
+    "desc": "Fill in your Critterpedia with fish and earn miles along the way. Can you categorize each and every type of fish that swims in your island's waters, hm?",
+    "criteria": "Collect a specified number of unique fish",
     "isSeq": true,
     "tiers": [
       {
-        "num": 5000,
+        "num": 10,
         "reward": 300,
-        "modifier": "Invested",
+        "modifier": "Small-Fry",
         "nouns": [
-          "Shopaholic"
+          "Pesca Pro"
         ]
       },
       {
-        "num": 50000,
+        "num": 20,
         "reward": 500,
-        "modifier": "Thrifty",
+        "modifier": "Energetic",
         "nouns": [
-          "Family Member"
+          "Angler"
         ]
       },
       {
-        "num": 500000,
+        "num": 40,
         "reward": 1000,
-        "modifier": "Covetous",
+        "modifier": "Pond-Raised",
         "nouns": [
-          "Personality"
+          "Tropical Fish"
         ]
       },
       {
-        "num": 2000000,
+        "num": 60,
         "reward": 2000,
-        "modifier": "Wasteful",
+        "modifier": "Hooked",
         "nouns": [
-          "Celebrity"
+          "Reaction"
         ]
       },
       {
-        "num": 5000000,
+        "num": 80,
         "reward": 3000,
-        "modifier": "Name-Dropping",
+        "modifier": "Pole-Fishing",
         "nouns": [
-          "VIP"
+          "Expert"
         ]
       }
     ]
   },
   {
-    "id": 47,
-    "order": 6,
-    "name": "Birthday Celebration",
-    "rawName": "CelebrateVillagersBithday",
+    "id": 68,
+    "order": 4,
+    "name": "Island Togetherness",
+    "rawName": "GreetAllVillager",
     "type": "Communication",
     "ver": 1,
-    "desc": "Celebrating the birthday of a fellow resident is a wonderful thing. Nook Inc. will commemorate your bond with some party-favor Nook Miles.",
-    "criteria": "Number of villager birthdays you've attended",
+    "desc": "One of the goals of Nook Inc. is resident togetherness. Our gregarious-greetings initiative aims to reward you with Nook Miles just for chatting with residents. Try to talk to all your neighbors every day!",
+    "criteria": "Talk to each one of your villagers every day",
     "isSeq": true,
     "tiers": [
       {
         "num": 1,
         "reward": 300,
-        "modifier": "Untamed",
+        "modifier": "Unhindered",
         "nouns": [
-          "Party Animal"
+          "Wallflower"
         ]
       },
       {
         "num": 10,
         "reward": 500,
-        "modifier": "Growing",
+        "modifier": "Unabashedly",
         "nouns": [
-          "Youth"
+          "Shy Kid"
         ]
       },
       {
         "num": 20,
         "reward": 1000,
-        "modifier": "Grown",
+        "modifier": "Respected",
         "nouns": [
-          "Adult"
+          "One"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Ludicrously Popular",
+        "nouns": [
+          "\"It\" Guy",
+          "\"It\" Girl"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 3000,
+        "modifier": "Natural",
+        "nouns": [
+          "Heart Stealer"
         ]
       }
     ]
   },
   {
-    "id": 61,
-    "order": 7,
-    "name": "Bona Fide Bone Finder!",
-    "rawName": "DigFossil",
-    "type": "HHA",
+    "id": 1,
+    "order": 5,
+    "name": "You've Got the Bug",
+    "rawName": "CatchInsect",
+    "type": "Insect",
     "ver": 1,
-    "desc": "Congratulations on finding your first fossil! Of course, you'll need some Nook Miles to commemorate the occasion. But don't celebrate too hard. There are more fossils to dig up! Yes, yes!",
-    "criteria": "Dig up your first fossil",
+    "desc": "Earn miles just for catching creepy-crawlies! Every bug you catch is one that won't be surprising someone in their sock drawer.",
+    "criteria": "Collect a specified number of bugs",
     "isSeq": true,
     "tiers": [
       {
-        "num": 1,
+        "num": 10,
         "reward": 300,
-        "modifier": "Discovered",
+        "modifier": "Freshly Delivered",
         "nouns": [
-          "Fossil"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "order": 8,
-    "name": "Bug-Off!",
-    "rawName": "AttendInsectConvention",
-    "type": "Insect",
-    "ver": 1,
-    "desc": "What's the summer event to look forward to? That's right...the Bug-Off! Nook Inc. will give you Nook Miles for participating, so by all means, join the fun!",
-    "criteria": "Awarded the first time you attend a bug-off tourney in each season",
-    "isSeq": false,
-    "tiers": [
-      {
-        "num": 0,
-        "reward": 300,
-        "modifier": "Adolescent",
-        "nouns": [
-          "Youngster"
+          "Egg"
         ]
       },
       {
-        "num": 0,
+        "num": 100,
         "reward": 500,
-        "modifier": "Rebellious",
+        "modifier": "Weak",
         "nouns": [
-          "Rebel"
+          "Grub"
         ]
       },
       {
-        "num": 0,
+        "num": 500,
         "reward": 1000,
-        "modifier": "Solitary",
+        "modifier": "Emerging",
         "nouns": [
-          "Lone Wolf"
+          "Pupa"
         ]
       },
       {
-        "num": 0,
+        "num": 2000,
         "reward": 2000,
-        "modifier": "Standoffish",
+        "modifier": "Soaring",
         "nouns": [
-          "Individual"
+          "Butterfly"
+        ]
+      },
+      {
+        "num": 5000,
+        "reward": 3000,
+        "modifier": "Complete",
+        "nouns": [
+          "Metamorphosis"
         ]
       }
     ]
   },
   {
     "id": 4,
-    "order": 9,
+    "order": 6,
     "name": "Bugs Don't Bug Me",
     "rawName": "FillInsectList",
     "type": "Insect",
@@ -366,288 +288,223 @@
     ]
   },
   {
-    "id": 83,
-    "order": 10,
-    "name": "Bulletin-Board Benefit",
-    "rawName": "PostMessageBoard",
-    "type": "Communication",
+    "id": 55,
+    "order": 7,
+    "name": "Have a Nice DIY!",
+    "rawName": "FillRecipeList",
+    "type": "DIY",
     "ver": 1,
-    "desc": "Picture this: Getting Nook Miles from Nook Inc. the first time you write something on an island's bulletin board. Keep using bulletin boards to communicate with everyone on the island! Yes, yes!",
-    "criteria": "Awarded the first time you post a message on your town bulletin board",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Rumormongering",
-        "nouns": [
-          "Influencer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "order": 11,
-    "name": "Cast Master",
-    "rawName": "CatchFishContinuously",
-    "type": "Fish",
-    "ver": 1,
-    "desc": "Cast your line carefully if you want to reel in this reward—you'll need to nab a bunch of fish in a row without a single one getting away to earn these miles.",
-    "criteria": "Fish a specified number of fish in a single streak without any getting away",
+    "desc": "Nook Inc. will award Nook Miles for the number of DIY recipes you've collected. Think about that. You're earning...for learning! Yes, yes!",
+    "criteria": "Collect a specified number of DIY recipes",
     "isSeq": true,
     "tiers": [
       {
         "num": 10,
         "reward": 300,
-        "modifier": "Mistakenly Caught",
+        "modifier": "Trivia",
         "nouns": [
-          "Fish"
+          "Representative"
         ]
       },
       {
         "num": 50,
         "reward": 500,
-        "modifier": "Bait-Snatching",
+        "modifier": "Savvy",
         "nouns": [
-          "Frenzy"
+          "Intellectual"
         ]
       },
       {
         "num": 100,
         "reward": 1000,
-        "modifier": "Wave-Tossed",
+        "modifier": "Understated",
         "nouns": [
-          "Life-Form"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "order": 12,
-    "name": "Cicada Memories",
-    "rawName": "CatchSeminonukegara",
-    "type": "Insect",
-    "ver": 1,
-    "desc": "Ah, cicada shells in the summer. They're not really all that useful, but collecting them does help create summer memories that will last a lifetime.",
-    "criteria": "Awarded the first time you catch a cicada shell",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 1000,
-        "modifier": "Shell-Less",
-        "nouns": [
-          "Being"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "order": 13,
-    "name": "Clam and Collected",
-    "rawName": "DigShell",
-    "type": "Fish",
-    "ver": 1,
-    "desc": "Dig up clams, collect Nook Miles. It's really that simple. The real bonus here is that you get to walk along the beach for this one.",
-    "criteria": "Dig up a specified number of clams",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Tidal",
-        "nouns": [
-          "Season"
+          "Authority"
         ]
       },
       {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Ready",
-        "nouns": [
-          "Coast Dweller"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Buried",
-        "nouns": [
-          "Genius"
-        ]
-      },
-      {
-        "num": 100,
+        "num": 150,
         "reward": 2000,
-        "modifier": "Rare",
+        "modifier": "Knowledge-Thirsty",
         "nouns": [
-          "Prodigy"
+          "Sidekick"
         ]
       },
       {
         "num": 200,
         "reward": 3000,
-        "modifier": "Water's Edge",
+        "modifier": "Clever",
         "nouns": [
-          "Mermaid"
+          "Father",
+          "Mother"
         ]
       }
     ]
   },
   {
-    "id": 108,
-    "order": 14,
-    "name": "Come Home to the Roost",
-    "rawName": "DrinkCoffee",
-    "type": "Communication",
-    "ver": 13,
-    "desc": "The Roost, located on the second floor of the museum, is quite picky about the coffee they serve, yes, yes! Do stop in to enjoy a cup and earn some dark-roasted miles!",
-    "criteria": "Number of days you've gotten coffee from Brewster",
+    "id": 98,
+    "order": 8,
+    "name": "Deep Dive",
+    "rawName": "CatchSeafood",
+    "type": "Seafood",
+    "ver": 4,
+    "desc": "The glittering sea that surrounds our island is home to all kinds of captivating creatures. Put on your wet suit, dive in, and sea what you can collect to earn miles. Sea what I did there, hm?",
+    "criteria": "Collect a specified number of sea creatures",
     "isSeq": true,
     "tiers": [
       {
         "num": 5,
         "reward": 300,
-        "modifier": "Aromatic",
+        "modifier": "Midsummer",
         "nouns": [
-          "Beans"
+          "Swimmer"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 500,
+        "modifier": "Bodyboardin'",
+        "nouns": [
+          "Beachcomber"
+        ]
+      },
+      {
+        "num": 250,
+        "reward": 1000,
+        "modifier": "Aquatic",
+        "nouns": [
+          "Jetsam"
+        ]
+      },
+      {
+        "num": 1000,
+        "reward": 2000,
+        "modifier": "Splashy",
+        "nouns": [
+          "Winner"
+        ]
+      },
+      {
+        "num": 2500,
+        "reward": 3000,
+        "modifier": "Deep-Sea",
+        "nouns": [
+          "Monster"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "order": 9,
+    "name": "Underwater Understudy",
+    "rawName": "FillSeafoodList",
+    "type": "Seafood",
+    "ver": 4,
+    "desc": "There are still many creatures we have yet to discover at the bottom of the sea, hm? Earn miles by diving deep, capturing creatures, and filling out your Critterpedia. Yes, yes!",
+    "criteria": "Collect a specified number of unique sea creatures",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Cerulean",
+        "nouns": [
+          "Diver"
         ]
       },
       {
         "num": 10,
         "reward": 500,
-        "modifier": "Caffeinated",
+        "modifier": "Fresh",
         "nouns": [
-          "Regular"
+          "Ingredient"
         ]
       },
       {
         "num": 20,
         "reward": 1000,
-        "modifier": "Fragrant",
+        "modifier": "Surfing",
         "nouns": [
-          "Break"
+          "Pa",
+          "Ma"
         ]
       },
       {
         "num": 30,
         "reward": 2000,
-        "modifier": "Rich",
+        "modifier": "Waterlogged",
         "nouns": [
-          "Blend"
+          "Seaweed"
+        ]
+      },
+      {
+        "num": 40,
+        "reward": 3000,
+        "modifier": "Seaside",
+        "nouns": [
+          "Darling",
+          "Honey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "order": 10,
+    "name": "DIY Tools",
+    "rawName": "DIYTool",
+    "type": "DIY",
+    "ver": 1,
+    "desc": "If your tools break, just make more! And to take away the sting, you'll earn Nook Miles based on the number of tools you craft. Sweet deal!",
+    "criteria": "Craft a specified number of tools",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Creative",
+        "nouns": [
+          "Enthusiast"
         ]
       },
       {
         "num": 50,
-        "reward": 3000,
-        "modifier": "Acidic",
+        "reward": 500,
+        "modifier": "Crafty",
         "nouns": [
-          "Barista"
+          "Club Member"
         ]
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "order": 15,
-    "name": "Cornering the Stalk Market",
-    "rawName": "HowmuchSellKabu",
-    "type": "Money",
-    "ver": 1,
-    "desc": "The powers that be have been tracking your turnip transactions...and let's just say you've harvested your share of profits! Enjoy a few Nook Miles for helping contribute to the island's economy.",
-    "criteria": "Number of total bells you've profited from selling turnips",
-    "isSeq": true,
-    "tiers": [
+      },
+      {
+        "num": 200,
+        "reward": 1000,
+        "modifier": "Hip",
+        "nouns": [
+          "Virtuoso"
+        ]
+      },
       {
         "num": 1000,
-        "reward": 300,
-        "modifier": "Status-Minded",
-        "nouns": [
-          "Speculator"
-        ]
-      },
-      {
-        "num": 10000,
-        "reward": 500,
-        "modifier": "Avaricious",
-        "nouns": [
-          "Moneybags"
-        ]
-      },
-      {
-        "num": 100000,
-        "reward": 1000,
-        "modifier": "Upstart",
-        "nouns": [
-          "Trader"
-        ]
-      },
-      {
-        "num": 1000000,
         "reward": 2000,
-        "modifier": "Worldwide",
+        "modifier": "Bona Fide",
         "nouns": [
-          "Bellionaire"
+          "Technician"
         ]
       },
       {
-        "num": 10000000,
+        "num": 3000,
         "reward": 3000,
-        "modifier": "Shadowy",
+        "modifier": "Relentless",
         "nouns": [
-          "Fixer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "order": 16,
-    "name": "Countdown Celebration",
-    "rawName": "AttendCountdownParty",
-    "type": "Event",
-    "ver": 1,
-    "desc": "The only thing better than ringing in the new year is ringing in the new year with some Nook Miles! May you live to see many more—years and miles!",
-    "criteria": "Awarded for attending the new year holiday event",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 1000,
-        "modifier": "Countdown",
-        "nouns": [
-          "Merrymaker"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "order": 17,
-    "name": "Custom Design Pro!",
-    "rawName": "UseMydesignPRO",
-    "type": "MyDesign",
-    "ver": 1,
-    "desc": "You upgraded to the Pro version of the Custom Design app, hm? That makes you a fine Pro Custom Designer. Yes, yes! I'll reward you with Nook Miles to commemorate your Pro debut!",
-    "criteria": "Awarded the first time you use the Custom Design pro app to edit or create a design",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Pro",
-        "nouns": [
-          "Designer"
+          "Meister"
         ]
       }
     ]
   },
   {
     "id": 73,
-    "order": 18,
+    "order": 11,
     "name": "DIY Furniture",
     "rawName": "DIYFurniture",
     "type": "DIY",
@@ -701,449 +558,463 @@
     ]
   },
   {
-    "id": 72,
-    "order": 19,
-    "name": "DIY Tools",
-    "rawName": "DIYTool",
+    "id": 14,
+    "order": 12,
+    "name": "Furniture Freshener",
+    "rawName": "RemakeFurniture",
     "type": "DIY",
     "ver": 1,
-    "desc": "If your tools break, just make more! And to take away the sting, you'll earn Nook Miles based on the number of tools you craft. Sweet deal!",
-    "criteria": "Craft a specified number of tools",
+    "desc": "Give your furniture that personal touch and you can unlock miles. The more items you refurbish, the more miles you can get, hm?",
+    "criteria": "Customize a specified number of furniture or tools using the workbench",
     "isSeq": true,
     "tiers": [
       {
         "num": 5,
         "reward": 300,
-        "modifier": "Creative",
+        "modifier": "Unique",
         "nouns": [
-          "Enthusiast"
+          "Eccentric"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Change-It-Up",
+        "nouns": [
+          "Challenger"
         ]
       },
       {
         "num": 50,
-        "reward": 500,
-        "modifier": "Crafty",
+        "reward": 1000,
+        "modifier": "Detail-Oriented",
         "nouns": [
-          "Club Member"
+          "Engineer"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Mold-Breaking",
+        "nouns": [
+          "Modder"
         ]
       },
       {
         "num": 200,
-        "reward": 1000,
-        "modifier": "Hip",
+        "reward": 3000,
+        "modifier": "Remodeling",
         "nouns": [
-          "Virtuoso"
+          "Inspiration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "order": 13,
+    "name": "Rough-hewn",
+    "rawName": "StrikeWood",
+    "type": "DIY",
+    "ver": 1,
+    "desc": "Island development is Nook Inc.'s goal. We need a lot of materials to make that happen, so we're giving away Nook Miles based on how much wood you've chopped from trees.",
+    "criteria": "Chop a specified number of wood from trees",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 20,
+        "reward": 300,
+        "modifier": "Specific",
+        "nouns": [
+          "Producer"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 500,
+        "modifier": "Aggressive",
+        "nouns": [
+          "Problem Solver"
+        ]
+      },
+      {
+        "num": 500,
+        "reward": 1000,
+        "modifier": "Sharp",
+        "nouns": [
+          "Guard"
+        ]
+      },
+      {
+        "num": 2000,
+        "reward": 2000,
+        "modifier": "Pointy",
+        "nouns": [
+          "Tack"
+        ]
+      },
+      {
+        "num": 5000,
+        "reward": 3000,
+        "modifier": "Productive",
+        "nouns": [
+          "Superhero"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "order": 14,
+    "name": "Writing a Cookbook?",
+    "rawName": "FillCookingList",
+    "type": "Cooking",
+    "ver": 13,
+    "desc": "The recipes in your collection could stretch for miles, so allow me to present you with these...miles! Delight the eyes and stomachs of your neighbors with all your delicious creations, hm?",
+    "criteria": "Learn a specified number of cooking DIY recipes",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Ever-Improving",
+        "nouns": [
+          "Test Chef"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 1000,
+        "modifier": "Skilled",
+        "nouns": [
+          "Cook"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 2000,
+        "modifier": "Homestyle",
+        "nouns": [
+          "Chef"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "order": 15,
+    "name": "Mmm-Mmm-Miles!",
+    "rawName": "CookFood",
+    "type": "Cooking",
+    "ver": 13,
+    "desc": "Gathering ingredients and creating delicious treats is great fun, is it not? Yes, yes, I do believe our chefs out there deserve miles for all the times they've prepared something delicious!",
+    "criteria": "Cook a specified number of foods",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Scorching",
+        "nouns": [
+          "Gourmet"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 500,
+        "modifier": "Sugary",
+        "nouns": [
+          "Sweets"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 1000,
+        "modifier": "Spicy",
+        "nouns": [
+          "Head Chef"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 2000,
+        "modifier": "Gourmet",
+        "nouns": [
+          "Epicure"
+        ]
+      },
+      {
+        "num": 500,
+        "reward": 3000,
+        "modifier": "Culinary",
+        "nouns": [
+          "Glutton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "order": 16,
+    "name": "Trashed Tools",
+    "rawName": "BreakTool",
+    "type": "HHA",
+    "ver": 1,
+    "desc": "Using a tool until it breaks is proof of your hard work! In praise of your good deeds, you're getting Nook Miles based on how many tools you've broken.",
+    "criteria": "Break a specified number of tools",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Rascally",
+        "nouns": [
+          "Clown"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Overboard",
+        "nouns": [
+          "Crusher"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Rowdy",
+        "nouns": [
+          "Punk"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Rough-And-Tumble",
+        "nouns": [
+          "Meanie"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 3000,
+        "modifier": "Chaotic",
+        "nouns": [
+          "Ruiner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "order": 17,
+    "name": "Rock-Splitting Champ",
+    "rawName": "StrikeRock8Times",
+    "type": "HHA",
+    "ver": 1,
+    "desc": "You hit a single rock eight times in a row and knocked some things loose. But did you know that rock whacking is the activity that keeps on giving? Yes, yes! You're getting some Nook Miles now!",
+    "criteria": "Hit a rock with your shovel and obtain all 8 materials from that rock",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Sports-Minded",
+        "nouns": [
+          "Muscle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "order": 18,
+    "name": "Bona Fide Bone Finder!",
+    "rawName": "DigFossil",
+    "type": "HHA",
+    "ver": 1,
+    "desc": "Congratulations on finding your first fossil! Of course, you'll need some Nook Miles to commemorate the occasion. But don't celebrate too hard. There are more fossils to dig up! Yes, yes!",
+    "criteria": "Dig up your first fossil",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Discovered",
+        "nouns": [
+          "Fossil"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "order": 19,
+    "name": "Fossil Assessment",
+    "rawName": "JudgeFossil",
+    "type": "HHA",
+    "ver": 1,
+    "desc": "Yes, yes! You're getting Nook Miles based on the number of fossils you've had assessed. Dig up as many as you can and find out what they are!",
+    "criteria": "Have Blathers assess a specified number of fossils",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Anonymous",
+        "nouns": [
+          "Something Or Other"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 500,
+        "modifier": "Ancient",
+        "nouns": [
+          "Truth"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 1000,
+        "modifier": "History-Loving",
+        "nouns": [
+          "Researcher"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 2000,
+        "modifier": "Evolving",
+        "nouns": [
+          "Scatterbrain"
+        ]
+      },
+      {
+        "num": 500,
+        "reward": 3000,
+        "modifier": "Historic",
+        "nouns": [
+          "Discovery"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "order": 20,
+    "name": "Nice to Meet You, Gyroid!",
+    "rawName": "DigGyroid",
+    "type": "HHA",
+    "ver": 13,
+    "desc": "You've discovered your first gyroid! This special occasion deserves miles, yes, yes. I hope you feel inspired to collect all sorts of different, wonderful gyroids now.",
+    "criteria": "Dig up your first gyroid",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Rain-Soaked",
+        "nouns": [
+          "Gyroid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "order": 21,
+    "name": "Gyroid Getter",
+    "rawName": "FillGyroidList",
+    "type": "HHA",
+    "ver": 13,
+    "desc": "Collect different kinds of gyroids, and earn miles in return! I suspect once you experience life in their presence, you'll find it hard to resist hunting for more, hm?",
+    "criteria": "Touch specified number of unique gyroids",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Distinctive",
+        "nouns": [
+          "Curator"
+        ]
+      },
+      {
+        "num": 15,
+        "reward": 500,
+        "modifier": "Whimsical",
+        "nouns": [
+          "Statue"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Novel",
+        "nouns": [
+          "Symbol"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "order": 22,
+    "name": "Greedy Weeder",
+    "rawName": "SellWeed",
+    "type": "Plant",
+    "ver": 1,
+    "desc": "Nook Inc. salutes you for your beautification efforts. Nook Inc. rewards you with Nook Miles for selling weeds. Nook Inc. is quite generous, no?",
+    "criteria": "Sell a specified number of weeds",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 50,
+        "reward": 300,
+        "modifier": "Messy",
+        "nouns": [
+          "Lawn Clippings"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 500,
+        "modifier": "Omnivorous",
+        "nouns": [
+          "Custodian"
         ]
       },
       {
         "num": 1000,
-        "reward": 2000,
-        "modifier": "Bona Fide",
+        "reward": 1000,
+        "modifier": "Herbivorous",
         "nouns": [
-          "Technician"
+          "Sorter"
+        ]
+      },
+      {
+        "num": 2000,
+        "reward": 2000,
+        "modifier": "Vigorous",
+        "nouns": [
+          "Sprout"
         ]
       },
       {
         "num": 3000,
         "reward": 3000,
-        "modifier": "Relentless",
+        "modifier": "Wild",
         "nouns": [
-          "Meister"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "order": 20,
-    "name": "Decorated Decorator",
-    "rawName": "GetSRankonHHA",
-    "type": "Event",
-    "ver": 1,
-    "desc": "You got an S ranking from the Happy Home Academy! Your decorating skills are truly an inspiration, and you deserve some Nook Miles.",
-    "criteria": "Get an S ranking from the Happy Home Academy",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 1000,
-        "modifier": "Happy",
-        "nouns": [
-          "Overachiever"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "order": 21,
-    "name": "Deep Dive",
-    "rawName": "CatchSeafood",
-    "type": "Seafood",
-    "ver": 4,
-    "desc": "The glittering sea that surrounds our island is home to all kinds of captivating creatures. Put on your wet suit, dive in, and sea what you can collect to earn miles. Sea what I did there, hm?",
-    "criteria": "Collect a specified number of sea creatures",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Midsummer",
-        "nouns": [
-          "Swimmer"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 500,
-        "modifier": "Bodyboardin'",
-        "nouns": [
-          "Beachcomber"
-        ]
-      },
-      {
-        "num": 250,
-        "reward": 1000,
-        "modifier": "Aquatic",
-        "nouns": [
-          "Jetsam"
-        ]
-      },
-      {
-        "num": 1000,
-        "reward": 2000,
-        "modifier": "Splashy",
-        "nouns": [
-          "Winner"
-        ]
-      },
-      {
-        "num": 2500,
-        "reward": 3000,
-        "modifier": "Deep-Sea",
-        "nouns": [
-          "Monster"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "order": 22,
-    "name": "Dream House",
-    "rawName": "ExtendMyHome",
-    "type": "Event",
-    "ver": 1,
-    "desc": "A home that you build yourself gives you greater livability—it's on a whole other level! I'll give Nook Miles to those who build or expand their home to taste the good life.",
-    "criteria": "Expand your home a specified number of times",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "One-Room",
-        "nouns": [
-          "Loner"
-        ]
-      },
-      {
-        "num": 2,
-        "reward": 1000,
-        "modifier": "Single-Occupant",
-        "nouns": [
-          "Beginner"
-        ]
-      },
-      {
-        "num": 5,
-        "reward": 2000,
-        "modifier": "Homey",
-        "nouns": [
-          "Sentiment"
-        ]
-      },
-      {
-        "num": 6,
-        "reward": 3000,
-        "modifier": "Second-Floor",
-        "nouns": [
-          "Landlord"
-        ]
-      },
-      {
-        "num": 7,
-        "reward": 5000,
-        "modifier": "Basement",
-        "nouns": [
-          "Backbone"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "order": 23,
-    "name": "Edit Credit",
-    "rawName": "UpdatePassport",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Your passport has some information you can edit! Nook Inc. will give Nook Miles to folks who customize their profiles. Take it slow, think about it, and make it your own.",
-    "criteria": "Awarded the first time you edit your passport.",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Future",
-        "nouns": [
-          "Traveler"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "order": 24,
-    "name": "Executive Producer",
-    "rawName": "HarvestVegetable",
-    "type": "Vegetable",
-    "ver": 13,
-    "desc": "Nothing feels quite like harvesting produce that you grew by the sweat of your brow, yes, yes! Now go enjoy the fruits of your labor—and the pumpkins, carrots, sugarcane, and potatoes too!",
-    "criteria": "Harvest a specified number of produce",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Farming",
-        "nouns": [
-          "Greenhorn"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 500,
-        "modifier": "Crop-Tending",
-        "nouns": [
-          "Crops"
-        ]
-      },
-      {
-        "num": 150,
-        "reward": 1000,
-        "modifier": "Vibrant",
-        "nouns": [
-          "Baby"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 2000,
-        "modifier": "Nurturing",
-        "nouns": [
-          "Young'un"
-        ]
-      },
-      {
-        "num": 1000,
-        "reward": 3000,
-        "modifier": "Thriving",
-        "nouns": [
-          "Populace"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "order": 25,
-    "name": "Exterior Decorator",
-    "rawName": "PutFurnitureOutside",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "You can display furniture outside, right? Well, here's a little incentive for you to show off what you've got—you'll earn Nook Miles based on the number of furniture items you set up outside.",
-    "criteria": "Awarded the first time you place some furniture outside",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Outdoor-Loving",
-        "nouns": [
-          "Decorating Fiend"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "order": 26,
-    "name": "Faint of Heart",
-    "rawName": "BeStungbyPoisonousInsect",
-    "type": "Negative",
-    "ver": 1,
-    "desc": "This island is home to creepy crawlers that would make anyone light-headed. Maybe wielding a net will make you less likely to faint...",
-    "criteria": "Awarded the first time you get knocked out by a Scorpion or Tarantula",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Risen",
-        "nouns": [
-          "Phoenix"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "order": 27,
-    "name": "Faked Out!",
-    "rawName": "DonateFake",
-    "type": "Negative",
-    "ver": 3,
-    "desc": "Oh my. Did you get hoodwinked? That work of art you tried to donate turned out to be a forgery, and it stings. Your eye for art is being tested! Yes, yes! Please take some comfort in the miles I'm giving you.",
-    "criteria": "Donated a fake piece of art",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Plausible",
-        "nouns": [
-          "Fake"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "order": 28,
-    "name": "First Custom Design!",
-    "rawName": "UseMydesign",
-    "type": "MyDesign",
-    "ver": 1,
-    "desc": "Learning to use the Custom Design app lets you personalize your clothes and furniture. So much fun to be had, yes, yes!",
-    "criteria": "Awarded the first time you use the Custom Design app to edit or create a design",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Aspiring",
-        "nouns": [
-          "Artist"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "order": 29,
-    "name": "First-Time Buyer",
-    "rawName": "BuyItemRcm",
-    "type": "Money",
-    "ver": 1,
-    "desc": "You won't get miles every time you buy something on the island, but your first time is special! Enjoy these miles, courtesy of Nook Inc.",
-    "criteria": "Awarded the first time you purchase an item from a shop",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Full-Fledged",
-        "nouns": [
-          "Consumer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "order": 30,
-    "name": "Fishing Tourney!",
-    "rawName": "AttendFishingConvention",
-    "type": "Fish",
-    "ver": 1,
-    "desc": "Please participate in the Fishing Tourney, which is held every spring, summer, fall, and winter! I'll give you Nook Miles as a reward the first time you participate each season.",
-    "criteria": "Awarded the first time you attend a fishing tourney in each season",
-    "isSeq": false,
-    "tiers": [
-      {
-        "num": 0,
-        "reward": 300,
-        "modifier": "Spring-Born",
-        "nouns": [
-          "Free Spirit"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 500,
-        "modifier": "Summer-Born",
-        "nouns": [
-          "Chiller"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 1000,
-        "modifier": "Fall-Born",
-        "nouns": [
-          "Free-Wheeler"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 2000,
-        "modifier": "Winter-Born",
-        "nouns": [
-          "Overheater"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "order": 31,
-    "name": "Flea Flicker",
-    "rawName": "CatchNomi",
-    "type": "Insect",
-    "ver": 1,
-    "desc": "Itchy fleas are a real hassle. If you see an island buddy struggling with fleas, by all means, help them out. Not only is it a nice thing to do, but you'll also get some miles for doing a good deed.",
-    "criteria": "Number of times you've caught fleas off a villager",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Tidy",
-        "nouns": [
-          "Wild Child"
-        ]
-      },
-      {
-        "num": 5,
-        "reward": 500,
-        "modifier": "Highly Aware",
-        "nouns": [
-          "Neatnik"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 1000,
-        "modifier": "Fastidious",
-        "nouns": [
-          "Character"
+          "Beast"
         ]
       }
     ]
   },
   {
     "id": 6,
-    "order": 32,
+    "order": 23,
     "name": "Flower Power",
     "rawName": "PlantFlowerSeed",
     "type": "Plant",
@@ -1197,7 +1068,7 @@
   },
   {
     "id": 23,
-    "order": 33,
+    "order": 24,
     "name": "Flower Tender",
     "rawName": "WaterPlant",
     "type": "Plant",
@@ -1249,61 +1120,98 @@
     ]
   },
   {
-    "id": 62,
-    "order": 34,
-    "name": "Fossil Assessment",
-    "rawName": "JudgeFossil",
-    "type": "HHA",
+    "id": 8,
+    "order": 25,
+    "name": "Tomorrow's Trees Today",
+    "rawName": "PlantTreeSeedling",
+    "type": "Plant",
     "ver": 1,
-    "desc": "Yes, yes! You're getting Nook Miles based on the number of fossils you've had assessed. Dig up as many as you can and find out what they are!",
-    "criteria": "Have Blathers assess a specified number of fossils",
+    "desc": "To build a sustainable life on this island, we're going to need to plant a lot of trees! The more you plant, the more miles you can earn.",
+    "criteria": "Plant a specified number of trees (planting fruits or replanting existing trees does not count)",
     "isSeq": true,
     "tiers": [
       {
         "num": 5,
         "reward": 300,
-        "modifier": "Anonymous",
+        "modifier": "Outdoorsy",
         "nouns": [
-          "Something Or Other"
+          "Defender"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Organic",
+        "nouns": [
+          "Dietitian"
         ]
       },
       {
         "num": 30,
-        "reward": 500,
-        "modifier": "Ancient",
+        "reward": 1000,
+        "modifier": "Hay-Feverish",
         "nouns": [
-          "Truth"
+          "Sneezer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "order": 26,
+    "name": "Pick of the Bunch",
+    "rawName": "SellFruit",
+    "type": "Plant",
+    "ver": 1,
+    "desc": "You'll get Nook Miles based on the amount of fruit you've sold. Remember: If you sell our island's specialty fruits on other islands, you might be able to get a better price!",
+    "criteria": "Sell a specified number of fruits",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 20,
+        "reward": 300,
+        "modifier": "Inexperienced",
+        "nouns": [
+          "Observationist"
         ]
       },
       {
         "num": 100,
-        "reward": 1000,
-        "modifier": "History-Loving",
+        "reward": 500,
+        "modifier": "Precocious",
         "nouns": [
-          "Researcher"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 2000,
-        "modifier": "Evolving",
-        "nouns": [
-          "Scatterbrain"
+          "Bounty"
         ]
       },
       {
         "num": 500,
-        "reward": 3000,
-        "modifier": "Historic",
+        "reward": 1000,
+        "modifier": "Seasonal",
         "nouns": [
-          "Discovery"
+          "Tree"
+        ]
+      },
+      {
+        "num": 1000,
+        "reward": 2000,
+        "modifier": "Mature",
+        "nouns": [
+          "Kind"
+        ]
+      },
+      {
+        "num": 3000,
+        "reward": 3000,
+        "modifier": "Rotten",
+        "nouns": [
+          "Scent"
         ]
       }
     ]
   },
   {
     "id": 7,
-    "order": 35,
+    "order": 27,
     "name": "Fruit Roots",
     "rawName": "PlantFruit",
     "type": "Plant",
@@ -1364,82 +1272,151 @@
     ]
   },
   {
-    "id": 89,
-    "order": 36,
-    "name": "Fun with Fences",
-    "rawName": "BuildFence",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "You can have a wonderful yard in no time by building a fence and surrounding your home or garden. Yes, yes! Nook Inc. will award Nook Miles to skilled fence installers.",
-    "criteria": "Awarded the first time you place a fence",
+    "id": 92,
+    "order": 28,
+    "name": "Shrubbery Hubbubbery",
+    "rawName": "PlantBushSeedling",
+    "type": "Plant",
+    "ver": 3,
+    "desc": "Different kinds of shrubs usher in the different seasons with their flowers, yes, yes! Folks who plant many shrubs will receive beauty and miles as a reward.",
+    "criteria": "Plant a specified number of shrubs (replanting existing shrubs does not count)",
     "isSeq": true,
     "tiers": [
       {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Efficient",
+        "num": 1,
+        "reward": 300,
+        "modifier": "Verdant",
         "nouns": [
-          "Partitioner"
+          "Wonder"
+        ]
+      },
+      {
+        "num": 5,
+        "reward": 500,
+        "modifier": "Unrestrained",
+        "nouns": [
+          "Sentinel"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Surprising",
+        "nouns": [
+          "Snake"
         ]
       }
     ]
   },
   {
-    "id": 14,
-    "order": 37,
-    "name": "Furniture Freshener",
-    "rawName": "RemakeFurniture",
-    "type": "DIY",
-    "ver": 1,
-    "desc": "Give your furniture that personal touch and you can unlock miles. The more items you refurbish, the more miles you can get, hm?",
-    "criteria": "Customize a specified number of furniture or tools using the workbench",
+    "id": 100,
+    "order": 29,
+    "name": "Sprout Out Loud",
+    "rawName": "PlantVegetableSeedling",
+    "type": "Vegetable",
+    "ver": 13,
+    "desc": "Plant your produce starts across the whole island for a fresh, bounteous crop! Whether it's a small home garden or a full-on field, support Nook Inc. with all your produce-planting power! Yes, yes!",
+    "criteria": "Plant a specified number of produce sprouts (replanting existing sprouts does not count)",
     "isSeq": true,
     "tiers": [
       {
         "num": 5,
         "reward": 300,
-        "modifier": "Unique",
+        "modifier": "Field-Fresh",
         "nouns": [
-          "Eccentric"
+          "Fertilizer"
         ]
       },
       {
         "num": 20,
         "reward": 500,
-        "modifier": "Change-It-Up",
+        "modifier": "Locally Sourced",
         "nouns": [
-          "Challenger"
+          "Soil"
         ]
       },
       {
         "num": 50,
         "reward": 1000,
-        "modifier": "Detail-Oriented",
+        "modifier": "Sustainable",
         "nouns": [
-          "Engineer"
+          "Start"
         ]
       },
       {
         "num": 100,
         "reward": 2000,
-        "modifier": "Mold-Breaking",
+        "modifier": "Hardworking",
         "nouns": [
-          "Modder"
+          "Days"
         ]
       },
       {
         "num": 200,
         "reward": 3000,
-        "modifier": "Remodeling",
+        "modifier": "Green-Thumbed",
         "nouns": [
-          "Inspiration"
+          "Success"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "order": 30,
+    "name": "Executive Producer",
+    "rawName": "HarvestVegetable",
+    "type": "Vegetable",
+    "ver": 13,
+    "desc": "Nothing feels quite like harvesting produce that you grew by the sweat of your brow, yes, yes! Now go enjoy the fruits of your labor—and the pumpkins, carrots, sugarcane, and potatoes too!",
+    "criteria": "Harvest a specified number of produce",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 10,
+        "reward": 300,
+        "modifier": "Farming",
+        "nouns": [
+          "Greenhorn"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 500,
+        "modifier": "Crop-Tending",
+        "nouns": [
+          "Crops"
+        ]
+      },
+      {
+        "num": 150,
+        "reward": 1000,
+        "modifier": "Vibrant",
+        "nouns": [
+          "Baby"
+        ]
+      },
+      {
+        "num": 500,
+        "reward": 2000,
+        "modifier": "Nurturing",
+        "nouns": [
+          "Young'un"
+        ]
+      },
+      {
+        "num": 1000,
+        "reward": 3000,
+        "modifier": "Thriving",
+        "nouns": [
+          "Populace"
         ]
       }
     ]
   },
   {
     "id": 69,
-    "order": 38,
+    "order": 31,
     "name": "Go Ahead. Be Shellfish!",
     "rawName": "SellShell",
     "type": "Fish",
@@ -1492,8 +1469,2132 @@
     ]
   },
   {
-    "id": 39,
+    "id": 63,
+    "order": 32,
+    "name": "Clam and Collected",
+    "rawName": "DigShell",
+    "type": "Fish",
+    "ver": 1,
+    "desc": "Dig up clams, collect Nook Miles. It's really that simple. The real bonus here is that you get to walk along the beach for this one.",
+    "criteria": "Dig up a specified number of clams",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Tidal",
+        "nouns": [
+          "Season"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Ready",
+        "nouns": [
+          "Coast Dweller"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Buried",
+        "nouns": [
+          "Genius"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Rare",
+        "nouns": [
+          "Prodigy"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 3000,
+        "modifier": "Water's Edge",
+        "nouns": [
+          "Mermaid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "order": 33,
+    "name": "Trash Fishin'",
+    "rawName": "CatchTrash",
+    "type": "Fish",
+    "ver": 1,
+    "desc": "You work extra hard to keep our island clean, even going so far as to fish up trash out of our lovely waters. So you're getting some Nook Miles for keeping the island extra tidy, yes, yes!",
+    "criteria": "Fish a specified number of trash (cans, tires, or boots)",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 3,
+        "reward": 300,
+        "modifier": "Untossable",
+        "nouns": [
+          "Trash"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Eco-Friendly",
+        "nouns": [
+          "Ecologist"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Waterway",
+        "nouns": [
+          "Cleaner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "order": 34,
+    "name": "Cast Master",
+    "rawName": "CatchFishContinuously",
+    "type": "Fish",
+    "ver": 1,
+    "desc": "Cast your line carefully if you want to reel in this reward—you'll need to nab a bunch of fish in a row without a single one getting away to earn these miles.",
+    "criteria": "Fish a specified number of fish in a single streak without any getting away",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 10,
+        "reward": 300,
+        "modifier": "Mistakenly Caught",
+        "nouns": [
+          "Fish"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 500,
+        "modifier": "Bait-Snatching",
+        "nouns": [
+          "Frenzy"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 1000,
+        "modifier": "Wave-Tossed",
+        "nouns": [
+          "Life-Form"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "order": 35,
+    "name": "Dream House",
+    "rawName": "ExtendMyHome",
+    "type": "Event",
+    "ver": 1,
+    "desc": "A home that you build yourself gives you greater livability—it's on a whole other level! I'll give Nook Miles to those who build or expand their home to taste the good life.",
+    "criteria": "Expand your home a specified number of times",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "One-Room",
+        "nouns": [
+          "Loner"
+        ]
+      },
+      {
+        "num": 2,
+        "reward": 1000,
+        "modifier": "Single-Occupant",
+        "nouns": [
+          "Beginner"
+        ]
+      },
+      {
+        "num": 5,
+        "reward": 2000,
+        "modifier": "Homey",
+        "nouns": [
+          "Sentiment"
+        ]
+      },
+      {
+        "num": 6,
+        "reward": 3000,
+        "modifier": "Second-Floor",
+        "nouns": [
+          "Landlord"
+        ]
+      },
+      {
+        "num": 7,
+        "reward": 5000,
+        "modifier": "Basement",
+        "nouns": [
+          "Backbone"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "order": 36,
+    "name": "Decorated Decorator",
+    "rawName": "GetSRankonHHA",
+    "type": "Event",
+    "ver": 1,
+    "desc": "You got an S ranking from the Happy Home Academy! Your decorating skills are truly an inspiration, and you deserve some Nook Miles.",
+    "criteria": "Get an S ranking from the Happy Home Academy",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 1000,
+        "modifier": "Happy",
+        "nouns": [
+          "Overachiever"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "order": 37,
+    "name": "Hoard Reward",
+    "rawName": "PlaceFurnitureMyHouse",
+    "type": "Event",
+    "ver": 1,
+    "desc": "Put more furniture in your house! Nook Inc. will give you Nook Miles based on the number of indoor furniture items you have. So you're earning rewards for making your house a home!",
+    "criteria": "Place a specified number of furniture in your house",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Interior",
+        "nouns": [
+          "Sort"
+        ]
+      },
+      {
+        "num": 15,
+        "reward": 1000,
+        "modifier": "Tentative",
+        "nouns": [
+          "Remodeler"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Comparative",
+        "nouns": [
+          "Sundries Fan"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 3000,
+        "modifier": "Assumed",
+        "nouns": [
+          "Appliance Fan"
+        ]
+      },
+      {
+        "num": 150,
+        "reward": 5000,
+        "modifier": "Abounding",
+        "nouns": [
+          "Interior-Design Fan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "order": 38,
+    "name": "Good Things in Store!",
+    "rawName": "HouseStorageItem",
+    "type": "Event",
+    "ver": 1,
+    "desc": "I'll reward you with miles based on the number of items you have in storage, hm? Using the convenient storage feature will make life on the island more pleasant!",
+    "criteria": "Store a specified number of items in your house storage",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 20,
+        "reward": 300,
+        "modifier": "Overstuffed",
+        "nouns": [
+          "Stylist"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Partially Obscured",
+        "nouns": [
+          "Talent"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "At-Capacity",
+        "nouns": [
+          "Manager"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 3000,
+        "modifier": "Self-Possessed",
+        "nouns": [
+          "Coordinator"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 5000,
+        "modifier": "Invulnerable",
+        "nouns": [
+          "Life Hacker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
     "order": 39,
+    "name": "Remarkable Remodeler",
+    "rawName": "ReformMyHome",
+    "type": "Event",
+    "ver": 1,
+    "desc": "You finished remodeling your house, hm? It looks like a completely new house now! I'll give you rewards based on the number of remodels you do, so keep it up!",
+    "criteria": "Remodel your home's exterior a specified number of times",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Home",
+        "nouns": [
+          "Transformer"
+        ]
+      },
+      {
+        "num": 3,
+        "reward": 1000,
+        "modifier": "Dreamy",
+        "nouns": [
+          "Dreamer"
+        ]
+      },
+      {
+        "num": 5,
+        "reward": 2000,
+        "modifier": "Quintessential",
+        "nouns": [
+          "Space"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "order": 40,
+    "name": "Smile Isle",
+    "rawName": "AchieveVillagersQuest",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "Good deeds are their own rewards. But go ahead and have some Nook Miles too for fulfilling requests from other island residents. Yes, yes!",
+    "criteria": "Fulfill a specified number of requests from residents (such as returning lost items)",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Kindly",
+        "nouns": [
+          "Standard"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Reliable",
+        "nouns": [
+          "Ally"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Generous",
+        "nouns": [
+          "Supervisor"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Exalted",
+        "nouns": [
+          "Savior"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 3000,
+        "modifier": "Foolhardy",
+        "nouns": [
+          "Hero",
+          "Heroine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "order": 41,
+    "name": "Reaction Ruler",
+    "rawName": "FillReactionList",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "You learned a Reaction! Let's celebrate this momentous occasion with...Nook Miles, hm? Reactions help you express yourself, so it's a good idea to learn them.",
+    "criteria": "Learn a specified number of reactions",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Overacting",
+        "nouns": [
+          "Neophyte"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Apprentice",
+        "nouns": [
+          "Dancer"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Dad-Joking",
+        "nouns": [
+          "Semiprofessional"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Solo",
+        "nouns": [
+          "Comedian"
+        ]
+      },
+      {
+        "num": 42,
+        "reward": 3000,
+        "modifier": "Super-Popular",
+        "nouns": [
+          "Mega Star"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "order": 42,
+    "name": "Island Shutterbug",
+    "rawName": "TakePicture",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Congratulations on taking your first island photo! Please do show off your wonderful photos, whether they're impulse snaps or brilliant compositions.",
+    "criteria": "Awarded the first time you take a photo using the camera app on the NookPhone (screenshot button does not count, must use the app)",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Photogenic",
+        "nouns": [
+          "Photographer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "order": 43,
+    "name": "Edit Credit",
+    "rawName": "UpdatePassport",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Your passport has some information you can edit! Nook Inc. will give Nook Miles to folks who customize their profiles. Take it slow, think about it, and make it your own.",
+    "criteria": "Awarded the first time you edit your passport.",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Future",
+        "nouns": [
+          "Traveler"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "order": 44,
+    "name": "NookPhone Life",
+    "rawName": "BootPhoneBeginner",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Gotten used to using your NookPhone? The fact that you're reading this probably means you have! Keep using it, and enjoy some Nook Miles just for getting familiar with it.",
+    "criteria": "Awarded after the 10th time you open your NookPhone",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 10,
+        "reward": 300,
+        "modifier": "Smartphone",
+        "nouns": [
+          "Savant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "order": 45,
+    "name": "That's One Smart Phone",
+    "rawName": "BootPhone",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Nothing makes a smartphone manufacturer happier than a user who gets the most out of the device. At least, that's how Nook Inc. feels about the NookPhone. So we're giving you miles just for using your phone!",
+    "criteria": "Awarded after the 1000th time you open your NookPhone",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1000,
+        "reward": 1000,
+        "modifier": "Digital-Age",
+        "nouns": [
+          "Child"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "order": 46,
+    "name": "Shop to It",
+    "rawName": "BuyItemCatalog",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Living on a remote island doesn't mean you have to go without life's luxuries. Shop to your heart's content with Nook Shopping and you'll earn Nook Miles!",
+    "criteria": "Number of times you've ordered from the Nook Shopping catalog",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Internet",
+        "nouns": [
+          "Surfer"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Connected",
+        "nouns": [
+          "Reviewer"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Widely Accepted",
+        "nouns": [
+          "Connector"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Disconnected",
+        "nouns": [
+          "Worrywart"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 3000,
+        "modifier": "Always-On",
+        "nouns": [
+          "Bigwig"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "order": 47,
+    "name": "Growing Collection",
+    "rawName": "FillCatalog",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "You are aware that furniture and clothing you buy is added to your Nook Shopping catalog, yes? Were you also aware that you can earn miles for a large catalog? Well, you certainly are aware now!",
+    "criteria": "Number of unique furniture pieces you've added to your catalog",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 100,
+        "reward": 300,
+        "modifier": "Casual",
+        "nouns": [
+          "Materialist"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 500,
+        "modifier": "Curious",
+        "nouns": [
+          "Force"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 1000,
+        "modifier": "Greedy",
+        "nouns": [
+          "Collector"
+        ]
+      },
+      {
+        "num": 400,
+        "reward": 2000,
+        "modifier": "Materialistic",
+        "nouns": [
+          "Avatar"
+        ]
+      },
+      {
+        "num": 500,
+        "reward": 3000,
+        "modifier": "Legendary",
+        "nouns": [
+          "Walking Dictionary"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "order": 48,
+    "name": "Nook Miles for Miles!",
+    "rawName": "AchieveAppQuest",
+    "type": "Smartphone",
+    "ver": 1,
+    "desc": "Earning Nook Miles for earning Nook Miles? Yes, yes! You just earned miles for finishing Nook Miles+ goals! But where will it end?",
+    "criteria": "Number of Nook Miles+ goals you've completed",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "So-Called",
+        "nouns": [
+          "Ground Traveler"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 500,
+        "modifier": "Novice",
+        "nouns": [
+          "Rookie"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 1000,
+        "modifier": "Wide-Ranging",
+        "nouns": [
+          "Hobbyist"
+        ]
+      },
+      {
+        "num": 1000,
+        "reward": 2000,
+        "modifier": "Perfectionist",
+        "nouns": [
+          "Go-Getter"
+        ]
+      },
+      {
+        "num": 3000,
+        "reward": 3000,
+        "modifier": "Year-Round",
+        "nouns": [
+          "Dynamo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "order": 49,
+    "name": "First-Time Buyer",
+    "rawName": "BuyItemRcm",
+    "type": "Money",
+    "ver": 1,
+    "desc": "You won't get miles every time you buy something on the island, but your first time is special! Enjoy these miles, courtesy of Nook Inc.",
+    "criteria": "Awarded the first time you purchase an item from a shop",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Full-Fledged",
+        "nouns": [
+          "Consumer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "order": 50,
+    "name": "Seller of Unwanted Stuff",
+    "rawName": "SellItemRcm",
+    "type": "Money",
+    "ver": 1,
+    "desc": "Selling things you don't need is a great way to keep down the clutter and earn a few extra Bells. And, in this case, a few extra miles! Hooray for your first sale!",
+    "criteria": "Awarded the first time you sell an item to a shop",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Down-And-Out",
+        "nouns": [
+          "Eventuality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "order": 51,
+    "name": "Moving Fees Paid!",
+    "rawName": "PayImmigrationCost",
+    "type": "Money",
+    "ver": 1,
+    "desc": "Thank you for paying all your fees for moving to the island! Take a Nook Miles rebate as a gift and give yourself a nice pat on the back, hm?",
+    "criteria": "Awarded when you pay off your initial loan using Nook Miles",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Autonomous",
+        "nouns": [
+          "Life"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "order": 52,
+    "name": "Bell Ringer",
+    "rawName": "HowmuchBuyItem",
+    "type": "Money",
+    "ver": 1,
+    "desc": "Spending your Bells on the island helps revitalize the local economy, yes, yes! I'll reward you with miles based on how many Bells you've spent.",
+    "criteria": "Number of total bells you've spent in shops",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5000,
+        "reward": 300,
+        "modifier": "Invested",
+        "nouns": [
+          "Shopaholic"
+        ]
+      },
+      {
+        "num": 50000,
+        "reward": 500,
+        "modifier": "Thrifty",
+        "nouns": [
+          "Family Member"
+        ]
+      },
+      {
+        "num": 500000,
+        "reward": 1000,
+        "modifier": "Covetous",
+        "nouns": [
+          "Personality"
+        ]
+      },
+      {
+        "num": 2000000,
+        "reward": 2000,
+        "modifier": "Wasteful",
+        "nouns": [
+          "Celebrity"
+        ]
+      },
+      {
+        "num": 5000000,
+        "reward": 3000,
+        "modifier": "Name-Dropping",
+        "nouns": [
+          "VIP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "order": 53,
+    "name": "Miles for Stalkholders",
+    "rawName": "BuyKabu",
+    "type": "Money",
+    "ver": 1,
+    "desc": "I have Nook Miles to give to any resident who purchases turnips. Buy them low, sell them high, and make a handsome profit! They'll rot in a week, though, so be careful.",
+    "criteria": "Awarded the first time you purchase turnips",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Weekend",
+        "nouns": [
+          "Stalkholder"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "order": 54,
+    "name": "Cornering the Stalk Market",
+    "rawName": "HowmuchSellKabu",
+    "type": "Money",
+    "ver": 1,
+    "desc": "The powers that be have been tracking your turnip transactions...and let's just say you've harvested your share of profits! Enjoy a few Nook Miles for helping contribute to the island's economy.",
+    "criteria": "Number of total bells you've profited from selling turnips",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1000,
+        "reward": 300,
+        "modifier": "Status-Minded",
+        "nouns": [
+          "Speculator"
+        ]
+      },
+      {
+        "num": 10000,
+        "reward": 500,
+        "modifier": "Avaricious",
+        "nouns": [
+          "Moneybags"
+        ]
+      },
+      {
+        "num": 100000,
+        "reward": 1000,
+        "modifier": "Upstart",
+        "nouns": [
+          "Trader"
+        ]
+      },
+      {
+        "num": 1000000,
+        "reward": 2000,
+        "modifier": "Worldwide",
+        "nouns": [
+          "Bellionaire"
+        ]
+      },
+      {
+        "num": 10000000,
+        "reward": 3000,
+        "modifier": "Shadowy",
+        "nouns": [
+          "Fixer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "order": 55,
+    "name": "No More Loan Payments!",
+    "rawName": "RepayLoan",
+    "type": "Money",
+    "ver": 1,
+    "desc": "You see how this works? You pay off your loan, you get some Nook Miles! Thank you for doing business with Nook Inc.!",
+    "criteria": "Awarded after paying off your first house loan with bells",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 1000,
+        "modifier": "Responsible",
+        "nouns": [
+          "Bill Payer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "order": 56,
+    "name": "Bulletin-Board Benefit",
+    "rawName": "PostMessageBoard",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "Picture this: Getting Nook Miles from Nook Inc. the first time you write something on an island's bulletin board. Keep using bulletin boards to communicate with everyone on the island! Yes, yes!",
+    "criteria": "Awarded the first time you post a message on your town bulletin board",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Rumormongering",
+        "nouns": [
+          "Influencer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "order": 57,
+    "name": "Popular Pen Pal",
+    "rawName": "SendLetter",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "I'll reward you with miles if you send a lot of letters. Please keep sending letters to everyone and continuing to deepen friendships. Yes, yes!",
+    "criteria": "Number of letters you've sent",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Art-School",
+        "nouns": [
+          "Boy",
+          "Girl"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Science-y",
+        "nouns": [
+          "Student"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Liberal-Arts",
+        "nouns": [
+          "Poet"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Subculture",
+        "nouns": [
+          "Denizen"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 3000,
+        "modifier": "Deadline",
+        "nouns": [
+          "Writer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "order": 58,
+    "name": "Flea Flicker",
+    "rawName": "CatchNomi",
+    "type": "Insect",
+    "ver": 1,
+    "desc": "Itchy fleas are a real hassle. If you see an island buddy struggling with fleas, by all means, help them out. Not only is it a nice thing to do, but you'll also get some miles for doing a good deed.",
+    "criteria": "Number of times you've caught fleas off a villager",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Tidy",
+        "nouns": [
+          "Wild Child"
+        ]
+      },
+      {
+        "num": 5,
+        "reward": 500,
+        "modifier": "Highly Aware",
+        "nouns": [
+          "Neatnik"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 1000,
+        "modifier": "Fastidious",
+        "nouns": [
+          "Character"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "order": 59,
+    "name": "Cicada Memories",
+    "rawName": "CatchSeminonukegara",
+    "type": "Insect",
+    "ver": 1,
+    "desc": "Ah, cicada shells in the summer. They're not really all that useful, but collecting them does help create summer memories that will last a lifetime.",
+    "criteria": "Awarded the first time you catch a cicada shell",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 1000,
+        "modifier": "Shell-Less",
+        "nouns": [
+          "Being"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "order": 60,
+    "name": "Netting Better!",
+    "rawName": "CatchBeeContinuously",
+    "type": "Insect",
+    "ver": 1,
+    "desc": "It's so impressive when someone can catch five wasps in a row—so impressive, in fact, that you'll earn some Nook Miles if you can do it!",
+    "criteria": "Awarded the first time you catch five wasps in a row without running away or getting stung",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 1000,
+        "modifier": "Accurate",
+        "nouns": [
+          "Deadeye"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "order": 61,
+    "name": "Pit-y Party",
+    "rawName": "MakePitfall",
+    "type": "HHA",
+    "ver": 1,
+    "desc": "Enjoy some bonus Nook Miles to commemorate the creation of your first pit. Just make sure you don't fall victim to your own handiwork!",
+    "criteria": "Awarded the first time you bury a pitfall seed",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Wild-Child",
+        "nouns": [
+          "Troublemaker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "order": 62,
+    "name": "Taking the Sting Out",
+    "rawName": "BeStungbyWasp",
+    "type": "Negative",
+    "ver": 1,
+    "desc": "Getting stung by wasps hurts! Getting stung again before you can recover makes you faint! But at least you get some miles for that. I don't want you to be uncomfortable, though, so take some medicine to heal up!",
+    "criteria": "Awarded the first time you get stung by a wasp",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Teary-Eyed",
+        "nouns": [
+          "Crybaby"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "order": 63,
+    "name": "Faint of Heart",
+    "rawName": "BeStungbyPoisonousInsect",
+    "type": "Negative",
+    "ver": 1,
+    "desc": "This island is home to creepy crawlers that would make anyone light-headed. Maybe wielding a net will make you less likely to faint...",
+    "criteria": "Awarded the first time you get knocked out by a Scorpion or Tarantula",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Risen",
+        "nouns": [
+          "Phoenix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "order": 64,
+    "name": "Overcoming Pitfalls",
+    "rawName": "FallintoPitfall",
+    "type": "Negative",
+    "ver": 1,
+    "desc": "Life is full of peaks and valleys, hills and pits. When you fall into a pit, you learn a lesson, hm? Be more careful next time, yes? Don't feel too bad, though. You're getting some bonus Nook Miles for your fall.",
+    "criteria": "Awarded the first time you fall into a pitfall hole",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Trapped",
+        "nouns": [
+          "Reckless One"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "order": 65,
+    "name": "Faked Out!",
+    "rawName": "DonateFake",
+    "type": "Negative",
+    "ver": 3,
+    "desc": "Oh my. Did you get hoodwinked? That work of art you tried to donate turned out to be a forgery, and it stings. Your eye for art is being tested! Yes, yes! Please take some comfort in the miles I'm giving you.",
+    "criteria": "Donated a fake piece of art",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Plausible",
+        "nouns": [
+          "Fake"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "order": 66,
+    "name": "Lost Treasure",
+    "rawName": "DropPresentinWater",
+    "type": "Negative",
+    "ver": 1,
+    "desc": "Oh my. You popped a balloon with a skillful shot, but the attached prize fell into the water! Maybe some Nook Miles will help you recover from that sunken feeling, hm?",
+    "criteria": "Awarded the first time a balloon present you shot lands in a body of water",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Catchable",
+        "nouns": [
+          "Klutz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "order": 67,
+    "name": "It's Raining Treasure!",
+    "rawName": "ShootDownBalloon",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "No one knows who sends the gifts attached to balloons to our island, but you can earn miles by shooting them down and collecting what's inside.",
+    "criteria": "Number of balloons you've shot down with a slingshot",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Easy-Breezy",
+        "nouns": [
+          "Slingshot Ace"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Atmospheric",
+        "nouns": [
+          "Floaty Thing"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 1000,
+        "modifier": "Restless",
+        "nouns": [
+          "Hunter"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 2000,
+        "modifier": "Flying",
+        "nouns": [
+          "Paradise"
+        ]
+      },
+      {
+        "num": 300,
+        "reward": 3000,
+        "modifier": "Elusive",
+        "nouns": [
+          "Vagabond"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "order": 68,
+    "name": "Fun with Fences",
+    "rawName": "BuildFence",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "You can have a wonderful yard in no time by building a fence and surrounding your home or garden. Yes, yes! Nook Inc. will award Nook Miles to skilled fence installers.",
+    "criteria": "Awarded the first time you place a fence",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 20,
+        "reward": 500,
+        "modifier": "Efficient",
+        "nouns": [
+          "Partitioner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "order": 69,
+    "name": "Snowmaestro",
+    "rawName": "MakePerfectSnowball",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "What's this? You get Nook Miles based on how many quality snowfolks you've built? That's a pretty good deal for just having a little fun in the snow.",
+    "criteria": "Number of perfect snow-people you've built",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Cold-Sensitive",
+        "nouns": [
+          "Sprite"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Snow",
+        "nouns": [
+          "Angel"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Cool",
+        "nouns": [
+          "Imp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "order": 70,
+    "name": "Wishes Come True",
+    "rawName": "PrayShootingStar",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "Were you wishing for Nook Miles the last time you saw a shooting star? Hm? Because Nook Inc. is here to grant your wish. More wishes, more miles! Yes, yes!",
+    "criteria": "Number of shooting stars you've wished on",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Late-Night",
+        "nouns": [
+          "Meteorite"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 1000,
+        "modifier": "Wishful",
+        "nouns": [
+          "Legend"
+        ]
+      },
+      {
+        "num": 200,
+        "reward": 2000,
+        "modifier": "Overnight",
+        "nouns": [
+          "Superstar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "order": 71,
+    "name": "Exterior Decorator",
+    "rawName": "PutFurnitureOutside",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "You can display furniture outside, right? Well, here's a little incentive for you to show off what you've got—you'll earn Nook Miles based on the number of furniture items you set up outside.",
+    "criteria": "Awarded the first time you place some furniture outside",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 10,
+        "reward": 300,
+        "modifier": "Outdoor-Loving",
+        "nouns": [
+          "Decorating Fiend"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "order": 72,
+    "name": "(island name) Icons",
+    "rawName": "ChangeSymbol",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "At Resident Services, we want new ideas for the island flag and island tune. We have Nook Miles in store for those creative types who can redesign and rewrite! It's good to take pride in our island symbols.",
+    "criteria": "Awarded for changing your island flag and town tune for the first time.",
+    "isSeq": false,
+    "tiers": [
+      {
+        "num": 0,
+        "reward": 500,
+        "modifier": "Flapping",
+        "nouns": [
+          "Flag Waver"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 500,
+        "modifier": "Humming",
+        "nouns": [
+          "Musician"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "order": 73,
+    "name": "Island Designer",
+    "rawName": "ModifyIsland",
+    "type": "LandMaking",
+    "ver": 1,
+    "desc": "At Nook Inc. we encourage the use of the Island Designer app to liven up the island. We're giving away miles the first time you use a permit for a path, river, or cliff!",
+    "criteria": "Awarded the first time you use the Island Designer app to place a path, add/remove water, and build/destroy a cliff",
+    "isSeq": false,
+    "tiers": [
+      {
+        "num": 0,
+        "reward": 500,
+        "modifier": "Trailblazing",
+        "nouns": [
+          "Runner"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 1000,
+        "modifier": "Swept-Away",
+        "nouns": [
+          "Pioneer"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 1000,
+        "modifier": "Cliffhanging",
+        "nouns": [
+          "Creator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "order": 74,
+    "name": "Wispy Island Secrets",
+    "rawName": "HelpGst",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "If you happen to encounter one of the island's secrets, maybe just keep it to yourself. We don't want to scare anyone away from here. Pretty sure that's in your island contract...",
+    "criteria": "Number of times you've helped Wisp find the parts of his spirit",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Cowardly",
+        "nouns": [
+          "Ghost"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Supernatural",
+        "nouns": [
+          "Soul"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Soulful",
+        "nouns": [
+          "Soul Mate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "order": 75,
+    "name": "Gulliver's Travails",
+    "rawName": "HelpGul",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "When you come across someone in trouble on the beach, you help them, setting a fine example for all the island residents. Such kindness will surely find its way back to you.",
+    "criteria": "Number of times you've helped Gulliver fix his communicator",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Flightless",
+        "nouns": [
+          "Fowl"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Perennial",
+        "nouns": [
+          "Lost One"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Off-Season",
+        "nouns": [
+          "Migratory Bird"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "order": 76,
+    "name": "K.K. Mania",
+    "rawName": "GotoTotakekeShow",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "K.K. supports our island with his groovy brand of folk rock, so we should support him! The more K.K. shows you attend, the more Nook Miles you can earn.",
+    "criteria": "Number of K.K. shows you've attended",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Fickle",
+        "nouns": [
+          "Music-Lover"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Covert",
+        "nouns": [
+          "Supporter"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 1000,
+        "modifier": "Regular",
+        "nouns": [
+          "Fan"
+        ]
+      },
+      {
+        "num": 60,
+        "reward": 2000,
+        "modifier": "The Definition of",
+        "nouns": [
+          "Pop Star"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 3000,
+        "modifier": "Longtime",
+        "nouns": [
+          "Follower"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "order": 77,
+    "name": "True Patron of the Arts",
+    "rawName": "BuyatTsunekichiShop",
+    "type": "Communication",
+    "ver": 3,
+    "desc": "Collecting artwork contributes to the cultural quality of (island name), and Nook Inc. will give miles to folks who prove themselves discerning connoisseurs.",
+    "criteria": "Number of times you've purchased art that turned out to be real",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Shady",
+        "nouns": [
+          "Seller"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Discerning",
+        "nouns": [
+          "Aficionado"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Bold",
+        "nouns": [
+          "Artistic Statement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "order": 78,
+    "name": "You Otter Know",
+    "rawName": "GiveScallopsToSeo",
+    "type": "Communication",
+    "ver": 4,
+    "desc": "If you meet a laid-back fellow floating in the sea, consider sharing some of your scallops with him. You never know what you might learn in return...and a little gift never hurts either!",
+    "criteria": "Number of times you've given scallops to Pascal",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Kind",
+        "nouns": [
+          "Cynic"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Hungry",
+        "nouns": [
+          "Philosopher"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Oceanic",
+        "nouns": [
+          "Existentialist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "order": 79,
+    "name": "Set Sail for Adventure",
+    "rawName": "VisitKappeiTour",
+    "type": "Communication",
+    "ver": 13,
+    "desc": "Rare items and exciting adventures are yours when you head out on a special tour with a veteran sailor, yes, yes!",
+    "criteria": "Number of times you've gone on a Kapp'n tour",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 3,
+        "reward": 300,
+        "modifier": "Sun-Kissed",
+        "nouns": [
+          "Boater"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Household",
+        "nouns": [
+          "Provider"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Voyaging",
+        "nouns": [
+          "Explorer"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Family-Minded",
+        "nouns": [
+          "Parent"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 3000,
+        "modifier": "Impressive",
+        "nouns": [
+          "Family"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "order": 80,
+    "name": "Come Home to the Roost",
+    "rawName": "DrinkCoffee",
+    "type": "Communication",
+    "ver": 13,
+    "desc": "The Roost, located on the second floor of the museum, is quite picky about the coffee they serve, yes, yes! Do stop in to enjoy a cup and earn some dark-roasted miles!",
+    "criteria": "Number of days you've gotten coffee from Brewster",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 5,
+        "reward": 300,
+        "modifier": "Aromatic",
+        "nouns": [
+          "Beans"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Caffeinated",
+        "nouns": [
+          "Regular"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Fragrant",
+        "nouns": [
+          "Break"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Rich",
+        "nouns": [
+          "Blend"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 3000,
+        "modifier": "Acidic",
+        "nouns": [
+          "Barista"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "order": 81,
+    "name": "Stretch to Refresh!",
+    "rawName": "JoinRadioGymnastics",
+    "type": "Communication",
+    "ver": 13,
+    "desc": "The health of our residents is a top priority, yes, yes! So we're holding group-stretching sessions in the plaza. I'll provide miles once per day for participating, and there will be a tape deck for music. I hope I see you there!",
+    "criteria": "Number of days you've participated in group stretching",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 3,
+        "reward": 300,
+        "modifier": "Peppy",
+        "nouns": [
+          "Kids"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Athletic",
+        "nouns": [
+          "Fitness Fan"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Sporty",
+        "nouns": [
+          "Athlete"
+        ]
+      },
+      {
+        "num": 30,
+        "reward": 2000,
+        "modifier": "Peak-Performing",
+        "nouns": [
+          "Bodybuilder"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 3000,
+        "modifier": "Stoic",
+        "nouns": [
+          "Health Nut"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "order": 82,
+    "name": "True Friends",
+    "rawName": "BeFriendwithVillager",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "It's good news for Nook Inc. when island residents get along. Good relationships are a cornerstone of island development!",
+    "criteria": "Number of villagers you've become good friends with",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Soothing",
+        "nouns": [
+          "Pal"
+        ]
+      },
+      {
+        "num": 2,
+        "reward": 500,
+        "modifier": "Friendly",
+        "nouns": [
+          "Buddy"
+        ]
+      },
+      {
+        "num": 3,
+        "reward": 1000,
+        "modifier": "Friendship",
+        "nouns": [
+          "Seeker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "order": 83,
+    "name": "Birthday Celebration",
+    "rawName": "CelebrateVillagersBithday",
+    "type": "Communication",
+    "ver": 1,
+    "desc": "Celebrating the birthday of a fellow resident is a wonderful thing. Nook Inc. will commemorate your bond with some party-favor Nook Miles.",
+    "criteria": "Number of villager birthdays you've attended",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Untamed",
+        "nouns": [
+          "Party Animal"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 500,
+        "modifier": "Growing",
+        "nouns": [
+          "Youth"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 1000,
+        "modifier": "Grown",
+        "nouns": [
+          "Adult"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "order": 84,
+    "name": "Happy Birthday!",
+    "rawName": "ReachMyBirthday",
+    "type": "Event",
+    "ver": 1,
+    "desc": "Happy birthday to you! Take some Nook Miles, woo-hoo! Happy birthday to you-oo! Take some Nook Miles, woo-hoo! (Get yourself something nice.)",
+    "criteria": "Awarded the first time you play on your character's birthday",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 2000,
+        "modifier": "Celebratory",
+        "nouns": [
+          "Birthday Boy",
+          "Birthday Girl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "order": 85,
+    "name": "Fishing Tourney!",
+    "rawName": "AttendFishingConvention",
+    "type": "Fish",
+    "ver": 1,
+    "desc": "Please participate in the Fishing Tourney, which is held every spring, summer, fall, and winter! I'll give you Nook Miles as a reward the first time you participate each season.",
+    "criteria": "Awarded the first time you attend a fishing tourney in each season",
+    "isSeq": false,
+    "tiers": [
+      {
+        "num": 0,
+        "reward": 300,
+        "modifier": "Spring-Born",
+        "nouns": [
+          "Free Spirit"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 500,
+        "modifier": "Summer-Born",
+        "nouns": [
+          "Chiller"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 1000,
+        "modifier": "Fall-Born",
+        "nouns": [
+          "Free-Wheeler"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 2000,
+        "modifier": "Winter-Born",
+        "nouns": [
+          "Overheater"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "order": 86,
+    "name": "Bug-Off!",
+    "rawName": "AttendInsectConvention",
+    "type": "Insect",
+    "ver": 1,
+    "desc": "What's the summer event to look forward to? That's right...the Bug-Off! Nook Inc. will give you Nook Miles for participating, so by all means, join the fun!",
+    "criteria": "Awarded the first time you attend a bug-off tourney in each season",
+    "isSeq": false,
+    "tiers": [
+      {
+        "num": 0,
+        "reward": 300,
+        "modifier": "Adolescent",
+        "nouns": [
+          "Youngster"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 500,
+        "modifier": "Rebellious",
+        "nouns": [
+          "Rebel"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 1000,
+        "modifier": "Solitary",
+        "nouns": [
+          "Lone Wolf"
+        ]
+      },
+      {
+        "num": 0,
+        "reward": 2000,
+        "modifier": "Standoffish",
+        "nouns": [
+          "Individual"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "order": 87,
+    "name": "Countdown Celebration",
+    "rawName": "AttendCountdownParty",
+    "type": "Event",
+    "ver": 1,
+    "desc": "The only thing better than ringing in the new year is ringing in the new year with some Nook Miles! May you live to see many more—years and miles!",
+    "criteria": "Awarded for attending the new year holiday event",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 1000,
+        "modifier": "Countdown",
+        "nouns": [
+          "Merrymaker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "order": 88,
+    "name": "Making a Change",
+    "rawName": "UseCloset",
+    "type": "MyDesign",
+    "ver": 1,
+    "desc": "A closet is a must-have item for a fashion trendsetter. I'll offer Nook Miles to anyone who has a closet and changes outfits, thereby increasing the chances of an island fashion trend catching on.",
+    "criteria": "Awarded the first time you use a wardrobe to change your character's outfit",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Trendy",
+        "nouns": [
+          "Model"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "order": 89,
+    "name": "First Custom Design!",
+    "rawName": "UseMydesign",
+    "type": "MyDesign",
+    "ver": 1,
+    "desc": "Learning to use the Custom Design app lets you personalize your clothes and furniture. So much fun to be had, yes, yes!",
+    "criteria": "Awarded the first time you use the Custom Design app to edit or create a design",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 500,
+        "modifier": "Aspiring",
+        "nouns": [
+          "Artist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "order": 90,
+    "name": "Custom Design Pro!",
+    "rawName": "UseMydesignPRO",
+    "type": "MyDesign",
+    "ver": 1,
+    "desc": "You upgraded to the Pro version of the Custom Design app, hm? That makes you a fine Pro Custom Designer. Yes, yes! I'll reward you with Nook Miles to commemorate your Pro debut!",
+    "criteria": "Awarded the first time you use the Custom Design pro app to edit or create a design",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Pro",
+        "nouns": [
+          "Designer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "order": 91,
+    "name": "Paydirt!",
+    "rawName": "DigBell",
+    "type": "Money",
+    "ver": 1,
+    "desc": "I'll bet you didn't think you'd find buried Bells here, hm? But this is an island, after all. Buried treasure and whatnot. Enjoy some Nook Miles from Nook Inc. to celebrate your discovery.",
+    "criteria": "Awarded the first time you dig up bells from a shining spot",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Lucky",
+        "nouns": [
+          "Type"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "order": 92,
+    "name": "Shady Shakedown",
+    "rawName": "FallFurnitureLeaf",
+    "type": "Plant",
+    "ver": 1,
+    "desc": "Rumor has it that someone on this island likes to hide furniture in trees. Yes, yes! I'll give you Nook Miles based on the number of furniture items you shake out of trees. So get out there and shake!",
+    "criteria": "Number of furniture pieces you've found from shaking trees",
+    "isSeq": true,
+    "tiers": [
+      {
+        "num": 1,
+        "reward": 300,
+        "modifier": "Carefree",
+        "nouns": [
+          "Figure"
+        ]
+      },
+      {
+        "num": 10,
+        "reward": 1000,
+        "modifier": "Jovial",
+        "nouns": [
+          "Brute"
+        ]
+      },
+      {
+        "num": 20,
+        "reward": 2000,
+        "modifier": "Spirited",
+        "nouns": [
+          "Gifted One"
+        ]
+      },
+      {
+        "num": 50,
+        "reward": 3000,
+        "modifier": "Factual",
+        "nouns": [
+          "Outlaw"
+        ]
+      },
+      {
+        "num": 100,
+        "reward": 5000,
+        "modifier": "Inspirational",
+        "nouns": [
+          "Statement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "order": 93,
     "name": "Golden Milestone",
     "rawName": "CollectGoldTool",
     "type": "HHA",
@@ -1555,572 +3656,8 @@
     ]
   },
   {
-    "id": 77,
-    "order": 40,
-    "name": "Good Things in Store!",
-    "rawName": "HouseStorageItem",
-    "type": "Event",
-    "ver": 1,
-    "desc": "I'll reward you with miles based on the number of items you have in storage, hm? Using the convenient storage feature will make life on the island more pleasant!",
-    "criteria": "Store a specified number of items in your house storage",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 20,
-        "reward": 300,
-        "modifier": "Overstuffed",
-        "nouns": [
-          "Stylist"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Partially Obscured",
-        "nouns": [
-          "Talent"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "At-Capacity",
-        "nouns": [
-          "Manager"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Self-Possessed",
-        "nouns": [
-          "Coordinator"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 5000,
-        "modifier": "Invulnerable",
-        "nouns": [
-          "Life Hacker"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "order": 41,
-    "name": "Greedy Weeder",
-    "rawName": "SellWeed",
-    "type": "Plant",
-    "ver": 1,
-    "desc": "Nook Inc. salutes you for your beautification efforts. Nook Inc. rewards you with Nook Miles for selling weeds. Nook Inc. is quite generous, no?",
-    "criteria": "Sell a specified number of weeds",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 50,
-        "reward": 300,
-        "modifier": "Messy",
-        "nouns": [
-          "Lawn Clippings"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 500,
-        "modifier": "Omnivorous",
-        "nouns": [
-          "Custodian"
-        ]
-      },
-      {
-        "num": 1000,
-        "reward": 1000,
-        "modifier": "Herbivorous",
-        "nouns": [
-          "Sorter"
-        ]
-      },
-      {
-        "num": 2000,
-        "reward": 2000,
-        "modifier": "Vigorous",
-        "nouns": [
-          "Sprout"
-        ]
-      },
-      {
-        "num": 3000,
-        "reward": 3000,
-        "modifier": "Wild",
-        "nouns": [
-          "Beast"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "order": 42,
-    "name": "Growing Collection",
-    "rawName": "FillCatalog",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "You are aware that furniture and clothing you buy is added to your Nook Shopping catalog, yes? Were you also aware that you can earn miles for a large catalog? Well, you certainly are aware now!",
-    "criteria": "Number of unique furniture pieces you've added to your catalog",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 100,
-        "reward": 300,
-        "modifier": "Casual",
-        "nouns": [
-          "Materialist"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 500,
-        "modifier": "Curious",
-        "nouns": [
-          "Force"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 1000,
-        "modifier": "Greedy",
-        "nouns": [
-          "Collector"
-        ]
-      },
-      {
-        "num": 400,
-        "reward": 2000,
-        "modifier": "Materialistic",
-        "nouns": [
-          "Avatar"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 3000,
-        "modifier": "Legendary",
-        "nouns": [
-          "Walking Dictionary"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "order": 43,
-    "name": "Gulliver's Travails",
-    "rawName": "HelpGul",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "When you come across someone in trouble on the beach, you help them, setting a fine example for all the island residents. Such kindness will surely find its way back to you.",
-    "criteria": "Number of times you've helped Gulliver fix his communicator",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Flightless",
-        "nouns": [
-          "Fowl"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Perennial",
-        "nouns": [
-          "Lost One"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Off-Season",
-        "nouns": [
-          "Migratory Bird"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "order": 44,
-    "name": "Gyroid Getter",
-    "rawName": "FillGyroidList",
-    "type": "HHA",
-    "ver": 13,
-    "desc": "Collect different kinds of gyroids, and earn miles in return! I suspect once you experience life in their presence, you'll find it hard to resist hunting for more, hm?",
-    "criteria": "Touch specified number of unique gyroids",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Distinctive",
-        "nouns": [
-          "Curator"
-        ]
-      },
-      {
-        "num": 15,
-        "reward": 500,
-        "modifier": "Whimsical",
-        "nouns": [
-          "Statue"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Novel",
-        "nouns": [
-          "Symbol"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "order": 45,
-    "name": "Happy Birthday!",
-    "rawName": "ReachMyBirthday",
-    "type": "Event",
-    "ver": 1,
-    "desc": "Happy birthday to you! Take some Nook Miles, woo-hoo! Happy birthday to you-oo! Take some Nook Miles, woo-hoo! (Get yourself something nice.)",
-    "criteria": "Awarded the first time you play on your character's birthday",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 2000,
-        "modifier": "Celebratory",
-        "nouns": [
-          "Birthday Boy",
-          "Birthday Girl"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "order": 46,
-    "name": "Have a Nice DIY!",
-    "rawName": "FillRecipeList",
-    "type": "DIY",
-    "ver": 1,
-    "desc": "Nook Inc. will award Nook Miles for the number of DIY recipes you've collected. Think about that. You're earning...for learning! Yes, yes!",
-    "criteria": "Collect a specified number of DIY recipes",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Trivia",
-        "nouns": [
-          "Representative"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 500,
-        "modifier": "Savvy",
-        "nouns": [
-          "Intellectual"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 1000,
-        "modifier": "Understated",
-        "nouns": [
-          "Authority"
-        ]
-      },
-      {
-        "num": 150,
-        "reward": 2000,
-        "modifier": "Knowledge-Thirsty",
-        "nouns": [
-          "Sidekick"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Clever",
-        "nouns": [
-          "Father",
-          "Mother"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "order": 47,
-    "name": "Hoard Reward",
-    "rawName": "PlaceFurnitureMyHouse",
-    "type": "Event",
-    "ver": 1,
-    "desc": "Put more furniture in your house! Nook Inc. will give you Nook Miles based on the number of indoor furniture items you have. So you're earning rewards for making your house a home!",
-    "criteria": "Place a specified number of furniture in your house",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Interior",
-        "nouns": [
-          "Sort"
-        ]
-      },
-      {
-        "num": 15,
-        "reward": 1000,
-        "modifier": "Tentative",
-        "nouns": [
-          "Remodeler"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Comparative",
-        "nouns": [
-          "Sundries Fan"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 3000,
-        "modifier": "Assumed",
-        "nouns": [
-          "Appliance Fan"
-        ]
-      },
-      {
-        "num": 150,
-        "reward": 5000,
-        "modifier": "Abounding",
-        "nouns": [
-          "Interior-Design Fan"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "order": 48,
-    "name": "Host the Most",
-    "rawName": "InviteFriend",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "To encourage you to invite plenty of guests to the island, we're offering miles as an incentive. The more the merrier— and that goes for Nook Miles too!",
-    "criteria": "Number of other players that have visited your island",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Hospitable",
-        "nouns": [
-          "Friend"
-        ]
-      },
-      {
-        "num": 5,
-        "reward": 500,
-        "modifier": "Lonely",
-        "nouns": [
-          "Chum"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 1000,
-        "modifier": "Well-Known",
-        "nouns": [
-          "Partier"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "order": 49,
-    "name": "Island Designer",
-    "rawName": "ModifyIsland",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "At Nook Inc. we encourage the use of the Island Designer app to liven up the island. We're giving away miles the first time you use a permit for a path, river, or cliff!",
-    "criteria": "Awarded the first time you use the Island Designer app to place a path, add/remove water, and build/destroy a cliff",
-    "isSeq": false,
-    "tiers": [
-      {
-        "num": 0,
-        "reward": 500,
-        "modifier": "Trailblazing",
-        "nouns": [
-          "Runner"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 1000,
-        "modifier": "Swept-Away",
-        "nouns": [
-          "Pioneer"
-        ]
-      },
-      {
-        "num": 0,
-        "reward": 1000,
-        "modifier": "Cliffhanging",
-        "nouns": [
-          "Creator"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "order": 50,
-    "name": "Island Ichthyologist",
-    "rawName": "FillFishList",
-    "type": "Fish",
-    "ver": 1,
-    "desc": "Fill in your Critterpedia with fish and earn miles along the way. Can you categorize each and every type of fish that swims in your island's waters, hm?",
-    "criteria": "Collect a specified number of unique fish",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Small-Fry",
-        "nouns": [
-          "Pesca Pro"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Energetic",
-        "nouns": [
-          "Angler"
-        ]
-      },
-      {
-        "num": 40,
-        "reward": 1000,
-        "modifier": "Pond-Raised",
-        "nouns": [
-          "Tropical Fish"
-        ]
-      },
-      {
-        "num": 60,
-        "reward": 2000,
-        "modifier": "Hooked",
-        "nouns": [
-          "Reaction"
-        ]
-      },
-      {
-        "num": 80,
-        "reward": 3000,
-        "modifier": "Pole-Fishing",
-        "nouns": [
-          "Expert"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "order": 51,
-    "name": "Island Shutterbug",
-    "rawName": "TakePicture",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Congratulations on taking your first island photo! Please do show off your wonderful photos, whether they're impulse snaps or brilliant compositions.",
-    "criteria": "Awarded the first time you take a photo using the camera app on the NookPhone (screenshot button does not count, must use the app)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Photogenic",
-        "nouns": [
-          "Photographer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "order": 52,
-    "name": "Island Togetherness",
-    "rawName": "GreetAllVillager",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "One of the goals of Nook Inc. is resident togetherness. Our gregarious-greetings initiative aims to reward you with Nook Miles just for chatting with residents. Try to talk to all your neighbors every day!",
-    "criteria": "Talk to each one of your villagers every day",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Unhindered",
-        "nouns": [
-          "Wallflower"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Unabashedly",
-        "nouns": [
-          "Shy Kid"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Respected",
-        "nouns": [
-          "One"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Ludicrously Popular",
-        "nouns": [
-          "\"It\" Guy",
-          "\"It\" Girl"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 3000,
-        "modifier": "Natural",
-        "nouns": [
-          "Heart Stealer"
-        ]
-      }
-    ]
-  },
-  {
     "id": 18,
-    "order": 53,
+    "order": 94,
     "name": "Island and Yourland",
     "rawName": "VisitAnotherIsland",
     "type": "Communication",
@@ -2156,1628 +3693,91 @@
     ]
   },
   {
-    "id": 5,
-    "order": 54,
-    "name": "It's Raining Treasure!",
-    "rawName": "ShootDownBalloon",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "No one knows who sends the gifts attached to balloons to our island, but you can earn miles by shooting them down and collecting what's inside.",
-    "criteria": "Number of balloons you've shot down with a slingshot",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Easy-Breezy",
-        "nouns": [
-          "Slingshot Ace"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Atmospheric",
-        "nouns": [
-          "Floaty Thing"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Restless",
-        "nouns": [
-          "Hunter"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Flying",
-        "nouns": [
-          "Paradise"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 3000,
-        "modifier": "Elusive",
-        "nouns": [
-          "Vagabond"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "order": 55,
-    "name": "K.K. Mania",
-    "rawName": "GotoTotakekeShow",
+    "id": 19,
+    "order": 95,
+    "name": "Host the Most",
+    "rawName": "InviteFriend",
     "type": "Communication",
     "ver": 1,
-    "desc": "K.K. supports our island with his groovy brand of folk rock, so we should support him! The more K.K. shows you attend, the more Nook Miles you can earn.",
-    "criteria": "Number of K.K. shows you've attended",
+    "desc": "To encourage you to invite plenty of guests to the island, we're offering miles as an incentive. The more the merrier— and that goes for Nook Miles too!",
+    "criteria": "Number of other players that have visited your island",
     "isSeq": true,
     "tiers": [
       {
         "num": 1,
         "reward": 300,
-        "modifier": "Fickle",
+        "modifier": "Hospitable",
         "nouns": [
-          "Music-Lover"
+          "Friend"
+        ]
+      },
+      {
+        "num": 5,
+        "reward": 500,
+        "modifier": "Lonely",
+        "nouns": [
+          "Chum"
         ]
       },
       {
         "num": 10,
-        "reward": 500,
-        "modifier": "Covert",
-        "nouns": [
-          "Supporter"
-        ]
-      },
-      {
-        "num": 30,
         "reward": 1000,
-        "modifier": "Regular",
+        "modifier": "Well-Known",
         "nouns": [
-          "Fan"
-        ]
-      },
-      {
-        "num": 60,
-        "reward": 2000,
-        "modifier": "The Definition of",
-        "nouns": [
-          "Pop Star"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 3000,
-        "modifier": "Longtime",
-        "nouns": [
-          "Follower"
+          "Partier"
         ]
       }
     ]
   },
   {
-    "id": 80,
-    "order": 56,
-    "name": "Lost Treasure",
-    "rawName": "DropPresentinWater",
-    "type": "Negative",
-    "ver": 1,
-    "desc": "Oh my. You popped a balloon with a skillful shot, but the attached prize fell into the water! Maybe some Nook Miles will help you recover from that sunken feeling, hm?",
-    "criteria": "Awarded the first time a balloon present you shot lands in a body of water",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Catchable",
-        "nouns": [
-          "Klutz"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "order": 57,
-    "name": "Making a Change",
-    "rawName": "UseCloset",
-    "type": "MyDesign",
-    "ver": 1,
-    "desc": "A closet is a must-have item for a fashion trendsetter. I'll offer Nook Miles to anyone who has a closet and changes outfits, thereby increasing the chances of an island fashion trend catching on.",
-    "criteria": "Awarded the first time you use a wardrobe to change your character's outfit",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Trendy",
-        "nouns": [
-          "Model"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "order": 58,
-    "name": "Miles for Stalkholders",
-    "rawName": "BuyKabu",
-    "type": "Money",
-    "ver": 1,
-    "desc": "I have Nook Miles to give to any resident who purchases turnips. Buy them low, sell them high, and make a handsome profit! They'll rot in a week, though, so be careful.",
-    "criteria": "Awarded the first time you purchase turnips",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Weekend",
-        "nouns": [
-          "Stalkholder"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "order": 59,
-    "name": "Mmm-Mmm-Miles!",
-    "rawName": "CookFood",
-    "type": "Cooking",
-    "ver": 13,
-    "desc": "Gathering ingredients and creating delicious treats is great fun, is it not? Yes, yes, I do believe our chefs out there deserve miles for all the times they've prepared something delicious!",
-    "criteria": "Cook a specified number of foods",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Scorching",
-        "nouns": [
-          "Gourmet"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 500,
-        "modifier": "Sugary",
-        "nouns": [
-          "Sweets"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 1000,
-        "modifier": "Spicy",
-        "nouns": [
-          "Head Chef"
-        ]
-      },
-      {
-        "num": 300,
-        "reward": 2000,
-        "modifier": "Gourmet",
-        "nouns": [
-          "Epicure"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 3000,
-        "modifier": "Culinary",
-        "nouns": [
-          "Glutton"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "order": 60,
-    "name": "Moving Fees Paid!",
-    "rawName": "PayImmigrationCost",
-    "type": "Money",
-    "ver": 1,
-    "desc": "Thank you for paying all your fees for moving to the island! Take a Nook Miles rebate as a gift and give yourself a nice pat on the back, hm?",
-    "criteria": "Awarded when you pay off your initial loan using Nook Miles",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Autonomous",
-        "nouns": [
-          "Life"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "order": 61,
-    "name": "Netting Better!",
-    "rawName": "CatchBeeContinuously",
-    "type": "Insect",
-    "ver": 1,
-    "desc": "It's so impressive when someone can catch five wasps in a row—so impressive, in fact, that you'll earn some Nook Miles if you can do it!",
-    "criteria": "Awarded the first time you catch five wasps in a row without running away or getting stung",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 1000,
-        "modifier": "Accurate",
-        "nouns": [
-          "Deadeye"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "order": 62,
-    "name": "Nice to Meet You, Gyroid!",
-    "rawName": "DigGyroid",
-    "type": "HHA",
-    "ver": 13,
-    "desc": "You've discovered your first gyroid! This special occasion deserves miles, yes, yes. I hope you feel inspired to collect all sorts of different, wonderful gyroids now.",
-    "criteria": "Dig up your first gyroid",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Rain-Soaked",
-        "nouns": [
-          "Gyroid"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "order": 63,
-    "name": "No More Loan Payments!",
-    "rawName": "RepayLoan",
-    "type": "Money",
-    "ver": 1,
-    "desc": "You see how this works? You pay off your loan, you get some Nook Miles! Thank you for doing business with Nook Inc.!",
-    "criteria": "Awarded after paying off your first house loan with bells",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 1000,
-        "modifier": "Responsible",
-        "nouns": [
-          "Bill Payer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "order": 64,
-    "name": "Nook Miles for Miles!",
-    "rawName": "AchieveAppQuest",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Earning Nook Miles for earning Nook Miles? Yes, yes! You just earned miles for finishing Nook Miles+ goals! But where will it end?",
-    "criteria": "Number of Nook Miles+ goals you've completed",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "So-Called",
-        "nouns": [
-          "Ground Traveler"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 500,
-        "modifier": "Novice",
-        "nouns": [
-          "Rookie"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 1000,
-        "modifier": "Wide-Ranging",
-        "nouns": [
-          "Hobbyist"
-        ]
-      },
-      {
-        "num": 1000,
-        "reward": 2000,
-        "modifier": "Perfectionist",
-        "nouns": [
-          "Go-Getter"
-        ]
-      },
-      {
-        "num": 3000,
-        "reward": 3000,
-        "modifier": "Year-Round",
-        "nouns": [
-          "Dynamo"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "order": 65,
-    "name": "NookPhone Life",
-    "rawName": "BootPhoneBeginner",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Gotten used to using your NookPhone? The fact that you're reading this probably means you have! Keep using it, and enjoy some Nook Miles just for getting familiar with it.",
-    "criteria": "Awarded after the 10th time you open your NookPhone",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Smartphone",
-        "nouns": [
-          "Savant"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "order": 66,
-    "name": "Overcoming Pitfalls",
-    "rawName": "FallintoPitfall",
-    "type": "Negative",
-    "ver": 1,
-    "desc": "Life is full of peaks and valleys, hills and pits. When you fall into a pit, you learn a lesson, hm? Be more careful next time, yes? Don't feel too bad, though. You're getting some bonus Nook Miles for your fall.",
-    "criteria": "Awarded the first time you fall into a pitfall hole",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Trapped",
-        "nouns": [
-          "Reckless One"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "order": 67,
-    "name": "Paydirt!",
-    "rawName": "DigBell",
-    "type": "Money",
-    "ver": 1,
-    "desc": "I'll bet you didn't think you'd find buried Bells here, hm? But this is an island, after all. Buried treasure and whatnot. Enjoy some Nook Miles from Nook Inc. to celebrate your discovery.",
-    "criteria": "Awarded the first time you dig up bells from a shining spot",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Lucky",
-        "nouns": [
-          "Type"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "order": 68,
-    "name": "Pick of the Bunch",
-    "rawName": "SellFruit",
-    "type": "Plant",
-    "ver": 1,
-    "desc": "You'll get Nook Miles based on the amount of fruit you've sold. Remember: If you sell our island's specialty fruits on other islands, you might be able to get a better price!",
-    "criteria": "Sell a specified number of fruits",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 20,
-        "reward": 300,
-        "modifier": "Inexperienced",
-        "nouns": [
-          "Observationist"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 500,
-        "modifier": "Precocious",
-        "nouns": [
-          "Bounty"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 1000,
-        "modifier": "Seasonal",
-        "nouns": [
-          "Tree"
-        ]
-      },
-      {
-        "num": 1000,
-        "reward": 2000,
-        "modifier": "Mature",
-        "nouns": [
-          "Kind"
-        ]
-      },
-      {
-        "num": 3000,
-        "reward": 3000,
-        "modifier": "Rotten",
-        "nouns": [
-          "Scent"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "order": 69,
-    "name": "Pit-y Party",
-    "rawName": "MakePitfall",
-    "type": "HHA",
-    "ver": 1,
-    "desc": "Enjoy some bonus Nook Miles to commemorate the creation of your first pit. Just make sure you don't fall victim to your own handiwork!",
-    "criteria": "Awarded the first time you bury a pitfall seed",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Wild-Child",
-        "nouns": [
-          "Troublemaker"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "order": 70,
-    "name": "Popular Pen Pal",
-    "rawName": "SendLetter",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "I'll reward you with miles if you send a lot of letters. Please keep sending letters to everyone and continuing to deepen friendships. Yes, yes!",
-    "criteria": "Number of letters you've sent",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Art-School",
-        "nouns": [
-          "Boy",
-          "Girl"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Science-y",
-        "nouns": [
-          "Student"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Liberal-Arts",
-        "nouns": [
-          "Poet"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Subculture",
-        "nouns": [
-          "Denizen"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Deadline",
-        "nouns": [
-          "Writer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "order": 71,
-    "name": "Reaction Ruler",
-    "rawName": "FillReactionList",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "You learned a Reaction! Let's celebrate this momentous occasion with...Nook Miles, hm? Reactions help you express yourself, so it's a good idea to learn them.",
-    "criteria": "Learn a specified number of reactions",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Overacting",
-        "nouns": [
-          "Neophyte"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Apprentice",
-        "nouns": [
-          "Dancer"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Dad-Joking",
-        "nouns": [
-          "Semiprofessional"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Solo",
-        "nouns": [
-          "Comedian"
-        ]
-      },
-      {
-        "num": 42,
-        "reward": 3000,
-        "modifier": "Super-Popular",
-        "nouns": [
-          "Mega Star"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "order": 72,
-    "name": "Remarkable Remodeler",
-    "rawName": "ReformMyHome",
+    "id": 21,
+    "order": 96,
+    "name": "Active Island Resident",
+    "rawName": "DayPlayed",
     "type": "Event",
     "ver": 1,
-    "desc": "You finished remodeling your house, hm? It looks like a completely new house now! I'll give you rewards based on the number of remodels you do, so keep it up!",
-    "criteria": "Remodel your home's exterior a specified number of times",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Home",
-        "nouns": [
-          "Transformer"
-        ]
-      },
-      {
-        "num": 3,
-        "reward": 1000,
-        "modifier": "Dreamy",
-        "nouns": [
-          "Dreamer"
-        ]
-      },
-      {
-        "num": 5,
-        "reward": 2000,
-        "modifier": "Quintessential",
-        "nouns": [
-          "Space"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "order": 73,
-    "name": "Rock-Splitting Champ",
-    "rawName": "StrikeRock8Times",
-    "type": "HHA",
-    "ver": 1,
-    "desc": "You hit a single rock eight times in a row and knocked some things loose. But did you know that rock whacking is the activity that keeps on giving? Yes, yes! You're getting some Nook Miles now!",
-    "criteria": "Hit a rock with your shovel and obtain all 8 materials from that rock",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 500,
-        "modifier": "Sports-Minded",
-        "nouns": [
-          "Muscle"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "order": 74,
-    "name": "Rough-hewn",
-    "rawName": "StrikeWood",
-    "type": "DIY",
-    "ver": 1,
-    "desc": "Island development is Nook Inc.'s goal. We need a lot of materials to make that happen, so we're giving away Nook Miles based on how much wood you've chopped from trees.",
-    "criteria": "Chop a specified number of wood from trees",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 20,
-        "reward": 300,
-        "modifier": "Specific",
-        "nouns": [
-          "Producer"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 500,
-        "modifier": "Aggressive",
-        "nouns": [
-          "Problem Solver"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 1000,
-        "modifier": "Sharp",
-        "nouns": [
-          "Guard"
-        ]
-      },
-      {
-        "num": 2000,
-        "reward": 2000,
-        "modifier": "Pointy",
-        "nouns": [
-          "Tack"
-        ]
-      },
-      {
-        "num": 5000,
-        "reward": 3000,
-        "modifier": "Productive",
-        "nouns": [
-          "Superhero"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "order": 75,
-    "name": "Seller of Unwanted Stuff",
-    "rawName": "SellItemRcm",
-    "type": "Money",
-    "ver": 1,
-    "desc": "Selling things you don't need is a great way to keep down the clutter and earn a few extra Bells. And, in this case, a few extra miles! Hooray for your first sale!",
-    "criteria": "Awarded the first time you sell an item to a shop",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Down-And-Out",
-        "nouns": [
-          "Eventuality"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "order": 76,
-    "name": "Set Sail for Adventure",
-    "rawName": "VisitKappeiTour",
-    "type": "Communication",
-    "ver": 13,
-    "desc": "Rare items and exciting adventures are yours when you head out on a special tour with a veteran sailor, yes, yes!",
-    "criteria": "Number of times you've gone on a Kapp'n tour",
+    "desc": "Life on the island has lots of promise, hm? To illustrate this, I'll award you some Nook Miles based on the number of active days you've spent here. Please take them and enjoy them.",
+    "criteria": "Number of total unique days you've played the game",
     "isSeq": true,
     "tiers": [
       {
         "num": 3,
         "reward": 300,
-        "modifier": "Sun-Kissed",
+        "modifier": "Self-Paced",
         "nouns": [
-          "Boater"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Household",
-        "nouns": [
-          "Provider"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Voyaging",
-        "nouns": [
-          "Explorer"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Family-Minded",
-        "nouns": [
-          "Parent"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 3000,
-        "modifier": "Impressive",
-        "nouns": [
-          "Family"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "order": 77,
-    "name": "Shady Shakedown",
-    "rawName": "FallFurnitureLeaf",
-    "type": "Plant",
-    "ver": 1,
-    "desc": "Rumor has it that someone on this island likes to hide furniture in trees. Yes, yes! I'll give you Nook Miles based on the number of furniture items you shake out of trees. So get out there and shake!",
-    "criteria": "Number of furniture pieces you've found from shaking trees",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Carefree",
-        "nouns": [
-          "Figure"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 1000,
-        "modifier": "Jovial",
-        "nouns": [
-          "Brute"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 2000,
-        "modifier": "Spirited",
-        "nouns": [
-          "Gifted One"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 3000,
-        "modifier": "Factual",
-        "nouns": [
-          "Outlaw"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 5000,
-        "modifier": "Inspirational",
-        "nouns": [
-          "Statement"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "order": 78,
-    "name": "Shop to It",
-    "rawName": "BuyItemCatalog",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Living on a remote island doesn't mean you have to go without life's luxuries. Shop to your heart's content with Nook Shopping and you'll earn Nook Miles!",
-    "criteria": "Number of times you've ordered from the Nook Shopping catalog",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Internet",
-        "nouns": [
-          "Surfer"
+          "Chill Soul"
         ]
       },
       {
         "num": 20,
         "reward": 500,
-        "modifier": "Connected",
+        "modifier": "Active",
         "nouns": [
-          "Reviewer"
+          "Specialist"
         ]
       },
       {
         "num": 50,
         "reward": 1000,
-        "modifier": "Widely Accepted",
+        "modifier": "Sleepless",
         "nouns": [
-          "Connector"
+          "Adventurer"
         ]
       },
       {
         "num": 100,
         "reward": 2000,
-        "modifier": "Disconnected",
+        "modifier": "Nicknamed",
         "nouns": [
-          "Worrywart"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Always-On",
-        "nouns": [
-          "Bigwig"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "order": 79,
-    "name": "Shrubbery Hubbubbery",
-    "rawName": "PlantBushSeedling",
-    "type": "Plant",
-    "ver": 3,
-    "desc": "Different kinds of shrubs usher in the different seasons with their flowers, yes, yes! Folks who plant many shrubs will receive beauty and miles as a reward.",
-    "criteria": "Plant a specified number of shrubs (replanting existing shrubs does not count)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Verdant",
-        "nouns": [
-          "Wonder"
-        ]
-      },
-      {
-        "num": 5,
-        "reward": 500,
-        "modifier": "Unrestrained",
-        "nouns": [
-          "Sentinel"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Surprising",
-        "nouns": [
-          "Snake"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "order": 80,
-    "name": "Smile Isle",
-    "rawName": "AchieveVillagersQuest",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "Good deeds are their own rewards. But go ahead and have some Nook Miles too for fulfilling requests from other island residents. Yes, yes!",
-    "criteria": "Fulfill a specified number of requests from residents (such as returning lost items)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Kindly",
-        "nouns": [
-          "Standard"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Reliable",
-        "nouns": [
-          "Ally"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Generous",
-        "nouns": [
-          "Supervisor"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Exalted",
-        "nouns": [
-          "Savior"
+          "Gamer"
         ]
       },
       {
         "num": 300,
         "reward": 3000,
-        "modifier": "Foolhardy",
+        "modifier": "Ready-Made",
         "nouns": [
-          "Hero",
-          "Heroine"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "order": 81,
-    "name": "Snowmaestro",
-    "rawName": "MakePerfectSnowball",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "What's this? You get Nook Miles based on how many quality snowfolks you've built? That's a pretty good deal for just having a little fun in the snow.",
-    "criteria": "Number of perfect snow-people you've built",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Cold-Sensitive",
-        "nouns": [
-          "Sprite"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Snow",
-        "nouns": [
-          "Angel"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Cool",
-        "nouns": [
-          "Imp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "order": 82,
-    "name": "Sprout Out Loud",
-    "rawName": "PlantVegetableSeedling",
-    "type": "Vegetable",
-    "ver": 13,
-    "desc": "Plant your produce starts across the whole island for a fresh, bounteous crop! Whether it's a small home garden or a full-on field, support Nook Inc. with all your produce-planting power! Yes, yes!",
-    "criteria": "Plant a specified number of produce sprouts (replanting existing sprouts does not count)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Field-Fresh",
-        "nouns": [
-          "Fertilizer"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Locally Sourced",
-        "nouns": [
-          "Soil"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Sustainable",
-        "nouns": [
-          "Start"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Hardworking",
-        "nouns": [
-          "Days"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Green-Thumbed",
-        "nouns": [
-          "Success"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "order": 83,
-    "name": "Stretch to Refresh!",
-    "rawName": "JoinRadioGymnastics",
-    "type": "Communication",
-    "ver": 13,
-    "desc": "The health of our residents is a top priority, yes, yes! So we're holding group-stretching sessions in the plaza. I'll provide miles once per day for participating, and there will be a tape deck for music. I hope I see you there!",
-    "criteria": "Number of days you've participated in group stretching",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 3,
-        "reward": 300,
-        "modifier": "Peppy",
-        "nouns": [
-          "Kids"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Athletic",
-        "nouns": [
-          "Fitness Fan"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Sporty",
-        "nouns": [
-          "Athlete"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Peak-Performing",
-        "nouns": [
-          "Bodybuilder"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 3000,
-        "modifier": "Stoic",
-        "nouns": [
-          "Health Nut"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "order": 84,
-    "name": "Taking the Sting Out",
-    "rawName": "BeStungbyWasp",
-    "type": "Negative",
-    "ver": 1,
-    "desc": "Getting stung by wasps hurts! Getting stung again before you can recover makes you faint! But at least you get some miles for that. I don't want you to be uncomfortable, though, so take some medicine to heal up!",
-    "criteria": "Awarded the first time you get stung by a wasp",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Teary-Eyed",
-        "nouns": [
-          "Crybaby"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "order": 85,
-    "name": "That's One Smart Phone",
-    "rawName": "BootPhone",
-    "type": "Smartphone",
-    "ver": 1,
-    "desc": "Nothing makes a smartphone manufacturer happier than a user who gets the most out of the device. At least, that's how Nook Inc. feels about the NookPhone. So we're giving you miles just for using your phone!",
-    "criteria": "Awarded after the 1000th time you open your NookPhone",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1000,
-        "reward": 1000,
-        "modifier": "Digital-Age",
-        "nouns": [
-          "Child"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "order": 86,
-    "name": "Tomorrow's Trees Today",
-    "rawName": "PlantTreeSeedling",
-    "type": "Plant",
-    "ver": 1,
-    "desc": "To build a sustainable life on this island, we're going to need to plant a lot of trees! The more you plant, the more miles you can earn.",
-    "criteria": "Plant a specified number of trees (planting fruits or replanting existing trees does not count)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Outdoorsy",
-        "nouns": [
-          "Defender"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Organic",
-        "nouns": [
-          "Dietitian"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 1000,
-        "modifier": "Hay-Feverish",
-        "nouns": [
-          "Sneezer"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "order": 87,
-    "name": "Trash Fishin'",
-    "rawName": "CatchTrash",
-    "type": "Fish",
-    "ver": 1,
-    "desc": "You work extra hard to keep our island clean, even going so far as to fish up trash out of our lovely waters. So you're getting some Nook Miles for keeping the island extra tidy, yes, yes!",
-    "criteria": "Fish a specified number of trash (cans, tires, or boots)",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 3,
-        "reward": 300,
-        "modifier": "Untossable",
-        "nouns": [
-          "Trash"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Eco-Friendly",
-        "nouns": [
-          "Ecologist"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Waterway",
-        "nouns": [
-          "Cleaner"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "order": 88,
-    "name": "Trashed Tools",
-    "rawName": "BreakTool",
-    "type": "HHA",
-    "ver": 1,
-    "desc": "Using a tool until it breaks is proof of your hard work! In praise of your good deeds, you're getting Nook Miles based on how many tools you've broken.",
-    "criteria": "Break a specified number of tools",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Rascally",
-        "nouns": [
-          "Clown"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 500,
-        "modifier": "Overboard",
-        "nouns": [
-          "Crusher"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 1000,
-        "modifier": "Rowdy",
-        "nouns": [
-          "Punk"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 2000,
-        "modifier": "Rough-And-Tumble",
-        "nouns": [
-          "Meanie"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 3000,
-        "modifier": "Chaotic",
-        "nouns": [
-          "Ruiner"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "order": 89,
-    "name": "True Friends",
-    "rawName": "BeFriendwithVillager",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "It's good news for Nook Inc. when island residents get along. Good relationships are a cornerstone of island development!",
-    "criteria": "Number of villagers you've become good friends with",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Soothing",
-        "nouns": [
-          "Pal"
-        ]
-      },
-      {
-        "num": 2,
-        "reward": 500,
-        "modifier": "Friendly",
-        "nouns": [
-          "Buddy"
-        ]
-      },
-      {
-        "num": 3,
-        "reward": 1000,
-        "modifier": "Friendship",
-        "nouns": [
-          "Seeker"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "order": 90,
-    "name": "True Patron of the Arts",
-    "rawName": "BuyatTsunekichiShop",
-    "type": "Communication",
-    "ver": 3,
-    "desc": "Collecting artwork contributes to the cultural quality of (island name), and Nook Inc. will give miles to folks who prove themselves discerning connoisseurs.",
-    "criteria": "Number of times you've purchased art that turned out to be real",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Shady",
-        "nouns": [
-          "Seller"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Discerning",
-        "nouns": [
-          "Aficionado"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Bold",
-        "nouns": [
-          "Artistic Statement"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "order": 91,
-    "name": "Underwater Understudy",
-    "rawName": "FillSeafoodList",
-    "type": "Seafood",
-    "ver": 4,
-    "desc": "There are still many creatures we have yet to discover at the bottom of the sea, hm? Earn miles by diving deep, capturing creatures, and filling out your Critterpedia. Yes, yes!",
-    "criteria": "Collect a specified number of unique sea creatures",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 5,
-        "reward": 300,
-        "modifier": "Cerulean",
-        "nouns": [
-          "Diver"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Fresh",
-        "nouns": [
-          "Ingredient"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Surfing",
-        "nouns": [
-          "Pa",
-          "Ma"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 2000,
-        "modifier": "Waterlogged",
-        "nouns": [
-          "Seaweed"
-        ]
-      },
-      {
-        "num": 40,
-        "reward": 3000,
-        "modifier": "Seaside",
-        "nouns": [
-          "Darling",
-          "Honey"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "order": 92,
-    "name": "Wishes Come True",
-    "rawName": "PrayShootingStar",
-    "type": "LandMaking",
-    "ver": 1,
-    "desc": "Were you wishing for Nook Miles the last time you saw a shooting star? Hm? Because Nook Inc. is here to grant your wish. More wishes, more miles! Yes, yes!",
-    "criteria": "Number of shooting stars you've wished on",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Late-Night",
-        "nouns": [
-          "Meteorite"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 1000,
-        "modifier": "Wishful",
-        "nouns": [
-          "Legend"
-        ]
-      },
-      {
-        "num": 200,
-        "reward": 2000,
-        "modifier": "Overnight",
-        "nouns": [
-          "Superstar"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "order": 93,
-    "name": "Wispy Island Secrets",
-    "rawName": "HelpGst",
-    "type": "Communication",
-    "ver": 1,
-    "desc": "If you happen to encounter one of the island's secrets, maybe just keep it to yourself. We don't want to scare anyone away from here. Pretty sure that's in your island contract...",
-    "criteria": "Number of times you've helped Wisp find the parts of his spirit",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Cowardly",
-        "nouns": [
-          "Ghost"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Supernatural",
-        "nouns": [
-          "Soul"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Soulful",
-        "nouns": [
-          "Soul Mate"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "order": 94,
-    "name": "Writing a Cookbook?",
-    "rawName": "FillCookingList",
-    "type": "Cooking",
-    "ver": 13,
-    "desc": "The recipes in your collection could stretch for miles, so allow me to present you with these...miles! Delight the eyes and stomachs of your neighbors with all your delicious creations, hm?",
-    "criteria": "Learn a specified number of cooking DIY recipes",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Ever-Improving",
-        "nouns": [
-          "Test Chef"
-        ]
-      },
-      {
-        "num": 30,
-        "reward": 1000,
-        "modifier": "Skilled",
-        "nouns": [
-          "Cook"
-        ]
-      },
-      {
-        "num": 50,
-        "reward": 2000,
-        "modifier": "Homestyle",
-        "nouns": [
-          "Chef"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "order": 95,
-    "name": "You Otter Know",
-    "rawName": "GiveScallopsToSeo",
-    "type": "Communication",
-    "ver": 4,
-    "desc": "If you meet a laid-back fellow floating in the sea, consider sharing some of your scallops with him. You never know what you might learn in return...and a little gift never hurts either!",
-    "criteria": "Number of times you've given scallops to Pascal",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 1,
-        "reward": 300,
-        "modifier": "Kind",
-        "nouns": [
-          "Cynic"
-        ]
-      },
-      {
-        "num": 10,
-        "reward": 500,
-        "modifier": "Hungry",
-        "nouns": [
-          "Philosopher"
-        ]
-      },
-      {
-        "num": 20,
-        "reward": 1000,
-        "modifier": "Oceanic",
-        "nouns": [
-          "Existentialist"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "order": 96,
-    "name": "You've Got the Bug",
-    "rawName": "CatchInsect",
-    "type": "Insect",
-    "ver": 1,
-    "desc": "Earn miles just for catching creepy-crawlies! Every bug you catch is one that won't be surprising someone in their sock drawer.",
-    "criteria": "Collect a specified number of bugs",
-    "isSeq": true,
-    "tiers": [
-      {
-        "num": 10,
-        "reward": 300,
-        "modifier": "Freshly Delivered",
-        "nouns": [
-          "Egg"
-        ]
-      },
-      {
-        "num": 100,
-        "reward": 500,
-        "modifier": "Weak",
-        "nouns": [
-          "Grub"
-        ]
-      },
-      {
-        "num": 500,
-        "reward": 1000,
-        "modifier": "Emerging",
-        "nouns": [
-          "Pupa"
-        ]
-      },
-      {
-        "num": 2000,
-        "reward": 2000,
-        "modifier": "Soaring",
-        "nouns": [
-          "Butterfly"
-        ]
-      },
-      {
-        "num": 5000,
-        "reward": 3000,
-        "modifier": "Complete",
-        "nouns": [
-          "Metamorphosis"
+          "MVP"
         ]
       }
     ]

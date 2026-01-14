@@ -29,7 +29,6 @@ const sizes = [100, 75, 70, 65, 65, 55];
 const iconSize = computed(() => sizes[props.data.tiers.length - 1] || 65);
 const positions = computed(() => {
   const length = props.data.tiers.length;
-  const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0;
   const centerX = containerWidth.value / 2;
   const centerY = containerHeight.value / 2;
 
@@ -43,6 +42,7 @@ const positions = computed(() => {
   for (let i = 0; i < length; i++) {
     const x = offset + i * (iconSize.value + gapX) + iconSize.value / 2;
     const y = centerY + (i % 2 === 0 ? -gapY : gapY);
+    const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0;
     pos.push({ x, y, angle });
   }
   return pos;
