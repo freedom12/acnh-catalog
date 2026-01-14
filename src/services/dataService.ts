@@ -1,4 +1,4 @@
-import {
+﻿import {
   type CatalogItem,
   type Translations,
   type Item,
@@ -21,7 +21,15 @@ import { ConstructionType, type Construction } from '../types/construction';
 import type { MessageCard } from '../types/messagecard';
 import type { Music } from '../types/music';
 import { BASE_PATH, CONFIG } from '../config';
-import { ItemType, Version, ItemSize, Color, Currency, KitType } from '../types/item';
+import {
+  ItemType,
+  Version,
+  ItemSize,
+  Color,
+  Currency,
+  KitType,
+  Catalog,
+} from '../types/item';
 
 export type Price = [number, Currency] | number;
 export type CusCost = [number, KitType];
@@ -32,7 +40,7 @@ export const ItemTypeNameMap: Record<ItemType, string> = {
   [ItemType.Miscellaneous]: '家具/小物件',
   [ItemType.WallMounted]: '家具/壁挂物',
   [ItemType.CeilingDecor]: '家具/天花板',
-  [ItemType.InteriorStructures]: '家具/其他',
+  [ItemType.InteriorStructures]: '家具/室内结构',
   [ItemType.Tops]: '服饰/上装',
   [ItemType.Bottoms]: '服饰/下装',
   [ItemType.DressUp]: '服饰/套装',
@@ -42,7 +50,7 @@ export const ItemTypeNameMap: Record<ItemType, string> = {
   [ItemType.Shoes]: '服饰/鞋子',
   [ItemType.Bags]: '服饰/包包',
   [ItemType.Umbrellas]: '服饰/雨伞',
-  [ItemType.ClothingOther]: '服饰/其他',
+  [ItemType.ClothingOther]: '服饰/潜水服',
   [ItemType.ToolsGoods]: '工具',
   [ItemType.Fencing]: '栅栏',
   [ItemType.Wallpaper]: '壁纸',
@@ -124,6 +132,13 @@ export const RecipeTypeNameMap: Record<RecipeType, string> = {
   [RecipeType.Other]: '其他',
   [RecipeType.Savory]: '食物',
   [RecipeType.Sweet]: '点心',
+};
+
+export const CatalogNameMap: Record<Catalog, string> = {
+  [Catalog.NotInCatalog]: '不在目录中',
+  [Catalog.NotForSale]: '非卖品',
+  [Catalog.ForSale]: '售卖品',
+  [Catalog.Seasonal]: '限定品',
 };
 
 export const CreatureTypeNameMap: Record<CreatureType, string> = {
@@ -236,11 +251,32 @@ export function getSizeIcon(size: ItemSize): string {
   return getImgUrl(`img/icon/size/${iconMap[size]}`);
 }
 
+export function getSizeWithIcon(size: ItemSize): string {
+  const sizeName = getSizeName(size);
+  const icon = getSizeIcon(size);
+  if (!icon) return sizeName;
+  return `${sizeName} <img src="${icon}" class="inline-icon" />`;
+}
+
 export function getColorName(color: Color | string): string {
   if (typeof color === 'string') {
     color = Object.entries(Color).find(([k]) => k === color)?.[1] as Color;
   }
   return colorNameMap[color];
+}
+
+export function getCatalogName(catalog: Catalog): string {
+  return CatalogNameMap[catalog];
+}
+
+export function getCatalogIcon(catalog: Catalog): string {
+  const iconMap: Record<Catalog, string> = {
+    [Catalog.NotInCatalog]: '',
+    [Catalog.NotForSale]: getImgUrl('img/icon/catalog_2.png'),
+    [Catalog.ForSale]: getImgUrl('img/icon/catalog_3.png'),
+    [Catalog.Seasonal]: getImgUrl('img/icon/catalog_4.png'),
+  };
+  return iconMap[catalog];
 }
 
 export function getCurrencyName(currency: Currency): string {

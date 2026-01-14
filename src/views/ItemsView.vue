@@ -17,6 +17,7 @@ import {
   getHHASetName,
   getHHACategoryName,
   getTagName,
+  getCatalogName,
 } from '../services/dataService';
 import {
   ItemType,
@@ -25,6 +26,7 @@ import {
   Color,
   getItemTagOrder,
   ClothingTypes,
+  Catalog,
 } from '../types/item';
 
 const {
@@ -68,6 +70,11 @@ const filters = computed<Filter[]>(() => {
   const colorsOptions = Object.values(Color).map((color) => ({
     value: color,
     label: getColorName(color),
+  }));
+
+  const catalogOptions = Object.values(Catalog).map((catalog) => ({
+    value: catalog,
+    label: getCatalogName(catalog),
   }));
 
   const sourcesSet = new Set<string>();
@@ -144,6 +151,7 @@ const filters = computed<Filter[]>(() => {
     { label: '版本', value: 'version', options: versionsOptions },
     { label: '尺寸', value: 'size', options: sizesOptions },
     { label: '颜色', value: 'color', options: colorsOptions },
+    { label: '目录', value: 'catalog', options: catalogOptions },
     { label: '来源', value: 'source', options: sourcesOptions },
     { label: 'HHA主题', value: 'series', options: seriesOptions },
     { label: 'HHA场景', value: 'concept', options: conceptsOptions },
@@ -216,6 +224,11 @@ const { filteredData, handleFiltersChanged } = useFilter(
       }
       // 切换到第一个符合条件的变体
       item.switchToColorVariant(color);
+    }
+
+    // 目录筛选
+    if (selectedFilters.catalog) {
+      if (!item.matchesCatalog(selectedFilters.catalog as Catalog)) return false;
     }
 
     // 来源筛选

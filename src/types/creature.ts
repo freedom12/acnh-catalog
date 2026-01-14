@@ -40,4 +40,8 @@ export interface Creature {
   };
   catchPhrase: string;
   desc: string;
+  rate:string;
+  unlock: number;
+  shadowSize?: string;
+  difficulty?: string;
 }

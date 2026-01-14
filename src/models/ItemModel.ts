@@ -19,6 +19,7 @@ import {
   getItemVariantTitle,
   getPriceWithIcon,
   getCusCost,
+  getCatalogName,
 } from '../services/dataService';
 import {
   Color,
@@ -30,6 +31,7 @@ import {
   getItemTagOrder,
   getHousewareTagGroupIndex,
   getMiscellaneousTagGroupIndex,
+  Catalog,
 } from '../types/item';
 import type { Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
@@ -134,6 +136,14 @@ export class ItemModel {
 
   get colorNames(): string[] {
     return this.colors.map((color) => getColorName(color) || '');
+  }
+
+  get catalog(): Catalog {
+    return this._data.cat;
+  }
+
+  get catalogName(): string {
+    return getCatalogName(this.catalog);
   }
 
   get buyPrices(): Price[] {
@@ -497,6 +507,11 @@ export class ItemModel {
   matchesSize(size?: ItemSize): boolean {
     if (size === undefined) return true;
     return this.size === size;
+  }
+
+  matchesCatalog(catalog?: Catalog): boolean {
+    if (!catalog) return true;
+    return this.catalog === catalog;
   }
 
   matchesTag(tag: string): boolean {

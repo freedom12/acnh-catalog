@@ -8,6 +8,7 @@ import {
   getPriceWithIcon,
   getCreatureTypeName,
   getCreatureTypeIcon,
+  getSizeWithIcon,
 } from '../services/dataService';
 
 const props = defineProps<{
@@ -27,18 +28,8 @@ const getTime = (creature: Creature): string => {
   return hemisphere.time.join(', ');
 };
 
-// 获取天气信息
-const getWeather = (creature: Creature): string => {
-  return creature.weather || '--';
-};
-
-// 获取位置信息
-const getLocation = (creature: Creature): string => {
-  return creature.whereHow || '--';
-};
-
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.name}`, '_blank');
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
 // 根据生物类型选择颜色主题
@@ -115,12 +106,28 @@ const variant = computed(() => {
       }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">天气</span>
-      <span class="detail-value">{{ getWeather(props.data) }}</span>
+      <span class="detail-label">解锁</span>
+      <span class="detail-value">{{ props.data.unlock }}</span>
     </div>
-    <div class="detail-row full">
-      <span class="detail-label">出现地点</span>
-      <span class="detail-value">{{ getLocation(props.data) }}</span>
+    <div class="detail-row">
+      <span class="detail-label">出现概率</span>
+      <span class="detail-value">{{ props.data.rate }}</span>
+    </div>
+    <div v-if="props.data.shadowSize" class="detail-row">
+      <span class="detail-label">阴影尺寸</span>
+      <span class="detail-value">{{ props.data.shadowSize }}</span>
+    </div>
+    <div v-if="props.data.difficulty" class="detail-row">
+      <span class="detail-label">捕获难度</span>
+      <span class="detail-value">{{ props.data.difficulty }}</span>
+    </div>
+    <div v-if="props.data.weather" class="detail-row">
+      <span class="detail-label">天气</span>
+      <span class="detail-value">{{ props.data.weather }}</span>
+    </div>
+    <div v-if="props.data.whereHow" class="detail-row full">
+      <span class="detail-label">地点</span>
+      <span class="detail-value">{{ props.data.whereHow }}</span>
     </div>
     <div class="detail-row full">
       <span class="detail-label">捕获台词</span>
@@ -129,6 +136,10 @@ const variant = computed(() => {
     <div class="detail-row full">
       <span class="detail-label">描述</span>
       <span class="detail-value">{{ props.data.desc }}</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">尺寸</span>
+      <span class="detail-value" v-html="getSizeWithIcon(props.data.size)"> </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>

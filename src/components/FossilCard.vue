@@ -3,7 +3,8 @@ import { ref, computed } from 'vue';
 import { UI_TEXT } from '../constants';
 import type { Fossil } from '../types/fossil';
 import BaseCard from './BaseCard.vue';
-import { getPriceWithIcon } from '../services/dataService';
+import { getPriceWithIcon, getSizeWithIcon } from '../services/dataService';
+import { getFossilTypeName, ItemSize } from '../types';
 
 const props = defineProps<{
   data: Fossil;
@@ -15,12 +16,16 @@ const currentPrice = computed(() => {
   return props.data.parts[currentPartIndex.value]?.sell || 0;
 });
 
+const currentSize = computed(() => {
+  return props.data.parts[currentPartIndex.value]?.size || ItemSize.The1X1;
+});
+
 const handleImageIndexChanged = (index: number) => {
   currentPartIndex.value = index;
 };
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/Fossils`, '_blank');
+  window.open(`https://nookipedia.com/wiki/${props.data.name}`, '_blank');
 };
 </script>
 
@@ -37,7 +42,10 @@ const handleClick = () => {
     <template #name>
       <h3 class="card-name">{{ props.data.name }}</h3>
     </template>
-
+    <div class="detail-row">
+      <span class="detail-label">年代</span>
+      <span class="detail-value">{{ getFossilTypeName(props.data.type) }}</span>
+    </div>
     <div class="detail-row full">
       <span class="detail-label">描述</span>
       <span class="detail-value">{{ props.data.desc }}</span>
@@ -47,9 +55,12 @@ const handleClick = () => {
       <span class="detail-value">{{ props.data.parts.length }}</span>
     </div>
     <div class="detail-row">
+      <span class="detail-label">尺寸</span>
+      <span class="detail-value" v-html="getSizeWithIcon(currentSize)"> </span>
+    </div>
+    <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight" v-html="getPriceWithIcon(currentPrice)">
-      </span>
+      <span class="detail-value highlight" v-html="getPriceWithIcon(currentPrice)"></span>
     </div>
   </BaseCard>
 </template>

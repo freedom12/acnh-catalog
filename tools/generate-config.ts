@@ -17,7 +17,7 @@ import {
   construction as oldConstructions,
   seasonsAndEvents as oldSeasonsAndEvents,
 } from 'animal-crossing';
-import { KitType, type Item as NewItem, type Variant } from '../src/types/item';
+import { Catalog, KitType, type Item as NewItem, type Variant } from '../src/types/item';
 import { ItemType, Version, ItemSize, Color, Currency } from '../src/types/item';
 import type { Recipe as NewRecipe } from '../src/types/recipe';
 import {
@@ -30,7 +30,7 @@ import {
 import type { NPC as NewNPC } from '../src/types/npc';
 import type { Reaction as NewReaction } from '../src/types/reaction';
 import type { Artwork as NewArtwork } from '../src/types/artwork';
-import type { Fossil as NewFossil } from '../src/types/fossil';
+import { FossilType, type Fossil as NewFossil } from '../src/types/fossil';
 import {
   ConstructionType,
   type Construction as NewConstruction,
@@ -185,6 +185,12 @@ const colorMap: Record<string, Color> = {
   Yellow: Color.Yellow,
 };
 
+const catalogMap: Record<string, Catalog> = {
+  'Not in catalog': Catalog.NotInCatalog,
+  'Not for sale': Catalog.NotForSale,
+  'For sale': Catalog.ForSale,
+  Seasonal: Catalog.Seasonal  
+}
 const currencyMap: Record<string, Currency> = {
   Bells: Currency.Bells,
   'Heart Crystals': Currency.HeartCrystals,
@@ -352,6 +358,7 @@ function convertItem(oldItem: OldItem): NewItem {
     images,
     colors,
     ver: oldItem.versionAdded ? versionAddedMap[oldItem.versionAdded] : Version.The100,
+    cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
     source: oldItem.source,
     sourceNotes: oldItem.sourceNotes || undefined,
     activity: oldItem.seasonEvent || undefined,
@@ -486,24 +493,31 @@ for (const [name, realArtwork] of realArtworks) {
 }
 newArtworks.sort((a, b) => a.id - b.id);
 
+
+const fossilTypeMap: Record<string, FossilType> = {
+  'Room 1': FossilType.PZ,
+  'Room 2': FossilType.MZ,
+  'Room 3': FossilType.CZ
+};
 let newFossils: NewFossil[] = [];
 for (const [groupName, parts] of fossilGroups) {
-  //
   const fossil: NewFossil = {
     name: groupName,
+    type: fossilTypeMap[parts[0].museum!],
     parts: parts
       .sort((a, b) => a.internalId! - b.internalId!)
       .map((part) => ({
         id: part.internalId!,
         name: part.name,
         image: processImageUrl(part.image!),
+        size: sizeMap[part.size!],
         sell: part.sell!,
       })),
     desc: parts[0].description![0]!,
   };
   newFossils.push(fossil);
 }
-newFossils.sort((a, b) => a.parts.length - b.parts.length);
+newFossils.sort((a, b) => a.type - b.type);
 
 const musicCfg = JSON.parse(fs.readFileSync(path.join(__dirname, 'Music.json'), 'utf-8'));
 let musics: Music[] = [];
@@ -568,6 +582,10 @@ for (const oldCreature of oldCreatures) {
     hemispheres: oldCreature.hemispheres,
     catchPhrase: oldCreature.catchPhrase![0]!,
     desc: oldCreature.description![0]!,
+    rate: oldCreature.spawnRates!,
+    unlock: oldCreature.totalCatchesToUnlock || 0,
+    shadowSize: oldCreature.shadow ?? undefined,
+    difficulty: oldCreature.catchDifficulty ?? oldCreature.movementSpeed ?? undefined,
   };
   newCreatures.push(newCreature);
 
@@ -580,6 +598,7 @@ for (const oldCreature of oldCreatures) {
     type: ItemType.Creature,
     ver: newCreature.ver,
     colors: newCreature.colors,
+    cat: Catalog.NotForSale,
     size: newCreature.size,
     sell: newCreature.sell,
     points: oldCreature.hhaBasePoints,
@@ -686,14 +705,18 @@ for (const oldRecipe of oldRecipes) {
     sourceNotes: oldRecipe.sourceNotes ?? undefined,
     activity: oldRecipe.seasonEvent ?? undefined,
     itemId: oldRecipe.craftedItemInternalId,
+    serialId: oldRecipe.serialId,
     cardColor: oldRecipe.cardColor ?? undefined,
     materials: materials,
   };
   newRecipes.push(newRecipe);
 }
 newRecipes.sort((a, b) => {
-  if (a.type !== b.type) {
-    return a.type - b.type;
+  // if (a.type !== b.type) {
+  //   return a.type - b.type;
+  // }
+  if (a.serialId !== b.serialId) {
+    return a.serialId - b.serialId;
   }
   return a.id - b.id;
 });

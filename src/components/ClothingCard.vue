@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from 'vue';
 import { joinArray } from '../utils/common';
-import { getItemTypeIcon } from '../services/dataService';
+import { getCatalogIcon, getItemTypeIcon, getSizeIcon } from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
 import ColorBlock from './ColorBlock.vue';
 import SourceList from './SourceList.vue';
 import { UI_TEXT } from '../constants';
-import { Color } from '../types/item';
+import { Catalog, Color } from '../types/item';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
 
 const props = defineProps<{
@@ -69,7 +69,19 @@ const handleClick = () => {
   >
     <div class="detail-row detail-center">
       <span class="detail-label"> ID: {{ displayId }} </span>
+      <img
+        v-if="itemModel.size"
+        :src="getSizeIcon(itemModel.size)"
+        :title="itemModel.sizeName"
+        class="inline-icon"
+      />
       <ColorBlock :colors="displayColors" :size="16" />
+      <img
+        v-if="itemModel.catalog !== Catalog.NotInCatalog"
+        :src="getCatalogIcon(itemModel.catalog)"
+        :title="itemModel.catalogName"
+        class="inline-icon gray"
+      />
     </div>
     <div class="detail-row">
       <span class="detail-label">分类</span>

@@ -145,6 +145,14 @@ export const Color = {
 
 export type Color = (typeof Color)[keyof typeof Color];
 
+export const Catalog = {
+  NotInCatalog: 1,
+  NotForSale: 2,
+  ForSale: 3,
+  Seasonal: 4
+} as const;
+export type Catalog = (typeof Catalog)[keyof typeof Catalog];
+
 export const Currency = {
   Bells: 1,
   HeartCrystals: 2,
@@ -197,6 +205,7 @@ export interface Item {
   ver: Version; // 添加版本
   colors: Color[]; // 物品颜色列表
   size?: ItemSize; // 物品尺寸
+  cat: Catalog; // 目录状态
   buy?: Price; // 购买价格
   sell?: Price; // 出售价格
   exch?: Price; // 兑换价格

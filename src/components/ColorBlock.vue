@@ -1,11 +1,12 @@
 <template>
-  <span class="color-block" :style="blockStyle"></span>
+  <span class="color-block" :style="blockStyle" :title="props.colors?.map(getColorName).join(',')"></span>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
 import { COLOR_MAP } from '../config';
 import { Color } from '../types';
+import { getColorName } from '../services/dataService';
 
 // 彩虹颜色常量
 const RAINBOW_COLORS = [

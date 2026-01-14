@@ -36,6 +36,7 @@ export interface Recipe {
   sell?: Price;
   cardColor?: string;
   itemId: number;
+  serialId: number;
   activity?: string;
   source: string[];
   sourceNotes?: string[];
