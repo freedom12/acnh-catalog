@@ -151,7 +151,7 @@ const lines = computed(() => {
 @use '../styles/card-styles';
 
 .achievement-card {
-  background: #dda0dd;
+  background: #e0f7fa;
   border: 10px solid white;
   border-radius: var(--border-radius-xl);
   padding: 0;
