@@ -885,7 +885,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 5517,
     "serialId": 134,
     "cardColor": "green",
@@ -4355,7 +4357,6 @@
     "sourceNotes": [
       "Received after completing 8th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 12681,
     "serialId": 600,
     "cardColor": "color_52",
@@ -4387,7 +4388,6 @@
     "sourceNotes": [
       "Received the day after completing 15th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 13902,
     "serialId": 601,
     "cardColor": "color_52",
@@ -4423,7 +4423,6 @@
     "sourceNotes": [
       "Received the day after completing 15th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14313,
     "serialId": 602,
     "cardColor": "color_52",
@@ -4459,7 +4458,6 @@
     "sourceNotes": [
       "Received the day after completing 15th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14601,
     "serialId": 603,
     "cardColor": "color_52",
@@ -4988,7 +4986,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 13897,
     "serialId": 780,
     "cardColor": "color_55",
@@ -5016,7 +5013,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 13901,
     "serialId": 781,
     "cardColor": "color_55",
@@ -5044,7 +5040,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14596,
     "serialId": 782,
     "cardColor": "color_55",
@@ -5072,7 +5067,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14310,
     "serialId": 783,
     "cardColor": "color_55",
@@ -5104,7 +5098,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14308,
     "serialId": 784,
     "cardColor": "color_55",
@@ -5136,7 +5129,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14598,
     "serialId": 785,
     "cardColor": "color_55",
@@ -5692,7 +5684,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 7409,
     "serialId": 820,
     "cardColor": "light gray",
@@ -5721,7 +5715,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 7408,
     "serialId": 821,
     "cardColor": "light gray",
@@ -6025,7 +6021,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 13895,
     "serialId": 880,
     "cardColor": "color_51",
@@ -6057,7 +6052,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 13898,
     "serialId": 881,
     "cardColor": "color_51",
@@ -6089,7 +6083,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14602,
     "serialId": 882,
     "cardColor": "color_51",
@@ -6121,7 +6114,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14332,
     "serialId": 883,
     "cardColor": "color_51",
@@ -6149,7 +6141,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14337,
     "serialId": 884,
     "cardColor": "color_51",
@@ -6177,7 +6168,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14597,
     "serialId": 885,
     "cardColor": "color_51",
@@ -6964,7 +6954,9 @@
     "source": [
       "Harvey"
     ],
-    "activity": "Wedding Season",
+    "acts": [
+      109
+    ],
     "itemId": 12894,
     "serialId": 972,
     "cardColor": "dark gray",
@@ -7076,7 +7068,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14322,
     "serialId": 980,
     "cardColor": "color_53",
@@ -7104,7 +7095,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14324,
     "serialId": 981,
     "cardColor": "color_53",
@@ -7132,7 +7122,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14599,
     "serialId": 982,
     "cardColor": "color_53",
@@ -8385,7 +8374,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14330,
     "serialId": 1180,
     "cardColor": "color_54",
@@ -8413,7 +8401,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14333,
     "serialId": 1181,
     "cardColor": "color_54",
@@ -8441,7 +8428,6 @@
     "sourceNotes": [
       "Received after donating DIY materials, after 19th HHP house"
     ],
-    "activity": "Happy Home Paradise",
     "itemId": 14600,
     "serialId": 1182,
     "cardColor": "color_54",
@@ -8999,6 +8985,9 @@
       "Obtained from Tom Nook after completing one Nature Day Nook Miles+ task",
       "Obtained from Leif after buying anything from him on three different days"
     ],
+    "acts": [
+      50
+    ],
     "itemId": 12758,
     "serialId": 1291,
     "cardColor": "green",
@@ -9031,7 +9020,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "Shamrock Day",
+    "acts": [
+      81
+    ],
     "itemId": 14239,
     "serialId": 1292,
     "cardColor": "green",
@@ -12970,7 +12961,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Aries",
+    "acts": [
+      3
+    ],
     "itemId": 5954,
     "serialId": 2300,
     "cardColor": "silver",
@@ -13007,7 +13000,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Taurus",
+    "acts": [
+      98
+    ],
     "itemId": 5961,
     "serialId": 2301,
     "cardColor": "silver",
@@ -13044,7 +13039,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Gemini",
+    "acts": [
+      30
+    ],
     "itemId": 5960,
     "serialId": 2302,
     "cardColor": "silver",
@@ -13081,7 +13078,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Cancer",
+    "acts": [
+      10
+    ],
     "itemId": 5959,
     "serialId": 2303,
     "cardColor": "silver",
@@ -13118,7 +13117,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Leo",
+    "acts": [
+      40
+    ],
     "itemId": 5964,
     "serialId": 2304,
     "cardColor": "silver",
@@ -13155,7 +13156,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Virgo",
+    "acts": [
+      108
+    ],
     "itemId": 5955,
     "serialId": 2305,
     "cardColor": "silver",
@@ -13192,7 +13195,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Libra",
+    "acts": [
+      41
+    ],
     "itemId": 3774,
     "serialId": 2306,
     "cardColor": "silver",
@@ -13225,7 +13230,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Scorpio",
+    "acts": [
+      77
+    ],
     "itemId": 5962,
     "serialId": 2307,
     "cardColor": "silver",
@@ -13262,7 +13269,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Sagittarius",
+    "acts": [
+      76
+    ],
     "itemId": 5958,
     "serialId": 2308,
     "cardColor": "silver",
@@ -13295,7 +13304,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Capricorn",
+    "acts": [
+      11
+    ],
     "itemId": 5957,
     "serialId": 2309,
     "cardColor": "silver",
@@ -13332,7 +13343,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Aquarius",
+    "acts": [
+      2
+    ],
     "itemId": 5956,
     "serialId": 2310,
     "cardColor": "silver",
@@ -13369,7 +13382,9 @@
     "source": [
       "Celeste"
     ],
-    "activity": "Pisces",
+    "acts": [
+      72
+    ],
     "itemId": 5963,
     "serialId": 2311,
     "cardColor": "silver",
@@ -13997,7 +14012,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 3555,
     "serialId": 3000,
     "cardColor": "green",
@@ -14022,7 +14039,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 4269,
     "serialId": 3001,
     "cardColor": "green",
@@ -14052,7 +14071,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 5979,
     "serialId": 3002,
     "cardColor": "green",
@@ -14081,7 +14102,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 3344,
     "serialId": 3003,
     "cardColor": "green",
@@ -14106,7 +14129,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 5977,
     "serialId": 3004,
     "cardColor": "green",
@@ -14139,7 +14164,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 4853,
     "serialId": 3051,
     "cardColor": "green",
@@ -14168,7 +14195,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 11113,
     "serialId": 3070,
     "cardColor": "green",
@@ -14193,7 +14222,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 12330,
     "serialId": 3071,
     "cardColor": "green",
@@ -14218,7 +14249,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 12399,
     "serialId": 3072,
     "cardColor": "green",
@@ -14243,7 +14276,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 7506,
     "serialId": 3080,
     "cardColor": "green",
@@ -14268,7 +14303,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "young spring bamboo",
+    "acts": [
+      127
+    ],
     "itemId": 7590,
     "serialId": 3090,
     "cardColor": "green",
@@ -14297,7 +14334,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6032,
     "serialId": 3400,
     "cardColor": "pink",
@@ -14322,7 +14361,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6030,
     "serialId": 3401,
     "cardColor": "pink",
@@ -14359,7 +14400,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6031,
     "serialId": 3402,
     "cardColor": "pink",
@@ -14393,7 +14436,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6033,
     "serialId": 3403,
     "cardColor": "pink",
@@ -14418,7 +14463,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6831,
     "serialId": 3404,
     "cardColor": "pink",
@@ -14447,7 +14494,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 6832,
     "serialId": 3430,
     "cardColor": "pink",
@@ -14476,7 +14525,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 7205,
     "serialId": 3450,
     "cardColor": "pink",
@@ -14505,7 +14556,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 4947,
     "serialId": 3451,
     "cardColor": "pink",
@@ -14534,7 +14587,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 7204,
     "serialId": 3460,
     "cardColor": "pink",
@@ -14563,7 +14618,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 5056,
     "serialId": 3461,
     "cardColor": "pink",
@@ -14592,7 +14649,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 12351,
     "serialId": 3470,
     "cardColor": "pink",
@@ -14617,7 +14676,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 9945,
     "serialId": 3480,
     "cardColor": "pink",
@@ -14642,7 +14703,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 7490,
     "serialId": 3481,
     "cardColor": "pink",
@@ -14667,7 +14730,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "cherry-blossom petals",
+    "acts": [
+      121
+    ],
     "itemId": 7589,
     "serialId": 3490,
     "cardColor": "pink",
@@ -15529,7 +15594,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 4376,
     "serialId": 4240,
     "cardColor": "white",
@@ -15574,7 +15641,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 5661,
     "serialId": 4250,
     "cardColor": "white",
@@ -15599,7 +15668,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 5508,
     "serialId": 4251,
     "cardColor": "white",
@@ -15628,7 +15699,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 5268,
     "serialId": 4260,
     "cardColor": "white",
@@ -15657,7 +15730,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 7239,
     "serialId": 4261,
     "cardColor": "white",
@@ -15686,7 +15761,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 5030,
     "serialId": 4262,
     "cardColor": "white",
@@ -15711,7 +15788,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 12217,
     "serialId": 4270,
     "cardColor": "white",
@@ -15736,7 +15815,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 7494,
     "serialId": 4280,
     "cardColor": "white",
@@ -15765,7 +15846,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "summer shells",
+    "acts": [
+      126
+    ],
     "itemId": 7586,
     "serialId": 4290,
     "cardColor": "white",
@@ -15794,7 +15877,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 4270,
     "serialId": 4600,
     "cardColor": "brown",
@@ -15824,7 +15909,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 4271,
     "serialId": 4601,
     "cardColor": "brown",
@@ -15853,7 +15940,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 1023,
     "serialId": 4602,
     "cardColor": "brown",
@@ -15882,7 +15971,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 7788,
     "serialId": 4603,
     "cardColor": "brown",
@@ -15915,7 +16006,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 7390,
     "serialId": 4604,
     "cardColor": "brown",
@@ -15944,7 +16037,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 5975,
     "serialId": 4605,
     "cardColor": "brown",
@@ -15973,7 +16068,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 6078,
     "serialId": 4606,
     "cardColor": "brown",
@@ -16003,7 +16100,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 6079,
     "serialId": 4607,
     "cardColor": "brown",
@@ -16036,7 +16135,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 6080,
     "serialId": 4608,
     "cardColor": "brown",
@@ -16077,7 +16178,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 6081,
     "serialId": 4609,
     "cardColor": "brown",
@@ -16114,7 +16217,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 3802,
     "serialId": 4610,
     "cardColor": "brown",
@@ -16143,7 +16248,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 6075,
     "serialId": 4630,
     "cardColor": "brown",
@@ -16176,7 +16283,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 4905,
     "serialId": 4650,
     "cardColor": "brown",
@@ -16209,7 +16318,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 4990,
     "serialId": 4660,
     "cardColor": "brown",
@@ -16238,7 +16349,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 12335,
     "serialId": 4670,
     "cardColor": "brown",
@@ -16263,7 +16376,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 12390,
     "serialId": 4671,
     "cardColor": "brown",
@@ -16288,7 +16403,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 7169,
     "serialId": 4680,
     "cardColor": "brown",
@@ -16313,7 +16430,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "maple leaves",
+    "acts": [
+      122
+    ],
     "itemId": 7491,
     "serialId": 4681,
     "cardColor": "brown",
@@ -16338,7 +16457,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "acorns and pine cones",
+    "acts": [
+      120
+    ],
     "itemId": 7492,
     "serialId": 4682,
     "cardColor": "brown",
@@ -16363,7 +16484,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 4708,
     "serialId": 5400,
     "cardColor": "orange",
@@ -16388,7 +16511,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 3808,
     "serialId": 5401,
     "cardColor": "orange",
@@ -16417,7 +16542,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 808,
     "serialId": 5403,
     "cardColor": "orange",
@@ -16446,7 +16573,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 805,
     "serialId": 5406,
     "cardColor": "orange",
@@ -16475,7 +16604,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 3805,
     "serialId": 5407,
     "cardColor": "orange",
@@ -16500,7 +16631,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 3806,
     "serialId": 5408,
     "cardColor": "orange",
@@ -16526,7 +16659,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 4726,
     "serialId": 5440,
     "cardColor": "orange",
@@ -16563,7 +16698,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 7187,
     "serialId": 5450,
     "cardColor": "orange",
@@ -16604,7 +16741,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 5164,
     "serialId": 5451,
     "cardColor": "orange",
@@ -16641,7 +16780,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 7186,
     "serialId": 5460,
     "cardColor": "orange",
@@ -16682,7 +16823,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 7174,
     "serialId": 5480,
     "cardColor": "orange",
@@ -16707,7 +16850,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "mushrooms",
+    "acts": [
+      123
+    ],
     "itemId": 7588,
     "serialId": 5490,
     "cardColor": "orange",
@@ -16740,7 +16885,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4089,
     "serialId": 5800,
     "cardColor": "purple",
@@ -16773,7 +16921,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4090,
     "serialId": 5801,
     "cardColor": "purple",
@@ -16806,7 +16957,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 12949,
     "serialId": 5802,
     "cardColor": "purple",
@@ -16843,7 +16997,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4088,
     "serialId": 5803,
     "cardColor": "purple",
@@ -16872,7 +17029,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4092,
     "serialId": 5804,
     "cardColor": "purple",
@@ -16905,7 +17065,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 12951,
     "serialId": 5805,
     "cardColor": "purple",
@@ -16937,7 +17100,9 @@
     "sourceNotes": [
       "Reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween",
+    "acts": [
+      33
+    ],
     "itemId": 13223,
     "serialId": 5806,
     "cardColor": "purple",
@@ -16974,7 +17139,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4084,
     "serialId": 5807,
     "cardColor": "purple",
@@ -17007,7 +17175,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4086,
     "serialId": 5808,
     "cardColor": "purple",
@@ -17036,7 +17207,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 4083,
     "serialId": 5809,
     "cardColor": "purple",
@@ -17072,7 +17246,9 @@
     "sourceNotes": [
       "Reward for gifting lollipop on Halloween"
     ],
-    "activity": "Halloween",
+    "acts": [
+      33
+    ],
     "itemId": 4087,
     "serialId": 5810,
     "cardColor": "purple",
@@ -17117,7 +17293,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 14551,
     "serialId": 5811,
     "cardColor": "purple",
@@ -17150,7 +17329,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 14550,
     "serialId": 5812,
     "cardColor": "purple",
@@ -17182,7 +17364,9 @@
     "sourceNotes": [
       "Reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween",
+    "acts": [
+      33
+    ],
     "itemId": 13222,
     "serialId": 5830,
     "cardColor": "purple",
@@ -17219,7 +17403,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 13275,
     "serialId": 5890,
     "cardColor": "purple",
@@ -17251,7 +17438,9 @@
     "sourceNotes": [
       "Reward for gifting lollipop on Halloween"
     ],
-    "activity": "Halloween",
+    "acts": [
+      33
+    ],
     "itemId": 13237,
     "serialId": 5891,
     "cardColor": "purple",
@@ -17284,7 +17473,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 14542,
     "serialId": 5892,
     "cardColor": "purple",
@@ -17317,7 +17509,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13450,
     "serialId": 6200,
     "cardColor": "cream",
@@ -17354,7 +17549,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13453,
     "serialId": 6201,
     "cardColor": "cream",
@@ -17387,7 +17585,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13447,
     "serialId": 6202,
     "cardColor": "cream",
@@ -17420,7 +17621,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13448,
     "serialId": 6203,
     "cardColor": "cream",
@@ -17457,7 +17661,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13818,
     "serialId": 6204,
     "cardColor": "cream",
@@ -17490,7 +17697,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13820,
     "serialId": 6205,
     "cardColor": "cream",
@@ -17523,7 +17733,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13819,
     "serialId": 6206,
     "cardColor": "cream",
@@ -17552,7 +17765,10 @@
     "sourceNotes": [
       "Obtain Cozy Turkey Day DIY from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13449,
     "serialId": 6207,
     "cardColor": "cream",
@@ -17588,7 +17804,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 4279,
     "serialId": 6600,
     "cardColor": "blue",
@@ -17620,7 +17838,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3503,
     "serialId": 6601,
     "cardColor": "blue",
@@ -17652,7 +17872,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3505,
     "serialId": 6602,
     "cardColor": "blue",
@@ -17684,7 +17906,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3497,
     "serialId": 6603,
     "cardColor": "blue",
@@ -17716,7 +17940,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3502,
     "serialId": 6604,
     "cardColor": "blue",
@@ -17748,7 +17974,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3498,
     "serialId": 6605,
     "cardColor": "blue",
@@ -17780,7 +18008,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3499,
     "serialId": 6606,
     "cardColor": "blue",
@@ -17812,7 +18042,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3500,
     "serialId": 6607,
     "cardColor": "blue",
@@ -17844,7 +18076,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3501,
     "serialId": 6608,
     "cardColor": "blue",
@@ -17876,7 +18110,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 3504,
     "serialId": 6609,
     "cardColor": "blue",
@@ -17908,7 +18144,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5337,
     "serialId": 6610,
     "cardColor": "blue",
@@ -17944,7 +18182,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 743,
     "serialId": 6611,
     "cardColor": "blue",
@@ -17976,7 +18216,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5505,
     "serialId": 6650,
     "cardColor": "blue",
@@ -18008,7 +18250,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5516,
     "serialId": 6660,
     "cardColor": "blue",
@@ -18040,7 +18284,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 8609,
     "serialId": 6680,
     "cardColor": "blue",
@@ -18072,7 +18318,9 @@
     "sourceNotes": [
       "Reward for making a perfect Snowboy"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 7585,
     "serialId": 6690,
     "cardColor": "blue",
@@ -18102,7 +18350,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 4375,
     "serialId": 7040,
     "cardColor": "blue",
@@ -18127,7 +18377,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5498,
     "serialId": 7050,
     "cardColor": "blue",
@@ -18152,7 +18404,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5662,
     "serialId": 7051,
     "cardColor": "blue",
@@ -18177,7 +18431,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 4855,
     "serialId": 7052,
     "cardColor": "blue",
@@ -18202,7 +18458,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 13603,
     "serialId": 7053,
     "cardColor": "blue",
@@ -18231,7 +18489,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 4989,
     "serialId": 7060,
     "cardColor": "blue",
@@ -18256,7 +18516,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 5253,
     "serialId": 7061,
     "cardColor": "blue",
@@ -18281,7 +18543,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 13572,
     "serialId": 7070,
     "cardColor": "blue",
@@ -18306,7 +18570,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 7493,
     "serialId": 7080,
     "cardColor": "blue",
@@ -18331,7 +18597,9 @@
     "source": [
       "Balloons"
     ],
-    "activity": "snowflakes",
+    "acts": [
+      125
+    ],
     "itemId": 14756,
     "serialId": 7090,
     "cardColor": "blue",
@@ -18357,7 +18625,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 12230,
     "serialId": 7400,
     "cardColor": "white",
@@ -18387,7 +18657,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 891,
     "serialId": 7401,
     "cardColor": "white",
@@ -18417,7 +18689,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4067,
     "serialId": 7402,
     "cardColor": "white",
@@ -18451,7 +18725,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 3991,
     "serialId": 7403,
     "cardColor": "white",
@@ -18489,7 +18765,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 3966,
     "serialId": 7404,
     "cardColor": "white",
@@ -18531,7 +18809,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4131,
     "serialId": 7407,
     "cardColor": "white",
@@ -18561,7 +18841,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4108,
     "serialId": 7408,
     "cardColor": "white",
@@ -18595,7 +18877,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4074,
     "serialId": 7409,
     "cardColor": "white",
@@ -18625,7 +18909,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4066,
     "serialId": 7410,
     "cardColor": "white",
@@ -18665,7 +18951,9 @@
     "sourceNotes": [
       "Reward from Jingle after delivering more than half the gifts on Toy Day"
     ],
-    "activity": "Toy Day",
+    "acts": [
+      100
+    ],
     "itemId": 13244,
     "serialId": 7411,
     "cardColor": "white",
@@ -18699,7 +18987,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 14591,
     "serialId": 7412,
     "cardColor": "white",
@@ -18729,7 +19019,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 14728,
     "serialId": 7413,
     "cardColor": "white",
@@ -18767,7 +19059,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 14594,
     "serialId": 7414,
     "cardColor": "white",
@@ -18793,7 +19087,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 14593,
     "serialId": 7415,
     "cardColor": "white",
@@ -18831,7 +19127,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 6818,
     "serialId": 7430,
     "cardColor": "white",
@@ -18869,7 +19167,9 @@
       "Balloons",
       "Isabelle"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 4377,
     "serialId": 7440,
     "cardColor": "white",
@@ -18899,7 +19199,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 5230,
     "serialId": 7450,
     "cardColor": "white",
@@ -18937,7 +19239,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 7544,
     "serialId": 7470,
     "cardColor": "white",
@@ -18971,7 +19275,9 @@
       "All villagers",
       "Balloons"
     ],
-    "activity": "ornaments",
+    "acts": [
+      124
+    ],
     "itemId": 14613,
     "serialId": 7480,
     "cardColor": "white",
@@ -19004,7 +19310,9 @@
     "source": [
       "Jingle"
     ],
-    "activity": "Toy Day",
+    "acts": [
+      100
+    ],
     "itemId": 13792,
     "serialId": 7490,
     "cardColor": "white",
@@ -19040,7 +19348,9 @@
     "sourceNotes": [
       "Talk to Pavé during the Festivale event"
     ],
-    "activity": "Festivale",
+    "acts": [
+      25
+    ],
     "itemId": 3548,
     "serialId": 7690,
     "cardColor": "yellow",
@@ -21097,7 +21407,9 @@
     "source": [
       "Cyrus"
     ],
-    "activity": "Wedding Season",
+    "acts": [
+      109
+    ],
     "itemId": 12695,
     "serialId": 8278,
     "cardColor": "green",
@@ -21127,7 +21439,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12415,
     "serialId": 8600,
     "cardColor": "yellow",
@@ -21153,7 +21468,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12436,
     "serialId": 8601,
     "cardColor": "yellow",
@@ -21179,7 +21497,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12437,
     "serialId": 8602,
     "cardColor": "yellow",
@@ -21205,7 +21526,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12420,
     "serialId": 8603,
     "cardColor": "yellow",
@@ -21230,7 +21554,10 @@
     "source": [
       "Zipper"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12414,
     "serialId": 8604,
     "cardColor": "yellow",
@@ -21276,7 +21603,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12413,
     "serialId": 8605,
     "cardColor": "yellow",
@@ -21302,7 +21632,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12419,
     "serialId": 8606,
     "cardColor": "yellow",
@@ -21336,7 +21669,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12421,
     "serialId": 8607,
     "cardColor": "yellow",
@@ -21372,7 +21708,9 @@
     "sourceNotes": [
       "Reward from Zipper after collecting all 6 egg types"
     ],
-    "activity": "Bunny Day",
+    "acts": [
+      8
+    ],
     "itemId": 12398,
     "serialId": 8608,
     "cardColor": "yellow",
@@ -21420,7 +21758,9 @@
     "sourceNotes": [
       "Reward from Zipper after crafting all Bunny Day recipes"
     ],
-    "activity": "Bunny Day",
+    "acts": [
+      8
+    ],
     "itemId": 12412,
     "serialId": 8609,
     "cardColor": "yellow",
@@ -21466,7 +21806,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12418,
     "serialId": 8630,
     "cardColor": "yellow",
@@ -21492,7 +21835,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12417,
     "serialId": 8631,
     "cardColor": "yellow",
@@ -21538,7 +21884,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12517,
     "serialId": 8640,
     "cardColor": "yellow",
@@ -21584,7 +21933,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 5231,
     "serialId": 8650,
     "cardColor": "yellow",
@@ -21630,7 +21982,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12423,
     "serialId": 8651,
     "cardColor": "yellow",
@@ -21676,7 +22031,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 7546,
     "serialId": 8652,
     "cardColor": "yellow",
@@ -21720,7 +22078,10 @@
     "source": [
       "Collecting earth eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12439,
     "serialId": 8660,
     "cardColor": "yellow",
@@ -21744,7 +22105,10 @@
     "source": [
       "Collecting earth eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12449,
     "serialId": 8661,
     "cardColor": "yellow",
@@ -21768,7 +22132,10 @@
     "source": [
       "Collecting earth eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12455,
     "serialId": 8662,
     "cardColor": "yellow",
@@ -21792,7 +22159,10 @@
     "source": [
       "Collecting stone eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12440,
     "serialId": 8663,
     "cardColor": "yellow",
@@ -21816,7 +22186,10 @@
     "source": [
       "Collecting stone eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12450,
     "serialId": 8664,
     "cardColor": "yellow",
@@ -21840,7 +22213,10 @@
     "source": [
       "Collecting stone eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12456,
     "serialId": 8665,
     "cardColor": "yellow",
@@ -21864,7 +22240,10 @@
     "source": [
       "Collecting leaf eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12441,
     "serialId": 8666,
     "cardColor": "yellow",
@@ -21888,7 +22267,10 @@
     "source": [
       "Collecting leaf eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12451,
     "serialId": 8667,
     "cardColor": "yellow",
@@ -21912,7 +22294,10 @@
     "source": [
       "Collecting leaf eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12457,
     "serialId": 8668,
     "cardColor": "yellow",
@@ -21936,7 +22321,10 @@
     "source": [
       "Collecting wood eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12442,
     "serialId": 8669,
     "cardColor": "yellow",
@@ -21960,7 +22348,10 @@
     "source": [
       "Collecting wood eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12452,
     "serialId": 8670,
     "cardColor": "yellow",
@@ -21984,7 +22375,10 @@
     "source": [
       "Collecting wood eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12458,
     "serialId": 8671,
     "cardColor": "yellow",
@@ -22008,7 +22402,10 @@
     "source": [
       "Collecting sky eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12443,
     "serialId": 8672,
     "cardColor": "yellow",
@@ -22032,7 +22429,10 @@
     "source": [
       "Collecting sky eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12453,
     "serialId": 8673,
     "cardColor": "yellow",
@@ -22056,7 +22456,10 @@
     "source": [
       "Collecting sky eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12459,
     "serialId": 8674,
     "cardColor": "yellow",
@@ -22080,7 +22483,10 @@
     "source": [
       "Collecting water eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12444,
     "serialId": 8675,
     "cardColor": "yellow",
@@ -22104,7 +22510,10 @@
     "source": [
       "Collecting water eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12454,
     "serialId": 8676,
     "cardColor": "yellow",
@@ -22128,7 +22537,10 @@
     "source": [
       "Collecting water eggs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12460,
     "serialId": 8677,
     "cardColor": "yellow",
@@ -22152,7 +22564,10 @@
     "source": [
       "Learning all egg outfit DIYs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12446,
     "serialId": 8678,
     "cardColor": "yellow",
@@ -22196,7 +22611,10 @@
     "source": [
       "Learning all egg outfit DIYs"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12448,
     "serialId": 8679,
     "cardColor": "yellow",
@@ -22241,7 +22659,10 @@
     "source": [
       "All villagers"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12445,
     "serialId": 8680,
     "cardColor": "yellow",
@@ -22286,7 +22707,10 @@
     "source": [
       "All villagers"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12447,
     "serialId": 8681,
     "cardColor": "yellow",
@@ -22332,7 +22756,10 @@
       "Egg bottles",
       "Egg balloons"
     ],
-    "activity": "Bunny Day (ready days); Bunny Day",
+    "acts": [
+      9,
+      8
+    ],
     "itemId": 12630,
     "serialId": 8690,
     "cardColor": "yellow",
@@ -22380,7 +22807,9 @@
     "sourceNotes": [
       "Reward from Zipper after crafting wobbling Zipper toy"
     ],
-    "activity": "Bunny Day",
+    "acts": [
+      8
+    ],
     "itemId": 12578,
     "serialId": 8691,
     "cardColor": "yellow",
@@ -26388,7 +26817,10 @@
     "sourceNotes": [
       "Obtained from crafting villagers during October or as a reward for gifting candy on Halloween"
     ],
-    "activity": "Halloween (ready days); Halloween",
+    "acts": [
+      34,
+      33
+    ],
     "itemId": 14552,
     "serialId": 15101,
     "cardColor": "color_74",
@@ -26432,7 +26864,10 @@
     "sourceNotes": [
       "Obtain Turkey Day Recipes from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13328,
     "serialId": 15201,
     "cardColor": "color_62",
@@ -26464,7 +26899,10 @@
     "sourceNotes": [
       "Obtain Turkey Day Recipes from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13329,
     "serialId": 15202,
     "cardColor": "color_64",
@@ -26500,7 +26938,10 @@
     "sourceNotes": [
       "Obtain Turkey Day Recipes from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13327,
     "serialId": 15203,
     "cardColor": "color_71",
@@ -26532,7 +26973,10 @@
     "sourceNotes": [
       "Obtain Turkey Day Recipes from Franklin or buy it from Nook's Cranny"
     ],
-    "activity": "Turkey Day; Turkey Day (shopping days)",
+    "acts": [
+      104,
+      105
+    ],
     "itemId": 13330,
     "serialId": 15204,
     "cardColor": "color_75",

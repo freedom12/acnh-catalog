@@ -24,6 +24,7 @@ const views: ViewItem[] = [
   { path: '/reactions', label: '反应', icon: ENTITY_ICONS.REACTIONS },
   { path: '/constructions', label: '改建', icon: ENTITY_ICONS.CONSTRUCTIONS },
   { path: '/message-cards', label: '贺卡', icon: ENTITY_ICONS.MESSAGE_CARDS },
+  { path: '/achievements', label: '成就', icon: ENTITY_ICONS.ACHIEVEMENTS },
   { path: '/misc', label: '杂项', icon: ENTITY_ICONS.MISC },
 ];
 

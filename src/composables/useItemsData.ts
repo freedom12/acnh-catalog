@@ -1,7 +1,6 @@
 import { ref, type Ref } from 'vue';
 import { ItemModel } from '../models/ItemModel';
 import {
-  loadTranslations,
   loadItemsData,
   loadCatalogData,
 } from '../services/dataService';
@@ -27,8 +26,7 @@ export function useItemsData() {
       try {
         loading.value = true;
         error.value = '';
-        const [, acnhItems, ownedIds] = await Promise.all([
-          loadTranslations(),
+        const [acnhItems, ownedIds] = await Promise.all([
           loadItemsData(),
           loadCatalogData(),
         ]);

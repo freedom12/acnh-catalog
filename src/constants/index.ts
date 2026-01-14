@@ -37,6 +37,7 @@ export const ENTITY_ICONS = {
   MUSICS: '🎵',
   FOSSILS: '🦕',
   PLANTS: '🌱',
+  ACHIEVEMENTS: '🏆',
   MISC: '📦',
 } as const;
 

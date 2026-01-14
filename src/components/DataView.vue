@@ -21,7 +21,6 @@ const props = withDefaults(defineProps<Props>(), {
   error: '',
   perPage: 100,
 });
-
 const hasError = computed(() => !!props.error);
 
 const datas = computed(() => props.datas || []);

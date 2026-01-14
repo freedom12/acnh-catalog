@@ -26,6 +26,8 @@ export const CONFIG = {
     FOSSILS: `${BASE_PATH}config/acnh-fossils.json`,
     MUSICS: `${BASE_PATH}config/acnh-musics.json`,
     PLANTS: `${BASE_PATH}config/acnh-plants.json`,
+    ACTIVITYS: `${BASE_PATH}config/acnh-activitys.json`,
+    ACHIEVEMENTS: `${BASE_PATH}config/acnh-achievements.json`,
   },
 
   /**

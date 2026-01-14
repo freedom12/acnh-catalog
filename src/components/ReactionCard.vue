@@ -4,7 +4,10 @@ import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
 import SourceList from './SourceList.vue';
 import { getActivityName } from '../services/dataService';
+import { joinArray } from '../utils/common';
+import { useActivitysData } from '../composables/useActivitysData';
 
+const { getNamesByIds } = useActivitysData();
 const props = defineProps<{
   data: Reaction;
 }>();
@@ -23,9 +26,9 @@ const handleClick = () => {
     @click="handleClick"
   >
     <div class="detail-row">
-      <span class="detail-label">季节/庆典</span>
+      <span class="detail-label">活动</span>
       <span class="detail-value">{{
-        getActivityName(props.data.activity || '') || '--'
+        joinArray(getNamesByIds(props.data.acts || []).map(getActivityName))
       }}</span>
     </div>
     <div class="detail-row">

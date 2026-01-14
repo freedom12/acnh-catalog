@@ -28,7 +28,9 @@ import {
   ClothingTypes,
   Catalog,
 } from '../types/item';
+import { useActivitysData } from '../composables/useActivitysData';
 
+const { getOptions } = useActivitysData();
 const {
   allItems: _allItems,
   loading,
@@ -145,6 +147,9 @@ const filters = computed<Filter[]>(() => {
     }))
     .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
 
+  // 活动选项
+  const activitiesOptions = getOptions();
+
   const filtersList: Filter[] = [
     { label: '分类', value: 'type', options: typesOptions },
     { label: '拥有状态', value: 'owned', options: ownedOptions },
@@ -153,6 +158,7 @@ const filters = computed<Filter[]>(() => {
     { label: '颜色', value: 'color', options: colorsOptions },
     { label: '目录', value: 'catalog', options: catalogOptions },
     { label: '来源', value: 'source', options: sourcesOptions },
+    { label: '活动', value: 'activity', options: activitiesOptions },
     { label: 'HHA主题', value: 'series', options: seriesOptions },
     { label: 'HHA场景', value: 'concept', options: conceptsOptions },
     { label: 'HHA套组', value: 'set', options: setsOptions },
@@ -234,6 +240,11 @@ const { filteredData, handleFiltersChanged } = useFilter(
     // 来源筛选
     if (selectedFilters.source) {
       if (!item.matchesSource(selectedFilters.source as string)) return false;
+    }
+
+    // 活动筛选
+    if (selectedFilters.activity) {
+      if (!item.matchesActivity(selectedFilters.activity as string)) return false;
     }
 
     // 标签筛选

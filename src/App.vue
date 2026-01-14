@@ -4,12 +4,16 @@ import ItemDetailModal from './components/ItemDetailModal.vue';
 import Tooltip from './components/Tooltip.vue';
 import AudioPlayer from './components/AudioPlayer.vue';
 import { useItemDetailModal } from './composables/useItemDetailModal';
+import { useAppInit } from './composables/useAppInit';
 
 // 回到顶部按钮显示状态
 const showBackToTop = ref(false);
 
 // 物品详情模态框
 const { isOpen, currentItemId, closeModal } = useItemDetailModal();
+
+// 应用初始化
+const { loading: appLoading, error: appError, initialize } = useAppInit();
 
 // 滚动事件处理
 const handleScroll = () => {
@@ -34,8 +38,10 @@ watch(
   { immediate: true }
 );
 
-onMounted(() => {
+onMounted(async () => {
   window.addEventListener('scroll', handleScroll);
+  // 初始化应用数据
+  await initialize();
 });
 
 onUnmounted(() => {
@@ -46,7 +52,20 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="container">
+  <!-- 加载中状态 -->
+  <div v-if="appLoading" class="loading-container">
+    <div class="loading-spinner"></div>
+    <p>正在加载数据...</p>
+  </div>
+
+  <!-- 错误状态 -->
+  <div v-else-if="appError" class="error-container">
+    <p>{{ appError }}</p>
+    <button @click="initialize">重试</button>
+  </div>
+
+  <!-- 主要内容 -->
+  <div v-else class="container">
     <header>
       <h1>动物森友会目录</h1>
     </header>
@@ -75,6 +94,50 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--spacing-md);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container p {
+  color: #e74c3c;
+  margin-bottom: var(--spacing-md);
+}
+
+.error-container button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition-normal);
+}
+
+.error-container button:hover {
+  background-color: var(--primary-hover);
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;

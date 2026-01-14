@@ -37,7 +37,7 @@ export interface Recipe {
   cardColor?: string;
   itemId: number;
   serialId: number;
-  activity?: string;
+  acts?: number[];
   source: string[];
   sourceNotes?: string[];
   materials: [number, number][];

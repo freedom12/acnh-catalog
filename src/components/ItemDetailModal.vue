@@ -355,10 +355,6 @@ const handleOverlayClick = (e: MouseEvent) => {
                           }}</span
                         >
                       </div>
-                      <div v-if="recipe.activity" class="recipe-info-item">
-                        <label>季节活动:</label>
-                        <span>🎉 {{ recipe.activity }}</span>
-                      </div>
                       <div v-if="recipe.sell" class="recipe-info-item">
                         <label>出售价格:</label>
                         <span class="price" v-html="getPriceWithIcon(recipe.sell)">

@@ -9,6 +9,7 @@
   type Artwork,
   type Fossil,
   type Plant,
+  type Achievement,
   CreatureType,
   Gender,
   Personality,
@@ -30,6 +31,7 @@ import {
   KitType,
   Catalog,
 } from '../types/item';
+import type { Activity } from '../types/activity';
 
 export type Price = [number, Currency] | number;
 export type CusCost = [number, KitType];
@@ -343,8 +345,8 @@ export function getRecipeTypeIcon(type: RecipeType): string {
   return getImgUrl(`img/icon/recipe_type/recipe_type_${type}.png`);
 }
 
-export function getActivityName(activity: string): string {
-  return getTranslation(activity, translationsCache?.activitys);
+export function getActivityName(name: string): string {
+  return getTranslation(name, translationsCache?.activitys);
 }
 
 export function getItemVariantTitle(title: string): string {
@@ -734,6 +736,32 @@ export async function loadMusicData(): Promise<Music[]> {
     return (await response.json()) as Music[];
   } catch (error) {
     console.error('加载音乐数据失败:', error);
+    throw error;
+  }
+}
+
+export async function loadActivityData(): Promise<Activity[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.ACTIVITYS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return (await response.json()) as Activity[];
+  } catch (error) {
+    console.error('加载活动数据失败:', error);
+    throw error;
+  }
+}
+
+export async function loadAchievementsData(): Promise<Achievement[]> {
+  try {
+    const response = await fetch(CONFIG.DATA_FILES.ACHIEVEMENTS);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return (await response.json()) as Achievement[];
+  } catch (error) {
+    console.error('加载成就数据失败:', error);
     throw error;
   }
 }

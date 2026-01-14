@@ -143,8 +143,8 @@ const handleClick = () => {
       <span class="detail-value">{{ itemModel.hhaCategoryName }}</span>
     </div>
     <div class="detail-row">
-      <span class="detail-label">季节/庆典</span>
-      <span class="detail-value">{{ itemModel.activityName }}</span>
+      <span class="detail-label">活动</span>
+      <span class="detail-value">{{ joinArray(itemModel.activityNames) }}</span>
     </div>
     <div class="detail-row source-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

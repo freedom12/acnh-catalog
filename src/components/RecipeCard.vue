@@ -13,12 +13,14 @@ import {
   getActivityName,
 } from '../services/dataService';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
+import { joinArray } from '../utils';
+import { useActivitysData } from '../composables/useActivitysData';
 
 const props = defineProps<{
   data: Recipe;
 }>();
 const { openModal } = useItemDetailModal();
-
+const { getNamesByIds } = useActivitysData();
 const handleClick = () => {
   openModal(props.data.itemId);
 };
@@ -104,10 +106,10 @@ const isShiny = computed(() => {
         />
       </span>
     </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ '季节/庆典' }}</span>
+        <div class="detail-row">
+      <span class="detail-label">活动</span>
       <span class="detail-value">{{
-        getActivityName(props.data.activity || '') || '--'
+        joinArray(getNamesByIds(props.data.acts || []).map(getActivityName))
       }}</span>
     </div>
     <div class="detail-row">

@@ -16,6 +16,7 @@ import {
   reactions as oldReactions,
   construction as oldConstructions,
   seasonsAndEvents as oldSeasonsAndEvents,
+  achievements as oldAchievements,
 } from 'animal-crossing';
 import { Catalog, KitType, type Item as NewItem, type Variant } from '../src/types/item';
 import { ItemType, Version, ItemSize, Color, Currency } from '../src/types/item';
@@ -35,6 +36,7 @@ import {
   ConstructionType,
   type Construction as NewConstruction,
 } from '../src/types/construction';
+import type { Achievement as NewAchievement, Tier } from '../src/types/achievement';
 import { RecipeType } from '../src/types/recipe';
 import { CreatureType, type Creature as NewCreature } from '../src/types/creature';
 import type { MessageCard } from '../src/types/messagecard';
@@ -189,8 +191,8 @@ const catalogMap: Record<string, Catalog> = {
   'Not in catalog': Catalog.NotInCatalog,
   'Not for sale': Catalog.NotForSale,
   'For sale': Catalog.ForSale,
-  Seasonal: Catalog.Seasonal  
-}
+  Seasonal: Catalog.Seasonal,
+};
 const currencyMap: Record<string, Currency> = {
   Bells: Currency.Bells,
   'Heart Crystals': Currency.HeartCrystals,
@@ -204,6 +206,57 @@ const kitTypeMap: Record<string, KitType> = {
   Pumpkin: KitType.Pumpkin,
   'Rainbow feather': KitType.RainbowFeather,
 };
+
+const SeasonsAndEventsTypesMap: Record<string, ActivityType> = {
+  'Basegame event': ActivityType.BasegameEvent,
+  'Crafting season': ActivityType.CraftingSeason,
+  'Nook Shopping event': ActivityType.NookShoppingEvent,
+  'Shopping season': ActivityType.ShoppingSeason,
+  'Special event': ActivityType.SpecialEvent,
+  'Zodiac season': ActivityType.ZodiacSeason,
+};
+
+let activitys: Activity[] = [];
+let activityMap = new Map<string, Activity>();
+let activityId = 0;
+for (const sae of oldSeasonsAndEvents) {
+  activityId += 1;
+  let name = sae.displayName;
+  const activity: Activity = {
+    id: activityId,
+    name: name,
+    rawName: sae.name,
+    ver: versionAddedMap[sae.versionAdded] || Version.The100,
+    type: SeasonsAndEventsTypesMap[sae.type] || ActivityType.BasegameEvent,
+  };
+  if (sae.eventNotes) {
+    console.log(`活动 ${activity.name}: ${sae.eventNotes}`);
+  }
+  activitys.push(activity);
+  activityMap.set(activity.rawName, activity);
+  // console.log(
+  //   `${activity.name}: ${sae.internalLabel} - ${sae.unlockMethod} - ${sae.year} - ${sae.datesNorthernHemisphere}`
+  // );
+}
+activitys.sort((a, b) => a.type - b.type || a.name.localeCompare(b.name));
+
+function getActivitis(sae: string | undefined | null): number[] | undefined {
+  let ret =
+    sae
+      ?.split(';')
+      .map((a) => {
+        const act = activityMap.get(a.trim());
+        if (!act) {
+          console.log(`未找到活动: ${a}`);
+        }
+        return act ? act.id : 0;
+      })
+      .filter((id) => id !== 0) || undefined;
+  if (ret && ret.length === 0) {
+    ret = undefined;
+  }
+  return ret;
+}
 
 let recipeIdMap = new Map<number, number>();
 for (const oldRecipe of oldRecipes) {
@@ -347,7 +400,8 @@ function convertItem(oldItem: OldItem): NewItem {
   let concepts = oldItem.concepts || oldItem.variations?.[0].concepts || undefined;
   concepts = concepts && concepts.length > 0 ? concepts : undefined;
   let category = oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
-
+  let sae = oldItem.seasonEvent || oldItem.variations?.[0].seasonEvent;
+  let activitys = getActivitis(sae);
   const isContainsDamaged = oldItem.variations?.some((v) => v.variation === 'Damaged');
   return {
     id,
@@ -361,7 +415,7 @@ function convertItem(oldItem: OldItem): NewItem {
     cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
     source: oldItem.source,
     sourceNotes: oldItem.sourceNotes || undefined,
-    activity: oldItem.seasonEvent || undefined,
+    acts: activitys,
     size: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
     points: oldItem.hhaBasePoints || undefined,
@@ -493,11 +547,10 @@ for (const [name, realArtwork] of realArtworks) {
 }
 newArtworks.sort((a, b) => a.id - b.id);
 
-
 const fossilTypeMap: Record<string, FossilType> = {
   'Room 1': FossilType.PZ,
   'Room 2': FossilType.MZ,
-  'Room 3': FossilType.CZ
+  'Room 3': FossilType.CZ,
 };
 let newFossils: NewFossil[] = [];
 for (const [groupName, parts] of fossilGroups) {
@@ -669,9 +722,9 @@ for (const oldRecipe of oldRecipes) {
   images.push(processImageUrl(oldRecipe.image));
   if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
 
-  if (oldRecipe.seasonEvent && !oldRecipe.seasonEventExclusive) {
-    oldRecipe.seasonEvent = null; // 非专属季节活动配方不记录季节活动,仅有树篱
-  }
+  // if (oldRecipe.seasonEvent && !oldRecipe.seasonEventExclusive) {
+  //   oldRecipe.seasonEvent = null; // 非专属季节活动配方不记录季节活动,仅有树篱
+  // }
 
   let materials: [number, number][] = [];
   for (const [materialName, quantity] of Object.entries(oldRecipe.materials)) {
@@ -699,14 +752,14 @@ for (const oldRecipe of oldRecipes) {
     rawName: oldRecipe.name,
     images: images,
     ver: versionAddedMap[oldRecipe.versionAdded],
-    buy: oldRecipe.buy ?? undefined,
-    sell: oldRecipe.sell ?? undefined,
+    buy: oldRecipe.buy || undefined,
+    sell: oldRecipe.sell || undefined,
     source: oldRecipe.source,
-    sourceNotes: oldRecipe.sourceNotes ?? undefined,
-    activity: oldRecipe.seasonEvent ?? undefined,
+    sourceNotes: oldRecipe.sourceNotes || undefined,
+    acts: getActivitis(oldRecipe.seasonEvent),
     itemId: oldRecipe.craftedItemInternalId,
     serialId: oldRecipe.serialId,
-    cardColor: oldRecipe.cardColor ?? undefined,
+    cardColor: oldRecipe.cardColor || undefined,
     materials: materials,
   };
   newRecipes.push(newRecipe);
@@ -873,7 +926,7 @@ for (const oldReaction of oldReactions) {
     ver: versionAddedMap[oldReaction.versionAdded],
     source: oldReaction.source,
     sourceNotes: oldReaction.sourceNotes || undefined,
-    activity: oldReaction.seasonEvent || undefined,
+    acts: getActivitis(oldReaction.seasonEvent),
   };
   newReactions.push(newReaction);
 }
@@ -909,35 +962,37 @@ newConstructions.sort((a, b) => {
   return a.id - b.id;
 });
 
-const SeasonsAndEventsTypesMap: Record<string, ActivityType> = {
-  'Basegame event': ActivityType.BasegameEvent,
-  'Crafting season': ActivityType.CraftingSeason,
-  'Nook Shopping event': ActivityType.NookShoppingEvent,
-  'Shopping season': ActivityType.ShoppingSeason,
-  'Special event': ActivityType.SpecialEvent,
-  'Zodiac season': ActivityType.ZodiacSeason,
-};
-
-let activitys: Activity[] = [];
-let activityId = 0;
-for (const sae of oldSeasonsAndEvents) {
-  activityId += 1;
-  const activity: Activity = {
-    id: activityId,
-    name: sae.translations?.cNzh || sae.displayName,
-    rawName: sae.name,
-    ver: versionAddedMap[sae.versionAdded] || Version.The100,
-    type: SeasonsAndEventsTypesMap[sae.type] || ActivityType.BasegameEvent,
-  };
-  if (sae.eventNotes) {
-    console.log(`活动 ${activity.name}: ${sae.eventNotes}`);
+let newAchievements: NewAchievement[] = [];
+let index = 0;
+for (const oldAchievement of oldAchievements) {
+  index += 1;
+  let tiers: Tier[] = [];
+  let oldTiers = oldAchievement.tiers;
+  for (let i = 1; i <= Number(oldAchievement.numOfTiers); i++) {
+    const oldTier = oldTiers[`${i}`];
+    if (!oldTier) break;
+    tiers.push({
+      num: Number(oldTier.required),
+      reward: Number(oldTier.reward),
+      modifier: oldTier.modifier,
+      nouns: oldTier.nouns,
+    });
   }
-  activitys.push(activity);
-  // console.log(
-  //   `${activity.name}: ${sae.unlockDate} - ${sae.unlockMethod} - ${sae.year} - ${sae.datesNorthernHemisphere}`
-  // );
+  const newAchievement: NewAchievement = {
+    id: Number(oldAchievement.internalId),
+    order: index,
+    name: oldAchievement.name,
+    rawName: oldAchievement.internalName,
+    type: oldAchievement.internalCategory,
+    ver: versionAddedMap[oldAchievement.versionAdded] || Version.The100,
+    desc: oldAchievement.achievementDescription,
+    criteria: oldAchievement.achievementCriteria,
+    isSeq: oldAchievement.sequential,
+    tiers: tiers,
+  };
+  newAchievements.push(newAchievement);
 }
-
+newAchievements.sort((a, b) => a.order - b.order);
 // 输出到文件
 fs.writeFileSync(
   path.join(outputPath, 'acnh-items.json'),
@@ -1014,6 +1069,12 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.join(outputPath, 'acnh-plants.json'),
   JSON.stringify(newPlants.map(removeNullFields), null, 2),
+  'utf-8'
+);
+
+fs.writeFileSync(
+  path.join(outputPath, 'acnh-achievements.json'),
+  JSON.stringify(newAchievements.map(removeNullFields), null, 2),
   'utf-8'
 );
 

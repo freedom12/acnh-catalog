@@ -11,10 +11,7 @@ export * from './messagecard';
 export * from './artwork';
 export * from './fossil';
 export * from './plant';
-
-export interface Translation {
-  cNzh: string;
-}
+export * from './achievement';
 
 export interface Translations {
   sources: Record<string, string>;

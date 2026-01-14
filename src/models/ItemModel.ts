@@ -35,8 +35,10 @@ import {
 } from '../types/item';
 import type { Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
+import { useActivitysData } from '../composables/useActivitysData';
 
 const { recipeIdMap } = useRecipesData();
+const { getNamesByIds } = useActivitysData();
 export class ItemModel {
   private readonly _data: Item;
   private _state: {
@@ -206,12 +208,12 @@ export class ItemModel {
     }));
   }
 
-  get activity(): string | null {
-    return this._data.activity || null;
+  get activitys(): string[] {
+    return getNamesByIds(this._data.acts || []);
   }
 
-  get activityName(): string {
-    return getActivityName(this.activity || '') || '--';
+  get activityNames(): string[] {
+    return this.activitys.map(getActivityName);
   }
 
   get hhaPoints(): number | null {
@@ -552,6 +554,11 @@ export class ItemModel {
   matchesCategory(category: string): boolean {
     if (!category) return true;
     return this.hhaCategory === category;
+  }
+
+  matchesActivity(activity: string): boolean {
+    if (!activity) return true;
+    return this.activitys.includes(activity);
   }
 
   get subtype(): number {
