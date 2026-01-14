@@ -25,11 +25,12 @@ const containerRef = ref<HTMLElement>();
 
 const containerWidth = computed(() => containerRef.value?.clientWidth || 400);
 
-const iconSize = 70;
-const singleIconSize = 110;
+const iconSize = 60;
+const singleIconSize = 100;
 const gap = 16;
 const spacing = iconSize + gap;
 const containerHeight = 150;
+const containerBorder = 10;
 const lineHeight = 10;
 
 const currentIconSize = computed(() =>
@@ -48,7 +49,7 @@ const positions = computed(() => {
   if (isZigzag) {
     const offset = (length - 1) * 25 + 30;
     for (let i = 0; i < length; i++) {
-      const x = centerX - offset + i * 50 + iconSize / 2;
+      const x = centerX - offset + i * 50 + iconSize / 2 - containerBorder / 2;
       const y = (i % 2 === 0 ? 75 : 25) + iconSize / 2;
       const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0; // -5 to 5 degrees
       pos.push({ x, y, angle });
@@ -57,7 +58,7 @@ const positions = computed(() => {
     const totalWidth = (length - 1) * spacing + iconSize;
     const startX = centerX - totalWidth / 2;
     for (let i = 0; i < length; i++) {
-      const x = startX + i * spacing + iconSize / 2;
+      const x = startX + i * spacing + iconSize / 2 - containerBorder / 2;
       const y = centerY;
       const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0;
       pos.push({ x, y, angle });
@@ -116,6 +117,19 @@ const lines = computed(() => {
         <div
           v-for="(tier, index) in props.data.tiers"
           :key="tier.num"
+          class="tier-icon-bg"
+          :class="{
+            'single-icon': props.data.tiers.length === 1,
+          }"
+          :style="{
+            left: `${(positions[index]?.x || 0) - currentIconSize / 2}px`,
+            top: `${(positions[index]?.y || 0) - currentIconSize / 2}px`,
+          }"
+        ></div>
+
+        <div
+          v-for="(tier, index) in props.data.tiers"
+          :key="tier.num"
           class="tier-icon"
           :class="{
             'single-icon': props.data.tiers.length === 1,
@@ -123,12 +137,16 @@ const lines = computed(() => {
           :style="{
             left: `${(positions[index]?.x || 0) - currentIconSize / 2}px`,
             top: `${(positions[index]?.y || 0) - currentIconSize / 2}px`,
-            position: 'absolute',
-            // transform: `rotate(${(positions[index]?.angle || 0)}deg)`,
           }"
           :title="`等级${index + 1} ${tier.num}: ${tier.reward} 点 - ${tier.modifier}`"
         >
-          <img :src="getIconSrc(index)" :alt="`等级 ${tier.num}`" />
+          <img
+            :src="getIconSrc(index)"
+            :alt="`等级 ${tier.num}`"
+            :style="{
+              transform: `rotate(${positions[index]?.angle || 0}deg)`,
+            }"
+          />
         </div>
       </div>
     </div>
@@ -177,12 +195,24 @@ const lines = computed(() => {
     // z-index: 1;
   }
 
+  .tier-icon-bg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    background: white;
+    &.single-icon {
+      width: var(--single-icon-size);
+      height: var(--single-icon-size);
+    }
+  }
+
   .tier-icon {
     width: var(--icon-size);
     height: var(--icon-size);
-    // border-radius: 50%;
+    position: absolute;
     overflow: hidden;
-    // border: 2px solid white;
     transition:
       transform 0.3s ease,
       border-color 0.3s ease;
