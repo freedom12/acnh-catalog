@@ -21,48 +21,29 @@ const getIconSrc = (index: number) => {
   }
 };
 
-const containerRef = ref<HTMLElement>();
-
-const containerWidth = computed(() => containerRef.value?.clientWidth || 400);
-
-const iconSize = 60;
-const singleIconSize = 100;
-const gap = 16;
-const spacing = iconSize + gap;
-const containerHeight = 150;
-const containerBorder = 10;
 const lineHeight = 10;
-
-const currentIconSize = computed(() =>
-  props.data.tiers.length === 1 ? singleIconSize : iconSize
-);
-
+const containerRef = ref<HTMLElement>();
+const containerWidth = computed(() => containerRef.value?.clientWidth || 400);
+const containerHeight = computed(() => containerRef.value?.clientHeight || 150);
+const sizes = [100, 75, 70, 65, 65, 55];
+const iconSize = computed(() => sizes[props.data.tiers.length - 1] || 65);
 const positions = computed(() => {
   const length = props.data.tiers.length;
-  const width = containerWidth.value;
-  const centerX = width / 2;
-  const centerY = containerHeight / 2;
+  const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0;
+  const centerX = containerWidth.value / 2;
+  const centerY = containerHeight.value / 2;
 
   const isZigzag = length > 3;
   const pos = [];
 
-  if (isZigzag) {
-    const offset = (length - 1) * 25 + 30;
-    for (let i = 0; i < length; i++) {
-      const x = centerX - offset + i * 50 + iconSize / 2 - containerBorder / 2;
-      const y = (i % 2 === 0 ? 75 : 25) + iconSize / 2;
-      const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0; // -5 to 5 degrees
-      pos.push({ x, y, angle });
-    }
-  } else {
-    const totalWidth = (length - 1) * spacing + iconSize;
-    const startX = centerX - totalWidth / 2;
-    for (let i = 0; i < length; i++) {
-      const x = startX + i * spacing + iconSize / 2 - containerBorder / 2;
-      const y = centerY;
-      const angle = length > 1 ? (Math.random() - 0.5) * 20 : 0;
-      pos.push({ x, y, angle });
-    }
+  const gapX = isZigzag ? -15 : 10;
+  const gapY = isZigzag ? gapX * 1.7 : 0;
+  const totalWidth = iconSize.value * length + gapX * (length - 1);
+  const offset = centerX - totalWidth / 2;
+  for (let i = 0; i < length; i++) {
+    const x = offset + i * (iconSize.value + gapX) + iconSize.value / 2;
+    const y = centerY + (i % 2 === 0 ? -gapY : gapY);
+    pos.push({ x, y, angle });
   }
   return pos;
 });
@@ -89,64 +70,77 @@ const lines = computed(() => {
 
 <template>
   <div class="achievement-card card" @click="handleClick">
-    <VersionBadge :version="props.data.ver" />
-    <div class="card-info">
-      <h3 class="card-name">{{ props.data.name }}</h3>
-      <div
-        ref="containerRef"
-        v-if="props.data.tiers && props.data.tiers.length > 0"
-        class="tiers-container"
-        :style="{
-          '--icon-size': iconSize + 'px',
-          '--single-icon-size': singleIconSize + 'px',
-          '--line-height': lineHeight + 'px',
-        }"
-      >
+    <div class="card-inner">
+      <VersionBadge :version="props.data.ver" />
+      <div class="card-info">
+        <h3 class="card-name">{{ props.data.name }}</h3>
         <div
-          v-for="(line, index) in lines"
-          :key="'line-' + index"
-          class="connection-line"
+          ref="containerRef"
+          v-if="props.data.tiers && props.data.tiers.length > 0"
+          class="tiers-container"
           :style="{
-            left: `${line.x}px`,
-            top: `${line.y}px`,
-            width: `${line.width}px`,
-            transform: `rotate(${line.angle}rad)`,
+            '--icon-size': iconSize + 'px',
+            '--line-height': lineHeight + 'px',
           }"
-          v-if="props.data.isSeq"
-        ></div>
-        <div
-          v-for="(tier, index) in props.data.tiers"
-          :key="tier.num"
-          class="tier-icon-bg"
-          :class="{
-            'single-icon': props.data.tiers.length === 1,
-          }"
-          :style="{
-            left: `${(positions[index]?.x || 0) - currentIconSize / 2}px`,
-            top: `${(positions[index]?.y || 0) - currentIconSize / 2}px`,
-          }"
-        ></div>
-
-        <div
-          v-for="(tier, index) in props.data.tiers"
-          :key="tier.num"
-          class="tier-icon"
-          :class="{
-            'single-icon': props.data.tiers.length === 1,
-          }"
-          :style="{
-            left: `${(positions[index]?.x || 0) - currentIconSize / 2}px`,
-            top: `${(positions[index]?.y || 0) - currentIconSize / 2}px`,
-          }"
-          :title="`等级${index + 1} ${tier.num}: ${tier.reward} 点 - ${tier.modifier}`"
         >
-          <img
-            :src="getIconSrc(index)"
-            :alt="`等级 ${tier.num}`"
+          <div
+            v-for="(line, index) in lines"
+            :key="'line-' + index"
+            class="connection-line"
             :style="{
-              transform: `rotate(${positions[index]?.angle || 0}deg)`,
+              left: `${line.x}px`,
+              top: `${line.y}px`,
+              width: `${line.width}px`,
+              transform: `rotate(${line.angle}rad)`,
             }"
-          />
+            v-if="props.data.isSeq"
+          ></div>
+          <div
+            v-for="(tier, index) in props.data.tiers"
+            :key="tier.num"
+            class="tier-icon-bg"
+            :class="{
+              'single-icon': props.data.tiers.length === 1,
+            }"
+            :style="{
+              left: `${(positions[index]?.x || 0) - iconSize / 2}px`,
+              top: `${(positions[index]?.y || 0) - iconSize / 2}px`,
+            }"
+          ></div>
+
+          <div
+            v-for="(tier, index) in props.data.tiers"
+            :key="tier.num"
+            class="tier-icon"
+            :class="{
+              'single-icon': props.data.tiers.length === 1,
+            }"
+            :style="{
+              left: `${(positions[index]?.x || 0) - iconSize / 2}px`,
+              top: `${(positions[index]?.y || 0) - iconSize / 2}px`,
+            }"
+          >
+            <img
+              :src="getIconSrc(index)"
+              :alt="`等级 ${tier.num}`"
+              :style="{
+                transform: `rotate(${positions[index]?.angle || 0}deg)`,
+              }"
+            />
+          </div>
+          <div
+            v-for="(tier, index) in props.data.tiers"
+            :key="'index-' + tier.num"
+            class="tier-lab"
+            :style="{
+              left: `${positions[index]?.x || 0}px`,
+              top: `${(positions[index]?.y || 0) + iconSize / 2}px`,
+              transform: 'translateX(-50%)',
+            }"
+            aria-hidden="true"
+          >
+            <template v-if="tier.num"> {{ tier.num }} </template>
+          </div>
         </div>
       </div>
     </div>
@@ -160,14 +154,34 @@ const lines = computed(() => {
   background: #dda0dd;
   border: 10px solid white;
   border-radius: var(--border-radius-xl);
-  padding: var(--spacing-md);
+  padding: 0;
   box-shadow: var(--shadow-sm);
   text-align: center;
   transition: var(--transition-normal);
 
+  .card-inner {
+    padding: var(--spacing-md);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tier-lab {
+    position: absolute;
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    // background: rgba(255,255,255,0.95);
+    // padding: 2px 6px;
+    // border-radius: 8px;
+    white-space: nowrap;
+    // box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    // z-index: 5;
+    // pointer-events: none;
+  }
+
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 20px var(--shadow-color);
+    box-shadow: 0 6px 20px;
   }
 
   .card-info {
@@ -202,10 +216,6 @@ const lines = computed(() => {
     position: absolute;
     overflow: hidden;
     background: white;
-    &.single-icon {
-      width: var(--single-icon-size);
-      height: var(--single-icon-size);
-    }
   }
 
   .tier-icon {
@@ -226,11 +236,6 @@ const lines = computed(() => {
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-
-    &.single-icon {
-      width: var(--single-icon-size);
-      height: var(--single-icon-size);
     }
   }
 }
