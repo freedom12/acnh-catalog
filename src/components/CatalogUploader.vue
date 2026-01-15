@@ -80,7 +80,7 @@ const handleFileChange = async (event: Event) => {
     />
 
     <button class="action-btn success" :disabled="isUploading" @click="handleFileSelect">
-      <span>{{ isUploading ? '正在上传...' : '上传目录文件' }}</span>
+      <span>{{ isUploading ? '正在上传...' : '上传数据文件' }}</span>
     </button>
 
     <div

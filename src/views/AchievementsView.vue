@@ -21,13 +21,13 @@ const filters = computed<Filter[]>(() => {
     { value: 'Fish', label: '钓鱼' },
     { value: 'HHA', label: 'HHA' },
     { value: 'Insect', label: '昆虫' },
-    { value: 'LandMaking', label: '造地' },
-    { value: 'Money', label: '金钱' },
+    { value: 'LandMaking', label: '建造' },
+    { value: 'Money', label: '铃钱' },
     { value: 'MyDesign', label: '我的设计' },
     { value: 'Negative', label: '负面' },
     { value: 'Plant', label: '植物' },
     { value: 'Seafood', label: '海鲜' },
-    { value: 'Smartphone', label: '智能手机' },
+    { value: 'Smartphone', label: '手机' },
     { value: 'Vegetable', label: '蔬菜' },
   ];
 
