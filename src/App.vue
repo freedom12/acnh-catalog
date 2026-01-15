@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, watch } from 'vue';
 import ItemDetailModal from './components/ItemDetailModal.vue';
+import AchievementDetailModal from './components/AchievementDetailModal.vue';
 import Tooltip from './components/Tooltip.vue';
 import AudioPlayer from './components/AudioPlayer.vue';
 import { useItemDetailModal } from './composables/useItemDetailModal';
+import { useAchievementDetailModal } from './composables/useAchievementDetailModal';
 import { useAppInit } from './composables/useAppInit';
 
 // 回到顶部按钮显示状态
@@ -11,6 +13,9 @@ const showBackToTop = ref(false);
 
 // 物品详情模态框
 const { isOpen, currentItemId, closeModal } = useItemDetailModal();
+
+// 成就详情模态框
+const { isOpen: achievementModalOpen, currentAchievementId, closeModal: closeAchievementModal } = useAchievementDetailModal();
 
 // 应用初始化
 const { loading: appLoading, error: appError, initialize } = useAppInit();
@@ -74,6 +79,9 @@ onUnmounted(() => {
 
     <!-- 物品详情模态框 -->
     <ItemDetailModal v-if="isOpen" :itemId="currentItemId" @close="closeModal" />
+
+    <!-- 成就详情模态框 -->
+    <AchievementDetailModal v-if="achievementModalOpen" :achievementId="currentAchievementId" @close="closeAchievementModal" />
 
     <!-- 全局 Tooltip -->
     <Tooltip />

@@ -3,6 +3,7 @@ import type { Achievement } from '../types/achievement';
 import { loadAchievementsData } from '../services/dataService';
 
 const allAchievements = ref<Achievement[]>([]) as Ref<Achievement[]>;
+const achievementIdMap = ref<Record<number, Achievement>>({});
 const loading = ref(true);
 const error = ref('');
 let isDataLoaded = false;
@@ -24,6 +25,11 @@ export function useAchievementsData() {
         error.value = '';
         const achievements = await loadAchievementsData();
         allAchievements.value = achievements;
+        // 创建 ID 映射
+        achievementIdMap.value = {};
+        achievements.forEach(achievement => {
+          achievementIdMap.value[achievement.id] = achievement;
+        });
         isDataLoaded = true;
       } catch (err) {
         error.value = '加载成就数据失败';
@@ -39,6 +45,7 @@ export function useAchievementsData() {
 
   return {
     allAchievements,
+    achievementIdMap,
     loading,
     error,
     loadData,

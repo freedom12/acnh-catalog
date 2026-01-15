@@ -3,13 +3,16 @@ import type { Achievement } from '../types/achievement';
 import VersionBadge from './VersionBadge.vue';
 import { computed, ref } from 'vue';
 import { getImgUrl } from '../services/dataService';
+import { useAchievementDetailModal } from '../composables/useAchievementDetailModal';
 
 const props = defineProps<{
   data: Achievement;
 }>();
 
+const { openModal } = useAchievementDetailModal();
+
 const handleClick = () => {
-  // 可以添加点击处理，比如打开详情
+  openModal(props.data.id);
 };
 
 const getIconSrc = (index: number) => {
@@ -170,13 +173,7 @@ const lines = computed(() => {
     position: absolute;
     font-size: 0.8rem;
     color: var(--secondary-color);
-    // background: rgba(255,255,255,0.95);
-    // padding: 2px 6px;
-    // border-radius: 8px;
     white-space: nowrap;
-    // box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    // z-index: 5;
-    // pointer-events: none;
   }
 
   &:hover {
