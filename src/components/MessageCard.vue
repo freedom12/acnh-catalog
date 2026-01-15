@@ -10,7 +10,7 @@ const props = defineProps<{
 }>();
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
+  window.open(`https://nookipedia.com/wiki/Stationery#In_New_Horizons`, '_blank');
 };
 
 const nameColor = computed(() => {

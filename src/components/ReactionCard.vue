@@ -13,7 +13,7 @@ const props = defineProps<{
 }>();
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
+  window.open(`https://nookipedia.com/wiki/Reaction`, '_blank');
 };
 </script>
 

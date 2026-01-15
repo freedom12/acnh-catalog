@@ -14,7 +14,7 @@ const props = defineProps<{
 }>();
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
+  window.open(`https://nookipedia.com/wiki/House_customization`, '_blank');
 };
 </script>
 

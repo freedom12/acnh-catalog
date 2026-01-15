@@ -28,12 +28,10 @@ const getIconSrc = (index: number) => {
   }
 };
 
-// 加载数据
 onMounted(() => {
   loadData();
 });
 
-// 点击遮罩层关闭
 const handleOverlayClick = (e: MouseEvent) => {
   if (e.target === e.currentTarget) {
     emit('close');
@@ -42,6 +40,10 @@ const handleOverlayClick = (e: MouseEvent) => {
 
 const closeModal = () => {
   emit('close');
+};
+
+const openNookipedia = () => {
+  window.open('https://nookipedia.com/wiki/Nook_Miles', '_blank');
 };
 </script>
 
@@ -84,6 +86,7 @@ const closeModal = () => {
                           :src="getIconSrc(index)"
                           :alt="`等级 ${tier.num}`"
                           class="tier-icon"
+                          @click="openNookipedia"
                         />
                         <div class="tier-info">
                           <div class="tier-info-row">
@@ -240,6 +243,12 @@ const closeModal = () => {
   width: 50px;
   height: 50px;
   flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.tier-icon:hover {
+  transform: scale(1.2);
 }
 
 .tier-info {
@@ -263,17 +272,19 @@ const closeModal = () => {
   color: #666;
   background: #d0d0d0;
   padding: 4px 8px;
-  border-radius: 12px;
+  border-radius: 24px;
 }
 
 .tier-title.left {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  padding-left: 16px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .tier-title.right {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  padding-right: 16px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .loading,
