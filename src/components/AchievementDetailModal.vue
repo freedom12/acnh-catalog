@@ -50,7 +50,7 @@ const openNookipedia = () => {
 <template>
   <Transition name="modal">
     <div v-if="achievementId !== null" class="modal-overlay" @click="handleOverlayClick">
-      <div class="modal-container achievement-modal">
+      <div class="modal-container">
         <button class="modal-close" @click="closeModal" title="关闭">✕</button>
         <div class="detail-container">
           <div v-if="loading" class="loading">正在加载成就数据...</div>

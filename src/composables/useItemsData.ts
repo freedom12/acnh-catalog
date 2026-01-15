@@ -1,12 +1,11 @@
 import { ref, type Ref } from 'vue';
 import { ItemModel } from '../models/ItemModel';
-import {
-  loadItemsData,
-  loadCatalogData,
-} from '../services/dataService';
+import { loadItemsData, loadCatalogData } from '../services/dataService';
+import { useRecipesData } from './useRecipesData';
 
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
 const itemIdMap = ref<Record<number, ItemModel>>({});
+const { loadData: loadRecipes } = useRecipesData();
 const loading = ref(true);
 const error = ref('');
 let isDataLoaded = false;
@@ -29,6 +28,7 @@ export function useItemsData() {
         const [acnhItems, ownedIds] = await Promise.all([
           loadItemsData(),
           loadCatalogData(),
+          loadRecipes(),
         ]);
 
         allItems.value = acnhItems.map((item) => {
