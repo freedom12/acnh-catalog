@@ -35,7 +35,11 @@
               :alt="`${selectedIsland?.row}-${selectedIsland?.col} view ${i}`"
               class="modal-image"
             />
-            <div class="season-label">{{ ['春', '夏', '秋', '冬'][i - 1] }}</div>
+            <img
+              :src="getImgUrl(`/img/icon/season_${i}.png`)"
+              :alt="['春', '夏', '秋', '冬'][i - 1]"
+              class="season-icon"
+            />
           </div>
         </div>
       </div>
@@ -210,11 +214,10 @@ const navigateIsland = (direction: number) => {
   border-radius: 4px;
 }
 
-.season-label {
+.season-icon {
   margin-top: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  text-align: center;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 </style>
