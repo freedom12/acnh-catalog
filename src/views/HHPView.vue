@@ -1,6 +1,6 @@
 <template>
   <div class="hhp-view">
-    <h1 class="title">快乐家乐园</h1>
+    <h1 class="title"></h1>
     <div class="island-grid">
       <div v-for="row in 7" :key="row" class="island-row">
         <img
