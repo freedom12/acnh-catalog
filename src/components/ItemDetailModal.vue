@@ -190,11 +190,9 @@ const handleOverlayClick = (e: MouseEvent) => {
                           class="recipe-info-item"
                         >
                           <label>配方来源:</label>
-                          <span
-                            >{{
-                              recipe.source.map((s) => getSourceName(s)).join(', ')
-                            }}</span
-                          >
+                          <span>
+                            {{ recipe.source.map((s) => getSourceName(s)).join(', ') }}
+                          </span>
                         </div>
                         <div v-if="recipe.sell" class="recipe-info-item">
                           <label>出售价格:</label>
@@ -211,7 +209,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 
                   <!-- 材料列表 -->
                   <div v-if="hasMaterials" class="materials-section">
-                    <hr>
+                    <hr />
                     <h4>所需材料</h4>
                     <div class="materials-grid">
                       <MaterialItem
