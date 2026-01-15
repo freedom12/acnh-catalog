@@ -479,6 +479,25 @@ export class ItemModel {
     return false;
   }
 
+  switchToIdVariant(id: number): boolean {
+    const pattern = this.getPatternById(id);
+    if (pattern) {
+      const variants = this.variantGroups;
+      for (let vIdx = 0; vIdx < variants.length; vIdx++) {
+        const variant = variants[vIdx];
+        if (variant) {
+          const pIdx = variant.patterns.findIndex((p) => p.id === id);
+          if (pIdx >= 0) {
+            this.variantIndex = vIdx;
+            this.patternIndex = pIdx;
+            return true;
+          }
+        }
+      }
+    }
+    return false;
+  }
+
   getPattern(vIndex?: number, pIndex?: number): Pattern | null {
     let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
     let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
@@ -559,6 +578,19 @@ export class ItemModel {
   matchesActivity(activity: string): boolean {
     if (!activity) return true;
     return this.activitys.includes(activity);
+  }
+
+  matchesId(id: number): boolean {
+    if (!id) return true;
+    if (this.id === id) return true;
+    for (const variant of this.variantGroups) {
+      for (const pattern of variant.patterns) {
+        if (pattern.id === id) {
+          return true;
+        }
+      }
+    }
+    return false;
   }
 
   get subtype(): number {

@@ -121,9 +121,11 @@ const { filteredData, handleFiltersChanged } = useFilter(
     // 搜索筛选
     if (searchQuery) {
       if (searchQuery.startsWith('#')) {
-        if ('#' + item.id !== searchQuery) {
+        const id = parseInt(searchQuery.slice(1), 10);
+        if (!item.matchesId(id)) {
           return false;
-        }
+        } 
+        item.switchToIdVariant(id);
       } else {
         const lowerQuery = searchQuery.toLowerCase();
         if (!item.name.toLowerCase().includes(lowerQuery)) {

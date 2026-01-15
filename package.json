@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "gencfg": "tsx tools/generate-config.ts",
     "gencfg-old": "tsx tools/generate-config-old.ts",
+    "test": "tsx tools_new/test.ts",
     "lint:style": "stylelint \"src/**/*.{vue,scss,css}\"",
     "lint:style:fix": "stylelint \"src/**/*.{vue,scss,css}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,vue,js,scss,css}\" \"*.{ts,js,md}\" \"tools/**/*.{ts,js}\""
