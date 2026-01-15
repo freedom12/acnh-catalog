@@ -27,3 +27,4 @@ dist-ssr
 .mypy_cache
 
 public/sound
+public/img_original

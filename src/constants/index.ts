@@ -38,6 +38,7 @@ export const ENTITY_ICONS = {
   FOSSILS: '🦕',
   PLANTS: '🌱',
   ACHIEVEMENTS: '🏆',
+  HHP: '🏠',
   MISC: '📦',
 } as const;
 
