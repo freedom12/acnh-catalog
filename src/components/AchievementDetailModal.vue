@@ -2,6 +2,7 @@
 import { computed, onMounted } from 'vue';
 import { useAchievementsData } from '../composables/useAchievementsData';
 import { getImgUrl, getPriceWithIcon } from '../services/dataService';
+import { Currency } from '../types';
 
 const props = defineProps<{
   achievementId: number | null;
@@ -88,7 +89,7 @@ const closeModal = () => {
                           <div class="tier-info-row">
                             <span class="tier-info-label"> 目标：{{ tier.num }}</span>
                             <span class="tier-info-label">
-                              奖励：<span v-html="getPriceWithIcon(tier.reward)"></span>
+                              奖励：<span v-html="getPriceWithIcon([tier.reward, Currency.NookMiles])"></span>
                             </span>
                           </div>
                           <div class="tier-info-row">

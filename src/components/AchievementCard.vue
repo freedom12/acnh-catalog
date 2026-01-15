@@ -160,6 +160,7 @@ const lines = computed(() => {
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.05);
   text-align: center;
   transition: var(--transition-normal);
+  cursor: pointer;
 
   &:hover {
     transform: translateY(-4px);
