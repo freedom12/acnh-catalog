@@ -143,6 +143,8 @@ const closeModal = () => {
   position: absolute;
   top: 10px;
   right: 10px;
+  width: 30px;
+  height: 30px;
   background: none;
   border: none;
   font-size: 24px;

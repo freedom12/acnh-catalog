@@ -72,7 +72,7 @@ const lines = computed(() => {
 </script>
 
 <template>
-  <div class="achievement-card card" @click="handleClick">
+  <div class="achievement-card" @click="handleClick">
     <div class="card-inner">
       <VersionBadge :version="props.data.ver" />
       <div class="card-info">
@@ -151,18 +151,23 @@ const lines = computed(() => {
 </template>
 
 <style lang="scss">
-@use '../styles/card-styles';
 
 .achievement-card {
   background: #e0f7fa;
   border: 10px solid white;
   border-radius: var(--border-radius-xl);
   padding: 0;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.05);
   text-align: center;
   transition: var(--transition-normal);
 
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+  }
+
   .card-inner {
+    position: relative;
     padding: var(--spacing-md);
     box-sizing: border-box;
     width: 100%;
@@ -174,11 +179,6 @@ const lines = computed(() => {
     font-size: 0.8rem;
     color: var(--secondary-color);
     white-space: nowrap;
-  }
-
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 20px;
   }
 
   .card-info {
