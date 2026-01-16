@@ -6,7 +6,7 @@ import { getAcnhReactionData } from './acnh/index.js';
 export function genReaction() {
   let reactions: Reaction[] = [];
   for (const oldReaction of oldReactions) {
-    let acnhReactionData = getAcnhReactionData(oldReaction.internalId);
+    let acnhReactionData = getAcnhReactionData(oldReaction.num);
     if (!acnhReactionData) {
       console.warn(
         `acnhReactionData not found: id=${oldReaction.internalId}, name=${oldReaction.translations.cNzh}`

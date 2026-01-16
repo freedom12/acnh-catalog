@@ -28,10 +28,6 @@
     "rawName": "Disagreement",
     "image": "latest/ManpuIcon/Negative",
     "ver": 1,
-    "acts": [
-      "festivale_ready",
-      "festivale"
-    ],
     "source": [
       "Big Sister villagers"
     ]
@@ -270,10 +266,6 @@
     "rawName": "Mistaken",
     "image": "latest/ManpuIcon/Oops",
     "ver": 1,
-    "acts": [
-      "festivale_ready",
-      "festivale"
-    ],
     "source": [
       "Lazy villagers"
     ]
@@ -296,10 +288,6 @@
     "rawName": "Shyness",
     "image": "latest/ManpuIcon/Hesitate",
     "ver": 1,
-    "acts": [
-      "festivale_ready",
-      "festivale"
-    ],
     "source": [
       "Lazy villagers"
     ]
@@ -333,9 +321,6 @@
     "rawName": "Mischief",
     "image": "latest/ManpuIcon/Scheming",
     "ver": 1,
-    "acts": [
-      "halloween"
-    ],
     "source": [
       "Peppy villagers"
     ],
@@ -350,9 +335,6 @@
     "rawName": "Resignation",
     "image": "latest/ManpuIcon/OhGeez",
     "ver": 1,
-    "acts": [
-      "halloween"
-    ],
     "source": [
       "Smug villagers"
     ]
@@ -532,6 +514,9 @@
     "rawName": "Haunt",
     "image": "latest/ManpuIcon/AddScaring",
     "ver": 6,
+    "acts": [
+      "halloween"
+    ],
     "source": [
       "Jack"
     ]
@@ -543,6 +528,9 @@
     "rawName": "Scare",
     "image": "latest/ManpuIcon/AddPrank",
     "ver": 6,
+    "acts": [
+      "halloween"
+    ],
     "source": [
       "All villagers"
     ]
@@ -653,6 +641,10 @@
     "rawName": "Confetti",
     "image": "latest/ManpuIcon/AddConfetti",
     "ver": 8,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Viva Festivale Reaction Set"
     ]
@@ -664,6 +656,10 @@
     "rawName": "Viva",
     "image": "latest/ManpuIcon/AddViva",
     "ver": 8,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Viva Festivale Reaction Set"
     ]
@@ -675,6 +671,10 @@
     "rawName": "Let's Go",
     "image": "latest/ManpuIcon/AddEntice",
     "ver": 8,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Viva Festivale Reaction Set"
     ]
@@ -686,6 +686,10 @@
     "rawName": "Feelin' It",
     "image": "latest/ManpuIcon/AddDance",
     "ver": 8,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Viva Festivale Reaction Set"
     ]
