@@ -77,8 +77,7 @@ const handleClick = () => {
 .grow-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  column-gap: 0;
-  row-gap: 0;
+  gap: 0;
   margin-top: 8px;
 }
 

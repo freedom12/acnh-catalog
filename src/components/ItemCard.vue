@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, watch } from 'vue';
+import { computed, onMounted, watch, ref } from 'vue';
 import { joinArray } from '../utils/common';
 import {
   getImgUrl,
@@ -25,6 +25,7 @@ const props = defineProps<{
 const { openModal } = useItemDetailModal();
 
 const itemModel = props.data;
+const isHhaExpanded = ref(false);
 const variantIndex = computed({
   get: () => itemModel.variantIndex,
   set: (val: number) => (itemModel.variantIndex = val),
@@ -64,6 +65,9 @@ onMounted(() => {
 watch(() => props.colorFilter, resetAndApplyColorFilter);
 const handleClick = () => {
   openModal(itemModel.id);
+};
+const toggleHhaExpanded = () => {
+  isHhaExpanded.value = !isHhaExpanded.value;
 };
 </script>
 
@@ -122,28 +126,6 @@ const handleClick = () => {
       <span class="detail-value">{{ itemModel.tagName }}</span>
     </div> -->
     <div class="detail-row">
-      <span class="detail-label">HHA分数</span>
-      <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">HHA主题</span>
-      <span class="detail-value">{{ itemModel.hhaSeriesName }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">HHA场景</span>
-      <span class="detail-value">
-        {{ joinArray(itemModel.hhaConceptNames) }}
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">HHA套组</span>
-      <span class="detail-value">{{ itemModel.hhaSetName }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">HHA分类</span>
-      <span class="detail-value">{{ itemModel.hhaCategoryName }}</span>
-    </div>
-    <div class="detail-row">
       <span class="detail-label">活动</span>
       <ActivityList class="detail-value" :activitys="itemModel.activitys" />
     </div>
@@ -171,6 +153,39 @@ const handleClick = () => {
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
       <span class="detail-value highlight" v-html="itemModel.sellPriceStr"> </span>
+    </div>
+
+    <div v-if="itemModel.hhaPoints" class="hha-section">
+      <div class="hha-title" @click="toggleHhaExpanded">
+        <img :src="getImgUrl('img/icon/hhp.png')" class="inline-icon" loading="lazy" />
+        快乐家协会
+        <img :src="getImgUrl('img/icon/hhp.png')" class="inline-icon" loading="lazy" />
+        <!-- <span class="toggle-icon">{{ isHhaExpanded ? '▼' : '▶' }}</span> -->
+      </div>
+      <div v-if="isHhaExpanded" class="hha-content">
+        <div class="detail-row">
+          <span class="detail-label">分数</span>
+          <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">分类</span>
+          <span class="detail-value">{{ itemModel.hhaCategoryName }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">主题</span>
+          <span class="detail-value">{{ itemModel.hhaSeriesName }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">套组</span>
+          <span class="detail-value">{{ itemModel.hhaSetName }}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">场景</span>
+          <span class="detail-value">
+            {{ joinArray(itemModel.hhaConceptNames) }}
+          </span>
+        </div>
+      </div>
     </div>
 
     <div v-if="itemModel.canCustomize" class="variants-section">
@@ -268,6 +283,7 @@ const handleClick = () => {
 
 <style scoped lang="scss">
 @use '../styles/card-styles';
+
 .variants-section {
   background: #fff9e6;
   border-radius: var(--border-radius-xl);
@@ -364,5 +380,68 @@ const handleClick = () => {
   background: #ff4d9e;
   color: #fff;
   border-color: #e60073;
+}
+
+.hha-section {
+  border-radius: var(--border-radius-xl);
+  background: #ffeaea;
+  padding: 8px;
+  border: 2px solid #fcc;
+  margin-top: 8px;
+}
+
+.hha-content {
+  background: #fff6f6;
+  padding: 4px;
+  border: 2px solid #fcc;
+  border-radius: var(--border-radius-lg);
+}
+
+.hha-content .detail-row:not(:last-child) {
+  position: relative;
+}
+
+.hha-content .detail-row:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  background: #fcc;
+  border-radius: 1px;
+}
+
+.hha-content .detail-row {
+  border-radius: 0;
+}
+
+.hha-section .detail-row {
+  background-color: transparent;
+}
+
+.hha-row {
+  display: flex;
+  gap: 8px;
+}
+
+.hha-row .detail-row {
+  flex: 1;
+}
+
+.hha-title {
+  font-weight: 600;
+  color: #8b0000;
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  font-size: 0.7em;
+  color: #666;
+  transition: transform 0.2s ease;
+  margin: 0px 2px;
 }
 </style>

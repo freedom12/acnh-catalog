@@ -469,7 +469,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   padding: 20px;
   background: #f8f9fb;
   border-radius: var(--border-radius-xl);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.06);
 }
 
 .section h2 {
@@ -532,7 +532,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
 
 .misc-item.clickable:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgb(0, 0, 0, 0.15);
   border-color: var(--primary-color);
 }
 
@@ -576,7 +576,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin: 15px 0 10px 0;
+  margin: 15px 0 10px;
   font-size: 1.2em;
   color: var(--secondary-color);
   font-weight: 600;
@@ -592,7 +592,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;

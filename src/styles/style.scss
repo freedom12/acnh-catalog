@@ -103,7 +103,7 @@ $gradient-green-dark: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
   color: #213547;
   background-color: #e8f5e9;
   background-image:
-    linear-gradient(rgba(232, 245, 233, 0.4), rgba(232, 245, 233, 0.8)),
+    linear-gradient(rgb(232, 245, 233, 0.4), rgb(232, 245, 233, 0.8)),
     url('@/assets/img/bg.jpg');
   background-size: auto;
   background-position: top;

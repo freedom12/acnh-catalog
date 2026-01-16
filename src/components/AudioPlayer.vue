@@ -122,12 +122,11 @@ const handleProgressClick = (e: MouseEvent) => {
   padding: 0;
   display: grid;
   grid-template-columns: auto;
-  justify-items: center;
-  align-items: center;
+  place-items: center center;
   gap: 0;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgb(255, 255, 255, 0.14);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
   transition: width 0.25s ease, height 0.25s ease, border-radius 0.25s ease,
@@ -149,7 +148,7 @@ const handleProgressClick = (e: MouseEvent) => {
   height: 48px;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgb(255, 255, 255, 0.15);
   color: white;
   font-size: 22px;
   cursor: pointer;
@@ -165,17 +164,14 @@ const handleProgressClick = (e: MouseEvent) => {
 }
 
 .primary-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(255, 255, 255, 0.25);
   transform: translateY(-1px);
 }
 
 .audio-player:hover .primary-btn,
 .audio-player:focus-within .primary-btn {
   position: absolute;
-  right: 12px;
-  bottom: 12px;
-  left: auto;
-  top: auto;
+  inset: auto 12px 12px auto;
   transform: none;
 }
 
@@ -226,7 +222,7 @@ const handleProgressClick = (e: MouseEvent) => {
   height: 28px;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgb(255, 255, 255, 0.12);
   color: white;
   cursor: pointer;
   display: inline-flex;
@@ -239,15 +235,15 @@ const handleProgressClick = (e: MouseEvent) => {
   width: 48px;
   height: 48px;
   font-size: 18px;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgb(255, 255, 255, 0.18);
 }
 
 .close-btn:hover {
-  background: rgba(255, 255, 255, 0.26);
+  background: rgb(255, 255, 255, 0.26);
 }
 
 .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, 0.2);
 }
 
 .progress-combo {
@@ -262,13 +258,13 @@ const handleProgressClick = (e: MouseEvent) => {
   font-size: 12px;
   min-width: 42px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgb(255, 255, 255, 0.85);
 }
 
 .progress-bar {
   flex: 1;
   height: 6px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, 0.2);
   border-radius: 999px;
   cursor: pointer;
   position: relative;
@@ -304,7 +300,7 @@ const handleProgressClick = (e: MouseEvent) => {
 }
 
 .volume-icon:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgb(255, 255, 255, 0.12);
   transform: translateY(-1px);
 }
 
@@ -313,7 +309,7 @@ const handleProgressClick = (e: MouseEvent) => {
   height: 3px;
   appearance: none;
   -webkit-appearance: none;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(255, 255, 255, 0.25);
   border-radius: 999px;
   outline: none;
 }
@@ -325,7 +321,7 @@ const handleProgressClick = (e: MouseEvent) => {
   background: white;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.2);
 }
 
 .volume-slider::-moz-range-thumb {
@@ -335,7 +331,7 @@ const handleProgressClick = (e: MouseEvent) => {
   border-radius: 50%;
   cursor: pointer;
   border: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.2);
 }
 
 .player-fade-enter-active,
@@ -349,7 +345,7 @@ const handleProgressClick = (e: MouseEvent) => {
   transform: translateY(10px);
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .audio-player {
     right: var(--spacing-lg);
     bottom: calc(var(--spacing-lg) + 58px);

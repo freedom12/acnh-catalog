@@ -123,7 +123,7 @@ const openNookipedia = () => {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +139,7 @@ const openNookipedia = () => {
   max-height: 90vh;
   width: 100%;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgb(0, 0, 0, 0.3);
   position: relative;
 }
 
@@ -178,7 +178,7 @@ const openNookipedia = () => {
 }
 
 .title-section h2 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   font-size: 24px;
   text-align: center;
 }

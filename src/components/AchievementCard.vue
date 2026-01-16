@@ -187,9 +187,10 @@ const lines = computed(() => {
   }
 
   .card-name {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0;
     font-size: 1.1rem;
     font-weight: bold;
+
     // color: brown;
   }
 
@@ -204,6 +205,7 @@ const lines = computed(() => {
     height: var(--line-height);
     background: white;
     transform-origin: 0 50%;
+
     // z-index: 1;
   }
 

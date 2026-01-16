@@ -130,7 +130,7 @@ const navigateIsland = (direction: number) => {
 
 .island-icon:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 25px rgb(0, 0, 0, 0.3);
   filter: brightness(1.1);
   z-index: 10;
 }
@@ -153,7 +153,7 @@ const navigateIsland = (direction: number) => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;

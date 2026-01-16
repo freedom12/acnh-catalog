@@ -272,6 +272,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 
 <style scoped lang="scss">
 @use '../styles/view-styles';
+
 /* 模态框遮罩层 */
 .modal-overlay {
   position: fixed;
@@ -279,7 +280,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +297,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   max-height: 90vh;
   width: 100%;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgb(0, 0, 0, 0.3);
   position: relative;
 }
 
@@ -370,6 +371,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   display: flex;
   gap: 15px;
   align-items: center;
+
   // justify-content: flex-start;
   // flex-wrap: wrap;
 }
@@ -400,7 +402,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(0, 0, 0, 0.7);
   color: white;
   padding: 8px;
   text-align: center;
@@ -409,7 +411,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .owned-overlay.owned {
-  background: rgba(76, 175, 80, 0.9);
+  background: rgb(76, 175, 80, 0.9);
 }
 
 /* 卡片区域 */
@@ -427,7 +429,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 }
 
 .info-card h3 {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   color: #2e7d32;
   font-size: 1.2em;
   border-bottom: 2px solid #c8e6c9;
@@ -498,6 +500,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 /* DIY配方展示样式 */
 .recipe-section h3 {
   margin: 0 0 20px;
+
   // color: #e65100;
   font-size: 1.5em;
 }
@@ -617,7 +620,7 @@ const handleOverlayClick = (e: MouseEvent) => {
 
 .variant-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
   border-color: #4a9b4f;
 }
 

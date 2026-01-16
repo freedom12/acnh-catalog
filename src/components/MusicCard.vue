@@ -94,21 +94,21 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
   align-items: center;
   gap: 6px;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 8px rgb(102, 126, 234, 0.3);
 }
 
 .play-button--radio {
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  box-shadow: 0 2px 8px rgba(240, 147, 251, 0.3);
+  box-shadow: 0 2px 8px rgb(240, 147, 251, 0.3);
 }
 
 .play-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgb(102, 126, 234, 0.4);
 }
 
 .play-button--radio:hover {
-  box-shadow: 0 4px 12px rgba(240, 147, 251, 0.4);
+  box-shadow: 0 4px 12px rgb(240, 147, 251, 0.4);
 }
 
 .play-button:active {
