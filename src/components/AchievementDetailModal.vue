@@ -98,8 +98,8 @@ const openNookipedia = () => {
                           <div class="tier-info-row">
                             <span class="tier-info-label">称号：</span>
                             <span class="tier-title left">{{ tier.modifier }}</span>
-                            <span v-if="tier.nouns.length > 0" class="tier-title right">
-                              {{ tier.nouns.join(', ') }}
+                            <span v-for="noun in tier.nouns" :key="noun" class="tier-title right">
+                              {{ noun }}
                             </span>
                           </div>
                         </div>

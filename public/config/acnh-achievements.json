@@ -2,11 +2,11 @@
   {
     "id": 53,
     "order": 1,
-    "name": "(island name) Miles!",
+    "name": "欢迎来到（岛名）！",
     "rawName": "ImmigratetoIsland",
     "type": "Event",
     "ver": 1,
-    "desc": "You traveled a long way just to move to our little island, and you enrolled in the Nook Mileage Program. So you earned your first miles! There are lots of ways to earn miles by just enjoying island life!",
+    "desc": "感谢你申请Nook Inc.的无人岛移居套餐计划！我将赠送一份本次移居搭乘飞机的特别里数给你狸！",
     "criteria": "Unlock the Nook Mileage program",
     "isSeq": true,
     "tiers": [
@@ -23,11 +23,11 @@
   {
     "id": 0,
     "order": 2,
-    "name": "Angling for Perfection!",
+    "name": "目标是成为垂钓高手",
     "rawName": "CatchFish",
     "type": "Fish",
     "ver": 1,
-    "desc": "Learning how to fish is an essential skill for living on a remote island, hm? Nook Inc. encourages all island residents who are aiming to become fishing masters!",
+    "desc": "在无人岛生活的话，磨炼钓鱼技能是极其有益的狸！Nook Inc.会全力支持各位成为垂钓高手的狸！",
     "criteria": "Collect a specified number of fish",
     "isSeq": true,
     "tiers": [
@@ -77,11 +77,11 @@
   {
     "id": 3,
     "order": 3,
-    "name": "Island Ichthyologist",
+    "name": "成为鱼类博士吧",
     "rawName": "FillFishList",
     "type": "Fish",
     "ver": 1,
-    "desc": "Fill in your Critterpedia with fish and earn miles along the way. Can you categorize each and every type of fish that swims in your island's waters, hm?",
+    "desc": "把生物图鉴的鱼类页面填满，完成鱼类的图鉴吧！根据图鉴的完成情况，我会赠送你相应的里数狸！",
     "criteria": "Collect a specified number of unique fish",
     "isSeq": true,
     "tiers": [
@@ -130,11 +130,11 @@
   {
     "id": 68,
     "order": 4,
-    "name": "Island Togetherness",
+    "name": "打招呼是一切的基础！",
     "rawName": "GreetAllVillager",
     "type": "Communication",
     "ver": 1,
-    "desc": "One of the goals of Nook Inc. is resident togetherness. Our gregarious-greetings initiative aims to reward you with Nook Miles just for chatting with residents. Try to talk to all your neighbors every day!",
+    "desc": "在新的地方和新交的伙伴共同生活。而关系变好的基本方式就是打招呼狸！请尽量每天都和岛上所有的居民打招呼，积极地和大家交流哦。",
     "criteria": "Talk to each one of your villagers every day",
     "isSeq": true,
     "tiers": [
@@ -184,11 +184,11 @@
   {
     "id": 1,
     "order": 5,
-    "name": "You've Got the Bug",
+    "name": "迈向虫类猎人之路",
     "rawName": "CatchInsect",
     "type": "Insect",
     "ver": 1,
-    "desc": "Earn miles just for catching creepy-crawlies! Every bug you catch is one that won't be surprising someone in their sock drawer.",
+    "desc": "在自然资源丰富的无人岛上，应该会有很多虫子吧？我会根据你抓到的虫子，赠送你相应的里数狸！",
     "criteria": "Collect a specified number of bugs",
     "isSeq": true,
     "tiers": [
@@ -237,11 +237,11 @@
   {
     "id": 4,
     "order": 6,
-    "name": "Bugs Don't Bug Me",
+    "name": "能成为虫类博士吗？！",
     "rawName": "FillInsectList",
     "type": "Insect",
     "ver": 1,
-    "desc": "You can earn miles for filling out your Critterpedia! Can you find every bug and unlock every entry? Yes, yes, you can! And please do consider supporting Blathers by donating bugs to the museum.",
+    "desc": "这个岛上有许多虫子狸！抓住各种各样的虫子，填满生物图鉴里的虫类页面吧！我会根据记录的数字，赠送你里数狸！",
     "criteria": "Collect a specified number of unique bugs",
     "isSeq": true,
     "tiers": [
@@ -290,11 +290,11 @@
   {
     "id": 55,
     "order": 7,
-    "name": "Have a Nice DIY!",
+    "name": "增加DIY的手册吧！",
     "rawName": "FillRecipeList",
     "type": "DIY",
     "ver": 1,
-    "desc": "Nook Inc. will award Nook Miles for the number of DIY recipes you've collected. Think about that. You're earning...for learning! Yes, yes!",
+    "desc": "Nook Inc.会根据收集到的手册数量，赠送相应的里数狸！今后也请不断增加手册，进行各种各样物品的DIY吧！",
     "criteria": "Collect a specified number of DIY recipes",
     "isSeq": true,
     "tiers": [
@@ -344,11 +344,11 @@
   {
     "id": 98,
     "order": 8,
-    "name": "Deep Dive",
+    "name": "潜入海里吧，潜水健将！",
     "rawName": "CatchSeafood",
     "type": "Seafood",
     "ver": 4,
-    "desc": "The glittering sea that surrounds our island is home to all kinds of captivating creatures. Put on your wet suit, dive in, and sea what you can collect to earn miles. Sea what I did there, hm?",
+    "desc": "岛屿四周环绕着美丽的蓝色海洋，海里还有丰富的海洋生物狸！捕到海洋生物后，就会给你里数，快穿上潜水衣，跳进海里潜水吧！",
     "criteria": "Collect a specified number of sea creatures",
     "isSeq": true,
     "tiers": [
@@ -397,11 +397,11 @@
   {
     "id": 95,
     "order": 9,
-    "name": "Underwater Understudy",
+    "name": "成为海洋生物博士的一大步",
     "rawName": "FillSeafoodList",
     "type": "Seafood",
     "ver": 4,
-    "desc": "There are still many creatures we have yet to discover at the bottom of the sea, hm? Earn miles by diving deep, capturing creatures, and filling out your Critterpedia. Yes, yes!",
+    "desc": "海底还蕴藏着许许多多不为人知的生物狸……找到海洋生物，填充图鉴，我会赠送给你里数狸！",
     "criteria": "Collect a specified number of unique sea creatures",
     "isSeq": true,
     "tiers": [
@@ -452,11 +452,11 @@
   {
     "id": 72,
     "order": 10,
-    "name": "DIY Tools",
+    "name": "日常生活从制作道具开始",
     "rawName": "DIYTool",
     "type": "DIY",
     "ver": 1,
-    "desc": "If your tools break, just make more! And to take away the sting, you'll earn Nook Miles based on the number of tools you craft. Sweet deal!",
+    "desc": "现在正在举行根据DIY制作道具的次数，赠送里数的活动狸！即使道具坏了也不用太在意，请不断地重做吧！",
     "criteria": "Craft a specified number of tools",
     "isSeq": true,
     "tiers": [
@@ -505,11 +505,11 @@
   {
     "id": 73,
     "order": 11,
-    "name": "DIY Furniture",
+    "name": "手工制作的家具让生活更丰富",
     "rawName": "DIYFurniture",
     "type": "DIY",
     "ver": 1,
-    "desc": "Here's a win-win-win situation: Craft your own furniture. (Win!) Enjoy your handiwork. (Win!) Earn Nook Miles for the furniture you've crafted. (Win!) What could be better than that?",
+    "desc": "手工制作的家具充满了感情狸！在店里买的话，我当然很高兴，但对于用DIY制作家具的人，我会根据个数发放里数狸！",
     "criteria": "Craft a specified number of DIY furniture",
     "isSeq": true,
     "tiers": [
@@ -560,11 +560,11 @@
   {
     "id": 14,
     "order": 12,
-    "name": "Furniture Freshener",
+    "name": "成为改造高手吧！",
     "rawName": "RemakeFurniture",
     "type": "DIY",
     "ver": 1,
-    "desc": "Give your furniture that personal touch and you can unlock miles. The more items you refurbish, the more miles you can get, hm?",
+    "desc": "只要稍稍花点功夫改造，就能让家具更具个性，感觉不错吧？现在正举行根据改造次数赠送里数的活动，推荐给你狸！",
     "criteria": "Customize a specified number of furniture or tools using the workbench",
     "isSeq": true,
     "tiers": [
@@ -613,11 +613,11 @@
   {
     "id": 67,
     "order": 13,
-    "name": "Rough-hewn",
+    "name": "森林伐木工！",
     "rawName": "StrikeWood",
     "type": "DIY",
     "ver": 1,
-    "desc": "Island development is Nook Inc.'s goal. We need a lot of materials to make that happen, so we're giving away Nook Miles based on how much wood you've chopped from trees.",
+    "desc": "无人岛的发展是Nook Inc.的目标狸！为此对资源的需求也是巨大的，根据砍伐的木材数量，我会赠送里数给你狸！",
     "criteria": "Chop a specified number of wood from trees",
     "isSeq": true,
     "tiers": [
@@ -666,11 +666,11 @@
   {
     "id": 105,
     "order": 14,
-    "name": "Writing a Cookbook?",
+    "name": "增加料理手册吧！",
     "rawName": "FillCookingList",
     "type": "Cooking",
     "ver": 13,
-    "desc": "The recipes in your collection could stretch for miles, so allow me to present you with these...miles! Delight the eyes and stomachs of your neighbors with all your delicious creations, hm?",
+    "desc": "用料理手册拓展自己拿手的料理后，我会赠送你里数狸！",
     "criteria": "Learn a specified number of cooking DIY recipes",
     "isSeq": true,
     "tiers": [
@@ -703,11 +703,11 @@
   {
     "id": 107,
     "order": 15,
-    "name": "Mmm-Mmm-Miles!",
+    "name": "咝咝的煎锅！轰鸣的炉灶！",
     "rawName": "CookFood",
     "type": "Cooking",
     "ver": 13,
-    "desc": "Gathering ingredients and creating delicious treats is great fun, is it not? Yes, yes, I do believe our chefs out there deserve miles for all the times they've prepared something delicious!",
+    "desc": "使用在岛上获得的食材制作料理是令人愉悦的事情狸。对于通过DIY制作料理的人，我会根据次数给与相应的里数狸！",
     "criteria": "Cook a specified number of foods",
     "isSeq": true,
     "tiers": [
@@ -756,11 +756,11 @@
   {
     "id": 49,
     "order": 16,
-    "name": "Trashed Tools",
+    "name": "道具粉碎机！",
     "rawName": "BreakTool",
     "type": "HHA",
     "ver": 1,
-    "desc": "Using a tool until it breaks is proof of your hard work! In praise of your good deeds, you're getting Nook Miles based on how many tools you've broken.",
+    "desc": "把道具用到坏掉，是你充分努力的证据狸！为了表扬你的这份功绩，会根据坏掉的数量给你相应的里数狸！",
     "criteria": "Break a specified number of tools",
     "isSeq": true,
     "tiers": [
@@ -809,11 +809,11 @@
   {
     "id": 57,
     "order": 17,
-    "name": "Rock-Splitting Champ",
+    "name": "敲击岩石的专家！",
     "rawName": "StrikeRock8Times",
     "type": "HHA",
     "ver": 1,
-    "desc": "You hit a single rock eight times in a row and knocked some things loose. But did you know that rock whacking is the activity that keeps on giving? Yes, yes! You're getting some Nook Miles now!",
+    "desc": "作为连续8次敲击岩石的纪念，让我送给你里数狸！以后也请尽情享受岛上的生活哦！",
     "criteria": "Hit a rock with your shovel and obtain all 8 materials from that rock",
     "isSeq": true,
     "tiers": [
@@ -830,11 +830,11 @@
   {
     "id": 61,
     "order": 18,
-    "name": "Bona Fide Bone Finder!",
+    "name": "化石发掘队员认证！",
     "rawName": "DigFossil",
     "type": "HHA",
     "ver": 1,
-    "desc": "Congratulations on finding your first fossil! Of course, you'll need some Nook Miles to commemorate the occasion. But don't celebrate too hard. There are more fossils to dig up! Yes, yes!",
+    "desc": "祝贺你第一次发现化石狸！送你里数作为贺礼，收下吧！岛上有许多化石在地下沉睡，希望你能不断挖掘狸！",
     "criteria": "Dig up your first fossil",
     "isSeq": true,
     "tiers": [
@@ -851,11 +851,11 @@
   {
     "id": 62,
     "order": 19,
-    "name": "Fossil Assessment",
+    "name": "什么样的化石啊？！",
     "rawName": "JudgeFossil",
     "type": "HHA",
     "ver": 1,
-    "desc": "Yes, yes! You're getting Nook Miles based on the number of fossils you've had assessed. Dig up as many as you can and find out what they are!",
+    "desc": "现在正举行根据化石鉴定的数量，赠送里数的活动狸！请多多挖掘，试着研究各种各样的化石吧！",
     "criteria": "Have Blathers assess a specified number of fossils",
     "isSeq": true,
     "tiers": [
@@ -904,11 +904,11 @@
   {
     "id": 106,
     "order": 20,
-    "name": "Nice to Meet You, Gyroid!",
+    "name": "陶俑，你好啊！",
     "rawName": "DigGyroid",
     "type": "HHA",
     "ver": 13,
-    "desc": "You've discovered your first gyroid! This special occasion deserves miles, yes, yes. I hope you feel inspired to collect all sorts of different, wonderful gyroids now.",
+    "desc": "祝贺你首次发现陶俑！让我送你里数作为纪念狸！今后也请不断收集各种各样的陶俑吧！",
     "criteria": "Dig up your first gyroid",
     "isSeq": true,
     "tiers": [
@@ -925,11 +925,11 @@
   {
     "id": 104,
     "order": 21,
-    "name": "Gyroid Getter",
+    "name": "岛民啊，拥抱陶俑吧！",
     "rawName": "FillGyroidList",
     "type": "HHA",
     "ver": 13,
-    "desc": "Collect different kinds of gyroids, and earn miles in return! I suspect once you experience life in their presence, you'll find it hard to resist hunting for more, hm?",
+    "desc": "收集各种各样的陶俑，我会赠送你里数狸！一旦发现了陶俑的魅力，就会深陷其中无法自拔狸。",
     "criteria": "Touch specified number of unique gyroids",
     "isSeq": true,
     "tiers": [
@@ -962,11 +962,11 @@
   {
     "id": 37,
     "order": 22,
-    "name": "Greedy Weeder",
+    "name": "招募除草志愿者",
     "rawName": "SellWeed",
     "type": "Plant",
     "ver": 1,
-    "desc": "Nook Inc. salutes you for your beautification efforts. Nook Inc. rewards you with Nook Miles for selling weeds. Nook Inc. is quite generous, no?",
+    "desc": "Nook Inc.万分感谢你在岛屿美化活动中的贡献狸！根据你卖掉的杂草数量，会给你相应的里数狸！",
     "criteria": "Sell a specified number of weeds",
     "isSeq": true,
     "tiers": [
@@ -1015,11 +1015,11 @@
   {
     "id": 6,
     "order": 23,
-    "name": "Flower Power",
+    "name": "享受园艺的乐趣吧！",
     "rawName": "PlantFlowerSeed",
     "type": "Plant",
     "ver": 1,
-    "desc": "Planting flowers makes our island more beautiful and can earn you miles. So...grow wild! Yes, yes!",
+    "desc": "在各个地方播上花种或种上球根，让这个岛变得更热闹狸！对于兢兢业业到处种植的人，我会给予里数作为回报狸！",
     "criteria": "Plant a specified number of flower seeds (digging up and replanting existing flowers does not count)",
     "isSeq": true,
     "tiers": [
@@ -1069,11 +1069,11 @@
   {
     "id": 23,
     "order": 24,
-    "name": "Flower Tender",
+    "name": "浇浇花，有花相伴的生活",
     "rawName": "WaterPlant",
     "type": "Plant",
     "ver": 1,
-    "desc": "If you encourage floral growth by showering the island's flowers with water, I'll encourage your growth by showering you with Nook Miles!",
+    "desc": "每天浇水，悉心地照料，花的数量就会不断增加，或是开出珍稀颜色的花来！我为你感到自豪狸！大家一起来帮忙吧！",
     "criteria": "Water a specified number of flowers",
     "isSeq": true,
     "tiers": [
@@ -1122,11 +1122,11 @@
   {
     "id": 8,
     "order": 25,
-    "name": "Tomorrow's Trees Today",
+    "name": "给岛上增添绿色！植树挑战！",
     "rawName": "PlantTreeSeedling",
     "type": "Plant",
     "ver": 1,
-    "desc": "To build a sustainable life on this island, we're going to need to plant a lot of trees! The more you plant, the more miles you can earn.",
+    "desc": "长大了的树木可以作为原材料使用，因此希望大家能协助苗木种植活动！根据种植的棵数会给予里数，所以请加油，愉快地种树吧！",
     "criteria": "Plant a specified number of trees (planting fruits or replanting existing trees does not count)",
     "isSeq": true,
     "tiers": [
@@ -1159,11 +1159,11 @@
   {
     "id": 70,
     "order": 26,
-    "name": "Pick of the Bunch",
+    "name": "享受采摘水果的乐趣吧！",
     "rawName": "SellFruit",
     "type": "Plant",
     "ver": 1,
-    "desc": "You'll get Nook Miles based on the amount of fruit you've sold. Remember: If you sell our island's specialty fruits on other islands, you might be able to get a better price!",
+    "desc": "根据卖水果的个数，为你准备了里数作为礼物狸！如果把岛上特产的水果卖到隔壁岛，可以卖出很高的价钱狸！",
     "criteria": "Sell a specified number of fruits",
     "isSeq": true,
     "tiers": [
@@ -1212,11 +1212,11 @@
   {
     "id": 7,
     "order": 27,
-    "name": "Fruit Roots",
+    "name": "水果乐园",
     "rawName": "PlantFruit",
     "type": "Plant",
     "ver": 1,
-    "desc": "(island name)'s local fruit delicacy is a wonder, to be sure. But if you plant new varieties, guess what'll happen? Correct! You'll \"grow\" some Nook Miles! What you do with the fruit after that is up to you.",
+    "desc": "世界上有许多不同的水果狸！希望你能种植各种各样的水果，让这座岛成为美丽的果园狸♪我会赠送里数给提供帮助的人哦！",
     "criteria": "Plant each type of fruit (cherry, orange, pear, peach, apple, and coconut)",
     "isSeq": false,
     "tiers": [
@@ -1274,11 +1274,11 @@
   {
     "id": 92,
     "order": 28,
-    "name": "Shrubbery Hubbubbery",
+    "name": "用灌木装点的花园生活！",
     "rawName": "PlantBushSeedling",
     "type": "Plant",
     "ver": 3,
-    "desc": "Different kinds of shrubs usher in the different seasons with their flowers, yes, yes! Folks who plant many shrubs will receive beauty and miles as a reward.",
+    "desc": "只在固定季节才会开花的各种灌木可以令人感受到季节的到来狸！根据种植灌木的数量，我会赠送里数作为奖励狸！",
     "criteria": "Plant a specified number of shrubs (replanting existing shrubs does not count)",
     "isSeq": true,
     "tiers": [
@@ -1311,11 +1311,11 @@
   {
     "id": 100,
     "order": 29,
-    "name": "Sprout Out Loud",
+    "name": "种植蔬菜，新鲜生活！",
     "rawName": "PlantVegetableSeedling",
     "type": "Vegetable",
     "ver": 13,
-    "desc": "Plant your produce starts across the whole island for a fresh, bounteous crop! Whether it's a small home garden or a full-on field, support Nook Inc. with all your produce-planting power! Yes, yes!",
+    "desc": "在各个地方种植蔬菜苗，用丰收的果实打造出美味的岛屿狸！从家庭菜园到真正的农田，Nook Inc.将全力支持你哦！",
     "criteria": "Plant a specified number of produce sprouts (replanting existing sprouts does not count)",
     "isSeq": true,
     "tiers": [
@@ -1364,11 +1364,11 @@
   {
     "id": 102,
     "order": 30,
-    "name": "Executive Producer",
+    "name": "收获新鲜蔬菜吧！",
     "rawName": "HarvestVegetable",
     "type": "Vegetable",
     "ver": 13,
-    "desc": "Nothing feels quite like harvesting produce that you grew by the sweat of your brow, yes, yes! Now go enjoy the fruits of your labor—and the pumpkins, carrots, sugarcane, and potatoes too!",
+    "desc": "南瓜、番茄、胡萝卜、马铃薯……细心栽培的蔬菜到了收获的季节，那份喜悦是任何事物都无法取代的狸！希望你能感受到种植蔬菜的魅力♪",
     "criteria": "Harvest a specified number of produce",
     "isSeq": true,
     "tiers": [
@@ -1417,11 +1417,11 @@
   {
     "id": 69,
     "order": 31,
-    "name": "Go Ahead. Be Shellfish!",
+    "name": "捡贝壳高手！",
     "rawName": "SellShell",
     "type": "Fish",
     "ver": 1,
-    "desc": "You can earn Nook Miles based on the number of seashells you sell. (That's not easy to say!) And remember: You'll get different amounts of Bells for different types of shells. So pay attention!",
+    "desc": "根据卖贝壳的个数，会赠送你里数狸！按种类的不同，收购价格也不同，记住价格会比较好狸！",
     "criteria": "Sell a specified number of seashells",
     "isSeq": true,
     "tiers": [
@@ -1471,11 +1471,11 @@
   {
     "id": 63,
     "order": 32,
-    "name": "Clam and Collected",
+    "name": "挑战挖蛤蜊！",
     "rawName": "DigShell",
     "type": "Fish",
     "ver": 1,
-    "desc": "Dig up clams, collect Nook Miles. It's really that simple. The real bonus here is that you get to walk along the beach for this one.",
+    "desc": "根据挖蛤蜊的次数，我会给你里数狸！在海边散步的时候，请试着挑战一下吧！",
     "criteria": "Dig up a specified number of clams",
     "isSeq": true,
     "tiers": [
@@ -1524,11 +1524,11 @@
   {
     "id": 32,
     "order": 33,
-    "name": "Trash Fishin'",
+    "name": "净化大海与河川！",
     "rawName": "CatchTrash",
     "type": "Fish",
     "ver": 1,
-    "desc": "You work extra hard to keep our island clean, even going so far as to fish up trash out of our lovely waters. So you're getting some Nook Miles for keeping the island extra tidy, yes, yes!",
+    "desc": "为了感谢你对岛上的美化活动做出的贡献，希望你能收下里数狸！时不时地从大海或是河里钓到垃圾，真的很不好，好讨厌狸。",
     "criteria": "Fish a specified number of trash (cans, tires, or boots)",
     "isSeq": true,
     "tiers": [
@@ -1561,11 +1561,11 @@
   {
     "id": 2,
     "order": 34,
-    "name": "Cast Master",
+    "name": "能成为传说中的垂钓者吗？！",
     "rawName": "CatchFishContinuously",
     "type": "Fish",
     "ver": 1,
-    "desc": "Cast your line carefully if you want to reel in this reward—you'll need to nab a bunch of fish in a row without a single one getting away to earn these miles.",
+    "desc": "目标猎物，百发百中，这就是传说中的垂钓者吧。为了奖励你连续成功钓起，我会根据记录赠送你里数狸！",
     "criteria": "Fish a specified number of fish in a single streak without any getting away",
     "isSeq": true,
     "tiers": [
@@ -1598,11 +1598,11 @@
   {
     "id": 82,
     "order": 35,
-    "name": "Dream House",
+    "name": "梦寐以求的家！",
     "rawName": "ExtendMyHome",
     "type": "Event",
     "ver": 1,
-    "desc": "A home that you build yourself gives you greater livability—it's on a whole other level! I'll give Nook Miles to those who build or expand their home to taste the good life.",
+    "desc": "按个人喜好建造的房子，住起来也格外舒适狸！为了让大家都能有舒适的生活体验，新建或扩建房屋都会有里数奖励狸！",
     "criteria": "Expand your home a specified number of times",
     "isSeq": true,
     "tiers": [
@@ -1651,11 +1651,11 @@
   {
     "id": 40,
     "order": 36,
-    "name": "Decorated Decorator",
+    "name": "建造房间的高手！",
     "rawName": "GetSRankonHHA",
     "type": "Event",
     "ver": 1,
-    "desc": "You got an S ranking from the Happy Home Academy! Your decorating skills are truly an inspiration, and you deserve some Nook Miles.",
+    "desc": "你在快乐家协会里获得了S等级，为表庆祝，会赠送你里数狸！今后也请争做模范，继续建造漂亮的房间，让更多人过得快乐吧！",
     "criteria": "Get an S ranking from the Happy Home Academy",
     "isSeq": true,
     "tiers": [
@@ -1672,11 +1672,11 @@
   {
     "id": 78,
     "order": 37,
-    "name": "Hoard Reward",
+    "name": "让装饰丰富生活！",
     "rawName": "PlaceFurnitureMyHouse",
     "type": "Event",
     "ver": 1,
-    "desc": "Put more furniture in your house! Nook Inc. will give you Nook Miles based on the number of indoor furniture items you have. So you're earning rewards for making your house a home!",
+    "desc": "用自己精选的装饰，可以打造出自己心爱的空间狸！为了帮助大家丰富生活，我们会根据室内家具的数量赠送里数！",
     "criteria": "Place a specified number of furniture in your house",
     "isSeq": true,
     "tiers": [
@@ -1725,11 +1725,11 @@
   {
     "id": 77,
     "order": 38,
-    "name": "Good Things in Store!",
+    "name": "收纳专家就是生活的专家",
     "rawName": "HouseStorageItem",
     "type": "Event",
     "ver": 1,
-    "desc": "I'll reward you with miles based on the number of items you have in storage, hm? Using the convenient storage feature will make life on the island more pleasant!",
+    "desc": "拥有房子的各位，请一定要善用家居收纳狸！为了让大家都能掌握收纳方法，我们会根据收纳物品数赠送里数！",
     "criteria": "Store a specified number of items in your house storage",
     "isSeq": true,
     "tiers": [
@@ -1778,11 +1778,11 @@
   {
     "id": 81,
     "order": 39,
-    "name": "Remarkable Remodeler",
+    "name": "让心情随着装修焕然一新！",
     "rawName": "ReformMyHome",
     "type": "Event",
     "ver": 1,
-    "desc": "You finished remodeling your house, hm? It looks like a completely new house now! I'll give you rewards based on the number of remodels you do, so keep it up!",
+    "desc": "房屋已经装修完毕狸！这样一看，简直就像新居一样狸！我们会根据装修的次数赠送里数，请收下吧！",
     "criteria": "Remodel your home's exterior a specified number of times",
     "isSeq": true,
     "tiers": [
@@ -1815,11 +1815,11 @@
   {
     "id": 59,
     "order": 40,
-    "name": "Smile Isle",
+    "name": "亲切是很重要的狸！",
     "rawName": "AchieveVillagersQuest",
     "type": "Communication",
     "ver": 1,
-    "desc": "Good deeds are their own rewards. But go ahead and have some Nook Miles too for fulfilling requests from other island residents. Yes, yes!",
+    "desc": "非常感谢你总是耐心地听取岛民们的委托狸！对人亲切的话，就一定会有好事狸！赠送里数给你，请收下吧！",
     "criteria": "Fulfill a specified number of requests from residents (such as returning lost items)",
     "isSeq": true,
     "tiers": [
@@ -1869,11 +1869,11 @@
   {
     "id": 31,
     "order": 41,
-    "name": "Reaction Ruler",
+    "name": "用反应让沟通更丰富多彩",
     "rawName": "FillReactionList",
     "type": "Communication",
     "ver": 1,
-    "desc": "You learned a Reaction! Let's celebrate this momentous occasion with...Nook Miles, hm? Reactions help you express yourself, so it's a good idea to learn them.",
+    "desc": "所谓，反应多不压身……开玩笑啦，不过记住也没坏处狸！为了丰富大家的交流，会根据反应的数量给予里数支持狸！",
     "criteria": "Learn a specified number of reactions",
     "isSeq": true,
     "tiers": [
@@ -1922,11 +1922,11 @@
   {
     "id": 75,
     "order": 42,
-    "name": "Island Shutterbug",
+    "name": "将回忆留在照片上",
     "rawName": "TakePicture",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Congratulations on taking your first island photo! Please do show off your wonderful photos, whether they're impulse snaps or brilliant compositions.",
+    "desc": "使用照相机软件来拍照狸！平淡的日常照片也好，美丽的照片也好，希望你能多多留下记录，将无人岛的生活不断发送出去狸！",
     "criteria": "Awarded the first time you take a photo using the camera app on the NookPhone (screenshot button does not count, must use the app)",
     "isSeq": true,
     "tiers": [
@@ -1943,11 +1943,11 @@
   {
     "id": 87,
     "order": 43,
-    "name": "Edit Credit",
+    "name": "别忘了更新护照",
     "rawName": "UpdatePassport",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Your passport has some information you can edit! Nook Inc. will give Nook Miles to folks who customize their profiles. Take it slow, think about it, and make it your own.",
+    "desc": "护照上有些项目可以自己编辑，所以请一定要查看狸！Nook Inc.将赠送里数给那些修改个人资料的人狸！",
     "criteria": "Awarded the first time you edit your passport.",
     "isSeq": true,
     "tiers": [
@@ -1964,11 +1964,11 @@
   {
     "id": 76,
     "order": 44,
-    "name": "NookPhone Life",
+    "name": "智能手机生活！",
     "rawName": "BootPhoneBeginner",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Gotten used to using your NookPhone? The fact that you're reading this probably means you have! Keep using it, and enjoy some Nook Miles just for getting familiar with it.",
+    "desc": "我们公司的手机还用得惯吗？能看到这条消息，说明你已经用得很顺手狸！作为感谢，我会赠送你里数！",
     "criteria": "Awarded after the 10th time you open your NookPhone",
     "isSeq": true,
     "tiers": [
@@ -1985,11 +1985,11 @@
   {
     "id": 56,
     "order": 45,
-    "name": "That's One Smart Phone",
+    "name": "灵活运用手机吧！",
     "rawName": "BootPhone",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Nothing makes a smartphone manufacturer happier than a user who gets the most out of the device. At least, that's how Nook Inc. feels about the NookPhone. So we're giving you miles just for using your phone!",
+    "desc": "本公司开发的这款原创手机，你已经用得相当熟练狸？！作为制造商，没有比这更让人开心的狸！我会赠送你里数作为回馈的狸！",
     "criteria": "Awarded after the 1000th time you open your NookPhone",
     "isSeq": true,
     "tiers": [
@@ -2006,11 +2006,11 @@
   {
     "id": 16,
     "order": 46,
-    "name": "Shop to It",
+    "name": "尽情网购",
     "rawName": "BuyItemCatalog",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Living on a remote island doesn't mean you have to go without life's luxuries. Shop to your heart's content with Nook Shopping and you'll earn Nook Miles!",
+    "desc": "网络购物是离岛生活中的重要一环狸！根据Nook购物的使用情况，我会赠送你相应的里数狸！",
     "criteria": "Number of times you've ordered from the Nook Shopping catalog",
     "isSeq": true,
     "tiers": [
@@ -2059,11 +2059,11 @@
   {
     "id": 15,
     "order": 47,
-    "name": "Growing Collection",
+    "name": "目录充实，生活也充实♪",
     "rawName": "FillCatalog",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "You are aware that furniture and clothing you buy is added to your Nook Shopping catalog, yes? Were you also aware that you can earn miles for a large catalog? Well, you certainly are aware now!",
+    "desc": "你知道吗，目前为止所获得的家具和衣服，都可以通过Nook购物的目录轻松查看狸。非常方便，请多多收集灵活运用吧！",
     "criteria": "Number of unique furniture pieces you've added to your catalog",
     "isSeq": true,
     "tiers": [
@@ -2112,11 +2112,11 @@
   {
     "id": 58,
     "order": 48,
-    "name": "Nook Miles for Miles!",
+    "name": "集里游＋让你里数也＋",
     "rawName": "AchieveAppQuest",
     "type": "Smartphone",
     "ver": 1,
-    "desc": "Earning Nook Miles for earning Nook Miles? Yes, yes! You just earned miles for finishing Nook Miles+ goals! But where will it end?",
+    "desc": "你查看过Nook集里游＋了吗？现在正举行很优惠的活动，根据达成次数会赠送里数狸！多多达成，积攒里数吧！",
     "criteria": "Number of Nook Miles+ goals you've completed",
     "isSeq": true,
     "tiers": [
@@ -2165,11 +2165,11 @@
   {
     "id": 12,
     "order": 49,
-    "name": "First-Time Buyer",
+    "name": "感谢你的购物！",
     "rawName": "BuyItemRcm",
     "type": "Money",
     "ver": 1,
-    "desc": "You won't get miles every time you buy something on the island, but your first time is special! Enjoy these miles, courtesy of Nook Inc.",
+    "desc": "为了这值得纪念的初次岛上购物，Nook Inc.也送来了祝贺狸！作为初次的奖励，会赠送里数，因此请一定要收下哦！",
     "criteria": "Awarded the first time you purchase an item from a shop",
     "isSeq": true,
     "tiers": [
@@ -2186,11 +2186,11 @@
   {
     "id": 13,
     "order": 50,
-    "name": "Seller of Unwanted Stuff",
+    "name": "闲置品收购！",
     "rawName": "SellItemRcm",
     "type": "Money",
     "ver": 1,
-    "desc": "Selling things you don't need is a great way to keep down the clutter and earn a few extra Bells. And, in this case, a few extra miles! Hooray for your first sale!",
+    "desc": "物品累积后，随身物品很快就会满，请卖掉闲置品，轻松地生活吧！为了支援那些存放了很多东西的人，初次使用收购服务时，我会赠送里数！",
     "criteria": "Awarded the first time you sell an item to a shop",
     "isSeq": true,
     "tiers": [
@@ -2207,11 +2207,11 @@
   {
     "id": 33,
     "order": 51,
-    "name": "Moving Fees Paid!",
+    "name": "移居费用里数返还！",
     "rawName": "PayImmigrationCost",
     "type": "Money",
     "ver": 1,
-    "desc": "Thank you for paying all your fees for moving to the island! Take a Nook Miles rebate as a gift and give yourself a nice pat on the back, hm?",
+    "desc": "非常感谢你支付了无人岛移居套餐计划的费用狸！现在正进行移居费用的里数返还活动，会以里数返还给你狸！",
     "criteria": "Awarded when you pay off your initial loan using Nook Miles",
     "isSeq": true,
     "tiers": [
@@ -2228,11 +2228,11 @@
   {
     "id": 11,
     "order": 52,
-    "name": "Bell Ringer",
+    "name": "购物带动经济狸！",
     "rawName": "HowmuchBuyItem",
     "type": "Money",
     "ver": 1,
-    "desc": "Spending your Bells on the island helps revitalize the local economy, yes, yes! I'll reward you with miles based on how many Bells you've spent.",
+    "desc": "在岛上使用铃钱能刺激经济，使岛上经济氛围变好狸！为了促进经济循环，我们会按购物的金额返回相应里数狸！",
     "criteria": "Number of total bells you've spent in shops",
     "isSeq": true,
     "tiers": [
@@ -2281,11 +2281,11 @@
   {
     "id": 9,
     "order": 53,
-    "name": "Miles for Stalkholders",
+    "name": "大头菜东家独享优惠里数",
     "rawName": "BuyKabu",
     "type": "Money",
     "ver": 1,
-    "desc": "I have Nook Miles to give to any resident who purchases turnips. Buy them low, sell them high, and make a handsome profit! They'll rot in a week, though, so be careful.",
+    "desc": "购买大头菜的大头菜东家，将会获得我们赠送的优惠里数！低买高卖，赚得多多！放一周就会坏，所以卖的时候要小心！",
     "criteria": "Awarded the first time you purchase turnips",
     "isSeq": true,
     "tiers": [
@@ -2302,11 +2302,11 @@
   {
     "id": 10,
     "order": 54,
-    "name": "Cornering the Stalk Market",
+    "name": "迈向大头菜梦想家之路",
     "rawName": "HowmuchSellKabu",
     "type": "Money",
     "ver": 1,
-    "desc": "The powers that be have been tracking your turnip transactions...and let's just say you've harvested your share of profits! Enjoy a few Nook Miles for helping contribute to the island's economy.",
+    "desc": "买卖大头菜所产生的收益我都给你计算好狸！为了表彰你对繁荣岛上经济做出的贡献，我会赠送你里数的狸！",
     "criteria": "Number of total bells you've profited from selling turnips",
     "isSeq": true,
     "tiers": [
@@ -2355,11 +2355,11 @@
   {
     "id": 34,
     "order": 55,
-    "name": "No More Loan Payments!",
+    "name": "祝贺你！还清贷款狸！",
     "rawName": "RepayLoan",
     "type": "Money",
     "ver": 1,
-    "desc": "You see how this works? You pay off your loan, you get some Nook Miles! Thank you for doing business with Nook Inc.!",
+    "desc": "为了庆祝你还清贷款，我会赠送你里数狸！非常感谢你的还款！有什么事的话，请随时跟我说。以后也请多多光顾Nook Inc.！",
     "criteria": "Awarded after paying off your first house loan with bells",
     "isSeq": true,
     "tiers": [
@@ -2376,11 +2376,11 @@
   {
     "id": 83,
     "order": 56,
-    "name": "Bulletin-Board Benefit",
+    "name": "在布告栏交流！",
     "rawName": "PostMessageBoard",
     "type": "Communication",
     "ver": 1,
-    "desc": "Picture this: Getting Nook Miles from Nook Inc. the first time you write something on an island's bulletin board. Keep using bulletin boards to communicate with everyone on the island! Yes, yes!",
+    "desc": "对于首次在岛上的布告栏写东西的人，我们会赠送里数狸！今后也请多多使用布告栏和大家交流哦！",
     "criteria": "Awarded the first time you post a message on your town bulletin board",
     "isSeq": true,
     "tiers": [
@@ -2397,11 +2397,11 @@
   {
     "id": 50,
     "order": 57,
-    "name": "Popular Pen Pal",
+    "name": "笔耕不辍",
     "rawName": "SendLetter",
     "type": "Communication",
     "ver": 1,
-    "desc": "I'll reward you with miles if you send a lot of letters. Please keep sending letters to everyone and continuing to deepen friendships. Yes, yes!",
+    "desc": "对于送出很多心意卡的人，我会赠送里数狸！今后也请继续给大家送心意卡，逐渐加深彼此之间的感情吧！",
     "criteria": "Number of letters you've sent",
     "isSeq": true,
     "tiers": [
@@ -2451,11 +2451,11 @@
   {
     "id": 26,
     "order": 58,
-    "name": "Flea Flicker",
+    "name": "抓住跳蚤吧！",
     "rawName": "CatchNomi",
     "type": "Insect",
     "ver": 1,
-    "desc": "Itchy fleas are a real hassle. If you see an island buddy struggling with fleas, by all means, help them out. Not only is it a nice thing to do, but you'll also get some miles for doing a good deed.",
+    "desc": "如果有跳蚤就会痒得受不了狸……以后要是有居民遇到这种麻烦，请积极地给予帮助哦！我会送给你里数感谢你的贴心狸。",
     "criteria": "Number of times you've caught fleas off a villager",
     "isSeq": true,
     "tiers": [
@@ -2488,11 +2488,11 @@
   {
     "id": 25,
     "order": 59,
-    "name": "Cicada Memories",
+    "name": "得到夏日的回忆！",
     "rawName": "CatchSeminonukegara",
     "type": "Insect",
     "ver": 1,
-    "desc": "Ah, cicada shells in the summer. They're not really all that useful, but collecting them does help create summer memories that will last a lifetime.",
+    "desc": "并不是要派什么用场，但以前经常会收集蝉蜕狸。既然机会难得，作为夏日的回忆好好收藏也不是坏事狸！",
     "criteria": "Awarded the first time you catch a cicada shell",
     "isSeq": true,
     "tiers": [
@@ -2509,11 +2509,11 @@
   {
     "id": 71,
     "order": 60,
-    "name": "Netting Better!",
+    "name": "捉黄蜂名人！",
     "rawName": "CatchBeeContinuously",
     "type": "Insect",
     "ver": 1,
-    "desc": "It's so impressive when someone can catch five wasps in a row—so impressive, in fact, that you'll earn some Nook Miles if you can do it!",
+    "desc": "竟然连续5次捉到了黄蜂，我为你惊人的瞬间爆发力而感动狸！为了表彰你的功绩，特向你送上里数，请一定要收下狸！",
     "criteria": "Awarded the first time you catch five wasps in a row without running away or getting stung",
     "isSeq": true,
     "tiers": [
@@ -2530,11 +2530,11 @@
   {
     "id": 51,
     "order": 61,
-    "name": "Pit-y Party",
+    "name": "恶作剧头目！",
     "rawName": "MakePitfall",
     "type": "HHA",
     "ver": 1,
-    "desc": "Enjoy some bonus Nook Miles to commemorate the creation of your first pit. Just make sure you don't fall victim to your own handiwork!",
+    "desc": "为了纪念你第一次挖掘陷阱，让我赠送你里数狸！要小心哦，可别一不小心落入自己挖的陷阱里！",
     "criteria": "Awarded the first time you bury a pitfall seed",
     "isSeq": true,
     "tiers": [
@@ -2551,11 +2551,11 @@
   {
     "id": 24,
     "order": 62,
-    "name": "Taking the Sting Out",
+    "name": "旧伤未愈又添新伤！",
     "rawName": "BeStungbyWasp",
     "type": "Negative",
     "ver": 1,
-    "desc": "Getting stung by wasps hurts! Getting stung again before you can recover makes you faint! But at least you get some miles for that. I don't want you to be uncomfortable, though, so take some medicine to heal up!",
+    "desc": "被黄蜂蜇过的地方还没好，又再次被蜇了，看着太惨狸。顶着这样一张脸走来走去很危险，用药治疗一下会比较好狸！",
     "criteria": "Awarded the first time you get stung by a wasp",
     "isSeq": true,
     "tiers": [
@@ -2572,11 +2572,11 @@
   {
     "id": 27,
     "order": 63,
-    "name": "Faint of Heart",
+    "name": "注意危险的虫子！",
     "rawName": "BeStungbyPoisonousInsect",
     "type": "Negative",
     "ver": 1,
-    "desc": "This island is home to creepy crawlers that would make anyone light-headed. Maybe wielding a net will make you less likely to faint...",
+    "desc": "在这个岛上也栖息着甚至可能会让你昏倒的可怕虫子。虫子可以用捕虫网捕捉，所以下次遇到的话，去捉来吧！",
     "criteria": "Awarded the first time you get knocked out by a Scorpion or Tarantula",
     "isSeq": true,
     "tiers": [
@@ -2593,11 +2593,11 @@
   {
     "id": 52,
     "order": 64,
-    "name": "Overcoming Pitfalls",
+    "name": "落入陷阱狸！",
     "rawName": "FallintoPitfall",
     "type": "Negative",
     "ver": 1,
-    "desc": "Life is full of peaks and valleys, hills and pits. When you fall into a pit, you learn a lesson, hm? Be more careful next time, yes? Don't feel too bad, though. You're getting some bonus Nook Miles for your fall.",
+    "desc": "人生有山峰有山谷，也会有陷阱狸！不小心掉下去也是没办法的，下次只能走得更小心些狸。送你里数，请恢复活力吧！",
     "criteria": "Awarded the first time you fall into a pitfall hole",
     "isSeq": true,
     "tiers": [
@@ -2614,11 +2614,11 @@
   {
     "id": 90,
     "order": 65,
-    "name": "Faked Out!",
+    "name": "小心赝品！",
     "rawName": "DonateFake",
     "type": "Negative",
     "ver": 3,
-    "desc": "Oh my. Did you get hoodwinked? That work of art you tried to donate turned out to be a forgery, and it stings. Your eye for art is being tested! Yes, yes! Please take some comfort in the miles I'm giving you.",
+    "desc": "买到的艺术品是赝品？这是要考验你是否能看穿真伪狸。我只能给你里数，就当做一些补偿！",
     "criteria": "Donated a fake piece of art",
     "isSeq": true,
     "tiers": [
@@ -2635,11 +2635,11 @@
   {
     "id": 80,
     "order": 66,
-    "name": "Lost Treasure",
+    "name": "水障碍",
     "rawName": "DropPresentinWater",
     "type": "Negative",
     "ver": 1,
-    "desc": "Oh my. You popped a balloon with a skillful shot, but the attached prize fell into the water! Maybe some Nook Miles will help you recover from that sunken feeling, hm?",
+    "desc": "气球上的礼物掉到水里了？以高尔夫来说，就是“落水”狸。我很理解这种落水的心情，所以送上里数作为安慰奖狸！",
     "criteria": "Awarded the first time a balloon present you shot lands in a body of water",
     "isSeq": true,
     "tiers": [
@@ -2656,11 +2656,11 @@
   {
     "id": 5,
     "order": 67,
-    "name": "It's Raining Treasure!",
+    "name": "目标，成为气球猎人！",
     "rawName": "ShootDownBalloon",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "No one knows who sends the gifts attached to balloons to our island, but you can earn miles by shooting them down and collecting what's inside.",
+    "desc": "是谁放的还是个谜，但时不时会有带着礼物的气球飞过来狸！如果能大量射落那些气球，我会赠送你里数狸！",
     "criteria": "Number of balloons you've shot down with a slingshot",
     "isSeq": true,
     "tiers": [
@@ -2709,11 +2709,11 @@
   {
     "id": 89,
     "order": 68,
-    "name": "Fun with Fences",
+    "name": "要用栅栏围出庭院吗？",
     "rawName": "BuildFence",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "You can have a wonderful yard in no time by building a fence and surrounding your home or garden. Yes, yes! Nook Inc. will award Nook Miles to skilled fence installers.",
+    "desc": "用栅栏把房子和植物围起来，美丽的庭院一下子就建成狸！Nook Inc.将赠送里数给那些灵活运用栅栏的人狸。",
     "criteria": "Awarded the first time you place a fence",
     "isSeq": true,
     "tiers": [
@@ -2730,11 +2730,11 @@
   {
     "id": 45,
     "order": 69,
-    "name": "Snowmaestro",
+    "name": "雪人专家",
     "rawName": "MakePerfectSnowball",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "What's this? You get Nook Miles based on how many quality snowfolks you've built? That's a pretty good deal for just having a little fun in the snow.",
+    "desc": "目前正在举办活动，制作出高质量的雪人后，会根据个数赠送里数狸。请一定要来挑战哦！",
     "criteria": "Number of perfect snow-people you've built",
     "isSeq": true,
     "tiers": [
@@ -2767,11 +2767,11 @@
   {
     "id": 85,
     "order": 70,
-    "name": "Wishes Come True",
+    "name": "向流星许愿",
     "rawName": "PrayShootingStar",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "Were you wishing for Nook Miles the last time you saw a shooting star? Hm? Because Nook Inc. is here to grant your wish. More wishes, more miles! Yes, yes!",
+    "desc": "我们会按照向流星许愿的次数赠送里数给你狸！让幸运的你变得更幸运，Nook Inc.也会全力支持你的狸！",
     "criteria": "Number of shooting stars you've wished on",
     "isSeq": true,
     "tiers": [
@@ -2804,11 +2804,11 @@
   {
     "id": 64,
     "order": 71,
-    "name": "Exterior Decorator",
+    "name": "加强岛上景观的活动",
     "rawName": "PutFurnitureOutside",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "You can display furniture outside, right? Well, here's a little incentive for you to show off what you've got—you'll earn Nook Miles based on the number of furniture items you set up outside.",
+    "desc": "要增加岛上景观的吸引力，用家具装饰室外是不可或缺的部分狸！对于经常使用家具进行装饰的人，我会赠送里数作为感谢的狸！",
     "criteria": "Awarded the first time you place some furniture outside",
     "isSeq": true,
     "tiers": [
@@ -2825,11 +2825,11 @@
   {
     "id": 86,
     "order": 72,
-    "name": "(island name) Icons",
+    "name": "（岛名）的象征",
     "rawName": "ChangeSymbol",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "At Resident Services, we want new ideas for the island flag and island tune. We have Nook Miles in store for those creative types who can redesign and rewrite! It's good to take pride in our island symbols.",
+    "desc": "服务处正向岛民朋友们广泛征集象征岛屿的旗帜和主题曲的创意。会赠送里数给提供方案的人狸！",
     "criteria": "Awarded for changing your island flag and town tune for the first time.",
     "isSeq": false,
     "tiers": [
@@ -2854,11 +2854,11 @@
   {
     "id": 88,
     "order": 73,
-    "name": "Island Designer",
+    "name": "用“岛屿创作家”设计岛屿",
     "rawName": "ModifyIsland",
     "type": "LandMaking",
     "ver": 1,
-    "desc": "At Nook Inc. we encourage the use of the Island Designer app to liven up the island. We're giving away miles the first time you use a permit for a path, river, or cliff!",
+    "desc": "Nook Inc.正在全面升级使用岛屿创作家进行的真正岛屿设计！在初次使用道路、河流、悬崖等许可证时，会分别赠送里数，一定要好好使用狸！",
     "criteria": "Awarded the first time you use the Island Designer app to place a path, add/remove water, and build/destroy a cliff",
     "isSeq": false,
     "tiers": [
@@ -2891,11 +2891,11 @@
   {
     "id": 44,
     "order": 74,
-    "name": "Wispy Island Secrets",
+    "name": "在岛上看到的东西是秘密狸！",
     "rawName": "HelpGst",
     "type": "Communication",
     "ver": 1,
-    "desc": "If you happen to encounter one of the island's secrets, maybe just keep it to yourself. We don't want to scare anyone away from here. Pretty sure that's in your island contract...",
+    "desc": "哪怕是看到了不应该在这个岛上看到的东西，也要跟大家保密狸！岛的形象要是变差了，会很麻烦的狸！这是封口……啊不，是协议狸！",
     "criteria": "Number of times you've helped Wisp find the parts of his spirit",
     "isSeq": true,
     "tiers": [
@@ -2928,11 +2928,11 @@
   {
     "id": 43,
     "order": 75,
-    "name": "Gulliver's Travails",
+    "name": "值得信赖的救生员！",
     "rawName": "HelpGul",
     "type": "Communication",
     "ver": 1,
-    "desc": "When you come across someone in trouble on the beach, you help them, setting a fine example for all the island residents. Such kindness will surely find its way back to you.",
+    "desc": "如果在海边遇到有困难的人，无论多少次，我都希望你能给予帮助狸！伸出援手的那份温柔正是岛民的表率！我相信好人一定会有好报的狸！",
     "criteria": "Number of times you've helped Gulliver fix his communicator",
     "isSeq": true,
     "tiers": [
@@ -2965,11 +2965,11 @@
   {
     "id": 17,
     "order": 76,
-    "name": "K.K. Mania",
+    "name": "享受现场演唱会吧♪",
     "rawName": "GotoTotakekeShow",
     "type": "Communication",
     "ver": 1,
-    "desc": "K.K. supports our island with his groovy brand of folk rock, so we should support him! The more K.K. shows you attend, the more Nook Miles you can earn.",
+    "desc": "陶冶心灵的音乐，百听不厌狸！为了进一步支持岛上的文化发展，现决定根据观看演唱会的次数，发送相应的里数狸！",
     "criteria": "Number of K.K. shows you've attended",
     "isSeq": true,
     "tiers": [
@@ -3018,11 +3018,11 @@
   {
     "id": 91,
     "order": 77,
-    "name": "True Patron of the Arts",
+    "name": "艺术品收藏家！",
     "rawName": "BuyatTsunekichiShop",
     "type": "Communication",
     "ver": 3,
-    "desc": "Collecting artwork contributes to the cultural quality of (island name), and Nook Inc. will give miles to folks who prove themselves discerning connoisseurs.",
+    "desc": "艺术品的收集可以令（岛名）的文化更繁荣狸！Nook Inc.会向收集艺术品的人赠送里数作为回馈狸！",
     "criteria": "Number of times you've purchased art that turned out to be real",
     "isSeq": true,
     "tiers": [
@@ -3055,11 +3055,11 @@
   {
     "id": 96,
     "order": 78,
-    "name": "You Otter Know",
+    "name": "不要放开虾夷扇贝",
     "rawName": "GiveScallopsToSeo",
     "type": "Communication",
     "ver": 4,
-    "desc": "If you meet a laid-back fellow floating in the sea, consider sharing some of your scallops with him. You never know what you might learn in return...and a little gift never hurts either!",
+    "desc": "海上有一位漂来浮去的悠哉先生，遇到的话，就把虾夷扇贝交给他吧！你会得到很棒的礼物，还有至理名言狸……",
     "criteria": "Number of times you've given scallops to Pascal",
     "isSeq": true,
     "tiers": [
@@ -3092,11 +3092,11 @@
   {
     "id": 103,
     "order": 79,
-    "name": "Set Sail for Adventure",
+    "name": "听着船歌出发",
     "rawName": "VisitKappeiTour",
     "type": "Communication",
     "ver": 13,
-    "desc": "Rare items and exciting adventures are yours when you head out on a special tour with a veteran sailor, yes, yes!",
+    "desc": "被经验丰富的船老大带着去参加特别的旅行狸！在目的地的岛上获得珍稀的物品，领略独一无二的体验吧！",
     "criteria": "Number of times you've gone on a Kapp'n tour",
     "isSeq": true,
     "tiers": [
@@ -3145,11 +3145,11 @@
   {
     "id": 108,
     "order": 80,
-    "name": "Come Home to the Roost",
+    "name": "在“鸽巢”喝咖啡吧",
     "rawName": "DrinkCoffee",
     "type": "Communication",
     "ver": 13,
-    "desc": "The Roost, located on the second floor of the museum, is quite picky about the coffee they serve, yes, yes! Do stop in to enjoy a cup and earn some dark-roasted miles!",
+    "desc": "位于博物馆二楼的咖啡“鸽巢”，会提供精心调制的咖啡狸。只要光顾店里并享用咖啡，我就会根据光顾的天数赠送相应的里数狸！",
     "criteria": "Number of days you've gotten coffee from Brewster",
     "isSeq": true,
     "tiers": [
@@ -3198,11 +3198,11 @@
   {
     "id": 109,
     "order": 81,
-    "name": "Stretch to Refresh!",
+    "name": "做广播体操抖擞精神！",
     "rawName": "JoinRadioGymnastics",
     "type": "Communication",
     "ver": 13,
-    "desc": "The health of our residents is a top priority, yes, yes! So we're holding group-stretching sessions in the plaza. I'll provide miles once per day for participating, and there will be a tape deck for music. I hope I see you there!",
+    "desc": "作为增进岛民健康的措施，跟着广场录音机开始广播体操吧。我会根据参加的天数赠送里数，请一定要积极参加哦！",
     "criteria": "Number of days you've participated in group stretching",
     "isSeq": true,
     "tiers": [
@@ -3251,11 +3251,11 @@
   {
     "id": 54,
     "order": 82,
-    "name": "True Friends",
+    "name": "相亲相爱！",
     "rawName": "BeFriendwithVillager",
     "type": "Communication",
     "ver": 1,
-    "desc": "It's good news for Nook Inc. when island residents get along. Good relationships are a cornerstone of island development!",
+    "desc": "住在岛上的居民们关系变融洽，对Nook Inc.来说也是非常高兴的事情狸！友好的关系与岛的发展也息息相关，所以送你里数狸！",
     "criteria": "Number of villagers you've become good friends with",
     "isSeq": true,
     "tiers": [
@@ -3288,11 +3288,11 @@
   {
     "id": 47,
     "order": 83,
-    "name": "Birthday Celebration",
+    "name": "祝贺生日吧！",
     "rawName": "CelebrateVillagersBithday",
     "type": "Communication",
     "ver": 1,
-    "desc": "Celebrating the birthday of a fellow resident is a wonderful thing. Nook Inc. will commemorate your bond with some party-favor Nook Miles.",
+    "desc": "无论伙伴们住在哪里，都会给朋友庆祝生日，真棒狸！为了对这份诚挚的友情表示敬意，向你送上来自Nook Inc.的里数狸！",
     "criteria": "Number of villager birthdays you've attended",
     "isSeq": true,
     "tiers": [
@@ -3325,11 +3325,11 @@
   {
     "id": 46,
     "order": 84,
-    "name": "Happy Birthday!",
+    "name": "生日快乐！",
     "rawName": "ReachMyBirthday",
     "type": "Event",
     "ver": 1,
-    "desc": "Happy birthday to you! Take some Nook Miles, woo-hoo! Happy birthday to you-oo! Take some Nook Miles, woo-hoo! (Get yourself something nice.)",
+    "desc": "对于在岛上迎来生日的你，会送给你里数作为生日礼物狸！用这个里数去换取喜爱的东西和体验，过一个完美的生日吧！",
     "criteria": "Awarded the first time you play on your character's birthday",
     "isSeq": true,
     "tiers": [
@@ -3347,11 +3347,11 @@
   {
     "id": 41,
     "order": 85,
-    "name": "Fishing Tourney!",
+    "name": "乐享！钓鱼大赛",
     "rawName": "AttendFishingConvention",
     "type": "Fish",
     "ver": 1,
-    "desc": "Please participate in the Fishing Tourney, which is held every spring, summer, fall, and winter! I'll give you Nook Miles as a reward the first time you participate each season.",
+    "desc": "请一定要参加春夏秋冬各季节举办的钓鱼大赛狸！初次参加各季节大赛时，Nook Inc.会赠送里数作为参与奖！",
     "criteria": "Awarded the first time you attend a fishing tourney in each season",
     "isSeq": false,
     "tiers": [
@@ -3392,11 +3392,11 @@
   {
     "id": 42,
     "order": 86,
-    "name": "Bug-Off!",
+    "name": "忙碌♪捕虫大赛",
     "rawName": "AttendInsectConvention",
     "type": "Insect",
     "ver": 1,
-    "desc": "What's the summer event to look forward to? That's right...the Bug-Off! Nook Inc. will give you Nook Miles for participating, so by all means, join the fun!",
+    "desc": "要说到夏季最令人期待的活动，那……当然就是捕虫大赛狸！Nook Inc.会赠送里数作为参赛纪念，请一定要参加哦！",
     "criteria": "Awarded the first time you attend a bug-off tourney in each season",
     "isSeq": false,
     "tiers": [
@@ -3437,11 +3437,11 @@
   {
     "id": 48,
     "order": 87,
-    "name": "Countdown Celebration",
+    "name": "跨年倒计时吧！",
     "rawName": "AttendCountdownParty",
     "type": "Event",
     "ver": 1,
-    "desc": "The only thing better than ringing in the new year is ringing in the new year with some Nook Miles! May you live to see many more—years and miles!",
+    "desc": "为了感谢你参加跨年倒计时，迎接新年的开始，让我赠送你里数狸！就像压岁钱一样狸！",
     "criteria": "Awarded for attending the new year holiday event",
     "isSeq": true,
     "tiers": [
@@ -3458,11 +3458,11 @@
   {
     "id": 84,
     "order": 88,
-    "name": "Making a Change",
+    "name": "衣柜里的时尚秀",
     "rawName": "UseCloset",
     "type": "MyDesign",
     "ver": 1,
-    "desc": "A closet is a must-have item for a fashion trendsetter. I'll offer Nook Miles to anyone who has a closet and changes outfits, thereby increasing the chances of an island fashion trend catching on.",
+    "desc": "衣柜是时尚必备品！为了增加更多具有影响力的时尚品，我们将赠送里数给那些摆放衣柜并进行换装挑战的人狸。",
     "criteria": "Awarded the first time you use a wardrobe to change your character's outfit",
     "isSeq": true,
     "tiers": [
@@ -3479,11 +3479,11 @@
   {
     "id": 35,
     "order": 89,
-    "name": "First Custom Design!",
+    "name": "要试着做一下“我的设计”吗？",
     "rawName": "UseMydesign",
     "type": "MyDesign",
     "ver": 1,
-    "desc": "Learning to use the Custom Design app lets you personalize your clothes and furniture. So much fun to be had, yes, yes!",
+    "desc": "熟练使用我的设计软件的话，就能不断做出充满原创性的服装和家具狸！请灵活运用，尽情享受这个软件的乐趣吧！",
     "criteria": "Awarded the first time you use the Custom Design app to edit or create a design",
     "isSeq": true,
     "tiers": [
@@ -3500,11 +3500,11 @@
   {
     "id": 36,
     "order": 90,
-    "name": "Custom Design Pro!",
+    "name": "专业设计师初次登场！",
     "rawName": "UseMydesignPRO",
     "type": "MyDesign",
     "ver": 1,
-    "desc": "You upgraded to the Pro version of the Custom Design app, hm? That makes you a fine Pro Custom Designer. Yes, yes! I'll reward you with Nook Miles to commemorate your Pro debut!",
+    "desc": "“我的设计”软件已经升级为专业版本，你也已经是专业设计师狸！为了庆祝你出道，我会赠送里数给你狸。",
     "criteria": "Awarded the first time you use the Custom Design pro app to edit or create a design",
     "isSeq": true,
     "tiers": [
@@ -3521,11 +3521,11 @@
   {
     "id": 60,
     "order": 91,
-    "name": "Paydirt!",
+    "name": "神秘宝藏……？！",
     "rawName": "DigBell",
     "type": "Money",
     "ver": 1,
-    "desc": "I'll bet you didn't think you'd find buried Bells here, hm? But this is an island, after all. Buried treasure and whatnot. Enjoy some Nook Miles from Nook Inc. to celebrate your discovery.",
+    "desc": "想不到岛上还能挖出宝藏，刚移居的时候根本没想到狸！为了感谢你的重大发现，Nook Inc.会赠送你里数狸！",
     "criteria": "Awarded the first time you dig up bells from a shining spot",
     "isSeq": true,
     "tiers": [
@@ -3542,11 +3542,11 @@
   {
     "id": 79,
     "order": 92,
-    "name": "Shady Shakedown",
+    "name": "藏在树叶里……？！",
     "rawName": "FallFurnitureLeaf",
     "type": "Plant",
     "ver": 1,
-    "desc": "Rumor has it that someone on this island likes to hide furniture in trees. Yes, yes! I'll give you Nook Miles based on the number of furniture items you shake out of trees. So get out there and shake!",
+    "desc": "摇晃树木就会有叶子落下吧？这是理所当然的吧？咦？以为是树叶，结果掉了家具？？我们会奖励里数给发现这份幸运的人狸！",
     "criteria": "Number of furniture pieces you've found from shaking trees",
     "isSeq": true,
     "tiers": [
@@ -3595,11 +3595,11 @@
   {
     "id": 39,
     "order": 93,
-    "name": "Golden Milestone",
+    "name": "金光闪闪的道具是一流的证明",
     "rawName": "CollectGoldTool",
     "type": "HHA",
     "ver": 1,
-    "desc": "If your tools are glinting gold, your account will be bursting with Bells soon enough. The paths to these tools are varied and secret, but you will have earned some Nook Miles for collecting them all.",
+    "desc": "数件传说中只有通过极其秘密的渠道才能获得的贵重的金色道具……为了表彰获得这些道具的人，Nook Inc.将增送里数狸！",
     "criteria": "Awarded for each unique golden tool you've equipped (shovel, net, fishing rod, watering can, axe, and slingshot)",
     "isSeq": false,
     "tiers": [
@@ -3658,11 +3658,11 @@
   {
     "id": 18,
     "order": 94,
-    "name": "Island and Yourland",
+    "name": "流浪的旅行者！",
     "rawName": "VisitAnotherIsland",
     "type": "Communication",
     "ver": 1,
-    "desc": "Support your neighboring islands with a visit now and again. The more you visit, the more Nook Miles you can earn! Here at Nook Inc. we like to reward your adventurous spirit, hm?",
+    "desc": "搭乘飞机前往隔壁的岛屿吧！还能积累里数，一举两得狸！人生可以说是不断地旅行，Nook Inc.会一直为那样的旅行者加油狸！",
     "criteria": "Number of times you've visited another player's island (does not count mystery islands using Nook Miles Tickets)",
     "isSeq": true,
     "tiers": [
@@ -3695,11 +3695,11 @@
   {
     "id": 19,
     "order": 95,
-    "name": "Host the Most",
+    "name": "增加岛上游客大作战",
     "rawName": "InviteFriend",
     "type": "Communication",
     "ver": 1,
-    "desc": "To encourage you to invite plenty of guests to the island, we're offering miles as an incentive. The more the merrier— and that goes for Nook Miles too!",
+    "desc": "为了能直接感受（岛名）的魅力，如果有朋友或熟人的话，希望你能邀请他们过来玩狸！能帮忙的话，我会赠送里数狸！",
     "criteria": "Number of other players that have visited your island",
     "isSeq": true,
     "tiers": [
@@ -3732,11 +3732,11 @@
   {
     "id": 21,
     "order": 96,
-    "name": "Active Island Resident",
+    "name": "在岛上的宝贵时光",
     "rawName": "DayPlayed",
     "type": "Event",
     "ver": 1,
-    "desc": "Life on the island has lots of promise, hm? To illustrate this, I'll award you some Nook Miles based on the number of active days you've spent here. Please take them and enjoy them.",
+    "desc": "岛上的生活是不是很愉快狸？根据你作为岛民的活动天数，会赠送你里数作为犒劳，你能收下的话，我会很高兴的狸！",
     "criteria": "Number of total unique days you've played the game",
     "isSeq": true,
     "tiers": [

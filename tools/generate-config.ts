@@ -45,6 +45,13 @@ import { ActivityType, type Activity } from '../src/types/activity';
 import type { CusCost } from '../src/services/dataService';
 import type { Plant } from '../src/types/plant';
 
+const __dirname = path.join(process.cwd(), 'tools');
+const outputPath = path.join(__dirname, '..', 'public', 'config');
+
+const acnhData = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'tools_new', 'data.json'), 'utf-8')
+).data as Record<string, any>;
+
 /**
  * 递归移除对象中的 null 和 undefined 字段
  */
@@ -79,8 +86,7 @@ function processImageUrl(imageUrl: string): string {
   return url;
 }
 
-const __dirname = path.join(process.cwd(), 'tools');
-const outputPath = path.join(__dirname, '..', 'public', 'config');
+
 
 // 映射对象：字符串到数字枚举
 const sourceSheetMap: Record<string, ItemType> = {
@@ -962,8 +968,13 @@ newConstructions.sort((a, b) => {
   return a.id - b.id;
 });
 
+
+let acnhAchievement = acnhData['achievements'] as Record<string, any>;
 let newAchievements: NewAchievement[] = [];
 for (const oldAchievement of oldAchievements) {
+  let acnhAch = acnhAchievement['a' + oldAchievement.internalId] as Record<string, any>;
+  let name = acnhAch.loc['zh-cn'] || acnhAch.loc['zh'];
+  let desc = acnhAch.des['zh-cn'] || acnhAch.des['zh'];
   let tiers: Tier[] = [];
   let oldTiers = oldAchievement.tiers;
   for (let i = 1; i <= Number(oldAchievement.numOfTiers); i++) {
@@ -979,11 +990,11 @@ for (const oldAchievement of oldAchievements) {
   const newAchievement: NewAchievement = {
     id: Number(oldAchievement.internalId),
     order: oldAchievement.num,
-    name: oldAchievement.name,
+    name,
     rawName: oldAchievement.internalName,
     type: oldAchievement.internalCategory,
     ver: versionAddedMap[oldAchievement.versionAdded] || Version.The100,
-    desc: oldAchievement.achievementDescription,
+    desc,
     criteria: oldAchievement.achievementCriteria,
     isSeq: oldAchievement.sequential,
     tiers: tiers,
