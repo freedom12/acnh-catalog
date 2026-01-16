@@ -1,0 +1,3393 @@
+{
+  "2405": {
+    "img": "FtrIcon/mjk_Sanbika",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Sanbika",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.赞美诗歌",
+      "de": "K.K. Choral",
+      "it": "K.K. Corale",
+      "nl": "K.K.-koraal",
+      "ru": "Хорал К. К.",
+      "ja": "けけさんびか",
+      "ko": "K.K.찬송가",
+      "zh-tw": "K.K.讚美詩歌",
+      "en": "K.K. Chorale",
+      "es": "Tota-góspel",
+      "fr": "Chorale de Kéké"
+    }
+  },
+  "2406": {
+    "img": "FtrIcon/mjk_March",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "aim": "Audio/mjk_March",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "kal04",
+    "loc": {
+      "zh-cn": "K.K.进行曲",
+      "de": "K.K. Marsch",
+      "it": "K.K. Marcia",
+      "nl": "K.K.-mars",
+      "ru": "Марш К. К.",
+      "ja": "けけマーチ",
+      "ko": "K.K.행진곡",
+      "zh-tw": "K.K.進行曲",
+      "en": "K.K. March",
+      "es": "Tota-marcha",
+      "fr": "Marche de Kéké"
+    }
+  },
+  "2407": {
+    "img": "FtrIcon/mjk_Waltz",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Waltz",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.圆舞曲",
+      "de": "K.K. Walzer",
+      "it": "K.K. Valzer",
+      "nl": "K.K.-wals",
+      "ru": "Вальс К. К.",
+      "ja": "けけワルツ",
+      "ko": "K.K.왈츠",
+      "zh-tw": "K.K.圓舞曲",
+      "en": "K.K. Waltz",
+      "es": "Tota-vals",
+      "fr": "Valse de Kéké"
+    }
+  },
+  "2408": {
+    "img": "FtrIcon/mjk_Swing",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Swing",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.摇摆乐",
+      "de": "K.K. Swing",
+      "it": "K.K. Swing",
+      "nl": "K.K.-swing",
+      "ru": "Свинг К. К.",
+      "ja": "けけスウィング",
+      "ko": "K.K.스윙",
+      "zh-tw": "K.K.搖擺樂",
+      "en": "K.K. Swing",
+      "es": "Tota-swing",
+      "fr": "Swing de Kéké"
+    }
+  },
+  "2409": {
+    "img": "FtrIcon/mjk_Jazz",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Jazz",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.爵士乐",
+      "de": "K.K. Jazz",
+      "it": "K.K. Jazz",
+      "nl": "K.K.-jazz",
+      "ru": "Джаз К. К.",
+      "ja": "けけジャズ",
+      "ko": "K.K.재즈",
+      "zh-tw": "K.K.爵士樂",
+      "en": "K.K. Jazz",
+      "es": "Tota-jazz",
+      "fr": "Jazz de Kéké"
+    }
+  },
+  "2410": {
+    "img": "FtrIcon/mjk_Fusion",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Fusion",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.融合爵士乐",
+      "de": "K.K. Fusion",
+      "it": "K.K. Fusion",
+      "nl": "K.K.-fusion",
+      "ru": "Фьюжен К. К.",
+      "ja": "けけフュージョン",
+      "ko": "K.K.퓨전",
+      "zh-tw": "K.K.融合爵士樂",
+      "en": "K.K. Fusion",
+      "es": "Tota-fusión",
+      "fr": "Fusion Kéké"
+    }
+  },
+  "2411": {
+    "img": "FtrIcon/mjk_Etude",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Etude",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.练习曲",
+      "de": "K.K. Etüde",
+      "it": "K.K. Studio",
+      "nl": "K.K.-etude",
+      "ru": "Этюд К. К.",
+      "ja": "けけのエチュード",
+      "ko": "K.K.에튀드",
+      "zh-tw": "K.K.練習曲",
+      "en": "K.K. Étude",
+      "es": "Tota-solo",
+      "fr": "Étude de Kéké"
+    }
+  },
+  "2412": {
+    "img": "FtrIcon/mjk_Lullaby",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "aim": "Audio/mjk_Lullaby",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.摇篮曲",
+      "de": "K.K. Schlaflied",
+      "es-es": "Tota-nana",
+      "it": "K.K. Ninnananna",
+      "nl": "K.K.-slaapliedje",
+      "ru": "Колыбельная К. К.",
+      "ja": "けけララバイ",
+      "ko": "K.K.자장가",
+      "zh-tw": "K.K.搖籃曲",
+      "es-us": "Tota-arrullo",
+      "en": "K.K. Lullaby",
+      "fr": "Berceuse de Kéké"
+    }
+  },
+  "2413": {
+    "img": "FtrIcon/mjk_Maria",
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "aim": "Audio/mjk_Maria",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.咏叹调",
+      "de": "K.K. Arie",
+      "it": "K.K. Aria",
+      "nl": "K.K.-aria",
+      "ru": "Ария К. К.",
+      "ja": "けけマリア",
+      "ko": "K.K.마리아",
+      "zh-tw": "K.K.詠嘆調",
+      "en": "K.K. Aria",
+      "es": "Tota-aria",
+      "fr": "Aria de Kéké"
+    }
+  },
+  "2414": {
+    "img": "FtrIcon/mjk_Samba",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Samba",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.桑巴",
+      "de": "K.K. Samba",
+      "it": "K.K. Samba",
+      "nl": "K.K.-samba",
+      "ru": "Самба К. К.",
+      "ja": "けけサンバ",
+      "ko": "K.K.삼바",
+      "zh-tw": "K.K.森巴",
+      "en": "K.K. Samba",
+      "es": "Tota-samba",
+      "fr": "Samba de Kéké"
+    }
+  },
+  "2415": {
+    "img": "FtrIcon/mjk_Bossa",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Bossa",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.巴萨诺瓦",
+      "de": "K.K. Bossa",
+      "it": "K.K. Bossa",
+      "nl": "K.K.-bossanova",
+      "ru": "Босанова К. К.",
+      "ja": "けけボッサ",
+      "ko": "K.K.보사노바",
+      "zh-tw": "K.K.巴薩諾瓦",
+      "en": "K.K. Bossa",
+      "es": "Tota-bossa nova",
+      "fr": "Bossa de Kéké"
+    }
+  },
+  "2416": {
+    "img": "FtrIcon/mjk_Caripso",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Caripso",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "de": "K.K. Calypso",
+      "it": "K.K. Calipso",
+      "nl": "K.K.-calypso",
+      "ru": "Калипсо К. К.",
+      "ja": "けけカリプソ",
+      "ko": "K.K.칼립소",
+      "en": "K.K. Calypso",
+      "es": "Tota-calipso",
+      "fr": "Calypso de Kéké",
+      "zh": "K.K.卡利普索"
+    }
+  },
+  "2417": {
+    "img": "FtrIcon/mjk_Salsa",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Salsa",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "dog17",
+    "loc": {
+      "zh-cn": "K.K.萨尔萨",
+      "de": "K.K. Salsa",
+      "it": "K.K. Salsa",
+      "nl": "K.K.-salsa",
+      "ru": "Сальса К. К.",
+      "ja": "けけサルサ",
+      "ko": "K.K.살사",
+      "zh-tw": "K.K.騷莎",
+      "en": "K.K. Salsa",
+      "es": "Tota-salsa",
+      "fr": "Salsa de Kéké"
+    }
+  },
+  "2418": {
+    "img": "FtrIcon/mjk_Mambo",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Mambo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "de": "K.K. Mambo",
+      "it": "K.K. Mambo",
+      "nl": "K.K.-mambo",
+      "ru": "Мамбо К. К.",
+      "ja": "けけマンボ",
+      "ko": "K.K.맘보",
+      "en": "K.K. Mambo",
+      "es": "Tota-mambo",
+      "fr": "Mambo de Kéké",
+      "zh": "K.K.曼波"
+    }
+  },
+  "2419": {
+    "img": "FtrIcon/mjk_Reggae",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Reggae",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "K.K. Reggae",
+      "it": "K.K. Reggae",
+      "nl": "K.K.-reggae",
+      "ru": "Регги К. К.",
+      "ja": "けけレゲエ",
+      "ko": "K.K.레게",
+      "en": "K.K. Reggae",
+      "es": "Tota-reggae",
+      "fr": "Reggae de Kéké",
+      "zh": "K.K.雷鬼"
+    }
+  },
+  "2420": {
+    "img": "FtrIcon/mjk_Ska",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Ska",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "kal04",
+    "loc": {
+      "de": "K.K. Ska",
+      "it": "K.K. Ska",
+      "nl": "K.K.-ska",
+      "ru": "Ска К. К.",
+      "ja": "けけスカ",
+      "ko": "K.K.스카",
+      "en": "K.K. Ska",
+      "es": "Tota-ska",
+      "fr": "Ska Kéké",
+      "zh": "K.K.斯卡"
+    }
+  },
+  "2421": {
+    "img": "FtrIcon/mjk_Tango",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Tango",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "de": "K.K. Tango",
+      "it": "K.K. Tango",
+      "nl": "K.K.-tango",
+      "ru": "Танго К. К.",
+      "ja": "けけタンゴ",
+      "ko": "K.K.탱고",
+      "en": "K.K. Tango",
+      "es": "Tota-tango",
+      "fr": "Tango de Kéké",
+      "zh": "K.K.探戈"
+    }
+  },
+  "2422": {
+    "img": "FtrIcon/mjk_Haisai",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Haisai",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "hui": "cbr13",
+    "loc": {
+      "zh-cn": "冲绳K.K.",
+      "de": "K.K. Jahrmarkt",
+      "it": "K.K. Festa",
+      "nl": "K.K.-boerendans",
+      "ru": "Ярмарка К. К.",
+      "ja": "ハイサイけけ",
+      "ko": "혼저옵서예K.K.",
+      "zh-tw": "沖繩K.K.",
+      "en": "K.K. Faire",
+      "es": "Tota-romanza",
+      "fr": "Virelai Kéké"
+    }
+  },
+  "2423": {
+    "img": "FtrIcon/mjk_Aloha",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Aloha",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "K.K. Südseetraum",
+      "it": "K.K. Aloha",
+      "nl": "Aloha K.K.",
+      "ru": "Алоха К. К.",
+      "ja": "アロハけけ",
+      "ko": "알로하K.K.",
+      "en": "Aloha K.K.",
+      "es": "Tota-aloha",
+      "fr": "Ukulélé Kéké",
+      "zh": "夏威夷K.K."
+    }
+  },
+  "2424": {
+    "img": "FtrIcon/mjk_Irish",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Irish",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "爱尔兰乐曲",
+      "de": "K.K. Glückspilz",
+      "fr-fr": "Kéké le verni",
+      "it": "K.K. Felicità",
+      "nl": "K.K. de Kelt",
+      "ru": "Счастливчик К. К.",
+      "ja": "アイリッシュそんぐ",
+      "ko": "아일랜드의 노래",
+      "zh-tw": "愛爾蘭樂曲",
+      "fr-us": "Kéké le veinard",
+      "en": "Lucky K.K.",
+      "es": "Tota-celta"
+    }
+  },
+  "2425": {
+    "img": "FtrIcon/mjk_Peru",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Peru",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "秘鲁之歌",
+      "de": "K.K. Kondor",
+      "it": "K.K. Condor",
+      "nl": "K.K. bij de condors",
+      "ru": "Кондор К. К.",
+      "ja": "ペルーのうた",
+      "ko": "페루의 노래",
+      "zh-tw": "秘魯之歌",
+      "en": "K.K. Condor",
+      "es": "Tota-andina",
+      "fr": "El Condor Kéké"
+    }
+  },
+  "2426": {
+    "img": "FtrIcon/mjk_Cossack",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Cossack",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "哥萨克乐曲",
+      "de": "K.K. Steppensong",
+      "it": "K.K. Steppa",
+      "nl": "K.K. op de steppe",
+      "ru": "Степь К. К.",
+      "ja": "コサックそんぐ",
+      "ko": "까자크의 노래",
+      "zh-tw": "哥薩克樂曲",
+      "en": "K.K. Steppe",
+      "es": "Tota-estepa",
+      "fr": "Kéké balalaïka"
+    }
+  },
+  "2427": {
+    "img": "FtrIcon/mjk_China",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "aim": "Audio/mjk_China",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.中华",
+      "de": "Super-K.K.",
+      "it": "K.K. Imperiale",
+      "nl": "K.K. de wijze meester",
+      "ru": "Величие К. К.",
+      "ja": "けけチャイナ",
+      "ko": "K.K.차이나",
+      "zh-tw": "K.K.中華",
+      "en": "Imperial K.K.",
+      "es": "Tota-imperio",
+      "fr": "Kéké l'Empereur"
+    }
+  },
+  "2428": {
+    "img": "FtrIcon/mjk_Turkey",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Turkey",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "土耳其乐曲",
+      "de": "K.K. Orientsong",
+      "fr-fr": "Cheb Kéké",
+      "it": "K.K. Assolo",
+      "nl": "K.K. in de kasba",
+      "ru": "Крепость К. К.",
+      "ja": "トルコそんぐ",
+      "ko": "터키의 노래",
+      "zh-tw": "土耳其樂曲",
+      "fr-us": "Ali Kéké",
+      "en": "K.K. Casbah",
+      "es": "Tota-alcazaba"
+    }
+  },
+  "2429": {
+    "img": "FtrIcon/mjk_Afro",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Afro",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.非洲音乐",
+      "de": "K.K. Safari",
+      "fr-fr": "Ali Farka Kéké",
+      "it": "K.K. Safari",
+      "nl": "K.K. in de jungle",
+      "ru": "Сафари К. К.",
+      "ja": "けけアフロ",
+      "ko": "K.K.아프리카",
+      "zh-tw": "K.K.非洲音樂",
+      "fr-us": "Kéké safari",
+      "en": "K.K. Safari",
+      "es": "Tota-safari"
+    }
+  },
+  "2430": {
+    "img": "FtrIcon/mjk_Minyo",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Minyo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "hui": "cbr13",
+    "loc": {
+      "zh-cn": "K.K.民谣",
+      "de": "K.K. Folk",
+      "fr-fr": "Folk Kéké",
+      "it": "K.K. Folk",
+      "nl": "K.K.-folk",
+      "ru": "Фолк К. К.",
+      "ja": "けけみんよう",
+      "ko": "K.K.민요",
+      "zh-tw": "K.K.民謠",
+      "fr-us": "Kéké folklorique",
+      "en": "K.K. Folk",
+      "es": "Tota-folk"
+    }
+  },
+  "2431": {
+    "img": "FtrIcon/mjk_Rock",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Rock",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.摇滚",
+      "de": "K.K. Rock",
+      "it": "K.K. Rock",
+      "nl": "K.K.-rock",
+      "ru": "Рок К. К.",
+      "ja": "けけロック",
+      "ko": "K.K.록",
+      "zh-tw": "K.K.搖滾",
+      "en": "K.K. Rock",
+      "es": "Tota-rock",
+      "fr": "Rock Kéké"
+    }
+  },
+  "2432": {
+    "img": "FtrIcon/mjk_RocknRoll",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_RocknRoll",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.50年代摇滚",
+      "de": "K.K. Rocksong",
+      "it": "K.K. Spericolato",
+      "nl": "K.K.-rock-'n-roll",
+      "ru": "К. К. в ударе",
+      "ja": "けけのロケンロール",
+      "ko": "K.K.로큰롤",
+      "zh-tw": "K.K.50年代搖滾",
+      "en": "Rockin' K.K.",
+      "es": "Tota-total",
+      "fr": "Bouge avec Kéké"
+    }
+  },
+  "2433": {
+    "img": "FtrIcon/mjk_RagTime",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "aim": "Audio/mjk_RagTime",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "拉格泰姆音乐",
+      "de": "K.K. Ragtime",
+      "it": "K.K. Ritmo",
+      "nl": "K.K.-ragtime",
+      "ru": "Регтайм К. К.",
+      "ja": "ラグタイム",
+      "ko": "래그타임",
+      "zh-tw": "拉格泰姆音樂",
+      "en": "K.K. Ragtime",
+      "es": "Tota-ragtime",
+      "fr": "Ragtime Kéké"
+    }
+  },
+  "2434": {
+    "img": "FtrIcon/mjk_NewOrleans",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_NewOrleans",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "hui": "kal04",
+    "loc": {
+      "zh-cn": "新奥尔良乐曲",
+      "de": "K.K. Gumbo",
+      "fr-fr": "Gumbo Kéké",
+      "it": "K.K. Gumbo",
+      "nl": "K.K.-gumbo",
+      "ru": "Гамбо К. К.",
+      "ja": "ニューオリンズそんぐ",
+      "ko": "딕시랜드 재즈",
+      "zh-tw": "新奧爾良樂曲",
+      "fr-us": "Gombo Kéké",
+      "en": "K.K. Gumbo",
+      "es": "Tota-gumbo"
+    }
+  },
+  "2435": {
+    "img": "FtrIcon/mjk_Funk",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Funk",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "de": "K. Funk",
+      "it": "K.K. Funk",
+      "nl": "K.K.-funk",
+      "ru": "Фанк К. К.",
+      "ja": "けけファンク",
+      "ko": "K.K.펑키",
+      "en": "The K. Funk",
+      "es": "Tota-funk",
+      "fr": "Le Kéké Funk",
+      "zh": "K.K.放克"
+    }
+  },
+  "2436": {
+    "img": "FtrIcon/mjk_Blues",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Blues",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "K.K.蓝调",
+      "de": "K.K. Blues",
+      "it": "K.K. Blues",
+      "nl": "K.K.-blues",
+      "ru": "Блюз К. К.",
+      "ja": "けけブルース",
+      "ko": "K.K.블루스",
+      "zh-tw": "K.K.藍調",
+      "en": "K.K. Blues",
+      "es": "Tota-blues",
+      "fr": "Kéké blues"
+    }
+  },
+  "2437": {
+    "img": "FtrIcon/mjk_Gospel",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Gospel",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.心灵音乐",
+      "de": "K.K. mit Gefühl",
+      "it": "K.K. Anima",
+      "nl": "K.K.-soulblues",
+      "ru": "Соулфул К. К.",
+      "ja": "けけゴスペル",
+      "ko": "K.K.가스펠",
+      "zh-tw": "K.K.心靈音樂",
+      "en": "Soulful K.K.",
+      "es": "Tota-lenta",
+      "fr": "Kéké soul"
+    }
+  },
+  "2438": {
+    "img": "FtrIcon/mjk_Soul",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Soul",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "hui": "der04",
+    "loc": {
+      "zh-cn": "K.K.灵魂乐",
+      "de": "K.K. Soul",
+      "it": "K.K. Soul",
+      "nl": "K.K.-soul",
+      "ru": "Соул К. К.",
+      "ja": "けけソウル",
+      "ko": "K.K.소울",
+      "zh-tw": "K.K.靈魂樂",
+      "en": "K.K. Soul",
+      "es": "Tota-soul",
+      "fr": "Soul de Kéké"
+    }
+  },
+  "2439": {
+    "img": "FtrIcon/mjk_Urban",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Urban",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "hui": "der04",
+    "loc": {
+      "de": "K.K. Cruisin'",
+      "it": "K.K. Cool",
+      "nl": "K.K.-club",
+      "ru": "Круиз К. К.",
+      "ja": "アーバンけけ",
+      "ko": "팝K.K.",
+      "en": "K.K. Cruisin'",
+      "es": "Tota-gánster",
+      "fr": "Kéké R&B",
+      "zh": "都市K.K."
+    }
+  },
+  "2440": {
+    "img": "FtrIcon/mjk_LoveSong",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_LoveSong",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "K.K. Liebeslied",
+      "it": "K.K. Amore",
+      "nl": "K.K.-liefdeslied",
+      "ru": "Романс К. К.",
+      "ja": "けけラヴソング",
+      "ko": "K.K.러브송",
+      "en": "K.K. Love Song",
+      "es": "Tota-amor",
+      "fr": "Romance Kéké",
+      "zh": "K.K.情歌"
+    }
+  },
+  "2441": {
+    "img": "FtrIcon/mjk_Drumnbass",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Drumnbass",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "鼓打贝斯",
+      "de": "K.K. D & B",
+      "it": "K.K. & Band",
+      "nl": "K.K.-drum-'n-bass",
+      "ru": "Драм-н-бэйс К. К.",
+      "ja": "ドラムンベース",
+      "ko": "드럼앤베이스",
+      "zh-tw": "鼓打貝斯",
+      "en": "K.K. D&B",
+      "es": "Tota-drum&bass",
+      "fr": "Drum & bass Kéké"
+    }
+  },
+  "2442": {
+    "img": "FtrIcon/mjk_TechnoBeat",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_TechnoBeat",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "电音节奏",
+      "de": "K.K. Technopop",
+      "it": "K.K. Techno",
+      "nl": "K.K.-technopop",
+      "ru": "Техно-поп К. К.",
+      "ja": "テクノビート",
+      "ko": "테크노 비트",
+      "zh-tw": "電音節奏",
+      "en": "K.K. Technopop",
+      "es": "Tota-tecno",
+      "fr": "Technopop Kéké"
+    }
+  },
+  "2443": {
+    "img": "FtrIcon/mjk_EuroBeat",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "aim": "Audio/mjk_EuroBeat",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "hui": "wol06",
+    "loc": {
+      "zh-cn": "欧陆节拍",
+      "de": "DJ K.K.",
+      "it": "K.K. DJ",
+      "nl": "DJ K.K.",
+      "ru": "DJ KK",
+      "ja": "ユーロビート",
+      "ko": "유로 비트",
+      "zh-tw": "歐陸節拍",
+      "en": "DJ K.K.",
+      "es": "Tota-D.J.-Total",
+      "fr": "DJ Kéké"
+    }
+  },
+  "2444": {
+    "img": "FtrIcon/mjk_OnlyMe",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "aim": "Audio/mjk_OnlyMe",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "Ganz allein",
+      "it": "Solo io",
+      "nl": "Alleen ik",
+      "ru": "Только я",
+      "ja": "オンリーミー",
+      "ko": "온리미",
+      "en": "Only Me",
+      "es": "Solo yo",
+      "fr": "Moi et juste moi",
+      "zh": "只有我"
+    }
+  },
+  "2445": {
+    "img": "FtrIcon/mjk_Country",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Country",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.乡村",
+      "de": "K.K. Country",
+      "it": "K.K. Country",
+      "nl": "K.K.-country",
+      "ru": "Кантри К. К.",
+      "ja": "けけカントリー",
+      "ko": "K.K.컨트리",
+      "zh-tw": "K.K.鄉村",
+      "en": "K.K. Country",
+      "es": "Tota-country",
+      "fr": "Country Kéké"
+    }
+  },
+  "2446": {
+    "img": "FtrIcon/mjk_Eleki",
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "aim": "Audio/mjk_Eleki",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "电吉他乐曲",
+      "de": "Surfin' K.K.",
+      "it": "K.K. Surf",
+      "nl": "K.K.-surf",
+      "ru": "Серф К. К.",
+      "ja": "エレキそんぐ",
+      "ko": "일렉트릭 뮤직",
+      "zh-tw": "電吉他樂曲",
+      "en": "Surfin' K.K.",
+      "es": "Tota-surf",
+      "fr": "Kéké à la plage"
+    }
+  },
+  "2447": {
+    "img": "FtrIcon/mjk_Ballad",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Ballad",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.叙事歌谣",
+      "de": "K.K. Ballade",
+      "it": "K.K. Lento",
+      "nl": "K.K.-ballade",
+      "ru": "Баллада К. К.",
+      "ja": "けけバラッド",
+      "ko": "K.K.발라드",
+      "zh-tw": "K.K.敘事歌謠",
+      "en": "K.K. Ballad",
+      "es": "Tota-balada",
+      "fr": "Ballade de Kéké"
+    }
+  },
+  "2448": {
+    "img": "FtrIcon/mjk_ShowaKayo",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_ShowaKayo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "昭和K.K.歌谣",
+      "de": "K.K. Freundelied",
+      "fr-fr": "Tovaritch Kéké",
+      "it": "K.K. Compagno",
+      "nl": "Kameraad K.K.",
+      "ru": "Товарищ К. К.",
+      "ja": "しょうわけけかよう",
+      "ko": "추억의 K.K.가요",
+      "zh-tw": "昭和K.K.歌謠",
+      "fr-us": "Camarade Kéké",
+      "en": "Comrade K.K.",
+      "es": "Tota-camarada"
+    }
+  },
+  "2449": {
+    "img": "FtrIcon/mjk_Enka",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "aim": "Audio/mjk_Enka",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "K.K. Klagelied",
+      "it": "K.K. Lacrime",
+      "nl": "K.K.-klaagzang",
+      "ru": "Жалобная песнь К. К.",
+      "ja": "けけえんか",
+      "ko": "K.K.트로트",
+      "en": "K.K. Lament",
+      "es": "Tota-lamento",
+      "fr": "Complainte Kéké",
+      "zh": "K.K.演歌"
+    }
+  },
+  "2450": {
+    "img": "FtrIcon/mjk_KekeRider",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_KekeRider",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "冲吧！K.K.摩托车手",
+      "de": "Go K.K. Rider!",
+      "it": "K.K. Cross",
+      "nl": "Super-K.K.",
+      "ru": "Доброго пути, К. К.!",
+      "ja": "ゆけ!けけライダー",
+      "ko": "가자! K.K.라이더",
+      "zh-tw": "衝吧！K.K.摩托車手",
+      "en": "Go K.K. Rider",
+      "es": "Llanero Tota",
+      "fr": "Kéké route 66"
+    }
+  },
+  "2451": {
+    "img": "FtrIcon/mjk_KowaiUta",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_KowaiUta",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "惊悚歌",
+      "de": "K.K. Trauerlied",
+      "it": "K.K. Canto",
+      "nl": "K.K. in het donker",
+      "ru": "Реквием К. К.",
+      "ja": "こわいうた",
+      "ko": "무서운 노래",
+      "zh-tw": "驚悚歌",
+      "en": "K.K. Dirge",
+      "es": "Tota-réquiem",
+      "fr": "Requiem de Kéké"
+    }
+  },
+  "2452": {
+    "img": "FtrIcon/mjk_Western",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "aim": "Audio/mjk_Western",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "K.K. Western",
+      "it": "K.K. Western",
+      "nl": "K.K.-western",
+      "ru": "Вестерн К. К.",
+      "ja": "けけウェスタン",
+      "ko": "K.K.웨스턴",
+      "en": "K.K. Western",
+      "es": "Tota-Oeste",
+      "fr": "Far West Kéké",
+      "zh": "K.K.西部"
+    }
+  },
+  "2453": {
+    "img": "FtrIcon/mjk_Sensei",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Sensei",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.老师",
+      "de": "Herr K.K.",
+      "it": "K.K. Sig. No",
+      "nl": "Meester K.K.",
+      "ru": "Господин К. К.",
+      "ja": "けけせんせい",
+      "ko": "K.K.선생님",
+      "zh-tw": "K.K.老師",
+      "en": "Mr. K.K.",
+      "es": "Míster Totakeke",
+      "fr": "M. Kéké"
+    }
+  },
+  "2454": {
+    "img": "FtrIcon/mjk_Paris",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Paris",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "de": "K.K. Kaffeeblues",
+      "it": "K.K. Bar",
+      "nl": "Café K.K.",
+      "ru": "Кафе К. К.",
+      "ja": "けけパリ",
+      "ko": "K.K.파리",
+      "en": "Café K.K.",
+      "es": "Tota-café",
+      "fr": "Kéké café",
+      "zh": "K.K.巴黎"
+    }
+  },
+  "2455": {
+    "img": "FtrIcon/mjk_Parade",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Parade",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.嘉年华",
+      "de": "K.K. Parade",
+      "it": "K.K. Parata",
+      "nl": "K.K.-parade",
+      "ru": "Парад К. К.",
+      "ja": "けけパレード",
+      "ko": "K.K.퍼레이드",
+      "zh-tw": "K.K.嘉年華",
+      "en": "K.K. Parade",
+      "es": "Tota-desfile",
+      "fr": "Kéké académie"
+    }
+  },
+  "2456": {
+    "img": "FtrIcon/mjk_Senor",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Senor",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "kal04",
+    "loc": {
+      "zh-cn": "墨西哥绅士K.K.",
+      "de": "K.K. Combo",
+      "it": "K.K. Amico",
+      "nl": "K.K.-mariachi",
+      "ru": "Марьячи К. К.",
+      "ja": "セニョールけけ",
+      "ko": "세뇨르K.K.",
+      "zh-tw": "墨西哥紳士K.K.",
+      "en": "K.K. Mariachi",
+      "es": "Tota-mariachi",
+      "fr": "Mariachi Kéké"
+    }
+  },
+  "2457": {
+    "img": "FtrIcon/mjk_KekeSong",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_KekeSong",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "K.K.乐曲",
+      "de": "K.K. Song",
+      "it": "K.K. Canzone",
+      "nl": "K.K.-lied",
+      "ru": "Песнь К. К.",
+      "ja": "けけソング",
+      "ko": "K.K.의 노래",
+      "zh-tw": "K.K.樂曲",
+      "en": "K.K. Song",
+      "es": "Tota-canción",
+      "fr": "Rengaine de Kéké"
+    }
+  },
+  "2458": {
+    "img": "FtrIcon/mjk_Daisuki",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Daisuki",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "我爱你",
+      "de": "Ich liebe dich",
+      "it": "Ti amo",
+      "nl": "Ik hou van jou",
+      "ru": "Я вас люблю",
+      "ja": "だいすき",
+      "ko": "사랑해",
+      "zh-tw": "我愛你",
+      "en": "I Love You",
+      "es": "Te quiero",
+      "fr": "Je vous aime"
+    }
+  },
+  "2459": {
+    "img": "FtrIcon/mjk_Ototoi",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Ototoi",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "Vorgestern",
+      "it": "Due giorni fa",
+      "nl": "Eergisteren",
+      "ru": "Два дня назад",
+      "ja": "おととい",
+      "ko": "이틀 전",
+      "en": "Two Days Ago",
+      "es": "Anteayer",
+      "fr": "2 jours plus tôt",
+      "zh": "前天"
+    }
+  },
+  "2460": {
+    "img": "FtrIcon/mjk_BokuNoBasho",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "aim": "Audio/mjk_BokuNoBasho",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "我的归所",
+      "de": "Mein Zuhause",
+      "it": "Casa mia",
+      "nl": "Mijn thuis",
+      "ru": "Мой дом",
+      "ja": "ぼくのばしょ",
+      "ko": "내가 있는 곳",
+      "zh-tw": "我的歸所",
+      "en": "My Place",
+      "es": "Mi hogar",
+      "fr": "Chez moi"
+    }
+  },
+  "2461": {
+    "img": "FtrIcon/mjk_MoriNoSeikatsu",
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "aim": "Audio/mjk_MoriNoSeikatsu",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Waldlichtung",
+      "it": "Vita selvaggia",
+      "nl": "In het bos",
+      "ru": "Лесная жизнь",
+      "ja": "もりのせいかつ",
+      "ko": "숲 속 생활",
+      "en": "Forest Life",
+      "es": "Forestal y tal",
+      "fr": "Vie de forêt",
+      "zh": "森林生活"
+    }
+  },
+  "2462": {
+    "img": "FtrIcon/mjk_NamiNami",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_NamiNami",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "漫弥",
+      "de": "Am Rande",
+      "it": "Al limite",
+      "nl": "Op het randje",
+      "ru": "На краю",
+      "ja": "ナミナミ",
+      "ko": "파도소리",
+      "zh-tw": "漫瀰",
+      "en": "To the Edge",
+      "es": "Hasta el final",
+      "fr": "Limite"
+    }
+  },
+  "2463": {
+    "img": "FtrIcon/mjk_KangaeChu",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_KangaeChu",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Nachdenklich",
+      "it": "Pensando",
+      "nl": "De denker",
+      "ru": "Размышления",
+      "ja": "かんがえちゅう",
+      "ko": "생각 중",
+      "en": "Pondering",
+      "es": "Sopesando",
+      "fr": "Réfléchir",
+      "zh": "思考中"
+    }
+  },
+  "2464": {
+    "img": "FtrIcon/mjk_Dixie",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Dixie",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "kal04",
+    "loc": {
+      "de": "K.K. Dixie",
+      "it": "K.K. Dixie",
+      "nl": "K.K.-dixieland",
+      "ru": "Дикси К. К.",
+      "ja": "けけディキシー",
+      "ko": "K.K.딕시",
+      "en": "K.K. Dixie",
+      "es": "Tota-old-jazz",
+      "fr": "Kéké Dixie",
+      "zh": "K.K.迪克西"
+    }
+  },
+  "2465": {
+    "img": "FtrIcon/mjk_Gamelan",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Gamelan",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "de": "K.K. Marathon",
+      "it": "K.K. Maratona",
+      "nl": "K.K.-gamelan",
+      "ru": "Марафон К. К.",
+      "ja": "けけガムラン",
+      "ko": "K.K.가믈란",
+      "en": "K.K. Marathon",
+      "es": "Tota-maratón",
+      "fr": "Kéké marathon",
+      "zh": "K.K.甘美朗"
+    }
+  },
+  "2466": {
+    "img": "FtrIcon/mjk_Daimyo",
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "aim": "Audio/mjk_Daimyo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.领主",
+      "de": "King K.K.",
+      "fr-fr": "Kéké King",
+      "it": "K.K. Re",
+      "nl": "Keizer K.K.",
+      "ru": "Король К. К.",
+      "ja": "けけだいみょう",
+      "ko": "K.K.왕조",
+      "zh-tw": "K.K.領主",
+      "fr-us": "Le roi Kéké",
+      "en": "King K.K.",
+      "es": "Rey Tota"
+    }
+  },
+  "2467": {
+    "img": "FtrIcon/mjk_Alpine",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Alpine",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "阿尔卑斯山乐曲",
+      "de": "Berglied",
+      "it": "Canzone montana",
+      "nl": "Jodelaheho",
+      "ru": "Горная песнь",
+      "ja": "アルペンそんぐ",
+      "ko": "알프스의 노래",
+      "zh-tw": "阿爾卑斯山樂曲",
+      "en": "Mountain Song",
+      "es": "Totalerileriló",
+      "fr": "Chant montagnard"
+    }
+  },
+  "2468": {
+    "img": "FtrIcon/mjk_HunaUta2001",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_HunaUta2001",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Seefahrerlied 2001",
+      "it": "Canzone marina",
+      "nl": "Zeelied",
+      "ru": "Песня о море 2001",
+      "ja": "ふなうた2001",
+      "ko": "뱃노래2001",
+      "en": "Marine Song 2001",
+      "es": "Tota 2001",
+      "fr": "Chant marin",
+      "zh": "船歌2001"
+    }
+  },
+  "2469": {
+    "img": "FtrIcon/mjk_Napolitan",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Napolitan",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "意大利面",
+      "de": "Neapolitaner",
+      "it": "Napoletana",
+      "nl": "Napolitain",
+      "ru": "Неаполитанское",
+      "ja": "ナポリタン",
+      "ko": "토마토 스파게티",
+      "zh-tw": "義大利麵",
+      "en": "Neapolitan",
+      "es": "Napolitana",
+      "fr": "Napolitaine"
+    }
+  },
+  "2470": {
+    "img": "FtrIcon/mjk_NiDanZaka",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_NiDanZaka",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "Bergsteigung",
+      "it": "Irto colle",
+      "nl": "Heuvelopwaarts",
+      "ru": "Крутой холм",
+      "ja": "にだんざか",
+      "ko": "오르막길",
+      "en": "Steep Hill",
+      "es": "Colina arriba",
+      "fr": "La pente",
+      "zh": "二段斜坡"
+    }
+  },
+  "2471": {
+    "img": "FtrIcon/mjk_KekeBilly",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_KekeBilly",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.乡村摇滚",
+      "de": "K.K. Rockabilly",
+      "it": "K.K. Rockabilly",
+      "nl": "K.K.-rockabilly",
+      "ru": "Рокабилли К. К.",
+      "ja": "けけビリー",
+      "ko": "K.K.빌리",
+      "zh-tw": "K.K.鄉村搖滾",
+      "en": "K.K. Rockabilly",
+      "es": "Tota-rockabilly",
+      "fr": "Rockabilly Kéké"
+    }
+  },
+  "2472": {
+    "img": "FtrIcon/mjk_Keiji",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Keiji",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "de": "Agent K.K.",
+      "it": "Agente K.K.",
+      "nl": "Agent K.K.",
+      "ru": "Агент К. К.",
+      "ja": "けけけいじ",
+      "ko": "K.K.형사",
+      "en": "Agent K.K.",
+      "es": "Agente Totakeke",
+      "fr": "Agent Kéké",
+      "zh": "K.K.刑警"
+    }
+  },
+  "2473": {
+    "img": "FtrIcon/mjk_Ondo",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Ondo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "hui": "der10",
+    "loc": {
+      "de": "K.K. Parade 2",
+      "it": "K.K. Gran galà",
+      "nl": "K.K.-optocht",
+      "ru": "Ралли К. К.",
+      "ja": "けけおんど",
+      "ko": "K.K.축제",
+      "en": "K.K. Rally",
+      "es": "Tota-parada",
+      "fr": "Parade Kéké",
+      "zh": "K.K.大和祭典"
+    }
+  },
+  "2474": {
+    "img": "FtrIcon/mjk_Metal",
+    "clr": [
+      "brown",
+      "purple"
+    ],
+    "aim": "Audio/mjk_Metal",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.金属摇滚",
+      "de": "K.K. Metal",
+      "fr-fr": "Kéké metal",
+      "it": "K.K. Metal",
+      "nl": "K.K.-metal",
+      "ru": "Металл К. К.",
+      "ja": "けけメタル",
+      "ko": "K.K.메탈",
+      "zh-tw": "K.K.金屬搖滾",
+      "fr-us": "Kéké métal",
+      "en": "K.K. Metal",
+      "es": "Tota-metal"
+    }
+  },
+  "2475": {
+    "img": "FtrIcon/mjk_BlueOnigiri",
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "aim": "Audio/mjk_BlueOnigiri",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "蓝色饭团",
+      "de": "Alter Kuchen",
+      "it": "Vecchi dolcetti",
+      "nl": "Oude cupcakes",
+      "ru": "Черствые капкейки",
+      "ja": "ブルーおにぎり",
+      "ko": "블루 삼각 김밥",
+      "zh-tw": "藍色飯糰",
+      "en": "Stale Cupcakes",
+      "es": "Pastelito seco",
+      "fr": "Vieux biscuits"
+    }
+  },
+  "2476": {
+    "img": "FtrIcon/mjk_HaruNoKomorebi",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "aim": "Audio/mjk_HaruNoKomorebi",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "der10",
+    "loc": {
+      "zh-cn": "春暖花开",
+      "de": "Frühlingsblüten",
+      "it": "Fiori marzolini",
+      "nl": "Lentebloesems",
+      "ru": "Весенний цвет",
+      "ja": "はるのこもれび",
+      "ko": "봄날의 여유",
+      "zh-tw": "春暖花開",
+      "en": "Spring Blossoms",
+      "es": "Capullos en flor",
+      "fr": "Floraison"
+    }
+  },
+  "2477": {
+    "img": "FtrIcon/mjk_Horo",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "aim": "Audio/mjk_Horo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Ich wandere",
+      "it": "Il viaggiatore",
+      "nl": "Wandelen",
+      "ru": "Поход",
+      "ja": "ほうろう",
+      "ko": "방랑자",
+      "en": "Wandering",
+      "es": "Vagabundo",
+      "fr": "Errance",
+      "zh": "流浪"
+    }
+  },
+  "2478": {
+    "img": "FtrIcon/mjk_House",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "aim": "Audio/mjk_House",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "hui": "wol06",
+    "loc": {
+      "de": "K.K. House",
+      "it": "K.K. House",
+      "nl": "K.K.-house",
+      "ru": "Хаус К. К.",
+      "ja": "けけハウス",
+      "ko": "K.K.하우스",
+      "en": "K.K. House",
+      "es": "Tota-house",
+      "fr": "Kéké House",
+      "zh": "K.K.浩室"
+    }
+  },
+  "2479": {
+    "img": "FtrIcon/mjk_Sonata",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Sonata",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.奏鸣曲",
+      "de": "K.K. Sonate",
+      "it": "K.K. Sonata",
+      "nl": "K.K.-sonate",
+      "ru": "Соната К. К.",
+      "ja": "けけのソナタ",
+      "ko": "K.K.소나타",
+      "zh-tw": "K.K.奏鳴曲",
+      "en": "K.K. Sonata",
+      "es": "Tota-sonata",
+      "fr": "Sonate Kéké"
+    }
+  },
+  "2480": {
+    "img": "FtrIcon/mjk_UtataneNoYume",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_UtataneNoYume",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "白日梦",
+      "de": "Schlummerlied",
+      "it": "K.K. Ipnotico",
+      "nl": "Hypnotherapie",
+      "ru": "Гипноз К. К.",
+      "ja": "うたたねのゆめ",
+      "ko": "졸면서 꾸는 꿈",
+      "zh-tw": "白日夢",
+      "en": "Hypno K.K.",
+      "es": "Mírame a los ojos",
+      "fr": "Psykéké"
+    }
+  },
+  "2481": {
+    "img": "FtrIcon/mjk_Osanpo",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Osanpo",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Spaziergang",
+      "it": "K.K. Trallalà",
+      "nl": "Op straat",
+      "ru": "Прогулка К. К.",
+      "ja": "おさんぽ",
+      "ko": "산책",
+      "en": "K.K. Stroll",
+      "es": "Paseíto",
+      "fr": "Flânerie Kéké",
+      "zh": "散散步"
+    }
+  },
+  "2482": {
+    "img": "FtrIcon/mjk_DoubutsuNoShima",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_DoubutsuNoShima",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "动物岛",
+      "de": "Die Insel der Tiere",
+      "it": "K.K. Isola",
+      "nl": "Onbewoond eiland",
+      "ru": "Остров К. К.",
+      "ja": "どうぶつのしま",
+      "ko": "동물의 섬",
+      "zh-tw": "動物島",
+      "en": "K.K. Island",
+      "es": "Mi isla, mi hogar",
+      "fr": "Kéké des îles"
+    }
+  },
+  "2483": {
+    "img": "FtrIcon/mjk_Minimal",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Minimal",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "zh-cn": "极简音乐",
+      "de": "Minimal Music",
+      "fr-fr": "Space Kéké",
+      "it": "K.K. Minimal",
+      "nl": "K.K.-minimalisme",
+      "ru": "Космос К. К.",
+      "ja": "ミニマルおんがく",
+      "ko": "미니멀 음악",
+      "zh-tw": "極簡音樂",
+      "fr-us": "Kéké cosmos",
+      "en": "Space K.K.",
+      "es": "Canción minimalista"
+    }
+  },
+  "2484": {
+    "img": "FtrIcon/mjk_Hollywood",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Hollywood",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.好莱坞",
+      "de": "K.K. Filmmusik",
+      "it": "K.K. Superstar",
+      "nl": "K.K.-filmmuziek",
+      "ru": "Приключения К. К.",
+      "ja": "けけハリウッド",
+      "ko": "K.K.할리우드",
+      "zh-tw": "K.K.好萊塢",
+      "en": "K.K. Adventure",
+      "es": "Tota-banda sonora",
+      "fr": "Kéké star"
+    }
+  },
+  "2485": {
+    "img": "FtrIcon/mjk_Maharaja",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Maharaja",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "its_hard_to_say",
+    "hui": "kgr10",
+    "loc": {
+      "de": "K.K. Maharadscha",
+      "it": "K.K. Maragià",
+      "nl": "Maharadja K.K.",
+      "ru": "Оазис К. К.",
+      "ja": "けけマハラジャ",
+      "ko": "K.K.마하라자",
+      "en": "K.K. Oasis",
+      "es": "Tota-marajá",
+      "fr": "Maharadjah Kéké",
+      "zh": "K.K.印度王公"
+    }
+  },
+  "2486": {
+    "img": "FtrIcon/mjk_Roma",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Roma",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.吉普赛",
+      "de": "K.K. Basar",
+      "it": "K.K. Bazar",
+      "nl": "K.K. op de bazaar",
+      "ru": "Базар К. К.",
+      "ja": "けけロマ",
+      "ko": "K.K.로마",
+      "zh-tw": "K.K.吉普賽",
+      "en": "K.K. Bazaar",
+      "es": "Tota-bazar",
+      "fr": "Kéké bohême"
+    }
+  },
+  "2487": {
+    "img": "FtrIcon/mjk_Milonga",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Milonga",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_blue",
+    "loc": {
+      "de": "K.K. Milonga",
+      "it": "K.K. Milonga",
+      "nl": "K.K.-milonga",
+      "ru": "Милонга К. К.",
+      "ja": "けけのミロンガ",
+      "ko": "K.K.밀롱가",
+      "en": "K.K. Milonga",
+      "es": "Tota-milonga",
+      "fr": "Milonga Kéké",
+      "zh": "K.K.米隆加"
+    }
+  },
+  "2488": {
+    "img": "FtrIcon/mjk_Raregroove",
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "aim": "Audio/mjk_Raregroove",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.律动",
+      "de": "K.K. Groove",
+      "it": "K.K. Groove",
+      "nl": "K.K.-groove",
+      "ru": "Грув К. К.",
+      "ja": "けけグルーヴ",
+      "ko": "K.K.그루브",
+      "zh-tw": "K.K.律動",
+      "en": "K.K. Groove",
+      "es": "Tota-groove",
+      "fr": "Groove Kéké"
+    }
+  },
+  "2489": {
+    "img": "FtrIcon/mjk_Jongara",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Jongara",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "hui": "der10",
+    "loc": {
+      "zh-cn": "K.K.三味线",
+      "de": "K.K. Melodie",
+      "it": "K.K. Shamisen",
+      "nl": "K.K.-jongara",
+      "ru": "Джонгара К. К.",
+      "ja": "けけじょんがら",
+      "ko": "K.K.샤미센 연주곡",
+      "zh-tw": "K.K.三味線",
+      "en": "K.K. Jongara",
+      "es": "Tota-shamisen",
+      "fr": "Shamisen Kéké"
+    }
+  },
+  "2490": {
+    "img": "FtrIcon/mjk_Flamenco",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Flamenco",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "de": "K.K. Flamenco",
+      "it": "K.K. Flamenco",
+      "nl": "K.K.-flamenco",
+      "ru": "Фламенко К. К.",
+      "ja": "けけフラメンコ",
+      "ko": "K.K.플라멩코",
+      "en": "K.K. Flamenco",
+      "es": "Tota-flamenco",
+      "fr": "Flamenco Kéké",
+      "zh": "K.K.佛朗明哥"
+    }
+  },
+  "2491": {
+    "img": "FtrIcon/mjk_Bolero",
+    "clr": [
+      "brown",
+      "orange"
+    ],
+    "aim": "Audio/mjk_Bolero",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "de": "K.K. Sonnenuntergang",
+      "it": "K.K. Tramonto",
+      "nl": "K.K.-bolero",
+      "ru": "Задумчивый К. К.",
+      "ja": "けけボレロ",
+      "ko": "K.K.볼레로",
+      "en": "K.K. Moody",
+      "es": "Tota-bolero",
+      "fr": "Slow Kéké",
+      "zh": "K.K.波蕾洛"
+    }
+  },
+  "2492": {
+    "img": "FtrIcon/mjk_Idol",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Idol",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "cat16",
+    "loc": {
+      "de": "K.K. Pop",
+      "fr-fr": "Bubblegum Kéké",
+      "it": "K.K. Bolle rosa",
+      "nl": "K.K.-bubblegum",
+      "ru": "Бабблгам-поп К. К.",
+      "ja": "けけアイドル",
+      "ko": "K.K.아이돌",
+      "fr-us": "Kéké gomme balloune",
+      "en": "Bubblegum K.K.",
+      "es": "Tota-pop",
+      "zh": "K.K.偶像"
+    }
+  },
+  "2493": {
+    "img": "FtrIcon/mjk_Electronica",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Electronica",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.电子民谣",
+      "de": "K.K. Synthiepop",
+      "it": "K.K. Synth",
+      "nl": "K.K.-synthpop",
+      "ru": "Синти-поп К. К.",
+      "ja": "けけトロニカ",
+      "ko": "K.K.트로니카",
+      "zh-tw": "K.K.電子民謠",
+      "en": "K.K. Synth",
+      "es": "Tota-electrónica",
+      "fr": "Synthé Kéké"
+    }
+  },
+  "2494": {
+    "img": "FtrIcon/mjk_Disco",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "aim": "Audio/mjk_Disco",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "mmd": "i_feel_good",
+    "hui": "wol06",
+    "loc": {
+      "zh-cn": "K.K.迪斯科",
+      "de": "K.K. Disco",
+      "it": "K.K. Disco",
+      "nl": "K.K.-disco",
+      "ru": "Диско К. К.",
+      "ja": "けけディスコ",
+      "ko": "K.K.디스코",
+      "zh-tw": "K.K.迪斯可",
+      "en": "K.K. Disco",
+      "es": "Tota-disco",
+      "fr": "Disco Kéké"
+    }
+  },
+  "2495": {
+    "img": "FtrIcon/mjk_BirthdaySong",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_BirthdaySong",
+    "sel": 800,
+    "hap": 103,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kk",
+    "evt": "birthday",
+    "loc": {
+      "de": "Geburtstagslied",
+      "es-es": "Feliz en tu día",
+      "it": "K.K. Compleanno",
+      "nl": "Fijne verjaardag",
+      "ru": "День рождения К. К.",
+      "ja": "きみのたんじょうび",
+      "ko": "그대의 생일",
+      "es-us": "Feliz cumpleaños",
+      "en": "K.K. Birthday",
+      "fr": "Anniversaire Kéké",
+      "zh": "你的生日"
+    }
+  },
+  "4312": {
+    "img": "FtrIcon/mjk_DoubutuNoMachi",
+    "clr": "brown",
+    "aim": "Audio/mjk_DoubutuNoMachi",
+    "sel": 800,
+    "hap": 103,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kk",
+    "loc": {
+      "zh-cn": "动物城镇",
+      "de": "Die Stadt der Tiere",
+      "it": "La città degli animali",
+      "nl": "Animal City",
+      "ru": "Город зверушек",
+      "ja": "どうぶつのまち",
+      "ko": "동물의 마을",
+      "zh-tw": "動物城鎮",
+      "en": "Animal City",
+      "es": "Ciudad animal",
+      "fr": "À nous la belle ville"
+    }
+  },
+  "4313": {
+    "img": "FtrIcon/mjk_Sayonara",
+    "clr": "brown",
+    "aim": "Audio/mjk_Sayonara",
+    "sel": 800,
+    "hap": 103,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kk",
+    "loc": {
+      "zh-cn": "再会",
+      "de": "Abschied",
+      "it": "Arrivederci",
+      "nl": "Vaarwel",
+      "ru": "Прощание",
+      "ja": "さよなら",
+      "ko": "작별",
+      "zh-tw": "再會",
+      "en": "Farewell",
+      "es": "Despedida",
+      "fr": "Adieux"
+    }
+  },
+  "4314": {
+    "img": "FtrIcon/mjk_Drive",
+    "clr": "brown",
+    "aim": "Audio/mjk_Drive",
+    "sel": 800,
+    "hap": 103,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kk",
+    "loc": {
+      "zh-cn": "兜风",
+      "de": "Am Steuer",
+      "it": "Gita al volante",
+      "nl": "Achter het stuur",
+      "ru": "За рулем",
+      "ja": "ドライブ",
+      "ko": "드라이브",
+      "zh-tw": "兜風",
+      "en": "Drivin'",
+      "es": "Al volante",
+      "fr": "Sur la route"
+    }
+  },
+  "4318": {
+    "img": "FtrIcon/mjk_MainTheme",
+    "clr": "brown",
+    "aim": "Audio/mjk_MainTheme",
+    "sel": 800,
+    "hap": 103,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kk",
+    "loc": {
+      "de": "Neue Horizonte",
+      "it": "Nuovi orizzonti",
+      "nl": "Welkome horizon",
+      "ru": "Светлые горизонты",
+      "ja": "みんなあつまれ",
+      "ko": "모두 모여봐요",
+      "en": "Welcome Horizons",
+      "es": "Nuevo horizonte",
+      "fr": "Horizons nouveaux",
+      "zh": "大家集合吧"
+    }
+  },
+  "7657": {
+    "img": "FtrIcon/mjk_Fugue",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "aim": "Audio/mjk_Fugue",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.赋格曲",
+      "de": "K.K. Fuge",
+      "it": "K.K. Fuga",
+      "nl": "K.K.-fuga",
+      "ru": "Фуга К. К.",
+      "ja": "けけフーガ",
+      "ko": "K.K.푸가",
+      "zh-tw": "K.K.賦格曲",
+      "en": "K.K. Fugue",
+      "es": "Tota-fuga",
+      "fr": "Fugue de Kéké"
+    }
+  },
+  "7658": {
+    "img": "FtrIcon/mjk_Polka",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "aim": "Audio/mjk_Polka",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "i_feel_good",
+    "hui": "dog05",
+    "loc": {
+      "zh-cn": "K.K.波尔卡舞曲",
+      "de": "K.K. Polka",
+      "it": "K.K. Polka",
+      "nl": "K.K.-polka",
+      "ru": "Полька К. К.",
+      "ja": "けけポルカ",
+      "ko": "K.K.폴카",
+      "zh-tw": "K.K.波爾卡舞曲",
+      "en": "K.K. Polka",
+      "es": "Tota-polka",
+      "fr": "Polka de Kéké"
+    }
+  },
+  "7659": {
+    "img": "FtrIcon/mjk_Slackkey",
+    "clr": [
+      "brown",
+      "red"
+    ],
+    "aim": "Audio/mjk_Slackkey",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.Slack-Key吉他",
+      "de": "K.K. Slack-Key",
+      "it": "K.K. Slack-Key",
+      "nl": "K.K.-slack-key",
+      "ru": "Слэк-ки К. К.",
+      "ja": "けけスラッキー",
+      "ko": "K.K.슬랙키",
+      "zh-tw": "K.K. Slack-Key吉他",
+      "en": "K.K. Slack-Key",
+      "es": "Tota-kī hō'alu",
+      "fr": "Ki ho'alu Kéké"
+    }
+  },
+  "7660": {
+    "img": "FtrIcon/mjk_Choro",
+    "clr": [
+      "brown",
+      "aqua"
+    ],
+    "aim": "Audio/mjk_Choro",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "a_little_grumpy",
+    "loc": {
+      "zh-cn": "K.K.咻乐",
+      "de": "K.K. Chorinho",
+      "it": "K.K. Chorinho",
+      "nl": "K.K.-chorinho",
+      "ru": "Шориньо К. К.",
+      "ja": "けけショーロ",
+      "ko": "K.K.쇼로",
+      "zh-tw": "K.K.咻樂",
+      "en": "K.K. Chorinho",
+      "es": "Tota-chorinho",
+      "fr": "Chorinho Kéké"
+    }
+  },
+  "7661": {
+    "img": "FtrIcon/mjk_Chillwave",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Chillwave",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "laid_back",
+    "loc": {
+      "de": "Chillwave",
+      "it": "K.K. Chillwave",
+      "nl": "K.K.-chillwave",
+      "ru": "Чиллвейв",
+      "ja": "チルウェイヴ",
+      "ko": "칠웨이브",
+      "en": "Chillwave",
+      "es": "Tota-sintes",
+      "fr": "Chillwave Kéké",
+      "zh": "冷波"
+    }
+  },
+  "7662": {
+    "img": "FtrIcon/mjk_Dub",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "aim": "Audio/mjk_Dub",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "laid_back",
+    "loc": {
+      "zh-cn": "K.K.混搭音乐",
+      "de": "K.K. Dub",
+      "it": "K.K. Dub",
+      "nl": "K.K.-dub",
+      "ru": "Даб К. К.",
+      "ja": "けけダブ",
+      "ko": "K.K.덥",
+      "zh-tw": "K.K.混搭音樂",
+      "en": "K.K. Dub",
+      "es": "Tota-dub",
+      "fr": "Dub Kéké"
+    }
+  },
+  "7663": {
+    "img": "FtrIcon/mjk_Lovers",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Lovers",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.爱人们",
+      "de": "K.K. Lovers",
+      "it": "K.K. Serenata",
+      "nl": "K.K.-lovers",
+      "ru": "Лаверс-рок К. К.",
+      "ja": "けけラヴァーズ",
+      "ko": "K.K.러버스",
+      "zh-tw": "K.K.愛人們",
+      "en": "K.K. Lovers",
+      "es": "Tota-amores",
+      "fr": "Romantique Kéké"
+    }
+  },
+  "7664": {
+    "img": "FtrIcon/mjk_Bashment",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Bashment",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "a_little_blue",
+    "loc": {
+      "zh-cn": "K.K.舞场雷鬼",
+      "de": "K.K. Dancehall",
+      "it": "K.K. Dancehall",
+      "nl": "K.K.-dancehall",
+      "ru": "Дэнсхолл К. К.",
+      "ja": "けけバッシュメント",
+      "ko": "K.K.배시먼트",
+      "zh-tw": "K.K.舞場雷鬼",
+      "en": "K.K. Bashment",
+      "es": "Tota-dancehall",
+      "fr": "Dancehall Kéké"
+    }
+  },
+  "7665": {
+    "img": "FtrIcon/mjk_Hiphop",
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "aim": "Audio/mjk_Hiphop",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "de": "K.K. Hop",
+      "it": "K.K. Rap",
+      "nl": "K.K.-hiphop",
+      "ru": "Хоп К. К.",
+      "ja": "けけホップ",
+      "ko": "K.K.홉",
+      "en": "K.K. Hop",
+      "es": "Tota-hop",
+      "fr": "Rap de Kéké",
+      "zh": "K.K.嘻哈"
+    }
+  },
+  "7666": {
+    "img": "FtrIcon/mjk_Break",
+    "clr": [
+      "brown",
+      "purple"
+    ],
+    "aim": "Audio/mjk_Break",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "a_little_grumpy",
+    "hui": "der04",
+    "loc": {
+      "de": "K.K. Break",
+      "it": "K.K. Break",
+      "nl": "K.K.-break",
+      "ru": "Брейк К. К.",
+      "ja": "けけブレイク",
+      "ko": "K.K.브레이크",
+      "en": "K.K. Break",
+      "es": "Tota-break",
+      "fr": "Break Kéké",
+      "zh": "K.K.地板舞"
+    }
+  },
+  "7667": {
+    "img": "FtrIcon/mjk_Khoomii",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Khoomii",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "its_hard_to_say",
+    "loc": {
+      "de": "K.K. Khöömei",
+      "it": "K.K. Khoomei",
+      "nl": "K.K.-keelzang",
+      "ru": "Хоомей К. К.",
+      "ja": "けけホーミー",
+      "ko": "K.K.후미",
+      "en": "K.K. Khoomei",
+      "es": "Tota-khöömei",
+      "fr": "Khöömii Kéké",
+      "zh": "K.K.喉音"
+    }
+  },
+  "7668": {
+    "img": "FtrIcon/mjk_Android",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "aim": "Audio/mjk_Android",
+    "sel": 800,
+    "buy": 3200,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kk",
+      "nook_shopping_selection"
+    ],
+    "vad": "2.0.0",
+    "mmd": "i_feel_good",
+    "loc": {
+      "zh-cn": "K.K.电子合成音",
+      "de": "K.K. Synthi",
+      "it": "K.K. Robot",
+      "nl": "K.K.-loid",
+      "ru": "Робо-синти К. К.",
+      "ja": "けけロイド",
+      "ko": "K.K.로이드",
+      "zh-tw": "K.K.電子合成音",
+      "en": "K.K. Robot Synth",
+      "es": "Tota-loid",
+      "fr": "Cyber-Kéké"
+    }
+  }
+}

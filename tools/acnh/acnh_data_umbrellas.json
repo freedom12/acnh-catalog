@@ -1,0 +1,2028 @@
+{
+  "1260": {
+    "img": "FtrIcon/UmbrellaHotel0",
+    "clr": [
+      "blue",
+      "red"
+    ],
+    "sel": 375,
+    "exp": 15,
+    "exc": 6,
+    "hap": 151,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "hotel_shop",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "旅馆雨伞",
+      "de": "Hotelschirm",
+      "it": "ombrello dell'hotel",
+      "nl": "hotelparaplu",
+      "ru": "отельный зонт",
+      "ja": "ホテルのかさ",
+      "ko": "호텔 우산",
+      "zh-tw": "旅館雨傘",
+      "en": "hotel umbrella",
+      "es": "paraguas del hotel",
+      "fr": "parapluie d'hôtel"
+    }
+  },
+  "5861": {
+    "img": "FtrIcon/UmbrellaPolkadotRed",
+    "clr": [
+      "red",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "hrs06",
+      "kgr00"
+    ],
+    "loc": {
+      "zh-cn": "红色点点雨伞",
+      "de": "Punkteschirm",
+      "es-es": "parasol de lunares",
+      "it": "parasole rosso",
+      "nl": "rode parasol met stippen",
+      "ru": "зонт тоада",
+      "ja": "あかいみずたまのかさ",
+      "ko": "빨간 물방울 우산",
+      "zh-tw": "紅色圓點雨傘",
+      "es-us": "parasol a lunares",
+      "en": "Toad parasol",
+      "fr": "parapluie à pois rouge"
+    }
+  },
+  "6840": {
+    "img": "FtrIcon/UmbrellaLeaf0",
+    "clr": "green",
+    "sel": 300,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "elp11",
+      "pig17",
+      "rbt00",
+      "rbt18",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "叶子雨伞",
+      "de": "Blättchenschirm",
+      "it": "ombrello foglia",
+      "nl": "bladparaplu",
+      "ru": "зонт-лист",
+      "ja": "はっぱのかさ",
+      "ko": "연꽃잎 우산",
+      "zh-tw": "葉子雨傘",
+      "en": "leaf umbrella",
+      "es": "parasol hoja",
+      "fr": "feuillapluie"
+    }
+  },
+  "6904": {
+    "img": "FtrIcon/UmbrellaSunflower0",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bul08",
+      "crd01"
+    ],
+    "loc": {
+      "zh-cn": "向日葵雨伞",
+      "de": "Sommerschirm",
+      "it": "parasole gioioso",
+      "nl": "zonnige parasol",
+      "ru": "зонт с подсолнухами",
+      "ja": "ひまわりのかさ",
+      "ko": "해바라기 우산",
+      "zh-tw": "向日葵雨傘",
+      "en": "sunny parasol",
+      "es": "paraguas girasoles",
+      "fr": "parapluie tournesols"
+    }
+  },
+  "6905": {
+    "img": "FtrIcon/UmbrellaCrystal0",
+    "clr": "aqua",
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "ham04",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "雪花雨伞",
+      "de": "Schneeflockenschirm",
+      "it": "ombrello fiocco di neve",
+      "nl": "sneeuwvlokparaplu",
+      "ru": "зонт-снежинка",
+      "ja": "スノーフレークのかさ",
+      "ko": "눈꽃 우산",
+      "zh-tw": "雪花雨傘",
+      "en": "snowflake umbrella",
+      "es": "paraguas nevada",
+      "fr": "parapluie flocon"
+    }
+  },
+  "6906": {
+    "img": "FtrIcon/UmbrellaHydrangea0",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "绣球花雨伞",
+      "de": "Hortensienschirm",
+      "it": "ombrello ortensia",
+      "nl": "hortensiaparaplu",
+      "ru": "зонт-гортензия",
+      "ja": "アジサイのかさ",
+      "ko": "수국 우산",
+      "zh-tw": "繡球花雨傘",
+      "en": "hydrangea umbrella",
+      "es": "paraguas hortensias",
+      "fr": "parapluie hortensias"
+    }
+  },
+  "6907": {
+    "img": "FtrIcon/UmbrellaStrawberry0",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "der09",
+      "ost07"
+    ],
+    "loc": {
+      "zh-cn": "草莓雨伞",
+      "de": "Erdbeerschirm",
+      "it": "ombrello fragola",
+      "nl": "aardbeiparaplu",
+      "ru": "клубничный зонт",
+      "ja": "いちごのかさ",
+      "ko": "딸기 우산",
+      "zh-tw": "草莓雨傘",
+      "en": "strawberry umbrella",
+      "es": "paraguas fresa",
+      "fr": "parapluie fraise"
+    }
+  },
+  "6908": {
+    "img": "FtrIcon/UmbrellaKiwi0",
+    "clr": [
+      "green",
+      "brown"
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "奇异果雨伞",
+      "de": "Kiwischirm",
+      "it": "ombrello kiwi",
+      "nl": "kiwiparaplu",
+      "ru": "зонт-киви",
+      "ja": "キウイのかさ",
+      "ko": "키위 우산",
+      "zh-tw": "奇異果雨傘",
+      "en": "kiwi umbrella",
+      "es": "paraguas kiwi",
+      "fr": "parapluie kiwi"
+    }
+  },
+  "6909": {
+    "img": "FtrIcon/UmbrellaWater0",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "kal07",
+      "squ02"
+    ],
+    "loc": {
+      "zh-cn": "西瓜雨伞",
+      "de": "Wassermelonenschirm",
+      "fr-fr": "parapluie pastèque",
+      "it": "ombrello anguria",
+      "nl": "watermeloenparaplu",
+      "ru": "арбузный зонт",
+      "ja": "スイカのかさ",
+      "ko": "수박 우산",
+      "zh-tw": "西瓜雨傘",
+      "fr-us": "parapluie melon d'eau",
+      "en": "watermelon umbrella",
+      "es": "paraguas sandía"
+    }
+  },
+  "6910": {
+    "img": "FtrIcon/UmbrellaPineapple0",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "hip09",
+    "loc": {
+      "zh-cn": "凤梨雨伞",
+      "de": "Ananasschirm",
+      "it": "ombrello ananas",
+      "nl": "ananasparaplu",
+      "ru": "ананасный зонт",
+      "ja": "パイナップルのかさ",
+      "ko": "파인애플 우산",
+      "zh-tw": "鳳梨雨傘",
+      "en": "pineapple umbrella",
+      "es": "paraguas piña",
+      "fr": "parapluie ananas"
+    }
+  },
+  "6911": {
+    "img": "FtrIcon/UmbrellaGrape0",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "葡萄雨伞",
+      "de": "Traubenschirm",
+      "es-es": "paraguas uvas",
+      "it": "ombrello uva",
+      "nl": "druivenparaplu",
+      "ru": "виноградный зонт",
+      "ja": "ぶどうのかさ",
+      "ko": "포도 우산",
+      "zh-tw": "葡萄雨傘",
+      "es-us": "paraguas uva",
+      "en": "grape umbrella",
+      "fr": "parapluie raisin"
+    }
+  },
+  "6912": {
+    "img": "FtrIcon/UmbrellaOrange0",
+    "clr": [
+      "orange",
+      "yellow"
+    ],
+    "sel": 1400,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "cat04",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "橘子雨伞",
+      "de": "Orangenschirm",
+      "it": "ombrello arancia",
+      "nl": "sinaasappelparaplu",
+      "ru": "апельсиновый зонт",
+      "ja": "オレンジのかさ",
+      "ko": "오렌지 우산",
+      "zh-tw": "橘子雨傘",
+      "en": "orange umbrella",
+      "es": "paraguas naranja",
+      "fr": "parapluie orange"
+    }
+  },
+  "6913": {
+    "img": "FtrIcon/UmbrellaRain0",
+    "clr": [
+      "yellow",
+      "aqua"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "雨点雨伞",
+      "de": "Tropfenschirm",
+      "it": "ombrello gocce di pioggia",
+      "nl": "regendruppelsparaplu",
+      "ru": "зонт с каплями",
+      "ja": "レイニーなかさ",
+      "ko": "비 내리는 우산",
+      "zh-tw": "雨點雨傘",
+      "en": "raindrop umbrella",
+      "es": "paraguas gotas de lluvia",
+      "fr": "parapluie motif pluie"
+    }
+  },
+  "6914": {
+    "img": "FtrIcon/UmbrellaFlorets0",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "碎花纹雨伞",
+      "de": "Blümchenschirm",
+      "it": "ombrello fiorellini",
+      "nl": "bloemenparaplu",
+      "ru": "зонт в мелкий цветочек",
+      "ja": "こばながらのかさ",
+      "ko": "잔꽃무늬 우산",
+      "zh-tw": "碎花雨傘",
+      "en": "mini-flower-print umbrella",
+      "es": "paraguas florecitas",
+      "fr": "parapluie imprimé fleurettes"
+    }
+  },
+  "6915": {
+    "img": "FtrIcon/UmbrellaRace0",
+    "clr": [
+      "black",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "chn11",
+      "ocp02"
+    ],
+    "loc": {
+      "zh-cn": "黑色蕾丝雨伞",
+      "de": "Spitzenschirm",
+      "it": "ombrello ricami nero",
+      "nl": "zwarte kanten paraplu",
+      "ru": "черный кружевной зонт",
+      "ja": "くろいレースのかさ",
+      "ko": "검정 레이스 우산",
+      "zh-tw": "黑色蕾絲雨傘",
+      "en": "black lace umbrella",
+      "es": "paraguas de encaje",
+      "fr": "ombrelle dentelle noire"
+    }
+  },
+  "6916": {
+    "img": "FtrIcon/UmbrellaStripe0",
+    "clr": [
+      "gray",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "条纹雨伞",
+      "de": "Streifenschirm",
+      "es-es": "paraguas rayas",
+      "it": "ombrello a righe",
+      "nl": "gestreepte paraplu",
+      "ru": "зонт в полоску",
+      "ja": "ストライプのかさ",
+      "ko": "줄무늬 우산",
+      "zh-tw": "條紋雨傘",
+      "es-us": "paraguas a rayas",
+      "en": "striped umbrella",
+      "fr": "parapluie à rayures"
+    }
+  },
+  "6917": {
+    "img": "FtrIcon/UmbrellaPlaid0",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "苏格兰格纹雨伞",
+      "de": "Schottenmusterschirm",
+      "es-es": "paraguas tartán",
+      "it": "ombrello tartan",
+      "nl": "tartanparaplu",
+      "ru": "зонт в клетку",
+      "ja": "タータンチェックのかさ",
+      "ko": "타탄 체크 우산",
+      "zh-tw": "蘇格蘭格紋雨傘",
+      "es-us": "paraguas escocés",
+      "en": "tartan-check umbrella",
+      "fr": "parapluie tartan"
+    }
+  },
+  "6918": {
+    "img": "FtrIcon/UmbrellaBoundary0",
+    "clr": "white",
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "花纹透明雨伞",
+      "de": "Pünktchen-Plastikschirm",
+      "es-es": "paraguas de vinilo a topos",
+      "it": "ombrello plastica decorato",
+      "nl": "vinylparaplu met patroon",
+      "ru": "зонт из винила с узором",
+      "ja": "ガラいりビニールがさ",
+      "ko": "도트 무늬 비닐 우산",
+      "zh-tw": "花紋透明雨傘",
+      "es-us": "paraguas de vinilo a lunares",
+      "en": "patterned vinyl umbrella",
+      "fr": "parapluie vinyle à motifs"
+    }
+  },
+  "6919": {
+    "img": "FtrIcon/UmbrellaBat0",
+    "clr": "black",
+    "sel": 210,
+    "buy": 840,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "cat07",
+      "cat21",
+      "ham05",
+      "hrs02",
+      "kal08",
+      "pig04"
+    ],
+    "loc": {
+      "zh-cn": "蝙蝠雨伞",
+      "de": "Flederschirm",
+      "it": "ombrello tetro",
+      "nl": "vleermuisparaplu",
+      "ru": "чернокрылый зонт",
+      "ja": "こうもりがさ",
+      "ko": "박쥐 우산",
+      "zh-tw": "蝙蝠雨傘",
+      "en": "bat umbrella",
+      "es": "paraguas negro",
+      "fr": "parapluie noir"
+    }
+  },
+  "6923": {
+    "img": "FtrIcon/UmbrellaOutdoor0",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 162,
+    "buy": 650,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "crd05",
+    "loc": {
+      "zh-cn": "迷彩雨伞",
+      "de": "Tarnschirm",
+      "it": "ombrello mimetico",
+      "nl": "camouflageparaplu",
+      "ru": "камуфляжный зонт",
+      "ja": "めいさいのかさ",
+      "ko": "밀리터리 우산",
+      "zh-tw": "迷彩雨傘",
+      "en": "camo umbrella",
+      "es": "paraguas camuflaje",
+      "fr": "parapluie camouflage"
+    }
+  },
+  "6924": {
+    "img": "FtrIcon/UmbrellaTeruteru0",
+    "clr": "white",
+    "sel": 417,
+    "buy": 1670,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "rbt18",
+      "squ09"
+    ],
+    "loc": {
+      "zh-cn": "晴天娃娃雨伞",
+      "de": "Geisterschirm",
+      "it": "ombrello fantasma",
+      "nl": "spookparaplu",
+      "ru": "призрачный зонт",
+      "ja": "てるてるぼうずのかさ",
+      "ko": "해나와라 우산",
+      "zh-tw": "晴天娃娃雨傘",
+      "en": "ghost umbrella",
+      "es": "paraguas amuleto",
+      "fr": "parapluie bonze"
+    }
+  },
+  "6925": {
+    "img": "FtrIcon/UmbrellaFrog0",
+    "clr": "green",
+    "sel": 392,
+    "buy": 1570,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "elp11",
+      "rbt18"
+    ],
+    "loc": {
+      "zh-cn": "青蛙雨伞",
+      "de": "Froschschirm",
+      "it": "ombrello rana",
+      "nl": "kikkerparaplu",
+      "ru": "лягушачий зонт",
+      "ja": "カエルのかさ",
+      "ko": "개구리 우산",
+      "zh-tw": "青蛙雨傘",
+      "en": "frog umbrella",
+      "es": "paraguas rana",
+      "fr": "parapluie grenouille"
+    }
+  },
+  "6926": {
+    "img": "FtrIcon/UmbrellaGingham0",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "草莓嘉顿格雨伞",
+      "de": "Karoschirm",
+      "it": "ombrello caramella",
+      "nl": "roze geruite paraplu",
+      "ru": "зонт в леденцовых тонах",
+      "ja": "いちごギンガムのかさ",
+      "ko": "딸기 깅엄 우산",
+      "zh-tw": "草莓嘉頓格雨傘",
+      "en": "candy umbrella",
+      "es": "paraguas vichy",
+      "fr": "parapluie vichy fraise"
+    }
+  },
+  "7164": {
+    "img": "FtrIcon/UmbrellaSchool0",
+    "clr": "pink",
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "ost07",
+    "loc": {
+      "zh-cn": "粉红色纯色雨伞",
+      "de": "Pink-Schirm",
+      "it": "ombrello rosa",
+      "nl": "roze paraplu",
+      "ru": "розовый зонт",
+      "ja": "ピンクのむじのかさ",
+      "ko": "핑크 우산",
+      "zh-tw": "粉紅色無圖案雨傘",
+      "en": "pink umbrella",
+      "es": "paraguas rosa",
+      "fr": "parapluie rose"
+    }
+  },
+  "7165": {
+    "img": "FtrIcon/UmbrellaVinyl0",
+    "clr": "white",
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "透明雨伞",
+      "de": "Plastikschirm",
+      "it": "ombrello di plastica",
+      "nl": "vinylparaplu",
+      "ru": "зонт из винила",
+      "ja": "ビニールがさ",
+      "ko": "비닐 우산",
+      "zh-tw": "透明雨傘",
+      "en": "vinyl umbrella",
+      "es": "paraguas de vinilo",
+      "fr": "parapluie vinyle"
+    }
+  },
+  "7166": {
+    "img": "FtrIcon/UmbrellaTwocolor0",
+    "clr": [
+      "red",
+      "yellow"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "撞色雨伞",
+      "de": "Zweifarbschirm",
+      "it": "ombrello bicolore",
+      "nl": "tweekleurige paraplu",
+      "ru": "двуцветный зонт",
+      "ja": "ツートンなかさ",
+      "ko": "투톤 우산",
+      "zh-tw": "撞色雨傘",
+      "en": "two-tone umbrella",
+      "es": "paraguas bicolor",
+      "fr": "parapluie bicolore"
+    }
+  },
+  "7167": {
+    "img": "FtrIcon/UmbrellaBear0",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 392,
+    "buy": 1570,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "cbr00",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "熊熊雨伞",
+      "de": "Bärenschirm",
+      "it": "ombrello orso",
+      "nl": "beerparaplu",
+      "ru": "зонт с медвежонком",
+      "ja": "クマのかさ",
+      "ko": "곰 우산",
+      "zh-tw": "熊熊雨傘",
+      "en": "bear umbrella",
+      "es": "paraguas oso",
+      "fr": "parapluie ours"
+    }
+  },
+  "7169": {
+    "img": "FtrIcon/UmbrellaAutumn0",
+    "clr": "orange",
+    "sel": 2800,
+    "hap": 201,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "maple_leaf",
+    "hui": [
+      "der03",
+      "rbt00"
+    ],
+    "loc": {
+      "zh-cn": "枫叶雨伞",
+      "de": "Ahornschirm",
+      "it": "ombrello foglia d'acero",
+      "nl": "esdoornbladparaplu",
+      "ru": "кленовый лист-зонт",
+      "ja": "もみじのかさ",
+      "ko": "단풍잎 우산",
+      "zh-tw": "楓葉雨傘",
+      "en": "maple-leaf umbrella",
+      "es": "parasol hoja de arce",
+      "fr": "parapluie feuille d'érable"
+    }
+  },
+  "7170": {
+    "img": "FtrIcon/UmbrellaPanda0",
+    "clr": [
+      "white",
+      "black"
+    ],
+    "sel": 392,
+    "buy": 1570,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bea01",
+      "cbr00",
+      "cbr14",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "熊猫雨伞",
+      "de": "Pandaschirm",
+      "it": "ombrello panda",
+      "nl": "pandaparaplu",
+      "ru": "зонт с пандой",
+      "ja": "パンダのかさ",
+      "ko": "팬더 우산",
+      "zh-tw": "熊貓雨傘",
+      "en": "panda umbrella",
+      "es": "paraguas panda",
+      "fr": "parapluie panda"
+    }
+  },
+  "7171": {
+    "img": "FtrIcon/UmbrellaChina0",
+    "clr": [
+      "yellow",
+      "pink"
+    ],
+    "sel": 417,
+    "buy": 1670,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "cbr13",
+      "ocp04",
+      "ost06",
+      "rbt01"
+    ],
+    "loc": {
+      "zh-cn": "东方风雨伞",
+      "de": "Asienschirm",
+      "it": "parasole squisito",
+      "nl": "verfijnde parasol",
+      "ru": "изысканный зонт",
+      "ja": "オリエンタルなかさ",
+      "ko": "오리엔탈 우산",
+      "zh-tw": "東方風雨傘",
+      "en": "exquisite parasol",
+      "es": "sombrilla oriental",
+      "fr": "ombrelle magnifique"
+    }
+  },
+  "7172": {
+    "img": "FtrIcon/UmbrellaLogo0",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 162,
+    "buy": 650,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "Logo雨伞",
+      "de": "Logoschirm",
+      "it": "ombrello con logo",
+      "nl": "logoparaplu",
+      "ru": "зонт с логотипом",
+      "ja": "ロゴいりのかさ",
+      "ko": "로고 우산",
+      "zh-tw": "Logo雨傘",
+      "en": "logo umbrella",
+      "es": "paraguas logotipo",
+      "fr": "parapluie à logo"
+    }
+  },
+  "7173": {
+    "img": "FtrIcon/UmbrellaSpider0",
+    "clr": [
+      "black",
+      "white"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "ham03",
+      "mus00"
+    ],
+    "loc": {
+      "zh-cn": "蜘蛛网雨伞",
+      "de": "Spinnwebenschirm",
+      "it": "ombrello ragnatela",
+      "nl": "spinnenwebparaplu",
+      "ru": "зонт с паутиной",
+      "ja": "スパイダーなかさ",
+      "ko": "스파이더 우산",
+      "zh-tw": "蜘蛛網雨傘",
+      "en": "spider umbrella",
+      "es": "parasol telaraña",
+      "fr": "parapluie arachnide"
+    }
+  },
+  "7174": {
+    "img": "FtrIcon/UmbrellaMushroom0",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 1200,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "mushroom",
+    "hui": [
+      "crd00",
+      "der03",
+      "der09",
+      "pig03"
+    ],
+    "loc": {
+      "zh-cn": "蘑菇雨伞",
+      "de": "Pilzregenschirm",
+      "es-es": "parasol seta",
+      "fr-fr": "parapluie champi",
+      "it": "ombrello fungo",
+      "nl": "paddenstoelparaplu",
+      "ru": "зонт-гриб",
+      "ja": "キノコのかさ",
+      "ko": "버섯 우산",
+      "zh-tw": "蘑菇雨傘",
+      "es-us": "parasol hongo",
+      "fr-us": "parapluie champignon",
+      "en": "mush umbrella"
+    }
+  },
+  "7175": {
+    "img": "FtrIcon/UmbrellaFairytale0",
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "sel": 205,
+    "buy": 820,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "pig03",
+    "loc": {
+      "zh-cn": "童话风雨伞",
+      "de": "Märchenschirm",
+      "it": "ombrello favola",
+      "nl": "sprookjesparaplu",
+      "ru": "сказочный зонт",
+      "ja": "メルヘンなかさ",
+      "ko": "메르헨 우산",
+      "zh-tw": "童話風雨傘",
+      "en": "fairy-tale umbrella",
+      "es": "parasol de cuento",
+      "fr": "parapluie conte de fées"
+    }
+  },
+  "7176": {
+    "img": "FtrIcon/UmbrellaPacodarace0",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "goa07",
+      "ost07"
+    ],
+    "loc": {
+      "zh-cn": "粉红色洛丽塔雨伞",
+      "de": "Pink-Niedlich-Schirm",
+      "it": "parasole bambolina rosa",
+      "nl": "roze strikjesparasol",
+      "ru": "зонт с розов. бантиками",
+      "ja": "ピンクのロリータがさ",
+      "ko": "핑크 리본 레이스 우산",
+      "zh-tw": "粉紅色蘿莉塔雨傘",
+      "en": "pink shiny-bows parasol",
+      "es": "parasol muñequita rosa",
+      "fr": "ombrelle à rubans rose"
+    }
+  },
+  "7177": {
+    "img": "FtrIcon/UmbrellaKabuki0",
+    "clr": [
+      "purple",
+      "white"
+    ],
+    "sel": 417,
+    "buy": 1670,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "rbt01",
+    "loc": {
+      "zh-cn": "歌舞伎雨伞",
+      "de": "Kabuki-Schirm",
+      "it": "ombrello kabuki",
+      "nl": "kabukiparasol",
+      "ru": "зонт кабуки",
+      "ja": "かぶきなかさ",
+      "ko": "가부키 우산",
+      "zh-tw": "歌舞伎雨傘",
+      "en": "kabuki umbrella",
+      "es": "sombrilla kabuki",
+      "fr": "ombrelle kabuki"
+    }
+  },
+  "7178": {
+    "img": "FtrIcon/UmbrellaBangasa0",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "sel": 217,
+    "buy": 870,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "duk04",
+      "kgr05",
+      "mnk08",
+      "ocp04",
+      "rbt01",
+      "rbt18"
+    ],
+    "loc": {
+      "zh-cn": "油纸伞",
+      "de": "Papierschirmchen",
+      "es-es": "sombrilla de papel",
+      "it": "parasole cinese",
+      "nl": "papieren parasol",
+      "ru": "бумажный зонт",
+      "ja": "ばんがさ",
+      "ko": "대나무 우산",
+      "zh-tw": "油紙傘",
+      "es-us": "parasol de papel",
+      "en": "paper parasol",
+      "fr": "ombrelle papier"
+    }
+  },
+  "7179": {
+    "img": "FtrIcon/UmbrellaRainbow0",
+    "clr": "colorful",
+    "sel": 210,
+    "buy": 840,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "彩虹雨伞",
+      "de": "Regenbogenschirm",
+      "it": "ombrello arcobaleno",
+      "nl": "regenboogparaplu",
+      "ru": "радужный зонт",
+      "ja": "レインボーなかさ",
+      "ko": "무지개 우산",
+      "zh-tw": "彩虹雨傘",
+      "en": "rainbow umbrella",
+      "es": "parasol arcoíris",
+      "fr": "parapluie arc-en-ciel"
+    }
+  },
+  "7180": {
+    "img": "FtrIcon/UmbrellaTricolor0",
+    "clr": "colorful",
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "dog17",
+    "loc": {
+      "zh-cn": "三色雨伞",
+      "de": "3-Farben-Schirm",
+      "it": "ombrello spicchi",
+      "nl": "tricoloreparaplu",
+      "ru": "трехцветный зонт",
+      "ja": "トリコロールなかさ",
+      "ko": "3색 우산",
+      "zh-tw": "三色雨傘",
+      "en": "gelato umbrella",
+      "es": "paraguas tricolor",
+      "fr": "parapluie Rome"
+    }
+  },
+  "7181": {
+    "img": "FtrIcon/UmbrellaMargaret0",
+    "clr": [
+      "white",
+      "yellow"
+    ],
+    "sel": 397,
+    "buy": 1590,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bul08",
+      "ham02",
+      "pbr09"
+    ],
+    "loc": {
+      "zh-cn": "小雏菊雨伞",
+      "de": "Margeritenschirm",
+      "it": "parasole petalo",
+      "nl": "margrietparasol",
+      "ru": "зонт-ромашка",
+      "ja": "マーガレットのかさ",
+      "ko": "국화꽃 우산",
+      "zh-tw": "小雛菊雨傘",
+      "en": "petal parasol",
+      "es": "parasol margarita",
+      "fr": "ombrelle marguerite"
+    }
+  },
+  "7182": {
+    "img": "FtrIcon/UmbrellaBroken0",
+    "clr": "black",
+    "sel": 392,
+    "buy": 1570,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "mnk09",
+    "loc": {
+      "zh-cn": "坏掉的雨伞",
+      "de": "Antikschirm",
+      "it": "ombrello rotto",
+      "nl": "kapotte paraplu",
+      "ru": "сломанный зонт",
+      "ja": "こわれたかさ",
+      "ko": "부러진 우산",
+      "zh-tw": "壞掉的雨傘",
+      "en": "busted umbrella",
+      "es": "paraguas roto",
+      "fr": "parapluie cassé"
+    }
+  },
+  "7183": {
+    "img": "FtrIcon/UmbrellaPacoda0",
+    "clr": [
+      "purple",
+      "black"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "紫色典雅雨伞",
+      "de": "Violett-Klassikschirm",
+      "fr-fr": "ombrelle chic violette",
+      "it": "ombrello viola chic",
+      "nl": "paarse chique paraplu",
+      "ru": "шикарный фиолет. зонт",
+      "ja": "むらさきのシックなかさ",
+      "ko": "보라 시크 우산",
+      "zh-tw": "紫色典雅雨傘",
+      "fr-us": "ombrelle chic mauve",
+      "en": "purple chic umbrella",
+      "es": "parasol gótico morado"
+    }
+  },
+  "8767": {
+    "img": "FtrIcon/UmbrellaLadybug0",
+    "clr": [
+      "red",
+      "black"
+    ],
+    "sel": 80,
+    "hap": 501,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "flick",
+    "evt": [
+      "bug_tournament",
+      "bug_tournament_2",
+      "bug_tournament_3",
+      "bug_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "瓢虫雨伞",
+      "de": "Marienkäferschirm",
+      "es-es": "paraguas mariquita",
+      "it": "ombrello coccinella",
+      "nl": "lieveheersbeestjeparaplu",
+      "ru": "зонт «Божья коровка»",
+      "ja": "テントウムシのかさ",
+      "ko": "무당벌레 우산",
+      "zh-tw": "瓢蟲雨傘",
+      "es-us": "paraguas catarina",
+      "en": "ladybug umbrella",
+      "fr": "parapluie coccinelle"
+    }
+  },
+  "8768": {
+    "img": "FtrIcon/UmbrellaFish0",
+    "clr": [
+      "blue",
+      "aqua"
+    ],
+    "sel": 80,
+    "hap": 501,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "cj",
+    "evt": [
+      "fish_tournament",
+      "fish_tournament_2",
+      "fish_tournament_3",
+      "fish_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "鱼儿雨伞",
+      "de": "Fischschirm",
+      "it": "ombrello pesci",
+      "nl": "visparaplu",
+      "ru": "зонт с рыбкой",
+      "ja": "サカナのかさ",
+      "ko": "물고기 우산",
+      "zh-tw": "魚兒雨傘",
+      "en": "fish umbrella",
+      "es": "paraguas peces",
+      "fr": "parapluie poissons"
+    }
+  },
+  "9560": {
+    "img": "FtrIcon/UmbrellaDoc0",
+    "clr": "blue",
+    "sel": 1010,
+    "hap": 251,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "dodo",
+    "loc": {
+      "zh-cn": "DAL雨伞",
+      "de": "DAL-Schirm",
+      "it": "ombrello DAL",
+      "nl": "DAL-paraplu",
+      "ru": "зонт DAL",
+      "ja": "ＤＡＬのかさ",
+      "ko": "DAL 우산",
+      "zh-tw": "DAL雨傘",
+      "en": "DAL umbrella",
+      "es": "paraguas de DAL",
+      "fr": "parapluie Dodo Airlines"
+    }
+  },
+  "9561": {
+    "img": "FtrIcon/UmbrellaRco0",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 3500,
+    "exp": 700,
+    "exc": 0,
+    "hap": 151,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "Nook Inc.雨伞",
+      "de": "Nook-Inc.-Schirm",
+      "it": "ombrello Nook Inc.",
+      "nl": "Nook Inc.-paraplu",
+      "ru": "зонт Nook Inc.",
+      "ja": "たぬきかいはつのかさ",
+      "ko": "Nook Inc. 우산",
+      "zh-tw": "Nook Inc.雨傘",
+      "en": "Nook Inc. umbrella",
+      "es": "paraguas de Nook Inc.",
+      "fr": "parapluie Nook Inc."
+    }
+  },
+  "9945": {
+    "img": "FtrIcon/UmbrellaCherryblossom0",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 2800,
+    "hap": 201,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "cherry_blossom",
+    "hui": "ost07",
+    "loc": {
+      "zh-cn": "樱花雨伞",
+      "de": "Kirschblütenschirm",
+      "it": "ombrello fiore di ciliegio",
+      "nl": "kersenbloesemparaplu",
+      "ru": "зонт «Цветок вишни»",
+      "ja": "さくらのかさ",
+      "ko": "벚꽃 우산",
+      "zh-tw": "櫻花雨傘",
+      "en": "cherry-blossom umbrella",
+      "es": "paraguas flor de cerezo",
+      "fr": "parapluie fleur de cerisier"
+    }
+  },
+  "9946": {
+    "img": "FtrIcon/UmbrellaLace0",
+    "clr": "white",
+    "sel": 387,
+    "buy": 1550,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "cat10",
+      "elp07",
+      "ham09",
+      "hrs09",
+      "pig02",
+      "pig17",
+      "shp10"
+    ],
+    "loc": {
+      "zh-cn": "蕾丝雨伞",
+      "de": "Damenschirmchen",
+      "it": "parasole ricami",
+      "nl": "kanten parasol",
+      "ru": "кружевной зонт",
+      "ja": "レースのかさ",
+      "ko": "레이스 우산",
+      "zh-tw": "蕾絲雨傘",
+      "en": "lacy parasol",
+      "es": "parasol encaje",
+      "fr": "ombrelle en dentelle"
+    }
+  },
+  "9947": {
+    "img": "FtrIcon/UmbrellaPeach0",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 1400,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "ost07",
+    "loc": {
+      "zh-cn": "桃子雨伞",
+      "de": "Pfirsichschirm",
+      "es-es": "paraguas melocotón",
+      "it": "ombrello pesca",
+      "nl": "perzikparaplu",
+      "ru": "персиковый зонт",
+      "ja": "モモのかさ",
+      "ko": "복숭아 우산",
+      "zh-tw": "桃子雨傘",
+      "es-us": "paraguas durazno",
+      "en": "peach umbrella",
+      "fr": "parapluie pêche"
+    }
+  },
+  "9948": {
+    "img": "FtrIcon/UmbrellaApple0",
+    "clr": [
+      "yellow",
+      "red"
+    ],
+    "sel": 1400,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "gor09",
+      "gor11"
+    ],
+    "loc": {
+      "zh-cn": "苹果雨伞",
+      "de": "Apfelschirm",
+      "it": "ombrello mela",
+      "nl": "appelparaplu",
+      "ru": "яблочный зонт",
+      "ja": "リンゴのかさ",
+      "ko": "사과 우산",
+      "zh-tw": "蘋果雨傘",
+      "en": "apple umbrella",
+      "es": "paraguas manzana",
+      "fr": "parapluie pomme"
+    }
+  },
+  "9949": {
+    "img": "FtrIcon/UmbrellaCherry0",
+    "clr": "red",
+    "sel": 1400,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "樱桃雨伞",
+      "de": "Kirschschirm",
+      "it": "ombrello ciliegie",
+      "nl": "kersenparaplu",
+      "ru": "вишневый зонт",
+      "ja": "さくらんぼのかさ",
+      "ko": "체리 우산",
+      "zh-tw": "櫻桃雨傘",
+      "en": "cherry umbrella",
+      "es": "paraguas cerezas",
+      "fr": "parapluie cerises"
+    }
+  },
+  "9950": {
+    "img": "FtrIcon/UmbrellaPear0",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 1400,
+    "hap": 103,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "gor11",
+    "loc": {
+      "zh-cn": "梨子雨伞",
+      "de": "Birnenschirm",
+      "it": "ombrello pera",
+      "nl": "perenparaplu",
+      "ru": "грушевый зонт",
+      "ja": "ナシのかさ",
+      "ko": "배 우산",
+      "zh-tw": "梨子雨傘",
+      "en": "pear umbrella",
+      "es": "paraguas pera",
+      "fr": "parapluie poire"
+    }
+  },
+  "9951": {
+    "img": "FtrIcon/UmbrellaGingham1",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "嫩叶嘉顿格纹雨伞",
+      "de": "Melonenschirm",
+      "it": "ombrello melone",
+      "nl": "groengeruite paraplu",
+      "ru": "дынный зонт",
+      "ja": "わかばギンガムのかさ",
+      "ko": "새싹 깅엄 우산",
+      "zh-tw": "嫩綠嘉頓格雨傘",
+      "en": "melon umbrella",
+      "es": "paraguas melón",
+      "fr": "parapluie vichy melon"
+    }
+  },
+  "9952": {
+    "img": "FtrIcon/UmbrellaGingham2",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "rbt14",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "薄荷嘉顿格纹雨伞",
+      "de": "Minzschirm",
+      "it": "ombrello menta",
+      "nl": "groen-zwartgeruite paraplu",
+      "ru": "мятный зонт",
+      "ja": "ミントギンガムのかさ",
+      "ko": "민트 깅엄 우산",
+      "zh-tw": "薄荷綠嘉頓格雨傘",
+      "en": "mint umbrella",
+      "es": "paraguas menta",
+      "fr": "parapluie vichy menthe"
+    }
+  },
+  "9953": {
+    "img": "FtrIcon/UmbrellaGingham3",
+    "clr": [
+      "purple",
+      "pink"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "rbt15",
+    "loc": {
+      "zh-cn": "莓果嘉顿格纹雨伞",
+      "de": "Picknickschirm",
+      "it": "ombrello picnic",
+      "nl": "paarsgeruite paraplu",
+      "ru": "зонт для пикника",
+      "ja": "ベリーギンガムのかさ",
+      "ko": "베리 깅엄 우산",
+      "zh-tw": "莓果嘉頓格雨傘",
+      "en": "picnic umbrella",
+      "es": "paraguas pícnic",
+      "fr": "parapluie vichy cassis"
+    }
+  },
+  "9954": {
+    "img": "FtrIcon/UmbrellaGingham4",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "hip09",
+    "loc": {
+      "zh-cn": "柠檬嘉顿格纹雨伞",
+      "de": "Zitrusschirm",
+      "it": "ombrello limone",
+      "nl": "geelgeruite paraplu",
+      "ru": "лимонный зонт",
+      "ja": "レモンギンガムのかさ",
+      "ko": "레몬 깅엄 우산",
+      "zh-tw": "檸檬嘉頓格雨傘",
+      "en": "lemon umbrella",
+      "es": "paraguas limón",
+      "fr": "parapluie vichy citron"
+    }
+  },
+  "9955": {
+    "img": "FtrIcon/UmbrellaPolkadot1",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "hrs06",
+      "squ09"
+    ],
+    "loc": {
+      "zh-cn": "黄色点点雨伞",
+      "de": "Eigelbschirm",
+      "it": "parasole bolle giallo",
+      "nl": "gele parasol met stippen",
+      "ru": "яичный зонт",
+      "ja": "きいろみずたまのかさ",
+      "ko": "노란 물방울 우산",
+      "zh-tw": "黃色圓點雨傘",
+      "en": "eggy parasol",
+      "es": "parasol sol",
+      "fr": "parapluie à pois jaune"
+    }
+  },
+  "9956": {
+    "img": "FtrIcon/UmbrellaPolkadot2",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 187,
+    "buy": 750,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "hrs06",
+    "loc": {
+      "zh-cn": "蓝色点点雨伞",
+      "de": "Wolkenschirm",
+      "it": "parasole bolle blu",
+      "nl": "blauwe parasol met stippen",
+      "ru": "синий зонт в горох",
+      "ja": "あおいみずたまのかさ",
+      "ko": "파란 물방울 우산",
+      "zh-tw": "藍色圓點雨傘",
+      "en": "blue dot parasol",
+      "es": "parasol mar",
+      "fr": "parapluie à pois bleu"
+    }
+  },
+  "9957": {
+    "img": "FtrIcon/UmbrellaBeach0",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "kgr09",
+      "mus19",
+      "pbr06",
+      "pgn01",
+      "shp02"
+    ],
+    "loc": {
+      "zh-cn": "沙滩伞",
+      "de": "Strandschirm",
+      "it": "ombrello da mare",
+      "nl": "strandbalparaplu",
+      "ru": "пляжный зонт",
+      "ja": "ビーチなかさ",
+      "ko": "해변가 우산",
+      "zh-tw": "沙灘傘",
+      "en": "beach umbrella",
+      "es": "paraguas playa",
+      "fr": "parapluie de plage"
+    }
+  },
+  "9958": {
+    "img": "FtrIcon/UmbrellaStandard1",
+    "clr": "red",
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "红色纯色雨伞",
+      "de": "Rubinschirm",
+      "it": "ombrello rosso",
+      "nl": "rode paraplu",
+      "ru": "красный зонт",
+      "ja": "あかいむじのかさ",
+      "ko": "빨간 우산",
+      "zh-tw": "紅色無圖案雨傘",
+      "en": "red umbrella",
+      "es": "paraguas rojo",
+      "fr": "parapluie rouge"
+    }
+  },
+  "9959": {
+    "img": "FtrIcon/UmbrellaStandard2",
+    "clr": "blue",
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "蓝色纯色雨伞",
+      "de": "Aquaschirm",
+      "it": "ombrello blu",
+      "nl": "blauwe paraplu",
+      "ru": "синий зонт",
+      "ja": "あおいむじのかさ",
+      "ko": "파란 우산",
+      "zh-tw": "藍色無圖案雨傘",
+      "en": "blue umbrella",
+      "es": "paraguas azul",
+      "fr": "parapluie bleu"
+    }
+  },
+  "9960": {
+    "img": "FtrIcon/UmbrellaStandard3",
+    "clr": "green",
+    "sel": 192,
+    "buy": 770,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "rhn02",
+    "loc": {
+      "zh-cn": "绿色纯色雨伞",
+      "de": "Smaragdschirm",
+      "it": "ombrello verde",
+      "nl": "groene paraplu",
+      "ru": "зеленый зонт",
+      "ja": "みどりのむじのかさ",
+      "ko": "초록 우산",
+      "zh-tw": "綠色無圖案雨傘",
+      "en": "green umbrella",
+      "es": "paraguas verde",
+      "fr": "parapluie vert"
+    }
+  },
+  "12133": {
+    "img": "FtrIcon/UmbrellaPacodarace1",
+    "clr": [
+      "purple",
+      "white"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "紫色洛丽塔雨伞",
+      "de": "Lila-Niedlich-Schirm",
+      "es-es": "parasol muñequita lila",
+      "fr-fr": "ombrelle à rubans violette",
+      "it": "parasole bambolina viola",
+      "nl": "paarse strikjesparasol",
+      "ru": "зонт с фиолет. бантиками",
+      "ja": "パープルのロリータがさ",
+      "ko": "퍼플 리본 레이스 우산",
+      "zh-tw": "紫色蘿莉塔雨傘",
+      "es-us": "parasol muñequita morado",
+      "fr-us": "ombrelle à rubans mauve",
+      "en": "purple shiny-bows parasol"
+    }
+  },
+  "12134": {
+    "img": "FtrIcon/UmbrellaPacodarace2",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "goa07",
+    "loc": {
+      "zh-cn": "蓝色洛丽塔雨伞",
+      "de": "Blau-Niedlich-Schirm",
+      "it": "parasole bambolina blu",
+      "nl": "blauwe strikjesparasol",
+      "ru": "зонт с синими бантиками",
+      "ja": "ブルーのロリータがさ",
+      "ko": "블루 리본 레이스 우산",
+      "zh-tw": "藍色蘿莉塔雨傘",
+      "en": "blue shiny-bows parasol",
+      "es": "parasol muñequita azul",
+      "fr": "ombrelle à rubans bleue"
+    }
+  },
+  "12135": {
+    "img": "FtrIcon/UmbrellaPacodarace3",
+    "clr": "white",
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "白色洛丽塔雨伞",
+      "de": "Weiß-Niedlich-Schirm",
+      "it": "parasole bambolina bianco",
+      "nl": "witte strikjesparasol",
+      "ru": "зонт с белыми бантиками",
+      "ja": "ホワイトのロリータがさ",
+      "ko": "화이트 리본 레이스 우산",
+      "zh-tw": "白色蘿莉塔雨傘",
+      "en": "white shiny-bows parasol",
+      "es": "parasol muñequita blanco",
+      "fr": "ombrelle à rubans blanche"
+    }
+  },
+  "12136": {
+    "img": "FtrIcon/UmbrellaPacodarace4",
+    "clr": [
+      "green",
+      "black"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "绿色典雅雨伞",
+      "de": "Grün-Klassikschirm",
+      "it": "ombrello verde chic",
+      "nl": "groene chique paraplu",
+      "ru": "шикарный зеленый зонт",
+      "ja": "みどりのシックなかさ",
+      "ko": "초록 시크 우산",
+      "zh-tw": "綠色典雅雨傘",
+      "en": "green chic umbrella",
+      "es": "parasol gótico verde",
+      "fr": "ombrelle chic verte"
+    }
+  },
+  "12137": {
+    "img": "FtrIcon/UmbrellaPacodarace5",
+    "clr": "black",
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "黑色典雅雨伞",
+      "de": "Schwarz-Klassikschirm",
+      "it": "ombrello nero chic",
+      "nl": "zwarte chique paraplu",
+      "ru": "шикарный черный зонт",
+      "ja": "くろいシックなかさ",
+      "ko": "검정 시크 우산",
+      "zh-tw": "黑色典雅雨傘",
+      "en": "black chic umbrella",
+      "es": "parasol gótico negro",
+      "fr": "ombrelle chic noire"
+    }
+  },
+  "12138": {
+    "img": "FtrIcon/UmbrellaPacodarace6",
+    "clr": [
+      "red",
+      "black"
+    ],
+    "sel": 405,
+    "buy": 1620,
+    "hap": 3,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "kgr01",
+      "rbt05"
+    ],
+    "loc": {
+      "zh-cn": "红色典雅雨伞",
+      "de": "Rot-Klassikschirm",
+      "it": "ombrello rosso chic",
+      "nl": "rode chique paraplu",
+      "ru": "шикарный красный зонт",
+      "ja": "あかいシックなかさ",
+      "ko": "빨간 시크 우산",
+      "zh-tw": "紅色典雅雨傘",
+      "en": "red chic umbrella",
+      "es": "parasol gótico rojo",
+      "fr": "ombrelle chic rouge"
+    }
+  },
+  "14464": {
+    "img": "FtrIcon/UmbrellaTakumi0",
+    "clr": "red",
+    "sel": 500,
+    "exp": 1800,
+    "exc": 2,
+    "hap": 151,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "巧美生活雨伞",
+      "de": "FHA-Schirm",
+      "fr-fr": "ombrelle Les Villas de Lou",
+      "it": "ombrello Casimira vacanze",
+      "nl": "resortplanbureauparaplu",
+      "ru": "зонт курортного бюро",
+      "ja": "タクミライフのかさ",
+      "ko": "파라다이스 플래닝 우산",
+      "zh-tw": "巧美生活雨傘",
+      "fr-us": "ombrelle PSM",
+      "en": "Paradise Planning umbrella",
+      "es": "parasol Archipiélago"
+    }
+  }
+}

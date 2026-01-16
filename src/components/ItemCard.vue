@@ -144,7 +144,7 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">活动</span>
-      <span class="detail-value">{{ joinArray(itemModel.activityNames) }}</span>
+      <span class="detail-value">{{ joinArray(itemModel.activityGroupNames) }}</span>
     </div>
     <div class="detail-row source-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

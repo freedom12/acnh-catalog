@@ -1,905 +1,926 @@
 [
   {
-    "id": 6,
-    "name": "Birthday",
-    "rawName": "Birthday",
-    "ver": 1,
-    "type": 1
+    "id": "spring",
+    "order": 98,
+    "name": "春季",
+    "type": 1,
+    "group": "spring"
   },
   {
-    "id": 7,
-    "name": "Bug-Off",
-    "rawName": "Bug-Off",
-    "ver": 1,
-    "type": 1
+    "id": "summer",
+    "order": 99,
+    "name": "夏季",
+    "type": 1,
+    "group": "summer"
   },
   {
-    "id": 16,
-    "name": "Countdown",
-    "rawName": "Countdown",
-    "ver": 1,
-    "type": 1
+    "id": "fall",
+    "order": 100,
+    "name": "秋季",
+    "type": 1,
+    "group": "fall"
   },
   {
-    "id": 29,
-    "name": "Fishing Tourney",
-    "rawName": "Fishing Tourney",
-    "ver": 1,
-    "type": 1
+    "id": "winter",
+    "order": 101,
+    "name": "冬季",
+    "type": 1,
+    "group": "winter"
   },
   {
-    "id": 120,
-    "name": "acorns and pine cones",
-    "rawName": "acorns and pine cones",
-    "ver": 1,
-    "type": 2
+    "id": "young_spring_bamboo",
+    "order": 102,
+    "name": "春笋",
+    "type": 2,
+    "group": "young_spring_bamboo"
   },
   {
-    "id": 121,
-    "name": "cherry-blossom petals",
-    "rawName": "cherry-blossom petals",
-    "ver": 1,
-    "type": 2
+    "id": "cherry_blossom",
+    "order": 103,
+    "name": "樱花花瓣",
+    "type": 2,
+    "group": "cherry_blossom"
   },
   {
-    "id": 122,
-    "name": "maple leaves",
-    "rawName": "maple leaves",
-    "ver": 1,
-    "type": 2
+    "id": "summer_shell",
+    "order": 104,
+    "name": "夏天贝壳",
+    "type": 2,
+    "group": "summer_shell"
   },
   {
-    "id": 123,
-    "name": "mushrooms",
-    "rawName": "mushrooms",
-    "ver": 1,
-    "type": 2
+    "id": "acorn_pinecone",
+    "order": 105,
+    "name": "松果和橡栗",
+    "type": 2,
+    "group": "acorn_pinecone"
   },
   {
-    "id": 124,
-    "name": "ornaments",
-    "rawName": "ornaments",
-    "ver": 1,
-    "type": 2
+    "id": "mushroom",
+    "order": 106,
+    "name": "蘑菇",
+    "type": 2,
+    "group": "mushroom"
   },
   {
-    "id": 125,
-    "name": "snowflakes",
-    "rawName": "snowflakes",
-    "ver": 1,
-    "type": 2
+    "id": "maple_leaf",
+    "order": 107,
+    "name": "枫叶",
+    "type": 2,
+    "group": "maple_leaf"
   },
   {
-    "id": 126,
-    "name": "summer shells",
-    "rawName": "summer shells",
-    "ver": 1,
-    "type": 2
+    "id": "snowflake",
+    "order": 108,
+    "name": "雪花",
+    "type": 2,
+    "group": "snowflake"
   },
   {
-    "id": 127,
-    "name": "young spring bamboo",
-    "rawName": "young spring bamboo",
-    "ver": 1,
-    "type": 2
+    "id": "ornament",
+    "order": 109,
+    "name": "装饰物",
+    "type": 2,
+    "group": "ornament"
   },
   {
-    "id": 1,
-    "name": "April Fools' Day",
-    "rawName": "April Fools' Day",
-    "ver": 10,
-    "type": 3
+    "id": "camellia",
+    "order": 122,
+    "name": "山茶花",
+    "type": 3,
+    "group": "camellia"
   },
   {
-    "id": 4,
-    "name": "Big Game Celebration",
-    "rawName": "Big Game Celebration (1)",
-    "ver": 8,
-    "type": 3
+    "id": "azalea",
+    "order": 123,
+    "name": "杜鹃花",
+    "type": 3,
+    "group": "azalea"
   },
   {
-    "id": 5,
-    "name": "Big Game Celebration",
-    "rawName": "Big Game Celebration (2)",
-    "ver": 8,
-    "type": 3
+    "id": "hydrangea",
+    "order": 124,
+    "name": "绣球花",
+    "type": 3,
+    "group": "hydrangea"
   },
   {
-    "id": 12,
-    "name": "Carnival of Venice",
-    "rawName": "Carnival of Venice",
-    "ver": 13,
-    "type": 3
+    "id": "plumeria",
+    "order": 125,
+    "name": "鸡蛋花",
+    "type": 3,
+    "group": "plumeria"
   },
   {
-    "id": 13,
-    "name": "Cheese Rolling",
-    "rawName": "Cheese Rolling",
-    "ver": 11,
-    "type": 3
+    "id": "hibiscus",
+    "order": 126,
+    "name": "扶桑花",
+    "type": 3,
+    "group": "hibiscus"
   },
   {
-    "id": 14,
-    "name": "Children's Day",
-    "rawName": "Children's Day",
-    "ver": 11,
-    "type": 3
+    "id": "tea_olive",
+    "order": 127,
+    "name": "桂花",
+    "type": 3,
+    "group": "tea_olive"
   },
   {
-    "id": 15,
-    "name": "Chuseok",
-    "rawName": "Chuseok",
-    "ver": 12,
-    "type": 3
+    "id": "holly",
+    "order": 128,
+    "name": "柊树",
+    "type": 3,
+    "group": "holly"
   },
   {
-    "id": 17,
-    "name": "Cowboy Festival",
-    "rawName": "Cowboy Festival",
-    "ver": 5,
-    "type": 3
+    "id": "aries",
+    "order": 110,
+    "name": "白羊座",
+    "type": 4,
+    "group": "aries"
   },
   {
-    "id": 18,
-    "name": "Cowherd & Weaver Girl Day",
-    "rawName": "Cowherd & Weaver Girl Day",
-    "ver": 5,
-    "type": 3
+    "id": "taurus",
+    "order": 111,
+    "name": "金牛座",
+    "type": 4,
+    "group": "taurus"
   },
   {
-    "id": 19,
-    "name": "Dano Festival",
-    "rawName": "Dano Festival",
-    "ver": 11,
-    "type": 3
+    "id": "gemini",
+    "order": 112,
+    "name": "双子座",
+    "type": 4,
+    "group": "gemini"
   },
   {
-    "id": 20,
-    "name": "Day of the Dead",
-    "rawName": "Day of the Dead",
-    "ver": 12,
-    "type": 3
+    "id": "cancer",
+    "order": 113,
+    "name": "巨蟹座",
+    "type": 4,
+    "group": "cancer"
   },
   {
-    "id": 21,
-    "name": "Dragon Boat Festival",
-    "rawName": "Dragon Boat Festival",
-    "ver": 11,
-    "type": 3
+    "id": "leo",
+    "order": 114,
+    "name": "狮子座",
+    "type": 4,
+    "group": "leo"
   },
   {
-    "id": 23,
-    "name": "Father's Day",
-    "rawName": "Father's Day",
-    "ver": 3,
-    "type": 3
+    "id": "virgo",
+    "order": 115,
+    "name": "处女座",
+    "type": 4,
+    "group": "virgo"
   },
   {
-    "id": 24,
-    "name": "Father's Day",
-    "rawName": "Father's Day (2)",
-    "ver": 11,
-    "type": 3
+    "id": "libra",
+    "order": 116,
+    "name": "天秤座",
+    "type": 4,
+    "group": "libra"
   },
   {
-    "id": 31,
-    "name": "Grape Harvest Festival",
-    "rawName": "Grape Harvest Festival",
-    "ver": 5,
-    "type": 3
+    "id": "scorpio",
+    "order": 117,
+    "name": "天蝎座",
+    "type": 4,
+    "group": "scorpio"
   },
   {
-    "id": 32,
-    "name": "Groundhog Day",
-    "rawName": "Groundhog Day",
-    "ver": 8,
-    "type": 3
+    "id": "sagittarius",
+    "order": 118,
+    "name": "射手座",
+    "type": 4,
+    "group": "sagittarius"
   },
   {
-    "id": 35,
-    "name": "Hinamatsuri",
-    "rawName": "Hinamatsuri",
-    "ver": 9,
-    "type": 3
+    "id": "capricorn",
+    "order": 119,
+    "name": "摩羯座",
+    "type": 4,
+    "group": "capricorn"
   },
   {
-    "id": 36,
-    "name": "International Children's Day",
-    "rawName": "International Children's Day",
-    "ver": 3,
-    "type": 3
+    "id": "aquarius",
+    "order": 120,
+    "name": "水瓶座",
+    "type": 4,
+    "group": "aquarius"
   },
   {
-    "id": 38,
-    "name": "Lantern Festival",
-    "rawName": "Lantern Festival",
-    "ver": 12,
-    "type": 3
+    "id": "pisces",
+    "order": 121,
+    "name": "双鱼座",
+    "type": 4,
+    "group": "pisces"
   },
   {
-    "id": 39,
-    "name": "Le 14 juillet",
-    "rawName": "Le 14 juillet",
-    "ver": 11,
-    "type": 3
+    "id": "fish_tournament",
+    "order": 1,
+    "name": "钓鱼大赛",
+    "type": 5,
+    "group": "fish_tournament"
   },
   {
-    "id": 42,
-    "name": "Lunar New Year",
-    "rawName": "Lunar New Year",
-    "ver": 8,
-    "type": 3
+    "id": "fish_tournament_2",
+    "order": 2,
+    "name": "钓鱼大赛",
+    "type": 5,
+    "group": "fish_tournament"
   },
   {
-    "id": 78,
-    "name": "Lunar New Year",
-    "rawName": "Seollal",
-    "ver": 8,
-    "type": 3
+    "id": "fish_tournament_3",
+    "order": 3,
+    "name": "钓鱼大赛",
+    "type": 5,
+    "group": "fish_tournament"
   },
   {
-    "id": 43,
-    "name": "Marine Day",
-    "rawName": "Marine Day",
-    "ver": 11,
-    "type": 3
+    "id": "fish_tournament_4",
+    "order": 4,
+    "name": "钓鱼大赛",
+    "type": 5,
+    "group": "fish_tournament"
   },
   {
-    "id": 45,
-    "name": "Moon-Viewing Day",
-    "rawName": "Moon-Viewing Day",
-    "ver": 5,
-    "type": 3
+    "id": "bug_tournament",
+    "order": 5,
+    "name": "捕虫大赛",
+    "type": 5,
+    "group": "bug_tournament"
   },
   {
-    "id": 46,
-    "name": "Moon-Viewing Day",
-    "rawName": "Moon-Viewing Day (2)",
-    "ver": 12,
-    "type": 3
+    "id": "bug_tournament_2",
+    "order": 6,
+    "name": "捕虫大赛",
+    "type": 5,
+    "group": "bug_tournament"
   },
   {
-    "id": 47,
-    "name": "Moon-Viewing Day",
-    "rawName": "Moon-Viewing Day (3)",
-    "ver": 12,
-    "type": 3
+    "id": "bug_tournament_3",
+    "order": 7,
+    "name": "捕虫大赛",
+    "type": 5,
+    "group": "bug_tournament"
   },
   {
-    "id": 48,
-    "name": "Mother's Day",
-    "rawName": "Mother's Day",
-    "ver": 3,
-    "type": 3
+    "id": "bug_tournament_4",
+    "order": 8,
+    "name": "捕虫大赛",
+    "type": 5,
+    "group": "bug_tournament"
   },
   {
-    "id": 49,
-    "name": "Nanakusa Gayu",
-    "rawName": "Nanakusa Gayu",
-    "ver": 13,
-    "type": 3
+    "id": "halloween",
+    "order": 9,
+    "name": "万圣节",
+    "type": 5,
+    "group": "halloween"
   },
   {
-    "id": 51,
-    "name": "Nature Day",
-    "rawName": "Nature Day (Nook Shopping)",
-    "ver": 10,
-    "type": 3
+    "id": "halloween_ready",
+    "order": 10,
+    "name": "万圣节（准备）",
+    "type": 5,
+    "group": "halloween_ready"
   },
   {
-    "id": 52,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day",
-    "ver": 13,
-    "type": 3
+    "id": "toy_day",
+    "order": 11,
+    "name": "平安夜",
+    "type": 5,
+    "group": "toy_day"
   },
   {
-    "id": 53,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Korea)",
-    "ver": 7,
-    "type": 3
+    "id": "toy_day_after",
+    "order": 12,
+    "name": "圣诞节",
+    "type": 5,
+    "group": "toy_day_after"
   },
   {
-    "id": 54,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (World)",
-    "ver": 7,
-    "type": 3
+    "id": "turkey_day",
+    "order": 13,
+    "name": "感恩节",
+    "type": 5,
+    "group": "turkey_day"
   },
   {
-    "id": 55,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Dog)",
-    "ver": 14,
-    "type": 3
+    "id": "turkey_day_shopping",
+    "order": 14,
+    "name": "感恩节（购物日）",
+    "type": 5,
+    "group": "turkey_day_shopping"
   },
   {
-    "id": 56,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Dragon)",
-    "ver": 14,
-    "type": 3
+    "id": "countdown",
+    "order": 15,
+    "name": "倒数",
+    "type": 5,
+    "group": "countdown"
   },
   {
-    "id": 57,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Horse)",
-    "ver": 14,
-    "type": 3
+    "id": "fireworks",
+    "order": 16,
+    "name": "烟花大会",
+    "type": 5,
+    "group": "fireworks"
   },
   {
-    "id": 58,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Monkey)",
-    "ver": 14,
-    "type": 3
+    "id": "festivale",
+    "order": 17,
+    "name": "狂欢节",
+    "type": 5,
+    "group": "festivale"
   },
   {
-    "id": 59,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Ox)",
-    "ver": 7,
-    "type": 3
+    "id": "festivale_ready",
+    "order": 18,
+    "name": "狂欢节（准备）",
+    "type": 5,
+    "group": "festivale_ready"
   },
   {
-    "id": 60,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Pig)",
-    "ver": 14,
-    "type": 3
+    "id": "bunny_day",
+    "order": 19,
+    "name": "复活节",
+    "type": 5,
+    "group": "bunny_day"
   },
   {
-    "id": 61,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Rabbit)",
-    "ver": 14,
-    "type": 3
+    "id": "bunny_day_ready",
+    "order": 20,
+    "name": "复活节（准备）",
+    "type": 5,
+    "group": "bunny_day_ready"
   },
   {
-    "id": 62,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Rat)",
-    "ver": 14,
-    "type": 3
+    "id": "birthday",
+    "order": 23,
+    "name": "生日",
+    "type": 5,
+    "group": "birthday"
   },
   {
-    "id": 63,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Rooster)",
-    "ver": 14,
-    "type": 3
+    "id": "wedding_season",
+    "order": 25,
+    "name": "结婚季节",
+    "type": 5,
+    "group": "wedding_season"
   },
   {
-    "id": 64,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Sheep)",
-    "ver": 14,
-    "type": 3
+    "id": "may_day",
+    "order": 26,
+    "name": "劳动节",
+    "type": 5,
+    "group": "may_day"
   },
   {
-    "id": 65,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Snake)",
-    "ver": 14,
-    "type": 3
+    "id": "museum_day",
+    "order": 27,
+    "name": "国际博物馆日",
+    "type": 5,
+    "group": "museum_day"
   },
   {
-    "id": 66,
-    "name": "New Year's Day",
-    "rawName": "New Year's Day (Year of the Tiger)",
-    "ver": 13,
-    "type": 3
+    "id": "fireworks_2",
+    "order": 38,
+    "name": "烟花大会",
+    "type": 5,
+    "group": "fireworks"
   },
   {
-    "id": 84,
-    "name": "New Year's Day",
-    "rawName": "Shōgatsu (1)",
-    "ver": 7,
-    "type": 3
+    "id": "fireworks_3",
+    "order": 39,
+    "name": "烟花大会",
+    "type": 5,
+    "group": "fireworks"
   },
   {
-    "id": 85,
-    "name": "New Year's Day",
-    "rawName": "Shōgatsu (2)",
-    "ver": 7,
-    "type": 3
+    "id": "fireworks_4",
+    "order": 40,
+    "name": "烟花大会",
+    "type": 5,
+    "group": "fireworks"
   },
   {
-    "id": 86,
-    "name": "New Year's Day",
-    "rawName": "Shōgatsu (3)",
-    "ver": 7,
-    "type": 3
+    "id": "fireworks_5",
+    "order": 41,
+    "name": "烟花大会",
+    "type": 5,
+    "group": "fireworks"
   },
   {
-    "id": 67,
+    "id": "toy_day_ready",
+    "order": 43,
+    "name": "平安夜（准备期间1）",
+    "type": 5,
+    "group": "toy_day_ready"
+  },
+  {
+    "id": "toy_day_ready_2",
+    "order": 44,
+    "name": "平安夜（准备期间2）",
+    "type": 5,
+    "group": "toy_day_ready_2"
+  },
+  {
+    "id": "super_mario",
+    "order": 58,
+    "name": "超级马里奥兄弟",
+    "type": 5,
+    "group": "super_mario"
+  },
+  {
+    "id": "nook_friday",
+    "order": 75,
+    "name": "黑五购物节",
+    "type": 5,
+    "group": "nook_friday"
+  },
+  {
+    "id": "spring_shopping",
+    "order": 129,
+    "name": "春季购物",
+    "type": 6,
+    "group": "spring_shopping"
+  },
+  {
+    "id": "summer_shopping",
+    "order": 130,
+    "name": "夏季购物",
+    "type": 6,
+    "group": "summer_shopping"
+  },
+  {
+    "id": "fall_shopping",
+    "order": 131,
+    "name": "秋季购物",
+    "type": 6,
+    "group": "fall_shopping"
+  },
+  {
+    "id": "winter_shopping",
+    "order": 132,
+    "name": "冬季购物",
+    "type": 6,
+    "group": "winter_shopping"
+  },
+  {
+    "id": "april_fools",
+    "order": 21,
+    "name": "愚人节",
+    "type": 7,
+    "group": "april_fools"
+  },
+  {
+    "id": "prom",
+    "order": 22,
+    "name": "毕业舞会",
+    "type": 7,
+    "group": "prom"
+  },
+  {
+    "id": "setsubun",
+    "order": 24,
+    "name": "节分",
+    "type": 7,
+    "group": "setsubun"
+  },
+  {
+    "id": "mothers_day",
+    "order": 28,
+    "name": "母亲节",
+    "type": 7,
+    "group": "mothers_day"
+  },
+  {
+    "id": "childrens_day",
+    "order": 29,
+    "name": "国际儿童节",
+    "type": 7,
+    "group": "childrens_day"
+  },
+  {
+    "id": "fathers_day",
+    "order": 30,
+    "name": "父亲节",
+    "type": 7,
+    "group": "fathers_day"
+  },
+  {
+    "id": "summer_solstice",
+    "order": 31,
+    "name": "夏至",
+    "type": 7,
+    "group": "summer_solstice"
+  },
+  {
+    "id": "tanabata",
+    "order": 32,
+    "name": "日本七夕",
+    "type": 7,
+    "group": "tanabata"
+  },
+  {
+    "id": "cowboy_festival",
+    "order": 33,
+    "name": "牛仔节",
+    "type": 7,
+    "group": "cowboy_festival"
+  },
+  {
+    "id": "grape_harvest_festival",
+    "order": 34,
+    "name": "葡萄丰收节",
+    "type": 7,
+    "group": "grape_harvest_festival"
+  },
+  {
+    "id": "moon_viewing_day",
+    "order": 35,
+    "name": "中秋节",
+    "type": 7,
+    "group": "moon_viewing_day"
+  },
+  {
+    "id": "shogatsu",
+    "order": 36,
+    "name": "新年",
+    "type": 7,
+    "group": "shogatsu"
+  },
+  {
+    "id": "winter_solstice",
+    "order": 37,
+    "name": "冬至",
+    "type": 7,
+    "group": "winter_solstice"
+  },
+  {
+    "id": "cowboy_weaver_girl",
+    "order": 42,
+    "name": "七夕",
+    "type": 7,
+    "group": "cowboy_weaver_girl"
+  },
+  {
+    "id": "oomisoka",
+    "order": 45,
+    "name": "跨年夜",
+    "type": 7,
+    "group": "oomisoka"
+  },
+  {
+    "id": "silvester",
+    "order": 46,
     "name": "New Year's Eve",
-    "rawName": "New Year's Eve",
-    "ver": 7,
-    "type": 3
+    "type": 7,
+    "group": "silvester"
   },
   {
-    "id": 68,
+    "id": "nochevieja",
+    "order": 47,
     "name": "New Year's Eve",
-    "rawName": "New Year's Eve (Russia)",
-    "ver": 7,
-    "type": 3
+    "type": 7,
+    "group": "nochevieja"
   },
   {
-    "id": 69,
+    "id": "new_years_eve",
+    "order": 48,
     "name": "New Year's Eve",
-    "rawName": "Nochevieja",
-    "ver": 7,
-    "type": 3
+    "type": 7,
+    "group": "new_years_eve"
   },
   {
-    "id": 88,
+    "id": "new_years_day_ru",
+    "order": 49,
     "name": "New Year's Eve",
-    "rawName": "Silvester",
-    "ver": 7,
-    "type": 3
+    "type": 7,
+    "group": "new_years_day_ru"
   },
   {
-    "id": 128,
-    "name": "New Year's Eve",
-    "rawName": "Ōmisoka",
-    "ver": 7,
-    "type": 3
+    "id": "new_years_day",
+    "order": 50,
+    "name": "New Year",
+    "type": 7,
+    "group": "new_years_day"
   },
   {
-    "id": 71,
-    "name": "Obon",
-    "rawName": "Obon",
-    "ver": 12,
-    "type": 3
+    "id": "new_years_day_kr",
+    "order": 51,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_kr"
   },
   {
-    "id": 73,
-    "name": "Prom",
-    "rawName": "Prom (1)",
-    "ver": 10,
-    "type": 3
+    "id": "new_years_day_ox",
+    "order": 52,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 74,
-    "name": "Prom",
-    "rawName": "Prom (2)",
-    "ver": 10,
-    "type": 3
+    "id": "seollal",
+    "order": 53,
+    "name": "韩国新年",
+    "type": 7,
+    "group": "seollal"
   },
   {
-    "id": 79,
-    "name": "Setsubun",
-    "rawName": "Setsubun",
-    "ver": 8,
-    "type": 3
+    "id": "lunar_new_year",
+    "order": 54,
+    "name": "春节",
+    "type": 7,
+    "group": "lunar_new_year"
   },
   {
-    "id": 81,
-    "name": "Shamrock Day",
-    "rawName": "Shamrock Day",
-    "ver": 9,
-    "type": 3
+    "id": "valentines_day",
+    "order": 55,
+    "name": "情人节",
+    "type": 7,
+    "group": "valentines_day"
   },
   {
-    "id": 83,
-    "name": "Shichi-Go-San",
-    "rawName": "Shichi-Go-San",
-    "ver": 12,
-    "type": 3
+    "id": "big_game",
+    "order": 56,
+    "name": "大比赛",
+    "type": 7,
+    "group": "big_game"
   },
   {
-    "id": 87,
-    "name": "Shōgatsu",
-    "rawName": "Shōgatsu (4)",
-    "ver": 13,
-    "type": 3
+    "id": "groundhog_day",
+    "order": 57,
+    "name": "土拨鼠日",
+    "type": 7,
+    "group": "groundhog_day"
   },
   {
-    "id": 89,
-    "name": "Singmogil",
-    "rawName": "Singmogil",
-    "ver": 10,
-    "type": 3
+    "id": "shamrock_day",
+    "order": 59,
+    "name": "三叶草日",
+    "type": 7,
+    "group": "shamrock_day"
   },
   {
-    "id": 91,
-    "name": "Summer Solstice",
-    "rawName": "Summer Solstice (northern hemisphere)",
-    "ver": 3,
-    "type": 3
+    "id": "hinamatsuri",
+    "order": 60,
+    "name": "女儿节",
+    "type": 7,
+    "group": "hinamatsuri"
   },
   {
-    "id": 92,
-    "name": "Summer Solstice",
-    "rawName": "Summer Solstice (northern hemisphere) (2)",
-    "ver": 13,
-    "type": 3
+    "id": "pi_day",
+    "order": 61,
+    "name": "圆周率日",
+    "type": 7,
+    "group": "pi_day"
   },
   {
-    "id": 93,
-    "name": "Summer Solstice",
-    "rawName": "Summer Solstice (southern hemisphere)",
-    "ver": 7,
-    "type": 3
+    "id": "singmogil",
+    "order": 62,
+    "name": "植木日",
+    "type": 7,
+    "group": "singmogil"
   },
   {
-    "id": 94,
-    "name": "Summer Solstice",
-    "rawName": "Summer Solstice (southern hemisphere) (2)",
-    "ver": 13,
-    "type": 3
+    "id": "nature_day_shopping",
+    "order": 63,
+    "name": "地球日",
+    "type": 7,
+    "group": "nature_day_shopping"
   },
   {
-    "id": 96,
-    "name": "Super Mario Bros.",
-    "rawName": "Super Mario Bros.",
-    "ver": 9,
-    "type": 3
+    "id": "childrens_day_2",
+    "order": 64,
+    "name": "日本儿童节",
+    "type": 7,
+    "group": "childrens_day_2"
   },
   {
-    "id": 97,
-    "name": "Tanabata",
-    "rawName": "Tanabata",
-    "ver": 4,
-    "type": 3
+    "id": "cheese_festival",
+    "order": 65,
+    "name": "滚奶酪节",
+    "type": 7,
+    "group": "cheese_festival"
   },
   {
-    "id": 99,
-    "name": "Tomato Festival",
-    "rawName": "Tomato Festival",
-    "ver": 13,
-    "type": 3
+    "id": "dano_festival",
+    "order": 66,
+    "name": "端午节",
+    "type": 7,
+    "group": "dano_festival"
   },
   {
-    "id": 107,
-    "name": "Valentine's Day",
-    "rawName": "Valentine's Day (Nook Shopping)",
-    "ver": 8,
-    "type": 3
+    "id": "le_14_juillet",
+    "order": 67,
+    "name": "巴士底日",
+    "type": 7,
+    "group": "le_14_juillet"
   },
   {
-    "id": 111,
-    "name": "Wedding Season",
-    "rawName": "Wedding Season (Nook Shopping 1)",
-    "ver": 11,
-    "type": 3
+    "id": "obon",
+    "order": 68,
+    "name": "盂兰盆节",
+    "type": 7,
+    "group": "obon"
   },
   {
-    "id": 112,
-    "name": "Wedding Season",
-    "rawName": "Wedding Season (Nook Shopping 2)",
-    "ver": 11,
-    "type": 3
+    "id": "chuseok",
+    "order": 69,
+    "name": "秋夕",
+    "type": 7,
+    "group": "chuseok"
   },
   {
-    "id": 113,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (northern hemisphere)",
-    "ver": 7,
-    "type": 3
+    "id": "moon_viewing_day_2",
+    "order": 70,
+    "name": "中秋节",
+    "type": 7,
+    "group": "moon_viewing_day_2"
   },
   {
-    "id": 114,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (northern hemisphere) (2)",
-    "ver": 13,
-    "type": 3
+    "id": "moon_viewing_day_3",
+    "order": 71,
+    "name": "中秋节",
+    "type": 7,
+    "group": "moon_viewing_day_3"
   },
   {
-    "id": 115,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (northern hemisphere) (3)",
-    "ver": 13,
-    "type": 3
+    "id": "dragon_boat_festival",
+    "order": 72,
+    "name": "端午节",
+    "type": 7,
+    "group": "dragon_boat_festival"
   },
   {
-    "id": 116,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (southern hemisphere)",
-    "ver": 3,
-    "type": 3
+    "id": "wedding_season_2",
+    "order": 73,
+    "name": "六月新娘",
+    "type": 7,
+    "group": "wedding_season_2"
   },
   {
-    "id": 117,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (southern hemisphere) (2)",
-    "ver": 13,
-    "type": 3
+    "id": "marine_day",
+    "order": 74,
+    "name": "海之日",
+    "type": 7,
+    "group": "marine_day"
   },
   {
-    "id": 118,
-    "name": "Winter Solstice",
-    "rawName": "Winter Solstice (southern hemisphere) (3)",
-    "ver": 13,
-    "type": 3
+    "id": "day_of_the_dead",
+    "order": 76,
+    "name": "亡灵节",
+    "type": 7,
+    "group": "day_of_the_dead"
   },
   {
-    "id": 129,
-    "name": "π Day",
-    "rawName": "π Day",
-    "ver": 9,
-    "type": 3
+    "id": "lantern_festival",
+    "order": 77,
+    "name": "圣马丁节",
+    "type": 7,
+    "group": "lantern_festival"
   },
   {
-    "id": 22,
-    "name": "Fall shopping",
-    "rawName": "Fall shopping",
-    "ver": 1,
-    "type": 4
+    "id": "shichi_go_san",
+    "order": 78,
+    "name": "七五三节",
+    "type": 7,
+    "group": "shichi_go_san"
   },
   {
-    "id": 27,
-    "name": "Festive shopping",
-    "rawName": "Festive shopping",
-    "ver": 1,
-    "type": 4
+    "id": "nanakusa_gayu",
+    "order": 79,
+    "name": "七草粥",
+    "type": 7,
+    "group": "nanakusa_gayu"
   },
   {
-    "id": 75,
-    "name": "Prom",
-    "rawName": "Prom (Able Sisters)",
-    "ver": 10,
-    "type": 4
+    "id": "carnival_of_venice",
+    "order": 80,
+    "name": "威尼斯狂欢节",
+    "type": 7,
+    "group": "carnival_of_venice"
   },
   {
-    "id": 80,
-    "name": "Setsubun",
-    "rawName": "Setsubun (Able Sisters)",
-    "ver": 8,
-    "type": 4
+    "id": "tomatina",
+    "order": 81,
+    "name": "西红柿节",
+    "type": 7,
+    "group": "tomatina"
   },
   {
-    "id": 82,
-    "name": "Shamrock Day",
-    "rawName": "Shamrock Day (Able Sisters)",
-    "ver": 9,
-    "type": 4
+    "id": "new_years_day_2",
+    "order": 82,
+    "name": "New Year",
+    "type": 7,
+    "group": "new_years_day"
   },
   {
-    "id": 90,
-    "name": "Spring shopping",
-    "rawName": "Spring shopping",
-    "ver": 1,
-    "type": 4
+    "id": "winter_solstice_tw",
+    "order": 83,
+    "name": "冬至",
+    "type": 7,
+    "group": "winter_solstice_tw"
   },
   {
-    "id": 95,
-    "name": "Summer shopping",
-    "rawName": "Summer shopping",
-    "ver": 1,
-    "type": 4
+    "id": "winter_solstice_jp",
+    "order": 84,
+    "name": "冬至",
+    "type": 7,
+    "group": "winter_solstice_jp"
   },
   {
-    "id": 110,
-    "name": "Wedding Season",
-    "rawName": "Wedding Season (Able Sisters)",
-    "ver": 11,
-    "type": 4
+    "id": "summer_solstice_eu",
+    "order": 85,
+    "name": "夏至",
+    "type": 7,
+    "group": "summer_solstice_eu"
   },
   {
-    "id": 119,
-    "name": "Winter shopping",
-    "rawName": "Winter shopping",
-    "ver": 1,
-    "type": 4
+    "id": "new_years_day_tiger",
+    "order": 86,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 8,
-    "name": "Bunny Day",
-    "rawName": "Bunny Day",
-    "ver": 2,
-    "type": 5
+    "id": "new_years_day_rabbit",
+    "order": 87,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 9,
-    "name": "Bunny Day",
-    "rawName": "Bunny Day (ready days)",
-    "ver": 2,
-    "type": 5
+    "id": "new_years_day_dragon",
+    "order": 88,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 25,
-    "name": "Festivale",
-    "rawName": "Festivale",
-    "ver": 8,
-    "type": 5
+    "id": "new_years_day_snake",
+    "order": 89,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 26,
-    "name": "Festivale",
-    "rawName": "Festivale (ready days)",
-    "ver": 8,
-    "type": 5
+    "id": "new_years_day_horse",
+    "order": 90,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 28,
-    "name": "Fireworks Show",
-    "rawName": "Fireworks Show",
-    "ver": 5,
-    "type": 5
+    "id": "new_years_day_sheep",
+    "order": 91,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 33,
-    "name": "Halloween",
-    "rawName": "Halloween",
-    "ver": 6,
-    "type": 5
+    "id": "new_years_day_monkey",
+    "order": 92,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 34,
-    "name": "Halloween",
-    "rawName": "Halloween (ready days)",
-    "ver": 6,
-    "type": 5
+    "id": "new_years_day_rooster",
+    "order": 93,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 37,
-    "name": "International Museum Day",
-    "rawName": "International Museum Day",
-    "ver": 3,
-    "type": 5
+    "id": "new_years_day_dog",
+    "order": 94,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 44,
-    "name": "May Day",
-    "rawName": "May Day",
-    "ver": 3,
-    "type": 5
+    "id": "new_years_day_pig",
+    "order": 95,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 50,
-    "name": "Nature Day",
-    "rawName": "Nature Day",
-    "ver": 3,
-    "type": 5
+    "id": "new_years_day_rat",
+    "order": 96,
+    "name": "新年",
+    "type": 7,
+    "group": "new_years_day_asia"
   },
   {
-    "id": 70,
-    "name": "Nook Friday",
-    "rawName": "Nook Friday",
-    "ver": 13,
-    "type": 5
-  },
-  {
-    "id": 100,
-    "name": "Toy Day",
-    "rawName": "Toy Day",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 101,
-    "name": "Toy Day",
-    "rawName": "Toy Day (day after)",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 102,
-    "name": "Toy Day",
-    "rawName": "Toy Day (ready days phase 1)",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 103,
-    "name": "Toy Day",
-    "rawName": "Toy Day (ready days phase 2)",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 104,
-    "name": "Turkey Day",
-    "rawName": "Turkey Day",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 105,
-    "name": "Turkey Day",
-    "rawName": "Turkey Day (shopping days)",
-    "ver": 7,
-    "type": 5
-  },
-  {
-    "id": 106,
-    "name": "Valentine's Day",
-    "rawName": "Valentine's Day",
-    "ver": 8,
-    "type": 5
-  },
-  {
-    "id": 109,
-    "name": "Wedding Season",
-    "rawName": "Wedding Season",
-    "ver": 3,
-    "type": 5
-  },
-  {
-    "id": 2,
-    "name": "Aquarius",
-    "rawName": "Aquarius",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 3,
-    "name": "Aries",
-    "rawName": "Aries",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 10,
-    "name": "Cancer",
-    "rawName": "Cancer",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 11,
-    "name": "Capricorn",
-    "rawName": "Capricorn",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 30,
-    "name": "Gemini",
-    "rawName": "Gemini",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 40,
-    "name": "Leo",
-    "rawName": "Leo",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 41,
-    "name": "Libra",
-    "rawName": "Libra",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 72,
-    "name": "Pisces",
-    "rawName": "Pisces",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 76,
-    "name": "Sagittarius",
-    "rawName": "Sagittarius",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 77,
-    "name": "Scorpio",
-    "rawName": "Scorpio",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 98,
-    "name": "Taurus",
-    "rawName": "Taurus",
-    "ver": 1,
-    "type": 6
-  },
-  {
-    "id": 108,
-    "name": "Virgo",
-    "rawName": "Virgo",
-    "ver": 1,
-    "type": 6
+    "id": "setsubun_tailors",
+    "order": 97,
+    "name": "节分（裁缝屋）",
+    "type": 7,
+    "group": "setsubun_tailors"
   }
 ]

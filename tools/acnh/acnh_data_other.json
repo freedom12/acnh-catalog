@@ -1,0 +1,7745 @@
+{
+  "1374": {
+    "img": "MenuIcon/Shell6",
+    "sel": 180,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "钟螺壳",
+      "de": "Kreiselschnecke",
+      "it": "lumaca di mare",
+      "nl": "zeeslakkenhuis",
+      "ru": "ракушка морской улитки",
+      "ja": "エビスガイ",
+      "ko": "방석고둥",
+      "zh-tw": "鐘螺殼",
+      "en": "sea snail",
+      "es": "caracol de mar",
+      "fr": "escargot de mer"
+    }
+  },
+  "1375": {
+    "img": "MenuIcon/Shell4",
+    "sel": 300,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "骨螺壳",
+      "de": "Stachelschnecke",
+      "it": "pettine di Venere",
+      "nl": "venuskam",
+      "ru": "ракушка мурекса",
+      "ja": "ホネガイ",
+      "ko": "뮤렉스조개",
+      "zh-tw": "骨螺殼",
+      "en": "venus comb",
+      "es": "peine de Venus",
+      "fr": "peigne de Vénus"
+    }
+  },
+  "1376": {
+    "img": "MenuIcon/Shell1",
+    "sel": 700,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "海螺壳",
+      "de": "Tritonshorn",
+      "es-es": "neptunea",
+      "it": "strombo",
+      "nl": "gewone tritonshoren",
+      "ru": "спиральная ракушка",
+      "ja": "ホラガイ",
+      "ko": "소라고둥",
+      "zh-tw": "海螺殼",
+      "es-us": "neptúnea",
+      "en": "conch",
+      "fr": "conque"
+    }
+  },
+  "1379": {
+    "img": "MenuIcon/Shell8",
+    "sel": 120,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "沙钱",
+      "de": "Sanddollar",
+      "it": "dollaro sabbioso",
+      "nl": "zanddollar",
+      "ru": "панцирь морского ежа",
+      "ja": "サンドダラー",
+      "ko": "연잎성게",
+      "zh-tw": "沙錢",
+      "en": "sand dollar",
+      "es": "dólar de arena",
+      "fr": "clypéastre"
+    }
+  },
+  "1380": {
+    "img": "FtrIcon/ShellDriftSango",
+    "sel": 500,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "de": "Koralle",
+      "it": "corallo",
+      "nl": "stuk koraal",
+      "ru": "коралл",
+      "ja": "サンゴ",
+      "ko": "산호",
+      "en": "coral",
+      "es": "coral",
+      "fr": "branche de corail",
+      "zh": "珊瑚"
+    }
+  },
+  "1381": {
+    "img": "MenuIcon/Shell2",
+    "sel": 900,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "扇贝壳",
+      "de": "Riesenmuschel",
+      "it": "vongola gigante",
+      "nl": "doopvontschelp",
+      "ru": "раковина тридакны",
+      "ja": "シャコガイ",
+      "ko": "거거",
+      "zh-tw": "扇貝殼",
+      "en": "giant clam",
+      "es": "almeja gigante",
+      "fr": "bénitier géant"
+    }
+  },
+  "1382": {
+    "img": "MenuIcon/Shell7",
+    "sel": 60,
+    "stk": 10,
+    "src": "beach",
+    "loc": {
+      "zh-cn": "宝螺壳",
+      "de": "Kaurischnecke",
+      "it": "ciprea",
+      "nl": "kauri",
+      "ru": "ракушка ципреи",
+      "ja": "タカラガイ",
+      "ko": "자패",
+      "zh-tw": "寶螺殼",
+      "en": "cowrie",
+      "es": "cauri",
+      "fr": "porcelaine"
+    }
+  },
+  "2213": {
+    "img": "FtrIcon/Apple",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "tree_apple"
+    ],
+    "loc": {
+      "zh-cn": "苹果",
+      "de": "Apfel",
+      "it": "mela",
+      "nl": "appel",
+      "ru": "яблоко",
+      "ja": "リンゴ",
+      "ko": "사과",
+      "zh-tw": "蘋果",
+      "en": "apple",
+      "es": "manzana",
+      "fr": "pomme"
+    }
+  },
+  "2214": {
+    "img": "FtrIcon/Orange",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "tree_orange"
+    ],
+    "loc": {
+      "de": "Orange",
+      "it": "arancia",
+      "nl": "sinaasappel",
+      "ru": "апельсин",
+      "ja": "オレンジ",
+      "ko": "오렌지",
+      "en": "orange",
+      "es": "naranja",
+      "fr": "orange",
+      "zh": "橘子"
+    }
+  },
+  "2285": {
+    "img": "FtrIcon/Pear",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "tree_pear"
+    ],
+    "loc": {
+      "de": "Birne",
+      "it": "pera",
+      "nl": "peer",
+      "ru": "груша",
+      "ja": "ナシ",
+      "ko": "배",
+      "en": "pear",
+      "es": "pera",
+      "fr": "poire",
+      "zh": "梨子"
+    }
+  },
+  "2286": {
+    "img": "FtrIcon/Peach",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "tree_peach"
+    ],
+    "loc": {
+      "de": "Pfirsich",
+      "es-es": "melocotón",
+      "it": "pesca",
+      "nl": "perzik",
+      "ru": "персик",
+      "ja": "モモ",
+      "ko": "복숭아",
+      "es-us": "durazno",
+      "en": "peach",
+      "fr": "pêche",
+      "zh": "桃子"
+    }
+  },
+  "2287": {
+    "img": "FtrIcon/Cherry",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "tree_cherry"
+    ],
+    "loc": {
+      "zh-cn": "樱桃",
+      "de": "Kirsche",
+      "it": "ciliegia",
+      "nl": "kers",
+      "ru": "вишня",
+      "ja": "さくらんぼ",
+      "ko": "체리",
+      "zh-tw": "櫻桃",
+      "en": "cherry",
+      "es": "cereza",
+      "fr": "cerise"
+    }
+  },
+  "2288": {
+    "img": "FtrIcon/Coconut",
+    "sel": 250,
+    "stk": 10,
+    "fpw": 1,
+    "src": "tree_coconut",
+    "loc": {
+      "de": "Kokosnuss",
+      "it": "noce di cocco",
+      "nl": "kokosnoot",
+      "ru": "кокос",
+      "ja": "ヤシのみ",
+      "ko": "야자열매",
+      "en": "coconut",
+      "es": "coco",
+      "fr": "noix de coco",
+      "zh": "椰子"
+    }
+  },
+  "2295": {
+    "img": "FtrIcon/BambooShoot",
+    "sel": 250,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "dig_spot",
+      "daisy_mae"
+    ],
+    "loc": {
+      "zh-cn": "竹笋",
+      "de": "Bambussprosse",
+      "it": "germoglio di bambù",
+      "nl": "bamboescheut",
+      "ru": "побеги бамбука",
+      "ja": "たけのこ",
+      "ko": "죽순",
+      "zh-tw": "竹筍",
+      "en": "bamboo shoot",
+      "es": "brote de bambú",
+      "fr": "pousse de bambou"
+    }
+  },
+  "2304": {
+    "img": "FtrIcon/FlwCosmosRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色波斯菊",
+      "de": "Rotcosmea",
+      "it": "cosmea rossa",
+      "nl": "rode cosmea",
+      "ru": "красная космея",
+      "ja": "あかいコスモス",
+      "ko": "빨간 코스모스",
+      "zh-tw": "紅色波斯菊",
+      "en": "red cosmos",
+      "es": "cosmos rojo",
+      "fr": "cosmos rouge"
+    }
+  },
+  "2305": {
+    "img": "FtrIcon/FlwCosmosWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Weißcosmea",
+      "it": "cosmea bianca",
+      "nl": "witte cosmea",
+      "ru": "белая космея",
+      "ja": "しろいコスモス",
+      "ko": "하얀 코스모스",
+      "en": "white cosmos",
+      "es": "cosmos blanco",
+      "fr": "cosmos blanc",
+      "zh": "白色波斯菊"
+    }
+  },
+  "2389": {
+    "img": "FtrIcon/JohnnyQuestDust1",
+    "sel": 10,
+    "stk": 10,
+    "src": "recycle_box",
+    "loc": {
+      "zh-cn": "生锈零件",
+      "de": "Rost-Bauteil",
+      "it": "componente arrugginito",
+      "nl": "roestig onderdeel",
+      "ru": "ржавая деталь",
+      "ja": "さびたパーツ",
+      "ko": "녹슨 부품",
+      "zh-tw": "生鏽零件",
+      "en": "rusted part",
+      "es": "pieza oxidada",
+      "fr": "circuit rouillé"
+    }
+  },
+  "2500": {
+    "img": "FtrIcon/DIYBranch",
+    "sel": 5,
+    "stk": 30,
+    "src": "tree_shake",
+    "loc": {
+      "zh-cn": "树枝",
+      "de": "Ast",
+      "it": "ramo",
+      "nl": "tak",
+      "ru": "ветка",
+      "ja": "きのえだ",
+      "ko": "나뭇가지",
+      "zh-tw": "樹枝",
+      "en": "tree branch",
+      "es": "rama",
+      "fr": "branche d'arbre"
+    }
+  },
+  "2501": {
+    "img": "FtrIcon/DIYBamboo",
+    "sel": 80,
+    "stk": 30,
+    "src": "bamboo_chop",
+    "loc": {
+      "de": "Bambus",
+      "it": "pezzo di bambù",
+      "nl": "bamboestok",
+      "ru": "часть бамбука",
+      "ja": "バンブー",
+      "ko": "대나무 토막",
+      "en": "bamboo piece",
+      "es": "tallo de bambú",
+      "fr": "morceau de bambou",
+      "zh": "竹子材料"
+    }
+  },
+  "2502": {
+    "img": "FtrIcon/DIYStone",
+    "sel": 75,
+    "stk": 30,
+    "src": [
+      "rocks",
+      "fishing"
+    ],
+    "loc": {
+      "zh-cn": "石头",
+      "de": "Stein",
+      "it": "pietra",
+      "nl": "steen",
+      "ru": "камень",
+      "ja": "いし",
+      "ko": "돌",
+      "zh-tw": "石頭",
+      "en": "stone",
+      "es": "piedra",
+      "fr": "pierre"
+    }
+  },
+  "2505": {
+    "img": "FtrIcon/DIYGold",
+    "sel": 10000,
+    "stk": 30,
+    "src": "rocks",
+    "loc": {
+      "zh-cn": "金矿石",
+      "de": "Golderz",
+      "it": "minerale d'oro",
+      "nl": "goudklompje",
+      "ru": "золотой самородок",
+      "ja": "きんこうせき",
+      "ko": "금광석",
+      "zh-tw": "金礦石",
+      "en": "gold nugget",
+      "es": "pepita de oro",
+      "fr": "pépite d'or"
+    }
+  },
+  "2511": {
+    "img": "FtrIcon/DIYIron",
+    "sel": 375,
+    "stk": 30,
+    "src": "rocks",
+    "loc": {
+      "zh-cn": "铁矿石",
+      "de": "Eisenerz",
+      "it": "minerale di ferro",
+      "nl": "ijzerklompje",
+      "ru": "железный самородок",
+      "ja": "てっこうせき",
+      "ko": "철광석",
+      "zh-tw": "鐵礦石",
+      "en": "iron nugget",
+      "es": "pepita de hierro",
+      "fr": "pépite de fer"
+    }
+  },
+  "2513": {
+    "img": "FtrIcon/RemakeKit",
+    "sel": 150,
+    "buy": 600,
+    "stk": 50,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "改造工具组",
+      "de": "Umgestaltungsset",
+      "it": "kit di personalizzazione",
+      "nl": "aanpassingspakket",
+      "ru": "набор для переделки",
+      "ja": "リメイクキット",
+      "ko": "리폼 키트",
+      "zh-tw": "改造工具組",
+      "en": "customization kit",
+      "es": "kit de personalización",
+      "fr": "kit de personnalisation"
+    }
+  },
+  "2567": {
+    "img": "FtrIcon/FtrShellFishAsari",
+    "sel": 100,
+    "src": "dig_spot_clam",
+    "loc": {
+      "de": "Teppichmuschel",
+      "it": "vongola filippina",
+      "nl": "tapijtschelp",
+      "ru": "венерка",
+      "ja": "アサリ",
+      "ko": "바지락",
+      "en": "manila clam",
+      "es": "almeja japonesa",
+      "fr": "palourde japonaise",
+      "zh": "蛤蜊"
+    }
+  },
+  "2570": {
+    "img": "FtrIcon/Tomato",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "tomato_pick",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Tomate",
+      "it": "pomodoro",
+      "nl": "tomaat",
+      "ru": "помидор",
+      "ja": "トマト",
+      "ko": "토마토",
+      "en": "tomato",
+      "es": "tomate",
+      "fr": "tomate",
+      "zh": "番茄"
+    }
+  },
+  "2578": {
+    "img": "FtrIcon/PitfallSeed",
+    "sel": 140,
+    "stk": 10,
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "陷阱种子",
+      "de": "Falle",
+      "it": "trappola",
+      "nl": "valkuilzaadje",
+      "ru": "западня",
+      "ja": "おとしあなのタネ",
+      "ko": "함정 씨앗",
+      "zh-tw": "陷阱種子",
+      "en": "pitfall seed",
+      "es": "trampa",
+      "fr": "piège"
+    }
+  },
+  "2579": {
+    "img": "FtrIcon/Fossil",
+    "sel": 100,
+    "src": "dig_spot",
+    "loc": {
+      "de": "Fossil",
+      "it": "fossile",
+      "nl": "fossiel",
+      "ru": "окаменелость",
+      "ja": "かせき",
+      "ko": "화석",
+      "en": "fossil",
+      "es": "fósil",
+      "fr": "fossile",
+      "zh": "化石"
+    }
+  },
+  "2624": {
+    "img": "FtrIcon/PltWeed",
+    "sel": 10,
+    "stk": 99,
+    "src": "ground",
+    "loc": {
+      "zh-cn": "杂草",
+      "de": "Unkraut",
+      "es-es": "hierbajo",
+      "it": "erbaccia",
+      "nl": "onkruid",
+      "ru": "сорняк",
+      "ja": "ざっそう",
+      "ko": "잡초",
+      "zh-tw": "雜草",
+      "es-us": "maleza",
+      "en": "clump of weeds",
+      "fr": "mauvaise herbe"
+    }
+  },
+  "2626": {
+    "img": "FtrIcon/SeedCosmosRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色波斯菊种子",
+      "de": "Rotcosmea (Samen)",
+      "it": "cosmea rossa",
+      "nl": "zakje rode cosmea's",
+      "ru": "пакет с красной космеей",
+      "ja": "あかいコスモスのたね",
+      "ko": "빨간 코스모스의 씨앗",
+      "zh-tw": "紅色波斯菊種子",
+      "en": "red-cosmos bag",
+      "es": "cosmos rojo",
+      "fr": "sac de cosmos rouges"
+    }
+  },
+  "2629": {
+    "img": "FtrIcon/SeedCosmosWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色波斯菊种子",
+      "de": "Weißcosmea (Samen)",
+      "it": "cosmea bianca",
+      "nl": "zakje witte cosmea's",
+      "ru": "пакет с белой космеей",
+      "ja": "しろいコスモスのたね",
+      "ko": "하얀 코스모스의 씨앗",
+      "zh-tw": "白色波斯菊種子",
+      "en": "white-cosmos bag",
+      "es": "cosmos blanco",
+      "fr": "sac de cosmos blancs"
+    }
+  },
+  "2642": {
+    "img": "FtrIcon/Kabu_Spoil",
+    "sel": 100,
+    "src": "turnips_expired",
+    "loc": {
+      "zh-cn": "坏掉的大头菜",
+      "de": "Rüben (verdorben)",
+      "it": "mazzo di rape marce",
+      "nl": "bedorven knollen",
+      "ru": "гнилые репы",
+      "ja": "くさったカブ",
+      "ko": "썩은 무",
+      "zh-tw": "壞掉的大頭菜",
+      "en": "spoiled turnips",
+      "es": "manojo pasado",
+      "fr": "lot de navets pourris"
+    }
+  },
+  "2649": {
+    "img": "FtrIcon/SeedTomato",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Tomatensetzling",
+      "es-es": "tomatera de vivero",
+      "it": "piantina di pomodoro",
+      "nl": "tomatenzaailing",
+      "ru": "побег томата",
+      "ja": "トマトのなえ",
+      "ko": "토마토 모종",
+      "es-us": "tomate de vivero",
+      "en": "tomato start",
+      "fr": "pousse de tomate",
+      "zh": "番茄苗"
+    }
+  },
+  "2767": {
+    "img": "FtrIcon/DIYWoodSoft",
+    "sel": 60,
+    "stk": 30,
+    "src": "tree_chop",
+    "loc": {
+      "zh-cn": "软木材",
+      "de": "Weichholz",
+      "it": "legno morbido",
+      "nl": "zachthout",
+      "ru": "мягкая древесина",
+      "ja": "やわらかいもくざい",
+      "ko": "부드러운 목재",
+      "zh-tw": "軟木材",
+      "en": "softwood",
+      "es": "tabla flexible",
+      "fr": "bois tendre"
+    }
+  },
+  "2768": {
+    "img": "FtrIcon/DIYWoodNormal",
+    "sel": 60,
+    "stk": 30,
+    "src": "tree_chop",
+    "loc": {
+      "de": "Holz",
+      "it": "legno normale",
+      "nl": "hout",
+      "ru": "древесина",
+      "ja": "もくざい",
+      "ko": "목재",
+      "en": "wood",
+      "es": "tabla normal",
+      "fr": "bois",
+      "zh": "木材"
+    }
+  },
+  "2769": {
+    "img": "FtrIcon/DIYWoodHard",
+    "sel": 60,
+    "stk": 30,
+    "src": "tree_chop",
+    "loc": {
+      "de": "Hartholz",
+      "it": "legno duro",
+      "nl": "hardhout",
+      "ru": "твердая древесина",
+      "ja": "かたいもくざい",
+      "ko": "단단한 목재",
+      "en": "hardwood",
+      "es": "tabla rígida",
+      "fr": "bois dur",
+      "zh": "硬木材"
+    }
+  },
+  "2777": {
+    "img": "FtrIcon/ItemMedicine",
+    "sel": 100,
+    "buy": 400,
+    "stk": 10,
+    "src": [
+      "crafting",
+      "nook_store"
+    ],
+    "loc": {
+      "zh-cn": "药",
+      "de": "Medizin",
+      "es-es": "medicina",
+      "it": "medicina",
+      "nl": "medicijn",
+      "ru": "лекарство",
+      "ja": "おくすり",
+      "ko": "약",
+      "zh-tw": "藥",
+      "es-us": "medicamento",
+      "en": "medicine",
+      "fr": "remède"
+    }
+  },
+  "2794": {
+    "img": "FtrIcon/SeedOak",
+    "sel": 160,
+    "buy": 640,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "树苗",
+      "de": "Setzling",
+      "it": "germoglio",
+      "nl": "loofboomzaailing",
+      "ru": "побег",
+      "ja": "きのなえ",
+      "ko": "나무 묘목",
+      "zh-tw": "樹苗",
+      "en": "sapling",
+      "es": "caducifolio de vivero",
+      "fr": "pousse d'arbre"
+    }
+  },
+  "2799": {
+    "img": "GardeningIcon/PltOak4",
+    "sel": 240,
+    "src": "plant_sapling",
+    "loc": {
+      "zh-cn": "阔叶树",
+      "de": "Laubbaum",
+      "it": "latifoglia adulta",
+      "nl": "loofboom",
+      "ru": "лиственное дерево",
+      "ja": "こうようじゅ",
+      "ko": "활엽수",
+      "zh-tw": "闊葉樹",
+      "en": "hardwood tree",
+      "es": "caducifolio adulto",
+      "fr": "feuillu"
+    }
+  },
+  "2800": {
+    "img": "FtrIcon/SeedCedar",
+    "sel": 160,
+    "buy": 640,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "针叶树苗",
+      "de": "Nadelbaumsetzling",
+      "it": "germoglio di cedro",
+      "nl": "cederzaailing",
+      "ru": "побег кедра",
+      "ja": "しんようじゅのなえ",
+      "ko": "침엽수 묘목",
+      "zh-tw": "針葉樹苗",
+      "en": "cedar sapling",
+      "es": "cedro de vivero",
+      "fr": "pousse de cèdre"
+    }
+  },
+  "2805": {
+    "img": "GardeningIcon/PltCedar4",
+    "sel": 240,
+    "src": "plant_cedar",
+    "loc": {
+      "zh-cn": "针叶树",
+      "de": "Nadelbaum",
+      "it": "cedro adulto",
+      "nl": "ceder",
+      "ru": "кедр",
+      "ja": "しんようじゅ",
+      "ko": "침엽수",
+      "zh-tw": "針葉樹",
+      "en": "cedar tree",
+      "es": "cedro adulto",
+      "fr": "cèdre"
+    }
+  },
+  "2810": {
+    "img": "GardeningIcon/PltPalm4",
+    "sel": 500,
+    "src": "plant_coconut",
+    "loc": {
+      "zh-cn": "椰子树",
+      "de": "Kokosnusspalme",
+      "es-es": "cocotero adulto",
+      "it": "palma da cocco adulta",
+      "nl": "kokospalm",
+      "ru": "кокосовая пальма",
+      "ja": "ヤシのき",
+      "ko": "야자수",
+      "zh-tw": "椰子樹",
+      "es-us": "palmera cocotera adulta",
+      "en": "coconut tree",
+      "fr": "cocotier"
+    }
+  },
+  "2815": {
+    "img": "GardeningIcon/PltBamboo4",
+    "sel": 1500,
+    "src": "plant_bamboo",
+    "loc": {
+      "de": "Bambuspflanze",
+      "it": "bambù adulto",
+      "nl": "bamboe",
+      "ru": "взрослый бамбук",
+      "ja": "たけ",
+      "ko": "대나무",
+      "en": "bamboo tree",
+      "es": "bambú adulto",
+      "fr": "bambou",
+      "zh": "竹子"
+    }
+  },
+  "2820": {
+    "img": "ShopPlant/SeedAzaleaWhite",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "azalea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "白色杜鹃花苗",
+      "de": "Gartenazaleensetzling",
+      "it": "germoglio di azalea bianca",
+      "nl": "witte-azalea-zaailing",
+      "ru": "побег белой азалии",
+      "ja": "しろいツツジのなえ",
+      "ko": "하얀 진달래 묘목",
+      "zh-tw": "白色杜鵑花苗",
+      "en": "white-azalea start",
+      "es": "azalea blanca de vivero",
+      "fr": "pousse d'azalée blanche"
+    }
+  },
+  "2861": {
+    "img": "GardeningIcon/PltAzaleaWhite2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "azalea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "白色杜鹃花树",
+      "de": "Gartenazalee",
+      "it": "azalea bianca adulta",
+      "nl": "witte azalea",
+      "ru": "куст белой азалии",
+      "ja": "しろいツツジのき",
+      "ko": "하얀 진달래나무",
+      "zh-tw": "白色杜鵑花樹",
+      "en": "white-azalea bush",
+      "es": "azalea blanca adulta",
+      "fr": "buisson d'azalée blanche"
+    }
+  },
+  "2863": {
+    "img": "FtrIcon/FlwCosmosYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色波斯菊",
+      "de": "Gelbcosmea",
+      "it": "cosmea gialla",
+      "nl": "gele cosmea",
+      "ru": "желтая космея",
+      "ja": "きいろいコスモス",
+      "ko": "노란 코스모스",
+      "zh-tw": "黃色波斯菊",
+      "en": "yellow cosmos",
+      "es": "cosmos amarillo",
+      "fr": "cosmos jaune"
+    }
+  },
+  "2864": {
+    "img": "FtrIcon/SeedCosmosYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色波斯菊种子",
+      "de": "Gelbcosmea (Samen)",
+      "it": "cosmea gialla",
+      "nl": "zakje gele cosmea's",
+      "ru": "пакет с желтой космеей",
+      "ja": "きいろいコスモスのたね",
+      "ko": "노란 코스모스의 씨앗",
+      "zh-tw": "黃色波斯菊種子",
+      "en": "yellow-cosmos bag",
+      "es": "cosmos amarillo",
+      "fr": "sac de cosmos jaunes"
+    }
+  },
+  "2867": {
+    "img": "FtrIcon/FlwCosmosPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红波斯菊",
+      "de": "Pinkcosmea",
+      "it": "cosmea rosa",
+      "nl": "roze cosmea",
+      "ru": "розовая космея",
+      "ja": "ピンクのコスモス",
+      "ko": "핑크색 코스모스",
+      "zh-tw": "粉紅波斯菊",
+      "en": "pink cosmos",
+      "es": "cosmos rosa",
+      "fr": "cosmos rose"
+    }
+  },
+  "2871": {
+    "img": "FtrIcon/FlwCosmosOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Orangecosmea",
+      "it": "cosmea arancione",
+      "nl": "oranje cosmea",
+      "ru": "оранжевая космея",
+      "ja": "オレンジのコスモス",
+      "ko": "오렌지색 코스모스",
+      "en": "orange cosmos",
+      "es": "cosmos naranja",
+      "fr": "cosmos orange",
+      "zh": "橘色波斯菊"
+    }
+  },
+  "2875": {
+    "img": "FtrIcon/FlwCosmosBlack",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Schwarzcosmea",
+      "it": "cosmea nera",
+      "nl": "zwarte cosmea",
+      "ru": "черная космея",
+      "ja": "くろいコスモス",
+      "ko": "검정 코스모스",
+      "en": "black cosmos",
+      "es": "cosmos negro",
+      "fr": "cosmos noir",
+      "zh": "黑色波斯菊"
+    }
+  },
+  "2879": {
+    "img": "FtrIcon/FlwTulipWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "白色郁金香",
+      "de": "Triumphtulpe",
+      "it": "tulipano bianco",
+      "nl": "witte tulp",
+      "ru": "белый тюльпан",
+      "ja": "しろいチューリップ",
+      "ko": "하얀 튤립",
+      "zh-tw": "白色鬱金香",
+      "en": "white tulips",
+      "es": "tulipán blanco",
+      "fr": "tulipe blanche"
+    }
+  },
+  "2880": {
+    "img": "FtrIcon/SeedTulipWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色郁金香球根",
+      "de": "Triumphtulpe (Zwiebel)",
+      "it": "tulipano bianco",
+      "nl": "zakje witte tulpen",
+      "ru": "пакет с белым тюльпаном",
+      "ja": "しろいチューリップのきゅうこん",
+      "ko": "하얀 튤립의 구근",
+      "zh-tw": "白色鬱金香球根",
+      "en": "white-tulip bag",
+      "es": "tulipán blanco",
+      "fr": "sac de tulipes blanches"
+    }
+  },
+  "2883": {
+    "img": "FtrIcon/FlwTulipRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色郁金香",
+      "de": "Papageitulpe",
+      "it": "tulipano rosso",
+      "nl": "rode tulp",
+      "ru": "красный тюльпан",
+      "ja": "あかいチューリップ",
+      "ko": "빨간 튤립",
+      "zh-tw": "紅色鬱金香",
+      "en": "red tulips",
+      "es": "tulipán rojo",
+      "fr": "tulipe rouge"
+    }
+  },
+  "2884": {
+    "img": "FtrIcon/SeedTulipRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色郁金香球根",
+      "de": "Papageitulpe (Zwiebel)",
+      "it": "tulipano rosso",
+      "nl": "zakje rode tulpen",
+      "ru": "пакет с красн. тюльпаном",
+      "ja": "あかいチューリップのきゅうこん",
+      "ko": "빨간 튤립의 구근",
+      "zh-tw": "紅色鬱金香球根",
+      "en": "red-tulip bag",
+      "es": "tulipán rojo",
+      "fr": "sac de tulipes rouges"
+    }
+  },
+  "2887": {
+    "img": "FtrIcon/FlwTulipYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色郁金香",
+      "de": "Viridifloratulpe",
+      "it": "tulipano giallo",
+      "nl": "gele tulp",
+      "ru": "желтый тюльпан",
+      "ja": "きいろいチューリップ",
+      "ko": "노란 튤립",
+      "zh-tw": "黃色鬱金香",
+      "en": "yellow tulips",
+      "es": "tulipán amarillo",
+      "fr": "tulipe jaune"
+    }
+  },
+  "2888": {
+    "img": "FtrIcon/SeedTulipYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色郁金香球根",
+      "de": "Viridifloratulpe (Zwiebel)",
+      "it": "tulipano giallo",
+      "nl": "zakje gele tulpen",
+      "ru": "пакет с желт. тюльпаном",
+      "ja": "きいろチューリップのきゅうこん",
+      "ko": "노란 튤립의 구근",
+      "zh-tw": "黃色鬱金香球根",
+      "en": "yellow-tulip bag",
+      "es": "tulipán amarillo",
+      "fr": "sac de tulipes jaunes"
+    }
+  },
+  "2891": {
+    "img": "FtrIcon/FlwTulipPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红郁金香",
+      "de": "Grengjer-Tulpe",
+      "it": "tulipano rosa",
+      "nl": "roze tulp",
+      "ru": "розовый тюльпан",
+      "ja": "ピンクのチューリップ",
+      "ko": "핑크색 튤립",
+      "zh-tw": "粉紅鬱金香",
+      "en": "pink tulips",
+      "es": "tulipán rosa",
+      "fr": "tulipe rose"
+    }
+  },
+  "2895": {
+    "img": "FtrIcon/FlwTulipOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "橘色郁金香",
+      "de": "Flachlandtulpe",
+      "it": "tulipano arancione",
+      "nl": "oranje tulp",
+      "ru": "оранжевый тюльпан",
+      "ja": "オレンジのチューリップ",
+      "ko": "오렌지색 튤립",
+      "zh-tw": "橘色鬱金香",
+      "en": "orange tulips",
+      "es": "tulipán naranja",
+      "fr": "tulipe orange"
+    }
+  },
+  "2899": {
+    "img": "FtrIcon/FlwTulipPurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "紫色郁金香",
+      "de": "Wildtulpe",
+      "es-es": "tulipán violeta",
+      "it": "tulipano indaco",
+      "nl": "paarse tulp",
+      "ru": "фиолетовый тюльпан",
+      "ja": "むらさきチューリップ",
+      "ko": "보라색 튤립",
+      "zh-tw": "紫色鬱金香",
+      "es-us": "tulipán morado",
+      "en": "purple tulips",
+      "fr": "tulipe mauve"
+    }
+  },
+  "2903": {
+    "img": "FtrIcon/FlwTulipBlack",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黑色郁金香",
+      "de": "Römertulpe",
+      "it": "tulipano nero",
+      "nl": "zwarte tulp",
+      "ru": "черный тюльпан",
+      "ja": "くろいチューリップ",
+      "ko": "검정 튤립",
+      "zh-tw": "黑色鬱金香",
+      "en": "black tulips",
+      "es": "tulipán negro",
+      "fr": "tulipe noire"
+    }
+  },
+  "2907": {
+    "img": "FtrIcon/FlwPansyWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Pfingstveilchen",
+      "it": "viola bianca",
+      "nl": "wit viooltje",
+      "ru": "белая фиалка",
+      "ja": "しろいパンジー",
+      "ko": "하얀 팬지",
+      "en": "white pansies",
+      "es": "viola blanca",
+      "fr": "pensée blanche",
+      "zh": "白色三色堇"
+    }
+  },
+  "2908": {
+    "img": "FtrIcon/SeedPansyWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色三色堇种子",
+      "de": "Pfingstveilchen (Samen)",
+      "it": "viola bianca",
+      "nl": "zakje witte viooltjes",
+      "ru": "пакет с белой фиалкой",
+      "ja": "しろいパンジーのたね",
+      "ko": "하얀 팬지의 씨앗",
+      "zh-tw": "白色三色堇種子",
+      "en": "white-pansy bag",
+      "es": "viola blanca",
+      "fr": "sac de pensées blanches"
+    }
+  },
+  "2911": {
+    "img": "FtrIcon/FlwPansyRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色三色堇",
+      "de": "Alpenveilchen",
+      "it": "viola rossa",
+      "nl": "rood viooltje",
+      "ru": "красная фиалка",
+      "ja": "あかいパンジー",
+      "ko": "빨간 팬지",
+      "zh-tw": "紅色三色堇",
+      "en": "red pansies",
+      "es": "viola roja",
+      "fr": "pensée rouge"
+    }
+  },
+  "2912": {
+    "img": "FtrIcon/SeedPansyRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色三色堇种子",
+      "de": "Alpenveilchen (Samen)",
+      "it": "viola rossa",
+      "nl": "zakje rode viooltjes",
+      "ru": "пакет с красной фиалкой",
+      "ja": "あかいパンジーのたね",
+      "ko": "빨간 팬지의 씨앗",
+      "zh-tw": "紅色三色堇種子",
+      "en": "red-pansy bag",
+      "es": "viola roja",
+      "fr": "sac de pensées rouges"
+    }
+  },
+  "2915": {
+    "img": "FtrIcon/FlwPansyYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色三色堇",
+      "de": "Hornveilchen",
+      "it": "viola gialla",
+      "nl": "geel viooltje",
+      "ru": "желтая фиалка",
+      "ja": "きいろいパンジー",
+      "ko": "노란 팬지",
+      "zh-tw": "黃色三色堇",
+      "en": "yellow pansies",
+      "es": "viola amarilla",
+      "fr": "pensée jaune"
+    }
+  },
+  "2916": {
+    "img": "FtrIcon/SeedPansyYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色三色堇种子",
+      "de": "Hornveilchen (Samen)",
+      "it": "viola gialla",
+      "nl": "zakje gele viooltjes",
+      "ru": "пакет с желтой фиалкой",
+      "ja": "きいろいパンジーのたね",
+      "ko": "노란 팬지의 씨앗",
+      "zh-tw": "黃色三色堇種子",
+      "en": "yellow-pansy bag",
+      "es": "viola amarilla",
+      "fr": "sac de pensées jaunes"
+    }
+  },
+  "2919": {
+    "img": "FtrIcon/FlwPansyRedYellow",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红黄三色堇",
+      "de": "Stiefmütterchen",
+      "it": "viola arancione",
+      "nl": "oranje viooltje",
+      "ru": "оранжевая фиалка",
+      "ja": "あかきいろパンジー",
+      "ko": "2색 팬지",
+      "zh-tw": "紅黃三色堇",
+      "en": "orange pansies",
+      "es": "viola roja/amarilla",
+      "fr": "pensée orange"
+    }
+  },
+  "2923": {
+    "img": "FtrIcon/FlwPansyPurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Hainveilchen",
+      "es-es": "viola violeta",
+      "it": "viola indaco",
+      "nl": "paars viooltje",
+      "ru": "фиолетовая фиалка",
+      "ja": "むらさきのパンジー",
+      "ko": "보라색 팬지",
+      "es-us": "viola morada",
+      "en": "purple pansies",
+      "fr": "pensée mauve",
+      "zh": "紫色三色堇"
+    }
+  },
+  "2927": {
+    "img": "FtrIcon/FlwPansyBlue",
+    "clr": [
+      "blue",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "蓝色三色堇",
+      "de": "Duftveilchen",
+      "it": "viola blu",
+      "nl": "blauw viooltje",
+      "ru": "синяя фиалка",
+      "ja": "あおいパンジー",
+      "ko": "파란 팬지",
+      "zh-tw": "藍色三色堇",
+      "en": "blue pansies",
+      "es": "viola azul",
+      "fr": "pensée bleue"
+    }
+  },
+  "2931": {
+    "img": "FtrIcon/FlwRoseWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Unschuldsrose",
+      "it": "rosa bianca",
+      "nl": "witte roos",
+      "ru": "белая роза",
+      "ja": "しろいバラ",
+      "ko": "하얀 장미",
+      "en": "white roses",
+      "es": "rosa blanca",
+      "fr": "rose blanche",
+      "zh": "白色玫瑰"
+    }
+  },
+  "2932": {
+    "img": "FtrIcon/SeedRoseWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色玫瑰种子",
+      "de": "Unschuldsrose (Samen)",
+      "it": "rosa bianca",
+      "nl": "zakje witte rozen",
+      "ru": "пакет с белой розой",
+      "ja": "しろいバラのたね",
+      "ko": "하얀 장미의 씨앗",
+      "zh-tw": "白色玫瑰種子",
+      "en": "white-rose bag",
+      "es": "rosa blanca",
+      "fr": "sac de roses blanches"
+    }
+  },
+  "2935": {
+    "img": "FtrIcon/FlwRoseRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色玫瑰",
+      "de": "Liebesrose",
+      "it": "rosa rossa",
+      "nl": "rode roos",
+      "ru": "красная роза",
+      "ja": "あかいバラ",
+      "ko": "빨간 장미",
+      "zh-tw": "紅色玫瑰",
+      "en": "red roses",
+      "es": "rosa roja",
+      "fr": "rose rouge"
+    }
+  },
+  "2936": {
+    "img": "FtrIcon/SeedRoseRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色玫瑰种子",
+      "de": "Liebesrose (Samen)",
+      "it": "rosa rossa",
+      "nl": "zakje rode rozen",
+      "ru": "пакет с красной розой",
+      "ja": "あかいバラのたね",
+      "ko": "빨간 장미의 씨앗",
+      "zh-tw": "紅色玫瑰種子",
+      "en": "red-rose bag",
+      "es": "rosa roja",
+      "fr": "sac de roses rouges"
+    }
+  },
+  "2939": {
+    "img": "FtrIcon/FlwRoseYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色玫瑰",
+      "de": "Bernsteinrose",
+      "it": "rosa gialla",
+      "nl": "gele roos",
+      "ru": "желтая роза",
+      "ja": "きいろいバラ",
+      "ko": "노란 장미",
+      "zh-tw": "黃色玫瑰",
+      "en": "yellow roses",
+      "es": "rosa amarilla",
+      "fr": "rose jaune"
+    }
+  },
+  "2940": {
+    "img": "FtrIcon/SeedRoseYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色玫瑰种子",
+      "de": "Bernsteinrose (Samen)",
+      "it": "rosa gialla",
+      "nl": "zakje gele rozen",
+      "ru": "пакет с желтой розой",
+      "ja": "きいろいバラのたね",
+      "ko": "노란 장미의 씨앗",
+      "zh-tw": "黃色玫瑰種子",
+      "en": "yellow-rose bag",
+      "es": "rosa amarilla",
+      "fr": "sac de roses jaunes"
+    }
+  },
+  "2943": {
+    "img": "FtrIcon/FlwRosePink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红玫瑰",
+      "de": "Pinkrose",
+      "it": "rosa rosa",
+      "nl": "roze roos",
+      "ru": "розовая роза",
+      "ja": "ピンクのバラ",
+      "ko": "핑크색 장미",
+      "zh-tw": "粉紅玫瑰",
+      "en": "pink roses",
+      "es": "rosa rosada",
+      "fr": "rose rose"
+    }
+  },
+  "2947": {
+    "img": "FtrIcon/FlwRoseOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Sonnenrose",
+      "it": "rosa arancione",
+      "nl": "oranje roos",
+      "ru": "оранжевая роза",
+      "ja": "オレンジのバラ",
+      "ko": "오렌지색 장미",
+      "en": "orange roses",
+      "es": "rosa naranja",
+      "fr": "rose orange",
+      "zh": "橘色玫瑰"
+    }
+  },
+  "2951": {
+    "img": "FtrIcon/FlwRosePurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Lilarose",
+      "es-es": "rosa malva",
+      "it": "rosa indaco",
+      "nl": "paarse roos",
+      "ru": "фиолетовая роза",
+      "ja": "むらさきのバラ",
+      "ko": "보라색 장미",
+      "es-us": "rosa morada",
+      "en": "purple roses",
+      "fr": "rose mauve",
+      "zh": "紫色玫瑰"
+    }
+  },
+  "2955": {
+    "img": "FtrIcon/FlwRoseBlack",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Schwarzrose",
+      "it": "rosa nera",
+      "nl": "zwarte roos",
+      "ru": "черная роза",
+      "ja": "くろいバラ",
+      "ko": "검정 장미",
+      "en": "black roses",
+      "es": "rosa negra",
+      "fr": "rose noire",
+      "zh": "黑色玫瑰"
+    }
+  },
+  "2959": {
+    "img": "FtrIcon/FlwRoseBlue",
+    "clr": [
+      "blue",
+      "green"
+    ],
+    "sel": 1000,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "蓝色玫瑰",
+      "de": "Blaurose",
+      "it": "rosa blu",
+      "nl": "blauwe roos",
+      "ru": "синяя роза",
+      "ja": "あおいバラ",
+      "ko": "파란 장미",
+      "zh-tw": "藍色玫瑰",
+      "en": "blue roses",
+      "es": "rosa azul",
+      "fr": "rose bleue"
+    }
+  },
+  "2963": {
+    "img": "FtrIcon/FlwRoseGold",
+    "clr": "yellow",
+    "sel": 1000,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Goldrose",
+      "it": "rosa d'oro",
+      "nl": "gouden roos",
+      "ru": "золотая роза",
+      "ja": "きんのバラ",
+      "ko": "금장미",
+      "en": "gold roses",
+      "es": "rosa dorada",
+      "fr": "rose dorée",
+      "zh": "金色玫瑰"
+    }
+  },
+  "2979": {
+    "img": "FtrIcon/FlwYuriWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Osterlilie",
+      "it": "giglio bianco",
+      "nl": "witte lelie",
+      "ru": "белая лилия",
+      "ja": "しろいユリ",
+      "ko": "하얀 백합",
+      "en": "white lilies",
+      "es": "lirio blanco",
+      "fr": "lys blanc",
+      "zh": "白色百合"
+    }
+  },
+  "2980": {
+    "img": "FtrIcon/SeedYuriWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "de": "Osterlilie (Zwiebel)",
+      "it": "giglio bianco",
+      "nl": "zakje witte lelies",
+      "ru": "пакет с белой лилией",
+      "ja": "しろいユリのきゅうこん",
+      "ko": "하얀 백합의 구근",
+      "en": "white-lily bag",
+      "es": "lirio blanco",
+      "fr": "sac de lys blancs",
+      "zh": "白色百合球根"
+    }
+  },
+  "2983": {
+    "img": "FtrIcon/FlwYuriRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色百合",
+      "de": "Rotlilie",
+      "it": "giglio rosso",
+      "nl": "rode lelie",
+      "ru": "красная лилия",
+      "ja": "あかいユリ",
+      "ko": "빨간 백합",
+      "zh-tw": "紅色百合",
+      "en": "red lilies",
+      "es": "lirio rojo",
+      "fr": "lys rouge"
+    }
+  },
+  "2984": {
+    "img": "FtrIcon/SeedYuriRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色百合球根",
+      "de": "Rotlilie (Zwiebel)",
+      "it": "giglio rosso",
+      "nl": "zakje rode lelies",
+      "ru": "пакет с красной лилией",
+      "ja": "あかいユリのきゅうこん",
+      "ko": "빨간 백합의 구근",
+      "zh-tw": "紅色百合球根",
+      "en": "red-lily bag",
+      "es": "lirio rojo",
+      "fr": "sac de lys rouges"
+    }
+  },
+  "2987": {
+    "img": "FtrIcon/FlwYuriYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色百合",
+      "de": "Pyrenäenlilie",
+      "it": "giglio giallo",
+      "nl": "gele lelie",
+      "ru": "желтая лилия",
+      "ja": "きいろいユリ",
+      "ko": "노란 백합",
+      "zh-tw": "黃色百合",
+      "en": "yellow lilies",
+      "es": "lirio amarillo",
+      "fr": "lys jaune"
+    }
+  },
+  "2988": {
+    "img": "FtrIcon/SeedYuriYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色百合球根",
+      "de": "Pyrenäenlilie (Zwiebel)",
+      "it": "giglio giallo",
+      "nl": "zakje gele lelies",
+      "ru": "пакет с желтой лилией",
+      "ja": "きいろいユリのきゅうこん",
+      "ko": "노란 백합의 구근",
+      "zh-tw": "黃色百合球根",
+      "en": "yellow-lily bag",
+      "es": "lirio amarillo",
+      "fr": "sac de lys jaunes"
+    }
+  },
+  "2991": {
+    "img": "FtrIcon/FlwYuriPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红百合",
+      "de": "Türkenbundlilie",
+      "it": "giglio rosa",
+      "nl": "roze lelie",
+      "ru": "розовая лилия",
+      "ja": "ピンクのユリ",
+      "ko": "핑크색 백합",
+      "zh-tw": "粉紅百合",
+      "en": "pink lilies",
+      "es": "lirio rosa",
+      "fr": "lys rose"
+    }
+  },
+  "2995": {
+    "img": "FtrIcon/FlwYuriOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Feuerlilie",
+      "it": "giglio arancione",
+      "nl": "oranje lelie",
+      "ru": "оранжевая лилия",
+      "ja": "オレンジのユリ",
+      "ko": "오렌지색 백합",
+      "en": "orange lilies",
+      "es": "lirio naranja",
+      "fr": "lys orange",
+      "zh": "橘色百合"
+    }
+  },
+  "2999": {
+    "img": "FtrIcon/FlwYuriBlack",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Dunkellilie",
+      "it": "giglio nero",
+      "nl": "zwarte lelie",
+      "ru": "черная лилия",
+      "ja": "くろいユリ",
+      "ko": "검정 백합",
+      "en": "black lilies",
+      "es": "lirio negro",
+      "fr": "lys noir",
+      "zh": "黑色百合"
+    }
+  },
+  "3019": {
+    "img": "ShopPlant/SeedHibiscusRed",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "hibiscus",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "红色扶桑花苗",
+      "de": "Bluthibiskussetzling",
+      "it": "germoglio di ibisco rosso",
+      "nl": "rode-hibiscus-zaailing",
+      "ru": "побег красного гибискуса",
+      "ja": "あかいハイビスカスのなえ",
+      "ko": "빨간 히비스커스 묘목",
+      "zh-tw": "紅色扶桑花苗",
+      "en": "red-hibiscus start",
+      "es": "hibisco rojo de vivero",
+      "fr": "pousse d'hibiscus rouge"
+    }
+  },
+  "3022": {
+    "img": "GardeningIcon/PltHibiscusRed2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "hibiscus",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "红色扶桑花树",
+      "de": "Bluthibiskus",
+      "it": "ibisco rosso adulto",
+      "nl": "rode hibiscus",
+      "ru": "куст красного гибискуса",
+      "ja": "あかいハイビスカスのき",
+      "ko": "빨간 히비스커스나무",
+      "zh-tw": "紅色扶桑花樹",
+      "en": "red-hibiscus bush",
+      "es": "hibisco rojo adulto",
+      "fr": "buisson d'hibiscus rouge"
+    }
+  },
+  "3024": {
+    "img": "ShopPlant/SeedHolly",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "holly",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "柊树苗",
+      "de": "Stechpalmensetzling",
+      "it": "germoglio di agrifoglio",
+      "nl": "hulstzaailing",
+      "ru": "побег остролиста",
+      "ja": "ヒイラギのなえ",
+      "ko": "호랑가시나무 묘목",
+      "zh-tw": "柊樹苗",
+      "en": "holly start",
+      "es": "acebo de vivero",
+      "fr": "pousse de houx"
+    }
+  },
+  "3027": {
+    "img": "GardeningIcon/PltHolly2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "holly",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "柊树",
+      "de": "Stechpalme",
+      "it": "agrifoglio adulto",
+      "nl": "hulst",
+      "ru": "куст остролиста",
+      "ja": "ヒイラギのき",
+      "ko": "호랑가시나무",
+      "zh-tw": "柊樹",
+      "en": "holly bush",
+      "es": "acebo adulto",
+      "fr": "buisson de houx"
+    }
+  },
+  "3029": {
+    "img": "FtrIcon/Wheat",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "wheat_pick",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "小麦",
+      "de": "Weizen",
+      "it": "spiga di grano",
+      "nl": "tarwe",
+      "ru": "пшеница",
+      "ja": "コムギ",
+      "ko": "밀",
+      "zh-tw": "小麥",
+      "en": "wheat",
+      "es": "espiga de trigo",
+      "fr": "blé"
+    }
+  },
+  "3030": {
+    "img": "FtrIcon/SeedWheat",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "小麦苗",
+      "de": "Weizensetzling",
+      "it": "piantina di grano",
+      "nl": "tarwezaailing",
+      "ru": "побег пшеницы",
+      "ja": "コムギのなえ",
+      "ko": "밀 모종",
+      "zh-tw": "小麥苗",
+      "en": "wheat start",
+      "es": "espiga de trigo de vivero",
+      "fr": "pousse de blé"
+    }
+  },
+  "3034": {
+    "img": "FtrIcon/SugarCane",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "sugarcane_pick",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Zuckerrohr",
+      "it": "canna da zucchero",
+      "nl": "suikerriet",
+      "ru": "сахарный тростник",
+      "ja": "サトウキビ",
+      "ko": "사탕수수",
+      "en": "sugarcane",
+      "es": "caña de azúcar",
+      "fr": "canne à sucre",
+      "zh": "甘蔗"
+    }
+  },
+  "3035": {
+    "img": "FtrIcon/SeedSugarCane",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Zuckerrohrsetzling",
+      "it": "piantina canna da zucchero",
+      "nl": "suikerrietzaailing",
+      "ru": "побег сахарн. тростника",
+      "ja": "サトウキビのなえ",
+      "ko": "사탕수수 모종",
+      "en": "sugarcane start",
+      "es": "caña de azúcar de vivero",
+      "fr": "pousse de canne à sucre",
+      "zh": "甘蔗苗"
+    }
+  },
+  "3039": {
+    "img": "FtrIcon/Potato",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "potato_pick",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "土豆",
+      "de": "Kartoffel",
+      "es-es": "patata",
+      "it": "patata",
+      "nl": "aardappel",
+      "ru": "картофелина",
+      "ja": "ジャガイモ",
+      "ko": "감자",
+      "zh-tw": "馬鈴薯",
+      "es-us": "papa",
+      "en": "potato",
+      "fr": "pomme de terre"
+    }
+  },
+  "3040": {
+    "img": "FtrIcon/SeedPotato",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "土豆块茎",
+      "de": "Saatkartoffel",
+      "es-es": "patata de vivero",
+      "it": "piantina di patata",
+      "nl": "pootaardappel",
+      "ru": "проросшая картофелина",
+      "ja": "ジャガイモのたねいも",
+      "ko": "씨감자",
+      "zh-tw": "馬鈴薯塊莖",
+      "es-us": "papa de vivero",
+      "en": "seed potato",
+      "fr": "pousse de pomme de terre"
+    }
+  },
+  "3044": {
+    "img": "FtrIcon/Carrot",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "carrot_pick",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "胡萝卜",
+      "de": "Karotte",
+      "it": "carota",
+      "nl": "wortel",
+      "ru": "морковка",
+      "ja": "ニンジン",
+      "ko": "당근",
+      "zh-tw": "胡蘿蔔",
+      "en": "carrot",
+      "es": "zanahoria",
+      "fr": "carotte"
+    }
+  },
+  "3045": {
+    "img": "FtrIcon/SeedCarrot",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "胡萝卜苗",
+      "de": "Karottensetzling",
+      "it": "piantina di carota",
+      "nl": "wortelzaailing",
+      "ru": "побег моркови",
+      "ja": "ニンジンのなえ",
+      "ko": "당근 모종",
+      "zh-tw": "胡蘿蔔苗",
+      "en": "carrot start",
+      "es": "zanahoria de vivero",
+      "fr": "pousse de carotte"
+    }
+  },
+  "3090": {
+    "img": "FtrIcon/DIYClay",
+    "sel": 100,
+    "stk": 30,
+    "src": "rocks",
+    "loc": {
+      "de": "Lehm",
+      "it": "pezzo di argilla",
+      "nl": "kleihomp",
+      "ru": "кусок глины",
+      "ja": "ねんど",
+      "ko": "점토",
+      "en": "clay",
+      "es": "bola de arcilla",
+      "fr": "argile",
+      "zh": "黏土"
+    }
+  },
+  "3263": {
+    "img": "FtrIcon/Honeycomb",
+    "sel": 300,
+    "stk": 10,
+    "src": "tree_shake",
+    "loc": {
+      "de": "Wespennest",
+      "it": "vespaio",
+      "nl": "wespennest",
+      "ru": "осиное гнездо",
+      "ja": "ハチのす",
+      "ko": "벌집",
+      "en": "wasp nest",
+      "es": "avispero",
+      "fr": "nid de guêpes",
+      "zh": "蜂巢"
+    }
+  },
+  "3276": {
+    "img": "FtrIcon/MushSplendid",
+    "sel": 10000,
+    "stk": 10,
+    "fpw": 1,
+    "src": "ground",
+    "evt": "mushroom",
+    "loc": {
+      "de": "Elegantpilz",
+      "it": "fungo elegante",
+      "nl": "elegante paddenstoel",
+      "ru": "благородовик",
+      "ja": "りっぱなキノコ",
+      "ko": "멋진 버섯",
+      "en": "elegant mushroom",
+      "es": "champiñón elegante",
+      "fr": "champignon élégant",
+      "zh": "出色蘑菇"
+    }
+  },
+  "3277": {
+    "img": "FtrIcon/MushRound",
+    "sel": 200,
+    "stk": 10,
+    "fpw": 1,
+    "src": "ground",
+    "evt": "mushroom",
+    "loc": {
+      "zh-cn": "圆形蘑菇",
+      "de": "Rundpilz",
+      "it": "fungo tondo",
+      "nl": "ronde paddenstoel",
+      "ru": "шаропиньон",
+      "ja": "まるいキノコ",
+      "ko": "둥근 버섯",
+      "zh-tw": "圓形蘑菇",
+      "en": "round mushroom",
+      "es": "champiñón redondo",
+      "fr": "champignon rond"
+    }
+  },
+  "3278": {
+    "img": "FtrIcon/MushSlender",
+    "sel": 300,
+    "stk": 10,
+    "fpw": 1,
+    "src": "ground",
+    "evt": "mushroom",
+    "loc": {
+      "de": "Dürrpilz",
+      "it": "fungo fino",
+      "nl": "dunne paddenstoel",
+      "ru": "тощенок",
+      "ja": "ほそいキノコ",
+      "ko": "가는 버섯",
+      "en": "skinny mushroom",
+      "es": "champiñón fino",
+      "fr": "champignon maigre",
+      "zh": "瘦小蘑菇"
+    }
+  },
+  "3279": {
+    "img": "FtrIcon/MushFlat",
+    "sel": 200,
+    "stk": 10,
+    "fpw": 1,
+    "src": "ground",
+    "evt": "mushroom",
+    "loc": {
+      "de": "Flachpilz",
+      "it": "fungo piatto",
+      "nl": "platte paddenstoel",
+      "ru": "плоскоежка",
+      "ja": "ひらたいキノコ",
+      "ko": "넓은 버섯",
+      "en": "flat mushroom",
+      "es": "champiñón plano",
+      "fr": "champignon plat",
+      "zh": "扁平蘑菇"
+    }
+  },
+  "3280": {
+    "img": "FtrIcon/MushRare",
+    "sel": 16000,
+    "stk": 10,
+    "fpw": 1,
+    "src": "dig_spot",
+    "evt": "mushroom",
+    "loc": {
+      "zh-cn": "珍贵蘑菇",
+      "de": "Seltenpilz",
+      "it": "fungo raro",
+      "nl": "zeldzame paddenstoel",
+      "ru": "трофейфель",
+      "ja": "めずらしいキノコ",
+      "ko": "희귀 버섯",
+      "zh-tw": "珍貴蘑菇",
+      "en": "rare mushroom",
+      "es": "champiñón raro",
+      "fr": "champignon rare"
+    }
+  },
+  "3360": {
+    "img": "GardeningIcon/PltApple4",
+    "sel": 300,
+    "src": "plant_apple",
+    "loc": {
+      "zh-cn": "苹果树",
+      "de": "Apfelbaum",
+      "it": "melo adulto",
+      "nl": "appelboom",
+      "ru": "яблоня",
+      "ja": "リンゴのき",
+      "ko": "사과나무",
+      "zh-tw": "蘋果樹",
+      "en": "apple tree",
+      "es": "manzano adulto",
+      "fr": "pommier"
+    }
+  },
+  "3365": {
+    "img": "GardeningIcon/PltOrange4",
+    "sel": 300,
+    "src": "plant_orange",
+    "loc": {
+      "zh-cn": "橘子树",
+      "de": "Orangenbaum",
+      "it": "arancio adulto",
+      "nl": "sinaasappelboom",
+      "ru": "апельсиновое дерево",
+      "ja": "オレンジのき",
+      "ko": "오렌지나무",
+      "zh-tw": "橘子樹",
+      "en": "orange tree",
+      "es": "naranjo adulto",
+      "fr": "oranger"
+    }
+  },
+  "3370": {
+    "img": "GardeningIcon/PltPear4",
+    "sel": 300,
+    "src": "plant_pear",
+    "loc": {
+      "zh-cn": "梨子树",
+      "de": "Birnbaum",
+      "it": "pero adulto",
+      "nl": "perenboom",
+      "ru": "взрослая груша",
+      "ja": "ナシのき",
+      "ko": "배나무",
+      "zh-tw": "梨子樹",
+      "en": "pear tree",
+      "es": "peral adulto",
+      "fr": "poirier"
+    }
+  },
+  "3375": {
+    "img": "GardeningIcon/PltPeach4",
+    "sel": 300,
+    "src": "plant_peach",
+    "loc": {
+      "zh-cn": "桃子树",
+      "de": "Pfirsichbaum",
+      "es-es": "melocotonero adulto",
+      "it": "pesco adulto",
+      "nl": "perzikboom",
+      "ru": "взрослый персик",
+      "ja": "モモのき",
+      "ko": "복숭아나무",
+      "zh-tw": "桃子樹",
+      "es-us": "duraznero adulto",
+      "en": "peach tree",
+      "fr": "pêcher"
+    }
+  },
+  "3381": {
+    "img": "GardeningIcon/PltCherry4",
+    "sel": 300,
+    "src": "plant_cherry",
+    "loc": {
+      "zh-cn": "樱桃树",
+      "de": "Kirschbaum",
+      "it": "ciliegio adulto",
+      "nl": "kersenboom",
+      "ru": "взрослая вишня",
+      "ja": "さくらんぼのき",
+      "ko": "체리나무",
+      "zh-tw": "櫻桃樹",
+      "en": "cherry tree",
+      "es": "cerezo adulto",
+      "fr": "cerisier"
+    }
+  },
+  "3466": {
+    "img": "FtrIcon/TrashCan",
+    "sel": 10,
+    "src": "fishing",
+    "loc": {
+      "de": "Dose",
+      "it": "lattina vuota",
+      "nl": "leeg blikje",
+      "ru": "консервная банка",
+      "ja": "あきカン",
+      "ko": "빈 통조림 캔",
+      "en": "empty can",
+      "es": "chatarra",
+      "fr": "boîte vide",
+      "zh": "空罐"
+    }
+  },
+  "3469": {
+    "img": "FtrIcon/TrashBoot",
+    "sel": 10,
+    "src": "fishing",
+    "loc": {
+      "zh-cn": "长靴",
+      "de": "Stiefel",
+      "fr-fr": "godasse",
+      "it": "scarpone",
+      "nl": "laars",
+      "ru": "башмак",
+      "ja": "ながぐつ",
+      "ko": "장화",
+      "zh-tw": "長靴",
+      "fr-us": "vieux soulier",
+      "en": "boot",
+      "es": "bota"
+    }
+  },
+  "3470": {
+    "img": "FtrIcon/TrashTire",
+    "sel": 10,
+    "src": "fishing",
+    "loc": {
+      "zh-cn": "轮胎",
+      "de": "Reifen",
+      "it": "copertone",
+      "nl": "oude band",
+      "ru": "старая покрышка",
+      "ja": "タイヤ",
+      "ko": "타이어",
+      "zh-tw": "輪胎",
+      "en": "old tire",
+      "es": "neumático",
+      "fr": "vieux pneu"
+    }
+  },
+  "3539": {
+    "img": "FtrIcon/SnowCrystal",
+    "sel": 200,
+    "stk": 10,
+    "src": "catching_net",
+    "evt": "snowflake",
+    "loc": {
+      "de": "Schneeflocke",
+      "it": "fiocco di neve",
+      "nl": "sneeuwvlok",
+      "ru": "снежинка",
+      "ja": "ゆきのけっしょう",
+      "ko": "눈의 결정",
+      "en": "snowflake",
+      "es": "copo de nieve",
+      "fr": "flocon de neige",
+      "zh": "雪花"
+    }
+  },
+  "3540": {
+    "img": "FtrIcon/SnowCrystalLarge",
+    "sel": 2500,
+    "stk": 10,
+    "src": "snowboy",
+    "evt": "snowflake",
+    "loc": {
+      "de": "Riesenschneeflocke",
+      "it": "fiocco di neve grande",
+      "nl": "grote sneeuwvlok",
+      "ru": "крупная снежинка",
+      "ja": "ゆきのだいけっしょう",
+      "ko": "커다란 눈의 결정",
+      "en": "large snowflake",
+      "es": "copo de nieve XL",
+      "fr": "grand flocon de neige",
+      "zh": "大雪花"
+    }
+  },
+  "3541": {
+    "img": "FtrIcon/FeatherRed",
+    "clr": "red",
+    "sel": 200,
+    "stk": 3,
+    "src": "catching_net",
+    "evt": "festivale",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "红色羽毛",
+      "de": "Rubinfeder",
+      "it": "piuma rossa",
+      "nl": "rode veer",
+      "ru": "красное перо",
+      "ja": "あかいはね",
+      "ko": "빨간색 깃털",
+      "zh-tw": "紅色羽毛",
+      "en": "red feather",
+      "es": "pluma roja",
+      "fr": "plume rouge"
+    }
+  },
+  "3542": {
+    "img": "FtrIcon/FeatherBlue",
+    "clr": "blue",
+    "sel": 200,
+    "stk": 3,
+    "src": "catching_net",
+    "evt": "festivale",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "蓝色羽毛",
+      "de": "Azurfeder",
+      "it": "piuma blu",
+      "nl": "blauwe veer",
+      "ru": "синее перо",
+      "ja": "あおいはね",
+      "ko": "파란색 깃털",
+      "zh-tw": "藍色羽毛",
+      "en": "blue feather",
+      "es": "pluma azul",
+      "fr": "plume bleue"
+    }
+  },
+  "3543": {
+    "img": "FtrIcon/FeatherGreen",
+    "clr": "green",
+    "sel": 200,
+    "stk": 3,
+    "src": "catching_net",
+    "evt": "festivale",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "绿色羽毛",
+      "de": "Smaragdfeder",
+      "it": "piuma verde",
+      "nl": "groene veer",
+      "ru": "зеленое перо",
+      "ja": "みどりのはね",
+      "ko": "초록색 깃털",
+      "zh-tw": "綠色羽毛",
+      "en": "green feather",
+      "es": "pluma verde",
+      "fr": "plume verte"
+    }
+  },
+  "3545": {
+    "img": "FtrIcon/FeatherPurple",
+    "clr": "purple",
+    "sel": 200,
+    "stk": 3,
+    "src": "catching_net",
+    "evt": "festivale",
+    "vad": "1.7.0",
+    "loc": {
+      "de": "Lilafeder",
+      "fr-fr": "plume violette",
+      "it": "piuma viola",
+      "nl": "paarse veer",
+      "ru": "фиолетовое перо",
+      "ja": "むらさきのはね",
+      "ko": "보라색 깃털",
+      "fr-us": "plume mauve",
+      "en": "purple feather",
+      "es": "pluma morada",
+      "zh": "紫色羽毛"
+    }
+  },
+  "3548": {
+    "img": "FtrIcon/FeatherRainbow",
+    "clr": "colorful",
+    "sel": 1600,
+    "src": [
+      "crafting",
+      "catching_net"
+    ],
+    "evt": "festivale",
+    "vad": "1.7.0",
+    "loc": {
+      "de": "Regenbogenfeder",
+      "it": "piuma arcobaleno",
+      "nl": "regenboogveer",
+      "ru": "радужное перо",
+      "ja": "にじいろのはね",
+      "ko": "무지개 깃털",
+      "en": "rainbow feather",
+      "es": "pluma arcoíris",
+      "fr": "plume irisée",
+      "zh": "彩虹羽毛"
+    }
+  },
+  "3709": {
+    "img": "FtrIcon/FlwAnemonesWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "白色银莲花",
+      "de": "Weißanemone",
+      "it": "anemone bianco",
+      "nl": "witte anemoon",
+      "ru": "белая ветреница",
+      "ja": "しろいアネモネ",
+      "ko": "하얀 아네모네",
+      "zh-tw": "白色銀蓮花",
+      "en": "white windflowers",
+      "es": "anémona blanca",
+      "fr": "anémone blanche"
+    }
+  },
+  "3710": {
+    "img": "FtrIcon/SeedAnemonesWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色银莲花球根",
+      "de": "Weißanemone (Zwiebel)",
+      "it": "anemone bianco",
+      "nl": "zakje witte anemonen",
+      "ru": "пакет с белой ветреницей",
+      "ja": "しろいアネモネのきゅうこん",
+      "ko": "하얀 아네모네의 구근",
+      "zh-tw": "白色銀蓮花球根",
+      "en": "white-windflower bag",
+      "es": "anémona blanca",
+      "fr": "sac d'anémones blanches"
+    }
+  },
+  "3713": {
+    "img": "FtrIcon/FlwAnemonesOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "橘色银莲花",
+      "de": "Orangeanemone",
+      "it": "anemone arancione",
+      "nl": "oranje anemoon",
+      "ru": "оранжевая ветреница",
+      "ja": "オレンジのアネモネ",
+      "ko": "오렌지색 아네모네",
+      "zh-tw": "橘色銀蓮花",
+      "en": "orange windflowers",
+      "es": "anémona naranja",
+      "fr": "anémone orange"
+    }
+  },
+  "3714": {
+    "img": "FtrIcon/SeedAnemonesOrange",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "橘色银莲花球根",
+      "de": "Orangeanemone (Zwiebel)",
+      "it": "anemone arancione",
+      "nl": "zakje oranje anemonen",
+      "ru": "пакет с ор. ветреницей",
+      "ja": "オレンジのアネモネのきゅうこん",
+      "ko": "오렌지색 아네모네의 구근",
+      "zh-tw": "橘色銀蓮花球根",
+      "en": "orange-windflower bag",
+      "es": "anémona naranja",
+      "fr": "sac d'anémones orange"
+    }
+  },
+  "3717": {
+    "img": "FtrIcon/FlwAnemonesBlue",
+    "clr": [
+      "blue",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "蓝色银莲花",
+      "de": "Blauanemone",
+      "it": "anemone blu",
+      "nl": "blauwe anemoon",
+      "ru": "синяя ветреница",
+      "ja": "あおいアネモネ",
+      "ko": "파란 아네모네",
+      "zh-tw": "藍色銀蓮花",
+      "en": "blue windflowers",
+      "es": "anémona azul",
+      "fr": "anémone bleue"
+    }
+  },
+  "3720": {
+    "img": "FtrIcon/FlwAnemonesPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红银莲花",
+      "de": "Pinkanemone",
+      "it": "anemone rosa",
+      "nl": "roze anemoon",
+      "ru": "розовая ветреница",
+      "ja": "ピンクのアネモネ",
+      "ko": "핑크색 아네모네",
+      "zh-tw": "粉紅銀蓮花",
+      "en": "pink windflowers",
+      "es": "anémona rosa",
+      "fr": "anémone rose"
+    }
+  },
+  "3723": {
+    "img": "FtrIcon/FlwAnemonesRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色银莲花",
+      "de": "Rotanemone",
+      "it": "anemone rosso",
+      "nl": "rode anemoon",
+      "ru": "красная ветреница",
+      "ja": "あかいアネモネ",
+      "ko": "빨간 아네모네",
+      "zh-tw": "紅色銀蓮花",
+      "en": "red windflowers",
+      "es": "anémona roja",
+      "fr": "anémone rouge"
+    }
+  },
+  "3724": {
+    "img": "FtrIcon/SeedAnemonesRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色银莲花球根",
+      "de": "Rotanemone (Zwiebel)",
+      "it": "anemone rosso",
+      "nl": "zakje rode anemonen",
+      "ru": "пакет с кр. ветреницей",
+      "ja": "あかいアネモネのきゅうこん",
+      "ko": "빨간 아네모네의 구근",
+      "zh-tw": "紅色銀蓮花球根",
+      "en": "red-windflower bag",
+      "es": "anémona roja",
+      "fr": "sac d'anémones rouges"
+    }
+  },
+  "3727": {
+    "img": "FtrIcon/FlwAnemonesPurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "紫色银莲花",
+      "de": "Purpuranemone",
+      "es-es": "anémona violeta",
+      "it": "anemone indaco",
+      "nl": "paarse anemoon",
+      "ru": "фиолетовая ветреница",
+      "ja": "むらさきのアネモネ",
+      "ko": "보라색 아네모네",
+      "zh-tw": "紫色銀蓮花",
+      "es-us": "anémona morada",
+      "en": "purple windflowers",
+      "fr": "anémone mauve"
+    }
+  },
+  "3730": {
+    "img": "FtrIcon/FlwHyacinthWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "白色风信子",
+      "de": "Weißhyazinthe",
+      "it": "giacinto bianco",
+      "nl": "witte hyacint",
+      "ru": "белый гиацинт",
+      "ja": "しろいヒヤシンス",
+      "ko": "하얀 히아신스",
+      "zh-tw": "白色風信子",
+      "en": "white hyacinths",
+      "es": "jacinto blanco",
+      "fr": "jacinthe blanche"
+    }
+  },
+  "3731": {
+    "img": "FtrIcon/SeedHyacinthWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色风信子球根",
+      "de": "Weißhyazinthe (Zwiebel)",
+      "it": "giacinto bianco",
+      "nl": "zakje witte hyacinten",
+      "ru": "пакет с белым гиацинтом",
+      "ja": "しろいヒヤシンスのきゅうこん",
+      "ko": "하얀 히아신스의 구근",
+      "zh-tw": "白色風信子球根",
+      "en": "white-hyacinth bag",
+      "es": "jacinto blanco",
+      "fr": "sac de jacinthes blanches"
+    }
+  },
+  "3734": {
+    "img": "FtrIcon/FlwHyacinthYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色风信子",
+      "de": "Gelbhyazinthe",
+      "it": "giacinto giallo",
+      "nl": "gele hyacint",
+      "ru": "желтый гиацинт",
+      "ja": "きいろいヒヤシンス",
+      "ko": "노란 히아신스",
+      "zh-tw": "黃色風信子",
+      "en": "yellow hyacinths",
+      "es": "jacinto amarillo",
+      "fr": "jacinthe jaune"
+    }
+  },
+  "3735": {
+    "img": "FtrIcon/SeedHyacinthYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色风信子球根",
+      "de": "Gelbhyazinthe (Zwiebel)",
+      "it": "giacinto giallo",
+      "nl": "zakje gele hyacinten",
+      "ru": "пакет с желт. гиацинтом",
+      "ja": "きいろいヒヤシンスのきゅうこん",
+      "ko": "노란 히아신스의 구근",
+      "zh-tw": "黃色風信子球根",
+      "en": "yellow-hyacinth bag",
+      "es": "jacinto amarillo",
+      "fr": "sac de jacinthes jaunes"
+    }
+  },
+  "3738": {
+    "img": "FtrIcon/FlwHyacinthPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红风信子",
+      "de": "Rosahyazinthe",
+      "it": "giacinto rosa",
+      "nl": "roze hyacint",
+      "ru": "розовый гиацинт",
+      "ja": "ピンクのヒヤシンス",
+      "ko": "핑크색 히아신스",
+      "zh-tw": "粉紅風信子",
+      "en": "pink hyacinths",
+      "es": "jacinto rosa",
+      "fr": "jacinthe rose"
+    }
+  },
+  "3741": {
+    "img": "FtrIcon/FlwHyacinthOrange",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "橘色风信子",
+      "de": "Orangehyazinthe",
+      "it": "giacinto arancione",
+      "nl": "oranje hyacint",
+      "ru": "оранжевый гиацинт",
+      "ja": "オレンジのヒヤシンス",
+      "ko": "오렌지색 히아신스",
+      "zh-tw": "橘色風信子",
+      "en": "orange hyacinths",
+      "es": "jacinto naranja",
+      "fr": "jacinthe orange"
+    }
+  },
+  "3744": {
+    "img": "FtrIcon/FlwHyacinthRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色风信子",
+      "de": "Rothyazinthe",
+      "it": "giacinto rosso",
+      "nl": "rode hyacint",
+      "ru": "красный гиацинт",
+      "ja": "あかいヒヤシンス",
+      "ko": "빨간 히아신스",
+      "zh-tw": "紅色風信子",
+      "en": "red hyacinths",
+      "es": "jacinto rojo",
+      "fr": "jacinthe rouge"
+    }
+  },
+  "3745": {
+    "img": "FtrIcon/SeedHyacinthRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色风信子球根",
+      "de": "Rothyazinthe (Zwiebel)",
+      "it": "giacinto rosso",
+      "nl": "zakje rode hyacinten",
+      "ru": "пакет с красн. гиацинтом",
+      "ja": "あかいヒヤシンスのきゅうこん",
+      "ko": "빨간 히아신스의 구근",
+      "zh-tw": "紅色風信子球根",
+      "en": "red-hyacinth bag",
+      "es": "jacinto rojo",
+      "fr": "sac de jacinthes rouges"
+    }
+  },
+  "3748": {
+    "img": "FtrIcon/FlwHyacinthBlue",
+    "clr": [
+      "blue",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "蓝色风信子",
+      "de": "Blauhyazinthe",
+      "it": "giacinto blu",
+      "nl": "blauwe hyacint",
+      "ru": "синий гиацинт",
+      "ja": "あおいヒヤシンス",
+      "ko": "파란 히아신스",
+      "zh-tw": "藍色風信子",
+      "en": "blue hyacinths",
+      "es": "jacinto azul",
+      "fr": "jacinthe bleue"
+    }
+  },
+  "3751": {
+    "img": "FtrIcon/FlwHyacinthPurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "紫色风信子",
+      "de": "Purpurhyazinthe",
+      "es-es": "jacinto violeta",
+      "it": "giacinto indaco",
+      "nl": "paarse hyacint",
+      "ru": "фиолетовый гиацинт",
+      "ja": "むらさきのヒヤシンス",
+      "ko": "보라색 히아신스",
+      "zh-tw": "紫色風信子",
+      "es-us": "jacinto morado",
+      "en": "purple hyacinths",
+      "fr": "jacinthe mauve"
+    }
+  },
+  "3754": {
+    "img": "FtrIcon/FlwMumWhite",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Weißchrysantheme",
+      "it": "crisantemo bianco",
+      "nl": "witte chrysant",
+      "ru": "белая хризантема",
+      "ja": "しろいキク",
+      "ko": "하얀 국화",
+      "en": "white mums",
+      "es": "crisantemo blanco",
+      "fr": "chrysanthème blanc",
+      "zh": "白色菊花"
+    }
+  },
+  "3755": {
+    "img": "FtrIcon/SeedMumWhite",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "白色菊花种子",
+      "de": "Weißchrysantheme (Samen)",
+      "it": "crisantemo bianco",
+      "nl": "zakje witte chrysanten",
+      "ru": "пакет с бел. хризантемой",
+      "ja": "しろいキクのたね",
+      "ko": "하얀 국화의 씨앗",
+      "zh-tw": "白色菊花種子",
+      "en": "white-mum bag",
+      "es": "crisantemo blanco",
+      "fr": "sac chrysanthèmes blancs"
+    }
+  },
+  "3758": {
+    "img": "FtrIcon/FlwMumYellow",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "黄色菊花",
+      "de": "Gelbchrysantheme",
+      "it": "crisantemo giallo",
+      "nl": "gele chrysant",
+      "ru": "желтая хризантема",
+      "ja": "きいろいキク",
+      "ko": "노란 국화",
+      "zh-tw": "黃色菊花",
+      "en": "yellow mums",
+      "es": "crisantemo amarillo",
+      "fr": "chrysanthème jaune"
+    }
+  },
+  "3759": {
+    "img": "FtrIcon/SeedMumYellow",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "黄色菊花种子",
+      "de": "Gelbchrysantheme (Samen)",
+      "it": "crisantemo giallo",
+      "nl": "zakje gele chrysanten",
+      "ru": "пакет с ж. хризантемой",
+      "ja": "きいろいキクのたね",
+      "ko": "노란 국화의 씨앗",
+      "zh-tw": "黃色菊花種子",
+      "en": "yellow-mum bag",
+      "es": "crisantemo amarillo",
+      "fr": "sac chrysanthèmes jaunes"
+    }
+  },
+  "3762": {
+    "img": "FtrIcon/FlwMumPurple",
+    "clr": [
+      "purple",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "de": "Lilachrysantheme",
+      "es-es": "crisantemo violeta",
+      "it": "crisantemo indaco",
+      "nl": "paarse chrysant",
+      "ru": "фиолетовая хризантема",
+      "ja": "むらさきのキク",
+      "ko": "보라색 국화",
+      "es-us": "crisantemo morado",
+      "en": "purple mums",
+      "fr": "chrysanthème mauve",
+      "zh": "紫色菊花"
+    }
+  },
+  "3765": {
+    "img": "FtrIcon/FlwMumPink",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 80,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "粉红菊花",
+      "de": "Rosachrysantheme",
+      "it": "crisantemo rosa",
+      "nl": "roze chrysant",
+      "ru": "розовая хризантема",
+      "ja": "ピンクのキク",
+      "ko": "핑크색 국화",
+      "zh-tw": "粉紅菊花",
+      "en": "pink mums",
+      "es": "crisantemo rosa",
+      "fr": "chrysanthème rose"
+    }
+  },
+  "3768": {
+    "img": "FtrIcon/FlwMumRed",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 40,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "红色菊花",
+      "de": "Rotchrysantheme",
+      "it": "crisantemo rosso",
+      "nl": "rode chrysant",
+      "ru": "красная хризантема",
+      "ja": "あかいキク",
+      "ko": "빨간 국화",
+      "zh-tw": "紅色菊花",
+      "en": "red mums",
+      "es": "crisantemo rojo",
+      "fr": "chrysanthème rouge"
+    }
+  },
+  "3769": {
+    "img": "FtrIcon/SeedMumRed",
+    "sel": 60,
+    "buy": 240,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "loc": {
+      "zh-cn": "红色菊花种子",
+      "de": "Rotchrysantheme (Samen)",
+      "it": "crisantemo rosso",
+      "nl": "zakje rode chrysanten",
+      "ru": "пакет с кр. хризантемой",
+      "ja": "あかいキクのたね",
+      "ko": "빨간 국화의 씨앗",
+      "zh-tw": "紅色菊花種子",
+      "en": "red-mum bag",
+      "es": "crisantemo rojo",
+      "fr": "sac chrysanthèmes rouges"
+    }
+  },
+  "3786": {
+    "img": "ShopPlant/SeedAzaleaPink",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "azalea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红杜鹃花苗",
+      "de": "Heckenazaleensetzling",
+      "it": "germoglio di azalea rosa",
+      "nl": "roze-azalea-zaailing",
+      "ru": "побег розовой азалии",
+      "ja": "ピンクのツツジのなえ",
+      "ko": "핑크색 진달래 묘목",
+      "zh-tw": "粉紅杜鵑花苗",
+      "en": "pink-azalea start",
+      "es": "azalea rosa de vivero",
+      "fr": "pousse d'azalée rose"
+    }
+  },
+  "3788": {
+    "img": "GardeningIcon/PltAzaleaPink2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "azalea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红杜鹃花树",
+      "de": "Heckenazalee",
+      "it": "azalea rosa adulta",
+      "nl": "roze azalea",
+      "ru": "куст розовой азалии",
+      "ja": "ピンクのツツジのき",
+      "ko": "핑크색 진달래나무",
+      "zh-tw": "粉紅杜鵑花樹",
+      "en": "pink-azalea bush",
+      "es": "azalea rosa adulta",
+      "fr": "buisson d'azalée rose"
+    }
+  },
+  "3790": {
+    "img": "ShopPlant/SeedHibiscusYellow",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "hibiscus",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "黄色扶桑花苗",
+      "de": "Sommerhibiskussetzling",
+      "it": "germoglio di ibisco giallo",
+      "nl": "gele-hibiscus-zaailing",
+      "ru": "побег желтого гибискуса",
+      "ja": "きいろいハイビスカスのなえ",
+      "ko": "노란 히비스커스 묘목",
+      "zh-tw": "黃色扶桑花苗",
+      "en": "yellow-hibiscus start",
+      "es": "hibisco amarillo de vivero",
+      "fr": "pousse d'hibiscus jaune"
+    }
+  },
+  "3792": {
+    "img": "GardeningIcon/PltHibiscusYellow2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "hibiscus",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "黄色扶桑花树",
+      "de": "Sommerhibiskus",
+      "it": "ibisco giallo adulto",
+      "nl": "gele hibiscus",
+      "ru": "куст желтого гибискуса",
+      "ja": "きいろいハイビスカスのき",
+      "ko": "노란 히비스커스나무",
+      "zh-tw": "黃色扶桑花樹",
+      "en": "yellow-hibiscus bush",
+      "es": "hibisco amarillo adulto",
+      "fr": "buisson d'hibiscus jaune"
+    }
+  },
+  "3794": {
+    "img": "ShopPlant/SeedHydrangeaPink",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "hydrangea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红绣球花苗",
+      "de": "Abendhortensiensetzling",
+      "it": "germoglio di ortensia viola",
+      "nl": "roze-hortensia-zaailing",
+      "ru": "побег розовой гортензии",
+      "ja": "ピンクのアジサイのなえ",
+      "ko": "핑크색 수국 묘목",
+      "zh-tw": "粉紅繡球花苗",
+      "en": "pink-hydrangea start",
+      "es": "hortensia rosa de vivero",
+      "fr": "pousse d'hortensia rose"
+    }
+  },
+  "3796": {
+    "img": "GardeningIcon/PltHydrangeaPink2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "hydrangea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红绣球花树",
+      "de": "Abendhortensie",
+      "it": "ortensia viola adulta",
+      "nl": "roze hortensia",
+      "ru": "куст розовой гортензии",
+      "ja": "ピンクのアジサイのき",
+      "ko": "핑크색 수국나무",
+      "zh-tw": "粉紅繡球花樹",
+      "en": "pink-hydrangea bush",
+      "es": "hortensia rosa adulta",
+      "fr": "buisson d'hortensia rose"
+    }
+  },
+  "3798": {
+    "img": "ShopPlant/SeedHydrangeaBlue",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "hydrangea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "蓝色绣球花苗",
+      "de": "Seehortensiensetzling",
+      "it": "germoglio di ortensia blu",
+      "nl": "blauwe-hortensia-zaailing",
+      "ru": "побег синей гортензии",
+      "ja": "あおいアジサイのなえ",
+      "ko": "파란 수국 묘목",
+      "zh-tw": "藍色繡球花苗",
+      "en": "blue-hydrangea start",
+      "es": "hortensia azul de vivero",
+      "fr": "pousse d'hortensia bleu"
+    }
+  },
+  "3800": {
+    "img": "GardeningIcon/PltHydrangeaBlue2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "hydrangea",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "蓝色绣球花树",
+      "de": "Seehortensie",
+      "it": "ortensia blu adulta",
+      "nl": "blauwe hortensia",
+      "ru": "куст синей гортензии",
+      "ja": "あおいアジサイのき",
+      "ko": "파란 수국나무",
+      "zh-tw": "藍色繡球花樹",
+      "en": "blue-hydrangea bush",
+      "es": "hortensia azul adulta",
+      "fr": "buisson d'hortensia bleu"
+    }
+  },
+  "3824": {
+    "img": "GardeningIcon/PltCosmosRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色波斯菊花株",
+      "de": "Rotcosmea (Pflanze)",
+      "it": "pianta di cosmea rossa",
+      "nl": "rode cosmea's in bloei",
+      "ru": "растение красная космея",
+      "ja": "あかいコスモスのかぶ",
+      "ko": "빨간 코스모스 모종",
+      "zh-tw": "紅色波斯菊花株",
+      "en": "red-cosmos plant",
+      "es": "mata de cosmos rojo",
+      "fr": "pied de cosmos rouges"
+    }
+  },
+  "3826": {
+    "img": "GardeningIcon/PltCosmosWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "de": "Weißcosmea (Pflanze)",
+      "it": "pianta di cosmea bianca",
+      "nl": "witte cosmea's in bloei",
+      "ru": "растение белая космея",
+      "ja": "しろいコスモスのかぶ",
+      "ko": "하얀 코스모스 모종",
+      "en": "white-cosmos plant",
+      "es": "mata de cosmos blanco",
+      "fr": "pied de cosmos blancs",
+      "zh": "白色波斯菊花株"
+    }
+  },
+  "3828": {
+    "img": "GardeningIcon/PltCosmosYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色波斯菊花株",
+      "de": "Gelbcosmea (Pflanze)",
+      "it": "pianta di cosmea gialla",
+      "nl": "gele cosmea's in bloei",
+      "ru": "растение желтая космея",
+      "ja": "きいろいコスモスのかぶ",
+      "ko": "노란 코스모스 모종",
+      "zh-tw": "黃色波斯菊花株",
+      "en": "yellow-cosmos plant",
+      "es": "mata de cosmos amarillo",
+      "fr": "pied de cosmos jaunes"
+    }
+  },
+  "3830": {
+    "img": "GardeningIcon/PltCosmosPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红波斯菊花株",
+      "de": "Pinkcosmea (Pflanze)",
+      "it": "pianta di cosmea rosa",
+      "nl": "roze cosmea's in bloei",
+      "ru": "растение розовая космея",
+      "ja": "ピンクのコスモスのかぶ",
+      "ko": "핑크색 코스모스 모종",
+      "zh-tw": "粉紅波斯菊花株",
+      "en": "pink-cosmos plant",
+      "es": "mata de cosmos rosa",
+      "fr": "pied de cosmos roses"
+    }
+  },
+  "3832": {
+    "img": "GardeningIcon/PltCosmosOrange3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "de": "Orangecosmea (Pflanze)",
+      "it": "pianta di cosmea arancione",
+      "nl": "oranje cosmea's in bloei",
+      "ru": "растение оранжев. космея",
+      "ja": "オレンジのコスモスのかぶ",
+      "ko": "오렌지색 코스모스 모종",
+      "en": "orange-cosmos plant",
+      "es": "mata de cosmos naranja",
+      "fr": "pied de cosmos orange",
+      "zh": "橘色波斯菊花株"
+    }
+  },
+  "3834": {
+    "img": "GardeningIcon/PltCosmosBlack3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "de": "Schwarzcosmea (Pflanze)",
+      "it": "pianta di cosmea nera",
+      "nl": "zwarte cosmea's in bloei",
+      "ru": "растение черная космея",
+      "ja": "くろいコスモスのかぶ",
+      "ko": "검정 코스모스 모종",
+      "en": "black-cosmos plant",
+      "es": "mata de cosmos negro",
+      "fr": "pied de cosmos noirs",
+      "zh": "黑色波斯菊花株"
+    }
+  },
+  "3836": {
+    "img": "GardeningIcon/PltTulipWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "白色郁金香花株",
+      "de": "Triumphtulpe (Pflanze)",
+      "it": "pianta di tulipano bianco",
+      "nl": "witte tulpen in bloei",
+      "ru": "растение белый тюльпан",
+      "ja": "しろいチューリップのかぶ",
+      "ko": "하얀 튤립 모종",
+      "zh-tw": "白色鬱金香花株",
+      "en": "white-tulip plant",
+      "es": "mata de tulipán blanco",
+      "fr": "pied de tulipes blanches"
+    }
+  },
+  "3838": {
+    "img": "GardeningIcon/PltTulipRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色郁金香花株",
+      "de": "Papageitulpe (Pflanze)",
+      "it": "pianta di tulipano rosso",
+      "nl": "rode tulpen in bloei",
+      "ru": "растение красн. тюльпан",
+      "ja": "あかいチューリップのかぶ",
+      "ko": "빨간 튤립 모종",
+      "zh-tw": "紅色鬱金香花株",
+      "en": "red-tulip plant",
+      "es": "mata de tulipán rojo",
+      "fr": "pied de tulipes rouges"
+    }
+  },
+  "3840": {
+    "img": "GardeningIcon/PltTulipYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色郁金香花株",
+      "de": "Viridifloratulpe (Pflanze)",
+      "it": "pianta di tulipano giallo",
+      "nl": "gele tulpen in bloei",
+      "ru": "растение желтый тюльпан",
+      "ja": "きいろいチューリップのかぶ",
+      "ko": "노란 튤립 모종",
+      "zh-tw": "黃色鬱金香花株",
+      "en": "yellow-tulip plant",
+      "es": "mata de tulipán amarillo",
+      "fr": "pied de tulipes jaunes"
+    }
+  },
+  "3842": {
+    "img": "GardeningIcon/PltTulipPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红郁金香花株",
+      "de": "Grengjer-Tulpe (Pflanze)",
+      "it": "pianta di tulipano rosa",
+      "nl": "roze tulpen in bloei",
+      "ru": "растение розов. тюльпан",
+      "ja": "ピンクのチューリップのかぶ",
+      "ko": "핑크색 튤립 모종",
+      "zh-tw": "粉紅鬱金香花株",
+      "en": "pink-tulip plant",
+      "es": "mata de tulipán rosa",
+      "fr": "pied de tulipes roses"
+    }
+  },
+  "3844": {
+    "img": "GardeningIcon/PltTulipOrange3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "橘色郁金香花株",
+      "de": "Flachlandtulpe (Pflanze)",
+      "it": "pianta di tulipano arancione",
+      "nl": "oranje tulpen in bloei",
+      "ru": "растение оранж. тюльпан",
+      "ja": "オレンジのチューリップのかぶ",
+      "ko": "오렌지색 튤립 모종",
+      "zh-tw": "橘色鬱金香花株",
+      "en": "orange-tulip plant",
+      "es": "mata de tulipán naranja",
+      "fr": "pied de tulipes orange"
+    }
+  },
+  "3846": {
+    "img": "GardeningIcon/PltTulipPurple3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "紫色郁金香花株",
+      "de": "Wildtulpe (Pflanze)",
+      "es-es": "mata de tulipán violeta",
+      "it": "pianta di tulipano indaco",
+      "nl": "paarse tulpen in bloei",
+      "ru": "растение фиолет. тюльпан",
+      "ja": "むらさきのチューリップのかぶ",
+      "ko": "보라색 튤립 모종",
+      "zh-tw": "紫色鬱金香花株",
+      "es-us": "mata de tulipán morado",
+      "en": "purple-tulip plant",
+      "fr": "pied de tulipes mauves"
+    }
+  },
+  "3848": {
+    "img": "GardeningIcon/PltTulipBlack3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "黑色郁金香花株",
+      "de": "Römertulpe (Pflanze)",
+      "it": "pianta di tulipano nero",
+      "nl": "zwarte tulpen in bloei",
+      "ru": "растение черный тюльпан",
+      "ja": "くろいチューリップのかぶ",
+      "ko": "검정 튤립 모종",
+      "zh-tw": "黑色鬱金香花株",
+      "en": "black-tulip plant",
+      "es": "mata de tulipán negro",
+      "fr": "pied de tulipes noires"
+    }
+  },
+  "3850": {
+    "img": "GardeningIcon/PltPansyWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "de": "Pfingstveilchen (Pflanze)",
+      "it": "pianta di viola bianca",
+      "nl": "witte viooltjes in bloei",
+      "ru": "растение белая фиалка",
+      "ja": "しろいパンジーのかぶ",
+      "ko": "하얀 팬지 모종",
+      "en": "white-pansy plant",
+      "es": "mata de viola blanca",
+      "fr": "pied de pensées blanches",
+      "zh": "白色三色堇花株"
+    }
+  },
+  "3852": {
+    "img": "GardeningIcon/PltPansyRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色三色堇花株",
+      "de": "Alpenveilchen (Pflanze)",
+      "it": "pianta di viola rossa",
+      "nl": "rode viooltjes in bloei",
+      "ru": "растение красная фиалка",
+      "ja": "あかいパンジーのかぶ",
+      "ko": "빨간 팬지 모종",
+      "zh-tw": "紅色三色堇花株",
+      "en": "red-pansy plant",
+      "es": "mata de viola roja",
+      "fr": "pied de pensées rouges"
+    }
+  },
+  "3854": {
+    "img": "GardeningIcon/PltPansyYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色三色堇花株",
+      "de": "Hornveilchen (Pflanze)",
+      "it": "pianta di viola gialla",
+      "nl": "gele viooltjes in bloei",
+      "ru": "растение желтая фиалка",
+      "ja": "きいろいパンジーのかぶ",
+      "ko": "노란 팬지 모종",
+      "zh-tw": "黃色三色堇花株",
+      "en": "yellow-pansy plant",
+      "es": "mata de viola amarilla",
+      "fr": "pied de pensées jaunes"
+    }
+  },
+  "3856": {
+    "img": "GardeningIcon/PltPansyRedYellow3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "红黄三色堇花株",
+      "de": "Stiefmütterchen (Pflanze)",
+      "it": "pianta di viola arancione",
+      "nl": "oranje viooltjes in bloei",
+      "ru": "растение оранжев. фиалка",
+      "ja": "あかきいろパンジーのかぶ",
+      "ko": "2색 팬지 모종",
+      "zh-tw": "紅黃三色堇花株",
+      "en": "orange-pansy plant",
+      "es": "mata de viola roja/amarilla",
+      "fr": "pied de pensées orange"
+    }
+  },
+  "3858": {
+    "img": "GardeningIcon/PltPansyPurple3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "de": "Hainveilchen (Pflanze)",
+      "es-es": "mata de viola violeta",
+      "it": "pianta di viola indaco",
+      "nl": "paarse viooltjes in bloei",
+      "ru": "растение фиолет. фиалка",
+      "ja": "むらさきのパンジーのかぶ",
+      "ko": "보라색 팬지 모종",
+      "es-us": "mata de viola morada",
+      "en": "purple-pansy plant",
+      "fr": "pied de pensées mauves",
+      "zh": "紫色三色堇花株"
+    }
+  },
+  "3860": {
+    "img": "GardeningIcon/PltPansyBlue3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "蓝色三色堇花株",
+      "de": "Duftveilchen (Pflanze)",
+      "it": "pianta di viola blu",
+      "nl": "blauwe viooltjes in bloei",
+      "ru": "растение синяя фиалка",
+      "ja": "あおいパンジーのかぶ",
+      "ko": "파란 팬지 모종",
+      "zh-tw": "藍色三色堇花株",
+      "en": "blue-pansy plant",
+      "es": "mata de viola azul",
+      "fr": "pied de pensées bleues"
+    }
+  },
+  "3862": {
+    "img": "GardeningIcon/PltRoseWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "de": "Unschuldsrose (Pflanze)",
+      "it": "pianta di rosa bianca",
+      "nl": "witte rozen in bloei",
+      "ru": "растение белая роза",
+      "ja": "しろいバラのかぶ",
+      "ko": "하얀 장미 모종",
+      "en": "white-rose plant",
+      "es": "mata de rosa blanca",
+      "fr": "pied de roses blanches",
+      "zh": "白色玫瑰花株"
+    }
+  },
+  "3864": {
+    "img": "GardeningIcon/PltRoseRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色玫瑰花株",
+      "de": "Liebesrose (Pflanze)",
+      "it": "pianta di rosa rossa",
+      "nl": "rode rozen in bloei",
+      "ru": "растение красная роза",
+      "ja": "あかいバラのかぶ",
+      "ko": "빨간 장미 모종",
+      "zh-tw": "紅色玫瑰花株",
+      "en": "red-rose plant",
+      "es": "mata de rosa roja",
+      "fr": "pied de roses rouges"
+    }
+  },
+  "3866": {
+    "img": "GardeningIcon/PltRoseYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色玫瑰花株",
+      "de": "Bernsteinrose (Pflanze)",
+      "it": "pianta di rosa gialla",
+      "nl": "gele rozen in bloei",
+      "ru": "растение желтая роза",
+      "ja": "きいろいバラのかぶ",
+      "ko": "노란 장미 모종",
+      "zh-tw": "黃色玫瑰花株",
+      "en": "yellow-rose plant",
+      "es": "mata de rosa amarilla",
+      "fr": "pied de roses jaunes"
+    }
+  },
+  "3868": {
+    "img": "GardeningIcon/PltRosePink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红玫瑰花株",
+      "de": "Pinkrose (Pflanze)",
+      "it": "pianta di rosa rosa",
+      "nl": "roze rozen in bloei",
+      "ru": "растение розовая роза",
+      "ja": "ピンクのバラのかぶ",
+      "ko": "핑크색 장미 모종",
+      "zh-tw": "粉紅玫瑰花株",
+      "en": "pink-rose plant",
+      "es": "mata de rosa rosada",
+      "fr": "pied de roses roses"
+    }
+  },
+  "3870": {
+    "img": "GardeningIcon/PltRoseOrange3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "de": "Sonnenrose (Pflanze)",
+      "it": "pianta di rosa arancione",
+      "nl": "oranje rozen in bloei",
+      "ru": "растение оранжевая роза",
+      "ja": "オレンジのバラのかぶ",
+      "ko": "오렌지색 장미 모종",
+      "en": "orange-rose plant",
+      "es": "mata de rosa naranja",
+      "fr": "pied de roses orange",
+      "zh": "橘色玫瑰花株"
+    }
+  },
+  "3872": {
+    "img": "GardeningIcon/PltRosePurple3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "de": "Lilarose (Pflanze)",
+      "es-es": "mata de rosa malva",
+      "it": "pianta di rosa indaco",
+      "nl": "paarse rozen in bloei",
+      "ru": "растение фиолетовая роза",
+      "ja": "むらさきのバラのかぶ",
+      "ko": "보라색 장미 모종",
+      "es-us": "mata de rosa morada",
+      "en": "purple-rose plant",
+      "fr": "pied de roses mauves",
+      "zh": "紫色玫瑰花株"
+    }
+  },
+  "3874": {
+    "img": "GardeningIcon/PltRoseBlack3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "de": "Schwarzrose (Pflanze)",
+      "it": "pianta di rosa nera",
+      "nl": "zwarte rozen in bloei",
+      "ru": "растение черная роза",
+      "ja": "くろいバラのかぶ",
+      "ko": "검정 장미 모종",
+      "en": "black-rose plant",
+      "es": "mata de rosa negra",
+      "fr": "pied de roses noires",
+      "zh": "黑色玫瑰花株"
+    }
+  },
+  "3876": {
+    "img": "GardeningIcon/PltRoseBlue3",
+    "sel": 1000,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "蓝色玫瑰花株",
+      "de": "Blaurose (Pflanze)",
+      "it": "pianta di rosa blu",
+      "nl": "blauwe rozen in bloei",
+      "ru": "растение синяя роза",
+      "ja": "あおいバラのかぶ",
+      "ko": "파란 장미 모종",
+      "zh-tw": "藍色玫瑰花株",
+      "en": "blue-rose plant",
+      "es": "mata de rosa azul",
+      "fr": "pied de roses bleues"
+    }
+  },
+  "3878": {
+    "img": "GardeningIcon/PltRoseGold3",
+    "sel": 1000,
+    "src": "breeding",
+    "loc": {
+      "de": "Goldrose (Pflanze)",
+      "it": "pianta di rosa d'oro",
+      "nl": "gouden rozen in bloei",
+      "ru": "растение золотая роза",
+      "ja": "きんのバラのかぶ",
+      "ko": "금장미 모종",
+      "en": "gold-rose plant",
+      "es": "mata de rosa dorada",
+      "fr": "pied de roses dorées",
+      "zh": "金色玫瑰花株"
+    }
+  },
+  "3886": {
+    "img": "GardeningIcon/PltYuriWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "de": "Osterlilie (Pflanze)",
+      "it": "pianta di giglio bianco",
+      "nl": "witte lelies in bloei",
+      "ru": "растение белая лилия",
+      "ja": "しろいユリのかぶ",
+      "ko": "하얀 백합 모종",
+      "en": "white-lily plant",
+      "es": "mata de lirio blanco",
+      "fr": "pied de lys blancs",
+      "zh": "白色百合花株"
+    }
+  },
+  "3888": {
+    "img": "GardeningIcon/PltYuriRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色百合花株",
+      "de": "Rotlilie (Pflanze)",
+      "it": "pianta di giglio rosso",
+      "nl": "rode lelies in bloei",
+      "ru": "растение красная лилия",
+      "ja": "あかいユリのかぶ",
+      "ko": "빨간 백합 모종",
+      "zh-tw": "紅色百合花株",
+      "en": "red-lily plant",
+      "es": "mata de lirio rojo",
+      "fr": "pied de lys rouges"
+    }
+  },
+  "3890": {
+    "img": "GardeningIcon/PltYuriYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色百合花株",
+      "de": "Pyrenäenlilie (Pflanze)",
+      "it": "pianta di giglio giallo",
+      "nl": "gele lelies in bloei",
+      "ru": "растение желтая лилия",
+      "ja": "きいろいユリのかぶ",
+      "ko": "노란 백합 모종",
+      "zh-tw": "黃色百合花株",
+      "en": "yellow-lily plant",
+      "es": "mata de lirio amarillo",
+      "fr": "pied de lys jaunes"
+    }
+  },
+  "3892": {
+    "img": "GardeningIcon/PltYuriPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红百合花株",
+      "de": "Türkenbundlilie (Pflanze)",
+      "it": "pianta di giglio rosa",
+      "nl": "roze lelies in bloei",
+      "ru": "растение розовая лилия",
+      "ja": "ピンクのユリのかぶ",
+      "ko": "핑크색 백합 모종",
+      "zh-tw": "粉紅百合花株",
+      "en": "pink-lily plant",
+      "es": "mata de lirio rosa",
+      "fr": "pied de lys roses"
+    }
+  },
+  "3894": {
+    "img": "GardeningIcon/PltYuriOrange3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "de": "Feuerlilie (Pflanze)",
+      "it": "pianta di giglio arancione",
+      "nl": "oranje lelies in bloei",
+      "ru": "растение оранжевая лилия",
+      "ja": "オレンジのユリのかぶ",
+      "ko": "오렌지색 백합 모종",
+      "en": "orange-lily plant",
+      "es": "mata de lirio naranja",
+      "fr": "pied de lys orange",
+      "zh": "橘色百合花株"
+    }
+  },
+  "3896": {
+    "img": "GardeningIcon/PltYuriBlack3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "de": "Dunkellilie (Pflanze)",
+      "it": "pianta di giglio nero",
+      "nl": "zwarte lelies in bloei",
+      "ru": "растение черная лилия",
+      "ja": "くろいユリのかぶ",
+      "ko": "검정 백합 모종",
+      "en": "black-lily plant",
+      "es": "mata de lirio negro",
+      "fr": "pied de lys noirs",
+      "zh": "黑色百合花株"
+    }
+  },
+  "3898": {
+    "img": "GardeningIcon/PltAnemonesWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "白色银莲花花株",
+      "de": "Weißanemone (Pflanze)",
+      "it": "pianta di anemone bianco",
+      "nl": "witte anemonen in bloei",
+      "ru": "растение белая ветреница",
+      "ja": "しろいアネモネのかぶ",
+      "ko": "하얀 아네모네 모종",
+      "zh-tw": "白色銀蓮花株",
+      "en": "white-windflower plant",
+      "es": "mata de anémona blanca",
+      "fr": "pied d'anémones blanches"
+    }
+  },
+  "3900": {
+    "img": "GardeningIcon/PltAnemonesOrange3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "橘色银莲花花株",
+      "de": "Orangeanemone (Pflanze)",
+      "it": "pianta anemone arancione",
+      "nl": "oranje anemonen in bloei",
+      "ru": "растение ор. ветреница",
+      "ja": "オレンジのアネモネのかぶ",
+      "ko": "오렌지색 아네모네 모종",
+      "zh-tw": "橘色銀蓮花株",
+      "en": "orange-windflower plant",
+      "es": "mata de anémona naranja",
+      "fr": "pied d'anémones orange"
+    }
+  },
+  "3902": {
+    "img": "GardeningIcon/PltAnemonesBlue3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "蓝色银莲花花株",
+      "de": "Blauanemone (Pflanze)",
+      "it": "pianta di anemone blu",
+      "nl": "blauwe anemonen in bloei",
+      "ru": "растение синяя ветреница",
+      "ja": "あおいアネモネのかぶ",
+      "ko": "파란 아네모네 모종",
+      "zh-tw": "藍色銀蓮花株",
+      "en": "blue-windflower plant",
+      "es": "mata de anémona azul",
+      "fr": "pied d'anémones bleues"
+    }
+  },
+  "3904": {
+    "img": "GardeningIcon/PltAnemonesPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红银莲花花株",
+      "de": "Pinkanemone (Pflanze)",
+      "it": "pianta di anemone rosa",
+      "nl": "roze anemonen in bloei",
+      "ru": "растение роз. ветреница",
+      "ja": "ピンクのアネモネのかぶ",
+      "ko": "핑크색 아네모네 모종",
+      "zh-tw": "粉紅銀蓮花株",
+      "en": "pink-windflower plant",
+      "es": "mata de anémona rosa",
+      "fr": "pied d'anémones roses"
+    }
+  },
+  "3906": {
+    "img": "GardeningIcon/PltAnemonesRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色银莲花花株",
+      "de": "Rotanemone (Pflanze)",
+      "it": "pianta di anemone rosso",
+      "nl": "rode anemonen in bloei",
+      "ru": "растение красн. ветреница",
+      "ja": "あかいアネモネのかぶ",
+      "ko": "빨간 아네모네 모종",
+      "zh-tw": "紅色銀蓮花株",
+      "en": "red-windflower plant",
+      "es": "mata de anémona roja",
+      "fr": "pied d'anémones rouges"
+    }
+  },
+  "3908": {
+    "img": "GardeningIcon/PltAnemonesPurple3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "紫色银莲花花株",
+      "de": "Purpuranemone (Pflanze)",
+      "es-es": "mata de anémona violeta",
+      "it": "pianta di anemone indaco",
+      "nl": "paarse anemonen in bloei",
+      "ru": "растение фиол. ветреница",
+      "ja": "むらさきのアネモネのかぶ",
+      "ko": "보라색 아네모네 모종",
+      "zh-tw": "紫色銀蓮花株",
+      "es-us": "mata de anémona morada",
+      "en": "purple-windflower plant",
+      "fr": "pied d'anémones mauves"
+    }
+  },
+  "3910": {
+    "img": "GardeningIcon/PltHyacinthWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "白色风信子花株",
+      "de": "Weißhyazinthe (Pflanze)",
+      "it": "pianta di giacinto bianco",
+      "nl": "witte hyacinten in bloei",
+      "ru": "растение белый гиацинт",
+      "ja": "しろいヒヤシンスのかぶ",
+      "ko": "하얀 히아신스 모종",
+      "zh-tw": "白色風信子花株",
+      "en": "white-hyacinth plant",
+      "es": "mata de jacinto blanco",
+      "fr": "pied de jacinthes blanches"
+    }
+  },
+  "3912": {
+    "img": "GardeningIcon/PltHyacinthYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色风信子花株",
+      "de": "Gelbhyazinthe (Pflanze)",
+      "it": "pianta di giacinto giallo",
+      "nl": "gele hyacinten in bloei",
+      "ru": "растение желтый гиацинт",
+      "ja": "きいろいヒヤシンスのかぶ",
+      "ko": "노란 히아신스 모종",
+      "zh-tw": "黃色風信子花株",
+      "en": "yellow-hyacinth plant",
+      "es": "mata de jacinto amarillo",
+      "fr": "pied de jacinthes jaunes"
+    }
+  },
+  "3914": {
+    "img": "GardeningIcon/PltHyacinthPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红风信子花株",
+      "de": "Rosahyazinthe (Pflanze)",
+      "es-es": "yema de jacinto rosa",
+      "it": "pianta di giacinto rosa",
+      "nl": "roze hyacinten in bloei",
+      "ru": "растение розовый гиацинт",
+      "ja": "ピンクのヒヤシンスのかぶ",
+      "ko": "핑크색 히아신스 모종",
+      "zh-tw": "粉紅風信子花株",
+      "es-us": "retoño de jacinto rosa",
+      "en": "pink-hyacinth plant",
+      "fr": "pied de jacinthes roses"
+    }
+  },
+  "3916": {
+    "img": "GardeningIcon/PltHyacinthOrange3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "橘色风信子花株",
+      "de": "Orangehyazinthe (Pflanze)",
+      "it": "pianta di giacinto arancione",
+      "nl": "oranje hyacinten in bloei",
+      "ru": "растение оранж. гиацинт",
+      "ja": "オレンジのヒヤシンスのかぶ",
+      "ko": "오렌지색 히아신스 모종",
+      "zh-tw": "橘色風信子花株",
+      "en": "orange-hyacinth plant",
+      "es": "mata de jacinto naranja",
+      "fr": "pied de jacinthes orange"
+    }
+  },
+  "3918": {
+    "img": "GardeningIcon/PltHyacinthRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色风信子花株",
+      "de": "Rothyazinthe (Pflanze)",
+      "it": "pianta di giacinto rosso",
+      "nl": "rode hyacinten in bloei",
+      "ru": "растение красный гиацинт",
+      "ja": "あかいヒヤシンスのかぶ",
+      "ko": "빨간 히아신스 모종",
+      "zh-tw": "紅色風信子花株",
+      "en": "red-hyacinth plant",
+      "es": "mata de jacinto rojo",
+      "fr": "pied de jacinthes rouges"
+    }
+  },
+  "3920": {
+    "img": "GardeningIcon/PltHyacinthBlue3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "蓝色风信子花株",
+      "de": "Blauhyazinthe (Pflanze)",
+      "it": "pianta di giacinto blu",
+      "nl": "blauwe hyacinten in bloei",
+      "ru": "растение синий гиацинт",
+      "ja": "あおいヒヤシンスのかぶ",
+      "ko": "파란 히아신스 모종",
+      "zh-tw": "藍色風信子花株",
+      "en": "blue-hyacinth plant",
+      "es": "mata de jacinto azul",
+      "fr": "pied de jacinthes bleues"
+    }
+  },
+  "3922": {
+    "img": "GardeningIcon/PltHyacinthPurple3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "紫色风信子花株",
+      "de": "Purpurhyazinthe (Pflanze)",
+      "es-es": "mata de jacinto violeta",
+      "it": "pianta di giacinto indaco",
+      "nl": "paarse hyacinten in bloei",
+      "ru": "растение фиолет. гиацинт",
+      "ja": "むらさきのヒヤシンスのかぶ",
+      "ko": "보라색 히아신스 모종",
+      "zh-tw": "紫色風信子花株",
+      "es-us": "mata de jacinto morado",
+      "en": "purple-hyacinth plant",
+      "fr": "pied de jacinthes mauves"
+    }
+  },
+  "3924": {
+    "img": "GardeningIcon/PltMumWhite3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "de": "Weißchrysantheme (Pflanze)",
+      "fr-fr": "pied de chrys. blancs",
+      "it": "pianta di crisantemo bianco",
+      "nl": "witte chrysanten in bloei",
+      "ru": "растение бел. хризантема",
+      "ja": "しろいキクのかぶ",
+      "ko": "하얀 국화 모종",
+      "fr-us": "pied chrysanthèmes blancs",
+      "en": "white-mum plant",
+      "es": "mata de crisantemo blanco",
+      "zh": "白色菊花花株"
+    }
+  },
+  "3926": {
+    "img": "GardeningIcon/PltMumYellow3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "黄色菊花花株",
+      "de": "Gelbchrysantheme (Pflanze)",
+      "it": "pianta di crisantemo giallo",
+      "nl": "gele chrysanten in bloei",
+      "ru": "растение ж. хризантема",
+      "ja": "きいろいキクのかぶ",
+      "ko": "노란 국화 모종",
+      "zh-tw": "黃色菊花花株",
+      "en": "yellow-mum plant",
+      "es": "mata crisantemo amarillo",
+      "fr": "pied chrysanthèmes jaunes"
+    }
+  },
+  "3928": {
+    "img": "GardeningIcon/PltMumPurple3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "de": "Lilachrysantheme (Pflanze)",
+      "es-es": "mata de crisantemo violeta",
+      "it": "pianta di crisantemo indaco",
+      "nl": "paarse chrysanten in bloei",
+      "ru": "растение ф. хризантема",
+      "ja": "むらさきのキクのかぶ",
+      "ko": "보라색 국화 모종",
+      "es-us": "mata de crisantemo morado",
+      "en": "purple-mum plant",
+      "fr": "pied chrysanthèmes mauves",
+      "zh": "紫色菊花花株"
+    }
+  },
+  "3930": {
+    "img": "GardeningIcon/PltMumPink3",
+    "sel": 80,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "粉红菊花花株",
+      "de": "Rosachrysantheme (Pfl.)",
+      "it": "pianta di crisantemo rosa",
+      "nl": "roze chrysanten in bloei",
+      "ru": "растение роз. хризантема",
+      "ja": "ピンクのキクのかぶ",
+      "ko": "핑크색 국화 모종",
+      "zh-tw": "粉紅菊花花株",
+      "en": "pink-mum plant",
+      "es": "mata de crisantemo rosa",
+      "fr": "pied chrysanthèmes roses"
+    }
+  },
+  "3932": {
+    "img": "GardeningIcon/PltMumRed3",
+    "sel": 40,
+    "src": "seed_bag",
+    "loc": {
+      "zh-cn": "红色菊花花株",
+      "de": "Rotchrysantheme (Pflanze)",
+      "it": "pianta di crisantemo rosso",
+      "nl": "rode chrysanten in bloei",
+      "ru": "растение кр. хризантема",
+      "ja": "あかいキクのかぶ",
+      "ko": "빨간 국화 모종",
+      "zh-tw": "紅色菊花花株",
+      "en": "red-mum plant",
+      "es": "mata de crisantemo rojo",
+      "fr": "pied chrysanthèmes rouges"
+    }
+  },
+  "3934": {
+    "img": "GardeningIcon/PltMumGreen3",
+    "sel": 240,
+    "src": "breeding",
+    "loc": {
+      "zh-cn": "绿色菊花花株",
+      "de": "Grünchrysantheme (Pfl.)",
+      "it": "pianta di crisantemo verde",
+      "nl": "groene chrysanten in bloei",
+      "ru": "растение зел. хризантема",
+      "ja": "みどりのキクのかぶ",
+      "ko": "초록색 국화 모종",
+      "zh-tw": "綠色菊花花株",
+      "en": "green-mum plant",
+      "es": "mata de crisantemo verde",
+      "fr": "pied chrysanthèmes verts"
+    }
+  },
+  "4426": {
+    "img": "GardeningIcon/PltMoney4",
+    "sel": 240,
+    "src": "plant_money",
+    "loc": {
+      "zh-cn": "发财树",
+      "de": "Geldbaum",
+      "it": "albero di stelline adulto",
+      "nl": "klingelboom",
+      "ru": "монетное дерево",
+      "ja": "カネのなるき",
+      "ko": "돈이 열리는 나무",
+      "zh-tw": "發財樹",
+      "en": "money tree",
+      "es": "árbol del dinero",
+      "fr": "clochettier"
+    }
+  },
+  "4525": {
+    "img": "FtrIcon/SquashOrange",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": [
+      "pumpkin_pick",
+      "vil_all"
+    ],
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Orangekürbis",
+      "it": "zucca arancione",
+      "nl": "oranje pompoen",
+      "ru": "оранжевая тыква",
+      "ja": "オレンジのカボチャ",
+      "ko": "주황색 호박",
+      "en": "orange pumpkin",
+      "es": "calabaza naranja",
+      "fr": "citrouille orange",
+      "zh": "橘色南瓜"
+    }
+  },
+  "4526": {
+    "img": "FtrIcon/SquashYellow",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "pumpkin_pick",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "黄色南瓜",
+      "de": "Gelbkürbis",
+      "it": "zucca gialla",
+      "nl": "gele pompoen",
+      "ru": "желтая тыква",
+      "ja": "きいろいカボチャ",
+      "ko": "노란 호박",
+      "zh-tw": "黃色南瓜",
+      "en": "yellow pumpkin",
+      "es": "calabaza amarilla",
+      "fr": "citrouille jaune"
+    }
+  },
+  "4527": {
+    "img": "FtrIcon/SquashGreen",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "pumpkin_pick",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "绿色南瓜",
+      "de": "Grünkürbis",
+      "it": "zucca verde",
+      "nl": "groene pompoen",
+      "ru": "зеленая тыква",
+      "ja": "みどりのカボチャ",
+      "ko": "초록색 호박",
+      "zh-tw": "綠色南瓜",
+      "en": "green pumpkin",
+      "es": "calabaza verde",
+      "fr": "citrouille verte"
+    }
+  },
+  "4528": {
+    "img": "FtrIcon/SquashWhite",
+    "sel": 350,
+    "stk": 10,
+    "fpw": 1,
+    "src": "pumpkin_pick",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Weißkürbis",
+      "it": "zucca bianca",
+      "nl": "witte pompoen",
+      "ru": "белая тыква",
+      "ja": "しろいカボチャ",
+      "ko": "하얀 호박",
+      "en": "white pumpkin",
+      "es": "calabaza blanca",
+      "fr": "citrouille blanche",
+      "zh": "白色南瓜"
+    }
+  },
+  "4532": {
+    "img": "GardeningIcon/PltSquashOrange3",
+    "sel": 350,
+    "src": "pumpkin_dig",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Orangekürbis (reif)",
+      "it": "pianta zucca aranc. matura",
+      "nl": "rijpe oranje-pompoenplant",
+      "ru": "взрослая оранжев. тыква",
+      "ja": "そだったオレンジのカボチャ",
+      "ko": "다 자란 주황색 호박",
+      "en": "ripe orange-pumpkin plant",
+      "es": "calabaza naranja madura",
+      "fr": "citrouille orange mûre",
+      "zh": "成熟的橘色南瓜"
+    }
+  },
+  "4536": {
+    "img": "GardeningIcon/PltSquashYellow3",
+    "sel": 350,
+    "src": "pumpkin_dig",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "成熟的黄色南瓜",
+      "de": "Gelbkürbis (reif)",
+      "it": "pianta zucca gialla matura",
+      "nl": "rijpe gele-pompoenplant",
+      "ru": "взрослая желтая тыква",
+      "ja": "そだったきいろいカボチャ",
+      "ko": "다 자란 노란 호박",
+      "zh-tw": "成熟的黃色南瓜",
+      "en": "ripe yellow-pumpkin plant",
+      "es": "calabaza amarilla madura",
+      "fr": "citrouille jaune mûre"
+    }
+  },
+  "4540": {
+    "img": "GardeningIcon/PltSquashGreen3",
+    "sel": 350,
+    "src": "pumpkin_dig",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "成熟的绿色南瓜",
+      "de": "Grünkürbis (reif)",
+      "it": "pianta zucca verde matura",
+      "nl": "rijpe groene-pompoenplant",
+      "ru": "взрослая зеленая тыква",
+      "ja": "そだったみどりのカボチャ",
+      "ko": "다 자란 초록색 호박",
+      "zh-tw": "成熟的綠色南瓜",
+      "en": "ripe green-pumpkin plant",
+      "es": "calabaza verde madura",
+      "fr": "citrouille verte mûre"
+    }
+  },
+  "4544": {
+    "img": "GardeningIcon/PltSquashWhite3",
+    "sel": 350,
+    "src": "pumpkin_dig",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Weißkürbis (reif)",
+      "it": "pianta zucca bianca matura",
+      "nl": "rijpe witte-pompoenplant",
+      "ru": "взрослая белая тыква",
+      "ja": "そだったしろいカボチャ",
+      "ko": "다 자란 하얀 호박",
+      "en": "ripe white-pumpkin plant",
+      "es": "calabaza blanca madura",
+      "fr": "citrouille blanche mûre",
+      "zh": "成熟的白色南瓜"
+    }
+  },
+  "4549": {
+    "img": "FtrIcon/FishBait",
+    "sel": 200,
+    "stk": 10,
+    "hap": 103,
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "鱼饲料",
+      "de": "Köder",
+      "it": "esca",
+      "nl": "aas",
+      "ru": "наживка",
+      "ja": "サカナのまきエサ",
+      "ko": "물고기 떡밥",
+      "zh-tw": "魚飼料",
+      "en": "fish bait",
+      "es": "cebo",
+      "fr": "appât"
+    }
+  },
+  "5175": {
+    "img": "FtrIcon/FlwMumGreen",
+    "clr": "green",
+    "sel": 240,
+    "stk": 10,
+    "hap": 87,
+    "src": "flower_pick",
+    "loc": {
+      "zh-cn": "绿色菊花",
+      "de": "Grünchrysantheme",
+      "it": "crisantemo verde",
+      "nl": "groene chrysant",
+      "ru": "зеленая хризантема",
+      "ja": "みどりのキク",
+      "ko": "초록색 국화",
+      "zh-tw": "綠色菊花",
+      "en": "green mums",
+      "es": "crisantemo verde",
+      "fr": "chrysanthème vert"
+    }
+  },
+  "5603": {
+    "img": "FtrIcon/DIYbook1",
+    "buy": 480,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "新手DIY手册",
+      "de": "Mein erstes Bastelbuch",
+      "es-es": "Bricolaje para principiantes",
+      "it": "Fai da te per principianti",
+      "nl": "Doe-het-zelven kun je leren",
+      "ru": "Начала «Сделай сам»",
+      "ja": "はじめてのDIYレシピ",
+      "ko": "첫 DIY 레시피",
+      "zh-tw": "第一次的DIY方程式",
+      "es-us": "Primeros proyectos",
+      "en": "DIY for Beginners",
+      "fr": "Le b.a.-ba du bricolage"
+    }
+  },
+  "5604": {
+    "img": "FtrIcon/DIYbook2",
+    "buy": 2680,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "挑战！DIY手册",
+      "de": "Ideen für Bastler",
+      "es-es": "Bricolaje para expertos",
+      "it": "Fai da te per appassionati",
+      "nl": "De doe-het-zelfproef",
+      "ru": "Пробы пера «Сделай сам»",
+      "ja": "チャレンジ！DIYレシピ",
+      "ko": "도전! DIY 레시피",
+      "zh-tw": "挑戰！DIY方程式",
+      "es-us": "Proyectos para expertos",
+      "en": "Test Your DIY Skills",
+      "fr": "Bricolage tous azimuts"
+    }
+  },
+  "5605": {
+    "img": "FtrIcon/DIYbook3",
+    "buy": 6980,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "竟然能这样？！DIY",
+      "de": "Bist du der Bastelboss?",
+      "es-es": "Bricolaje para epatar",
+      "fr-fr": "Brico foldingo",
+      "it": "Fai da te per esperti",
+      "nl": "De ultieme doe-het-zelver",
+      "ru": "«Сделай сам» без границ",
+      "ja": "こんなモノまで？！DIY",
+      "ko": "무엇이든 뚝딱?! DIY 레시피",
+      "zh-tw": "這種東西也能自己做？！DIY",
+      "es-us": "Proyectos para deslumbrar",
+      "fr-us": "Brico dingo",
+      "en": "Wildest Dreams DIY"
+    }
+  },
+  "5727": {
+    "img": "FtrIcon/DIYAcorn",
+    "sel": 200,
+    "stk": 30,
+    "src": "tree_hardwood",
+    "evt": "acorn_pinecone",
+    "loc": {
+      "de": "Eichel",
+      "it": "ghianda",
+      "nl": "eikel",
+      "ru": "желудь",
+      "ja": "どんぐり",
+      "ko": "도토리",
+      "en": "acorn",
+      "es": "bellota",
+      "fr": "gland",
+      "zh": "橡栗"
+    }
+  },
+  "5728": {
+    "img": "FtrIcon/DIYPinecone",
+    "sel": 200,
+    "stk": 30,
+    "src": "tree_cedar",
+    "evt": "acorn_pinecone",
+    "loc": {
+      "de": "Zapfen",
+      "it": "pigna",
+      "nl": "dennenappel",
+      "ru": "шишка",
+      "ja": "まつぼっくり",
+      "ko": "솔방울",
+      "en": "pine cone",
+      "es": "piña",
+      "fr": "pomme de pin",
+      "zh": "松果"
+    }
+  },
+  "5729": {
+    "img": "FtrIcon/DIYBambooSpring",
+    "sel": 200,
+    "stk": 30,
+    "src": "bamboo_chop",
+    "evt": "young_spring_bamboo",
+    "loc": {
+      "zh-cn": "春笋",
+      "de": "Frühlingsbambus",
+      "it": "bambù giovane primavera",
+      "nl": "jonge lentebamboe",
+      "ru": "весенний бамбук",
+      "ja": "はるのわかたけ",
+      "ko": "봄의 대나무",
+      "zh-tw": "春筍",
+      "en": "young spring bamboo",
+      "es": "tallo de bambú primaveral",
+      "fr": "jeune bambou printemps"
+    }
+  },
+  "5730": {
+    "img": "FtrIcon/DIYOrnamentRed",
+    "sel": 50,
+    "stk": 30,
+    "src": "tree_cedar",
+    "evt": "ornament",
+    "loc": {
+      "zh-cn": "红色装饰品",
+      "de": "Rotschmuck",
+      "it": "decorazione rossa",
+      "nl": "rode versiering",
+      "ru": "красное украшение",
+      "ja": "あかいオーナメント",
+      "ko": "빨간 오너먼트",
+      "zh-tw": "紅色裝飾品",
+      "en": "red ornament",
+      "es": "adorno rojo",
+      "fr": "boule rouge"
+    }
+  },
+  "5731": {
+    "img": "FtrIcon/DIYOrnamentBlue",
+    "sel": 50,
+    "stk": 30,
+    "src": "tree_cedar",
+    "evt": "ornament",
+    "loc": {
+      "zh-cn": "蓝色装饰品",
+      "de": "Blauschmuck",
+      "it": "decorazione blu",
+      "nl": "blauwe versiering",
+      "ru": "синее украшение",
+      "ja": "あおいオーナメント",
+      "ko": "파란 오너먼트",
+      "zh-tw": "藍色裝飾品",
+      "en": "blue ornament",
+      "es": "adorno azul",
+      "fr": "boule bleue"
+    }
+  },
+  "5732": {
+    "img": "FtrIcon/DIYOrnamentGold",
+    "sel": 50,
+    "stk": 30,
+    "src": "tree_cedar",
+    "evt": "ornament",
+    "loc": {
+      "zh-cn": "金色装饰品",
+      "de": "Goldschmuck",
+      "it": "decorazione dorata",
+      "nl": "gouden versiering",
+      "ru": "золотое украшение",
+      "ja": "きんのオーナメント",
+      "ko": "금 오너먼트",
+      "zh-tw": "金色裝飾品",
+      "en": "gold ornament",
+      "es": "adorno dorado",
+      "fr": "boule dorée"
+    }
+  },
+  "5851": {
+    "img": "FtrIcon/MilePlaneTicket",
+    "sel": 10000,
+    "exp": 2000,
+    "exc": 0,
+    "stk": 10,
+    "hap": 171,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "里数旅行券",
+      "de": "Meilenticket",
+      "fr-fr": "ticket Miles Nook",
+      "it": "coupon miglia di Nook",
+      "nl": "Nook-miles-bon",
+      "ru": "билет за мили Нука",
+      "ja": "マイルりょこうけん",
+      "ko": "마일 여행권",
+      "zh-tw": "哩數旅行券",
+      "fr-us": "ticket points Nook",
+      "en": "Nook Miles Ticket",
+      "es": "cupón de millas Nook"
+    }
+  },
+  "5859": {
+    "img": "FtrIcon/Sakurapetal",
+    "sel": 200,
+    "stk": 10,
+    "src": "catching_net",
+    "evt": "cherry_blossom",
+    "loc": {
+      "zh-cn": "樱花花瓣",
+      "de": "Kirschblüte",
+      "it": "petalo di ciliegio",
+      "nl": "kersenbloesemblaadje",
+      "ru": "лепесток вишни",
+      "ja": "さくらのはなびら",
+      "ko": "벚꽃잎",
+      "zh-tw": "櫻花花瓣",
+      "en": "cherry-blossom petal",
+      "es": "pétalo de cerezo",
+      "fr": "pétale de cerisier"
+    }
+  },
+  "5932": {
+    "img": "FtrIcon/TailorTicket",
+    "sel": 250,
+    "stk": 10,
+    "src": "label",
+    "loc": {
+      "zh-cn": "裁缝屋优惠券",
+      "de": "Schneiderei-Coupon",
+      "es-es": "cupón de la sastrería",
+      "it": "coupon della sartoria",
+      "nl": "kleermakersbon",
+      "ru": "талон в ателье",
+      "ja": "したてやクーポン",
+      "ko": "옷가게 쿠폰",
+      "zh-tw": "裁縫屋優惠券",
+      "es-us": "cupón del atelier",
+      "en": "tailors ticket",
+      "fr": "ticket atelier de couture"
+    }
+  },
+  "5982": {
+    "img": "MenuIcon/ShellSummer",
+    "sel": 600,
+    "stk": 10,
+    "src": "beach",
+    "evt": "summer_shell",
+    "loc": {
+      "zh-cn": "夏天贝壳",
+      "de": "Sommermuschel",
+      "it": "conchiglia estiva",
+      "nl": "zomerschelp",
+      "ru": "летняя ракушка",
+      "ja": "なつのかいがら",
+      "ko": "여름 조개껍데기",
+      "zh-tw": "夏天貝殼",
+      "en": "summer shell",
+      "es": "caracola estival",
+      "fr": "coquillage estival"
+    }
+  },
+  "5983": {
+    "img": "FtrIcon/Starpiece",
+    "sel": 250,
+    "stk": 10,
+    "src": "shooting_stars",
+    "loc": {
+      "de": "Sternensplitter",
+      "it": "frammento di stella",
+      "nl": "sterrenfragment",
+      "ru": "осколок звезды",
+      "ja": "ほしのかけら",
+      "ko": "별의 조각",
+      "en": "star fragment",
+      "es": "fragmento de estrella",
+      "fr": "fragment d'étoile",
+      "zh": "星星碎片"
+    }
+  },
+  "5984": {
+    "img": "FtrIcon/StarpieceRare",
+    "sel": 2500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "loc": {
+      "de": "Riesensternensplitter",
+      "it": "frammento di stella grande",
+      "nl": "groot sterrenfragment",
+      "ru": "крупный осколок звезды",
+      "ja": "おおきなほしのかけら",
+      "ko": "커다란 별의 조각",
+      "en": "large star fragment",
+      "es": "fragmento de estrella XL",
+      "fr": "fragment de grande étoile",
+      "zh": "大星星碎片"
+    }
+  },
+  "5985": {
+    "img": "FtrIcon/StarpieceCapricornus",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "capricorn",
+    "loc": {
+      "de": "Steinbock-Splitter",
+      "it": "frammento di Capricorno",
+      "nl": "Steenbokfragment",
+      "ru": "фрагмент Козерога",
+      "ja": "やぎざのかけら",
+      "ko": "염소자리 조각",
+      "en": "Capricorn fragment",
+      "es": "fragmento de Capricornio",
+      "fr": "fragment de Capricorne",
+      "zh": "摩羯座碎片"
+    }
+  },
+  "5986": {
+    "img": "FtrIcon/StarpieceAquarius",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "aquarius",
+    "loc": {
+      "de": "Wassermann-Splitter",
+      "it": "frammento di Acquario",
+      "nl": "Watermanfragment",
+      "ru": "фрагмент Водолея",
+      "ja": "みずがめざのかけら",
+      "ko": "물병자리 조각",
+      "en": "Aquarius fragment",
+      "es": "fragmento de Acuario",
+      "fr": "fragment de Verseau",
+      "zh": "水瓶座碎片"
+    }
+  },
+  "5987": {
+    "img": "FtrIcon/StarpiecePisces",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "pisces",
+    "loc": {
+      "zh-cn": "双鱼座碎片",
+      "de": "Fische-Splitter",
+      "it": "frammento di Pesci",
+      "nl": "Vissenfragment",
+      "ru": "фрагмент Рыб",
+      "ja": "うおざのかけら",
+      "ko": "물고기자리 조각",
+      "zh-tw": "雙魚座碎片",
+      "en": "Pisces fragment",
+      "es": "fragmento de Piscis",
+      "fr": "fragment de Poissons"
+    }
+  },
+  "5988": {
+    "img": "FtrIcon/StarpieceAries",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "aries",
+    "loc": {
+      "zh-cn": "白羊座碎片",
+      "de": "Widder-Splitter",
+      "it": "frammento di Ariete",
+      "nl": "Ramfragment",
+      "ru": "фрагмент Овна",
+      "ja": "おひつじざのかけら",
+      "ko": "양자리 조각",
+      "zh-tw": "牡羊座碎片",
+      "en": "Aries fragment",
+      "es": "fragmento de Aries",
+      "fr": "fragment de Bélier"
+    }
+  },
+  "5989": {
+    "img": "FtrIcon/StarpieceTaurus",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "taurus",
+    "loc": {
+      "de": "Stier-Splitter",
+      "it": "frammento di Toro",
+      "nl": "Stierfragment",
+      "ru": "фрагмент Тельца",
+      "ja": "おうしざのかけら",
+      "ko": "황소자리 조각",
+      "en": "Taurus fragment",
+      "es": "fragmento de Tauro",
+      "fr": "fragment de Taureau",
+      "zh": "金牛座碎片"
+    }
+  },
+  "5990": {
+    "img": "FtrIcon/StarpieceGemini",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "gemini",
+    "loc": {
+      "zh-cn": "双子座碎片",
+      "de": "Zwillinge-Splitter",
+      "it": "frammento di Gemelli",
+      "nl": "Tweelingenfragment",
+      "ru": "фрагмент Близнецов",
+      "ja": "ふたござのかけら",
+      "ko": "쌍둥이자리 조각",
+      "zh-tw": "雙子座碎片",
+      "en": "Gemini fragment",
+      "es": "fragmento de Géminis",
+      "fr": "fragment de Gémeaux"
+    }
+  },
+  "5991": {
+    "img": "FtrIcon/StarpieceCancer",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "cancer",
+    "loc": {
+      "de": "Krebs-Splitter",
+      "it": "frammento di Cancro",
+      "nl": "Kreeftfragment",
+      "ru": "фрагмент Рака",
+      "ja": "かにざのかけら",
+      "ko": "게자리 조각",
+      "en": "Cancer fragment",
+      "es": "fragmento de Cáncer",
+      "fr": "fragment de Cancer",
+      "zh": "巨蟹座碎片"
+    }
+  },
+  "5992": {
+    "img": "FtrIcon/StarpieceLeo",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "leo",
+    "loc": {
+      "zh-cn": "狮子座碎片",
+      "de": "Löwe-Splitter",
+      "it": "frammento di Leone",
+      "nl": "Leeuwfragment",
+      "ru": "фрагмент Льва",
+      "ja": "ししざのかけら",
+      "ko": "사자자리 조각",
+      "zh-tw": "獅子座碎片",
+      "en": "Leo fragment",
+      "es": "fragmento de Leo",
+      "fr": "fragment de Lion"
+    }
+  },
+  "5993": {
+    "img": "FtrIcon/StarpieceVirgo",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "virgo",
+    "loc": {
+      "zh-cn": "处女座碎片",
+      "de": "Jungfrau-Splitter",
+      "it": "frammento di Vergine",
+      "nl": "Maagdfragment",
+      "ru": "фрагмент Девы",
+      "ja": "おとめざのかけら",
+      "ko": "처녀자리 조각",
+      "zh-tw": "處女座碎片",
+      "en": "Virgo fragment",
+      "es": "fragmento de Virgo",
+      "fr": "fragment de Vierge"
+    }
+  },
+  "5994": {
+    "img": "FtrIcon/StarpieceLibra",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "libra",
+    "loc": {
+      "de": "Waage-Splitter",
+      "it": "frammento di Bilancia",
+      "nl": "Weegschaalfragment",
+      "ru": "фрагмент Весов",
+      "ja": "てんびんざのかけら",
+      "ko": "천칭자리 조각",
+      "en": "Libra fragment",
+      "es": "fragmento de Libra",
+      "fr": "fragment de Balance",
+      "zh": "天秤座碎片"
+    }
+  },
+  "5995": {
+    "img": "FtrIcon/StarpieceScorpio",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "scorpio",
+    "loc": {
+      "zh-cn": "天蝎座碎片",
+      "de": "Skorpion-Splitter",
+      "it": "frammento di Scorpione",
+      "nl": "Schorpioenfragment",
+      "ru": "фрагмент Скорпиона",
+      "ja": "さそりざのかけら",
+      "ko": "전갈자리 조각",
+      "zh-tw": "天蠍座碎片",
+      "en": "Scorpius fragment",
+      "es": "fragmento de Escorpio",
+      "fr": "fragment de Scorpion"
+    }
+  },
+  "5996": {
+    "img": "FtrIcon/StarpieceSagittarius",
+    "sel": 500,
+    "stk": 10,
+    "src": "shooting_stars",
+    "evt": "sagittarius",
+    "loc": {
+      "de": "Schütze-Splitter",
+      "it": "frammento di Sagittario",
+      "nl": "Boogschutterfragment",
+      "ru": "фрагмент Стрельца",
+      "ja": "いてざのかけら",
+      "ko": "사수자리 조각",
+      "en": "Sagittarius fragment",
+      "es": "fragmento de Sagitario",
+      "fr": "fragment de Sagittaire",
+      "zh": "射手座碎片"
+    }
+  },
+  "7374": {
+    "img": "FtrIcon/AutumnLeaf",
+    "sel": 200,
+    "stk": 10,
+    "src": "catching_net",
+    "evt": "maple_leaf",
+    "loc": {
+      "zh-cn": "枫叶",
+      "de": "Herbstblatt",
+      "it": "foglia d'acero",
+      "nl": "esdoornblad",
+      "ru": "кленовый лист",
+      "ja": "もみじのはっぱ",
+      "ko": "단풍잎",
+      "zh-tw": "楓葉",
+      "en": "maple leaf",
+      "es": "hoja de arce",
+      "fr": "feuille d'érable"
+    }
+  },
+  "7651": {
+    "img": "GardeningIcon/PltSuzuran2",
+    "sel": 222,
+    "src": "5_star_town",
+    "loc": {
+      "zh-cn": "铃兰花株",
+      "de": "Maiglöckchen",
+      "it": "pianta di mughetto",
+      "nl": "lelietje-van-dalen",
+      "ru": "растение ландыш",
+      "ja": "スズランのかぶ",
+      "ko": "은방울꽃 모종",
+      "zh-tw": "鈴蘭花株",
+      "en": "lily-of-the-valley plant",
+      "es": "mata de lirio del valle",
+      "fr": "pied de muguet"
+    }
+  },
+  "7683": {
+    "img": "FtrIcon/WPaperYellow",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "黄色包装纸",
+      "de": "Gelb-Geschenkpapier",
+      "it": "carta da regalo gialla",
+      "nl": "geel cadeaupapier",
+      "ru": "желтая обертка",
+      "ja": "きいろいラッピングペーパー",
+      "ko": "노란색 포장지",
+      "zh-tw": "黃色包裝紙",
+      "en": "yellow wrapping paper",
+      "es": "papel de regalo amarillo",
+      "fr": "papier cadeau jaune"
+    }
+  },
+  "7684": {
+    "img": "FtrIcon/WPaperPink",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "粉红色包装纸",
+      "de": "Pink-Geschenkpapier",
+      "it": "carta da regalo rosa",
+      "nl": "roze cadeaupapier",
+      "ru": "розовая обертка",
+      "ja": "ピンクのラッピングペーパー",
+      "ko": "핑크색 포장지",
+      "zh-tw": "粉紅色包裝紙",
+      "en": "pink wrapping paper",
+      "es": "papel de regalo rosa",
+      "fr": "papier cadeau rose"
+    }
+  },
+  "7685": {
+    "img": "FtrIcon/WPaperOrange",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "橘色包装纸",
+      "de": "Orange-Geschenkpapier",
+      "it": "carta da regalo arancione",
+      "nl": "oranje cadeaupapier",
+      "ru": "оранжевая обертка",
+      "ja": "オレンジのラッピングペーパー",
+      "ko": "오렌지색 포장지",
+      "zh-tw": "橘色包裝紙",
+      "en": "orange wrapping paper",
+      "es": "papel de regalo naranja",
+      "fr": "papier cadeau orange"
+    }
+  },
+  "7686": {
+    "img": "FtrIcon/WPaperLightGreen",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "黄绿色包装纸",
+      "de": "Gelbgrün-Geschenkpapier",
+      "es-es": "papel de regalo lima",
+      "it": "carta da regalo gialloverde",
+      "nl": "groengeel cadeaupapier",
+      "ru": "желто-зеленая обертка",
+      "ja": "きみどりのラッピングペーパー",
+      "ko": "연두색 포장지",
+      "zh-tw": "黃綠色包裝紙",
+      "es-us": "papel de regalo verdoso",
+      "en": "chartreuse wrapping paper",
+      "fr": "papier cadeau jaune-vert"
+    }
+  },
+  "7687": {
+    "img": "FtrIcon/WPaperGreen",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "绿色包装纸",
+      "de": "Grün-Geschenkpapier",
+      "it": "carta da regalo verde",
+      "nl": "groen cadeaupapier",
+      "ru": "зеленая обертка",
+      "ja": "みどりのラッピングペーパー",
+      "ko": "초록색 포장지",
+      "zh-tw": "綠色包裝紙",
+      "en": "green wrapping paper",
+      "es": "papel de regalo verde",
+      "fr": "papier cadeau vert"
+    }
+  },
+  "7688": {
+    "img": "FtrIcon/WPaperMint",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "薄荷绿包装纸",
+      "de": "Minzgrün-Geschenkpapier",
+      "it": "carta da regalo menta",
+      "nl": "mintgroen cadeaupapier",
+      "ru": "мятная обертка",
+      "ja": "ミントのラッピングペーパー",
+      "ko": "민트색 포장지",
+      "zh-tw": "薄荷綠包裝紙",
+      "en": "mint wrapping paper",
+      "es": "papel de regalo turquesa",
+      "fr": "papier cadeau menthe"
+    }
+  },
+  "7689": {
+    "img": "FtrIcon/WPaperLightBlue",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "水蓝色包装纸",
+      "de": "Hellblau-Geschenkpapier",
+      "it": "carta da regalo azzurra",
+      "nl": "lichtblauw cadeaupapier",
+      "ru": "голубая обертка",
+      "ja": "みずいろのラッピングペーパー",
+      "ko": "하늘색 포장지",
+      "zh-tw": "水藍色包裝紙",
+      "en": "light-blue wrapping paper",
+      "es": "papel de regalo celeste",
+      "fr": "papier cadeau bleu clair"
+    }
+  },
+  "7690": {
+    "img": "FtrIcon/WPaperPurple",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "紫色包装纸",
+      "de": "Lila-Geschenkpapier",
+      "es-es": "papel de regalo violeta",
+      "fr-fr": "papier cadeau violet",
+      "it": "carta da regalo viola",
+      "nl": "paars cadeaupapier",
+      "ru": "фиолетовая обертка",
+      "ja": "むらさきのラッピングペーパー",
+      "ko": "보라색 포장지",
+      "zh-tw": "紫色包裝紙",
+      "es-us": "papel de regalo morado",
+      "fr-us": "papier cadeau mauve",
+      "en": "purple wrapping paper"
+    }
+  },
+  "7691": {
+    "img": "FtrIcon/WPaperNavy",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "紫蓝色包装纸",
+      "de": "Nachtblau-Geschenkpapier",
+      "it": "carta da regalo blu marino",
+      "nl": "marineblauw cadeaupapier",
+      "ru": "черно-синяя обертка",
+      "ja": "こんいろのラッピングペーパー",
+      "ko": "남색 포장지",
+      "zh-tw": "紫藍色包裝紙",
+      "en": "navy wrapping paper",
+      "es": "papel de regalo índigo",
+      "fr": "papier cadeau bleu marine"
+    }
+  },
+  "7692": {
+    "img": "FtrIcon/WPaperBlue",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "蓝色包装纸",
+      "de": "Blau-Geschenkpapier",
+      "it": "carta da regalo blu",
+      "nl": "blauw cadeaupapier",
+      "ru": "синяя обертка",
+      "ja": "あおいラッピングペーパー",
+      "ko": "파란색 포장지",
+      "zh-tw": "藍色包裝紙",
+      "en": "blue wrapping paper",
+      "es": "papel de regalo azul",
+      "fr": "papier cadeau bleu"
+    }
+  },
+  "7693": {
+    "img": "FtrIcon/WPaperWhite",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "白色包装纸",
+      "de": "Weiß-Geschenkpapier",
+      "it": "carta da regalo bianca",
+      "nl": "wit cadeaupapier",
+      "ru": "белая обертка",
+      "ja": "しろいラッピングペーパー",
+      "ko": "하얀색 포장지",
+      "zh-tw": "白色包裝紙",
+      "en": "white wrapping paper",
+      "es": "papel de regalo blanco",
+      "fr": "papier cadeau blanc"
+    }
+  },
+  "7694": {
+    "img": "FtrIcon/WPaperRed",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "红色包装纸",
+      "de": "Rot-Geschenkpapier",
+      "it": "carta da regalo rossa",
+      "nl": "rood cadeaupapier",
+      "ru": "красная обертка",
+      "ja": "あかいラッピングペーパー",
+      "ko": "빨간색 포장지",
+      "zh-tw": "紅色包裝紙",
+      "en": "red wrapping paper",
+      "es": "papel de regalo rojo",
+      "fr": "papier cadeau rouge"
+    }
+  },
+  "7695": {
+    "img": "FtrIcon/WPaperGold",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "金色包装纸",
+      "de": "Gold-Geschenkpapier",
+      "it": "carta da regalo dorata",
+      "nl": "gouden cadeaupapier",
+      "ru": "золотая обертка",
+      "ja": "きんいろのラッピングペーパー",
+      "ko": "금색 포장지",
+      "zh-tw": "金色包裝紙",
+      "en": "gold wrapping paper",
+      "es": "papel de regalo dorado",
+      "fr": "papier cadeau doré"
+    }
+  },
+  "7696": {
+    "img": "FtrIcon/WPaperBrown",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "茶色包装纸",
+      "de": "Braun-Geschenkpapier",
+      "fr-fr": "papier cadeau marron",
+      "it": "carta da regalo marrone",
+      "nl": "bruin cadeaupapier",
+      "ru": "коричневая обертка",
+      "ja": "ちゃいろのラッピングペーパー",
+      "ko": "갈색 포장지",
+      "zh-tw": "茶色包裝紙",
+      "fr-us": "papier cadeau brun",
+      "en": "brown wrapping paper",
+      "es": "papel de regalo marrón"
+    }
+  },
+  "7697": {
+    "img": "FtrIcon/WPaperGray",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "灰色包装纸",
+      "de": "Grau-Geschenkpapier",
+      "it": "carta da regalo grigia",
+      "nl": "grijs cadeaupapier",
+      "ru": "серая обертка",
+      "ja": "グレーのラッピングペーパー",
+      "ko": "회색 포장지",
+      "zh-tw": "灰色包裝紙",
+      "en": "gray wrapping paper",
+      "es": "papel de regalo gris",
+      "fr": "papier cadeau gris"
+    }
+  },
+  "7698": {
+    "img": "FtrIcon/WPaperBlack",
+    "sel": 40,
+    "buy": 160,
+    "stk": 10,
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "黑色包装纸",
+      "de": "Schwarz-Geschenkpapier",
+      "it": "carta da regalo nera",
+      "nl": "zwart cadeaupapier",
+      "ru": "черная обертка",
+      "ja": "くろいラッピングペーパー",
+      "ko": "검은색 포장지",
+      "zh-tw": "黑色包裝紙",
+      "en": "black wrapping paper",
+      "es": "papel de regalo negro",
+      "fr": "papier cadeau noir"
+    }
+  },
+  "7699": {
+    "img": "FtrIcon/DummyWrappingYellow",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7700": {
+    "img": "FtrIcon/DummyWrappingPink",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7701": {
+    "img": "FtrIcon/DummyWrappingOrange",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7702": {
+    "img": "FtrIcon/DummyWrappingLightGreen",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7703": {
+    "img": "FtrIcon/DummyWrappingGreen",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7704": {
+    "img": "FtrIcon/DummyWrappingMint",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7705": {
+    "img": "FtrIcon/DummyWrappingLightBlue",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7706": {
+    "img": "FtrIcon/DummyWrappingPurple",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7707": {
+    "img": "FtrIcon/DummyWrappingNavy",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7708": {
+    "img": "FtrIcon/DummyWrappingBlue",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7709": {
+    "img": "FtrIcon/DummyWrappingWhite",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7710": {
+    "img": "FtrIcon/DummyWrappingRed",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7711": {
+    "img": "FtrIcon/DummyWrappingGold",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7712": {
+    "img": "FtrIcon/DummyWrappingBrown",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7713": {
+    "img": "FtrIcon/DummyWrappingGary",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7714": {
+    "img": "FtrIcon/DummyWrappingBlack",
+    "src": "present_wrap",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "present",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "7730": {
+    "img": "FtrIcon/PhotoStudioBell",
+    "stk": 9,
+    "src": "tree_shake",
+    "loc": {
+      "zh-cn": "铃钱（金币）",
+      "de": "Sterni-Münze",
+      "it": "stellina (moneta)",
+      "nl": "klingelmunt",
+      "ru": "динь",
+      "ja": "ベル（コイン）",
+      "ko": "동전",
+      "zh-tw": "鈴錢（金幣）",
+      "en": "Bell coin",
+      "es": "moneda baya",
+      "fr": "pièce de clochettes"
+    }
+  },
+  "7731": {
+    "img": "FtrIcon/PhotoStudioBellBag",
+    "stk": 99,
+    "src": "dig_spot_glow",
+    "loc": {
+      "zh-cn": "铃钱袋",
+      "de": "Sterni-Sack",
+      "it": "sacco di stelline",
+      "nl": "zak klingels",
+      "ru": "мешок с динями",
+      "ja": "ベルぶくろ",
+      "ko": "벨 주머니",
+      "zh-tw": "鈴錢袋",
+      "en": "Bell bag",
+      "es": "bolsa de bayas",
+      "fr": "sac de clochettes"
+    }
+  },
+  "7734": {
+    "img": "FtrIcon/PhotoStudioKabu",
+    "stk": 1000,
+    "fpw": 10,
+    "src": "daisy_mae",
+    "loc": {
+      "zh-cn": "大头菜",
+      "de": "Rüben",
+      "it": "rape",
+      "nl": "knollen",
+      "ru": "репа",
+      "ja": "カブ",
+      "ko": "무",
+      "zh-tw": "大頭菜",
+      "en": "turnips",
+      "es": "nabo",
+      "fr": "lot de navets"
+    }
+  },
+  "8760": {
+    "img": "FtrIcon/SmartphoneCase_Remake_0_0",
+    "sel": 9000,
+    "exp": 1800,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "手机壳改造工具组",
+      "de": "NookPhone-Gestaltungskit",
+      "es-es": "funda móvil personalizable",
+      "it": "kit personaliz. Nook Phone",
+      "nl": "NookPhone-hoesje",
+      "ru": "набор: переделка чехла",
+      "ja": "スマホケースリメイクキット",
+      "ko": "스마트폰 케이스 리폼 키트",
+      "zh-tw": "手機殼改造工具組",
+      "es-us": "kit de funda personalizable",
+      "en": "customizable phone case kit",
+      "fr": "kit coque personnalisable"
+    }
+  },
+  "8773": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·石板路",
+      "de": "Steinweg-Lizenz",
+      "it": "licenza selciato",
+      "nl": "keienpadvergunning",
+      "ru": "лицензия: каменн. дорога",
+      "ja": "どうろこうじ・いしだたみ",
+      "ko": "돌 도로 공사",
+      "zh-tw": "道路施工許可證‧石板路",
+      "en": "stone path permit",
+      "es": "permiso camino empedrado",
+      "fr": "permis route pavée"
+    }
+  },
+  "8774": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·砖块路",
+      "de": "Ziegelweg-Lizenz",
+      "it": "licenza strada di mattoni",
+      "nl": "klinkerpadvergunning",
+      "ru": "лицензия: кирп. дорога",
+      "ja": "どうろこうじ・レンガのみち",
+      "ko": "벽돌 도로 공사",
+      "zh-tw": "道路施工許可證‧磚塊路",
+      "en": "brick path permit",
+      "es": "permiso camino de ladrillo",
+      "fr": "permis route en briques"
+    }
+  },
+  "8775": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·黑土路",
+      "de": "Schwarzerde-Weg-Lizenz",
+      "it": "licenza strada sterrata",
+      "nl": "veldpadvergunning",
+      "ru": "лицензия: темная тропа",
+      "ja": "どうろこうじ・くろつちのみち",
+      "ko": "짙은 흙 도로 공사",
+      "zh-tw": "道路施工許可證‧黑土路",
+      "en": "dark dirt path permit",
+      "es": "permiso camino tierra negra",
+      "fr": "permis chemin champêtre"
+    }
+  },
+  "8776": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·拱形砖路",
+      "de": "Bogenpflasterweg-Lizenz",
+      "it": "licenza selciato ad arco",
+      "nl": "waaierpadvergunning",
+      "ru": "лицензия: веерная дорога",
+      "ja": "どうろこうじ・アーチタイル",
+      "ko": "아치 타일 도로 공사",
+      "zh-tw": "道路施工許可證‧拱形磚路",
+      "en": "arched tile path permit",
+      "es": "permiso camino enlosado",
+      "fr": "permis pavage éventail"
+    }
+  },
+  "8777": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·沙子路",
+      "de": "Sandweg-Lizenz",
+      "it": "licenza strada di sabbia",
+      "nl": "zandpadvergunning",
+      "ru": "лицензия: песчан. дорога",
+      "ja": "どうろこうじ・すなのみち",
+      "ko": "모래 도로 공사",
+      "zh-tw": "道路施工許可證‧沙子路",
+      "en": "sand path permit",
+      "es": "permiso camino de arena",
+      "fr": "permis chemin sablonneux"
+    }
+  },
+  "8778": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·陶砖路",
+      "de": "Terrakottaweg-Lizenz",
+      "it": "licenza strada di terracotta",
+      "nl": "terracottapadvergunning",
+      "ru": "лицензия: террак. дорога",
+      "ja": "どうろこうじ・テラコッタタイル",
+      "ko": "테라코타 타일 도로 공사",
+      "zh-tw": "道路施工許可證‧陶磚路",
+      "en": "terra-cotta tile permit",
+      "es": "permiso camino terracota",
+      "fr": "permis pavés terracotta"
+    }
+  },
+  "8779": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·木板路",
+      "de": "Holzpfad-Lizenz",
+      "it": "licenza strada di legno",
+      "nl": "plankenpadvergunning",
+      "ru": "лицензия: дерев. дорога",
+      "ja": "どうろこうじ・くみきのみち",
+      "ko": "나무 도로 공사",
+      "zh-tw": "道路施工許可證‧木板路",
+      "en": "wooden path permit",
+      "es": "permiso camino de madera",
+      "fr": "permis route pavée bois"
+    }
+  },
+  "8780": {
+    "img": "MenuIcon/ToolRiverMaker",
+    "exp": 6000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "河流施工许可证",
+      "de": "Gewässerlizenz",
+      "it": "licenza fiumi e laghi",
+      "nl": "watervergunning",
+      "ru": "лицензия: реки и озера",
+      "ja": "かせんこうじライセンス",
+      "ko": "하천 공사 허가증",
+      "zh-tw": "河川施工許可證",
+      "en": "waterscaping permit",
+      "es": "permiso de obras fluviales",
+      "fr": "permis cours d'eau"
+    }
+  },
+  "8781": {
+    "img": "MenuIcon/ToolCliffMaker",
+    "exp": 6000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "悬崖施工许可证",
+      "de": "Plateaulizenz",
+      "es-es": "permiso de elevaciones",
+      "it": "licenza rilievi",
+      "nl": "klifvergunning",
+      "ru": "лицензия: скалы",
+      "ja": "がけこうじライセンス",
+      "ko": "절벽 공사 허가증",
+      "zh-tw": "懸崖施工許可證",
+      "es-us": "permiso de desniveles",
+      "en": "cliff construction permit",
+      "fr": "permis falaise"
+    }
+  },
+  "9049": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 2400,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "流行！最佳发型8款",
+      "de": "Die 8 poppigsten Frisuren",
+      "it": "I migliori 8 tagli pop",
+      "nl": "Top 8 van populaire kapsels",
+      "ru": "8 лучших поп-причесок",
+      "ja": "ポップ！ヘアアレンジBEST8",
+      "ko": "발랄하게! 헤어스타일 BEST 8",
+      "zh-tw": "繽紛！頭髮造型BEST8",
+      "en": "Top 8 Pop Hairstyles",
+      "es": "Guía de peinados pop",
+      "fr": "Le top des coiffures pop"
+    }
+  },
+  "9050": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 2400,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "帅气！最佳发型8款",
+      "de": "Die 8 coolsten Frisuren",
+      "it": "I migliori 8 tagli moderni",
+      "nl": "Top 8 van coole kapsels",
+      "ru": "8 лучших модных причесок",
+      "ja": "クール！ヘアアレンジBEST8",
+      "ko": "쿨하게! 헤어스타일 BEST 8",
+      "zh-tw": "酷！頭髮造型BEST8",
+      "en": "Top 8 Cool Hairstyles",
+      "es": "Guía de peinados modernos",
+      "fr": "Le top des coiffures cool"
+    }
+  },
+  "9051": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 3000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "时尚！最佳发色8款",
+      "de": "Die 8 schicksten Haarfarben",
+      "it": "Le 8 tinte per capelli top",
+      "nl": "Top 8 van haarkleuren",
+      "ru": "8 лучших цветов для волос",
+      "ja": "おしゃれ！ヘアカラーBEST8",
+      "ko": "화려하게! 헤어 컬러 BEST 8",
+      "zh-tw": "時尚！頭髮顏色BEST8",
+      "en": "Top 8 Stylish Hair Colors",
+      "es": "Guía de tintes para el pelo",
+      "fr": "Les plus belles colorations"
+    }
+  },
+  "9052": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 5000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "de": "Taschen richtig nutzen",
+      "it": "Guida all'uso delle tasche",
+      "nl": "Orde op zakken",
+      "ru": "Организация карманов",
+      "ja": "ポケットせいとんテクニック",
+      "ko": "주머니 정리 테크닉",
+      "en": "Pocket Organization Guide",
+      "es": "Organiza tus bolsillos",
+      "fr": "Savoir s'organiser",
+      "zh": "口袋整理技巧"
+    }
+  },
+  "9221": {
+    "img": "MenuIcon/BookRecipe",
+    "exp": 3000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "平常就能用！道具手册",
+      "de": "Alltagswerkzeuge A–Z",
+      "es-es": "Herramientas apañadas",
+      "it": "Schemi per strumenti utili",
+      "nl": "Sterk gereedschap maken",
+      "ru": "Неплохие инструменты",
+      "ja": "フツーにつかえる！どうぐレシピ",
+      "ko": "언제나 쓸 수 있는 도구 레시피",
+      "zh-tw": "平常就能用！道具方程式",
+      "es-us": "Herramientas fantásticas",
+      "en": "Pretty Good Tools Recipes",
+      "fr": "Fabriquer de bons outils"
+    }
+  },
+  "9261": {
+    "img": "FtrIcon/RollanTicket",
+    "sel": 100,
+    "stk": 5,
+    "src": "saharah",
+    "loc": {
+      "zh-cn": "骆岚兑换券",
+      "de": "Aziza-Coupon",
+      "it": "coupon di Sahara",
+      "nl": "Saharah-kaartje",
+      "ru": "ваучер Сахары",
+      "ja": "ローランのひきかえけん",
+      "ko": "사하라 교환권",
+      "zh-tw": "駱嵐兌換券",
+      "en": "Saharah Ticket",
+      "es": "cupón de Alcatifa",
+      "fr": "ticket Sarah"
+    }
+  },
+  "9616": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 800,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道具清清爽爽！收藏环",
+      "de": "Werkzeugring: Ein Muss!",
+      "fr-fr": "Guide du panel d'outils",
+      "it": "La ruota degli strumenti",
+      "nl": "De gereedschapsring rond",
+      "ru": "Меню инструментов",
+      "ja": "どうぐスッキリ！おきにリング",
+      "ko": "도구도 쉽게! 즐겨찾기",
+      "zh-tw": "道具不再亂糟糟！收藏環",
+      "fr-us": "Guide de la roue d'outils",
+      "en": "Tool Ring: It's Essential!",
+      "es": "Organiza tus herramientas"
+    }
+  },
+  "9771": {
+    "img": "MenuIcon/Helmet",
+    "exp": 2300,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "道路施工许可证·我的设计",
+      "de": "Eigenes-Design-Weg-Lizenz",
+      "it": "licenza strada modello pers.",
+      "nl": "padenontwerpvergunning",
+      "ru": "лицензия: индив. рисунок",
+      "ja": "どうろこうじ・マイデザイン",
+      "ko": "마이 디자인 도로 공사",
+      "zh-tw": "道路施工許可證‧我的設計",
+      "en": "custom design path permit",
+      "es": "permiso camino de diseño",
+      "fr": "permis routes perso"
+    }
+  },
+  "9964": {
+    "img": "FtrIcon/BellExchangeTicket",
+    "sel": 3000,
+    "exp": 500,
+    "exc": 0,
+    "stk": 10,
+    "hap": 103,
+    "src": [
+      "nook_miles",
+      "may_day_event"
+    ],
+    "loc": {
+      "zh-cn": "铃钱兑换券",
+      "de": "Sterni-Coupon",
+      "it": "coupon stelline",
+      "nl": "klingelbon",
+      "ru": "ваучер на дини",
+      "ja": "ベルひきかえけん",
+      "ko": "벨 교환권",
+      "zh-tw": "鈴錢兌換券",
+      "en": "Bell voucher",
+      "es": "cupón de bayas",
+      "fr": "ticket clochettes"
+    }
+  },
+  "11140": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 8000,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "口袋满装诀窍",
+      "de": "Taschentricks für Profis",
+      "es-es": "Perfecciona tus bolsillos",
+      "it": "Uso avanzato delle tasche",
+      "nl": "Zakkenvullen voor experts",
+      "ru": "Как набивать карманы",
+      "ja": "ポケットつめこみウルトラテク",
+      "ko": "주머니 정리, 고수의 기술",
+      "zh-tw": "塞滿口袋的究極訣竅",
+      "es-us": "Optimiza tus bolsillos",
+      "en": "Ultimate Pocket Stuffing",
+      "fr": "Guide du fourre-poches"
+    }
+  },
+  "12185": {
+    "img": "MenuIcon/MyDesignPro",
+    "exp": 800,
+    "exc": 0,
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "我的设计专业版",
+      "de": "Designs: Profi-Edition",
+      "fr-fr": "Motifs persos pour pros",
+      "it": "I miei modelli: versione pro",
+      "nl": "Speciaal ontwerp - deel 1",
+      "ru": "Режим профи-рисунков",
+      "ja": "マイデザインPROエディタ",
+      "ko": "마이 디자인 PRO 에디터",
+      "zh-tw": "我的設計專業版",
+      "fr-us": "Motifs perso pour pros",
+      "en": "Custom Design Pro Editor",
+      "es": "Mis diseños profesionales"
+    }
+  },
+  "12476": {
+    "img": "ShopPlant/SeedBushOsmathusYellow",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "tea_olive",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "黄色桂花苗",
+      "de": "Gelb-Duftblütensetzling",
+      "it": "germoglio osmanto giallo",
+      "nl": "gele-schijnhulst-zaailing",
+      "ru": "побег желтого османтуса",
+      "ja": "きいろいキンモクセイのなえ",
+      "ko": "노란 금목서 묘목",
+      "zh-tw": "黃色桂花苗",
+      "en": "yellow-tea-olive start",
+      "es": "olivo olor. amarillo de vivero",
+      "fr": "pousse d'osmanthus jaune"
+    }
+  },
+  "12478": {
+    "img": "GardeningIcon/PltBushOsmathusYellow2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "tea_olive",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "黄色桂花树",
+      "de": "Gelb-Duftblütenbusch",
+      "it": "osmanto giallo adulto",
+      "nl": "gele schijnhulst",
+      "ru": "куст желтого османтуса",
+      "ja": "きいろいキンモクセイのき",
+      "ko": "노란 금목서나무",
+      "zh-tw": "黃色桂花樹",
+      "en": "yellow-tea-olive bush",
+      "es": "olivo olor. amarillo adulto",
+      "fr": "buisson d'osmanthus jaune"
+    }
+  },
+  "12480": {
+    "img": "ShopPlant/SeedBushOsmathusOrange",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "tea_olive",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "橙色桂花苗",
+      "de": "Honig-Duftblütensetzling",
+      "it": "germoglio osmanto arancio",
+      "nl": "oranje-schijnhulst-zaailing",
+      "ru": "побег оранж. османтуса",
+      "ja": "オレンジキンモクセイのなえ",
+      "ko": "오렌지색 금목서 묘목",
+      "zh-tw": "橘色桂花苗",
+      "en": "orange-tea-olive start",
+      "es": "olivo olor. naranja de vivero",
+      "fr": "pousse d'osmanthus orange"
+    }
+  },
+  "12482": {
+    "img": "GardeningIcon/PltBushOsmathusOrange2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "tea_olive",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "橙色桂花树",
+      "de": "Honig-Duftblütenbusch",
+      "it": "osmanto arancio adulto",
+      "nl": "oranje schijnhulst",
+      "ru": "куст оранжев. османтуса",
+      "ja": "オレンジキンモクセイのき",
+      "ko": "오렌지색 금목서나무",
+      "zh-tw": "橘色桂花樹",
+      "en": "orange-tea-olive bush",
+      "es": "olivo oloroso naranja adulto",
+      "fr": "buiss. d'osmanthus orange"
+    }
+  },
+  "12487": {
+    "img": "ShopPlant/SeedBushCamelliaRed",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "camellia",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "红色山茶花苗",
+      "de": "Rot-Kameliensetzling",
+      "it": "germoglio di camelia rossa",
+      "nl": "rode-camelia-zaailing",
+      "ru": "побег красной камелии",
+      "ja": "あかいツバキのなえ",
+      "ko": "빨간 동백 묘목",
+      "zh-tw": "紅色山茶花苗",
+      "en": "red-camellia start",
+      "es": "camelia roja de vivero",
+      "fr": "pousse de camélia rouge"
+    }
+  },
+  "12489": {
+    "img": "GardeningIcon/PltBushCamelliaRed2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "camellia",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "红色山茶花树",
+      "de": "Rot-Kamelie",
+      "it": "camelia rossa adulta",
+      "nl": "rode camelia",
+      "ru": "куст красной камелии",
+      "ja": "あかいツバキのき",
+      "ko": "빨간 동백나무",
+      "zh-tw": "紅色山茶花樹",
+      "en": "red-camellia bush",
+      "es": "camelia roja adulta",
+      "fr": "buisson de camélia rouge"
+    }
+  },
+  "12490": {
+    "img": "ShopPlant/SeedBushCamelliaPink",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "camellia",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红山茶花苗",
+      "de": "Pink-Kameliensetzling",
+      "it": "germoglio di camelia rosa",
+      "nl": "roze-camelia-zaailing",
+      "ru": "побег розовой камелии",
+      "ja": "ピンクのツバキのなえ",
+      "ko": "핑크색 동백 묘목",
+      "zh-tw": "粉紅山茶花苗",
+      "en": "pink-camellia start",
+      "es": "camelia rosa de vivero",
+      "fr": "pousse de camélia rose"
+    }
+  },
+  "12492": {
+    "img": "GardeningIcon/PltBushCamelliaPink2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "camellia",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "粉红山茶花树",
+      "de": "Pink-Kamelie",
+      "it": "camelia rosa adulta",
+      "nl": "roze camelia",
+      "ru": "куст розовой камелии",
+      "ja": "ピンクのツバキのき",
+      "ko": "핑크색 동백나무",
+      "zh-tw": "粉紅山茶花樹",
+      "en": "pink-camellia bush",
+      "es": "camelia rosa adulta",
+      "fr": "buisson de camélia rose"
+    }
+  },
+  "12509": {
+    "img": "FtrIcon/EggGround",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "dig_spot",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Erd-Glücksei",
+      "it": "uovo terrestre",
+      "nl": "aarde-ei",
+      "ru": "земляное яйцо",
+      "ja": "じめんのたまご",
+      "ko": "땅 달걀",
+      "en": "earth egg",
+      "es": "huevo terrestre",
+      "fr": "œuf terrestre",
+      "zh": "地面蛋"
+    }
+  },
+  "12510": {
+    "img": "FtrIcon/EggRock",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "rocks",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Fels-Glücksei",
+      "it": "uovo roccioso",
+      "nl": "steenei",
+      "ru": "каменное яйцо",
+      "ja": "いわのたまご",
+      "ko": "바위 달걀",
+      "en": "stone egg",
+      "es": "huevo rupestre",
+      "fr": "œuf minéral",
+      "zh": "岩石蛋"
+    }
+  },
+  "12511": {
+    "img": "FtrIcon/EggLeaf",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "tree_hardwood",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "叶子蛋",
+      "de": "Laub-Glücksei",
+      "it": "uovo frondoso",
+      "nl": "bladei",
+      "ru": "лиственное яйцо",
+      "ja": "はっぱのたまご",
+      "ko": "나뭇잎 달걀",
+      "zh-tw": "葉子蛋",
+      "en": "leaf egg",
+      "es": "huevo boscoso",
+      "fr": "œuf feuillu"
+    }
+  },
+  "12512": {
+    "img": "FtrIcon/EggForest",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "tree_chop",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Holz-Glücksei",
+      "it": "uovo boscoso",
+      "nl": "houtei",
+      "ru": "лесное яйцо",
+      "ja": "ウッディなたまご",
+      "ko": "나무 달걀",
+      "en": "wood egg",
+      "es": "huevo leñoso",
+      "fr": "œuf boisé",
+      "zh": "森林蛋"
+    }
+  },
+  "12513": {
+    "img": "FtrIcon/EggSky",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "easter_balloon",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "飞天蛋",
+      "de": "Luft-Glücksei",
+      "it": "uovo celeste",
+      "nl": "luchtei",
+      "ru": "небесное яйцо",
+      "ja": "そらとぶたまご",
+      "ko": "하늘을 나는 달걀",
+      "zh-tw": "飛天蛋",
+      "en": "sky egg",
+      "es": "huevo celeste",
+      "fr": "œuf aérien"
+    }
+  },
+  "12514": {
+    "img": "FtrIcon/EggFish",
+    "sel": 200,
+    "stk": 30,
+    "fpw": 1,
+    "src": "fishing",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "鱼儿蛋",
+      "de": "Wasser-Glücksei",
+      "it": "uovo acquatico",
+      "nl": "waterei",
+      "ru": "водяное яйцо",
+      "ja": "サカナのたまご",
+      "ko": "물고기 달걀",
+      "zh-tw": "魚兒蛋",
+      "en": "water egg",
+      "es": "huevo acuático",
+      "fr": "œuf aquatique"
+    }
+  },
+  "12546": {
+    "img": "FtrIcon/Love",
+    "sel": 100,
+    "stk": 30,
+    "src": "reese",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "爱的结晶",
+      "de": "Liebeskristall",
+      "it": "gemma dell'amore",
+      "nl": "hartkristal",
+      "ru": "кристалл-сердце",
+      "ja": "あいのけっしょう",
+      "ko": "사랑의 결정",
+      "zh-tw": "愛的結晶",
+      "en": "heart crystal",
+      "es": "joya amorosa",
+      "fr": "cristal d'amour"
+    }
+  },
+  "12550": {
+    "img": "FtrIcon/PltWeedLight",
+    "sel": 25,
+    "stk": 50,
+    "src": "kappn_island",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "光藓",
+      "de": "Leuchtmoos",
+      "fr-fr": "schistostega",
+      "it": "muschio luminoso",
+      "nl": "lichtmos",
+      "ru": "кусок светящегося мха",
+      "ja": "ヒカリゴケ",
+      "ko": "빛이끼",
+      "zh-tw": "光蘚",
+      "fr-us": "mousse luisante",
+      "en": "glowing moss",
+      "es": "musgo luminoso"
+    }
+  },
+  "12551": {
+    "img": "FtrIcon/PltVine",
+    "sel": 50,
+    "stk": 30,
+    "src": "kappn_island",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Ranke",
+      "it": "pianta di edera",
+      "nl": "klimplant",
+      "ru": "лоза",
+      "ja": "ツル",
+      "ko": "덩굴",
+      "en": "vine",
+      "es": "enredadera",
+      "fr": "vigne",
+      "zh": "藤蔓"
+    }
+  },
+  "12898": {
+    "img": "GardeningIcon/PltTomato3",
+    "sel": 350,
+    "src": "tomato_dig",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Tomate (reif)",
+      "es-es": "tomatera madura",
+      "it": "pianta di pomodoro matura",
+      "nl": "rijpe tomatenplant",
+      "ru": "взрослый томат",
+      "ja": "そだったトマト",
+      "ko": "다 자란 토마토",
+      "es-us": "tomate maduro",
+      "en": "ripe tomato plant",
+      "fr": "tomate mûre",
+      "zh": "成熟的番茄"
+    }
+  },
+  "12899": {
+    "img": "GardeningIcon/PltWheat3",
+    "sel": 350,
+    "src": "wheat_dig",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "成熟的小麦",
+      "de": "Weizen (reif)",
+      "it": "pianta di grano matura",
+      "nl": "rijpe tarweplant",
+      "ru": "взрослая пшеница",
+      "ja": "そだったコムギ",
+      "ko": "다 자란 밀",
+      "zh-tw": "成熟的小麥",
+      "en": "ripe wheat plant",
+      "es": "espiga de trigo madura",
+      "fr": "blé mûr"
+    }
+  },
+  "12900": {
+    "img": "GardeningIcon/PltSugarCane3",
+    "sel": 350,
+    "src": "sugarcane_dig",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Zuckerrohr (reif)",
+      "it": "p. canna zucchero matura",
+      "nl": "rijpe suikerrietplant",
+      "ru": "взрослый сах. тростник",
+      "ja": "そだったサトウキビ",
+      "ko": "다 자란 사탕수수",
+      "en": "ripe sugarcane plant",
+      "es": "caña de azúcar madura",
+      "fr": "canne à sucre mûre",
+      "zh": "成熟的甘蔗"
+    }
+  },
+  "12902": {
+    "img": "GardeningIcon/PltPotato3",
+    "sel": 350,
+    "src": "potato_dig",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "成熟的土豆",
+      "de": "Kartoffel (reif)",
+      "es-es": "patata madura",
+      "it": "pianta di patata matura",
+      "nl": "rijpe aardappelplant",
+      "ru": "взрослый картофель",
+      "ja": "そだったジャガイモ",
+      "ko": "다 자란 감자",
+      "zh-tw": "成熟的馬鈴薯",
+      "es-us": "papa madura",
+      "en": "ripe potato plant",
+      "fr": "pomme de terre mûre"
+    }
+  },
+  "12905": {
+    "img": "GardeningIcon/PltCarrot3",
+    "sel": 350,
+    "src": "carrot_dig",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "成熟的胡萝卜",
+      "de": "Karotte (reif)",
+      "it": "pianta di carota matura",
+      "nl": "rijpe wortelplant",
+      "ru": "взрослая морковь",
+      "ja": "そだったニンジン",
+      "ko": "다 자란 당근",
+      "zh-tw": "成熟的胡蘿蔔",
+      "en": "ripe carrot plant",
+      "es": "zanahoria madura",
+      "fr": "carotte mûre"
+    }
+  },
+  "12968": {
+    "img": "FtrIcon/Pearl",
+    "sel": 10000,
+    "stk": 30,
+    "hap": 251,
+    "src": [
+      "dive_spot",
+      "pascal"
+    ],
+    "vad": "1.3.0",
+    "loc": {
+      "de": "Perle",
+      "it": "perla",
+      "nl": "parel",
+      "ru": "жемчужина",
+      "ja": "しんじゅ",
+      "ko": "진주",
+      "en": "pearl",
+      "es": "perla",
+      "fr": "perle",
+      "zh": "珍珠"
+    }
+  },
+  "13104": {
+    "img": "FtrIcon/SouvenirChocolate",
+    "sel": 222,
+    "exp": 800,
+    "exc": 2,
+    "stk": 10,
+    "fpw": 1,
+    "src": "hhp_office",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "巧克力伴手礼",
+      "de": "Souvenir-Pralinen",
+      "es-es": "caja bombones de recuerdo",
+      "it": "scatola di praline souvenir",
+      "nl": "souvenirchocolaatjes",
+      "ru": "сувенирные шоколадки",
+      "ja": "おみやげチョコレート",
+      "ko": "기념품 초콜릿",
+      "zh-tw": "巧克力伴手禮",
+      "es-us": "caja de dulces de souvenir",
+      "en": "souvenir chocolates",
+      "fr": "boîte de chocolats souvenir"
+    }
+  },
+  "13106": {
+    "img": "FtrIcon/Fireworks",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "loc": {
+      "zh-cn": "地面烟花筒",
+      "de": "Fontäne",
+      "it": "fuoco d'artificio",
+      "nl": "sterretjesfontein",
+      "ru": "фейерверк-фонтан",
+      "ja": "おきはなび",
+      "ko": "분수 불꽃",
+      "zh-tw": "地面煙火筒",
+      "en": "fountain firework",
+      "es": "bengala de tubo",
+      "fr": "feu d'artifice fontaine"
+    }
+  },
+  "13107": {
+    "img": "FtrIcon/Cinder",
+    "sel": 10,
+    "src": "firework_use",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "loc": {
+      "zh-cn": "地面烟花筒的灰烬",
+      "de": "Fontäne (abgebrannt)",
+      "it": "fuoco d'artificio esaurito",
+      "nl": "gebruikte sterretjesfontein",
+      "ru": "б/у фейерверк-фонтан",
+      "ja": "おきはなびのもえかす",
+      "ko": "분수 불꽃의 재",
+      "zh-tw": "地面煙火筒灰燼",
+      "en": "used fountain firework",
+      "es": "bengala de tubo usada",
+      "fr": "feu d'artifice fontaine usagé"
+    }
+  },
+  "13195": {
+    "img": "MenuIcon/MyDesignPro",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.9.0",
+    "loc": {
+      "zh-cn": "我的设计专业版＋",
+      "de": "Designs: Profi-Edition+",
+      "fr-fr": "Motifs persos pour pros +",
+      "it": "I miei modelli: vers. pro +",
+      "nl": "Speciaal ontwerp - deel 2",
+      "ru": "Режим профи-рисунков +",
+      "ja": "マイデザインPROエディタ＋",
+      "ko": "마이 디자인 PRO 에디터＋",
+      "zh-tw": "我的設計專業版＋",
+      "fr-us": "Motifs perso pour pros +",
+      "en": "Custom Design Pro Editor+",
+      "es": "Mis diseños profesionales +"
+    }
+  },
+  "13196": {
+    "img": "FtrIcon/Lollipop",
+    "sel": 120,
+    "stk": 30,
+    "fpw": 1,
+    "src": "vil_all",
+    "evt": "halloween",
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Lolli",
+      "es-es": "piruleta",
+      "fr-fr": "sucette",
+      "it": "lecca-lecca",
+      "nl": "lolly",
+      "ru": "леденец на палочке",
+      "ja": "ロリポップ",
+      "ko": "롤리팝",
+      "es-us": "paleta",
+      "fr-us": "suçon",
+      "en": "lollipop",
+      "zh": "棒棒糖"
+    }
+  },
+  "13197": {
+    "img": "FtrIcon/Candy",
+    "sel": 30,
+    "buy": 120,
+    "stk": 30,
+    "fpw": 1,
+    "src": [
+      "nook_store",
+      "vil_all"
+    ],
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Bonbon",
+      "es-es": "chuche",
+      "it": "dolcetto",
+      "nl": "snoepje",
+      "ru": "конфета",
+      "ja": "アメ",
+      "ko": "사탕",
+      "es-us": "dulce",
+      "en": "candy",
+      "fr": "bonbon",
+      "zh": "糖果"
+    }
+  },
+  "13227": {
+    "img": "FtrIcon/SeedSquash",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": [
+      "nook_store",
+      "leif"
+    ],
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "de": "Kürbissetzling",
+      "it": "piantina di zucca",
+      "nl": "pompoenzaailing",
+      "ru": "побег тыквы",
+      "ja": "カボチャのなえ",
+      "ko": "호박 모종",
+      "en": "pumpkin start",
+      "es": "calabaza de vivero",
+      "fr": "pousse de citrouille",
+      "zh": "南瓜苗"
+    }
+  },
+  "13228": {
+    "img": "FtrIcon/DreamBellExchangeTicket",
+    "sel": 5000,
+    "stk": 10,
+    "src": "luna",
+    "vad": "1.4.0",
+    "loc": {
+      "zh-cn": "梦境铃钱兑换券",
+      "de": "Traumsterni-Coupon",
+      "it": "coupon onirico",
+      "nl": "droomklingelbon",
+      "ru": "чек за сон",
+      "ja": "ゆめのベルひきかえけん",
+      "ko": "꿈의 벨 교환권",
+      "zh-tw": "夢境鈴錢兌換券",
+      "en": "Dream Bell exchange ticket",
+      "es": "cupón de bayas onírico",
+      "fr": "ticket rêve de clochettes"
+    }
+  },
+  "13256": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 2400,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "变身！身体彩绘",
+      "de": "Die Kunst des Bodypainting",
+      "it": "L'arte del body painting",
+      "nl": "Tips voor bodypainten",
+      "ru": "Искусство боди-арта",
+      "ja": "へんしん！ボディカラーペイント",
+      "ko": "변신! 컬러풀 보디 페인팅",
+      "zh-tw": "變身！身體彩繪",
+      "en": "Body-Paint Costume Tips",
+      "es": "Trucos de pintura corporal",
+      "fr": "ABC de peinture corporelle"
+    }
+  },
+  "13257": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 2400,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "看看！彩色隐形眼镜",
+      "de": "Augenfarben für Gewinner",
+      "es-es": "Guía de lentillas de colores",
+      "it": "Occhi dai mille colori",
+      "nl": "Oog voor oogkleuren",
+      "ru": "Новые цвета глаз",
+      "ja": "みせる！カラーコンタクト",
+      "ko": "매력 만점! 컬러 렌즈 모음",
+      "zh-tw": "看！彩色隱形眼鏡",
+      "es-us": "Guía colores de ojos",
+      "en": "Exploring New Eye Colors",
+      "fr": "Varier la couleur des yeux"
+    }
+  },
+  "13262": {
+    "img": "ShopPlant/SeedBushPlumeriaPink",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "plumeria",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "粉红鸡蛋花苗",
+      "de": "Pink-Frangipanisetzling",
+      "it": "germoglio di frangipani rosa",
+      "nl": "roze-plumeria-zaailing",
+      "ru": "побег розовой плюмерии",
+      "ja": "ピンクのプルメリアのなえ",
+      "ko": "핑크색 플루메리아 묘목",
+      "zh-tw": "粉紅雞蛋花苗",
+      "en": "pink-plumeria start",
+      "es": "plumeria rosa de vivero",
+      "fr": "pousse de frangipanier rose"
+    }
+  },
+  "13264": {
+    "img": "GardeningIcon/PltBushPlumeriaPink2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "plumeria",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "粉红鸡蛋花树",
+      "de": "Pink-Frangipani",
+      "it": "frangipani rosa adulto",
+      "nl": "roze plumeria",
+      "ru": "куст розовой плюмерии",
+      "ja": "ピンクのプルメリアのき",
+      "ko": "핑크색 플루메리아나무",
+      "zh-tw": "粉紅雞蛋花樹",
+      "en": "pink-plumeria bush",
+      "es": "plumeria rosa adulta",
+      "fr": "buisson frangipanier rose"
+    }
+  },
+  "13348": {
+    "img": "ShopPlant/SeedBushPlumeriaWhite",
+    "sel": 70,
+    "buy": 280,
+    "stk": 10,
+    "src": "leif",
+    "evt": "plumeria",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "白色鸡蛋花苗",
+      "de": "Weiß-Frangipanisetzling",
+      "it": "germoglio frangipani bianco",
+      "nl": "witte-plumeria-zaailing",
+      "ru": "побег белой плюмерии",
+      "ja": "しろいプルメリアのなえ",
+      "ko": "하얀 플루메리아 묘목",
+      "zh-tw": "白色雞蛋花苗",
+      "en": "white-plumeria start",
+      "es": "plumeria blanca de vivero",
+      "fr": "pousse frangipanier blanc"
+    }
+  },
+  "13350": {
+    "img": "GardeningIcon/PltBushPlumeriaWhite2",
+    "sel": 140,
+    "src": "dig_bush",
+    "evt": "plumeria",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "白色鸡蛋花树",
+      "de": "Weiß-Frangipani",
+      "it": "frangipani bianco adulto",
+      "nl": "witte plumeria",
+      "ru": "куст белой плюмерии",
+      "ja": "しろいプルメリアのき",
+      "ko": "하얀 플루메리아나무",
+      "zh-tw": "白色雞蛋花樹",
+      "en": "white-plumeria bush",
+      "es": "plumeria blanca adulta",
+      "fr": "buisson frangipanier blanc"
+    }
+  },
+  "13439": {
+    "img": "FtrIcon/SmartphoneCaseComp",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 178,
+    "src": "nook_shopping_promo",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "口袋露营广场手机壳",
+      "de": "Pocket Camp-Hülle",
+      "es-es": "funda móvil Pocket Camp",
+      "it": "custodia Pocket Camp",
+      "nl": "Pocket Camp-hoesje",
+      "ru": "чехол Pocket Camp",
+      "ja": "ポケットキャンプのスマホケース",
+      "ko": "포켓 캠프 스마트폰 케이스",
+      "zh-tw": "口袋露營廣場手機殼",
+      "es-us": "funda teléfono Pocket Camp",
+      "en": "Pocket Camp phone case",
+      "fr": "coque Pocket Camp"
+    }
+  },
+  "13610": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 2700,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "时下最潮！反应图鉴",
+      "de": "Hippe Emotionen",
+      "fr-fr": "Mimiques sans micmacs",
+      "it": "Collezione Gran Emozione",
+      "nl": "Gevoel voor emoties",
+      "ru": "Реакции в тренде",
+      "ja": "ナウい！リアクションずかん",
+      "ko": "최신 유행! 리액션 도감",
+      "zh-tw": "時下最熱門！表情圖鑑",
+      "fr-us": "Fanatique des mimiques",
+      "en": "Hip Reaction Collection",
+      "es": "Emociones y actividades"
+    }
+  },
+  "13766": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 1800,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "更多！发型×6",
+      "de": "Die 6 trendigsten Frisuren",
+      "it": "I migliori 6 tagli top",
+      "nl": "Top 6 van stijlvolle kapsels",
+      "ru": "Топ 6 стильных причесок",
+      "ja": "もっと！ヘアアレンジ×6",
+      "ko": "조금 더! 헤어스타일×6",
+      "zh-tw": "更多！頭髮造型×6",
+      "en": "Top 6 Stylish Hairstyles",
+      "es": "6 peinados revolucionarios",
+      "fr": "6 coiffures qui décoiffent"
+    }
+  },
+  "13787": {
+    "img": "FtrIcon/DIYbookHarvest",
+    "buy": 19800,
+    "src": [
+      "franklin",
+      "nook_store"
+    ],
+    "evt": [
+      "turkey_day",
+      "turkey_day_shopping"
+    ],
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "多彩多姿感恩节DIY",
+      "de": "Schlemmfest-Bastelbuch",
+      "es-es": "Bricolaje Día del Pavo",
+      "it": "Fai da te primizie",
+      "nl": "Doe-het-zelf: Smakenfestijn",
+      "ru": "«Сделай сам»: изобилие",
+      "ja": "いろどりサンクスギビングDIY",
+      "ko": "삶에 풍요를! 하베스트 DIY 레시피",
+      "zh-tw": "多彩多姿感恩節DIY",
+      "es-us": "Proyecto Día del Pavo",
+      "en": "Cozy Turkey Day DIY",
+      "fr": "Bricolages du partage"
+    }
+  },
+  "13792": {
+    "img": "FtrIcon/WPaperOrnament",
+    "sel": 300,
+    "stk": 10,
+    "hap": 201,
+    "src": "crafting",
+    "evt": "toy_day",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "圣诞包装纸",
+      "de": "Festtagsgeschenkpapier",
+      "it": "carta da regalo festiva",
+      "nl": "speelgoeddagcadeaupapier",
+      "ru": "новогодняя обертка",
+      "ja": "クリスマスなラッピングペーパー",
+      "ko": "크리스마스 포장지",
+      "zh-tw": "聖誕包裝紙",
+      "en": "festive wrapping paper",
+      "es": "papel de regalo festivo",
+      "fr": "papier cadeau festif"
+    }
+  },
+  "13793": {
+    "img": "FtrIcon/DummyWrappingOrnament",
+    "src": "present_wrap",
+    "evt": "toy_day",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "礼物",
+      "de": "Geschenk",
+      "it": "regalo",
+      "nl": "cadeau",
+      "ru": "подарок",
+      "ja": "プレゼント",
+      "ko": "선물",
+      "zh-tw": "禮物",
+      "en": "gift",
+      "es": "regalo",
+      "fr": "cadeau"
+    }
+  },
+  "13954": {
+    "img": "FtrIcon/OtoshidamaCh",
+    "sel": 125,
+    "buy": 500,
+    "stk": 10,
+    "hap": 201,
+    "src": "nook_shopping_season",
+    "evt": "lunar_new_year",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "春节红包",
+      "de": "Glücksumschlag",
+      "it": "busta della fortuna rossa",
+      "nl": "rode geluksenvelop",
+      "ru": "красный конверт удачи",
+      "ja": "しゅんせつのおとしだま",
+      "ko": "춘절 세뱃돈",
+      "zh-tw": "春節紅包",
+      "en": "lucky red envelope",
+      "es": "sobre rojo de la suerte",
+      "fr": "hóngbāo porte chance"
+    }
+  },
+  "13955": {
+    "img": "FtrIcon/OtoshidamaKr",
+    "sel": 125,
+    "buy": 500,
+    "stk": 10,
+    "src": "nook_shopping_season",
+    "evt": "seollal",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "韩国新年红包",
+      "de": "Bokjumeoni-Säckchen",
+      "it": "sacchettino bokjumeoni",
+      "nl": "gelukszakje",
+      "ru": "мешочек удачи",
+      "ja": "ソルラルのおとしだま",
+      "ko": "설날 세뱃돈",
+      "zh-tw": "韓國新年紅包",
+      "en": "bokjumeoni lucky pouch",
+      "es": "bolsita de la suerte",
+      "fr": "bokjumeoni porte chance"
+    }
+  },
+  "13956": {
+    "img": "FtrIcon/OtoshidamaJp",
+    "sel": 125,
+    "buy": 500,
+    "stk": 10,
+    "hap": 201,
+    "src": "nook_shopping_season",
+    "evt": "shogatsu",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "日式红包",
+      "de": "Otoshidama-Umschlag",
+      "es-es": "sobre de Año Nuevo",
+      "it": "busta otoshidama",
+      "nl": "otoshidama-envelop",
+      "ru": "конверт отосидама",
+      "ja": "おとしだま",
+      "ko": "일본풍 세뱃돈",
+      "zh-tw": "日式紅包",
+      "es-us": "sobre para otoshidama",
+      "en": "otoshidama envelope",
+      "fr": "enveloppe otoshidama"
+    }
+  },
+  "13994": {
+    "img": "FtrIcon/FlourWheat",
+    "sel": 210,
+    "stk": 50,
+    "hap": 103,
+    "src": "cooking",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "面粉",
+      "de": "Mehl",
+      "it": "farina",
+      "nl": "bloem",
+      "ru": "пачка муки",
+      "ja": "こむぎこ",
+      "ko": "밀가루",
+      "zh-tw": "麵粉",
+      "en": "flour",
+      "es": "paquete de harina",
+      "fr": "farine"
+    }
+  },
+  "13996": {
+    "img": "FtrIcon/FlourWheatwhole",
+    "sel": 210,
+    "stk": 50,
+    "hap": 103,
+    "src": "cooking",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "全麦面粉",
+      "de": "Vollkornmehl",
+      "it": "farina integrale",
+      "nl": "volkorenmeel",
+      "ru": "пачка обойной муки",
+      "ja": "ぜんりゅうふん",
+      "ko": "통밀 가루",
+      "zh-tw": "全麥麵粉",
+      "en": "whole-wheat flour",
+      "es": "paquete de harina integral",
+      "fr": "farine complète"
+    }
+  },
+  "13997": {
+    "img": "FtrIcon/FlourSugar",
+    "sel": 210,
+    "stk": 50,
+    "hap": 103,
+    "src": "cooking",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Zucker",
+      "it": "zucchero",
+      "nl": "suiker",
+      "ru": "пачка сахара",
+      "ja": "さとう",
+      "ko": "설탕",
+      "en": "sugar",
+      "es": "paquete de azúcar",
+      "fr": "sucre",
+      "zh": "砂糖"
+    }
+  },
+  "13998": {
+    "img": "FtrIcon/FlourSugarbrown",
+    "sel": 210,
+    "stk": 50,
+    "hap": 103,
+    "src": "cooking",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Rohzucker",
+      "es-es": "paquete de azúcar moreno",
+      "it": "zucchero bruno",
+      "nl": "bruine suiker",
+      "ru": "пачка коричневого сахара",
+      "ja": "こくとう",
+      "ko": "흑설탕",
+      "es-us": "paquete de azúcar morena",
+      "en": "brown sugar",
+      "fr": "sucre brun",
+      "zh": "黑糖"
+    }
+  },
+  "14030": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "buy": 19800,
+    "src": "nook_store",
+    "evt": [
+      "festivale_ready",
+      "festivale"
+    ],
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "欢乐！狂欢节反应",
+      "de": "Viva-Karneval-Emotionen",
+      "it": "Set di emozioni Carnevale",
+      "nl": "Dé emoties voor carnaval",
+      "ru": "Реакции к Карнавалу",
+      "ja": "ビバ！カーニバルリアクション",
+      "ko": "비바! 카니발 리액션",
+      "zh-tw": "歡樂！狂歡節表情",
+      "en": "Viva Festivale Reaction Set",
+      "es": "Set de emociones Carnaval",
+      "fr": "lot de mimiques de carnaval"
+    }
+  },
+  "14042": {
+    "img": "MenuIcon/OtoshidamaSealCh",
+    "src": "bells_wrap",
+    "evt": "lunar_new_year",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "春节红包",
+      "de": "Glücksgeschenk",
+      "es-es": "aguinaldo Año Nuevo Lunar",
+      "it": "denaro della fortuna",
+      "nl": "geluksgeld",
+      "ru": "дини на удачу",
+      "ja": "しゅんせつのおとしだま",
+      "ko": "춘절 세뱃돈",
+      "zh-tw": "春節紅包",
+      "es-us": "regalito bayas de la suerte",
+      "en": "lucky money",
+      "fr": "argent porte chance"
+    }
+  },
+  "14043": {
+    "img": "MenuIcon/OtoshidamaSealKr",
+    "src": "bells_wrap",
+    "evt": "seollal",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "韩国新年红包",
+      "de": "Sebaetdon",
+      "es-es": "aguinaldo de Seollal",
+      "it": "sebaetdon",
+      "nl": "sebaetdon-geld",
+      "ru": "подарок «сэбэтон»",
+      "ja": "ソルラルのおとしだま",
+      "ko": "설날 세뱃돈",
+      "zh-tw": "韓國新年紅包",
+      "es-us": "regalito de Seollal",
+      "en": "sebaetdon",
+      "fr": "sebaetdon"
+    }
+  },
+  "14044": {
+    "img": "MenuIcon/OtoshidamaSealJp",
+    "src": "bells_wrap",
+    "evt": "shogatsu",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "日式红包",
+      "de": "Otoshidama",
+      "es-es": "aguinaldo de Año Nuevo",
+      "it": "otoshidama",
+      "nl": "otoshidama-geld",
+      "ru": "конверт отосидама",
+      "ja": "おとしだま",
+      "ko": "일본풍 세뱃돈",
+      "zh-tw": "日式紅包",
+      "es-us": "otoshidama",
+      "en": "otoshidama",
+      "fr": "otoshidama"
+    }
+  },
+  "14158": {
+    "img": "MenuIcon/MyDesignPro",
+    "exp": 300,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "1.9.0",
+    "loc": {
+      "zh-cn": "“我的设计”展示柜",
+      "de": "Designtausch-Terminal",
+      "fr-fr": "Portail des motifs persos",
+      "it": "Portale modelli personaliz.",
+      "nl": "Ontwerp-uitwisselpunt",
+      "ru": "Обмен рисунками",
+      "ja": "マイデザイン・ショーケース",
+      "ko": "마이 디자인 단말기",
+      "zh-tw": "「我的設計」展示櫃",
+      "fr-us": "Portail des motifs perso",
+      "en": "Custom Designs Portal",
+      "es": "Portal de diseños"
+    }
+  },
+  "14546": {
+    "img": "FtrIcon/HaniwaPiece",
+    "sel": 414,
+    "src": [
+      "dig_spot",
+      "beach",
+      "brewster"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Gyroid-Fragment",
+      "it": "frammento di giroide",
+      "nl": "stukje gyroid",
+      "ru": "фрагмент гироида",
+      "ja": "はにわのかけら",
+      "ko": "토용 조각",
+      "en": "gyroid fragment",
+      "es": "fragmento de giroide",
+      "fr": "fragment de gyroïde",
+      "zh": "陶俑碎片"
+    }
+  },
+  "14691": {
+    "img": "MenuIcon/DIYRecipePlus",
+    "exp": 2000,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "料理也能DIY！手册＋",
+      "de": "Genießen mit Anleitungen+",
+      "it": "Cucina creativa 2.0",
+      "nl": "De lekkerste recepten",
+      "ru": "«Сделай сам+» и рецепты",
+      "ja": "りょうりもDIY！レシピ＋",
+      "ko": "요리도 DIY! 레시피＋",
+      "zh-tw": "料理也能DIY！方程式＋",
+      "en": "Be a Chef! DIY Recipes+",
+      "es": "¡Creaciones+ y a cocinar!",
+      "fr": "Recettes Créations +"
+    }
+  },
+  "14692": {
+    "img": "MenuIcon/MyDesignPro",
+    "exp": 1800,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "“我的设计”图案＋",
+      "de": "Muster für eigene Designs+",
+      "fr-fr": "Conseils motifs persos +",
+      "it": "Motivi personalizzati +",
+      "nl": "Patronen voor ontwerppret",
+      "ru": "Индивидуальн. рисунки+",
+      "ja": "マイデザイン・パターン＋",
+      "ko": "마이 디자인 패턴＋",
+      "zh-tw": "「我的設計」圖案＋",
+      "fr-us": "Conseils motifs perso +",
+      "en": "Custom Designs Patterns+",
+      "es": "Estampados en Mis diseños"
+    }
+  },
+  "14693": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 2500,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "布置PRO许可证",
+      "de": "Deko-Profi-Lizenz",
+      "it": "Licenza arredamento pro",
+      "nl": "inrichtvergunning",
+      "ru": "лицензия декоратора",
+      "ja": "もようがえPROライセンス",
+      "ko": "인테리어 PRO 자격증",
+      "zh-tw": "布置PRO許可證",
+      "en": "Pro Decorating License",
+      "es": "Modo decoración Pro",
+      "fr": "Diplôme de déco pro"
+    }
+  },
+  "14694": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 2500,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "轻轻松松！爽快改造书",
+      "de": "Zäuneverzaubern-Abc",
+      "it": "Recinzioni lampo",
+      "nl": "Hekken in een handomdraai",
+      "ru": "Индивидуальность заборов",
+      "ja": "サクっと！さくリメイクBOOK",
+      "ko": "뚝딱! 울타리 리폼 BOOK",
+      "zh-tw": "輕輕鬆鬆！爽快改造BOOK",
+      "en": "Custom Fencing in a Flash",
+      "es": "Cómo personalizar vallas",
+      "fr": "Clôtures persos rapido"
+    }
+  },
+  "14695": {
+    "img": "MenuIcon/CameraAppPro",
+    "exp": 1500,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "照相机软件PRO",
+      "de": "Kamera-App Pro",
+      "it": "Fotocamera pro",
+      "nl": "De Camera-app voor pro's",
+      "ru": "Профи-камера",
+      "ja": "カメラアプリPRO",
+      "ko": "카메라 앱 PRO",
+      "zh-tw": "照相機應用程式PRO",
+      "en": "Pro Camera App",
+      "es": "Actualización cámara Pro",
+      "fr": "Appareil photo pro"
+    }
+  },
+  "14796": {
+    "img": "MenuIcon/LifeSupport",
+    "exp": 400,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "全面生活支持服务",
+      "de": "Inselhandbuch-Service",
+      "it": "Guida isolana",
+      "nl": "Alle eilandtips op een rijtje",
+      "ru": "Сервис «Островные азы»",
+      "ja": "てっていライフサポートサービス",
+      "ko": "퍼펙트 라이프 서포트 서비스",
+      "zh-tw": "全面生活支援服務",
+      "en": "Island Life 101 Service",
+      "es": "Aplicación Manual insular",
+      "fr": "Guide insulaire"
+    }
+  },
+  "14811": {
+    "img": "FtrIcon/Cookingbook1",
+    "buy": 4980,
+    "src": "nook_store",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "方便快捷！料理手册",
+      "de": "Basis-Rezepte",
+      "it": "ricettario base",
+      "nl": "Eenvoudig maar lekker",
+      "ru": "Азы кулинарии",
+      "ja": "おてがる！クッキングレシピ",
+      "ko": "간단! 쿠킹 레시피",
+      "zh-tw": "方便快捷！料理方程式",
+      "en": "Basic Cooking Recipes",
+      "es": "Recetario básico",
+      "fr": "Bien débuter en cuisine"
+    }
+  },
+  "14816": {
+    "img": "FtrIcon/CookingbookHarvest",
+    "buy": 9800,
+    "hap": 103,
+    "src": [
+      "franklin",
+      "nook_store"
+    ],
+    "evt": [
+      "turkey_day",
+      "turkey_day_shopping"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "感恩节·料理",
+      "de": "Schlemmfest-Rezepte",
+      "it": "ricettario festival primizie",
+      "nl": "Smakelijk Smakenfestijn",
+      "ru": "Рецепты ко Дню изобилия",
+      "ja": "サンクスギビング・クッキング",
+      "ko": "추수감사절 레시피",
+      "zh-tw": "感恩節‧料理",
+      "en": "Turkey Day Recipes",
+      "es": "Recetario Día del Pavo",
+      "fr": "Recettes de fête du partage"
+    }
+  },
+  "14820": {
+    "img": "FtrIcon/SmartphoneCaseOtg",
+    "sel": 625,
+    "exp": 2200,
+    "exc": 2,
+    "hap": 151,
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "巧美生活手机壳",
+      "de": "FHA-Smartphone-Hülle",
+      "es-es": "funda móvil Archipiélago",
+      "fr-fr": "coque Les Villas de Lou",
+      "it": "custodia Casimira vacanze",
+      "nl": "resortplanbureauhoesje",
+      "ru": "чехол курортного бюро",
+      "ja": "タクミライフのスマホケース",
+      "ko": "파라다이스 플래닝 스마트폰 케이스",
+      "zh-tw": "巧美生活手機殼",
+      "es-us": "funda celular Archipiélago",
+      "fr-us": "coque Paradis sur mesure",
+      "en": "Paradise Planning case"
+    }
+  },
+  "14828": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 3300,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "表情·创意笔记",
+      "de": "Neue-Emotionen-Sammlung",
+      "it": "Nuove emozioni",
+      "nl": "Nieuwe emoties te over",
+      "ru": "Новые реакции",
+      "ja": "リアクション・アイデアノート",
+      "ko": "리액션 아이디어 노트",
+      "zh-tw": "表情‧創意筆記",
+      "en": "New Reactions Notebook",
+      "es": "Emociones y expresiones",
+      "fr": "Nouvelles mimiques"
+    }
+  },
+  "14829": {
+    "img": "MenuIcon/HowtoBookHair",
+    "exp": 1200,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "有型！发型×4",
+      "de": "Die 4 fabulösesten Frisuren",
+      "it": "I migliori 4 tagli favolosi",
+      "nl": "Top 4 van gave kapsels",
+      "ru": "4 лучшие прически люкс",
+      "ja": "イカす！ヘアアレンジ×4",
+      "ko": "느낌 있게! 헤어스타일×4",
+      "zh-tw": "有型！頭髮造型x4",
+      "en": "Top 4 Fab Hairstyles",
+      "es": "4 peinados fabulosos",
+      "fr": "4 coiffures fabuleuses"
+    }
+  },
+  "14914": {
+    "img": "MenuIcon/HowtoBookExpansion",
+    "exp": 3000,
+    "exc": 0,
+    "src": "nook_miles",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "公共建设施工许可证",
+      "de": "Infrastruktur-Lizenz",
+      "it": "licenza infrastrutture pro",
+      "nl": "infrastructuurvergunning",
+      "ru": "лицензия градостроителя",
+      "ja": "インフラついかこうじライセンス",
+      "ko": "인프라 추가 공사 허가증",
+      "zh-tw": "公共建設施工許可證",
+      "en": "Pro Construction License",
+      "es": "Más infraestructuras",
+      "fr": "permis infrastructures pro"
+    }
+  }
+}

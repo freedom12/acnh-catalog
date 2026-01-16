@@ -1,0 +1,794 @@
+{
+  "12681": {
+    "img": "FtrIcon/FtrWallHigh",
+    "sel": 960,
+    "hap": 103,
+    "int": true,
+    "sze": "2x0.5",
+    "src": "crafting",
+    "itp": "yes",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "分隔墙",
+      "de": "Raumteiler",
+      "it": "parete divisoria",
+      "nl": "kamerafscheiding",
+      "ru": "перегородка",
+      "ja": "しきりかべ",
+      "ko": "칸막이 벽",
+      "zh-tw": "分隔牆",
+      "en": "partition wall",
+      "es": "muro de separación",
+      "fr": "cloison mobile"
+    }
+  },
+  "13895": {
+    "img": "FtrIcon/FtrWallCounterConcreteL",
+    "clr": "gray",
+    "sel": 2400,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Hoch-Betoninseltheke",
+      "es-es": "encimera de cemento alta",
+      "it": "separatore di cemento L",
+      "nl": "hoog betonnen blok",
+      "ru": "высокая стойка (бетон)",
+      "ja": "コンクリートしきりカウンターH",
+      "ko": "콘크리트 칸막이 카운터 H",
+      "es-us": "separador de cemento alto",
+      "en": "tall concrete island counter",
+      "fr": "séparateur haut en béton",
+      "zh": "混凝土分隔吧台H"
+    }
+  },
+  "13897": {
+    "ipf": "FtrIcon/FtrWallCounterBrickL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "red",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "gray",
+        "brown"
+      ]
+    ],
+    "sel": 1600,
+    "kit": 3,
+    "ktt": 1,
+    "ccp": 2400,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "砖块分隔吧台H",
+      "de": "Hoch-Ziegelinseltheke",
+      "es-es": "encimera de ladrillo alta",
+      "it": "separatore di mattoni L",
+      "nl": "hoog bakstenen blok",
+      "ru": "высокая стойка (кирпич)",
+      "ja": "レンガのしきりカウンターH",
+      "ko": "벽돌 칸막이 카운터 H",
+      "zh-tw": "磚塊分隔吧台H",
+      "es-us": "separador de ladrillos alto",
+      "en": "tall brick island counter",
+      "fr": "séparateur haut en briques"
+    }
+  },
+  "13898": {
+    "img": "FtrIcon/FtrWallCounterConcreteS",
+    "clr": "gray",
+    "sel": 1200,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Niedrig-Betoninseltheke",
+      "es-es": "encimera de cemento baja",
+      "it": "separatore di cemento S",
+      "nl": "laag betonnen blok",
+      "ru": "низкая стойка (бетон)",
+      "ja": "コンクリートしきりカウンターL",
+      "ko": "콘크리트 칸막이 카운터 L",
+      "es-us": "separador de cemento bajo",
+      "en": "low concrete island counter",
+      "fr": "séparateur bas en béton",
+      "zh": "混凝土分隔吧台L"
+    }
+  },
+  "13901": {
+    "ipf": "FtrIcon/FtrWallCounterBrickS_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "red",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "gray",
+        "brown"
+      ]
+    ],
+    "sel": 800,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "砖块分隔吧台L",
+      "de": "Niedrig-Ziegelinseltheke",
+      "es-es": "encimera de ladrillo baja",
+      "it": "separatore di mattoni S",
+      "nl": "laag bakstenen blok",
+      "ru": "низкая стойка (кирпич)",
+      "ja": "レンガのしきりカウンターL",
+      "ko": "벽돌 칸막이 카운터 L",
+      "zh-tw": "磚塊分隔吧台L",
+      "es-us": "separador de ladrillos bajo",
+      "en": "low brick island counter",
+      "fr": "séparateur bas en briques"
+    }
+  },
+  "13902": {
+    "ipf": "FtrIcon/FtrWallCounterWoodL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "light_wood",
+      "natural_wood",
+      "dark_wood"
+    ],
+    "clr": [
+      "beige",
+      "orange",
+      "brown"
+    ],
+    "sel": 1080,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "木制分隔吧台H",
+      "de": "Hoch-Holzinseltheke",
+      "es-es": "encimera de madera alta",
+      "it": "separatore di legno L",
+      "nl": "hoog houten blok",
+      "ru": "высокая стойка (дерево)",
+      "ja": "もくせいのしきりカウンターH",
+      "ko": "목제 칸막이 카운터 H",
+      "zh-tw": "木製分隔吧台H",
+      "es-us": "separador de madera alto",
+      "en": "tall wooden island counter",
+      "fr": "séparateur haut en bois"
+    }
+  },
+  "14308": {
+    "ipf": "FtrIcon/FtrWallCounterPlainS_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "pale_blue",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "aqua",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "sel": 700,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "简约分隔吧台L",
+      "de": "Niedrig-Schlichtinseltheke",
+      "es-es": "encimera sencilla baja",
+      "it": "separatore semplice S",
+      "nl": "laag eenvoudig blok",
+      "ru": "низкая простая стойка",
+      "ja": "シンプルなしきりカウンターL",
+      "ko": "심플 칸막이 카운터 L",
+      "zh-tw": "簡約分隔吧台L",
+      "es-us": "separador sencillo bajo",
+      "en": "low simple island counter",
+      "fr": "séparateur bas standard"
+    }
+  },
+  "14310": {
+    "ipf": "FtrIcon/FtrWallCounterPlainL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "pale_blue",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "aqua",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "sel": 1400,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "简约分隔吧台H",
+      "de": "Hoch-Schlichtinseltheke",
+      "es-es": "encimera sencilla alta",
+      "it": "separatore semplice L",
+      "nl": "hoog eenvoudig blok",
+      "ru": "высокая простая стойка",
+      "ja": "シンプルなしきりカウンターH",
+      "ko": "심플 칸막이 카운터 H",
+      "zh-tw": "簡約分隔吧台H",
+      "es-us": "separador sencillo alto",
+      "en": "tall simple island counter",
+      "fr": "séparateur haut standard"
+    }
+  },
+  "14313": {
+    "ipf": "FtrIcon/FtrWallCounterWoodS_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "light_wood",
+      "natural_wood",
+      "dark_wood"
+    ],
+    "clr": [
+      "beige",
+      "orange",
+      "brown"
+    ],
+    "sel": 720,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "木制分隔吧台L",
+      "de": "Niedrig-Holzinseltheke",
+      "es-es": "encimera de madera baja",
+      "it": "separatore di legno S",
+      "nl": "laag houten blok",
+      "ru": "низкая стойка (дерево)",
+      "ja": "もくせいのしきりカウンターL",
+      "ko": "목제 칸막이 카운터 L",
+      "zh-tw": "木製分隔吧台L",
+      "es-us": "separador de madera bajo",
+      "en": "low wooden island counter",
+      "fr": "séparateur bas en bois"
+    }
+  },
+  "14322": {
+    "img": "FtrIcon/FtrWallCounterSteelL",
+    "clr": "gray",
+    "sel": 6000,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "钢铁分隔吧台H",
+      "de": "Hoch-Stahlinseltheke",
+      "es-es": "encimera de acero alta",
+      "it": "separatore d'acciaio L",
+      "nl": "hoog stalen blok",
+      "ru": "высокая стойка (сталь)",
+      "ja": "スチールのしきりカウンターH",
+      "ko": "스틸 칸막이 카운터 H",
+      "zh-tw": "鋼鐵分隔吧台H",
+      "es-us": "separador de acero alto",
+      "en": "tall steel island counter",
+      "fr": "séparateur haut en acier"
+    }
+  },
+  "14324": {
+    "img": "FtrIcon/FtrWallCounterSteelS",
+    "clr": "gray",
+    "sel": 3000,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "钢铁分隔吧台L",
+      "de": "Niedrig-Stahlinseltheke",
+      "es-es": "encimera de acero baja",
+      "it": "separatore d'acciaio S",
+      "nl": "laag stalen blok",
+      "ru": "низкая стойка (сталь)",
+      "ja": "スチールのしきりカウンターL",
+      "ko": "스틸 칸막이 카운터 L",
+      "zh-tw": "鋼鐵分隔吧台L",
+      "es-us": "separador de acero bajo",
+      "en": "low steel island counter",
+      "fr": "séparateur bas en acier"
+    }
+  },
+  "14330": {
+    "img": "FtrIcon/FtrWallCounterGoldL",
+    "clr": "yellow",
+    "sel": 80000,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "黄金分隔吧台H",
+      "de": "Hoch-Goldinseltheke",
+      "es-es": "encimera dorada alta",
+      "it": "separatore dorato L",
+      "nl": "hoog gouden blok",
+      "ru": "высокая стойка (золото)",
+      "ja": "きんのしきりカウンターH",
+      "ko": "금 칸막이 카운터 H",
+      "zh-tw": "黃金分隔吧台H",
+      "es-us": "separador dorado alto",
+      "en": "tall golden island counter",
+      "fr": "séparateur haut doré"
+    }
+  },
+  "14332": {
+    "ipf": "FtrIcon/FtrWallCounterMarbleL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "sel": 2400,
+    "kit": 4,
+    "ktt": 1,
+    "ccp": 3100,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Hoch-Marmorinseltheke",
+      "es-es": "encimera de mármol alta",
+      "it": "separatore di marmo L",
+      "nl": "hoog marmeren blok",
+      "ru": "высокая стойка (мрамор)",
+      "ja": "だいりせきのしきりカウンターH",
+      "ko": "대리석 칸막이 카운터 H",
+      "es-us": "separador de mármol alto",
+      "en": "tall marble island counter",
+      "fr": "séparateur haut en marbre",
+      "zh": "大理石分隔吧台H"
+    }
+  },
+  "14333": {
+    "img": "FtrIcon/FtrWallCounterGoldS",
+    "clr": "yellow",
+    "sel": 40000,
+    "hap": 103,
+    "sur": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "黄金分隔吧台L",
+      "de": "Niedrig-Goldinseltheke",
+      "es-es": "encimera dorada baja",
+      "it": "separatore dorato S",
+      "nl": "laag gouden blok",
+      "ru": "низкая стойка (золото)",
+      "ja": "きんのしきりカウンターL",
+      "ko": "금 칸막이 카운터 L",
+      "zh-tw": "黃金分隔吧台L",
+      "es-us": "separador dorado bajo",
+      "en": "low golden island counter",
+      "fr": "séparateur bas doré"
+    }
+  },
+  "14337": {
+    "ipf": "FtrIcon/FtrWallCounterMarbleS_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "sel": 1200,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "sur": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Niedrig-Marmorinseltheke",
+      "es-es": "encimera de mármol baja",
+      "it": "separatore di marmo S",
+      "nl": "laag marmeren blok",
+      "ru": "низкая стойка (мрамор)",
+      "ja": "だいりせきのしきりカウンターL",
+      "ko": "대리석 칸막이 카운터 L",
+      "es-us": "separador de mármol bajo",
+      "en": "low marble island counter",
+      "fr": "séparateur bas en marbre",
+      "zh": "大理石分隔吧台L"
+    }
+  },
+  "14596": {
+    "ipf": "FtrIcon/FtrWallPillarBrick_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "red",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      "gray"
+    ],
+    "sel": 800,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "bcu": true,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "砖块柱子",
+      "de": "Ziegelsäule",
+      "it": "colonna di mattoni",
+      "nl": "bakstenen pilaar",
+      "ru": "кирпичная колонна",
+      "ja": "レンガのはしら",
+      "ko": "벽돌 기둥",
+      "zh-tw": "磚塊柱子",
+      "en": "brick pillar",
+      "es": "pilar de ladrillo",
+      "fr": "colonne en briques"
+    }
+  },
+  "14597": {
+    "ipf": "FtrIcon/FtrWallPillarMarble_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "sel": 1200,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 103,
+    "bcu": true,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Marmorsäule",
+      "it": "colonna di marmo",
+      "nl": "marmeren pilaar",
+      "ru": "мраморная колонна",
+      "ja": "だいりせきのはしら",
+      "ko": "대리석 기둥",
+      "en": "marble pillar",
+      "es": "pilar de mármol",
+      "fr": "colonne en marbre",
+      "zh": "大理石柱子"
+    }
+  },
+  "14598": {
+    "ipf": "FtrIcon/FtrWallPillarPlain_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "pale_blue",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "aqua",
+      "yellow",
+      "red",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "sel": 700,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "bcu": true,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "简约柱子",
+      "de": "Schlichtsäule",
+      "it": "colonna semplice",
+      "nl": "eenvoudige pilaar",
+      "ru": "простая колонна",
+      "ja": "シンプルなはしら",
+      "ko": "심플 기둥",
+      "zh-tw": "簡約柱子",
+      "en": "simple pillar",
+      "es": "pilar simple",
+      "fr": "colonne standard"
+    }
+  },
+  "14599": {
+    "img": "FtrIcon/FtrWallPillarSteel",
+    "clr": "gray",
+    "sel": 3000,
+    "hap": 103,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "钢铁柱子",
+      "de": "Stahlsäule",
+      "it": "colonna d'acciaio",
+      "nl": "stalen pilaar",
+      "ru": "стальная колонна",
+      "ja": "スチールのはしら",
+      "ko": "스틸 기둥",
+      "zh-tw": "鋼鐵柱子",
+      "en": "steel pillar",
+      "es": "pilar de acero",
+      "fr": "colonne en acier"
+    }
+  },
+  "14600": {
+    "img": "FtrIcon/FtrWallPillarGold",
+    "clr": "yellow",
+    "sel": 40000,
+    "hap": 103,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "黄金柱子",
+      "de": "Goldsäule",
+      "it": "colonna dorata",
+      "nl": "gouden pilaar",
+      "ru": "золотая колонна",
+      "ja": "きんのはしら",
+      "ko": "금 기둥",
+      "zh-tw": "黃金柱子",
+      "en": "golden pillar",
+      "es": "pilar dorado",
+      "fr": "colonne dorée"
+    }
+  },
+  "14601": {
+    "ipf": "FtrIcon/FtrWallPillarWood_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "light_wood",
+      "natural_wood",
+      "dark_wood"
+    ],
+    "clr": [
+      "beige",
+      "orange",
+      "brown"
+    ],
+    "sel": 720,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "bcu": true,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "木制柱子",
+      "de": "Holzsäule",
+      "it": "colonna di legno",
+      "nl": "houten pilaar",
+      "ru": "деревянная колонна",
+      "ja": "もくせいのはしら",
+      "ko": "목제 기둥",
+      "zh-tw": "木製柱子",
+      "en": "wooden pillar",
+      "es": "pilar de madera",
+      "fr": "colonne en bois"
+    }
+  },
+  "14602": {
+    "img": "FtrIcon/FtrWallPillarConcrete",
+    "clr": "gray",
+    "sel": 1200,
+    "hap": 103,
+    "sze": "0.5x0.5",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Betonsäule",
+      "it": "colonna di cemento",
+      "nl": "betonnen pilaar",
+      "ru": "бетонная колонна",
+      "ja": "コンクリートのはしら",
+      "ko": "콘크리트 기둥",
+      "en": "concrete pillar",
+      "es": "pilar de cemento",
+      "fr": "colonne en béton",
+      "zh": "混凝土柱子"
+    }
+  }
+}

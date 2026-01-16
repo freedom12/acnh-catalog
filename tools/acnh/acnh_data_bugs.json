@@ -1,0 +1,3812 @@
+{
+  "582": {
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectAburazemi",
+    "sel": 250,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 70,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 26,
+    "mod": 7046,
+    "img": "BookInsectIcon/InsectAburazemi",
+    "loc": {
+      "zh-cn": "油蝉",
+      "de": "Braunzikade",
+      "it": "cicala marrone",
+      "nl": "bruine cicade",
+      "ru": "коричневая цикада",
+      "ja": "アブラゼミ",
+      "ko": "유지매미",
+      "zh-tw": "油蟬",
+      "en": "brown cicada",
+      "es": "cigarra marrón",
+      "fr": "cigale cercope"
+    }
+  },
+  "583": {
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectAgehacho",
+    "sel": 240,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying",
+    "wea": 2,
+    "nhd": [
+      2,
+      8
+    ],
+    "nht": [
+      4,
+      19
+    ],
+    "shd": [
+      8,
+      2
+    ],
+    "sht": [
+      4,
+      19
+    ],
+    "csr": 40,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 3,
+    "mod": 5944,
+    "img": "BookInsectIcon/InsectAgehacho",
+    "loc": {
+      "zh-cn": "凤蝶",
+      "de": "Schwalbenschwanz",
+      "it": "farfalla tigre",
+      "nl": "koninginnenpage",
+      "ru": "махаон",
+      "ja": "アゲハチョウ",
+      "ko": "호랑나비",
+      "zh-tw": "鳳蝶",
+      "en": "tiger butterfly",
+      "es": "mariposa tigre",
+      "fr": "machaon"
+    }
+  },
+  "584": {
+    "clr": [
+      "green",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectAkaeritoribaneageha",
+    "sel": 2500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      11,
+      1,
+      3,
+      8
+    ],
+    "nht": [
+      [
+        8,
+        17
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "shd": [
+      9,
+      2,
+      5,
+      7
+    ],
+    "sht": [
+      [
+        8,
+        17
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 11,
+    "mod": 7049,
+    "img": "BookInsectIcon/InsectAkaeritoribaneageha",
+    "loc": {
+      "zh-cn": "红颈凤蝶",
+      "de": "Troides brookiana",
+      "it": "farfalla Raja Brooke",
+      "nl": "Rajah Brooke-vlinder",
+      "ru": "трогоноптера Брука",
+      "ja": "アカエリトリバネアゲハ",
+      "ko": "붉은목도리비단나비",
+      "zh-tw": "紅頸鳳蝶",
+      "en": "Rajah Brooke's birdwing",
+      "es": "mariposa alas de Brooke",
+      "fr": "troides brookiana"
+    }
+  },
+  "585": {
+    "clr": [
+      "red",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectAkiakane",
+    "sel": 180,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_water",
+    "wea": 2,
+    "nhd": [
+      8,
+      9
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      2,
+      3
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 80,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 32,
+    "mod": 7050,
+    "img": "BookInsectIcon/InsectAkiakane",
+    "loc": {
+      "zh-cn": "红蜻蜓",
+      "de": "Feuerlibelle",
+      "fr-fr": "sympetrum",
+      "it": "libellula rossa",
+      "nl": "rode libel",
+      "ru": "красная стрекоза",
+      "ja": "アキアカネ",
+      "ko": "고추잠자리",
+      "zh-tw": "紅蜻蜓",
+      "fr-us": "libellule rouge",
+      "en": "red dragonfly",
+      "es": "libélula roja"
+    }
+  },
+  "586": {
+    "clr": [
+      "green",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectArekisandoratoribaneageha",
+    "sel": 4000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      8,
+      16
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      8,
+      16
+    ],
+    "cun": 50,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 12,
+    "mod": 7051,
+    "img": "BookInsectIcon/InsectArekisandoratoribaneageha",
+    "loc": {
+      "zh-cn": "亚历山大凤蝶",
+      "de": "Vogelfalter",
+      "it": "farfalla regina Alessandra",
+      "nl": "Alexandra's vogelvlinder",
+      "ru": "птицекрылка Александры",
+      "ja": "アレキサンドラトリバネアゲハ",
+      "ko": "알렉산드라비단제비나비",
+      "zh-tw": "亞歷山大鳳蝶",
+      "en": "Queen Alexandra's birdwing",
+      "es": "mariposa alas de pájaro",
+      "fr": "troides alexandrae"
+    }
+  },
+  "587": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectAmenbo",
+    "sel": 130,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "river_pond",
+    "wea": 0,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 30,
+    "sze": "1x1",
+    "gso": 38,
+    "mod": 7052,
+    "img": "BookInsectIcon/InsectAmenbo",
+    "loc": {
+      "zh-cn": "水黾",
+      "de": "Wasserläufer",
+      "it": "gerride",
+      "nl": "schaatsenrijder",
+      "ru": "водомерка",
+      "ja": "アメンボ",
+      "ko": "소금쟁이",
+      "zh-tw": "水黽",
+      "en": "pondskater",
+      "es": "zapatero",
+      "fr": "patineur"
+    }
+  },
+  "588": {
+    "clr": [
+      "black",
+      "white"
+    ],
+    "fim": "FtrIcon/FtrInsectAri",
+    "sel": 80,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "rotten_turnips_candy",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "sze": "1x1",
+    "gso": 69,
+    "mod": 7053,
+    "img": "BookInsectIcon/InsectAri",
+    "loc": {
+      "zh-cn": "蚂蚁",
+      "de": "Ameise",
+      "it": "formica",
+      "nl": "mier",
+      "ru": "муравей",
+      "ja": "アリ",
+      "ko": "개미",
+      "zh-tw": "螞蟻",
+      "en": "ant",
+      "es": "hormiga",
+      "fr": "fourmi"
+    }
+  },
+  "590": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectDangomushi",
+    "sel": 250,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "hit_rock",
+    "wea": 0,
+    "nhd": [
+      8,
+      5
+    ],
+    "nht": [
+      23,
+      16
+    ],
+    "shd": [
+      2,
+      11
+    ],
+    "sht": [
+      23,
+      16
+    ],
+    "csr": 50,
+    "sze": "1x1",
+    "gso": 76,
+    "mod": 7054,
+    "img": "BookInsectIcon/InsectDangomushi",
+    "loc": {
+      "zh-cn": "鼠妇",
+      "de": "Kugelassel",
+      "it": "porcellino di terra",
+      "nl": "rolpissebed",
+      "ru": "мокрица",
+      "ja": "ダンゴムシ",
+      "ko": "공벌레",
+      "zh-tw": "鼠婦",
+      "en": "pill bug",
+      "es": "cochinilla",
+      "fr": "cloporte"
+    }
+  },
+  "591": {
+    "clr": [
+      "beige",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectFunamushi",
+    "sel": 200,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "beach_rock",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 20,
+    "sze": "1x1",
+    "gso": 71,
+    "mod": 7055,
+    "img": "BookInsectIcon/InsectFunamushi",
+    "loc": {
+      "de": "Ligia exotica",
+      "it": "ligia exotica",
+      "nl": "strandpissebed",
+      "ru": "морской таракан",
+      "ja": "フナムシ",
+      "ko": "갯강구",
+      "en": "wharf roach",
+      "es": "cochinilla de arena",
+      "fr": "ligie",
+      "zh": "海蟑螂"
+    }
+  },
+  "592": {
+    "clr": [
+      "beige",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectGa",
+    "sel": 130,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_light",
+    "wea": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      19,
+      4
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      19,
+      4
+    ],
+    "csr": 25,
+    "sze": "1x1",
+    "gso": 13,
+    "mod": 7056,
+    "img": "BookInsectIcon/InsectGa",
+    "loc": {
+      "zh-cn": "飞蛾",
+      "de": "Motte",
+      "it": "falena",
+      "nl": "mot",
+      "ru": "павлиноглазка",
+      "ja": "ガ",
+      "ko": "나방",
+      "zh-tw": "飛蛾",
+      "en": "moth",
+      "es": "polilla",
+      "fr": "papillon de nuit"
+    }
+  },
+  "594": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectGengorou",
+    "sel": 800,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "river_pond",
+    "wea": 0,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 10,
+    "sze": "1x1",
+    "gso": 39,
+    "mod": 7057,
+    "img": "BookInsectIcon/InsectGengorou",
+    "loc": {
+      "zh-cn": "龙虱",
+      "de": "Schwimmkäfer",
+      "it": "ditisco",
+      "nl": "waterroofkever",
+      "ru": "плавунец",
+      "ja": "ゲンゴロウ",
+      "ko": "물방개",
+      "zh-tw": "龍蝨",
+      "en": "diving beetle",
+      "es": "escarabajo nadador",
+      "fr": "dytique"
+    }
+  },
+  "595": {
+    "clr": "green",
+    "fim": "FtrIcon/FtrInsectGinyanma",
+    "sel": 230,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_water",
+    "wea": 2,
+    "nhd": [
+      3,
+      9
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      9,
+      3
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 40,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 33,
+    "mod": 7058,
+    "img": "BookInsectIcon/InsectGinyanma",
+    "loc": {
+      "zh-cn": "绿胸晏蜓",
+      "de": "Königslibelle",
+      "it": "libellula depressa",
+      "nl": "zuidelijke keizerlibel",
+      "ru": "дозорщик",
+      "ja": "ギンヤンマ",
+      "ko": "왕잠자리",
+      "zh-tw": "綠胸晏蜓",
+      "en": "darner dragonfly",
+      "es": "libélula caballito del diablo",
+      "fr": "anax napolitain"
+    }
+  },
+  "596": {
+    "clr": [
+      "red",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectGoraiasuohtsunohanamuguri",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 54,
+    "mod": 7059,
+    "img": "BookInsectIcon/InsectGoraiasuohtsunohanamuguri",
+    "loc": {
+      "zh-cn": "歌利亚大角花金龟",
+      "de": "Goliathkäfer",
+      "it": "scarabeo Golia",
+      "nl": "goliathkever",
+      "ru": "жук-голиаф",
+      "ja": "ゴライアスオオツノハナムグリ",
+      "ko": "골리앗왕꽃무지",
+      "zh-tw": "哥利亞大角花金龜",
+      "en": "goliath beetle",
+      "es": "goliat",
+      "fr": "scarabée Goliath"
+    }
+  },
+  "597": {
+    "clr": [
+      "black",
+      "white"
+    ],
+    "fim": "FtrIcon/FtrInsectHae",
+    "sel": 60,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_trash",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "sze": "1x1",
+    "gso": 72,
+    "mod": 7060,
+    "img": "BookInsectIcon/InsectHae",
+    "loc": {
+      "zh-cn": "苍蝇",
+      "de": "Fliege",
+      "it": "mosca",
+      "nl": "vlieg",
+      "ru": "муха",
+      "ja": "ハエ",
+      "ko": "파리",
+      "zh-tw": "蒼蠅",
+      "en": "fly",
+      "es": "mosca",
+      "fr": "mouche"
+    }
+  },
+  "598": {
+    "clr": [
+      "white",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectHanakamakiri",
+    "sel": 2400,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flower_white",
+    "wea": 2,
+    "nhd": [
+      2,
+      10
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      8,
+      4
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "cun": 20,
+    "csr": 15,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 23,
+    "mod": 7061,
+    "img": "BookInsectIcon/InsectHanakamakiri",
+    "loc": {
+      "zh-cn": "兰花螳螂",
+      "de": "Orchideenmantis",
+      "it": "mantide orchidea",
+      "nl": "orchidee-bidsprinkhaan",
+      "ru": "орхидейный богомол",
+      "ja": "ハナカマキリ",
+      "ko": "연꽃사마귀",
+      "zh-tw": "蘭花螳螂",
+      "en": "orchid mantis",
+      "es": "mantis orquídea",
+      "fr": "mante orchidée"
+    }
+  },
+  "599": {
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectHanmyou",
+    "sel": 1500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 2,
+    "nhd": [
+      1,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      7,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 15,
+    "sze": "1x1",
+    "gso": 44,
+    "mod": 7062,
+    "img": "BookInsectIcon/InsectHanmyou",
+    "loc": {
+      "zh-cn": "虎甲虫",
+      "de": "Sandlaufkäfer",
+      "it": "cicindela",
+      "nl": "zandloopkever",
+      "ru": "жук-скакун",
+      "ja": "ハンミョウ",
+      "ko": "길앞잡이",
+      "zh-tw": "虎甲蟲",
+      "en": "tiger beetle",
+      "es": "escarabajo tigre",
+      "fr": "cicindèle"
+    }
+  },
+  "600": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectHerakuresuohkabuto",
+    "sel": 12000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 65,
+    "mod": 5924,
+    "img": "BookInsectIcon/InsectHerakuresuohkabuto",
+    "loc": {
+      "zh-cn": "长戟大兜虫",
+      "de": "Herkuleskäfer",
+      "it": "scarabeo Ercole",
+      "nl": "herculeskever",
+      "ru": "жук-геркулес",
+      "ja": "ヘラクレスオオカブト",
+      "ko": "헤라클레스장수풍뎅이",
+      "zh-tw": "長戟大兜蟲",
+      "en": "horned hercules",
+      "es": "escarabajo astado hércules",
+      "fr": "scarabée Hercule"
+    }
+  },
+  "601": {
+    "clr": [
+      "black",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectHigurashi",
+    "sel": 550,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      4,
+      8,
+      16,
+      19
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      4,
+      8,
+      16,
+      19
+    ],
+    "csr": 50,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 30,
+    "mod": 7063,
+    "img": "BookInsectIcon/InsectHigurashi",
+    "loc": {
+      "zh-cn": "暮蝉",
+      "de": "Abendzikade",
+      "es-es": "cigarrilla",
+      "it": "cicala notturna",
+      "nl": "avondcicade",
+      "ru": "ночная цикада",
+      "ja": "ヒグラシ",
+      "ko": "쓰르라미",
+      "zh-tw": "暮蟬",
+      "es-us": "cigarra",
+      "en": "evening cicada",
+      "fr": "cigale higurashi"
+    }
+  },
+  "602": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectHosoakakuwagata",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 59,
+    "mod": 7064,
+    "img": "BookInsectIcon/InsectHosoakakuwagata",
+    "loc": {
+      "zh-cn": "细身赤锹形虫",
+      "de": "Cyclommatus",
+      "it": "coleottero cyclommatus",
+      "nl": "vliegend hert",
+      "ru": "жук-рогач",
+      "ja": "ホソアカクワガタ",
+      "ko": "엘라푸스가위사슴벌레",
+      "zh-tw": "細身赤鍬形蟲",
+      "en": "cyclommatus stag",
+      "es": "esc. ciervo cyclommatus",
+      "fr": "lucane cyclommatus"
+    }
+  },
+  "603": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectHotaru",
+    "sel": 300,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_water",
+    "wea": 2,
+    "nhd": [
+      5,
+      5
+    ],
+    "nht": [
+      19,
+      4
+    ],
+    "shd": [
+      11,
+      11
+    ],
+    "sht": [
+      19,
+      4
+    ],
+    "csr": 200,
+    "sze": "1x1",
+    "gso": 36,
+    "mod": 7065,
+    "img": "BookInsectIcon/InsectHotaru",
+    "loc": {
+      "zh-cn": "萤火虫",
+      "de": "Leuchtkäfer",
+      "it": "lucciola",
+      "nl": "vuurvliegje",
+      "ru": "светлячок",
+      "ja": "ホタル",
+      "ko": "반디",
+      "zh-tw": "螢火蟲",
+      "en": "firefly",
+      "es": "luciérnaga",
+      "fr": "luciole"
+    }
+  },
+  "604": {
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "fim": "FtrIcon/FtrInsectFunkorogashi",
+    "sel": 3000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "snowball",
+    "wea": 0,
+    "nhd": [
+      11,
+      1
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      5,
+      7
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 10,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 50,
+    "mod": 7066,
+    "img": "BookInsectIcon/InsectFunkorogashi",
+    "loc": {
+      "zh-cn": "蜣螂",
+      "de": "Mistkäfer",
+      "it": "scarabeo stercorario",
+      "nl": "mestkever",
+      "ru": "жук-навозник",
+      "ja": "フンコロガシ",
+      "ko": "쇠똥구리",
+      "zh-tw": "糞金龜",
+      "en": "dung beetle",
+      "es": "escarabajo pelotero",
+      "fr": "bousier"
+    }
+  },
+  "605": {
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectInago",
+    "sel": 400,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      7,
+      10
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      1,
+      4
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 20,
+    "sze": "1x1",
+    "gso": 18,
+    "mod": 7067,
+    "img": "BookInsectIcon/InsectInago",
+    "loc": {
+      "de": "Heuschrecke",
+      "it": "locusta",
+      "nl": "rijstsprinkhaan",
+      "ru": "рисовая кобылка",
+      "ja": "イナゴ",
+      "ko": "메뚜기",
+      "en": "rice grasshopper",
+      "es": "langosta",
+      "fr": "criquet",
+      "zh": "稻蝗"
+    }
+  },
+  "606": {
+    "clr": [
+      "black",
+      "white"
+    ],
+    "fim": "FtrIcon/FtrInsectKa",
+    "sel": 130,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying",
+    "wea": 2,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      17,
+      4
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      17,
+      4
+    ],
+    "csr": 50,
+    "sze": "1x1",
+    "gso": 73,
+    "mod": 5936,
+    "img": "BookInsectIcon/InsectKa",
+    "loc": {
+      "de": "Mücke",
+      "it": "zanzara",
+      "nl": "mug",
+      "ru": "комар",
+      "ja": "カ",
+      "ko": "모기",
+      "en": "mosquito",
+      "es": "mosquito",
+      "fr": "moustique",
+      "zh": "蚊子"
+    }
+  },
+  "607": {
+    "clr": "green",
+    "fim": "FtrIcon/FtrInsectKamakiri",
+    "sel": 430,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flower",
+    "wea": 2,
+    "nhd": [
+      2,
+      10
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      8,
+      4
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 30,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 22,
+    "mod": 7068,
+    "img": "BookInsectIcon/InsectKamakiri",
+    "loc": {
+      "de": "Gottesanbeterin",
+      "it": "mantide",
+      "nl": "bidsprinkhaan",
+      "ru": "богомол",
+      "ja": "カマキリ",
+      "ko": "사마귀",
+      "en": "mantis",
+      "es": "mantis religiosa",
+      "fr": "mante religieuse",
+      "zh": "螳螂"
+    }
+  },
+  "608": {
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectKamemushi",
+    "sel": 120,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flower",
+    "wea": 2,
+    "nhd": [
+      2,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      8,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 40,
+    "sze": "1x1",
+    "gso": 41,
+    "mod": 7069,
+    "img": "BookInsectIcon/InsectKamemushi",
+    "loc": {
+      "de": "Stinkwanze",
+      "it": "cimice",
+      "nl": "schildwants",
+      "ru": "щитник",
+      "ja": "カメムシ",
+      "ko": "노린재",
+      "en": "stinkbug",
+      "es": "chinche",
+      "fr": "punaise",
+      "zh": "椿象"
+    }
+  },
+  "609": {
+    "clr": [
+      "black",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectGomadarakamikiri",
+    "sel": 350,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_stump",
+    "wea": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 10,
+    "sze": "1x1",
+    "gso": 47,
+    "mod": 7070,
+    "img": "BookInsectIcon/InsectGomadarakamikiri",
+    "loc": {
+      "de": "Fichtenbock",
+      "it": "tarlo asiatico",
+      "nl": "Aziatische boktor",
+      "ru": "цитрусовый усач",
+      "ja": "ゴマダラカミキリ",
+      "ko": "알락하늘소",
+      "en": "citrus long-horned beetle",
+      "es": "longicornio asiático",
+      "fr": "capricorne des agrumes",
+      "zh": "星天牛"
+    }
+  },
+  "610": {
+    "clr": [
+      "green",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectKarasuageha",
+    "sel": 2500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower_dark",
+    "wea": 2,
+    "nhd": [
+      2,
+      5
+    ],
+    "nht": [
+      4,
+      19
+    ],
+    "shd": [
+      8,
+      11
+    ],
+    "sht": [
+      4,
+      19
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 4,
+    "mod": 7071,
+    "img": "BookInsectIcon/InsectKarasuageha",
+    "loc": {
+      "zh-cn": "乌鸦凤蝶",
+      "de": "Ritterfalter",
+      "it": "farfalla vanessa io",
+      "nl": "pauwenpage",
+      "ru": "бианор",
+      "ja": "カラスアゲハ",
+      "ko": "제비나비",
+      "zh-tw": "烏鴉鳳蝶",
+      "en": "peacock butterfly",
+      "es": "mariposa bianor",
+      "fr": "papilio bianor"
+    }
+  },
+  "611": {
+    "clr": [
+      "beige",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectKatatsumuri",
+    "sel": 250,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "rock_bush",
+    "wea": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 20,
+    "sze": "1x1",
+    "gso": 75,
+    "mod": 7072,
+    "img": "BookInsectIcon/InsectKatatsumuri",
+    "loc": {
+      "zh-cn": "蜗牛",
+      "de": "Schnecke",
+      "it": "chiocciola",
+      "nl": "slak",
+      "ru": "улитка",
+      "ja": "カタツムリ",
+      "ko": "달팽이",
+      "zh-tw": "蝸牛",
+      "en": "snail",
+      "es": "caracol",
+      "fr": "escargot"
+    }
+  },
+  "612": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectKabutomushi",
+    "sel": 1350,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "csr": 35,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 62,
+    "mod": 5938,
+    "img": "BookInsectIcon/InsectKabutomushi",
+    "loc": {
+      "zh-cn": "独角仙",
+      "de": "Nashornkäfer",
+      "it": "scarabeo kabutomushi",
+      "nl": "neushoornkever",
+      "ru": "дупляк",
+      "ja": "カブトムシ",
+      "ko": "장수풍뎅이",
+      "zh-tw": "獨角仙",
+      "en": "horned dynastid",
+      "es": "escarabajo astado japonés",
+      "fr": "scarabée kabuto"
+    }
+  },
+  "613": {
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "fim": "FtrIcon/FtrInsectKirigirisu",
+    "sel": 160,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 2,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 60,
+    "sze": "1x1",
+    "gso": 19,
+    "mod": 7073,
+    "img": "BookInsectIcon/InsectKirigirisu",
+    "loc": {
+      "de": "Grashüpfer",
+      "it": "cavalletta",
+      "nl": "sprinkhaan",
+      "ru": "кузнечик",
+      "ja": "キリギリス",
+      "ko": "여치",
+      "en": "grasshopper",
+      "es": "saltamontes",
+      "fr": "sauterelle",
+      "zh": "蚱蜢"
+    }
+  },
+  "614": {
+    "clr": [
+      "purple",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectSenchikogane",
+    "sel": 300,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 30,
+    "sze": "1x1",
+    "gso": 51,
+    "mod": 7074,
+    "img": "BookInsectIcon/InsectOhsenchikogane",
+    "loc": {
+      "zh-cn": "雪隐金龟",
+      "de": "Gold-Mistkäfer",
+      "fr-fr": "geotrupidae",
+      "it": "geotrupidae",
+      "nl": "echte mestkever",
+      "ru": "навозник-землерой",
+      "ja": "オオセンチコガネ",
+      "ko": "보라금풍뎅이",
+      "zh-tw": "雪隱金龜",
+      "fr-us": "géotrupe",
+      "en": "earth-boring dung beetle",
+      "es": "escarabajo geotrúpido"
+    }
+  },
+  "615": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectKohkasasuohkabuto",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 63,
+    "mod": 7075,
+    "img": "BookInsectIcon/InsectKohkasasuohkabuto",
+    "loc": {
+      "zh-cn": "高卡萨斯南洋大兜虫",
+      "de": "Atlaskäfer",
+      "it": "scarabeo atlas",
+      "nl": "atlaskever",
+      "ru": "жук-атлас",
+      "ja": "コーカサスオオカブト",
+      "ko": "코카서스장수풍뎅이",
+      "zh-tw": "高卡薩斯南洋大兜蟲",
+      "en": "horned atlas",
+      "es": "escarabajo astado atlas",
+      "fr": "scarabée Atlas"
+    }
+  },
+  "616": {
+    "clr": "green",
+    "fim": "FtrIcon/FtrInsectKonohamushi",
+    "sel": 600,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "under_tree",
+    "wea": 0,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 10,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 67,
+    "mod": 7076,
+    "img": "BookInsectIcon/InsectKonohamushi",
+    "loc": {
+      "zh-cn": "叶竹节虫",
+      "de": "Blattschrecke",
+      "it": "insetto foglia",
+      "nl": "wandelend blad",
+      "ru": "листотел",
+      "ja": "コノハムシ",
+      "ko": "잎사귀벌레",
+      "zh-tw": "葉竹節蟲",
+      "en": "walking leaf",
+      "es": "insecto hoja",
+      "fr": "phyllie"
+    }
+  },
+  "617": {
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "fim": "FtrIcon/FtrInsectKohrogi",
+    "sel": 130,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 2,
+    "nhd": [
+      8,
+      10
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      2,
+      4
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "csr": 60,
+    "sze": "1x1",
+    "gso": 20,
+    "mod": 7077,
+    "img": "BookInsectIcon/InsectKohrogi",
+    "loc": {
+      "de": "Grille",
+      "it": "grillo",
+      "nl": "krekel",
+      "ru": "сверчок",
+      "ja": "コオロギ",
+      "ko": "귀뚜라미",
+      "en": "cricket",
+      "es": "grillo común",
+      "fr": "grillon des prés",
+      "zh": "蟋蟀"
+    }
+  },
+  "618": {
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectKumazemi",
+    "sel": 500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "cun": 20,
+    "csr": 50,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 28,
+    "mod": 7078,
+    "img": "BookInsectIcon/InsectKumazemi",
+    "loc": {
+      "zh-cn": "熊蝉",
+      "de": "Riesenzikade",
+      "it": "cicala gigante",
+      "nl": "reuzencicade",
+      "ru": "гигантская цикада",
+      "ja": "クマゼミ",
+      "ko": "곰매미",
+      "zh-tw": "熊蟬",
+      "en": "giant cicada",
+      "es": "cigarra gigante",
+      "fr": "cigale géante"
+    }
+  },
+  "619": {
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectKumo",
+    "sel": 600,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "shake_cedar",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      19,
+      8
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      19,
+      8
+    ],
+    "csr": 30,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 78,
+    "mod": 7079,
+    "img": "BookInsectIcon/InsectKumo",
+    "loc": {
+      "de": "Spinne",
+      "it": "ragno",
+      "nl": "spin",
+      "ru": "паук",
+      "ja": "クモ",
+      "ko": "거미",
+      "en": "spider",
+      "es": "araña",
+      "fr": "araignée",
+      "zh": "蜘蛛"
+    }
+  },
+  "620": {
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectMiirotateha",
+    "sel": 3000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 10,
+    "mod": 7080,
+    "img": "BookInsectIcon/InsectMiirotateha",
+    "loc": {
+      "zh-cn": "彩袄蛱蝶",
+      "de": "Agrias-Falter",
+      "it": "farfalla agrias",
+      "nl": "agriasvlinder",
+      "ru": "агриас клаудина",
+      "ja": "ミイロタテハ",
+      "ko": "아그리아스나비",
+      "zh-tw": "彩襖蛺蝶",
+      "en": "agrias butterfly",
+      "es": "mariposa narciso",
+      "fr": "agrias"
+    }
+  },
+  "621": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectMinminzemi",
+    "sel": 300,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 70,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 27,
+    "mod": 7081,
+    "img": "BookInsectIcon/InsectMinminzemi",
+    "loc": {
+      "zh-cn": "斑透翅蝉",
+      "de": "Hyalessa-Zikade",
+      "it": "cicala robusta",
+      "nl": "minmin-cicade",
+      "ru": "певчая цикада",
+      "ja": "ミンミンゼミ",
+      "ko": "참매미",
+      "zh-tw": "斑透翅蟬",
+      "en": "robust cicada",
+      "es": "cigarra oriental",
+      "fr": "cigale hyalessa"
+    }
+  },
+  "622": {
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectMinomushi",
+    "sel": 600,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "shake_cedar",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 50,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 68,
+    "mod": 7082,
+    "img": "BookInsectIcon/InsectMinomushi",
+    "loc": {
+      "zh-cn": "蓑衣虫",
+      "de": "Sackträger",
+      "it": "bruco dal fodero",
+      "nl": "zakjesdrager",
+      "ru": "мешочница",
+      "ja": "ミノムシ",
+      "ko": "도롱이벌레",
+      "zh-tw": "蓑衣蟲",
+      "en": "bagworm",
+      "es": "oruga de bolsón",
+      "fr": "psyché"
+    }
+  },
+  "623": {
+    "clr": [
+      "yellow",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectMitsubachi",
+    "sel": 200,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      2,
+      6
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      8,
+      0
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 30,
+    "sze": "1x1",
+    "gso": 24,
+    "mod": 5928,
+    "img": "BookInsectIcon/InsectMitsubachi",
+    "loc": {
+      "de": "Honigbiene",
+      "it": "ape operaia",
+      "nl": "honingbij",
+      "ru": "восковая пчела",
+      "ja": "ミツバチ",
+      "ko": "꿀벌",
+      "en": "honeybee",
+      "es": "abeja melífera",
+      "fr": "abeille naine",
+      "zh": "蜜蜂"
+    }
+  },
+  "624": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectMiyamakuwagata",
+    "sel": 1000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 35,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 56,
+    "mod": 7083,
+    "img": "BookInsectIcon/InsectMiyamakuwagata",
+    "loc": {
+      "zh-cn": "深山锹形虫",
+      "de": "Hirschkäfer",
+      "it": "coleottero lucanide",
+      "nl": "Miyama-hertkever",
+      "ru": "горный жук-олень",
+      "ja": "ミヤマクワガタ",
+      "ko": "사슴벌레",
+      "zh-tw": "深山鍬形蟲",
+      "en": "miyama stag",
+      "es": "escarabajo ciervo Miyama",
+      "fr": "lucane miyama"
+    }
+  },
+  "625": {
+    "clr": [
+      "yellow",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectMonkicho",
+    "sel": 160,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying",
+    "wea": 2,
+    "nhd": [
+      2,
+      5,
+      8,
+      9
+    ],
+    "nht": [
+      [
+        4,
+        19
+      ],
+      [
+        4,
+        19
+      ]
+    ],
+    "shd": [
+      2,
+      3,
+      8,
+      11
+    ],
+    "sht": [
+      [
+        4,
+        19
+      ],
+      [
+        4,
+        19
+      ]
+    ],
+    "csr": 60,
+    "sze": "1x1",
+    "gso": 2,
+    "mod": 7084,
+    "img": "BookInsectIcon/InsectMonkicho",
+    "loc": {
+      "zh-cn": "斑缘点粉蝶",
+      "de": "Zitronenfalter",
+      "it": "farfalla gialla",
+      "nl": "citroenvlinder",
+      "ru": "желтушка",
+      "ja": "モンキチョウ",
+      "ko": "노랑나비",
+      "zh-tw": "斑緣點粉蝶",
+      "en": "yellow butterfly",
+      "es": "mariposa colias",
+      "fr": "citrin"
+    }
+  },
+  "626": {
+    "clr": [
+      "white",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectMonshirocho",
+    "sel": 160,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying",
+    "wea": 2,
+    "nhd": [
+      8,
+      5
+    ],
+    "nht": [
+      4,
+      19
+    ],
+    "shd": [
+      2,
+      11
+    ],
+    "sht": [
+      4,
+      19
+    ],
+    "csr": 60,
+    "sze": "1x1",
+    "gso": 1,
+    "mod": 7085,
+    "img": "BookInsectIcon/InsectMonshirocho",
+    "loc": {
+      "de": "Kohlweißling",
+      "it": "farfalla comune",
+      "nl": "koolwitje",
+      "ru": "белянка",
+      "ja": "モンシロチョウ",
+      "ko": "배추흰나비",
+      "en": "common butterfly",
+      "es": "mariposa común",
+      "fr": "piéride de la rave",
+      "zh": "白粉蝶"
+    }
+  },
+  "627": {
+    "clr": [
+      "blue",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectMorufuocho",
+    "sel": 4000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      11,
+      2,
+      5,
+      8
+    ],
+    "nht": [
+      [
+        17,
+        8
+      ],
+      [
+        17,
+        8
+      ]
+    ],
+    "shd": [
+      11,
+      2,
+      5,
+      8
+    ],
+    "sht": [
+      [
+        17,
+        8
+      ],
+      [
+        17,
+        8
+      ]
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 9,
+    "mod": 7086,
+    "img": "BookInsectIcon/InsectMorufuocho",
+    "loc": {
+      "zh-cn": "大蓝闪蝶",
+      "de": "Himmelsfalter",
+      "it": "farfalla morfo blu",
+      "nl": "blauwe morpho",
+      "ru": "морфо менелай",
+      "ja": "モルフォチョウ",
+      "ko": "몰포나비",
+      "zh-tw": "大藍閃蝶",
+      "en": "emperor butterfly",
+      "es": "mariposa celeste",
+      "fr": "morpho bleu"
+    }
+  },
+  "628": {
+    "clr": [
+      "black",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectMukade",
+    "sel": 300,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "hit_rock",
+    "wea": 0,
+    "nhd": [
+      8,
+      5
+    ],
+    "nht": [
+      16,
+      23
+    ],
+    "shd": [
+      2,
+      11
+    ],
+    "sht": [
+      16,
+      23
+    ],
+    "csr": 30,
+    "sze": "1x1",
+    "gso": 77,
+    "mod": 7407,
+    "img": "BookInsectIcon/InsectMukade",
+    "loc": {
+      "de": "Hundertfüßer",
+      "it": "centopiedi",
+      "nl": "duizendpoot",
+      "ru": "многоножка",
+      "ja": "ムカデ",
+      "ko": "지네",
+      "en": "centipede",
+      "es": "ciempiés",
+      "fr": "mille-pattes",
+      "zh": "蜈蚣"
+    }
+  },
+  "630": {
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectNanafushi",
+    "sel": 600,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      10
+    ],
+    "nht": [
+      4,
+      8,
+      17,
+      19
+    ],
+    "shd": [
+      0,
+      4
+    ],
+    "sht": [
+      4,
+      8,
+      17,
+      19
+    ],
+    "cun": 20,
+    "csr": 10,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 66,
+    "mod": 7087,
+    "img": "BookInsectIcon/InsectNanafushi",
+    "loc": {
+      "zh-cn": "竹节虫",
+      "de": "Stabschrecke",
+      "it": "insetto stecco",
+      "nl": "wandelende tak",
+      "ru": "палочник",
+      "ja": "ナナフシ",
+      "ko": "긴수염대벌레",
+      "zh-tw": "竹節蟲",
+      "en": "walking stick",
+      "es": "insecto palo",
+      "fr": "phasme"
+    }
+  },
+  "631": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectNijiirokuwagata",
+    "sel": 6000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      19,
+      8
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      19,
+      8
+    ],
+    "cun": 50,
+    "csr": 7,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 58,
+    "mod": 7088,
+    "img": "BookInsectIcon/InsectNijiirokuwagata",
+    "loc": {
+      "zh-cn": "彩虹锹形虫",
+      "de": "Pracht-Hirschkäfer",
+      "it": "coleottero arcobaleno",
+      "nl": "regenbooghertkever",
+      "ru": "радужный жук-олень",
+      "ja": "ニジイロクワガタ",
+      "ko": "뮤엘러리사슴벌레",
+      "zh-tw": "彩虹鍬形蟲",
+      "en": "rainbow stag",
+      "es": "escarabajo ciervo arcoíris",
+      "fr": "lucane copris irisé"
+    }
+  },
+  "632": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectNokogirikuwagata",
+    "sel": 2000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 20,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 55,
+    "mod": 5922,
+    "img": "BookInsectIcon/InsectNokogirikuwagata",
+    "loc": {
+      "zh-cn": "锯锹形虫",
+      "de": "Sägezahn-Hirschkäfer",
+      "it": "coleottero cervo",
+      "nl": "zaaghertkever",
+      "ru": "жук-олень",
+      "ja": "ノコギリクワガタ",
+      "ko": "톱사슴벌레",
+      "zh-tw": "鋸鍬形蟲",
+      "en": "saw stag",
+      "es": "escarabajo ciervo sierra",
+      "fr": "lucane inclinatus"
+    }
+  },
+  "633": {
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "fim": "FtrIcon/FtrInsectNomi",
+    "sel": 70,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "villager",
+    "wea": 0,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      10
+    ],
+    "sze": "1x1",
+    "gso": 74,
+    "mod": 5935,
+    "img": "BookInsectIcon/InsectNomi",
+    "loc": {
+      "de": "Floh",
+      "it": "pulce",
+      "nl": "vlo",
+      "ru": "блоха",
+      "ja": "ノミ",
+      "ko": "벼룩",
+      "en": "flea",
+      "es": "pulga",
+      "fr": "puce",
+      "zh": "跳蚤"
+    }
+  },
+  "634": {
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectOkera",
+    "sel": 500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "underground",
+    "wea": 0,
+    "nhd": [
+      10,
+      4
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      10
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 30,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 37,
+    "mod": 7089,
+    "img": "BookInsectIcon/InsectOkera",
+    "loc": {
+      "zh-cn": "蝼蛄",
+      "de": "Maulwurfsgrille",
+      "it": "grillotalpa",
+      "nl": "veenmol",
+      "ru": "медведка",
+      "ja": "オケラ",
+      "ko": "땅강아지",
+      "zh-tw": "螻蛄",
+      "en": "mole cricket",
+      "es": "grillo cebollero",
+      "fr": "taupe-grillon"
+    }
+  },
+  "635": {
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectOniyanma",
+    "sel": 4500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_water",
+    "wea": 2,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "cun": 50,
+    "csr": 7,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 34,
+    "mod": 7090,
+    "img": "BookInsectIcon/InsectOniyanma",
+    "loc": {
+      "zh-cn": "无霸勾蜓",
+      "de": "Quelljungfer",
+      "it": "libellula striata",
+      "nl": "bronlibel",
+      "ru": "кордулегастер",
+      "ja": "オニヤンマ",
+      "ko": "장수잠자리",
+      "zh-tw": "無霸勾蜓",
+      "en": "banded dragonfly",
+      "es": "libélula tigre",
+      "fr": "cordulégastre"
+    }
+  },
+  "636": {
+    "clr": [
+      "orange",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectOhkabamadara",
+    "sel": 140,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      8,
+      10
+    ],
+    "nht": [
+      4,
+      17
+    ],
+    "shd": [
+      2,
+      4
+    ],
+    "sht": [
+      4,
+      17
+    ],
+    "csr": 70,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 8,
+    "mod": 7091,
+    "img": "BookInsectIcon/InsectOhkabamadara",
+    "loc": {
+      "zh-cn": "大桦斑蝶",
+      "de": "Monarchfalter",
+      "it": "farfalla monarca",
+      "nl": "monarchvlinder",
+      "ru": "монарх",
+      "ja": "オオカバマダラ",
+      "ko": "왕나비",
+      "zh-tw": "大樺斑蝶",
+      "en": "monarch butterfly",
+      "es": "mariposa monarca",
+      "fr": "monarque"
+    }
+  },
+  "637": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectOhkuwagata",
+    "sel": 10000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      23,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      23,
+      8
+    ],
+    "cun": 50,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 57,
+    "mod": 7092,
+    "img": "BookInsectIcon/InsectOhkuwagata",
+    "loc": {
+      "zh-cn": "大锹形虫",
+      "de": "Riesen-Hirschkäfer",
+      "it": "coleottero gigante",
+      "nl": "reuzenhertkever",
+      "ru": "гигантский жук-олень",
+      "ja": "オオクワガタ",
+      "ko": "왕사슴벌레",
+      "zh-tw": "大鍬形蟲",
+      "en": "giant stag",
+      "es": "escarabajo ciervo gigante",
+      "fr": "lucane cerf-volant"
+    }
+  },
+  "638": {
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectOugononikuwagata",
+    "sel": 12000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 60,
+    "mod": 7093,
+    "img": "BookInsectIcon/InsectOugononikuwagata",
+    "loc": {
+      "zh-cn": "黄金鬼锹形虫",
+      "de": "Allotopus rosenbergi",
+      "it": "coleottero dorato",
+      "nl": "gouden hertkever",
+      "ru": "ламприма",
+      "ja": "オウゴンオニクワガタ",
+      "ko": "황금사슴벌레",
+      "zh-tw": "黃金鬼鍬形蟲",
+      "en": "golden stag",
+      "es": "escarabajo ciervo tornasol",
+      "fr": "lucane lamprima"
+    }
+  },
+  "639": {
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "fim": "FtrIcon/FtrInsectPurachinakogane",
+    "sel": 10000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      23,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      23,
+      8
+    ],
+    "cun": 50,
+    "csr": 3,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 52,
+    "mod": 5929,
+    "img": "BookInsectIcon/InsectPurachinakogane",
+    "loc": {
+      "zh-cn": "宝石金龟",
+      "de": "Goldskarabäus",
+      "it": "chrysina resplendens",
+      "nl": "scarabee",
+      "ru": "золотой скарабей",
+      "ja": "プラチナコガネ",
+      "ko": "보석풍뎅이",
+      "zh-tw": "寶石金龜",
+      "en": "scarab beetle",
+      "es": "escarabajo oro",
+      "fr": "scarabée"
+    }
+  },
+  "640": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectSasori",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      19,
+      4
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      19,
+      4
+    ],
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 80,
+    "mod": 7094,
+    "img": "BookInsectIcon/InsectSasori",
+    "loc": {
+      "zh-cn": "蝎子",
+      "de": "Skorpion",
+      "it": "scorpione",
+      "nl": "schorpioen",
+      "ru": "скорпион",
+      "ja": "サソリ",
+      "ko": "전갈",
+      "zh-tw": "蠍子",
+      "en": "scorpion",
+      "es": "escorpión",
+      "fr": "scorpion"
+    }
+  },
+  "641": {
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectSeminonukegara",
+    "sel": 10,
+    "hap": 64,
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sze": "1x1",
+    "gso": 31,
+    "mod": 7095,
+    "img": "BookInsectIcon/InsectSeminonukegara",
+    "loc": {
+      "zh-cn": "蝉蜕",
+      "de": "Zikadenlarvenhaut",
+      "es-es": "muda de cigarra",
+      "it": "esuvia di cicala",
+      "nl": "cicadehuid",
+      "ru": "кокон цикады",
+      "ja": "セミのぬけがら",
+      "ko": "매미 허물",
+      "zh-tw": "蟬蛻",
+      "es-us": "carcasa de cigarra",
+      "en": "cicada shell",
+      "fr": "mue de cigale"
+    }
+  },
+  "642": {
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "fim": "FtrIcon/FtrInsectSuzumushi",
+    "sel": 430,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 2,
+    "nhd": [
+      8,
+      9
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      2,
+      3
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "csr": 60,
+    "sze": "1x1",
+    "gso": 21,
+    "mod": 7096,
+    "img": "BookInsectIcon/InsectSuzumushi",
+    "loc": {
+      "zh-cn": "铃虫",
+      "de": "Singgrille",
+      "it": "suzumushi",
+      "nl": "belkrekel",
+      "ru": "домашний сверчок",
+      "ja": "スズムシ",
+      "ko": "방울벌레",
+      "zh-tw": "鈴蟲",
+      "en": "bell cricket",
+      "es": "grillo campana",
+      "fr": "grillon du Midi"
+    }
+  },
+  "643": {
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectHachi",
+    "sel": 2500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "shake_any",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "gso": 25,
+    "mod": 5927,
+    "img": "BookInsectIcon/InsectHachi",
+    "loc": {
+      "zh-cn": "黄蜂",
+      "de": "Wespe",
+      "it": "vespa",
+      "nl": "wesp",
+      "ru": "оса",
+      "ja": "ハチ",
+      "ko": "벌",
+      "zh-tw": "黃蜂",
+      "en": "wasp",
+      "es": "avispa",
+      "fr": "guêpe"
+    }
+  },
+  "644": {
+    "clr": [
+      "green",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectShoryobatta",
+    "sel": 200,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 50,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 16,
+    "mod": 7097,
+    "img": "BookInsectIcon/InsectShoryobatta",
+    "loc": {
+      "zh-cn": "中华剑角蝗",
+      "de": "Nasenschrecke",
+      "it": "acrida cinerea",
+      "nl": "veldsprinkhaan",
+      "ru": "акрида",
+      "ja": "ショウリョウバッタ",
+      "ko": "방아깨비",
+      "zh-tw": "中華劍角蝗",
+      "en": "long locust",
+      "es": "langosta alargada",
+      "fr": "acrida cinerea"
+    }
+  },
+  "645": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectTamamushi",
+    "sel": 2400,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_stump",
+    "wea": 2,
+    "nhd": [
+      3,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 45,
+    "mod": 7099,
+    "img": "BookInsectIcon/InsectTamamushi",
+    "loc": {
+      "zh-cn": "吉丁虫",
+      "de": "Prachtkäfer",
+      "it": "stigmodera",
+      "nl": "prachtkever",
+      "ru": "златка",
+      "ja": "タマムシ",
+      "ko": "비단벌레",
+      "zh-tw": "吉丁蟲",
+      "en": "jewel beetle",
+      "es": "escarabajo joya",
+      "fr": "bupreste"
+    }
+  },
+  "646": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectTaranchura",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      10,
+      3
+    ],
+    "nht": [
+      19,
+      4
+    ],
+    "shd": [
+      4,
+      9
+    ],
+    "sht": [
+      19,
+      4
+    ],
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 79,
+    "mod": 7101,
+    "img": "BookInsectIcon/InsectTaranchura",
+    "loc": {
+      "de": "Vogelspinne",
+      "it": "tarantola",
+      "nl": "vogelspin",
+      "ru": "паук-птицеед",
+      "ja": "タランチュラ",
+      "ko": "타란툴라",
+      "en": "tarantula",
+      "es": "tarántula",
+      "fr": "tarentule",
+      "zh": "狼蛛"
+    }
+  },
+  "647": {
+    "clr": [
+      "red",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectTentoumushi",
+    "sel": 200,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flower",
+    "wea": 2,
+    "nhd": [
+      2,
+      5,
+      9,
+      9
+    ],
+    "nht": [
+      [
+        8,
+        17
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "shd": [
+      3,
+      3,
+      8,
+      11
+    ],
+    "sht": [
+      [
+        8,
+        17
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "csr": 40,
+    "sze": "1x1",
+    "gso": 43,
+    "mod": 7102,
+    "img": "BookInsectIcon/InsectTentoumushi",
+    "loc": {
+      "zh-cn": "瓢虫",
+      "de": "Marienkäfer",
+      "es-es": "mariquita",
+      "it": "coccinella",
+      "nl": "lieveheersbeestje",
+      "ru": "божья коровка",
+      "ja": "テントウムシ",
+      "ko": "무당벌레",
+      "zh-tw": "瓢蟲",
+      "es-us": "catarina",
+      "en": "ladybug",
+      "fr": "coccinelle"
+    }
+  },
+  "648": {
+    "clr": [
+      "green",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectTonosamabatta",
+    "sel": 600,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "ground",
+    "wea": 0,
+    "nhd": [
+      7,
+      10
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      1,
+      4
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "cun": 20,
+    "csr": 10,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 17,
+    "mod": 7103,
+    "img": "BookInsectIcon/InsectTonosamabatta",
+    "loc": {
+      "zh-cn": "飞蝗",
+      "de": "Wanderschrecke",
+      "it": "locusta migratoria",
+      "nl": "treksprinkhaan",
+      "ru": "перелетная саранча",
+      "ja": "トノサマバッタ",
+      "ko": "섬풀무치",
+      "zh-tw": "飛蝗",
+      "en": "migratory locust",
+      "es": "langosta migratoria",
+      "fr": "criquet pèlerin"
+    }
+  },
+  "649": {
+    "clr": [
+      "black",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectTsukutsukuhousi",
+    "sel": 400,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_cedar",
+    "wea": 0,
+    "nhd": [
+      7,
+      8
+    ],
+    "nht": [
+      8,
+      17
+    ],
+    "shd": [
+      1,
+      2
+    ],
+    "sht": [
+      8,
+      17
+    ],
+    "csr": 40,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 29,
+    "mod": 7104,
+    "img": "BookInsectIcon/InsectTsukutsukuhousi",
+    "loc": {
+      "zh-cn": "寒蝉",
+      "de": "Bergzikade",
+      "it": "cicala sputacchina",
+      "nl": "bergcicade",
+      "ru": "горная цикада",
+      "ja": "ツクツクホウシ",
+      "ko": "애매미",
+      "zh-tw": "寒蟬",
+      "en": "walker cicada",
+      "es": "cigarra común",
+      "fr": "cigale cicadelle"
+    }
+  },
+  "650": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectBaiorinmushi",
+    "sel": 450,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_stump",
+    "wea": 2,
+    "nhd": [
+      4,
+      5,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      10,
+      11
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "csr": 10,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 46,
+    "mod": 7105,
+    "img": "BookInsectIcon/InsectBaiorinmushi",
+    "loc": {
+      "zh-cn": "提琴虫",
+      "de": "Geigenkäfer",
+      "it": "carabo violino",
+      "nl": "vioolkever",
+      "ru": "листовидная жужелица",
+      "ja": "バイオリンムシ",
+      "ko": "바이올린벌레",
+      "zh-tw": "提琴蟲",
+      "en": "violin beetle",
+      "es": "escarabajo violín",
+      "fr": "mormolyce"
+    }
+  },
+  "651": {
+    "clr": [
+      "beige",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectYadokari",
+    "sel": 1000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "shore",
+    "wea": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      19,
+      8
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      19,
+      8
+    ],
+    "csr": 25,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 70,
+    "mod": 7108,
+    "img": "BookInsectIcon/InsectYadokari",
+    "loc": {
+      "de": "Einsiedlerkrebs",
+      "it": "granchio paguro",
+      "nl": "heremietkreeft",
+      "ru": "рак-отшельник",
+      "ja": "ヤドカリ",
+      "ko": "소라게",
+      "en": "hermit crab",
+      "es": "cangrejo ermitaño",
+      "fr": "bernard-l'ermite",
+      "zh": "寄居蟹"
+    }
+  },
+  "652": {
+    "clr": [
+      "orange",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectYonagunisan",
+    "sel": 3000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      19,
+      4
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      19,
+      4
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 14,
+    "mod": 7109,
+    "img": "BookInsectIcon/InsectYonagunisan",
+    "loc": {
+      "de": "Atlasspinner",
+      "it": "farfalla cobra",
+      "nl": "atlasvlinder",
+      "ru": "павлиноглазка атлас",
+      "ja": "ヨナグニサン",
+      "ko": "아틀라스나방",
+      "en": "Atlas moth",
+      "es": "polilla atlas",
+      "fr": "attacus Atlas",
+      "zh": "皇蛾"
+    }
+  },
+  "653": {
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectZoukabuto",
+    "sel": 8000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 64,
+    "mod": 7110,
+    "img": "BookInsectIcon/InsectZoukabuto",
+    "loc": {
+      "zh-cn": "象兜虫",
+      "de": "Elefantenkäfer",
+      "it": "scarabeo elefante",
+      "nl": "olifantkever",
+      "ru": "жук-слон",
+      "ja": "ゾウカブト",
+      "ko": "코끼리장수풍뎅이",
+      "zh-tw": "象兜蟲",
+      "en": "horned elephant",
+      "es": "escarabajo astado elefante",
+      "fr": "scarabée éléphant"
+    }
+  },
+  "3477": {
+    "clr": [
+      "black",
+      "green"
+    ],
+    "fim": "FtrIcon/FtrInsectAosujiageha",
+    "sel": 300,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying",
+    "wea": 2,
+    "nhd": [
+      3,
+      7
+    ],
+    "nht": [
+      4,
+      19
+    ],
+    "shd": [
+      9,
+      1
+    ],
+    "sht": [
+      4,
+      19
+    ],
+    "csr": 70,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 5,
+    "mod": 7111,
+    "img": "BookInsectIcon/InsectAosujiageha",
+    "loc": {
+      "zh-cn": "青带凤蝶",
+      "de": "Kolibrifalter",
+      "it": "graphium sarpedon",
+      "nl": "blauwe driehoek",
+      "ru": "графиум сарпедон",
+      "ja": "アオスジアゲハ",
+      "ko": "청띠제비나비",
+      "zh-tw": "青帶鳳蝶",
+      "en": "common bluebottle",
+      "es": "mariposa triángulo azul",
+      "fr": "graphium sarpedon"
+    }
+  },
+  "3478": {
+    "clr": [
+      "white",
+      "yellow"
+    ],
+    "fim": "FtrIcon/FtrInsectOhgomamadara",
+    "sel": 1000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      8,
+      19
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      8,
+      19
+    ],
+    "csr": 20,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 6,
+    "mod": 7112,
+    "img": "BookInsectIcon/InsectOhgomamadara",
+    "loc": {
+      "de": "Weiße Baumnymphe",
+      "es-es": "mariposa cometa de papel",
+      "it": "farfalla carta di riso",
+      "nl": "papiervlinder",
+      "ru": "идея левконоя",
+      "ja": "オオゴマダラ",
+      "ko": "왕얼룩나비",
+      "es-us": "mariposa papel de arroz",
+      "en": "paper kite butterfly",
+      "fr": "grand planeur",
+      "zh": "大白斑蝶"
+    }
+  },
+  "3479": {
+    "clr": [
+      "purple",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectOhmurasaki",
+    "sel": 3000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      4,
+      7
+    ],
+    "nht": [
+      4,
+      19
+    ],
+    "shd": [
+      10,
+      1
+    ],
+    "sht": [
+      4,
+      19
+    ],
+    "cun": 50,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 7,
+    "mod": 7113,
+    "img": "BookInsectIcon/InsectOhmurasaki",
+    "loc": {
+      "zh-cn": "大紫蛱蝶",
+      "de": "Japan-Schillerfalter",
+      "fr-fr": "sasakia charonda",
+      "it": "farfalla imperatore viola",
+      "nl": "paarse keizervlinder",
+      "ru": "сасакия харонда",
+      "ja": "オオムラサキ",
+      "ko": "왕오색나비",
+      "zh-tw": "大紫蛺蝶",
+      "fr-us": "grand empereur pourpre",
+      "en": "great purple emperor",
+      "es": "marip. emperador japonés"
+    }
+  },
+  "3480": {
+    "clr": [
+      "green",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectKanabun",
+    "sel": 200,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_any",
+    "wea": 0,
+    "nhd": [
+      5,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 40,
+    "sze": "1x1",
+    "gso": 53,
+    "mod": 7114,
+    "img": "BookInsectIcon/InsectKanabun",
+    "loc": {
+      "zh-cn": "日铜锣花金龟",
+      "de": "Japan-Rosenkäfer",
+      "fr-fr": "pseudotorynorrhina",
+      "it": "cetonia dorata",
+      "nl": "bladsprietkever",
+      "ru": "бронзовка",
+      "ja": "カナブン",
+      "ko": "풍이",
+      "zh-tw": "日銅鑼花金龜",
+      "fr-us": "cétoine dorée",
+      "en": "drone beetle",
+      "es": "escarabajo verde japonés"
+    }
+  },
+  "3482": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrInsectGirafanokogirikuwagata",
+    "sel": 12000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      17,
+      8
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      17,
+      8
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 61,
+    "mod": 7115,
+    "img": "BookInsectIcon/InsectGirafanokogirikuwagata",
+    "loc": {
+      "zh-cn": "长颈鹿锯锹形虫",
+      "de": "Giraffenhirschkäfer",
+      "it": "coleottero giraffa",
+      "nl": "girafhertkever",
+      "ru": "рогач-жираф",
+      "ja": "ギラファノコギリクワガタ",
+      "ko": "기라파톱사슴벌레",
+      "zh-tw": "長頸鹿鋸鍬形蟲",
+      "en": "giraffe stag",
+      "es": "escarabajo ciervo jirafa",
+      "fr": "lucane girafe"
+    }
+  },
+  "3483": {
+    "clr": [
+      "black",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrInsectJinmenkamemushi",
+    "sel": 1000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flower",
+    "wea": 2,
+    "nhd": [
+      2,
+      9
+    ],
+    "nht": [
+      19,
+      8
+    ],
+    "shd": [
+      8,
+      3
+    ],
+    "sht": [
+      19,
+      8
+    ],
+    "cun": 20,
+    "csr": 20,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 42,
+    "mod": 7116,
+    "img": "BookInsectIcon/InsectJinmenkamemushi",
+    "loc": {
+      "de": "Gesichtswanze",
+      "it": "catacanthus",
+      "nl": "gezichtschildwants",
+      "ru": "щитник с лицом",
+      "ja": "ジンメンカメムシ",
+      "ko": "인면노린재",
+      "en": "man-faced stink bug",
+      "es": "chinche con rostro humano",
+      "fr": "catacanthus",
+      "zh": "人面椿象"
+    }
+  },
+  "3484": {
+    "clr": [
+      "green",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectNishikiohtsubamega",
+    "sel": 2500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_flower",
+    "wea": 2,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      8,
+      16
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      8,
+      16
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 15,
+    "mod": 7117,
+    "img": "BookInsectIcon/InsectNishikiohtsubamega",
+    "loc": {
+      "de": "Regenbogenfalter",
+      "fr-fr": "chrysiridia rhipheus",
+      "it": "urania del Madagascar",
+      "nl": "adriandolo",
+      "ru": "урания мадагаскарская",
+      "ja": "ニシキオオツバメガ",
+      "ko": "마다가스카르비단제비나방",
+      "fr-us": "adriandolo",
+      "en": "Madagascan sunset moth",
+      "es": "polilla crepuscular",
+      "zh": "日落蛾"
+    }
+  },
+  "3485": {
+    "clr": [
+      "green",
+      "pink"
+    ],
+    "fim": "FtrIcon/FtrInsectHousekizoumushi",
+    "sel": 800,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_palm",
+    "wea": 0,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 2,
+    "sze": "1x1",
+    "gso": 49,
+    "mod": 7118,
+    "img": "BookInsectIcon/InsectHousekizoumushi",
+    "loc": {
+      "zh-cn": "宝石象鼻虫",
+      "de": "Blaurüsselkäfer",
+      "it": "coleottero Schoenherr",
+      "nl": "blauwe snuitkever",
+      "ru": "синий долгоносик",
+      "ja": "ホウセキゾウムシ",
+      "ko": "유포루스바구미",
+      "zh-tw": "寶石象鼻蟲",
+      "en": "blue weevil beetle",
+      "es": "gorgojo azul",
+      "fr": "charançon bleu"
+    }
+  },
+  "3487": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrInsectRuriboshikamikiri",
+    "sel": 3000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "tree_stump",
+    "wea": 2,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 48,
+    "mod": 7119,
+    "img": "BookInsectIcon/InsectRuriboshikamikiri",
+    "loc": {
+      "de": "Alpenbock",
+      "it": "coleottero rosalia batesi",
+      "nl": "alpenboktor",
+      "ru": "розалия",
+      "ja": "ルリボシカミキリ",
+      "ko": "루리하늘소",
+      "en": "rosalia batesi beetle",
+      "es": "escarabajo rosalia batesi",
+      "fr": "rosalia batesi",
+      "zh": "琉璃星天牛"
+    }
+  },
+  "5157": {
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectTagame",
+    "sel": 2000,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "river_pond",
+    "wea": 0,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      19,
+      8
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      19,
+      8
+    ],
+    "cun": 50,
+    "csr": 5,
+    "sze": "1x1",
+    "gso": 40,
+    "mod": 7120,
+    "img": "BookInsectIcon/InsectTagame",
+    "loc": {
+      "zh-cn": "田鳖",
+      "de": "Riesenwanze",
+      "it": "cimice d'acqua gigante",
+      "nl": "reuzenwaterwants",
+      "ru": "водяной клоп-гигант",
+      "ja": "タガメ",
+      "ko": "물장군",
+      "zh-tw": "田鱉",
+      "en": "giant water bug",
+      "es": "chinche acuática gigante",
+      "fr": "punaise d'eau géante"
+    }
+  },
+  "5339": {
+    "clr": [
+      "green",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrInsectItotonbo",
+    "sel": 500,
+    "hap": 64,
+    "hac": "pet",
+    "hab": "flying_water",
+    "wea": 2,
+    "nhd": [
+      10,
+      1
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      7
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 60,
+    "sur": true,
+    "sze": "1x1",
+    "gso": 35,
+    "mod": 7121,
+    "img": "BookInsectIcon/InsectItotonbo",
+    "loc": {
+      "de": "Wasserjungfer",
+      "it": "zigottero",
+      "nl": "juffer",
+      "ru": "равнокрылая стрекоза",
+      "ja": "イトトンボ",
+      "ko": "실잠자리",
+      "en": "damselfly",
+      "es": "libélula damisela",
+      "fr": "demoiselle",
+      "zh": "豆娘"
+    }
+  }
+}

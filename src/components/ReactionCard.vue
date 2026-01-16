@@ -7,7 +7,7 @@ import { getActivityName } from '../services/dataService';
 import { joinArray } from '../utils/common';
 import { useActivitysData } from '../composables/useActivitysData';
 
-const { getNamesByIds } = useActivitysData();
+const { getGroupsByIds: getNamesByIds } = useActivitysData();
 const props = defineProps<{
   data: Reaction;
 }>();

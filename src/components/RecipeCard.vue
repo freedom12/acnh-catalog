@@ -20,7 +20,7 @@ const props = defineProps<{
   data: Recipe;
 }>();
 const { openModal } = useItemDetailModal();
-const { getNamesByIds } = useActivitysData();
+const { getGroupsByIds: getNamesByIds } = useActivitysData();
 const handleClick = () => {
   openModal(props.data.itemId);
 };

@@ -1,0 +1,1790 @@
+{
+  "mka": {
+    "img": "NpcIcon/mka",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      1,
+      8
+    ],
+    "ntc": "fe8885",
+    "nbc": "ffffff",
+    "vdu": 7166,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "zh-cn": "无脸猫",
+      "de": "Blanka",
+      "it": "Blanca",
+      "nl": "Blanca",
+      "ru": "Бланка",
+      "ja": "あやしいネコ",
+      "ko": "아트고양이",
+      "zh-tw": "無臉貓",
+      "en": "Blanca",
+      "es": "Blanca",
+      "fr": "Blanca"
+    }
+  },
+  "owl": {
+    "img": "NpcIcon/owl",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      8,
+      24
+    ],
+    "ntc": "f7f0c2",
+    "nbc": "7d593c",
+    "vdu": 6923,
+    "ase": [
+      "series3",
+      "series5"
+    ],
+    "vhe": 13.38,
+    "loc": {
+      "zh-cn": "傅达",
+      "de": "Eugen",
+      "it": "Blatero",
+      "nl": "Blathers",
+      "ru": "Блезерс",
+      "ja": "フータ",
+      "ko": "부엉",
+      "zh-tw": "傅達",
+      "en": "Blathers",
+      "es": "Sócrates",
+      "fr": "Thibou"
+    }
+  },
+  "dgb": {
+    "img": "NpcIcon/dgb",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      3,
+      23
+    ],
+    "ntc": "fffce9",
+    "nbc": "de9230",
+    "vdu": 7165,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "de": "Wuff",
+      "it": "Fido",
+      "nl": "Booker",
+      "ru": "Букер",
+      "ja": "おまわりさん",
+      "ko": "경찰관",
+      "en": "Booker",
+      "es": "Nocencio",
+      "fr": "Chausset",
+      "zh": "警察叔叔"
+    }
+  },
+  "pge": {
+    "img": "NpcIcon/pge",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      9,
+      15
+    ],
+    "ntc": "3c3f3c",
+    "nbc": "73aa8d",
+    "vdu": 6919,
+    "ase": "series4",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "老板",
+      "de": "Kofi",
+      "it": "Bartolo",
+      "nl": "Brewster",
+      "ru": "Брюстер",
+      "ja": "マスター",
+      "ko": "마스터",
+      "zh-tw": "老闆",
+      "en": "Brewster",
+      "es": "Fígaro",
+      "fr": "Robusto"
+    }
+  },
+  "bey": {
+    "img": "NpcIcon/bey",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      2,
+      7
+    ],
+    "ntc": "f9db2f",
+    "nbc": "a99d6e",
+    "vdu": 8768,
+    "ase": "series5",
+    "vhe": 13.2,
+    "loc": {
+      "de": "Lomeus",
+      "it": "Castorino",
+      "nl": "C.J.",
+      "ru": "Си-Джей",
+      "ja": "ジャスティン",
+      "ko": "저스틴",
+      "en": "C.J.",
+      "es": "CJ",
+      "fr": "Pollux",
+      "zh": "俞司廷"
+    }
+  },
+  "ows": {
+    "img": "NpcIcon/ows",
+    "vge": 1,
+    "vhb": "education",
+    "vbd": [
+      8,
+      7
+    ],
+    "ntc": "f7f0c2",
+    "nbc": "81280a",
+    "vdu": 6926,
+    "ase": [
+      "series4",
+      "series5"
+    ],
+    "vhe": 12.23,
+    "loc": {
+      "de": "Eufemia",
+      "it": "Celeste",
+      "nl": "Celeste",
+      "ru": "Селеста",
+      "ja": "フーコ",
+      "ko": "부옥",
+      "en": "Celeste",
+      "es": "Estela",
+      "fr": "Céleste",
+      "zh": "傅珂"
+    }
+  },
+  "bev": {
+    "img": "NpcIcon/bev",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      11,
+      9
+    ],
+    "ntc": "fffce9",
+    "nbc": "8c765e",
+    "vdu": 8768,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "de": "Bartholo",
+      "it": "Castore",
+      "nl": "Chip",
+      "ru": "Чип",
+      "ja": "うおまさ",
+      "ko": "뚱달",
+      "en": "Chip",
+      "es": "Martín",
+      "fr": "Castor",
+      "zh": "俞正"
+    }
+  },
+  "dga": {
+    "img": "NpcIcon/dga",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      5,
+      28
+    ],
+    "ntc": "fffce9",
+    "nbc": "e68711",
+    "vdu": 7165,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "de": "Harry",
+      "it": "Birro",
+      "nl": "Copper",
+      "ru": "Коппер",
+      "ja": "おまわりさん",
+      "ko": "경찰관",
+      "en": "Copper",
+      "es": "Vigilio",
+      "fr": "Maret",
+      "zh": "警察叔叔"
+    }
+  },
+  "ttlb": {
+    "img": "NpcIcon/ttlB",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      11,
+      31
+    ],
+    "ntc": "fad274",
+    "nbc": "9a5d41",
+    "vdu": 7178,
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Eichenmann",
+      "it": "Ghiandy",
+      "nl": "Cornimer",
+      "ru": "Корнимер",
+      "ja": "ドンどんぐり",
+      "ko": "도토리옹",
+      "en": "Cornimer",
+      "es": "Córnimer",
+      "fr": "Cornimer",
+      "zh": "橡伯"
+    }
+  },
+  "alp": {
+    "img": "NpcIcon/alp",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      0,
+      26
+    ],
+    "ntc": "fffce9",
+    "nbc": "4ddcd9",
+    "vdu": 7173,
+    "ase": "series3",
+    "vad": "1.2.0",
+    "vhe": 16.9,
+    "loc": {
+      "de": "Björn",
+      "it": "Merino",
+      "nl": "Cyrus",
+      "ru": "Сайрус",
+      "ja": "カイゾー",
+      "ko": "리포",
+      "en": "Cyrus",
+      "es": "Al",
+      "fr": "Serge",
+      "zh": "健兆"
+    }
+  },
+  "boc": {
+    "img": "NpcIcon/boc",
+    "vge": 1,
+    "vhb": "play",
+    "vbd": [
+      2,
+      30
+    ],
+    "ntc": "ab2629",
+    "nbc": "ff9b43",
+    "ase": "series5",
+    "vhe": 9.99,
+    "loc": {
+      "zh-cn": "曹卖",
+      "de": "Jorna",
+      "it": "Brunella",
+      "nl": "Daisy Mae",
+      "ru": "Дейзи-Мей",
+      "ja": "ウリ",
+      "ko": "무파니",
+      "zh-tw": "曹賣",
+      "en": "Daisy Mae",
+      "es": "Juliana",
+      "fr": "Porcelette"
+    }
+  },
+  "szo": {
+    "img": "NpcIcon/szo",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      11,
+      20
+    ],
+    "ntc": "7a4037",
+    "nbc": "cfb194",
+    "vdu": 9959,
+    "ase": [
+      "series1",
+      "series3"
+    ],
+    "vad": "na",
+    "loc": {
+      "de": "Moritz",
+      "it": "Fofò",
+      "nl": "Digby",
+      "ru": "Дигби",
+      "ja": "ケント",
+      "ko": "켄트",
+      "en": "Digby",
+      "es": "Candrés",
+      "fr": "Max",
+      "zh": "西施德"
+    }
+  },
+  "tkkb": {
+    "img": "NpcIcon/tkkB",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      7,
+      23
+    ],
+    "ntc": "595757",
+    "nbc": "ffffff",
+    "vdu": 6916,
+    "ase": "series1",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "DJ K.K.",
+      "it": "DJ K.K.",
+      "nl": "DJ K.K.",
+      "ru": "DJ KK",
+      "ja": "DJ K.K",
+      "ko": "DJ K.K.",
+      "en": "DJ KK",
+      "es": "DJ KeKe",
+      "fr": "DJ Kéké",
+      "zh": "DJ KK"
+    }
+  },
+  "mob": {
+    "img": "NpcIcon/mob",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      4,
+      1
+    ],
+    "ntc": "612f0a",
+    "nbc": "eb7c41",
+    "vdu": 6923,
+    "ase": [
+      "series2",
+      "series3"
+    ],
+    "vad": "na",
+    "loc": {
+      "zh-cn": "开关叔叔",
+      "de": "Don",
+      "it": "Don",
+      "nl": "Don",
+      "ru": "Дон",
+      "ja": "ラケットさん",
+      "ko": "오루묵씨",
+      "zh-tw": "開關叔叔",
+      "en": "Don",
+      "es": "Forma T.",
+      "fr": "Don"
+    }
+  },
+  "chy": {
+    "img": "NpcIcon/chy",
+    "vge": 0,
+    "vhb": "fashion",
+    "vbd": [
+      4,
+      10
+    ],
+    "ntc": "fb646b",
+    "nbc": "25251a",
+    "vdu": 7173,
+    "ase": "series5",
+    "vhe": 17.25,
+    "loc": {
+      "zh-cn": "龙克斯",
+      "de": "Carlson",
+      "it": "Ivano",
+      "nl": "Flick",
+      "ru": "Флик",
+      "ja": "レックス",
+      "ko": "레온",
+      "zh-tw": "龍克斯",
+      "en": "Flick",
+      "es": "Kamilo",
+      "fr": "Djason"
+    }
+  },
+  "tuk": {
+    "img": "NpcIcon/tuk",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      9,
+      10
+    ],
+    "ntc": "6b63da",
+    "nbc": "ff97ca",
+    "vdu": 7169,
+    "ase": "series3",
+    "vad": "1.6.0",
+    "vhe": 14.3,
+    "loc": {
+      "zh-cn": "富蓝",
+      "de": "Gernod",
+      "it": "Cedrone",
+      "nl": "Franklin",
+      "ru": "Франклин",
+      "ja": "フランクリン",
+      "ko": "프랭클린",
+      "zh-tw": "富藍",
+      "en": "Franklin",
+      "es": "Guindo",
+      "fr": "Dindou"
+    }
+  },
+  "grf": {
+    "img": "NpcIcon/grf",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      10,
+      14
+    ],
+    "ntc": "c141a3",
+    "nbc": "f5f6a4",
+    "vdu": 7179,
+    "ase": "series4",
+    "vad": "na",
+    "loc": {
+      "de": "Grazia",
+      "it": "Griffa",
+      "nl": "Gracie",
+      "ru": "Грейси",
+      "ja": "グレース",
+      "ko": "그레이스",
+      "en": "Gracie",
+      "es": "Graciela",
+      "fr": "Carla",
+      "zh": "葛瑞斯"
+    }
+  },
+  "kpg": {
+    "img": "NpcIcon/kpg",
+    "vge": 1,
+    "vhb": "education",
+    "vbd": [
+      3,
+      15
+    ],
+    "ntc": "fff37c",
+    "nbc": "82b26c",
+    "vdu": 6910,
+    "ase": "series3",
+    "vad": "na",
+    "loc": {
+      "de": "Bonnie",
+      "it": "Remigia",
+      "nl": "Grams",
+      "ru": "Грэмс",
+      "ja": "ゲコ",
+      "ko": "귀녀",
+      "en": "Grams",
+      "es": "Rosauria",
+      "fr": "Mamiral",
+      "zh": "阿玉婆婆"
+    }
+  },
+  "gulb": {
+    "img": "NpcIcon/gulB",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      4,
+      25
+    ],
+    "ntc": "fffbe8",
+    "nbc": "f52c2c",
+    "vdu": 9957,
+    "vad": "1.3.0",
+    "vhe": 12.9,
+    "loc": {
+      "zh-cn": "海盗",
+      "de": "Gullivarrr",
+      "it": "Gullivarrr",
+      "nl": "Gullivarrr",
+      "ru": "Гулливарр",
+      "ja": "かいぞく",
+      "ko": "해적",
+      "zh-tw": "海盜",
+      "en": "Gullivarrr",
+      "es": "Gullivarrr",
+      "fr": "Gullivarrr"
+    }
+  },
+  "gul": {
+    "img": "NpcIcon/gul",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      4,
+      25
+    ],
+    "ntc": "fffce9",
+    "nbc": "0073ff",
+    "vdu": 9957,
+    "ase": [
+      "series4",
+      "series5"
+    ],
+    "vhe": 12.9,
+    "loc": {
+      "zh-cn": "吕游",
+      "de": "Gulliver",
+      "it": "Gulliver",
+      "nl": "Gulliver",
+      "ru": "Гулливер",
+      "ja": "ジョニー",
+      "ko": "죠니",
+      "zh-tw": "呂遊",
+      "en": "Gulliver",
+      "es": "Gulliver",
+      "fr": "Gulliver"
+    }
+  },
+  "poo": {
+    "img": "NpcIcon/poo",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      0,
+      31
+    ],
+    "ntc": "ffe4d6",
+    "nbc": "fc81d9",
+    "vdu": 7180,
+    "ase": "series1",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "刀丽茹",
+      "de": "Trude",
+      "it": "Bigodina",
+      "nl": "Harriet",
+      "ru": "Харриет",
+      "ja": "カットリーヌ",
+      "ko": "카트리나",
+      "zh-tw": "刀麗茹",
+      "en": "Harriet",
+      "es": "Marilín",
+      "fr": "Ginette"
+    }
+  },
+  "spn": {
+    "img": "NpcIcon/spn",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      7,
+      2
+    ],
+    "ntc": "714f31",
+    "nbc": "ebc83c",
+    "vdu": 9954,
+    "ase": "series5",
+    "vhe": 15.8,
+    "loc": {
+      "zh-cn": "巴猎",
+      "de": "Harvey",
+      "it": "Fiorilio",
+      "nl": "Harvey",
+      "ru": "Харви",
+      "ja": "パニエル",
+      "ko": "파니엘",
+      "zh-tw": "巴獵",
+      "en": "Harvey",
+      "es": "Fauno",
+      "fr": "Joe"
+    }
+  },
+  "sza": {
+    "img": "NpcIcon/sza",
+    "vge": 1,
+    "vhb": "nature",
+    "vbd": [
+      11,
+      20
+    ],
+    "ntc": "f4aa16",
+    "nbc": "fff98f",
+    "vdu": 9951,
+    "ase": [
+      "series1",
+      "series2",
+      "series3",
+      "series4",
+      "series5",
+      "festival"
+    ],
+    "vhe": 16.36,
+    "loc": {
+      "de": "Melinda",
+      "it": "Fuffi",
+      "nl": "Isabelle",
+      "ru": "Изабель",
+      "ja": "しずえ",
+      "ko": "여울",
+      "en": "Isabelle",
+      "es": "Canela",
+      "fr": "Marie",
+      "zh": "西施惠"
+    }
+  },
+  "pkn": {
+    "img": "NpcIcon/pkn",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      9,
+      31
+    ],
+    "ntc": "080800",
+    "nbc": "ff6d00",
+    "ase": "series2",
+    "vad": "1.5.0",
+    "vhe": 13.44,
+    "loc": {
+      "de": "Jakob",
+      "it": "Fifonio",
+      "nl": "Jack",
+      "ru": "Джек",
+      "ja": "パンプキング",
+      "ko": "펌킹",
+      "en": "Jack",
+      "es": "Soponcio",
+      "fr": "Jacqu'O",
+      "zh": "南瓜王"
+    }
+  },
+  "rei": {
+    "img": "NpcIcon/rei",
+    "vge": 0,
+    "vhb": "fashion",
+    "vbd": [
+      11,
+      24
+    ],
+    "ntc": "fffe69",
+    "nbc": "e21212",
+    "vdu": 6917,
+    "ase": "series3",
+    "vad": "1.6.0",
+    "vhe": 16.3,
+    "loc": {
+      "zh-cn": "铃铃鹿",
+      "de": "Chris",
+      "it": "Jingle",
+      "nl": "Jingle",
+      "ru": "Джингл",
+      "ja": "ジングル",
+      "ko": "루돌",
+      "zh-tw": "鈴鈴鹿",
+      "en": "Jingle",
+      "es": "Renato",
+      "fr": "Rodolphe"
+    }
+  },
+  "boa": {
+    "img": "NpcIcon/boa",
+    "vge": 1,
+    "vhb": "education",
+    "vbd": [
+      0,
+      8
+    ],
+    "ntc": "ffdb50",
+    "nbc": "a8562d",
+    "vdu": 7178,
+    "ase": "series1",
+    "vad": "na",
+    "loc": {
+      "de": "Sigrid",
+      "it": "Nella",
+      "nl": "Joan",
+      "ru": "Джоан",
+      "ja": "カブリバ",
+      "ko": "무파라",
+      "en": "Joan",
+      "es": "Juana",
+      "fr": "Porcella",
+      "zh": "曹谷"
+    }
+  },
+  "tkka": {
+    "img": "NpcIcon/tkkA",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      7,
+      23
+    ],
+    "ntc": "595757",
+    "nbc": "ffffff",
+    "vdu": 7165,
+    "ase": [
+      "series2",
+      "series5",
+      "festival"
+    ],
+    "vhe": 16,
+    "loc": {
+      "de": "K.K.",
+      "it": "K.K.",
+      "nl": "K.K.",
+      "ru": "К. К.",
+      "ja": "とたけけ",
+      "ko": "K.K.",
+      "en": "K.K.",
+      "es": "Totakeke",
+      "fr": "Kéké",
+      "zh": "K.K."
+    }
+  },
+  "kpp": {
+    "img": "NpcIcon/kpp",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      6,
+      12
+    ],
+    "ntc": "fff37c",
+    "nbc": "4bb148",
+    "vdu": 9957,
+    "ase": "series1",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Käpten",
+      "it": "Remo",
+      "nl": "Kapp'n",
+      "ru": "Кэпн",
+      "ja": "かっぺい",
+      "ko": "갑돌",
+      "en": "Kapp'n",
+      "es": "Capitán",
+      "fr": "Amiral",
+      "zh": "航平"
+    }
+  },
+  "lom": {
+    "img": "NpcIcon/lom",
+    "vge": 1,
+    "vhb": "play",
+    "vbd": [
+      9,
+      22
+    ],
+    "ntc": "9c4e00",
+    "nbc": "ffe932",
+    "vdu": 9948,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "de": "Katja",
+      "it": "Micetta",
+      "nl": "Katie",
+      "ru": "Кейти",
+      "ja": "まいこちゃん",
+      "ko": "미야",
+      "en": "Katie",
+      "es": "Cati",
+      "fr": "Cathie",
+      "zh": "咪露"
+    }
+  },
+  "bpt": {
+    "img": "NpcIcon/bpt",
+    "vge": 1,
+    "vhb": "play",
+    "vbd": [
+      9,
+      28
+    ],
+    "ntc": "fffcf0",
+    "nbc": "2f4c85",
+    "vdu": 7183,
+    "ase": "series4",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Smeralda",
+      "it": "Vanda",
+      "nl": "Katrina",
+      "ru": "Катрина",
+      "ja": "ハッケミィ",
+      "ko": "마추릴라",
+      "en": "Katrina",
+      "es": "Katrina",
+      "fr": "Astrid",
+      "zh": "星薇"
+    }
+  },
+  "skk": {
+    "img": "NpcIcon/skk",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      10,
+      30
+    ],
+    "ntc": "78b3c7",
+    "nbc": "2a4869",
+    "vdu": 7172,
+    "ase": [
+      "series2",
+      "series5"
+    ],
+    "vhe": 12,
+    "loc": {
+      "de": "Schubert",
+      "it": "Sciuscià",
+      "nl": "Kicks",
+      "ru": "Кикс",
+      "ja": "シャンク",
+      "ko": "패트릭",
+      "en": "Kicks",
+      "es": "Betunio",
+      "fr": "Blaise",
+      "zh": "薛革"
+    }
+  },
+  "hgc": {
+    "img": "NpcIcon/hgc",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      9,
+      31
+    ],
+    "ntc": "fffee0",
+    "nbc": "7f5174",
+    "vdu": 9946,
+    "ase": [
+      "series2",
+      "series5"
+    ],
+    "vhe": 13.86,
+    "loc": {
+      "zh-cn": "绵儿",
+      "de": "Minna",
+      "it": "Beatrice",
+      "nl": "Label",
+      "ru": "Лэйбл",
+      "ja": "ことの",
+      "ko": "고숙이",
+      "zh-tw": "綿兒",
+      "en": "Label",
+      "es": "Tili",
+      "fr": "Tiquette"
+    }
+  },
+  "slo": {
+    "img": "NpcIcon/slo",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      7,
+      8
+    ],
+    "ntc": "fffce9",
+    "nbc": "c0ab72",
+    "vdu": 7181,
+    "ase": "series3",
+    "vad": "1.2.0",
+    "vhe": 12,
+    "loc": {
+      "de": "Gerd",
+      "it": "Florindo",
+      "nl": "Leif",
+      "ru": "Лейф",
+      "ja": "レイジ",
+      "ko": "늘봉",
+      "en": "Leif",
+      "es": "Gandulio",
+      "fr": "Racine",
+      "zh": "然然"
+    }
+  },
+  "kps": {
+    "img": "NpcIcon/kps",
+    "vge": 1,
+    "vhb": "fitness",
+    "vbd": [
+      7,
+      16
+    ],
+    "ntc": "fff37c",
+    "nbc": "8bd344",
+    "vdu": 7167,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "de": "Lotte",
+      "it": "Romina",
+      "nl": "Leila",
+      "ru": "Лейла",
+      "ja": "クク",
+      "ko": "꼬미",
+      "en": "Leila",
+      "es": "Conchita",
+      "fr": "Lila",
+      "zh": "沽沽"
+    }
+  },
+  "kpm": {
+    "img": "NpcIcon/kpm",
+    "vge": 1,
+    "vhb": "fitness",
+    "vbd": [
+      8,
+      26
+    ],
+    "ntc": "fff37c",
+    "nbc": "76c23b",
+    "vdu": 7171,
+    "ase": "series4",
+    "vad": "na",
+    "loc": {
+      "de": "Lore",
+      "it": "Ramona",
+      "nl": "Leilani",
+      "ru": "Лейлани",
+      "ja": "クーコ",
+      "ko": "갑순",
+      "en": "Leilani",
+      "es": "Marimar",
+      "fr": "Liliane",
+      "zh": "沽玉"
+    }
+  },
+  "otg": {
+    "img": "NpcIcon/otg",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      8,
+      12
+    ],
+    "ntc": "7a4412",
+    "nbc": "ffa6aa",
+    "vdu": 14464,
+    "ase": [
+      "series1",
+      "series4",
+      "series5"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Karlotta",
+      "it": "Casimira",
+      "nl": "Lottie",
+      "ru": "Лотти",
+      "ja": "タクミ",
+      "ko": "솜이",
+      "en": "Lottie",
+      "es": "Nuria",
+      "fr": "Lou",
+      "zh": "巧美"
+    }
+  },
+  "tap": {
+    "img": "NpcIcon/tap",
+    "vge": 1,
+    "vhb": "education",
+    "vbd": [
+      1,
+      29
+    ],
+    "ntc": "ffceff",
+    "nbc": "bc40a9",
+    "vdu": 6915,
+    "ase": "series1",
+    "vad": "1.4.0",
+    "vhe": 16.3,
+    "loc": {
+      "zh-cn": "梦美",
+      "de": "Serenada",
+      "it": "Sonia",
+      "nl": "Luna",
+      "ru": "Луна",
+      "ja": "ゆめみ",
+      "ko": "몽셰르",
+      "zh-tw": "夢美",
+      "en": "Luna",
+      "es": "Alakama",
+      "fr": "Serena"
+    }
+  },
+  "ott": {
+    "img": "NpcIcon/ott",
+    "vge": 0,
+    "vhb": "fashion",
+    "vbd": [
+      5,
+      6
+    ],
+    "ntc": "fffad4",
+    "nbc": "5073a1",
+    "vdu": 6918,
+    "ase": "series1",
+    "vad": "na",
+    "loc": {
+      "de": "Fred",
+      "it": "Frodolo",
+      "nl": "Lyle",
+      "ru": "Лайл",
+      "ja": "ホンマさん",
+      "ko": "안심해씨",
+      "en": "Lyle",
+      "es": "Sisebuto",
+      "fr": "Lionel",
+      "zh": "阿本先生"
+    }
+  },
+  "hgh": {
+    "img": "NpcIcon/hgh",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      4,
+      22
+    ],
+    "ntc": "fffad4",
+    "nbc": "3c4c78",
+    "vdu": 9952,
+    "ase": [
+      "series3",
+      "series5"
+    ],
+    "vhe": 13.86,
+    "loc": {
+      "zh-cn": "绢儿",
+      "de": "Tina",
+      "it": "Agostina",
+      "nl": "Mabel",
+      "ru": "Мэйбл",
+      "ja": "きぬよ",
+      "ko": "고순이",
+      "zh-tw": "絹兒",
+      "en": "Mabel",
+      "es": "Pili",
+      "fr": "Layette"
+    }
+  },
+  "chm": {
+    "img": "NpcIcon/chm",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      6,
+      25
+    ],
+    "ntc": "eded55",
+    "nbc": "61b513",
+    "vdu": 7174,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "zh-cn": "龙山先生",
+      "de": "Carleon",
+      "it": "Gustavo",
+      "nl": "Nat",
+      "ru": "Нат",
+      "ja": "カメヤマさん",
+      "ko": "멜레옹",
+      "zh-tw": "龍山先生",
+      "en": "Nat",
+      "es": "Papilo",
+      "fr": "Djarod"
+    }
+  },
+  "mnc": {
+    "img": "NpcIcon/mnc",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      0,
+      11
+    ],
+    "ntc": "646464",
+    "nbc": "fafaf0",
+    "vdu": 14464,
+    "ase": "series5",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Bono",
+      "it": "Gilbertuccio",
+      "nl": "Niko",
+      "ru": "Нико",
+      "ja": "ニコ",
+      "ko": "방글",
+      "en": "Niko",
+      "es": "Miko",
+      "fr": "Gratien",
+      "zh": "尼可"
+    }
+  },
+  "dod": {
+    "img": "NpcIcon/dod",
+    "vge": 0,
+    "vhb": "fitness",
+    "vbd": [
+      9,
+      2
+    ],
+    "ntc": "38889e",
+    "nbc": "ffdf50",
+    "vdu": 9560,
+    "ase": "series5",
+    "vhe": 15.3,
+    "loc": {
+      "de": "Bodo",
+      "it": "Dodobaldo",
+      "nl": "Orville",
+      "ru": "Орвилл",
+      "ja": "モーリー",
+      "ko": "모리",
+      "en": "Orville",
+      "es": "Rafa",
+      "fr": "Morris",
+      "zh": "莫里"
+    }
+  },
+  "seo": {
+    "img": "NpcIcon/seo",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      6,
+      19
+    ],
+    "ntc": "fffd87",
+    "nbc": "f44957",
+    "ase": "series1",
+    "vad": "1.3.0",
+    "vhe": 12.85,
+    "loc": {
+      "zh-cn": "阿獭",
+      "de": "Johannes",
+      "it": "Pasqualo",
+      "nl": "Pascal",
+      "ru": "Паскаль",
+      "ja": "ラコスケ",
+      "ko": "해탈한",
+      "zh-tw": "阿獺",
+      "en": "Pascal",
+      "es": "Pascal",
+      "fr": "Pascal"
+    }
+  },
+  "pck": {
+    "img": "NpcIcon/pck",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      2,
+      3
+    ],
+    "ntc": "edebd6",
+    "nbc": "07bbc2",
+    "vdu": 7179,
+    "ase": "series4",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "阿欢",
+      "de": "Pavo",
+      "it": "Pavão",
+      "nl": "Pavé",
+      "ru": "Паве",
+      "ja": "ベルリーナ",
+      "ko": "베르리나",
+      "zh-tw": "阿歡",
+      "en": "Pavé",
+      "es": "Conga",
+      "fr": "Roberto"
+    }
+  },
+  "plk": {
+    "img": "NpcIcon/plk",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      2,
+      19
+    ],
+    "ntc": "fffce9",
+    "nbc": "fe9ee0",
+    "vdu": 7176,
+    "ase": "series3",
+    "vad": "na",
+    "loc": {
+      "de": "Pelly",
+      "it": "Pelly",
+      "nl": "Pelly",
+      "ru": "Пелли",
+      "ja": "ぺりこ",
+      "ko": "펠리",
+      "en": "Pelly",
+      "es": "Sol",
+      "fr": "Opélie",
+      "zh": "宋信子"
+    }
+  },
+  "plo": {
+    "img": "NpcIcon/plo",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      2,
+      8
+    ],
+    "ntc": "fffce9",
+    "nbc": "44c04f",
+    "vdu": 6913,
+    "ase": "series3",
+    "vad": "na",
+    "loc": {
+      "de": "Peter",
+      "it": "Tino",
+      "nl": "Pete",
+      "ru": "Пит",
+      "ja": "ぺりお",
+      "ko": "펠리오",
+      "en": "Pete",
+      "es": "Carturo",
+      "fr": "Antoine",
+      "zh": "程信雄"
+    }
+  },
+  "fsl": {
+    "img": "NpcIcon/fsl",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      5,
+      20
+    ],
+    "ntc": "feffca",
+    "nbc": "d38856",
+    "vdu": 6923,
+    "ase": "series4",
+    "vad": "na",
+    "loc": {
+      "zh-cn": "博陆恩",
+      "de": "Helios",
+      "it": "Elio",
+      "nl": "Phineas",
+      "ru": "Финеас",
+      "ja": "パロンチーノ",
+      "ko": "파론티노",
+      "zh-tw": "博陸恩",
+      "en": "Phineas",
+      "es": "Elio",
+      "fr": "Hélium"
+    }
+  },
+  "plm": {
+    "img": "NpcIcon/plm",
+    "vge": 1,
+    "vhb": "music",
+    "vbd": [
+      10,
+      21
+    ],
+    "ntc": "fffce9",
+    "nbc": "ea78ff",
+    "vdu": 6915,
+    "ase": "series3",
+    "vad": "na",
+    "loc": {
+      "de": "Peggy",
+      "it": "Polly",
+      "nl": "Phyllis",
+      "ru": "Филлис",
+      "ja": "ぺりみ",
+      "ko": "펠리미",
+      "en": "Phyllis",
+      "es": "Estrella",
+      "fr": "Élisabec",
+      "zh": "宋信美"
+    }
+  },
+  "mnk": {
+    "img": "NpcIcon/mnk",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      3,
+      17
+    ],
+    "ntc": "ffeb6f",
+    "nbc": "4a6bdb",
+    "vdu": 9958,
+    "ase": "series2",
+    "vad": "na",
+    "loc": {
+      "zh-cn": "车长叔叔",
+      "de": "Flip",
+      "it": "Ciufciuf",
+      "nl": "Porter",
+      "ru": "Портер",
+      "ja": "えきいんさん",
+      "ko": "역무원",
+      "zh-tw": "車長叔叔",
+      "en": "Porter",
+      "es": "Estasio",
+      "fr": "Lazare"
+    }
+  },
+  "fox": {
+    "img": "NpcIcon/fox",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      9,
+      18
+    ],
+    "ntc": "4f1904",
+    "nbc": "ebb020",
+    "vdu": 7182,
+    "ase": [
+      "series1",
+      "series4"
+    ],
+    "vad": "1.2.0",
+    "vhe": 15.9,
+    "loc": {
+      "de": "Reiner",
+      "it": "Volpolo",
+      "nl": "Redd",
+      "ru": "Рэдд",
+      "ja": "つねきち",
+      "ko": "여욱",
+      "en": "Redd",
+      "es": "Ladino",
+      "fr": "Rounard",
+      "zh": "狐利"
+    }
+  },
+  "alw": {
+    "img": "NpcIcon/alw",
+    "vge": 1,
+    "vhb": "fitness",
+    "vbd": [
+      6,
+      5
+    ],
+    "ntc": "fffce9",
+    "nbc": "ffaad1",
+    "vdu": 12134,
+    "ase": "series2",
+    "vad": "1.2.0",
+    "vhe": 16.1,
+    "loc": {
+      "zh-cn": "莉咏",
+      "de": "Rosina",
+      "it": "Alpaca",
+      "nl": "Reese",
+      "ru": "Риз",
+      "ja": "リサ",
+      "ko": "리사",
+      "zh-tw": "莉詠",
+      "en": "Reese",
+      "es": "Paca",
+      "fr": "Risette"
+    }
+  },
+  "mol": {
+    "img": "NpcIcon/mol",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      3,
+      6
+    ],
+    "ntc": "612f0a",
+    "nbc": "eb7c41",
+    "vdu": 6923,
+    "ase": [
+      "series1",
+      "series4"
+    ],
+    "vad": "na",
+    "loc": {
+      "zh-cn": "电源叔叔",
+      "de": "Resetti",
+      "it": "Resetti",
+      "nl": "Resetti",
+      "ru": "Ресетти",
+      "ja": "リセットさん",
+      "ko": "도루묵씨",
+      "zh-tw": "電源叔叔",
+      "en": "Resetti",
+      "es": "Rese T.",
+      "fr": "Resetti"
+    }
+  },
+  "xct": {
+    "img": "NpcIcon/xct",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      1,
+      1
+    ],
+    "ntc": "fffce9",
+    "nbc": "5a66d2",
+    "vdu": 6912,
+    "ase": "series3",
+    "vad": "1.2.0",
+    "vhe": 14.75,
+    "loc": {
+      "de": "Olli",
+      "it": "Girolamo",
+      "nl": "Rover",
+      "ru": "Ровер",
+      "ja": "みしらぬネコ",
+      "ko": "낯선고양이",
+      "en": "Rover",
+      "es": "Fran",
+      "fr": "Charly",
+      "zh": "陌陌"
+    }
+  },
+  "hgs": {
+    "img": "NpcIcon/hgs",
+    "vge": 1,
+    "vhb": "education",
+    "vbd": [
+      10,
+      22
+    ],
+    "ntc": "fffee0",
+    "nbc": "895452",
+    "vdu": 9953,
+    "ase": [
+      "series1",
+      "series5"
+    ],
+    "vhe": 13.86,
+    "loc": {
+      "zh-cn": "麻儿",
+      "de": "Sina",
+      "it": "Filomena",
+      "nl": "Sable",
+      "ru": "Сэйбл",
+      "ja": "あさみ",
+      "ko": "고옥이",
+      "zh-tw": "麻兒",
+      "en": "Sable",
+      "es": "Mili",
+      "fr": "Cousette"
+    }
+  },
+  "cml": {
+    "img": "NpcIcon/cml",
+    "vge": 1,
+    "vhb": "fashion",
+    "vbd": [
+      10,
+      10
+    ],
+    "ntc": "954f07",
+    "nbc": "fcbb3a",
+    "ase": [
+      "series1",
+      "series5"
+    ],
+    "vhe": 17,
+    "loc": {
+      "zh-cn": "骆岚",
+      "de": "Aziza",
+      "it": "Sahara",
+      "nl": "Saharah",
+      "ru": "Сахара",
+      "ja": "ローラン",
+      "ko": "사하라",
+      "zh-tw": "駱嵐",
+      "en": "Saharah",
+      "es": "Alcatifa",
+      "fr": "Sarah"
+    }
+  },
+  "upa": {
+    "img": "NpcIcon/upa",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      0,
+      2
+    ],
+    "ntc": "b5362b",
+    "nbc": "ffaca9",
+    "vdu": 7177,
+    "ase": [
+      "series2",
+      "series4"
+    ],
+    "vad": "na",
+    "loc": {
+      "de": "Samselt",
+      "it": "Strizzo",
+      "nl": "Shrunk",
+      "ru": "Шранк",
+      "ja": "ししょー",
+      "ko": "스승",
+      "en": "Shrunk",
+      "es": "Dr. Sito",
+      "fr": "Ciboulot",
+      "zh": "笑匠"
+    }
+  },
+  "rcm": {
+    "img": "NpcIcon/rcm",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      5,
+      7
+    ],
+    "ntc": "4d2a20",
+    "nbc": "de8735",
+    "vdu": 6840,
+    "ase": [
+      "series1",
+      "series3",
+      "series4",
+      "series5"
+    ],
+    "vhe": 10.65,
+    "loc": {
+      "de": "Nepp",
+      "it": "Mirco",
+      "nl": "Timmy",
+      "ru": "Тимми",
+      "ja": "まめきち",
+      "ko": "콩돌이",
+      "en": "Timmy",
+      "es": "Tendo",
+      "fr": "Méli",
+      "zh": "豆狸"
+    }
+  },
+  "rco": {
+    "img": "NpcIcon/rco",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      4,
+      30
+    ],
+    "ntc": "4d2a20",
+    "nbc": "de8735",
+    "vdu": 9561,
+    "ase": [
+      "series1",
+      "series3",
+      "series5"
+    ],
+    "vhe": 14.47,
+    "loc": {
+      "de": "Tom Nook",
+      "it": "Tom Nook",
+      "nl": "Tom Nook",
+      "ru": "Том Нук",
+      "ja": "たぬきち",
+      "ko": "너굴",
+      "en": "Tom Nook",
+      "es": "Tom Nook",
+      "fr": "Tom Nook",
+      "zh": "狸克"
+    }
+  },
+  "rct": {
+    "img": "NpcIcon/rct",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      5,
+      7
+    ],
+    "ntc": "4d2a20",
+    "nbc": "de8735",
+    "vdu": 6840,
+    "ase": [
+      "series2",
+      "series4",
+      "series5"
+    ],
+    "vhe": 10.65,
+    "loc": {
+      "de": "Schlepp",
+      "it": "Marco",
+      "nl": "Tommy",
+      "ru": "Томми",
+      "ja": "つぶきち",
+      "ko": "밤돌이",
+      "en": "Tommy",
+      "es": "Nendo",
+      "fr": "Mélo",
+      "zh": "粒狸"
+    }
+  },
+  "ttla": {
+    "img": "NpcIcon/ttlA",
+    "vge": 0,
+    "vhb": "nature",
+    "vbd": [
+      11,
+      31
+    ],
+    "ntc": "705800",
+    "nbc": "e8e56a",
+    "vdu": 7178,
+    "ase": "series1",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "寿伯",
+      "de": "Törtel",
+      "it": "Tortimer",
+      "nl": "Tortimer",
+      "ru": "Тортимер",
+      "ja": "コトブキ",
+      "ko": "고북",
+      "zh-tw": "壽伯",
+      "en": "Tortimer",
+      "es": "Tórtimer",
+      "fr": "Tortimer"
+    }
+  },
+  "man": {
+    "img": "NpcIcon/man",
+    "vge": 0,
+    "vhb": "music",
+    "vbd": [
+      1,
+      7
+    ],
+    "ntc": "664c61",
+    "nbc": "b3daf6",
+    "ase": "series5",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "纳提",
+      "de": "Sigmar",
+      "it": "Gedeone",
+      "nl": "Wardell",
+      "ru": "Ворделл",
+      "ja": "ナッティー",
+      "ko": "너티",
+      "zh-tw": "納提",
+      "en": "Wardell",
+      "es": "Matías",
+      "fr": "Mantin"
+    }
+  },
+  "wrl": {
+    "img": "NpcIcon/wrl",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      1,
+      25
+    ],
+    "ntc": "fffce9",
+    "nbc": "8c99fd",
+    "vdu": 9950,
+    "ase": "series3",
+    "vad": "na",
+    "loc": {
+      "zh-cn": "海项",
+      "de": "Winci",
+      "it": "Van Trik",
+      "nl": "Wendell",
+      "ru": "Уэнделл",
+      "ja": "セイイチ",
+      "ko": "고파유",
+      "zh-tw": "海項",
+      "en": "Wendell",
+      "es": "Da Morsi",
+      "fr": "Morsicus"
+    }
+  },
+  "doc": {
+    "img": "NpcIcon/doc",
+    "vge": 0,
+    "vhb": "education",
+    "vbd": [
+      6,
+      4
+    ],
+    "ntc": "38889e",
+    "nbc": "ffdf50",
+    "vdu": 9560,
+    "ase": "series5",
+    "vhe": 15.3,
+    "loc": {
+      "zh-cn": "陆德里",
+      "de": "Udo",
+      "it": "Dodoardo",
+      "nl": "Wilbur",
+      "ru": "Уилбур",
+      "ja": "ロドリー",
+      "ko": "로드리",
+      "zh-tw": "陸德里",
+      "en": "Wilbur",
+      "es": "Rodri",
+      "fr": "Rodrigue"
+    }
+  },
+  "gsta": {
+    "img": "NpcIcon/gstA",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      1,
+      26
+    ],
+    "ntc": "7490c2",
+    "nbc": "e3ecf5",
+    "ase": "series5",
+    "vhe": 8.34,
+    "loc": {
+      "de": "Buhu",
+      "it": "Spirideo",
+      "nl": "Wisp",
+      "ru": "Уисп",
+      "ja": "ゆうたろう",
+      "ko": "깨빈",
+      "en": "Wisp",
+      "es": "Buh",
+      "fr": "Follet",
+      "zh": "幽幽"
+    }
+  },
+  "pyn": {
+    "img": "NpcIcon/pyn",
+    "vge": 0,
+    "vhb": "play",
+    "vbd": [
+      2,
+      11
+    ],
+    "ntc": "0ea8c7",
+    "nbc": "ffe20b",
+    "ase": "series4",
+    "vad": "1.1.0",
+    "vhe": 19,
+    "loc": {
+      "de": "Ohs",
+      "it": "Ovidio",
+      "nl": "Zipper",
+      "ru": "Зиппер",
+      "ja": "ぴょんたろう",
+      "ko": "토빗",
+      "en": "Zipper",
+      "es": "Coti",
+      "fr": "Albin",
+      "zh": "蹦蹦"
+    }
+  }
+}

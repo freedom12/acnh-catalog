@@ -1,0 +1,7624 @@
+{
+  "c776": {
+    "ipf": "FtrIcon/ShoesKneeAntique",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "brown",
+      "greige"
+    ],
+    "clr": [
+      "black",
+      "brown",
+      "beige"
+    ],
+    "sel": 660,
+    "buy": 2640,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": [
+      11689,
+      5523,
+      11690
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "pbr08",
+    "loc": {
+      "de": "Paar Legendenstiefel",
+      "es-es": "bota del medievo",
+      "it": "paio di stivali leggenda",
+      "nl": "klassieke laarzen",
+      "ru": "старинные сапоги",
+      "ja": "アンティークなブーツ",
+      "ko": "앤티크 부츠",
+      "es-us": "bota medieval",
+      "en": "antique boots",
+      "fr": "paire de bottes sept lieues",
+      "zh": "古老靴子"
+    }
+  },
+  "c763": {
+    "img": "FtrIcon/ShoesKneeKnightIron",
+    "clr": "gray",
+    "sel": 3000,
+    "hap": 103,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "goth"
+    ],
+    "iid": 5472,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "cbr05",
+      "bea14",
+      "cat09",
+      "chn10"
+    ],
+    "loc": {
+      "zh-cn": "铁甲靴",
+      "de": "Paar Silberrüstungsschuhe",
+      "it": "paio scarpe armatura",
+      "nl": "ridderlaarzen",
+      "ru": "рыцарские сапоги",
+      "ja": "アイアンアーマーシューズ",
+      "ko": "아이언 아머 슈즈",
+      "zh-tw": "鐵甲鞋",
+      "en": "armor shoes",
+      "es": "escarpe",
+      "fr": "paire de solerets"
+    }
+  },
+  "c925": {
+    "ipf": "FtrIcon/ShoesSandalBaboush",
+    "img": [
+      "4",
+      "7",
+      "2",
+      "1",
+      "3",
+      "6",
+      "0",
+      "5"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "mint",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "hap": 23,
+    "stl": [
+      "cute",
+      "gorgeous"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10112,
+      10115,
+      10110,
+      10109,
+      10111,
+      10114,
+      6043,
+      10113
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "mnk06",
+      "mus04"
+    ],
+    "loc": {
+      "de": "Paar Babuschen",
+      "it": "paio di babbucce",
+      "nl": "babouches",
+      "ru": "бабуши",
+      "ja": "バブーシュ",
+      "ko": "바부슈",
+      "en": "babouches",
+      "es": "babucha",
+      "fr": "paire de babouches",
+      "zh": "摩洛哥拖鞋"
+    }
+  },
+  "c791": {
+    "ipf": "FtrIcon/ShoesLowcutBallet",
+    "img": [
+      "4",
+      "0",
+      "7",
+      "6",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "var": [
+      "black",
+      "pink",
+      "red",
+      "yellow",
+      "mint",
+      "blue",
+      "purple",
+      "white"
+    ],
+    "clr": [
+      "black",
+      "pink",
+      "orange",
+      "yellow",
+      "aqua",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "sel": 550,
+    "buy": 2200,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "sporty",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      10158,
+      5608,
+      10161,
+      10160,
+      10155,
+      10156,
+      10157,
+      10159
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "rhn08",
+    "loc": {
+      "de": "Paar Ballettschuhe",
+      "it": "paio di scarpette da punta",
+      "nl": "balletschoenen",
+      "ru": "пуанты",
+      "ja": "バレエシューズ",
+      "ko": "발레 슈즈",
+      "en": "ballet slippers",
+      "es": "zapatilla de ballet",
+      "fr": "paire de chaussons danse",
+      "zh": "芭蕾舞鞋"
+    }
+  },
+  "c1453": {
+    "ipf": "FtrIcon/ShoesLowcutNomalpumps",
+    "img": [
+      "0",
+      "3",
+      "4",
+      "5",
+      "7",
+      "6",
+      "1",
+      "2"
+    ],
+    "var": [
+      "black",
+      "ivory",
+      "greige",
+      "red",
+      "green",
+      "blue",
+      "brown",
+      "camel"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "gray",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "aqua",
+        "beige"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "orange",
+        "beige"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      14765,
+      14967,
+      14968,
+      14969,
+      14971,
+      14970,
+      14965,
+      14966
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "cat16",
+      "flg18",
+      "mus17"
+    ],
+    "loc": {
+      "zh-cn": "简约低跟鞋",
+      "de": "Paar Simpel-Pumps",
+      "es-es": "manoletina sencilla",
+      "it": "paio di ballerine semplici",
+      "nl": "eenvoudige pumps",
+      "ru": "обычные лодочки",
+      "ja": "シンプルなパンプス",
+      "ko": "심플한 펌프스",
+      "zh-tw": "簡約低跟鞋",
+      "es-us": "bailarina sencilla",
+      "en": "basic pumps",
+      "fr": "paire d'escarpins simple"
+    }
+  },
+  "c800": {
+    "ipf": "FtrIcon/ShoesHighcutBasket",
+    "img": [
+      "0",
+      "7",
+      "3",
+      "1",
+      "6",
+      "4",
+      "5",
+      "2"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      5638,
+      10066,
+      10062,
+      10060,
+      10065,
+      10063,
+      10064,
+      10061
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hip00",
+      "mus10",
+      "pgn04"
+    ],
+    "loc": {
+      "zh-cn": "篮球鞋",
+      "de": "Paar Basketballschuhe",
+      "es-es": "zapatilla de básquet",
+      "fr-fr": "paire de baskets",
+      "it": "paio di scarpe da basket",
+      "nl": "basketbalschoenen",
+      "ru": "баскетбольные кеды",
+      "ja": "バスケットシューズ",
+      "ko": "농구화",
+      "zh-tw": "籃球鞋",
+      "es-us": "tenis de básquet",
+      "fr-us": "p. d'espadrilles basketball",
+      "en": "basketball shoes"
+    }
+  },
+  "c769": {
+    "ipf": "FtrIcon/ShoesSandalBeads",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "4",
+      "1",
+      "5"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "colorful"
+      ],
+      [
+        "orange",
+        "colorful"
+      ],
+      [
+        "yellow",
+        "colorful"
+      ],
+      [
+        "green",
+        "colorful"
+      ],
+      [
+        "purple",
+        "colorful"
+      ],
+      [
+        "beige",
+        "colorful"
+      ]
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10139,
+      5478,
+      10138,
+      10140,
+      10137,
+      10141
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "bea10",
+      "duk01"
+    ],
+    "loc": {
+      "de": "Paar Zehensandalen",
+      "it": "paio di infradito perlati",
+      "nl": "teenslippers met kraaltjes",
+      "ru": "сандалии с декором",
+      "ja": "ビーズししゅうのサンダル",
+      "ko": "비즈 자수 샌들",
+      "en": "beaded sandals",
+      "es": "sandalia de cuentas",
+      "fr": "paire de sandales à perles",
+      "zh": "珠珠拖鞋"
+    }
+  },
+  "c772": {
+    "ipf": "FtrIcon/ShoesKneeRubberboots",
+    "img": [
+      "1",
+      "3",
+      "4",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "olive",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      11685,
+      11687,
+      11688,
+      5479,
+      11686
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea06",
+      "brd09",
+      "cbr06",
+      "crd01",
+      "dog14",
+      "mnk08",
+      "mnk09",
+      "mus09",
+      "pig08"
+    ],
+    "loc": {
+      "zh-cn": "长靴",
+      "de": "Paar Stiefel",
+      "fr-fr": "paire de bottines",
+      "it": "paio di stivali",
+      "nl": "laarsjes",
+      "ru": "сапоги",
+      "ja": "ながぐつ",
+      "ko": "장화",
+      "zh-tw": "長靴",
+      "fr-us": "paire de bottes",
+      "en": "boots",
+      "es": "bota"
+    }
+  },
+  "c526": {
+    "ipf": "FtrIcon/ShoesLowcutBusiness",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "brown"
+    ],
+    "clr": [
+      "black",
+      "brown"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "formal",
+      "work"
+    ],
+    "iid": [
+      4730,
+      11455
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat17",
+      "cat21",
+      "der01",
+      "flg12",
+      "flg19",
+      "ham06"
+    ],
+    "loc": {
+      "zh-cn": "商务皮鞋",
+      "de": "Paar Business-Schuhe",
+      "fr-fr": "paire de chaussures pro",
+      "it": "paio di scarpe da impiegato",
+      "nl": "zakenschoenen",
+      "ru": "деловые ботинки",
+      "ja": "ビジネスシューズ",
+      "ko": "비즈니스 슈즈",
+      "zh-tw": "商務皮鞋",
+      "fr-us": "paire de souliers pro",
+      "en": "business shoes",
+      "es": "zapato ejecutivo"
+    }
+  },
+  "c1247": {
+    "ipf": "FtrIcon/ShoesKneeCast",
+    "img": [
+      "0",
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "blue",
+        "gray"
+      ]
+    ],
+    "sel": 60,
+    "buy": 240,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      12960,
+      14672,
+      14669,
+      14671,
+      14670
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "cat11",
+      "cat12"
+    ],
+    "loc": {
+      "zh-cn": "脚部石膏",
+      "de": "Gips",
+      "es-es": "escayola de pie",
+      "it": "gesso",
+      "nl": "gipsverband",
+      "ru": "гипс на ногу",
+      "ja": "ギプス",
+      "ko": "깁스",
+      "zh-tw": "腳部石膏",
+      "es-us": "yeso",
+      "en": "cast",
+      "fr": "plâtre"
+    }
+  },
+  "c1292": {
+    "img": "FtrIcon/ShoesLowcutCinnamoroll0",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13179,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "elp09",
+    "loc": {
+      "zh-cn": "Cinnamoroll运动鞋",
+      "de": "Paar Cinnamoroll-Sneaker",
+      "es-es": "zapatilla Cinnamoroll",
+      "fr-fr": "p. de baskets Cinnamoroll",
+      "it": "paio di sneaker Cinnamoroll",
+      "nl": "Cinnamoroll-sneakers",
+      "ru": "полукеды Cinnamoroll",
+      "ja": "シナモロールなスニーカー",
+      "ko": "시나모롤 스니커",
+      "zh-tw": "Cinnamoroll運動鞋",
+      "es-us": "tenis Cinnamoroll",
+      "fr-us": "p. d'espadrilles Cinnamoroll",
+      "en": "Cinnamoroll sneakers"
+    }
+  },
+  "c811": {
+    "ipf": "FtrIcon/ShoesLowcutSpike",
+    "img": [
+      "4",
+      "2",
+      "5",
+      "3",
+      "6",
+      "1",
+      "0",
+      "7"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "orange",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "purple",
+        "gray"
+      ]
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      10248,
+      10246,
+      10249,
+      10247,
+      10250,
+      10245,
+      5654,
+      10251
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "brd04",
+      "cat19",
+      "gor10",
+      "pgn09",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "钉鞋",
+      "de": "Paar Fußballschuhe",
+      "es-es": "zapatilla de tacos",
+      "it": "paio di scarpini da calcio",
+      "nl": "voetbalschoenen",
+      "ru": "бутсы",
+      "ja": "スパイク",
+      "ko": "스파이크 슈즈",
+      "zh-tw": "釘鞋",
+      "es-us": "botín",
+      "en": "cleats",
+      "fr": "paire de souliers crampons"
+    }
+  },
+  "c796": {
+    "ipf": "FtrIcon/ShoesSandalComfort",
+    "img": [
+      "1",
+      "4",
+      "5",
+      "6",
+      "2",
+      "3",
+      "7",
+      "0"
+    ],
+    "var": [
+      "white",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "orange",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10700,
+      10703,
+      10704,
+      10705,
+      10701,
+      10702,
+      10706,
+      5619
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "双带凉鞋",
+      "de": "Paar Pantoletten",
+      "it": "paio di sandali comodi",
+      "nl": "comfortabele sandalen",
+      "ru": "пробковые пантолеты",
+      "ja": "コンフォートサンダル",
+      "ko": "컴포트 샌들",
+      "zh-tw": "雙帶拖鞋",
+      "en": "comfy sandals",
+      "es": "sandalia holgada",
+      "fr": "paire sandales confortables"
+    }
+  },
+  "c804": {
+    "ipf": "FtrIcon/ShoesKneeWestern",
+    "img": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "0"
+    ],
+    "var": [
+      "ivory",
+      "black",
+      "pink",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ],
+      "brown"
+    ],
+    "sel": 595,
+    "buy": 2380,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11254,
+      11253,
+      11255,
+      11256,
+      5643
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr01",
+      "gor00",
+      "hrs03"
+    ],
+    "loc": {
+      "de": "Paar Cowboystiefel",
+      "fr-fr": "paire de bottes de cow-boy",
+      "it": "paio di stivali da cowboy",
+      "nl": "cowboylaarzen",
+      "ru": "ковбойские сапоги",
+      "ja": "ウェスタンブーツ",
+      "ko": "웨스턴 부츠",
+      "fr-us": "paire de bottes de cowboy",
+      "en": "cowboy boots",
+      "es": "bota del Oeste",
+      "zh": "西部牛仔靴"
+    }
+  },
+  "c523": {
+    "ipf": "FtrIcon/ShoesSandalCrossbelt",
+    "img": [
+      "2",
+      "4",
+      "1",
+      "0",
+      "5",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "pink",
+      "green",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "pink",
+      "green",
+      "purple",
+      "brown"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      10122,
+      10124,
+      10121,
+      4725,
+      10125,
+      10123
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "pgn02",
+      "squ01"
+    ],
+    "loc": {
+      "zh-cn": "交叉带凉鞋",
+      "de": "Paar Kreuzriemensandalen",
+      "es-es": "sandalia de banda cruzada",
+      "it": "paio di sandali a due fasce",
+      "nl": "kruislingse sandalen",
+      "ru": "сандалии с перевязью",
+      "ja": "クロスベルトサンダル",
+      "ko": "크로스 벨트 샌들",
+      "zh-tw": "交叉帶涼鞋",
+      "es-us": "sandalia cruzada",
+      "en": "cross-belt sandals",
+      "fr": "p. sandales brides croisées"
+    }
+  },
+  "c878": {
+    "ipf": "FtrIcon/ShoesHighcutCute",
+    "img": [
+      "2",
+      "3",
+      "1",
+      "0",
+      "5",
+      "4"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "aqua",
+        "pink"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "purple",
+        "green"
+      ]
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": [
+      10267,
+      10268,
+      10266,
+      5803,
+      10270,
+      10269
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "crd06",
+      "duk02",
+      "elp02",
+      "hip09"
+    ],
+    "loc": {
+      "zh-cn": "可爱休闲鞋",
+      "de": "Paar Herzchenturnschuhe",
+      "es-es": "zapatilla cuqui",
+      "fr-fr": "paire de baskets cœur",
+      "it": "paio di sneaker graziose",
+      "nl": "schattige sneakers",
+      "ru": "милые кроссовки",
+      "ja": "キュートなスニーカー",
+      "ko": "큐트 스니커",
+      "zh-tw": "可愛運動鞋",
+      "es-us": "tenis adorable",
+      "fr-us": "paire d'espadrilles cœur",
+      "en": "cute sneakers"
+    }
+  },
+  "c1184": {
+    "img": "FtrIcon/AccessoryGlassSlippers0",
+    "clr": "blue",
+    "sel": 1010,
+    "hap": 251,
+    "stl": "simple",
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": 12130,
+    "cat": true,
+    "sze": "1x1",
+    "src": "dodo",
+    "hui": "rhn01",
+    "loc": {
+      "de": "Paar DAL-Pantoffeln",
+      "it": "paio di pantofole DAL",
+      "nl": "DAL-sloffen",
+      "ru": "тапочки DAL",
+      "ja": "ＤＡＬスリッパ",
+      "ko": "DAL 슬리퍼",
+      "en": "DAL slippers",
+      "es": "pantufla de DAL",
+      "fr": "paire de chaussons DAL",
+      "zh": "DAL拖鞋"
+    }
+  },
+  "c1363": {
+    "ipf": "FtrIcon/ShoesLowcutDanceshoes",
+    "img": [
+      "3",
+      "0",
+      "5",
+      "2",
+      "1",
+      "6",
+      "4",
+      "7"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "pink",
+      "orange",
+      "gold",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "simple"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      14383,
+      14263,
+      14385,
+      14382,
+      14381,
+      14386,
+      14384,
+      14387
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "prom",
+    "vad": "1.9.0",
+    "hui": "squ19",
+    "loc": {
+      "de": "Paar Tanzschuhe",
+      "fr-fr": "p. de chaussures de danse",
+      "it": "paio di scarpe da ballo",
+      "nl": "dansschoenen",
+      "ru": "танцевальные туфли",
+      "ja": "ダンスシューズ",
+      "ko": "댄스 슈즈",
+      "fr-us": "p. de souliers de danse",
+      "en": "dance shoes",
+      "es": "zapato baile de fin de curso",
+      "zh": "舞鞋"
+    }
+  },
+  "c1211": {
+    "img": "FtrIcon/ShoesLowcutEggground0",
+    "clr": [
+      "red",
+      "yellow"
+    ],
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12455,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Paar Erd-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf terrestre",
+      "it": "paio di scarpe uova terrestri",
+      "nl": "aarde-ei-schoenen",
+      "ru": "боты «Земляное яйцо»",
+      "ja": "じめんのたまごのくつ",
+      "ko": "땅 달걀 신발",
+      "fr-us": "p. souliers œuf terrestre",
+      "en": "earth-egg shoes",
+      "es": "zapato de huevo terrestre",
+      "zh": "地面蛋鞋子"
+    }
+  },
+  "c1098": {
+    "ipf": "FtrIcon/ShoesLowcutEmbroidery",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "aqua",
+        "pink"
+      ]
+    ],
+    "sel": 525,
+    "buy": 2100,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      11987,
+      11988,
+      9847,
+      11989
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "bea01",
+      "elp01",
+      "kal10",
+      "mnk05",
+      "pig16",
+      "shp03"
+    ],
+    "loc": {
+      "zh-cn": "刺绣鞋",
+      "de": "Paar Stickschuhe",
+      "es-es": "manoletina con bordado",
+      "fr-fr": "p. de chaussures brodées",
+      "it": "paio di scarpe ricamate",
+      "nl": "geborduurde schoenen",
+      "ru": "расшитые туфли",
+      "ja": "ししゅうのくつ",
+      "ko": "자수 구두",
+      "zh-tw": "刺繡鞋",
+      "es-us": "bailarina con bordado",
+      "fr-us": "p. de souliers brodés",
+      "en": "embroidered shoes"
+    }
+  },
+  "c767": {
+    "ipf": "FtrIcon/ShoesHighcutFurboots",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "ruby_red",
+      "olive",
+      "navy_blue",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 362,
+    "buy": 1450,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11683,
+      5476,
+      11684,
+      11682
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "shp00",
+    "loc": {
+      "zh-cn": "翻毛短靴",
+      "de": "Paar Kunstfellstiefeletten",
+      "es-es": "botín de pelo sintético",
+      "it": "paio stivaletti ecopelliccia",
+      "nl": "laarsjes met imitatiebont",
+      "ru": "полусапожки «под мех»",
+      "ja": "ファーブーツ",
+      "ko": "인조털 부츠",
+      "zh-tw": "毛毛靴",
+      "es-us": "bota corta piel sintética",
+      "en": "faux-fur ankle booties",
+      "fr": "p. bottines fausse fourrure"
+    }
+  },
+  "c520": {
+    "ipf": "FtrIcon/ShoesHighcutMouton",
+    "img": [
+      "4",
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "pink",
+      "green",
+      "beige"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11550,
+      11549,
+      11547,
+      11548,
+      4721
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "gor08",
+      "ham04",
+      "hrs08",
+      "pgn12",
+      "shp00"
+    ],
+    "loc": {
+      "zh-cn": "雪地靴",
+      "de": "Paar Kunstfellstiefel",
+      "es-es": "bota sherpa",
+      "it": "paio di stivali finto montone",
+      "nl": "winterlaarzen",
+      "ru": "сапожки под овчину",
+      "ja": "ムートンブーツ",
+      "ko": "양털 부츠",
+      "zh-tw": "麂皮雪靴",
+      "es-us": "bota de piel sintética",
+      "en": "faux-shearling boots",
+      "fr": "paire de bottes fourrées"
+    }
+  },
+  "c1003": {
+    "ipf": "FtrIcon/ShoesLowcutSuede",
+    "img": [
+      "7",
+      "4",
+      "3",
+      "0",
+      "5",
+      "1",
+      "6",
+      "2"
+    ],
+    "var": [
+      "berry_red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "navy_blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      10080,
+      10077,
+      10076,
+      6893,
+      10078,
+      10074,
+      10079,
+      10075
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "bul05",
+    "loc": {
+      "zh-cn": "麂皮运动鞋",
+      "de": "Paar Veloursturnschuhe",
+      "es-es": "zapatilla imitación ante",
+      "it": "paio sneaker finto camoscio",
+      "nl": "kunstsuède sneakers",
+      "ru": "кроссовки «под замшу»",
+      "ja": "スエードスニーカー",
+      "ko": "스웨이드 스니커",
+      "zh-tw": "麂皮運動鞋",
+      "es-us": "tenis gamuza sintética",
+      "en": "faux-suede sneakers",
+      "fr": "paire de tennis en suédine"
+    }
+  },
+  "c1269": {
+    "ipf": "FtrIcon/ShoesLowcutHalloween",
+    "img": [
+      "2",
+      "5",
+      "4",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "purple",
+        "pink"
+      ]
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party",
+      "comfy"
+    ],
+    "iid": [
+      13414,
+      13417,
+      13416,
+      13016,
+      13415,
+      13413
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "鲜艳动物玩偶服靴子",
+      "de": "Paar Tierkostüm-Schuhe",
+      "it": "paio di stivali da animale",
+      "nl": "dierenlaarzen",
+      "ru": "броские звериные сапоги",
+      "ja": "ハデなアニマルきぐるみブーツ",
+      "ko": "화려한 동물 인형 옷 부츠",
+      "zh-tw": "鮮豔動物玩偶裝靴子",
+      "en": "flashy animal boots",
+      "es": "bota de animal",
+      "fr": "p. de bottes animal flashy"
+    }
+  },
+  "c761": {
+    "ipf": "FtrIcon/ShoesSandalBeachborder",
+    "img": [
+      "3",
+      "7",
+      "6",
+      "4",
+      "2",
+      "1",
+      "5",
+      "0"
+    ],
+    "var": [
+      "white",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "orange",
+        "blue"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "aqua",
+        "orange"
+      ],
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 87,
+    "buy": 350,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      10735,
+      10739,
+      10738,
+      10736,
+      10169,
+      6922,
+      10737,
+      5470
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "ant06",
+      "dog05",
+      "kgr02",
+      "lon04",
+      "mus18",
+      "rbt13",
+      "shp02",
+      "shp04"
+    ],
+    "loc": {
+      "zh-cn": "沙滩拖鞋",
+      "de": "Paar Badesandalen",
+      "fr-fr": "paire de tongs",
+      "it": "paio di infradito",
+      "nl": "teenslippers",
+      "ru": "шлепанцы",
+      "ja": "ビーチサンダル",
+      "ko": "비치 샌들",
+      "zh-tw": "沙灘拖鞋",
+      "fr-us": "paire de sandales",
+      "en": "flip-flops",
+      "es": "chancla"
+    }
+  },
+  "c766": {
+    "ipf": "FtrIcon/ShoesSandalFlower",
+    "img": [
+      "6",
+      "5",
+      "1",
+      "0",
+      "2",
+      "4",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      "green",
+      [
+        "blue",
+        "aqua"
+      ],
+      "purple"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": [
+      10131,
+      10130,
+      10126,
+      5475,
+      10127,
+      10129,
+      10128
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "brd05",
+      "cbr09",
+      "cbr13",
+      "ham09",
+      "hip03",
+      "mnk05",
+      "rbt16",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "花朵凉鞋",
+      "de": "Paar Blümchensandalen",
+      "it": "paio di sandali floreali",
+      "nl": "sandalen met bloemen",
+      "ru": "сандалии с цветком",
+      "ja": "フラワーなサンダル",
+      "ko": "플라워 샌들",
+      "zh-tw": "花朵拖鞋",
+      "en": "flower sandals",
+      "es": "sandalia con flor",
+      "fr": "paire de sandales fleuries"
+    }
+  },
+  "c924": {
+    "ipf": "FtrIcon/ShoesLowcutBrogues",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "brown"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "brown"
+    ],
+    "sel": 585,
+    "buy": 2340,
+    "hap": 23,
+    "stl": [
+      "gorgeous",
+      "cool"
+    ],
+    "lbl": [
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11478,
+      11477,
+      6042
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "duk01",
+      "squ04"
+    ],
+    "loc": {
+      "zh-cn": "雕花绅士鞋",
+      "de": "Paar Ghillie Brogues",
+      "it": "paio di scarpe inglesine",
+      "nl": "Schotse veterschoenen",
+      "ru": "броги",
+      "ja": "ギリー・ブローグズ",
+      "ko": "길리 브로그",
+      "zh-tw": "雕花紳士鞋",
+      "en": "ghillie brogues",
+      "es": "zapato calado con cordón",
+      "fr": "paire de ghillie brogues"
+    }
+  },
+  "c797": {
+    "ipf": "FtrIcon/ShoesSandalGladiator",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "brown"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "brown"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 51,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      11251,
+      11252,
+      5620
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "bea14",
+      "bul07",
+      "kgr09"
+    ],
+    "loc": {
+      "zh-cn": "罗马凉鞋",
+      "de": "Paar Gladiator-Sandalen",
+      "it": "paio di sandali gladiatore",
+      "nl": "gladiatorensandalen",
+      "ru": "сандалии гладиатора",
+      "ja": "グラディエーターサンダル",
+      "ko": "글레디에이터 샌들",
+      "zh-tw": "羅馬涼鞋",
+      "en": "gladiator sandals",
+      "es": "sandalia gladiador",
+      "fr": "paire de spartiates"
+    }
+  },
+  "c777": {
+    "img": "FtrIcon/ShoesKneeKnightGold",
+    "clr": "yellow",
+    "sel": 40000,
+    "hap": 103,
+    "stl": "gorgeous",
+    "lbl": [
+      "fairy_tale",
+      "goth"
+    ],
+    "iid": 5524,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bea14",
+      "chn10",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "金甲靴",
+      "de": "Paar Goldrüstungsschuhe",
+      "it": "paio scarpe armatura dorata",
+      "nl": "gouden ridderlaarzen",
+      "ru": "латные золотые сапоги",
+      "ja": "ゴールデンアーマーシューズ",
+      "ko": "골든 아머 슈즈",
+      "zh-tw": "金甲鞋",
+      "en": "gold-armor shoes",
+      "es": "escarpe de oro",
+      "fr": "paire de solerets or"
+    }
+  },
+  "c1281": {
+    "img": "FtrIcon/ShoesLowcutKitty0",
+    "clr": [
+      "white",
+      "red"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13167,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "gor09",
+    "loc": {
+      "de": "Paar Hello-Kitty-Schuhe",
+      "es-es": "mercedita Hello Kitty",
+      "fr-fr": "p. de chaussures Hello Kitty",
+      "it": "paio di scarpe Hello Kitty",
+      "nl": "Hello Kitty-ballerina's",
+      "ru": "туфли Hello Kitty",
+      "ja": "ハローキティなくつ",
+      "ko": "헬로키티 구두",
+      "es-us": "zapato hebilla Hello Kitty",
+      "fr-us": "p. de souliers Hello Kitty",
+      "en": "Hello Kitty shoes",
+      "zh": "Hello Kitty鞋"
+    }
+  },
+  "c814": {
+    "ipf": "FtrIcon/ShoesHighcutHightech",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "3",
+      "4"
+    ],
+    "var": [
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "green",
+        "aqua"
+      ],
+      [
+        "aqua",
+        "purple"
+      ],
+      [
+        "blue",
+        "red"
+      ]
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      10252,
+      5659,
+      10253,
+      10254,
+      10255
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "气垫鞋",
+      "de": "Paar Hightech-Turnschuhe",
+      "es-es": "deportiva alto rendimiento",
+      "fr-fr": "paire de tennis high-tech",
+      "it": "paio di sneaker hi-tech",
+      "nl": "hightech sneakers",
+      "ru": "супермодные кроссовки",
+      "ja": "ハイテクシューズ",
+      "ko": "하이테크 슈즈",
+      "zh-tw": "氣墊鞋",
+      "es-us": "tenis de alto rendimiento",
+      "fr-us": "paire d'espa. high-tech",
+      "en": "hi-tech sneakers"
+    }
+  },
+  "c938": {
+    "ipf": "FtrIcon/ShoesHighcutSneaker",
+    "img": [
+      "7",
+      "0",
+      "5",
+      "6",
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      10045,
+      2572,
+      10043,
+      10044,
+      10040,
+      10041,
+      10042,
+      10039
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd00",
+      "cat01",
+      "cat20",
+      "der06"
+    ],
+    "loc": {
+      "zh-cn": "高筒休闲鞋",
+      "de": "Paar Basketballstiefel",
+      "es-es": "zapatilla alta",
+      "fr-fr": "paire de baskets montantes",
+      "it": "paio di scarpe alte",
+      "nl": "hoge sneakers",
+      "ru": "высокие кроссовки",
+      "ja": "ハイカットスニーカー",
+      "ko": "하이탑 스니커",
+      "zh-tw": "高筒運動鞋",
+      "es-us": "tenis alto",
+      "fr-us": "paire d'espadrilles hautes",
+      "en": "high-tops"
+    }
+  },
+  "c785": {
+    "ipf": "FtrIcon/ShoesSandalRoomborder",
+    "img": [
+      "0",
+      "6",
+      "2",
+      "3",
+      "4",
+      "5",
+      "1",
+      "7"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "navy_blue",
+      "beige"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 122,
+    "buy": 490,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      5564,
+      10096,
+      10092,
+      10093,
+      10094,
+      10095,
+      10091,
+      10097
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "elp01",
+      "hrs08",
+      "mus04",
+      "pgn02",
+      "pig11",
+      "rbt21",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "居家拖鞋",
+      "de": "Paar Pantoffeln",
+      "it": "paio di pantofole da casa",
+      "nl": "huissloffen",
+      "ru": "домашние тапочки",
+      "ja": "ルームシューズ",
+      "ko": "실내용 슬리퍼",
+      "zh-tw": "室內拖鞋",
+      "en": "house slippers",
+      "es": "pantufla hogareña",
+      "fr": "paire de chaussons"
+    }
+  },
+  "c801": {
+    "ipf": "FtrIcon/ShoesKneeClown",
+    "img": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "purple",
+        "red"
+      ]
+    ],
+    "sel": 475,
+    "buy": 1900,
+    "hap": 23,
+    "stl": [
+      "active",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11558,
+      11559,
+      11560,
+      5639
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "shp11",
+    "loc": {
+      "de": "Paar Narrenschuhe",
+      "it": "paio di scarpe da giullare",
+      "nl": "narrenschoenen",
+      "ru": "ботинки шута",
+      "ja": "ピエロのくつ",
+      "ko": "피에로 신발",
+      "en": "jester's shoes",
+      "es": "zapato de bufón",
+      "fr": "paire de bottes bouffon",
+      "zh": "小丑鞋"
+    }
+  },
+  "c1297": {
+    "img": "FtrIcon/ShoesLowcutKeroppi0",
+    "clr": "green",
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": [
+      "cute",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13184,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "rbt18",
+    "loc": {
+      "de": "Paar Keroppi-Stiefel",
+      "it": "paio stivali Kerokerokeroppi",
+      "nl": "Kerokerokeroppi-laarzen",
+      "ru": "сапоги Kerokerokeroppi",
+      "ja": "けろけろけろっぴなブーツ",
+      "ko": "케로케로케로피 부츠",
+      "en": "Kerokerokeroppi boots",
+      "es": "bota Kerokerokeroppi",
+      "fr": "p. bottes Kerokerokeroppi",
+      "zh": "Kerokerokeroppi靴子"
+    }
+  },
+  "c864": {
+    "ipf": "FtrIcon/ShoesHighcutSports",
+    "img": [
+      "4",
+      "5",
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "blue"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "purple",
+        "orange"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      10264,
+      10265,
+      5761,
+      10262,
+      10261,
+      10263
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "童用休闲鞋",
+      "de": "Paar Kinderturnschuhe",
+      "es-es": "deportiva juvenil",
+      "fr-fr": "paire de baskets enfant",
+      "it": "paio di sneaker da bimbi",
+      "nl": "kindersneakers",
+      "ru": "детские кроссовки",
+      "ja": "キッズなスニーカー",
+      "ko": "키즈 스니커",
+      "zh-tw": "兒童運動鞋",
+      "es-us": "tenis juvenil",
+      "fr-us": "paire d'espadrilles enfant",
+      "en": "kiddie sneakers"
+    }
+  },
+  "c1287": {
+    "img": "FtrIcon/ShoesLowcutKikilala0",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13174,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "shp12",
+    "loc": {
+      "zh-cn": "Kiki & Lala扣带鞋",
+      "de": "Paar Kiki-&-Lala-Schuhe",
+      "es-es": "mercedita Kiki & Lala",
+      "it": "paio di scarpe Kiki & Lala",
+      "nl": "Kiki-&-Lala-ballerina's",
+      "ru": "туфли Kiki & Lala",
+      "ja": "キキ&ララなストラップシューズ",
+      "ko": "리틀트윈스타 스트랩 슈즈",
+      "zh-tw": "Kiki & Lala扣帶鞋",
+      "es-us": "zapato hebilla Kiki & Lala",
+      "en": "Kiki & Lala shoes",
+      "fr": "p. d'escarpins Kiki & Lala"
+    }
+  },
+  "c236": {
+    "ipf": "FtrIcon/ShoesSandalGeta",
+    "img": [
+      "4",
+      "0",
+      "1",
+      "2",
+      "6",
+      "7",
+      "3",
+      "5"
+    ],
+    "var": [
+      "gray_2",
+      "black_2",
+      "red_2",
+      "pink_2",
+      "yellow_2",
+      "green_2",
+      "dark_blue",
+      "purple_2"
+    ],
+    "clr": [
+      [
+        "gray",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ]
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "theatrical"
+    ],
+    "iid": [
+      10965,
+      3704,
+      10962,
+      10963,
+      10967,
+      10968,
+      10964,
+      10966
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "able_sisters",
+      "kicks2"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "hui": [
+      "ant08",
+      "brd06",
+      "cat00",
+      "der10",
+      "dog11",
+      "dog18",
+      "flg03",
+      "mus14",
+      "ocp00",
+      "ocp04",
+      "rbt01",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "木屐",
+      "de": "Paar Kimono-Sandalen",
+      "it": "paio di zoccoli da kimono",
+      "nl": "kimonosandalen",
+      "ru": "японские сандалии",
+      "ja": "げた",
+      "ko": "일본풍 샌들",
+      "zh-tw": "二齒木屐",
+      "en": "kimono sandals",
+      "es": "sandalia kimono",
+      "fr": "paire de sandales kimono"
+    }
+  },
+  "c1097": {
+    "img": "FtrIcon/ShoesLowcutKungfu0",
+    "clr": [
+      "black",
+      "white"
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": 9846,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "cat06",
+      "cbr14",
+      "flg06",
+      "flg07",
+      "flg15",
+      "mnk07"
+    ],
+    "loc": {
+      "de": "Paar Kung-Fu-Schuhe",
+      "it": "paio di scarpe da kung fu",
+      "nl": "kungfuschoenen",
+      "ru": "тапочки для кунг-фу",
+      "ja": "カンフーシューズ",
+      "ko": "쿵푸 신발",
+      "en": "kung-fu shoes",
+      "es": "zapato kung-fu",
+      "fr": "p. de chaussons de kung-fu",
+      "zh": "功夫鞋"
+    }
+  },
+  "c1135": {
+    "ipf": "FtrIcon/ShoesLowcutKateheel",
+    "img": [
+      "1",
+      "2",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "midnight",
+      "passion",
+      "love",
+      "sunset",
+      "ocean",
+      "twilight"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "purple",
+        "gray"
+      ]
+    ],
+    "sel": 875,
+    "buy": 3500,
+    "hap": 351,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11766,
+      11767,
+      11770,
+      11769,
+      11768,
+      9884
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "label",
+    "loc": {
+      "zh-cn": "凯丝的浅口鞋",
+      "de": "Paar Samthea-Pumps",
+      "es-es": "manoletina Trini",
+      "it": "paio scarpe con tacco Bice",
+      "nl": "Labelle-pumps",
+      "ru": "туфли «Лэйблеск»",
+      "ja": "ケイトのパンプス",
+      "ko": "케이트의 펌프스",
+      "zh-tw": "凱絲低跟鞋",
+      "es-us": "bailarina Trini",
+      "en": "Labelle pumps",
+      "fr": "paire de ballerines Maria"
+    }
+  },
+  "c1136": {
+    "ipf": "FtrIcon/ShoesHighcutKatesneaker",
+    "img": [
+      "1",
+      "2",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "midnight",
+      "passion",
+      "love",
+      "sunset",
+      "ocean",
+      "twilight"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 825,
+    "buy": 3300,
+    "hap": 351,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "sporty",
+      "theatrical"
+    ],
+    "iid": [
+      11771,
+      11772,
+      11775,
+      11774,
+      11773,
+      9885
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "label",
+    "loc": {
+      "zh-cn": "凯丝的休闲鞋",
+      "de": "Paar Samthea-Sneaker",
+      "es-es": "zapatilla Trini",
+      "fr-fr": "paire de baskets Maria",
+      "it": "paio di sneaker Bice",
+      "nl": "Labelle-sneakers",
+      "ru": "кеды «Лэйблеск»",
+      "ja": "ケイトのスニーカー",
+      "ko": "케이트의 스니커",
+      "zh-tw": "凱絲運動鞋",
+      "es-us": "tenis Trini",
+      "fr-us": "paire d'espadrilles Maria",
+      "en": "Labelle sneakers"
+    }
+  },
+  "c820": {
+    "ipf": "FtrIcon/ShoesKneeLaceup",
+    "img": [
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "brown"
+    ],
+    "clr": [
+      "white",
+      "black",
+      [
+        "red",
+        "brown"
+      ],
+      "brown"
+    ],
+    "sel": 480,
+    "buy": 1920,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "theatrical"
+    ],
+    "iid": [
+      11257,
+      5667,
+      11259,
+      11258
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der05",
+      "flg01",
+      "hrs02",
+      "pgn10"
+    ],
+    "loc": {
+      "zh-cn": "绑带靴",
+      "de": "Paar Schnürstiefel",
+      "it": "paio di stivali con lacci",
+      "nl": "geveterde laarzen",
+      "ru": "ботинки на шнурках",
+      "ja": "あみあげブーツ",
+      "ko": "레이스업 부츠",
+      "zh-tw": "綁帶靴",
+      "en": "lace-up boots",
+      "es": "bota alta",
+      "fr": "paire de bottes à lacets"
+    }
+  },
+  "c1213": {
+    "img": "FtrIcon/ShoesLowcutEggleaf0",
+    "clr": "green",
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12457,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "叶子蛋鞋子",
+      "de": "Paar Laub-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf feuillu",
+      "it": "paio scarpe uova frondose",
+      "nl": "bladei-schoenen",
+      "ru": "боты «Лиственное яйцо»",
+      "ja": "はっぱのたまごのくつ",
+      "ko": "나뭇잎 달걀 신발",
+      "zh-tw": "葉子蛋鞋子",
+      "fr-us": "p. souliers œuf feuillu",
+      "en": "leaf-egg shoes",
+      "es": "zapato de huevo boscoso"
+    }
+  },
+  "c768": {
+    "ipf": "FtrIcon/ShoesLowcutLeopard",
+    "img": [
+      "1",
+      "5",
+      "3",
+      "2",
+      "4",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "green",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      "pink",
+      "green",
+      "blue",
+      "purple",
+      [
+        "beige",
+        "brown"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      10132,
+      10136,
+      10134,
+      10133,
+      10135,
+      5477
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "dog03",
+      "flg19",
+      "mnk03",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "豹纹浅口鞋",
+      "de": "Paar Leopardenschuhe",
+      "es-es": "manoletina de leopardo",
+      "it": "paio di ballerine maculate",
+      "nl": "luipaardpumps",
+      "ru": "леопардовые туфли",
+      "ja": "アニマルパンプス",
+      "ko": "레오파드 펌프스",
+      "zh-tw": "豹紋低跟鞋",
+      "es-us": "bailarina de leopardo",
+      "en": "leopard pumps",
+      "fr": "paire de ballerines léopard"
+    }
+  },
+  "c522": {
+    "ipf": "FtrIcon/ShoesLowcutLoafers",
+    "img": [
+      "2",
+      "1",
+      "6",
+      "3",
+      "5",
+      "4",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "brown"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      "brown"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11450,
+      11449,
+      11454,
+      11451,
+      11453,
+      11452,
+      4724
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat16",
+      "cat21",
+      "chn05",
+      "der04",
+      "der07",
+      "goa02",
+      "hip03",
+      "mus17",
+      "pgn02",
+      "squ04"
+    ],
+    "loc": {
+      "zh-cn": "乐福鞋",
+      "de": "Paar Slipper",
+      "fr-fr": "paire de chaussures bateau",
+      "it": "paio di mocassini",
+      "nl": "instappers",
+      "ru": "лоферы",
+      "ja": "ローファー",
+      "ko": "로퍼",
+      "zh-tw": "樂福鞋",
+      "fr-us": "paire de souliers bateau",
+      "en": "loafers",
+      "es": "mocasín"
+    }
+  },
+  "c1355": {
+    "img": "FtrIcon/ShoesLowcutLuigi0",
+    "clr": "brown",
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party"
+    ],
+    "iid": 14243,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "de": "Paar Luigi-Schuhe",
+      "fr-fr": "p. de chaussures de Luigi",
+      "it": "paio di scarpe di Luigi",
+      "nl": "Luigi-schoenen",
+      "ru": "ботинки Луиджи",
+      "ja": "ルイージのくつ",
+      "ko": "루이지 신발",
+      "fr-us": "p. de souliers de Luigi",
+      "en": "Luigi shoes",
+      "es": "zapato de Luigi",
+      "zh": "路易吉鞋"
+    }
+  },
+  "c947": {
+    "ipf": "FtrIcon/ShoesKneeWitch",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      [
+        "black",
+        "purple"
+      ],
+      "red",
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 387,
+    "buy": 1550,
+    "hap": 23,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "theatrical"
+    ],
+    "iid": [
+      11562,
+      6894,
+      11563,
+      11561
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "pbr08",
+      "pig03"
+    ],
+    "loc": {
+      "zh-cn": "尖头靴",
+      "de": "Paar Spitz-Stiefelchen",
+      "es-es": "botín de hechicería",
+      "fr-fr": "paire de bottines pointues",
+      "it": "paio di stivaletti appuntiti",
+      "nl": "heksenlaarsjes",
+      "ru": "чародейские ботинки",
+      "ja": "とんがりブーツ",
+      "ko": "마술사 부츠",
+      "zh-tw": "尖頭靴",
+      "es-us": "bota corta hechicería",
+      "fr-us": "paire de bottines de mage",
+      "en": "mage's booties"
+    }
+  },
+  "c1270": {
+    "ipf": "FtrIcon/ShoesHighcutHalloween",
+    "img": [
+      "2",
+      "5",
+      "4",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party"
+    ],
+    "iid": [
+      13429,
+      13432,
+      13431,
+      13017,
+      13430,
+      13428
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "hui": "bul00",
+    "loc": {
+      "zh-cn": "魔法师靴子",
+      "de": "Paar Zauberschuhe",
+      "it": "paio di stivali stregoneschi",
+      "nl": "heksenlaarzen",
+      "ru": "полусапоги мага",
+      "ja": "まほうつかいのブーツ",
+      "ko": "마법사 부츠",
+      "zh-tw": "魔法師靴子",
+      "en": "mage's boots",
+      "es": "bota de hechicería",
+      "fr": "paire de bottes de mage"
+    }
+  },
+  "c1328": {
+    "img": "FtrIcon/ShoesLowcutMario0",
+    "clr": "brown",
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party"
+    ],
+    "iid": 13561,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "马力欧鞋",
+      "de": "Paar Mario-Schuhe",
+      "fr-fr": "p. de chaussures de Mario",
+      "it": "paio di scarpe di Mario",
+      "nl": "Mario-schoenen",
+      "ru": "ботинки Марио",
+      "ja": "マリオのくつ",
+      "ko": "마리오 신발",
+      "zh-tw": "瑪利歐鞋",
+      "fr-us": "p. de souliers de Mario",
+      "en": "Mario shoes",
+      "es": "zapato de Mario"
+    }
+  },
+  "c762": {
+    "ipf": "FtrIcon/ShoesLowcutStrap",
+    "img": [
+      "2",
+      "0",
+      "1",
+      "7",
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "aqua",
+      "blue"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      10163,
+      5471,
+      10162,
+      10168,
+      10165,
+      10167,
+      10164,
+      10166
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "duk11",
+      "bea13",
+      "elp02",
+      "gor11",
+      "pbr07",
+      "hip09"
+    ],
+    "loc": {
+      "zh-cn": "扣带鞋",
+      "de": "Paar Riemchenschuhe",
+      "es-es": "mercedita",
+      "fr-fr": "paire de babies",
+      "it": "paio di scarpe con cinturino",
+      "nl": "kinderschoenen",
+      "ru": "туфли с перемычкой",
+      "ja": "ストラップシューズ",
+      "ko": "메리제인 슈즈",
+      "zh-tw": "扣帶鞋",
+      "es-us": "zapato hebilla negro",
+      "fr-us": "paire d'espadrilles",
+      "en": "mary janes"
+    }
+  },
+  "c1223": {
+    "ipf": "FtrIcon/ShoesLowcutMermaid",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "pink",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ]
+    ],
+    "sel": 450,
+    "hap": 251,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      12660,
+      13087
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "pascal",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "人鱼鞋",
+      "de": "Paar Nixenschuhe",
+      "fr-fr": "paire de chaussures sirène",
+      "it": "paio scarpe sirena",
+      "nl": "meerminnenballerina's",
+      "ru": "туфли русалки",
+      "ja": "マーメイドなくつ",
+      "ko": "머메이드 구두",
+      "zh-tw": "人魚鞋",
+      "fr-us": "paire de souliers sirène",
+      "en": "mermaid shoes",
+      "es": "zapato sirena"
+    }
+  },
+  "c780": {
+    "ipf": "FtrIcon/ShoesHighcutMoccasin",
+    "img": [
+      "4",
+      "3",
+      "0",
+      "1",
+      "5",
+      "6",
+      "2"
+    ],
+    "var": [
+      "black",
+      "pink",
+      "camel",
+      "olive",
+      "blue",
+      "orange",
+      "beige"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "aqua",
+        "beige"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      "beige"
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      11459,
+      11458,
+      5542,
+      11456,
+      11460,
+      11461,
+      11457
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "der03",
+      "ham05"
+    ],
+    "loc": {
+      "de": "Paar Mokassinstiefeletten",
+      "es-es": "botín estilo mocasín",
+      "it": "paio di stivaletti mocassino",
+      "nl": "mocassinlaarsjes",
+      "ru": "полусапожки-мокасины",
+      "ja": "モカシンブーツ",
+      "ko": "모카신 부츠",
+      "es-us": "bota corta estilo mocasín",
+      "en": "moccasin boots",
+      "fr": "paire de bottines mocassins",
+      "zh": "莫卡辛靴"
+    }
+  },
+  "c881": {
+    "ipf": "FtrIcon/ShoesLowcutMoccasin",
+    "img": [
+      "3",
+      "5",
+      "6",
+      "1",
+      "4",
+      "0",
+      "2"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "camel",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      11467,
+      11469,
+      11470,
+      11465,
+      11468,
+      5807,
+      11466
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "de": "Paar Mokassins",
+      "it": "paio di mocassini classici",
+      "nl": "mocassins met strik",
+      "ru": "мокасины",
+      "ja": "モカシン",
+      "ko": "모카신",
+      "en": "moccasins",
+      "es": "mocasín tradicional",
+      "fr": "paire de mocassins",
+      "zh": "莫卡辛鞋"
+    }
+  },
+  "c1283": {
+    "img": "FtrIcon/ShoesKneeMymelody0",
+    "clr": "pink",
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13169,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "der09",
+    "loc": {
+      "de": "Paar My-Melody-Schuhe",
+      "fr-fr": "paire de bottes My Melody",
+      "it": "paio di stivali My Melody",
+      "nl": "My Melody-ballerina's",
+      "ru": "унты My Melody",
+      "ja": "マイメロディなブーツ",
+      "ko": "마이멜로디 부츠",
+      "fr-us": "p. de bottes My Melody",
+      "en": "My Melody boots",
+      "es": "bota My Melody",
+      "zh": "My Melody靴子"
+    }
+  },
+  "c1145": {
+    "img": "FtrIcon/ShoesSandalRco",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 2000,
+    "exp": 400,
+    "exc": 0,
+    "hap": 151,
+    "stl": "simple",
+    "lbl": "comfy",
+    "iid": 5630,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "loc": {
+      "de": "Paar Nook-Inc.-Pantoffeln",
+      "it": "paio di pantofole Nook Inc.",
+      "nl": "Nook Inc.-sloffen",
+      "ru": "тапочки Nook Inc.",
+      "ja": "たぬきかいはつスリッパ",
+      "ko": "Nook Inc. 슬리퍼",
+      "en": "Nook Inc. slippers",
+      "es": "pantufla de Nook Inc.",
+      "fr": "p. de chaussons Nook Inc.",
+      "zh": "Nook Inc.拖鞋"
+    }
+  },
+  "c802": {
+    "ipf": "FtrIcon/ShoesSandalOutdoor",
+    "img": [
+      "6",
+      "7",
+      "1",
+      "5",
+      "4",
+      "0",
+      "2",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 157,
+    "buy": 630,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10712,
+      10713,
+      10707,
+      10711,
+      10710,
+      5640,
+      10708,
+      10709
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "chn13",
+      "gor01",
+      "lon00"
+    ],
+    "loc": {
+      "zh-cn": "户外凉鞋",
+      "de": "Paar Outdoor-Sandalen",
+      "fr-fr": "paire de sandales de rando",
+      "it": "paio di sandali tecnici",
+      "nl": "kampeersandalen",
+      "ru": "походные сандалии",
+      "ja": "アウトドアサンダル",
+      "ko": "아웃도어 샌들",
+      "zh-tw": "戶外涼鞋",
+      "fr-us": "p. sandales de randonnée",
+      "en": "outdoor sandals",
+      "es": "sandalia de paseo"
+    }
+  },
+  "c1419": {
+    "img": "FtrIcon/ShoesSandalTakumi0",
+    "clr": [
+      "aqua",
+      "beige"
+    ],
+    "sel": 500,
+    "exp": 1800,
+    "exc": 2,
+    "hap": 151,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": 14461,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "巧美生活凉鞋",
+      "de": "Paar FHA-Sandalen",
+      "fr-fr": "paire de sandales LVDL",
+      "it": "paio di sandali CV",
+      "nl": "resortplanbureausandalen",
+      "ru": "сандалии курортн. бюро",
+      "ja": "タクミライフのサンダル",
+      "ko": "파라다이스 플래닝 샌들",
+      "zh-tw": "巧美生活涼鞋",
+      "fr-us": "p. sandales PSM",
+      "en": "Paradise Planning sandals",
+      "es": "sandalia Archipiélago"
+    }
+  },
+  "c1420": {
+    "img": "FtrIcon/ShoesLowcutTakumislipper0",
+    "clr": [
+      "red",
+      "orange"
+    ],
+    "sel": 450,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 151,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": 14462,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Paar FHA-Pantoffeln",
+      "fr-fr": "paire de chaussons LVDL",
+      "it": "paio di pantofole CV",
+      "nl": "resortplanbureausloffen",
+      "ru": "тапочки курортного бюро",
+      "ja": "タクミライフのスリッパ",
+      "ko": "파라다이스 플래닝 슬리퍼",
+      "fr-us": "p. chaussons PSM",
+      "en": "Paradise Planning slippers",
+      "es": "pantufla Archipiélago",
+      "zh": "巧美生活拖鞋"
+    }
+  },
+  "c760": {
+    "ipf": "FtrIcon/ShoesLowcutAnimal",
+    "img": [
+      "2",
+      "4",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "pink",
+      "aqua",
+      "brown"
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      10977,
+      10979,
+      5469,
+      10978,
+      10976
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "兽爪鞋",
+      "de": "Paar Pfoten",
+      "es-es": "pantufla zarpa",
+      "it": "paio di pantofole a zampa",
+      "nl": "pootpantoffels",
+      "ru": "слипперы-лапы",
+      "ja": "アニマルスリッパ",
+      "ko": "동물 슬리퍼",
+      "zh-tw": "動物拖鞋",
+      "es-us": "pantufla garra",
+      "en": "paw slippers",
+      "fr": "paire de chaussons animal"
+    }
+  },
+  "c1228": {
+    "img": "FtrIcon/ShoesKneePirates0",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 660,
+    "hap": 451,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "theatrical"
+    ],
+    "iid": 12665,
+    "cat": true,
+    "sze": "1x1",
+    "src": "gullivarrr",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "海盗靴",
+      "de": "Paar Piratenstiefel",
+      "it": "paio di stivali da pirata",
+      "nl": "piratenlaarzen",
+      "ru": "пиратские сапоги",
+      "ja": "かいぞくのブーツ",
+      "ko": "해적 부츠",
+      "zh-tw": "海盜靴",
+      "en": "pirate boots",
+      "es": "bota pirata",
+      "fr": "paire de bottes de pirate"
+    }
+  },
+  "c765": {
+    "ipf": "FtrIcon/ShoesHighcutShortboots",
+    "img": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "var": [
+      "black",
+      "mustard",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      "black",
+      "yellow",
+      "green",
+      "brown"
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 51,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "formal",
+      "party"
+    ],
+    "iid": [
+      11679,
+      11681,
+      11680,
+      5474
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "de": "Paar Kunstlederstiefel",
+      "es-es": "botín de polipiel",
+      "it": "paio di stivaletti in ecopelle",
+      "nl": "kunstleren enkellaarsjes",
+      "ru": "полусапожки из кожзама",
+      "ja": "レザーのショートブーツ",
+      "ko": "가죽 앵클 부츠",
+      "es-us": "bota corta cuero sintético",
+      "en": "pleather ankle booties",
+      "fr": "paire de bottines similicuir",
+      "zh": "皮短靴"
+    }
+  },
+  "c517": {
+    "ipf": "FtrIcon/ShoesLowcutLeathersneker",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "7",
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      [
+        "red",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      4716,
+      10046,
+      10047,
+      10052,
+      10050,
+      10048,
+      10051,
+      10049
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ham02",
+      "lon07",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "皮休闲鞋",
+      "de": "Paar Kunstleder-Sneaker",
+      "es-es": "deportiva de polipiel",
+      "fr-fr": "paire de tennis en similicuir",
+      "it": "paio di sneaker in ecopelle",
+      "nl": "kunstleren sneakers",
+      "ru": "кроссовки из кожзама",
+      "ja": "レザーのスニーカー",
+      "ko": "가죽 스니커",
+      "zh-tw": "皮運動鞋",
+      "es-us": "tenis de cuero sintético",
+      "fr-us": "paire d'esp. en similicuir",
+      "en": "pleather sneakers"
+    }
+  },
+  "c782": {
+    "ipf": "FtrIcon/ShoesHighcutBobbles",
+    "img": [
+      "6",
+      "1",
+      "0",
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party"
+    ],
+    "iid": [
+      11694,
+      6860,
+      5545,
+      6867,
+      11692,
+      11693,
+      11691
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "elp02",
+    "loc": {
+      "de": "Paar Puschel-Stiefel",
+      "es-es": "botín con pompones",
+      "it": "paio di stivaletti pon-pon",
+      "nl": "laarsjes met pompons",
+      "ru": "сапоги с помпонами",
+      "ja": "ポンポンつきブーツ",
+      "ko": "폼폼 부츠",
+      "es-us": "bota corta con pompones",
+      "en": "pom-pom boots",
+      "fr": "paire de bottes à pompons",
+      "zh": "毛球靴"
+    }
+  },
+  "c1290": {
+    "img": "FtrIcon/ShoesKneePurin0",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 13177,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "cbr17",
+    "loc": {
+      "de": "Paar Pompompurin-Schuhe",
+      "it": "paio di stivali Pompompurin",
+      "nl": "Pompompurin-schoenen",
+      "ru": "полусапоги Pompompurin",
+      "ja": "ポムポムプリンなブーツ",
+      "ko": "폼폼푸린 부츠",
+      "en": "Pompompurin boots",
+      "es": "botín Pompompurin",
+      "fr": "p. de bottes Pompompurin",
+      "zh": "Pompompurin靴子"
+    }
+  },
+  "c839": {
+    "ipf": "FtrIcon/ShoesKneePowered",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "green",
+        "purple"
+      ],
+      [
+        "blue",
+        "green"
+      ]
+    ],
+    "sel": 787,
+    "buy": 3150,
+    "hap": 23,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11799,
+      5698,
+      11798,
+      11797
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "hip02",
+      "squ03"
+    ],
+    "loc": {
+      "zh-cn": "动力靴",
+      "de": "Paar Power-Stiefel",
+      "fr-fr": "paire bottes de puissance",
+      "it": "paio stivali tuta potenziata",
+      "nl": "superkrachtlaarzen",
+      "ru": "силовые ботинки",
+      "ja": "パワードブーツ",
+      "ko": "파워 부츠",
+      "zh-tw": "動力靴",
+      "fr-us": "p. de bottes de puissance",
+      "en": "power boots",
+      "es": "bota de energía"
+    }
+  },
+  "c1331": {
+    "img": "FtrIcon/ShoesLowcutPeach0",
+    "clr": "red",
+    "sel": 600,
+    "buy": 2400,
+    "hap": 201,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 13602,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "桃花公主鞋",
+      "de": "Paar Peach-Pumps",
+      "fr-fr": "p. chauss. Princesse Peach",
+      "it": "paio di scarpe di Peach",
+      "nl": "prinses-Peach-pumps",
+      "ru": "туфли принцессы Пич",
+      "ja": "ピーチひめのくつ",
+      "ko": "피치공주 구두",
+      "zh-tw": "碧姬公主鞋",
+      "fr-us": "p. soul. de Princesse Peach",
+      "en": "Princess Peach shoes",
+      "es": "zapato de Peach"
+    }
+  },
+  "c529": {
+    "ipf": "FtrIcon/ShoesKneeRainboots",
+    "img": [
+      "7",
+      "5",
+      "4",
+      "0",
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "sel": 122,
+    "buy": 490,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11557,
+      11555,
+      11554,
+      4733,
+      11551,
+      11552,
+      11553,
+      11556
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea13",
+      "cbr16",
+      "crd01",
+      "mus16",
+      "pgn00",
+      "pig17",
+      "rbt15",
+      "hip09"
+    ],
+    "loc": {
+      "de": "Paar Regenstiefel",
+      "es-es": "katiuska",
+      "it": "paio di stivali da pioggia",
+      "nl": "regenlaarzen",
+      "ru": "резиновые сапоги",
+      "ja": "レインブーツ",
+      "ko": "레인 부츠",
+      "es-us": "bota de lluvia",
+      "en": "rain boots",
+      "fr": "paire de bottes de pluie",
+      "zh": "雨靴"
+    }
+  },
+  "c1191": {
+    "img": "FtrIcon/ShoesKneeRecyclingboots0",
+    "clr": [
+      "brown",
+      "gray"
+    ],
+    "sel": 40,
+    "stl": "simple",
+    "lbl": "outdoorsy",
+    "iid": 12326,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "crd01",
+      "shp13"
+    ],
+    "loc": {
+      "zh-cn": "回收长靴",
+      "de": "Paar Recyclingstiefel",
+      "it": "paio di stivali riciclati",
+      "nl": "hergebruikte laarzen",
+      "ru": "сапоги из утиль-сырья",
+      "ja": "リサイクルながぐつ",
+      "ko": "재활용 장화",
+      "zh-tw": "舊長靴",
+      "en": "recycled boots",
+      "es": "bota reciclada",
+      "fr": "paire de bottes recyclées"
+    }
+  },
+  "c876": {
+    "ipf": "FtrIcon/ShoesLowcutToilet",
+    "img": [
+      "1",
+      "4",
+      "2",
+      "3",
+      "0"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "green",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      "red",
+      "pink",
+      "green",
+      "aqua",
+      "blue"
+    ],
+    "sel": 87,
+    "buy": 350,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "comfy",
+    "iid": [
+      10105,
+      10108,
+      10106,
+      10107,
+      5800
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "pig01",
+    "loc": {
+      "zh-cn": "厕所拖鞋",
+      "de": "Paar Badepantoffeln",
+      "es-es": "pantufla aseo",
+      "fr-fr": "paire de pantoufles de WC",
+      "it": "paio di pantofole da bagno",
+      "nl": "badkamersloffen",
+      "ru": "туалетные тапочки",
+      "ja": "トイレスリッパ",
+      "ko": "화장실 슬리퍼",
+      "zh-tw": "廁所拖鞋",
+      "es-us": "pantufla de baño",
+      "fr-us": "p. pantoufles de toilette",
+      "en": "restroom slippers"
+    }
+  },
+  "c888": {
+    "ipf": "FtrIcon/ShoesSandalRibbon",
+    "img": [
+      "1",
+      "7",
+      "6",
+      "5",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "var": [
+      "white",
+      "beige",
+      "black",
+      "berry_red",
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "gray",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": [
+      10721,
+      10727,
+      10726,
+      10725,
+      10722,
+      10723,
+      10724,
+      5814
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "ant06",
+      "bea07",
+      "elp02",
+      "rbt10",
+      "hip09"
+    ],
+    "loc": {
+      "zh-cn": "蝴蝶结拖鞋",
+      "de": "Paar Schleifchensandalen",
+      "fr-fr": "paire de claquettes à nœud",
+      "it": "paio di sandali con fiocco",
+      "nl": "slippers met strikken",
+      "ru": "сандалии с бантиком",
+      "ja": "リボンサンダル",
+      "ko": "리본 샌들",
+      "zh-tw": "蝴蝶結拖鞋",
+      "fr-us": "paire de gougounes à nœud",
+      "en": "ribbon sandals",
+      "es": "sandalia gran lazo"
+    }
+  },
+  "c794": {
+    "ipf": "FtrIcon/ShoesHighcutRubbertoe",
+    "img": [
+      "6",
+      "7",
+      "4",
+      "3",
+      "5",
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "ivory",
+      "black",
+      "berry_red",
+      "pink",
+      "coral",
+      "olive",
+      "blue",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      "black",
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": [
+      10058,
+      10059,
+      10056,
+      10055,
+      10057,
+      10053,
+      5617,
+      10054
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hip03",
+      "squ10"
+    ],
+    "loc": {
+      "de": "Paar Knöchelturnschuhe",
+      "es-es": "zapatilla alta con puntera",
+      "fr-fr": "p. tennis skate montantes",
+      "it": "paio di sneaker alte",
+      "nl": "sneakers met rubber neus",
+      "ru": "высокие кеды",
+      "ja": "ラバートゥハイカットスニーカー",
+      "ko": "러버토 하이컷 스니커",
+      "es-us": "tenis alto con puntera",
+      "fr-us": "p. espa. skate montantes",
+      "en": "rubber-toe high tops",
+      "zh": "高筒帆布鞋"
+    }
+  },
+  "c946": {
+    "ipf": "FtrIcon/ShoesLowcutRubbertoe",
+    "img": [
+      "7",
+      "4",
+      "5",
+      "2",
+      "1",
+      "3",
+      "6",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": [
+      10073,
+      10070,
+      10071,
+      10068,
+      10067,
+      10069,
+      10072,
+      6892
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd17",
+      "dog01",
+      "gor01",
+      "mus01"
+    ],
+    "loc": {
+      "de": "Paar Kappenturnschuhe",
+      "es-es": "zapatilla con puntera",
+      "fr-fr": "paire de baskets en toile",
+      "it": "paio scarpe punta in gomma",
+      "nl": "lage sneakers",
+      "ru": "прорезиненные кеды",
+      "ja": "ラバートゥスニーカー",
+      "ko": "러버토 스니커",
+      "es-us": "tenis con puntera de goma",
+      "fr-us": "p. espa. à bout caoutchouc",
+      "en": "rubber-toe sneakers",
+      "zh": "帆布鞋"
+    }
+  },
+  "c783": {
+    "ipf": "FtrIcon/ShoesKneeLegguard",
+    "img": [
+      "3",
+      "1",
+      "0",
+      "4",
+      "2"
+    ],
+    "var": [
+      "white_2",
+      "black_2",
+      "red_2",
+      "golden_yellow",
+      "blue_2"
+    ],
+    "clr": [
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "orange",
+        "blue"
+      ],
+      "blue"
+    ],
+    "sel": 1075,
+    "buy": 4300,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11569,
+      11567,
+      5546,
+      11570,
+      11568
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "kgr05",
+      "squ03"
+    ],
+    "loc": {
+      "zh-cn": "盔甲护腿靴",
+      "de": "Paar Samuraistiefel",
+      "it": "paio di gambiere da samurai",
+      "nl": "samoerai-sandalen",
+      "ru": "поножи воина",
+      "ja": "かっちゅうのすねあて",
+      "ko": "갑옷 다리 보호대",
+      "zh-tw": "盔甲護腿鞋",
+      "en": "samurai greaves",
+      "es": "bota de samurái",
+      "fr": "paire de grèves de samouraï"
+    }
+  },
+  "c1353": {
+    "img": "FtrIcon/ShoesLowcutShamrock0",
+    "clr": [
+      "green",
+      "black"
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "hap": 51,
+    "stl": [
+      "active",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 14237,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "shamrock_day",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "三叶草鞋",
+      "de": "Paar Kleeblattschuhe",
+      "es-es": "botín trébol",
+      "fr-fr": "paire de chaussures trèfle",
+      "it": "paio di scarpe trifoglio",
+      "nl": "klaverschoenen",
+      "ru": "туфли «Трилистник»",
+      "ja": "シャムロックシューズ",
+      "ko": "성 패트릭 슈즈",
+      "zh-tw": "三葉草鞋",
+      "es-us": "zapato trébol",
+      "fr-us": "paire de souliers trèfle",
+      "en": "shamrock shoes"
+    }
+  },
+  "c789": {
+    "ipf": "FtrIcon/ShoesLowcutLolita",
+    "img": [
+      "5",
+      "1",
+      "2",
+      "0",
+      "4",
+      "3",
+      "6"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "light_blue",
+      "purple",
+      "light_purple"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "blue",
+      "purple",
+      "purple"
+    ],
+    "sel": 600,
+    "buy": 2400,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      10153,
+      10149,
+      10150,
+      5606,
+      10152,
+      10151,
+      10154
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "pig02",
+      "shp10"
+    ],
+    "loc": {
+      "zh-cn": "洛丽塔鞋",
+      "de": "Paar Prinzessinnenschuhe",
+      "fr-fr": "paire de babies à rubans",
+      "it": "paio di scarpette bambolina",
+      "nl": "schoenen met enkelbandjes",
+      "ru": "милые туфли",
+      "ja": "ロリータシューズ",
+      "ko": "리본 레이스 슈즈",
+      "zh-tw": "蘿莉塔鞋",
+      "fr-us": "paire d'escarpins à rubans",
+      "en": "shiny bow platform shoes",
+      "es": "zapato muñequita"
+    }
+  },
+  "c515": {
+    "ipf": "FtrIcon/ShoesSandalShower",
+    "img": [
+      "1",
+      "0",
+      "3",
+      "2",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "gold",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 87,
+    "buy": 350,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10696,
+      4714,
+      10698,
+      10697,
+      10699
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "dog11",
+      "hip08",
+      "pgn03",
+      "pig04"
+    ],
+    "loc": {
+      "de": "Paar Badelatschen",
+      "fr-fr": "paire de claquettes de bain",
+      "it": "paio di ciabatte da doccia",
+      "nl": "badslippers",
+      "ru": "тапочки для душа",
+      "ja": "シャワーサンダル",
+      "ko": "줄무늬 슬리퍼",
+      "fr-us": "p. de gougounes de douche",
+      "en": "shower sandals",
+      "es": "chancla de piscina",
+      "zh": "浴室拖鞋"
+    }
+  },
+  "c815": {
+    "ipf": "FtrIcon/ShoesKneeSki",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "var": [
+      "white",
+      "red",
+      "orange",
+      "lime",
+      "light_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "blue",
+        "pink"
+      ]
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      5660,
+      10993,
+      10992,
+      10994,
+      10995,
+      10996
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "evt": "winter_shopping",
+    "hui": [
+      "gor08",
+      "tig02"
+    ],
+    "loc": {
+      "de": "Paar Skistiefel",
+      "it": "paio di scarponi da sci",
+      "nl": "skilaarzen",
+      "ru": "лыжные ботинки",
+      "ja": "スキーブーツ",
+      "ko": "스키 부츠",
+      "en": "ski boots",
+      "es": "bota de esquí",
+      "fr": "paire de bottes de ski",
+      "zh": "滑雪靴"
+    }
+  },
+  "c1215": {
+    "img": "FtrIcon/ShoesLowcutEggsky0",
+    "clr": [
+      "aqua",
+      "red"
+    ],
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12459,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "飞天蛋鞋子",
+      "de": "Paar Luft-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf aérien",
+      "it": "paio di scarpe uova celesti",
+      "nl": "luchtei-schoenen",
+      "ru": "боты «Небесное яйцо»",
+      "ja": "そらとぶたまごのくつ",
+      "ko": "하늘을 나는 달걀 신발",
+      "zh-tw": "飛天蛋鞋子",
+      "fr-us": "p. souliers œuf aérien",
+      "en": "sky-egg shoes",
+      "es": "zapato de huevo celeste"
+    }
+  },
+  "c787": {
+    "ipf": "FtrIcon/ShoesLowcutSlipon",
+    "img": [
+      "6",
+      "4",
+      "1",
+      "0",
+      "3",
+      "5",
+      "2",
+      "7"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 122,
+    "buy": 490,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      10082,
+      6890,
+      6884,
+      5566,
+      6889,
+      10081,
+      6885,
+      10083
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "pbr09",
+      "squ05",
+      "duk11",
+      "mus03"
+    ],
+    "loc": {
+      "zh-cn": "懒人鞋",
+      "de": "Paar Schlupfschuhe",
+      "it": "paio di mocassini casual",
+      "nl": "casual instappers",
+      "ru": "лоферы без шнурков",
+      "ja": "スリッポン",
+      "ko": "슬립온",
+      "zh-tw": "懶人鞋",
+      "en": "slip-on loafers",
+      "es": "mocasín de talón bajo",
+      "fr": "paire de mocassins en toile"
+    }
+  },
+  "c786": {
+    "ipf": "FtrIcon/ShoesSandalResin",
+    "img": [
+      "2",
+      "5",
+      "3",
+      "6",
+      "1",
+      "0",
+      "4",
+      "7"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "lime",
+      "light_blue",
+      "navy_blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "aqua",
+      "blue",
+      "purple"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10099,
+      10102,
+      10100,
+      10103,
+      10098,
+      5565,
+      10101,
+      10104
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea03",
+      "der00",
+      "duk03"
+    ],
+    "loc": {
+      "zh-cn": "懒人拖鞋",
+      "de": "Paar Kunststoffschlappen",
+      "it": "paio di ciabatte di gomma",
+      "nl": "plastic sloffen",
+      "ru": "пляжные сабо",
+      "ja": "スリッポンサンダル",
+      "ko": "슬립온 샌들",
+      "zh-tw": "布希鞋",
+      "en": "slip-on sandals",
+      "es": "sandalia de plástico",
+      "fr": "paire de sabots caoutchouc"
+    }
+  },
+  "c764": {
+    "ipf": "FtrIcon/ShoesLowcutSchool",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 87,
+    "buy": 350,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      5473,
+      10983,
+      10982,
+      10981,
+      10980
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "duk02",
+      "gor05"
+    ],
+    "loc": {
+      "zh-cn": "室内鞋",
+      "de": "Paar Uwabaki",
+      "it": "paio di pantofole da scuola",
+      "nl": "Japanse schoolschoenen",
+      "ru": "увабаки",
+      "ja": "うわばき",
+      "ko": "학교 실내화",
+      "zh-tw": "室內便鞋",
+      "en": "slip-on school shoes",
+      "es": "zapatilla escolar japonesa",
+      "fr": "paire de souliers d'école"
+    }
+  },
+  "c778": {
+    "ipf": "FtrIcon/ShoesLowcutSlipper",
+    "img": [
+      "2",
+      "0",
+      "1",
+      "6",
+      "3",
+      "7",
+      "4",
+      "5"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "aqua"
+    ],
+    "sel": 87,
+    "buy": 350,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10085,
+      5525,
+      10084,
+      10089,
+      10086,
+      10090,
+      10087,
+      10088
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "cat02",
+      "chn02",
+      "der01",
+      "der02",
+      "hrs05",
+      "kal03",
+      "lon06",
+      "squ08"
+    ],
+    "loc": {
+      "de": "Paar Filzpantoffeln",
+      "it": "paio di pantofole",
+      "nl": "pantoffels",
+      "ru": "слипперы",
+      "ja": "スリッパ",
+      "ko": "슬리퍼",
+      "en": "slippers",
+      "es": "pantufla",
+      "fr": "paire de pantoufles",
+      "zh": "拖鞋"
+    }
+  },
+  "c863": {
+    "img": "FtrIcon/ShoesKneeSpaceWhite",
+    "clr": "white",
+    "sel": 1075,
+    "buy": 4300,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "work"
+    ],
+    "iid": 5760,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "chn00",
+      "ost05",
+      "pbr05",
+      "rbt17"
+    ],
+    "loc": {
+      "de": "Paar Astronautenstiefel",
+      "it": "paio di stivali spaziali",
+      "nl": "ruimtelaarzen",
+      "ru": "ботинки космонавта",
+      "ja": "スペースブーツ",
+      "ko": "스페이스 부츠",
+      "en": "space boots",
+      "es": "bota espacial",
+      "fr": "paire de bottes spatiales",
+      "zh": "太空靴"
+    }
+  },
+  "c894": {
+    "ipf": "FtrIcon/ShoesSandalSports",
+    "img": [
+      "0",
+      "5",
+      "1",
+      "4",
+      "7",
+      "2",
+      "3",
+      "6"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "olive",
+      "green",
+      "gray",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      5824,
+      10732,
+      10728,
+      10731,
+      10734,
+      10729,
+      10730,
+      10733
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bul03",
+      "bul05",
+      "kgr09"
+    ],
+    "loc": {
+      "zh-cn": "运动凉鞋",
+      "de": "Paar Sportsandalen",
+      "it": "paio di sandali sportivi",
+      "nl": "sportsandalen",
+      "ru": "спортивные сандалии",
+      "ja": "スポーツサンダル",
+      "ko": "스포츠 샌들",
+      "zh-tw": "運動涼鞋",
+      "en": "sporty sandals",
+      "es": "sandalia deportiva",
+      "fr": "paire de sandales de sport"
+    }
+  },
+  "c941": {
+    "ipf": "FtrIcon/ShoesKneeEngineerboots",
+    "img": [
+      "5",
+      "3",
+      "4",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "red",
+      "green",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      [
+        "gray",
+        "brown"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      "brown",
+      [
+        "beige",
+        "brown"
+      ]
+    ],
+    "sel": 660,
+    "buy": 2640,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "work"
+    ],
+    "iid": [
+      11236,
+      11234,
+      11235,
+      11233,
+      2593,
+      11232
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd11",
+      "pgn07",
+      "pgn10",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "工程师靴",
+      "de": "Paar Stahlkappenschuhe",
+      "fr-fr": "paire de bottes à coque",
+      "it": "paio di stivali con rinforzo",
+      "nl": "laarzen met stalen neus",
+      "ru": "обувь со стальным носком",
+      "ja": "エンジニアブーツ",
+      "ko": "엔지니어 부츠",
+      "zh-tw": "工程師靴",
+      "fr-us": "paire de bottes cap d'acier",
+      "en": "steel-toed boots",
+      "es": "bota con protección"
+    }
+  },
+  "c1212": {
+    "img": "FtrIcon/ShoesLowcutEggrock0",
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12456,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Paar Fels-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf minéral",
+      "it": "paio scarpe uova rocciose",
+      "nl": "steenei-schoenen",
+      "ru": "боты «Каменное яйцо»",
+      "ja": "いわのたまごのくつ",
+      "ko": "바위 달걀 신발",
+      "fr-us": "p. souliers œuf minéral",
+      "en": "stone-egg shoes",
+      "es": "zapato de huevo rupestre",
+      "zh": "岩石蛋鞋子"
+    }
+  },
+  "c784": {
+    "ipf": "FtrIcon/ShoesLowcutGlitter",
+    "img": [
+      "3",
+      "4",
+      "0",
+      "5",
+      "2",
+      "6",
+      "1",
+      "7"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "red",
+      "pink",
+      "gold",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      10144,
+      10145,
+      5561,
+      10146,
+      10143,
+      10147,
+      10142,
+      10148
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat01",
+      "cbr18",
+      "flg19",
+      "hrs09",
+      "mnk03",
+      "rbt11",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "扣带浅口鞋",
+      "de": "Paar Riemchenpumps",
+      "it": "paio ballerine con cinturino",
+      "nl": "elegante hakjes",
+      "ru": "туфли c застежками",
+      "ja": "ストラップつきパンプス",
+      "ko": "스트랩 펌프스",
+      "zh-tw": "扣帶低跟鞋",
+      "en": "strappy heels",
+      "es": "tacón de tiras",
+      "fr": "paire d'escarpins à bride"
+    }
+  },
+  "c808": {
+    "ipf": "FtrIcon/ShoesLowcutGgotshin",
+    "img": [
+      "0",
+      "1",
+      "4",
+      "3",
+      "2"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "lime",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "blue",
+        "brown"
+      ]
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "formal",
+      "party"
+    ],
+    "iid": [
+      5622,
+      10988,
+      10991,
+      10990,
+      10989
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "mnk03",
+      "rbt15"
+    ],
+    "loc": {
+      "zh-cn": "韩服绣花鞋",
+      "de": "Paar Ornamentschuhe",
+      "it": "paio di ggotshin",
+      "nl": "klassieke bloemenschoenen",
+      "ru": "обувь с цветами",
+      "ja": "コッシン",
+      "ko": "꽃신",
+      "zh-tw": "繡花鞋",
+      "en": "traditional flower shoes",
+      "es": "zapato florido tradicional",
+      "fr": "paire de ggotshin"
+    }
+  },
+  "c705": {
+    "ipf": "FtrIcon/ShoesHighcutTrekking",
+    "img": [
+      "6",
+      "1",
+      "2",
+      "4",
+      "3",
+      "5",
+      "0",
+      "7"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "black",
+      "yellow",
+      "light_blue",
+      "purple",
+      "orange",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "green"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "aqua",
+        "purple"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11242,
+      11237,
+      11238,
+      11240,
+      11239,
+      11241,
+      5388,
+      11243
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der08",
+      "hrs00",
+      "ost09",
+      "pbr03",
+      "squ18",
+      "cbr05"
+    ],
+    "loc": {
+      "de": "Paar Trekkingschuhe",
+      "fr-fr": "p. de chaussures de rando",
+      "it": "paio di scarpe da trekking",
+      "nl": "wandelschoenen",
+      "ru": "походные ботинки",
+      "ja": "トレッキングシューズ",
+      "ko": "트래킹 슈즈",
+      "fr-us": "p. de souliers de rando",
+      "en": "trekking shoes",
+      "es": "zapato de senderismo",
+      "zh": "登山鞋"
+    }
+  },
+  "c528": {
+    "ipf": "FtrIcon/ShoesKneeVelour",
+    "img": [
+      "1",
+      "0",
+      "4",
+      "3",
+      "2"
+    ],
+    "var": [
+      "gray",
+      "ruby_red",
+      "mustard",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ]
+    ],
+    "sel": 480,
+    "buy": 1920,
+    "hap": 51,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "party"
+    ],
+    "iid": [
+      11675,
+      4732,
+      11678,
+      11677,
+      11676
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "loc": {
+      "zh-cn": "天鹅绒靴",
+      "de": "Paar Veloursstiefel",
+      "es-es": "botín de velur",
+      "it": "paio di stivali di velour",
+      "nl": "fluwelen laarzen",
+      "ru": "велюровые сапоги",
+      "ja": "ベロアブーツ",
+      "ko": "벨루어 부츠",
+      "zh-tw": "絨面靴",
+      "es-us": "botín de velvetón",
+      "en": "velour boots",
+      "fr": "paire de bottes en velours"
+    }
+  },
+  "c521": {
+    "ipf": "FtrIcon/ShoesLowcutEnamelpumps",
+    "img": [
+      "4",
+      "5",
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "mint",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "pink",
+      "aqua",
+      "brown",
+      "beige"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      10119,
+      10120,
+      10118,
+      10116,
+      10117,
+      4723
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd08",
+      "cbr18",
+      "chn05",
+      "chn11",
+      "crd08",
+      "der01",
+      "duk01",
+      "duk13",
+      "hip03",
+      "hrs12",
+      "ost03",
+      "tig06",
+      "cat07"
+    ],
+    "loc": {
+      "zh-cn": "漆皮浅口鞋",
+      "de": "Paar Vinyl-Pumps",
+      "es-es": "tacón vinilo punta redonda",
+      "it": "paio di ballerine in vernice",
+      "nl": "vinylen pumps",
+      "ru": "виниловые лодочки",
+      "ja": "エナメルのパンプス",
+      "ko": "에나멜 펌프스",
+      "zh-tw": "漆皮低跟鞋",
+      "es-us": "zapato vinilo punta redonda",
+      "en": "vinyl round-toed pumps",
+      "fr": "paire d'escarpins en vinyle"
+    }
+  },
+  "c792": {
+    "img": "FtrIcon/ShoesKneeVisualBlack",
+    "clr": "black",
+    "sel": 550,
+    "buy": 2200,
+    "hap": 23,
+    "stl": "cool",
+    "lbl": [
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": 5609,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "kgr01",
+    "loc": {
+      "zh-cn": "视觉系靴",
+      "de": "Paar Visual-Kei-Stiefel",
+      "it": "paio di stivali visual kei",
+      "nl": "Japanse punklaarzen",
+      "ru": "панковские сапоги",
+      "ja": "ヴィジュアルけいブーツ",
+      "ko": "펑크 스타일 부츠",
+      "zh-tw": "視覺系靴",
+      "en": "visual-punk boots",
+      "es": "bota punk",
+      "fr": "paire de bottes visual kei"
+    }
+  },
+  "c868": {
+    "ipf": "FtrIcon/ShoesLowcutHealth",
+    "img": [
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      "beige"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      10998,
+      5775,
+      10997
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea05",
+      "elp06",
+      "wol03"
+    ],
+    "loc": {
+      "de": "Paar Spazierschuhe",
+      "es-es": "zapatilla anatómica",
+      "fr-fr": "p. chaussures confortables",
+      "it": "paio di scarpe da passeggio",
+      "nl": "gemakkelijke schoenen",
+      "ru": "легкие слипоны",
+      "ja": "ウォーキングシューズ",
+      "ko": "워킹 슈즈",
+      "es-us": "tenis anatómico",
+      "fr-us": "p. souliers confortables",
+      "en": "walking shoes",
+      "zh": "步行鞋"
+    }
+  },
+  "c1327": {
+    "img": "FtrIcon/ShoesLowcutWario0",
+    "clr": "green",
+    "sel": 350,
+    "buy": 1400,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party"
+    ],
+    "iid": 13562,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "瓦力欧鞋",
+      "de": "Paar Wario-Latschen",
+      "fr-fr": "p. de chaussures de Wario",
+      "it": "paio di scarpe di Wario",
+      "nl": "Wario-schoenen",
+      "ru": "туфли Варио",
+      "ja": "ワリオのくつ",
+      "ko": "와리오 신발",
+      "zh-tw": "瓦利歐鞋",
+      "fr-us": "p. de souliers de Wario",
+      "en": "Wario shoes",
+      "es": "zapato de Wario"
+    }
+  },
+  "c809": {
+    "ipf": "FtrIcon/ShoesSandalAqua",
+    "img": [
+      "2",
+      "0",
+      "4",
+      "7",
+      "6",
+      "3",
+      "1",
+      "5"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "navy_blue",
+      "purple"
+    ],
+    "clr": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "aqua",
+      "blue",
+      "purple"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      10715,
+      5652,
+      10717,
+      10720,
+      10719,
+      10716,
+      10714,
+      10718
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "duk16",
+      "ham09",
+      "mus19"
+    ],
+    "loc": {
+      "zh-cn": "水陆凉鞋",
+      "de": "Paar Strandsandalen",
+      "fr-fr": "paire sandalettes de plage",
+      "it": "paio di sandali da mare",
+      "nl": "watersandalen",
+      "ru": "пляжные сандалии",
+      "ja": "アクアサンダル",
+      "ko": "아쿠아 샌들",
+      "zh-tw": "水涼鞋",
+      "fr-us": "paire de sandales d'eau",
+      "en": "water sandals",
+      "es": "sandalia de goma"
+    }
+  },
+  "c882": {
+    "ipf": "FtrIcon/ShoesLowcutMarine",
+    "img": [
+      "7",
+      "6",
+      "0",
+      "2",
+      "5",
+      "3",
+      "1",
+      "4"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 225,
+    "buy": 900,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      10276,
+      10275,
+      5808,
+      10271,
+      10274,
+      10272,
+      10177,
+      10273
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd20",
+      "crd02"
+    ],
+    "loc": {
+      "zh-cn": "水上运动鞋",
+      "de": "Paar Wassersportschuhe",
+      "fr-fr": "paire de chaussures plage",
+      "it": "paio di scarpe da scoglio",
+      "nl": "waterschoenen",
+      "ru": "тапочки для купания",
+      "ja": "マリンシューズ",
+      "ko": "아쿠아 슈즈",
+      "zh-tw": "水上運動鞋",
+      "fr-us": "paire de souliers de plage",
+      "en": "water shoes",
+      "es": "zapato acuático"
+    }
+  },
+  "c1216": {
+    "img": "FtrIcon/ShoesLowcutEggfish0",
+    "clr": [
+      "purple",
+      "beige"
+    ],
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12460,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "鱼儿蛋鞋子",
+      "de": "Paar Wasser-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf aquatiq.",
+      "it": "p. scarpe uova acquatiche",
+      "nl": "waterei-schoenen",
+      "ru": "боты «Водяное яйцо»",
+      "ja": "サカナのたまごのくつ",
+      "ko": "물고기 달걀 신발",
+      "zh-tw": "魚兒蛋鞋子",
+      "fr-us": "p. souliers œuf aquatiq.",
+      "en": "water-egg shoes",
+      "es": "zapato de huevo acuático"
+    }
+  },
+  "c1217": {
+    "img": "FtrIcon/ShoesLowcutJunepumps0",
+    "clr": "white",
+    "sel": 750,
+    "exp": 6,
+    "exc": 5,
+    "hap": 437,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "theatrical"
+    ],
+    "iid": 12495,
+    "cat": true,
+    "sze": "1x1",
+    "src": "cyrus",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "纯白浅口鞋",
+      "de": "Paar Hochzeits-Pumps",
+      "it": "paio ballerine nuziali fiocco",
+      "nl": "trouwballerina's",
+      "ru": "свадебные лодочки",
+      "ja": "じゅんぱくのパンプス",
+      "ko": "순백 펌프스",
+      "zh-tw": "純白低跟鞋",
+      "en": "wedding pumps",
+      "es": "zapato nupcial con lazo",
+      "fr": "p. escarpins de mariage"
+    }
+  },
+  "c1218": {
+    "img": "FtrIcon/ShoesLowcutJuneshoes0",
+    "clr": "white",
+    "sel": 750,
+    "exp": 6,
+    "exc": 5,
+    "hap": 437,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "theatrical"
+    ],
+    "iid": 12496,
+    "cat": true,
+    "sze": "1x1",
+    "src": "cyrus",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "纯白鞋",
+      "de": "Paar Hochzeitsschuhe",
+      "fr-fr": "p. chaussures de mariage",
+      "it": "paio scarpe nuziali fibbia",
+      "nl": "trouwschoenen",
+      "ru": "свадебные туфли",
+      "ja": "じゅんぱくのシューズ",
+      "ko": "순백 슈즈",
+      "zh-tw": "純白鞋",
+      "fr-us": "p. souliers de mariage",
+      "en": "wedding shoes",
+      "es": "zapato nupcial con hebilla"
+    }
+  },
+  "c883": {
+    "ipf": "FtrIcon/ShoesLowcutWing",
+    "img": [
+      "2",
+      "4",
+      "0",
+      "6",
+      "5",
+      "3",
+      "1"
+    ],
+    "var": [
+      "greige",
+      "gray",
+      "black_white_2",
+      "black",
+      "berry_red",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      "gray",
+      [
+        "black",
+        "white"
+      ],
+      "black",
+      "red",
+      "green",
+      [
+        "brown",
+        "white"
+      ]
+    ],
+    "sel": 225,
+    "buy": 900,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11472,
+      11474,
+      5809,
+      11476,
+      11475,
+      11473,
+      11471
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr02",
+      "duk01",
+      "hrs09",
+      "pgn14",
+      "cat07"
+    ],
+    "loc": {
+      "zh-cn": "翼纹绅士鞋",
+      "de": "Paar Derbyschuhe",
+      "it": "paio scarpe coda di rondine",
+      "nl": "wingtip-schoenen",
+      "ru": "классические броги",
+      "ja": "ウイングチップのシューズ",
+      "ko": "윙팁 슈즈",
+      "zh-tw": "翼紋紳士鞋",
+      "en": "wingtip shoes",
+      "es": "zapato de claqué",
+      "fr": "paire de brogues"
+    }
+  },
+  "c812": {
+    "ipf": "FtrIcon/ShoesLowcutPointedtoe",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 227,
+    "buy": 910,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11462,
+      11463,
+      5655,
+      11464
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hrs09",
+      "kal08"
+    ],
+    "loc": {
+      "zh-cn": "尖头鞋",
+      "de": "Paar Pikes",
+      "it": "paio di scarpe a punta",
+      "nl": "puntschoenen",
+      "ru": "остроносые туфли",
+      "ja": "トンがったクツ",
+      "ko": "뾰족코 구두",
+      "zh-tw": "尖頭鞋",
+      "en": "winklepickers",
+      "es": "zapato de puntera afilada",
+      "fr": "paire de winklepickers"
+    }
+  },
+  "c1214": {
+    "img": "FtrIcon/ShoesLowcutEggforest0",
+    "clr": [
+      "orange",
+      "brown"
+    ],
+    "sel": 800,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12458,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Paar Holz-Ei-Schuhe",
+      "fr-fr": "p. chaussures œuf boisé",
+      "it": "paio scarpe uova boscose",
+      "nl": "houtei-schoenen",
+      "ru": "боты «Лесное яйцо»",
+      "ja": "ウッディなたまごのくつ",
+      "ko": "나무 달걀 신발",
+      "fr-us": "p. souliers œuf boisé",
+      "en": "wood-egg shoes",
+      "es": "zapato de huevo leñoso",
+      "zh": "森林蛋鞋子"
+    }
+  },
+  "c795": {
+    "ipf": "FtrIcon/ShoesLowcutClog",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1",
+      "4"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "green",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "brown",
+        "orange"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      10985,
+      5618,
+      10986,
+      10984,
+      10987
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "bul01",
+      "bul08",
+      "cat10",
+      "cow00"
+    ],
+    "loc": {
+      "de": "Paar Holzpantoffeln",
+      "it": "paio di zoccoli di legno",
+      "nl": "klompen",
+      "ru": "деревянные клоги",
+      "ja": "きぐつ",
+      "ko": "네덜란드 나막신",
+      "en": "wooden clogs",
+      "es": "zueco florido",
+      "fr": "paire de sabots décorés",
+      "zh": "木鞋"
+    }
+  },
+  "c779": {
+    "ipf": "FtrIcon/ShoesHighcutWorkboots",
+    "img": [
+      "4",
+      "7",
+      "0",
+      "2",
+      "3",
+      "6",
+      "5",
+      "1"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 480,
+    "buy": 1920,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "outdoorsy",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      11247,
+      11250,
+      5541,
+      11245,
+      11246,
+      11249,
+      11248,
+      11244
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ant00",
+      "goa08",
+      "ost08"
+    ],
+    "loc": {
+      "zh-cn": "马丁靴",
+      "de": "Paar Arbeitsstiefel",
+      "it": "paio di anfibi",
+      "nl": "werkschoenen",
+      "ru": "рабочие сапоги",
+      "ja": "ワークブーツ",
+      "ko": "워커",
+      "zh-tw": "馬丁靴",
+      "en": "work boots",
+      "es": "bota de trabajo",
+      "fr": "paire de bottes de travail"
+    }
+  },
+  "c821": {
+    "ipf": "FtrIcon/ShoesKneeRing",
+    "img": [
+      "4",
+      "0",
+      "3",
+      "5",
+      "2",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      10259,
+      5668,
+      10258,
+      10260,
+      10257,
+      10256
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "brd15",
+      "cat12",
+      "cat14"
+    ],
+    "loc": {
+      "de": "Paar Wrestlingschuhe",
+      "fr-fr": "paire de bottes de catch",
+      "it": "paio di scarpe da wrestling",
+      "nl": "worstelschoenen",
+      "ru": "борцовские ботинки",
+      "ja": "リングシューズ",
+      "ko": "복싱 슈즈",
+      "fr-us": "paire de bottes de lutte",
+      "en": "wrestling shoes",
+      "es": "bota de lucha",
+      "zh": "摔角鞋"
+    }
+  },
+  "c799": {
+    "img": "FtrIcon/ShoesKneeHeroWhite",
+    "clr": [
+      "white",
+      "red"
+    ],
+    "sel": 660,
+    "buy": 2640,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "fairy_tale",
+      "theatrical",
+      "work"
+    ],
+    "iid": 5624,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "cat09",
+      "elp00",
+      "gor07",
+      "squ03"
+    ],
+    "loc": {
+      "de": "Paar Superheldenstiefel",
+      "it": "paio di stivali da eroe",
+      "nl": "superlaarzen",
+      "ru": "сапоги супергероя",
+      "ja": "ヒーローブーツ",
+      "ko": "히어로 부츠",
+      "en": "zap boots",
+      "es": "superbota",
+      "fr": "paire de bottes de héros",
+      "zh": "英雄靴"
+    }
+  },
+  "c530": {
+    "ipf": "FtrIcon/ShoesSandalZori",
+    "img": [
+      "6",
+      "5",
+      "0",
+      "2",
+      "3",
+      "7",
+      "1",
+      "4"
+    ],
+    "var": [
+      "aqua",
+      "white_2",
+      "black_2",
+      "pink_2",
+      "light_pink",
+      "red_2",
+      "gold_2",
+      "green_2"
+    ],
+    "clr": [
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      "pink",
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      "yellow",
+      "green"
+    ],
+    "sel": 1075,
+    "buy": 4300,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party"
+    ],
+    "iid": [
+      10974,
+      10973,
+      4734,
+      10970,
+      10971,
+      10975,
+      10969,
+      10972
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "chn12",
+      "der10",
+      "dog17",
+      "dog18",
+      "duk04",
+      "flg16",
+      "kgr05",
+      "mnk04",
+      "mus14",
+      "ocp04",
+      "ost06"
+    ],
+    "loc": {
+      "de": "Paar Sandalen",
+      "it": "paio di zori",
+      "nl": "zori",
+      "ru": "дзори",
+      "ja": "ぞうり",
+      "ko": "가락 신",
+      "en": "zori",
+      "es": "sandalia de bambú",
+      "fr": "paire de zori",
+      "zh": "草履拖鞋"
+    }
+  },
+  "c1531": {
+    "img": "FtrIcon/ShoesSandalZelda0",
+    "clr": "brown",
+    "sel": 400,
+    "buy": 1600,
+    "hap": 201,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": "fairy_tale",
+    "iid": 1052,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "古代公主凉鞋",
+      "de": "Paar Prinzessin-Sandalen",
+      "it": "paio di sandali principessa",
+      "nl": "prinsessensandalen",
+      "ru": "сандалии принцессы",
+      "ja": "こだいのひめぎみのサンダル",
+      "ko": "고대의 공주 샌들",
+      "zh-tw": "古代公主涼鞋",
+      "en": "ancient princess sandals",
+      "es": "sandalia princesa ancestral",
+      "fr": "p. sandales princ. ancestr."
+    }
+  },
+  "c1526": {
+    "img": "FtrIcon/ShoesLowcutBeansCyan0",
+    "clr": [
+      "green",
+      "purple"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": 1132,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "糖果运动鞋 蓝绿色",
+      "de": "Paar Türkisturnschuhe",
+      "fr-fr": "paire de baskets turquoise",
+      "it": "paio di runner verdeacqua",
+      "nl": "turquoise sportschoenen",
+      "ru": "бирюзовые кроссовки",
+      "ja": "シアンビーンズ",
+      "ko": "시안 스니커즈",
+      "zh-tw": "糖果運動鞋 藍綠色",
+      "fr-us": "paire espadrilles turquoise",
+      "en": "Cyan Trainers",
+      "es": "deportiva celeste"
+    }
+  },
+  "c1548": {
+    "img": "FtrIcon/ShoesKneeForcereBoots0",
+    "clr": [
+      "gray",
+      "red"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": "sporty",
+    "iid": 1134,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "de": "Paar Reboot-High-Tops",
+      "it": "paio di stivali Reboot",
+      "nl": "reboot-laarzen",
+      "ru": "стальные ребутсы",
+      "ja": "パワーリセットHi",
+      "ko": "파워 리셋 Hi",
+      "en": "Force ReBoots",
+      "es": "bota energética",
+      "fr": "paire bottes énergétiques",
+      "zh": "能力重置高筒鞋"
+    }
+  },
+  "c1544": {
+    "img": "FtrIcon/ShoesKneeReplica0",
+    "clr": [
+      "yellow",
+      "blue"
+    ],
+    "sel": 833,
+    "buy": 3333,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": "sporty",
+    "iid": 1109,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "英雄靴 复制",
+      "de": "Paar Heldenstiefel Replik",
+      "fr-fr": "paire boots héroïques (rép.)",
+      "it": "paio di stivali élite replica",
+      "nl": "heldensneakers (replica)",
+      "ru": "клон ботов героя",
+      "ja": "ヒーローブーツレプリカ",
+      "ko": "히어로 부츠 레플리카",
+      "zh-tw": "英雄靴 複製",
+      "fr-us": "p. bottes héroïques (rép.)",
+      "en": "Hero Boot Replicas",
+      "es": "bota de élite (réplica)"
+    }
+  },
+  "c1535": {
+    "img": "FtrIcon/ShoesKneeHylia0",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "hap": 201,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": "fairy_tale",
+    "iid": 1049,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "海利亚靴",
+      "de": "Paar Hylia-Stiefel",
+      "it": "paio di stivali Hylia",
+      "nl": "Hyliaanse laarzen",
+      "ru": "хайлийские сапоги",
+      "ja": "ハイリアのブーツ",
+      "ko": "하일리아의 부츠",
+      "zh-tw": "海利亞靴",
+      "en": "Hylian boots",
+      "es": "bota hyliana",
+      "fr": "paire de bottes hyliennes"
+    }
+  },
+  "c1524": {
+    "img": "FtrIcon/ShoesLowcutBeans0",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": 1122,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "糖果运动鞋 粉红色",
+      "de": "Paar Pinkturnschuhe",
+      "fr-fr": "paire de baskets roses",
+      "it": "paio di runner rosa",
+      "nl": "roze sportschoenen",
+      "ru": "розовые кроссовки",
+      "ja": "ピンクビーンズ",
+      "ko": "핑크 스니커즈",
+      "zh-tw": "糖果運動鞋 粉紅色",
+      "fr-us": "paire d'espadrilles roses",
+      "en": "Pink Trainers",
+      "es": "deportiva rosa"
+    }
+  }
+}

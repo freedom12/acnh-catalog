@@ -1,0 +1,2189 @@
+{
+  "14046": {
+    "ipf": "FtrIcon/FtrHaniwaMelody00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "yellow",
+      "blue",
+      "pink",
+      "white",
+      "brown"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "purple"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "brown",
+        "blue"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "铃钱陶俑",
+      "de": "Xylophoid",
+      "it": "xilofoide",
+      "nl": "xylophoid",
+      "ru": "ксилофоид",
+      "ja": "ベルはにわ",
+      "ko": "벨 토용",
+      "zh-tw": "鈴錢陶俑",
+      "en": "xylophoid",
+      "es": "xilofoide",
+      "fr": "xylophoïde"
+    }
+  },
+  "14047": {
+    "ipf": "FtrIcon/FtrHaniwaMelody01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "blue",
+      "pink",
+      "green",
+      "purple",
+      "brown",
+      "white"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "white"
+      ],
+      "pink",
+      [
+        "green",
+        "white"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "white",
+        "colorful"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "宝宝陶俑",
+      "de": "Dissonoid",
+      "it": "dolcioide",
+      "nl": "brabbeloid",
+      "ru": "лепетоид",
+      "ja": "ベビーはにわ",
+      "ko": "베이비 토용",
+      "zh-tw": "寶寶陶俑",
+      "en": "babbloid",
+      "es": "dulzoide",
+      "fr": "babilloïde"
+    }
+  },
+  "14056": {
+    "ipf": "FtrIcon/FtrHaniwaMelody02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "yellow",
+      "brown",
+      "green",
+      "pink",
+      "blue"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "orange"
+      ],
+      "brown",
+      "green",
+      "pink",
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Kläffoid",
+      "it": "bauoide",
+      "nl": "blaffoid",
+      "ru": "гавгавоид",
+      "ja": "ワンはにわ",
+      "ko": "멍멍 토용",
+      "en": "arfoid",
+      "es": "ladroide",
+      "fr": "ouafoïde",
+      "zh": "汪陶俑"
+    }
+  },
+  "14057": {
+    "ipf": "FtrIcon/FtrHaniwaMelody03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "blue",
+      "brown",
+      "yellow",
+      "green",
+      "pink",
+      "white"
+    ],
+    "clr": [
+      "aqua",
+      "brown",
+      "yellow",
+      "green",
+      "pink",
+      "white"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Flötoid",
+      "it": "fischioide",
+      "nl": "fluitoid",
+      "ru": "свистоид",
+      "ja": "ホーはにわ",
+      "ko": "후후 토용",
+      "en": "whistloid",
+      "es": "silboide",
+      "fr": "flûtoïde",
+      "zh": "瓶陶俑"
+    }
+  },
+  "14058": {
+    "ipf": "FtrIcon/FtrHaniwaMelody04_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "brown",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      [
+        "aqua",
+        "purple"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "边陶俑",
+      "de": "Harfoid",
+      "it": "pizzicoide",
+      "nl": "plingoid",
+      "ru": "бумбоид",
+      "ja": "ベンはにわ",
+      "ko": "뚱땅 토용",
+      "zh-tw": "邊陶俑",
+      "en": "bwongoid",
+      "es": "puntoide",
+      "fr": "pyangoïde"
+    }
+  },
+  "14059": {
+    "ipf": "FtrIcon/FtrHaniwaMelody05_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "brown",
+      "yellow",
+      "green",
+      "blue",
+      "black"
+    ],
+    "clr": [
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Saitoid",
+      "it": "tengoide",
+      "nl": "ploinkoid",
+      "ru": "струноид",
+      "ja": "バインはにわ",
+      "ko": "디링 토용",
+      "en": "twangoid",
+      "es": "rasgueoide",
+      "fr": "cordoïde",
+      "zh": "弦陶俑"
+    }
+  },
+  "14060": {
+    "ipf": "FtrIcon/FtrHaniwaMelody06_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "green",
+      "yellow",
+      "pink",
+      "blue",
+      "silver"
+    ],
+    "clr": [
+      [
+        "green",
+        "pink"
+      ],
+      [
+        "yellow",
+        "orange"
+      ],
+      "pink",
+      [
+        "aqua",
+        "pink"
+      ],
+      [
+        "gray",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Puipuioid",
+      "it": "laseroide",
+      "nl": "laseroid",
+      "ru": "лазероид",
+      "ja": "ピュンはにわ",
+      "ko": "삐융 토용",
+      "en": "laseroid",
+      "es": "hablaseroide",
+      "fr": "laseroïde",
+      "zh": "哺悠陶俑"
+    }
+  },
+  "14061": {
+    "ipf": "FtrIcon/FtrHaniwaMelody07_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "yellow",
+      "white",
+      "brown",
+      "pink",
+      "blue"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "colorful"
+      ],
+      [
+        "white",
+        "colorful"
+      ],
+      [
+        "beige",
+        "green"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "哔噗陶俑",
+      "de": "Quäkoid",
+      "it": "squittoide",
+      "nl": "piepoid",
+      "ru": "пищоид",
+      "ja": "ピープーはにわ",
+      "ko": "삐뽀 토용",
+      "zh-tw": "逼噗陶俑",
+      "en": "squeakoid",
+      "es": "estrujónido",
+      "fr": "couinoïde"
+    }
+  },
+  "14062": {
+    "ipf": "FtrIcon/FtrHaniwaMelody08_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "pop",
+      "natural",
+      "cool",
+      "cute",
+      "chic"
+    ],
+    "clr": [
+      [
+        "beige",
+        "red"
+      ],
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "gray",
+        "black"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Arboroid",
+      "it": "tactacoide",
+      "nl": "tokkoid",
+      "ru": "колотоид",
+      "ja": "コロンはにわ",
+      "ko": "똑딱 토용",
+      "en": "tockoid",
+      "es": "varítono",
+      "fr": "pockoïde",
+      "zh": "框隆陶俑"
+    }
+  },
+  "14063": {
+    "ipf": "FtrIcon/FtrHaniwaMelody09_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "white"
+    ],
+    "clr": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "pink"
+      ],
+      [
+        "purple",
+        "yellow"
+      ],
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Kontraltoid",
+      "it": "melodoide",
+      "nl": "bingoid",
+      "ru": "диньдоноид",
+      "ja": "ポーンはにわ",
+      "ko": "딩동 토용",
+      "en": "ringoid",
+      "es": "monotoide",
+      "fr": "zonzoïde",
+      "zh": "砰陶俑"
+    }
+  },
+  "14064": {
+    "ipf": "FtrIcon/FtrHaniwaMelody10_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "beige",
+      "brown",
+      "yellow",
+      "blue",
+      "pink",
+      "black"
+    ],
+    "clr": [
+      [
+        "beige",
+        "purple"
+      ],
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "aqua",
+        "green"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "猪陶俑",
+      "de": "Grunzoid",
+      "it": "grugnoide",
+      "nl": "knorroid",
+      "ru": "хрюкоид",
+      "ja": "フゴはにわ",
+      "ko": "꿀꿀 토용",
+      "zh-tw": "豬陶俑",
+      "en": "oinkoid",
+      "es": "oinkoide",
+      "fr": "grouikoïde"
+    }
+  },
+  "14065": {
+    "ipf": "FtrIcon/FtrHaniwaMelody11_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "blue",
+      "yellow",
+      "green",
+      "purple",
+      "white"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      "purple",
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "呜哇哇陶俑",
+      "de": "Nörgloid",
+      "fr-fr": "graciloïde",
+      "it": "fragiloide",
+      "nl": "jengeloid",
+      "ru": "завывоид",
+      "ja": "ウワワはにわ",
+      "ko": "우와와 토용",
+      "zh-tw": "嗚哇哇陶俑",
+      "fr-us": "tremoloïde",
+      "en": "tremoloid",
+      "es": "sinusoide"
+    }
+  },
+  "14066": {
+    "ipf": "FtrIcon/FtrHaniwaMelody12_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "brown",
+      "green",
+      "pink",
+      "purple",
+      "white"
+    ],
+    "clr": [
+      "brown",
+      "green",
+      "pink",
+      "purple",
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "嘟脸陶俑",
+      "de": "Flatuloid",
+      "es-es": "mirlitoide",
+      "it": "paffutoide",
+      "nl": "bubbeloid",
+      "ru": "надувоид",
+      "ja": "ホッペはにわ",
+      "ko": "뿌우 토용",
+      "zh-tw": "嘟臉陶俑",
+      "es-us": "flautoide",
+      "en": "bubbloid",
+      "fr": "jouffloïde"
+    }
+  },
+  "14067": {
+    "ipf": "FtrIcon/FtrHaniwaMelody13_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "green",
+      "brown",
+      "yellow",
+      "blue",
+      "pink",
+      "purple",
+      "white"
+    ],
+    "clr": [
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "yellow",
+        "purple"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "purple",
+        "green"
+      ],
+      [
+        "white",
+        "beige"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "melody",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Ouvertoid",
+      "it": "petaloide",
+      "nl": "klavechoid",
+      "ru": "лепесткоид",
+      "ja": "ピラはにわ",
+      "ko": "띠롱 토용",
+      "en": "petaloid",
+      "es": "clavicoina",
+      "fr": "pétaloïde",
+      "zh": "花苞陶俑"
+    }
+  },
+  "14074": {
+    "ipf": "FtrIcon/FtrHaniwaDrumSet00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "silver",
+      "copper",
+      "blue",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "brown",
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "drum_set",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "机械陶俑",
+      "de": "Timbaloid",
+      "it": "alluminoide",
+      "nl": "aluminoid",
+      "ru": "алюминоид",
+      "ja": "カンはにわ",
+      "ko": "양철 토용",
+      "zh-tw": "機械陶俑",
+      "en": "aluminoid",
+      "es": "aluminoide",
+      "fr": "aluminoïde"
+    }
+  },
+  "14075": {
+    "ipf": "FtrIcon/FtrHaniwaDrumSet01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "camel",
+      "brown",
+      "green",
+      "blue",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "beige",
+      "brown",
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "aqua",
+        "pink"
+      ],
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "black",
+        "red"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "drum_set",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Dumpfoid",
+      "it": "tonfoide",
+      "nl": "kloppoid",
+      "ru": "выбивоид",
+      "ja": "ドスドスはにわ",
+      "ko": "툭툭 토용",
+      "en": "wallopoid",
+      "es": "acolchoida",
+      "fr": "poufoïde",
+      "zh": "叩叩陶俑"
+    }
+  },
+  "14076": {
+    "ipf": "FtrIcon/FtrHaniwaDrumSet02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "blue",
+      "green",
+      "brown",
+      "purple",
+      "gray"
+    ],
+    "clr": [
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "brown",
+        "aqua"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "drum_set",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "钹陶俑",
+      "de": "Hihatoid",
+      "it": "tamburoide",
+      "nl": "drummoid",
+      "ru": "ударноид",
+      "ja": "シャーンはにわ",
+      "ko": "둠칫 토용",
+      "zh-tw": "鈸陶俑",
+      "en": "drummoid",
+      "es": "platoide",
+      "fr": "cymbaloïde"
+    }
+  },
+  "14077": {
+    "ipf": "FtrIcon/FtrHaniwaDrumSet03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "gray",
+      "brown",
+      "green",
+      "pink",
+      "blue",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      [
+        "brown",
+        "beige"
+      ],
+      "green",
+      "pink",
+      "blue",
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "drum_set",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Klongoid",
+      "it": "pigoloide",
+      "nl": "pingeloid",
+      "ru": "пипоид",
+      "ja": "ポッピはにわ",
+      "ko": "뽀삐 토용",
+      "en": "dootoid",
+      "es": "bipoide",
+      "fr": "bipoïde",
+      "zh": "波比陶俑"
+    }
+  },
+  "14078": {
+    "ipf": "FtrIcon/FtrHaniwaDrumSet04_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "blue",
+      "red",
+      "gold",
+      "silver"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      "gray"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "drum_set",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "发条陶俑",
+      "de": "Surroid",
+      "it": "ronzoide",
+      "nl": "bzzzoid",
+      "ru": "дребезоид",
+      "ja": "ジーはにわ",
+      "ko": "지직 토용",
+      "zh-tw": "發條陶俑",
+      "en": "whirroid",
+      "es": "zumbínida",
+      "fr": "ronronnoïde"
+    }
+  },
+  "14080": {
+    "ipf": "FtrIcon/FtrHaniwaKick00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "pink",
+      "beige",
+      "green",
+      "gray"
+    ],
+    "clr": [
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "beige",
+        "orange"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      [
+        "gray",
+        "green"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "kick",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Floppoid",
+      "it": "stappoide",
+      "nl": "floepoid",
+      "ru": "хлопоид",
+      "ja": "スポはにわ",
+      "ko": "뽁 토용",
+      "en": "thwopoid",
+      "es": "flopoide",
+      "fr": "plopoïde",
+      "zh": "波波陶俑"
+    }
+  },
+  "14081": {
+    "ipf": "FtrIcon/FtrHaniwaKick01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "purple",
+      "yellow",
+      "green",
+      "pink",
+      "blue",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      "purple",
+      "yellow",
+      "green",
+      "pink",
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "white",
+        "orange"
+      ],
+      "gray"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "kick",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "贝斯陶俑",
+      "de": "Bassoid",
+      "it": "bassoide",
+      "nl": "bassoid",
+      "ru": "басоид",
+      "ja": "ベースはにわ",
+      "ko": "베이스 토용",
+      "zh-tw": "貝斯陶俑",
+      "en": "rumbloid",
+      "es": "tetracordia",
+      "fr": "grommeloïde"
+    }
+  },
+  "14082": {
+    "ipf": "FtrIcon/FtrHaniwaKick02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "orange",
+      "beige",
+      "green",
+      "brown",
+      "blue",
+      "gray"
+    ],
+    "clr": [
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "beige",
+        "brown"
+      ],
+      "green",
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      "gray"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "kick",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Summsoid",
+      "it": "piegoide",
+      "nl": "gonzoid",
+      "ru": "жужжоид",
+      "ja": "ブーンはにわ",
+      "ko": "부웅 토용",
+      "en": "bendoid",
+      "es": "arcoviol",
+      "fr": "spleenoïde",
+      "zh": "叭啦陶俑"
+    }
+  },
+  "14083": {
+    "ipf": "FtrIcon/FtrHaniwaKick03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "brown",
+      "camel",
+      "green",
+      "blue",
+      "purple",
+      "black"
+    ],
+    "clr": [
+      "brown",
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "kick",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Paukoid",
+      "it": "boomoide",
+      "nl": "paukoid",
+      "ru": "барабаноид",
+      "ja": "ドンはにわ",
+      "ko": "둥둥 토용",
+      "en": "boomoid",
+      "es": "bomboina",
+      "fr": "boumoïde",
+      "zh": "咚陶俑"
+    }
+  },
+  "14086": {
+    "ipf": "FtrIcon/FtrHaniwaSnare00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "blue",
+      "red",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "orange",
+        "red"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      "purple"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "snare",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Blubboid",
+      "it": "idroide",
+      "nl": "blubboid",
+      "ru": "каплоид",
+      "ja": "ポワはにわ",
+      "ko": "또록 토용",
+      "en": "bloopoid",
+      "es": "hidroide",
+      "fr": "plocoïde",
+      "zh": "滴滴陶俑"
+    }
+  },
+  "14087": {
+    "ipf": "FtrIcon/FtrHaniwaSnare01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "camel",
+      "green",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "beige",
+        "brown"
+      ],
+      "green",
+      "red",
+      "blue"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "snare",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Sproingoid",
+      "es-es": "muelloide",
+      "fr-fr": "boingoïde",
+      "it": "rimbalzoide",
+      "nl": "boingoid",
+      "ru": "пружиноид",
+      "ja": "ビヨンはにわ",
+      "ko": "뵤옹 토용",
+      "es-us": "resortoide",
+      "fr-us": "boïngoïde",
+      "en": "sproingoid",
+      "zh": "比悠陶俑"
+    }
+  },
+  "14088": {
+    "ipf": "FtrIcon/FtrHaniwaSnare02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "yellow",
+      "brown",
+      "blue",
+      "red",
+      "green",
+      "black"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "orange"
+      ],
+      "brown",
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      "green",
+      "black"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "snare",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Knuspoid",
+      "it": "stropiccioide",
+      "nl": "kreukeloid",
+      "ru": "смятоид",
+      "ja": "クシャはにわ",
+      "ko": "콰삭 토용",
+      "en": "crumploid",
+      "es": "arrugandia",
+      "fr": "froissoïde",
+      "zh": "咯滋陶俑"
+    }
+  },
+  "14089": {
+    "ipf": "FtrIcon/FtrHaniwaSnare03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "pop",
+      "natural",
+      "cool",
+      "cute",
+      "chic"
+    ],
+    "clr": [
+      [
+        "beige",
+        "colorful"
+      ],
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "pink",
+        "colorful"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "snare",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "响响陶俑",
+      "de": "Klackerlaklackoid",
+      "it": "clangoide",
+      "nl": "klapperoid",
+      "ru": "погремоид",
+      "ja": "カタカタはにわ",
+      "ko": "딸깍 토용",
+      "zh-tw": "響響陶俑",
+      "en": "clatteroid",
+      "es": "castañoide",
+      "fr": "cliquetoïde"
+    }
+  },
+  "14090": {
+    "img": "FtrIcon/FtrHaniwaSnare04",
+    "clr": [
+      "green",
+      "black"
+    ],
+    "sel": 828,
+    "hap": 153,
+    "int": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "brewster",
+    "itp": "yes",
+    "gst": "snare",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "老板陶俑",
+      "de": "Gurroid",
+      "it": "bartoide",
+      "nl": "roekoid",
+      "ru": "брюстоид",
+      "ja": "マスターはにわ",
+      "ko": "마스터 토용",
+      "zh-tw": "老闆陶俑",
+      "en": "brewstoid",
+      "es": "figaroide",
+      "fr": "robustoïde"
+    }
+  },
+  "14092": {
+    "ipf": "FtrIcon/FtrHaniwaHiHat00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "light_brown",
+      "brown",
+      "green",
+      "pink",
+      "white"
+    ],
+    "clr": [
+      [
+        "orange",
+        "brown"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      "green",
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "hi_hat",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Maracoid",
+      "it": "agitoide",
+      "nl": "ritseloid",
+      "ru": "потрясоид",
+      "ja": "シャカはにわ",
+      "ko": "쉐킷 토용",
+      "en": "scatteroid",
+      "es": "agitoide",
+      "fr": "maracassoïde",
+      "zh": "沙沙陶俑"
+    }
+  },
+  "14093": {
+    "ipf": "FtrIcon/FtrHaniwaHiHat01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "green",
+      "orange",
+      "brown",
+      "light_green",
+      "blue",
+      "camel",
+      "gray"
+    ],
+    "clr": [
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "orange",
+        "green"
+      ],
+      "brown",
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "purple"
+      ],
+      [
+        "gray",
+        "brown"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "hi_hat",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Bzzzoid",
+      "es-es": "pinchoide",
+      "it": "spinoide",
+      "nl": "zoemoid",
+      "ru": "терноид",
+      "ja": "トゲはにわ",
+      "ko": "가시 토용",
+      "es-us": "espinoide",
+      "en": "spikenoid",
+      "fr": "piquoïde",
+      "zh": "刺刺陶俑"
+    }
+  },
+  "14094": {
+    "ipf": "FtrIcon/FtrHaniwaHiHat02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "beige",
+      "yellow",
+      "pink",
+      "blue",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "beige",
+      "yellow",
+      "pink",
+      "aqua",
+      "white",
+      "black"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "hi_hat",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Pressoid",
+      "it": "schiaccioide",
+      "nl": "kwekkoid",
+      "ru": "скрипоид",
+      "ja": "ギュウはにわ",
+      "ko": "끼익 토용",
+      "en": "squeezoid",
+      "es": "gomicoida",
+      "fr": "sproutchoïde",
+      "zh": "栓陶俑"
+    }
+  },
+  "14095": {
+    "ipf": "FtrIcon/FtrHaniwaHiHat03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "orange",
+      "yellow",
+      "green",
+      "pink",
+      "purple"
+    ],
+    "clr": [
+      [
+        "orange",
+        "purple"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      "green",
+      "pink",
+      [
+        "purple",
+        "aqua"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "hi_hat",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Flatteroid",
+      "it": "fremitoide",
+      "nl": "fladderoid",
+      "ru": "трепыхоид",
+      "ja": "パタパタはにわ",
+      "ko": "푸르르 토용",
+      "en": "flutteroid",
+      "es": "aletensoide",
+      "fr": "frémissoïde",
+      "zh": "啪他陶俑"
+    }
+  },
+  "14098": {
+    "ipf": "FtrIcon/FtrHaniwaCrash00_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "orange",
+      "green",
+      "blue",
+      "purple",
+      "black",
+      "wood"
+    ],
+    "clr": [
+      [
+        "beige",
+        "brown"
+      ],
+      "green",
+      [
+        "aqua",
+        "beige"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "crash",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Boioingoid",
+      "it": "boingoide",
+      "nl": "trilloid",
+      "ru": "маскоид",
+      "ja": "メンはにわ",
+      "ko": "가면 토용",
+      "en": "boioingoid",
+      "es": "vibroide",
+      "fr": "masquoïde",
+      "zh": "假面陶俑"
+    }
+  },
+  "14099": {
+    "ipf": "FtrIcon/FtrHaniwaCrash01_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "green",
+      "yellow",
+      "blue",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "green",
+      "yellow",
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "crash",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Signaloid",
+      "it": "risuonoide",
+      "nl": "kosmoid",
+      "ru": "космоид",
+      "ja": "エコーはにわ",
+      "ko": "에코 토용",
+      "en": "stelloid",
+      "es": "reverberoide",
+      "fr": "résonoïde",
+      "zh": "超音陶俑"
+    }
+  },
+  "14100": {
+    "ipf": "FtrIcon/FtrHaniwaCrash02_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "purple",
+      "gold",
+      "pink",
+      "silver",
+      "blue"
+    ],
+    "clr": [
+      "purple",
+      "yellow",
+      "pink",
+      "gray",
+      [
+        "aqua",
+        "colorful"
+      ]
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "crash",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "铃陶俑",
+      "de": "Klingelingoid",
+      "it": "tintinnoide",
+      "nl": "rinkeloid",
+      "ru": "бубенцоид",
+      "ja": "スズはにわ",
+      "ko": "방울 토용",
+      "zh-tw": "鈴陶俑",
+      "en": "jingloid",
+      "es": "cascabela",
+      "fr": "tintinabuloïde"
+    }
+  },
+  "14101": {
+    "ipf": "FtrIcon/FtrHaniwaCrash03_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "red",
+      "brown",
+      "white",
+      "blue",
+      "green",
+      "black"
+    ],
+    "clr": [
+      [
+        "red",
+        "orange"
+      ],
+      "brown",
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      "green",
+      "black"
+    ],
+    "sel": 828,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 207,
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "dig_spot",
+    "itp": "yes",
+    "gst": "crash",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "匡铛陶俑",
+      "de": "Klapperoid",
+      "it": "sonaglioide",
+      "nl": "kletteroid",
+      "ru": "черепкоид",
+      "ja": "カランはにわ",
+      "ko": "땡그랑 토용",
+      "zh-tw": "匡噹陶俑",
+      "en": "rattloid",
+      "es": "cacharroide",
+      "fr": "crécelloïde"
+    }
+  }
+}

@@ -1,0 +1,5337 @@
+{
+  "c980": {
+    "img": "FtrIcon/BagShoulderAcorn0",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "sel": 2400,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": "fairy_tale",
+    "iid": 7492,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "acorn_pinecone",
+    "hui": [
+      "bul01",
+      "pig03"
+    ],
+    "loc": {
+      "zh-cn": "橡栗斜挎包",
+      "de": "Eichel-Pochette",
+      "es-es": "bolsito bellota",
+      "it": "pochette ghianda",
+      "nl": "eikeltasje",
+      "ru": "сумочка-желудь",
+      "ja": "どんぐりポシェット",
+      "ko": "도토리 미니백",
+      "zh-tw": "橡栗側背包",
+      "es-us": "bolsita bellota",
+      "en": "acorn pochette",
+      "fr": "pochette gland"
+    }
+  },
+  "c1510": {
+    "ipf": "FtrIcon/ToolBagPaperfashion",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "pink",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 180,
+    "buy": 720,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14870,
+      306
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "服装店纸袋",
+      "de": "Boutique-Papiertüte",
+      "it": "borsa boutique",
+      "nl": "kledingwinkeltas",
+      "ru": "сумка из магазина одежды",
+      "ja": "アパレルショップのかみぶくろ",
+      "ko": "어패럴 숍 종이 가방",
+      "zh-tw": "服裝店紙袋",
+      "en": "apparel-shop paper bag",
+      "es": "bolsa de compra boutique",
+      "fr": "sac papier boutique mode"
+    }
+  },
+  "c1490": {
+    "ipf": "FtrIcon/BagShoulderGamaguchiAsian",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 240,
+    "buy": 960,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14859,
+      352
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "亚洲风格口金斜挎包",
+      "de": "Asia-Schnallentasche",
+      "it": "borsa a scatto orientale",
+      "nl": "oriëntaalse knipbeurs",
+      "ru": "азиатский ридикюль",
+      "ja": "アジアンながまぐちポシェット",
+      "ko": "동양풍 똑딱이 미니백",
+      "zh-tw": "亞洲風格口金側背包",
+      "en": "Asian-style clasp purse",
+      "es": "bolsito broche asiático",
+      "fr": "sac à fermoir oriental"
+    }
+  },
+  "c1503": {
+    "ipf": "FtrIcon/ToolBagBasket",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "light_brown",
+      "brown",
+      "white"
+    ],
+    "clr": [
+      "beige",
+      "brown",
+      "white"
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": [
+      14791,
+      369,
+      368
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "hip00",
+    "loc": {
+      "zh-cn": "藤篮包",
+      "de": "Korbtasche",
+      "es-es": "bolso de mimbre",
+      "it": "cesto",
+      "nl": "rieten tas",
+      "ru": "корзинка",
+      "ja": "かごバッグ",
+      "ko": "바스켓 백",
+      "zh-tw": "籐籃包",
+      "es-us": "bolsa de mimbre",
+      "en": "basket bag",
+      "fr": "panier"
+    }
+  },
+  "c995": {
+    "img": "FtrIcon/BagBackpackBasket0",
+    "clr": "green",
+    "sel": 2400,
+    "hap": 103,
+    "stl": "simple",
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": 7506,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "hui": [
+      "cbr14",
+      "hip00",
+      "mus09",
+      "rbt00"
+    ],
+    "loc": {
+      "zh-cn": "背篓",
+      "de": "Tragekorb",
+      "it": "cesta",
+      "nl": "mandrugzak",
+      "ru": "заплечная корзина",
+      "ja": "しょいこ",
+      "ko": "바구니 가방",
+      "zh-tw": "後背架",
+      "en": "basket pack",
+      "es": "mochila cesta",
+      "fr": "claie à panier"
+    }
+  },
+  "c1492": {
+    "ipf": "FtrIcon/BagShoulderGamaguchiBijou",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "purple",
+      "pink",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 240,
+    "buy": 960,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14861,
+      355,
+      356
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "珠珠口金斜挎包",
+      "de": "Perlen-Schnallentasche",
+      "it": "borsa a scatto perlata",
+      "nl": "knipbeurs met kraaltjes",
+      "ru": "ридикюль из бисера",
+      "ja": "ビーズのがまぐちポシェット",
+      "ko": "비즈 똑딱이 미니백",
+      "zh-tw": "珠珠口金側背包",
+      "en": "beaded clasp purse",
+      "es": "bolsito broche abalorios",
+      "fr": "sac à fermoir à perles"
+    }
+  },
+  "c1238": {
+    "ipf": "FtrIcon/BagBackpackBear",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "var": [
+      "brown",
+      "white",
+      "pink",
+      "light_blue",
+      "black"
+    ],
+    "clr": [
+      [
+        "beige",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "black",
+        "purple"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": "fairy_tale",
+    "iid": [
+      12877,
+      339,
+      714,
+      718,
+      719
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "elp02",
+    "loc": {
+      "zh-cn": "熊熊双肩包",
+      "de": "Bärchenrucksack",
+      "it": "zaino orso",
+      "nl": "berenrugzak",
+      "ru": "рюкзак-медведь",
+      "ja": "くまのリュック",
+      "ko": "곰돌이 배낭",
+      "zh-tw": "熊熊後背包",
+      "en": "bear backpack",
+      "es": "mochila osito",
+      "fr": "sac à dos ours"
+    }
+  },
+  "c1455": {
+    "ipf": "FtrIcon/BagBackpackTownPattern",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "white"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "red",
+        "green"
+      ]
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14782,
+      675
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "植物图案双肩包",
+      "de": "Botanikmustertasche",
+      "it": "zaino a stampa botanica",
+      "nl": "rugzak met bloemenprint",
+      "ru": "рюкзак с растит. принтом",
+      "ja": "ボタニカルなタウンリュック",
+      "ko": "보태니컬 타운 배낭",
+      "zh-tw": "植物圖案後背包",
+      "en": "botanical-print backpack",
+      "es": "mochila jardín botánico",
+      "fr": "sac à dos jardin botanique"
+    }
+  },
+  "c1519": {
+    "img": "FtrIcon/ToolBagEcobread0",
+    "clr": [
+      "white",
+      "beige"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": 14813,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "rbt04",
+    "loc": {
+      "zh-cn": "面包图案环保袋",
+      "de": "Brot-Ökotasche",
+      "it": "borsa riutilizzabile pane",
+      "nl": "ecotas met broodprint",
+      "ru": "сумка из ткани с выпечкой",
+      "ja": "パンがらエコバッグ",
+      "ko": "빵 무늬 에코백",
+      "zh-tw": "麵包圖案環保袋",
+      "en": "bread-print eco bag",
+      "es": "bolsa reutilizable pan",
+      "fr": "sac bio motif pain"
+    }
+  },
+  "c967": {
+    "img": "FtrIcon/BagShoulderCage0",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 122,
+    "hap": 501,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": 7479,
+    "cat": true,
+    "sze": "1x1",
+    "src": "flick",
+    "evt": [
+      "bug_tournament",
+      "bug_tournament_2",
+      "bug_tournament_3",
+      "bug_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "虫虫观察箱",
+      "de": "Insektenfangtasche",
+      "es-es": "jaula para bichos",
+      "fr-fr": "cage à insectes",
+      "it": "gabbia degli insetti",
+      "nl": "insectenkooi",
+      "ru": "коробочка для насекомых",
+      "ja": "ムシかご",
+      "ko": "채집통",
+      "zh-tw": "蟲子觀察箱",
+      "es-us": "jaula para insectos",
+      "fr-us": "cage à insecte",
+      "en": "bug cage"
+    }
+  },
+  "c1203": {
+    "img": "FtrIcon/BagBackpackEgg0",
+    "clr": "colorful",
+    "sel": 2400,
+    "hap": 351,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 12447,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "复活节包包",
+      "de": "Häschentag-Rucksack",
+      "it": "zaino caccia all'uovo",
+      "nl": "eiertas",
+      "ru": "сумка на День зайцев",
+      "ja": "イースターなバッグ",
+      "ko": "이스터 가방",
+      "zh-tw": "復活節包包",
+      "en": "Bunny Day bag",
+      "es": "mochila Caza del Huevo",
+      "fr": "sac fête des œufs"
+    }
+  },
+  "c991": {
+    "img": "FtrIcon/BagBackpackButterfly0",
+    "clr": [
+      "pink",
+      "yellow"
+    ],
+    "sel": 210,
+    "hap": 501,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "theatrical"
+    ],
+    "iid": 7502,
+    "cat": true,
+    "sze": "1x1",
+    "src": "flick",
+    "evt": [
+      "bug_tournament",
+      "bug_tournament_2",
+      "bug_tournament_3",
+      "bug_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "蝴蝶双肩包",
+      "de": "Schmetterlingsrucksack",
+      "it": "zaino farfalla",
+      "nl": "vlinderrugzak",
+      "ru": "рюкзак-бабочка",
+      "ja": "ちょうちょのバッグ",
+      "ko": "나비 가방",
+      "zh-tw": "蝴蝶後背包",
+      "en": "butterfly backpack",
+      "es": "mochila mariposa",
+      "fr": "sac à dos papillon"
+    }
+  },
+  "c1514": {
+    "ipf": "FtrIcon/ToolBagTotecamouflage",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "green",
+      "brown"
+    ],
+    "clr": [
+      [
+        "green",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      14890,
+      367
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Tarn-Stofftasche",
+      "es-es": "bolso de tela camuflaje",
+      "it": "borsa tote mimetica",
+      "nl": "camouflagedraagtas",
+      "ru": "камуфляжн. больш. сумка",
+      "ja": "めいさいトートバッグ",
+      "ko": "밀리터리 토트백",
+      "es-us": "bolsa de tela camuflaje",
+      "en": "camo tote bag",
+      "fr": "cabas camouflage",
+      "zh": "迷彩托特包"
+    }
+  },
+  "c998": {
+    "img": "FtrIcon/BagBackpackTote0",
+    "clr": [
+      "white",
+      "orange"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": 7509,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "帆布双肩包",
+      "de": "Leinenrucksack",
+      "it": "zaino di tela",
+      "nl": "canvasrugzak",
+      "ru": "матерчатый рюкзак",
+      "ja": "はんぷリュック",
+      "ko": "옥스퍼드 배낭",
+      "zh-tw": "帆布後背包",
+      "en": "canvas backpack",
+      "es": "mochila de lona",
+      "fr": "sac à dos en toile"
+    }
+  },
+  "c1480": {
+    "ipf": "FtrIcon/BagBackpackTownCheck",
+    "img": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ],
+      "brown"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      702,
+      703,
+      701,
+      14844
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "格纹都市双肩包",
+      "de": "Karorucksack",
+      "es-es": "mochila damero",
+      "it": "zaino a quadri",
+      "nl": "geruite rugzak",
+      "ru": "рюкзак в клетку",
+      "ja": "チェックのタウンリュック",
+      "ko": "체크 타운 배낭",
+      "zh-tw": "格紋都市後背包",
+      "es-us": "mochila cuadriculada",
+      "en": "checkered backpack",
+      "fr": "sac à dos tartan"
+    }
+  },
+  "c978": {
+    "img": "FtrIcon/BagShoulderCherryblossoms0",
+    "clr": "pink",
+    "sel": 2400,
+    "hap": 201,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": 7490,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "cherry_blossom",
+    "loc": {
+      "zh-cn": "樱花斜挎包",
+      "de": "Kirschblüten-Pochette",
+      "es-es": "bolsito flor de cerezo",
+      "it": "pochette fiore di ciliegio",
+      "nl": "kersenbloesemtasje",
+      "ru": "сумочка «Лепестки вишни»",
+      "ja": "さくらのポシェット",
+      "ko": "벚꽃 미니백",
+      "zh-tw": "櫻花側背包",
+      "es-us": "bolsita flor de cerezo",
+      "en": "cherry-blossom pochette",
+      "fr": "pochette fleur de cerisier"
+    }
+  },
+  "c1456": {
+    "ipf": "FtrIcon/BagShoulderGamaguchi",
+    "img": [
+      "4",
+      "5",
+      "1",
+      "3",
+      "2",
+      "6",
+      "0"
+    ],
+    "var": [
+      "white",
+      "ash",
+      "red",
+      "green",
+      "blue",
+      "brown",
+      "yellow"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "brown",
+        "yellow"
+      ],
+      [
+        "brown",
+        "yellow"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      345,
+      346,
+      340,
+      344,
+      342,
+      347,
+      14783
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "口金斜挎包",
+      "de": "Schnallentasche",
+      "it": "borsa a scatto",
+      "nl": "knipbeurs",
+      "ru": "ридикюль",
+      "ja": "がまぐちポシェット",
+      "ko": "똑딱이 미니백",
+      "zh-tw": "口金側背包",
+      "en": "clasp purse",
+      "es": "bolsito broche",
+      "fr": "sac à fermoir"
+    }
+  },
+  "c975": {
+    "ipf": "FtrIcon/BagShoulderCanvas",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "ivory",
+      "orange",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "orange",
+      "aqua"
+    ],
+    "sel": 350,
+    "buy": 1400,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      12014,
+      12013,
+      7487
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "squ10",
+      "flg17"
+    ],
+    "loc": {
+      "zh-cn": "帆布单肩包",
+      "de": "Leinenumhängetasche",
+      "es-es": "bandolera de tela",
+      "it": "borsa di tela a bandoliera",
+      "nl": "katoenen schoudertas",
+      "ru": "наплечная сумка из ткани",
+      "ja": "はんぷショルダー",
+      "ko": "옥스퍼드 숄더백",
+      "zh-tw": "帆布肩背包",
+      "es-us": "bolsa bandolera de tela",
+      "en": "cloth shoulder bag",
+      "fr": "sac bandoulière en toile"
+    }
+  },
+  "c1512": {
+    "ipf": "FtrIcon/ToolBagSecond",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "var": [
+      "light_brown",
+      "black",
+      "red",
+      "green"
+    ],
+    "clr": [
+      [
+        "brown",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "green",
+        "gray"
+      ]
+    ],
+    "sel": 550,
+    "buy": 2200,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      14792,
+      309,
+      308,
+      307
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "pig11",
+    "loc": {
+      "de": "Clutch",
+      "es-es": "bolso de mano",
+      "it": "borsetta senza manici",
+      "nl": "clutchtasje",
+      "ru": "сумка-конверт",
+      "ja": "セカンドバッグ",
+      "ko": "클러치 백",
+      "es-us": "bolsa de mano",
+      "en": "clutch",
+      "fr": "trousse",
+      "zh": "手拿包"
+    }
+  },
+  "c971": {
+    "ipf": "FtrIcon/BagBackpackBody",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "yellow",
+      "green"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11982,
+      7483,
+      11981,
+      11980
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "dog04",
+    "loc": {
+      "de": "Hüfttasche",
+      "es-es": "riñonera al hombro",
+      "it": "borsa a tracolla",
+      "nl": "crossbodytas",
+      "ru": "сумка кросс-боди",
+      "ja": "ボディバッグ",
+      "ko": "슬링백",
+      "es-us": "mochila al hombro",
+      "en": "crossbody bag",
+      "fr": "sac transversal",
+      "zh": "腰包"
+    }
+  },
+  "c973": {
+    "ipf": "FtrIcon/BagShoulderDrum",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      7485,
+      12011
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "elp12",
+    "loc": {
+      "zh-cn": "斜挎圆筒运动包",
+      "de": "Sporttasche",
+      "it": "borsa Boston a tracolla",
+      "nl": "sporttas",
+      "ru": "кросс-боди с ручками",
+      "ja": "ななめかけボストン",
+      "ko": "크로스 보스턴백",
+      "zh-tw": "斜背圓筒運動包",
+      "en": "crossbody boston bag",
+      "es": "bolsa gimnasio al hombro",
+      "fr": "sac Boston en bandoulière"
+    }
+  },
+  "c1185": {
+    "img": "FtrIcon/BagBackpackDal0",
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "sel": 1010,
+    "hap": 251,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": 12131,
+    "cat": true,
+    "sze": "1x1",
+    "src": "dodo",
+    "loc": {
+      "de": "DAL-Rucksack",
+      "it": "zaino DAL",
+      "nl": "DAL-rugzak",
+      "ru": "рюкзак DAL",
+      "ja": "ＤＡＬのバッグ",
+      "ko": "DAL 가방",
+      "en": "DAL backpack",
+      "es": "mochila de DAL",
+      "fr": "sac à dos Dodo Airlines",
+      "zh": "DAL包包"
+    }
+  },
+  "c1410": {
+    "ipf": "FtrIcon/BagBackpackDelivery",
+    "img": [
+      "0",
+      "5",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "var": [
+      "black",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "work",
+    "iid": [
+      14426,
+      495,
+      493,
+      492,
+      491,
+      494
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "shp09",
+    "loc": {
+      "de": "Liefertasche",
+      "it": "zaino da consegne",
+      "nl": "bezorgtas",
+      "ru": "термосумка",
+      "ja": "デリバリーバッグ",
+      "ko": "배달 가방",
+      "en": "delivery bag",
+      "es": "mochila reparto de comida",
+      "fr": "sac de livraison",
+      "zh": "外送袋"
+    }
+  },
+  "c1511": {
+    "ipf": "FtrIcon/ToolBagPaperflower",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "blue",
+      "red"
+    ],
+    "clr": [
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "red"
+      ]
+    ],
+    "sel": 160,
+    "buy": 640,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14872,
+      305
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "百货公司纸袋",
+      "de": "Kaufhaus-Papiertüte",
+      "it": "borsa centro commerciale",
+      "nl": "tas van een warenhuis",
+      "ru": "сумка из универмага",
+      "ja": "デパートのかみぶくろ",
+      "ko": "백화점 종이 가방",
+      "zh-tw": "百貨公司紙袋",
+      "en": "department-store paper bag",
+      "es": "bolsa de centro comercial",
+      "fr": "sac papier grand magasin"
+    }
+  },
+  "c1505": {
+    "img": "FtrIcon/ToolBagBasketdiagram0",
+    "clr": [
+      "beige",
+      "green"
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": 14854,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "hip00",
+    "loc": {
+      "zh-cn": "菱形纹藤篮包",
+      "de": "Rauten-Korbtasche",
+      "es-es": "bolso de mimbre a rombos",
+      "it": "cesto con intreccio a rombi",
+      "nl": "rieten tas met ruitpatroon",
+      "ru": "корзинка в ромбы",
+      "ja": "ダイヤがらかごバッグ",
+      "ko": "다이아무늬 바스켓 백",
+      "zh-tw": "菱形紋籐籃包",
+      "es-us": "bolsa de mimbre a rombos",
+      "en": "diamond-weave basket bag",
+      "fr": "panier motif losanges"
+    }
+  },
+  "c1483": {
+    "ipf": "FtrIcon/BagBackpackTownYumekawa",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "pink",
+      "mint"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "green",
+        "purple"
+      ]
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": [
+      14838,
+      679
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "bea15",
+    "loc": {
+      "zh-cn": "梦幻可爱都市双肩包",
+      "de": "Fantasierucksack",
+      "it": "zaino da sogno",
+      "nl": "dromerige rugzak",
+      "ru": "рюкзак из грез",
+      "ja": "ゆめかわタウンリュック",
+      "ko": "드림 큐트 타운 배낭",
+      "zh-tw": "夢幻可愛都市後背包",
+      "en": "dreamy backpack",
+      "es": "mochila ensueño",
+      "fr": "sac à dos joli rêve"
+    }
+  },
+  "c1472": {
+    "img": "FtrIcon/BagShoulderYumekawa0",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 14825,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "bea15",
+    "loc": {
+      "zh-cn": "梦幻可爱斜挎包",
+      "de": "Fantasie-Pochette",
+      "it": "pochette da sogno",
+      "nl": "dromerig tasje",
+      "ru": "сумочка из грез",
+      "ja": "ゆめかわなポシェット",
+      "ko": "드림 큐트 미니백",
+      "zh-tw": "夢幻可愛側背包",
+      "en": "dreamy pochette",
+      "es": "bolsito ensueño",
+      "fr": "pochette joli rêve"
+    }
+  },
+  "c1493": {
+    "img": "FtrIcon/BagShoulderYumekawaRibbon0",
+    "clr": "pink",
+    "sel": 270,
+    "buy": 1080,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 14883,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "bea15",
+    "loc": {
+      "zh-cn": "蝴蝶结梦幻可爱斜挎包",
+      "de": "Fantasie-Schleifen-Tasche",
+      "it": "pochette fiocco da sogno",
+      "nl": "dromerig tasje met lint",
+      "ru": "сумочка из грез с лентами",
+      "ja": "リボンなゆめかわポシェット",
+      "ko": "드림 큐트 리본 미니백",
+      "zh-tw": "蝴蝶結夢幻可愛側背包",
+      "en": "dreamy ribbon pochette",
+      "es": "bolsito ensueño con lazo",
+      "fr": "pochette joli rêve à ruban"
+    }
+  },
+  "c1494": {
+    "img": "FtrIcon/BagShoulderYumekawaUnicorn0",
+    "clr": [
+      "yellow",
+      "pink"
+    ],
+    "sel": 290,
+    "buy": 1160,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 14884,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "bea15",
+      "elp02"
+    ],
+    "loc": {
+      "zh-cn": "独角兽梦幻可爱斜挎包",
+      "de": "Fantasie-Einhorn-Pochette",
+      "it": "pochette unicorno da sogno",
+      "nl": "dromerig eenhoorntasje",
+      "ru": "сумочка-единорог из грез",
+      "ja": "ユニコーンなゆめかわポシェット",
+      "ko": "드림 큐트 유니콘 미니백",
+      "zh-tw": "獨角獸夢幻可愛側背包",
+      "en": "dreamy unicorn pochette",
+      "es": "bolsito ensueño unicornio",
+      "fr": "pochette joli rêve licorne"
+    }
+  },
+  "c963": {
+    "ipf": "FtrIcon/BagBackpackDry",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      7471,
+      11964
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "de": "Regenrucksack",
+      "it": "borsa impermeabile",
+      "nl": "waterdichte rugzak",
+      "ru": "непромокаемый мешок",
+      "ja": "ドライサック",
+      "ko": "드라이백",
+      "en": "dry bag",
+      "es": "mochila impermeable",
+      "fr": "sac imperméable",
+      "zh": "防水背包"
+    }
+  },
+  "c1509": {
+    "ipf": "FtrIcon/ToolBagPaperelectric",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "var": [
+      "yellow",
+      "light_blue",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ]
+    ],
+    "sel": 150,
+    "buy": 600,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14871,
+      727,
+      733,
+      732
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "电器店纸袋",
+      "de": "Elektroladen-Papiertüte",
+      "fr-fr": "sac papier boutique électro",
+      "it": "borsa negozio di elettronica",
+      "nl": "tas van een elektronicazaak",
+      "ru": "сумка для электроники",
+      "ja": "でんきやのかみぶくろ",
+      "ko": "전자제품 전문점 종이 가방",
+      "zh-tw": "電器店紙袋",
+      "fr-us": "sac papier boutique électro.",
+      "en": "electronics-store paper bag",
+      "es": "bolsa de compra electrónica"
+    }
+  },
+  "c986": {
+    "ipf": "FtrIcon/BagShoulderParty",
+    "img": [
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "pink",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 312,
+    "buy": 1250,
+    "hap": 23,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "formal",
+      "party"
+    ],
+    "iid": [
+      11977,
+      7305,
+      11976
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "duk01",
+      "hrs04",
+      "hrs12",
+      "mnk03",
+      "tig06"
+    ],
+    "loc": {
+      "de": "Abendhandtasche",
+      "it": "borsetta da sera",
+      "nl": "avondtas",
+      "ru": "вечерняя сумочка",
+      "ja": "パーティーバッグ",
+      "ko": "파티 가방",
+      "en": "evening bag",
+      "es": "bolso de noche",
+      "fr": "sac de soirée",
+      "zh": "晚宴包"
+    }
+  },
+  "c994": {
+    "ipf": "FtrIcon/BagBackpackMountain",
+    "img": [
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "green",
+      "blue"
+    ],
+    "sel": 525,
+    "buy": 2100,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11972,
+      7505,
+      11971,
+      11973
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "der06",
+      "flg17",
+      "gor08",
+      "squ18"
+    ],
+    "loc": {
+      "de": "Trekking-Rucksack",
+      "it": "zaino grande",
+      "nl": "trekkersrugzak",
+      "ru": "макси-рюкзак",
+      "ja": "おおきめザック",
+      "ko": "커다란 배낭",
+      "en": "extra-large backpack",
+      "es": "mochila de senderismo",
+      "fr": "sac à dos XL",
+      "zh": "登山大背包"
+    }
+  },
+  "c968": {
+    "ipf": "FtrIcon/BagShoulderFakefur",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "pink",
+      "purple"
+    ],
+    "clr": [
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 350,
+    "buy": 1400,
+    "hap": 23,
+    "stl": [
+      "cute",
+      "gorgeous"
+    ],
+    "lbl": [
+      "formal",
+      "party"
+    ],
+    "iid": [
+      7480,
+      12003
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "mnk03",
+      "duk01",
+      "rbt10",
+      "shp00"
+    ],
+    "loc": {
+      "de": "Kunstfelltäschchen",
+      "es-es": "bolso de pelo sintético",
+      "it": "borsa di ecopelliccia",
+      "nl": "tas van imitatiebont",
+      "ru": "сумка «под мех»",
+      "ja": "フェイクファーバッグ",
+      "ko": "인조털 가방",
+      "es-us": "bolsa de piel sintética",
+      "en": "faux-fur bag",
+      "fr": "sac en fausse fourrure",
+      "zh": "仿毛皮包"
+    }
+  },
+  "c965": {
+    "img": "FtrIcon/BagShoulderFish0",
+    "clr": [
+      "aqua",
+      "blue"
+    ],
+    "sel": 210,
+    "hap": 501,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": 7477,
+    "cat": true,
+    "sze": "1x1",
+    "src": "cj",
+    "evt": [
+      "fish_tournament",
+      "fish_tournament_2",
+      "fish_tournament_3",
+      "fish_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "鱼形斜挎包",
+      "de": "Fischlein-Pochette",
+      "es-es": "bolsito pez",
+      "it": "pochette pesce",
+      "nl": "vissentasje",
+      "ru": "сумочка-рыба",
+      "ja": "おさかなポシェット",
+      "ko": "물고기 미니백",
+      "zh-tw": "魚兒斜背包",
+      "es-us": "bolsita pez",
+      "en": "fish pochette",
+      "fr": "pochette poisson"
+    }
+  },
+  "c1518": {
+    "img": "FtrIcon/ToolBagEcofish0",
+    "clr": [
+      "aqua",
+      "blue"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": 14812,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "rbt04",
+    "loc": {
+      "zh-cn": "鱼儿图案环保袋",
+      "de": "Fisch-Ökotasche",
+      "it": "borsa riutilizzabile pesci",
+      "nl": "ecotas met vissenprint",
+      "ru": "сумка из ткани с рыбой",
+      "ja": "おさかながらエコバッグ",
+      "ko": "물고기 무늬 에코백",
+      "zh-tw": "魚兒圖案環保袋",
+      "en": "fish-print eco bag",
+      "es": "bolsa reutilizable peces",
+      "fr": "sac bio motif poissons"
+    }
+  },
+  "c1520": {
+    "img": "FtrIcon/ToolBagEcoflower0",
+    "clr": [
+      "green",
+      "pink"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": 14814,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "rbt04",
+    "loc": {
+      "zh-cn": "花纹环保袋",
+      "de": "Blumen-Ökotasche",
+      "it": "borsa riutilizzabile fiori",
+      "nl": "ecotas met bloemenprint",
+      "ru": "сумка из ткани в цветочек",
+      "ja": "はながらエコバッグ",
+      "ko": "꽃무늬 에코백",
+      "zh-tw": "花紋環保袋",
+      "en": "flower-print eco bag",
+      "es": "bolsa reutilizable flores",
+      "fr": "sac bio motif fleurs"
+    }
+  },
+  "c996": {
+    "ipf": "FtrIcon/BagBackpackLid",
+    "img": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      12017,
+      12018,
+      7507,
+      12016
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "翻盖双肩包",
+      "de": "Faltverschluss-Rucksack",
+      "it": "zaino apertura ripiegabile",
+      "nl": "rugzak met flap",
+      "ru": "рюкзак «роллтоп»",
+      "ja": "ふたつきリュック",
+      "ko": "폴드오버 배낭",
+      "zh-tw": "掀蓋後背包",
+      "en": "foldover-top backpack",
+      "es": "mochila de cierre sellado",
+      "fr": "sac à dos à rabat"
+    }
+  },
+  "c1506": {
+    "ipf": "FtrIcon/ToolBagFuroshiki",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "var": [
+      "green_2",
+      "white_2",
+      "red_2",
+      "purple_2",
+      "blue_2",
+      "gold_3"
+    ],
+    "clr": [
+      [
+        "green",
+        "white"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      "yellow"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14788,
+      559,
+      558,
+      557,
+      556,
+      560
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "风吕敷",
+      "de": "Furoshiki",
+      "es-es": "hatillo furoshiki",
+      "it": "borsa furoshiki",
+      "nl": "furoshiki-tas",
+      "ru": "узелок из фуросики",
+      "ja": "ふろしき",
+      "ko": "보자기 가방",
+      "zh-tw": "風呂敷",
+      "es-us": "bolsa furoshiki",
+      "en": "furoshiki bag",
+      "fr": "sac furoshiki"
+    }
+  },
+  "c1233": {
+    "img": "FtrIcon/BagBackpackHarvest0",
+    "clr": [
+      "brown",
+      "purple"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "hap": 201,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "outdoorsy",
+      "party"
+    ],
+    "iid": 12797,
+    "sea": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "grape_harvest_festival",
+    "vad": "1.4.0",
+    "loc": {
+      "zh-cn": "葡萄采收桶",
+      "de": "Traubenlese-Korb",
+      "fr-fr": "hotte à raisin",
+      "it": "canestro da vendemmia",
+      "nl": "druivenoogstmand",
+      "ru": "кузовок для винограда",
+      "ja": "ぶどうのしゅうかくおけ",
+      "ko": "포도 수확 바구니",
+      "zh-tw": "葡萄採收桶",
+      "fr-us": "panier à raisin",
+      "en": "grape-harvest basket",
+      "es": "mochila vendimia"
+    }
+  },
+  "c974": {
+    "ipf": "FtrIcon/BagShoulderPattern",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "pop",
+      "cool"
+    ],
+    "clr": [
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "purple",
+        "aqua"
+      ]
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      7486,
+      12012
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "rbt11",
+    "loc": {
+      "zh-cn": "春天波点单肩包",
+      "de": "Frühlings-Umhängetasche",
+      "es-es": "bandolera esferas",
+      "it": "borsa gommosa bandoliera",
+      "nl": "schoudertas met stippen",
+      "ru": "наплечная сумка в горох",
+      "ja": "はるのみずたまショルダー",
+      "ko": "봄의 물방울 숄더백",
+      "zh-tw": "春天圓點肩背包",
+      "es-us": "bolsa bandolera esferas",
+      "en": "gumdrop shoulder bag",
+      "fr": "sac bandoulière bonbons"
+    }
+  },
+  "c970": {
+    "ipf": "FtrIcon/BagShoulderRace",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "green",
+      "purple"
+    ],
+    "clr": [
+      "green",
+      "purple"
+    ],
+    "sel": 312,
+    "buy": 1250,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": "vacation",
+    "iid": [
+      7482,
+      12004
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "chn13",
+      "hip00",
+      "mus04",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "编织斜挎包",
+      "de": "Häkelhandtasche",
+      "es-es": "bolso de punto",
+      "it": "borsa di maglia",
+      "nl": "handgebreide schoudertas",
+      "ru": "сумка макраме",
+      "ja": "てあみポーチ",
+      "ko": "손뜨개 파우치",
+      "zh-tw": "手編側背包",
+      "es-us": "bolsa tejida",
+      "en": "hand-knit pouch",
+      "fr": "pochette tricotée"
+    }
+  },
+  "c1001": {
+    "ipf": "FtrIcon/BagBackpackHardshell",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "silver",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      11946,
+      10184,
+      7512
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "硬壳双肩包",
+      "de": "Hartschalenrucksack",
+      "it": "zaino a guscio",
+      "nl": "harde rugzak",
+      "ru": "твердый рюкзак",
+      "ja": "ハードシェルリュック",
+      "ko": "하드 케이스 배낭",
+      "zh-tw": "硬殼後背包",
+      "en": "hard-shell backpack",
+      "es": "mochila rígida",
+      "fr": "sac à dos rigide"
+    }
+  },
+  "c1268": {
+    "ipf": "FtrIcon/BagBackpackHalloween",
+    "img": [
+      "2",
+      "5",
+      "4",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 23,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party"
+    ],
+    "iid": [
+      13409,
+      13412,
+      13411,
+      13015,
+      13410,
+      13408
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "kicks",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "小恶魔翅膀背包",
+      "de": "Dämonenflügelpaar",
+      "es-es": "par de alas de diablillo",
+      "it": "paio di ali da diavoletto",
+      "nl": "duivelse vleugelrugzak",
+      "ru": "крылышки бесенка",
+      "ja": "こあくまなつばさバッグ",
+      "ko": "꼬마 악마 날개 가방",
+      "zh-tw": "小惡魔翅膀包包",
+      "es-us": "par de alas de diablito",
+      "en": "impish wings",
+      "fr": "paire d'ailes de diablotin"
+    }
+  },
+  "c1457": {
+    "ipf": "FtrIcon/BagBackpackMusician",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "var": [
+      "black",
+      "white",
+      "red",
+      "pink",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      [
+        "white",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 800,
+    "buy": 3200,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "theatrical"
+    ],
+    "iid": [
+      14784,
+      348,
+      350,
+      351,
+      349
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "dog16",
+      "duk15",
+      "kal04",
+      "kgr01",
+      "ost03",
+      "pgn10",
+      "pgn11"
+    ],
+    "loc": {
+      "zh-cn": "乐器箱",
+      "de": "Instrumentenkoffer",
+      "it": "custodia per strumento",
+      "nl": "instrumentenkoffer",
+      "ru": "футляр для инструмента",
+      "ja": "がっきケース",
+      "ko": "악기 케이스",
+      "zh-tw": "樂器箱",
+      "en": "instrument case",
+      "es": "estuche para instrumento",
+      "fr": "étui d'instrument"
+    }
+  },
+  "c1470": {
+    "ipf": "FtrIcon/BagBackpackJet",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "white"
+    ],
+    "clr": [
+      [
+        "gray",
+        "aqua"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "white",
+        "green"
+      ]
+    ],
+    "sel": 3000,
+    "buy": 12000,
+    "hap": 23,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "work"
+    ],
+    "iid": [
+      14823,
+      581,
+      589
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "squ03",
+    "loc": {
+      "zh-cn": "喷射背包",
+      "de": "Raketenrucksack",
+      "it": "jet pack",
+      "nl": "raketrugzak",
+      "ru": "реактивный ранец",
+      "ja": "ジェットパック",
+      "ko": "제트 팩",
+      "zh-tw": "噴射背包",
+      "en": "jet pack",
+      "es": "mochila propulsora",
+      "fr": "jet pack"
+    }
+  },
+  "c997": {
+    "ipf": "FtrIcon/BagBackpackKnapsack",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 157,
+    "buy": 630,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      12019,
+      7508
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "dog01",
+    "loc": {
+      "zh-cn": "束口双肩包",
+      "de": "Turnbeutel",
+      "es-es": "mochila saco",
+      "it": "sacca morbida",
+      "nl": "koordrugzak",
+      "ru": "заплечный мешок",
+      "ja": "ナップサック",
+      "ko": "주머니 가방",
+      "zh-tw": "束口後背包",
+      "es-us": "mochila bolso",
+      "en": "knapsack",
+      "fr": "sac à dos à cordon"
+    }
+  },
+  "c1000": {
+    "img": "FtrIcon/BagBackpackGrass0",
+    "clr": [
+      "green",
+      "brown"
+    ],
+    "sel": 400,
+    "hap": 103,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": 7511,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "hip00",
+      "kal10",
+      "pig16"
+    ],
+    "loc": {
+      "zh-cn": "草编双肩包",
+      "de": "Grasgeflecht-Rucksack",
+      "it": "zaino di maglia",
+      "nl": "rugzak van geweven gras",
+      "ru": "плетеный рюкзак",
+      "ja": "くさあみリュック",
+      "ko": "풀잎 니트 배낭",
+      "zh-tw": "草編後背包",
+      "en": "knitted-grass backpack",
+      "es": "mochila de mimbre",
+      "fr": "sac à dos végétal tressé"
+    }
+  },
+  "c1477": {
+    "ipf": "FtrIcon/BagBackpackTownLeopard",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "brown",
+      "blue",
+      "pink",
+      "yellow"
+    ],
+    "clr": [
+      "brown",
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "yellow",
+        "orange"
+      ]
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14839,
+      680,
+      681,
+      684
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "豹纹都市双肩包",
+      "de": "Leopardenmusterrucksack",
+      "fr-fr": "sac à dos léopard",
+      "it": "zaino a stampa leopardata",
+      "nl": "rugzak met luipaardprint",
+      "ru": "леопардовый рюкзак",
+      "ja": "ヒョウがらタウンリュック",
+      "ko": "표범 무늬 타운 배낭",
+      "zh-tw": "豹紋都市後背包",
+      "fr-us": "sac à dos motif léopard",
+      "en": "leopard-print backpack",
+      "es": "mochila leopardo"
+    }
+  },
+  "c987": {
+    "img": "FtrIcon/BagBackpackWood0",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 960,
+    "hap": 103,
+    "stl": "simple",
+    "lbl": [
+      "fairy_tale",
+      "outdoorsy",
+      "work"
+    ],
+    "iid": 7498,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bul01",
+      "mus05",
+      "rbt00"
+    ],
+    "loc": {
+      "zh-cn": "背架",
+      "de": "Holzfällerrucksack",
+      "fr-fr": "claie de portage",
+      "it": "zaino con telaio",
+      "nl": "boomstammenrugzak",
+      "ru": "вязанка дров",
+      "ja": "せおいばしご",
+      "ko": "지게",
+      "zh-tw": "背薪架",
+      "fr-us": "sac à dos de portage",
+      "en": "log pack",
+      "es": "mochila troncos"
+    }
+  },
+  "c1508": {
+    "ipf": "FtrIcon/ToolBagPaper",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "green",
+      "red",
+      "white"
+    ],
+    "clr": [
+      [
+        "beige",
+        "green"
+      ],
+      [
+        "beige",
+        "red"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 150,
+    "buy": 600,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14790,
+      297,
+      299
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "Logo纸袋",
+      "de": "Logo-Papiertüte",
+      "it": "borsa di carta con logo",
+      "nl": "papieren tas met logo",
+      "ru": "фирменн. бумажная сумка",
+      "ja": "ロゴいりかみぶくろ",
+      "ko": "로고 종이 가방",
+      "zh-tw": "Logo紙袋",
+      "en": "logo paper bag",
+      "es": "bolsa de compra logotipo",
+      "fr": "sac papier à logo"
+    }
+  },
+  "c1516": {
+    "ipf": "FtrIcon/ToolBagTotelogo",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14857,
+      365,
+      366
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Logo-Stofftasche",
+      "es-es": "bolso de tela logotipo",
+      "it": "borsa tote con logo",
+      "nl": "draagtas met logo",
+      "ru": "фирменная больш. сумка",
+      "ja": "ロゴいりトートバッグ",
+      "ko": "로고 토트백",
+      "es-us": "bolsa de tela logotipo",
+      "en": "logo tote bag",
+      "fr": "cabas à logo",
+      "zh": "Logo托特包"
+    }
+  },
+  "c979": {
+    "img": "FtrIcon/BagShoulderMaple0",
+    "clr": "orange",
+    "sel": 2400,
+    "hap": 201,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "fairy_tale",
+    "iid": 7491,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "maple_leaf",
+    "loc": {
+      "zh-cn": "枫叶斜挎包",
+      "de": "Ahorn-Pochette",
+      "es-es": "bolsito hoja de arce",
+      "it": "pochette foglia d'acero",
+      "nl": "esdoornbladtasje",
+      "ru": "сумочка «Кленовый лист»",
+      "ja": "もみじのポシェット",
+      "ko": "단풍 미니백",
+      "zh-tw": "楓葉側背包",
+      "es-us": "bolsita hoja de arce",
+      "en": "maple-leaf pochette",
+      "fr": "pochette feuille d'érable"
+    }
+  },
+  "c962": {
+    "ipf": "FtrIcon/BagShoulderMessenger",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "orange",
+      "green"
+    ],
+    "clr": [
+      "black",
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ]
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11979,
+      11978,
+      7470
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "邮差包",
+      "de": "Kuriertasche",
+      "es-es": "bolso de mensajero",
+      "it": "borsa da postino",
+      "nl": "koerierstas",
+      "ru": "курьерская сумка",
+      "ja": "メッセンジャーバッグ",
+      "ko": "메신저백",
+      "zh-tw": "郵差包",
+      "es-us": "bolsa de mensajero",
+      "en": "messenger bag",
+      "fr": "besace"
+    }
+  },
+  "c993": {
+    "ipf": "FtrIcon/BagBackpackSmall",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "black"
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "hap": 23,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "formal",
+      "party"
+    ],
+    "iid": [
+      7504,
+      12015
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "ocp02",
+      "pbr08"
+    ],
+    "loc": {
+      "zh-cn": "迷你皮革双肩包",
+      "de": "Kunstleder-Rucksäckchen",
+      "es-es": "mochilita de polipiel",
+      "it": "borsetta ecopelle",
+      "nl": "kunstleren rugzak",
+      "ru": "рюкзак из кожзама",
+      "ja": "ミニレザーバッグ",
+      "ko": "미니 가죽 가방",
+      "zh-tw": "迷你皮革後背包",
+      "es-us": "mochilita de cuero sintético",
+      "en": "mini pleather bag",
+      "fr": "mini-sac en similicuir"
+    }
+  },
+  "c999": {
+    "ipf": "FtrIcon/BagBackpackQuilt",
+    "img": [
+      "6",
+      "1",
+      "2",
+      "7",
+      "0",
+      "4",
+      "5",
+      "3"
+    ],
+    "var": [
+      "forest_print",
+      "flowers",
+      "polka_dots",
+      "chick",
+      "m",
+      "cherries",
+      "denim_with_stripes",
+      "colorful_quilt_design"
+    ],
+    "clr": [
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "gray",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "orange",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "aqua",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "colorful",
+        "beige"
+      ]
+    ],
+    "sel": 175,
+    "hap": 365,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": "comfy",
+    "iid": [
+      12153,
+      12148,
+      12149,
+      12154,
+      7510,
+      12151,
+      12152,
+      12150
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "mom",
+    "loc": {
+      "zh-cn": "菱格缝线束口双肩包",
+      "de": "Beutel von Mama",
+      "it": "zainetto di mamma",
+      "nl": "mama's rugzak",
+      "ru": "мамин рюкзак",
+      "ja": "ははのナップサック",
+      "ko": "엄마의 주머니 가방",
+      "zh-tw": "媽媽手作束口後背包",
+      "en": "Mom's knapsack",
+      "es": "mochila de mamá",
+      "fr": "sac à dos de maman"
+    }
+  },
+  "c1150": {
+    "img": "FtrIcon/BagBackpackNook0",
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "sel": 4000,
+    "exp": 800,
+    "exc": 0,
+    "hap": 151,
+    "stl": [
+      "gorgeous",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": 9761,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "Nook Inc.束口双肩包",
+      "de": "Nook-Inc.-Beutel",
+      "es-es": "mochila saco de Nook Inc.",
+      "it": "sacca Nook Inc.",
+      "nl": "Nook Inc.-rugzak",
+      "ru": "рюкзак Nook Inc.",
+      "ja": "たぬきかいはつナップサック",
+      "ko": "Nook Inc. 주머니 가방",
+      "zh-tw": "Nook Inc.束口後背包",
+      "es-us": "mochila de Nook Inc.",
+      "en": "Nook Inc. knapsack",
+      "fr": "sac à dos Nook Inc."
+    }
+  },
+  "c1425": {
+    "img": "FtrIcon/BagShoulderNook0",
+    "clr": "green",
+    "sel": 400,
+    "exp": 50,
+    "exc": 7,
+    "hap": 431,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": 14543,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_link",
+      "nso"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "Nook Inc.斜挎包",
+      "de": "Nook-Inc.-Pochette",
+      "it": "pochette Nook Inc.",
+      "nl": "Nook Inc.-tasje",
+      "ru": "сумочка Nook Inc.",
+      "ja": "たぬきかいはつポシェット",
+      "ko": "Nook Inc. 미니백",
+      "zh-tw": "Nook Inc.側背包",
+      "en": "Nook Inc. pochette",
+      "es": "bolsito Nook Inc.",
+      "fr": "pochette Nook Inc."
+    }
+  },
+  "c990": {
+    "ipf": "FtrIcon/BagBackpackOutdoor",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "orange",
+      "avocado",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11969,
+      7501,
+      11970
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "gor08",
+      "lon00",
+      "pbr03"
+    ],
+    "loc": {
+      "zh-cn": "户外双肩包",
+      "de": "Outdoor-Rucksack",
+      "es-es": "mochila de acampada",
+      "fr-fr": "sac à dos tout-terrain",
+      "it": "zaino da escursionismo",
+      "nl": "kampeerrugzak",
+      "ru": "походный рюкзак",
+      "ja": "アウトドアリュック",
+      "ko": "아웃도어 배낭",
+      "zh-tw": "戶外後背包",
+      "es-us": "mochila de paseo",
+      "fr-us": "sac à dos de randonnée",
+      "en": "outdoor backpack"
+    }
+  },
+  "c1473": {
+    "ipf": "FtrIcon/BagBackpackPanda",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black_white_2",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "yellow",
+        "brown"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale"
+    ],
+    "iid": [
+      14830,
+      720
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "熊猫双肩包",
+      "de": "Pandarucksack",
+      "it": "zaino panda",
+      "nl": "pandarugzak",
+      "ru": "рюкзак-панда",
+      "ja": "パンダのリュック",
+      "ko": "팬더 배낭",
+      "zh-tw": "熊貓後背包",
+      "en": "panda backpack",
+      "es": "mochila panda",
+      "fr": "sac à dos panda"
+    }
+  },
+  "c972": {
+    "ipf": "FtrIcon/BagBackpackBodybag",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "blue",
+        "brown"
+      ]
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "work"
+    ],
+    "iid": [
+      12005,
+      7484
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "duk01",
+    "loc": {
+      "zh-cn": "皮革胸包",
+      "de": "Kunstleder-Umhängetasche",
+      "es-es": "mochilita polipiel al hombro",
+      "it": "borsa ecopelle a tracolla",
+      "nl": "kunstleren crossbodytas",
+      "ru": "кросс-боди из кожзама",
+      "ja": "レザーボディバッグ",
+      "ko": "가죽 슬링백",
+      "zh-tw": "皮革腰包",
+      "es-us": "mochila al hombro sintética",
+      "en": "pleather crossbody bag",
+      "fr": "sac transversal similicuir"
+    }
+  },
+  "c969": {
+    "ipf": "FtrIcon/BagShoulderFringe",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "white",
+      "camel"
+    ],
+    "clr": [
+      "white",
+      "brown"
+    ],
+    "sel": 600,
+    "buy": 2400,
+    "hap": 23,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "formal",
+      "party"
+    ],
+    "iid": [
+      12010,
+      7481
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "皮革流苏包",
+      "de": "Kunstlederfransentasche",
+      "it": "borsa ecopelle con frange",
+      "nl": "kunstleren tas met franje",
+      "ru": "сумка с бахромой",
+      "ja": "フリンジレザーバッグ",
+      "ko": "가죽 프린지백",
+      "zh-tw": "皮革流蘇包",
+      "en": "pleather fringe bag",
+      "es": "bolsita con flecos",
+      "fr": "sac à franges"
+    }
+  },
+  "c1507": {
+    "ipf": "FtrIcon/ToolBagLeather",
+    "img": [
+      "0",
+      "3",
+      "1",
+      "4",
+      "2",
+      "5",
+      "6"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "blue",
+      "gray",
+      "black"
+    ],
+    "clr": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "aqua",
+      "gray",
+      "black"
+    ],
+    "sel": 600,
+    "buy": 2400,
+    "hap": 23,
+    "stl": [
+      "gorgeous",
+      "elegant"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      14789,
+      312,
+      310,
+      313,
+      311,
+      314,
+      315
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Kunstledertäschchen",
+      "es-es": "bolso de mano de polipiel",
+      "fr-fr": "sac à main simili-cuir",
+      "it": "borsa in ecopelle",
+      "nl": "kunstleren handtas",
+      "ru": "сумка из кожзама",
+      "ja": "レザーのハンドバッグ",
+      "ko": "가죽 핸드백",
+      "es-us": "bolso de mano sintético",
+      "fr-us": "sac à main similicuir",
+      "en": "pleather handbag",
+      "zh": "皮手提包"
+    }
+  },
+  "c964": {
+    "ipf": "FtrIcon/BagShoulderLeather",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "navy_blue",
+      "brown"
+    ],
+    "clr": [
+      "blue",
+      "brown"
+    ],
+    "sel": 600,
+    "buy": 2400,
+    "hap": 23,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      12009,
+      7476
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "chn11",
+    "loc": {
+      "zh-cn": "皮革单肩包",
+      "de": "Kunstlederhandtasche",
+      "es-es": "bolsa de polipiel",
+      "it": "borsa ecopelle a bandoliera",
+      "nl": "kunstleren schoudertas",
+      "ru": "плечевая сумка",
+      "ja": "レザーショルダー",
+      "ko": "가죽 숄더백",
+      "zh-tw": "皮革肩背包",
+      "es-us": "bolsa de cuero sintético",
+      "en": "pleather shoulder bag",
+      "fr": "sac à bandoulière similicuir"
+    }
+  },
+  "c1481": {
+    "ipf": "FtrIcon/BagBackpackTownDot",
+    "img": [
+      "3",
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "lime",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      695,
+      14842,
+      692,
+      694,
+      697
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "elp02",
+    "loc": {
+      "zh-cn": "圆点都市双肩包",
+      "de": "Pünktchenrucksack",
+      "es-es": "mochila topos",
+      "it": "zaino a pois",
+      "nl": "gestippelde rugzak",
+      "ru": "рюкзак в горошек",
+      "ja": "みずたまタウンリュック",
+      "ko": "물방울 타운 배낭",
+      "zh-tw": "圓點都市後背包",
+      "es-us": "mochila lunares",
+      "en": "polka-dot backpack",
+      "fr": "sac à dos à pois"
+    }
+  },
+  "c1362": {
+    "ipf": "FtrIcon/BagShoulderTasukiprom",
+    "img": [
+      "4",
+      "5",
+      "0",
+      "6",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "gold",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 875,
+    "buy": 3500,
+    "hap": 201,
+    "stl": [
+      "gorgeous",
+      "elegant"
+    ],
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      14398,
+      14399,
+      14262,
+      14400,
+      14396,
+      14395,
+      14397
+    ],
+    "sea": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "prom",
+    "vad": "1.9.0",
+    "loc": {
+      "zh-cn": "毕业舞会绶带",
+      "de": "Abschlussball-Schärpe",
+      "fr-fr": "écharpe bal de promo",
+      "it": "fascia ballo scolastico",
+      "nl": "galasjerp",
+      "ru": "перевязь к выпускному",
+      "ja": "プロムなたすき",
+      "ko": "프롬 어깨띠",
+      "zh-tw": "畢業舞會綬帶",
+      "fr-us": "écharpe bal des finissants",
+      "en": "prom sash",
+      "es": "banda baile de fin de curso"
+    }
+  },
+  "c1498": {
+    "ipf": "FtrIcon/BagShoulderSquarePython",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "brown",
+      "gray"
+    ],
+    "clr": [
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ]
+    ],
+    "sel": 370,
+    "buy": 1480,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14894,
+      723
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "蟒蛇纹单肩包",
+      "de": "Pythonmusterhandtasche",
+      "fr-fr": "sac à bandoulière python",
+      "it": "borsa stampa pitone band.",
+      "nl": "tas met slangenprint",
+      "ru": "змеиная плечевая сумка",
+      "ja": "パイソンなショルダーバッグ",
+      "ko": "뱀 무늬 숄더백",
+      "zh-tw": "蟒蛇紋肩背包",
+      "fr-us": "sacoche motif python",
+      "en": "python-print shoulder bag",
+      "es": "bolso bandolera pitón"
+    }
+  },
+  "c1395": {
+    "ipf": "FtrIcon/BagBackpackRandsel",
+    "img": [
+      "0",
+      "1",
+      "6",
+      "3",
+      "5",
+      "4",
+      "7",
+      "2"
+    ],
+    "var": [
+      "red",
+      "black",
+      "pink",
+      "green",
+      "light_blue",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "red",
+      "black",
+      "pink",
+      "green",
+      "aqua",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "sel": 650,
+    "buy": 2600,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      14366,
+      254,
+      259,
+      256,
+      258,
+      257,
+      260,
+      255
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "日式小学生书包",
+      "de": "Schulranzen",
+      "it": "zaino da scuola randoseru",
+      "nl": "randoseru",
+      "ru": "ранец рандосэру",
+      "ja": "ランドセル",
+      "ko": "네모난 책가방",
+      "zh-tw": "日式小學生書包",
+      "en": "randoseru",
+      "es": "mochila escolar randoseru",
+      "fr": "randoseru"
+    }
+  },
+  "c984": {
+    "ipf": "FtrIcon/BagShoulderSports",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "red",
+      "blue",
+      "black"
+    ],
+    "clr": [
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "sel": 350,
+    "buy": 1400,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      12007,
+      7302,
+      12008
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "bul05",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "运动包",
+      "de": "Retro-Sporttasche",
+      "it": "borsa sportiva rétro",
+      "nl": "retrosporttas",
+      "ru": "спортивная ретро-сумка",
+      "ja": "スポーツバッグ",
+      "ko": "스포츠백",
+      "zh-tw": "運動包",
+      "en": "retro sports bag",
+      "es": "bolsa deportiva retro",
+      "fr": "sac sport rétro"
+    }
+  },
+  "c985": {
+    "ipf": "FtrIcon/BagShoulderSacosh",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "blue",
+        "green"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11975,
+      11974,
+      7304
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "der12",
+      "ost00"
+    ],
+    "loc": {
+      "zh-cn": "随身小包",
+      "de": "Minitasche",
+      "it": "borsello",
+      "nl": "sacoche",
+      "ru": "мягкая сумочка",
+      "ja": "サコッシュ",
+      "ko": "사코슈",
+      "zh-tw": "旅行隨身小包",
+      "en": "sacoche bag",
+      "es": "minibolsa",
+      "fr": "sacoche"
+    }
+  },
+  "c1471": {
+    "ipf": "FtrIcon/BagBackpackStudent",
+    "img": [
+      "1",
+      "4",
+      "3",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "blue",
+      "brown",
+      "camel"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "beige",
+        "brown"
+      ]
+    ],
+    "sel": 550,
+    "buy": 2200,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "formal",
+      "work"
+    ],
+    "iid": [
+      593,
+      655,
+      654,
+      14824,
+      629
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "duk01",
+    "loc": {
+      "zh-cn": "皮革书包",
+      "de": "Schulmappe",
+      "es-es": "cartera mochila",
+      "it": "cartella",
+      "nl": "ruitertas",
+      "ru": "портфель",
+      "ja": "サッチェルバッグ",
+      "ko": "새철 백",
+      "zh-tw": "皮革書包",
+      "es-us": "mochila portafolio",
+      "en": "satchel",
+      "fr": "cartable"
+    }
+  },
+  "c1396": {
+    "ipf": "FtrIcon/BagBackpackSchoolbag",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "5",
+      "1",
+      "4"
+    ],
+    "var": [
+      "blue",
+      "gray",
+      "black",
+      "green",
+      "navy_blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "brown",
+        "white"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      14367,
+      263,
+      262,
+      265,
+      261,
+      264
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "学校双肩包",
+      "de": "Schultasche",
+      "es-es": "cartera escolar",
+      "it": "zaino da scuola",
+      "nl": "schooltas",
+      "ru": "школьный ранец",
+      "ja": "スクールリュック",
+      "ko": "스쿨 배낭",
+      "zh-tw": "學校後背包",
+      "es-us": "bolsa escolar",
+      "en": "schoolbag",
+      "fr": "sac d'école"
+    }
+  },
+  "c982": {
+    "img": "FtrIcon/BagShoulderShell0",
+    "clr": "white",
+    "sel": 10800,
+    "hap": 201,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": 7494,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "summer_shell",
+    "hui": [
+      "duk05",
+      "shp02"
+    ],
+    "loc": {
+      "zh-cn": "贝壳斜挎包",
+      "de": "Muschel-Pochette",
+      "es-es": "bolsito concha marina",
+      "it": "pochette guscio",
+      "nl": "schelpentasje",
+      "ru": "сумочка-моллюск",
+      "ja": "かいがらポシェット",
+      "ko": "조개 미니백",
+      "zh-tw": "貝殼側背包",
+      "es-us": "bolsita concha marina",
+      "en": "shellfish pochette",
+      "fr": "pochette coquillage"
+    }
+  },
+  "c1479": {
+    "ipf": "FtrIcon/BagBackpackTownSimple",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "camel",
+      "gray",
+      "black"
+    ],
+    "clr": [
+      "brown",
+      "gray",
+      "black"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14843,
+      699,
+      721
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "简约都市双肩包",
+      "de": "Einfachrucksack",
+      "it": "zaino semplice",
+      "nl": "sobere rugzak",
+      "ru": "простой рюкзак",
+      "ja": "シンプルなタウンリュック",
+      "ko": "심플 타운 배낭",
+      "zh-tw": "簡約都市後背包",
+      "en": "simple backpack",
+      "es": "mochila simple",
+      "fr": "sac à dos simple"
+    }
+  },
+  "c1513": {
+    "ipf": "FtrIcon/ToolBagTote",
+    "img": [
+      "0",
+      "2",
+      "3",
+      "1",
+      "5",
+      "4"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "black_white_2",
+      "beige"
+    ],
+    "clr": [
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 230,
+    "buy": 920,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14787,
+      358,
+      359,
+      357,
+      361,
+      360
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "简约托特包",
+      "de": "Standard-Stofftasche",
+      "es-es": "bolso de tela simple",
+      "it": "borsa tote semplice",
+      "nl": "eenvoudige draagtas",
+      "ru": "простая большая сумка",
+      "ja": "シンプルトートバッグ",
+      "ko": "심플 토트백",
+      "zh-tw": "簡約托特包",
+      "es-us": "bolsa de tela simple",
+      "en": "simple tote bag",
+      "fr": "cabas simple"
+    }
+  },
+  "c981": {
+    "img": "FtrIcon/BagShoulderSnow0",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 2400,
+    "hap": 201,
+    "stl": [
+      "elegant",
+      "cool"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "vacation"
+    ],
+    "iid": 7493,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "snowflake",
+    "hui": [
+      "ham04",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "雪花斜挎包",
+      "de": "Schneeflocken-Pochette",
+      "es-es": "bolsito copo de nieve",
+      "it": "pochette fiocco di neve",
+      "nl": "sneeuwvloktasje",
+      "ru": "сумочка-снежинка",
+      "ja": "スノーフレークポシェット",
+      "ko": "눈꽃 미니백",
+      "zh-tw": "雪花側背包",
+      "es-us": "bolsita copo de nieve",
+      "en": "snowflake pochette",
+      "fr": "pochette flocon"
+    }
+  },
+  "c1482": {
+    "ipf": "FtrIcon/BagBackpackTownSpace",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "purple",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "green",
+        "purple"
+      ],
+      [
+        "blue",
+        "purple"
+      ]
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      687,
+      686,
+      14840
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "太空都市双肩包",
+      "de": "Weltraumrucksack",
+      "it": "zaino spaziale",
+      "nl": "rugzak met sterrenprint",
+      "ru": "космический рюкзак",
+      "ja": "スペーシーなタウンリュック",
+      "ko": "스페이스 타운 배낭",
+      "zh-tw": "太空都市後背包",
+      "en": "spacey backpack",
+      "es": "mochila espacial",
+      "fr": "sac à dos cosmique"
+    }
+  },
+  "c989": {
+    "ipf": "FtrIcon/BagBackpackSquare",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "green"
+    ],
+    "clr": [
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11967,
+      7500,
+      11968
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "方形双肩包",
+      "de": "Kastenrucksack",
+      "it": "zaino squadrato",
+      "nl": "vierkante rugzak",
+      "ru": "квадратный рюкзак",
+      "ja": "しかくいリュック",
+      "ko": "사각 배낭",
+      "zh-tw": "四角型後背包",
+      "en": "square backpack",
+      "es": "mochila rectangular",
+      "fr": "sac à dos cube"
+    }
+  },
+  "c1469": {
+    "ipf": "FtrIcon/BagShoulderSquare",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "sel": 230,
+    "buy": 920,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14822,
+      580
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "方形单肩包",
+      "de": "Quadrat-Umhängetasche",
+      "it": "borsa quadrata a bandoliera",
+      "nl": "rechte schoudertas",
+      "ru": "квадратн. плечевая сумка",
+      "ja": "スクエアショルダーバッグ",
+      "ko": "스퀘어 숄더백",
+      "zh-tw": "方形肩背包",
+      "en": "square shoulder bag",
+      "es": "bolso bandolera cuadrado",
+      "fr": "sac à bandoulière carré"
+    }
+  },
+  "c977": {
+    "img": "FtrIcon/BagShoulderStar0",
+    "clr": "yellow",
+    "sel": 3000,
+    "hap": 103,
+    "stl": [
+      "cute",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "vacation"
+    ],
+    "iid": 7489,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "shp08",
+    "loc": {
+      "zh-cn": "星星斜挎包",
+      "de": "Sternchen-Pochette",
+      "es-es": "bolsito estrella",
+      "it": "pochette stella",
+      "nl": "sterrentasje",
+      "ru": "сумочка-звезда",
+      "ja": "スターなポシェット",
+      "ko": "별무늬 미니백",
+      "zh-tw": "星星側背包",
+      "es-us": "bolsita estrella",
+      "en": "star pochette",
+      "fr": "pochette étoile"
+    }
+  },
+  "c976": {
+    "img": "FtrIcon/BagShoulderRattan0",
+    "clr": "brown",
+    "sel": 245,
+    "buy": 980,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": 7488,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "ant03",
+    "loc": {
+      "zh-cn": "藤编斜挎包",
+      "de": "Rattan-Pochette",
+      "it": "pochette paglia",
+      "nl": "rotan schoudertas",
+      "ru": "плетеная сумочка",
+      "ja": "ラタンポシェット",
+      "ko": "라탄 미니백",
+      "zh-tw": "藤編側背包",
+      "en": "straw pochette",
+      "es": "bolsita de cáñamo",
+      "fr": "pochette en paille"
+    }
+  },
+  "c1504": {
+    "ipf": "FtrIcon/ToolBagBasketborder",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "brown",
+      "black_white_2"
+    ],
+    "clr": [
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "black",
+        "white"
+      ]
+    ],
+    "sel": 320,
+    "buy": 1280,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": [
+      14855,
+      362
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": "hip00",
+    "loc": {
+      "zh-cn": "粗横纹藤篮包",
+      "de": "Streifen-Korbtasche",
+      "es-es": "bolso de mimbre a rayas",
+      "it": "cesto a strisce",
+      "nl": "gestreepte rieten tas",
+      "ru": "полосатая корзинка",
+      "ja": "ボーダーがらかごバッグ",
+      "ko": "줄무늬 바스켓 백",
+      "zh-tw": "粗橫紋籐籃包",
+      "es-us": "bolsa de mimbre a rayas",
+      "en": "striped basket bag",
+      "fr": "panier à rayures"
+    }
+  },
+  "c992": {
+    "ipf": "FtrIcon/BagBackpackStuds",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "goth"
+    ],
+    "iid": [
+      12006,
+      7503
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "pbr08",
+    "loc": {
+      "zh-cn": "铆钉双肩包",
+      "de": "Nietenrucksack",
+      "it": "zaino borchiato",
+      "nl": "rugzak met studs",
+      "ru": "рюкзак с заклепками",
+      "ja": "スタッズリュック",
+      "ko": "스터드 배낭",
+      "zh-tw": "鉚釘後背包",
+      "en": "studded backpack",
+      "es": "mochila con tachuelas",
+      "fr": "sac à dos clouté"
+    }
+  },
+  "c1458": {
+    "ipf": "FtrIcon/BagShoulderSword",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "red",
+      "blue",
+      "black"
+    ],
+    "clr": [
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "sel": 2450,
+    "buy": 9800,
+    "hap": 23,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "theatrical"
+    ],
+    "iid": [
+      14785,
+      711,
+      713
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "bul07",
+      "chn10",
+      "flg09"
+    ],
+    "loc": {
+      "zh-cn": "剑套",
+      "de": "Umhängeschwert",
+      "it": "spada nel fodero",
+      "nl": "zwaard in rugschede",
+      "ru": "меч в ножнах",
+      "ja": "ソードホルダー",
+      "ko": "검집",
+      "zh-tw": "劍套",
+      "en": "sword in scabbard",
+      "es": "vaina con espada",
+      "fr": "épée rengainée"
+    }
+  },
+  "c966": {
+    "img": "FtrIcon/BagShoulderFishing0",
+    "clr": [
+      "blue",
+      "orange"
+    ],
+    "sel": 175,
+    "hap": 501,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "work"
+    ],
+    "iid": 7478,
+    "cat": true,
+    "sze": "1x1",
+    "src": "cj",
+    "evt": [
+      "fish_tournament",
+      "fish_tournament_2",
+      "fish_tournament_3",
+      "fish_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "钓鱼包",
+      "de": "Anglertasche",
+      "it": "borsa da pesca",
+      "nl": "vistas",
+      "ru": "ящик для наживки",
+      "ja": "フィッシングバッグ",
+      "ko": "낚시 가방",
+      "zh-tw": "釣魚包",
+      "en": "tackle bag",
+      "es": "bolsa de pesca",
+      "fr": "sac de pêche"
+    }
+  },
+  "c1515": {
+    "ipf": "FtrIcon/ToolBagToteflower",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "outdoorsy"
+    ],
+    "iid": [
+      14856,
+      364,
+      363
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Blümchen-Stofftasche",
+      "es-es": "bolso de tela florecillas",
+      "it": "borsa tote motivo fiorellini",
+      "nl": "bloemetjesdraagtas",
+      "ru": "большая сумка в цветочек",
+      "ja": "こばながらトートバッグ",
+      "ko": "작은 꽃무늬 토트백",
+      "es-us": "bolsa de tela florecitas",
+      "en": "tiny-flower-print tote bag",
+      "fr": "cabas motif petites fleurs",
+      "zh": "碎花托特包"
+    }
+  },
+  "c983": {
+    "img": "FtrIcon/BagShoulderTool0",
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "sel": 227,
+    "buy": 910,
+    "hap": 23,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": 7497,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "brd11",
+      "cbr05",
+      "pgn07",
+      "tig03"
+    ],
+    "loc": {
+      "de": "Werkzeugtasche",
+      "it": "borsa degli strumenti",
+      "nl": "gereedschapstas",
+      "ru": "сумка для инструментов",
+      "ja": "ツールバッグ",
+      "ko": "공구 가방",
+      "en": "tool bag",
+      "es": "bolsa de herramientas",
+      "fr": "sac à outils",
+      "zh": "工具包"
+    }
+  },
+  "c957": {
+    "ipf": "FtrIcon/BagBackpackTown",
+    "img": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "red",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11945,
+      6839,
+      6838,
+      11944
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": "pbr08",
+    "loc": {
+      "zh-cn": "都市双肩包",
+      "de": "Urban-Rucksack",
+      "it": "zaino urbano",
+      "nl": "simpele rugzak",
+      "ru": "городской рюкзак",
+      "ja": "タウンリュック",
+      "ko": "타운 배낭",
+      "zh-tw": "都市後背包",
+      "en": "town backpack",
+      "es": "mochila escolar",
+      "fr": "sac à dos urbain"
+    }
+  },
+  "c958": {
+    "ipf": "FtrIcon/BagShoulderTravel",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "pink",
+      "green",
+      "light_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      2550,
+      12000,
+      12001,
+      12002
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "loc": {
+      "zh-cn": "旅行包",
+      "de": "Reisetäschchen",
+      "es-es": "bolsito de viaje",
+      "it": "borsa da viaggio",
+      "nl": "reistasje",
+      "ru": "сумочка туриста",
+      "ja": "トラベルポーチ",
+      "ko": "여행 파우치",
+      "zh-tw": "旅行收納袋",
+      "es-us": "bolsita de viaje",
+      "en": "travel pouch",
+      "fr": "sacoche de voyage"
+    }
+  },
+  "c988": {
+    "ipf": "FtrIcon/BagBackpackJourney",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "orange",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "orange",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 735,
+    "buy": 2940,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      7499,
+      11965,
+      11966
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "hui": [
+      "der08",
+      "bul07",
+      "elp06",
+      "hrs00",
+      "ost09",
+      "squ18",
+      "cbr05"
+    ],
+    "loc": {
+      "zh-cn": "旅人双肩包",
+      "de": "Wanderrucksack",
+      "fr-fr": "sac à dos de randonnée",
+      "it": "zaino da viaggio",
+      "nl": "reisrugzak",
+      "ru": "рюкзак туриста",
+      "ja": "たびびとのリュック",
+      "ko": "여행자의 배낭",
+      "zh-tw": "旅人後背包",
+      "fr-us": "sac à dos de voyage",
+      "en": "traveler's backpack",
+      "es": "mochila de trotamundos"
+    }
+  },
+  "c1517": {
+    "img": "FtrIcon/ToolBagEco0",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": 14642,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "pig16",
+      "rbt04"
+    ],
+    "loc": {
+      "zh-cn": "蔬菜图案环保袋",
+      "de": "Gemüse-Ökotasche",
+      "it": "borsa riutilizzabile vegetali",
+      "nl": "ecotas met groenteprint",
+      "ru": "сумка из ткани с овощами",
+      "ja": "やさいがらエコバッグ",
+      "ko": "야채 무늬 에코백",
+      "zh-tw": "蔬菜圖案環保袋",
+      "en": "veggie-print eco bag",
+      "es": "bolsa reutilizable vegetales",
+      "fr": "sac bio motif légumes"
+    }
+  },
+  "c1358": {
+    "img": "FtrIcon/BagShoulderVine0",
+    "clr": "green",
+    "sel": 500,
+    "hap": 103,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": 14249,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "cow01",
+      "hrs13"
+    ],
+    "loc": {
+      "zh-cn": "藤蔓编织斜挎包",
+      "de": "Rankengeflecht-Pochette",
+      "it": "pochette edera intrecciata",
+      "nl": "tasje van gevlochten ranken",
+      "ru": "плетеная сумочка из лозы",
+      "ja": "ツルざいくのポシェット",
+      "ko": "덩굴 미니백",
+      "zh-tw": "藤蔓編織側背包",
+      "en": "woven-vine pochette",
+      "es": "bolsito enredadera",
+      "fr": "pochette vigne tressée"
+    }
+  },
+  "c1478": {
+    "ipf": "FtrIcon/BagBackpackTownZebra",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "yellow"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ]
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14841,
+      691
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "斑马纹都市双肩包",
+      "de": "Zebramusterrucksack",
+      "fr-fr": "sac à dos zèbre",
+      "it": "zaino a stampa zebrata",
+      "nl": "rugzak met zebraprint",
+      "ru": "зебровый рюкзак",
+      "ja": "ゼブラなタウンリュック",
+      "ko": "얼룩말 무늬 타운 배낭",
+      "zh-tw": "斑馬紋都市後背包",
+      "fr-us": "sac à dos motif zèbre",
+      "en": "zebra-print backpack",
+      "es": "mochila cebra"
+    }
+  },
+  "c1499": {
+    "ipf": "FtrIcon/BagShoulderSquareZebra",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "yellow"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ]
+    ],
+    "sel": 370,
+    "buy": 1480,
+    "hap": 23,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      14895,
+      726
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "斑马纹单肩包",
+      "de": "Zebramusterhandtasche",
+      "fr-fr": "sac à bandoulière zèbre",
+      "it": "borsa stampa zebrata band.",
+      "nl": "schoudertas met zebraprint",
+      "ru": "зебровая плечевая сумка",
+      "ja": "ゼブラなショルダーバッグ",
+      "ko": "얼룩말 무늬 숄더백",
+      "zh-tw": "斑馬紋肩背包",
+      "fr-us": "sacoche motif zèbre",
+      "en": "zebra-print shoulder bag",
+      "es": "bolso bandolera cebra"
+    }
+  },
+  "c1491": {
+    "ipf": "FtrIcon/BagShoulderGamaguchiJapan",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "dark_blue",
+      "wisteria",
+      "sky_blue"
+    ],
+    "clr": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "yellow",
+        "pink"
+      ],
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 240,
+    "buy": 960,
+    "hap": 23,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      14860,
+      353,
+      354
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "kicks",
+      "kicks2"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "和风口金斜挎包",
+      "de": "Fernost-Schnallentasche",
+      "it": "borsa a scatto giapponese",
+      "nl": "zen-knipbeurs",
+      "ru": "дзен-ридикюль",
+      "ja": "わふうながまぐちポシェット",
+      "ko": "일본풍 똑딱이 미니백",
+      "zh-tw": "和風口金側背包",
+      "en": "zen clasp purse",
+      "es": "bolsito broche japonés",
+      "fr": "sac à fermoir zen"
+    }
+  },
+  "c1554": {
+    "img": "FtrIcon/BagBackpackMasterswordHylianshield0",
+    "clr": [
+      "blue",
+      "gray"
+    ],
+    "sel": 1250,
+    "buy": 5000,
+    "hap": 201,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": "fairy_tale",
+    "iid": 1044,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "勇者的剑与盾",
+      "de": "Heldenschwert mit Schild",
+      "it": "spada dell'eroe con scudo",
+      "nl": "heldenzwaard en -schild",
+      "ru": "меч со щитом Героя",
+      "ja": "ゆうしゃのけんとたて",
+      "ko": "용사의 검과 방패",
+      "zh-tw": "勇者的劍與盾",
+      "en": "hero's sword and shield",
+      "es": "espada y escudo del héroe",
+      "fr": "épée du Héros et bouclier"
+    }
+  },
+  "c1550": {
+    "img": "FtrIcon/BagBackpackInktank0",
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "sel": 625,
+    "buy": 2500,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": "sporty",
+    "iid": 1258,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "de": "Tintentank",
+      "it": "serbatoio inchiostro",
+      "nl": "inkttank",
+      "ru": "баллон с краской",
+      "ja": "インクタンク",
+      "ko": "잉크 탱크",
+      "en": "ink tank",
+      "es": "tanque de tinta",
+      "fr": "réservoir d'encre",
+      "zh": "墨汁槽"
+    }
+  }
+}

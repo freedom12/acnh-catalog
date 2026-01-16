@@ -1,0 +1,1918 @@
+{
+  "2620": {
+    "fim": "FtrIcon/FtrDiveFishWakame",
+    "sel": 600,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 0,
+    "nhd": [
+      9,
+      6
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      3,
+      0
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      3,
+      14
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 1,
+    "img": "BookDiveFishIcon/DiveFishWakame",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "裙带菜",
+      "de": "Wakame-Alge",
+      "fr-fr": "wakame",
+      "it": "alga wakame",
+      "nl": "zeewier",
+      "ru": "морские водоросли",
+      "ja": "ワカメ",
+      "ko": "미역",
+      "zh-tw": "裙帶菜",
+      "fr-us": "wakamé",
+      "en": "seaweed",
+      "es": "alga wakame"
+    }
+  },
+  "2830": {
+    "fim": "FtrIcon/FtrDiveFishUmibudou",
+    "sel": 900,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 0,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 2,
+    "img": "BookDiveFishIcon/DiveFishUmibudou",
+    "hab": "sea",
+    "loc": {
+      "de": "Kriechsprossalge",
+      "it": "vite di mare",
+      "nl": "zeedruiven",
+      "ru": "морской виноград",
+      "ja": "ウミブドウ",
+      "ko": "바다포도",
+      "en": "sea grapes",
+      "es": "uva de mar",
+      "fr": "algue raisin de mer",
+      "zh": "海葡萄"
+    }
+  },
+  "2831": {
+    "fim": "FtrIcon/FtrDiveFishUni",
+    "sel": 1700,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      2,
+      7
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 6,
+    "img": "BookDiveFishIcon/DiveFishUni",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "海胆",
+      "de": "Seeigel",
+      "it": "riccio di mare",
+      "nl": "zee-egel",
+      "ru": "морской еж",
+      "ja": "ウニ",
+      "ko": "성게",
+      "zh-tw": "海膽",
+      "en": "sea urchin",
+      "es": "erizo de mar",
+      "fr": "oursin"
+    }
+  },
+  "2832": {
+    "fim": "FtrIcon/FtrDiveFishFujitsubo",
+    "sel": 600,
+    "hac": "pet",
+    "sha": 0,
+    "spd": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      6,
+      11
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 28,
+    "img": "BookDiveFishIcon/DiveFishFujitsubo",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "藤壶",
+      "de": "Seepocke",
+      "it": "dente di cane",
+      "nl": "zeepok",
+      "ru": "морской желудь",
+      "ja": "フジツボ",
+      "ko": "따개비",
+      "zh-tw": "藤壺",
+      "en": "acorn barnacle",
+      "es": "bellota de mar",
+      "fr": "balane"
+    }
+  },
+  "2833": {
+    "fim": "FtrIcon/FtrDiveFishKaki",
+    "sel": 1100,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      8,
+      1
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      2,
+      7
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      12
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 13,
+    "img": "BookDiveFishIcon/DiveFishOyster",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "牡蛎",
+      "de": "Auster",
+      "it": "ostrica",
+      "nl": "oester",
+      "ru": "устрица",
+      "ja": "オイスター",
+      "ko": "굴",
+      "zh-tw": "牡蠣",
+      "en": "oyster",
+      "es": "ostra",
+      "fr": "huître"
+    }
+  },
+  "2834": {
+    "fim": "FtrIcon/FtrDiveFishSazae",
+    "sel": 1000,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      2,
+      4,
+      8,
+      11
+    ],
+    "nht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      2,
+      5,
+      8,
+      10
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "csr": [
+      2,
+      10
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 16,
+    "img": "BookDiveFishIcon/DiveFishSazae",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "角蝾螺",
+      "de": "Turbanschnecke",
+      "it": "lumaca turbante",
+      "nl": "tulbandschelp",
+      "ru": "рогатый тюрбан",
+      "ja": "サザエ",
+      "ko": "소라",
+      "zh-tw": "角蠑螺",
+      "en": "turban shell",
+      "es": "caracola espinosa",
+      "fr": "turbo"
+    }
+  },
+  "2835": {
+    "fim": "FtrIcon/FtrDiveFishAwabi",
+    "sel": 2000,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      5,
+      0
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      6
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      6
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 17,
+    "img": "BookDiveFishIcon/DiveFishAwabi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "鲍鱼",
+      "de": "Seeohr",
+      "it": "abalone",
+      "nl": "abalone",
+      "ru": "абалон",
+      "ja": "アワビ",
+      "ko": "전복",
+      "zh-tw": "鮑魚",
+      "en": "abalone",
+      "es": "abulón",
+      "fr": "ormeau"
+    }
+  },
+  "2838": {
+    "fim": "FtrIcon/FtrDiveFishAkoyagai",
+    "sel": 2800,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      2,
+      4
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 11,
+    "img": "BookDiveFishIcon/DiveFishAkoyagai",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "马氏珠母贝",
+      "de": "Perlmuschel",
+      "it": "ostrica pinctada",
+      "nl": "pareloester",
+      "ru": "жемчужница",
+      "ja": "アコヤガイ",
+      "ko": "진주조개",
+      "zh-tw": "珠母蛤",
+      "en": "pearl oyster",
+      "es": "ostra perlera",
+      "fr": "huître perlière"
+    }
+  },
+  "2839": {
+    "fim": "FtrIcon/FtrDiveFishHotate",
+    "sel": 1200,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 5,
+    "csr": [
+      6,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 14,
+    "img": "BookDiveFishIcon/DiveFishHotate",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "虾夷扇贝",
+      "de": "Kammmuschel",
+      "it": "capasanta",
+      "nl": "mantelschelp",
+      "ru": "гребешок",
+      "ja": "ホタテ",
+      "ko": "가리비",
+      "zh-tw": "帆立貝",
+      "en": "scallop",
+      "es": "vieira",
+      "fr": "pétoncle"
+    }
+  },
+  "2840": {
+    "fim": "FtrIcon/FtrDiveFishIsogintyaku",
+    "sel": 500,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      3,
+      14
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 8,
+    "img": "BookDiveFishIcon/DiveFishIsogintyaku",
+    "hab": "sea",
+    "loc": {
+      "de": "Seeanemone",
+      "it": "anemone di mare",
+      "nl": "zeeanemoon",
+      "ru": "актиния",
+      "ja": "イソギンチャク",
+      "ko": "말미잘",
+      "en": "sea anemone",
+      "es": "anémona",
+      "fr": "anémone de mer",
+      "zh": "海葵"
+    }
+  },
+  "2841": {
+    "fim": "FtrIcon/FtrDiveFishHitode",
+    "sel": 500,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      10
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 5,
+    "img": "BookDiveFishIcon/DiveFishHitode",
+    "hab": "sea",
+    "loc": {
+      "de": "Seestern",
+      "it": "stella marina",
+      "nl": "zeester",
+      "ru": "морская звезда",
+      "ja": "ヒトデ",
+      "ko": "불가사리",
+      "en": "sea star",
+      "es": "estrella de mar",
+      "fr": "étoile de mer",
+      "zh": "海星"
+    }
+  },
+  "2842": {
+    "fim": "FtrIcon/FtrDiveFishNamako",
+    "sel": 500,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 1,
+    "nhd": [
+      10,
+      3
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      9
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 3,
+    "img": "BookDiveFishIcon/DiveFishNamako",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "海参",
+      "de": "Seegurke",
+      "it": "cetriolo di mare",
+      "nl": "zeekomkommer",
+      "ru": "морской огурец",
+      "ja": "ナマコ",
+      "ko": "해삼",
+      "zh-tw": "海參",
+      "en": "sea cucumber",
+      "es": "pepino de mar",
+      "fr": "concombre de mer"
+    }
+  },
+  "2843": {
+    "fim": "FtrIcon/FtrDiveFishUmiushi",
+    "sel": 600,
+    "hac": "pet",
+    "sha": 0,
+    "spd": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      1,
+      12
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 10,
+    "img": "BookDiveFishIcon/DiveFishUmiushi",
+    "hab": "sea",
+    "loc": {
+      "de": "Nacktkiemer",
+      "it": "nudibranchi",
+      "nl": "zeeslak",
+      "ru": "голожаберник",
+      "ja": "ウミウシ",
+      "ko": "갯민숭달팽이",
+      "en": "sea slug",
+      "es": "babosa de mar",
+      "fr": "limace de mer",
+      "zh": "海蛞蝓"
+    }
+  },
+  "2844": {
+    "fim": "FtrIcon/FtrDiveFishHiramushi",
+    "sel": 700,
+    "hac": "pet",
+    "sha": 0,
+    "spd": 1,
+    "nhd": [
+      7,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      1,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "csr": [
+      5,
+      8
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 39,
+    "img": "BookDiveFishIcon/DiveFishHiramushi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "海扁虫",
+      "de": "Meerstrudelwurm",
+      "it": "verme piatto",
+      "nl": "platworm",
+      "ru": "плоский червь",
+      "ja": "ヒラムシ",
+      "ko": "납작벌레",
+      "zh-tw": "海扁蟲",
+      "en": "flatworm",
+      "es": "gusano políclado",
+      "fr": "ver plat"
+    }
+  },
+  "2845": {
+    "fim": "FtrIcon/FtrDiveFishShako",
+    "sel": 2500,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      2,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 32,
+    "img": "BookDiveFishIcon/DiveFishSyako",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "虾蛄",
+      "de": "Fangschreckenkrebs",
+      "it": "gambero mantide",
+      "nl": "mantisgarnaal",
+      "ru": "рак-богомол",
+      "ja": "シャコ",
+      "ko": "갯가재",
+      "zh-tw": "蝦蛄",
+      "en": "mantis shrimp",
+      "es": "langosta mantis",
+      "fr": "crevette-mante"
+    }
+  },
+  "2846": {
+    "fim": "FtrIcon/FtrDiveFishAmaebi",
+    "sel": 1400,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      8,
+      1
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      2,
+      7
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "csr": [
+      3,
+      12
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 31,
+    "img": "BookDiveFishIcon/DiveFishAmaebi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "甜虾",
+      "de": "Botan-Garnele",
+      "it": "gamberetto boreale",
+      "nl": "Noorse garnaal",
+      "ru": "северная креветка",
+      "ja": "アマエビ",
+      "ko": "북쪽분홍새우",
+      "zh-tw": "甜蝦",
+      "en": "sweet shrimp",
+      "es": "camarón boreal",
+      "fr": "crevette nordique"
+    }
+  },
+  "2847": {
+    "fim": "FtrIcon/FtrDiveFishKurumaebi",
+    "sel": 3000,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 3,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      4
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 30,
+    "img": "BookDiveFishIcon/DiveFishKurumaebi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "日本对虾",
+      "de": "Kuruma-Garnele",
+      "it": "gambero black tiger",
+      "nl": "tijgergarnaal",
+      "ru": "тигровая креветка",
+      "ja": "クルマエビ",
+      "ko": "보리새우",
+      "zh-tw": "日本囊對蝦",
+      "en": "tiger prawn",
+      "es": "langostino tigre",
+      "fr": "crevette tigrée"
+    }
+  },
+  "2848": {
+    "fim": "FtrIcon/FtrDiveFishIseebi",
+    "sel": 5000,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 4,
+    "nhd": [
+      9,
+      11
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      3,
+      5
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "cun": 40,
+    "csr": 5,
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 33,
+    "img": "BookDiveFishIcon/DiveFishIseebi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "伊势龙虾",
+      "de": "Languste",
+      "it": "aragosta mediterranea",
+      "nl": "langoest",
+      "ru": "колючий лангуст",
+      "ja": "イセエビ",
+      "ko": "닭새우",
+      "zh-tw": "伊勢龍蝦",
+      "en": "spiny lobster",
+      "es": "langosta espinosa",
+      "fr": "langouste"
+    }
+  },
+  "2849": {
+    "fim": "FtrIcon/FtrDiveFishLobster",
+    "sel": 4500,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 4,
+    "nhd": [
+      11,
+      0,
+      3,
+      5
+    ],
+    "nht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      5,
+      6,
+      9,
+      11
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "cun": 40,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 34,
+    "img": "BookDiveFishIcon/DiveFishLobster",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "龙虾",
+      "de": "Hummer",
+      "it": "astice",
+      "nl": "kreeft",
+      "ru": "омар",
+      "ja": "ロブスター",
+      "ko": "바닷가재",
+      "zh-tw": "螯龍蝦",
+      "en": "lobster",
+      "es": "bogavante",
+      "fr": "homard"
+    }
+  },
+  "2850": {
+    "fim": "FtrIcon/FtrDiveFishZuwaigani",
+    "sel": 6000,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 4,
+    "nhd": [
+      10,
+      3
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      9
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 40,
+    "csr": [
+      1,
+      3
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 26,
+    "img": "BookDiveFishIcon/DiveFishZuwaigani",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "松叶蟹",
+      "de": "Schneekrabbe",
+      "it": "granchio della neve",
+      "nl": "sneeuwkrab",
+      "ru": "краб-стригун",
+      "ja": "ズワイガニ",
+      "ko": "대게",
+      "zh-tw": "松葉蟹",
+      "en": "snow crab",
+      "es": "cangrejo de nieve",
+      "fr": "crabe des neiges"
+    }
+  },
+  "2852": {
+    "fim": "FtrIcon/FtrDiveFishTarabagani",
+    "sel": 8000,
+    "hac": "pet",
+    "sha": 3,
+    "spd": 5,
+    "nhd": [
+      10,
+      2
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      8
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 80,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 27,
+    "img": "BookDiveFishIcon/DiveFishTarabagani",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "帝王蟹",
+      "de": "Königskrabbe",
+      "it": "granchio gigante",
+      "nl": "rode koningskrab",
+      "ru": "камчатский краб",
+      "ja": "タラバガニ",
+      "ko": "왕게",
+      "zh-tw": "鱈場蟹",
+      "en": "red king crab",
+      "es": "cangrejo boreal",
+      "fr": "crabe royal"
+    }
+  },
+  "2853": {
+    "fim": "FtrIcon/FtrDiveFishTakaashigani",
+    "sel": 12000,
+    "hac": "pet",
+    "sha": 4,
+    "spd": 5,
+    "nhd": [
+      2,
+      3
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      8,
+      9
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 80,
+    "csr": [
+      1,
+      2
+    ],
+    "sze": "2x2",
+    "vad": "1.3.0",
+    "gso": 29,
+    "img": "BookDiveFishIcon/DiveFishTakaashigani",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "高脚蟹",
+      "de": "Riesenkrabbe",
+      "it": "granchio gig. del Giappone",
+      "nl": "reuzenkrab",
+      "ru": "краб-паук",
+      "ja": "タカアシガニ",
+      "ko": "키다리게",
+      "zh-tw": "高腳蟹",
+      "en": "spider crab",
+      "es": "cangrejo gigante japonés",
+      "fr": "crabe-araignée géant"
+    }
+  },
+  "2854": {
+    "fim": "FtrIcon/FtrDiveFishTako",
+    "sel": 1200,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      2,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 20,
+    "img": "BookDiveFishIcon/DiveFishTako",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "章鱼",
+      "de": "Oktopus",
+      "fr-fr": "poulpe",
+      "it": "polpo",
+      "nl": "octopus",
+      "ru": "осьминог",
+      "ja": "タコ",
+      "ko": "문어",
+      "zh-tw": "章魚",
+      "fr-us": "pieuvre",
+      "en": "octopus",
+      "es": "pulpo"
+    }
+  },
+  "2855": {
+    "fim": "FtrIcon/FtrDiveFishChinanago",
+    "sel": 1100,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "csr": [
+      6,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 38,
+    "img": "BookDiveFishIcon/DiveFishChinanago",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "花园鳗",
+      "de": "Röhrenaal",
+      "it": "anguilla di giardino",
+      "nl": "gevlekte buisaal",
+      "ru": "леопардовый угорь",
+      "ja": "チンアナゴ",
+      "ko": "가든일",
+      "zh-tw": "花園鰻",
+      "en": "spotted garden eel",
+      "es": "anguila jardinera",
+      "fr": "anguille de jardin"
+    }
+  },
+  "2856": {
+    "fim": "FtrIcon/FtrDiveFishOumugai",
+    "sel": 1800,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      2,
+      5,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      8,
+      11
+    ],
+    "sht": [
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 19,
+    "img": "BookDiveFishIcon/DiveFishOumugai",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "鹦鹉螺",
+      "de": "Perlboot",
+      "it": "nautilus",
+      "nl": "nautilus",
+      "ru": "наутилус",
+      "ja": "オウムガイ",
+      "ko": "앵무조개",
+      "zh-tw": "鸚鵡螺",
+      "en": "chambered nautilus",
+      "es": "nautilo",
+      "fr": "nautile"
+    }
+  },
+  "2857": {
+    "fim": "FtrIcon/FtrDiveFishKabutogani",
+    "sel": 2500,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      5
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 36,
+    "img": "BookDiveFishIcon/DiveFishKabutogani",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "鲎",
+      "de": "Pfeilschwanzkrebs",
+      "it": "granchio ferro di cavallo",
+      "nl": "degenkrab",
+      "ru": "мечехвост",
+      "ja": "カブトガニ",
+      "ko": "투구게",
+      "zh-tw": "鱟",
+      "en": "horseshoe crab",
+      "es": "cangrejo herradura",
+      "fr": "limule"
+    }
+  },
+  "2858": {
+    "fim": "FtrIcon/FtrDiveFishDaiougusokumushi",
+    "sel": 12000,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 5,
+    "nhd": [
+      6,
+      9
+    ],
+    "nht": [
+      9,
+      16,
+      21,
+      4
+    ],
+    "shd": [
+      0,
+      3
+    ],
+    "sht": [
+      9,
+      16,
+      21,
+      4
+    ],
+    "cun": 80,
+    "csr": 1,
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 35,
+    "img": "BookDiveFishIcon/DiveFishDaiougusokumushi",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "大王具足虫",
+      "de": "Riesenassel",
+      "fr-fr": "bathynome géant",
+      "it": "isopode gigante",
+      "nl": "reuzenpissebed",
+      "ru": "гигантская изопода",
+      "ja": "ダイオウグソクムシ",
+      "ko": "자이언트 이소포드",
+      "zh-tw": "大王具足蟲",
+      "fr-us": "isopode géant",
+      "en": "giant isopod",
+      "es": "isópodo gigante"
+    }
+  },
+  "6920": {
+    "fim": "FtrIcon/FtrDiveFishHotaruika",
+    "sel": 1400,
+    "hac": "pet",
+    "sha": 0,
+    "spd": 2,
+    "nhd": [
+      2,
+      5
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      8,
+      11
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "csr": 6,
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 23,
+    "img": "BookDiveFishIcon/DiveFishHotaruika",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "萤火鱿",
+      "de": "Leuchtkalmar",
+      "it": "calamaro lucciola",
+      "nl": "vuurvliegpijlinktvis",
+      "ru": "сверкающий кальмар",
+      "ja": "ホタルイカ",
+      "ko": "반딧불오징어",
+      "zh-tw": "螢火魷",
+      "en": "firefly squid",
+      "es": "calamar luciérnaga",
+      "fr": "calmar luciole"
+    }
+  },
+  "7191": {
+    "fim": "FtrIcon/FtrDiveFishGazami",
+    "sel": 2200,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      5,
+      10
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      4
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      2,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 24,
+    "img": "BookDiveFishIcon/DiveFishGazami",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "梭子蟹",
+      "de": "Gazami-Krabbe",
+      "it": "granchio gazami",
+      "nl": "Japanse blauwe krab",
+      "ru": "газами-краб",
+      "ja": "ガザミ",
+      "ko": "꽃게",
+      "zh-tw": "三疣梭子蟹",
+      "en": "gazami crab",
+      "es": "cangrejo gazami",
+      "fr": "crabe gazami"
+    }
+  },
+  "7203": {
+    "fim": "FtrIcon/FtrDiveFishKoumoridako",
+    "sel": 10000,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 5,
+    "nhd": [
+      4,
+      7
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      10,
+      1
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 80,
+    "csr": 1,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 22,
+    "img": "BookDiveFishIcon/DiveFishKoumoridako",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "吸血鬼乌贼",
+      "de": "Vampirtintenfisch",
+      "it": "calamaro vampiro",
+      "nl": "vampierinktvis",
+      "ru": "адский кальмар-вампир",
+      "ja": "コウモリダコ",
+      "ko": "흡혈오징어",
+      "zh-tw": "吸血烏賊",
+      "en": "vampire squid",
+      "es": "calamar vampiro",
+      "fr": "vampire des abysses"
+    }
+  },
+  "7214": {
+    "fim": "FtrIcon/FtrDiveFishShakogai",
+    "sel": 15000,
+    "hac": "pet",
+    "sha": 4,
+    "spd": 5,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 80,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 18,
+    "img": "BookDiveFishIcon/DiveFishShakogai",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "大砗磲",
+      "de": "Gigas-Riesenmuschel",
+      "it": "tridacna gigante",
+      "nl": "reuzendoopvontschelp",
+      "ru": "гигантская тридакна",
+      "ja": "オオシャコガイ",
+      "ko": "대왕거거",
+      "zh-tw": "大硨磲",
+      "en": "gigas giant clam",
+      "es": "taclobo gigante",
+      "fr": "bénitier colossal"
+    }
+  },
+  "7228": {
+    "fim": "FtrIcon/FtrDiveFishHoya",
+    "sel": 1500,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      3,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      2,
+      6
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 37,
+    "img": "BookDiveFishIcon/DiveFishHoya",
+    "hab": "sea",
+    "loc": {
+      "de": "Seeananas",
+      "it": "ananas di mare",
+      "nl": "zeeananas",
+      "ru": "морской ананас",
+      "ja": "ホヤ",
+      "ko": "멍게",
+      "en": "sea pineapple",
+      "es": "piña de mar",
+      "fr": "halocynthia roretzi",
+      "zh": "海鞘"
+    }
+  },
+  "7245": {
+    "fim": "FtrIcon/FtrDiveFishMizukurage",
+    "sel": 600,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 1,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 9,
+    "img": "BookDiveFishIcon/DiveFishMizukurage",
+    "hab": "sea",
+    "loc": {
+      "de": "Ohrenqualle",
+      "it": "medusa aurelia",
+      "nl": "oorkwal",
+      "ru": "ушастая аурелия",
+      "ja": "ミズクラゲ",
+      "ko": "보름달물해파리",
+      "en": "moon jellyfish",
+      "es": "medusa luna",
+      "fr": "méduse lune",
+      "zh": "海月水母"
+    }
+  },
+  "7252": {
+    "fim": "FtrIcon/FtrDiveFishMendako",
+    "sel": 6000,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 4,
+    "nhd": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "cun": 40,
+    "csr": [
+      1,
+      3
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 21,
+    "img": "BookDiveFishIcon/DiveFishMendako",
+    "hab": "sea",
+    "loc": {
+      "de": "Regenschirm-Oktopus",
+      "it": "polpo ombrello",
+      "nl": "depressa-inktvis",
+      "ru": "опистотейтис",
+      "ja": "メンダコ",
+      "ko": "우무문어",
+      "en": "umbrella octopus",
+      "es": "pulpo paraguas",
+      "fr": "pieuvre parapluie",
+      "zh": "扁面蛸"
+    }
+  },
+  "7267": {
+    "fim": "FtrIcon/FtrDiveFishPaipuuni",
+    "sel": 2000,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      4
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 7,
+    "img": "BookDiveFishIcon/DiveFishPaipuuni",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "石笔海胆",
+      "de": "Griffelseeigel",
+      "it": "riccio matita",
+      "nl": "griffelzee-egel",
+      "ru": "грифельный морск. еж",
+      "ja": "パイプウニ",
+      "ko": "연필성게",
+      "zh-tw": "石筆海膽",
+      "en": "slate pencil urchin",
+      "es": "erizo lápiz de pizarra",
+      "fr": "oursin crayon"
+    }
+  },
+  "7278": {
+    "fim": "FtrIcon/FtrDiveFishBaigai",
+    "sel": 1000,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      1,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 15,
+    "img": "BookDiveFishIcon/DiveFishBaigai",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "花螺",
+      "de": "Babylon-Seeschnecke",
+      "it": "buccino",
+      "nl": "wulk",
+      "ru": "моллюск-трубач",
+      "ja": "バイガイ",
+      "ko": "수랑",
+      "zh-tw": "峨螺",
+      "en": "whelk",
+      "es": "buccino",
+      "fr": "bulot"
+    }
+  },
+  "7303": {
+    "fim": "FtrIcon/FtrDiveFishSenjunamako",
+    "sel": 10000,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 5,
+    "nhd": [
+      10,
+      1
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      4,
+      7
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 80,
+    "csr": 1,
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 4,
+    "img": "BookDiveFishIcon/DiveFishSenjunamako",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "海猪",
+      "de": "Scotoplanes",
+      "it": "porcellino di mare",
+      "nl": "zeevarken",
+      "ru": "скотопланес",
+      "ja": "センジュナマコ",
+      "ko": "바다돼지",
+      "zh-tw": "海豬",
+      "en": "sea pig",
+      "es": "cerdo de mar",
+      "fr": "cochon de mer"
+    }
+  },
+  "7308": {
+    "fim": "FtrIcon/FtrDiveFishDungenessCrab",
+    "sel": 1900,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 3,
+    "nhd": [
+      10,
+      4
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      10
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 25,
+    "img": "BookDiveFishIcon/DiveFishDungenessCrab",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "珍宝蟹",
+      "de": "Pazifik-Taschenkrebs",
+      "it": "granciporro",
+      "nl": "Dungeness-krab",
+      "ru": "данженесский краб",
+      "ja": "ダンジネスクラブ",
+      "ko": "던지니스크랩",
+      "zh-tw": "首長黃道蟹",
+      "en": "Dungeness crab",
+      "es": "buey del Pacífico",
+      "fr": "crabe de Dungeness"
+    }
+  },
+  "7318": {
+    "fim": "FtrIcon/FtrDiveFishKairoudouketsu",
+    "sel": 5000,
+    "hac": "pet",
+    "sha": 2,
+    "spd": 4,
+    "nhd": [
+      9,
+      1
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      3,
+      7
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 40,
+    "csr": [
+      1,
+      3
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "vad": "1.3.0",
+    "gso": 40,
+    "img": "BookDiveFishIcon/DiveFishKairoudouketsu",
+    "hab": "sea",
+    "loc": {
+      "de": "Gießkannenschwamm",
+      "it": "cestello di Venere",
+      "nl": "venusmandje",
+      "ru": "корзинка Венеры",
+      "ja": "カイロウドウケツ",
+      "ko": "해로동혈",
+      "en": "Venus' flower basket",
+      "es": "canasta de flores de Venus",
+      "fr": "corbeille de Vénus",
+      "zh": "偕老同穴"
+    }
+  },
+  "7411": {
+    "fim": "FtrIcon/FtrDiveFishMuhrugai",
+    "sel": 1500,
+    "hac": "pet",
+    "sha": 1,
+    "spd": 2,
+    "nhd": [
+      5,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      5
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      3,
+      8
+    ],
+    "sze": "1x1",
+    "vad": "1.3.0",
+    "gso": 12,
+    "img": "BookDiveFishIcon/DiveFishMuhrugai",
+    "hab": "sea",
+    "loc": {
+      "zh-cn": "贻贝",
+      "de": "Miesmuschel",
+      "it": "cozza",
+      "nl": "mossel",
+      "ru": "мидия",
+      "ja": "ムールガイ",
+      "ko": "지중해담치",
+      "zh-tw": "貽貝",
+      "en": "mussel",
+      "es": "mejillón",
+      "fr": "moule"
+    }
+  }
+}

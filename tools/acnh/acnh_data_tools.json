@@ -1,0 +1,6125 @@
+{
+  "321": {
+    "img": "FtrIcon/ToolSensu3",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "嫩绿色扇子",
+      "de": "Grasgrün-Fächer",
+      "it": "ventaglio verde erba",
+      "nl": "grasgroene waaier",
+      "ru": "изумрудный веер",
+      "ja": "わかくさのせんす",
+      "ko": "어린잎색 쥘부채",
+      "zh-tw": "嫩綠色扇子",
+      "en": "grass-green folding fan",
+      "es": "abanico verde hierba",
+      "fr": "éventail vert herbe"
+    }
+  },
+  "322": {
+    "img": "FtrIcon/ToolSensu2",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Orange-Fächer",
+      "fr-fr": "éventail orange amère",
+      "it": "ventaglio arancia amara",
+      "nl": "oranje waaier",
+      "ru": "померанцевый веер",
+      "ja": "だいだいのせんす",
+      "ko": "노을색 쥘부채",
+      "fr-us": "éventail orange amer",
+      "en": "bitter-orange folding fan",
+      "es": "abanico naranja amarga",
+      "zh": "橙色扇子"
+    }
+  },
+  "323": {
+    "img": "FtrIcon/ToolSensu1",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "天空蓝扇子",
+      "de": "Himmelblau-Fächer",
+      "it": "ventaglio azzurro cielo",
+      "nl": "hemelsblauwe waaier",
+      "ru": "небесно-голубой веер",
+      "ja": "そらいろのせんす",
+      "ko": "하늘색 쥘부채",
+      "zh-tw": "天空藍扇子",
+      "en": "sky-blue folding fan",
+      "es": "abanico azul cielo",
+      "fr": "éventail bleu ciel"
+    }
+  },
+  "324": {
+    "img": "FtrIcon/ToolIcesoft4",
+    "clr": [
+      "colorful",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "彩虹软冰淇淋",
+      "de": "Regenbogen-Softeis",
+      "es-es": "barquillo arcoíris",
+      "fr-fr": "glace italienne arc-en-ciel",
+      "it": "gelato soft arcobaleno",
+      "nl": "regenboogsoftijsje",
+      "ru": "радужное желато",
+      "ja": "レインボーソフトクリーム",
+      "ko": "레인보우 소프트아이스크림",
+      "zh-tw": "彩虹霜淇淋",
+      "es-us": "cono arcoíris",
+      "fr-us": "crème molle arc-en-ciel",
+      "en": "rainbow soft serve"
+    }
+  },
+  "325": {
+    "img": "FtrIcon/ToolIcesoft3",
+    "clr": [
+      "pink",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "rbt04",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "草莓&香草软冰淇淋",
+      "de": "Erdbeer-Vanille-Softeis",
+      "es-es": "barquillo vainilla y cereza",
+      "fr-fr": "glace italienne baies-vanille",
+      "it": "gelato soft vaniglia-ciliegia",
+      "nl": "aardbei-vanillesoftijsje",
+      "ru": "ягодно-ванильное желато",
+      "ja": "ストロベリー＆バニラソフト",
+      "ko": "딸기&바닐라 소프트아이스크림",
+      "zh-tw": "草莓&香草霜淇淋",
+      "es-us": "cono de vainilla y cereza",
+      "fr-us": "crème molle baies vanille",
+      "en": "berry-vanilla soft serve"
+    }
+  },
+  "326": {
+    "img": "FtrIcon/ToolIcesoft2",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "抹茶&香草软冰淇淋",
+      "de": "Matcha-Vanille-Softeis",
+      "es-es": "barquillo vainilla y té verde",
+      "fr-fr": "glace ital. matcha-vanille",
+      "it": "gelato soft vaniglia-tè verde",
+      "nl": "matcha-vanillesoftijsje",
+      "ru": "маття-ванильное желато",
+      "ja": "まっちゃ&バニラソフト",
+      "ko": "녹차&바닐라 소프트아이스크림",
+      "zh-tw": "抹茶&香草霜淇淋",
+      "es-us": "cono de vainilla y té verde",
+      "fr-us": "crème molle matcha vanille",
+      "en": "matcha-vanilla soft serve"
+    }
+  },
+  "327": {
+    "img": "FtrIcon/ToolIcesoft1",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "rbt14",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "巧克力软冰淇淋",
+      "de": "Schoko-Softeis",
+      "es-es": "barquillo de chocolate",
+      "fr-fr": "glace italienne chocolat",
+      "it": "gelato soft al cioccolato",
+      "nl": "chocoladesoftijsje",
+      "ru": "шоколадное желато",
+      "ja": "チョコレートソフトクリーム",
+      "ko": "초콜릿 소프트아이스크림",
+      "zh-tw": "巧克力霜淇淋",
+      "es-us": "cono de chocolate",
+      "fr-us": "crème molle chocolat",
+      "en": "chocolate soft serve"
+    }
+  },
+  "332": {
+    "img": "FtrIcon/ToolDonutPlayer3",
+    "clr": "green",
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Matcha-Donut",
+      "fr-fr": "beignet au matcha",
+      "it": "ciambella al tè verde",
+      "nl": "matchadonut",
+      "ru": "пончик с маття",
+      "ja": "まっちゃドーナツ",
+      "ko": "녹차 도넛",
+      "fr-us": "beigne au matcha",
+      "en": "matcha donut",
+      "es": "rosquilla de té verde",
+      "zh": "抹茶甜甜圈"
+    }
+  },
+  "334": {
+    "img": "FtrIcon/ToolDonutPlayer2",
+    "clr": "pink",
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Erdbeer-Donut",
+      "fr-fr": "beignet à la fraise",
+      "it": "ciambella alla fragola",
+      "nl": "aardbeiendonut",
+      "ru": "клубничный пончик",
+      "ja": "ストロベリードーナツ",
+      "ko": "딸기 도넛",
+      "fr-us": "beigne à la fraise",
+      "en": "strawberry donut",
+      "es": "rosquilla de fresa",
+      "zh": "草莓甜甜圈"
+    }
+  },
+  "337": {
+    "img": "FtrIcon/ToolDonutPlayer1",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "rbt04",
+      "rbt14"
+    ],
+    "loc": {
+      "de": "Weiße-Schokolade-Donut",
+      "fr-fr": "beignet au chocolat blanc",
+      "it": "ciambella cioccolato bianco",
+      "nl": "witte-chocoladedonut",
+      "ru": "пончик с бел. шоколадом",
+      "ja": "ホワイトチョコドーナツ",
+      "ko": "화이트 초콜릿 도넛",
+      "fr-us": "beigne au chocolat blanc",
+      "en": "white-chocolate donut",
+      "es": "rosquilla chocolate blanco",
+      "zh": "白巧克力甜甜圈"
+    }
+  },
+  "773": {
+    "img": "FtrIcon/ToolScoopDream_Remake_0_0",
+    "clr": "black",
+    "sel": 222,
+    "ccp": 1000,
+    "use": 40,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境铲子",
+      "de": "Schlummer-Schaufel",
+      "it": "pala sognidoro",
+      "nl": "droomschep",
+      "ru": "лопата грез",
+      "ja": "ゆめのスコップ",
+      "ko": "꿈속의 삽",
+      "zh-tw": "夢境鏟子",
+      "en": "dream shovel",
+      "es": "pala onírica",
+      "fr": "pelle onirique"
+    }
+  },
+  "775": {
+    "img": "FtrIcon/ToolAxeDream",
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "sel": 222,
+    "use": 40,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境斧头",
+      "de": "Schlummer-Axt",
+      "it": "ascia sognidoro",
+      "nl": "droombijl",
+      "ru": "топор грез",
+      "ja": "ゆめのオノ",
+      "ko": "꿈속의 도끼",
+      "zh-tw": "夢境斧頭",
+      "en": "dream axe",
+      "es": "hacha onírica",
+      "fr": "hache onirique"
+    }
+  },
+  "776": {
+    "img": "FtrIcon/ToolAnglingDream_Remake_0_0",
+    "clr": [
+      "blue",
+      "beige"
+    ],
+    "sel": 222,
+    "ccp": 1000,
+    "vec": true,
+    "use": 10,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境钓竿",
+      "de": "Schlummer-Angel",
+      "it": "canna da pesca sognidoro",
+      "nl": "droomhengel",
+      "ru": "удочка грез",
+      "ja": "ゆめのつりざお",
+      "ko": "꿈속의 낚싯대",
+      "zh-tw": "夢境釣竿",
+      "en": "dream fishing rod",
+      "es": "caña onírica",
+      "fr": "canne à pêche onirique"
+    }
+  },
+  "777": {
+    "img": "FtrIcon/ToolLadderDream",
+    "clr": "brown",
+    "sel": 222,
+    "use": 0,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境梯子",
+      "de": "Schlummer-Leiter",
+      "it": "scala a pioli sognidoro",
+      "nl": "droomladder",
+      "ru": "лестница грез",
+      "ja": "ゆめのはしご",
+      "ko": "꿈속의 사다리",
+      "zh-tw": "夢境梯子",
+      "en": "dream ladder",
+      "es": "escalera de mano onírica",
+      "fr": "échelle onirique"
+    }
+  },
+  "778": {
+    "img": "FtrIcon/LongWoodenStickDream",
+    "clr": [
+      "beige",
+      "red"
+    ],
+    "sel": 222,
+    "use": 0,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境撑杆跳竿子",
+      "de": "Schlummer-Sprungstab",
+      "es-es": "pértiga onírica",
+      "it": "asta da salto sognidoro",
+      "nl": "droompolsstok",
+      "ru": "шест грез",
+      "ja": "ゆめのたかとびぼう",
+      "ko": "꿈속의 높이뛰기 장대",
+      "zh-tw": "夢境撐竿跳竿子",
+      "es-us": "garrocha onírica",
+      "en": "dream vaulting pole",
+      "fr": "perche onirique"
+    }
+  },
+  "779": {
+    "img": "FtrIcon/ToolNetDream_Remake_0_0",
+    "clr": [
+      "red",
+      "beige"
+    ],
+    "sel": 222,
+    "ccp": 1000,
+    "vec": true,
+    "use": 10,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境捕虫网",
+      "de": "Schlummer-Kescher",
+      "it": "retino sognidoro",
+      "nl": "droomnet",
+      "ru": "сачок грез",
+      "ja": "ゆめのあみ",
+      "ko": "꿈속의 잠자리채",
+      "zh-tw": "夢境捕蟲網",
+      "en": "dream net",
+      "es": "red onírica",
+      "fr": "filet onirique"
+    }
+  },
+  "1048": {
+    "img": "FtrIcon/ToolStickTri0",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 3332,
+    "buy": 13330,
+    "hap": 201,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "de": "Tri-Stab",
+      "it": "bastone di Tri",
+      "nl": "Tri's staf",
+      "ru": "жезл Трифа",
+      "ja": "トリィロッド",
+      "ko": "트리 로드",
+      "en": "Tri Rod",
+      "es": "cetro de Tri",
+      "fr": "sceptre de Tri",
+      "zh": "托力之杖"
+    }
+  },
+  "1073": {
+    "img": "FtrIcon/ToolOcarinaTime",
+    "clr": [
+      "purple",
+      "blue"
+    ],
+    "sel": 625,
+    "buy": 2500,
+    "hap": 201,
+    "has": "fantasy",
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "时之笛",
+      "de": "Okarina der Zeit",
+      "it": "ocarina del tempo",
+      "nl": "Ocarina des Tijds",
+      "ru": "окарина времени",
+      "ja": "ときのオカリナ",
+      "ko": "시간의 오카리나",
+      "zh-tw": "時之笛",
+      "en": "Ocarina of Time",
+      "es": "Ocarina del Tiempo",
+      "fr": "ocarina du temps"
+    }
+  },
+  "1130": {
+    "img": "FtrIcon/ToolMegaphoneMike",
+    "clr": [
+      "white",
+      "red"
+    ],
+    "sel": 875,
+    "buy": 3500,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "shop_enablemegaphone",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "手持扩音器",
+      "de": "Megafon",
+      "it": "megafono",
+      "nl": "megafoon",
+      "ru": "мегафон",
+      "ja": "メガホン",
+      "ko": "메가폰",
+      "zh-tw": "大聲公",
+      "en": "megaphone",
+      "es": "megáfono",
+      "fr": "mégaphone"
+    }
+  },
+  "1233": {
+    "img": "MenuIcon/Transceiver",
+    "use": 0,
+    "sze": "1x1",
+    "src": "resetti",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "对讲机",
+      "de": "Funkgerät",
+      "it": "ricetrasmittente",
+      "nl": "zendontvanger",
+      "ru": "рация",
+      "ja": "トランシーバー",
+      "ko": "무전기",
+      "zh-tw": "對講機",
+      "en": "transceiver",
+      "es": "walkie-talkie",
+      "fr": "transmetteur"
+    }
+  },
+  "1315": {
+    "img": "FtrIcon/ToolTimerDream",
+    "sel": 222,
+    "use": 0,
+    "sze": "1x1",
+    "src": "slumber_islands",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "梦境计时器",
+      "de": "Schlummer-Stoppuhr",
+      "it": "cronometro sognidoro",
+      "nl": "droomstopwatch",
+      "ru": "таймер грез",
+      "ja": "ゆめのタイマー",
+      "ko": "꿈속의 타이머",
+      "zh-tw": "夢境計時器",
+      "en": "dream timer",
+      "es": "cronómetro onírico",
+      "fr": "chronomètre onirique"
+    }
+  },
+  "2099": {
+    "ipf": "FtrIcon/ToolScoop_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "pink",
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "white",
+        "black"
+      ],
+      "black"
+    ],
+    "sel": 600,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "cat": true,
+    "bcu": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "ant00",
+      "bea13",
+      "cbr05",
+      "dog14",
+      "goa01",
+      "gor02",
+      "hrs03",
+      "mnk08",
+      "mus09",
+      "pig08"
+    ],
+    "loc": {
+      "zh-cn": "铲子",
+      "de": "Schaufel",
+      "it": "pala",
+      "nl": "schep",
+      "ru": "лопата",
+      "ja": "スコップ",
+      "ko": "삽",
+      "zh-tw": "鏟子",
+      "en": "shovel",
+      "es": "pala",
+      "fr": "pelle"
+    }
+  },
+  "2100": {
+    "img": "FtrIcon/ToolAxe",
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "sel": 625,
+    "buy": 2500,
+    "ord": true,
+    "cat": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store"
+    ],
+    "hui": [
+      "bul01",
+      "chn10",
+      "crd06",
+      "flg09",
+      "goa01",
+      "ham02",
+      "ham05",
+      "hrs10",
+      "lon01",
+      "mnk09",
+      "mus03",
+      "ost04",
+      "pgn05"
+    ],
+    "loc": {
+      "zh-cn": "斧头",
+      "de": "Axt",
+      "it": "ascia",
+      "nl": "bijl",
+      "ru": "топор",
+      "ja": "オノ",
+      "ko": "도끼",
+      "zh-tw": "斧頭",
+      "en": "axe",
+      "es": "hacha",
+      "fr": "hache"
+    }
+  },
+  "2376": {
+    "img": "FtrIcon/ToolNet",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 100,
+    "buy": 400,
+    "exp": 100,
+    "exc": 0,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "use": 10,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store",
+      "wilbur",
+      "kappn"
+    ],
+    "loc": {
+      "zh-cn": "简陋捕虫网",
+      "de": "Wackelkescher",
+      "es-es": "red endeble",
+      "it": "retino fragile",
+      "nl": "breekbaar net",
+      "ru": "непрочный сачок",
+      "ja": "ショボいあみ",
+      "ko": "엉성한 잠자리채",
+      "zh-tw": "簡陋捕蟲網",
+      "es-us": "red frágil",
+      "en": "flimsy net",
+      "fr": "filet rudimentaire"
+    }
+  },
+  "2377": {
+    "ipf": "FtrIcon/ToolAngling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "blue",
+      "yellow",
+      "green",
+      "red",
+      "purple",
+      "pink",
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "sel": 600,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "brd09",
+      "crd02",
+      "ham02",
+      "mus03"
+    ],
+    "loc": {
+      "zh-cn": "钓竿",
+      "de": "Angel",
+      "it": "canna da pesca",
+      "nl": "hengel",
+      "ru": "удочка",
+      "ja": "つりざお",
+      "ko": "낚싯대",
+      "zh-tw": "釣竿",
+      "en": "fishing rod",
+      "es": "caña",
+      "fr": "canne à pêche"
+    }
+  },
+  "2379": {
+    "ipf": "FtrIcon/ToolWatering_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "blue",
+      "orange",
+      "green",
+      "red",
+      "purple",
+      "pink",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "blue",
+      "orange",
+      "green",
+      "red",
+      "purple",
+      "pink",
+      "white",
+      "black"
+    ],
+    "sel": 600,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 60,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bea08",
+      "bea13",
+      "cow01",
+      "mnk08",
+      "mnk09",
+      "ost10",
+      "pig08"
+    ],
+    "loc": {
+      "zh-cn": "浇花壶",
+      "de": "Gießkanne",
+      "it": "annaffiatoio",
+      "nl": "gieter",
+      "ru": "лейка",
+      "ja": "ジョウロ",
+      "ko": "물뿌리개",
+      "zh-tw": "澆花壺",
+      "en": "watering can",
+      "es": "regadera",
+      "fr": "arrosoir"
+    }
+  },
+  "2544": {
+    "img": "FtrIcon/ToolChangeStick",
+    "clr": [
+      "yellow",
+      "aqua"
+    ],
+    "sel": 6500,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bul00",
+      "cow07",
+      "ost05",
+      "shp08"
+    ],
+    "loc": {
+      "de": "Sternenstab",
+      "it": "bacchetta stella",
+      "nl": "sterrenstaf",
+      "ru": "палочка со звездой",
+      "ja": "スターなステッキ",
+      "ko": "별 지팡이",
+      "en": "star wand",
+      "es": "varita estrella",
+      "fr": "baguette étoile",
+      "zh": "星星棒"
+    }
+  },
+  "2615": {
+    "img": "FtrIcon/ToolLadder",
+    "clr": "brown",
+    "sel": 1440,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "flg09",
+      "mus03",
+      "mus05",
+      "pig03"
+    ],
+    "loc": {
+      "de": "Leiter",
+      "it": "scala a pioli",
+      "nl": "ladder",
+      "ru": "лестница",
+      "ja": "はしご",
+      "ko": "사다리",
+      "en": "ladder",
+      "es": "escalera de mano",
+      "fr": "échelle",
+      "zh": "梯子"
+    }
+  },
+  "2753": {
+    "img": "FtrIcon/ToolCracker",
+    "clr": [
+      "red",
+      "yellow"
+    ],
+    "sel": 25,
+    "buy": 100,
+    "stk": 10,
+    "ord": true,
+    "cat": true,
+    "use": 1,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "tom_nook"
+    ],
+    "evt": "countdown",
+    "loc": {
+      "de": "Partyknaller",
+      "it": "sparacoriandoli",
+      "nl": "confettiknaller",
+      "ru": "хлопушка",
+      "ja": "クラッカー",
+      "ko": "파티용 폭죽",
+      "en": "party popper",
+      "es": "cañón de confeti",
+      "fr": "pétard",
+      "zh": "拉炮"
+    }
+  },
+  "2822": {
+    "ipf": "FtrIcon/ToolSlingshot_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "pink",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "gray",
+        "beige"
+      ]
+    ],
+    "sel": 225,
+    "buy": 900,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 20,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store"
+    ],
+    "hui": "mus03",
+    "loc": {
+      "zh-cn": "弹弓",
+      "de": "Schleuder",
+      "es-es": "tirachinas",
+      "it": "fionda",
+      "nl": "katapult",
+      "ru": "рогатка",
+      "ja": "パチンコ",
+      "ko": "새총",
+      "zh-tw": "彈弓",
+      "es-us": "resortera",
+      "en": "slingshot",
+      "fr": "lance-pierre"
+    }
+  },
+  "3068": {
+    "img": "FtrIcon/ToolAxeStone",
+    "clr": [
+      "beige",
+      "gray"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 100,
+    "exc": 0,
+    "ord": true,
+    "cat": true,
+    "use": 40,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store",
+      "wilbur",
+      "kappn"
+    ],
+    "loc": {
+      "zh-cn": "简陋斧头",
+      "de": "Wackelaxt",
+      "es-es": "hacha endeble",
+      "it": "ascia fragile",
+      "nl": "breekbare bijl",
+      "ru": "непрочный топор",
+      "ja": "ショボいオノ",
+      "ko": "엉성한 도끼",
+      "zh-tw": "簡陋斧頭",
+      "es-us": "hacha frágil",
+      "en": "flimsy axe",
+      "fr": "hache rudimentaire"
+    }
+  },
+  "3082": {
+    "img": "FtrIcon/ToolShovelWood",
+    "clr": "beige",
+    "sel": 200,
+    "buy": 800,
+    "exp": 100,
+    "exc": 0,
+    "ord": true,
+    "cat": true,
+    "use": 40,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store",
+      "wilbur",
+      "kappn"
+    ],
+    "loc": {
+      "zh-cn": "简陋铲子",
+      "de": "Wackelschaufel",
+      "es-es": "pala endeble",
+      "it": "pala fragile",
+      "nl": "breekbare schep",
+      "ru": "непрочная лопата",
+      "ja": "ショボいスコップ",
+      "ko": "엉성한 삽",
+      "zh-tw": "簡陋鏟子",
+      "es-us": "pala frágil",
+      "en": "flimsy shovel",
+      "fr": "pelle rudimentaire"
+    }
+  },
+  "3083": {
+    "img": "FtrIcon/ToolWateringWood",
+    "clr": [
+      "beige",
+      "gray"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "use": 20,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store"
+    ],
+    "loc": {
+      "zh-cn": "简陋浇花壶",
+      "de": "Wackelgießkanne",
+      "es-es": "regadera endeble",
+      "it": "annaffiatoio fragile",
+      "nl": "breekbare gieter",
+      "ru": "непрочная лейка",
+      "ja": "ショボいジョウロ",
+      "ko": "엉성한 물뿌리개",
+      "zh-tw": "簡陋澆花壺",
+      "es-us": "regadera frágil",
+      "en": "flimsy watering can",
+      "fr": "arrosoir rudimentaire"
+    }
+  },
+  "3084": {
+    "img": "FtrIcon/ToolFishingrodWood",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 100,
+    "buy": 400,
+    "exp": 100,
+    "exc": 0,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "use": "5 – 10",
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store",
+      "wilbur",
+      "kappn"
+    ],
+    "loc": {
+      "zh-cn": "简陋钓竿",
+      "de": "Wackelangel",
+      "es-es": "caña endeble",
+      "it": "canna da pesca fragile",
+      "nl": "breekbare hengel",
+      "ru": "непрочная удочка",
+      "ja": "ショボいつりざお",
+      "ko": "엉성한 낚싯대",
+      "zh-tw": "簡陋釣竿",
+      "es-us": "caña frágil",
+      "en": "flimsy fishing rod",
+      "fr": "canne à pêche rudimentaire"
+    }
+  },
+  "3331": {
+    "img": "FtrIcon/ToolTimer",
+    "sel": 210,
+    "buy": 840,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "brd04",
+      "cat14",
+      "cat17",
+      "flg06",
+      "pbr10",
+      "pgn09",
+      "rbt06"
+    ],
+    "loc": {
+      "zh-cn": "计时器",
+      "de": "Stoppuhr",
+      "it": "cronometro",
+      "nl": "stopwatch",
+      "ru": "таймер",
+      "ja": "タイマー",
+      "ko": "타이머",
+      "zh-tw": "計時器",
+      "en": "timer",
+      "es": "cronómetro",
+      "fr": "chrono"
+    }
+  },
+  "4386": {
+    "img": "FtrIcon/ToolBubblesNormal",
+    "clr": "pink",
+    "sel": 37,
+    "buy": 150,
+    "exp": 500,
+    "exc": 8,
+    "stk": 10,
+    "ord": true,
+    "cat": true,
+    "use": 1,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "dog07",
+      "ost07",
+      "rbt12"
+    ],
+    "loc": {
+      "de": "Seifenblasenset",
+      "es-es": "lanzapompas",
+      "it": "sparabolle",
+      "nl": "flesje bellenblaas",
+      "ru": "набор для пузырей",
+      "ja": "シャボンだま",
+      "ko": "비눗방울",
+      "es-us": "lanzaburbujas",
+      "en": "bubble blower",
+      "fr": "lance-bulles",
+      "zh": "肥皂泡"
+    }
+  },
+  "4703": {
+    "img": "FtrIcon/LongWoodenStick",
+    "clr": [
+      "beige",
+      "red"
+    ],
+    "sel": 600,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "mnk07",
+    "loc": {
+      "zh-cn": "撑杆跳竿子",
+      "de": "Sprungstab",
+      "es-es": "pértiga",
+      "it": "asta da salto",
+      "nl": "polsstok",
+      "ru": "шест",
+      "ja": "たかとびぼう",
+      "ko": "높이뛰기 장대",
+      "zh-tw": "撐竿跳竿子",
+      "es-us": "garrocha",
+      "en": "vaulting pole",
+      "fr": "perche"
+    }
+  },
+  "5083": {
+    "img": "FtrIcon/ToolStickHyacinth",
+    "clr": [
+      "pink",
+      "green"
+    ],
+    "sel": 1660,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "风信子棒",
+      "de": "Hyazinthenstab",
+      "it": "bacchetta giacinto",
+      "nl": "hyacintenstaf",
+      "ru": "палочка с гиацинтом",
+      "ja": "ヒヤシンスのステッキ",
+      "ko": "히아신스 지팡이",
+      "zh-tw": "風信子棒",
+      "en": "hyacinth wand",
+      "es": "varita jacinto",
+      "fr": "baguette jacinthe"
+    }
+  },
+  "5084": {
+    "img": "FtrIcon/ToolStickAnemones",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "银莲花棒",
+      "de": "Anemonenstab",
+      "it": "bacchetta anemone",
+      "nl": "anemonenstaf",
+      "ru": "палочка с ветреницей",
+      "ja": "アネモネのステッキ",
+      "ko": "아네모네 지팡이",
+      "zh-tw": "銀蓮花棒",
+      "en": "windflower wand",
+      "es": "varita anémona",
+      "fr": "baguette anémone"
+    }
+  },
+  "5085": {
+    "img": "FtrIcon/ToolStickTulip",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "pbr09",
+    "loc": {
+      "zh-cn": "郁金香棒",
+      "de": "Tulpenstab",
+      "it": "bacchetta tulipano",
+      "nl": "tulpenstaf",
+      "ru": "палочка с тюльпаном",
+      "ja": "チューリップのステッキ",
+      "ko": "튤립 지팡이",
+      "zh-tw": "鬱金香棒",
+      "en": "tulip wand",
+      "es": "varita tulipán",
+      "fr": "baguette tulipe"
+    }
+  },
+  "5091": {
+    "img": "FtrIcon/ToolStickPansy",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "de": "Veilchenstab",
+      "it": "bacchetta viola",
+      "nl": "viooltjesstaf",
+      "ru": "палочка с фиалкой",
+      "ja": "パンジーのステッキ",
+      "ko": "팬지 지팡이",
+      "en": "pansy wand",
+      "es": "varita viola",
+      "fr": "baguette pensée",
+      "zh": "三色堇棒"
+    }
+  },
+  "5092": {
+    "img": "FtrIcon/ToolStickCosmos",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "de": "Cosmeastab",
+      "it": "bacchetta cosmea",
+      "nl": "cosmeastaf",
+      "ru": "палочка с космеей",
+      "ja": "コスモスのステッキ",
+      "ko": "코스모스 지팡이",
+      "en": "cosmos wand",
+      "es": "varita cosmos",
+      "fr": "baguette cosmos",
+      "zh": "波斯菊棒"
+    }
+  },
+  "5093": {
+    "img": "FtrIcon/ToolStickRose",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "goa06",
+    "loc": {
+      "de": "Rosenstab",
+      "it": "bacchetta rosa",
+      "nl": "rozenstaf",
+      "ru": "палочка с розой",
+      "ja": "バラのステッキ",
+      "ko": "장미 지팡이",
+      "en": "rose wand",
+      "es": "varita rosa",
+      "fr": "baguette rose",
+      "zh": "玫瑰棒"
+    }
+  },
+  "5094": {
+    "img": "FtrIcon/ToolStickYuri",
+    "clr": [
+      "white",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "goa06",
+    "loc": {
+      "de": "Lilienstab",
+      "it": "bacchetta giglio",
+      "nl": "leliestaf",
+      "ru": "палочка с лилией",
+      "ja": "ユリのステッキ",
+      "ko": "백합 지팡이",
+      "en": "lily wand",
+      "es": "varita lirio",
+      "fr": "baguette lys",
+      "zh": "百合棒"
+    }
+  },
+  "5095": {
+    "img": "FtrIcon/ToolStickChrysanthemum",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 1580,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "de": "Chrysanthemenstab",
+      "it": "bacchetta crisantemo",
+      "nl": "chrysantenstaf",
+      "ru": "палочка с хризантемой",
+      "ja": "キクのステッキ",
+      "ko": "국화 지팡이",
+      "en": "mums wand",
+      "es": "varita crisantemo",
+      "fr": "baguette chrysanthème",
+      "zh": "菊花棒"
+    }
+  },
+  "5319": {
+    "img": "FtrIcon/ToolPaperFan",
+    "clr": [
+      "blue",
+      "purple"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "dog10",
+      "dog17"
+    ],
+    "loc": {
+      "de": "Uchiwa-Fächer",
+      "es-es": "paipay",
+      "it": "ventaglio uchiwa",
+      "nl": "uchiwa-waaier",
+      "ru": "веер утива",
+      "ja": "うちわ",
+      "ko": "둥글부채",
+      "es-us": "abanico paipay",
+      "en": "uchiwa fan",
+      "fr": "éventail uchiwa",
+      "zh": "扇子"
+    }
+  },
+  "5320": {
+    "img": "FtrIcon/ToolOcarina",
+    "clr": "beige",
+    "sel": 1000,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "lon01",
+      "mus02",
+      "ost03"
+    ],
+    "loc": {
+      "de": "Okarina",
+      "it": "ocarina",
+      "nl": "ocarina",
+      "ru": "окарина",
+      "ja": "オカリナ",
+      "ko": "오카리나",
+      "en": "ocarina",
+      "es": "ocarina",
+      "fr": "ocarina",
+      "zh": "陶笛"
+    }
+  },
+  "5430": {
+    "img": "FtrIcon/ToolTambourine",
+    "clr": [
+      "white",
+      "beige"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 103,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bea10",
+      "brd03",
+      "kal04",
+      "ost03"
+    ],
+    "loc": {
+      "zh-cn": "铃鼓",
+      "de": "Tamburin",
+      "it": "tamburello",
+      "nl": "tamboerijn",
+      "ru": "бубен",
+      "ja": "タンバリン",
+      "ko": "탬버린",
+      "zh-tw": "鈴鼓",
+      "en": "tambourine",
+      "es": "pandereta",
+      "fr": "tambourin"
+    }
+  },
+  "5517": {
+    "img": "FtrIcon/ToolPanpipe",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 2800,
+    "hap": 201,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "hui": [
+      "lon01",
+      "ost03"
+    ],
+    "loc": {
+      "de": "Panflöte",
+      "it": "flauto di Pan",
+      "nl": "panfluit",
+      "ru": "многоствольная флейта",
+      "ja": "パンフルート",
+      "ko": "팬파이프",
+      "en": "pan flute",
+      "es": "sicu",
+      "fr": "flûte de pan",
+      "zh": "排笛"
+    }
+  },
+  "5741": {
+    "img": "FtrIcon/ToolSticklight",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "isabelle",
+      "nook_store"
+    ],
+    "evt": "countdown",
+    "loc": {
+      "zh-cn": "荧光棒",
+      "de": "Leuchtstab",
+      "it": "bastoncino luminoso",
+      "nl": "lichtstaafje",
+      "ru": "светящаяся палочка",
+      "ja": "スティックライト",
+      "ko": "형광봉",
+      "zh-tw": "螢光棒",
+      "en": "light stick",
+      "es": "vara de luz",
+      "fr": "baguette fluo"
+    }
+  },
+  "5742": {
+    "img": "FtrIcon/ToolBlowouts",
+    "clr": [
+      "yellow",
+      "aqua"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "loc": {
+      "zh-cn": "派对吹笛",
+      "de": "Tröte",
+      "es-es": "matasuegras",
+      "fr-fr": "sans-gêne",
+      "it": "trombetta di Capodanno",
+      "nl": "roltong",
+      "ru": "пищалка",
+      "ja": "ふきもどし",
+      "ko": "코끼리 피리",
+      "zh-tw": "派對吹笛",
+      "es-us": "espantasuegras",
+      "fr-us": "sifflet déroulant",
+      "en": "tweeter"
+    }
+  },
+  "5743": {
+    "img": "FtrIcon/ToolFireworks",
+    "clr": [
+      "red",
+      "colorful"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "stk": 10,
+    "ord": true,
+    "cat": true,
+    "use": 1,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": "dog10",
+    "loc": {
+      "zh-cn": "红色烟花棒",
+      "de": "Rot-Wunderkerze",
+      "fr-fr": "cierge magique rouge",
+      "it": "stella filante rossa",
+      "nl": " rood sterretje",
+      "ru": "красн. бенгальский огонь",
+      "ja": "あかいてもちはなび",
+      "ko": "빨간색 스파클러",
+      "zh-tw": "紅色仙女棒",
+      "fr-us": "bougie magique rouge",
+      "en": "red sparkler",
+      "es": "bengala roja"
+    }
+  },
+  "5744": {
+    "img": "FtrIcon/ToolWindmill",
+    "clr": [
+      "yellow",
+      "red"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "flg00",
+      "ocp00"
+    ],
+    "loc": {
+      "zh-cn": "纸风车",
+      "de": "Windrädchen",
+      "es-es": "molinete",
+      "it": "girandola",
+      "nl": "windmolentje",
+      "ru": "вертушка",
+      "ja": "かざぐるま",
+      "ko": "바람개비",
+      "zh-tw": "紙風車",
+      "es-us": "molinito",
+      "en": "pinwheel",
+      "fr": "moulin"
+    }
+  },
+  "5784": {
+    "ipf": "FtrIcon/ToolNetNormal_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "pink",
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "sel": 600,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "brd09",
+    "loc": {
+      "zh-cn": "捕虫网",
+      "de": "Kescher",
+      "it": "retino",
+      "nl": "net",
+      "ru": "сачок",
+      "ja": "あみ",
+      "ko": "잠자리채",
+      "zh-tw": "捕蟲網",
+      "en": "net",
+      "es": "red",
+      "fr": "filet"
+    }
+  },
+  "5856": {
+    "img": "FtrIcon/ToolAxeStoneNormal",
+    "clr": [
+      "beige",
+      "gray"
+    ],
+    "sel": 560,
+    "cat": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": "pbr02",
+    "loc": {
+      "zh-cn": "石斧头",
+      "de": "Steinaxt",
+      "it": "ascia di pietra",
+      "nl": "stenen bijl",
+      "ru": "каменный топор",
+      "ja": "いしのオノ",
+      "ko": "돌도끼",
+      "zh-tw": "石斧頭",
+      "en": "stone axe",
+      "es": "hacha de piedra",
+      "fr": "hache de pierre"
+    }
+  },
+  "7584": {
+    "img": "FtrIcon/ToolStickWood",
+    "clr": "brown",
+    "sel": 1000,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bul00",
+      "kal04"
+    ],
+    "loc": {
+      "de": "Stab",
+      "it": "bacchetta",
+      "nl": "toverstaf",
+      "ru": "палочка",
+      "ja": "ステッキ",
+      "ko": "지팡이",
+      "en": "wand",
+      "es": "varita",
+      "fr": "baguette magique",
+      "zh": "棒子"
+    }
+  },
+  "7585": {
+    "img": "FtrIcon/ToolStickSnow",
+    "clr": [
+      "aqua",
+      "blue"
+    ],
+    "sel": 6500,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "snowflake",
+    "loc": {
+      "de": "Eisstab",
+      "it": "bacchetta ghiaccio",
+      "nl": "ijsstaf",
+      "ru": "ледяная палочка",
+      "ja": "こおりのステッキ",
+      "ko": "얼음 지팡이",
+      "en": "ice wand",
+      "es": "varita hielo",
+      "fr": "baguette glace",
+      "zh": "冰之棒"
+    }
+  },
+  "7586": {
+    "img": "FtrIcon/ToolStickShell",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 5100,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "summer_shell",
+    "loc": {
+      "zh-cn": "贝壳棒",
+      "de": "Muschelstab",
+      "es-es": "varita concha marina",
+      "it": "bacchetta conchiglia",
+      "nl": "schelpenstaf",
+      "ru": "палочка с ракушкой",
+      "ja": "かいがらのステッキ",
+      "ko": "조개껍데기 지팡이",
+      "zh-tw": "貝殼棒",
+      "es-us": "varita caracola",
+      "en": "shell wand",
+      "fr": "baguette coquillage"
+    }
+  },
+  "7587": {
+    "img": "FtrIcon/ToolStickTree",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 1550,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bea13",
+      "bul00"
+    ],
+    "loc": {
+      "zh-cn": "树枝棒",
+      "de": "Zweigstab",
+      "it": "bacchetta ramo",
+      "nl": "wilgenstaf",
+      "ru": "палочка из ветки",
+      "ja": "きのえだのステッキ",
+      "ko": "나뭇가지 지팡이",
+      "zh-tw": "樹枝棒",
+      "en": "tree-branch wand",
+      "es": "varita rama",
+      "fr": "baguette branche"
+    }
+  },
+  "7588": {
+    "ipf": "FtrIcon/ToolStickMushroom_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "ordinary_mushroom",
+      "white_mushroom",
+      "strange_mushroom",
+      "red_mushroom",
+      "yellow_mushroom"
+    ],
+    "clr": [
+      [
+        "brown",
+        "beige"
+      ],
+      "white",
+      "purple",
+      [
+        "red",
+        "white"
+      ],
+      "yellow"
+    ],
+    "sel": 3300,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "cat": true,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "mushroom",
+    "hui": "kal00",
+    "loc": {
+      "de": "Pilzstab",
+      "it": "bacchetta fungo",
+      "nl": "paddenstoelstaf",
+      "ru": "грибная палочка",
+      "ja": "キノコのステッキ",
+      "ko": "버섯 지팡이",
+      "en": "mushroom wand",
+      "es": "varita champiñón",
+      "fr": "baguette champignon",
+      "zh": "蘑菇棒"
+    }
+  },
+  "7589": {
+    "img": "FtrIcon/ToolStickCherryblossom",
+    "clr": [
+      "pink",
+      "brown"
+    ],
+    "sel": 2700,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "cherry_blossom",
+    "loc": {
+      "zh-cn": "樱花棒",
+      "de": "Kirschblütenstab",
+      "it": "bacchetta ciliegio",
+      "nl": "kersenbloesemstaf",
+      "ru": "палочка с сакурой",
+      "ja": "さくらのステッキ",
+      "ko": "벚꽃 지팡이",
+      "zh-tw": "櫻花棒",
+      "en": "cherry-blossom wand",
+      "es": "varita flor de cerezo",
+      "fr": "baguette fleurs de cerisier"
+    }
+  },
+  "7590": {
+    "img": "FtrIcon/ToolStickBamboo",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 3900,
+    "hap": 201,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "loc": {
+      "de": "Bambusstab",
+      "it": "bacchetta bambù",
+      "nl": "bamboestaf",
+      "ru": "палочка из бамбука",
+      "ja": "たけのステッキ",
+      "ko": "대나무 지팡이",
+      "en": "bamboo wand",
+      "es": "varita bambú",
+      "fr": "baguette bambou",
+      "zh": "竹棒"
+    }
+  },
+  "7591": {
+    "img": "FtrIcon/ToolStickGolden",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "sel": 20750,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "bea09",
+      "pgn07"
+    ],
+    "loc": {
+      "zh-cn": "黄金棒",
+      "de": "Goldstab",
+      "it": "bacchetta d'oro",
+      "nl": "gouden staf",
+      "ru": "золотая палочка",
+      "ja": "おうごんのステッキ",
+      "ko": "황금 지팡이",
+      "zh-tw": "黃金棒",
+      "en": "golden wand",
+      "es": "varita dorada",
+      "fr": "baguette d'or"
+    }
+  },
+  "7592": {
+    "img": "FtrIcon/ToolStickIron",
+    "clr": "gray",
+    "sel": 3750,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "cat12",
+      "shp13"
+    ],
+    "loc": {
+      "zh-cn": "铁棒",
+      "de": "Eisenstab",
+      "it": "bacchetta d'acciaio",
+      "nl": "ijzeren staf",
+      "ru": "железная палочка",
+      "ja": "てつのステッキ",
+      "ko": "철 지팡이",
+      "zh-tw": "鐵棒",
+      "en": "iron wand",
+      "es": "varita de hierro",
+      "fr": "baguette en fer"
+    }
+  },
+  "7869": {
+    "img": "FtrIcon/ToolBalloonNormal",
+    "clr": "blue",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "cat07",
+      "cbr03",
+      "duk17",
+      "goa07",
+      "ocp00"
+    ],
+    "loc": {
+      "zh-cn": "蓝色气球",
+      "de": "Ballon (blau)",
+      "fr-fr": "ballon de baudruche bleu",
+      "it": "palloncino blu",
+      "nl": "blauwe ballon",
+      "ru": "синий шарик",
+      "ja": "あおいふうせん",
+      "ko": "파란색 풍선",
+      "zh-tw": "藍色氣球",
+      "fr-us": "ballon bleu",
+      "en": "blue balloon",
+      "es": "globo azul"
+    }
+  },
+  "8176": {
+    "ipf": "FtrIcon/ToolNetStar_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow",
+      "red",
+      "blue",
+      "light_green",
+      "pink",
+      "purple",
+      "light_blue",
+      "green"
+    ],
+    "clr": [
+      "yellow",
+      "red",
+      "blue",
+      "green",
+      "pink",
+      "purple",
+      "aqua",
+      "green"
+    ],
+    "nvo": 0,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "brd09",
+      "shp08"
+    ],
+    "loc": {
+      "zh-cn": "星星捕虫网",
+      "de": "Sternkescher",
+      "it": "retino stella",
+      "nl": "sterrennet",
+      "ru": "сачок со звездой",
+      "ja": "スターなあみ",
+      "ko": "별모양 잠자리채",
+      "zh-tw": "星星捕蟲網",
+      "en": "star net",
+      "es": "red estrella",
+      "fr": "filet étoilé"
+    }
+  },
+  "8177": {
+    "ipf": "FtrIcon/ToolNetPattern_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow_orange",
+      "red_yellow_4",
+      "orange_blue",
+      "pink_yellow_3",
+      "green_blue_2",
+      "purple_pink",
+      "white_blue",
+      "gray_green"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "orange"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "orange",
+        "blue"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "gray",
+        "green"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "brd09",
+    "loc": {
+      "zh-cn": "彩色捕虫网",
+      "de": "Kinderkescher",
+      "it": "retino colorato",
+      "nl": "kleurrijk net",
+      "ru": "яркий сачок",
+      "ja": "カラフルなあみ",
+      "ko": "컬러풀 잠자리채",
+      "zh-tw": "彩色捕蟲網",
+      "en": "colorful net",
+      "es": "red colorida",
+      "fr": "filet coloré"
+    }
+  },
+  "8178": {
+    "ipf": "FtrIcon/ToolNetOutdoor_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "avocado",
+      "orange",
+      "light_blue",
+      "red",
+      "beige",
+      "pink",
+      "yellow",
+      "black"
+    ],
+    "clr": [
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "orange",
+        "gray"
+      ],
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "brd09",
+      "lon01"
+    ],
+    "loc": {
+      "zh-cn": "户外捕虫网",
+      "de": "Profi-Kescher",
+      "es-es": "red de acampada",
+      "it": "retino da campeggio",
+      "nl": "kampeernet",
+      "ru": "походный сачок",
+      "ja": "アウトドアなあみ",
+      "ko": "아웃도어 잠자리채",
+      "zh-tw": "戶外捕蟲網",
+      "es-us": "red de campamento",
+      "en": "outdoorsy net",
+      "fr": "filet de rando"
+    }
+  },
+  "8179": {
+    "img": "FtrIcon/ToolNetGold",
+    "clr": [
+      "yellow",
+      "purple"
+    ],
+    "sel": 10400,
+    "cat": true,
+    "vec": true,
+    "use": 90,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色捕虫网",
+      "de": "Goldkescher",
+      "it": "retino d'oro",
+      "nl": "gouden net",
+      "ru": "золотой сачок",
+      "ja": "きんのあみ",
+      "ko": "금 잠자리채",
+      "zh-tw": "金色捕蟲網",
+      "en": "golden net",
+      "es": "red de oro",
+      "fr": "filet doré"
+    }
+  },
+  "8471": {
+    "ipf": "FtrIcon/ToolFishingrodColorful_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "green",
+      "yellow",
+      "orange",
+      "light_blue",
+      "blue",
+      "purple",
+      "pink",
+      "red"
+    ],
+    "clr": [
+      [
+        "green",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ]
+    ],
+    "nvo": 7,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "brd09",
+    "loc": {
+      "zh-cn": "鱼儿钓竿",
+      "de": "Fisch-Angel",
+      "it": "canna pesciolino",
+      "nl": "vissenhengel",
+      "ru": "удочка с уткой",
+      "ja": "おサカナつりざお",
+      "ko": "물고기 낚싯대",
+      "zh-tw": "魚兒釣竿",
+      "en": "fish fishing rod",
+      "es": "caña pececito",
+      "fr": "canne à pêche poisson"
+    }
+  },
+  "8472": {
+    "ipf": "FtrIcon/ToolFishingrodDuck_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow",
+      "orange",
+      "blue",
+      "pink",
+      "green",
+      "purple",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "orange"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "black",
+        "green"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "brd09",
+    "loc": {
+      "zh-cn": "彩色钓竿",
+      "de": "Kinderangel",
+      "it": "canna da pesca colorata",
+      "nl": "kleurrijke hengel",
+      "ru": "яркая удочка",
+      "ja": "カラフルなつりざお",
+      "ko": "컬러풀 낚싯대",
+      "zh-tw": "彩色釣竿",
+      "en": "colorful fishing rod",
+      "es": "caña multicolor",
+      "fr": "canne à pêche colorée"
+    }
+  },
+  "8473": {
+    "ipf": "FtrIcon/ToolFishingrodOutdoor_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "avocado",
+      "orange",
+      "light_blue",
+      "red",
+      "beige",
+      "pink",
+      "yellow",
+      "black"
+    ],
+    "clr": [
+      [
+        "green",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      "black"
+    ],
+    "nvo": 2,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 30,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "brd09",
+      "brd20",
+      "lon00",
+      "lon01"
+    ],
+    "loc": {
+      "zh-cn": "户外钓竿",
+      "de": "Profi-Angel",
+      "es-es": "caña de acampada",
+      "it": "canna da campeggio",
+      "nl": "kampeerhengel",
+      "ru": "походная удочка",
+      "ja": "アウトドアなつりざお",
+      "ko": "아웃도어 낚싯대",
+      "zh-tw": "戶外釣竿",
+      "es-us": "caña de campamento",
+      "en": "outdoorsy fishing rod",
+      "fr": "canne à pêche de rando"
+    }
+  },
+  "8533": {
+    "img": "FtrIcon/ToolWateringGold",
+    "clr": [
+      "yellow",
+      "purple"
+    ],
+    "sel": 10675,
+    "cat": true,
+    "vec": true,
+    "use": 180,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色浇花壶",
+      "de": "Goldkanne",
+      "it": "annaffiatoio d'oro",
+      "nl": "gouden gieter",
+      "ru": "золотая лейка",
+      "ja": "きんのジョウロ",
+      "ko": "금 물뿌리개",
+      "zh-tw": "金色澆花壺",
+      "en": "golden watering can",
+      "es": "regadera de oro",
+      "fr": "arrosoir doré"
+    }
+  },
+  "8534": {
+    "ipf": "FtrIcon/ToolWateringColorful_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow",
+      "orange",
+      "blue",
+      "pink",
+      "green",
+      "purple",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "purple",
+        "green"
+      ],
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 60,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bea08",
+      "duk11",
+      "pbr09"
+    ],
+    "loc": {
+      "zh-cn": "彩色浇花壶",
+      "de": "Kinderkanne",
+      "it": "annaffiatoio colorato",
+      "nl": "kleurrijke gieter",
+      "ru": "яркая лейка",
+      "ja": "カラフルなジョウロ",
+      "ko": "컬러풀 물뿌리개",
+      "zh-tw": "彩色澆花壺",
+      "en": "colorful watering can",
+      "es": "regadera colorida",
+      "fr": "arrosoir coloré"
+    }
+  },
+  "8535": {
+    "ipf": "FtrIcon/ToolWateringElephant_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "gray",
+      "green",
+      "blue",
+      "pink",
+      "red",
+      "yellow",
+      "light_blue",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "green",
+      "blue",
+      "pink",
+      "red",
+      "yellow",
+      "aqua",
+      "black"
+    ],
+    "nvo": 7,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 60,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bea08",
+      "goa06"
+    ],
+    "loc": {
+      "zh-cn": "大象浇花壶",
+      "de": "Elefantenkanne",
+      "it": "annaffiatoio elefante",
+      "nl": "olifantengieter",
+      "ru": "лейка-слон",
+      "ja": "ゾウさんジョウロ",
+      "ko": "코끼리 물뿌리개",
+      "zh-tw": "大象澆花壺",
+      "en": "elephant watering can",
+      "es": "regadera elefante",
+      "fr": "arrosoir éléphant"
+    }
+  },
+  "8536": {
+    "ipf": "FtrIcon/ToolWateringOutdoor_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "avocado",
+      "orange",
+      "light_blue",
+      "red",
+      "beige",
+      "pink",
+      "yellow",
+      "black"
+    ],
+    "clr": [
+      [
+        "green",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      "black"
+    ],
+    "nvo": 2,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "vec": true,
+    "use": 60,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": [
+      "bea12",
+      "flg03",
+      "hrs13"
+    ],
+    "loc": {
+      "zh-cn": "户外浇花壶",
+      "de": "Profi-Kanne",
+      "es-es": "regadera de acampada",
+      "it": "annaffiatoio da campeggio",
+      "nl": "kampeergieter",
+      "ru": "походная лейка",
+      "ja": "アウトドアなジョウロ",
+      "ko": "아웃도어 물뿌리개",
+      "zh-tw": "戶外澆花壺",
+      "es-us": "regadera de campamento",
+      "en": "outdoorsy watering can",
+      "fr": "arrosoir de rando"
+    }
+  },
+  "8574": {
+    "img": "FtrIcon/ToolScoopGold",
+    "clr": [
+      "yellow",
+      "purple"
+    ],
+    "sel": 10675,
+    "cat": true,
+    "use": 200,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色铲子",
+      "de": "Goldschaufel",
+      "it": "pala d'oro",
+      "nl": "gouden schep",
+      "ru": "золотая лопата",
+      "ja": "きんのスコップ",
+      "ko": "금 삽",
+      "zh-tw": "金色鏟子",
+      "en": "golden shovel",
+      "es": "pala de oro",
+      "fr": "pelle dorée"
+    }
+  },
+  "8575": {
+    "ipf": "FtrIcon/ToolScoopOutdoor_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "avocado",
+      "orange",
+      "light_blue",
+      "red",
+      "beige",
+      "pink",
+      "yellow",
+      "black"
+    ],
+    "clr": [
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "orange",
+        "gray"
+      ],
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "elp06",
+    "loc": {
+      "zh-cn": "户外铲子",
+      "de": "Profi-Schaufel",
+      "es-es": "pala de acampada",
+      "it": "pala da campeggio",
+      "nl": "kampeerschep",
+      "ru": "походная лопата",
+      "ja": "アウトドアなスコップ",
+      "ko": "아웃도어 삽",
+      "zh-tw": "戶外鏟子",
+      "es-us": "pala de campamento",
+      "en": "outdoorsy shovel",
+      "fr": "pelle de rando"
+    }
+  },
+  "8576": {
+    "ipf": "FtrIcon/ToolScoopPattern_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "light_blue",
+      "white",
+      "yellow",
+      "pink",
+      "green",
+      "blue",
+      "purple",
+      "black"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "beige"
+      ],
+      [
+        "white",
+        "beige"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "pink",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "purple",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "花纹铲子",
+      "de": "Designerschaufel",
+      "it": "pala con motivo stampato",
+      "nl": "schep met patroon",
+      "ru": "лопата с рисунком",
+      "ja": "がらものスコップ",
+      "ko": "꽃무늬 삽",
+      "zh-tw": "花紋鏟子",
+      "en": "printed-design shovel",
+      "es": "pala con estampado",
+      "fr": "pelle design"
+    }
+  },
+  "8577": {
+    "ipf": "FtrIcon/ToolScoopColorful_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow",
+      "orange",
+      "blue",
+      "pink",
+      "green",
+      "purple",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "purple",
+        "green"
+      ],
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 100,
+    "sze": "1x1",
+    "src": "nook_store",
+    "hui": "tig02",
+    "loc": {
+      "zh-cn": "彩色铲子",
+      "de": "Kinderschaufel",
+      "it": "pala colorata",
+      "nl": "kleurrijke schep",
+      "ru": "яркая лопата",
+      "ja": "カラフルなスコップ",
+      "ko": "컬러풀 삽",
+      "zh-tw": "彩色鏟子",
+      "en": "colorful shovel",
+      "es": "pala colorida",
+      "fr": "pelle colorée"
+    }
+  },
+  "8578": {
+    "img": "FtrIcon/ToolSlingshotGold",
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "sel": 10300,
+    "cat": true,
+    "use": 60,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色弹弓",
+      "de": "Goldschleuder",
+      "es-es": "tirachinas de oro",
+      "it": "fionda d'oro",
+      "nl": "gouden katapult",
+      "ru": "золотая рогатка",
+      "ja": "きんのパチンコ",
+      "ko": "금 새총",
+      "zh-tw": "金色彈弓",
+      "es-us": "resortera de oro",
+      "en": "golden slingshot",
+      "fr": "lance-pierre doré"
+    }
+  },
+  "8579": {
+    "ipf": "FtrIcon/ToolSlingshotOutdoor_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "avocado",
+      "orange",
+      "light_blue",
+      "red",
+      "beige",
+      "pink",
+      "yellow",
+      "black"
+    ],
+    "clr": [
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "orange",
+        "gray"
+      ],
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "pink",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 20,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "户外弹弓",
+      "de": "Profi-Schleuder",
+      "es-es": "tirachinas de acampada",
+      "it": "fionda da campeggio",
+      "nl": "kampeerkatapult",
+      "ru": "походная рогатка",
+      "ja": "アウトドアなパチンコ",
+      "ko": "아웃도어 새총",
+      "zh-tw": "戶外彈弓",
+      "es-us": "resortera de campamento",
+      "en": "outdoorsy slingshot",
+      "fr": "lance-pierre de rando"
+    }
+  },
+  "8580": {
+    "ipf": "FtrIcon/ToolSlingshotColorful_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "yellow",
+      "orange",
+      "blue",
+      "pink",
+      "green",
+      "purple",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "orange"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "white",
+        "red"
+      ],
+      [
+        "black",
+        "green"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 625,
+    "buy": 2500,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "ord": true,
+    "cat": true,
+    "bcu": true,
+    "use": 20,
+    "sze": "1x1",
+    "src": "nook_store",
+    "loc": {
+      "zh-cn": "彩色弹弓",
+      "de": "Kinderschleuder",
+      "es-es": "tirachinas colorido",
+      "it": "fionda colorata",
+      "nl": "kleurrijke katapult",
+      "ru": "яркая рогатка",
+      "ja": "カラフルなパチンコ",
+      "ko": "컬러풀 새총",
+      "zh-tw": "彩色彈弓",
+      "es-us": "resortera colorida",
+      "en": "colorful slingshot",
+      "fr": "lance-pierre coloré"
+    }
+  },
+  "8660": {
+    "img": "FtrIcon/ToolFishingrodGold",
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "sel": 10400,
+    "cat": true,
+    "vec": true,
+    "use": 90,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色钓竿",
+      "de": "Goldangel",
+      "it": "canna d'oro",
+      "nl": "gouden hengel",
+      "ru": "золотая удочка",
+      "ja": "きんのつりざお",
+      "ko": "금 낚싯대",
+      "zh-tw": "金色釣竿",
+      "en": "golden rod",
+      "es": "caña de oro",
+      "fr": "canne à pêche dorée"
+    }
+  },
+  "8769": {
+    "img": "FtrIcon/ToolStcikInsect",
+    "clr": [
+      "pink",
+      "yellow"
+    ],
+    "sel": 1500,
+    "hap": 501,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "flick",
+    "evt": [
+      "bug_tournament",
+      "bug_tournament_2",
+      "bug_tournament_3",
+      "bug_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "虫子棒",
+      "de": "Insektenstab",
+      "es-es": "varita bicho",
+      "it": "bacchetta insetto",
+      "nl": "insectenstaf",
+      "ru": "палочка с насекомым",
+      "ja": "ムシのステッキ",
+      "ko": "곤충 지팡이",
+      "zh-tw": "蟲子棒",
+      "es-us": "varita insecto",
+      "en": "bug wand",
+      "fr": "baguette insecte"
+    }
+  },
+  "8770": {
+    "img": "FtrIcon/ToolStickFish",
+    "clr": [
+      "blue",
+      "yellow"
+    ],
+    "sel": 1500,
+    "hap": 501,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "cj",
+    "evt": [
+      "fish_tournament",
+      "fish_tournament_2",
+      "fish_tournament_3",
+      "fish_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "鱼儿棒",
+      "de": "Fischstab",
+      "it": "bacchetta pesce",
+      "nl": "vissenstaf",
+      "ru": "палочка с рыбой",
+      "ja": "おサカナのステッキ",
+      "ko": "물고기 지팡이",
+      "zh-tw": "魚兒棒",
+      "en": "fish wand",
+      "es": "varita pez",
+      "fr": "baguette poisson"
+    }
+  },
+  "9617": {
+    "img": "FtrIcon/ToolAxeGold",
+    "clr": [
+      "yellow",
+      "orange"
+    ],
+    "sel": 10655,
+    "cat": true,
+    "use": 200,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "金色斧头",
+      "de": "Goldaxt",
+      "it": "ascia d'oro",
+      "nl": "gouden bijl",
+      "ru": "золотой топор",
+      "ja": "きんのオノ",
+      "ko": "금도끼",
+      "zh-tw": "金色斧頭",
+      "en": "golden axe",
+      "es": "hacha de oro",
+      "fr": "hache dorée"
+    }
+  },
+  "9762": {
+    "img": "FtrIcon/ToolFanNook0",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 2000,
+    "exp": 400,
+    "exc": 0,
+    "hap": 151,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "loc": {
+      "zh-cn": "Nook Inc.团扇",
+      "de": "Nook-Inc.-Uchiwa-Fächer",
+      "es-es": "paipay de Nook Inc.",
+      "it": "ventaglio uchiwa Nook Inc.",
+      "nl": "Nook Inc.-uchiwa-waaier",
+      "ru": "веер утива Nook Inc.",
+      "ja": "たぬきかいはつうちわ",
+      "ko": "Nook Inc. 둥글부채",
+      "zh-tw": "Nook Inc.扇子",
+      "es-us": "abanico paipay de Nook Inc.",
+      "en": "Nook Inc. uchiwa fan",
+      "fr": "éventail uchiwa Nook Inc."
+    }
+  },
+  "12578": {
+    "img": "FtrIcon/ToolStickEgg",
+    "clr": [
+      "colorful",
+      "yellow"
+    ],
+    "sel": 11100,
+    "hap": 351,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "bunny_day",
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "复活节棒",
+      "de": "Häschentag-Stab",
+      "it": "bacchetta caccia all'uovo",
+      "nl": "eierstaf",
+      "ru": "палочка на День зайцев",
+      "ja": "イースターなステッキ",
+      "ko": "이스터 지팡이",
+      "zh-tw": "復活節棒",
+      "en": "Bunny Day wand",
+      "es": "varita Caza del Huevo",
+      "fr": "baguette fête des œufs"
+    }
+  },
+  "12695": {
+    "img": "FtrIcon/ToolStickJune",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 3500,
+    "hap": 437,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "婚礼棒",
+      "de": "Hochzeitsstab",
+      "it": "bacchetta nuziale",
+      "nl": "trouwstaf",
+      "ru": "свадебная палочка",
+      "ja": "ウェディングなステッキ",
+      "ko": "웨딩 지팡이",
+      "zh-tw": "婚禮棒",
+      "en": "wedding wand",
+      "es": "varita ramo de boda",
+      "fr": "baguette de mariage"
+    }
+  },
+  "12974": {
+    "img": "FtrIcon/ToolFireworks1",
+    "clr": [
+      "blue",
+      "colorful"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "stk": 10,
+    "ord": true,
+    "cat": true,
+    "use": 1,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": "dog10",
+    "loc": {
+      "zh-cn": "蓝色烟花棒",
+      "de": "Blau-Wunderkerze",
+      "fr-fr": "cierge magique bleu",
+      "it": "stella filante blu",
+      "nl": " blauw sterretje",
+      "ru": "син. бенгальский огонь",
+      "ja": "あおいてもちはなび",
+      "ko": "파란색 스파클러",
+      "zh-tw": "藍色仙女棒",
+      "fr-us": "bougie magique bleue",
+      "en": "blue sparkler",
+      "es": "bengala azul"
+    }
+  },
+  "13123": {
+    "img": "FtrIcon/ToolBalloonNormal1",
+    "clr": "red",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "brd03",
+      "cat07",
+      "duk17",
+      "hrs06",
+      "ocp00",
+      "rbt12"
+    ],
+    "loc": {
+      "zh-cn": "红色气球",
+      "de": "Ballon (rot)",
+      "fr-fr": "ballon de baudruche rouge",
+      "it": "palloncino rosso",
+      "nl": "rode ballon",
+      "ru": "красный шарик",
+      "ja": "あかいふうせん",
+      "ko": "빨간색 풍선",
+      "zh-tw": "紅色氣球",
+      "fr-us": "ballon rouge",
+      "en": "red balloon",
+      "es": "globo rojo"
+    }
+  },
+  "13124": {
+    "img": "FtrIcon/ToolBalloonNormal2",
+    "clr": "yellow",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "brd03",
+      "cat07",
+      "duk17",
+      "goa07",
+      "hip09",
+      "kal00",
+      "ocp00",
+      "rbt07",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "黄色气球",
+      "de": "Ballon (gelb)",
+      "fr-fr": "ballon de baudruche jaune",
+      "it": "palloncino giallo",
+      "nl": "gele ballon",
+      "ru": "желтый шарик",
+      "ja": "きいろのふうせん",
+      "ko": "노란색 풍선",
+      "zh-tw": "黃色氣球",
+      "fr-us": "ballon jaune",
+      "en": "yellow balloon",
+      "es": "globo amarillo"
+    }
+  },
+  "13125": {
+    "img": "FtrIcon/ToolBalloonNormal3",
+    "clr": "green",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "brd03",
+      "cat07",
+      "duk17",
+      "ocp00",
+      "rbt12",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "绿色气球",
+      "de": "Ballon (grün)",
+      "fr-fr": "ballon de baudruche vert",
+      "it": "palloncino verde",
+      "nl": "groene ballon",
+      "ru": "зеленый шарик",
+      "ja": "みどりのふうせん",
+      "ko": "초록색 풍선",
+      "zh-tw": "綠色氣球",
+      "fr-us": "ballon vert",
+      "en": "green balloon",
+      "es": "globo verde"
+    }
+  },
+  "13126": {
+    "img": "FtrIcon/ToolBalloonNormal4",
+    "clr": "pink",
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "redd_raffle",
+      "nook_store"
+    ],
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.4.0",
+    "hui": [
+      "cat07",
+      "duk17",
+      "goa07",
+      "hrs06",
+      "kal00",
+      "ocp00",
+      "ost07",
+      "rbt12"
+    ],
+    "loc": {
+      "zh-cn": "粉红色气球",
+      "de": "Ballon (rosa)",
+      "fr-fr": "ballon de baudruche rose",
+      "it": "palloncino rosa",
+      "nl": "roze ballon",
+      "ru": "розовый шарик",
+      "ja": "ピンクのふうせん",
+      "ko": "핑크색 풍선",
+      "zh-tw": "粉紅色氣球",
+      "fr-us": "ballon rose",
+      "en": "pink balloon",
+      "es": "globo rosa"
+    }
+  },
+  "13128": {
+    "img": "FtrIcon/ToolPennantRcm",
+    "clr": [
+      "orange",
+      "yellow"
+    ],
+    "sel": 2500,
+    "exp": 500,
+    "exc": 0,
+    "hap": 151,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "vad": "1.4.0",
+    "loc": {
+      "de": "Nook-Inc.-Fähnchen",
+      "it": "gagliardetto Nook Inc.",
+      "nl": "Nook Inc.-vlaggetje",
+      "ru": "флажок Nook Inc.",
+      "ja": "たぬきかいはつのてもちペナント",
+      "ko": "Nook Inc. 손 깃발",
+      "en": "Nook Inc. handheld pennant",
+      "es": "banderín Nook Inc. portátil",
+      "fr": "fanion portable Nook Inc.",
+      "zh": "Nook Inc.手持三角旗"
+    }
+  },
+  "13173": {
+    "img": "FtrIcon/ToolStickKikilala0",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 3060,
+    "buy": 12240,
+    "hap": 201,
+    "has": "fancy",
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "shp12",
+    "loc": {
+      "de": "Kiki-&-Lala-Stab",
+      "it": "bacchetta Kiki & Lala",
+      "nl": "Kiki-&-Lala-staf",
+      "ru": "палочка Kiki & Lala",
+      "ja": "キキ&ララなステッキ",
+      "ko": "리틀트윈스타 지팡이",
+      "en": "Kiki & Lala wand",
+      "es": "varita Kiki & Lala",
+      "fr": "baguette Kiki & Lala",
+      "zh": "Kiki & Lala棒"
+    }
+  },
+  "13237": {
+    "img": "FtrIcon/ToolStickHalloween",
+    "clr": [
+      "orange",
+      "black"
+    ],
+    "sel": 4300,
+    "hap": 573,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "jack"
+    ],
+    "evt": "halloween",
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "万圣节棒",
+      "de": "Kürbisstab",
+      "fr-fr": "baguette Halloween",
+      "it": "bacchetta brividi",
+      "nl": "pompoenstaf",
+      "ru": "жуткая палочка",
+      "ja": "ハロウィンなステッキ",
+      "ko": "할로윈 지팡이",
+      "zh-tw": "萬聖節棒",
+      "fr-us": "baguette frisson",
+      "en": "spooky wand",
+      "es": "varita calabaza"
+    }
+  },
+  "13526": {
+    "ipf": "FtrIcon/LadderKitA0_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "light_brown",
+      "dark_brown",
+      "white"
+    ],
+    "sel": 1940,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "藤蔓固定梯子工具组",
+      "de": "Rankenleiter-Bausatz",
+      "es-es": "kit escalerilla enredadera",
+      "it": "kit fissa-scala edera",
+      "nl": "klimop-ladderopstelpakket",
+      "ru": "крепеж плетен. лестницы",
+      "ja": "ツルのFIXはしごキット",
+      "ko": "덩굴 사다리 FIX 키트",
+      "zh-tw": "藤蔓固定梯子工具組",
+      "es-us": "kit escalerita enredadera",
+      "en": "vine ladder set-up kit",
+      "fr": "kit installation échelle vigne"
+    }
+  },
+  "13530": {
+    "ipf": "FtrIcon/LadderKitB0_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "natural",
+      "blue",
+      "red",
+      "yellow",
+      "green",
+      "white"
+    ],
+    "sel": 2040,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "木制固定梯子工具组",
+      "de": "Holzleiter-Bausatz",
+      "es-es": "kit de escalerilla de madera",
+      "it": "kit fissa-scala di legno",
+      "nl": "houten-ladderopstelpakket",
+      "ru": "крепеж дерев. лестницы",
+      "ja": "もくせいFIXはしごキット",
+      "ko": "목제 사다리 FIX 키트",
+      "zh-tw": "木製固定梯子工具組",
+      "es-us": "kit de escalerita de madera",
+      "en": "wooden ladder set-up kit",
+      "fr": "kit installation échelle bois"
+    }
+  },
+  "13534": {
+    "ipf": "FtrIcon/LadderKitC0_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "silver",
+      "red",
+      "brown"
+    ],
+    "sel": 5190,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "铁制固定梯子工具组",
+      "de": "Eisenleiter-Bausatz",
+      "es-es": "kit de escalerilla de hierro",
+      "it": "kit fissa-scala di ferro",
+      "nl": "ijzeren-ladderopstelpakket",
+      "ru": "крепеж жел. лестницы",
+      "ja": "てつのFIXはしごキット",
+      "ko": "철제 사다리 FIX 키트",
+      "zh-tw": "鐵製固定梯子工具組",
+      "es-us": "kit de escalerita de hierro",
+      "en": "iron ladder set-up kit",
+      "fr": "kit installation d'échelle fer"
+    }
+  },
+  "13835": {
+    "img": "FtrIcon/ToolJuiceFuzzyapple",
+    "clr": [
+      "yellow",
+      "aqua"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 201,
+    "has": "party",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "new_years_eve",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "气泡饮料",
+      "de": "Apfelschorle",
+      "en-gb": "fizzy apple juice",
+      "es-es": "zumo manzana espumoso",
+      "it": "cocktail alla frutta",
+      "nl": "glas appelsap met prik",
+      "ru": "игристый напиток",
+      "ja": "スパークリングサイダー",
+      "ko": "스파클링 사이다",
+      "zh-tw": "氣泡飲料",
+      "en-us": "sparkling cider",
+      "es-us": "jugo de manzana espumoso",
+      "fr": "boisson pétillante festive"
+    }
+  },
+  "13913": {
+    "img": "FtrIcon/ToolMegaphone0",
+    "clr": [
+      "orange",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "has": "fitness",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "big_game",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "助威扩音器·美式足球",
+      "de": "Fan-Megafon „Football“",
+      "fr-fr": "mégaphone de supporter",
+      "it": "megafono fan football",
+      "nl": "Americanfootballmegafoon",
+      "ru": "футбольный рупор",
+      "ja": "おうえんメガホン・アメフト",
+      "ko": "미식축구 응원 메가폰",
+      "zh-tw": "加油大聲公‧美式足球",
+      "fr-us": "mégaphone de partisan",
+      "en": "football cheer megaphone",
+      "es": "megáfono fútbol americano"
+    }
+  },
+  "13914": {
+    "img": "FtrIcon/ToolSoy0",
+    "clr": "beige",
+    "sel": 200,
+    "buy": 800,
+    "hap": 201,
+    "has": "harmonious",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "setsubun",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "撒豆组合",
+      "de": "Setsubun-Set",
+      "it": "set con fagioli da lanciare",
+      "nl": "bonengooipakket",
+      "ru": "бобы для разбрасывания",
+      "ja": "まめまきセット",
+      "ko": "콩 뿌리기 세트",
+      "zh-tw": "撒豆組合",
+      "en": "bean-tossing kit",
+      "es": "caja habichuelas para lanzar",
+      "fr": "kit de lancer de haricots"
+    }
+  },
+  "13958": {
+    "img": "FtrIcon/ToolMaracasCarnival",
+    "clr": [
+      "orange",
+      "yellow"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 51,
+    "has": "party",
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "nintendo",
+      "nook_shopping_selection"
+    ],
+    "vad": "1.7.0",
+    "hui": [
+      "ant05",
+      "bea10",
+      "brd03",
+      "chn09",
+      "kal04",
+      "ost03",
+      "rbt16"
+    ],
+    "loc": {
+      "zh-cn": "沙锤",
+      "de": "Maracas",
+      "it": "paio di maracas",
+      "nl": "sambaballen",
+      "ru": "маракасы",
+      "ja": "マラカス",
+      "ko": "마라카스",
+      "zh-tw": "沙錘",
+      "en": "maracas",
+      "es": "par de maracas",
+      "fr": "paire de maracas"
+    }
+  },
+  "14013": {
+    "img": "FtrIcon/ToolMegaphone1",
+    "clr": [
+      "red",
+      "black"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "has": "fitness",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "big_game",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "助威扩音器·火焰",
+      "de": "Fan-Megafon „Feuer“",
+      "fr-fr": "még. de supporter flammes",
+      "it": "megafono fan con fiamme",
+      "nl": "vurige megafoon",
+      "ru": "огненный рупор",
+      "ja": "おうえんメガホン・ファイアー",
+      "ko": "파이어 응원 메가폰",
+      "zh-tw": "加油大聲公‧火焰",
+      "fr-us": "még. de partisan flammes",
+      "en": "fiery cheer megaphone",
+      "es": "megáfono ánimo encendido"
+    }
+  },
+  "14014": {
+    "img": "FtrIcon/ToolMegaphone2",
+    "clr": [
+      "yellow",
+      "colorful"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "has": "fitness",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "big_game",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "助威扩音器·星星",
+      "de": "Fan-Megafon „Sterne“",
+      "fr-fr": "még. de supporter étoiles",
+      "it": "megafono fan con stelle",
+      "nl": "sterrenmegafoon",
+      "ru": "звездный рупор",
+      "ja": "おうえんメガホン・スター",
+      "ko": "스타 응원 메가폰",
+      "zh-tw": "加油大聲公‧星星",
+      "fr-us": "még. de partisan étoiles",
+      "en": "starry cheer megaphone",
+      "es": "megáfono de las estrellas"
+    }
+  },
+  "14015": {
+    "img": "FtrIcon/ToolMegaphone3",
+    "clr": [
+      "blue",
+      "aqua"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "has": "fitness",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "big_game",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "助威扩音器·闪亮",
+      "de": "Fan-Megafon „Glitzer“",
+      "fr-fr": "még. de supporter pailleté",
+      "it": "megafono fan luccicante",
+      "nl": "glittermegafoon",
+      "ru": "блестящий рупор",
+      "ja": "おうえんメガホン・グリッター",
+      "ko": "글리터 응원 메가폰",
+      "zh-tw": "加油大聲公‧閃亮",
+      "fr-us": "még. de partisan pailleté",
+      "en": "glittery cheer megaphone",
+      "es": "megáfono deslumbrante"
+    }
+  },
+  "14028": {
+    "img": "FtrIcon/ToolJuiceShamrock",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 201,
+    "has": "party",
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "shamrock_day",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "三叶草苏打水",
+      "de": "Kleeblatt-Smoothie",
+      "fr-fr": "soda trèfle",
+      "it": "succo di trifoglio",
+      "nl": "glas klaverprikdrank",
+      "ru": "газировка «Трилистник»",
+      "ja": "シャムロックソーダ",
+      "ko": "성 패트릭 소다",
+      "zh-tw": "三葉草汽水",
+      "fr-us": "liqueur trèfle",
+      "en": "shamrock soda",
+      "es": "refresco trébol"
+    }
+  },
+  "14239": {
+    "img": "FtrIcon/ToolStickShamrock",
+    "clr": [
+      "green",
+      "black"
+    ],
+    "sel": 1560,
+    "hap": 201,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "evt": "shamrock_day",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "三叶草棒",
+      "de": "Kleeblattstab",
+      "it": "bacchetta trifoglio",
+      "nl": "klaverstaf",
+      "ru": "палочка с трилистником",
+      "ja": "シャムロックステッキ",
+      "ko": "성 패트릭 지팡이",
+      "zh-tw": "三葉草棒",
+      "en": "shamrock wand",
+      "es": "varita trébol",
+      "fr": "baguette trèfle"
+    }
+  },
+  "14284": {
+    "img": "FtrIcon/ToolFlowershower",
+    "clr": [
+      "brown",
+      "pink"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "wedding_season_2",
+    "vad": "1.10.0",
+    "loc": {
+      "zh-cn": "花瓣篮",
+      "de": "Blütenblätterkörbchen",
+      "it": "cesta con petali",
+      "nl": "mand vol bloemblaadjes",
+      "ru": "корзинка с лепестками",
+      "ja": "フラワーシャワー",
+      "ko": "플라워 샤워",
+      "zh-tw": "花瓣籃",
+      "en": "flower-petal basket",
+      "es": "cesta con pétalos",
+      "fr": "panier de pétales"
+    }
+  },
+  "14285": {
+    "img": "FtrIcon/ToolChitoseame",
+    "clr": [
+      "white",
+      "aqua"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 201,
+    "sea": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "shichi_go_san",
+    "vad": "1.11.0",
+    "loc": {
+      "zh-cn": "千岁糖",
+      "de": "Chitose ame",
+      "it": "chitose ame",
+      "nl": "zakje chitose-ame-snoep",
+      "ru": "пакет для титосэ амэ",
+      "ja": "ちとせあめ",
+      "ko": "장수 기원 사탕",
+      "zh-tw": "千歲糖",
+      "en": "chitose ame",
+      "es": "caramelo de los mil años",
+      "fr": "chitose ame"
+    }
+  },
+  "14414": {
+    "ipf": "FtrIcon/ToolLantern_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "stars_2",
+      "moons",
+      "stained_glass",
+      "suns",
+      "geese",
+      "leaves_2"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "colorful",
+        "orange"
+      ],
+      [
+        "yellow",
+        "orange"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "yellow",
+        "green"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 201,
+    "sea": true,
+    "cat": true,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "ltp": "candle",
+    "evt": "lantern_festival",
+    "vad": "1.11.0",
+    "loc": {
+      "zh-cn": "手提灯笼",
+      "de": "Stocklaterne",
+      "es-es": "farolillo de mano",
+      "fr-fr": "lampion",
+      "it": "lanterna portatile",
+      "nl": "lampion",
+      "ru": "фонарь на палочке",
+      "ja": "てもちランタン",
+      "ko": "휴대용 랜턴",
+      "zh-tw": "手提燈籠",
+      "es-us": "farolito de mano",
+      "fr-us": "lanterne portative",
+      "en": "handheld lantern"
+    }
+  },
+  "14470": {
+    "img": "FtrIcon/LadderKitD",
+    "sel": 10720,
+    "hap": 103,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "黄金固定梯子工具组",
+      "de": "Goldleiter-Bausatz",
+      "es-es": "kit de escalerilla dorada",
+      "it": "kit fissa-scala d'oro",
+      "nl": "gouden-ladderopstelpakket",
+      "ru": "крепеж золот. лестницы",
+      "ja": "きんのFIXはしごキット",
+      "ko": "황금 사다리 FIX 키트",
+      "zh-tw": "黃金固定梯子工具組",
+      "es-us": "kit de escalerita dorada",
+      "en": "golden ladder set-up kit",
+      "fr": "kit installation d'échelle or"
+    }
+  },
+  "14504": {
+    "img": "FtrIcon/ToolSticklightColorful",
+    "clr": [
+      "colorful",
+      "black"
+    ],
+    "sel": 450,
+    "exp": 500,
+    "exc": 8,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "彩色荧光棒",
+      "de": "Farbwechsel-Leuchtstab",
+      "it": "bastoncino fluorescente",
+      "nl": "kleurrijk lichtstaafje",
+      "ru": "радужная светопалочка",
+      "ja": "カラフルスティックライト",
+      "ko": "컬러풀 형광봉",
+      "zh-tw": "彩色螢光棒",
+      "en": "colorful light stick",
+      "es": "vara de luz colorida",
+      "fr": "baguette fluo colorée"
+    }
+  },
+  "14538": {
+    "ipf": "FtrIcon/ToolProtein_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "red",
+      "blue",
+      "green",
+      "pink"
+    ],
+    "clr": [
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "blue",
+        "beige"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      "pink"
+    ],
+    "sel": 240,
+    "buy": 960,
+    "ccp": 1000,
+    "fpw": 1,
+    "hap": 151,
+    "ord": true,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Proteinshake",
+      "es-es": "vaso de batido de proteínas",
+      "fr-fr": "boisson protéinée",
+      "it": "frullato proteico",
+      "nl": "proteïneshake",
+      "ru": "протеиновый коктейль",
+      "ja": "プロテイン",
+      "ko": "프로틴 셰이크",
+      "es-us": "vaso licuado de proteínas",
+      "fr-us": "breuvage protéiné",
+      "en": "protein shake",
+      "zh": "乳清蛋白"
+    }
+  },
+  "14539": {
+    "ipf": "FtrIcon/ToolDumbbellPlayer_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "gold",
+      "silver"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      "yellow",
+      "gray"
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "ccp": 1000,
+    "hap": 151,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "哑铃",
+      "de": "Hantel",
+      "it": "manubrio",
+      "nl": "gewichtje",
+      "ru": "гантель",
+      "ja": "ダンベル",
+      "ko": "덤벨",
+      "zh-tw": "啞鈴",
+      "en": "dumbbell",
+      "es": "mancuerna",
+      "fr": "haltère à une main"
+    }
+  },
+  "14540": {
+    "img": "FtrIcon/ToolBalloonNook",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 210,
+    "exp": 30,
+    "exc": 7,
+    "hap": 431,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "nook_link",
+      "nso"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "Nook Inc.气球",
+      "de": "Nook-Inc.-Ballon",
+      "it": "palloncino Nook Inc.",
+      "nl": "Nook Inc.-ballon",
+      "ru": "шарик Nook Inc.",
+      "ja": "たぬきかいはつバルーン",
+      "ko": "Nook Inc. 풍선",
+      "zh-tw": "Nook Inc.氣球",
+      "en": "Nook Inc. balloon",
+      "es": "globo de Nook Inc.",
+      "fr": "ballon Nook Inc."
+    }
+  },
+  "14541": {
+    "img": "FtrIcon/ToolCupTakeout",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 75,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "brewster",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "外带咖啡",
+      "de": "Kaffee zum Mitnehmen",
+      "it": "caffè da asporto",
+      "nl": "afhaalkoffie",
+      "ru": "кофе навынос",
+      "ja": "テイクアウトコーヒー",
+      "ko": "테이크아웃 커피",
+      "zh-tw": "外帶咖啡",
+      "en": "takeout coffee",
+      "es": "café para llevar",
+      "fr": "café à emporter"
+    }
+  },
+  "14542": {
+    "ipf": "FtrIcon/ToolBasketHalloween_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "orange",
+      "yellow",
+      "green",
+      "monochrome"
+    ],
+    "clr": [
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "sel": 750,
+    "buy": 3000,
+    "kit": 1,
+    "ktt": 4,
+    "ccp": 1000,
+    "hap": 201,
+    "has": "horror",
+    "cat": true,
+    "bcu": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": [
+      "crafting",
+      "nook_store"
+    ],
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.11.0",
+    "loc": {
+      "zh-cn": "万圣节点心篮",
+      "de": "Kürbis-Naschkorb",
+      "fr-fr": "panier bonbons Halloween",
+      "it": "cesto di caramelle brividi",
+      "nl": "pompoensnoepmand",
+      "ru": "жуткая корзинка",
+      "ja": "ハロウィンなおやつバスケット",
+      "ko": "할로윈 간식 바구니",
+      "zh-tw": "萬聖節點心籃",
+      "fr-us": "panier bonbons frisson",
+      "en": "spooky treats basket",
+      "es": "cesta surtido de Halloween"
+    }
+  },
+  "14627": {
+    "img": "FtrIcon/ToolSensu0",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": "ost07",
+    "loc": {
+      "zh-cn": "桃红色扇子",
+      "de": "Rosa-Fächer",
+      "it": "ventaglio rosa pesca",
+      "nl": "perzikroze waaier",
+      "ru": "персиковый веер",
+      "ja": "もものせんす",
+      "ko": "분홍색 쥘부채",
+      "zh-tw": "桃紅色扇子",
+      "en": "peachy-pink folding fan",
+      "es": "abanico rosa flor de cerezo",
+      "fr": "éventail rose pêche"
+    }
+  },
+  "14628": {
+    "img": "FtrIcon/ToolTapioca0",
+    "clr": [
+      "beige",
+      "green"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "dog07",
+      "dog17",
+      "elp07",
+      "pbr08"
+    ],
+    "loc": {
+      "de": "Bubble-Milchtee",
+      "it": "bubble tea con latte",
+      "nl": "bubbelthee",
+      "ru": "молочный чай с шариками",
+      "ja": "タピオカミルクティー",
+      "ko": "오리지널 버블티",
+      "en": "boba milk tea",
+      "es": "té de burbujas con leche",
+      "fr": "thé aux perles lait",
+      "zh": "珍珠奶茶"
+    }
+  },
+  "14629": {
+    "img": "FtrIcon/ToolCandyfloss0",
+    "clr": [
+      "white",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "dog17",
+      "elp05",
+      "elp09"
+    ],
+    "loc": {
+      "de": "Zuckerwatte",
+      "it": "zucchero filato",
+      "nl": "suikerspin",
+      "ru": "сахарная вата",
+      "ja": "わたあめ",
+      "ko": "솜사탕",
+      "en": "plain cotton candy",
+      "es": "algodón de azúcar",
+      "fr": "barbe à papa",
+      "zh": "棉花糖"
+    }
+  },
+  "14631": {
+    "img": "FtrIcon/ToolIcecandyPlayer2",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "cbr07",
+      "elp05",
+      "rbt14"
+    ],
+    "loc": {
+      "de": "Schoko-Stieleis",
+      "es-es": "polo de chocolate",
+      "it": "gelato su stecco cioccolato",
+      "nl": "chocolade-ijsje",
+      "ru": "шоколадное мороженое",
+      "ja": "チョコレートアイスキャンディー",
+      "ko": "초콜릿 아이스바",
+      "es-us": "paleta helada de chocolate",
+      "en": "chocolate frozen treat",
+      "fr": "délice glacé chocolat",
+      "zh": "巧克力冰棒"
+    }
+  },
+  "14632": {
+    "img": "FtrIcon/ToolIcecandyPlayer1",
+    "clr": [
+      "aqua",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "dog17",
+      "elp05",
+      "mnk04",
+      "pgn12",
+      "squ02"
+    ],
+    "loc": {
+      "zh-cn": "苏打冰棒",
+      "de": "Limo-Stieleis",
+      "es-es": "polo de lima-limón",
+      "it": "gelato su stecco ramune",
+      "nl": "ramune-ijsje",
+      "ru": "мороженое из рамунэ",
+      "ja": "ソーダアイスキャンディー",
+      "ko": "소다맛 아이스바",
+      "zh-tw": "蘇打冰棒",
+      "es-us": "paleta helada de lima-limón",
+      "en": "ramune-soda frozen treat",
+      "fr": "délice glacé ramune"
+    }
+  },
+  "14633": {
+    "img": "FtrIcon/ToolIcecandyPlayer0",
+    "clr": [
+      "orange",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "cbr07",
+      "elp05",
+      "mnk04"
+    ],
+    "loc": {
+      "de": "Orangen-Stieleis",
+      "es-es": "polo de naranja",
+      "it": "gelato su stecco arancia",
+      "nl": "sinaasappelijsje",
+      "ru": "апельсинное мороженое",
+      "ja": "オレンジアイスキャンディー",
+      "ko": "오렌지 아이스바",
+      "es-us": "paleta helada de naranja",
+      "en": "orange frozen treat",
+      "fr": "délice glacé orange",
+      "zh": "橘子冰棒"
+    }
+  },
+  "14635": {
+    "img": "FtrIcon/ToolIcecream0",
+    "clr": [
+      "white",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd18",
+      "duk00",
+      "pgn04",
+      "squ07"
+    ],
+    "loc": {
+      "de": "Vanilleeis",
+      "it": "cono alla vaniglia",
+      "nl": "vanillehoorntje",
+      "ru": "ванильный рожок",
+      "ja": "バニラアイスクリーム",
+      "ko": "바닐라 아이스크림",
+      "en": "vanilla cone",
+      "es": "cucurucho de vainilla",
+      "fr": "cône vanille",
+      "zh": "香草冰淇淋"
+    }
+  },
+  "14636": {
+    "img": "FtrIcon/ToolIcesoft0",
+    "clr": [
+      "white",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea07",
+      "brd18",
+      "cbr07",
+      "dog17",
+      "duk00",
+      "elp05",
+      "goa07",
+      "pgn04",
+      "rbt04",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "香草软冰淇淋",
+      "de": "Vanille-Softeis",
+      "es-es": "barquillo de vainilla",
+      "fr-fr": "glace italienne vanille",
+      "it": "gelato soft alla vaniglia",
+      "nl": "vanillesoftijsje",
+      "ru": "ванильное желато",
+      "ja": "バニラソフトクリーム",
+      "ko": "바닐라 소프트아이스크림",
+      "zh-tw": "香草霜淇淋",
+      "es-us": "cono de vainilla",
+      "fr-us": "crème molle vanille",
+      "en": "vanilla soft serve"
+    }
+  },
+  "14638": {
+    "img": "FtrIcon/ToolCanPlayer0",
+    "clr": [
+      "orange",
+      "white"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "mnk04",
+      "rbt04",
+      "rbt09",
+      "squ10",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "罐装橘子汁",
+      "de": "Orangensaftdose",
+      "es-es": "lata de zumo de naranja",
+      "it": "succo d'arancia in lattina",
+      "nl": "blikje sinaasappelsap",
+      "ru": "апельсинный сок в банке",
+      "ja": "オレンジのかんジュース",
+      "ko": "캔 오렌지 주스",
+      "zh-tw": "罐裝橘子汁",
+      "es-us": "lata de jugo de naranja",
+      "en": "canned orange juice",
+      "fr": "canette de jus d'orange"
+    }
+  },
+  "14639": {
+    "ipf": "FtrIcon/ToolBookPlayer_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "novel",
+      "gardening_guide",
+      "bug_guide",
+      "fish_guide",
+      "fossil_guide"
+    ],
+    "clr": [
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "colorful"
+      ],
+      [
+        "green",
+        "colorful"
+      ],
+      [
+        "aqua",
+        "colorful"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "ccp": 1000,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "口袋书",
+      "de": "Fachbuch",
+      "it": "libro tascabile",
+      "nl": "pocketboek",
+      "ru": "книга в мягкой обложке",
+      "ja": "ポケットブック",
+      "ko": "포켓북",
+      "zh-tw": "口袋書",
+      "en": "pocketbook",
+      "es": "libro de bolsillo",
+      "fr": "livre de poche"
+    }
+  },
+  "14640": {
+    "ipf": "FtrIcon/ToolMagazine_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "fashion",
+      "music_2",
+      "sports_2",
+      "comic"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "colorful"
+      ],
+      [
+        "blue",
+        "colorful"
+      ],
+      [
+        "gray",
+        "colorful"
+      ],
+      [
+        "orange",
+        "colorful"
+      ]
+    ],
+    "sel": 200,
+    "exp": 500,
+    "exc": 8,
+    "ccp": 1000,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "口袋杂志",
+      "de": "Zeitschrift",
+      "it": "rivista tascabile",
+      "nl": "pockettijdschrift",
+      "ru": "журнал малого формата",
+      "ja": "ポケットマガジン",
+      "ko": "포켓 매거진",
+      "zh-tw": "口袋雜誌",
+      "en": "pocket magazine",
+      "es": "revista de bolsillo",
+      "fr": "magazine de poche"
+    }
+  },
+  "14641": {
+    "img": "FtrIcon/ToolDonutPlayer",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "elp05",
+      "elp09",
+      "rbt04",
+      "rbt14"
+    ],
+    "loc": {
+      "de": "Schokoladen-Donut",
+      "fr-fr": "beignet au chocolat",
+      "it": "ciambella al cioccolato",
+      "nl": "chocoladedonut",
+      "ru": "пончик с шоколадом",
+      "ja": "チョコドーナツ",
+      "ko": "초콜릿 도넛",
+      "fr-us": "beigne au chocolat",
+      "en": "chocolate donut",
+      "es": "rosquilla de chocolate",
+      "zh": "巧克力甜甜圈"
+    }
+  },
+  "14643": {
+    "img": "FtrIcon/ToolDusterPlayer",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "ord": true,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "nook_store",
+    "vad": "2.0.0",
+    "hui": "mnk08",
+    "loc": {
+      "zh-cn": "鸡毛掸子",
+      "de": "Staubwedel",
+      "it": "piumino catturapolvere",
+      "nl": "stoffer",
+      "ru": "метелка для пыли",
+      "ja": "はたき",
+      "ko": "먼지떨이",
+      "zh-tw": "撢子",
+      "en": "duster",
+      "es": "plumero",
+      "fr": "plumeau"
+    }
+  },
+  "14644": {
+    "img": "FtrIcon/ToolBranchPlayer",
+    "clr": [
+      "brown",
+      "green"
+    ],
+    "sel": 30,
+    "hap": 103,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": "goa06",
+    "loc": {
+      "zh-cn": "优质树枝",
+      "de": "Zweig",
+      "it": "rametto carino",
+      "nl": "mooie tak",
+      "ru": "хорошая ветка",
+      "ja": "ほどよいえだ",
+      "ko": "적당한 나뭇가지",
+      "zh-tw": "優質樹枝",
+      "en": "nice branch",
+      "es": "ramita de árbol",
+      "fr": "branche coupée"
+    }
+  },
+  "14645": {
+    "img": "FtrIcon/ToolFoxtailPlayer",
+    "clr": "green",
+    "sel": 60,
+    "hap": 103,
+    "cat": true,
+    "use": 0,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Fuchsschwanzgras",
+      "it": "forasacco",
+      "nl": "vossenstaart",
+      "ru": "лисохвост",
+      "ja": "ねこじゃらし",
+      "ko": "강아지풀",
+      "en": "foxtail",
+      "es": "espiga",
+      "fr": "vulpin",
+      "zh": "狗尾草"
+    }
+  },
+  "14734": {
+    "img": "FtrIcon/ToolIcecreamDouble0",
+    "clr": [
+      "aqua",
+      "yellow"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd18",
+      "cbr07",
+      "elp05",
+      "pgn04",
+      "pgn12",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "苏打&柠檬双球冰淇淋",
+      "de": "Zitronenlimo-Eis",
+      "it": "cono al limone e ramune",
+      "nl": "ramune-citroenhoorntje",
+      "ru": "рожок из рамунэ",
+      "ja": "ソーダ&レモンのダブルアイス",
+      "ko": "소다&레몬 더블 아이스크림",
+      "zh-tw": "蘇打&檸檬雙球冰淇淋",
+      "en": "ramune-soda-lemon cone",
+      "es": "cucurucho de limón y lima",
+      "fr": "cône ramune citron"
+    }
+  },
+  "14742": {
+    "img": "FtrIcon/ToolTapioca4",
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": "cat13",
+    "loc": {
+      "zh-cn": "珍珠拿铁",
+      "de": "Bubble-Kaffee",
+      "es-es": "té de burbujas de café",
+      "it": "bubble tea con caffè",
+      "nl": "bubbelkoffie",
+      "ru": "кофе с шариками",
+      "ja": "タピオカミルクコーヒー",
+      "ko": "커피 버블티",
+      "zh-tw": "珍珠拿鐵",
+      "es-us": "té de burbujas sabor café",
+      "en": "boba coffee",
+      "fr": "café aux perles"
+    }
+  },
+  "14743": {
+    "img": "FtrIcon/ToolCandyfloss2",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": "elp05",
+    "loc": {
+      "de": "Melonen-Zuckerwatte",
+      "it": "zucchero filato al melone",
+      "nl": "meloensuikerspin",
+      "ru": "дынная сахарная вата",
+      "ja": "メロンのわたあめ",
+      "ko": "멜론맛 솜사탕",
+      "en": "melon cotton candy",
+      "es": "algodón de azúcar de melón",
+      "fr": "barbe à papa melon",
+      "zh": "哈密瓜棉花糖"
+    }
+  },
+  "14744": {
+    "img": "FtrIcon/ToolCandyfloss3",
+    "clr": [
+      "aqua",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "elp05",
+      "goa07"
+    ],
+    "loc": {
+      "zh-cn": "弹珠汽水棉花糖",
+      "de": "Limo-Zuckerwatte",
+      "it": "zucchero filato al ramune",
+      "nl": "ramune-suikerspin",
+      "ru": "сахарная вата из рамунэ",
+      "ja": "ラムネのわたあめ",
+      "ko": "소다맛 솜사탕",
+      "zh-tw": "彈珠汽水棉花糖",
+      "en": "ramune-soda cotton candy",
+      "es": "algodón azúcar lima-limón",
+      "fr": "barbe à papa ramune"
+    }
+  },
+  "14745": {
+    "img": "FtrIcon/ToolTapioca1",
+    "clr": [
+      "pink",
+      "blue"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "dog07",
+      "ost07"
+    ],
+    "loc": {
+      "de": "Bubble-Erdbeertee",
+      "es-es": "té de burbujas de fresa",
+      "it": "bubble tea alla fragola",
+      "nl": "aardbeienbubbelthee",
+      "ru": "клубничн. чай с шариками",
+      "ja": "タピオカいちごミルク",
+      "ko": "딸기 버블티",
+      "es-us": "té de burbujas sabor fresa",
+      "en": "boba strawberry tea",
+      "fr": "thé aux perles fraise",
+      "zh": "珍珠草莓牛奶"
+    }
+  },
+  "14746": {
+    "img": "FtrIcon/ToolTapioca3",
+    "clr": [
+      "orange",
+      "purple"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": "duk16",
+    "loc": {
+      "de": "Bubble-Mangotee",
+      "es-es": "té de burbujas de mango",
+      "it": "bubble tea al mango",
+      "nl": "mangobubbelthee",
+      "ru": "манговый чай с шариками",
+      "ja": "タピオカマンゴーミルク",
+      "ko": "망고 버블티",
+      "es-us": "té de burbujas sabor mango",
+      "en": "boba mango tea",
+      "fr": "thé aux perles mangue",
+      "zh": "珍珠芒果牛奶"
+    }
+  },
+  "14747": {
+    "img": "FtrIcon/ToolTapioca2",
+    "clr": [
+      "green",
+      "orange"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": "pbr01",
+    "loc": {
+      "de": "Bubble-Grüntee",
+      "it": "bubble tea al tè verde",
+      "nl": "groene bubbelthee",
+      "ru": "зеленый чай с шариками",
+      "ja": "タピオカまっちゃミルク",
+      "ko": "말차 버블티",
+      "en": "boba green tea",
+      "es": "té verde de burbujas",
+      "fr": "thé vert aux perles",
+      "zh": "珍珠抹茶牛奶"
+    }
+  },
+  "14748": {
+    "img": "FtrIcon/ToolCandyfloss1",
+    "clr": [
+      "pink",
+      "beige"
+    ],
+    "sel": 150,
+    "buy": 600,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle",
+    "evt": [
+      "fireworks",
+      "fireworks_2",
+      "fireworks_3",
+      "fireworks_4",
+      "fireworks_5"
+    ],
+    "vad": "1.11.0",
+    "hui": [
+      "elp05",
+      "goa07",
+      "ost07"
+    ],
+    "loc": {
+      "de": "Erdbeer-Zuckerwatte",
+      "it": "zucchero filato alla fragola",
+      "nl": "aardbeiensuikerspin",
+      "ru": "клубничн. сахарная вата",
+      "ja": "イチゴのわたあめ",
+      "ko": "딸기맛 솜사탕",
+      "en": "strawberry cotton candy",
+      "es": "algodón de azúcar de fresa",
+      "fr": "barbe à papa fraise",
+      "zh": "草莓棉花糖"
+    }
+  },
+  "14775": {
+    "img": "FtrIcon/ToolCanPlayer1",
+    "clr": [
+      "purple",
+      "white"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd18",
+      "rbt04",
+      "rhn05"
+    ],
+    "loc": {
+      "zh-cn": "罐装葡萄汁",
+      "de": "Traubensaftdose",
+      "es-es": "lata de zumo de uva",
+      "it": "succo d'uva in lattina",
+      "nl": "blikje druivensap",
+      "ru": "виноградный сок в банке",
+      "ja": "グレープのかんジュース",
+      "ko": "캔 포도 주스",
+      "zh-tw": "罐裝葡萄汁",
+      "es-us": "lata de jugo de uva",
+      "en": "canned grape juice",
+      "fr": "canette de jus de raisin"
+    }
+  },
+  "14776": {
+    "img": "FtrIcon/ToolCanPlayer2",
+    "clr": [
+      "red",
+      "white"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "elp05",
+      "gor11",
+      "ocp00",
+      "rbt09",
+      "rhn05"
+    ],
+    "loc": {
+      "zh-cn": "罐装苹果汁",
+      "de": "Apfelsaftdose",
+      "es-es": "lata de zumo de manzana",
+      "it": "succo di mela in lattina",
+      "nl": "blikje appelsap",
+      "ru": "яблочный сок в банке",
+      "ja": "リンゴのかんジュース",
+      "ko": "캔 사과 주스",
+      "zh-tw": "罐裝蘋果汁",
+      "es-us": "lata de jugo de manzana",
+      "en": "canned apple juice",
+      "fr": "canette de jus de pomme"
+    }
+  },
+  "14777": {
+    "img": "FtrIcon/ToolCanPlayer3",
+    "clr": "green",
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr06",
+      "flg02",
+      "hip04",
+      "ocp00"
+    ],
+    "loc": {
+      "zh-cn": "罐装绿茶",
+      "de": "Grünteedose",
+      "it": "tè verde in lattina",
+      "nl": "blikje groene thee",
+      "ru": "зеленый чай в банке",
+      "ja": "りょくちゃのかんドリンク",
+      "ko": "캔 녹차",
+      "zh-tw": "罐裝綠茶",
+      "en": "canned green tea",
+      "es": "lata de té verde",
+      "fr": "canette de thé vert"
+    }
+  },
+  "14778": {
+    "img": "FtrIcon/ToolCanPlayer4",
+    "clr": [
+      "yellow",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "dog07",
+      "ham00",
+      "lon07",
+      "rhn05"
+    ],
+    "loc": {
+      "zh-cn": "罐装红茶",
+      "de": "Eisteedose",
+      "it": "tè in lattina",
+      "nl": "blikje thee",
+      "ru": "чай в банке",
+      "ja": "こうちゃのかんドリンク",
+      "ko": "캔 홍차",
+      "zh-tw": "罐裝紅茶",
+      "en": "canned tea",
+      "es": "lata de té con limón",
+      "fr": "canette de thé au citron"
+    }
+  },
+  "14779": {
+    "img": "FtrIcon/ToolCanPlayer5",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant00",
+      "brd16",
+      "elp10",
+      "ham00",
+      "rbt04"
+    ],
+    "loc": {
+      "zh-cn": "罐装咖啡",
+      "de": "Eiskaffeedose",
+      "it": "caffè in lattina",
+      "nl": "blikje koffie",
+      "ru": "кофе в банке",
+      "ja": "かんコーヒー",
+      "ko": "캔 커피",
+      "zh-tw": "罐裝咖啡",
+      "en": "canned coffee",
+      "es": "lata de café",
+      "fr": "canette de café"
+    }
+  },
+  "14780": {
+    "img": "FtrIcon/ToolCanPlayer6",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd17",
+      "cbr03",
+      "dog09",
+      "dog17",
+      "duk08",
+      "flg02",
+      "goa09",
+      "gor05",
+      "gor10",
+      "mnk04",
+      "mus10",
+      "ost00",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "罐装运动饮料",
+      "de": "Isodrink-Dose",
+      "fr-fr": "canette de boisson sportive",
+      "it": "bevanda isotonica in lattina",
+      "nl": "blikje sportdrank",
+      "ru": "спортивн. напиток в банке",
+      "ja": "かんのスポーツドリンク",
+      "ko": "캔 스포츠 드링크",
+      "zh-tw": "罐裝運動飲料",
+      "fr-us": "canette de breuvage sportif",
+      "en": "canned sports drink",
+      "es": "lata de bebida energética"
+    }
+  },
+  "14781": {
+    "img": "FtrIcon/ToolCanPlayer7",
+    "clr": "pink",
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "chn13",
+      "gor07",
+      "kgr01",
+      "ost02",
+      "ost07",
+      "pgn12",
+      "squ02",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "罐装苏打水",
+      "de": "Limodose",
+      "it": "soda in lattina",
+      "nl": "blikje frisdrank",
+      "ru": "лимонад в банке",
+      "ja": "ソーダのかんジュース",
+      "ko": "캔 소다",
+      "zh-tw": "罐裝蘇打",
+      "en": "canned soda",
+      "es": "lata de refresco",
+      "fr": "canette mystère"
+    }
+  },
+  "14836": {
+    "img": "FtrIcon/ToolIcecream1",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "elp05",
+      "pgn04",
+      "rbt14",
+      "squ07"
+    ],
+    "loc": {
+      "de": "Schokoeis",
+      "it": "cono al cioccolato",
+      "nl": "chocoladehoorntje",
+      "ru": "шоколадный рожок",
+      "ja": "チョコレートアイスクリーム",
+      "ko": "초콜릿 아이스크림",
+      "en": "chocolate cone",
+      "es": "cucurucho de chocolate",
+      "fr": "cône chocolat",
+      "zh": "巧克力冰淇淋"
+    }
+  },
+  "14837": {
+    "img": "FtrIcon/ToolIcecream2",
+    "clr": [
+      "pink",
+      "beige"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea07",
+      "cbr07",
+      "elp05",
+      "squ07"
+    ],
+    "loc": {
+      "de": "Erdbeereis",
+      "it": "cono alla fragola",
+      "nl": "aardbeienhoorntje",
+      "ru": "клубничный рожок",
+      "ja": "ストロベリーアイスクリーム",
+      "ko": "딸기 아이스크림",
+      "en": "strawberry cone",
+      "es": "cucurucho de fresa",
+      "fr": "cône fraise",
+      "zh": "草莓冰淇淋"
+    }
+  },
+  "14852": {
+    "img": "FtrIcon/ToolIcecreamDouble1",
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "pgn04",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "哈密瓜&芝士双球冰淇淋",
+      "de": "Melonen-Cheesecake-Eis",
+      "fr-fr": "cône cheesecake melon",
+      "it": "cono melone e cheesecake",
+      "nl": "meloen-kwarktaarthoorntje",
+      "ru": "дынно-сливочный рожок",
+      "ja": "メロン&チーズのダブルアイス",
+      "ko": "멜론&치즈 더블 아이스크림",
+      "zh-tw": "哈密瓜&起司雙球冰淇淋",
+      "fr-us": "cône gâteau fromage melon",
+      "en": "melon-cheesecake cone",
+      "es": "cucurucho pastel y melón"
+    }
+  },
+  "14853": {
+    "img": "FtrIcon/ToolIcecreamDouble2",
+    "clr": [
+      "orange",
+      "green"
+    ],
+    "sel": 150,
+    "exp": 500,
+    "exc": 8,
+    "fpw": 1,
+    "cat": true,
+    "use": 3,
+    "sze": "1x1",
+    "src": "redd_raffle2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr07",
+      "elp05",
+      "pgn12",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "橘子&薄荷双球冰淇淋",
+      "de": "Orange-Minze-Eis",
+      "fr-fr": "cône orange-menthe",
+      "it": "cono alla menta e arancia",
+      "nl": "sinaasappel-munthoorntje",
+      "ru": "мятно-апельсин. рожок",
+      "ja": "オレンジ&ミントのダブルアイス",
+      "ko": "오렌지&민트 더블 아이스크림",
+      "zh-tw": "橘子&薄荷巧克力雙球冰淇淋",
+      "fr-us": "cône orange menthe",
+      "en": "orange-mint cone",
+      "es": "cucurucho menta y naranja"
+    }
+  }
+}

@@ -1,0 +1,4559 @@
+{
+  "13119": {
+    "ipf": "FtrIcon/FtrEnamelCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "pink",
+      "white",
+      "black"
+    ],
+    "clr": [
+      "green",
+      "aqua",
+      "red",
+      "yellow",
+      "pink",
+      "white",
+      "black"
+    ],
+    "nvo": 1,
+    "sel": 525,
+    "buy": 2100,
+    "exp": 1900,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "kitchen",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "bea11",
+      "brd00",
+      "brd20",
+      "cat03",
+      "cat11",
+      "cat23",
+      "chn13",
+      "crd04",
+      "der02",
+      "dog09",
+      "dog14",
+      "duk11",
+      "flg05",
+      "flg12",
+      "goa00",
+      "gor04",
+      "gor09",
+      "gor11",
+      "hip09",
+      "hrs07",
+      "mnk08",
+      "mus09",
+      "mus16",
+      "pgn05",
+      "pig01",
+      "rhn02",
+      "shp09",
+      "shp14",
+      "squ01",
+      "squ02",
+      "squ09",
+      "squ11",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "珐琅灯",
+      "de": "Emaille-Lampe",
+      "it": "lampadario smaltato",
+      "nl": "emaillen lamp",
+      "ru": "эмалированная лампа",
+      "ja": "ホーローのランプ",
+      "ko": "법랑 램프",
+      "zh-tw": "琺瑯燈",
+      "en": "enamel lamp",
+      "es": "lámpara industrial",
+      "fr": "lampe émaillée"
+    }
+  },
+  "13120": {
+    "ipf": "FtrIcon/FtrChandelierCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "black",
+      "silver",
+      "gold"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 1025,
+    "buy": 4100,
+    "exp": 3700,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "european",
+      "expensive"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "brd08",
+      "cat03",
+      "cbr07",
+      "cbr16",
+      "crd08",
+      "der01",
+      "elp10",
+      "flg19",
+      "goa04",
+      "hrs04",
+      "hrs06",
+      "hrs12",
+      "hrs16",
+      "kal05",
+      "mnk02",
+      "ost02",
+      "pbr07",
+      "pgn07",
+      "squ19",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "圆形吊灯",
+      "de": "Kugeldeckenlampe",
+      "it": "lampadario bulbi",
+      "nl": "hanglamp met drie lampen",
+      "ru": "люстра с плафонами",
+      "ja": "まるいシャンデリア",
+      "ko": "둥근 샹들리에",
+      "zh-tw": "圓型吊燈",
+      "en": "round light fixture",
+      "es": "lámpara tres esferas",
+      "fr": "lampe ronde triple"
+    }
+  },
+  "13121": {
+    "ipf": "FtrIcon/FtrWoodCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "natural_wood",
+      "light_wood",
+      "dark_wood",
+      "gray",
+      "yellow",
+      "blue",
+      "pink"
+    ],
+    "clr": [
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 700,
+    "buy": 2800,
+    "exp": 2500,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "restaurant",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "bul01",
+      "duk06",
+      "duk09",
+      "elp04",
+      "goa00",
+      "pgn05",
+      "rbt20",
+      "squ01"
+    ],
+    "loc": {
+      "zh-cn": "木罩灯",
+      "de": "Holzlampe",
+      "es-es": "lámpara de techo bandas",
+      "it": "paralume con anelli di legno",
+      "nl": "lamp met houten frame",
+      "ru": "лампа с дерев. абажуром",
+      "ja": "ウッドシェードランプ",
+      "ko": "우드 셰이드 램프",
+      "zh-tw": "木罩燈",
+      "es-us": "lámpara de techo círculos",
+      "en": "wood-shade lamp",
+      "fr": "lampe à abat-jour lattes"
+    }
+  },
+  "13122": {
+    "ipf": "FtrIcon/FtrJapanCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "natural_wood",
+      "dark_wood",
+      "light_wood"
+    ],
+    "clr": [
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "brown",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 350,
+    "buy": 1400,
+    "exp": 1300,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "harmonious",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "ant08",
+      "bea03",
+      "brd06",
+      "cat00",
+      "cbr15",
+      "der00",
+      "dog14",
+      "duk04",
+      "flg03",
+      "mus14",
+      "ocp00",
+      "ost06",
+      "pbr01",
+      "rbt06",
+      "shp07",
+      "squ02",
+      "squ16",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "和风照明",
+      "de": "Japanlampe",
+      "it": "lampadario zen",
+      "nl": "zenlamp",
+      "ru": "дзен-лампа",
+      "ja": "わふうなしょうめい",
+      "ko": "동양풍 조명",
+      "zh-tw": "和風照明",
+      "en": "zen light",
+      "es": "fluorescente japonés",
+      "fr": "lampe zen"
+    }
+  },
+  "13144": {
+    "ipf": "FtrIcon/FtrLightSimpleCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "pink",
+      "blue",
+      "green"
+    ],
+    "clr": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "pink",
+      "aqua",
+      "green"
+    ],
+    "nvo": 6,
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "hat": "simple",
+    "has": [
+      "living_room",
+      "restaurant"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "ant01",
+      "brd02",
+      "brd11",
+      "cat17",
+      "crd08",
+      "der02",
+      "der04",
+      "der05",
+      "dog09",
+      "duk06",
+      "elp03",
+      "elp10",
+      "elp12",
+      "flg06",
+      "flg15",
+      "goa00",
+      "lon08",
+      "ocp01",
+      "pgn05",
+      "pgn09",
+      "pgn11",
+      "pig00",
+      "pig05",
+      "rbt03",
+      "shp15",
+      "squ01",
+      "squ16",
+      "tig03",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "简约罩灯",
+      "de": "Einfachschirmlampe",
+      "it": "lampada a cono semplice",
+      "nl": "sobere hanglamp",
+      "ru": "простая лампа",
+      "ja": "シンプルなシェードランプ",
+      "ko": "심플한 셰이드 램프",
+      "zh-tw": "簡約罩燈",
+      "en": "simple shaded lamp",
+      "es": "lámpara de techo simple",
+      "fr": "lampe à abat-jour basique"
+    }
+  },
+  "13145": {
+    "ipf": "FtrIcon/FtrStainedLightCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "colorful",
+      "red_yellow_3",
+      "green_red_3",
+      "gray",
+      "purple",
+      "roses",
+      "grapes",
+      "birds"
+    ],
+    "clr": [
+      [
+        "white",
+        "colorful"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "green",
+        "red"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "purple",
+        "aqua"
+      ],
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "beige",
+        "pink"
+      ],
+      [
+        "white",
+        "colorful"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 850,
+    "buy": 3400,
+    "exp": 3100,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "retro",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "bea07",
+      "bea15",
+      "cat21",
+      "cbr04",
+      "cow06",
+      "elp09",
+      "mnk05",
+      "mnk06",
+      "mus04",
+      "mus15",
+      "rbt03",
+      "shp00",
+      "squ07",
+      "tig01",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "彩绘玻璃灯",
+      "de": "Buntglashängelampe",
+      "it": "lampadario di vetro colorato",
+      "nl": "glas-in-loodlamp",
+      "ru": "витражная лампа",
+      "ja": "ステンドライト",
+      "ko": "스테인드글라스 라이트",
+      "zh-tw": "彩繪玻璃燈",
+      "en": "stained-glass light",
+      "es": "lámpara techo art nouveau",
+      "fr": "plafonnier vitrail"
+    }
+  },
+  "13146": {
+    "ipf": "FtrIcon/FtrMilkGlassCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "white",
+      "blue",
+      "pink",
+      "yellow",
+      "green"
+    ],
+    "clr": [
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 1175,
+    "buy": 4700,
+    "exp": 4200,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "expensive",
+      "fancy"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "ant03",
+      "bea15",
+      "cat23",
+      "cbr17",
+      "dog05",
+      "duk07",
+      "duk11",
+      "elp01",
+      "elp03",
+      "elp05",
+      "elp07",
+      "elp09",
+      "flg04",
+      "flg13",
+      "ham04",
+      "hip09",
+      "hrs04",
+      "hrs09",
+      "lon06",
+      "mnk05",
+      "mus12",
+      "pbr07",
+      "pig14",
+      "rbt14",
+      "shp01",
+      "shp03",
+      "shp10",
+      "shp12",
+      "squ04",
+      "squ11",
+      "squ13"
+    ],
+    "loc": {
+      "zh-cn": "牛奶玻璃灯",
+      "de": "Milchglashängelampe",
+      "it": "lampadario di vetro opalino",
+      "nl": "sierlijke hanglamp",
+      "ru": "лампа из белого стекла",
+      "ja": "ミルクガラスランプ",
+      "ko": "밀크글라스 램프",
+      "zh-tw": "牛奶玻璃燈",
+      "en": "milk-glass lamp",
+      "es": "lámp. techo vidrio opalino",
+      "fr": "lampe en verre dépoli"
+    }
+  },
+  "13147": {
+    "ipf": "FtrIcon/FtrFluorescentSimpleCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "silver"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "nvo": 1,
+    "sel": 350,
+    "buy": 1400,
+    "exp": 1300,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "office",
+      "facility"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "ant00",
+      "cat01",
+      "cat11",
+      "cat14",
+      "cat17",
+      "cbr10",
+      "cbr16",
+      "chn11",
+      "duk00",
+      "duk08",
+      "duk13",
+      "flg06",
+      "flg12",
+      "flg18",
+      "goa02",
+      "gor05",
+      "hip08",
+      "kal01",
+      "kal03",
+      "kgr06",
+      "mnk02",
+      "mus10",
+      "ost01",
+      "pbr03",
+      "pgn01",
+      "pgn13",
+      "pig09",
+      "pig10",
+      "rbt02",
+      "rbt04",
+      "rhn04",
+      "squ03",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "日光灯",
+      "de": "Rasterlampe",
+      "it": "lampadario al neon",
+      "nl": "tl-lamp",
+      "ru": "люминесцентная лампа",
+      "ja": "けいこうとう",
+      "ko": "형광등",
+      "zh-tw": "日光燈",
+      "en": "fluorescent light",
+      "es": "fluorescente de techo",
+      "fr": "lampe néon suspendue"
+    }
+  },
+  "13148": {
+    "ipf": "FtrIcon/FtrSpotlightCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "black",
+      "white",
+      "silver",
+      "gold",
+      "red",
+      "yellow",
+      "blue",
+      "colorful"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      "white",
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "colorful",
+        "white"
+      ]
+    ],
+    "nvo": 4,
+    "sel": 1125,
+    "buy": 4500,
+    "exp": 4000,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "concert",
+      "facility"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "brd15",
+      "brd16",
+      "cat12",
+      "cat15",
+      "cat16",
+      "cat20",
+      "cbr18",
+      "duk09",
+      "duk10",
+      "duk15",
+      "elp02",
+      "elp10",
+      "flg06",
+      "goa04",
+      "hip03",
+      "hrs02",
+      "kal08",
+      "kgr01",
+      "mnk03",
+      "ocp02",
+      "ost03",
+      "pbr03",
+      "pbr05",
+      "pbr08",
+      "pbr09",
+      "pgn02",
+      "pgn10",
+      "pgn14",
+      "pig15",
+      "squ20",
+      "wol01",
+      "wol02",
+      "wol03",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "天花板聚光灯",
+      "de": "Hängeleuchte",
+      "it": "set di faretti",
+      "nl": "plafondspots",
+      "ru": "подвесной светильник",
+      "ja": "シーリングスポットライト",
+      "ko": "천장 스포트라이트",
+      "zh-tw": "天花板聚光燈",
+      "en": "ceiling spotlight",
+      "es": "línea de halógenos",
+      "fr": "plafonnier spots"
+    }
+  },
+  "13149": {
+    "ipf": "FtrIcon/FtrNordicLampC_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "green",
+      "blue",
+      "orange",
+      "red",
+      "pink",
+      "gray",
+      "white"
+    ],
+    "clr": [
+      "green",
+      "blue",
+      "orange",
+      "red",
+      "pink",
+      "gray",
+      "white"
+    ],
+    "nvo": 1,
+    "sel": 1150,
+    "buy": 4600,
+    "exp": 4100,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "hat": "nordic",
+    "has": "living_room",
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "dog09",
+      "duk12",
+      "elp03",
+      "elp04",
+      "gor09",
+      "gor11",
+      "ham02",
+      "hip03",
+      "mus01",
+      "mus16",
+      "pig16",
+      "shp12",
+      "shp15",
+      "squ10",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "北欧风吊灯",
+      "de": "Skandi-Hängelampe",
+      "it": "lampadario scandinavo",
+      "nl": "Scandinavische hanglamp",
+      "ru": "скандинавская лампа",
+      "ja": "ノルディックなペンダントライト",
+      "ko": "노르딕 펜던트 라이트",
+      "zh-tw": "北歐風吊燈",
+      "en": "Nordic pendant light",
+      "es": "lámpara techo escandinava",
+      "fr": "lampe suspendue skandi"
+    }
+  },
+  "13150": {
+    "ipf": "FtrIcon/FtrMoroccanLampC_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "silver",
+      "gold",
+      "copper",
+      "white",
+      "blue",
+      "green",
+      "purple",
+      "black"
+    ],
+    "clr": [
+      "gray",
+      "yellow",
+      "brown",
+      "white",
+      "blue",
+      "green",
+      "purple",
+      "black"
+    ],
+    "nvo": 0,
+    "sel": 2450,
+    "buy": 9800,
+    "exp": 8800,
+    "exc": 2,
+    "ccp": 3100,
+    "hap": 151,
+    "hac": "lighting",
+    "hat": "moroccan",
+    "has": [
+      "living_room",
+      "stylish"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "candle",
+    "vad": "2.0.0",
+    "hui": [
+      "bea09",
+      "brd05",
+      "cow06",
+      "crd04",
+      "der07",
+      "goa00",
+      "hrs09",
+      "lon06",
+      "mnk06",
+      "mus02",
+      "pbr02",
+      "squ11",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "摩洛哥灯",
+      "de": "Marokko-Lampe",
+      "fr-fr": "lampe Maroc",
+      "it": "lampadario marocchino",
+      "nl": "Marokkaanse lamp",
+      "ru": "марокканская лампа",
+      "ja": "モロッカンランプ",
+      "ko": "모로칸 램프",
+      "zh-tw": "摩洛哥燈",
+      "fr-us": "lampe désert",
+      "en": "Moroccan lights",
+      "es": "lámpara de techo marroquí"
+    }
+  },
+  "13151": {
+    "ipf": "FtrIcon/FtrAsianLanternCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7",
+      "3_0",
+      "3_1",
+      "3_2",
+      "3_3",
+      "3_4",
+      "3_5",
+      "3_6",
+      "3_7"
+    ],
+    "var": [
+      "gold",
+      "black",
+      "red",
+      "brass"
+    ],
+    "pat": [
+      1656,
+      1657,
+      1658,
+      1315,
+      1659,
+      1660,
+      1661,
+      1662
+    ],
+    "clr": [
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      "yellow",
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      "red",
+      [
+        "red",
+        "aqua"
+      ],
+      "red",
+      [
+        "red",
+        "white"
+      ],
+      "red",
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "aqua"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "white"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "brown",
+        "yellow"
+      ],
+      [
+        "brown",
+        "green"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 250,
+    "buy": 1000,
+    "exp": 900,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "harmonious",
+      "heritage"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "chn12",
+      "crd07",
+      "der10",
+      "dog17",
+      "flg15",
+      "ham03",
+      "kgr05",
+      "mnk07",
+      "ocp00"
+    ],
+    "loc": {
+      "zh-cn": "灯笼",
+      "de": "Lampion",
+      "es-es": "farolillo oriental",
+      "it": "lanterna tonda",
+      "nl": "Chinese lampion",
+      "ru": "праздничный фонарь",
+      "ja": "ちょうちん",
+      "ko": "초롱",
+      "zh-tw": "燈籠",
+      "es-us": "farolito oriental",
+      "en": "festival lantern",
+      "fr": "lampion oriental"
+    }
+  },
+  "13152": {
+    "ipf": "FtrIcon/FtrChinaCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "ivory",
+      "pink",
+      "yellow",
+      "red",
+      "green",
+      "blue",
+      "white"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      "red",
+      "green",
+      "blue",
+      "white"
+    ],
+    "nvo": 6,
+    "sel": 650,
+    "buy": 2600,
+    "exp": 2300,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "harmonious",
+      "restaurant"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "cbr13",
+      "cbr14",
+      "flg07",
+      "flg15",
+      "mnk07",
+      "shp01"
+    ],
+    "loc": {
+      "de": "Fernost-Lampe",
+      "fr-fr": "lampe Chine",
+      "it": "lampada cinese",
+      "nl": "keizerlijke lamp",
+      "ru": "азиатская лампа",
+      "ja": "ちゅうかなしょうめい",
+      "ko": "중국풍 조명",
+      "fr-us": "lampe impériale",
+      "en": "imperial lamp",
+      "es": "lámpara de techo imperial",
+      "zh": "中式照明"
+    }
+  },
+  "13153": {
+    "ipf": "FtrIcon/FtrWoodPendantCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "natural_wood",
+      "black",
+      "light_wood",
+      "white"
+    ],
+    "clr": [
+      [
+        "brown",
+        "black"
+      ],
+      "black",
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 725,
+    "buy": 2900,
+    "exp": 2600,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "restaurant",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "ant02",
+      "cat21",
+      "chn01",
+      "dog05",
+      "duk09",
+      "duk12",
+      "duk16",
+      "elp11",
+      "goa00",
+      "ham02",
+      "hip00",
+      "hrs01",
+      "hrs10",
+      "mus02",
+      "ost02",
+      "pgn03",
+      "rbt15",
+      "rhn07",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "木吊灯",
+      "de": "Hellholz-Hängelampe",
+      "it": "lampadario geometrico",
+      "nl": "houten hanglamp",
+      "ru": "деревянная лампа",
+      "ja": "ウッドペンダントライト",
+      "ko": "우드 펜던트 라이트",
+      "zh-tw": "木吊燈",
+      "en": "wooden pendant light",
+      "es": "lámpara techo geométrica",
+      "fr": "lampe suspendue en bois"
+    }
+  },
+  "13154": {
+    "ipf": "FtrIcon/FtrChandelierCeilingL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "gold",
+      "silver",
+      "white",
+      "red",
+      "blue",
+      "green",
+      "pink",
+      "purple"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      "red",
+      "aqua",
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      "purple"
+    ],
+    "nvo": 2,
+    "sel": 7500,
+    "buy": 30000,
+    "exp": 27000,
+    "exc": 2,
+    "ccp": 5200,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "brd01",
+      "cat21",
+      "cbr02",
+      "cbr18",
+      "der01",
+      "duk01",
+      "flg19",
+      "ham06",
+      "kal05",
+      "kgr10",
+      "mus15",
+      "pbr00",
+      "pbr07",
+      "pig10",
+      "pig11",
+      "rbt05",
+      "rhn08",
+      "shp10",
+      "squ17",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "水晶吊灯",
+      "de": "Lüster",
+      "it": "candeliere da soffitto",
+      "nl": "kroonluchter",
+      "ru": "люстра",
+      "ja": "シャンデリア",
+      "ko": "샹들리에",
+      "zh-tw": "水晶吊燈",
+      "en": "chandelier",
+      "es": "lámpara de araña",
+      "fr": "lustre"
+    }
+  },
+  "13155": {
+    "ipf": "FtrIcon/FtrSpiralChandelierCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0"
+    ],
+    "var": [
+      "silver",
+      "gold",
+      "black"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 8250,
+    "buy": 33000,
+    "exp": 29700,
+    "exc": 2,
+    "ccp": 5200,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "facility",
+      "expensive"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr02",
+      "cbr18",
+      "der04",
+      "duk01",
+      "elp09",
+      "lon06",
+      "lon08",
+      "pgn12",
+      "pig11",
+      "pig14",
+      "pig15",
+      "shp08",
+      "shp10"
+    ],
+    "loc": {
+      "zh-cn": "螺旋吊灯",
+      "de": "Spirallüster",
+      "it": "lampadario a spirale",
+      "nl": "spiraalkroonluchter",
+      "ru": "спиралевидная люстра",
+      "ja": "スパイラルシャンデリア",
+      "ko": "스파이럴 샹들리에",
+      "zh-tw": "螺旋吊燈",
+      "en": "spiral chandelier",
+      "es": "lámpara de techo espiral",
+      "fr": "lustre en spirale"
+    }
+  },
+  "13156": {
+    "ipf": "FtrIcon/FtrFanCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "silver",
+      "brass",
+      "green",
+      "red",
+      "yellow",
+      "wooden"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "gray",
+      "yellow",
+      "green",
+      "red",
+      "yellow",
+      [
+        "orange",
+        "black"
+      ]
+    ],
+    "nvo": 4,
+    "sel": 3500,
+    "buy": 14000,
+    "exp": 12600,
+    "exc": 2,
+    "ccp": 3800,
+    "hap": 151,
+    "has": [
+      "living_room",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "vad": "2.0.0",
+    "hui": [
+      "ant06",
+      "brd05",
+      "cat02",
+      "cat15",
+      "cat23",
+      "chn09",
+      "crd06",
+      "der01",
+      "der12",
+      "dog04",
+      "dog06",
+      "dog09",
+      "elp09",
+      "flg00",
+      "gor00",
+      "ham04",
+      "ham05",
+      "ham06",
+      "hip08",
+      "mus04",
+      "ocp02",
+      "ost02",
+      "pbr09",
+      "pgn03",
+      "pgn09",
+      "pgn12",
+      "pig11",
+      "rbt05",
+      "rbt10",
+      "shp09",
+      "shp14",
+      "squ03",
+      "squ04",
+      "squ09"
+    ],
+    "loc": {
+      "de": "Deckenventilator",
+      "it": "ventilatore sospeso",
+      "nl": "plafondventilator",
+      "ru": "потолочный вентилятор",
+      "ja": "シーリングファン",
+      "ko": "실링 팬",
+      "en": "ceiling fan",
+      "es": "ventilador de techo",
+      "fr": "ventilateur de plafond",
+      "zh": "天花板吊扇"
+    }
+  },
+  "13157": {
+    "ipf": "FtrIcon/FtrElectricBoardCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7"
+    ],
+    "var": [
+      "black",
+      "white",
+      "silver"
+    ],
+    "pat": [
+      1663,
+      1664,
+      1665,
+      1666,
+      1667,
+      1668,
+      1669,
+      1670
+    ],
+    "clr": [
+      "black",
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      "black",
+      [
+        "black",
+        "colorful"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "white",
+        "black"
+      ],
+      [
+        "white",
+        "aqua"
+      ],
+      "white",
+      [
+        "white",
+        "black"
+      ],
+      [
+        "white",
+        "colorful"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "gray",
+        "aqua"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "gray",
+        "colorful"
+      ],
+      [
+        "gray",
+        "blue"
+      ],
+      [
+        "gray",
+        "green"
+      ],
+      [
+        "gray",
+        "blue"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 1350,
+    "buy": 5400,
+    "exp": 4900,
+    "exc": 2,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 151,
+    "has": [
+      "restaurant",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "monitor",
+    "vad": "2.0.0",
+    "hui": [
+      "brd18",
+      "chn11",
+      "duk10",
+      "duk15",
+      "flg18",
+      "kal05",
+      "ost01",
+      "pig13",
+      "rbt14",
+      "rhn01",
+      "shp09",
+      "squ00",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式双电子看板",
+      "de": "Doppel-Hängemonitor",
+      "it": "coppia di monitor sospesi",
+      "nl": "dubbele plafondmonitor",
+      "ru": "двойное потолочн. табло",
+      "ja": "つりさげしきデュアルモニター",
+      "ko": "천장걸이 듀얼 모니터",
+      "zh-tw": "吊掛式雙電子看板",
+      "en": "dual hanging monitors",
+      "es": "pantalla de techo doble",
+      "fr": "double écran d'affichage"
+    }
+  },
+  "13158": {
+    "ipf": "FtrIcon/FtrHangingShelfCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "light_wood",
+      "orange_wood",
+      "dark_wood",
+      "vintage_wood",
+      "natural_wood",
+      "black",
+      "green",
+      "pink"
+    ],
+    "clr": [
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "brown",
+        "white"
+      ],
+      "black",
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "pink",
+        "white"
+      ]
+    ],
+    "nvo": 6,
+    "sel": 875,
+    "buy": 3500,
+    "exp": 3200,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "has": [
+      "cafe",
+      "kitchen"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "duk12",
+      "duk13",
+      "elp04",
+      "elp07",
+      "gor09",
+      "hrs07",
+      "kal03",
+      "pgn05",
+      "pgn11",
+      "squ01",
+      "squ11"
+    ],
+    "loc": {
+      "zh-cn": "吊柜",
+      "de": "Hängeregal",
+      "it": "scaffale pensile",
+      "nl": "wandrekje",
+      "ru": "навесная полка",
+      "ja": "つるしだな",
+      "ko": "천장걸이 선반",
+      "zh-tw": "吊櫃",
+      "en": "hanging shelves",
+      "es": "repisa colgante doble",
+      "fr": "étagère murale simple"
+    }
+  },
+  "13164": {
+    "ipf": "FtrIcon/FtrMirrorBallCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "silver",
+      "gold",
+      "purple",
+      "blue",
+      "green",
+      "rainbow_3"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "colorful",
+        "black"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 1550,
+    "buy": 6200,
+    "exp": 5600,
+    "exc": 2,
+    "ccp": 2400,
+    "hap": 151,
+    "has": [
+      "party",
+      "concert"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "emission",
+    "vad": "2.0.0",
+    "hui": [
+      "bea10",
+      "brd03",
+      "brd16",
+      "cbr18",
+      "crd04",
+      "duk10",
+      "flg00",
+      "kgr01",
+      "mnk01",
+      "ost05",
+      "rbt11",
+      "rbt12",
+      "rbt15",
+      "rbt19",
+      "squ19",
+      "tig05",
+      "wol03",
+      "wol05",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "镜球",
+      "de": "Diskokugel",
+      "it": "strobosfera",
+      "nl": "discobal",
+      "ru": "диско-шар",
+      "ja": "ミラーボール",
+      "ko": "미러볼",
+      "zh-tw": "鏡球",
+      "en": "disco ball",
+      "es": "bola de discoteca",
+      "fr": "boule disco"
+    }
+  },
+  "13220": {
+    "ipf": "FtrIcon/FtrAsianLanternMCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7",
+      "3_0",
+      "3_1",
+      "3_2",
+      "3_3",
+      "3_4",
+      "3_5",
+      "3_6",
+      "3_7"
+    ],
+    "var": [
+      "gold",
+      "black",
+      "red",
+      "brass"
+    ],
+    "pat": [
+      1656,
+      1657,
+      1658,
+      1315,
+      1659,
+      1660,
+      1661,
+      1662
+    ],
+    "clr": [
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      "yellow",
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      "red",
+      [
+        "red",
+        "aqua"
+      ],
+      "red",
+      [
+        "red",
+        "white"
+      ],
+      "red",
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "aqua"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "white"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "brown",
+        "yellow"
+      ],
+      [
+        "brown",
+        "green"
+      ]
+    ],
+    "sel": 2000,
+    "kit": 4,
+    "ktt": 1,
+    "ccp": 3100,
+    "hap": 103,
+    "hac": "lighting",
+    "has": [
+      "harmonious",
+      "party"
+    ],
+    "int": true,
+    "cat": true,
+    "bcu": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "crd07",
+      "der10",
+      "dog17",
+      "ham03",
+      "kgr05",
+      "mnk07",
+      "ocp00"
+    ],
+    "loc": {
+      "zh-cn": "灯笼组合",
+      "de": "Lampion-Set",
+      "es-es": "set de farolillos orientales",
+      "it": "set di lanterne tonde",
+      "nl": "Chinese-lampionnenslinger",
+      "ru": "набор праздн. фонарей",
+      "ja": "ちょうちんセット",
+      "ko": "초롱 세트",
+      "zh-tw": "燈籠組合",
+      "es-us": "set de farolitos orientales",
+      "en": "festival-lantern set",
+      "fr": "guirlande de lampions"
+    }
+  },
+  "13229": {
+    "ipf": "FtrIcon/FtrRangehoodCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "silver",
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      "gray",
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "nvo": 4,
+    "sel": 675,
+    "buy": 2700,
+    "exp": 2400,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "kitchen",
+      "restaurant"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "emission",
+    "vad": "2.0.0",
+    "hui": [
+      "cat00",
+      "cat03",
+      "cbr16",
+      "dog09",
+      "duk11",
+      "elp00",
+      "elp03",
+      "flg07",
+      "flg15",
+      "mnk06",
+      "mnk08",
+      "pgn05",
+      "rbt04",
+      "rhn04",
+      "squ11",
+      "wol01"
+    ],
+    "loc": {
+      "zh-cn": "抽油烟机",
+      "de": "Abzugshaube",
+      "it": "cappa da cucina",
+      "nl": "afzuigkap",
+      "ru": "вытяжка",
+      "ja": "レンジフード",
+      "ko": "레인지 후드",
+      "zh-tw": "抽油煙機",
+      "en": "range hood",
+      "es": "campana extractora",
+      "fr": "hotte de cuisine"
+    }
+  },
+  "13335": {
+    "ipf": "FtrIcon/FtrSeagullMobileCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "natural",
+      "white",
+      "red",
+      "yellow",
+      "blue",
+      "pink",
+      "brown",
+      "black"
+    ],
+    "clr": [
+      "beige",
+      "white",
+      "red",
+      "yellow",
+      "aqua",
+      "pink",
+      "brown",
+      "black"
+    ],
+    "nvo": 7,
+    "sel": 1325,
+    "buy": 5300,
+    "exp": 4800,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "has": [
+      "childs_room",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "vad": "2.0.0",
+    "hui": [
+      "bea02",
+      "bea05",
+      "brd20",
+      "cbr17",
+      "cbr19",
+      "cow07",
+      "crd02",
+      "crd06",
+      "duk03",
+      "elp09",
+      "flg17",
+      "goa00",
+      "hrs11",
+      "kgr08",
+      "lon04",
+      "mus18",
+      "pbr03",
+      "rbt13",
+      "squ05",
+      "squ11",
+      "squ13",
+      "squ18"
+    ],
+    "loc": {
+      "zh-cn": "小鸟挂饰",
+      "de": "Vogel-Mobile",
+      "it": "decorazione uccello",
+      "nl": "vogelmobiel",
+      "ru": "мобиль-птица",
+      "ja": "バードモビール",
+      "ko": "새 모빌",
+      "zh-tw": "小鳥掛飾",
+      "en": "bird mobile",
+      "es": "móvil de pájaro",
+      "fr": "mobile oiseau"
+    }
+  },
+  "13468": {
+    "ipf": "FtrIcon/FtrStagelightCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "yellow",
+      "orange",
+      "red",
+      "pink",
+      "purple",
+      "blue",
+      "green"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "black",
+        "purple"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "green"
+      ]
+    ],
+    "nvo": 7,
+    "sel": 1125,
+    "buy": 4500,
+    "exp": 4000,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "has": "concert",
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "monitor",
+    "vad": "2.0.0",
+    "hui": [
+      "brd15",
+      "brd16",
+      "cat11",
+      "cat12",
+      "cat14",
+      "cat20",
+      "cbr18",
+      "der10",
+      "dog06",
+      "dog15",
+      "duk09",
+      "elp10",
+      "kgr01",
+      "mnk01",
+      "pgn10",
+      "rbt11",
+      "rhn08",
+      "tig01",
+      "tig05",
+      "wol05",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式舞台灯",
+      "de": "Bühnenlicht-Set",
+      "it": "set faretti da palcoscenico",
+      "nl": "hangende podiumlampen",
+      "ru": "софиты",
+      "ja": "つりさげステージライト",
+      "ko": "천장걸이 스테이지 라이트",
+      "zh-tw": "吊掛式舞台燈",
+      "en": "hanging stage lights",
+      "es": "barra de luces colgante",
+      "fr": "lampe de plafond de scène"
+    }
+  },
+  "13475": {
+    "ipf": "FtrIcon/FtrChandelierRetroCeilingL_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "black",
+      "white",
+      "silver",
+      "gold",
+      "rust"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      "white",
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "nvo": 3,
+    "nvc": 4,
+    "ccv": true,
+    "sel": 1350,
+    "buy": 5400,
+    "exp": 4900,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "european",
+      "expensive"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "candle",
+    "vad": "2.0.0",
+    "hui": [
+      "ant09",
+      "bul07",
+      "cat10",
+      "cat18",
+      "crd08",
+      "elp09",
+      "flg09",
+      "ham03",
+      "ham05",
+      "hrs09",
+      "hrs12",
+      "kgr10",
+      "mus02",
+      "ost08",
+      "pig14",
+      "squ17"
+    ],
+    "loc": {
+      "zh-cn": "蜡烛吊灯",
+      "de": "Kerzenlüster",
+      "it": "candelabro da soffitto",
+      "nl": "kroonluchter met kaarsen",
+      "ru": "люстра-канделябр",
+      "ja": "キャンドルのシャンデリア",
+      "ko": "캔들 샹들리에",
+      "zh-tw": "蠟燭吊燈",
+      "en": "candle chandelier",
+      "es": "candelabro de techo",
+      "fr": "lustre à bougies"
+    }
+  },
+  "13616": {
+    "ipf": "FtrIcon/FtrElectricBulbOnly_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0"
+    ],
+    "var": [
+      "black",
+      "silver",
+      "gold",
+      "copper"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "workshop",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "ant00",
+      "ant01",
+      "bea00",
+      "bea03",
+      "bea05",
+      "bea11",
+      "brd06",
+      "brd20",
+      "cat14",
+      "cbr15",
+      "der00",
+      "dog14",
+      "goa00",
+      "ham03",
+      "mnk08",
+      "mus05",
+      "ocp01",
+      "ost04",
+      "ost06",
+      "pgn05",
+      "pgn07",
+      "pig00",
+      "pig01",
+      "pig04",
+      "rbt12",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "裸灯泡",
+      "de": "Glühbirne",
+      "es-es": "bombilla pelada",
+      "it": "lampadina appesa",
+      "nl": "plafondpeertje",
+      "ru": "висящая лампочка",
+      "ja": "はだかでんきゅう",
+      "ko": "알전구",
+      "zh-tw": "裸燈泡",
+      "es-us": "bombilla suspendida",
+      "en": "hanging lightbulb",
+      "fr": "ampoule suspendue"
+    }
+  },
+  "13626": {
+    "ipf": "FtrIcon/FtrOrnithopterCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "white",
+      "brown",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "yellow",
+        "beige"
+      ],
+      [
+        "aqua",
+        "beige"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 1425,
+    "buy": 5700,
+    "exp": 5100,
+    "exc": 2,
+    "ccp": 1700,
+    "hap": 151,
+    "has": [
+      "childs_room",
+      "lab"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "vad": "2.0.0",
+    "hui": [
+      "cow07",
+      "elp09",
+      "goa00",
+      "ham02",
+      "hrs11",
+      "pgn07",
+      "shp13",
+      "squ00",
+      "squ06",
+      "squ11"
+    ],
+    "loc": {
+      "zh-cn": "扑翼机",
+      "de": "Ornithopter",
+      "it": "ornitottero",
+      "nl": "ornithopter",
+      "ru": "орнитоптер",
+      "ja": "オーニソプター",
+      "ko": "오니솝터",
+      "zh-tw": "撲翼機",
+      "en": "ornithopter",
+      "es": "ornitóptero",
+      "fr": "ornithoptère"
+    }
+  },
+  "13642": {
+    "ipf": "FtrIcon/FtrDecorationCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "colorful",
+      "pastel",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "black_purple",
+      "gold_silver_2"
+    ],
+    "clr": [
+      [
+        "colorful",
+        "white"
+      ],
+      [
+        "colorful",
+        "pink"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "yellow",
+        "orange"
+      ],
+      "green",
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "yellow",
+        "white"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 100,
+    "buy": 400,
+    "exp": 360,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "has": "party",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "bea10",
+      "brd03",
+      "cbr04",
+      "elp07",
+      "hrs04",
+      "hrs12",
+      "mus08",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "折纸天花板挂饰",
+      "de": "Ketten-Deckengirlande",
+      "it": "catenella di carta da soffitto",
+      "nl": "papieren plafondslinger",
+      "ru": "бумаж. потол. гирлянда",
+      "ja": "おりがみのてんじょうかざり",
+      "ko": "색종이 고리 천장 장식",
+      "zh-tw": "摺紙天花板掛飾",
+      "en": "paper-chain ceiling garland",
+      "es": "guirnalda de techo en papel",
+      "fr": "guirlande papier de plafond"
+    }
+  },
+  "13692": {
+    "ipf": "FtrIcon/FtrDreamyCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0"
+    ],
+    "var": [
+      "pink",
+      "blue",
+      "green",
+      "yellow",
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      "green",
+      [
+        "yellow",
+        "orange"
+      ],
+      [
+        "white",
+        "red"
+      ],
+      [
+        "black",
+        "purple"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 525,
+    "buy": 2100,
+    "exp": 1900,
+    "exc": 2,
+    "ccp": 1000,
+    "hap": 151,
+    "hat": "dreamy",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "bea15",
+      "der09",
+      "elp02",
+      "flg04",
+      "kal00",
+      "ost07",
+      "shp01",
+      "shp12",
+      "squ13"
+    ],
+    "loc": {
+      "zh-cn": "梦幻可爱悬挂式装饰",
+      "de": "Fantasie-Hängedeko",
+      "it": "festone appeso da sogno",
+      "nl": "dromerige slinger",
+      "ru": "висячий декор из грез",
+      "ja": "ゆめかわなつりさげかざり",
+      "ko": "드림 큐트 천장걸이 장식",
+      "zh-tw": "夢幻可愛吊掛式裝飾",
+      "en": "dreamy hanging decoration",
+      "es": "adorno colgante ensueño",
+      "fr": "déco suspendue joli rêve"
+    }
+  },
+  "13701": {
+    "ipf": "FtrIcon/FtrDrapeCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7"
+    ],
+    "pat": [
+      32,
+      2,
+      3,
+      1872,
+      11,
+      5,
+      6,
+      1873
+    ],
+    "clr": [
+      "red",
+      "black",
+      "white",
+      "blue",
+      "green",
+      "yellow",
+      "aqua",
+      [
+        "purple",
+        "pink"
+      ]
+    ],
+    "sel": 400,
+    "buy": 1600,
+    "exp": 1400,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "music",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "cat10",
+      "dog05",
+      "hip09",
+      "hrs11",
+      "hrs12",
+      "kal00",
+      "mus15",
+      "pbr07",
+      "pig02",
+      "pig14",
+      "rhn08",
+      "squ13",
+      "squ17",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "帷幔",
+      "de": "Deckenbehang",
+      "es-es": "colgadura textil de techo",
+      "it": "drappeggio",
+      "nl": "gedrapeerd plafonddoek",
+      "ru": "драпировка",
+      "ja": "ドレープ",
+      "ko": "드레이프",
+      "zh-tw": "垂掛的布簾",
+      "es-us": "adorno textil colgante",
+      "en": "drapery",
+      "fr": "tenture"
+    }
+  },
+  "13730": {
+    "ipf": "FtrIcon/FtrLightTypicalCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7"
+    ],
+    "pat": [
+      11,
+      110,
+      12,
+      9,
+      1385,
+      1386,
+      1387,
+      1388
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "black",
+        "blue"
+      ]
+    ],
+    "sel": 475,
+    "buy": 1900,
+    "exp": 1700,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "restaurant",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "shade",
+    "vad": "2.0.0",
+    "hui": [
+      "bea00",
+      "cat02",
+      "cbr19",
+      "dog09",
+      "duk03",
+      "duk06",
+      "duk17",
+      "elp01",
+      "elp03",
+      "elp05",
+      "gor07",
+      "mnk08",
+      "mus01",
+      "rbt08",
+      "rbt16",
+      "shp01",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "吊式罩灯",
+      "de": "Schirm-Hängelampe",
+      "it": "lampadario paralume",
+      "nl": "hangende schemerlamp",
+      "ru": "лампа с абажуром",
+      "ja": "シェードのペンダントライト",
+      "ko": "셰이드 펜던트 라이트",
+      "zh-tw": "吊式罩燈",
+      "en": "shaded pendant lamp",
+      "es": "lámpara techo con pantalla",
+      "fr": "lampe suspendue abat-jour"
+    }
+  },
+  "13764": {
+    "ipf": "FtrIcon/FtrLampCubeCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7"
+    ],
+    "pat": [
+      11,
+      3,
+      10,
+      1,
+      12,
+      4,
+      0,
+      2
+    ],
+    "clr": [
+      "white",
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "green"
+      ]
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "exp": 1400,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "hac": "lighting",
+    "has": [
+      "stylish",
+      "living_room"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "fluorescent",
+    "vad": "2.0.0",
+    "hui": [
+      "brd02",
+      "crd04",
+      "der04",
+      "dog06",
+      "dog07",
+      "dog09",
+      "duk00",
+      "duk16",
+      "flg06",
+      "kal02",
+      "mus19",
+      "ost02",
+      "pgn09",
+      "squ09",
+      "squ10",
+      "tig02",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式方块灯",
+      "de": "Würfel-Hängelampe",
+      "it": "lampada cubica da soffitto",
+      "nl": "vierkante hanglamp",
+      "ru": "лампа-куб",
+      "ja": "つりさげキューブライト",
+      "ko": "천장걸이 큐브 라이트",
+      "zh-tw": "吊掛式方塊燈",
+      "en": "hanging cube light",
+      "es": "lámpara cúbica",
+      "fr": "lampe cube suspendue"
+    }
+  },
+  "13925": {
+    "ipf": "FtrIcon/FtrElectricBoardSCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7"
+    ],
+    "var": [
+      "black",
+      "white",
+      "silver"
+    ],
+    "pat": [
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1909,
+      1910,
+      1911
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      "black",
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "aqua"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      "white",
+      "white",
+      [
+        "white",
+        "black"
+      ],
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      "gray",
+      [
+        "gray",
+        "aqua"
+      ],
+      [
+        "gray",
+        "green"
+      ],
+      [
+        "gray",
+        "blue"
+      ],
+      [
+        "gray",
+        "blue"
+      ]
+    ],
+    "nvo": 2,
+    "sel": 850,
+    "buy": 3400,
+    "exp": 3100,
+    "exc": 2,
+    "kit": 2,
+    "ktt": 1,
+    "ccp": 1700,
+    "hap": 151,
+    "has": [
+      "restaurant",
+      "cafe"
+    ],
+    "int": true,
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "itp": "yes",
+    "ltp": "monitor",
+    "vad": "2.0.0",
+    "hui": [
+      "cat17",
+      "cbr06",
+      "chn11",
+      "dog06",
+      "duk10",
+      "duk15",
+      "flg06",
+      "flg18",
+      "goa09",
+      "ham00",
+      "ost01",
+      "pgn00",
+      "pgn14",
+      "pig10",
+      "pig13",
+      "rbt09",
+      "rhn01",
+      "shp09"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式电子看板",
+      "de": "Hängemonitor",
+      "it": "monitor sospeso",
+      "nl": "enkele plafondmonitor",
+      "ru": "потолочное табло",
+      "ja": "つりさげしきモニター",
+      "ko": "천장걸이 모니터",
+      "zh-tw": "吊掛式電子看板",
+      "en": "hanging monitor",
+      "es": "pantalla de techo",
+      "fr": "écran d'affichage suspendu"
+    }
+  },
+  "13926": {
+    "ipf": "FtrIcon/FtrHangingBoardCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7",
+      "3_0",
+      "3_1",
+      "3_2",
+      "3_3",
+      "3_4",
+      "3_5",
+      "3_6",
+      "3_7",
+      "4_0",
+      "4_1",
+      "4_2",
+      "4_3",
+      "4_4",
+      "4_5",
+      "4_6",
+      "4_7",
+      "5_0",
+      "5_1",
+      "5_2",
+      "5_3",
+      "5_4",
+      "5_5",
+      "5_6",
+      "5_7",
+      "6_0",
+      "6_1",
+      "6_2",
+      "6_3",
+      "6_4",
+      "6_5",
+      "6_6",
+      "6_7"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "blue",
+      "yellow",
+      "green",
+      "brown"
+    ],
+    "pat": [
+      1912,
+      1913,
+      394,
+      393,
+      1914,
+      1915,
+      1916,
+      1917
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      "red",
+      [
+        "red",
+        "green"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "blue",
+        "gray"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "green"
+      ],
+      "blue",
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "yellow",
+        "gray"
+      ],
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      "yellow",
+      [
+        "green",
+        "white"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "green",
+        "red"
+      ],
+      "green",
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "beige",
+        "gray"
+      ],
+      [
+        "beige",
+        "red"
+      ],
+      [
+        "beige",
+        "green"
+      ],
+      [
+        "beige",
+        "blue"
+      ],
+      [
+        "beige",
+        "yellow"
+      ]
+    ],
+    "nvo": 3,
+    "sel": 575,
+    "buy": 2300,
+    "exp": 2100,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "facility",
+      "shop"
+    ],
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "brd02",
+      "brd15",
+      "cat17",
+      "cbr07",
+      "cbr09",
+      "cbr10",
+      "cbr18",
+      "chn11",
+      "duk13",
+      "elp12",
+      "flg18",
+      "pig10",
+      "pig15",
+      "rbt08",
+      "squ00"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式标示牌",
+      "de": "Hängehinweisschild",
+      "it": "cartello indicazioni sospeso",
+      "nl": "plafondwegwijzer",
+      "ru": "потолочный указатель",
+      "ja": "つりさげあんないボード",
+      "ko": "천장걸이 안내판",
+      "zh-tw": "吊掛式標示牌",
+      "en": "hanging guide sign",
+      "es": "cartel indicador colgante",
+      "fr": "panneau indicatif suspendu"
+    }
+  },
+  "14206": {
+    "ipf": "FtrIcon/FtrVineDecolationCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0"
+    ],
+    "var": [
+      "green",
+      "light_green",
+      "dark_green",
+      "brown",
+      "gray"
+    ],
+    "clr": [
+      "green",
+      "green",
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "gray",
+        "aqua"
+      ]
+    ],
+    "sel": 700,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "has": [
+      "nature",
+      "fantasy"
+    ],
+    "cat": true,
+    "bcu": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "bea12",
+      "bea13",
+      "bul00",
+      "bul07",
+      "cbr05",
+      "cow01",
+      "crd04",
+      "crd05",
+      "dog00",
+      "flg01",
+      "flg16",
+      "gor01",
+      "ham03",
+      "hip00",
+      "hrs00",
+      "hrs13",
+      "kal10",
+      "ost10",
+      "pbr02",
+      "pig17",
+      "rbt00",
+      "rbt15",
+      "rhn02",
+      "squ06"
+    ],
+    "loc": {
+      "zh-cn": "藤蔓挂饰",
+      "de": "Rankengirlande",
+      "it": "festone edera",
+      "nl": "klimplantslinger",
+      "ru": "гирлянда из лозы",
+      "ja": "ツルのガーランド",
+      "ko": "덩굴 가랜드",
+      "zh-tw": "藤蔓掛飾",
+      "en": "vine garland",
+      "es": "guirnalda enredadera",
+      "fr": "guirlande vigne"
+    }
+  },
+  "14210": {
+    "ipf": "FtrIcon/FtrLuMossLightCeiling_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "green",
+      "turquoise_2",
+      "blue",
+      "red",
+      "yellow",
+      "pink",
+      "white",
+      "gray"
+    ],
+    "clr": [
+      "green",
+      [
+        "green",
+        "aqua"
+      ],
+      "aqua",
+      "red",
+      "yellow",
+      "pink",
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "gray",
+        "blue"
+      ]
+    ],
+    "sel": 550,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 103,
+    "has": [
+      "nature",
+      "fantasy"
+    ],
+    "cat": true,
+    "bcu": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "bul00",
+      "bul07",
+      "crd04",
+      "elp11",
+      "ost05",
+      "rbt15",
+      "rhn02",
+      "squ06"
+    ],
+    "loc": {
+      "zh-cn": "悬挂的光藓",
+      "de": "Hängeleuchtmoos",
+      "fr-fr": "schistostega suspendu",
+      "it": "muschio luminoso sospeso",
+      "nl": "lichtmosslinger",
+      "ru": "висячий светящийся мох",
+      "ja": "つりさがるヒカリゴケ",
+      "ko": "매달린 빛이끼",
+      "zh-tw": "光蘚吊掛燈",
+      "fr-us": "mousse luisante suspendue",
+      "en": "hanging glowing moss",
+      "es": "musgo luminoso colgante"
+    }
+  },
+  "14346": {
+    "ipf": "FtrIcon/FtrHangingPanelCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6"
+    ],
+    "pat": [
+      1938,
+      1939,
+      1940,
+      1941,
+      1599,
+      1942,
+      1943
+    ],
+    "clr": [
+      "red",
+      [
+        "green",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      "pink",
+      "aqua",
+      "beige"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "shop",
+      "supermarket"
+    ],
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "brd02",
+      "cbr07",
+      "cbr09",
+      "cow06",
+      "hrs01",
+      "kal05",
+      "mnk03",
+      "mus17",
+      "ost01",
+      "pig09",
+      "pig15",
+      "rbt04",
+      "rbt14",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "悬挂式告示牌",
+      "de": "Hängeschild",
+      "it": "cartello sospeso",
+      "nl": "plafondreclamebord",
+      "ru": "потолочная вывеска",
+      "ja": "つりさげサイン",
+      "ko": "천장걸이 표지판",
+      "zh-tw": "吊掛式告示牌",
+      "en": "hanging sign",
+      "es": "cartel colgante",
+      "fr": "écriteau suspendu"
+    }
+  },
+  "14619": {
+    "ipf": "FtrIcon/FtrNorenSCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7"
+    ],
+    "var": [
+      "brown",
+      "black",
+      "white"
+    ],
+    "pat": [
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      830,
+      963,
+      1972
+    ],
+    "clr": [
+      [
+        "brown",
+        "white"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "brown",
+        "green"
+      ],
+      [
+        "brown",
+        "yellow"
+      ],
+      "brown",
+      [
+        "brown",
+        "purple"
+      ],
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "black",
+        "purple"
+      ],
+      "black",
+      "white",
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "nvo": 0,
+    "sel": 450,
+    "buy": 1800,
+    "exp": 1600,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "harmonious",
+      "restaurant"
+    ],
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "1x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "bea03",
+      "cat00",
+      "cbr15",
+      "duk04",
+      "kal03",
+      "kgr05",
+      "mnk04",
+      "mus05",
+      "mus16"
+    ],
+    "loc": {
+      "zh-cn": "长型帘子",
+      "de": "Vertikal-Noren",
+      "it": "tendina noren verticale",
+      "nl": "verticaal gordijn",
+      "ru": "длин. занавес с разрезом",
+      "ja": "たてながのれん",
+      "ko": "세로로 긴 발",
+      "zh-tw": "長型簾子",
+      "en": "vertical split curtains",
+      "es": "cortina noren larga",
+      "fr": "rideau vertical fendu"
+    }
+  },
+  "14620": {
+    "ipf": "FtrIcon/FtrNorenMCeiling_Remake_",
+    "img": [
+      "0_0",
+      "0_1",
+      "0_2",
+      "0_3",
+      "0_4",
+      "0_5",
+      "0_6",
+      "0_7",
+      "1_0",
+      "1_1",
+      "1_2",
+      "1_3",
+      "1_4",
+      "1_5",
+      "1_6",
+      "1_7",
+      "2_0",
+      "2_1",
+      "2_2",
+      "2_3",
+      "2_4",
+      "2_5",
+      "2_6",
+      "2_7"
+    ],
+    "var": [
+      "brown",
+      "black",
+      "white"
+    ],
+    "pat": [
+      1967,
+      1973,
+      1974,
+      354,
+      1975,
+      1976,
+      1977,
+      1978
+    ],
+    "clr": [
+      [
+        "brown",
+        "white"
+      ],
+      [
+        "brown",
+        "red"
+      ],
+      [
+        "brown",
+        "blue"
+      ],
+      [
+        "brown",
+        "green"
+      ],
+      [
+        "brown",
+        "yellow"
+      ],
+      "brown",
+      [
+        "brown",
+        "purple"
+      ],
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "black",
+        "purple"
+      ],
+      "black",
+      "white",
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "white",
+        "green"
+      ],
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "nvo": 1,
+    "sel": 450,
+    "buy": 1800,
+    "exp": 1600,
+    "exc": 2,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "hap": 151,
+    "has": [
+      "restaurant",
+      "city_life"
+    ],
+    "ord": true,
+    "cat": true,
+    "pcu": true,
+    "cpt": true,
+    "spt": true,
+    "sze": "2x1",
+    "src": [
+      "nook_store",
+      "hhp_office"
+    ],
+    "vad": "2.0.0",
+    "hui": [
+      "cat00",
+      "cbr15",
+      "flg15",
+      "gor04",
+      "kgr05",
+      "mnk04",
+      "rbt01"
+    ],
+    "loc": {
+      "zh-cn": "宽帘子",
+      "de": "Horizontal-Noren",
+      "it": "tendina noren orizzontale",
+      "nl": "horizontaal gordijn",
+      "ru": "кор. занавес с разрезом",
+      "ja": "よこながのれん",
+      "ko": "가로로 긴 발",
+      "zh-tw": "寬簾子",
+      "en": "horizontal split curtains",
+      "es": "cortina noren corta",
+      "fr": "rideau horizontal fendu"
+    }
+  }
+}

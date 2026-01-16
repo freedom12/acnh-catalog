@@ -1,0 +1,10604 @@
+{
+  "c649": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChemical",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11385,
+      5286
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "goa04",
+    "loc": {
+      "zh-cn": "酸洗牛仔裤",
+      "de": "Bleichjeanshose",
+      "es-es": "tejano desteñido",
+      "it": "paio di jeans sbiaditi",
+      "nl": "gebleekte jeans",
+      "ru": "джинсы-варенки",
+      "ja": "ケミカルウォッシュデニム",
+      "ko": "워싱 청바지",
+      "zh-tw": "化學洗牛仔褲",
+      "es-us": "pantalón desteñido",
+      "en": "acid-washed jeans",
+      "fr": "jean délavé"
+    }
+  },
+  "c1093": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxStripe",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "zebra",
+      "tiger"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      12067,
+      9842
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "动物花纹半裙",
+      "de": "Tiermusterrock",
+      "it": "gonna animalier",
+      "nl": "tijgerrokje",
+      "ru": "звериная юбка",
+      "ja": "アニマルがらスカート",
+      "ko": "동물 무늬 스커트",
+      "zh-tw": "動物花紋裙",
+      "en": "animal-stripes skirt",
+      "es": "falda estampado animal",
+      "fr": "jupe motif animalier"
+    }
+  },
+  "c847": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxApron",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "beige"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "work",
+    "iid": [
+      8921,
+      5710,
+      8922
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "gor04",
+    "loc": {
+      "zh-cn": "围裙连短裙",
+      "de": "Schürzenrock",
+      "it": "gonna a grembiule",
+      "nl": "rok met schort",
+      "ru": "юбка с фартуком",
+      "ja": "エプロンつきスカート",
+      "ko": "에이프런 스커트",
+      "zh-tw": "圍裙連裙子",
+      "en": "apron skirt",
+      "es": "falda corta con delantal",
+      "fr": "jupe tablier"
+    }
+  },
+  "c127": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalJersey",
+    "img": [
+      "2",
+      "4",
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
+    "var": [
+      "black",
+      "berry_red",
+      "red",
+      "green",
+      "blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty"
+    ],
+    "iid": [
+      11296,
+      11298,
+      3311,
+      11295,
+      11297,
+      11299
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd18",
+      "der00",
+      "der02",
+      "duk10",
+      "gor05",
+      "gor07",
+      "lon01",
+      "pig01",
+      "cbr03"
+    ],
+    "loc": {
+      "zh-cn": "运动健身裤",
+      "de": "Trainingshose",
+      "fr-fr": "pantalon de survêt",
+      "it": "pantalone della tuta",
+      "nl": "trainingsbroek",
+      "ru": "штаны для разминки",
+      "ja": "ジャージズボン",
+      "ko": "트레이닝복 바지",
+      "zh-tw": "運動褲",
+      "fr-us": "pantalon de sport",
+      "en": "athletic pants",
+      "es": "pantalón sport"
+    }
+  },
+  "c422": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfJersey",
+    "img": [
+      "2",
+      "4",
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
+    "var": [
+      "black",
+      "berry_red",
+      "red",
+      "green",
+      "blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty"
+    ],
+    "iid": [
+      11906,
+      11908,
+      4518,
+      11905,
+      11907,
+      11909
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "duk10",
+      "gor05",
+      "kal04",
+      "kgr06",
+      "kgr08",
+      "pbr00"
+    ],
+    "loc": {
+      "zh-cn": "运动短裤",
+      "de": "Athletenshorts",
+      "es-es": "pantalón corto atletismo",
+      "it": "pantaloncino della tuta",
+      "nl": "korte sportbroek",
+      "ru": "шорты бегуна",
+      "ja": "ジャージショートパンツ",
+      "ko": "트레이닝복 숏팬츠",
+      "zh-tw": "運動短褲",
+      "es-us": "pantalón corto sport",
+      "en": "athletic shorts",
+      "fr": "short de sport"
+    }
+  },
+  "c849": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfBasketball",
+    "img": [
+      "7",
+      "1",
+      "3",
+      "5",
+      "2",
+      "6",
+      "4",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "blue"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      11313,
+      11307,
+      11309,
+      11311,
+      11308,
+      11312,
+      11310,
+      5720
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "chn01",
+      "hip00",
+      "mus10",
+      "pgn04"
+    ],
+    "loc": {
+      "zh-cn": "篮球裤",
+      "de": "Basketball-Shorts",
+      "es-es": "bermuda básquet",
+      "it": "pantaloncino da basket",
+      "nl": "basketbalshort",
+      "ru": "баскетбольные шорты",
+      "ja": "バスケットパンツ",
+      "ko": "농구복 하의",
+      "zh-tw": "籃球褲",
+      "es-us": "bermuda de básquet",
+      "en": "basketball shorts",
+      "fr": "short de basketball"
+    }
+  },
+  "c327": {
+    "ipf": "FtrIcon/BottomsTexPantsWideBellbottoms",
+    "img": [
+      "0",
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "var": [
+      "orange",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "orange",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      4364,
+      9272,
+      9273,
+      9270,
+      9271
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ10",
+    "loc": {
+      "zh-cn": "喇叭裤",
+      "de": "Glockenhose",
+      "fr-fr": "pantalon pattes d'eph",
+      "it": "pantalone a zampa",
+      "nl": "bellbottom",
+      "ru": "брюки-клеш",
+      "ja": "ベルボトムパンツ",
+      "ko": "나팔바지",
+      "zh-tw": "喇叭褲",
+      "fr-us": "pantalon pattes d'éléphant",
+      "en": "bell-bottoms",
+      "es": "pantalón acampanado"
+    }
+  },
+  "c429": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongWrap",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      8721,
+      4545,
+      8722,
+      8723
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "系带裹裙",
+      "de": "Gürtel-Wickelrock",
+      "es-es": "falda envolvente tartán",
+      "it": "gonna portafoglio tartan",
+      "nl": "wikkelrok met ceintuur",
+      "ru": "юбка с запахом и ремнями",
+      "ja": "ベルトのまきスカート",
+      "ko": "벨트 랩 스커트",
+      "zh-tw": "腰帶一片裙",
+      "es-us": "falda envolvente escocesa",
+      "en": "belted wraparound skirt",
+      "fr": "jupe portefeuille à ceinture"
+    }
+  },
+  "c734": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfBoa",
+    "img": [
+      "7",
+      "4",
+      "5",
+      "1",
+      "6",
+      "3",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "avocado",
+      "peacock_blue",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      9120,
+      9117,
+      9118,
+      9114,
+      9119,
+      9116,
+      5419,
+      9115
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "loc": {
+      "zh-cn": "绒毛短裤",
+      "de": "Fleece-Shorts",
+      "fr-fr": "short en polaire",
+      "it": "pantaloncino boa",
+      "nl": "zachte short",
+      "ru": "пушистые шорты",
+      "ja": "ボアハーフパンツ",
+      "ko": "보아 반바지",
+      "zh-tw": "絨毛短褲",
+      "fr-us": "short en flanelle",
+      "en": "boa shorts",
+      "es": "pantalón corto mullido"
+    }
+  },
+  "c733": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxBoa",
+    "img": [
+      "3",
+      "4",
+      "0",
+      "5",
+      "1",
+      "2",
+      "7",
+      "6"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue",
+      "purple",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      9109,
+      9110,
+      5418,
+      9111,
+      9107,
+      9108,
+      9113,
+      9112
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "loc": {
+      "zh-cn": "绒毛短裙",
+      "de": "Fleecerock",
+      "fr-fr": "jupe en polaire",
+      "it": "gonna boa",
+      "nl": "zachte rok",
+      "ru": "пушистая юбка",
+      "ja": "ボアスカート",
+      "ko": "보아 스커트",
+      "zh-tw": "絨毛裙",
+      "fr-us": "jupe en flanelle",
+      "en": "boa skirt",
+      "es": "falda corta mullida"
+    }
+  },
+  "c851": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongMaone",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "var": [
+      "black",
+      "avocado",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      "black",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11663,
+      5722,
+      11664,
+      11665
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "kgr01",
+    "loc": {
+      "zh-cn": "MA-1防风裙",
+      "de": "Uniformrock",
+      "it": "gonna bomber",
+      "nl": "uniformrok",
+      "ru": "юбка а-ля бомбер",
+      "ja": "ＭＡ‐１スカート",
+      "ko": "MA-1 스커트",
+      "zh-tw": "MA-1防風裙",
+      "en": "bomber-style skirt",
+      "es": "falda militar",
+      "fr": "jupe aviateur"
+    }
+  },
+  "c902": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfBotanical",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "white",
+        "red"
+      ],
+      [
+        "black",
+        "red"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      9193,
+      5854
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": "cow01",
+    "loc": {
+      "zh-cn": "植物图案短裤",
+      "de": "Botanik-Shorts",
+      "it": "pantaloncino botanico",
+      "nl": "tropische short",
+      "ru": "ботанические шорты",
+      "ja": "ボタニカルハーフパンツ",
+      "ko": "보태니컬 반바지",
+      "zh-tw": "植物圖案短褲",
+      "en": "botanical shorts",
+      "es": "bermuda jardín botánico",
+      "fr": "short botanique"
+    }
+  },
+  "c842": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxBoxpleats",
+    "img": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "var": [
+      "red",
+      "green",
+      "light_blue",
+      "beige"
+    ],
+    "clr": [
+      "red",
+      "green",
+      "aqua",
+      "beige"
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      11787,
+      11788,
+      5703,
+      11786
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "直筒百褶裙",
+      "de": "Kellerfaltenrock",
+      "it": "gonna corta plissettata",
+      "nl": "stolpplooirok",
+      "ru": "мини-юбка с бантовкой",
+      "ja": "ボックスプリーツスカート",
+      "ko": "박스 플리츠 스커트",
+      "zh-tw": "直筒前褶裙",
+      "en": "box-pleated skirt",
+      "es": "falda plisada corta",
+      "fr": "jupe plissée courte"
+    }
+  },
+  "c736": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongLace",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3",
+      "4"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "yellow",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "yellow",
+      "green",
+      "purple"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8727,
+      8728,
+      5421,
+      8729,
+      8730
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "前排扣荷叶边裙",
+      "de": "Knopfleisten-Spitzenrock",
+      "it": "gonna merlettata a bottoni",
+      "nl": "kanten knoopjesrok",
+      "ru": "юбка с пуговицами",
+      "ja": "まえボタンレースのスカート",
+      "ko": "버튼 레이스 치마",
+      "zh-tw": "前排釦蕾絲裙",
+      "en": "buttoned lace skirt",
+      "es": "falda con botones",
+      "fr": "jupe longue à boutons"
+    }
+  },
+  "c890": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongWrapbicolor",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "4",
+      "1",
+      "5"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      5816,
+      8733,
+      8732,
+      8734,
+      8731,
+      8735
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "duk01",
+    "loc": {
+      "zh-cn": "纽扣裹裙",
+      "de": "Knöpfe-Wickelrock",
+      "it": "gonna portafoglio a bottoni",
+      "nl": "wikkelrok met knoopjes",
+      "ru": "юбка с запахом на кнопках",
+      "ja": "ボタンのまきスカート",
+      "ko": "단추 랩 스커트",
+      "zh-tw": "鈕扣一片裙",
+      "en": "buttoned wraparound skirt",
+      "es": "falda envolvente bicolor",
+      "fr": "jupe portefeuille boutonnée"
+    }
+  },
+  "c145": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalCamouflage",
+    "img": [
+      "0",
+      "4",
+      "6",
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "var": [
+      "brown",
+      "gray",
+      "red",
+      "pink",
+      "avocado",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      "purple"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      3342,
+      10188,
+      10190,
+      10186,
+      10185,
+      10187,
+      10189
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "crd05",
+      "flg01",
+      "ham07"
+    ],
+    "loc": {
+      "zh-cn": "迷彩裤",
+      "de": "Tarnhose",
+      "it": "pantalone mimetico",
+      "nl": "camouflagebroek",
+      "ru": "камуфляжные брюки",
+      "ja": "めいさいパンツ",
+      "ko": "밀리터리 바지",
+      "zh-tw": "迷彩褲",
+      "en": "camo pants",
+      "es": "pantalón camuflaje",
+      "fr": "pantalon camouflage"
+    }
+  },
+  "c365": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxCamo",
+    "img": [
+      "0",
+      "4",
+      "6",
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "var": [
+      "brown",
+      "gray",
+      "red",
+      "pink",
+      "avocado",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      "purple"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      4434,
+      11325,
+      11327,
+      11323,
+      11322,
+      11324,
+      11326
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "crd05",
+    "loc": {
+      "zh-cn": "迷彩短裙",
+      "de": "Tarnrock",
+      "it": "gonna mimetica",
+      "nl": "camouflagerokje",
+      "ru": "камуфляжная юбка",
+      "ja": "めいさいスカート",
+      "ko": "밀리터리 치마",
+      "zh-tw": "迷彩裙",
+      "en": "camo skirt",
+      "es": "falda corta camuflaje",
+      "fr": "jupe camouflage"
+    }
+  },
+  "c411": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxCareer",
+    "img": [
+      "0",
+      "7",
+      "2",
+      "4",
+      "5",
+      "3",
+      "6",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "peach",
+      "pink",
+      "green",
+      "light_blue",
+      "blue",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "red",
+      "pink",
+      "pink",
+      "green",
+      "aqua",
+      "blue",
+      "beige"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "formal",
+      "work"
+    ],
+    "iid": [
+      4504,
+      11353,
+      11348,
+      11350,
+      11351,
+      11349,
+      11352,
+      11347
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hip03",
+      "mus17",
+      "pig09"
+    ],
+    "loc": {
+      "zh-cn": "西装短裙",
+      "de": "Business-Rock",
+      "it": "gonna da ufficio",
+      "nl": "zakelijke rok",
+      "ru": "офисная юбка",
+      "ja": "キャリアなスカート",
+      "ko": "정장 치마",
+      "zh-tw": "西裝裙",
+      "en": "career skirt",
+      "es": "falda de oficina",
+      "fr": "jupe crayon"
+    }
+  },
+  "c148": {
+    "ipf": "FtrIcon/BottomsTexPantsWideCargo",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "4",
+      "1"
+    ],
+    "var": [
+      "mustard",
+      "avocado",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "yellow",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      9705,
+      3351,
+      9704,
+      9706,
+      9703
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "rbt08",
+    "loc": {
+      "zh-cn": "工作裤",
+      "de": "Cargohose",
+      "it": "pantalone con tasche",
+      "nl": "cargobroek",
+      "ru": "брюки-карго",
+      "ja": "カーゴパンツ",
+      "ko": "카고 바지",
+      "zh-tw": "工作褲",
+      "en": "cargo pants",
+      "es": "pantalón cargo",
+      "fr": "pantalon cargo"
+    }
+  },
+  "c245": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfCargo",
+    "img": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "0"
+    ],
+    "var": [
+      "camel",
+      "avocado",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "yellow",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 270,
+    "buy": 1080,
+    "exp": 970,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8837,
+      8836,
+      8835,
+      8838,
+      4150
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "pig03",
+    "loc": {
+      "zh-cn": "工装中裤",
+      "de": "Cargo-Shorts",
+      "it": "pantaloncino con tasche",
+      "nl": "cargoshort",
+      "ru": "шорты-карго",
+      "ja": "ハーフカーゴパンツ",
+      "ko": "카고 반바지",
+      "zh-tw": "工作短褲",
+      "en": "cargo shorts",
+      "es": "pantalón corto cargo",
+      "fr": "short cargo"
+    }
+  },
+  "c361": {
+    "ipf": "FtrIcon/BottomsTexPantsWideEasy",
+    "img": [
+      "1",
+      "4",
+      "2",
+      "0",
+      "5",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "green",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      9714,
+      9717,
+      9715,
+      4430,
+      9718,
+      9716
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "休闲裤",
+      "de": "Freizeithose",
+      "it": "pantalone casual",
+      "nl": "casual broek",
+      "ru": "удобные штаны",
+      "ja": "ワイドイージーパンツ",
+      "ko": "와이드 이지 팬츠",
+      "zh-tw": "休閒寬褲",
+      "en": "casual pants",
+      "es": "pantalón holgado",
+      "fr": "pantalon d'intérieur"
+    }
+  },
+  "c273": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChain",
+    "img": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "theatrical"
+    ],
+    "iid": [
+      9243,
+      9244,
+      4255,
+      9242
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "链条裤",
+      "de": "Kettenhose",
+      "it": "pantalone con catena",
+      "nl": "broek met ketting",
+      "ru": "брюки с цепочкой",
+      "ja": "チェーンつきパンツ",
+      "ko": "체인 바지",
+      "zh-tw": "鏈條褲",
+      "en": "chain pants",
+      "es": "pantalón cadena y hebilla",
+      "fr": "pantalon à chaîne"
+    }
+  },
+  "c1429": {
+    "ipf": "FtrIcon/BottomsTexPantsWideStudent",
+    "img": [
+      "0",
+      "4",
+      "5",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "dark_gray",
+      "light_gray",
+      "blue",
+      "yellow",
+      "pink",
+      "white"
+    ],
+    "clr": [
+      [
+        "gray",
+        "red"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "white",
+        "gray"
+      ]
+    ],
+    "sel": 310,
+    "buy": 1240,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal"
+    ],
+    "iid": [
+      14608,
+      14933,
+      14934,
+      14932,
+      14930,
+      14931
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "goa02",
+      "kal03"
+    ],
+    "loc": {
+      "zh-cn": "格纹学生裤",
+      "de": "Karo-Schulhose",
+      "it": "pantalone scuola a scacchi",
+      "nl": "geruite schoolbroek",
+      "ru": "школьн. брюки в клетку",
+      "ja": "チェックのがくせいズボン",
+      "ko": "체크무늬 교복 바지",
+      "zh-tw": "格紋學生褲",
+      "en": "checkered school pants",
+      "es": "pantalón escolar escocés",
+      "fr": "pantalon scolaire à carreaux"
+    }
+  },
+  "c1428": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineStudent",
+    "img": [
+      "0",
+      "4",
+      "5",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "dark_gray",
+      "light_gray",
+      "blue",
+      "yellow",
+      "pink",
+      "white"
+    ],
+    "clr": [
+      [
+        "gray",
+        "red"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "white",
+        "gray"
+      ]
+    ],
+    "sel": 310,
+    "buy": 1240,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal"
+    ],
+    "iid": [
+      14607,
+      14928,
+      14929,
+      14927,
+      14925,
+      14926
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": "goa02",
+    "loc": {
+      "zh-cn": "格纹学生裙",
+      "de": "Karo-Schulrock",
+      "it": "gonna scuola a scacchi",
+      "nl": "geruite schoolrok",
+      "ru": "школьная юбка в клетку",
+      "ja": "チェックのがくせいスカート",
+      "ko": "체크무늬 교복 치마",
+      "zh-tw": "格紋學生裙",
+      "en": "checkered school skirt",
+      "es": "falda escolar escocesa",
+      "fr": "jupe scolaire à carreaux"
+    }
+  },
+  "c14": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChino",
+    "img": [
+      "4",
+      "5",
+      "7",
+      "3",
+      "6",
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "yellow",
+      "avocado",
+      "blue",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "work"
+    ],
+    "iid": [
+      4178,
+      9013,
+      9015,
+      4177,
+      9014,
+      4176,
+      4175,
+      3308
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "duk13",
+    "loc": {
+      "zh-cn": "卡其裤",
+      "de": "Chino",
+      "es-es": "pantalón chino",
+      "it": "pantalone chino",
+      "nl": "chino",
+      "ru": "брюки из хлопка",
+      "ja": "チノパン",
+      "ko": "치노 팬츠",
+      "zh-tw": "卡其褲",
+      "es-us": "pantalón de gabardina",
+      "en": "chino pants",
+      "fr": "pantalon en toile"
+    }
+  },
+  "c818": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongEnaguas",
+    "img": [
+      "0",
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "green"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "green",
+        "pink"
+      ],
+      [
+        "blue",
+        "orange"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      5665,
+      8746,
+      8744,
+      8745,
+      8743
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "墨西哥传统裙子",
+      "de": "Traditionsrock",
+      "it": "gonna pittoresca",
+      "nl": "kleurrijke rok",
+      "ru": "пестрая юбка",
+      "ja": "エナグワス",
+      "ko": "컬러풀 스커트",
+      "zh-tw": "墨西哥傳統裙子",
+      "en": "colorful skirt",
+      "es": "falda colorida",
+      "fr": "jupe bariolée"
+    }
+  },
+  "c854": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalComedian",
+    "img": [
+      "7",
+      "2",
+      "0",
+      "3",
+      "4",
+      "6",
+      "1",
+      "5"
+    ],
+    "var": [
+      "white",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "aquamarine",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 525,
+    "buy": 2100,
+    "exp": 1900,
+    "exc": 2,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11378,
+      11373,
+      5736,
+      11374,
+      11375,
+      11377,
+      11372,
+      11376
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "pgn14",
+    "loc": {
+      "zh-cn": "搞笑表演亮片裤",
+      "de": "Komikerhose",
+      "fr-fr": "pantalon de comique",
+      "it": "pantalone di scena",
+      "nl": "komiekenbroek",
+      "ru": "брюки юмориста",
+      "ja": "コメディアンのパンツ",
+      "ko": "코미디언 바지",
+      "zh-tw": "搞笑藝人亮片褲",
+      "fr-us": "pantalon d'humoriste",
+      "en": "comedian's pants",
+      "es": "pantalón de humorista"
+    }
+  },
+  "c726": {
+    "img": "FtrIcon/BottomsTexPantsHalfComic0",
+    "clr": [
+      "colorful",
+      "black"
+    ],
+    "sel": 285,
+    "buy": 1140,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": 5411,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "对话框短裤",
+      "de": "Comic-Shorts",
+      "it": "pantaloncino cartoonesco",
+      "nl": "stripboekshort",
+      "ru": "шорты с комиксами",
+      "ja": "アメコミがらハーフパンツ",
+      "ko": "만화 무늬 반바지",
+      "zh-tw": "對話框短褲",
+      "en": "comic shorts",
+      "es": "bermuda cómics",
+      "fr": "short bédé"
+    }
+  },
+  "c468": {
+    "ipf": "FtrIcon/BottomsTexPantsWideCorduroy",
+    "img": [
+      "4",
+      "5",
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "light_gray",
+      "black",
+      "pink",
+      "camel",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "pink",
+      "orange",
+      "green",
+      "brown"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      9728,
+      9729,
+      9726,
+      4602,
+      9727,
+      9725
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "duk09",
+    "loc": {
+      "zh-cn": "灯芯绒裤",
+      "de": "Cordhose",
+      "it": "pantalone di velluto a coste",
+      "nl": "corduroy broek",
+      "ru": "брюки из вельвета",
+      "ja": "コーデュロイボトム",
+      "ko": "코듀로이 바지",
+      "zh-tw": "燈芯絨褲",
+      "en": "corduroy pants",
+      "es": "pantalón de pana",
+      "fr": "pantalon en velours côtelé"
+    }
+  },
+  "c295": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxCorduroy",
+    "img": [
+      "4",
+      "5",
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "var": [
+      "light_gray",
+      "black",
+      "pink",
+      "camel",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "pink",
+      "orange",
+      "green",
+      "brown"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      11148,
+      11149,
+      11146,
+      11145,
+      11147,
+      4296
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "灯芯绒短裙",
+      "de": "Cordrock",
+      "it": "gonna di velluto a coste",
+      "nl": "corduroy rokje",
+      "ru": "юбка из вельвета",
+      "ja": "コーデュロイスカート",
+      "ko": "코듀로이 치마",
+      "zh-tw": "燈芯絨裙",
+      "en": "corduroy skirt",
+      "es": "falda corta de pana",
+      "fr": "jupe en velours côtelé"
+    }
+  },
+  "c870": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongCorte",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "magenta",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "red"
+      ],
+      "green",
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8747,
+      8748,
+      5781
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "危地马拉传统裙子",
+      "de": "Corte-Rock",
+      "it": "gonna etnica",
+      "nl": "Maya-rok",
+      "ru": "этническая юбка с узором",
+      "ja": "コルテ",
+      "ko": "코르테 스커트",
+      "zh-tw": "瓜地馬拉傳統裙子",
+      "en": "corte skirt",
+      "es": "falda étnica",
+      "fr": "jupe maya"
+    }
+  },
+  "c347": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalCropped",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "5",
+      "7",
+      "3",
+      "6",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "orange",
+      "yellow",
+      "light_blue",
+      "blue",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "pink",
+      "orange",
+      "yellow",
+      "aqua",
+      "blue",
+      "beige"
+    ],
+    "sel": 230,
+    "buy": 920,
+    "exp": 830,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      9707,
+      4408,
+      9708,
+      9711,
+      9713,
+      9709,
+      9712,
+      9710
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "chn11",
+      "squ08",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "七分裤",
+      "de": "7/8-Hose",
+      "it": "pantalone al polpaccio",
+      "nl": "driekwartbroek",
+      "ru": "укороченные брюки",
+      "ja": "クロップドパンツ",
+      "ko": "크롭 팬츠",
+      "zh-tw": "七分褲",
+      "en": "cropped pants",
+      "es": "pantalón tres cuartos",
+      "fr": "pantacourt"
+    }
+  },
+  "c149": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSusomise",
+    "img": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "green",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      "green",
+      [
+        "purple",
+        "pink"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      9265,
+      9264,
+      9263,
+      3353
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "goa04",
+      "hip03",
+      "rbt03"
+    ],
+    "loc": {
+      "zh-cn": "反折裤",
+      "de": "Umkrempelhose",
+      "es-es": "pantalón bajo vuelto",
+      "it": "pantalone con risvolti",
+      "nl": "omgeslagen broek",
+      "ru": "брюки с манжетами",
+      "ja": "すそみせズボン",
+      "ko": "롤업 바지",
+      "zh-tw": "反摺褲",
+      "es-us": "pantalón dobladillo",
+      "en": "cuffed pants",
+      "fr": "pantalon à revers"
+    }
+  },
+  "c369": {
+    "ipf": "FtrIcon/BottomsTexPantsHotCulotte",
+    "img": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "green",
+      "light_blue"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "green",
+      "aqua"
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      6842,
+      8864,
+      8865,
+      4444
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "裤裙",
+      "de": "Hosenrock",
+      "es-es": "culote",
+      "it": "paio di culotte",
+      "nl": "culotte",
+      "ru": "юбка-шорты",
+      "ja": "キュロット",
+      "ko": "퀼로트",
+      "zh-tw": "褲裙",
+      "es-us": "pantalón corto holgado",
+      "en": "culottes",
+      "fr": "jupe-culotte"
+    }
+  },
+  "c884": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongCutleather",
+    "img": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "brown",
+      "navy_blue"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "orange",
+      "blue"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      10214,
+      10212,
+      5810,
+      10213
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "麂皮镂空长裙",
+      "de": "Kunstleder-Bordürenrock",
+      "es-es": "falda polipiel punta redonda",
+      "it": "gonna in ecopelle orlata",
+      "nl": "kunstleren motiefrok",
+      "ru": "юбка из кожзама с каймой",
+      "ja": "カットレザースカート",
+      "ko": "펀칭 가죽 치마",
+      "zh-tw": "鏤空皮裙",
+      "es-us": "falda sintética recortada",
+      "en": "cut-pleather skirt",
+      "fr": "jupe en similicuir ouvragée"
+    }
+  },
+  "c419": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalCycle",
+    "img": [
+      "2",
+      "1",
+      "0",
+      "7",
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "var": [
+      "black_red",
+      "black_blue",
+      "blue_red",
+      "purple_pink",
+      "orange_red",
+      "black_yellow",
+      "red_green",
+      "green_purple_2"
+    ],
+    "clr": [
+      [
+        "white",
+        "red"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "black",
+        "red"
+      ],
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "green"
+      ],
+      [
+        "black",
+        "purple"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11301,
+      11300,
+      4514,
+      11306,
+      11304,
+      11302,
+      11303,
+      11305
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "单车裤",
+      "de": "Radler-Shorts",
+      "it": "pantaloncino da ciclista",
+      "nl": "wielrennersbroekje",
+      "ru": "велошорты",
+      "ja": "サイクルボトム",
+      "ko": "자전거 경주복 하의",
+      "zh-tw": "單車褲",
+      "en": "cycling shorts",
+      "es": "pantalón corto de ciclista",
+      "fr": "short cycliste"
+    }
+  },
+  "c690": {
+    "ipf": "FtrIcon/BottomsTexPantsWideCool",
+    "img": [
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": [
+      "sporty",
+      "theatrical"
+    ],
+    "iid": [
+      11395,
+      5341,
+      11397,
+      11396
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "舞蹈运动裤",
+      "de": "Tänzerhose",
+      "it": "pantalone della tuta danza",
+      "nl": "streetdance-broek",
+      "ru": "штаны для танцев",
+      "ja": "ダンスジャージズボン",
+      "ko": "댄스 트레이닝복 바지",
+      "zh-tw": "跳舞運動褲",
+      "en": "dance warm-up pants",
+      "es": "pantalón compañía de baile",
+      "fr": "pantalon équipe de danse"
+    }
+  },
+  "c283": {
+    "ipf": "FtrIcon/BottomsTexPantsHotDenim",
+    "img": [
+      "0",
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "white",
+      "black",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      "blue",
+      "white",
+      "black",
+      "aqua",
+      "blue"
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      4274,
+      11439,
+      11440,
+      11437,
+      11438
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "牛仔短裤",
+      "de": "Jeans-Shorts",
+      "es-es": "minipantalón tejano",
+      "it": "paio di jeans corti",
+      "nl": "jeansshort",
+      "ru": "джинсовые шорты",
+      "ja": "デニムショートパンツ",
+      "ko": "데님 숏팬츠",
+      "zh-tw": "牛仔短褲",
+      "es-us": "minipantalón de jean",
+      "en": "denim cutoffs",
+      "fr": "mini-short en jean"
+    }
+  },
+  "c305": {
+    "ipf": "FtrIcon/BottomsTexPantsWideDenim",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "navy_blue",
+      "white",
+      "black",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      "blue",
+      "white",
+      "black",
+      "aqua",
+      "blue"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      4326,
+      11444,
+      11443,
+      11441,
+      11442
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der04",
+      "hrs10",
+      "rbt09",
+      "squ05"
+    ],
+    "loc": {
+      "zh-cn": "牛仔工作裤",
+      "de": "Maler-Jeanshose",
+      "es-es": "vaquero de trabajo",
+      "it": "paio di jeans da lavoro",
+      "nl": "omgeslagen jeans",
+      "ru": "джинсы с отворотами",
+      "ja": "デニムのペインターパンツ",
+      "ko": "데님 페인터 팬츠",
+      "zh-tw": "牛仔油漆工褲",
+      "es-us": "pantalón de jean de trabajo",
+      "en": "denim painter's pants",
+      "fr": "jean de travail"
+    }
+  },
+  "c17": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalDenim",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "white",
+      "black",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "aqua",
+        "brown"
+      ],
+      [
+        "blue",
+        "brown"
+      ]
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      2403,
+      9011,
+      4188,
+      4186,
+      4187
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd18",
+      "pig05"
+    ],
+    "loc": {
+      "zh-cn": "牛仔裤",
+      "de": "Jeans",
+      "es-es": "pantalón tejano",
+      "it": "paio di jeans ranch",
+      "nl": "jeans",
+      "ru": "джинсы",
+      "ja": "デニムパンツ",
+      "ko": "데님 바지",
+      "zh-tw": "牛仔褲",
+      "es-us": "pantalón de jean",
+      "en": "denim pants",
+      "fr": "jean"
+    }
+  },
+  "c265": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxDenim",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "white",
+      "black",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      "blue",
+      "white",
+      "black",
+      "aqua",
+      "blue"
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      4246,
+      11433,
+      11432,
+      11430,
+      11431
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "brd18",
+    "loc": {
+      "de": "Jeansrock",
+      "es-es": "falda vaquera",
+      "it": "gonna di jeans",
+      "nl": "jeansrokje",
+      "ru": "джинсовая юбка",
+      "ja": "デニムスカート",
+      "ko": "데님 스커트",
+      "es-us": "falda de jean",
+      "en": "denim skirt",
+      "fr": "jupe en jean",
+      "zh": "牛仔裙"
+    }
+  },
+  "c1253": {
+    "ipf": "FtrIcon/BottomsTexPantsHotDiapers",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "light_blue",
+      "pink",
+      "cream",
+      "black"
+    ],
+    "clr": [
+      "aqua",
+      "pink",
+      "beige",
+      "black"
+    ],
+    "sel": 100,
+    "buy": 400,
+    "exp": 360,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      12967,
+      14682,
+      14683,
+      14684
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "de": "Windel",
+      "it": "pannolino",
+      "nl": "luier",
+      "ru": "подгузник",
+      "ja": "おむつ",
+      "ko": "기저귀",
+      "en": "diaper",
+      "es": "pañal",
+      "fr": "couche",
+      "zh": "尿布"
+    }
+  },
+  "c427": {
+    "ipf": "FtrIcon/BottomsTexPantsHotDotgold",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "black"
+    ],
+    "clr": [
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "black",
+        "brown"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "gorgeous"
+    ],
+    "lbl": [
+      "party",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8915,
+      4523
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ19",
+    "loc": {
+      "zh-cn": "金色点点裤子",
+      "de": "Goldtupfen-Shorts",
+      "es-es": "minipantalón topos",
+      "it": "pantaloncino a pois",
+      "nl": "korte broek met stippen",
+      "ru": "шорты в горошек",
+      "ja": "ゴールドドットパンツ",
+      "ko": "금색 도트 바지",
+      "zh-tw": "金色點點褲",
+      "es-us": "minipantalón a lunares",
+      "en": "dotted shorts",
+      "fr": "short à pois"
+    }
+  },
+  "c274": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalDown",
+    "img": [
+      "3",
+      "1",
+      "2",
+      "6",
+      "5",
+      "7",
+      "4",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "lime",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "green",
+      "blue"
+    ],
+    "sel": 280,
+    "buy": 1120,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11265,
+      11263,
+      11264,
+      11268,
+      11267,
+      11269,
+      11266,
+      4256
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "gor08",
+      "pgn12"
+    ],
+    "loc": {
+      "zh-cn": "羽绒裤",
+      "de": "Thermohose",
+      "it": "pantalone imbottito",
+      "nl": "gewatteerde broek",
+      "ru": "штаны на пуху",
+      "ja": "ダウンパンツ",
+      "ko": "패딩 바지",
+      "zh-tw": "羽絨褲",
+      "en": "down pants",
+      "es": "pantalón acolchado",
+      "fr": "pantalon doudoune"
+    }
+  },
+  "c280": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxDown",
+    "img": [
+      "3",
+      "1",
+      "2",
+      "6",
+      "5",
+      "7",
+      "4",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "lime",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "green",
+      "blue"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11330,
+      11328,
+      11329,
+      11333,
+      11332,
+      11334,
+      11331,
+      4266
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "pgn12",
+    "loc": {
+      "zh-cn": "羽绒短裙",
+      "de": "Thermorock",
+      "it": "gonna imbottita",
+      "nl": "gewatteerde rok",
+      "ru": "юбка на пуху",
+      "ja": "ダウンスカート",
+      "ko": "패딩 치마",
+      "zh-tw": "羽絨裙",
+      "en": "down skirt",
+      "es": "falda corta acolchada",
+      "fr": "jupe doudoune"
+    }
+  },
+  "c412": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongDrape",
+    "img": [
+      "3",
+      "0",
+      "5",
+      "4",
+      "1",
+      "7",
+      "2",
+      "6"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      11658,
+      4505,
+      11660,
+      11659,
+      11656,
+      11662,
+      11657,
+      11661
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "不规则垂坠裙",
+      "de": "Draperie-Rock",
+      "es-es": "falda en cascada tartán",
+      "it": "gonna drappeggiata",
+      "nl": "gedrapeerde rok",
+      "ru": "юбка с драпировкой",
+      "ja": "ドレープスカート",
+      "ko": "드레이프 스커트",
+      "zh-tw": "不規則摺邊裙",
+      "es-us": "falda en cascada escocesa",
+      "en": "draped skirt",
+      "fr": "jupe drapée"
+    }
+  },
+  "c907": {
+    "ipf": "FtrIcon/BottomsTexPantsWideYumekawa",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "yellow",
+        "purple"
+      ],
+      [
+        "green",
+        "purple"
+      ],
+      [
+        "blue",
+        "purple"
+      ]
+    ],
+    "sel": 360,
+    "buy": 1440,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "comfy"
+    ],
+    "iid": [
+      5923,
+      9195,
+      9194,
+      9196
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "bea15",
+      "elp02"
+    ],
+    "loc": {
+      "zh-cn": "梦幻可爱裤子",
+      "de": "Fantasiehose",
+      "it": "pantalone da sogno",
+      "nl": "dromerige broek",
+      "ru": "штаны из грез",
+      "ja": "ゆめかわなズボン",
+      "ko": "아기자기한 바지",
+      "zh-tw": "夢幻可愛褲子",
+      "en": "dreamy pants",
+      "es": "pantalón ensueño",
+      "fr": "pantalon joli rêve"
+    }
+  },
+  "c160": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSchool",
+    "img": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "berry_red",
+      "green",
+      "navy_blue",
+      "beige"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      11406,
+      3405,
+      11404,
+      11405
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "rbt04",
+    "loc": {
+      "zh-cn": "制服裤",
+      "de": "Uniformhose",
+      "it": "pantalone scolastico",
+      "nl": "nette broek",
+      "ru": "формальные брюки",
+      "ja": "せいふくのズボン",
+      "ko": "교복 바지",
+      "zh-tw": "制服褲",
+      "en": "dress pants",
+      "es": "pantalón uniforme escolar",
+      "fr": "pantalon d'uniforme"
+    }
+  },
+  "c862": {
+    "ipf": "FtrIcon/BottomsTexPantsWideThail",
+    "img": [
+      "5",
+      "0",
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "orange",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      "purple"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      9188,
+      5735,
+      9185,
+      9186,
+      9184,
+      9187
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "泰国大象裤",
+      "de": "Elefantenmuster-Hose",
+      "it": "pantalone pachiderma",
+      "nl": "olifantenbroek",
+      "ru": "штаны со слонами",
+      "ja": "タイパンツ",
+      "ko": "타이 어부 바지",
+      "zh-tw": "泰國大象褲",
+      "en": "elephant-print pants",
+      "es": "pantalón paquidermo",
+      "fr": "pantalon motif éléphants"
+    }
+  },
+  "c755": {
+    "ipf": "FtrIcon/BottomsTexPantsWidePrintdenim",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "blue",
+      "black",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "aqua",
+        "white"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      5459,
+      9540,
+      9539
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "印花牛仔裤",
+      "de": "Design-Jeanshose",
+      "es-es": "tejano con estampado",
+      "it": "paio di jeans decorati",
+      "nl": "vleugelstikseljeans",
+      "ru": "джинсы с аппликацией",
+      "ja": "プリントデニム",
+      "ko": "프린트 데님 바지",
+      "zh-tw": "印花牛仔褲",
+      "es-us": "pantalón de jean decorado",
+      "en": "embellished denim pants",
+      "fr": "jean décoré"
+    }
+  },
+  "c430": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongEmbroidery",
+    "img": [
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "berry_red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "orange"
+      ],
+      [
+        "green",
+        "aqua"
+      ],
+      [
+        "blue",
+        "purple"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8737,
+      4547,
+      8736
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "elp07",
+      "rbt03"
+    ],
+    "loc": {
+      "zh-cn": "花朵图案刺绣裙",
+      "de": "Blumenstick-Rock",
+      "it": "gonna a ricami floreali",
+      "nl": "geborduurde bloemenrok",
+      "ru": "юбка с цветочками",
+      "ja": "ししゅうのはながらスカート",
+      "ko": "꽃무늬 자수 치마",
+      "zh-tw": "刺繡花紋裙",
+      "en": "embroidered floral skirt",
+      "es": "falda flores bordadas",
+      "fr": "jupe à fleurs brodées"
+    }
+  },
+  "c431": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongGeometric",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      8739,
+      8738,
+      4548
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "几何图案刺绣裙",
+      "de": "Dessinstick-Rock",
+      "it": "gonna a ricami geometrici",
+      "nl": "geborduurde rok",
+      "ru": "юбка с вышивкой",
+      "ja": "きかがくししゅうのスカート",
+      "ko": "기하학 자수 치마",
+      "zh-tw": "幾何刺繡裙",
+      "en": "embroidered-pattern skirt",
+      "es": "falda cenefas bordadas",
+      "fr": "jupe à motif brodé"
+    }
+  },
+  "c1092": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfExplorer",
+    "img": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "var": [
+      "beige",
+      "avocado",
+      "blue",
+      "camel"
+    ],
+    "clr": [
+      "gray",
+      "green",
+      "blue",
+      "beige"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      12069,
+      12068,
+      12070,
+      9841
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "crd05",
+      "der03",
+      "elp06",
+      "hrs00",
+      "lon01",
+      "mus02",
+      "squ06",
+      "cbr05"
+    ],
+    "loc": {
+      "zh-cn": "探险服裤子",
+      "de": "Safarihose",
+      "it": "pantalone da esploratore",
+      "nl": "ontdekkingsreizigersbroekje",
+      "ru": "шорты исследователя",
+      "ja": "たんけんふくのズボン",
+      "ko": "탐험복 바지",
+      "zh-tw": "探險服褲子",
+      "en": "explorer shorts",
+      "es": "pantalón corto exploración",
+      "fr": "bermuda aventure"
+    }
+  },
+  "c730": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineFur",
+    "img": [
+      "2",
+      "1",
+      "0",
+      "3",
+      "4"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "light_blue",
+      "purple",
+      "yellow"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 360,
+    "buy": 1440,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "party"
+    ],
+    "iid": [
+      8795,
+      8794,
+      5415,
+      8796,
+      8797
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "flg04",
+    "loc": {
+      "zh-cn": "仿毛皮短裙",
+      "de": "Schleifchen-Kunstfellrock",
+      "es-es": "falda corta de pelo sintético",
+      "it": "gonna di ecopelliccia",
+      "nl": "imitatiebontrok",
+      "ru": "юбка «под мех»",
+      "ja": "ファースカート",
+      "ko": "인조털 치마",
+      "zh-tw": "毛毛裙",
+      "es-us": "falda corta de piel sintética",
+      "en": "faux-fur skirt",
+      "fr": "jupe en fausse fourrure"
+    }
+  },
+  "c843": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxMouton",
+    "img": [
+      "4",
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "pink",
+      "green",
+      "beige"
+    ],
+    "clr": [
+      [
+        "gray",
+        "white"
+      ],
+      [
+        "black",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11338,
+      11337,
+      11335,
+      11336,
+      5704
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "ham04",
+    "loc": {
+      "zh-cn": "麂皮毛毛裙",
+      "de": "Kunstfellrock",
+      "es-es": "falda corta sherpa",
+      "fr-fr": "jupe en imitation agneau",
+      "it": "gonna in finto montone",
+      "nl": "winterrok",
+      "ru": "юбка «под овчину»",
+      "ja": "ムートンスカート",
+      "ko": "양가죽 스커트",
+      "zh-tw": "麂皮裙",
+      "es-us": "falda corta piel sintética",
+      "fr-us": "jupe fourrée",
+      "en": "faux-shearling skirt"
+    }
+  },
+  "c480": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineFlare",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "3",
+      "4"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "mint",
+      "light_blue"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "green",
+      "aqua"
+    ],
+    "sel": 285,
+    "buy": 1140,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      8790,
+      4614,
+      8791,
+      8792,
+      8793
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "hrs09",
+    "loc": {
+      "de": "Minirock",
+      "es-es": "falda acampanada",
+      "it": "gonna scampanata",
+      "nl": "uitlopend rokje",
+      "ru": "юбка-клеш",
+      "ja": "フレアスカート",
+      "ko": "플레어스커트",
+      "es-us": "falda campamento",
+      "en": "flare skirt",
+      "fr": "jupe évasée",
+      "zh": "喇叭裙"
+    }
+  },
+  "c161": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSlacksgaudy",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "var": [
+      "white",
+      "black",
+      "berry_red",
+      "yellow",
+      "aquamarine",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "cool"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      3408,
+      11354,
+      11356,
+      11358,
+      11357,
+      11355
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr02",
+      "der04",
+      "duk09"
+    ],
+    "loc": {
+      "zh-cn": "华丽西装裤",
+      "de": "Imponierhose",
+      "it": "pantalone vistoso",
+      "nl": "glanzende broek",
+      "ru": "броские брюки",
+      "ja": "ハデなスラックス",
+      "ko": "화려한 슬랙스",
+      "zh-tw": "亮面西裝褲",
+      "en": "flashy slacks",
+      "es": "pantalón de vestir llamativo",
+      "fr": "pantalon tape-à-l'œil"
+    }
+  },
+  "c478": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxLace",
+    "img": [
+      "7",
+      "3",
+      "1",
+      "4",
+      "5",
+      "0",
+      "2",
+      "6"
+    ],
+    "var": [
+      "black",
+      "ruby_red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "aqua",
+      "blue",
+      "purple"
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "formal",
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      11655,
+      11651,
+      11649,
+      11652,
+      11653,
+      4612,
+      11650,
+      11654
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "花朵图案蕾丝裙",
+      "de": "Blumenspitzenrock",
+      "it": "gonna merlettata floreale",
+      "nl": "kanten bloemenrok",
+      "ru": "кружевная юбка с цветами",
+      "ja": "はながらレースのスカート",
+      "ko": "꽃무늬 레이스 치마",
+      "zh-tw": "花紋蕾絲裙",
+      "en": "floral lace skirt",
+      "es": "falda encaje floral",
+      "fr": "jupe à fleurs en dentelle"
+    }
+  },
+  "c908": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongFlower",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "yellow",
+        "pink"
+      ],
+      [
+        "aqua",
+        "red"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8756,
+      8755,
+      5925
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bul08",
+      "mnk05"
+    ],
+    "loc": {
+      "zh-cn": "花朵图案长裙",
+      "de": "Blumenwiesenrock",
+      "it": "gonna floreale",
+      "nl": "bloemenrok",
+      "ru": "юбка с цветочным узором",
+      "ja": "はながらスカート",
+      "ko": "꽃무늬 치마",
+      "zh-tw": "花紋裙子",
+      "en": "floral skirt",
+      "es": "falda floral",
+      "fr": "jupe florale"
+    }
+  },
+  "c1095": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalAmericanfootball",
+    "img": [
+      "1",
+      "7",
+      "3",
+      "6",
+      "2",
+      "0",
+      "5",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "berry_red",
+      "red",
+      "yellow",
+      "green",
+      "turquoise",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "red",
+      "yellow",
+      "green",
+      "green",
+      "blue"
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      12059,
+      12065,
+      12061,
+      12064,
+      12060,
+      9844,
+      12063,
+      12062
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "hip08",
+    "loc": {
+      "zh-cn": "美式足球裤",
+      "de": "Footballhose",
+      "fr-fr": "pantalon de foot américain",
+      "it": "paio di pantaloni da football",
+      "nl": "Americanfootballbroekje",
+      "ru": "футбольные бриджи",
+      "ja": "アメフトズボン",
+      "ko": "미식축구 바지",
+      "zh-tw": "美式足球褲",
+      "fr-us": "pantalon de football",
+      "en": "football pants",
+      "es": "pantalón rugby"
+    }
+  },
+  "c334": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfFormal",
+    "img": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "3",
+      "1",
+      "5",
+      "7"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "yellow",
+      "lime",
+      "light_blue",
+      "navy_blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "yellow",
+      "green",
+      "aqua",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal",
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": [
+      4372,
+      9093,
+      9095,
+      9097,
+      9094,
+      9092,
+      9096,
+      9098
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ham02",
+      "mus01",
+      "wol06",
+      "hip09"
+    ],
+    "loc": {
+      "zh-cn": "简约五分裤",
+      "de": "Ausgehshorts",
+      "it": "pantaloncino classico",
+      "nl": "keurige short",
+      "ru": "классические шорты",
+      "ja": "きれいめハーフパンツ",
+      "ko": "깔끔한 반바지",
+      "zh-tw": "清爽五分褲",
+      "en": "formal shorts",
+      "es": "pantalón corto sobrio",
+      "fr": "short sobre"
+    }
+  },
+  "c331": {
+    "ipf": "FtrIcon/BottomsTexPantsWideFrilled",
+    "img": [
+      "2",
+      "4",
+      "0",
+      "1",
+      "3"
+    ],
+    "var": [
+      "pink",
+      "orange",
+      "yellow",
+      "mint",
+      "blue"
+    ],
+    "clr": [
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "aqua"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      9275,
+      9277,
+      4369,
+      9274,
+      9276
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "荷叶边裤子",
+      "de": "Volanthose",
+      "es-es": "pantalón con volantes",
+      "it": "pantalone vezzoso",
+      "nl": "ruchesbroek",
+      "ru": "брюки с оборками",
+      "ja": "フリルつきパンツ",
+      "ko": "프릴 바지",
+      "zh-tw": "荷葉邊褲子",
+      "es-us": "pantalón con volados",
+      "en": "frilly pants",
+      "fr": "pantalon à volant"
+    }
+  },
+  "c349": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineFrilled",
+    "img": [
+      "5",
+      "0",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "pink",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "party",
+      "comfy",
+      "theatrical"
+    ],
+    "iid": [
+      8789,
+      4410,
+      8787,
+      8786,
+      8785,
+      8788
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "pgn02",
+      "pig16",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "蛋糕蓬蓬裙",
+      "de": "Volantrock",
+      "es-es": "falda corta con volantes",
+      "it": "gonna vezzosa",
+      "nl": "ruchesrokje",
+      "ru": "юбка с оборками",
+      "ja": "フリルスカート",
+      "ko": "프릴 스커트",
+      "zh-tw": "蓬蓬裙",
+      "es-us": "falda corta con volados",
+      "en": "frilly skirt",
+      "fr": "jupe volantée"
+    }
+  },
+  "c731": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSweatfrill",
+    "img": [
+      "5",
+      "1",
+      "3",
+      "2",
+      "0",
+      "4"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "orange",
+      "mint",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "pink",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": "everyday",
+    "iid": [
+      8802,
+      8798,
+      8800,
+      8799,
+      5416,
+      8801
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "荷叶边棉裤",
+      "de": "Volantsofahose",
+      "es-es": "pantalón chándal volantes",
+      "it": "pantalone volant vezzoso",
+      "nl": "rucheslegging",
+      "ru": "штаны с оборками",
+      "ja": "スウェットフリルズボン",
+      "ko": "프릴 스웨트 팬츠",
+      "zh-tw": "荷葉邊棉褲",
+      "es-us": "pantalón cómodo volados",
+      "en": "frilly sweatpants",
+      "fr": "pantalon jogging à volants"
+    }
+  },
+  "c301": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxFringe",
+    "img": [
+      "2",
+      "1",
+      "6",
+      "4",
+      "5",
+      "3",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "berry_red",
+      "yellow",
+      "green",
+      "blue",
+      "camel"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "beige"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      10192,
+      10191,
+      10196,
+      10194,
+      10195,
+      10193,
+      4307
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hrs03",
+      "mus01"
+    ],
+    "loc": {
+      "zh-cn": "流苏短裙",
+      "de": "Fransenrock",
+      "it": "gonna con frange",
+      "nl": "rokje met franje",
+      "ru": "юбка с бахромой",
+      "ja": "フリンジスカート",
+      "ko": "프린지 스커트",
+      "zh-tw": "流蘇裙",
+      "en": "fringe skirt",
+      "es": "falda corta con flecos",
+      "fr": "jupe à franges"
+    }
+  },
+  "c296": {
+    "ipf": "FtrIcon/BottomsTexPantsWideGaucho",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "avocado",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "pink",
+      "green",
+      "aqua",
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "formal",
+      "work"
+    ],
+    "iid": [
+      4299,
+      9268,
+      9267,
+      9269,
+      9266
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "阔腿裤",
+      "de": "Gaucho-Hose",
+      "it": "pantalone da gaucho",
+      "nl": "gauchobroek",
+      "ru": "брюки-гаучо",
+      "ja": "ガウチョパンツ",
+      "ko": "와이드 팬츠",
+      "zh-tw": "闊腿褲",
+      "en": "gaucho pants",
+      "es": "pantalón gaucho",
+      "fr": "pantalon gaucho"
+    }
+  },
+  "c871": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChimayo",
+    "img": [
+      "3",
+      "1",
+      "4",
+      "0",
+      "2"
+    ],
+    "var": [
+      "navy_blue",
+      "red",
+      "orange",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "orange",
+        "green"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "brown",
+        "green"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      9191,
+      9189,
+      9192,
+      5795,
+      9190
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "loc": {
+      "zh-cn": "奇马约图腾绒毛裤",
+      "de": "Chimayo-Hose",
+      "it": "pantalone stile geometrico",
+      "nl": "Chimayo-broek",
+      "ru": "штаны с геомет. рисунком",
+      "ja": "チマヨがらフリースパンツ",
+      "ko": "치마요무늬 플리스 팬츠",
+      "zh-tw": "奇馬約圖騰刷毛褲",
+      "en": "geometric-print pants",
+      "es": "pantalón étnico",
+      "fr": "pantalon Chimayo"
+    }
+  },
+  "c16": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineGingham",
+    "img": [
+      "3",
+      "0",
+      "5",
+      "4",
+      "1",
+      "7",
+      "2",
+      "6"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "aqua",
+      "blue",
+      "purple"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      12194,
+      3319,
+      12196,
+      12195,
+      12192,
+      12198,
+      12193,
+      12197
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "rbt14",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "嘉顿格纹裙子",
+      "de": "Karorock",
+      "it": "gonna a quadri",
+      "nl": "picknickrokje",
+      "ru": "клетчатая юбка",
+      "ja": "ギンガムチェックのスカート",
+      "ko": "깅엄 체크 치마",
+      "zh-tw": "嘉頓格紋裙",
+      "en": "gingham picnic skirt",
+      "es": "falda vichy",
+      "fr": "jupe vichy"
+    }
+  },
+  "c861": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfGobelins",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "beige"
+    ],
+    "clr": [
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "beige",
+        "pink"
+      ]
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      8923,
+      5734
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "葛布兰刺绣短裤",
+      "de": "Gobelin-Shorts",
+      "it": "pantaloncino gobelin",
+      "nl": "wandtapijtshort",
+      "ru": "шорты «под гобелен»",
+      "ja": "ゴブランハーフパンツ",
+      "ko": "고블랭 반바지",
+      "zh-tw": "戈布蘭刺繡短褲",
+      "en": "gobelin shorts",
+      "es": "bermuda gobelino",
+      "fr": "short tapisserie"
+    }
+  },
+  "c312": {
+    "img": "FtrIcon/BottomsTexSkirtBoxGrass0",
+    "clr": "beige",
+    "sel": 140,
+    "hap": 103,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": 4333,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "mus18",
+      "rbt13"
+    ],
+    "loc": {
+      "de": "Baströckchen",
+      "fr-fr": "jupe savane",
+      "it": "gonna fieno",
+      "nl": "rieten rokje",
+      "ru": "юбка из сухих листьев",
+      "ja": "こしみの",
+      "ko": "도롱이 하의",
+      "fr-us": "jupe de feuilles",
+      "en": "grass skirt",
+      "es": "falda de paja",
+      "zh": "草裙"
+    }
+  },
+  "c1190": {
+    "img": "FtrIcon/BottomsTexSkirtBoxGrass1",
+    "clr": "green",
+    "sel": 140,
+    "hap": 103,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": 8907,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "绿色的草裙",
+      "de": "Grasröckchen",
+      "fr-fr": "jupe savane verte",
+      "it": "gonna foglie di banano",
+      "nl": "groengrasrokje",
+      "ru": "юбка из зеленых листьев",
+      "ja": "みどりのこしみの",
+      "ko": "초록색 도롱이 하의",
+      "zh-tw": "綠色草裙",
+      "fr-us": "jupe de feuilles verte",
+      "en": "green grass skirt",
+      "es": "falda de hojas"
+    }
+  },
+  "c272": {
+    "ipf": "FtrIcon/BottomsTexPantsWideHickory",
+    "img": [
+      "1",
+      "0"
+    ],
+    "var": [
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      "aqua",
+      "blue"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      9537,
+      4254
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "条纹工作裤",
+      "de": "Hickory-Streifen-Hose",
+      "it": "pantalone a righine",
+      "nl": "gestreepte jeans",
+      "ru": "брюки в полоску",
+      "ja": "ヒッコリーのペインターパンツ",
+      "ko": "히코리 페인터 팬츠",
+      "zh-tw": "條紋油漆工褲",
+      "en": "hickory-stripe pants",
+      "es": "pantalón raya fina",
+      "fr": "pantalon de travail"
+    }
+  },
+  "c248": {
+    "ipf": "FtrIcon/BottomsTexPantsHotRunning",
+    "img": [
+      "5",
+      "3",
+      "0",
+      "7",
+      "2",
+      "1",
+      "4",
+      "6"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "lime",
+      "light_blue",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty"
+    ],
+    "iid": [
+      8858,
+      8856,
+      4195,
+      8860,
+      8855,
+      8854,
+      8857,
+      8859
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bul05",
+      "goa09",
+      "gor01",
+      "kgr06",
+      "ost00",
+      "pgn09"
+    ],
+    "loc": {
+      "zh-cn": "跑步短裤",
+      "de": "Lauf-Shorts",
+      "es-es": "minipantalón jogging",
+      "fr-fr": "short de footing",
+      "it": "pantaloncino da jogging",
+      "nl": "joggingshort",
+      "ru": "шорты для пробежек",
+      "ja": "ランニングパンツ",
+      "ko": "러닝 팬츠",
+      "zh-tw": "跑步短褲",
+      "es-us": "minipantalón de correr",
+      "fr-us": "short de jogging",
+      "en": "jogging shorts"
+    }
+  },
+  "c142": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineKilt",
+    "img": [
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "green"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "exp": 900,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      9239,
+      3337,
+      9241,
+      9240
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "苏格兰裙",
+      "de": "Kilt",
+      "it": "kilt",
+      "nl": "kilt",
+      "ru": "килт",
+      "ja": "キルト",
+      "ko": "킬트",
+      "zh-tw": "蘇格蘭裙",
+      "en": "kilt",
+      "es": "kilt",
+      "fr": "kilt"
+    }
+  },
+  "c845": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalKnit",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "light_blue",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "red",
+      "aqua",
+      "brown"
+    ],
+    "sel": 227,
+    "buy": 910,
+    "exp": 820,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      5707,
+      9260,
+      9259,
+      9258
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "flg05",
+      "shp00"
+    ],
+    "loc": {
+      "zh-cn": "针织裤",
+      "de": "Strickhose",
+      "es-es": "pantalón de punto",
+      "it": "pantalone di maglia",
+      "nl": "gebreide broek",
+      "ru": "вязаные штаны",
+      "ja": "ニットパンツ",
+      "ko": "니트 바지",
+      "zh-tw": "針織褲",
+      "es-us": "pantalón tejido",
+      "en": "knit pants",
+      "fr": "pantalon en tricot"
+    }
+  },
+  "c729": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxAran",
+    "img": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "mustard",
+      "light_blue",
+      "brown"
+    ],
+    "clr": [
+      "pink",
+      "yellow",
+      "aqua",
+      "beige"
+    ],
+    "sel": 227,
+    "buy": 910,
+    "exp": 820,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      11345,
+      11346,
+      11344,
+      5414
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": "shp00",
+    "loc": {
+      "zh-cn": "毛线短裙",
+      "de": "Strickrock",
+      "es-es": "falda corta de punto",
+      "it": "gonna di lana",
+      "nl": "gebreide rok",
+      "ru": "вязаная юбка",
+      "ja": "ニットスカート",
+      "ko": "니트 치마",
+      "zh-tw": "針織裙",
+      "es-us": "falda corta tejida",
+      "en": "knit skirt",
+      "fr": "jupe en tricot"
+    }
+  },
+  "c310": {
+    "ipf": "FtrIcon/BottomsTexPantsWideKungfu",
+    "img": [
+      "1",
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "var": [
+      "white",
+      "yellow",
+      "green",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      "blue"
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "exp": 1500,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "sporty"
+    ],
+    "iid": [
+      11391,
+      11393,
+      11394,
+      11392,
+      4331
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat06",
+      "cbr14",
+      "flg07",
+      "flg15",
+      "ham01",
+      "mnk07"
+    ],
+    "loc": {
+      "zh-cn": "功夫裤",
+      "de": "Kung-Fu-Hose",
+      "fr-fr": "pantalon de kung-fu",
+      "it": "pantalone da kung fu",
+      "nl": "kungfubroek",
+      "ru": "штаны для кун-фу",
+      "ja": "カンフーなズボン",
+      "ko": "쿵푸 바지",
+      "zh-tw": "功夫褲",
+      "fr-us": "pantalon kung-fu",
+      "en": "kung-fu pants",
+      "es": "pantalón kung-fu"
+    }
+  },
+  "c1129": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfKate",
+    "img": [
+      "1",
+      "2",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "midnight",
+      "passion",
+      "love",
+      "sunset",
+      "ocean",
+      "twilight"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 635,
+    "buy": 2540,
+    "exp": 2300,
+    "exc": 2,
+    "hap": 351,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11736,
+      11737,
+      11740,
+      11739,
+      11738,
+      9878
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "label",
+    "loc": {
+      "zh-cn": "凯丝的中裤",
+      "de": "Samthea-Shorts",
+      "it": "paio di calzoncini Bice",
+      "nl": "Labelle-short",
+      "ru": "шорты «Лэйблеск»",
+      "ja": "ケイトのハーフパンツ",
+      "ko": "케이트의 반바지",
+      "zh-tw": "凱絲五分褲",
+      "en": "Labelle shorts",
+      "es": "pantalón corto Trini",
+      "fr": "short Maria"
+    }
+  },
+  "c1130": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongKate",
+    "img": [
+      "1",
+      "2",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "midnight",
+      "passion",
+      "love",
+      "sunset",
+      "ocean",
+      "twilight"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "blue",
+      "purple"
+    ],
+    "sel": 775,
+    "buy": 3100,
+    "exp": 2800,
+    "exc": 2,
+    "hap": 351,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11741,
+      11742,
+      11745,
+      11744,
+      11743,
+      9879
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "label",
+    "loc": {
+      "zh-cn": "凯丝的半裙",
+      "de": "Samthea-Rock",
+      "it": "gonna Bice",
+      "nl": "Labelle-rok",
+      "ru": "юбка «Лэйблеск»",
+      "ja": "ケイトのスカート",
+      "ko": "케이트의 치마",
+      "zh-tw": "凱絲裙",
+      "en": "Labelle skirt",
+      "es": "falda larga Trini",
+      "fr": "jupe Maria"
+    }
+  },
+  "c421": {
+    "ipf": "FtrIcon/BottomsTexPantsHotLace",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "pink",
+      "green",
+      "aqua"
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": [
+      4517,
+      8911,
+      8913,
+      8912,
+      8914
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "brd05",
+      "crd06"
+    ],
+    "loc": {
+      "zh-cn": "蕾丝短裤",
+      "de": "Spitzenshorts",
+      "it": "pantaloncino di pizzo",
+      "nl": "kanten short",
+      "ru": "кружевные шорты",
+      "ja": "レースショートパンツ",
+      "ko": "레이스 숏팬츠",
+      "zh-tw": "蕾絲短褲",
+      "en": "lace shorts",
+      "es": "minipantalón encaje",
+      "fr": "short dentelle"
+    }
+  },
+  "c152": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineLace",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "green",
+      "beige"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "green",
+      "beige"
+    ],
+    "sel": 230,
+    "buy": 920,
+    "exp": 830,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "vacation"
+    ],
+    "iid": [
+      3384,
+      8904,
+      8905,
+      8906
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "elp02",
+      "hrs09"
+    ],
+    "loc": {
+      "zh-cn": "蕾丝短裙",
+      "de": "Spitzenrock",
+      "it": "gonna merlettata",
+      "nl": "kanten rokje",
+      "ru": "кружевная юбка",
+      "ja": "レーススカート",
+      "ko": "레이스 치마",
+      "zh-tw": "蕾絲裙",
+      "en": "lace skirt",
+      "es": "falda encaje",
+      "fr": "jupe en dentelle"
+    }
+  },
+  "c906": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongLemon",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8753,
+      8754,
+      5874
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "柠檬图案长裙",
+      "de": "Zitronenrock",
+      "it": "gonna con limoni",
+      "nl": "citroenenrok",
+      "ru": "юбка с лимонами",
+      "ja": "レモンのスカート",
+      "ko": "레몬 스커트",
+      "zh-tw": "檸檬裙子",
+      "en": "lemon skirt",
+      "es": "falda limones",
+      "fr": "jupe citrons"
+    }
+  },
+  "c335": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxLeopard",
+    "img": [
+      "1",
+      "5",
+      "3",
+      "2",
+      "4",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "lime",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      "pink",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      10197,
+      10201,
+      10199,
+      10198,
+      10200,
+      4373
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "豹纹迷你裙",
+      "de": "Leoparden-Minirock",
+      "it": "minigonna maculata",
+      "nl": "luipaardrokje",
+      "ru": "леопардовая мини-юбка",
+      "ja": "ヒョウがらミニスカート",
+      "ko": "표범 무늬 미니스커트",
+      "zh-tw": "豹紋迷你裙",
+      "en": "leopard miniskirt",
+      "es": "falda corta de leopardo",
+      "fr": "mini-jupe léopard"
+    }
+  },
+  "c275": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongChino",
+    "img": [
+      "4",
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "avocado",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      11144,
+      11143,
+      11142,
+      11141,
+      4257
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "卡其长裙",
+      "de": "Maxi-Chinorock",
+      "es-es": "falda chino",
+      "it": "gonna chino lunga",
+      "nl": "lange chinorok",
+      "ru": "длинная юбка из хлопка",
+      "ja": "ロングチノスカート",
+      "ko": "롱 치노 스커트",
+      "zh-tw": "卡其長裙",
+      "es-us": "falda beige",
+      "en": "long chino skirt",
+      "fr": "jupe longue chino"
+    }
+  },
+  "c846": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongDenim",
+    "img": [
+      "0",
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "white",
+      "black",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ],
+      [
+        "blue",
+        "brown"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "everyday",
+    "iid": [
+      5708,
+      11448,
+      11447,
+      11445,
+      11446
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "牛仔长裙",
+      "de": "Maxi-Jeansrock",
+      "es-es": "falda vaquera con cinturón",
+      "it": "gonna lunga di jeans",
+      "nl": "lange jeansrok",
+      "ru": "длинная джинсовая юбка",
+      "ja": "ロングデニムスカート",
+      "ko": "롱 데님 스커트",
+      "zh-tw": "牛仔長裙",
+      "es-us": "falda de jean con cinturón",
+      "en": "long denim skirt",
+      "fr": "jupe longue en jean"
+    }
+  },
+  "c336": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongCheck",
+    "img": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "red",
+      "beige",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "orange",
+        "brown"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      "blue"
+    ],
+    "sel": 362,
+    "buy": 1450,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      4374,
+      8716,
+      8714,
+      8715
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "der03",
+    "loc": {
+      "zh-cn": "格纹长裙",
+      "de": "Karo-Maxirock",
+      "es-es": "falda tartán",
+      "it": "gonna lunga scozzese",
+      "nl": "lange plaidrok",
+      "ru": "длинная юбка в клетку",
+      "ja": "チェックのロングスカート",
+      "ko": "체크무늬 롱스커트",
+      "zh-tw": "格紋長裙",
+      "es-us": "falda escocesa",
+      "en": "long plaid skirt",
+      "fr": "jupe longue écossaise"
+    }
+  },
+  "c255": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongPleats",
+    "img": [
+      "1",
+      "4",
+      "0",
+      "2",
+      "3"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "ruby_red",
+      "yellow",
+      "cyan"
+    ],
+    "clr": [
+      "white",
+      "gray",
+      "red",
+      "yellow",
+      "aqua"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      8703,
+      8706,
+      4222,
+      8704,
+      8705
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "duk13",
+      "hrs09"
+    ],
+    "loc": {
+      "zh-cn": "长百褶裙",
+      "de": "Faltenrock",
+      "it": "gonna lunga plissettata",
+      "nl": "lange plooirok",
+      "ru": "юбка-плиссе макси",
+      "ja": "ロングプリーツスカート",
+      "ko": "롱 플리츠 스커트",
+      "zh-tw": "百褶長裙",
+      "en": "long pleated skirt",
+      "es": "falda plisada larga",
+      "fr": "jupe longue plissée"
+    }
+  },
+  "c270": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongDot",
+    "img": [
+      "0",
+      "1",
+      "6",
+      "4",
+      "5",
+      "3",
+      "7",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      4252,
+      8707,
+      8712,
+      8710,
+      8711,
+      8709,
+      8713,
+      8708
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": "hip09",
+    "loc": {
+      "zh-cn": "圆点长裙",
+      "de": "Maxi-Pünktchenrock",
+      "es-es": "falda lunares",
+      "it": "gonna lunga a pois",
+      "nl": "lange rok met stippen",
+      "ru": "макси-юбка в горошек",
+      "ja": "みずたまロングスカート",
+      "ko": "물방울 롱스커트",
+      "zh-tw": "圓點長裙",
+      "es-us": "falda a lunares",
+      "en": "long polka skirt",
+      "fr": "jupe longue à pois"
+    }
+  },
+  "c912": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongSailor",
+    "img": [
+      "0",
+      "6",
+      "7",
+      "1",
+      "3",
+      "2",
+      "5",
+      "4"
+    ],
+    "var": [
+      "navy_blue",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "blue",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "aqua",
+      "purple",
+      "brown"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      6016,
+      11647,
+      11648,
+      11642,
+      11644,
+      11643,
+      11646,
+      11645
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "水手服长裙",
+      "de": "Maxi-Segelrock",
+      "fr-fr": "jupe longue marine",
+      "it": "gonna lunga marinara",
+      "nl": "lange matrozenrok",
+      "ru": "длинная юбка-плиссе",
+      "ja": "ロングセーラースカート",
+      "ko": "롱 세일러 스커트",
+      "zh-tw": "水手服長裙",
+      "fr-us": "jupe matelot longue",
+      "en": "long sailor skirt",
+      "es": "falda marinera larga"
+    }
+  },
+  "c732": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongSweat",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "green",
+      "navy_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "red"
+      ],
+      [
+        "green",
+        "pink"
+      ],
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "exp": 900,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      8724,
+      8725,
+      5417,
+      8726
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "棉质长裙",
+      "de": "Feierabend-Maxirock",
+      "it": "gonna lunga casual",
+      "nl": "lange sweatstofrok",
+      "ru": "юбка макси из трикотажа",
+      "ja": "スウェットロングスカート",
+      "ko": "스웨트 롱스커트",
+      "zh-tw": "棉質長裙",
+      "en": "long sweatskirt",
+      "es": "falda sport",
+      "fr": "jupe jogging longue"
+    }
+  },
+  "c1466": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfRoomwear",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "brown",
+      "red",
+      "blue",
+      "gray"
+    ],
+    "clr": [
+      [
+        "brown",
+        "beige"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sel": 290,
+    "buy": 1160,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      14806,
+      564,
+      565,
+      566
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "居家五分裤",
+      "de": "Chill-Shorts",
+      "es-es": "pantalón de pijama corto",
+      "fr-fr": "short d'intérieur",
+      "it": "pantaloncino comodo",
+      "nl": "loungeshort",
+      "ru": "удобные шорты",
+      "ja": "ルームウェアのハーフパンツ",
+      "ko": "홈웨어 반바지",
+      "zh-tw": "居家五分褲",
+      "es-us": "pantalón corto de pijama",
+      "fr-us": "short de détente",
+      "en": "loungewear shorts"
+    }
+  },
+  "c426": {
+    "ipf": "FtrIcon/BottomsTexPantsHotThai",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "var": [
+      "red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "green",
+        "red"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "purple",
+        "pink"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "comfy",
+      "sporty"
+    ],
+    "iid": [
+      11947,
+      11948,
+      4522,
+      11949
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bul03",
+      "cat14",
+      "kgr06"
+    ],
+    "loc": {
+      "zh-cn": "泰拳裤子",
+      "de": "Muai-Thai-Hose",
+      "it": "pantaloncino da muay thai",
+      "nl": "kickboksshort",
+      "ru": "шорты для бокса",
+      "ja": "ムエタイパンツ",
+      "ko": "무에타이 바지",
+      "zh-tw": "泰拳褲",
+      "en": "muay-thai shorts",
+      "es": "pantalón corto muay thai",
+      "fr": "short de boxe thaï"
+    }
+  },
+  "c333": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfMulticolor",
+    "img": [
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "orange"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      "green",
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": [
+      9089,
+      9091,
+      4371,
+      9090
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "混色五分裤",
+      "de": "Vielfarben-Shorts",
+      "it": "pantaloncino multicolore",
+      "nl": "veelkleurige korte broek",
+      "ru": "двухцветные шорты",
+      "ja": "マルチカラーのハーフパンツ",
+      "ko": "컬러풀 반바지",
+      "zh-tw": "多色五分褲",
+      "en": "multicolor shorts",
+      "es": "pantalón corto multicolor",
+      "fr": "short multicolore"
+    }
+  },
+  "c339": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalNoble",
+    "img": [
+      "2",
+      "0",
+      "7",
+      "1",
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "ruby_red",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      "yellow",
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 1075,
+    "buy": 4300,
+    "exp": 3900,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      9249,
+      4398,
+      9254,
+      9248,
+      9253,
+      9251,
+      9250,
+      9252
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ant09",
+      "cat10",
+      "lon06"
+    ],
+    "loc": {
+      "zh-cn": "贵族裤子",
+      "de": "Adelshose",
+      "it": "pantalone nobile",
+      "nl": "aristocratenbroek",
+      "ru": "брюки вельможи",
+      "ja": "きぞくのズボン",
+      "ko": "귀족 바지",
+      "zh-tw": "貴族褲子",
+      "en": "noble pants",
+      "es": "pantalón nobiliario",
+      "fr": "haut-de-chausse"
+    }
+  },
+  "c395": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfOutdoor",
+    "img": [
+      "1",
+      "3",
+      "0",
+      "7",
+      "5",
+      "4",
+      "2",
+      "6"
+    ],
+    "var": [
+      "black",
+      "red",
+      "yellow",
+      "yellow_green",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "yellow",
+      "green",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      6899,
+      9122,
+      4472,
+      9126,
+      9124,
+      9123,
+      9121,
+      9125
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat20",
+      "chn13",
+      "duk02",
+      "lon00",
+      "ost09",
+      "pgn01",
+      "squ18"
+    ],
+    "loc": {
+      "zh-cn": "户外活动裤",
+      "de": "Outdoor-Hose",
+      "it": "pantaloncino da camminata",
+      "nl": "kampeerbroek",
+      "ru": "походные шорты",
+      "ja": "アウトドアパンツ",
+      "ko": "아웃도어 팬츠",
+      "zh-tw": "戶外活動褲",
+      "en": "outdoor shorts",
+      "es": "pantalón de paseo",
+      "fr": "short de randonnée"
+    }
+  },
+  "c404": {
+    "ipf": "FtrIcon/BottomsTexPantsWideKnee",
+    "img": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "yellow",
+      "green",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "yellow",
+      [
+        "green",
+        "aqua"
+      ],
+      "purple",
+      [
+        "brown",
+        "orange"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "sporty",
+      "vacation",
+      "work"
+    ],
+    "iid": [
+      9280,
+      9279,
+      9278,
+      4490
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "kgr00",
+    "loc": {
+      "zh-cn": "膝盖补丁裤",
+      "de": "Spielplatzhose",
+      "it": "pantaloncino con toppe",
+      "nl": "kniestukkenbroek",
+      "ru": "брюки с заплатками",
+      "ja": "ひざあてズボン",
+      "ko": "덧댄 바지",
+      "zh-tw": "膝蓋補丁褲",
+      "en": "patched-knee pants",
+      "es": "pantalón con rodilleras",
+      "fr": "pantalon renforcé"
+    }
+  },
+  "c781": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongPatch",
+    "img": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "var": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      "green",
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 525,
+    "buy": 2100,
+    "exp": 1900,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8740,
+      8741,
+      8742,
+      5544
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "mus04",
+      "pig16"
+    ],
+    "loc": {
+      "de": "Patchwork-Rock",
+      "es-es": "falda recortes",
+      "it": "gonna patchwork",
+      "nl": "patchworkrok",
+      "ru": "лоскутная юбка",
+      "ja": "パッチワークスカート",
+      "ko": "패치워크 스커트",
+      "es-us": "falda retazos",
+      "en": "patchwork skirt",
+      "fr": "jupe patchwork",
+      "zh": "拼布裙"
+    }
+  },
+  "c855": {
+    "img": "FtrIcon/BottomsTexSkirtAlinePearlNavy",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "exp": 1500,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": 5737,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "hrs09",
+    "loc": {
+      "zh-cn": "珍珠短裙",
+      "de": "Perlen-Rock",
+      "it": "gonna con perle",
+      "nl": "parelrokje",
+      "ru": "юбка с жемчугом",
+      "ja": "パールつきスカート",
+      "ko": "펄 스커트",
+      "zh-tw": "珍珠裙子",
+      "en": "pearl skirt",
+      "es": "falda con perlas",
+      "fr": "jupe perlée"
+    }
+  },
+  "c737": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineTutu",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "cool",
+      "pastel",
+      "rainbow"
+    ],
+    "clr": [
+      [
+        "black",
+        "colorful"
+      ],
+      [
+        "aqua",
+        "colorful"
+      ],
+      [
+        "purple",
+        "colorful"
+      ]
+    ],
+    "sel": 385,
+    "buy": 1540,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      5422,
+      8917,
+      8916
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "duk01",
+    "loc": {
+      "zh-cn": "缤纷芭蕾舞裙",
+      "de": "Tanzröckchen",
+      "it": "gonna petali",
+      "nl": "dansrokje",
+      "ru": "юбка из тюля",
+      "ja": "チュチュスカート",
+      "ko": "발레리나 치마",
+      "zh-tw": "芭蕾舞紗裙",
+      "en": "petal skirt",
+      "es": "falda pétalos",
+      "fr": "jupe pétales"
+    }
+  },
+  "c344": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfAloha",
+    "img": [
+      "1",
+      "5",
+      "6",
+      "2",
+      "3",
+      "0",
+      "4"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "pink",
+        "orange"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "yellow",
+        "aqua"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "aqua"
+      ],
+      [
+        "purple",
+        "aqua"
+      ]
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      11314,
+      11318,
+      11319,
+      11315,
+      11316,
+      4405,
+      11317
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "ham09",
+      "lon04",
+      "pbr06",
+      "shp15"
+    ],
+    "loc": {
+      "zh-cn": "凤梨夏威夷裤",
+      "de": "Ananas-Aloha-Hose",
+      "es-es": "bermuda piña aloha",
+      "it": "paio bermuda aloha ananas",
+      "nl": "ananas-hawaïshort",
+      "ru": "гавайские ананасн. шорты",
+      "ja": "パインがらアロハパンツ",
+      "ko": "파인애플 알로하 바지",
+      "zh-tw": "鳳梨夏威夷褲",
+      "es-us": "bermuda aloha piñas",
+      "en": "pineapple aloha shorts",
+      "fr": "short Hawaï ananas"
+    }
+  },
+  "c1227": {
+    "img": "FtrIcon/BottomsTexPantsNormalPirates0",
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "sel": 800,
+    "hap": 451,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "goth",
+      "theatrical"
+    ],
+    "iid": 12664,
+    "cat": true,
+    "sze": "1x1",
+    "src": "gullivarrr",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "海盗裤",
+      "de": "Piratenhose",
+      "it": "pantalone da pirata",
+      "nl": "piratenbroek",
+      "ru": "пиратские штаны",
+      "ja": "かいぞくのズボン",
+      "ko": "해적 바지",
+      "zh-tw": "海盜褲",
+      "en": "pirate pants",
+      "es": "pantalón de pirata",
+      "fr": "pantalon de pirate"
+    }
+  },
+  "c817": {
+    "ipf": "FtrIcon/BottomsTexPantsHotShaggycheck",
+    "img": [
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "red",
+      "light_green",
+      "light_blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "red",
+        "pink"
+      ],
+      "green",
+      [
+        "aqua",
+        "gray"
+      ],
+      [
+        "brown",
+        "orange"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      8844,
+      8843,
+      5664,
+      8842
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "长绒格纹热裤",
+      "de": "Karoshorts",
+      "es-es": "minipantalón lana tartán",
+      "it": "pantaloncino con cintura",
+      "nl": "geruite short",
+      "ru": "шорты в клетку",
+      "ja": "シャギーチェックのホットパンツ",
+      "ko": "체크무늬 핫팬츠",
+      "zh-tw": "法蘭絨格紋熱褲",
+      "es-us": "minipantalón lana escocés",
+      "en": "plaid shorts",
+      "fr": "short écossais à ceinture"
+    }
+  },
+  "c735": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineLeather",
+    "img": [
+      "7",
+      "1",
+      "2",
+      "5",
+      "4",
+      "6",
+      "3",
+      "0"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "pink",
+      "orange",
+      "green",
+      "aqua",
+      "blue",
+      "brown"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      10208,
+      10202,
+      10203,
+      10206,
+      10205,
+      10207,
+      10204,
+      5420
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "de": "Kunstleder-Minirock",
+      "es-es": "falda acampanada polipiel",
+      "it": "gonna in ecopelle",
+      "nl": "uitlopend kunstleren rokje",
+      "ru": "юбка-клеш из кожзама",
+      "ja": "レザーのフレアスカート",
+      "ko": "가죽 플레어스커트",
+      "es-us": "falda acampanada sintética",
+      "en": "pleather flare skirt",
+      "fr": "jupe évasée en similicuir",
+      "zh": "喇叭皮裙"
+    }
+  },
+  "c125": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalLeather",
+    "img": [
+      "0",
+      "3",
+      "5",
+      "4",
+      "1",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "yellow",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "yellow",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy",
+      "theatrical"
+    ],
+    "iid": [
+      3309,
+      11292,
+      11294,
+      11293,
+      11290,
+      11291
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hrs02",
+      "pgn11",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "皮裤",
+      "de": "Kunstlederhose",
+      "es-es": "pantalón de polipiel",
+      "it": "pantalone in ecopelle",
+      "nl": "kunstleren broek",
+      "ru": "брюки из кожзама",
+      "ja": "レザーパンツ",
+      "ko": "가죽 바지",
+      "zh-tw": "皮褲",
+      "es-us": "pantalón cuero sintético",
+      "en": "pleather pants",
+      "fr": "pantalon en similicuir"
+    }
+  },
+  "c885": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlinePatch",
+    "img": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "yellow",
+        "brown"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "purple",
+        "gray"
+      ]
+    ],
+    "sel": 420,
+    "buy": 1680,
+    "exp": 1500,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      5811,
+      8926,
+      8924,
+      8925
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "de": "Kunstleder-Flickenrock",
+      "es-es": "falda corta recortes polipiel",
+      "it": "gonna mosaico in ecopelle",
+      "nl": "kunstleren patchworkrok",
+      "ru": "юбка из кусков кожзама",
+      "ja": "レザーパッチスカート",
+      "ko": "가죽 패치 스커트",
+      "es-us": "falda corta sintética retazos",
+      "en": "pleather patch skirt",
+      "fr": "jupe en similicuir patchwork",
+      "zh": "拼布皮裙"
+    }
+  },
+  "c860": {
+    "ipf": "FtrIcon/BottomsTexPantsHotLeather",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "red",
+        "gray"
+      ],
+      [
+        "brown",
+        "gray"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "theatrical"
+    ],
+    "iid": [
+      10210,
+      5733,
+      10211,
+      10209
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "皮短裤",
+      "de": "Kunstleder-Shorts",
+      "es-es": "minipantalón de polipiel",
+      "it": "pantaloncino in ecopelle",
+      "nl": "kunstleren short",
+      "ru": "шорты из кожзама",
+      "ja": "レザーのショートパンツ",
+      "ko": "가죽 숏팬츠",
+      "zh-tw": "皮短褲",
+      "es-us": "minipantalón sintético",
+      "en": "pleather shorts",
+      "fr": "short clouté en similicuir"
+    }
+  },
+  "c299": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxLeather",
+    "img": [
+      "0",
+      "3",
+      "5",
+      "4",
+      "1",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "yellow",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "yellow",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      4303,
+      11341,
+      11343,
+      11342,
+      11339,
+      11340
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der05",
+      "hrs02"
+    ],
+    "loc": {
+      "de": "Kunstlederrock",
+      "es-es": "falda corta de polipiel",
+      "it": "gonna in ecopelle a tubino",
+      "nl": "kunstleren rokje",
+      "ru": "юбка из кожзама",
+      "ja": "レザースカート",
+      "ko": "가죽 치마",
+      "es-us": "falda corta cuero sintético",
+      "en": "pleather skirt",
+      "fr": "jupe en similicuir",
+      "zh": "皮裙"
+    }
+  },
+  "c752": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxChidori",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "red",
+        "beige"
+      ],
+      [
+        "green",
+        "beige"
+      ]
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      11320,
+      5448,
+      11321
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "loc": {
+      "zh-cn": "千鸟格纹短裙",
+      "de": "Symmetrierock",
+      "it": "gonna pied de poule",
+      "nl": "pied-de-poule rok",
+      "ru": "юбка «Гусиная лапка»",
+      "ja": "ちどりのスカート",
+      "ko": "하운드투스 치마",
+      "zh-tw": "千鳥格紋裙",
+      "en": "plover skirt",
+      "es": "falda pata de gallo",
+      "fr": "jupe pied-de-coq"
+    }
+  },
+  "c1187": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineDot",
+    "img": [
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "blue",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "pink",
+      "aqua",
+      "beige"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      12178,
+      12176,
+      12177,
+      12173
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "波点迷你裙",
+      "de": "Pünktchen-Minirock",
+      "it": "minigonna a pois",
+      "nl": "minirokje met stippen",
+      "ru": "мини-юбка в горох",
+      "ja": "ドットミニスカート",
+      "ko": "도트 미니스커트",
+      "zh-tw": "點點迷你裙",
+      "en": "polka-dot miniskirt",
+      "es": "falda lunarcitos",
+      "fr": "mini-jupe à pois"
+    }
+  },
+  "c399": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalBondage",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "theatrical"
+    ],
+    "iid": [
+      4485,
+      9256,
+      9255,
+      9257
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "朋克风格裤子",
+      "de": "Punk-Hose",
+      "it": "pantalone punk",
+      "nl": "punkbroek",
+      "ru": "брюки панка",
+      "ja": "ボンテージパンツ",
+      "ko": "펑크 팬츠",
+      "zh-tw": "龐克裙褲",
+      "en": "punk pants",
+      "es": "pantalón punk",
+      "fr": "pantalon punk"
+    }
+  },
+  "c1431": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSlackspattern",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "brown",
+      "gray"
+    ],
+    "clr": [
+      [
+        "brown",
+        "black"
+      ],
+      [
+        "gray",
+        "black"
+      ]
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      14663,
+      14912
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "蟒蛇纹西装裤",
+      "de": "Pythonmusterhose",
+      "fr-fr": "pantalon python",
+      "it": "pantalone stampa pitonata",
+      "nl": "pantalon met slangenprint",
+      "ru": "брюки со змеин. узором",
+      "ja": "パイソンがらスラックス",
+      "ko": "뱀 무늬 슬랙스",
+      "zh-tw": "蟒蛇紋西裝褲",
+      "fr-us": "pantalon motif python",
+      "en": "python-print slacks",
+      "es": "pantalón de vestir pitón"
+    }
+  },
+  "c728": {
+    "ipf": "FtrIcon/BottomsTexPantsWideRain",
+    "img": [
+      "7",
+      "5",
+      "4",
+      "0",
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "beige"
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "outdoorsy",
+    "iid": [
+      11418,
+      11416,
+      11415,
+      5413,
+      11412,
+      11413,
+      11414,
+      11417
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "防雨裤",
+      "de": "Regenhose",
+      "it": "pantalone impermeabile",
+      "nl": "regenbroek",
+      "ru": "непромокаемые штаны",
+      "ja": "レインパンツ",
+      "ko": "레인 팬츠",
+      "zh-tw": "防雨褲",
+      "en": "rain pants",
+      "es": "pantalón impermeable",
+      "fr": "pantalon imperméable"
+    }
+  },
+  "c1454": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxTeacher",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "red_roses_on_black",
+      "orange_roses_on_blue",
+      "blue_roses_on_white",
+      "yellow_roses_on_white"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "green"
+      ]
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      14766,
+      14906,
+      14907,
+      14908
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "hip03",
+      "mnk05"
+    ],
+    "loc": {
+      "zh-cn": "玫瑰纹裙",
+      "de": "Rosenmusterrock",
+      "it": "gonna stampa a rose",
+      "nl": "rok met rozenprint",
+      "ru": "юбка с розами",
+      "ja": "バラがらスカート",
+      "ko": "장미 무늬 치마",
+      "zh-tw": "玫瑰紋裙",
+      "en": "rose-print skirt",
+      "es": "falda estampado rosas",
+      "fr": "jupe motif roses"
+    }
+  },
+  "c1432": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSlacksteacher",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "red_roses_on_black",
+      "orange_roses_on_blue",
+      "blue_roses_on_white",
+      "yellow_roses_on_white"
+    ],
+    "clr": [
+      [
+        "black",
+        "red"
+      ],
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "white",
+        "green"
+      ]
+    ],
+    "sel": 455,
+    "buy": 1820,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      14662,
+      14903,
+      14904,
+      14905
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "hip03",
+      "mnk05"
+    ],
+    "loc": {
+      "zh-cn": "玫瑰纹西装裤",
+      "de": "Rosenmusterhose",
+      "it": "pantalone stampa a rose",
+      "nl": "pantalon met rozenprint",
+      "ru": "брюки с розами",
+      "ja": "バラがらスラックス",
+      "ko": "장미 무늬 슬랙스",
+      "zh-tw": "玫瑰紋西裝褲",
+      "en": "rose-print slacks",
+      "es": "pantalón de vestir rosas",
+      "fr": "pantalon motif roses"
+    }
+  },
+  "c1397": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongRubber",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "orange",
+      "white"
+    ],
+    "clr": [
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "white",
+        "beige"
+      ]
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "exp": 900,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      14368,
+      14981,
+      14982
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "橡胶半身围裙",
+      "de": "Gummischürze",
+      "it": "mezzo grembiule di gomma",
+      "nl": "rubberen halfschort",
+      "ru": "резиновый полуфартук",
+      "ja": "ゴムのまえかけ",
+      "ko": "고무 반 앞치마",
+      "zh-tw": "橡膠半身圍裙",
+      "en": "rubber half apron",
+      "es": "delantal impermeable",
+      "fr": "bas de tablier caoutchouc"
+    }
+  },
+  "c144": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineSailor",
+    "img": [
+      "0",
+      "6",
+      "7",
+      "1",
+      "3",
+      "2",
+      "5",
+      "4"
+    ],
+    "var": [
+      "navy_blue",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "light_blue",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "blue",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "aqua",
+      "purple",
+      "brown"
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      3341,
+      11640,
+      11641,
+      11635,
+      11637,
+      11636,
+      11639,
+      11638
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "squ10",
+      "crd02",
+      "duk02",
+      "kal03"
+    ],
+    "loc": {
+      "de": "Marinerock",
+      "it": "gonna marinara",
+      "nl": "matrozenrokje",
+      "ru": "юбка-плиссе",
+      "ja": "セーラーふくのスカート",
+      "ko": "세일러복 치마",
+      "en": "sailor skirt",
+      "es": "falda marinera",
+      "fr": "jupe matelot",
+      "zh": "水手服裙"
+    }
+  },
+  "c158": {
+    "img": "FtrIcon/BottomsTexPantsNormalSantaRed",
+    "clr": [
+      "red",
+      "white"
+    ],
+    "sel": 537,
+    "buy": 2150,
+    "exp": 1900,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "work"
+    ],
+    "iid": 3391,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": [
+      "toy_day_ready_2",
+      "toy_day",
+      "toy_day_after"
+    ],
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "圣诞裤",
+      "de": "Weihnachtsmannhose",
+      "it": "pantalone da Babbo Natale",
+      "nl": "kerstmanbroek",
+      "ru": "штаны Санты",
+      "ja": "サンタのズボン",
+      "ko": "산타 바지",
+      "zh-tw": "聖誕褲",
+      "en": "Santa pants",
+      "es": "pantalón Papá Noel",
+      "fr": "pantalon père Noël"
+    }
+  },
+  "c459": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSatin",
+    "img": [
+      "4",
+      "5",
+      "3",
+      "0",
+      "1",
+      "2",
+      "6"
+    ],
+    "var": [
+      "dark_red",
+      "ruby_red",
+      "pink",
+      "green",
+      "blue",
+      "light_purple",
+      "brown"
+    ],
+    "clr": [
+      "red",
+      "red",
+      "pink",
+      "green",
+      "blue",
+      "purple",
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party"
+    ],
+    "iid": [
+      9722,
+      9723,
+      9721,
+      4593,
+      9719,
+      9720,
+      9724
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "duk01",
+    "loc": {
+      "zh-cn": "缎面裤子",
+      "de": "Satinhose",
+      "it": "pantalone satinato",
+      "nl": "satijnen broek",
+      "ru": "атласные брюки",
+      "ja": "サテンのパンツ",
+      "ko": "새틴 바지",
+      "zh-tw": "緞面褲子",
+      "en": "satin pants",
+      "es": "pantalón de satén",
+      "fr": "pantalon en satin"
+    }
+  },
+  "c905": {
+    "ipf": "FtrIcon/BottomsTexPantsWideGakuran",
+    "img": [
+      "0",
+      "3",
+      "5",
+      "1",
+      "2",
+      "6",
+      "4"
+    ],
+    "var": [
+      "black",
+      "white",
+      "gray",
+      "berry_red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "gray",
+        "blue"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      "blue",
+      [
+        "purple",
+        "blue"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      5873,
+      11400,
+      11402,
+      11398,
+      11399,
+      11403,
+      11401
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "der05",
+    "loc": {
+      "zh-cn": "学生裤",
+      "de": "Schulhose",
+      "it": "pantalone da scolaro",
+      "nl": "schooluniformbroek",
+      "ru": "школьные брюки",
+      "ja": "がくせいふくのズボン",
+      "ko": "학생복 바지",
+      "zh-tw": "學校制服褲",
+      "en": "school pants",
+      "es": "pantalón escolar",
+      "fr": "pantalon d'écolier"
+    }
+  },
+  "c308": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChinashort",
+    "img": [
+      "3",
+      "0",
+      "6",
+      "2",
+      "5",
+      "1",
+      "4"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "orange",
+      "mustard",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      "yellow",
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 360,
+    "buy": 1440,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": "everyday",
+    "iid": [
+      11381,
+      4329,
+      11384,
+      11380,
+      11383,
+      11379,
+      11382
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr13",
+      "flg07"
+    ],
+    "loc": {
+      "zh-cn": "中国风七分裤",
+      "de": "Asia-Blumen-Shorts",
+      "es-es": "pirata de seda exótico",
+      "fr-fr": "pantacourt chinois",
+      "it": "pinocchietto di seta esotico",
+      "nl": "gebloemde zijden broek",
+      "ru": "шелк. штаны в цветочек",
+      "ja": "チャイナなクロップドパンツ",
+      "ko": "중국풍 크롭 팬츠",
+      "zh-tw": "中華風七分褲",
+      "es-us": "pantalón capri flores",
+      "fr-us": "pantacourt floral de soie",
+      "en": "silk floral-print pants"
+    }
+  },
+  "c309": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalChina",
+    "img": [
+      "4",
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      "yellow",
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 360,
+    "buy": 1440,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      11362,
+      11359,
+      11361,
+      4330,
+      11360
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr14",
+      "flg07",
+      "flg15"
+    ],
+    "loc": {
+      "zh-cn": "中国风裤子",
+      "de": "Asia-Wolken-Hose",
+      "fr-fr": "pantalon chinois",
+      "it": "pantalone di seta",
+      "nl": "zijden broek",
+      "ru": "шелковые брюки",
+      "ja": "チャイナなズボン",
+      "ko": "중국풍 바지",
+      "zh-tw": "中華風褲子",
+      "fr-us": "pantalon de soie",
+      "en": "silk pants",
+      "es": "pantalón de seda"
+    }
+  },
+  "c374": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSki",
+    "img": [
+      "2",
+      "1",
+      "5",
+      "0",
+      "4",
+      "3"
+    ],
+    "var": [
+      "ruby_red",
+      "red",
+      "yellow",
+      "turquoise_2",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "orange",
+        "aqua"
+      ],
+      [
+        "yellow",
+        "pink"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "aqua",
+        "red"
+      ],
+      [
+        "blue",
+        "green"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11408,
+      11407,
+      11411,
+      4450,
+      11410,
+      11409
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "gor08",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "滑雪裤",
+      "de": "Skihose",
+      "it": "pantalone da sci",
+      "nl": "skibroek",
+      "ru": "лыжные штаны",
+      "ja": "スキーウェアのズボン",
+      "ko": "스키복 바지",
+      "zh-tw": "滑雪褲",
+      "en": "ski pants",
+      "es": "pantalón de esquí",
+      "fr": "pantalon de ski"
+    }
+  },
+  "c126": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSlacks",
+    "img": [
+      "6",
+      "1",
+      "0",
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "black",
+      "red",
+      "blue",
+      "navy_blue",
+      "beige"
+    ],
+    "clr": [
+      [
+        "white",
+        "brown"
+      ],
+      [
+        "gray",
+        "brown"
+      ],
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "red",
+        "brown"
+      ],
+      [
+        "aqua",
+        "brown"
+      ],
+      [
+        "blue",
+        "brown"
+      ],
+      [
+        "beige",
+        "brown"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "formal",
+      "party",
+      "work"
+    ],
+    "iid": [
+      11282,
+      11277,
+      3310,
+      11279,
+      11278,
+      11280,
+      11281
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat21",
+      "der01",
+      "flg12",
+      "goa04",
+      "ham06",
+      "hip03",
+      "hrs09",
+      "mus17",
+      "pgn02",
+      "pgn13",
+      "pig09",
+      "pig11",
+      "cat07",
+      "kal04"
+    ],
+    "loc": {
+      "zh-cn": "西装裤",
+      "de": "Stoffhose",
+      "it": "pantalone classico",
+      "nl": "pantalon",
+      "ru": "строгие брюки",
+      "ja": "スラックス",
+      "ko": "슬랙스",
+      "zh-tw": "西裝褲",
+      "en": "slacks",
+      "es": "pantalón de vestir",
+      "fr": "pantalon de bureau"
+    }
+  },
+  "c1091": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfSoccer",
+    "img": [
+      "5",
+      "7",
+      "1",
+      "6",
+      "0",
+      "4",
+      "3",
+      "2"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "light_blue",
+      "blue",
+      "navy_blue"
+    ],
+    "clr": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "aqua",
+      "blue",
+      "blue"
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      12075,
+      12077,
+      12071,
+      12076,
+      9840,
+      12074,
+      12073,
+      12072
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd04",
+      "cat19",
+      "gor10",
+      "hip08"
+    ],
+    "loc": {
+      "zh-cn": "足球裤",
+      "de": "Fußballhose",
+      "fr-fr": "short de foot",
+      "it": "paio di pantaloni da calcio",
+      "nl": "voetbalbroekje",
+      "ru": "футбольные шорты",
+      "ja": "サッカーのズボン",
+      "ko": "축구 바지",
+      "zh-tw": "足球褲",
+      "fr-us": "short de soccer",
+      "en": "soccer shorts",
+      "es": "pantalón corto fútbol"
+    }
+  },
+  "c852": {
+    "ipf": "FtrIcon/BottomsTexPantsHotSequins",
+    "img": [
+      "3",
+      "4",
+      "0",
+      "5",
+      "2",
+      "6",
+      "1",
+      "7"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "red",
+      "pink",
+      "gold",
+      "green",
+      "navy_blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      9179,
+      9180,
+      5723,
+      9181,
+      9178,
+      9182,
+      9177,
+      9183
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ19",
+    "loc": {
+      "zh-cn": "亮片热裤",
+      "de": "Pailletten-Shorts",
+      "it": "pantaloncino con lustrini",
+      "nl": "lovertjesshort",
+      "ru": "шорты с блестками",
+      "ja": "スパンコールのホットパンツ",
+      "ko": "스팽글 핫팬츠",
+      "zh-tw": "亮片熱褲",
+      "en": "spangle shorts",
+      "es": "minipantalón de lentejuelas",
+      "fr": "short à sequins"
+    }
+  },
+  "c287": {
+    "ipf": "FtrIcon/BottomsTexSkirtBoxSweat",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "gray",
+      "pink",
+      "green",
+      "aqua"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 720,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      4283,
+      9245,
+      9247,
+      9246
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "棉质短裙",
+      "de": "Feierabend-Rock",
+      "it": "gonna di tuta",
+      "nl": "sportief rokje",
+      "ru": "юбка из трикотажа",
+      "ja": "スウェットスカート",
+      "ko": "스웨트 치마",
+      "zh-tw": "棉裙",
+      "en": "sporty skirt",
+      "es": "falda corta sport",
+      "fr": "jupe jogging"
+    }
+  },
+  "c853": {
+    "ipf": "FtrIcon/BottomsTexPantsWideMultistripe",
+    "img": [
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "yellow",
+      "green"
+    ],
+    "clr": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "blue"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      8851,
+      8853,
+      5724,
+      8852
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der04",
+      "hip03"
+    ],
+    "loc": {
+      "zh-cn": "混色条纹阔腿裤",
+      "de": "Streifen-Glockenhose",
+      "fr-fr": "pattes d'eph à rayures",
+      "it": "pantalone a zampa a righe",
+      "nl": "gestreepte bellbottom",
+      "ru": "брюки-клеш в полоску",
+      "ja": "マルチストライプワイドパンツ",
+      "ko": "스트라이프 와이드 팬츠",
+      "zh-tw": "混色條紋寬褲",
+      "fr-us": "pattes d'éléphant à rayures",
+      "en": "striped bell-bottoms",
+      "es": "pantalón acampanado rayas"
+    }
+  },
+  "c128": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalBoder",
+    "img": [
+      "4",
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      9238,
+      9237,
+      9235,
+      9236,
+      3312
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "粗横纹裤",
+      "de": "Ringelhose",
+      "es-es": "pantalón rayas",
+      "it": "pantalone a righe",
+      "nl": "gestreepte broek",
+      "ru": "штаны в полоску",
+      "ja": "ボーダーパンツ",
+      "ko": "줄무늬 바지",
+      "zh-tw": "粗橫紋褲",
+      "es-us": "pantalón a rayas",
+      "en": "striped pants",
+      "fr": "pantalon rayé"
+    }
+  },
+  "c844": {
+    "ipf": "FtrIcon/BottomsTexPantsHotMultistripe",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "colorful"
+      ],
+      [
+        "pink",
+        "colorful"
+      ],
+      [
+        "yellow",
+        "colorful"
+      ],
+      [
+        "blue",
+        "colorful"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "elegant"
+    ],
+    "lbl": [
+      "party",
+      "theatrical",
+      "vacation"
+    ],
+    "iid": [
+      8846,
+      5705,
+      8847,
+      8845
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "der07",
+    "loc": {
+      "zh-cn": "混色条纹热裤",
+      "de": "Streifen-Shorts",
+      "it": "pantaloncino a righe",
+      "nl": "gestreepte short",
+      "ru": "полосатые шорты",
+      "ja": "マルチストライプのホットパンツ",
+      "ko": "스트라이프 핫팬츠",
+      "zh-tw": "混色條紋熱褲",
+      "en": "striped shorts",
+      "es": "pantalón corto franjas",
+      "fr": "short à rayures bariolé"
+    }
+  },
+  "c420": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfSurf",
+    "img": [
+      "4",
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      "green",
+      [
+        "aqua",
+        "blue"
+      ],
+      "purple"
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      9106,
+      9105,
+      9104,
+      4515,
+      9103
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": "shp04",
+    "loc": {
+      "zh-cn": "冲浪裤",
+      "de": "Surfer-Shorts",
+      "it": "pantaloncino da surf",
+      "nl": "surfshort",
+      "ru": "шорты для серфинга",
+      "ja": "サーフパンツ",
+      "ko": "서핑 바지",
+      "zh-tw": "衝浪褲",
+      "en": "surfing shorts",
+      "es": "bermuda surf",
+      "fr": "short de surf"
+    }
+  },
+  "c119": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSweat",
+    "img": [
+      "0",
+      "7",
+      "1",
+      "5",
+      "4",
+      "2",
+      "6",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "light_blue",
+      "blue"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "aqua",
+      "blue"
+    ],
+    "sel": 200,
+    "buy": 800,
+    "exp": 720,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      3296,
+      11276,
+      11270,
+      11274,
+      11273,
+      11271,
+      11275,
+      11272
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "pgn02",
+    "loc": {
+      "zh-cn": "运动针织裤",
+      "de": "Sofahose",
+      "it": "pantalone comodo",
+      "nl": "joggingbroek",
+      "ru": "трикотажные штаны",
+      "ja": "スウェットパンツ",
+      "ko": "스웨트 팬츠",
+      "zh-tw": "棉褲",
+      "en": "sweatpants",
+      "es": "pantalón cómodo",
+      "fr": "pantalon de jogging"
+    }
+  },
+  "c256": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineTennis",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "light_blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "blue"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 360,
+    "buy": 1440,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      4223,
+      8784,
+      8783,
+      8782
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "网球裙",
+      "de": "Tennisrock",
+      "it": "gonnellino da tennis",
+      "nl": "tennisrokje",
+      "ru": "теннисная юбка",
+      "ja": "テニススカート",
+      "ko": "테니스 스커트",
+      "zh-tw": "網球裙",
+      "en": "tennis skirt",
+      "es": "falda tenis",
+      "fr": "jupe de tennis"
+    }
+  },
+  "c848": {
+    "ipf": "FtrIcon/BottomsTexPantsHotFluffy",
+    "img": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "var": [
+      "pink",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "pink",
+      "green",
+      "aqua",
+      "purple"
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      5711,
+      8850,
+      8848,
+      8849
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "elp02",
+      "rbt21"
+    ],
+    "loc": {
+      "zh-cn": "毛毛睡裤",
+      "de": "Frottee-Shorts",
+      "it": "pantaloncino di tela",
+      "nl": "badstoffen korte broek",
+      "ru": "махровые шорты",
+      "ja": "もこもこホットパンツ",
+      "ko": "수면 잠옷 핫팬츠",
+      "zh-tw": "毛絨熱褲",
+      "en": "terry-cloth shorts",
+      "es": "minipantalón de felpa",
+      "fr": "short en tissu éponge"
+    }
+  },
+  "c841": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalCroppedsweat",
+    "img": [
+      "4",
+      "6",
+      "1",
+      "3",
+      "5",
+      "0",
+      "2",
+      "7"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "mint",
+      "light_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "purple",
+        "white"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "comfy",
+      "sporty"
+    ],
+    "iid": [
+      11368,
+      11370,
+      11365,
+      11367,
+      11369,
+      5702,
+      11366,
+      11371
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "健身棉质裤",
+      "de": "7/8-Sofahose",
+      "es-es": "pirata gimnasio",
+      "fr-fr": "pantacourt de jogging",
+      "it": "pinocchietto sportivo",
+      "nl": "driekwartjoggingbroek",
+      "ru": "трикотажн. брюки капри",
+      "ja": "フィットネススウェットパンツ",
+      "ko": "피트니스 스웨트 팬츠",
+      "zh-tw": "運動棉褲",
+      "es-us": "pantalón capri gimnasio",
+      "fr-us": "pantacourt d'exercice",
+      "en": "three-quarter sweatpants"
+    }
+  },
+  "c896": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongTiedye",
+    "img": [
+      "0",
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "aqua"
+      ],
+      [
+        "orange",
+        "green"
+      ],
+      [
+        "green",
+        "pink"
+      ],
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "purple",
+        "yellow"
+      ]
+    ],
+    "sel": 315,
+    "buy": 1260,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      5826,
+      8752,
+      8750,
+      8749,
+      8751
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "loc": {
+      "zh-cn": "扎染长裙",
+      "de": "Batikrock",
+      "es-es": "falda hippy",
+      "it": "gonna batik",
+      "nl": "tie-dye-rok",
+      "ru": "юбка из батика",
+      "ja": "タイダイスカート",
+      "ko": "타이다이 스커트",
+      "zh-tw": "紮染裙子",
+      "es-us": "falda teñida",
+      "en": "tie-dye skirt",
+      "fr": "jupe tie and dye"
+    }
+  },
+  "c409": {
+    "ipf": "FtrIcon/BottomsTexSkirtLongTiered",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "var": [
+      "purple",
+      "yellow",
+      "avocado",
+      "mint",
+      "blue"
+    ],
+    "clr": [
+      "pink",
+      "yellow",
+      "green",
+      "aqua",
+      "blue"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "exp": 1100,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      4502,
+      8719,
+      8718,
+      8717,
+      8720
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "三节裙",
+      "de": "Stufenrock",
+      "it": "gonna a strati",
+      "nl": "gelaagde rok",
+      "ru": "ярусная юбка",
+      "ja": "ティアードスカート",
+      "ko": "티어드 스커트",
+      "zh-tw": "蛋糕裙",
+      "en": "tiered skirt",
+      "es": "falda escalonada",
+      "fr": "jupe bohème"
+    }
+  },
+  "c840": {
+    "ipf": "FtrIcon/BottomsTexPantsWideTeared",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "brown"
+    ],
+    "sel": 10,
+    "hap": 53,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": "goth",
+    "iid": [
+      9282,
+      9281,
+      5701
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "recycle_box",
+    "hui": "mus03",
+    "loc": {
+      "zh-cn": "破旧裤子",
+      "de": "Lumpenhose",
+      "it": "pantalone strappato",
+      "nl": "kapotte broek",
+      "ru": "порванные брюки",
+      "ja": "やぶれたズボン",
+      "ko": "뜯어진 바지",
+      "zh-tw": "破爛褲子",
+      "en": "torn pants",
+      "es": "pantalón desgarrado",
+      "fr": "pantalon déchiré"
+    }
+  },
+  "c140": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalSportsjersey",
+    "img": [
+      "2",
+      "1",
+      "3",
+      "5",
+      "4",
+      "6",
+      "0"
+    ],
+    "var": [
+      "white",
+      "gray",
+      "red",
+      "green",
+      "light_blue",
+      "blue",
+      "navy_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "gray",
+        "pink"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "blue",
+        "aqua"
+      ]
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11285,
+      11284,
+      11286,
+      11288,
+      11287,
+      11289,
+      3335
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd17",
+      "bul05",
+      "cat14",
+      "goa09",
+      "ost02",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "体育运动裤",
+      "de": "Aufwärmhose",
+      "es-es": "pantalón de chándal urbano",
+      "fr-fr": "pantalon survêt de sport",
+      "it": "pantalone da ginnastica",
+      "nl": "atletiekbroek",
+      "ru": "штаны для бега",
+      "ja": "スポーツジャージのズボン",
+      "ko": "스포츠 트레이닝복 바지",
+      "zh-tw": "體育運動褲",
+      "es-us": "pantalón atletismo",
+      "fr-us": "pantalon de survêtement",
+      "en": "track pants"
+    }
+  },
+  "c727": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalMonpe",
+    "img": [
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "dark_red_2",
+      "golden_yellow",
+      "dark_blue",
+      "blue_2"
+    ],
+    "clr": [
+      [
+        "red",
+        "orange"
+      ],
+      "orange",
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "orange"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": [
+      9171,
+      9170,
+      5412,
+      9169
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cow00",
+      "ham05",
+      "mus09"
+    ],
+    "loc": {
+      "zh-cn": "花裤",
+      "de": "Monpe-Arbeitshose",
+      "it": "pantalone monpe",
+      "nl": "klassieke monpe-broek",
+      "ru": "шаровары",
+      "ja": "もんぺ",
+      "ko": "일 바지",
+      "zh-tw": "束口燈籠褲",
+      "en": "traditional monpe pants",
+      "es": "pantalón monpe",
+      "fr": "pantalon monpe"
+    }
+  },
+  "c756": {
+    "ipf": "FtrIcon/BottomsTexPantsWideSuteteko",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "4",
+      "5",
+      "3"
+    ],
+    "var": [
+      "red_2",
+      "golden_yellow",
+      "yellow_green_2",
+      "aqua",
+      "blue_2",
+      "purple_2"
+    ],
+    "clr": [
+      "red",
+      "orange",
+      "green",
+      "aqua",
+      "blue",
+      "purple"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      5460,
+      9173,
+      9172,
+      9175,
+      9176,
+      9174
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "dog14",
+    "loc": {
+      "zh-cn": "格子裤",
+      "de": "Suteteko-Hose",
+      "it": "pantalone suteteko",
+      "nl": "klassieke suteteko-broek",
+      "ru": "длинные свободн. шорты",
+      "ja": "ステテコ",
+      "ko": "실내용 5부 바지",
+      "zh-tw": "格子褲",
+      "en": "traditional suteteko pants",
+      "es": "pantalón suteteko",
+      "fr": "pantalon suteteko"
+    }
+  },
+  "c359": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineTweedfrill",
+    "img": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "pink",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "pink",
+        "brown"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      "brown"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "formal"
+    ],
+    "iid": [
+      8908,
+      8909,
+      8910,
+      4428
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "粗花呢蛋糕蓬蓬裙",
+      "de": "Tweed-Volantrock",
+      "it": "gonna vezzosa di tweed",
+      "nl": "tweed-ruchesrokje",
+      "ru": "твидовая юбка с оборками",
+      "ja": "ツイードフリルスカート",
+      "ko": "트위드 프릴 스커트",
+      "zh-tw": "斜紋軟呢蓬蓬裙",
+      "en": "tweed frilly skirt",
+      "es": "falda de tweed con lazo",
+      "fr": "jupe en tweed à volant"
+    }
+  },
+  "c240": {
+    "ipf": "FtrIcon/BottomsTexPantsWideTweed",
+    "img": [
+      "3",
+      "5",
+      "4",
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "berry_red",
+      "pink",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "red",
+      "pink",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "elegant"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      11388,
+      11390,
+      11389,
+      11386,
+      3708,
+      11387
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "goa04",
+      "hrs08",
+      "hrs16"
+    ],
+    "loc": {
+      "zh-cn": "粗花呢裤",
+      "de": "Tweedhose",
+      "it": "pantalone di tweed",
+      "nl": "tweedbroek",
+      "ru": "твидовые брюки",
+      "ja": "ツイードパンツ",
+      "ko": "트위드 바지",
+      "zh-tw": "斜紋軟呢褲",
+      "en": "tweed pants",
+      "es": "pantalón de tweed",
+      "fr": "pantalon en tweed"
+    }
+  },
+  "c120": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineTweed",
+    "img": [
+      "1",
+      "0",
+      "2"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      11666,
+      3297,
+      11667
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "粗花呢裙",
+      "de": "Tweed-Rock",
+      "it": "gonna di tweed",
+      "nl": "tweedrokje",
+      "ru": "твидовая юбка",
+      "ja": "ツイードスカート",
+      "ko": "트위드 치마",
+      "zh-tw": "斜紋軟呢裙",
+      "en": "tweed skirt",
+      "es": "falda de tweed",
+      "fr": "jupe en tweed"
+    }
+  },
+  "c15": {
+    "img": [
+      "FtrIcon/BottomsTexPantsNormalTwotoneMonochrome",
+      "FtrIcon/BottomsTexPantsNormalTwotoneRed",
+      "FtrIcon/BottomsTexPantsNormalTwotoneYellow",
+      "FtrIcon/BottomsTexPantsNormalTwotoneBlue"
+    ],
+    "var": [
+      "monotone",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "aqua"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      3317,
+      4184,
+      4183,
+      4185
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "口袋撞色裤",
+      "de": "Zweifarbhose",
+      "it": "pantalone bicolore",
+      "nl": "tweekleurige broek",
+      "ru": "двухцветные брюки",
+      "ja": "ツートンなズボン",
+      "ko": "투톤 바지",
+      "zh-tw": "撞色褲",
+      "en": "two-tone pants",
+      "es": "pantalón bicolor",
+      "fr": "pantalon bicolore"
+    }
+  },
+  "c754": {
+    "ipf": "FtrIcon/BottomsTexSkirtAlineShabby",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "mint",
+      "beige"
+    ],
+    "clr": [
+      [
+        "pink",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "beige",
+        "white"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "party"
+    ],
+    "iid": [
+      8918,
+      8919,
+      5449
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "bea07",
+    "loc": {
+      "de": "Upcycle-Rock",
+      "it": "gonna riciclata",
+      "nl": "kringlooprok",
+      "ru": "юбка из вторсырья",
+      "ja": "シャビーなスカート",
+      "ko": "쉐비 스커트",
+      "en": "upcycled skirt",
+      "es": "falda de supraciclaje",
+      "fr": "jupe recyclée",
+      "zh": "拼接裙"
+    }
+  },
+  "c401": {
+    "ipf": "FtrIcon/BottomsTexPantsHalfEthnic",
+    "img": [
+      "4",
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "var": [
+      "black",
+      "pink",
+      "orange",
+      "avocado",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "pink",
+        "green"
+      ],
+      [
+        "orange",
+        "green"
+      ],
+      [
+        "green",
+        "orange"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "elegant"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "vacation"
+    ],
+    "iid": [
+      9102,
+      9100,
+      4487,
+      9099,
+      9101
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "ost02",
+    "loc": {
+      "zh-cn": "民族风裤子",
+      "de": "Ethno-Shorts",
+      "it": "pantaloncino folcloristico",
+      "nl": "bonte bermuda",
+      "ru": "пестрые шорты",
+      "ja": "エスニックパンツ",
+      "ko": "에스닉 바지",
+      "zh-tw": "民族風褲子",
+      "en": "vibrant shorts",
+      "es": "bermuda playera",
+      "fr": "bermuda chamarré"
+    }
+  },
+  "c175": {
+    "img": "FtrIcon/BottomsTexPantsWideCowboyBrown",
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "sel": 385,
+    "buy": 1540,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "work"
+    ],
+    "iid": 3463,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr01",
+      "gor00",
+      "hrs03",
+      "shp14"
+    ],
+    "loc": {
+      "zh-cn": "西部牛仔裤",
+      "de": "Western-Hose",
+      "it": "pantalone da cowboy",
+      "nl": "westernbroek",
+      "ru": "ковбойские брюки",
+      "ja": "カウボーイパンツ",
+      "ko": "카우보이 바지",
+      "zh-tw": "西部牛仔褲",
+      "en": "western pants",
+      "es": "pantalón de vaquero",
+      "fr": "pantalon western"
+    }
+  },
+  "c648": {
+    "ipf": "FtrIcon/BottomsTexPantsWideChino",
+    "img": [
+      "4",
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "avocado",
+      "navy_blue",
+      "brown",
+      "beige"
+    ],
+    "clr": [
+      "gray",
+      "green",
+      "blue",
+      "brown",
+      "beige"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "outdoorsy"
+    ],
+    "iid": [
+      11153,
+      11152,
+      11151,
+      5285,
+      11150
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "brd00",
+    "loc": {
+      "zh-cn": "反折直筒裤",
+      "de": "Outdoor-Chino",
+      "es-es": "pantalón chino holgado",
+      "it": "pantalone chino largo",
+      "nl": "wijdepijpenchino",
+      "ru": "широкие брюки из хлопка",
+      "ja": "ワイドチノ",
+      "ko": "와이드 치노",
+      "zh-tw": "卡其寬褲",
+      "es-us": "pantalón beige holgado",
+      "en": "wide chino pants",
+      "fr": "pantalon large en toile"
+    }
+  },
+  "c850": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalTraining",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "orange",
+      "lime"
+    ],
+    "clr": [
+      [
+        "black",
+        "pink"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "black",
+        "green"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      11363,
+      11364,
+      5721
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd17",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "运动裤",
+      "de": "Workout-Hose",
+      "it": "pantalone da allenamento",
+      "nl": "work-outlegging",
+      "ru": "штаны для аэробики",
+      "ja": "ワークアウトパンツ",
+      "ko": "경기복 바지",
+      "zh-tw": "健身褲",
+      "en": "workout pants",
+      "es": "pantalón maratón",
+      "fr": "pantalon de fitness"
+    }
+  },
+  "c269": {
+    "ipf": "FtrIcon/BottomsTexPantsHotDenimholes",
+    "img": [
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "light_blue",
+      "white",
+      "black",
+      "blue"
+    ],
+    "clr": [
+      "aqua",
+      "white",
+      "black",
+      "blue"
+    ],
+    "sel": 240,
+    "buy": 960,
+    "exp": 860,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      4251,
+      11435,
+      11436,
+      11434
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": "dog16",
+    "loc": {
+      "zh-cn": "破洞牛仔短裤",
+      "de": "Fetzenjeansshorts",
+      "it": "paio di jeans corti strappati",
+      "nl": "versleten denim short",
+      "ru": "поношенные шорты",
+      "ja": "あなあきショートデニム",
+      "ko": "찢어진 데님 숏팬츠",
+      "zh-tw": "破洞牛仔短褲",
+      "en": "worn-out cutoffs",
+      "es": "minipantalón agujereado",
+      "fr": "mini-short en jean troué"
+    }
+  },
+  "c129": {
+    "ipf": "FtrIcon/BottomsTexPantsNormalDenimholes",
+    "img": [
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "light_blue",
+      "white",
+      "black",
+      "blue"
+    ],
+    "clr": [
+      "aqua",
+      "white",
+      "black",
+      "blue"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": "everyday",
+    "iid": [
+      3313,
+      11428,
+      11429,
+      11427
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "dog16",
+      "pgn10",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "破洞牛仔裤",
+      "de": "Fetzenjeanshose",
+      "it": "paio di jeans strappati",
+      "nl": "versleten jeans",
+      "ru": "поношенные джинсы",
+      "ja": "あなあきデニム",
+      "ko": "찢어진 데님 바지",
+      "zh-tw": "破洞牛仔褲",
+      "en": "worn-out jeans",
+      "es": "pantalón agujereado",
+      "fr": "pantalon jean usé"
+    }
+  },
+  "c332": {
+    "ipf": "FtrIcon/BottomsTexPantsHotYacht",
+    "img": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "light_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "green"
+      ],
+      [
+        "pink",
+        "aqua"
+      ],
+      [
+        "aqua",
+        "yellow"
+      ],
+      [
+        "purple",
+        "pink"
+      ]
+    ],
+    "sel": 210,
+    "buy": 840,
+    "exp": 760,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": [
+      8861,
+      8862,
+      4370,
+      8863
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": "lon04",
+    "loc": {
+      "zh-cn": "帆船图案短裤",
+      "de": "Jacht-Shorts",
+      "it": "pantaloncino da yacht",
+      "nl": "zeilshort",
+      "ru": "летние шорты",
+      "ja": "ヨットのショートパンツ",
+      "ko": "요트 숏팬츠",
+      "zh-tw": "帆船短褲",
+      "en": "yacht shorts",
+      "es": "minipantalón yates",
+      "fr": "short voiliers"
+    }
+  },
+  "c1536": {
+    "img": "FtrIcon/BottomsTexPantsNormalHylia0",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 450,
+    "buy": 1800,
+    "hap": 201,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": "fairy_tale",
+    "iid": 1056,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "海利亚裤子",
+      "de": "Hylia-Hose",
+      "it": "paio di pantaloni Hylia",
+      "nl": "Hyliaanse broek",
+      "ru": "хайлийские штаны",
+      "ja": "ハイリアのズボン",
+      "ko": "하일리아의 바지",
+      "zh-tw": "海利亞褲子",
+      "en": "Hylian trousers",
+      "es": "pantalón hyliano",
+      "fr": "pantalon hylien"
+    }
+  },
+  "c1546": {
+    "img": "FtrIcon/BottomsTexPantsNormalInkling0",
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": 1237,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "鱿鱼族裤子",
+      "de": "Inkling-Shorts",
+      "it": "pantaloncino Inkling",
+      "nl": "Inkling-short",
+      "ru": "шорты инклинга",
+      "ja": "インクリングのボトムス",
+      "ko": "잉클링 하의",
+      "zh-tw": "魷魚族褲子",
+      "en": "Inkling shorts",
+      "es": "pantalón corto inkling",
+      "fr": "short inkling"
+    }
+  }
+}

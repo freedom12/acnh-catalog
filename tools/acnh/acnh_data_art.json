@@ -1,0 +1,2095 @@
+{
+  "2": {
+    "img": [
+      "FtrIcon/FtrArtHunterSnow",
+      "FtrIcon/FtrArtHunterSnowFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "white",
+        "aqua"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      2,
+      12629
+    ],
+    "cat": true,
+    "sze": "2x1.5",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "brd01",
+      "hrs08",
+      "pgn12",
+      "shp10",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "优美的名画",
+      "de": "Wintergemälde",
+      "it": "quadro invernale",
+      "nl": "winters schilderij",
+      "ru": "живописная картина",
+      "ja": "みごとなめいが",
+      "ko": "뛰어난 명화",
+      "zh-tw": "優美的名畫",
+      "en": "scenic painting",
+      "es": "cuadro invernal",
+      "fr": "toile hivernale"
+    }
+  },
+  "6": {
+    "img": [
+      "FtrIcon/FtrArtMikaeri",
+      "FtrIcon/FtrArtMikaeriFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "yellow",
+        "red"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "harmonious"
+    ],
+    "iid": [
+      6,
+      5
+    ],
+    "cat": true,
+    "sze": "1x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "der10",
+    "loc": {
+      "zh-cn": "端庄的名画",
+      "de": "Anmutsgemälde",
+      "it": "quadro armonioso",
+      "nl": "sierlijk schilderij",
+      "ru": "изящная картина",
+      "ja": "しなやかなめいが",
+      "ko": "절제된 명화",
+      "zh-tw": "端莊的名畫",
+      "en": "graceful painting",
+      "es": "retrato oriental",
+      "fr": "toile gracieuse"
+    }
+  },
+  "10": {
+    "img": [
+      "FtrIcon/FtrArtMilkmaid",
+      "FtrIcon/FtrArtMilkmaidFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "white",
+        "gray"
+      ],
+      [
+        "white",
+        "gray"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      10,
+      9
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cow00",
+      "cow06",
+      "duk07",
+      "elp03",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "平静的名画",
+      "de": "Altertumsgemälde",
+      "it": "quadro buffo",
+      "nl": "traditioneel schilderij",
+      "ru": "старинная картина",
+      "ja": "おちついためいが",
+      "ko": "침착한 명화",
+      "zh-tw": "平靜的名畫",
+      "en": "quaint painting",
+      "es": "retrato holandés",
+      "fr": "toile charmante"
+    }
+  },
+  "14": {
+    "img": [
+      "FtrIcon/FtrArtBlueBoy",
+      "FtrIcon/FtrArtBlueBoyFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "black",
+        "blue"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      14,
+      13
+    ],
+    "cat": true,
+    "sze": "1x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ham06",
+      "hrs16",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "勇敢的名画",
+      "de": "Einfachgemälde",
+      "it": "quadro semplice",
+      "nl": "klassiek schilderij",
+      "ru": "обычная картина",
+      "ja": "いさましいめいが",
+      "ko": "용감한 명화",
+      "zh-tw": "勇敢的名畫",
+      "en": "basic painting",
+      "es": "retrato heroico",
+      "fr": "toile classique"
+    }
+  },
+  "18": {
+    "img": [
+      "FtrIcon/FtrArtMonaLisa",
+      "FtrIcon/FtrArtMonaLisaFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      18,
+      17
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ant09",
+      "cow06",
+      "crd04",
+      "pig15",
+      "shp10",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "有名的名画",
+      "de": "Berühmtgemälde",
+      "it": "quadro famoso",
+      "nl": "beroemd schilderij",
+      "ru": "знаменитая картина",
+      "ja": "ゆうめいなめいが",
+      "ko": "유명한 명화",
+      "zh-tw": "有名的名畫",
+      "en": "famous painting",
+      "es": "retrato italiano",
+      "fr": "toile célèbre"
+    }
+  },
+  "20": {
+    "img": "FtrIcon/FtrArtAppleOrange",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cat10",
+      "lon08",
+      "ost03",
+      "rhn07",
+      "shp15",
+      "squ01"
+    ],
+    "loc": {
+      "zh-cn": "厉害的名画",
+      "de": "Perfektgemälde",
+      "es-es": "bodegón",
+      "it": "quadro perfetto",
+      "nl": "kleurrijk schilderij",
+      "ru": "совершенная картина",
+      "ja": "すばらしいめいが",
+      "ko": "훌륭한 명화",
+      "zh-tw": "厲害的名畫",
+      "es-us": "cuadro perfecto",
+      "en": "perfect painting",
+      "fr": "toile parfaite"
+    }
+  },
+  "24": {
+    "img": [
+      "FtrIcon/FtrArtPortraitCecilia",
+      "FtrIcon/FtrArtPortraitCeciliaFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      24,
+      23
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "brd01",
+      "shp10",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "婀娜的名画",
+      "de": "Edelgemälde",
+      "it": "quadro simbolico",
+      "nl": "sereen schilderij",
+      "ru": "безмятежная картина",
+      "ja": "たおやかなめいが",
+      "ko": "아늑한 명화",
+      "zh-tw": "婀娜的名畫",
+      "en": "serene painting",
+      "es": "retrato regio",
+      "fr": "toile royale"
+    }
+  },
+  "28": {
+    "img": [
+      "FtrIcon/FtrArtPearlEarring",
+      "FtrIcon/FtrArtPearlEarringFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      28,
+      27
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cat10",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "漂亮的名画",
+      "de": "Perlengemälde",
+      "it": "quadro realista",
+      "nl": "melancholisch schilderij",
+      "ru": "мечтательная картина",
+      "ja": "すてきなめいが",
+      "ko": "근사한 명화",
+      "zh-tw": "漂亮的名畫",
+      "en": "wistful painting",
+      "es": "retrato perla",
+      "fr": "toile nacrée"
+    }
+  },
+  "32": {
+    "img": [
+      "FtrIcon/FtrArtBirthVenus",
+      "FtrIcon/FtrArtBirthVenusFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "white"
+      ],
+      [
+        "aqua",
+        "white"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      32,
+      31
+    ],
+    "cat": true,
+    "sze": "2x1.5",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cow06",
+      "pgn03",
+      "pig15",
+      "rbt05",
+      "shp10",
+      "squ17",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "动人的名画",
+      "de": "Schöngemälde",
+      "it": "quadro colorato",
+      "nl": "symbolisch schilderij",
+      "ru": "трогательная картина",
+      "ja": "きれいなめいが",
+      "ko": "예쁜 명화",
+      "zh-tw": "動人的名畫",
+      "en": "moving painting",
+      "es": "cuadro alegórico",
+      "fr": "toile émouvante"
+    }
+  },
+  "34": {
+    "img": "FtrIcon/FtrArtClothedMaja",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cow06",
+      "pig15",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "舒适的名画",
+      "de": "Warmgemälde",
+      "it": "quadro classico",
+      "nl": "verleidelijk schilderij",
+      "ru": "романтичная картина",
+      "ja": "いいかんじのめいが",
+      "ko": "느낌이 좋은 명화",
+      "zh-tw": "舒適的名畫",
+      "en": "warm painting",
+      "es": "cuadro clásico",
+      "fr": "toile radieuse"
+    }
+  },
+  "38": {
+    "img": "FtrIcon/FtrArtKanagawaOki",
+    "clr": "beige",
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "harmonious"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea02",
+      "crd07",
+      "pig15"
+    ],
+    "loc": {
+      "zh-cn": "磅礴的名画",
+      "de": "Wellengemälde",
+      "it": "quadro marino",
+      "nl": "woelig schilderij",
+      "ru": "волнительная картина",
+      "ja": "いきなめいが",
+      "ko": "멋들어진 명화",
+      "zh-tw": "磅礡的名畫",
+      "en": "dynamic painting",
+      "es": "cuadro ola",
+      "fr": "toile déferlante"
+    }
+  },
+  "42": {
+    "img": [
+      "FtrIcon/FtrArtSummer",
+      "FtrIcon/FtrArtSummerFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      42,
+      41
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "cow06",
+    "loc": {
+      "zh-cn": "有趣的名画",
+      "de": "Gemüsegemälde",
+      "it": "quadro organico",
+      "nl": "fleurig schilderij",
+      "ru": "веселая картина",
+      "ja": "おもしろいめいが",
+      "ko": "재미있는 명화",
+      "zh-tw": "有趣的名畫",
+      "en": "jolly painting",
+      "es": "cuadro orgánico",
+      "fr": "toile potagère"
+    }
+  },
+  "44": {
+    "img": "FtrIcon/FtrArtGleaners",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ant03",
+      "cow00",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "常见的名画",
+      "de": "Bekanntgemälde",
+      "it": "quadro povero",
+      "nl": "landelijk schilderij",
+      "ru": "сельская картина",
+      "ja": "よくみるめいが",
+      "ko": "평범한 명화",
+      "zh-tw": "常見的名畫",
+      "en": "common painting",
+      "es": "cuadro segadoras",
+      "fr": "toile commune"
+    }
+  },
+  "46": {
+    "img": "FtrIcon/FtrArtBarFB",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "duk09",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "热闹的名画",
+      "de": "Strenggemälde",
+      "it": "quadro austero",
+      "nl": "formeel schilderij",
+      "ru": "строгая картина",
+      "ja": "にぎやかなめいが",
+      "ko": "활기 넘치는 명화",
+      "zh-tw": "熱鬧的名畫",
+      "en": "proper painting",
+      "es": "cuadro dama",
+      "fr": "toile austère"
+    }
+  },
+  "48": {
+    "img": "FtrIcon/FtrArtFifePlayer",
+    "clr": [
+      "gray",
+      "red"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "wol04",
+    "loc": {
+      "zh-cn": "很好的名画",
+      "de": "Hübschgemälde",
+      "it": "quadro antico",
+      "nl": "muzikaal schilderij",
+      "ru": "приятная картина",
+      "ja": "いいめいが",
+      "ko": "좋은 명화",
+      "zh-tw": "很好的名畫",
+      "en": "nice painting",
+      "es": "retrato músico",
+      "fr": "toile magnifique"
+    }
+  },
+  "50": {
+    "img": "FtrIcon/FtrArtSunflower",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea01",
+      "bul08",
+      "cow01",
+      "flg11",
+      "hip09",
+      "hrs08",
+      "mnk05",
+      "pig10",
+      "pig11",
+      "pig15",
+      "rhn07",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "珍贵的名画",
+      "de": "Blumengemälde",
+      "it": "quadro fiorito",
+      "nl": "zonnig schilderij",
+      "ru": "цветочная картина",
+      "ja": "たぐいまれなるめいが",
+      "ko": "진귀한 명화",
+      "zh-tw": "珍貴的名畫",
+      "en": "flowery painting",
+      "es": "cuadro flores",
+      "fr": "toile florale"
+    }
+  },
+  "52": {
+    "img": "FtrIcon/FtrArtSlower",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "wol04",
+    "loc": {
+      "zh-cn": "强健的名画",
+      "de": "Kraftgemälde",
+      "it": "quadro possente",
+      "nl": "noest schilderij",
+      "ru": "энергичная картина",
+      "ja": "ちからづよいめいが",
+      "ko": "힘찬 명화",
+      "zh-tw": "強健的名畫",
+      "en": "moody painting",
+      "es": "retrato joven",
+      "fr": "toile puissante"
+    }
+  },
+  "56": {
+    "img": [
+      "FtrIcon/FtrArtNightWatch",
+      "FtrIcon/FtrArtNightWatchFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "black",
+      "black"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      56,
+      55
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "hrs12",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "惊人的名画",
+      "de": "Enormgemälde",
+      "it": "quadro stupendo",
+      "nl": "subliem schilderij",
+      "ru": "потрясающая картина",
+      "ja": "すごいめいが",
+      "ko": "대단한 명화",
+      "zh-tw": "驚人的名畫",
+      "en": "amazing painting",
+      "es": "cuadro holandés",
+      "fr": "toile incroyable"
+    }
+  },
+  "66": {
+    "img": [
+      "FtrIcon/FtrArtOotaniOniji",
+      "FtrIcon/FtrArtOotaniOnijiFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "gray",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "harmonious"
+    ],
+    "iid": [
+      66,
+      65
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "der10",
+    "loc": {
+      "zh-cn": "俊俏的名画",
+      "de": "Furchtgemälde",
+      "it": "quadro spaventoso",
+      "nl": "griezelig schilderij",
+      "ru": "страшная картина",
+      "ja": "いなせなめいが",
+      "ko": "씩씩한 명화",
+      "zh-tw": "俊俏的名畫",
+      "en": "scary painting",
+      "es": "cuadro japonés",
+      "fr": "toile effrayante"
+    }
+  },
+  "68": {
+    "img": "FtrIcon/FtrArtLibertyLeading",
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "2x1.5",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ant09",
+      "ham06",
+      "pig11",
+      "squ17",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "名贵的名画",
+      "de": "Wahrgemälde",
+      "it": "quadro prezioso",
+      "nl": "zegevierend schilderij",
+      "ru": "достойная картина",
+      "ja": "かちのあるめいが",
+      "ko": "가치 있는 명화",
+      "zh-tw": "名貴的名畫",
+      "en": "worthy painting",
+      "es": "cuadro romántico",
+      "fr": "toile précieuse"
+    }
+  },
+  "72": {
+    "img": [
+      "FtrIcon/FtrArtLasMeninas",
+      "FtrIcon/FtrArtLasMeninasFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "black",
+        "beige"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      72,
+      71
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "cat10",
+    "loc": {
+      "zh-cn": "肃穆的名画",
+      "de": "Feierlichgemälde",
+      "it": "quadro solenne",
+      "nl": "plechtig schilderij",
+      "ru": "торжественная картина",
+      "ja": "おごそかなめいが",
+      "ko": "엄숙한 명화",
+      "zh-tw": "肅穆的名畫",
+      "en": "solemn painting",
+      "es": "cuadro español",
+      "fr": "toile solennelle"
+    }
+  },
+  "76": {
+    "img": [
+      "FtrIcon/FtrArtFuujin",
+      "FtrIcon/FtrArtFuujinFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "beige",
+        "brown"
+      ],
+      [
+        "beige",
+        "brown"
+      ]
+    ],
+    "hri": true,
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "harmonious",
+    "iid": [
+      76,
+      75
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "crd07",
+      "der10",
+      "pig15",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "粗野的名画右半边",
+      "de": "Ungestümgemälde (rechts)",
+      "it": "quadro intenso (metà dx)",
+      "nl": "onstuimig schilderij (r)",
+      "ru": "прав. часть дикой картины",
+      "ja": "あらぶるめいがのみぎ",
+      "ko": "혼란스러운 명화의 오른쪽",
+      "zh-tw": "粗野的名畫右半邊",
+      "en": "wild painting right half",
+      "es": "cuadro naturaleza (dcha.)",
+      "fr": "partie d. de toile sauvage"
+    }
+  },
+  "78": {
+    "img": "FtrIcon/FtrArtSundayOn",
+    "clr": [
+      "green",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "2x1.5",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ham02",
+      "pbr06",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "和煦的名画",
+      "de": "Ruhegemälde",
+      "it": "quadro riposante",
+      "nl": "vredig schilderij",
+      "ru": "спокойная картина",
+      "ja": "おだやかなめいが",
+      "ko": "평온한 명화",
+      "zh-tw": "和煦的名畫",
+      "en": "calm painting",
+      "es": "paisaje francés",
+      "fr": "toile apaisante"
+    }
+  },
+  "1331": {
+    "img": [
+      "FtrIcon/FtrSculptureCapitolini",
+      "FtrIcon/FtrSculptureCapitoliniFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "black",
+        "gray"
+      ],
+      [
+        "black",
+        "gray"
+      ]
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "european"
+    ],
+    "iid": [
+      1331,
+      1332
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "cow06",
+      "der07",
+      "hip05",
+      "pig15"
+    ],
+    "loc": {
+      "zh-cn": "充满母爱的雕塑",
+      "de": "Wölfinnenstatue",
+      "it": "statua leggendaria",
+      "nl": "moederlijk beeld",
+      "ru": "материнская статуя",
+      "ja": "ぼせいあふれるちょうこく",
+      "ko": "모성이 느껴지는 조각",
+      "zh-tw": "充滿母愛的雕塑",
+      "en": "motherly statue",
+      "es": "figura materna",
+      "fr": "statue maternelle"
+    }
+  },
+  "1333": {
+    "img": [
+      "FtrIcon/FtrSculptureDavid",
+      "FtrIcon/FtrSculptureDavidFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "white",
+      "white"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "european",
+    "iid": [
+      1333,
+      1334
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "cat15",
+      "rhn08",
+      "shp10",
+      "wol04"
+    ],
+    "loc": {
+      "de": "Galantstatue",
+      "it": "statua maestosa",
+      "nl": "verheven standbeeld",
+      "ru": "доблестная статуя",
+      "ja": "りりしいちょうこく",
+      "ko": "늠름한 조각",
+      "en": "gallant statue",
+      "es": "estatua majestuosa",
+      "fr": "statue majestueuse",
+      "zh": "英挺的雕塑"
+    }
+  },
+  "1335": {
+    "img": [
+      "FtrIcon/FtrSculptureDiskobolos",
+      "FtrIcon/FtrSculptureDiskobolosFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "white",
+      "white"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "european"
+    ],
+    "iid": [
+      1335,
+      1336
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "rhn08",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "强壮的雕塑",
+      "de": "Athletenstatue",
+      "it": "statua atletica",
+      "nl": "atletisch standbeeld",
+      "ru": "атлетическая статуя",
+      "ja": "たくましいちょうこく",
+      "ko": "듬직한 조각",
+      "zh-tw": "強壯的雕塑",
+      "en": "robust statue",
+      "es": "estatua atlética",
+      "fr": "statue athlétique"
+    }
+  },
+  "1337": {
+    "img": [
+      "FtrIcon/FtrSculptureDoguu",
+      "FtrIcon/FtrSculptureDoguuFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "gray",
+      "gray"
+    ],
+    "sub": "misc",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "harmonious"
+    ],
+    "iid": [
+      1337,
+      1338
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cbr05",
+      "cow06",
+      "ham03",
+      "pig15",
+      "rbt00"
+    ],
+    "loc": {
+      "zh-cn": "远古的雕塑",
+      "de": "Uraltstatue",
+      "it": "statua antica",
+      "nl": "prehistorisch beeldje",
+      "ru": "древняя статуя",
+      "ja": "いにしえのちょうこく",
+      "ko": "태고의 조각",
+      "zh-tw": "遠古的雕塑",
+      "en": "ancient statue",
+      "es": "estatua primitiva",
+      "fr": "statuette antique"
+    }
+  },
+  "1339": {
+    "img": "FtrIcon/FtrSculptureKamehameha",
+    "clr": [
+      "black",
+      "yellow"
+    ],
+    "sub": "housewares",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "resort",
+      "city_life"
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cbr02",
+      "cow06",
+      "kgr10",
+      "mus02"
+    ],
+    "loc": {
+      "zh-cn": "伟大的雕塑",
+      "de": "Würdestatue",
+      "it": "statua trionfante",
+      "nl": "majestueus standbeeld",
+      "ru": "великая статуя",
+      "ja": "いだいなちょうこく",
+      "ko": "위대한 조각",
+      "zh-tw": "偉大的雕塑",
+      "en": "great statue",
+      "es": "estatua triunfante",
+      "fr": "statue imposante"
+    }
+  },
+  "1341": {
+    "img": [
+      "FtrIcon/FtrSculptureMilo",
+      "FtrIcon/FtrSculptureMiloFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "white",
+      "white"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "european"
+    ],
+    "iid": [
+      1341,
+      1342
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "cat10",
+      "cat15",
+      "cow06",
+      "hrs12",
+      "pig11",
+      "pig15",
+      "rhn08",
+      "shp10",
+      "squ17",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "美丽的雕塑",
+      "de": "Eleganzstatue",
+      "it": "statua aggraziata",
+      "nl": "gracieus standbeeld",
+      "ru": "прекрасная статуя",
+      "ja": "うつくしいちょうこく",
+      "ko": "아름다운 조각",
+      "zh-tw": "美麗的雕塑",
+      "en": "beautiful statue",
+      "es": "estatua femenina",
+      "fr": "statue féminine"
+    }
+  },
+  "1343": {
+    "img": [
+      "FtrIcon/FtrSculptureNefertiti",
+      "FtrIcon/FtrSculptureNefertitiFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "beige",
+        "black"
+      ],
+      [
+        "beige",
+        "black"
+      ]
+    ],
+    "sub": "misc",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "ancient",
+    "iid": [
+      1343,
+      1344
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cat18",
+      "crd04",
+      "der07",
+      "dog00",
+      "pig15"
+    ],
+    "loc": {
+      "zh-cn": "神秘的雕塑",
+      "de": "Geheimnisbüste",
+      "it": "statua enigmatica",
+      "nl": "enigmatisch beeld",
+      "ru": "загадочная статуя",
+      "ja": "しんぴてきなちょうこく",
+      "ko": "신비로운 조각",
+      "zh-tw": "神祕的雕塑",
+      "en": "mystic statue",
+      "es": "busto antiguo",
+      "fr": "sculpture mystérieuse"
+    }
+  },
+  "1345": {
+    "img": [
+      "FtrIcon/FtrSculptureSamothrace",
+      "FtrIcon/FtrSculptureSamothraceFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "white",
+      "white"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "european"
+    ],
+    "iid": [
+      1345,
+      1346
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "ham03",
+      "hrs11",
+      "pig11",
+      "rhn08",
+      "shp10",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "神圣的雕塑",
+      "de": "Erhabenstatue",
+      "it": "statua eroica",
+      "nl": "heroïsch standbeeld",
+      "ru": "героическая статуя",
+      "ja": "こうごうしいちょうこく",
+      "ko": "거룩한 조각",
+      "zh-tw": "神聖的雕塑",
+      "en": "valiant statue",
+      "es": "estatua alada",
+      "fr": "statue héroïque"
+    }
+  },
+  "12533": {
+    "img": [
+      "FtrIcon/FtrSculptureOlmecaHead",
+      "FtrIcon/FtrSculptureOlmecaHeadFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "gray",
+      "gray"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "ancient",
+    "iid": [
+      12533,
+      12534
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "dog00",
+      "elp06",
+      "flg16",
+      "gor01",
+      "hip05",
+      "mus02",
+      "pbr02"
+    ],
+    "loc": {
+      "zh-cn": "石头颅雕塑",
+      "de": "Dickkopfskulptur",
+      "it": "testa di roccia",
+      "nl": "koppig standbeeld",
+      "ru": "твердолобая статуя",
+      "ja": "いしあたまなちょうこく",
+      "ko": "돌 머리의 조각",
+      "zh-tw": "石頭顱雕塑",
+      "en": "rock-head statue",
+      "es": "cabeza colosal",
+      "fr": "sculpture déterminée"
+    }
+  },
+  "12535": {
+    "img": [
+      "FtrIcon/FtrSculptureRosettaStone",
+      "FtrIcon/FtrSculptureRosettaStoneFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "ancient",
+    "iid": [
+      12535,
+      12536
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "crd04",
+      "dog00",
+      "elp06",
+      "flg16",
+      "mus02",
+      "pbr02"
+    ],
+    "loc": {
+      "zh-cn": "线索的雕塑",
+      "de": "Hinweisskulptur",
+      "it": "pietra informativa",
+      "nl": "taalkundig standbeeld",
+      "ru": "образовательная статуя",
+      "ja": "てがかりのちょうこく",
+      "ko": "단서가 되는 조각",
+      "zh-tw": "線索的雕塑",
+      "en": "informative statue",
+      "es": "piedra políglota",
+      "fr": "tablette édifiante"
+    }
+  },
+  "12537": {
+    "img": [
+      "FtrIcon/FtrSculptureHoumuwuDing",
+      "FtrIcon/FtrSculptureHoumuwuDingFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "green",
+      "green"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "harmonious"
+    ],
+    "iid": [
+      12537,
+      12538
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "cbr05",
+      "dog00",
+      "elp06"
+    ],
+    "loc": {
+      "de": "Prachtskulptur",
+      "it": "scultura imponente",
+      "nl": "bijzonder standbeeld",
+      "ru": "массивная статуя",
+      "ja": "とてつもないちょうこく",
+      "ko": "어마어마한 조각",
+      "en": "tremendous statue",
+      "es": "urna imponente",
+      "fr": "sculpture singulière",
+      "zh": "出乎意料的雕塑"
+    }
+  },
+  "12539": {
+    "img": [
+      "FtrIcon/FtrSculptureHeibayo",
+      "FtrIcon/FtrSculptureHeibayoFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "gray",
+      "gray"
+    ],
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "ancient",
+      "harmonious"
+    ],
+    "iid": [
+      12539,
+      12540
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "cbr05",
+    "loc": {
+      "zh-cn": "武士的雕刻",
+      "de": "Kriegerstatue",
+      "it": "statua guerriera",
+      "nl": "krijgszuchtig standbeeld",
+      "ru": "воинственная статуя",
+      "ja": "もののふのちょうこく",
+      "ko": "무사의 조각",
+      "zh-tw": "武士的雕塑",
+      "en": "warrior statue",
+      "es": "escultura guerrera",
+      "fr": "statue guerrière"
+    }
+  },
+  "12541": {
+    "img": "FtrIcon/FtrSculptureThinker",
+    "clr": "green",
+    "sub": "housewares",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": "european",
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "ant03",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "似曾相识的雕塑",
+      "de": "Vertrautstatue",
+      "it": "statua pensierosa",
+      "nl": "peinzend standbeeld",
+      "ru": "знакомая статуя",
+      "ja": "なじみのあるちょうこく",
+      "ko": "익숙한 조각",
+      "zh-tw": "似曾相識的雕塑",
+      "en": "familiar statue",
+      "es": "estatua pensativa",
+      "fr": "statue pensive"
+    }
+  },
+  "12570": {
+    "img": [
+      "FtrIcon/FtrArtRaijin",
+      "FtrIcon/FtrArtRaijinFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "orange",
+        "brown"
+      ],
+      [
+        "orange",
+        "brown"
+      ]
+    ],
+    "hri": true,
+    "sub": "housewares",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": "harmonious",
+    "iid": [
+      12570,
+      12571
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "crd07",
+      "der10",
+      "pig15",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "粗野的名画左半边",
+      "de": "Ungestümgemälde (links)",
+      "it": "quadro intenso (metà sx)",
+      "nl": "onstuimig schilderij (l)",
+      "ru": "лев. часть дикой картины",
+      "ja": "あらぶるめいがのひだり",
+      "ko": "혼란스러운 명화의 왼쪽",
+      "zh-tw": "粗野的名畫左半邊",
+      "en": "wild painting left half",
+      "es": "cuadro naturaleza (izda.)",
+      "fr": "partie g. de toile sauvage"
+    }
+  },
+  "12618": {
+    "img": "FtrIcon/FtrArtStarryNight",
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea02",
+      "cow06",
+      "crd04",
+      "der07",
+      "duk09",
+      "pig15",
+      "squ17",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "闪烁的名画",
+      "de": "Funkelgemälde",
+      "it": "quadro sfavillante",
+      "nl": "nachtelijk schilderij",
+      "ru": "звездная картина",
+      "ja": "またたくめいが",
+      "ko": "반짝이는 명화",
+      "zh-tw": "閃爍的名畫",
+      "en": "twinkling painting",
+      "es": "paisaje estrellado",
+      "fr": "toile scintillante"
+    }
+  },
+  "12619": {
+    "img": [
+      "FtrIcon/FtrArtVitruvianMan",
+      "FtrIcon/FtrArtVitruvianManFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      "beige",
+      "beige"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "iid": [
+      12619,
+      12620
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea14",
+      "brd01",
+      "flg12",
+      "mus17",
+      "rbt02"
+    ],
+    "loc": {
+      "zh-cn": "学术性的名画",
+      "de": "Wissenschaftsgemälde",
+      "it": "quadro accademico",
+      "nl": "academisch schilderij",
+      "ru": "академическая картина",
+      "ja": "アカデミックなめいが",
+      "ko": "아카데믹한 명화",
+      "zh-tw": "學術性的名畫",
+      "en": "academic painting",
+      "es": "cuadro anatómico",
+      "fr": "toile académique"
+    }
+  },
+  "12621": {
+    "img": "FtrIcon/FtrArtOphelia",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea02",
+      "cat02",
+      "cow01",
+      "hrs16",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "沉没的名画",
+      "de": "Versinkgemälde",
+      "it": "quadro acquatico",
+      "nl": "tragisch schilderij",
+      "ru": "речная картина",
+      "ja": "しずみゆくめいが",
+      "ko": "가라앉는 명화",
+      "zh-tw": "沉沒的名畫",
+      "en": "sinking painting",
+      "es": "cuadro literario",
+      "fr": "toile tragique"
+    }
+  },
+  "12622": {
+    "img": [
+      "FtrIcon/FtrArtAjisaisoukeizu",
+      "FtrIcon/FtrArtAjisaisoukeizuFake"
+    ],
+    "var": [
+      "real",
+      "fake"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "green"
+      ],
+      [
+        "yellow",
+        "green"
+      ]
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": [
+      1245,
+      0
+    ],
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "harmonious"
+    ],
+    "iid": [
+      12622,
+      12623
+    ],
+    "cat": true,
+    "sze": "1x2",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": "pig15",
+    "loc": {
+      "zh-cn": "细致的名画",
+      "de": "Detailgemälde",
+      "it": "quadro dettagliato",
+      "nl": "gedetailleerd schilderij",
+      "ru": "детальная картина",
+      "ja": "ちみつなめいが",
+      "ko": "섬세한 명화",
+      "zh-tw": "細緻的名畫",
+      "en": "detailed painting",
+      "es": "cuadro detallado",
+      "fr": "toile détaillée"
+    }
+  },
+  "12624": {
+    "img": "FtrIcon/FtrArtFightingTemeraire",
+    "clr": [
+      "blue",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea02",
+      "crd08",
+      "duk09",
+      "hrs16",
+      "pig11",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "光线的名画",
+      "de": "Lichtgemälde",
+      "it": "quadro abbagliante",
+      "nl": "weemoedig schilderij",
+      "ru": "сияющая картина",
+      "ja": "ひかりのめいが",
+      "ko": "빛의 명화",
+      "zh-tw": "光線的名畫",
+      "en": "glowing painting",
+      "es": "cuadro vespertino",
+      "fr": "toile crépusculaire"
+    }
+  },
+  "12625": {
+    "img": "FtrIcon/FtrArtIsleOfDead",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "hri": true,
+    "sub": "wall_mounted",
+    "sel": 1245,
+    "buy": 4980,
+    "hap": 451,
+    "has": [
+      "expensive",
+      "european"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "redd_ship",
+    "vad": "1.2.0",
+    "hui": [
+      "bea02",
+      "cow06",
+      "duk09",
+      "goa01"
+    ],
+    "loc": {
+      "zh-cn": "神秘的名画",
+      "de": "Rätselgemälde",
+      "it": "quadro misterioso",
+      "nl": "mysterieus schilderij",
+      "ru": "загадочная картина",
+      "ja": "なぞめいためいが",
+      "ko": "미스터리한 명화",
+      "zh-tw": "神秘的名畫",
+      "en": "mysterious painting",
+      "es": "cuadro tenebroso",
+      "fr": "toile ténébreuse"
+    }
+  }
+}

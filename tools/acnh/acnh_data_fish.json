@@ -1,0 +1,4030 @@
+{
+  "328": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishFuna",
+    "sel": 160,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 3,
+    "mod": 6929,
+    "img": "BookFishIcon/FishFuna",
+    "loc": {
+      "zh-cn": "鲫鱼",
+      "de": "Karausche",
+      "it": "carassio",
+      "nl": "kroeskarper",
+      "ru": "карась",
+      "ja": "フナ",
+      "ko": "붕어",
+      "zh-tw": "鯽魚",
+      "en": "crucian carp",
+      "es": "carpín",
+      "fr": "carassin"
+    }
+  },
+  "329": {
+    "clr": [
+      "red",
+      "aqua"
+    ],
+    "fim": "FtrIcon/FtrFishKingyo",
+    "sel": 1300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      1,
+      4
+    ],
+    "sze": "1x1",
+    "gso": 7,
+    "mod": 6930,
+    "img": "BookFishIcon/FishKingyo",
+    "loc": {
+      "zh-cn": "金鱼",
+      "de": "Goldfisch",
+      "it": "pesce rosso",
+      "nl": "goudvis",
+      "ru": "золотая рыбка",
+      "ja": "キンギョ",
+      "ko": "금붕어",
+      "zh-tw": "金魚",
+      "en": "goldfish",
+      "es": "pez dorado",
+      "fr": "poisson rouge"
+    }
+  },
+  "2215": {
+    "clr": [
+      "aqua",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishTanago",
+    "sel": 900,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      10,
+      2
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      8
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      12,
+      17
+    ],
+    "sze": "1x1",
+    "gso": 1,
+    "mod": 6931,
+    "img": "BookFishIcon/FishTanago",
+    "loc": {
+      "zh-cn": "红目鲫",
+      "de": "Bitterling",
+      "it": "rodeo",
+      "nl": "bittervoorn",
+      "ru": "горчак",
+      "ja": "タナゴ",
+      "ko": "납줄개",
+      "zh-tw": "紅目鯽",
+      "en": "bitterling",
+      "es": "amarguillo",
+      "fr": "bouvière"
+    }
+  },
+  "2216": {
+    "clr": "blue",
+    "fim": "FtrIcon/FtrFishOikawa",
+    "sel": 200,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      6,
+      9
+    ],
+    "sze": "1x1",
+    "gso": 2,
+    "mod": 7000,
+    "img": "BookFishIcon/FishOikawa",
+    "loc": {
+      "de": "Döbel",
+      "it": "zacco",
+      "nl": "Japanse drakenvis",
+      "ru": "светлый закко",
+      "ja": "オイカワ",
+      "ko": "피라미",
+      "en": "pale chub",
+      "es": "cacho",
+      "fr": "chevaine",
+      "zh": "溪哥"
+    }
+  },
+  "2217": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishUgui",
+    "sel": 240,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 2,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "csr": [
+      3,
+      10
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 4,
+    "mod": 7024,
+    "img": "BookFishIcon/FishUgui",
+    "loc": {
+      "zh-cn": "雅罗鱼",
+      "de": "Hasel",
+      "it": "lasca",
+      "nl": "serpeling",
+      "ru": "елец",
+      "ja": "ウグイ",
+      "ko": "황어",
+      "zh-tw": "珠星三塊魚",
+      "en": "dace",
+      "es": "leucisco",
+      "fr": "vandoise"
+    }
+  },
+  "2219": {
+    "clr": [
+      "gray",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKoi",
+    "sel": 300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      3,
+      9
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 5,
+    "mod": 6980,
+    "img": "BookFishIcon/FishKoi",
+    "loc": {
+      "zh-cn": "鲤鱼",
+      "de": "Karpfen",
+      "it": "carpa",
+      "nl": "karper",
+      "ru": "сазан",
+      "ja": "コイ",
+      "ko": "잉어",
+      "zh-tw": "鯉魚",
+      "en": "carp",
+      "es": "carpa",
+      "fr": "carpe"
+    }
+  },
+  "2220": {
+    "clr": [
+      "red",
+      "white"
+    ],
+    "fim": "FtrIcon/FtrFishNishikigoi",
+    "sel": 4000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      4
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 6,
+    "mod": 6991,
+    "img": "BookFishIcon/FishNishikigoi",
+    "loc": {
+      "zh-cn": "锦鲤",
+      "de": "Koi-Karpfen",
+      "it": "koi",
+      "nl": "koikarper",
+      "ru": "карп кои",
+      "ja": "ニシキゴイ",
+      "ko": "비단잉어",
+      "zh-tw": "錦鯉",
+      "en": "koi",
+      "es": "koi",
+      "fr": "carpe koï"
+    }
+  },
+  "2221": {
+    "clr": [
+      "black",
+      "aqua"
+    ],
+    "fim": "FtrIcon/FtrFishDemekin",
+    "sel": 1300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 0,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      1,
+      2
+    ],
+    "sze": "1x1",
+    "gso": 8,
+    "mod": 6942,
+    "img": "BookFishIcon/FishDemekin",
+    "loc": {
+      "zh-cn": "龙睛金鱼",
+      "de": "Teleskopauge",
+      "it": "pesce telescopio",
+      "nl": "telescoopooggoudvis",
+      "ru": "телескоп",
+      "ja": "デメキン",
+      "ko": "툭눈금붕어",
+      "zh-tw": "龍睛金魚",
+      "en": "pop-eyed goldfish",
+      "es": "pez telescopio",
+      "fr": "cyprin doré"
+    }
+  },
+  "2222": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishMedaka",
+    "sel": 300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 0,
+    "nhd": [
+      3,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      3,
+      4
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 10,
+    "mod": 6985,
+    "img": "BookFishIcon/FishMedaka",
+    "loc": {
+      "zh-cn": "稻田鱼",
+      "de": "Killifisch",
+      "it": "killifish",
+      "nl": "killivis",
+      "ru": "оризия",
+      "ja": "メダカ",
+      "ko": "송사리",
+      "zh-tw": "稻田魚",
+      "en": "killifish",
+      "es": "killi",
+      "fr": "fondule barré"
+    }
+  },
+  "2223": {
+    "clr": [
+      "red",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishZarigani",
+    "sel": 200,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 1,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 11,
+    "mod": 7029,
+    "img": "BookFishIcon/FishZarigani",
+    "loc": {
+      "zh-cn": "淡水龙虾",
+      "de": "Flusskrebs",
+      "it": "gambero",
+      "nl": "rode rivierkreeft",
+      "ru": "рак",
+      "ja": "ザリガニ",
+      "ko": "가재",
+      "zh-tw": "淡水龍蝦",
+      "en": "crawfish",
+      "es": "cangrejo de río",
+      "fr": "écrevisse"
+    }
+  },
+  "2224": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishSuppon",
+    "sel": 3750,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 3,
+    "nhd": [
+      7,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      1,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": 4,
+    "sze": "1x1",
+    "gso": 12,
+    "mod": 7017,
+    "img": "BookFishIcon/FishSuppon",
+    "loc": {
+      "zh-cn": "鳖",
+      "de": "Weichschildkröte",
+      "it": "apalone ferox",
+      "nl": "weekschildpad",
+      "ru": "трионикс",
+      "ja": "スッポン",
+      "ko": "자라",
+      "zh-tw": "鱉",
+      "en": "soft-shelled turtle",
+      "es": "tortuga caparazón blando",
+      "fr": "tortue trionyx"
+    }
+  },
+  "2225": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishOtama",
+    "sel": 100,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 0,
+    "nhd": [
+      2,
+      6
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      8,
+      0
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      6
+    ],
+    "sze": "1x1",
+    "gso": 14,
+    "mod": 7001,
+    "img": "BookFishIcon/FishOtamajakusi",
+    "loc": {
+      "de": "Kaulquappe",
+      "it": "girino",
+      "nl": "kikkervisje",
+      "ru": "головастик",
+      "ja": "オタマジャクシ",
+      "ko": "올챙이",
+      "en": "tadpole",
+      "es": "renacuajo",
+      "fr": "têtard",
+      "zh": "蝌蚪"
+    }
+  },
+  "2226": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKaeru",
+    "sel": 120,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 1,
+    "nhd": [
+      4,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      7,
+      9
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 15,
+    "mod": 6962,
+    "img": "BookFishIcon/FishKaeru",
+    "loc": {
+      "de": "Frosch",
+      "it": "rana",
+      "nl": "kikker",
+      "ru": "лягушка",
+      "ja": "カエル",
+      "ko": "개구리",
+      "en": "frog",
+      "es": "rana",
+      "fr": "grenouille",
+      "zh": "青蛙"
+    }
+  },
+  "2227": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishDonko",
+    "sel": 400,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "csr": [
+      2,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 16,
+    "mod": 6946,
+    "img": "BookFishIcon/FishDonko",
+    "loc": {
+      "zh-cn": "塘鳢鱼",
+      "de": "Flussgrundel",
+      "it": "ghiozzo",
+      "nl": "zoetwatergrondel",
+      "ru": "одонтобутис",
+      "ja": "ドンコ",
+      "ko": "동사리",
+      "zh-tw": "塘鱧魚",
+      "en": "freshwater goby",
+      "es": "gobio de río",
+      "fr": "gobie d'eau douce"
+    }
+  },
+  "2228": {
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishDojou",
+    "sel": 400,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      2,
+      4
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      8,
+      10
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      12,
+      16
+    ],
+    "sze": "1x1",
+    "gso": 17,
+    "mod": 6944,
+    "img": "BookFishIcon/FishDojou",
+    "loc": {
+      "zh-cn": "泥鳅",
+      "de": "Bachschmerle",
+      "it": "cobite",
+      "nl": "modderkruiper",
+      "ru": "вьюн",
+      "ja": "ドジョウ",
+      "ko": "미꾸라지",
+      "zh-tw": "泥鰍",
+      "en": "loach",
+      "es": "locha",
+      "fr": "loche d'étang"
+    }
+  },
+  "2229": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishNamazu",
+    "sel": 800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 3,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "csr": [
+      6,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 18,
+    "mod": 6987,
+    "img": "BookFishIcon/FishNamazu",
+    "loc": {
+      "zh-cn": "鲶鱼",
+      "de": "Katzenwels",
+      "fr-fr": "silure",
+      "it": "pesce gatto",
+      "nl": "meerval",
+      "ru": "сом",
+      "ja": "ナマズ",
+      "ko": "메기",
+      "zh-tw": "鯰魚",
+      "fr-us": "barbotte",
+      "en": "catfish",
+      "es": "siluro"
+    }
+  },
+  "2231": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishRaigyo",
+    "sel": 5500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 3,
+    "nhd": [
+      5,
+      7
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      11,
+      1
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "cun": 50,
+    "csr": 2,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 19,
+    "mod": 7007,
+    "img": "BookFishIcon/FishRaigyo",
+    "loc": {
+      "zh-cn": "黑鱼",
+      "de": "Schlangenkopf",
+      "it": "pesce serpente",
+      "nl": "rode slangenkopvis",
+      "ru": "змееголов",
+      "ja": "ライギョ",
+      "ko": "가물치",
+      "zh-tw": "鱧魚",
+      "en": "giant snakehead",
+      "es": "pez cabeza de serpiente",
+      "fr": "tête-de-serpent"
+    }
+  },
+  "2232": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishBlueguill",
+    "sel": 180,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      6,
+      10
+    ],
+    "sze": "1x1",
+    "gso": 20,
+    "mod": 6939,
+    "img": "BookFishIcon/FishBlueguill",
+    "loc": {
+      "zh-cn": "蓝腮太阳鱼",
+      "de": "Sonnenbarsch",
+      "it": "pesce persico",
+      "nl": "zonnebaars",
+      "ru": "солнечник",
+      "ja": "ブルーギル",
+      "ko": "블루길",
+      "zh-tw": "藍鰓太陽魚",
+      "en": "bluegill",
+      "es": "pez sol",
+      "fr": "crapet"
+    }
+  },
+  "2233": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishYellowparch",
+    "sel": 300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 2,
+    "nhd": [
+      9,
+      2
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      3,
+      8
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      7,
+      10
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 21,
+    "mod": 7028,
+    "img": "BookFishIcon/FishYellowparch",
+    "loc": {
+      "zh-cn": "黄鲈鱼",
+      "de": "Flussbarsch",
+      "it": "perca dorata",
+      "nl": "jackbaars",
+      "ru": "желтый окунь",
+      "ja": "イエローパーチ",
+      "ko": "옐로우퍼치",
+      "zh-tw": "黃鱸魚",
+      "en": "yellow perch",
+      "es": "perca amarilla",
+      "fr": "perche jaune"
+    }
+  },
+  "2234": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishBlackbass",
+    "sel": 400,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      12
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 22,
+    "mod": 6938,
+    "img": "BookFishIcon/FishBlackbass",
+    "loc": {
+      "zh-cn": "黑鲈鱼",
+      "de": "Barsch",
+      "it": "boccalone",
+      "nl": "forelbaars",
+      "ru": "большеротый окунь",
+      "ja": "ブラックバス",
+      "ko": "큰입배스",
+      "zh-tw": "黑鱸魚",
+      "en": "black bass",
+      "es": "perca",
+      "fr": "bar"
+    }
+  },
+  "2235": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishPaiku",
+    "sel": 1800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 4,
+    "nhd": [
+      8,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      2,
+      5
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 24,
+    "mod": 7004,
+    "img": "BookFishIcon/FishPaiku",
+    "loc": {
+      "zh-cn": "白斑狗鱼",
+      "de": "Hecht",
+      "it": "luccio nordico",
+      "nl": "snoek",
+      "ru": "щука",
+      "ja": "パイク",
+      "ko": "강꼬치고기",
+      "zh-tw": "白斑狗魚",
+      "en": "pike",
+      "es": "lucio",
+      "fr": "brochet"
+    }
+  },
+  "2236": {
+    "clr": [
+      "orange",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishWakasagi",
+    "sel": 400,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      11,
+      1
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      5,
+      7
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      18,
+      20
+    ],
+    "sze": "1x1",
+    "gso": 25,
+    "mod": 7026,
+    "img": "BookFishIcon/FishWakasagi",
+    "loc": {
+      "zh-cn": "西太公鱼",
+      "de": "Stint",
+      "it": "pingo",
+      "nl": "spiering",
+      "ru": "малая корюшка",
+      "ja": "ワカサギ",
+      "ko": "빙어",
+      "zh-tw": "西太公魚",
+      "en": "pond smelt",
+      "es": "eperlano",
+      "fr": "éperlan"
+    }
+  },
+  "2237": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishAyu",
+    "sel": 900,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 2,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      10
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 26,
+    "mod": 6936,
+    "img": "BookFishIcon/FishAyu",
+    "loc": {
+      "zh-cn": "香鱼",
+      "de": "Ayu",
+      "it": "ayu",
+      "nl": "ayu",
+      "ru": "айю",
+      "ja": "アユ",
+      "ko": "은어",
+      "zh-tw": "香魚",
+      "en": "sweetfish",
+      "es": "ayu",
+      "fr": "ayu"
+    }
+  },
+  "2238": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishYamame",
+    "sel": 1000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_cliff",
+    "sha": 2,
+    "nhd": [
+      2,
+      5,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        16,
+        9
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      8,
+      11
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "csr": [
+      3,
+      9
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 27,
+    "mod": 7027,
+    "img": "BookFishIcon/FishYamame",
+    "loc": {
+      "zh-cn": "樱花钩吻鲑",
+      "de": "Masulachs",
+      "it": "salmone giapponese",
+      "nl": "Japanse zalm",
+      "ru": "сима",
+      "ja": "ヤマメ",
+      "ko": "산천어",
+      "zh-tw": "櫻花鉤吻鮭",
+      "en": "cherry salmon",
+      "es": "salmón japonés",
+      "fr": "saumon masou"
+    }
+  },
+  "2239": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishOoiwana",
+    "sel": 3800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_cliff",
+    "sha": 2,
+    "nhd": [
+      2,
+      5,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        16,
+        9
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      8,
+      11
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      4
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 28,
+    "mod": 7003,
+    "img": "BookFishIcon/FishOoiwana",
+    "loc": {
+      "zh-cn": "花羔红点鲑",
+      "de": "Saibling",
+      "it": "salmerino alpino",
+      "nl": "bronforel",
+      "ru": "голец",
+      "ja": "オオイワナ",
+      "ko": "열목어",
+      "zh-tw": "花羔紅點鮭",
+      "en": "char",
+      "es": "trucha",
+      "fr": "omble"
+    }
+  },
+  "2241": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishItou",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_cliff",
+    "sha": 4,
+    "nhd": [
+      11,
+      2
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      5,
+      8
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 30,
+    "mod": 6960,
+    "img": "BookFishIcon/FishItou",
+    "loc": {
+      "zh-cn": "远东哲罗鱼",
+      "de": "Huchen",
+      "it": "taimen",
+      "nl": "Donauzalm",
+      "ru": "таймень",
+      "ja": "イトウ",
+      "ko": "일본연어",
+      "zh-tw": "遠東哲羅魚",
+      "en": "stringfish",
+      "es": "taimén",
+      "fr": "dai yu"
+    }
+  },
+  "2242": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishSake",
+    "sel": 700,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_mouth",
+    "sha": 3,
+    "nhd": [
+      8,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      2,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 20,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 31,
+    "mod": 7012,
+    "img": "BookFishIcon/FishSake",
+    "loc": {
+      "zh-cn": "鲑鱼",
+      "de": "Lachs",
+      "it": "salmone",
+      "nl": "zalm",
+      "ru": "лосось",
+      "ja": "サケ",
+      "ko": "연어",
+      "zh-tw": "鮭魚",
+      "en": "salmon",
+      "es": "salmón",
+      "fr": "saumon"
+    }
+  },
+  "2243": {
+    "clr": [
+      "gray",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKingsalmon",
+    "sel": 1800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_mouth",
+    "sha": 4,
+    "nhd": [
+      8,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      2,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 32,
+    "mod": 6978,
+    "img": "BookFishIcon/FishKingsalmon",
+    "loc": {
+      "zh-cn": "帝王鲑",
+      "de": "Königslachs",
+      "fr-fr": "saumon roi",
+      "it": "salmone reale",
+      "nl": "chinookzalm",
+      "ru": "чавыча",
+      "ja": "キングサーモン",
+      "ko": "왕연어",
+      "zh-tw": "帝王鮭",
+      "fr-us": "saumon royal",
+      "en": "king salmon",
+      "es": "salmón real"
+    }
+  },
+  "2244": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishShanghai",
+    "sel": 2000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      8,
+      10
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      2,
+      4
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      5
+    ],
+    "sze": "1x1",
+    "gso": 33,
+    "mod": 7019,
+    "img": "BookFishIcon/FishSyanhaigani",
+    "loc": {
+      "zh-cn": "中华绒螯蟹",
+      "de": "Wollhandkrabbe",
+      "it": "granchio guantato",
+      "nl": "wolhandkrab",
+      "ru": "мохнорукий краб",
+      "ja": "シャンハイガニ",
+      "ko": "참게",
+      "zh-tw": "中華絨螯蟹",
+      "en": "mitten crab",
+      "es": "cangrejo de Shanghái",
+      "fr": "crabe chinois"
+    }
+  },
+  "2245": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishGuppi",
+    "sel": 1300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      2,
+      3
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 34,
+    "mod": 6954,
+    "img": "BookFishIcon/FishGuppi",
+    "loc": {
+      "zh-cn": "孔雀鱼",
+      "de": "Guppy",
+      "it": "guppy",
+      "nl": "guppy",
+      "ru": "гуппи",
+      "ja": "グッピー",
+      "ko": "구피",
+      "zh-tw": "孔雀魚",
+      "en": "guppy",
+      "es": "gupi",
+      "fr": "guppy"
+    }
+  },
+  "2246": {
+    "clr": [
+      "brown",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishDoctor",
+    "sel": 1500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      4,
+      8
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      10,
+      2
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "cun": 20,
+    "csr": 2,
+    "sze": "1x1",
+    "gso": 35,
+    "mod": 6945,
+    "img": "BookFishIcon/FishDokutaafish",
+    "loc": {
+      "zh-cn": "温泉医生鱼",
+      "de": "Saugbarbe",
+      "it": "garra rufa",
+      "nl": "knabbelvisje",
+      "ru": "рыба-доктор",
+      "ja": "ドクターフィッシュ",
+      "ko": "닥터피시",
+      "zh-tw": "溫泉醫生魚",
+      "en": "nibble fish",
+      "es": "pez doctor",
+      "fr": "poisson docteur"
+    }
+  },
+  "2247": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishAngelfish",
+    "sel": 3000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": [
+      2,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 36,
+    "mod": 6933,
+    "img": "BookFishIcon/FishAngelfish",
+    "loc": {
+      "zh-cn": "神仙鱼",
+      "de": "Skalar",
+      "it": "pesce angelo",
+      "nl": "maanvis",
+      "ru": "скалярия",
+      "ja": "エンゼルフィッシュ",
+      "ko": "천사어",
+      "zh-tw": "神仙魚",
+      "en": "angelfish",
+      "es": "pez ángel",
+      "fr": "poisson-ange"
+    }
+  },
+  "2248": {
+    "clr": [
+      "aqua",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishNeontetora",
+    "sel": 500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      2,
+      3
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 38,
+    "mod": 6990,
+    "img": "BookFishIcon/FishNeontetora",
+    "loc": {
+      "zh-cn": "霓虹灯鱼",
+      "de": "Neonsalmler",
+      "it": "pesce neon",
+      "nl": "neontetra",
+      "ru": "голубой неон",
+      "ja": "ネオンテトラ",
+      "ko": "네온테트라",
+      "zh-tw": "霓虹燈魚",
+      "en": "neon tetra",
+      "es": "tetra neón",
+      "fr": "néon bleu"
+    }
+  },
+  "2249": {
+    "clr": [
+      "green",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishPirania",
+    "sel": 2500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      9,
+      16,
+      21,
+      4
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      9,
+      16,
+      21,
+      4
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      3
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 40,
+    "mod": 7005,
+    "img": "BookFishIcon/FishPirania",
+    "loc": {
+      "zh-cn": "食人鱼",
+      "de": "Piranha",
+      "it": "pesce piranha",
+      "nl": "piranha",
+      "ru": "пиранья",
+      "ja": "ピラニア",
+      "ko": "피라니아",
+      "zh-tw": "食人魚",
+      "en": "piranha",
+      "es": "piraña",
+      "fr": "piranha"
+    }
+  },
+  "2250": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishArowana",
+    "sel": 10000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 3,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 50,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 41,
+    "mod": 6935,
+    "img": "BookFishIcon/FishArowana",
+    "loc": {
+      "zh-cn": "骨舌鱼",
+      "de": "Arowana",
+      "it": "arowana",
+      "nl": "arowana",
+      "ru": "аравана",
+      "ja": "アロワナ",
+      "ko": "아로와나",
+      "zh-tw": "骨舌魚",
+      "en": "arowana",
+      "es": "arowana",
+      "fr": "arowana"
+    }
+  },
+  "2251": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishDolado",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 4,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "cun": 100,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 42,
+    "mod": 7837,
+    "img": "BookFishIcon/FishDolado",
+    "loc": {
+      "zh-cn": "黄金河虎",
+      "de": "Lachssalmler",
+      "fr-fr": "dorado",
+      "it": "dorado",
+      "nl": "dorado",
+      "ru": "дорадо",
+      "ja": "ドラド",
+      "ko": "도라도",
+      "zh-tw": "黃金河虎",
+      "fr-us": "dorade",
+      "en": "dorado",
+      "es": "dorado"
+    }
+  },
+  "2252": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishGa",
+    "sel": 6000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 4,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 50,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 43,
+    "mod": 6952,
+    "img": "BookFishIcon/FishGa",
+    "loc": {
+      "zh-cn": "雀鳝",
+      "de": "Knochenhecht",
+      "it": "luccio",
+      "nl": "kaaimansnoek",
+      "ru": "панцирная щука",
+      "ja": "ガー",
+      "ko": "가아",
+      "zh-tw": "雀鱔",
+      "en": "gar",
+      "es": "pez caimán",
+      "fr": "gar"
+    }
+  },
+  "2253": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishPiraruku",
+    "sel": 10000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 6,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sze": "3x2",
+    "gso": 44,
+    "mod": 7006,
+    "img": "BookFishIcon/FishPiraruku",
+    "loc": {
+      "zh-cn": "巨骨舌鱼",
+      "de": "Arapaima",
+      "it": "pirarucù",
+      "nl": "arapaima",
+      "ru": "арапаима",
+      "ja": "ピラルク",
+      "ko": "피라루쿠",
+      "zh-tw": "巨骨舌魚",
+      "en": "arapaima",
+      "es": "pirarucú",
+      "fr": "arapaïma"
+    }
+  },
+  "2254": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishEndlicheri",
+    "sel": 4000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 3,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "cun": 20,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 45,
+    "mod": 6950,
+    "img": "BookFishIcon/FishEndorikerii",
+    "loc": {
+      "zh-cn": "恩氏多鳍鱼",
+      "de": "Flösselhecht",
+      "it": "polipteride",
+      "nl": "kwastsnoek",
+      "ru": "многопер Эндлихера",
+      "ja": "エンドリケリー",
+      "ko": "엔드리케리",
+      "zh-tw": "恩氏多鰭魚",
+      "en": "saddled bichir",
+      "es": "bichir ensillado",
+      "fr": "bichir"
+    }
+  },
+  "2255": {
+    "clr": [
+      "white",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKurione",
+    "sel": 1000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 0,
+    "nhd": [
+      11,
+      2
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      5,
+      8
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      10,
+      11
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 47,
+    "mod": 6982,
+    "img": "BookFishIcon/FishKurione",
+    "loc": {
+      "de": "See-Engel",
+      "fr-fr": "clione",
+      "it": "cavolinia",
+      "nl": "zeevlinder",
+      "ru": "морской ангел",
+      "ja": "クリオネ",
+      "ko": "클리오네",
+      "fr-us": "papillon de mer",
+      "en": "sea butterfly",
+      "es": "mariposa marina",
+      "zh": "海天使"
+    }
+  },
+  "2256": {
+    "clr": [
+      "orange",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishTatsunootoshigo",
+    "sel": 1100,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 0,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      7
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 48,
+    "mod": 7021,
+    "img": "BookFishIcon/FishTatsunootoshigo",
+    "loc": {
+      "zh-cn": "海马",
+      "de": "Seepferdchen",
+      "it": "ippocampo",
+      "nl": "zeepaardje",
+      "ru": "морской конек",
+      "ja": "タツノオトシゴ",
+      "ko": "해마",
+      "zh-tw": "海馬",
+      "en": "sea horse",
+      "es": "caballito de mar",
+      "fr": "hippocampe"
+    }
+  },
+  "2257": {
+    "clr": [
+      "orange",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKumanomi",
+    "sel": 650,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 0,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      6
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 49,
+    "mod": 6981,
+    "img": "BookFishIcon/FishKumanomi",
+    "loc": {
+      "zh-cn": "小丑鱼",
+      "de": "Anemonenfisch",
+      "it": "pesce pagliaccio",
+      "nl": "clownvis",
+      "ru": "рыба-клоун",
+      "ja": "クマノミ",
+      "ko": "흰동가리",
+      "zh-tw": "小丑魚",
+      "en": "clown fish",
+      "es": "pez payaso",
+      "fr": "poisson-clown"
+    }
+  },
+  "2258": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishNanyouhagi",
+    "sel": 1000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 1,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 2,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 50,
+    "mod": 6988,
+    "img": "BookFishIcon/FishNanyouhagi",
+    "loc": {
+      "zh-cn": "拟刺尾鲷",
+      "de": "Paletten-Doktorfisch",
+      "fr-fr": "poisson chirurgien",
+      "it": "pesce chirurgo",
+      "nl": "doktersvis",
+      "ru": "флаговый хирург",
+      "ja": "ナンヨウハギ",
+      "ko": "블루탱",
+      "zh-tw": "擬刺尾鯛",
+      "fr-us": "poisson-chirurgien",
+      "en": "surgeonfish",
+      "es": "pez cirujano"
+    }
+  },
+  "2259": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishChouchouuo",
+    "sel": 1000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 1,
+    "nhd": [
+      3,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      5
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 51,
+    "mod": 6941,
+    "img": "BookFishIcon/FishChouchouuo",
+    "loc": {
+      "zh-cn": "耳带蝴蝶鱼",
+      "de": "Falterfisch",
+      "it": "pesce farfalla",
+      "nl": "koraalvlinder",
+      "ru": "рыба-бабочка",
+      "ja": "チョウチョウウオ",
+      "ko": "나비고기",
+      "zh-tw": "耳帶蝴蝶魚",
+      "en": "butterfly fish",
+      "es": "pez mariposa",
+      "fr": "poisson-papillon"
+    }
+  },
+  "2260": {
+    "clr": [
+      "aqua",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishNaporeonfish",
+    "sel": 10000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 6,
+    "nhd": [
+      6,
+      7
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      0,
+      1
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 52,
+    "mod": 6989,
+    "img": "BookFishIcon/FishNaporeonfish",
+    "loc": {
+      "zh-cn": "苏眉鱼",
+      "de": "Napoleonfisch",
+      "it": "pesce napoleone",
+      "nl": "napoleonvis",
+      "ru": "рыба-наполеон",
+      "ja": "ナポレオンフィッシュ",
+      "ko": "나폴레옹피시",
+      "zh-tw": "蘇眉魚",
+      "en": "Napoleonfish",
+      "es": "pez napoleón",
+      "fr": "napoléon"
+    }
+  },
+  "2261": {
+    "clr": [
+      "red",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishMinokasago",
+    "sel": 500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      3,
+      10
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      9,
+      4
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      6,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 53,
+    "mod": 7836,
+    "img": "BookFishIcon/FishMinokasago",
+    "loc": {
+      "zh-cn": "狮子鱼",
+      "de": "Rotfeuerfisch",
+      "it": "leone zebrato",
+      "nl": "koraalduivel",
+      "ru": "крылатка",
+      "ja": "ミノカサゴ",
+      "ko": "쏠배감펭",
+      "zh-tw": "獅子魚",
+      "en": "zebra turkeyfish",
+      "es": "pez león",
+      "fr": "poisson-scorpion"
+    }
+  },
+  "2262": {
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishFugu",
+    "sel": 5000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      10,
+      1
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      4,
+      7
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "cun": 20,
+    "csr": 5,
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 54,
+    "mod": 6951,
+    "img": "BookFishIcon/FishFugu",
+    "loc": {
+      "de": "Kugelfisch",
+      "fr-fr": "poisson-ballon",
+      "it": "pesce palla",
+      "nl": "kogelvis",
+      "ru": "бурый скалозуб",
+      "ja": "フグ",
+      "ko": "복어",
+      "fr-us": "poisson-globe",
+      "en": "blowfish",
+      "es": "pez globo",
+      "zh": "河豚"
+    }
+  },
+  "2263": {
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishHarisenbon",
+    "sel": 250,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      7,
+      8
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 55,
+    "mod": 6956,
+    "img": "BookFishIcon/FishHarisenbon",
+    "loc": {
+      "zh-cn": "刺豚",
+      "de": "Igelfisch",
+      "it": "pesce istrice",
+      "nl": "egelvis",
+      "ru": "еж-рыба",
+      "ja": "ハリセンボン",
+      "ko": "가시복",
+      "zh-tw": "刺河豚",
+      "en": "puffer fish",
+      "es": "pez erizo",
+      "fr": "poisson-porc-épic"
+    }
+  },
+  "2264": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishAji",
+    "sel": 150,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      14,
+      21
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 57,
+    "mod": 6932,
+    "img": "BookFishIcon/FishAji",
+    "loc": {
+      "zh-cn": "竹荚鱼",
+      "de": "Makrele",
+      "it": "sgombro",
+      "nl": "horsmakreel",
+      "ru": "ставрида",
+      "ja": "アジ",
+      "ko": "전갱이",
+      "zh-tw": "竹筴魚",
+      "en": "horse mackerel",
+      "es": "jurel",
+      "fr": "chinchard"
+    }
+  },
+  "2265": {
+    "clr": [
+      "white",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishIshidai",
+    "sel": 5000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      2,
+      10
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      8,
+      4
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      3,
+      5
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 58,
+    "mod": 6959,
+    "img": "BookFishIcon/FishIshidai",
+    "loc": {
+      "zh-cn": "条石鲷",
+      "de": "Schnabelbarsch",
+      "it": "ishidai",
+      "nl": "kraaibek",
+      "ru": "полосатый оплегнат",
+      "ja": "イシダイ",
+      "ko": "돌돔",
+      "zh-tw": "條石鯛",
+      "en": "barred knifejaw",
+      "es": "dorada japonesa",
+      "fr": "ishidai"
+    }
+  },
+  "2266": {
+    "clr": [
+      "gray",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishSuzuki",
+    "sel": 400,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 4,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      11,
+      18
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 59,
+    "mod": 7018,
+    "img": "BookFishIcon/FishSuzuki",
+    "loc": {
+      "zh-cn": "鲈鱼",
+      "de": "Seebarsch",
+      "it": "spigola",
+      "nl": "zeebaars",
+      "ru": "морской судак",
+      "ja": "スズキ",
+      "ko": "농어",
+      "zh-tw": "鱸魚",
+      "en": "sea bass",
+      "es": "lubina",
+      "fr": "bar commun"
+    }
+  },
+  "2267": {
+    "clr": [
+      "red",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishTai",
+    "sel": 3000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 3,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      5,
+      7
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 60,
+    "mod": 7020,
+    "img": "BookFishIcon/FishTai",
+    "loc": {
+      "zh-cn": "鲷鱼",
+      "de": "Kaiserschnapper",
+      "it": "lutiano rosso",
+      "nl": "rode snapper",
+      "ru": "красный луциан",
+      "ja": "タイ",
+      "ko": "도미",
+      "zh-tw": "鯛魚",
+      "en": "red snapper",
+      "es": "pargo rojo",
+      "fr": "vivaneau"
+    }
+  },
+  "2268": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKarei",
+    "sel": 300,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      9,
+      3
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      3,
+      9
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      11,
+      14
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 61,
+    "mod": 6965,
+    "img": "BookFishIcon/FishKarei",
+    "loc": {
+      "zh-cn": "鲽鱼",
+      "de": "Kliesche",
+      "it": "platessa",
+      "nl": "schar",
+      "ru": "камбала",
+      "ja": "カレイ",
+      "ko": "가자미",
+      "zh-tw": "鰈魚",
+      "en": "dab",
+      "es": "gallo",
+      "fr": "limande"
+    }
+  },
+  "2269": {
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishHirame",
+    "sel": 800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 4,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      4,
+      6
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 62,
+    "mod": 6957,
+    "img": "BookFishIcon/FishHirame",
+    "loc": {
+      "zh-cn": "比目鱼",
+      "de": "Flunder",
+      "it": "sogliola",
+      "nl": "bot",
+      "ru": "ложный палтус",
+      "ja": "ヒラメ",
+      "ko": "넙치",
+      "zh-tw": "比目魚",
+      "en": "olive flounder",
+      "es": "rodaballo",
+      "fr": "cardeau"
+    }
+  },
+  "2270": {
+    "clr": [
+      "beige",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishIka",
+    "sel": 500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 2,
+    "nhd": [
+      11,
+      7
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      5,
+      1
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      7,
+      10
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 63,
+    "mod": 6958,
+    "img": "BookFishIcon/FishIka",
+    "loc": {
+      "zh-cn": "鱿鱼",
+      "de": "Kalmar",
+      "it": "calamaro",
+      "nl": "pijlinktvis",
+      "ru": "кальмар",
+      "ja": "イカ",
+      "ko": "오징어",
+      "zh-tw": "魷魚",
+      "en": "squid",
+      "es": "calamar",
+      "fr": "calmar"
+    }
+  },
+  "2271": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishUtsubo",
+    "sel": 2000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 7,
+    "nhd": [
+      7,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      1,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 2,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 64,
+    "mod": 7025,
+    "img": "BookFishIcon/FishUtsubo",
+    "loc": {
+      "zh-cn": "裸胸鳝",
+      "de": "Muräne",
+      "it": "murena",
+      "nl": "murene",
+      "ru": "мурена",
+      "ja": "ウツボ",
+      "ko": "곰치",
+      "zh-tw": "裸胸鱔",
+      "en": "moray eel",
+      "es": "morena",
+      "fr": "murène"
+    }
+  },
+  "2272": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishHanahige",
+    "sel": 600,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 7,
+    "nhd": [
+      5,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": 2,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 65,
+    "mod": 6955,
+    "img": "BookFishIcon/FishHanahigeutubo",
+    "loc": {
+      "zh-cn": "五彩鳗",
+      "de": "Nasenmuräne",
+      "it": "murena a nastro",
+      "nl": "lintmurene",
+      "ru": "носатая мурена",
+      "ja": "ハナヒゲウツボ",
+      "ko": "리본장어",
+      "zh-tw": "五彩鰻",
+      "en": "ribbon eel",
+      "es": "anguila de listón azul",
+      "fr": "murène ruban bleue"
+    }
+  },
+  "2273": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishChouchinankou",
+    "sel": 2500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 3,
+    "nhd": [
+      10,
+      2
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      4,
+      8
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": 6,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "emission",
+    "gso": 77,
+    "mod": 6940,
+    "img": "BookFishIcon/FishChouchinankou",
+    "loc": {
+      "zh-cn": "灯笼鱼",
+      "de": "Anglerfisch",
+      "fr-fr": "poisson lanterne",
+      "it": "pesce abissale",
+      "nl": "voetbalvis",
+      "ru": "гимантолоф",
+      "ja": "チョウチンアンコウ",
+      "ko": "초롱아귀",
+      "zh-tw": "燈籠魚",
+      "fr-us": "poisson-lanterne",
+      "en": "football fish",
+      "es": "pez balón"
+    }
+  },
+  "2274": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishMaguro",
+    "sel": 7000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea_pier",
+    "sha": 6,
+    "nhd": [
+      10,
+      3
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      4,
+      9
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 50,
+    "csr": 2,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 66,
+    "mod": 6983,
+    "img": "BookFishIcon/FishMaguro",
+    "loc": {
+      "zh-cn": "鲔鱼",
+      "de": "Thunfisch",
+      "it": "tonno",
+      "nl": "tonijn",
+      "ru": "тунец",
+      "ja": "マグロ",
+      "ko": "다랑어",
+      "zh-tw": "鮪魚",
+      "en": "tuna",
+      "es": "atún",
+      "fr": "thon"
+    }
+  },
+  "2275": {
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKajiki",
+    "sel": 10000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea_pier",
+    "sha": 6,
+    "nhd": [
+      10,
+      3,
+      6,
+      8
+    ],
+    "nht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "shd": [
+      0,
+      2,
+      4,
+      9
+    ],
+    "sht": [
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "cun": 50,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 67,
+    "mod": 6963,
+    "img": "BookFishIcon/FishKajiki",
+    "loc": {
+      "zh-cn": "旗鱼",
+      "de": "Marlin",
+      "it": "marlin blu",
+      "nl": "blauwe marlijn",
+      "ru": "голубой марлин",
+      "ja": "カジキ",
+      "ko": "청새치",
+      "zh-tw": "旗魚",
+      "en": "blue marlin",
+      "es": "pez espada",
+      "fr": "marlin bleu"
+    }
+  },
+  "2276": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishGT",
+    "sel": 4500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea_pier",
+    "sha": 4,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 68,
+    "mod": 7010,
+    "img": "BookFishIcon/FishRouninaji",
+    "loc": {
+      "zh-cn": "白面弄鱼",
+      "de": "Stachelmakrele",
+      "it": "carango gigante",
+      "nl": "reuzenhorsmakreel",
+      "ru": "гигантский каранкс",
+      "ja": "ロウニンアジ",
+      "ko": "무명갈전갱이",
+      "zh-tw": "浪人鰺",
+      "en": "giant trevally",
+      "es": "jurel gigante",
+      "fr": "carangue grosse tête"
+    }
+  },
+  "2277": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishEi",
+    "sel": 3000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 4,
+    "nhd": [
+      7,
+      10
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      1,
+      4
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "cun": 20,
+    "csr": 2,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 71,
+    "mod": 6949,
+    "img": "BookFishIcon/FishEi",
+    "loc": {
+      "zh-cn": "鳐鱼",
+      "de": "Rochen",
+      "it": "razza",
+      "nl": "rog",
+      "ru": "красный хвостокол",
+      "ja": "エイ",
+      "ko": "가오리",
+      "zh-tw": "魟魚",
+      "en": "ray",
+      "es": "raya",
+      "fr": "raie"
+    }
+  },
+  "2278": {
+    "clr": [
+      "blue",
+      "orange"
+    ],
+    "fim": "FtrIcon/FtrFishManbou",
+    "sel": 4000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      6,
+      8
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      0,
+      2
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "cun": 20,
+    "csr": 1,
+    "sze": "2x2",
+    "gso": 70,
+    "mod": 6984,
+    "img": "BookFishIcon/FishManbou",
+    "loc": {
+      "zh-cn": "翻车鱼",
+      "de": "Mondfisch",
+      "fr-fr": "lune de mer",
+      "it": "pesce luna",
+      "nl": "klompvis",
+      "ru": "луна-рыба",
+      "ja": "マンボウ",
+      "ko": "개복치",
+      "zh-tw": "翻車魚",
+      "fr-us": "poisson-lune",
+      "en": "ocean sunfish",
+      "es": "pez luna"
+    }
+  },
+  "2279": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishShumokuzame",
+    "sel": 8000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 20,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 73,
+    "mod": 7015,
+    "img": "BookFishIcon/FishShumokuzame",
+    "loc": {
+      "zh-cn": "双髻鲨",
+      "de": "Hammerhai",
+      "fr-fr": "requin marteau",
+      "it": "pesce martello",
+      "nl": "hamerhaai",
+      "ru": "рыба-молот",
+      "ja": "シュモクザメ",
+      "ko": "귀상어",
+      "zh-tw": "雙髻鯊",
+      "fr-us": "requin-marteau",
+      "en": "hammerhead shark",
+      "es": "pez martillo"
+    }
+  },
+  "2280": {
+    "clr": "blue",
+    "fim": "FtrIcon/FtrFishSame",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 50,
+    "csr": 2,
+    "sze": "3x2",
+    "gso": 74,
+    "mod": 7013,
+    "img": "BookFishIcon/FishSame",
+    "loc": {
+      "zh-cn": "鲨鱼",
+      "de": "Hai",
+      "it": "squalo bianco",
+      "nl": "witte haai",
+      "ru": "большая белая акула",
+      "ja": "サメ",
+      "ko": "상어",
+      "zh-tw": "鯊魚",
+      "en": "great white shark",
+      "es": "tiburón",
+      "fr": "grand requin blanc"
+    }
+  },
+  "2281": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishNokogiri",
+    "sel": 12000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      16,
+      9
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      16,
+      9
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 72,
+    "mod": 7002,
+    "img": "BookFishIcon/FishNokogirizame",
+    "loc": {
+      "zh-cn": "锯鲨",
+      "de": "Sägehai",
+      "fr-fr": "requin scie",
+      "it": "squalo sega",
+      "nl": "zaaghaai",
+      "ru": "акула-пилонос",
+      "ja": "ノコギリザメ",
+      "ko": "톱상어",
+      "zh-tw": "鋸鯊",
+      "fr-us": "requin-scie",
+      "en": "saw shark",
+      "es": "pez sierra"
+    }
+  },
+  "2282": {
+    "clr": [
+      "black",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishJinbee",
+    "sel": 13000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sze": "3x2",
+    "gso": 75,
+    "mod": 6961,
+    "img": "BookFishIcon/FishJinbeezame",
+    "loc": {
+      "zh-cn": "鲸鲨",
+      "de": "Walhai",
+      "it": "squalo balena",
+      "nl": "walvishaai",
+      "ru": "китовая акула",
+      "ja": "ジンベエザメ",
+      "ko": "고래상어",
+      "zh-tw": "鯨鯊",
+      "en": "whale shark",
+      "es": "tiburón ballena",
+      "fr": "requin-baleine"
+    }
+  },
+  "2283": {
+    "clr": [
+      "red",
+      "blue"
+    ],
+    "fim": "FtrIcon/FtrFishRyugu",
+    "sel": 9000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 6,
+    "nhd": [
+      11,
+      4
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      5,
+      10
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sze": "3x2",
+    "gso": 78,
+    "mod": 7011,
+    "img": "BookFishIcon/FishRyuuguunotukai",
+    "loc": {
+      "zh-cn": "皇带鱼",
+      "de": "Riemenfisch",
+      "it": "pesce remo",
+      "nl": "riemvis",
+      "ru": "сельдяной король",
+      "ja": "リュウグウノツカイ",
+      "ko": "산갈치",
+      "zh-tw": "皇帶魚",
+      "en": "oarfish",
+      "es": "pez remo",
+      "fr": "poisson-ruban"
+    }
+  },
+  "2284": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishSirakansu",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "wea": 1,
+    "sha": 6,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 100,
+    "csr": [
+      1,
+      2
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 80,
+    "mod": 7016,
+    "img": "BookFishIcon/FishSirakansu",
+    "loc": {
+      "zh-cn": "矛尾鱼",
+      "de": "Quastenflosser",
+      "it": "celacanto",
+      "nl": "coelacant",
+      "ru": "латимерия",
+      "ja": "シーラカンス",
+      "ko": "실러캔스",
+      "zh-tw": "矛尾魚",
+      "en": "coelacanth",
+      "es": "celacanto",
+      "fr": "cœlacanthe"
+    }
+  },
+  "4189": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishTyouzame",
+    "sel": 10000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_mouth",
+    "sha": 6,
+    "nhd": [
+      8,
+      2
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      2,
+      8
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      4
+    ],
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 46,
+    "mod": 7023,
+    "img": "BookFishIcon/FishTyouzame",
+    "loc": {
+      "zh-cn": "鲟鱼",
+      "de": "Stör",
+      "it": "storione",
+      "nl": "steur",
+      "ru": "осетр",
+      "ja": "チョウザメ",
+      "ko": "철갑상어",
+      "zh-tw": "鱘魚",
+      "en": "sturgeon",
+      "es": "esturión",
+      "fr": "esturgeon"
+    }
+  },
+  "4190": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishThirapia",
+    "sel": 800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 2,
+    "nhd": [
+      5,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "csr": [
+      7,
+      9
+    ],
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 23,
+    "mod": 7022,
+    "img": "BookFishIcon/FishThirapia",
+    "loc": {
+      "zh-cn": "吴郭鱼",
+      "de": "Tilapia",
+      "it": "tilapia",
+      "nl": "tilapia",
+      "ru": "тилапия",
+      "ja": "ティラピア",
+      "ko": "틸라피아",
+      "zh-tw": "吳郭魚",
+      "en": "tilapia",
+      "es": "tilapia",
+      "fr": "tilapia"
+    }
+  },
+  "4191": {
+    "clr": [
+      "aqua",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishBeta",
+    "sel": 2500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 1,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      4
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 37,
+    "mod": 6937,
+    "img": "BookFishIcon/FishBeta",
+    "loc": {
+      "zh-cn": "斗鱼",
+      "de": "Kampffisch",
+      "it": "betta",
+      "nl": "Siamese kempvis",
+      "ru": "сиамский петушок",
+      "ja": "ベタ",
+      "ko": "베타",
+      "zh-tw": "鬥魚",
+      "en": "betta",
+      "es": "betta",
+      "fr": "combattant"
+    }
+  },
+  "4192": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishKamitukigame",
+    "sel": 5000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 3,
+    "nhd": [
+      3,
+      9
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      9,
+      3
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "csr": [
+      2,
+      3
+    ],
+    "sze": "1x1",
+    "gso": 13,
+    "mod": 6964,
+    "img": "BookFishIcon/FishKamitsukigame",
+    "loc": {
+      "zh-cn": "拟鳄龟",
+      "de": "Schnappschildkröte",
+      "it": "tartaruga azzannatrice",
+      "nl": "bijtschildpad",
+      "ru": "каймановая черепаха",
+      "ja": "カミツキガメ",
+      "ko": "늑대거북",
+      "zh-tw": "擬鱷龜",
+      "en": "snapping turtle",
+      "es": "tortuga mordedora",
+      "fr": "tortue serpentine"
+    }
+  },
+  "4193": {
+    "clr": [
+      "brown",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishGoldenTorauto",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river_cliff",
+    "sha": 2,
+    "nhd": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "nht": [
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "shd": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "sht": [
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ]
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 29,
+    "mod": 6953,
+    "img": "BookFishIcon/FishGoldenTorauto",
+    "loc": {
+      "zh-cn": "金鳟",
+      "de": "Goldforelle",
+      "it": "trota dorata",
+      "nl": "goudforel",
+      "ru": "золотая форель",
+      "ja": "ゴールデントラウト",
+      "ko": "금송어",
+      "zh-tw": "金鱒",
+      "en": "golden trout",
+      "es": "trucha dorada",
+      "fr": "truite dorée"
+    }
+  },
+  "4194": {
+    "clr": [
+      "orange",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishRainbowfish",
+    "sel": 800,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "river",
+    "sha": 0,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "csr": [
+      2,
+      3
+    ],
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 39,
+    "mod": 7008,
+    "img": "BookFishIcon/FishRainbowfish",
+    "loc": {
+      "zh-cn": "彩虹鱼",
+      "de": "Regenbogenfisch",
+      "fr-fr": "poisson arc-en-ciel",
+      "it": "pesce arcobaleno",
+      "nl": "regenboogvis",
+      "ru": "радужница",
+      "ja": "レインボーフィッシュ",
+      "ko": "레인보우피시",
+      "zh-tw": "彩虹魚",
+      "fr-us": "poisson-arc-en-ciel",
+      "en": "rainbowfish",
+      "es": "pez arcoíris"
+    }
+  },
+  "4201": {
+    "clr": [
+      "blue",
+      "red"
+    ],
+    "fim": "FtrIcon/FtrFishAntyobi",
+    "sel": 200,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      4,
+      21
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      4,
+      21
+    ],
+    "csr": [
+      2,
+      5
+    ],
+    "sze": "1x1",
+    "gso": 56,
+    "mod": 6999,
+    "img": "BookFishIcon/FishAntyobi",
+    "loc": {
+      "zh-cn": "凤尾鱼",
+      "de": "Sardelle",
+      "it": "acciuga",
+      "nl": "ansjovis",
+      "ru": "хамса",
+      "ja": "アンチョビ",
+      "ko": "멸치",
+      "zh-tw": "鳳尾魚",
+      "en": "anchovy",
+      "es": "boquerón",
+      "fr": "anchois"
+    }
+  },
+  "4202": {
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishShiira",
+    "sel": 6000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea_pier",
+    "sha": 4,
+    "nhd": [
+      4,
+      9
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      10,
+      3
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 50,
+    "csr": 1,
+    "sur": true,
+    "sze": "2x1",
+    "ltp": "fluorescent",
+    "gso": 69,
+    "mod": 7014,
+    "img": "BookFishIcon/FishShiira",
+    "loc": {
+      "zh-cn": "鬼头刀",
+      "de": "Goldmakrele",
+      "fr-fr": "coryphène",
+      "it": "lampuga",
+      "nl": "goudmakreel",
+      "ru": "корифена",
+      "ja": "シイラ",
+      "ko": "만새기",
+      "zh-tw": "鬼頭刀",
+      "fr-us": "mahi-mahi",
+      "en": "mahi-mahi",
+      "es": "lampuga"
+    }
+  },
+  "4203": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishKobanzame",
+    "sel": 1500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 5,
+    "nhd": [
+      5,
+      8
+    ],
+    "nht": [
+      0,
+      24
+    ],
+    "shd": [
+      11,
+      2
+    ],
+    "sht": [
+      0,
+      24
+    ],
+    "cun": 20,
+    "csr": 2,
+    "sur": true,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 76,
+    "mod": 6979,
+    "img": "BookFishIcon/FishKobanzame",
+    "loc": {
+      "zh-cn": "吸盘鱼",
+      "de": "Schiffshalter",
+      "it": "remora",
+      "nl": "zuigvis",
+      "ru": "прилипала",
+      "ja": "コバンザメ",
+      "ko": "빨판상어",
+      "zh-tw": "吸盤魚",
+      "en": "suckerfish",
+      "es": "rémora",
+      "fr": "rémora rayé"
+    }
+  },
+  "4204": {
+    "clr": "black",
+    "fim": "FtrIcon/FtrFishDemenigisu",
+    "sel": 15000,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "sea",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      21,
+      4
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      21,
+      4
+    ],
+    "cun": 100,
+    "csr": 1,
+    "sze": "1x1",
+    "ltp": "fluorescent",
+    "gso": 79,
+    "mod": 6943,
+    "img": "BookFishIcon/FishDemenigisu",
+    "loc": {
+      "zh-cn": "太平洋桶眼鱼",
+      "de": "Glaskopffisch",
+      "fr-fr": "macropinna",
+      "it": "macropinna",
+      "nl": "hemelkijker",
+      "ru": "опистопрокт",
+      "ja": "デメニギス",
+      "ko": "데메니기스",
+      "zh-tw": "太平洋桶眼魚",
+      "fr-us": "revenant",
+      "en": "barreleye",
+      "es": "pez cabeza transparente"
+    }
+  },
+  "5254": {
+    "clr": [
+      "red",
+      "black"
+    ],
+    "fim": "FtrIcon/FtrFishRanchu",
+    "sel": 4500,
+    "hap": 71,
+    "hac": "pet",
+    "hab": "pond",
+    "sha": 1,
+    "nhd": [
+      0,
+      11
+    ],
+    "nht": [
+      9,
+      16
+    ],
+    "shd": [
+      0,
+      11
+    ],
+    "sht": [
+      9,
+      16
+    ],
+    "cun": 20,
+    "csr": [
+      1,
+      2
+    ],
+    "sze": "1x1",
+    "gso": 9,
+    "mod": 7009,
+    "img": "BookFishIcon/FishRanchu",
+    "loc": {
+      "zh-cn": "兰寿金鱼",
+      "de": "Ranchu",
+      "it": "ranchu",
+      "nl": "buffelrug",
+      "ru": "ранчу",
+      "ja": "ランチュウ",
+      "ko": "난주",
+      "zh-tw": "蘭壽金魚",
+      "en": "ranchu goldfish",
+      "es": "ranchú",
+      "fr": "ranchu"
+    }
+  }
+}

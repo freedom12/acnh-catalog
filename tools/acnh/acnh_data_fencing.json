@@ -1,0 +1,933 @@
+{
+  "3080": {
+    "img": "FtrIcon/ItemFenceWallRenga",
+    "sel": 120,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "brd01",
+    "loc": {
+      "zh-cn": "砖块栅栏",
+      "de": "Ziegelsteinmauer",
+      "it": "muretto di mattoni",
+      "nl": "bakstenen muurtje",
+      "ru": "кирпичный забор",
+      "ja": "レンガのカベ",
+      "ko": "벽돌 울타리",
+      "zh-tw": "磚塊柵欄",
+      "en": "brick fence",
+      "es": "cerca de ladrillo",
+      "fr": "muret en briques"
+    }
+  },
+  "3402": {
+    "ipf": "FtrIcon/ItemFenceVerticalWood_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "natural",
+      "white",
+      "black",
+      "green",
+      "blue",
+      "pink",
+      "yellow",
+      "purple"
+    ],
+    "sel": 96,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "hui": [
+      "der12",
+      "mnk08"
+    ],
+    "loc": {
+      "zh-cn": "直条木板栅栏",
+      "de": "Bretterzaun",
+      "es-es": "valla de tablones",
+      "it": "recinzione di assi verticali",
+      "nl": "lichte schutting",
+      "ru": "штакетник",
+      "ja": "たていたのさく",
+      "ko": "세로 널빤지 울타리",
+      "zh-tw": "直條木板柵欄",
+      "es-us": "valla de tablas",
+      "en": "vertical-board fence",
+      "fr": "clôture lattes verticales"
+    }
+  },
+  "3403": {
+    "img": "FtrIcon/ItemFenceBamboo",
+    "sel": 96,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": [
+      "cbr14",
+      "dog11",
+      "kgr05",
+      "mnk09",
+      "ocp04"
+    ],
+    "loc": {
+      "zh-cn": "竹栅栏",
+      "de": "Bambuszaun",
+      "it": "recinzione di bambù",
+      "nl": "bamboeschutting",
+      "ru": "забор из бамбука",
+      "ja": "たけがき",
+      "ko": "대나무 울타리",
+      "zh-tw": "竹柵欄",
+      "en": "bamboo lattice fence",
+      "es": "valla celosía de bambú",
+      "fr": "clôture bambou à treillis"
+    }
+  },
+  "4349": {
+    "img": "FtrIcon/ItemFenceHorizontalWood",
+    "sel": 72,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "der12",
+    "loc": {
+      "zh-cn": "横条木板栅栏",
+      "de": "Weidezaun",
+      "it": "staccionata ranch",
+      "nl": "boerderijhek",
+      "ru": "дощатый забор",
+      "ja": "よこいたのさく",
+      "ko": "가로 널빤지 울타리",
+      "zh-tw": "橫條木板柵欄",
+      "en": "corral fence",
+      "es": "valla de corral",
+      "fr": "clôture de ferme"
+    }
+  },
+  "4350": {
+    "img": "FtrIcon/ItemFenceLog",
+    "sel": 72,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "hrs10",
+    "loc": {
+      "zh-cn": "圆木栅栏",
+      "de": "Baumstammzaun",
+      "es-es": "valla leños",
+      "it": "staccionata di ceppi",
+      "nl": "paalhekje",
+      "ru": "забор из столбиков",
+      "ja": "まるたのさく",
+      "ko": "통나무 울타리",
+      "zh-tw": "圓木柵欄",
+      "es-us": "valla rural",
+      "en": "country fence",
+      "fr": "clôture de rondins"
+    }
+  },
+  "4351": {
+    "img": "FtrIcon/ItemFenceHorizontalLog",
+    "sel": 72,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "cow00",
+      "mnk08"
+    ],
+    "loc": {
+      "zh-cn": "横条圆木栅栏",
+      "de": "Westernzaun",
+      "it": "recinzione di tronchi",
+      "nl": "weidehek",
+      "ru": "забор из жердей",
+      "ja": "よこむきのまるたのさく",
+      "ko": "가로 통나무 울타리",
+      "zh-tw": "橫條圓木柵欄",
+      "en": "log fence",
+      "es": "valla de troncos",
+      "fr": "clôture tronc"
+    }
+  },
+  "4352": {
+    "img": "FtrIcon/ItemFencePegRope",
+    "sel": 300,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": [
+      "ant00",
+      "mnk08",
+      "tig00"
+    ],
+    "loc": {
+      "zh-cn": "钉子与绳索",
+      "de": "Seilzaun",
+      "es-es": "valla cordón",
+      "it": "recinzione di corda",
+      "nl": "touwhek",
+      "ru": "ограда из веревки",
+      "ja": "ペグとロープ",
+      "ko": "페그 울타리",
+      "zh-tw": "釘子與繩索",
+      "es-us": "valla de soga",
+      "en": "rope fence",
+      "fr": "clôture de corde"
+    }
+  },
+  "4354": {
+    "img": "FtrIcon/ItemFenceChinese",
+    "sel": 120,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "loc": {
+      "zh-cn": "东方风栅栏",
+      "de": "Asienzaun",
+      "fr-fr": "clôture dynastie orientale",
+      "it": "recinzione cinese",
+      "nl": "keizerlijk hek",
+      "ru": "забор в азиатском стиле",
+      "ja": "オリエンタルなさく",
+      "ko": "오리엔탈 울타리",
+      "zh-tw": "東方風柵欄",
+      "fr-us": "clôture dynastie",
+      "en": "imperial fence",
+      "es": "valla dinastía"
+    }
+  },
+  "4355": {
+    "img": "FtrIcon/ItemFenceConcreteBlock",
+    "sel": 270,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "砖块围墙",
+      "de": "Betonmauer",
+      "it": "muretto a blocchi",
+      "nl": "blokkenmuurtje",
+      "ru": "забор из блоков",
+      "ja": "ブロックべい",
+      "ko": "돌담",
+      "zh-tw": "磚塊圍牆",
+      "en": "block fence",
+      "es": "cerca de bloques",
+      "fr": "muret blocs de béton"
+    }
+  },
+  "4356": {
+    "img": "FtrIcon/ItemFenceDriedStraw",
+    "sel": 56,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": [
+      "cow00",
+      "mnk09",
+      "ost04"
+    ],
+    "loc": {
+      "zh-cn": "干稻草栅栏",
+      "de": "Strohzaun",
+      "it": "recinzione di paglia",
+      "nl": "strohek",
+      "ru": "соломенный забор",
+      "ja": "わらぼしのさく",
+      "ko": "짚단 울타리",
+      "zh-tw": "乾稻草柵欄",
+      "en": "straw fence",
+      "es": "valla de paja",
+      "fr": "clôture de paille"
+    }
+  },
+  "4357": {
+    "ipf": "FtrIcon/ItemFenceSteel_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "light_blue",
+      "red",
+      "green",
+      "yellow",
+      "blue",
+      "orange",
+      "white",
+      "black"
+    ],
+    "sel": 450,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "hui": "elp12",
+    "loc": {
+      "zh-cn": "铁栅栏",
+      "de": "Eisenzaun",
+      "es-es": "verja de hierro",
+      "it": "recinzione di ferro",
+      "nl": "ijzeren hek",
+      "ru": "железный забор",
+      "ja": "てつのさく",
+      "ko": "철제 울타리",
+      "zh-tw": "鐵柵欄",
+      "es-us": "valla de hierro",
+      "en": "iron fence",
+      "fr": "clôture en fer"
+    }
+  },
+  "4358": {
+    "img": "FtrIcon/ItemFenceSharply",
+    "sel": 96,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "ham07",
+    "loc": {
+      "zh-cn": "尖刺栅栏",
+      "de": "Spitzpfostenzaun",
+      "it": "recinzione appuntita",
+      "nl": "puntig hek",
+      "ru": "забор из кольев",
+      "ja": "トゲトゲのさく",
+      "ko": "뾰족뾰족 울타리",
+      "zh-tw": "尖刺柵欄",
+      "en": "spiky fence",
+      "es": "valla puntiaguda",
+      "fr": "clôture épieux"
+    }
+  },
+  "5206": {
+    "img": "FtrIcon/ItemFenceIronAndStone",
+    "sel": 315,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "kgr10",
+    "loc": {
+      "zh-cn": "石砌铁艺栅栏",
+      "de": "Villenzaun",
+      "es-es": "verja de hierro y piedra",
+      "it": "muretto con ringhiera",
+      "nl": "hek met pijlers",
+      "ru": "кованый забор",
+      "ja": "ようふうのさく",
+      "ko": "아이언 스톤 울타리",
+      "zh-tw": "西洋風柵欄",
+      "es-us": "valla de hierro y piedra",
+      "en": "iron-and-stone fence",
+      "fr": "clôture manoir"
+    }
+  },
+  "5207": {
+    "ipf": "FtrIcon/ItemFenceJapanese_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "black_2",
+      "blue_2",
+      "red_2",
+      "orange_2",
+      "yellow_3",
+      "beige_3",
+      "green_2",
+      "purple_2"
+    ],
+    "sel": 330,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "hui": [
+      "chn12",
+      "ocp04"
+    ],
+    "loc": {
+      "zh-cn": "和风栅栏",
+      "de": "Japanmauer",
+      "it": "muretto giapponese",
+      "nl": "zenmuurtje",
+      "ru": "забор-дзен",
+      "ja": "わふうのさく",
+      "ko": "동양풍 울타리",
+      "zh-tw": "和風柵欄",
+      "en": "zen fence",
+      "es": "cerca oriental",
+      "fr": "muret zen"
+    }
+  },
+  "5208": {
+    "ipf": "FtrIcon/ItemFenceLatticeBig_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "natural",
+      "white",
+      "brown",
+      "black",
+      "blue",
+      "dark_brown",
+      "green",
+      "purple"
+    ],
+    "sel": 120,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": "der12",
+    "loc": {
+      "zh-cn": "大型交叉格栅",
+      "de": "Riesengitterzaun",
+      "it": "recinzione graticcio XL",
+      "nl": "rasterschutting",
+      "ru": "высокая решетка",
+      "ja": "おおきなラティス",
+      "ko": "커다란 격자 울타리",
+      "zh-tw": "大型交叉格柵",
+      "en": "large lattice fence",
+      "es": "valla alta celosía",
+      "fr": "clôture treillis haute"
+    }
+  },
+  "5210": {
+    "img": "FtrIcon/ItemFenceLogWall",
+    "sel": 120,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "圆木墙栅栏",
+      "de": "Baumstammwandzaun",
+      "es-es": "valla de maderos",
+      "fr-fr": "clôture rondins",
+      "it": "recinzione muro di tronchi",
+      "nl": "boomstammenhek",
+      "ru": "бревенчатый забор",
+      "ja": "まるたかべのさく",
+      "ko": "통나무 벽 울타리",
+      "zh-tw": "圓木牆柵欄",
+      "es-us": "valla pared de troncos",
+      "fr-us": "barrière de rondins",
+      "en": "log-wall fence"
+    }
+  },
+  "5212": {
+    "img": "FtrIcon/ItemFenceStone",
+    "sel": 60,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": "pbr02",
+    "loc": {
+      "zh-cn": "石栅栏",
+      "de": "Feldsteinmauer",
+      "it": "muretto di pietra",
+      "nl": "stenen muurtje",
+      "ru": "каменный забор",
+      "ja": "いしかべ",
+      "ko": "돌 울타리",
+      "zh-tw": "石柵欄",
+      "en": "stone fence",
+      "es": "cerca de piedra",
+      "fr": "muret en pierre sèche"
+    }
+  },
+  "5213": {
+    "img": "FtrIcon/ItemFenceBarbedWire",
+    "sel": 198,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "hui": [
+      "ant00",
+      "ham07",
+      "mnk08"
+    ],
+    "loc": {
+      "zh-cn": "有刺铁丝网",
+      "de": "Stacheldrahtzaun",
+      "it": "filo spinato",
+      "nl": "prikkeldraadhek",
+      "ru": "колючая проволока",
+      "ja": "ゆうしてっせん",
+      "ko": "가시철조망 울타리",
+      "zh-tw": "有刺鐵絲網",
+      "en": "barbed-wire fence",
+      "es": "valla de alambre",
+      "fr": "clôture de barbelés"
+    }
+  },
+  "11711": {
+    "ipf": "FtrIcon/ItemFenceNatural_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "natural",
+      "white",
+      "brown",
+      "black",
+      "green",
+      "blue",
+      "pink",
+      "purple"
+    ],
+    "sel": 72,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": [
+      "crafting",
+      "tom_nook"
+    ],
+    "loc": {
+      "zh-cn": "朴素木制栅栏",
+      "de": "Standard-Holzzaun",
+      "it": "recinzione di legno grezzo",
+      "nl": "houten hekje",
+      "ru": "простой дерев. забор",
+      "ja": "そぼくなもくせいのさく",
+      "ko": "소박한 목제 울타리",
+      "zh-tw": "樸素木製柵欄",
+      "en": "simple wooden fence",
+      "es": "valla de madera",
+      "fr": "clôture en bois standard"
+    }
+  },
+  "11712": {
+    "ipf": "FtrIcon/ItemFenceLatiiceNatural_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "natural",
+      "white",
+      "black",
+      "blue",
+      "pink",
+      "light_blue",
+      "yellow",
+      "purple"
+    ],
+    "sel": 96,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "hui": [
+      "hrs07",
+      "pig08"
+    ],
+    "loc": {
+      "zh-cn": "交叉格栅",
+      "de": "Gitterzaun",
+      "it": "recinzione graticcio",
+      "nl": "rasterhek",
+      "ru": "решетка",
+      "ja": "ラティス",
+      "ko": "격자 울타리",
+      "zh-tw": "交叉格柵",
+      "en": "lattice fence",
+      "es": "valla celosía",
+      "fr": "clôture en treillis standard"
+    }
+  },
+  "12630": {
+    "img": "FtrIcon/ItemFenceEgg",
+    "sel": 240,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "复活节栅栏",
+      "de": "Häschentag-Zaun",
+      "it": "recinzione caccia all'uovo",
+      "nl": "eierhek",
+      "ru": "забор «День зайцев»",
+      "ja": "イースターなさく",
+      "ko": "이스터 울타리",
+      "zh-tw": "復活節柵欄",
+      "en": "Bunny Day fence",
+      "es": "valla Caza del Huevo",
+      "fr": "clôture fête des œufs"
+    }
+  },
+  "12758": {
+    "img": "FtrIcon/ItemFenceIkegaki",
+    "sel": 55,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "1.2.0",
+    "hui": "dog01",
+    "loc": {
+      "zh-cn": "树篱",
+      "de": "Hecke",
+      "es-es": "seto",
+      "it": "siepe",
+      "nl": "heg",
+      "ru": "живая изгородь",
+      "ja": "いけがき",
+      "ko": "낮은 나무 울타리",
+      "zh-tw": "樹叢",
+      "es-us": "arbusto",
+      "en": "hedge",
+      "fr": "clôture végétale"
+    }
+  },
+  "12894": {
+    "ipf": "FtrIcon/ItemFenceJuneBride_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "mint",
+      "red",
+      "light_blue",
+      "yellow",
+      "purple",
+      "black"
+    ],
+    "sel": 411,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "婚礼栅栏",
+      "de": "Hochzeitsabsperrung",
+      "it": "recinzione nuziale",
+      "nl": "trouwhek",
+      "ru": "свадебный забор",
+      "ja": "ウェディングなさく",
+      "ko": "웨딩 울타리",
+      "zh-tw": "婚禮柵欄",
+      "en": "wedding fence",
+      "es": "valla de boda",
+      "fr": "clôture de mariage"
+    }
+  },
+  "13275": {
+    "img": "FtrIcon/ItemFenceHalloween",
+    "sel": 585,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "万圣节栅栏",
+      "de": "Kürbiszaun",
+      "fr-fr": "clôture Halloween",
+      "it": "recinzione brividi",
+      "nl": "pompoenhek",
+      "ru": "жуткий забор",
+      "ja": "ハロウィンなさく",
+      "ko": "할로윈 울타리",
+      "zh-tw": "萬聖節柵欄",
+      "fr-us": "clôture frisson",
+      "en": "spooky fence",
+      "es": "valla calabaza"
+    }
+  },
+  "14278": {
+    "img": "FtrIcon/ItemFenceMermaid",
+    "sel": 1310,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "1.7.0",
+    "loc": {
+      "zh-cn": "人鱼栅栏",
+      "de": "Nixenzaun",
+      "it": "recinzione sirena",
+      "nl": "meerminnenhek",
+      "ru": "забор русалки",
+      "ja": "マーメイドなさく",
+      "ko": "머메이드 울타리",
+      "zh-tw": "人魚柵欄",
+      "en": "mermaid fence",
+      "es": "valla sirena",
+      "fr": "clôture sirène"
+    }
+  },
+  "14755": {
+    "img": "FtrIcon/ItemFenceCrossedBamboo",
+    "sel": 96,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "chn12",
+      "ocp04"
+    ],
+    "loc": {
+      "zh-cn": "青竹栅栏",
+      "de": "Grün-Bambuszaun",
+      "it": "recinzione bambù verde",
+      "nl": "groen bamboehek",
+      "ru": "зелен. забор из бамбука",
+      "ja": "あおたけのさく",
+      "ko": "초록 대나무 울타리",
+      "zh-tw": "青竹柵欄",
+      "en": "green bamboo fence",
+      "es": "valla de bambú verde",
+      "fr": "clôture bambou vert"
+    }
+  },
+  "14756": {
+    "ipf": "FtrIcon/ItemFenceIce_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0"
+    ],
+    "var": [
+      "ice",
+      "ice_blue_2",
+      "ice_pink",
+      "ice_yellow",
+      "ice_orange",
+      "ice_green",
+      "ice_purple"
+    ],
+    "sel": 200,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "evt": "snowflake",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "冰栅栏",
+      "de": "Eiszaun",
+      "it": "recinzione iceberg",
+      "nl": "ijshek",
+      "ru": "ледяной забор",
+      "ja": "こおりのさく",
+      "ko": "얼음 울타리",
+      "zh-tw": "冰柵欄",
+      "en": "frozen fence",
+      "es": "valla iceberg",
+      "fr": "clôture arctique"
+    }
+  },
+  "14757": {
+    "img": "FtrIcon/ItemFenceSandProtection",
+    "sel": 48,
+    "stk": 50,
+    "cat": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "竹帘栅栏",
+      "de": "Bambus-Lamellenzaun",
+      "it": "recinzione stecche bambù",
+      "nl": "bamboelattenhek",
+      "ru": "штакетник из бамбука",
+      "ja": "すだれのさく",
+      "ko": "대나무 발 울타리",
+      "zh-tw": "竹簾柵欄",
+      "en": "bamboo-slats fence",
+      "es": "valla listones bambú",
+      "fr": "clôture lattes bambou"
+    }
+  },
+  "14758": {
+    "ipf": "FtrIcon/ItemFenceCorrugatedIron_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "gray",
+      "yellow",
+      "green",
+      "blue",
+      "red",
+      "white",
+      "black",
+      "brown"
+    ],
+    "sel": 261,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": "mnk08",
+    "loc": {
+      "zh-cn": "铁皮栅栏",
+      "de": "Blechzaun",
+      "it": "recinzione di ferro ondulato",
+      "nl": "golfplatenhek",
+      "ru": "ржавый железн. забор",
+      "ja": "トタンのさく",
+      "ko": "슬레이트 울타리",
+      "zh-tw": "鐵皮柵欄",
+      "en": "corrugated iron fence",
+      "es": "valla de chapa ondulada",
+      "fr": "clôture tôle ondulée"
+    }
+  },
+  "14759": {
+    "ipf": "FtrIcon/ItemFencePark_Remake_",
+    "img": [
+      "0_0",
+      "1_0",
+      "2_0",
+      "3_0",
+      "4_0",
+      "5_0",
+      "6_0",
+      "7_0"
+    ],
+    "var": [
+      "blue",
+      "red",
+      "yellow",
+      "lime",
+      "pink",
+      "red_yellow_2",
+      "pink_blue",
+      "orange_green"
+    ],
+    "sel": 375,
+    "kit": 1,
+    "ktt": 1,
+    "ccp": 1000,
+    "stk": 50,
+    "cat": true,
+    "bcu": true,
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "dog01",
+      "lon07"
+    ],
+    "loc": {
+      "zh-cn": "公园栅栏",
+      "de": "Parkzaun",
+      "it": "recinzione da parco",
+      "nl": "parkhek",
+      "ru": "забор детской площадки",
+      "ja": "こうえんのさく",
+      "ko": "공원 울타리",
+      "zh-tw": "公園柵欄",
+      "en": "park fence",
+      "es": "valla de parque infantil",
+      "fr": "clôture aire de jeu"
+    }
+  }
+}

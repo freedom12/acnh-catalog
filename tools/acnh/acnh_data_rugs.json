@@ -1,0 +1,8567 @@
+{
+  "1293": {
+    "img": "FtrIcon/RugOtherLEGOM00",
+    "clr": [
+      "yellow",
+      "red"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "lego",
+    "has": [
+      "childs_room",
+      "space"
+    ],
+    "sze": "3x2",
+    "src": "nook_shopping_promo",
+    "vad": "3.0.0",
+    "loc": {
+      "zh-cn": "LEGO®太空任务地毯",
+      "de": "LEGO®-Weltraum-Teppich",
+      "it": "tappeto logo spazio LEGO®",
+      "nl": "LEGO®-ruimtelogotapijt",
+      "ru": "космический ковер LEGO®",
+      "ja": "LEGO®スペースミッションラグ",
+      "ko": "LEGO® 우주 미션 러그",
+      "zh-tw": "LEGO®太空任務地毯",
+      "en": "LEGO® space logo rug",
+      "es": "alfombra LEGO® espacial",
+      "fr": "tapis logo espace LEGO®"
+    }
+  },
+  "7322": {
+    "img": "FtrIcon/RugOtherHeartM00",
+    "clr": "pink",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr18",
+      "der09",
+      "dog06",
+      "elp02",
+      "flg04",
+      "ost07",
+      "rbt10",
+      "rbt14",
+      "shp01",
+      "squ13"
+    ],
+    "loc": {
+      "zh-cn": "粉红色爱心地毯",
+      "de": "Rosa-Herzteppich",
+      "it": "tappeto amore rosa",
+      "nl": "roze hartjestapijt",
+      "ru": "розовый ковер-сердце",
+      "ja": "ピンクハートのラグ",
+      "ko": "핑크 하트 러그",
+      "zh-tw": "粉紅色愛心地毯",
+      "en": "pink heart rug",
+      "es": "alfombra amor rosa",
+      "fr": "tapis amour rose"
+    }
+  },
+  "7323": {
+    "img": "FtrIcon/RugRectDeckM00",
+    "clr": "brown",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "outdoors",
+      "garden"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd09",
+      "der12",
+      "dog08",
+      "goa09",
+      "ham09",
+      "hrs03",
+      "hrs07",
+      "kgr01",
+      "kgr09",
+      "lon04",
+      "pig00"
+    ],
+    "loc": {
+      "zh-cn": "茶色仿木板地毯",
+      "de": "Braun-Rustikalteppich",
+      "it": "tappeto legno marrone",
+      "nl": "bruin vlondertapijt",
+      "ru": "коричн. ковер под дерево",
+      "ja": "ちゃいろいウッドデッキのラグ",
+      "ko": "갈색 우드 덱 러그",
+      "zh-tw": "茶色木甲板地毯",
+      "en": "brown wooden-deck rug",
+      "es": "alfombra tablas marrón",
+      "fr": "tapis parquet marron"
+    }
+  },
+  "7324": {
+    "img": "FtrIcon/RugRectDoormatS00",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "school",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant00",
+      "bea05",
+      "bea11",
+      "cat05",
+      "cat08",
+      "cbr01",
+      "cbr06",
+      "cbr10",
+      "dog14",
+      "flg10",
+      "goa02",
+      "gor02",
+      "ham07",
+      "hrs01",
+      "hrs03",
+      "mus09",
+      "mus10",
+      "pbr10",
+      "pgn00",
+      "shp09",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "坚硬地垫",
+      "de": "Rau-Matte",
+      "it": "tappetino ruvido",
+      "nl": "ruw tapijt",
+      "ru": "ковер из груб. материала",
+      "ja": "ハードマット",
+      "ko": "하드 매트",
+      "zh-tw": "硬地墊",
+      "en": "rough rug",
+      "es": "felpudo robusto",
+      "fr": "paillasson"
+    }
+  },
+  "7325": {
+    "img": "FtrIcon/RugRoundSimpleM00",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "cat01",
+      "cat17",
+      "cbr18",
+      "der02",
+      "dog09",
+      "elp09",
+      "flg00",
+      "flg19",
+      "goa04",
+      "hrs06",
+      "kal03",
+      "kal09",
+      "lon06",
+      "lon08",
+      "mus01",
+      "ost04",
+      "pbr00",
+      "pbr08",
+      "pgn02",
+      "pgn03",
+      "rbt08",
+      "rbt21",
+      "squ01",
+      "squ07",
+      "squ16",
+      "tig02",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "象牙色圆地垫M",
+      "de": "Creme-Rundmatte M",
+      "it": "tappetino tondo avorio M",
+      "nl": "ivoorwitte ronde mat",
+      "ru": "круглый беж. коврик M",
+      "ja": "アイボリーのラウンドマット・M",
+      "ko": "아이보리 라운드 매트 M",
+      "zh-tw": "中型象牙色圓地墊",
+      "en": "ivory medium round mat",
+      "es": "alfombra redonda marfil M",
+      "fr": "tapis rond ivoire M"
+    }
+  },
+  "7327": {
+    "img": "FtrIcon/RugOtherAppleM00",
+    "clr": "red",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "fruits",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "cbr09",
+      "duk12",
+      "gor09",
+      "gor11",
+      "kal07",
+      "kgr02",
+      "kgr08",
+      "mus15",
+      "shp15"
+    ],
+    "loc": {
+      "zh-cn": "苹果地毯",
+      "de": "Apfel-Teppich",
+      "it": "tappeto mela",
+      "nl": "appeltapijt",
+      "ru": "ковер-яблоко",
+      "ja": "リンゴのラグ",
+      "ko": "사과 러그",
+      "zh-tw": "蘋果地毯",
+      "en": "apple rug",
+      "es": "alfombra manzana",
+      "fr": "tapis pomme"
+    }
+  },
+  "7328": {
+    "img": "FtrIcon/RugOtherCherryM00",
+    "clr": "red",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "fruits",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "cat01",
+      "cbr17",
+      "duk12",
+      "kgr08",
+      "shp15"
+    ],
+    "loc": {
+      "zh-cn": "樱桃地毯",
+      "de": "Kirsch-Teppich",
+      "it": "tappeto ciliegia",
+      "nl": "kersentapijt",
+      "ru": "ковер-вишни",
+      "ja": "さくらんぼのラグ",
+      "ko": "체리 러그",
+      "zh-tw": "櫻桃地毯",
+      "en": "cherry rug",
+      "es": "alfombra cerezas",
+      "fr": "tapis cerises"
+    }
+  },
+  "7329": {
+    "img": "FtrIcon/RugOtherCloudM00",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd17",
+      "cbr04",
+      "chn01",
+      "cow07",
+      "dog02",
+      "duk06",
+      "duk17",
+      "elp09",
+      "goa07",
+      "ham05",
+      "kal00",
+      "lon07",
+      "mnk07",
+      "ost10",
+      "rbt07",
+      "rbt12",
+      "shp08",
+      "shp12",
+      "shp13",
+      "squ00",
+      "squ05",
+      "squ13"
+    ],
+    "loc": {
+      "zh-cn": "软软地毯",
+      "de": "Plüschteppich",
+      "it": "tappeto morbido",
+      "nl": "donzig tapijt",
+      "ru": "плюшевый ковер",
+      "ja": "もくもくのラグ",
+      "ko": "몽실몽실 러그",
+      "zh-tw": "雲朵地毯",
+      "en": "fluffy rug",
+      "es": "alfombra nube",
+      "fr": "tapis nimbus"
+    }
+  },
+  "7330": {
+    "img": "FtrIcon/RugOtherOrangeM00",
+    "clr": "orange",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "fruits",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "cat04",
+      "cat06",
+      "cbr09",
+      "kgr08",
+      "mnk01",
+      "shp15",
+      "squ10"
+    ],
+    "loc": {
+      "de": "Orangen-Teppich",
+      "it": "tappeto arancia",
+      "nl": "sinaasappeltapijt",
+      "ru": "ковер-апельсин",
+      "ja": "オレンジのラグ",
+      "ko": "오렌지 러그",
+      "en": "orange rug",
+      "es": "alfombra rodaja de naranja",
+      "fr": "tapis orange",
+      "zh": "橘子地毯"
+    }
+  },
+  "7331": {
+    "img": "FtrIcon/RugOtherPeachM00",
+    "clr": "pink",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "fruits",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "kgr08",
+      "ost07",
+      "shp15"
+    ],
+    "loc": {
+      "de": "Pfirsich-Teppich",
+      "es-es": "alfombra melocotón",
+      "it": "tappeto pesca",
+      "nl": "perziktapijt",
+      "ru": "ковер-персик",
+      "ja": "モモのラグ",
+      "ko": "복숭아 러그",
+      "es-us": "alfombra durazno",
+      "en": "peach rug",
+      "fr": "tapis pêche",
+      "zh": "桃子地毯"
+    }
+  },
+  "7332": {
+    "img": "FtrIcon/RugOtherPearM00",
+    "clr": "green",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "fruits",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "chn13",
+      "gor11",
+      "kal07",
+      "kgr08",
+      "shp15"
+    ],
+    "loc": {
+      "de": "Birnen-Teppich",
+      "it": "tappeto pera",
+      "nl": "peertapijt",
+      "ru": "ковер-груша",
+      "ja": "ナシのラグ",
+      "ko": "배 러그",
+      "en": "pear rug",
+      "es": "alfombra pera",
+      "fr": "tapis poire",
+      "zh": "梨子地毯"
+    }
+  },
+  "7333": {
+    "img": "FtrIcon/RugRectBathmatS00",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "bathroom",
+      "public_bath"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea03",
+      "der00",
+      "dog18",
+      "duk04",
+      "flg02",
+      "ham02",
+      "hip08",
+      "hrs05",
+      "hrs10",
+      "shp02",
+      "squ16"
+    ],
+    "loc": {
+      "zh-cn": "象牙色简约浴室地垫",
+      "de": "Creme-Badematte",
+      "it": "tappetino bagno avorio",
+      "nl": "simpele ivoorwitte badmat",
+      "ru": "бежевый коврик (душ)",
+      "ja": "アイボリーのシンプルバスマット",
+      "ko": "아이보리 심플 욕실 매트",
+      "zh-tw": "象牙色簡約浴室地墊",
+      "en": "ivory simple bath mat",
+      "es": "alfombra baño marfil",
+      "fr": "tapis de bain simple ivoire"
+    }
+  },
+  "7334": {
+    "img": "FtrIcon/RugRoundSimpleS00",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "cat15",
+      "duk12",
+      "flg04",
+      "hrs05",
+      "kal03",
+      "lon06",
+      "ocp02",
+      "pgn02",
+      "pig16",
+      "rbt21",
+      "squ01",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "象牙色圆形地垫S",
+      "de": "Creme-Rundmatte S",
+      "fr-fr": "tapis rond ivoire S",
+      "it": "tappetino tondo avorio S",
+      "nl": "kleine ivoorwitte ronde mat",
+      "ru": "круглый беж. коврик S",
+      "ja": "アイボリーのラウンドマット・S",
+      "ko": "아이보리 라운드 매트 S",
+      "zh-tw": "小型象牙色圓地墊",
+      "fr-us": "tapis rond ivoire P",
+      "en": "ivory small round mat",
+      "es": "alfombra redonda marfil P"
+    }
+  },
+  "7335": {
+    "img": "FtrIcon/RugSquareSimpleM00",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der01",
+      "dog03",
+      "hip00",
+      "hip03",
+      "hrs02",
+      "pgn09",
+      "rbt02"
+    ],
+    "loc": {
+      "zh-cn": "白色简约地垫M",
+      "de": "Weiß-Standardmatte M",
+      "it": "tappetino bianco M",
+      "nl": "simpele witte mat",
+      "ru": "обычный бел. коврик M",
+      "ja": "しろいシンプルマット・M",
+      "ko": "하얀 심플 매트 M",
+      "zh-tw": "中型白色簡約地墊",
+      "en": "white simple medium mat",
+      "es": "alfombra sencilla blanca M",
+      "fr": "tapis simple ivoire M"
+    }
+  },
+  "7336": {
+    "img": "FtrIcon/RugSquareSimpleS00",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der01",
+      "elp02",
+      "hip03",
+      "ocp02",
+      "shp00",
+      "wol02",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "白色简约地垫S",
+      "de": "Weiß-Standardmatte S",
+      "fr-fr": "tapis simple ivoire S",
+      "it": "tappetino bianco S",
+      "nl": "simpele kleine witte mat",
+      "ru": "белый коврик S",
+      "ja": "しろいシンプルマット・S",
+      "ko": "하얀 심플 매트 S",
+      "zh-tw": "小型白色簡約地墊",
+      "fr-us": "tapis simple ivoire P",
+      "en": "white simple small mat",
+      "es": "alfombra sencilla blanca P"
+    }
+  },
+  "7337": {
+    "img": "FtrIcon/RugRectIronmatS00",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "hat": "iron",
+    "has": [
+      "shop",
+      "cafe"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea08",
+      "bea13",
+      "cat10",
+      "cat13",
+      "chn10",
+      "cow00",
+      "der05",
+      "dog04",
+      "duk13",
+      "elp12",
+      "flg09",
+      "goa00",
+      "goa04",
+      "goa06",
+      "ham03",
+      "hrs11",
+      "mnk02",
+      "mus12",
+      "pbr09",
+      "rbt05",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "铸铁玄关地垫",
+      "de": "Eisengitter-Matte",
+      "it": "tappetino ingresso in ferro",
+      "nl": "ijzeren welkomstmat",
+      "ru": "коврик с решеткой",
+      "ja": "アイアンなげんかんマット",
+      "ko": "아이언 현관 매트",
+      "zh-tw": "鑄鐵玄關地墊",
+      "en": "iron entrance mat",
+      "es": "felpudo de hierro",
+      "fr": "paillasson en fer forgé"
+    }
+  },
+  "7338": {
+    "img": "FtrIcon/RugOtherMessageS00",
+    "clr": "white",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "childs_room",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd02",
+      "cat23",
+      "cbr07",
+      "duk00",
+      "duk01",
+      "duk03",
+      "duk13",
+      "duk17",
+      "elp00",
+      "flg11",
+      "gor08",
+      "mus12",
+      "ost00",
+      "pbr09",
+      "pig09",
+      "rbt09",
+      "squ07",
+      "squ15",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "白色信息地垫",
+      "de": "Weiß-Textmatte",
+      "it": "tappetino benvenuto bianco",
+      "nl": "witte boodschapmat",
+      "ru": "белый коврик с текстом",
+      "ja": "しろいメッセージマット",
+      "ko": "하얀 메시지 매트",
+      "zh-tw": "白色訊息地墊",
+      "en": "white message mat",
+      "es": "alfombra bocadillo blanca",
+      "fr": "paillasson à message blanc"
+    }
+  },
+  "7339": {
+    "img": "FtrIcon/RugRectRubberScraperS00",
+    "clr": "green",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "school",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant00",
+      "brd18",
+      "cat11",
+      "cat14",
+      "cat19",
+      "cbr06",
+      "cbr15",
+      "dog04",
+      "duk08",
+      "flg10",
+      "flg18",
+      "goa00",
+      "goa02",
+      "gor02",
+      "gor04",
+      "gor05",
+      "kal03",
+      "lon01",
+      "mus16",
+      "pbr03",
+      "pgn00",
+      "pgn04",
+      "pig04",
+      "pig08",
+      "rhn04",
+      "rhn05",
+      "squ20",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "橡胶除泥地垫",
+      "de": "Gummi-Schmutzmatte",
+      "it": "tappetino melma di gomma",
+      "nl": "rubberen moddermat",
+      "ru": "резиновый коврик",
+      "ja": "ゴムのどろふきマット",
+      "ko": "고무 신발 닦이 매트",
+      "zh-tw": "塑膠刮泥墊",
+      "en": "rubber mud mat",
+      "es": "felpudo de caucho",
+      "fr": "paillasson en caoutchouc"
+    }
+  },
+  "7340": {
+    "img": "FtrIcon/RugRectNativeKitchenS00",
+    "clr": [
+      "red",
+      "black"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "mus04",
+      "ost10",
+      "wol01"
+    ],
+    "loc": {
+      "zh-cn": "红色图案厨房地垫",
+      "de": "Rotmuster-Matte",
+      "it": "tappeto cucina design rosso",
+      "nl": "rode designkeukenmat",
+      "ru": "коврик с красным узором",
+      "ja": "あかいパターンキッチンマット",
+      "ko": "빨간 패턴 키친 매트",
+      "zh-tw": "紅色圖案廚房地墊",
+      "en": "red-design kitchen mat",
+      "es": "alfombra étnica roja",
+      "fr": "tapis cuisine à motifs rouge"
+    }
+  },
+  "7341": {
+    "img": "FtrIcon/RugRectKitchenS00",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant08",
+      "bea03",
+      "bea05",
+      "chn02",
+      "dog14",
+      "duk11",
+      "gor04",
+      "hip04",
+      "mnk08",
+      "mus17",
+      "rhn00",
+      "squ01"
+    ],
+    "loc": {
+      "zh-cn": "茶色厨房地垫",
+      "de": "Braun-Küchenmatte",
+      "fr-fr": "tapis de cuisine marron",
+      "it": "tappetino cucina marrone",
+      "nl": "bruine keukenmat",
+      "ru": "коричн. коврик на кухню",
+      "ja": "ちゃいろいキッチンマット",
+      "ko": "갈색 키친 매트",
+      "zh-tw": "茶色廚房地墊",
+      "fr-us": "tapis de cuisine brun",
+      "en": "brown kitchen mat",
+      "es": "alfombra cocina marrón"
+    }
+  },
+  "7343": {
+    "img": "FtrIcon/RugSquareCheckQuiltL00",
+    "clr": [
+      "red",
+      "blue"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der08",
+      "elp04",
+      "hrs01",
+      "kal09",
+      "mus16",
+      "pgn05",
+      "rbt20",
+      "squ04"
+    ],
+    "loc": {
+      "zh-cn": "红蓝格纹布地毯",
+      "de": "Rot-Blau-Karoteppich",
+      "it": "tappeto tartan rosso e blu",
+      "nl": "rood-blauw geruit tapijt",
+      "ru": "красно-син. ковер в клетку",
+      "ja": "あかあおチェックキルトのラグ",
+      "ko": "빨강 파랑 체크 퀼트 러그",
+      "zh-tw": "紅藍格紋拼布地毯",
+      "en": "red-and-blue checked rug",
+      "es": "alfombra tartán roja y azul",
+      "fr": "tapis tartan rouge et bleu"
+    }
+  },
+  "7345": {
+    "img": "FtrIcon/RugSquareOldStrawL00",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "harmonious",
+      "horror"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea03",
+      "brd06",
+      "brd20",
+      "cbr01",
+      "cbr05",
+      "cbr15",
+      "dog00",
+      "dog14",
+      "dog17",
+      "dog18",
+      "elp06",
+      "flg03",
+      "flg09",
+      "goa01",
+      "gor01",
+      "ham03",
+      "ham05",
+      "hip04",
+      "hrs03",
+      "kgr05",
+      "mnk09",
+      "mus02",
+      "mus05",
+      "ocp00",
+      "ost06",
+      "pbr01",
+      "rbt00",
+      "rhn05",
+      "squ18"
+    ],
+    "loc": {
+      "zh-cn": "老旧草席",
+      "de": "Schilfteppich",
+      "it": "tappeto capanna",
+      "nl": "rietmat",
+      "ru": "камышовая циновка",
+      "ja": "ふるいむしろのラグ",
+      "ko": "낡은 멍석 러그",
+      "zh-tw": "舊草蓆",
+      "en": "shanty mat",
+      "es": "alfombra cañizo",
+      "fr": "tapis de paille"
+    }
+  },
+  "7346": {
+    "img": "FtrIcon/RugRoundSnowM00",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "freezing_cold",
+      "fancy"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea07",
+      "gor08",
+      "ham04",
+      "pgn12",
+      "rbt07",
+      "tig02"
+    ],
+    "loc": {
+      "de": "Schneeflocken-Teppich",
+      "it": "tappeto fiocco di neve",
+      "nl": "sneeuwvloktapijt",
+      "ru": "ковер со снежинкой",
+      "ja": "スノーフレークなラグ",
+      "ko": "눈꽃 러그",
+      "en": "snowflake rug",
+      "es": "alfombra copo de nieve",
+      "fr": "tapis flocon",
+      "zh": "雪花地毯"
+    }
+  },
+  "7347": {
+    "img": "FtrIcon/RugSquarePersianL00",
+    "clr": [
+      "red",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "expensive",
+      "living_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "ant03",
+      "brd01",
+      "cat16",
+      "cat21",
+      "chn05",
+      "dog05",
+      "flg07",
+      "flg09",
+      "ham06",
+      "hrs09",
+      "hrs16",
+      "kal05",
+      "mnk02",
+      "mnk07",
+      "pig11",
+      "rbt05",
+      "rhn07",
+      "shp00",
+      "squ04"
+    ],
+    "loc": {
+      "zh-cn": "红色波斯地毯",
+      "de": "Rot-Klassikteppich",
+      "it": "tappeto antico rosso",
+      "nl": "rood Perzisch tapijt",
+      "ru": "красный персидск. ковер",
+      "ja": "あかいペルシャじゅうたん",
+      "ko": "빨간 페르시아 융단",
+      "zh-tw": "紅色波斯地毯",
+      "en": "red Persian rug",
+      "es": "alfombra clásica roja",
+      "fr": "tapis persan rouge"
+    }
+  },
+  "7348": {
+    "img": "FtrIcon/RugRectElegantM00",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "expensive",
+      "party"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea09",
+      "bea10",
+      "bea14",
+      "cat07",
+      "cat16",
+      "cat17",
+      "cbr18",
+      "chn05",
+      "chn10",
+      "crd07",
+      "dog06",
+      "dog15",
+      "duk09",
+      "elp00",
+      "goa04",
+      "hrs12",
+      "kal08",
+      "kgr01",
+      "kgr10",
+      "mnk03",
+      "mus03",
+      "pgn10",
+      "pig10",
+      "rbt05",
+      "rbt06",
+      "rbt11",
+      "rhn01",
+      "rhn08",
+      "shp10",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "红色地毯",
+      "de": "Rot-Teppich",
+      "it": "tappeto rosso",
+      "nl": "rood tapijt",
+      "ru": "красный ковер",
+      "ja": "レッドカーペット",
+      "ko": "레드 카펫",
+      "zh-tw": "紅地毯",
+      "en": "red carpet",
+      "es": "alfombra roja",
+      "fr": "tapis rouge"
+    }
+  },
+  "7349": {
+    "img": "FtrIcon/RugRectDotL00",
+    "clr": [
+      "black",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "kgr06",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "单色点点地毯",
+      "de": "Monochrom-Tüpfelteppich",
+      "it": "tappeto monocromo a pois",
+      "nl": "zwart-wit stippentapijt",
+      "ru": "монохромн. ковер в горох",
+      "ja": "モノクロドットのラグ",
+      "ko": "흑백 도트 러그",
+      "zh-tw": "灰階配色點點地墊",
+      "en": "monochromatic dotted rug",
+      "es": "alfombra pastel monocroma",
+      "fr": "tapis à pois monochrome"
+    }
+  },
+  "7350": {
+    "img": "FtrIcon/RugRectWaveL00",
+    "clr": "colorful",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr16",
+      "cow06",
+      "der05",
+      "duk10",
+      "duk12",
+      "pig11",
+      "pig15",
+      "rbt09",
+      "tig04"
+    ],
+    "loc": {
+      "de": "Modern-Wellenteppich",
+      "it": "tappeto moderno a onde",
+      "nl": "modern golventapijt",
+      "ru": "современ. ковер «Волны»",
+      "ja": "モダンなウェーブのラグ",
+      "ko": "모던 웨이브 러그",
+      "en": "modern wavy rug",
+      "es": "alfombra ondas moderna",
+      "fr": "tapis vagues moderne",
+      "zh": "摩登波浪地毯"
+    }
+  },
+  "7351": {
+    "img": "FtrIcon/RugRectBorderL00",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr17",
+      "duk07",
+      "duk12",
+      "elp01",
+      "hip09",
+      "mus08",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "黄色粗条纹地毯",
+      "de": "Gelb-Streifenteppich",
+      "it": "tappeto a strisce gialle",
+      "nl": "geel gestreept tapijt",
+      "ru": "желтый ковер в полоску",
+      "ja": "きいろボーダーのラグ",
+      "ko": "노란 줄무늬 러그",
+      "zh-tw": "黃色粗橫紋地毯",
+      "en": "yellow stripes rug",
+      "es": "alfombra rayas amarilla",
+      "fr": "tapis à rayures jaunes"
+    }
+  },
+  "7352": {
+    "img": "FtrIcon/RugRectArgyleL00",
+    "clr": "yellow",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "fancy"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd02",
+      "elp06",
+      "hip09",
+      "rbt08",
+      "shp03"
+    ],
+    "loc": {
+      "zh-cn": "黄色菱格纹地毯",
+      "de": "Gelb-Argyle-Teppich",
+      "fr-fr": "tapis argyle jaune",
+      "it": "tappeto a rombi giallo",
+      "nl": "geel geruit tapijt",
+      "ru": "желтый ковер аргайл",
+      "ja": "きいろいアーガイルのラグ",
+      "ko": "노란 아가일 러그",
+      "zh-tw": "黃色菱格紋地毯",
+      "fr-us": "tapis écossais jaune",
+      "en": "yellow argyle rug",
+      "es": "alfombra rombos amarilla"
+    }
+  },
+  "7353": {
+    "img": "FtrIcon/RugRectBotanicalL00",
+    "clr": "green",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "ant06",
+      "bea12",
+      "cow01",
+      "duk16",
+      "hrs00",
+      "hrs13",
+      "kal02",
+      "kal10",
+      "pbr06",
+      "pig17",
+      "rbt13",
+      "rhn02",
+      "squ11",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "植物图案地毯",
+      "de": "Botanikteppich",
+      "it": "tappeto botanico",
+      "nl": "botanisch tapijt",
+      "ru": "ботанический ковер",
+      "ja": "ボタニカルなラグ",
+      "ko": "보태니컬 러그",
+      "zh-tw": "植物圖案地毯",
+      "en": "botanical rug",
+      "es": "alfombra botánica",
+      "fr": "tapis botanique"
+    }
+  },
+  "7354": {
+    "img": "FtrIcon/RugSquareShaggyL00",
+    "clr": "green",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd11",
+      "cat13",
+      "cow01",
+      "dog09",
+      "gor10",
+      "mus01",
+      "rbt20",
+      "rhn02",
+      "shp00"
+    ],
+    "loc": {
+      "zh-cn": "绿色长绒地毯",
+      "de": "Grün-Zottelteppich",
+      "es-es": "alfombra pelusilla verde",
+      "it": "tappeto peloso verde",
+      "nl": "groen harig tapijt",
+      "ru": "зеленый ковер с ворсом",
+      "ja": "みどりのシャギーなラグ",
+      "ko": "초록 복슬복슬 러그",
+      "zh-tw": "綠色長毛地毯",
+      "es-us": "alfombra mullida verde",
+      "en": "green shaggy rug",
+      "fr": "tapis à poil long vert"
+    }
+  },
+  "7356": {
+    "img": "FtrIcon/RugRectAluminumM00",
+    "clr": "gray",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "garden",
+      "outdoors"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant00",
+      "bea05",
+      "bea06",
+      "brd17",
+      "bul03",
+      "cat11",
+      "crd01",
+      "flg10",
+      "flg12",
+      "flg17",
+      "goa08",
+      "gor02",
+      "ham01",
+      "hip02",
+      "hip05",
+      "mnk06",
+      "mus12",
+      "mus16",
+      "ocp01",
+      "ost08",
+      "pgn00",
+      "pgn07",
+      "pgn09",
+      "pig04",
+      "pig13",
+      "rbt19",
+      "rhn04",
+      "shp13",
+      "squ09",
+      "squ18",
+      "wol05"
+    ],
+    "loc": {
+      "zh-cn": "铝制地垫",
+      "de": "Isomatte",
+      "it": "tappetino alluminio",
+      "nl": "aluminiumtapijt",
+      "ru": "алюминиевый коврик",
+      "ja": "アルミマット",
+      "ko": "알루미늄 매트",
+      "zh-tw": "鋁箔地墊",
+      "en": "aluminum rug",
+      "es": "alfombra de aluminio",
+      "fr": "tapis aluminium"
+    }
+  },
+  "7357": {
+    "img": "FtrIcon/RugRoundEarthM00",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "space",
+      "sci_fi"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat09",
+      "cat12",
+      "chn00",
+      "cow07",
+      "crd04",
+      "duk06",
+      "flg00",
+      "goa02",
+      "hip02",
+      "hrs11",
+      "ost05",
+      "pbr05",
+      "pig13",
+      "rbt07",
+      "rbt19",
+      "shp08"
+    ],
+    "loc": {
+      "de": "Weltteppich",
+      "it": "tappeto Terra",
+      "nl": "wereldboltapijt",
+      "ru": "ковер «Земля»",
+      "ja": "ちきゅうのラグ",
+      "ko": "지구 러그",
+      "en": "Earth rug",
+      "es": "alfombra mundo",
+      "fr": "tapis Terre",
+      "zh": "地球地毯"
+    }
+  },
+  "7358": {
+    "img": "FtrIcon/RugRoundIslandM00",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "ocean",
+      "resort"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea02",
+      "brd05",
+      "brd09",
+      "brd17",
+      "brd20",
+      "chn09",
+      "crd02",
+      "dog17",
+      "duk16",
+      "goa07",
+      "ham09",
+      "kgr09",
+      "lon04",
+      "mus19",
+      "pbr06",
+      "pgn01",
+      "rbt13",
+      "rbt15",
+      "rbt16"
+    ],
+    "loc": {
+      "zh-cn": "热带岛屿地毯",
+      "de": "Tropikteppich",
+      "it": "tappeto tropicale",
+      "nl": "tropisch tapijt",
+      "ru": "тропический ковер",
+      "ja": "みなみのしまのラグ",
+      "ko": "남쪽 섬 러그",
+      "zh-tw": "南方小島地毯",
+      "en": "tropical rug",
+      "es": "alfombra tropical",
+      "fr": "tapis tropical"
+    }
+  },
+  "7359": {
+    "img": "FtrIcon/RugRectVinylM00",
+    "clr": "colorful",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "ocean",
+      "resort"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea02",
+      "brd04",
+      "brd05",
+      "brd09",
+      "brd17",
+      "bul08",
+      "cat09",
+      "cbr04",
+      "chn09",
+      "der06",
+      "dog01",
+      "dog04",
+      "dog05",
+      "dog10",
+      "dog16",
+      "dog17",
+      "duk02",
+      "kal04",
+      "kgr00",
+      "kgr02",
+      "kgr09",
+      "lon01",
+      "lon07",
+      "mus09",
+      "mus18",
+      "pgn00",
+      "pgn05",
+      "shp04",
+      "shp13"
+    ],
+    "loc": {
+      "zh-cn": "彩色塑胶垫",
+      "de": "Bunt-Vinyltuch",
+      "it": "tappeto vinile colorato",
+      "nl": "kleurrijke vinylmat",
+      "ru": "пестрый винил. коврик",
+      "ja": "カラフルなビニールシート",
+      "ko": "컬러풀 비닐 시트",
+      "zh-tw": "彩色塑膠墊",
+      "en": "colorful vinyl sheet",
+      "es": "alfombra de vinilo colorida",
+      "fr": "tapis vinyle coloré"
+    }
+  },
+  "7360": {
+    "img": "FtrIcon/RugRoundLadybirdM00",
+    "clr": [
+      "red",
+      "black"
+    ],
+    "sel": 375,
+    "hap": 501,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "flick",
+    "evt": [
+      "bug_tournament",
+      "bug_tournament_2",
+      "bug_tournament_3",
+      "bug_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "瓢虫地毯",
+      "de": "Marienkäferteppich",
+      "es-es": "alfombra mariquita",
+      "it": "tappeto coccinella",
+      "nl": "lieveheersbeestjetapijt",
+      "ru": "ковер «Божья коровка»",
+      "ja": "テントウムシのラグ",
+      "ko": "무당벌레 러그",
+      "zh-tw": "瓢蟲地毯",
+      "es-us": "alfombra catarina",
+      "en": "ladybug rug",
+      "fr": "tapis coccinelle"
+    }
+  },
+  "7361": {
+    "img": "FtrIcon/RugOtherFishM00",
+    "clr": "aqua",
+    "sel": 375,
+    "hap": 501,
+    "has": [
+      "ocean",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "cj",
+    "evt": [
+      "fish_tournament",
+      "fish_tournament_2",
+      "fish_tournament_3",
+      "fish_tournament_4"
+    ],
+    "loc": {
+      "zh-cn": "鱼儿地毯",
+      "de": "Fischteppich",
+      "it": "tappeto pesce",
+      "nl": "vistapijt",
+      "ru": "ковер-рыба",
+      "ja": "おサカナのラグ",
+      "ko": "물고기 러그",
+      "zh-tw": "魚兒地毯",
+      "en": "fish rug",
+      "es": "alfombra pez",
+      "fr": "tapis poisson"
+    }
+  },
+  "7362": {
+    "img": "FtrIcon/RugOtherShellM00",
+    "clr": [
+      "beige",
+      "pink"
+    ],
+    "sel": 5400,
+    "hap": 103,
+    "hat": "shell",
+    "has": [
+      "ocean",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "hui": [
+      "duk05",
+      "duk16",
+      "kgr02",
+      "mus19",
+      "rbt16",
+      "shp02",
+      "squ17"
+    ],
+    "loc": {
+      "zh-cn": "贝壳地毯",
+      "de": "Muschelteppich",
+      "es-es": "alfombra concha",
+      "it": "tappeto conchiglia",
+      "nl": "schelptapijt",
+      "ru": "ковер-ракушка",
+      "ja": "かいがらのラグ",
+      "ko": "조개껍데기 러그",
+      "zh-tw": "貝殼地毯",
+      "es-us": "alfombra concha marina",
+      "en": "shell rug",
+      "fr": "tapis coquillage"
+    }
+  },
+  "7363": {
+    "img": "FtrIcon/RugOtherMushM00",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "hat": "mush",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea10",
+      "crd00",
+      "der03",
+      "elp00",
+      "kal00"
+    ],
+    "loc": {
+      "de": "Pilzteppich",
+      "es-es": "alfombra setas",
+      "it": "tappeto funghi",
+      "nl": "paddenstoelentapijt",
+      "ru": "грибной ковер",
+      "ja": "キノコのラグ",
+      "ko": "버섯 러그",
+      "es-us": "alfombra hongo",
+      "en": "mush rug",
+      "fr": "tapis champignons",
+      "zh": "蘑菇地毯"
+    }
+  },
+  "7364": {
+    "img": "FtrIcon/RugOtherLeafM00",
+    "clr": "green",
+    "sel": 5000,
+    "exp": 1000,
+    "exc": 0,
+    "hap": 151,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_miles",
+    "loc": {
+      "de": "Nook-Inc.-Teppich",
+      "it": "tappeto Nook Inc.",
+      "nl": "Nook Inc.-tapijt",
+      "ru": "ковер Nook Inc.",
+      "ja": "たぬきかいはつのラグ",
+      "ko": "Nook Inc. 러그",
+      "en": "Nook Inc. rug",
+      "es": "alfombra de Nook Inc.",
+      "fr": "tapis Nook Inc.",
+      "zh": "Nook Inc.地毯"
+    }
+  },
+  "7365": {
+    "img": "FtrIcon/RugOtherRoseM00",
+    "clr": "pink",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea07",
+      "bea15",
+      "cow01",
+      "duk03",
+      "elp02",
+      "mnk05",
+      "shp01",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "粉红色玫瑰地毯",
+      "de": "Rosa-Rosenteppich",
+      "it": "tappeto rosa rosa",
+      "nl": "rozeroostapijt",
+      "ru": "розовый ковер-роза",
+      "ja": "ピンクローズのラグ",
+      "ko": "핑크 로즈 러그",
+      "zh-tw": "粉紅色玫瑰地毯",
+      "en": "pink rose rug",
+      "es": "alfombra rosa rosada",
+      "fr": "tapis rose rose"
+    }
+  },
+  "7366": {
+    "img": "FtrIcon/RugOtherFossilM00",
+    "clr": [
+      "purple",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": "cbr05",
+    "loc": {
+      "de": "Fossilienteppich",
+      "it": "tappeto fossile",
+      "nl": "fossieltapijt",
+      "ru": "ковер с окаменелостями",
+      "ja": "かせきのラグ",
+      "ko": "화석 러그",
+      "en": "fossil rug",
+      "es": "alfombra fósil",
+      "fr": "tapis fossile",
+      "zh": "化石地毯"
+    }
+  },
+  "7367": {
+    "img": "FtrIcon/RugRoundMagicM00",
+    "clr": "purple",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "horror",
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bul00",
+      "cat07",
+      "crd04",
+      "der07",
+      "flg16",
+      "pig02"
+    ],
+    "loc": {
+      "zh-cn": "魔法阵地毯",
+      "de": "Zauberkreisteppich",
+      "it": "tappeto esoterico",
+      "nl": "magisch cirkeltapijt",
+      "ru": "ковер «Магический круг»",
+      "ja": "まほうじんのラグ",
+      "ko": "마법진 러그",
+      "zh-tw": "魔法陣地毯",
+      "en": "magic-circle rug",
+      "es": "alfombra vidente",
+      "fr": "tapis ésotérique"
+    }
+  },
+  "7368": {
+    "img": "FtrIcon/RugRoundLaceM00",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant05",
+      "brd01",
+      "cat05",
+      "cat10",
+      "cow07",
+      "der09",
+      "dog03",
+      "duk01",
+      "duk05",
+      "elp07",
+      "ham04",
+      "hrs04",
+      "mnk05",
+      "mus04",
+      "mus12",
+      "pbr07",
+      "pig16",
+      "rbt03",
+      "shp03",
+      "shp12",
+      "squ17"
+    ],
+    "loc": {
+      "zh-cn": "蕾丝地毯",
+      "de": "Spitzenteppich",
+      "it": "tappeto merlettato",
+      "nl": "kanten tapijt",
+      "ru": "кружевной ковер",
+      "ja": "レースのラグ",
+      "ko": "레이스 러그",
+      "zh-tw": "蕾絲地毯",
+      "en": "lacy rug",
+      "es": "alfombra encaje",
+      "fr": "tapis dentelle"
+    }
+  },
+  "7369": {
+    "img": "FtrIcon/RugRectTatamiM00",
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "harmonious",
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant08",
+      "brd06",
+      "cat00",
+      "cat03",
+      "cat06",
+      "cbr15",
+      "chn12",
+      "der00",
+      "der10",
+      "dog11",
+      "dog14",
+      "duk00",
+      "flg03",
+      "kal10",
+      "kgr05",
+      "mnk09",
+      "mus05",
+      "mus14",
+      "ocp04",
+      "ost04",
+      "ost06",
+      "pig01",
+      "rbt01",
+      "rbt06",
+      "rbt18",
+      "shp07",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "一张榻榻米",
+      "de": "Tatami-Matte",
+      "it": "tappetino tatami",
+      "nl": "tatamimat",
+      "ru": "коврик-татами",
+      "ja": "いちじょうのたたみ",
+      "ko": "일본식 짚 깔개",
+      "zh-tw": "一張榻榻米",
+      "en": "tatami mat",
+      "es": "alfombra japonesa",
+      "fr": "tatami"
+    }
+  },
+  "7370": {
+    "img": "FtrIcon/RugOtherCountryS00",
+    "clr": "blue",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea11",
+      "cat00",
+      "cat05",
+      "cbr03",
+      "cbr10",
+      "der08",
+      "dog14",
+      "flg05",
+      "hip00",
+      "lon02",
+      "shp07",
+      "shp11",
+      "squ04",
+      "tig04"
+    ],
+    "loc": {
+      "zh-cn": "椭圆形玄关地垫",
+      "de": "Oval-Eingangsmatte",
+      "it": "tappetino ingresso ovale",
+      "nl": "ovalen welkomstmat",
+      "ru": "овальн. коврик под дверь",
+      "ja": "オーバルなげんかんマット",
+      "ko": "타원형 현관 매트",
+      "zh-tw": "橢圓形玄關地毯",
+      "en": "oval entrance mat",
+      "es": "felpudo ovalado",
+      "fr": "paillasson ovale"
+    }
+  },
+  "7371": {
+    "img": "FtrIcon/RugOtherSloppyL00",
+    "clr": "aqua",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "hat": "sloppy",
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea00",
+      "bea03",
+      "bea05",
+      "cbr15",
+      "der00",
+      "dog10",
+      "elp10",
+      "flg05",
+      "flg06",
+      "flg17",
+      "goa01",
+      "hip04",
+      "hip05",
+      "kgr08",
+      "mus05",
+      "pig01",
+      "rhn05",
+      "squ00"
+    ],
+    "loc": {
+      "de": "Schlamperteppich",
+      "it": "tappeto trasandato",
+      "nl": "slordig tapijt",
+      "ru": "неопрятный ковер",
+      "ja": "だらしないラグ",
+      "ko": "칠칠치 못한 러그",
+      "en": "sloppy rug",
+      "es": "alfombra desorden",
+      "fr": "carpette négligée",
+      "zh": "邋遢地毯"
+    }
+  },
+  "7380": {
+    "img": "FtrIcon/RugRectDeckM01",
+    "clr": "brown",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "outdoors",
+      "garden"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant06",
+      "bea13",
+      "brd20",
+      "bul01",
+      "dog01",
+      "flg02",
+      "flg03",
+      "gor00",
+      "ham00",
+      "ham02",
+      "hrs07",
+      "hrs10",
+      "kal07",
+      "lon07",
+      "mus03",
+      "pbr06",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "自然色仿木板地毯",
+      "de": "Natur-Rustikalteppich",
+      "it": "tappeto legno naturale",
+      "nl": "naturel houten dek",
+      "ru": "ковер под доски",
+      "ja": "ナチュラルなウッドデッキのラグ",
+      "ko": "내추럴 우드 덱 러그",
+      "zh-tw": "自然色木甲板地毯",
+      "en": "natural wooden-deck rug",
+      "es": "alfombra tablas natural",
+      "fr": "tapis parquet naturel"
+    }
+  },
+  "7381": {
+    "img": "FtrIcon/RugRectDeckM02",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "outdoors",
+      "garden"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd05",
+      "cbr07",
+      "crd06",
+      "gor10",
+      "ham09",
+      "hrs07",
+      "lon04",
+      "pbr08",
+      "pig17",
+      "rbt13",
+      "shp02"
+    ],
+    "loc": {
+      "zh-cn": "白色仿木板地毯",
+      "de": "Weiß-Rustikalteppich",
+      "it": "tappeto legno bianco",
+      "nl": "wit houten dek",
+      "ru": "белый ковер под доски",
+      "ja": "しろいウッドデッキのラグ",
+      "ko": "하얀 우드 덱 러그",
+      "zh-tw": "白色木甲板地毯",
+      "en": "white wooden-deck rug",
+      "es": "alfombra tablas blanca",
+      "fr": "tapis parquet blanc"
+    }
+  },
+  "7382": {
+    "img": "FtrIcon/RugRectDeckM03",
+    "clr": "black",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "outdoors",
+      "garden"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant09",
+      "crd02",
+      "goa09",
+      "ham05",
+      "hrs07",
+      "pig17"
+    ],
+    "loc": {
+      "zh-cn": "黑色仿木板地毯",
+      "de": "Schwarz-Rustikalteppich",
+      "it": "tappeto legno nero",
+      "nl": "zwart houten dek",
+      "ru": "черный ковер под доски",
+      "ja": "くろいウッドデッキのラグ",
+      "ko": "검정 우드 덱 러그",
+      "zh-tw": "黑色木甲板地毯",
+      "en": "black wooden-deck rug",
+      "es": "alfombra tablas negra",
+      "fr": "tapis parquet noir"
+    }
+  },
+  "7402": {
+    "img": "FtrIcon/RugRectMomS00",
+    "clr": "aqua",
+    "sel": 88,
+    "hap": 365,
+    "hat": "motherly",
+    "has": [
+      "fancy",
+      "kitchen"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "mom",
+    "loc": {
+      "zh-cn": "酷感妈妈的厨房地垫",
+      "de": "Cool-Matte von Mama",
+      "it": "tappeto spavaldo di mamma",
+      "nl": "mama's coole keukenmat",
+      "ru": "мамин броский ковер",
+      "ja": "クールなははのキッチンマット",
+      "ko": "쿨한 엄마의 키친 매트",
+      "zh-tw": "酷感媽媽廚房地墊",
+      "en": "Mom's cool kitchen mat",
+      "es": "alfombra de mamá azul",
+      "fr": "tap. cuisine de maman bleu"
+    }
+  },
+  "7403": {
+    "img": "FtrIcon/RugRectVinylM03",
+    "clr": [
+      "yellow",
+      "colorful"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "ocean",
+      "resort"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea06",
+      "cat19",
+      "cat20",
+      "cbr00",
+      "duk07",
+      "duk08",
+      "flg06",
+      "ham02",
+      "kgr00",
+      "kgr02",
+      "lon00",
+      "mnk06",
+      "mus18",
+      "ost01",
+      "pig03",
+      "tig00"
+    ],
+    "loc": {
+      "zh-cn": "黄色塑胶垫",
+      "de": "Gelb-Vinyltuch",
+      "it": "tappeto vinile giallo",
+      "nl": "gele vinylmat",
+      "ru": "желтый винил. коврик",
+      "ja": "きいろいビニールシート",
+      "ko": "노란 비닐 시트",
+      "zh-tw": "黃色塑膠墊",
+      "en": "yellow vinyl sheet",
+      "es": "alfombra de vinilo amarilla",
+      "fr": "tapis vinyle jaune"
+    }
+  },
+  "7404": {
+    "img": "FtrIcon/RugRectVinylM01",
+    "clr": [
+      "blue",
+      "colorful"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "ocean",
+      "resort"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd00",
+      "crd05",
+      "der06",
+      "der12",
+      "duk02",
+      "flg17",
+      "gor08",
+      "gor10",
+      "lon00",
+      "mus18",
+      "ocp00",
+      "ost09",
+      "pgn01",
+      "squ00",
+      "squ05",
+      "squ09",
+      "squ18",
+      "tig03",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "蓝色塑胶垫",
+      "de": "Blau-Vinyltuch",
+      "it": "tappeto vinile blu",
+      "nl": "blauwe vinylmat",
+      "ru": "синий винил. коврик",
+      "ja": "あおいビニールシート",
+      "ko": "파란 비닐 시트",
+      "zh-tw": "藍色塑膠墊",
+      "en": "blue vinyl sheet",
+      "es": "alfombra de vinilo azul",
+      "fr": "tapis vinyle bleu"
+    }
+  },
+  "7405": {
+    "img": "FtrIcon/RugRectVinylM02",
+    "clr": [
+      "red",
+      "colorful"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "ocean",
+      "resort"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr00",
+      "cbr05",
+      "chn13",
+      "crd06",
+      "der06",
+      "mus18",
+      "squ05",
+      "squ13",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "红色塑胶垫",
+      "de": "Rot-Vinyltuch",
+      "it": "tappeto vinile rosso",
+      "nl": "rode vinylmat",
+      "ru": "красный винил. коврик",
+      "ja": "あかいビニールシート",
+      "ko": "빨간 비닐 시트",
+      "zh-tw": "紅色塑膠墊",
+      "en": "red vinyl sheet",
+      "es": "alfombra de vinilo roja",
+      "fr": "tapis vinyle rouge"
+    }
+  },
+  "7456": {
+    "img": "FtrIcon/RugRectWaveL01",
+    "clr": [
+      "black",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat17",
+      "cbr02",
+      "der01",
+      "der04",
+      "der05",
+      "duk15",
+      "hip05",
+      "kal02",
+      "ocp01",
+      "pgn03",
+      "pgn10",
+      "pig05",
+      "pig11",
+      "rbt02",
+      "rbt17",
+      "rhn00"
+    ],
+    "loc": {
+      "zh-cn": "单色波浪地毯",
+      "de": "Monochrom-Wellenteppich",
+      "it": "tappeto monocromo a onde",
+      "nl": "zwart-wit golventapijt",
+      "ru": "монохромн. ковер «Волны»",
+      "ja": "モノクロウェーブのラグ",
+      "ko": "흑백 웨이브 러그",
+      "zh-tw": "灰階配色波浪地毯",
+      "en": "monochromatic wavy rug",
+      "es": "alfombra ondas monocroma",
+      "fr": "tapis vagues monochrome"
+    }
+  },
+  "7457": {
+    "img": "FtrIcon/RugRectWaveL03",
+    "clr": [
+      "red",
+      "yellow"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bul03",
+      "bul05",
+      "der05",
+      "duk05",
+      "ost02",
+      "pig11",
+      "shp14",
+      "squ11"
+    ],
+    "loc": {
+      "zh-cn": "红色波浪地毯",
+      "de": "Rot-Wellenteppich",
+      "it": "tappeto rosso a onde",
+      "nl": "rood golventapijt",
+      "ru": "красный ковер «Волны»",
+      "ja": "あかいウェーブのラグ",
+      "ko": "빨간 웨이브 러그",
+      "zh-tw": "紅色波浪地毯",
+      "en": "red wavy rug",
+      "es": "alfombra ondas roja",
+      "fr": "tapis vagues rouge"
+    }
+  },
+  "7458": {
+    "img": "FtrIcon/RugRectWaveL02",
+    "clr": [
+      "blue",
+      "aqua"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea02",
+      "brd09",
+      "brd20",
+      "cat03",
+      "cbr03",
+      "chn09",
+      "crd02",
+      "der05",
+      "mus19",
+      "pgn12",
+      "pig11"
+    ],
+    "loc": {
+      "zh-cn": "蓝色波浪地毯",
+      "de": "Blau-Wellenteppich",
+      "it": "tappeto blu a onde",
+      "nl": "blauw golventapijt",
+      "ru": "синий ковер «Волны»",
+      "ja": "あおいウェーブのラグ",
+      "ko": "파란 웨이브 러그",
+      "zh-tw": "藍色波浪地毯",
+      "en": "blue wavy rug",
+      "es": "alfombra ondas azul",
+      "fr": "tapis vagues bleu"
+    }
+  },
+  "7462": {
+    "img": "FtrIcon/RugSquareCheckQuiltL01",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea00",
+      "bea12",
+      "brd03",
+      "hrs13",
+      "kal10",
+      "mus04",
+      "pgn06",
+      "pig03"
+    ],
+    "loc": {
+      "zh-cn": "黄色格纹布地毯",
+      "de": "Gelb-Karoteppich",
+      "it": "tappeto di tartan giallo",
+      "nl": "geel geruit quilttapijt",
+      "ru": "желтый ковер в клетку",
+      "ja": "きいろいチェックキルトのラグ",
+      "ko": "노란 체크 퀼트 러그",
+      "zh-tw": "黃色格紋拼布地毯",
+      "en": "yellow checked rug",
+      "es": "alfombra tartán amarilla",
+      "fr": "tapis tartan jaune"
+    }
+  },
+  "7463": {
+    "img": "FtrIcon/RugSquareCheckQuiltL02",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea08",
+      "bea15",
+      "cat01",
+      "der09",
+      "elp05",
+      "mus04",
+      "pig02",
+      "pig16",
+      "shp01",
+      "squ07",
+      "squ13"
+    ],
+    "loc": {
+      "zh-cn": "桃红色格纹布地毯",
+      "de": "Rosa-Karoteppich",
+      "it": "tappeto di tartan pesca",
+      "nl": "roze geruit quilttapijt",
+      "ru": "розоватый ковер в клетку",
+      "ja": "ももいろチェックキルトのラグ",
+      "ko": "분홍 체크 퀼트 러그",
+      "zh-tw": "桃紅色格紋拼布地毯",
+      "en": "peach checked rug",
+      "es": "alfombra tartán rosa",
+      "fr": "tapis tartan rose"
+    }
+  },
+  "7464": {
+    "img": "FtrIcon/RugSquareCheckQuiltL03",
+    "clr": [
+      "green",
+      "purple"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea02",
+      "cow00",
+      "dog10",
+      "kgr00",
+      "lon01",
+      "mus04",
+      "tig00"
+    ],
+    "loc": {
+      "zh-cn": "绿色格纹布地毯",
+      "de": "Grün-Karoteppich",
+      "it": "tappeto di tartan verde",
+      "nl": "groen geruit quilttapijt",
+      "ru": "зеленый ковер в клетку",
+      "ja": "みどりのチェックキルトのラグ",
+      "ko": "초록 체크 퀼트 러그",
+      "zh-tw": "綠色格紋拼布地毯",
+      "en": "green checked rug",
+      "es": "alfombra tartán verde",
+      "fr": "tapis tartan vert"
+    }
+  },
+  "7465": {
+    "img": "FtrIcon/RugRectDotL02",
+    "clr": "red",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "duk11",
+      "gor09"
+    ],
+    "loc": {
+      "zh-cn": "红色点点地毯",
+      "de": "Rot-Tüpfelteppich",
+      "es-es": "alfombra topos pastel roja",
+      "it": "tappeto rosso a pois",
+      "nl": "rood stippentapijt",
+      "ru": "красный ковер в горох",
+      "ja": "レッドドットのラグ",
+      "ko": "레드 도트 러그",
+      "zh-tw": "紅色點點地墊",
+      "es-us": "alfombra lunares roja",
+      "en": "red dotted rug",
+      "fr": "tapis à pois rouge"
+    }
+  },
+  "7466": {
+    "img": "FtrIcon/RugRectDotL01",
+    "clr": "green",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd03",
+      "cbr07",
+      "dog18",
+      "duk17",
+      "elp01",
+      "gor11",
+      "hrs00",
+      "mus01",
+      "rbt08",
+      "rbt14",
+      "rbt20",
+      "squ02",
+      "tig04"
+    ],
+    "loc": {
+      "zh-cn": "复古点点地毯",
+      "de": "Retro-Tüpfelteppich",
+      "es-es": "alfombra topos pastel retro",
+      "it": "tappeto rétro a pois",
+      "nl": "retro-stippentapijt",
+      "ru": "ретро-ковер в горох",
+      "ja": "レトロドットのラグ",
+      "ko": "복고풍 도트 러그",
+      "zh-tw": "復古點點地毯",
+      "es-us": "alfombra lunares retro",
+      "en": "retro dotted rug",
+      "fr": "tapis à pois rétro"
+    }
+  },
+  "7467": {
+    "img": "FtrIcon/RugRectDotL03",
+    "clr": "blue",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat15",
+      "der02",
+      "elp09",
+      "ost05",
+      "rbt10"
+    ],
+    "loc": {
+      "zh-cn": "蓝色点点地毯",
+      "de": "Blau-Tüpfelteppich",
+      "es-es": "alfombra topos pastel azul",
+      "it": "tappeto blu a pois",
+      "nl": "blauw stippentapijt",
+      "ru": "синий ковер в горох",
+      "ja": "ブルードットのラグ",
+      "ko": "블루 도트 러그",
+      "zh-tw": "藍色點點地墊",
+      "es-us": "alfombra lunares azul",
+      "en": "blue dotted rug",
+      "fr": "tapis à pois bleu"
+    }
+  },
+  "7516": {
+    "img": "FtrIcon/RugRectBathmatS03",
+    "clr": "green",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "bathroom",
+      "public_bath"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "dog18",
+      "goa09",
+      "mnk04",
+      "squ09",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "绿色简约浴室地垫",
+      "de": "Grün-Badematte",
+      "it": "tappetino bagno verde",
+      "nl": "simpele groene badmat",
+      "ru": "зеленый коврик (душ)",
+      "ja": "グリーンのシンプルバスマット",
+      "ko": "그린 심플 욕실 매트",
+      "zh-tw": "綠色簡約浴室地墊",
+      "en": "simple green bath mat",
+      "es": "alfombra baño verde",
+      "fr": "tapis de bain simple vert"
+    }
+  },
+  "7517": {
+    "img": "FtrIcon/RugRectBathmatS02",
+    "clr": "pink",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "bathroom",
+      "public_bath"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat15",
+      "duk03",
+      "gor07",
+      "ham09",
+      "mnk04",
+      "ost02",
+      "pig16"
+    ],
+    "loc": {
+      "zh-cn": "粉红色简约浴室地垫",
+      "de": "Rosa-Badematte",
+      "it": "tappetino bagno rosa",
+      "nl": "simpele roze badmat",
+      "ru": "розовый коврик (душ)",
+      "ja": "ピンクのシンプルバスマット",
+      "ko": "핑크 심플 욕실 매트",
+      "zh-tw": "粉紅色簡約浴室地墊",
+      "en": "simple pink bath mat",
+      "es": "alfombra baño rosa",
+      "fr": "tapis de bain simple rose"
+    }
+  },
+  "7518": {
+    "img": "FtrIcon/RugRectBathmatS01",
+    "clr": "gray",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "bathroom",
+      "public_bath"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant06",
+      "cat14",
+      "goa09",
+      "hip08",
+      "hrs05",
+      "kgr06",
+      "wol05"
+    ],
+    "loc": {
+      "zh-cn": "海军蓝简约浴室地垫",
+      "de": "Marineblau-Badematte",
+      "it": "tappetino bagno blu marino",
+      "nl": "simpele blauwe badmat",
+      "ru": "черно-син. коврик (душ)",
+      "ja": "ネイビーのシンプルバスマット",
+      "ko": "네이비 심플 욕실 매트",
+      "zh-tw": "海軍藍簡約浴室地墊",
+      "en": "simple navy bath mat",
+      "es": "alfombra baño azul marino",
+      "fr": "tapis de bain simple marine"
+    }
+  },
+  "7519": {
+    "img": "FtrIcon/RugSquareSimpleM01",
+    "clr": "brown",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd18",
+      "cat18",
+      "cat21",
+      "cbr10",
+      "duk00",
+      "duk09",
+      "pig09",
+      "rbt03"
+    ],
+    "loc": {
+      "zh-cn": "茶色简约地垫M",
+      "de": "Braun-Standardmatte M",
+      "it": "tappetino marrone M",
+      "nl": "simpele bruine mat",
+      "ru": "коричневый коврик M",
+      "ja": "ちゃいろいシンプルマット・M",
+      "ko": "갈색 심플 매트 M",
+      "zh-tw": "中型茶色簡約地墊",
+      "en": "simple medium brown mat",
+      "es": "alfombra sencilla marrón M",
+      "fr": "tapis simple brun M"
+    }
+  },
+  "7520": {
+    "img": "FtrIcon/RugSquareSimpleS03",
+    "clr": "green",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr16",
+      "crd01",
+      "ost01",
+      "pbr02",
+      "pbr03"
+    ],
+    "loc": {
+      "zh-cn": "卡其色简约地垫S",
+      "de": "Khaki-Standardmatte S",
+      "fr-fr": "tapis simple vert kaki S",
+      "it": "tappetino verde olivastro S",
+      "nl": "simpele kleine kakimat",
+      "ru": "коврик цвета хаки S",
+      "ja": "カーキのシンプルマット・S",
+      "ko": "카키 심플 매트 S",
+      "zh-tw": "小型卡其色簡約地墊",
+      "fr-us": "tapis simple vert kaki P",
+      "en": "simple small avocado mat",
+      "es": "alfombra sencilla oliva P"
+    }
+  },
+  "7521": {
+    "img": "FtrIcon/RugSquareSimpleS02",
+    "clr": "blue",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant01",
+      "cat03",
+      "flg12",
+      "gor10",
+      "kal01",
+      "kal09",
+      "lon02",
+      "mnk02",
+      "pig04",
+      "pig15",
+      "rbt02",
+      "rbt04",
+      "rbt09",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "蓝色简约地垫S",
+      "de": "Blau-Standardmatte S",
+      "fr-fr": "tapis simple bleu S",
+      "it": "tappetino blu S",
+      "nl": "simpele kleine blauwe mat",
+      "ru": "синий коврик S",
+      "ja": "あおいシンプルマット・S",
+      "ko": "파란 심플 매트 S",
+      "zh-tw": "小型藍色簡約地墊",
+      "fr-us": "tapis simple bleu P",
+      "en": "simple small blue mat",
+      "es": "alfombra sencilla azul P"
+    }
+  },
+  "7522": {
+    "img": "FtrIcon/RugSquareSimpleS01",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant01",
+      "brd18",
+      "cat21",
+      "chn11",
+      "duk00",
+      "ost05",
+      "pgn13",
+      "pig09",
+      "rhn00",
+      "squ08",
+      "squ14"
+    ],
+    "loc": {
+      "zh-cn": "茶色简约地垫S",
+      "de": "Braun-Standardmatte S",
+      "fr-fr": "tapis simple brun S",
+      "it": "tappetino marrone S",
+      "nl": "simpele kleine bruine mat",
+      "ru": "коричневый коврик S",
+      "ja": "ちゃいろいシンプルマット・S",
+      "ko": "갈색 심플 매트 S",
+      "zh-tw": "小型茶色簡約地墊",
+      "fr-us": "tapis simple brun P",
+      "en": "simple small brown mat",
+      "es": "alfombra sencilla marrón P"
+    }
+  },
+  "7523": {
+    "img": "FtrIcon/RugSquareSimpleM02",
+    "clr": "blue",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd00",
+      "cat03",
+      "duk06",
+      "flg12",
+      "kal03",
+      "mus10",
+      "ocp00",
+      "ost00",
+      "pig04",
+      "pig14",
+      "rbt04",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "蓝色简约地垫M",
+      "de": "Blau-Standardmatte M",
+      "it": "tappetino blu M",
+      "nl": "simpele blauwe mat",
+      "ru": "синий коврик M",
+      "ja": "あおいシンプルマット・M",
+      "ko": "파란 심플 매트 M",
+      "zh-tw": "中型藍色簡約地墊",
+      "en": "simple medium blue mat",
+      "es": "alfombra sencilla azul M",
+      "fr": "tapis simple bleu M"
+    }
+  },
+  "7524": {
+    "img": "FtrIcon/RugSquareSimpleM03",
+    "clr": "green",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd00",
+      "cbr00",
+      "duk04",
+      "elp04",
+      "flg01",
+      "hip05",
+      "pbr03",
+      "pgn07",
+      "shp07"
+    ],
+    "loc": {
+      "zh-cn": "卡其色简约地垫M",
+      "de": "Khaki-Standardmatte M",
+      "it": "tappetino verde olivastro M",
+      "nl": "simpele kakimat",
+      "ru": "коврик цвета хаки M",
+      "ja": "カーキのシンプルマット・M",
+      "ko": "카키 심플 매트 M",
+      "zh-tw": "中型卡其色簡約地墊",
+      "en": "simple medium avocado mat",
+      "es": "alfombra sencilla oliva M",
+      "fr": "tapis simple vert kaki M"
+    }
+  },
+  "7532": {
+    "img": "FtrIcon/RugRectBorderL01",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea07",
+      "brd11",
+      "cbr07",
+      "chn02",
+      "duk11",
+      "elp02",
+      "hip00",
+      "kal00",
+      "ost02",
+      "ost07",
+      "shp14"
+    ],
+    "loc": {
+      "zh-cn": "桃红色粗条纹地毯",
+      "de": "Rosa-Streifenteppich",
+      "it": "tappeto a strisce pesca",
+      "nl": "roze gestreept tapijt",
+      "ru": "ковер в розоватую полоску",
+      "ja": "ももいろボーダーのラグ",
+      "ko": "분홍 줄무늬 러그",
+      "zh-tw": "桃紅色粗橫紋地毯",
+      "en": "peach stripes rug",
+      "es": "alfombra rayas rosa",
+      "fr": "tapis à rayures roses"
+    }
+  },
+  "7533": {
+    "img": "FtrIcon/RugRectBorderL02",
+    "clr": [
+      "blue",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd09",
+      "brd11",
+      "brd20",
+      "elp04",
+      "pgn01",
+      "pgn09",
+      "rbt04",
+      "squ07"
+    ],
+    "loc": {
+      "zh-cn": "蓝色粗条纹地毯",
+      "de": "Blau-Streifenteppich",
+      "it": "tappeto a strisce blu",
+      "nl": "blauw gestreept tapijt",
+      "ru": "ковер в синюю полоску",
+      "ja": "あおボーダーのラグ",
+      "ko": "파란 줄무늬 러그",
+      "zh-tw": "藍色粗橫紋地毯",
+      "en": "blue stripes rug",
+      "es": "alfombra rayas azul",
+      "fr": "tapis à rayures bleues"
+    }
+  },
+  "7534": {
+    "img": "FtrIcon/RugRectBorderL03",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea12",
+      "brd04",
+      "der11",
+      "duk08",
+      "ham02",
+      "mus01",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "绿色粗条纹地毯",
+      "de": "Grün-Streifenteppich",
+      "it": "tappeto a strisce verdi",
+      "nl": "groen gestreept tapijt",
+      "ru": "ковер в зеленую полоску",
+      "ja": "みどりボーダーのラグ",
+      "ko": "초록 줄무늬 러그",
+      "zh-tw": "綠色粗橫紋地毯",
+      "en": "green stripes rug",
+      "es": "alfombra rayas verde",
+      "fr": "tapis à rayures vertes"
+    }
+  },
+  "7536": {
+    "img": "FtrIcon/RugSquareSimpleM05",
+    "clr": "orange",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat04",
+      "cbr13",
+      "pbr02",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "橘色简约地垫M",
+      "de": "Orange-Standardmatte M",
+      "it": "tappetino arancione M",
+      "nl": "simpele oranje mat",
+      "ru": "оранжевый коврик M",
+      "ja": "オレンジのシンプルマット・M",
+      "ko": "오렌지 심플 매트 M",
+      "zh-tw": "中型橘色簡約地墊",
+      "en": "simple medium orange mat",
+      "es": "alfombra sencilla naranja M",
+      "fr": "tapis simple orange M"
+    }
+  },
+  "7537": {
+    "img": "FtrIcon/RugSquareSimpleS04",
+    "clr": "red",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant01",
+      "ost02"
+    ],
+    "loc": {
+      "zh-cn": "红色简约地垫S",
+      "de": "Rot-Standardmatte S",
+      "fr-fr": "tapis simple rouge S",
+      "it": "tappetino rosso S",
+      "nl": "simpele kleine rode mat",
+      "ru": "красный коврик S",
+      "ja": "あかいシンプルマット・S",
+      "ko": "빨간 심플 매트 S",
+      "zh-tw": "小型紅色簡約地墊",
+      "fr-us": "tapis simple rouge P",
+      "en": "simple small red mat",
+      "es": "alfombra sencilla roja P"
+    }
+  },
+  "7538": {
+    "img": "FtrIcon/RugSquareSimpleM06",
+    "clr": "purple",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": "flg19",
+    "loc": {
+      "zh-cn": "紫色简约地垫M",
+      "de": "Lila-Standardmatte M",
+      "es-es": "alfombra sencilla lila M",
+      "it": "tappetino viola M",
+      "nl": "simpele paarse mat",
+      "ru": "сиреневый коврик M",
+      "ja": "むらさきのシンプルマット・M",
+      "ko": "보라 심플 매트 M",
+      "zh-tw": "中型紫色簡約地墊",
+      "es-us": "alfombra sencilla morada M",
+      "en": "simple medium purple mat",
+      "fr": "tapis simple mauve M"
+    }
+  },
+  "7539": {
+    "img": "FtrIcon/RugSquareSimpleM07",
+    "clr": "black",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd11",
+      "cbr06",
+      "ham00",
+      "hrs02",
+      "kal08",
+      "lon08",
+      "ocp01",
+      "pbr10",
+      "pgn04",
+      "pig09",
+      "rhn08",
+      "shp09",
+      "tig05"
+    ],
+    "loc": {
+      "zh-cn": "黑色简约地垫M",
+      "de": "Schwarz-Standardmatte M",
+      "it": "tappetino nero M",
+      "nl": "simpele zwarte mat",
+      "ru": "черный коврик M",
+      "ja": "くろいシンプルマット・M",
+      "ko": "검정 심플 매트 M",
+      "zh-tw": "中型黑色簡約地墊",
+      "en": "simple medium black mat",
+      "es": "alfombra sencilla negra M",
+      "fr": "tapis simple noir M"
+    }
+  },
+  "7540": {
+    "img": "FtrIcon/RugSquareSimpleM04",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea14",
+      "kal04",
+      "ocp00",
+      "ost00",
+      "ost02"
+    ],
+    "loc": {
+      "zh-cn": "红色简约地垫M",
+      "de": "Rot-Standardmatte M",
+      "it": "tappetino rosso M",
+      "nl": "simpele rode mat",
+      "ru": "красный коврик M",
+      "ja": "あかいシンプルマット・M",
+      "ko": "빨간 심플 매트 M",
+      "zh-tw": "中型紅色簡約地墊",
+      "en": "simple medium red mat",
+      "es": "alfombra sencilla roja M",
+      "fr": "tapis simple rouge M"
+    }
+  },
+  "7541": {
+    "img": "FtrIcon/RugSquareSimpleS05",
+    "clr": "orange",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat16",
+      "flg02",
+      "rbt09",
+      "squ03",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "橘色简约地垫S",
+      "de": "Orange-Standardmatte S",
+      "fr-fr": "tapis simple orange S",
+      "it": "tappetino arancione S",
+      "nl": "simpele kleine oranje mat",
+      "ru": "оранжевый коврик S",
+      "ja": "オレンジのシンプルマット・S",
+      "ko": "오렌지 심플 매트 S",
+      "zh-tw": "小型橘色簡約地墊",
+      "fr-us": "tapis simple orange P",
+      "en": "simple small orange mat",
+      "es": "alfombra sencilla naranja P"
+    }
+  },
+  "7542": {
+    "img": "FtrIcon/RugSquareSimpleS06",
+    "clr": "purple",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "duk10",
+      "mus05"
+    ],
+    "loc": {
+      "zh-cn": "紫色简约地垫S",
+      "de": "Lila-Standardmatte S",
+      "es-es": "alfombra sencilla lila P",
+      "fr-fr": "tapis simple mauve S",
+      "it": "tappetino viola S",
+      "nl": "simpele kleine paarse mat",
+      "ru": "сиреневый коврик S",
+      "ja": "むらさきのシンプルマット・S",
+      "ko": "보라 심플 매트 S",
+      "zh-tw": "小型紫色簡約地墊",
+      "es-us": "alfombra sencilla morada P",
+      "fr-us": "tapis simple mauve P",
+      "en": "simple small purple mat"
+    }
+  },
+  "7543": {
+    "img": "FtrIcon/RugSquareSimpleS07",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant01",
+      "brd11",
+      "cat07",
+      "cat11",
+      "cbr06",
+      "duk15",
+      "flg18",
+      "kal08",
+      "ocp02",
+      "pgn11",
+      "pig05",
+      "pig09",
+      "pig10",
+      "pig13",
+      "squ15",
+      "wol01",
+      "wol02",
+      "wol03"
+    ],
+    "loc": {
+      "zh-cn": "黑色简约地垫S",
+      "de": "Schwarz-Standardmatte S",
+      "fr-fr": "tapis simple noir S",
+      "it": "tappetino nero S",
+      "nl": "simpele kleine zwarte mat",
+      "ru": "черный коврик S",
+      "ja": "くろいシンプルマット・S",
+      "ko": "검정 심플 매트 S",
+      "zh-tw": "小型黑色簡約地墊",
+      "fr-us": "tapis simple noir P",
+      "en": "simple small black mat",
+      "es": "alfombra sencilla negra P"
+    }
+  },
+  "7544": {
+    "img": "FtrIcon/RugSquareChristmasL00",
+    "clr": [
+      "brown",
+      "colorful"
+    ],
+    "sel": 1500,
+    "hap": 201,
+    "hat": "festive",
+    "has": [
+      "party",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "4x4",
+    "src": "crafting",
+    "evt": "ornament",
+    "vad": "1.6.0",
+    "hui": [
+      "dog05",
+      "shp04"
+    ],
+    "loc": {
+      "zh-cn": "圣诞节地毯",
+      "de": "Festtagsteppich",
+      "fr-fr": "tapis de fêtes",
+      "it": "tappeto festivo",
+      "nl": "feesttapijt",
+      "ru": "ковер «Новый год»",
+      "ja": "クリスマスなラグ",
+      "ko": "크리스마스 러그",
+      "zh-tw": "聖誕節地毯",
+      "fr-us": "tapis des Fêtes",
+      "en": "festive rug",
+      "es": "alfombra festiva"
+    }
+  },
+  "7545": {
+    "img": "FtrIcon/RugSquareHalloweenL00",
+    "clr": [
+      "orange",
+      "purple"
+    ],
+    "sel": 2000,
+    "hap": 231,
+    "hat": "spooky",
+    "has": [
+      "horror",
+      "party"
+    ],
+    "cat": true,
+    "sze": "4x4",
+    "src": "vil_all",
+    "evt": "halloween",
+    "vad": "1.5.0",
+    "loc": {
+      "zh-cn": "万圣节地毯",
+      "de": "Kürbisteppich",
+      "fr-fr": "tapis Halloween",
+      "it": "tappeto brividi",
+      "nl": "pompoentapijt",
+      "ru": "жуткий ковер",
+      "ja": "ハロウィンなラグ",
+      "ko": "할로윈 러그",
+      "zh-tw": "萬聖節地毯",
+      "fr-us": "tapis frisson",
+      "en": "spooky rug",
+      "es": "alfombra calabaza"
+    }
+  },
+  "7546": {
+    "img": "FtrIcon/RugOtherEasterM00",
+    "clr": "colorful",
+    "sel": 2400,
+    "hap": 351,
+    "hat": "bunny_day",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "evt": [
+      "bunny_day_ready",
+      "bunny_day"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "复活节地毯",
+      "de": "Häschentag-Teppich",
+      "it": "tappeto caccia all'uovo",
+      "nl": "eiertapijt",
+      "ru": "ковер «День зайцев»",
+      "ja": "イースターなラグ",
+      "ko": "이스터 러그",
+      "zh-tw": "復活節地毯",
+      "en": "Bunny Day rug",
+      "es": "alfombra Caza del Huevo",
+      "fr": "tapis fête des œufs"
+    }
+  },
+  "7547": {
+    "img": "FtrIcon/RugOtherShamrockM00",
+    "clr": "green",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "has": "fancy",
+    "sea": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_shopping_season",
+    "evt": "shamrock_day",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "三叶草地毯",
+      "de": "Kleeblatttag-Teppich",
+      "it": "tappeto trifoglio",
+      "nl": "klavertapijt",
+      "ru": "ковер-клевер",
+      "ja": "シャムロックのラグ",
+      "ko": "성 패트릭 러그",
+      "zh-tw": "三葉草地毯",
+      "en": "shamrock rug",
+      "es": "alfombra trébol",
+      "fr": "tapis trèfle"
+    }
+  },
+  "7578": {
+    "img": "FtrIcon/RugOtherHeartM03",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea07",
+      "ham04",
+      "rbt11",
+      "rbt14",
+      "squ17"
+    ],
+    "loc": {
+      "zh-cn": "白色爱心地毯",
+      "de": "Weiß-Herzteppich",
+      "it": "tappeto amore bianco",
+      "nl": "wit hartjestapijt",
+      "ru": "белый ковер-сердце",
+      "ja": "ホワイトハートのラグ",
+      "ko": "화이트 하트 러그",
+      "zh-tw": "白色愛心地毯",
+      "en": "white heart rug",
+      "es": "alfombra amor blanca",
+      "fr": "tapis amour blanc"
+    }
+  },
+  "7579": {
+    "img": "FtrIcon/RugOtherHeartM01",
+    "clr": "aqua",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd03",
+      "flg04",
+      "goa07",
+      "pgn12",
+      "rbt10",
+      "rbt15",
+      "squ02"
+    ],
+    "loc": {
+      "zh-cn": "蓝色爱心地毯",
+      "de": "Türkis-Herzteppich",
+      "fr-fr": "tapis amour turquoise",
+      "it": "tappeto amore turchese",
+      "nl": "turquoise hartjestapijt",
+      "ru": "бирюзовый ковер-сердце",
+      "ja": "ブルーハートのラグ",
+      "ko": "블루 하트 러그",
+      "zh-tw": "藍色愛心地毯",
+      "fr-us": "tapis amour menthe",
+      "en": "turquoise heart rug",
+      "es": "alfombra amor turquesa"
+    }
+  },
+  "7580": {
+    "img": "FtrIcon/RugOtherHeartM02",
+    "clr": [
+      "purple",
+      "pink"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea15",
+      "squ16"
+    ],
+    "loc": {
+      "zh-cn": "紫色爱心地毯",
+      "de": "Lila-Herzteppich",
+      "it": "tappeto amore viola",
+      "nl": "paars hartjestapijt",
+      "ru": "сиреневый ковер-сердце",
+      "ja": "パープルハートのラグ",
+      "ko": "퍼플 하트 러그",
+      "zh-tw": "紫色愛心地毯",
+      "en": "purple heart rug",
+      "es": "alfombra amor morada",
+      "fr": "tapis amour mauve"
+    }
+  },
+  "7594": {
+    "img": "FtrIcon/RugRectNativeKitchenS03",
+    "clr": [
+      "black",
+      "orange"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": "elp06",
+    "loc": {
+      "zh-cn": "黑色图案厨房地垫",
+      "de": "Schwarzmuster-Matte",
+      "it": "tappeto cucina design nero",
+      "nl": "zwarte designkeukenmat",
+      "ru": "коврик с черным узором",
+      "ja": "くろいパターンキッチンマット",
+      "ko": "검정 패턴 키친 매트",
+      "zh-tw": "黑色圖案廚房地墊",
+      "en": "black-design kitchen mat",
+      "es": "alfombra étnica negra",
+      "fr": "tapis cuisine à motifs noir"
+    }
+  },
+  "7595": {
+    "img": "FtrIcon/RugRectNativeKitchenS01",
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat23",
+      "cbr03",
+      "cbr16",
+      "chn02",
+      "elp04"
+    ],
+    "loc": {
+      "zh-cn": "蓝色图案厨房地垫",
+      "de": "Blaumuster-Matte",
+      "it": "tappeto cucina design blu",
+      "nl": "blauwe designkeukenmat",
+      "ru": "коврик с синим узором",
+      "ja": "あおいパターンキッチンマット",
+      "ko": "파란 패턴 키친 매트",
+      "zh-tw": "藍色圖案廚房地墊",
+      "en": "blue-design kitchen mat",
+      "es": "alfombra étnica azul",
+      "fr": "tapis cuisine à motifs bleu"
+    }
+  },
+  "7596": {
+    "img": "FtrIcon/RugRectNativeKitchenS02",
+    "clr": [
+      "yellow",
+      "black"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "gor00",
+      "gor04",
+      "mnk06",
+      "pgn06",
+      "pig16",
+      "squ11"
+    ],
+    "loc": {
+      "zh-cn": "黄色图案厨房地垫",
+      "de": "Gelbmuster-Matte",
+      "it": "tappeto cucina design giallo",
+      "nl": "gele designkeukenmat",
+      "ru": "коврик с желтым узором",
+      "ja": "きいろパターンキッチンマット",
+      "ko": "노란 패턴 키친 매트",
+      "zh-tw": "黃色圖案廚房地墊",
+      "en": "yellow-design kitchen mat",
+      "es": "alfombra étnica amarilla",
+      "fr": "tapis cuisine à motifs jaune"
+    }
+  },
+  "8035": {
+    "img": "FtrIcon/RugSquarePersianL01",
+    "clr": [
+      "blue",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "expensive",
+      "living_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "ant03",
+      "der08",
+      "kal05",
+      "mus17",
+      "pig11",
+      "rhn01",
+      "squ17",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "蓝色波斯地毯",
+      "de": "Blau-Klassikteppich",
+      "it": "tappeto antico blu",
+      "nl": "blauw Perzisch tapijt",
+      "ru": "синий персидский ковер",
+      "ja": "あおいペルシャじゅうたん",
+      "ko": "파란 페르시아 융단",
+      "zh-tw": "藍色波斯地毯",
+      "en": "blue Persian rug",
+      "es": "alfombra clásica azul",
+      "fr": "tapis persan bleu"
+    }
+  },
+  "8036": {
+    "img": "FtrIcon/RugSquarePersianL02",
+    "clr": [
+      "yellow",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "expensive",
+      "living_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "ant03",
+      "bea09",
+      "brd08",
+      "cat10",
+      "cat18",
+      "cbr02",
+      "crd07",
+      "crd08",
+      "duk04",
+      "kal02",
+      "kgr10",
+      "mnk03",
+      "ost03",
+      "pbr00",
+      "pig11",
+      "squ19",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "黄色波斯地毯",
+      "de": "Gelb-Klassikteppich",
+      "it": "tappeto antico giallo",
+      "nl": "geel Perzisch tapijt",
+      "ru": "желт. персидский ковер",
+      "ja": "きいろいペルシャじゅうたん",
+      "ko": "노란 페르시아 융단",
+      "zh-tw": "黃色波斯地毯",
+      "en": "yellow Persian rug",
+      "es": "alfombra clásica amarilla",
+      "fr": "tapis persan jaune"
+    }
+  },
+  "8037": {
+    "img": "FtrIcon/RugSquarePersianL03",
+    "clr": [
+      "purple",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "expensive",
+      "living_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant02",
+      "ant03",
+      "ant09",
+      "cat02",
+      "cat21",
+      "cow06",
+      "dog00",
+      "duk01",
+      "flg13",
+      "hrs09",
+      "ost03",
+      "pgn02",
+      "pig11",
+      "shp10",
+      "wol04"
+    ],
+    "loc": {
+      "de": "Lila-Klassikteppich",
+      "it": "tappeto antico viola",
+      "nl": "paars Perzisch tapijt",
+      "ru": "сирен. персидский ковер",
+      "ja": "むらさきのペルシャじゅうたん",
+      "ko": "보라 페르시아 융단",
+      "en": "purple Persian rug",
+      "es": "alfombra clásica morada",
+      "fr": "tapis persan mauve",
+      "zh": "紫色波斯地毯"
+    }
+  },
+  "8393": {
+    "img": "FtrIcon/RugRectKitchenS03",
+    "clr": "green",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat04",
+      "der11",
+      "duk08",
+      "elp00",
+      "elp03",
+      "mnk08",
+      "rhn04",
+      "squ02",
+      "squ11"
+    ],
+    "loc": {
+      "zh-cn": "绿色厨房地垫",
+      "de": "Grün-Küchenmatte",
+      "it": "tappetino cucina verde",
+      "nl": "groene keukenmat",
+      "ru": "зелен. коврик на кухню",
+      "ja": "みどりのキッチンマット",
+      "ko": "초록 키친 매트",
+      "zh-tw": "綠色廚房地墊",
+      "en": "green kitchen mat",
+      "es": "alfombra cocina verde",
+      "fr": "tapis de cuisine vert"
+    }
+  },
+  "8394": {
+    "img": "FtrIcon/RugRectKitchenS02",
+    "clr": "blue",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat00",
+      "der00",
+      "elp03",
+      "mus17",
+      "rbt04",
+      "squ09",
+      "wol01"
+    ],
+    "loc": {
+      "zh-cn": "蓝色厨房地垫",
+      "de": "Blau-Küchenmatte",
+      "it": "tappetino cucina blu",
+      "nl": "blauwe keukenmat",
+      "ru": "синий коврик на кухню",
+      "ja": "あおいキッチンマット",
+      "ko": "파란 키친 매트",
+      "zh-tw": "藍色廚房地墊",
+      "en": "blue kitchen mat",
+      "es": "alfombra cocina azul",
+      "fr": "tapis de cuisine bleu"
+    }
+  },
+  "8395": {
+    "img": "FtrIcon/RugRectKitchenS01",
+    "clr": "yellow",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "kitchen",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea00",
+      "cat23",
+      "cbr09",
+      "cbr16",
+      "cbr17",
+      "chn02",
+      "elp03",
+      "ham02",
+      "hip09",
+      "kal09",
+      "mnk06",
+      "mus12",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "黄色厨房地垫",
+      "de": "Gelb-Küchenmatte",
+      "it": "tappetino cucina giallo",
+      "nl": "gele keukenmat",
+      "ru": "желтый коврик на кухню",
+      "ja": "きいろいキッチンマット",
+      "ko": "노란 키친 매트",
+      "zh-tw": "黃色廚房地墊",
+      "en": "yellow kitchen mat",
+      "es": "alfombra cocina amarilla",
+      "fr": "tapis de cuisine jaune"
+    }
+  },
+  "8466": {
+    "img": "FtrIcon/RugRectArgyleL01",
+    "clr": "red",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": "shp09",
+    "loc": {
+      "zh-cn": "红色菱格纹地毯",
+      "de": "Rot-Argyle-Teppich",
+      "fr-fr": "tapis argyle rouge",
+      "it": "tappeto a rombi rosso",
+      "nl": "rood geruit tapijt",
+      "ru": "красный ковер аргайл",
+      "ja": "あかいアーガイルのラグ",
+      "ko": "빨간 아가일 러그",
+      "zh-tw": "紅色菱格紋地毯",
+      "fr-us": "tapis écossais rouge",
+      "en": "red argyle rug",
+      "es": "alfombra rombos roja"
+    }
+  },
+  "8467": {
+    "img": "FtrIcon/RugRectArgyleL02",
+    "clr": [
+      "blue",
+      "green"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cbr03",
+      "der12",
+      "mnk02",
+      "pgn06",
+      "pgn13",
+      "squ03",
+      "squ08"
+    ],
+    "loc": {
+      "zh-cn": "蓝色菱格纹地毯",
+      "de": "Blau-Argyle-Teppich",
+      "fr-fr": "tapis argyle bleu",
+      "it": "tappeto a rombi blu",
+      "nl": "blauw geruit tapijt",
+      "ru": "синий ковер аргайл",
+      "ja": "あおいアーガイルのラグ",
+      "ko": "파란 아가일 러그",
+      "zh-tw": "藍色菱格紋地毯",
+      "fr-us": "tapis écossais bleu",
+      "en": "blue argyle rug",
+      "es": "alfombra rombos azul"
+    }
+  },
+  "8468": {
+    "img": "FtrIcon/RugRectArgyleL03",
+    "clr": [
+      "brown",
+      "yellow"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "living_room",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der04",
+      "duk07",
+      "elp01",
+      "hip04",
+      "hrs08",
+      "hrs16",
+      "kal01",
+      "pbr07"
+    ],
+    "loc": {
+      "zh-cn": "茶色菱格纹地毯",
+      "de": "Braun-Argyle-Teppich",
+      "fr-fr": "tapis argyle brun",
+      "it": "tappeto a rombi marrone",
+      "nl": "bruin geruit tapijt",
+      "ru": "коричневый ковер аргайл",
+      "ja": "ちゃいろいアーガイルのラグ",
+      "ko": "갈색 아가일 러그",
+      "zh-tw": "茶色菱格紋地毯",
+      "fr-us": "tapis écossais brun",
+      "en": "brown argyle rug",
+      "es": "alfombra rombos marrón"
+    }
+  },
+  "8757": {
+    "img": "FtrIcon/RugOtherRoseM03",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "hat": "flowers",
+    "has": [
+      "fancy",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bul08",
+      "cat02",
+      "dog08",
+      "flg11",
+      "flg13",
+      "hrs05",
+      "hrs09",
+      "hrs12",
+      "lon06",
+      "pbr07",
+      "rbt21",
+      "tig06"
+    ],
+    "loc": {
+      "de": "Weiß-Rosenteppich",
+      "it": "tappeto rosa bianca",
+      "nl": "witteroostapijt",
+      "ru": "белый ковер-роза",
+      "ja": "ホワイトローズのラグ",
+      "ko": "화이트 로즈 러그",
+      "en": "white rose rug",
+      "es": "alfombra rosa blanca",
+      "fr": "tapis rose blanche",
+      "zh": "白色玫瑰地毯"
+    }
+  },
+  "8758": {
+    "img": "FtrIcon/RugOtherRoseM01",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "hat": "flowers",
+    "has": [
+      "fancy",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bul08",
+      "cat20",
+      "dog08",
+      "dog15",
+      "goa06",
+      "gor11",
+      "pgn11",
+      "pig02",
+      "rbt05"
+    ],
+    "loc": {
+      "zh-cn": "红色玫瑰地毯",
+      "de": "Rot-Rosenteppich",
+      "it": "tappeto rosa rossa",
+      "nl": "roderoostapijt",
+      "ru": "красный ковер-роза",
+      "ja": "レッドローズのラグ",
+      "ko": "레드 로즈 러그",
+      "zh-tw": "紅色玫瑰地毯",
+      "en": "red rose rug",
+      "es": "alfombra rosa roja",
+      "fr": "tapis rose rouge"
+    }
+  },
+  "8759": {
+    "img": "FtrIcon/RugOtherRoseM02",
+    "clr": "yellow",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "hat": "flowers",
+    "has": [
+      "fancy",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea08",
+      "dog08",
+      "elp07",
+      "hip09",
+      "pbr09",
+      "pig08",
+      "shp03",
+      "wol04"
+    ],
+    "loc": {
+      "zh-cn": "黄色玫瑰地毯",
+      "de": "Gelb-Rosenteppich",
+      "it": "tappeto rosa gialla",
+      "nl": "geleroostapijt",
+      "ru": "желтый ковер-роза",
+      "ja": "イエローローズのラグ",
+      "ko": "옐로 로즈 러그",
+      "zh-tw": "黃色玫瑰地毯",
+      "en": "yellow rose rug",
+      "es": "alfombra rosa amarilla",
+      "fr": "tapis rose jaune"
+    }
+  },
+  "9310": {
+    "img": "FtrIcon/RugOtherMessageS01",
+    "clr": "blue",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "childs_room",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der12",
+      "dog16",
+      "duk03",
+      "hrs01",
+      "rbt04",
+      "rbt12",
+      "shp11"
+    ],
+    "loc": {
+      "zh-cn": "蓝色信息地垫",
+      "de": "Blau-Textmatte",
+      "it": "tappetino benvenuto blu",
+      "nl": "blauwe boodschapmat",
+      "ru": "синий коврик с текстом",
+      "ja": "あおいメッセージマット",
+      "ko": "파란 메시지 매트",
+      "zh-tw": "藍色訊息地墊",
+      "en": "blue message mat",
+      "es": "alfombra bocadillo azul",
+      "fr": "paillasson à message bleu"
+    }
+  },
+  "9311": {
+    "img": "FtrIcon/RugOtherMessageS02",
+    "clr": "yellow",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "childs_room",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd18",
+      "duk03",
+      "mnk01",
+      "mus08",
+      "shp09",
+      "squ19",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "黄色信息地垫",
+      "de": "Gelb-Textmatte",
+      "it": "tappetino benvenuto giallo",
+      "nl": "gele boodschapmat",
+      "ru": "желт. коврик с текстом",
+      "ja": "きいろいメッセージマット",
+      "ko": "노란 메시지 매트",
+      "zh-tw": "黃色訊息地墊",
+      "en": "yellow message mat",
+      "es": "alfombra bocadillo amarilla",
+      "fr": "paillasson à message jaune"
+    }
+  },
+  "9312": {
+    "img": "FtrIcon/RugOtherMessageS03",
+    "clr": "red",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "childs_room",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat09",
+      "duk03",
+      "elp05",
+      "gor09",
+      "pig09",
+      "rbt20"
+    ],
+    "loc": {
+      "zh-cn": "红色信息地垫",
+      "de": "Rot-Textmatte",
+      "it": "tappetino benvenuto rosso",
+      "nl": "rode boodschapmat",
+      "ru": "красн. коврик с текстом",
+      "ja": "あかいメッセージマット",
+      "ko": "빨간 메시지 매트",
+      "zh-tw": "紅色訊息地墊",
+      "en": "red message mat",
+      "es": "alfombra bocadillo roja",
+      "fr": "paillasson à message rouge"
+    }
+  },
+  "9313": {
+    "img": "FtrIcon/RugSquareKirimL00",
+    "clr": "red",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea09",
+      "brd05",
+      "crd08",
+      "gor01",
+      "gor08",
+      "ham06",
+      "rhn07",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "红色基里姆地毯",
+      "de": "Rot-Kelimteppich",
+      "it": "tappeto kilim rosso",
+      "nl": "rood kelimtapijt",
+      "ru": "красный килим",
+      "ja": "あかいキリムのカーペット",
+      "ko": "빨간 킬림 카펫",
+      "zh-tw": "紅色基里姆地毯",
+      "en": "red kilim-style carpet",
+      "es": "alfombra kilim roja",
+      "fr": "tapis kilim rouge"
+    }
+  },
+  "9314": {
+    "img": "FtrIcon/RugSquareKirimL02",
+    "clr": "green",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea12",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "绿色基里姆地毯",
+      "de": "Grün-Kelimteppich",
+      "it": "tappeto kilim verde",
+      "nl": "groen kelimtapijt",
+      "ru": "зеленый килим",
+      "ja": "みどりのキリムのカーペット",
+      "ko": "초록 킬림 카펫",
+      "zh-tw": "綠色基里姆地毯",
+      "en": "green kilim-style carpet",
+      "es": "alfombra kilim verde",
+      "fr": "tapis kilim vert"
+    }
+  },
+  "9315": {
+    "img": "FtrIcon/RugSquareKirimL03",
+    "clr": [
+      "yellow",
+      "beige"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea09",
+      "cat06",
+      "crd06",
+      "der08",
+      "ham01",
+      "ham02",
+      "hrs08",
+      "mnk06",
+      "mus15",
+      "rbt02",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "黄色基里姆地毯",
+      "de": "Gelb-Kelimteppich",
+      "it": "tappeto kilim giallo",
+      "nl": "geel kelimtapijt",
+      "ru": "желтый килим",
+      "ja": "きいろいキリムのカーペット",
+      "ko": "노란 킬림 카펫",
+      "zh-tw": "黃色基里姆地毯",
+      "en": "yellow kilim-style carpet",
+      "es": "alfombra kilim ocre",
+      "fr": "tapis kilim jaune"
+    }
+  },
+  "9316": {
+    "img": "FtrIcon/RugSquareKirimL01",
+    "clr": [
+      "blue",
+      "black"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "duk13",
+      "elp12",
+      "flg05",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "蓝色基里姆地毯",
+      "de": "Blau-Kelimteppich",
+      "it": "tappeto kilim blu",
+      "nl": "blauw kelimtapijt",
+      "ru": "синий килим",
+      "ja": "あおいキリムのカーペット",
+      "ko": "파란 킬림 카펫",
+      "zh-tw": "藍色基里姆地毯",
+      "en": "blue kilim-style carpet",
+      "es": "alfombra kilim azul",
+      "fr": "tapis kilim bleu"
+    }
+  },
+  "9541": {
+    "img": "FtrIcon/RugRectMomS03",
+    "clr": "purple",
+    "sel": 88,
+    "hap": 365,
+    "hat": "motherly",
+    "has": [
+      "fancy",
+      "kitchen"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "mom",
+    "loc": {
+      "zh-cn": "可靠妈妈的厨房地垫",
+      "de": "Bewährt-Matte von Mama",
+      "it": "tappeto serio di mamma",
+      "nl": "mama's trouwe keukenmat",
+      "ru": "мамин любимый ковер",
+      "ja": "たよれるははのキッチンマット",
+      "ko": "든든한 엄마의 키친 매트",
+      "zh-tw": "可靠媽媽廚房地墊",
+      "en": "Mom's reliable kitchen mat",
+      "es": "alfombra de mamá lila",
+      "fr": "t. cuisine de maman mauve"
+    }
+  },
+  "9542": {
+    "img": "FtrIcon/RugRectMomS01",
+    "clr": "pink",
+    "sel": 88,
+    "hap": 365,
+    "hat": "motherly",
+    "has": [
+      "fancy",
+      "kitchen"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "mom",
+    "loc": {
+      "zh-cn": "天真妈妈的厨房地垫",
+      "de": "Verspielt-Matte von Mama",
+      "it": "tappeto buffo di mamma",
+      "nl": "mama's speelse keukenmat",
+      "ru": "мамин забавный ковер",
+      "ja": "オチャメなははのキッチンマット",
+      "ko": "짓궂은 엄마의 키친 매트",
+      "zh-tw": "調皮媽媽廚房地墊",
+      "en": "Mom's playful kitchen mat",
+      "es": "alfombra de mamá rosa",
+      "fr": "tap. cuisine de maman rose"
+    }
+  },
+  "9543": {
+    "img": "FtrIcon/RugRectMomS02",
+    "clr": "yellow",
+    "sel": 88,
+    "hap": 365,
+    "hat": "motherly",
+    "has": [
+      "fancy",
+      "kitchen"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "mom",
+    "loc": {
+      "zh-cn": "活力妈妈的厨房地垫",
+      "de": "Lebhaft-Matte von Mama",
+      "it": "tappeto vivace di mamma",
+      "nl": "mama's vrolijke keukenmat",
+      "ru": "мамин яркий ковер",
+      "ja": "げんきなははのキッチンマット",
+      "ko": "발랄한 엄마의 키친 매트",
+      "zh-tw": "活潑媽媽廚房地墊",
+      "en": "Mom's lively kitchen mat",
+      "es": "alfombra de mamá amarilla",
+      "fr": "t. cuisine de maman jaune"
+    }
+  },
+  "9544": {
+    "img": "FtrIcon/RugRoundSimpleM03",
+    "clr": "yellow",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant05",
+      "brd03",
+      "cat06",
+      "chn00",
+      "der03",
+      "dog02",
+      "dog07",
+      "hip09",
+      "hrs01",
+      "hrs06",
+      "kgr00",
+      "pgn14",
+      "rbt19"
+    ],
+    "loc": {
+      "zh-cn": "黄色圆形地垫M",
+      "de": "Gelb-Rundmatte M",
+      "it": "tappetino tondo giallo M",
+      "nl": "gele ronde mat",
+      "ru": "кругл. желтый коврик M",
+      "ja": "きいろいラウンドマット・M",
+      "ko": "노란 라운드 매트 M",
+      "zh-tw": "中型黃色圓地墊",
+      "en": "yellow medium round mat",
+      "es": "alfombra redonda ocre M",
+      "fr": "tapis rond jaune M"
+    }
+  },
+  "9545": {
+    "img": "FtrIcon/RugRoundSimpleM01",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd16",
+      "der04",
+      "duk11",
+      "flg11",
+      "gor07",
+      "hrs06",
+      "hrs12",
+      "pgn14",
+      "rbt11",
+      "rbt12",
+      "shp00",
+      "shp04"
+    ],
+    "loc": {
+      "zh-cn": "红色圆形地垫M",
+      "de": "Rot-Rundmatte M",
+      "it": "tappetino tondo rosso M",
+      "nl": "rode ronde mat",
+      "ru": "кругл. красный коврик M",
+      "ja": "あかいラウンドマット・M",
+      "ko": "빨간 라운드 매트 M",
+      "zh-tw": "中型紅色圓地墊",
+      "en": "red medium round mat",
+      "es": "alfombra redonda roja M",
+      "fr": "tapis rond rouge M"
+    }
+  },
+  "9546": {
+    "img": "FtrIcon/RugRoundSimpleM02",
+    "clr": "blue",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "der02",
+      "flg05",
+      "hrs06",
+      "pgn14",
+      "rbt10",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "蓝色圆形地垫M",
+      "de": "Blau-Rundmatte M",
+      "it": "tappetino tondo blu M",
+      "nl": "blauwe ronde mat",
+      "ru": "кругл. синий коврик M",
+      "ja": "あおいラウンドマット・M",
+      "ko": "파란 라운드 매트 M",
+      "zh-tw": "中型藍色圓地墊",
+      "en": "blue medium round mat",
+      "es": "alfombra redonda azul M",
+      "fr": "tapis rond bleu M"
+    }
+  },
+  "9547": {
+    "img": "FtrIcon/RugRoundSimpleS03",
+    "clr": "yellow",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "chn00",
+      "der03",
+      "hip09",
+      "pig14",
+      "rbt19"
+    ],
+    "loc": {
+      "zh-cn": "黄色圆形地垫S",
+      "de": "Gelb-Rundmatte S",
+      "fr-fr": "tapis rond jaune S",
+      "it": "tappetino tondo giallo S",
+      "nl": "gele kleine ronde mat",
+      "ru": "кругл. желтый коврик S",
+      "ja": "きいろいラウンドマット・S",
+      "ko": "노란 라운드 매트 S",
+      "zh-tw": "小型黃色圓地墊",
+      "fr-us": "tapis rond jaune P",
+      "en": "yellow small round mat",
+      "es": "alfombra redonda ocre P"
+    }
+  },
+  "9548": {
+    "img": "FtrIcon/RugRoundSimpleS01",
+    "clr": "red",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "flg00",
+      "gor11"
+    ],
+    "loc": {
+      "zh-cn": "红色圆形地垫S",
+      "de": "Rot-Rundmatte S",
+      "fr-fr": "tapis rond rouge S",
+      "it": "tappetino tondo rosso S",
+      "nl": "rode kleine ronde mat",
+      "ru": "кругл. красный коврик S",
+      "ja": "あかいラウンドマット・S",
+      "ko": "빨간 라운드 매트 S",
+      "zh-tw": "小型紅色圓地墊",
+      "fr-us": "tapis rond rouge P",
+      "en": "red small round mat",
+      "es": "alfombra redonda roja P"
+    }
+  },
+  "9549": {
+    "img": "FtrIcon/RugRoundSimpleS02",
+    "clr": "blue",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "cat19",
+      "elp12",
+      "lon02",
+      "pig01",
+      "tig06"
+    ],
+    "loc": {
+      "zh-cn": "蓝色圆形地垫S",
+      "de": "Blau-Rundmatte S",
+      "fr-fr": "tapis rond bleu S",
+      "it": "tappetino tondo blu S",
+      "nl": "blauwe kleine ronde mat",
+      "ru": "кругл. синий коврик S",
+      "ja": "あおいラウンドマット・S",
+      "ko": "파란 라운드 매트 S",
+      "zh-tw": "小型藍色圓地墊",
+      "fr-us": "tapis rond bleu P",
+      "en": "blue small round mat",
+      "es": "alfombra redonda azul P"
+    }
+  },
+  "9562": {
+    "img": "FtrIcon/RugSquareShaggyL03",
+    "clr": "purple",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "ant09",
+      "brd08",
+      "cat02",
+      "dog03",
+      "dog07",
+      "flg13",
+      "flg19",
+      "hip03",
+      "hrs04",
+      "hrs05",
+      "mus00",
+      "pbr00",
+      "pbr08",
+      "pgn03",
+      "pig05",
+      "squ01",
+      "tig01"
+    ],
+    "loc": {
+      "zh-cn": "紫色长绒地毯",
+      "de": "Lila-Zottelteppich",
+      "es-es": "alfombra pelusilla morada",
+      "fr-fr": "tapis à poil long violet",
+      "it": "tappeto peloso viola",
+      "nl": "paars harig tapijt",
+      "ru": "фиолет. ковер с ворсом",
+      "ja": "むらさきのシャギーなラグ",
+      "ko": "보라 복슬복슬 러그",
+      "zh-tw": "紫色長毛地毯",
+      "es-us": "alfombra mullida morada",
+      "fr-us": "tapis à poil long mauve",
+      "en": "purple shaggy rug"
+    }
+  },
+  "9563": {
+    "img": "FtrIcon/RugSquareShaggyL01",
+    "clr": "brown",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd11",
+      "cat06",
+      "duk13",
+      "flg01",
+      "ham00",
+      "ham06",
+      "ham07",
+      "hrs08",
+      "mnk03",
+      "pgn07",
+      "pig01",
+      "rhn00"
+    ],
+    "loc": {
+      "zh-cn": "茶色长绒地毯",
+      "de": "Braun-Zottelteppich",
+      "es-es": "alfombra pelusilla marrón",
+      "it": "tappeto peloso marrone",
+      "nl": "bruin harig tapijt",
+      "ru": "коричн. ковер с ворсом",
+      "ja": "ちゃいろいシャギーなラグ",
+      "ko": "갈색 복슬복슬 러그",
+      "zh-tw": "茶色長毛地毯",
+      "es-us": "alfombra mullida marrón",
+      "en": "brown shaggy rug",
+      "fr": "tapis à poil long brun"
+    }
+  },
+  "9564": {
+    "img": "FtrIcon/RugSquareShaggyL02",
+    "clr": "blue",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "5x5",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "brd01",
+      "brd02",
+      "cat07",
+      "der04",
+      "dog09",
+      "hrs16",
+      "kal08",
+      "lon08",
+      "pgn02",
+      "pig00",
+      "rbt03"
+    ],
+    "loc": {
+      "zh-cn": "蓝色长绒地毯",
+      "de": "Blau-Zottelteppich",
+      "es-es": "alfombra pelusilla azul",
+      "it": "tappeto peloso blu",
+      "nl": "blauw harig tapijt",
+      "ru": "синий ковер с ворсом",
+      "ja": "あおいシャギーなラグ",
+      "ko": "파란 복슬복슬 러그",
+      "zh-tw": "藍色長毛地毯",
+      "es-us": "alfombra mullida azul",
+      "en": "blue shaggy rug",
+      "fr": "tapis à poil long bleu"
+    }
+  },
+  "11101": {
+    "img": "FtrIcon/RugSquareBlockM00",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "elp10",
+      "pgn13"
+    ],
+    "loc": {
+      "zh-cn": "红色方块地毯",
+      "de": "Rot-Viereckmatte",
+      "it": "tappeto a blocchi rossi",
+      "nl": "rodeblokkentapijt",
+      "ru": "красный ковер с прямоуг.",
+      "ja": "あかブロックのラグ",
+      "ko": "빨간 블록 러그",
+      "zh-tw": "紅色磚塊地毯",
+      "en": "red blocks rug",
+      "es": "alfombra pixelada roja",
+      "fr": "tapis à carreaux rouge"
+    }
+  },
+  "11102": {
+    "img": "FtrIcon/RugSquareBlockM01",
+    "clr": "blue",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "bea06",
+      "ost01",
+      "rbt17",
+      "squ03"
+    ],
+    "loc": {
+      "zh-cn": "蓝色方块地毯",
+      "de": "Blau-Viereckmatte",
+      "it": "tappeto a blocchi blu",
+      "nl": "blauweblokkentapijt",
+      "ru": "синий ковер с прямоуг.",
+      "ja": "あおブロックのラグ",
+      "ko": "파란 블록 러그",
+      "zh-tw": "藍色磚塊地毯",
+      "en": "blue blocks rug",
+      "es": "alfombra pixelada azul",
+      "fr": "tapis à carreaux bleu"
+    }
+  },
+  "11103": {
+    "img": "FtrIcon/RugSquareBlockM02",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "mus09",
+      "rbt09"
+    ],
+    "loc": {
+      "zh-cn": "黄色方块地毯",
+      "de": "Gelb-Viereckmatte",
+      "it": "tappeto a blocchi gialli",
+      "nl": "geleblokkentapijt",
+      "ru": "желтый ковер с прямоуг.",
+      "ja": "きいろブロックのラグ",
+      "ko": "노란 블록 러그",
+      "zh-tw": "黃色磚塊地毯",
+      "en": "yellow blocks rug",
+      "es": "alfombra pixelada amarilla",
+      "fr": "tapis à carreaux jaune"
+    }
+  },
+  "11104": {
+    "img": "FtrIcon/RugSquareBlockM03",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": "living_room",
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "saharah",
+      "saharah2"
+    ],
+    "hui": [
+      "duk15",
+      "flg06",
+      "ham07",
+      "kal04",
+      "mus00",
+      "ost08",
+      "pbr10",
+      "pgn10",
+      "rbt17",
+      "tig03"
+    ],
+    "loc": {
+      "zh-cn": "单色方块地毯",
+      "de": "Schwarz-Viereckmatte",
+      "it": "tappeto a blocchi neri",
+      "nl": "zwarteblokkentapijt",
+      "ru": "черный ковер с прямоуг.",
+      "ja": "モノクロブロックのラグ",
+      "ko": "흑백 블록 러그",
+      "zh-tw": "灰階配色磚塊地毯",
+      "en": "black blocks rug",
+      "es": "alfombra pixelada negra",
+      "fr": "tapis à carreaux noir"
+    }
+  },
+  "11113": {
+    "img": "FtrIcon/RugRectBambooM00",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 2400,
+    "hap": 201,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "retro"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "hui": [
+      "ant08",
+      "bea01",
+      "brd06",
+      "cat05",
+      "cbr13",
+      "cbr14",
+      "crd01",
+      "der10",
+      "elp11",
+      "flg02",
+      "flg03",
+      "goa00",
+      "hip08",
+      "kgr05",
+      "mnk09",
+      "mus14",
+      "mus19",
+      "ocp04",
+      "ost04",
+      "ost06",
+      "pbr01",
+      "rbt01",
+      "rbt06",
+      "squ08"
+    ],
+    "loc": {
+      "zh-cn": "浅色竹子地垫",
+      "de": "Hell-Bambusmatte",
+      "it": "tappeto di bambù chiaro",
+      "nl": "lichte bamboemat",
+      "ru": "светлый бамбук. коврик",
+      "ja": "ライトなバンブーラグ",
+      "ko": "밝은 대나무 러그",
+      "zh-tw": "淺色竹地毯",
+      "en": "light bamboo rug",
+      "es": "alfombra bambú clara",
+      "fr": "tapis bambou clair"
+    }
+  },
+  "11114": {
+    "img": "FtrIcon/RugRectBambooM01",
+    "clr": "brown",
+    "sel": 960,
+    "hap": 103,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "retro"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "crafting",
+    "hui": [
+      "bea01",
+      "cbr14",
+      "chn12",
+      "crd01",
+      "dog11",
+      "duk16",
+      "elp11",
+      "flg03",
+      "flg15",
+      "flg16",
+      "ham05",
+      "hrs07",
+      "kal10",
+      "ost06",
+      "shp07"
+    ],
+    "loc": {
+      "zh-cn": "深色竹子地垫",
+      "de": "Dunkel-Bambusmatte",
+      "it": "tappeto di bambù scuro",
+      "nl": "donkere bamboemat",
+      "ru": "темный бамбук. коврик",
+      "ja": "ダークなバンブーラグ",
+      "ko": "어두운 대나무 러그",
+      "zh-tw": "深色竹地毯",
+      "en": "dark bamboo rug",
+      "es": "alfombra bambú oscura",
+      "fr": "tapis bambou sombre"
+    }
+  },
+  "12214": {
+    "img": "FtrIcon/RugOtherBellM00",
+    "clr": "yellow",
+    "sel": 6000,
+    "exp": 1200,
+    "exc": 0,
+    "hap": 151,
+    "has": "expensive",
+    "cat": true,
+    "sze": "3x3",
+    "src": [
+      "nintendo",
+      "nook_miles"
+    ],
+    "vad": "1.2.0",
+    "hui": [
+      "cbr02",
+      "chn01",
+      "crd07",
+      "flg18",
+      "mus02",
+      "mus03",
+      "pig10",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "铃钱袋地毯",
+      "de": "Sterni-Sack-Teppich",
+      "it": "tappeto sacco di stelline",
+      "nl": "klingeltapijt",
+      "ru": "ковер «Мешок диней»",
+      "ja": "ベルぶくろのラグ",
+      "ko": "벨 주머니 러그",
+      "zh-tw": "鈴錢袋地毯",
+      "en": "Bell-bag rug",
+      "es": "alfombra bolsa de bayas",
+      "fr": "tapis sac de clochettes"
+    }
+  },
+  "12215": {
+    "img": "FtrIcon/RugOtherWatermelonM00",
+    "clr": [
+      "red",
+      "green"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr09",
+      "chn13",
+      "kal07",
+      "mnk01",
+      "squ02"
+    ],
+    "loc": {
+      "zh-cn": "红色西瓜地毯",
+      "de": "Rot-Melonenteppich",
+      "it": "tappeto anguria rosso",
+      "nl": "rood watermeloentapijt",
+      "ru": "ковер «Красный арбуз»",
+      "ja": "あかいスイカのラグ",
+      "ko": "빨간 수박 러그",
+      "zh-tw": "紅色西瓜地毯",
+      "en": "red watermelon rug",
+      "es": "alfombra sandía roja",
+      "fr": "tapis pastèque rouge"
+    }
+  },
+  "12216": {
+    "img": "FtrIcon/RugOtherWatermelonM01",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "chn13",
+      "rbt12"
+    ],
+    "loc": {
+      "zh-cn": "黄色西瓜地毯",
+      "de": "Gelb-Melonenteppich",
+      "it": "tappeto anguria giallo",
+      "nl": "geel watermeloentapijt",
+      "ru": "ковер «Желтый арбуз»",
+      "ja": "きいろいスイカのラグ",
+      "ko": "노란 수박 러그",
+      "zh-tw": "黃色西瓜地毯",
+      "en": "yellow watermelon rug",
+      "es": "alfombra sandía amarilla",
+      "fr": "tapis pastèque jaune"
+    }
+  },
+  "12217": {
+    "img": "FtrIcon/RugOtherShellSnailM00",
+    "clr": "aqua",
+    "sel": 7200,
+    "hap": 201,
+    "has": [
+      "ocean",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "evt": "summer_shell",
+    "vad": "1.6.0",
+    "hui": [
+      "ant06",
+      "dog17",
+      "duk05",
+      "duk06",
+      "rbt13",
+      "shp02"
+    ],
+    "loc": {
+      "zh-cn": "夏天贝壳地毯",
+      "de": "Sommer-Muschelteppich",
+      "es-es": "alfombra concha veraniega",
+      "it": "tappeto conchiglia estivo",
+      "nl": "zomerschelptapijt",
+      "ru": "летний ковер-ракушка",
+      "ja": "なつのかいがらのラグ",
+      "ko": "여름 조개껍데기 러그",
+      "zh-tw": "夏天貝殼地毯",
+      "es-us": "alfombra veraniega",
+      "en": "summer-shell rug",
+      "fr": "tapis coquillage estival"
+    }
+  },
+  "12219": {
+    "img": "FtrIcon/RugRoundBiscuitM00",
+    "clr": [
+      "orange",
+      "yellow"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cat23",
+      "cbr04",
+      "cbr17",
+      "chn01",
+      "der11",
+      "dog01",
+      "duk17",
+      "elp05",
+      "elp07",
+      "flg04",
+      "mus08",
+      "mus09",
+      "pig01",
+      "rbt14",
+      "rhn04"
+    ],
+    "loc": {
+      "zh-cn": "饼干地毯",
+      "de": "Keksteppich",
+      "it": "tappeto biscotto",
+      "nl": "koekjetapijt",
+      "ru": "ковер-печенье",
+      "ja": "ビスケットのラグ",
+      "ko": "비스킷 러그",
+      "zh-tw": "餅乾地毯",
+      "en": "cookie rug",
+      "es": "alfombra galleta",
+      "fr": "tapis biscuit"
+    }
+  },
+  "12220": {
+    "img": "FtrIcon/RugRectChinamatS00",
+    "clr": "red",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "harmonious",
+      "restaurant"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "cbr13",
+      "crd07",
+      "flg07",
+      "flg15",
+      "mnk07"
+    ],
+    "loc": {
+      "zh-cn": "红色中式地垫",
+      "de": "Rot-Feudalteppich",
+      "it": "tappeto raffinato rosso",
+      "nl": "rood verfijnd tapijt",
+      "ru": "изысканный красн. ковер",
+      "ja": "あかいチャイナなマット",
+      "ko": "빨간 중국풍 매트",
+      "zh-tw": "紅色中華風地墊",
+      "en": "red exquisite rug",
+      "es": "alfombra exquisita roja",
+      "fr": "tapis Chine rouge"
+    }
+  },
+  "12221": {
+    "img": "FtrIcon/RugRectChinamatS01",
+    "clr": [
+      "green",
+      "yellow"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "harmonious",
+      "restaurant"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "cbr14",
+      "flg07",
+      "mnk07"
+    ],
+    "loc": {
+      "zh-cn": "绿色中式地垫",
+      "de": "Grün-Feudalteppich",
+      "it": "tappeto raffinato giallo",
+      "nl": "groen verfijnd tapijt",
+      "ru": "изысканный зел. ковер",
+      "ja": "みどりのチャイナなマット",
+      "ko": "초록 중국풍 매트",
+      "zh-tw": "綠色中華風地墊",
+      "en": "green exquisite rug",
+      "es": "alfombra exquisita verde",
+      "fr": "tapis Chine vert"
+    }
+  },
+  "12222": {
+    "img": "FtrIcon/RugOtherStarM00",
+    "clr": "yellow",
+    "sel": 1500,
+    "hap": 103,
+    "hat": "stars",
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "cat09",
+      "cbr04",
+      "chn00",
+      "cow07",
+      "crd04",
+      "dog02",
+      "dog05",
+      "goa07",
+      "hip09",
+      "hrs11",
+      "kal00",
+      "mus08",
+      "pbr05",
+      "pgn06",
+      "pig14",
+      "rbt07",
+      "shp04",
+      "shp08",
+      "shp12",
+      "shp13",
+      "squ19",
+      "wol05"
+    ],
+    "loc": {
+      "zh-cn": "黄色星星地毯",
+      "de": "Gelb-Sternteppich",
+      "it": "tappeto stella giallo",
+      "nl": "geel stertapijt",
+      "ru": "желтый ковер-звезда",
+      "ja": "きいろいおほしさまのラグ",
+      "ko": "노란 별님 러그",
+      "zh-tw": "黃色星星地毯",
+      "en": "yellow star rug",
+      "es": "alfombra estrella amarilla",
+      "fr": "tapis étoile jaune"
+    }
+  },
+  "12288": {
+    "img": "FtrIcon/RugOtherCinnamonM00",
+    "clr": [
+      "white",
+      "aqua"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "cinnamoroll",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "elp09",
+    "loc": {
+      "de": "Cinnamoroll-Teppich",
+      "it": "tappeto Cinnamoroll",
+      "nl": "Cinnamoroll-tapijt",
+      "ru": "ковер Cinnamoroll",
+      "ja": "シナモロールなラグ",
+      "ko": "시나모롤 러그",
+      "en": "Cinnamoroll rug",
+      "es": "alfombra Cinnamoroll",
+      "fr": "tapis Cinnamoroll",
+      "zh": "Cinnamoroll地毯"
+    }
+  },
+  "12289": {
+    "img": "FtrIcon/RugRoundKeroppiM00",
+    "clr": [
+      "green",
+      "beige"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "kerokerokeroppi",
+    "has": [
+      "garden",
+      "harmonious"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "rbt18",
+    "loc": {
+      "de": "Kerokerokeroppi-Teppich",
+      "it": "tappeto Kerokerokeroppi",
+      "nl": "Kerokerokeroppi-tapijt",
+      "ru": "ковер Kerokerokeroppi",
+      "ja": "けろけろけろっぴなラグ",
+      "ko": "케로케로케로피 러그",
+      "en": "Kerokerokeroppi rug",
+      "es": "alfombra Kerokerokeroppi",
+      "fr": "tapis Kerokerokeroppi",
+      "zh": "Kerokerokeroppi地毯"
+    }
+  },
+  "12290": {
+    "img": "FtrIcon/RugOtherKikilalaM00",
+    "clr": [
+      "pink",
+      "aqua"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "kiki_lala",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "shp12",
+    "loc": {
+      "de": "Kiki-&-Lala-Teppich",
+      "it": "tappeto Kiki & Lala",
+      "nl": "Kiki-&-Lala-tapijt",
+      "ru": "ковер Kiki & Lala",
+      "ja": "キキ&ララなラグ",
+      "ko": "리틀트윈스타 러그",
+      "en": "Kiki & Lala rug",
+      "es": "alfombra Kiki & Lala",
+      "fr": "tapis Kiki & Lala",
+      "zh": "Kiki & Lala地毯"
+    }
+  },
+  "12291": {
+    "img": "FtrIcon/RugOtherKittyM00",
+    "clr": [
+      "white",
+      "red"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "hello_kitty",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "gor09",
+    "loc": {
+      "de": "Hello-Kitty-Teppich",
+      "it": "tappeto Hello Kitty",
+      "nl": "Hello Kitty-tapijt",
+      "ru": "ковер Hello Kitty",
+      "ja": "ハローキティなラグ",
+      "ko": "헬로키티 러그",
+      "en": "Hello Kitty rug",
+      "es": "alfombra Hello Kitty",
+      "fr": "tapis Hello Kitty",
+      "zh": "Hello Kitty地毯"
+    }
+  },
+  "12292": {
+    "img": "FtrIcon/RugOtherMymelodyM00",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "my_melody",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "der09",
+    "loc": {
+      "de": "My-Melody-Teppich",
+      "it": "tappeto My Melody",
+      "nl": "My Melody-tapijt",
+      "ru": "ковер My Melody",
+      "ja": "マイメロディなラグ",
+      "ko": "마이멜로디 러그",
+      "en": "My Melody rug",
+      "es": "alfombra My Melody",
+      "fr": "tapis My Melody",
+      "zh": "My Melody地毯"
+    }
+  },
+  "12293": {
+    "img": "FtrIcon/RugOtherPurinM00",
+    "clr": "yellow",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "pompompurin",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": [
+      "nook_shopping_promo",
+      "amiibo"
+    ],
+    "vad": "1.9.0",
+    "hui": "cbr17",
+    "loc": {
+      "de": "Pompompurin-Teppich",
+      "it": "tappeto Pompompurin",
+      "nl": "Pompompurin-tapijt",
+      "ru": "ковер Pompompurin",
+      "ja": "ポムポムプリンなラグ",
+      "ko": "폼폼푸린 러그",
+      "en": "Pompompurin rug",
+      "es": "alfombra Pompompurin",
+      "fr": "tapis Pompompurin",
+      "zh": "Pompompurin地毯"
+    }
+  },
+  "12325": {
+    "img": "FtrIcon/RugOtherTanukiM00",
+    "clr": [
+      "yellow",
+      "green"
+    ],
+    "sel": 5000,
+    "exp": 1000,
+    "exc": 0,
+    "hap": 151,
+    "has": [
+      "fancy",
+      "living_room"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_miles",
+    "vad": "1.1.0",
+    "loc": {
+      "zh-cn": "Nook Inc.植物图案地毯",
+      "de": "Nook-Inc.-Botanikteppich",
+      "it": "tappeto botanico Nook Inc.",
+      "nl": "botanisch Nook Inc.-tapijt",
+      "ru": "ботан. ковер Nook Inc.",
+      "ja": "たぬきかいはつのボタニカルラグ",
+      "ko": "Nook Inc. 보태니컬 러그",
+      "zh-tw": "Nook Inc.植物圖案地毯",
+      "en": "Nook Inc. botanical rug",
+      "es": "alfombra botánica Nook Inc.",
+      "fr": "tapis botanique Nook Inc."
+    }
+  },
+  "12328": {
+    "img": "FtrIcon/RugRoundRecordM00",
+    "clr": [
+      "black",
+      "red"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd16",
+      "crd08",
+      "der02",
+      "dog07",
+      "duk09",
+      "elp10",
+      "elp12",
+      "flg00",
+      "kal04",
+      "kgr01",
+      "mnk01",
+      "mus00",
+      "ost03",
+      "pgn07",
+      "pgn11",
+      "pig05",
+      "squ15",
+      "tig01",
+      "tig05",
+      "wol06"
+    ],
+    "loc": {
+      "de": "Schallplattenteppich",
+      "it": "tappeto disco gigante",
+      "nl": "elpeetapijt",
+      "ru": "ковер-грампластинка",
+      "ja": "レコードのラグ",
+      "ko": "레코드 러그",
+      "en": "record rug",
+      "es": "alfombra disco de vinilo",
+      "fr": "tapis disque",
+      "zh": "唱片地毯"
+    }
+  },
+  "12329": {
+    "img": "FtrIcon/RugRectBambooBathmatS00",
+    "clr": "green",
+    "sel": 480,
+    "hap": 201,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "garden"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "cat08",
+      "kal05",
+      "kgr05",
+      "ocp04",
+      "ost04",
+      "rbt18",
+      "squ08"
+    ],
+    "loc": {
+      "zh-cn": "绿色竹子铺垫",
+      "de": "Grün-Bambusmatte",
+      "it": "tappeto bambù verde",
+      "nl": "groene bamboemat",
+      "ru": "зел. бамбуковая циновка",
+      "ja": "みどりのたけのしきもの",
+      "ko": "초록색 대나무 깔개",
+      "zh-tw": "綠色竹子鋪墊",
+      "en": "green bamboo mat",
+      "es": "alfombra bambú verde",
+      "fr": "tapis bambou vert"
+    }
+  },
+  "12330": {
+    "img": "FtrIcon/RugRectBambooBathmatS01",
+    "clr": "yellow",
+    "sel": 1200,
+    "hap": 103,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "retro"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "vad": "2.0.0",
+    "hui": [
+      "brd06",
+      "cat00",
+      "chn12",
+      "elp11",
+      "flg02",
+      "mus02",
+      "pbr01",
+      "rbt06",
+      "rbt18",
+      "squ16"
+    ],
+    "loc": {
+      "zh-cn": "黄色竹子铺垫",
+      "de": "Gelb-Bambusmatte",
+      "it": "tappeto bambù giallo",
+      "nl": "gele bamboemat",
+      "ru": "желт. бамбуковая циновка",
+      "ja": "きいろいたけのしきもの",
+      "ko": "노란색 대나무 깔개",
+      "zh-tw": "黃色竹子鋪墊",
+      "en": "yellow bamboo mat",
+      "es": "alfombra bambú amarilla",
+      "fr": "tapis bambou jaune"
+    }
+  },
+  "12334": {
+    "img": "FtrIcon/RugOtherSkullM00",
+    "clr": [
+      "gray",
+      "black"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "horror",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cat20",
+      "ham03",
+      "ham07",
+      "mus00",
+      "mus03",
+      "pgn11",
+      "squ06",
+      "tig03",
+      "tig05"
+    ],
+    "loc": {
+      "zh-cn": "骷髅地毯",
+      "de": "Schädelteppich",
+      "it": "tappeto teschio",
+      "nl": "schedeltapijt",
+      "ru": "ковер «Череп»",
+      "ja": "スカルのラグ",
+      "ko": "스컬 러그",
+      "zh-tw": "骷髏地毯",
+      "en": "skull rug",
+      "es": "alfombra calavera",
+      "fr": "tapis crâne"
+    }
+  },
+  "12335": {
+    "img": "FtrIcon/RugOtherAcornM00",
+    "clr": [
+      "brown",
+      "beige"
+    ],
+    "sel": 2400,
+    "hap": 201,
+    "hat": "trees_bounty_or_leaves",
+    "has": "nature",
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "evt": "acorn_pinecone",
+    "vad": "2.0.0",
+    "hui": [
+      "bul01",
+      "der03",
+      "pig03"
+    ],
+    "loc": {
+      "de": "Eichelteppich",
+      "it": "tappeto ghianda",
+      "nl": "eikeltapijt",
+      "ru": "ковер «Желудь»",
+      "ja": "どんぐりのラグ",
+      "ko": "도토리 러그",
+      "en": "acorn rug",
+      "es": "alfombra bellota",
+      "fr": "tapis gland",
+      "zh": "橡栗地毯"
+    }
+  },
+  "12351": {
+    "img": "FtrIcon/RugOtherSakuraM00",
+    "clr": "pink",
+    "sel": 2400,
+    "hap": 103,
+    "hat": "cherry_blossoms",
+    "has": [
+      "fancy",
+      "harmonious"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "evt": "cherry_blossom",
+    "vad": "2.0.0",
+    "hui": [
+      "ant08",
+      "bea08",
+      "bul08",
+      "crd06",
+      "dog08",
+      "goa06",
+      "gor07",
+      "ost07",
+      "pbr09",
+      "squ05"
+    ],
+    "loc": {
+      "zh-cn": "樱花地垫",
+      "de": "Kirschblütenteppich",
+      "it": "tappeto fiore di ciliegio",
+      "nl": "kersenbloesemtapijt",
+      "ru": "ковер «Цвет вишни»",
+      "ja": "さくらのラグ",
+      "ko": "벚꽃 러그",
+      "zh-tw": "櫻花地毯",
+      "en": "cherry-blossom rug",
+      "es": "alfombra flor de cerezo",
+      "fr": "tapis fleur de cerisier"
+    }
+  },
+  "12363": {
+    "img": "FtrIcon/RugOtherBoneS00",
+    "clr": "green",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "childs_room"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "der11",
+      "der12",
+      "dog02",
+      "dog04",
+      "dog07",
+      "dog09",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "骨头玄关地毯",
+      "de": "Knochen-Fußmatte",
+      "it": "tappetino ingresso osso",
+      "nl": "bottenwelkomstmat",
+      "ru": "коврик-косточка",
+      "ja": "ボーンなげんかんマット",
+      "ko": "뼈다귀 현관 매트",
+      "zh-tw": "骨頭玄關地毯",
+      "en": "bone entrance mat",
+      "es": "felpudo hueso",
+      "fr": "paillasson os"
+    }
+  },
+  "12379": {
+    "img": "FtrIcon/RugOtherStumpM00",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 720,
+    "hap": 103,
+    "has": [
+      "nature",
+      "local"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "bea00",
+      "bea06",
+      "bea08",
+      "bul01",
+      "crd00",
+      "der03",
+      "der06",
+      "flg01",
+      "goa06",
+      "gor11",
+      "hrs10",
+      "lon00",
+      "lon07",
+      "mnk08",
+      "pgn05",
+      "pig03",
+      "rbt00",
+      "squ18"
+    ],
+    "loc": {
+      "zh-cn": "树桩地毯",
+      "de": "Baumstammteppich",
+      "it": "tappeto ceppo d'albero",
+      "nl": "boomstronktapijt",
+      "ru": "ковер «Пенек»",
+      "ja": "きりかぶのラグ",
+      "ko": "그루터기 러그",
+      "zh-tw": "樹樁地毯",
+      "en": "tree-stump rug",
+      "es": "alfombra tocón",
+      "fr": "tapis souche"
+    }
+  },
+  "12386": {
+    "img": "FtrIcon/RugRectMatM00",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "sports",
+      "school"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd04",
+      "brd15",
+      "bul05",
+      "cat12",
+      "cat14",
+      "cat19",
+      "der00",
+      "duk02",
+      "duk10",
+      "goa09",
+      "gor05",
+      "hip08",
+      "ost02",
+      "pbr03",
+      "pgn01",
+      "squ03",
+      "tig00"
+    ],
+    "loc": {
+      "zh-cn": "白色体操垫",
+      "de": "Weiß-Übungsmatte",
+      "es-es": "estera ejercicio blanca",
+      "it": "tappetino esercizi bianco",
+      "nl": "witte trainingsmat",
+      "ru": "белый гимнастич. мат",
+      "ja": "しろいたいそうマット",
+      "ko": "하얀색 체조 매트",
+      "zh-tw": "白色體操墊",
+      "es-us": "tapete de ejercicios blanco",
+      "en": "white exercise mat",
+      "fr": "tapis de sol blanc"
+    }
+  },
+  "12387": {
+    "img": "FtrIcon/RugRectMatM01",
+    "clr": "blue",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "sports",
+      "school"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd15",
+      "bul05",
+      "cat12",
+      "cat14",
+      "cbr19",
+      "duk02",
+      "goa09",
+      "gor05",
+      "kgr06",
+      "mus10",
+      "pgn01",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "蓝色体操垫",
+      "de": "Blau-Übungsmatte",
+      "es-es": "estera ejercicio azul",
+      "it": "tappetino esercizi blu",
+      "nl": "blauwe trainingsmat",
+      "ru": "синий гимнастич. мат",
+      "ja": "あおいたいそうマット",
+      "ko": "파란색 체조 매트",
+      "zh-tw": "藍色體操墊",
+      "es-us": "tapete de ejercicios azul",
+      "en": "blue exercise mat",
+      "fr": "tapis de sol bleu"
+    }
+  },
+  "12388": {
+    "img": "FtrIcon/RugRectMatM02",
+    "clr": "green",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "sports",
+      "school"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bul05",
+      "gor05",
+      "ost00",
+      "pbr03",
+      "squ14"
+    ],
+    "loc": {
+      "zh-cn": "绿色体操垫",
+      "de": "Grün-Übungsmatte",
+      "es-es": "estera ejercicio verde",
+      "it": "tappetino esercizi verde",
+      "nl": "groene trainingsmat",
+      "ru": "зеленый гимнастич. мат",
+      "ja": "みどりのたいそうマット",
+      "ko": "초록색 체조 매트",
+      "zh-tw": "綠色體操墊",
+      "es-us": "tapete de ejercicios verde",
+      "en": "green exercise mat",
+      "fr": "tapis de sol vert"
+    }
+  },
+  "12389": {
+    "img": "FtrIcon/RugRectMatM03",
+    "clr": "red",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "sports",
+      "school"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd00",
+      "brd15",
+      "bul05",
+      "cat12",
+      "gor05",
+      "kgr06"
+    ],
+    "loc": {
+      "zh-cn": "红色体操垫",
+      "de": "Rot-Übungsmatte",
+      "es-es": "estera ejercicio roja",
+      "it": "tappetino esercizi rosso",
+      "nl": "rode trainingsmat",
+      "ru": "красный гимнастич. мат",
+      "ja": "あかいたいそうマット",
+      "ko": "빨간색 체조 매트",
+      "zh-tw": "紅色體操墊",
+      "es-us": "tapete de ejercicios rojo",
+      "en": "red exercise mat",
+      "fr": "tapis de sol rouge"
+    }
+  },
+  "12390": {
+    "img": "FtrIcon/RugOtherMapleM00",
+    "clr": [
+      "red",
+      "orange"
+    ],
+    "sel": 2400,
+    "hap": 201,
+    "hat": "trees_bounty_or_leaves",
+    "has": [
+      "harmonious",
+      "garden"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "evt": "maple_leaf",
+    "vad": "2.0.0",
+    "hui": [
+      "crd00",
+      "der03",
+      "der06",
+      "pig03"
+    ],
+    "loc": {
+      "zh-cn": "枫叶地毯",
+      "de": "Ahornblattteppich",
+      "it": "tappeto foglia d'acero",
+      "nl": "esdoornbladtapijt",
+      "ru": "ковер «Кленовый лист»",
+      "ja": "もみじのラグ",
+      "ko": "단풍잎 러그",
+      "zh-tw": "楓葉地毯",
+      "en": "maple-leaf rug",
+      "es": "alfombra hoja de arce",
+      "fr": "tapis feuille d'érable"
+    }
+  },
+  "12391": {
+    "img": "FtrIcon/RugSquareHawaiianL00",
+    "clr": [
+      "aqua",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant05",
+      "chn09",
+      "elp09",
+      "ham04",
+      "rbt08"
+    ],
+    "loc": {
+      "zh-cn": "蓝色夏威夷拼布地毯",
+      "de": "Blau-Hawaiiteppich",
+      "fr-fr": "tapis hawaïen bleu",
+      "it": "tappeto hawaiano azzurro",
+      "nl": "blauw Hawaïaans tapijt",
+      "ru": "голубой стеганый ковер",
+      "ja": "あおいハワイアンキルトのラグ",
+      "ko": "파란색 하와이안 퀼트 러그",
+      "zh-tw": "藍色夏威夷拼布地毯",
+      "fr-us": "tapis aloha bleu",
+      "en": "blue Hawaiian quilt rug",
+      "es": "alfombra hawaiana azul"
+    }
+  },
+  "12392": {
+    "img": "FtrIcon/RugSquareHawaiianL03",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant05",
+      "bea12"
+    ],
+    "loc": {
+      "zh-cn": "绿色夏威夷拼布地毯",
+      "de": "Grün-Hawaiiteppich",
+      "fr-fr": "tapis hawaïen vert",
+      "it": "tappeto hawaiano verde",
+      "nl": "groen Hawaïaans tapijt",
+      "ru": "зеленый стеганый ковер",
+      "ja": "みどりのハワイアンキルトのラグ",
+      "ko": "초록색 하와이안 퀼트 러그",
+      "zh-tw": "綠色夏威夷拼布地毯",
+      "fr-us": "tapis aloha vert",
+      "en": "green Hawaiian quilt rug",
+      "es": "alfombra hawaiana verde"
+    }
+  },
+  "12393": {
+    "img": "FtrIcon/RugSquareHawaiianL02",
+    "clr": [
+      "pink",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant05",
+      "duk11",
+      "gor07",
+      "ost07",
+      "shp01",
+      "shp14"
+    ],
+    "loc": {
+      "zh-cn": "粉红色夏威夷拼布地毯",
+      "de": "Rosa-Hawaiiteppich",
+      "fr-fr": "tapis hawaïen rose",
+      "it": "tappeto hawaiano rosa",
+      "nl": "roze Hawaïaans tapijt",
+      "ru": "розовый стеганый ковер",
+      "ja": "ピンクのハワイアンキルトのラグ",
+      "ko": "핑크색 하와이안 퀼트 러그",
+      "zh-tw": "粉紅色夏威夷拼布地毯",
+      "fr-us": "tapis aloha rose",
+      "en": "pink Hawaiian quilt rug",
+      "es": "alfombra hawaiana rosa"
+    }
+  },
+  "12394": {
+    "img": "FtrIcon/RugSquareHawaiianL01",
+    "clr": [
+      "yellow",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant05",
+      "cat04",
+      "chn09",
+      "ham02",
+      "hip09",
+      "pbr06",
+      "pig16",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "黄色夏威夷拼布地毯",
+      "de": "Gelb-Hawaiiteppich",
+      "fr-fr": "tapis hawaïen jaune",
+      "it": "tappeto hawaiano giallo",
+      "nl": "geel Hawaïaans tapijt",
+      "ru": "желтый стеганый ковер",
+      "ja": "きいろいハワイアンキルトのラグ",
+      "ko": "노란색 하와이안 퀼트 러그",
+      "zh-tw": "黃色夏威夷拼布地毯",
+      "fr-us": "tapis aloha jaune",
+      "en": "yellow Hawaiian quilt rug",
+      "es": "alfombra hawaiana amarilla"
+    }
+  },
+  "12395": {
+    "img": "FtrIcon/RugSquareChinaL00",
+    "clr": "red",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "has": [
+      "harmonious",
+      "restaurant"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea01",
+      "cbr13",
+      "cbr14",
+      "flg07",
+      "flg15",
+      "kal05",
+      "mnk07",
+      "pbr01"
+    ],
+    "loc": {
+      "de": "Fernost-Teppich",
+      "it": "tappeto cinese",
+      "nl": "keizerlijk tapijt",
+      "ru": "азиатский ковер",
+      "ja": "ちゅうかなラグ",
+      "ko": "중국풍 러그",
+      "en": "imperial rug",
+      "es": "alfombra imperial",
+      "fr": "tapis impérial",
+      "zh": "中式地毯"
+    }
+  },
+  "12396": {
+    "img": "FtrIcon/RugRectTanukiL00",
+    "clr": "green",
+    "sel": 3000,
+    "exp": 600,
+    "exc": 0,
+    "hap": 89,
+    "has": [
+      "facility",
+      "shop"
+    ],
+    "cat": true,
+    "sze": "4x3",
+    "src": [
+      "nook_miles",
+      "nso"
+    ],
+    "vad": "1.1.0",
+    "loc": {
+      "de": "Nook-Inc.-Viereckteppich",
+      "it": "tappeto di velluto Nook Inc.",
+      "nl": "zijden Nook Inc.-tapijt",
+      "ru": "шелк. коврик Nook Inc.",
+      "ja": "たぬきかいはつのスクエアラグ",
+      "ko": "Nook Inc. 사각 러그",
+      "en": "Nook Inc. silk rug",
+      "es": "felpudo de seda Nook Inc.",
+      "fr": "tapis en soie Nook Inc.",
+      "zh": "Nook Inc.正方形地毯"
+    }
+  },
+  "12399": {
+    "img": "FtrIcon/RugRectBambooS00",
+    "clr": [
+      "beige",
+      "brown"
+    ],
+    "sel": 1200,
+    "hap": 201,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "public_bath"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "evt": "young_spring_bamboo",
+    "vad": "2.0.0",
+    "hui": [
+      "flg02",
+      "mnk04",
+      "mus14",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "浅色竹子浴室地垫",
+      "de": "Hell-Bambusbadematte",
+      "es-es": "alfombrilla bambú clara",
+      "it": "tapp. bagno bambù chiaro",
+      "nl": "lichte bamboebadmat",
+      "ru": "св. бамб. коврик в ванную",
+      "ja": "ライトなバンブーバスマット",
+      "ko": "라이트 대나무 욕실 매트",
+      "zh-tw": "淺色竹子浴室地墊",
+      "es-us": "alfombrita bambú clara",
+      "en": "light bamboo bath mat",
+      "fr": "tapis de bain bambou clair"
+    }
+  },
+  "12400": {
+    "img": "FtrIcon/RugRectBambooS01",
+    "clr": "brown",
+    "sel": 480,
+    "hap": 103,
+    "hat": "bamboo",
+    "has": [
+      "harmonious",
+      "public_bath"
+    ],
+    "cat": true,
+    "sze": "2x1",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "goa08",
+      "mnk04"
+    ],
+    "loc": {
+      "zh-cn": "深色竹子浴室地垫",
+      "de": "Dunkel-Bambusbadematte",
+      "es-es": "alfombrilla bambú oscura",
+      "it": "tapp. bagno bambù scuro",
+      "nl": "donkere bamboebadmat",
+      "ru": "т. бамб. коврик в ванную",
+      "ja": "ダークなバンブーバスマット",
+      "ko": "다크 대나무 욕실 매트",
+      "zh-tw": "深色竹子浴室地墊",
+      "es-us": "alfombrita bambú oscura",
+      "en": "dark bamboo bath mat",
+      "fr": "tapis de bain bambou foncé"
+    }
+  },
+  "12462": {
+    "img": "FtrIcon/RugRectJuneBrideM00",
+    "clr": "aqua",
+    "sel": 375,
+    "exp": 4,
+    "exc": 5,
+    "hap": 437,
+    "hat": "wedding",
+    "has": [
+      "party",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "cyrus",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "水蓝色婚礼地毯",
+      "de": "Blau-Hochzeitsteppich",
+      "it": "tappeto nuziale blu",
+      "nl": "blauw trouwtapijt",
+      "ru": "синий свадебный ковер",
+      "ja": "ウェディングなラグ・ブルー",
+      "ko": "하늘색 웨딩 러그",
+      "zh-tw": "藍色婚禮地毯",
+      "en": "blue wedding rug",
+      "es": "alfombra de boda azul",
+      "fr": "tapis mariage bleu"
+    }
+  },
+  "12464": {
+    "img": "FtrIcon/RugRectJuneBrideM03",
+    "clr": "white",
+    "sel": 375,
+    "exp": 4,
+    "exc": 5,
+    "hap": 437,
+    "hat": "wedding",
+    "has": [
+      "party",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "cyrus",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "白色婚礼地毯",
+      "de": "Weiß-Hochzeitsteppich",
+      "it": "tappeto nuziale bianco",
+      "nl": "wit trouwtapijt",
+      "ru": "белый свадебный ковер",
+      "ja": "ウェディングなラグ・ホワイト",
+      "ko": "하얀 웨딩 러그",
+      "zh-tw": "白色婚禮地毯",
+      "en": "white wedding rug",
+      "es": "alfombra de boda blanca",
+      "fr": "tapis mariage blanc"
+    }
+  },
+  "12465": {
+    "img": "FtrIcon/RugRectJuneBrideM02",
+    "clr": "red",
+    "sel": 375,
+    "exp": 4,
+    "exc": 5,
+    "hap": 437,
+    "hat": "wedding",
+    "has": [
+      "party",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "cyrus",
+    "evt": "wedding_season",
+    "vad": "1.2.0",
+    "loc": {
+      "zh-cn": "红色婚礼地毯",
+      "de": "Rot-Hochzeitsteppich",
+      "it": "tappeto nuziale rosso",
+      "nl": "rood trouwtapijt",
+      "ru": "красн. свадебный ковер",
+      "ja": "ウェディングなラグ・レッド",
+      "ko": "빨간 웨딩 러그",
+      "zh-tw": "紅色婚禮地毯",
+      "en": "red wedding rug",
+      "es": "alfombra de boda roja",
+      "fr": "tapis mariage rouge"
+    }
+  },
+  "12521": {
+    "img": "FtrIcon/RugRoundZodiacM00",
+    "clr": "blue",
+    "sel": 5500,
+    "hap": 103,
+    "hat": "stars",
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "ant09",
+      "bul00",
+      "cat18",
+      "cbr02",
+      "chn00",
+      "chn01",
+      "der07",
+      "flg17",
+      "goa02",
+      "hrs11",
+      "mus15",
+      "ost05",
+      "pbr05",
+      "pig14",
+      "rbt17",
+      "rbt21",
+      "shp08",
+      "shp10",
+      "squ17"
+    ],
+    "loc": {
+      "de": "Sternbilder-Teppich",
+      "it": "tappeto cielo stellato",
+      "nl": "sterrenhemeltapijt",
+      "ru": "ковер со звездами",
+      "ja": "ほしぞらのラグ",
+      "ko": "별이 빛나는 러그",
+      "en": "starry-skies rug",
+      "es": "alfombra cielo estrellado",
+      "fr": "tapis constellation",
+      "zh": "星空地毯"
+    }
+  },
+  "12563": {
+    "img": "FtrIcon/RugOtherMermaidM00",
+    "clr": [
+      "aqua",
+      "pink"
+    ],
+    "sel": 10360,
+    "hap": 451,
+    "hat": "mermaid",
+    "has": [
+      "ocean",
+      "fancy"
+    ],
+    "cat": true,
+    "sze": "3x3",
+    "src": "crafting",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "人鱼地毯",
+      "de": "Nixenteppich",
+      "it": "tappeto sirena",
+      "nl": "meerminnentapijt",
+      "ru": "ковер русалки",
+      "ja": "マーメイドなラグ",
+      "ko": "머메이드 러그",
+      "zh-tw": "人魚地毯",
+      "en": "mermaid rug",
+      "es": "alfombra sirena",
+      "fr": "tapis sirène"
+    }
+  },
+  "12564": {
+    "img": "FtrIcon/RugRectPiratesM00",
+    "clr": "beige",
+    "sel": 375,
+    "hap": 451,
+    "hat": "pirate",
+    "has": [
+      "ocean",
+      "horror"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "gullivarrr",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "海盗地毯",
+      "de": "Piratenteppich",
+      "it": "tappeto pirata",
+      "nl": "piratentapijt",
+      "ru": "пиратский ковер",
+      "ja": "かいぞくのラグ",
+      "ko": "해적 러그",
+      "zh-tw": "海盜地毯",
+      "en": "pirate rug",
+      "es": "alfombra pirata",
+      "fr": "tapis pirate"
+    }
+  },
+  "12725": {
+    "img": "FtrIcon/RugRoundStageM00",
+    "clr": [
+      "colorful",
+      "yellow"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "concert",
+      "party"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea10",
+      "brd15",
+      "cat07",
+      "cat12",
+      "cat20",
+      "cbr18",
+      "chn05",
+      "dog06",
+      "kgr01",
+      "pgn10",
+      "pgn14",
+      "pig13",
+      "rbt11",
+      "rhn08",
+      "shp11",
+      "tig00",
+      "tig05"
+    ],
+    "loc": {
+      "de": "Bühnenteppich",
+      "it": "tappeto da circo",
+      "nl": "toneeltapijt",
+      "ru": "ковер на арену",
+      "ja": "ステージのラグ",
+      "ko": "스테이지 러그",
+      "en": "stage rug",
+      "es": "alfombra pista de circo",
+      "fr": "tapis piste de cirque",
+      "zh": "舞台地毯"
+    }
+  },
+  "13057": {
+    "img": "FtrIcon/RugRectCoconutmatS00",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": "cafe",
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr09",
+      "cow06",
+      "dog06",
+      "duk07",
+      "mus17",
+      "squ15",
+      "tig01",
+      "wol01"
+    ],
+    "loc": {
+      "zh-cn": "椰子地垫",
+      "de": "Kokosfasermatte",
+      "es-es": "felpudo de coco «café»",
+      "it": "tappetino in fibra di cocco",
+      "nl": "cafémat",
+      "ru": "кокосовая циновка",
+      "ja": "ココナッツマット",
+      "ko": "코코넛 카페 매트",
+      "zh-tw": "椰子地墊",
+      "es-us": "felpudo de coco \"café\"",
+      "en": "coconut mat",
+      "fr": "tapis en fibre de coco"
+    }
+  },
+  "13058": {
+    "img": "FtrIcon/RugRectEntranceS00",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "ant00",
+      "bea10",
+      "cat01",
+      "cat03",
+      "cat08",
+      "cat11",
+      "cat15",
+      "cbr19",
+      "chn11",
+      "duk00",
+      "flg15",
+      "flg18",
+      "goa08",
+      "ham00",
+      "hrs02",
+      "kal01",
+      "lon08",
+      "ocp01",
+      "ocp02",
+      "pgn13",
+      "pig10",
+      "pig15",
+      "rbt01",
+      "rbt04",
+      "rhn01"
+    ],
+    "loc": {
+      "zh-cn": "简约玄关地垫",
+      "de": "Standard-Eingangsmatte",
+      "it": "tappetino ingresso semplice",
+      "nl": "simpele welkomstmat",
+      "ru": "простой коврик",
+      "ja": "シンプルなげんかんマット",
+      "ko": "심플 현관 매트",
+      "zh-tw": "簡約玄關地墊",
+      "en": "simple entrance mat",
+      "es": "felpudo simple",
+      "fr": "paillasson simple"
+    }
+  },
+  "13287": {
+    "img": "FtrIcon/RugRoundMoonM00",
+    "clr": "yellow",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 201,
+    "hat": "stars",
+    "has": [
+      "space",
+      "harmonious"
+    ],
+    "sea": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_shopping_season",
+    "evt": "moon_viewing_day",
+    "vad": "1.4.0",
+    "loc": {
+      "de": "Mondteppich",
+      "it": "tappeto luna",
+      "nl": "maantapijt",
+      "ru": "ковер-луна",
+      "ja": "つきのラグ",
+      "ko": "보름달 러그",
+      "en": "moon rug",
+      "es": "alfombra luna",
+      "fr": "tapis lune",
+      "zh": "月之地毯"
+    }
+  },
+  "13525": {
+    "img": "FtrIcon/RugSquareHarvestL00",
+    "clr": "beige",
+    "sel": 500,
+    "hap": 351,
+    "hat": "turkey_day",
+    "has": "party",
+    "cat": true,
+    "sze": "4x4",
+    "src": "franklin",
+    "evt": "turkey_day",
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "感恩节地毯",
+      "de": "Schlemmfest-Teppich",
+      "it": "tappeto primizie",
+      "nl": "smakenfestijntapijt",
+      "ru": "ковер «День изобилия»",
+      "ja": "サンクスギビングなラグ",
+      "ko": "하베스트 러그",
+      "zh-tw": "感恩節地毯",
+      "en": "Turkey Day rug",
+      "es": "alfombra Día del Pavo",
+      "fr": "tapis fête du partage"
+    }
+  },
+  "13566": {
+    "img": "FtrIcon/RugSquareTileS00",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd11",
+      "brd16",
+      "cat01",
+      "cat12",
+      "cat16",
+      "cat20",
+      "dog15",
+      "duk09",
+      "duk10",
+      "duk15",
+      "flg06",
+      "flg10",
+      "flg12",
+      "flg18",
+      "goa08",
+      "ham01",
+      "hip02",
+      "hrs02",
+      "hrs04",
+      "kgr01",
+      "lon02",
+      "ost01",
+      "ost08",
+      "pbr05",
+      "pig00",
+      "pig04",
+      "squ00",
+      "wol05",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "灰色地砖地垫",
+      "de": "Grau-Fliesenvierer",
+      "es-es": "estera losa gris",
+      "fr-fr": "carpette dalles grises",
+      "it": "set di piastrelle grigie",
+      "nl": "grijze vloertegels",
+      "ru": "серая плитка на пол",
+      "ja": "グレーのフロアタイル",
+      "ko": "회색 플로어 타일",
+      "zh-tw": "灰色地磚地墊",
+      "es-us": "tapete losa gris",
+      "fr-us": "carpette dalle grise",
+      "en": "gray floor tiles"
+    }
+  },
+  "13567": {
+    "img": "FtrIcon/RugSquareStoneS00",
+    "clr": "gray",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "garden",
+      "european"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bul03",
+      "bul07",
+      "cbr05",
+      "chn10",
+      "chn11",
+      "dog01",
+      "dog11",
+      "flg02",
+      "flg09",
+      "goa00",
+      "ham01",
+      "kgr00",
+      "lon00",
+      "ost06",
+      "ost08",
+      "ost09",
+      "ost10",
+      "pbr02",
+      "rbt01",
+      "rbt15",
+      "rhn05",
+      "squ06",
+      "squ14",
+      "wol00"
+    ],
+    "loc": {
+      "zh-cn": "浅色石头地毯",
+      "de": "Helle-Steine-Teppich",
+      "it": "tappeto pietre chiare",
+      "nl": "lichtesteentjestapijt",
+      "ru": "светлый каменный ковер",
+      "ja": "ライトストーンなラグ",
+      "ko": "라이트 스톤 러그",
+      "zh-tw": "淺色石頭地毯",
+      "en": "light stones rug",
+      "es": "alfombra piedra clara",
+      "fr": "carpette pierre claire"
+    }
+  },
+  "13568": {
+    "img": "FtrIcon/RugSquareWoodS00",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cat13",
+      "dog18",
+      "duk04",
+      "elp03",
+      "gor04",
+      "pgn04"
+    ],
+    "loc": {
+      "zh-cn": "浅色地砖地毯",
+      "de": "Hell-Quadratfliese",
+      "es-es": "estera losa cuadrada clara",
+      "it": "piastrella quadrata chiara",
+      "nl": "lichte vierkante tegel",
+      "ru": "светлая плитка",
+      "ja": "ライトなフローリングタイル",
+      "ko": "라이트 마룻바닥 타일",
+      "zh-tw": "淺色地磚地毯",
+      "es-us": "tapete losa cuadrada claro",
+      "en": "light square tile",
+      "fr": "carpette tuile claire"
+    }
+  },
+  "13571": {
+    "img": "FtrIcon/RugSquareBrickS00",
+    "clr": [
+      "red",
+      "brown"
+    ],
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "garden",
+      "european"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea14",
+      "cat13",
+      "chn11",
+      "elp05",
+      "flg11",
+      "goa01",
+      "goa04",
+      "goa06",
+      "mnk08",
+      "pbr10",
+      "rhn07",
+      "squ09"
+    ],
+    "loc": {
+      "zh-cn": "红色砖块地毯",
+      "de": "Rotziegel-Teppich",
+      "it": "tappeto mattoni rossi",
+      "nl": "rodebakstenentapijt",
+      "ru": "краснокирпичный ковер",
+      "ja": "あかレンガなラグ",
+      "ko": "빨간 벽돌 러그",
+      "zh-tw": "紅色磚塊地毯",
+      "en": "red brick rug",
+      "es": "alfombra ladrillo rojo",
+      "fr": "carpette brique rouge"
+    }
+  },
+  "13572": {
+    "img": "FtrIcon/RugSquareIceS00",
+    "clr": "aqua",
+    "sel": 3200,
+    "hap": 103,
+    "hat": "frozen",
+    "has": "freezing_cold",
+    "cat": true,
+    "sze": "2x2",
+    "src": "crafting",
+    "evt": "snowflake",
+    "vad": "2.0.0",
+    "hui": [
+      "bea07",
+      "bul07",
+      "ham04",
+      "pgn03",
+      "pgn04",
+      "pgn09",
+      "pgn12",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "冰地砖地垫",
+      "de": "Eis-Fliesenvierer",
+      "es-es": "estera losa iceberg",
+      "it": "set di piastrelle iceberg",
+      "nl": "bevroren vloertegels",
+      "ru": "ледяная плитка на пол",
+      "ja": "こおりのフロアタイル",
+      "ko": "얼음 플로어 타일",
+      "zh-tw": "冰地磚地墊",
+      "es-us": "tapete losa iceberg",
+      "en": "frozen floor tiles",
+      "fr": "carpette arctique tuiles"
+    }
+  },
+  "13592": {
+    "img": "FtrIcon/RugSquareWoodS03",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd04",
+      "bul01",
+      "chn12",
+      "crd02",
+      "gor02"
+    ],
+    "loc": {
+      "zh-cn": "深色地砖地毯",
+      "de": "Dunkel-Quadratfliese",
+      "es-es": "estera losa cuadrada oscura",
+      "it": "piastrella quadrata scura",
+      "nl": "donkere vierkante tegel",
+      "ru": "темная плитка",
+      "ja": "ダークなフローリングタイル",
+      "ko": "다크 마룻바닥 타일",
+      "zh-tw": "深色地磚地毯",
+      "es-us": "tapete losa cuad. oscuro",
+      "en": "dark square tile",
+      "fr": "carpette tuile foncée"
+    }
+  },
+  "13593": {
+    "img": "FtrIcon/RugSquareWoodS02",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea11",
+      "brd06",
+      "brd20",
+      "cat00",
+      "cat16",
+      "der00",
+      "der10",
+      "dog14",
+      "duk04",
+      "duk08",
+      "flg02",
+      "gor00",
+      "gor01",
+      "hip03",
+      "hrs03",
+      "mnk09",
+      "ocp04",
+      "ost04",
+      "ost06",
+      "pbr01",
+      "pig00",
+      "rbt01",
+      "rbt06"
+    ],
+    "loc": {
+      "zh-cn": "自然色地砖地毯",
+      "de": "Echtholz-Quadratfliese",
+      "es-es": "estera cuad. madera natural",
+      "it": "piastr. quadr. legno naturale",
+      "nl": "vierkante natuurhouttegel",
+      "ru": "плитка под натур. дерево",
+      "ja": "ナチュラルなフローリングタイル",
+      "ko": "내추럴 마룻바닥 타일",
+      "zh-tw": "自然色地磚地毯",
+      "es-us": "tapete madera natural cuad.",
+      "en": "natural-wood square tile",
+      "fr": "carpette tuile bois naturel"
+    }
+  },
+  "13594": {
+    "img": "FtrIcon/RugSquareStoneS01",
+    "clr": "black",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "garden",
+      "european"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea06",
+      "bea14",
+      "bul03",
+      "bul07",
+      "cat08",
+      "cat18",
+      "cbr05",
+      "dog16",
+      "ham03",
+      "pbr02",
+      "squ06"
+    ],
+    "loc": {
+      "zh-cn": "深色石头地毯",
+      "de": "Dunkle-Steine-Teppich",
+      "it": "tappeto pietre scure",
+      "nl": "donkeresteentjestapijt",
+      "ru": "темный каменный ковер",
+      "ja": "ダークストーンなラグ",
+      "ko": "다크 스톤 러그",
+      "zh-tw": "深色石頭地毯",
+      "en": "dark stones rug",
+      "es": "alfombra piedra oscura",
+      "fr": "carpette pierre foncée"
+    }
+  },
+  "13595": {
+    "img": "FtrIcon/RugSquareWoodS01",
+    "clr": "white",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "living_room",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd09",
+      "dog17",
+      "hrs10",
+      "kgr09",
+      "lon04",
+      "pig08",
+      "rbt16",
+      "shp11",
+      "squ09"
+    ],
+    "loc": {
+      "zh-cn": "白色地砖地毯",
+      "de": "Weiß-Quadratfliese",
+      "es-es": "estera losa cuadrada blanca",
+      "it": "piastrella quadrata bianca",
+      "nl": "witte vierkante tegel",
+      "ru": "белая плитка",
+      "ja": "ホワイトのフローリングタイル",
+      "ko": "화이트 마룻바닥 타일",
+      "zh-tw": "白色地磚地毯",
+      "es-us": "tapete losa cuadrada blanco",
+      "en": "white square tile",
+      "fr": "carpette tuile blanche"
+    }
+  },
+  "13596": {
+    "img": "FtrIcon/RugOtherSunflowerM00",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "flowers",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sea": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_shopping_season",
+    "evt": "summer_solstice",
+    "vad": "1.6.0",
+    "loc": {
+      "de": "Sonnenblumenteppich",
+      "it": "tappeto girasole",
+      "nl": "zonnebloemtapijt",
+      "ru": "подсолнуховый ковер",
+      "ja": "ひまわりのラグ",
+      "ko": "해바라기 러그",
+      "en": "sunflower rug",
+      "es": "alfombra girasol",
+      "fr": "tapis tournesol",
+      "zh": "向日葵地毯"
+    }
+  },
+  "13597": {
+    "img": "FtrIcon/RugSquareBrickS01",
+    "clr": "gray",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "garden",
+      "european"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bul00",
+      "bul07",
+      "chn10",
+      "dog16",
+      "flg09",
+      "ost09",
+      "ost10",
+      "pbr08",
+      "squ06",
+      "squ14"
+    ],
+    "loc": {
+      "zh-cn": "灰色砖块地毯",
+      "de": "Grauziegel-Teppich",
+      "it": "tappeto mattoni grigi",
+      "nl": "grijzebakstenentapijt",
+      "ru": "серокирпичный ковер",
+      "ja": "グレーレンガなラグ",
+      "ko": "회색 벽돌 러그",
+      "zh-tw": "灰色磚塊地毯",
+      "en": "gray brick rug",
+      "es": "alfombra ladrillo gris",
+      "fr": "carpette brique grise"
+    }
+  },
+  "13860": {
+    "img": "FtrIcon/RugRectDisplayStandS00",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "shop",
+      "apparel_shop"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd08",
+      "cbr10",
+      "cbr19",
+      "duk01",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "浅木色地板铺巾",
+      "de": "Hell-Holzbodenbelag",
+      "it": "finto parquet chiaro",
+      "nl": "brandhoutlinoleum",
+      "ru": "светлый деревян. настил",
+      "ja": "ライトウッドなフロアシート",
+      "ko": "라이트우드 플로어 시트",
+      "zh-tw": "淺木色地板鋪巾",
+      "en": "light-wood flooring sheet",
+      "es": "linóleo veta clara",
+      "fr": "carpette lino bois clair"
+    }
+  },
+  "13861": {
+    "img": "FtrIcon/RugSquareDisplayStandS00",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "apparel_shop",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cbr19",
+      "duk01",
+      "kal01"
+    ],
+    "loc": {
+      "zh-cn": "浅木色地砖地垫",
+      "de": "Hell-Holzbodenfliese",
+      "es-es": "estera losa madera clara",
+      "it": "piastr. finto parquet chiaro",
+      "nl": "brandhouten vloertegel",
+      "ru": "светлая деревянн. плитка",
+      "ja": "ライトウッドなフロアタイル",
+      "ko": "라이트우드 플로어 타일",
+      "zh-tw": "淺木色地磚地墊",
+      "es-us": "tapete losa madera clara",
+      "en": "light-wood flooring tile",
+      "fr": "carré lino bois clair"
+    }
+  },
+  "13872": {
+    "img": "FtrIcon/RugOtherMarioAM00",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "mario",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "de": "Yoshi-Ei-Teppich",
+      "it": "tappeto uovo di Yoshi",
+      "nl": "Yoshi's-eitapijt",
+      "ru": "ковер «Яйцо йоши»",
+      "ja": "ヨッシーのタマゴのラグ",
+      "ko": "요시의 알 러그",
+      "en": "Yoshi's Egg rug",
+      "es": "alfombra huevo de Yoshi",
+      "fr": "tapis œuf de Yoshi",
+      "zh": "耀西蛋地毯"
+    }
+  },
+  "13873": {
+    "img": "FtrIcon/RugOtherMarioBM00",
+    "clr": "white",
+    "sel": 375,
+    "buy": 1500,
+    "hap": 201,
+    "hat": "mario",
+    "has": [
+      "fancy",
+      "childs_room"
+    ],
+    "sze": "3x3",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "球盖姆的云地毯",
+      "de": "Lakitus-Wolke-Teppich",
+      "fr-fr": "tapis nuage de Lakitu",
+      "it": "tappeto nuvola di Lakitu",
+      "nl": "Lakitu's-wolktapijt",
+      "ru": "ковер «Облако лакиту»",
+      "ja": "ジュゲムのくものラグ",
+      "ko": "김수한무 구름 러그",
+      "zh-tw": "球蓋姆的雲地毯",
+      "fr-us": "tapis nuage de Lakitou",
+      "en": "Lakitu's Cloud rug",
+      "es": "alfombra nube de Lakitu"
+    }
+  },
+  "13877": {
+    "img": "FtrIcon/RugRectGlowMossM00",
+    "clr": "green",
+    "sel": 300,
+    "hap": 103,
+    "has": [
+      "nature",
+      "fantasy"
+    ],
+    "cat": true,
+    "sze": "3x2",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "bea13",
+      "cbr00",
+      "cbr05",
+      "crd00",
+      "crd05",
+      "der07",
+      "dog00",
+      "dog11",
+      "elp11",
+      "flg16",
+      "hrs13",
+      "mus02",
+      "ost09",
+      "rbt15"
+    ],
+    "loc": {
+      "zh-cn": "光藓地毯",
+      "de": "Leuchtmoosteppich",
+      "es-es": "estera musgo luminoso",
+      "fr-fr": "tapis carré schistostega",
+      "it": "tappeto muschio luminoso",
+      "nl": "lichtmostapijt",
+      "ru": "ковер со светящимся мхом",
+      "ja": "ヒカリゴケのラグ",
+      "ko": "빛이끼 러그",
+      "zh-tw": "光蘚地毯",
+      "es-us": "tapete musgo luminoso",
+      "fr-us": "tapis carré mousse luisante",
+      "en": "glowing-moss rug"
+    }
+  },
+  "13878": {
+    "img": "FtrIcon/RugRoundGlowMossS00",
+    "clr": "green",
+    "sel": 200,
+    "hap": 103,
+    "has": [
+      "nature",
+      "fantasy"
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "bul07",
+      "cbr00",
+      "cbr05",
+      "crd05",
+      "dog00",
+      "flg01",
+      "flg16",
+      "gor01",
+      "lon01",
+      "ost09",
+      "squ18"
+    ],
+    "loc": {
+      "zh-cn": "光藓圆形地垫",
+      "de": "Rund-Leuchtmoosteppich",
+      "es-es": "estera musgo lum. redonda",
+      "fr-fr": "tapis rond schistostega",
+      "it": "tappeto muschio lum. tondo",
+      "nl": "rond lichtmostapijt",
+      "ru": "кругл. ковер со свет. мхом",
+      "ja": "ヒカリゴケのラウンドマット",
+      "ko": "빛이끼 라운드 매트",
+      "zh-tw": "光蘚圓形地墊",
+      "es-us": "tapete musgo lum. redondo",
+      "fr-us": "tapis rond mousse luisante",
+      "en": "round glowing-moss rug"
+    }
+  },
+  "13904": {
+    "img": "FtrIcon/RugOtherFootballM00",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 201,
+    "has": [
+      "fitness",
+      "childs_room"
+    ],
+    "sea": true,
+    "cat": true,
+    "sze": "3x3",
+    "src": "nook_shopping_season",
+    "evt": "big_game",
+    "vad": "1.7.0",
+    "loc": {
+      "de": "Football-Teppich",
+      "fr-fr": "tapis football américain",
+      "it": "tappeto football",
+      "nl": "Americanfootballtapijt",
+      "ru": "футбольный ковер",
+      "ja": "アメフトのラグ",
+      "ko": "미식축구 러그",
+      "fr-us": "tapis ballon de football",
+      "en": "football rug",
+      "es": "alfombra final deportiva",
+      "zh": "美式足球地毯"
+    }
+  },
+  "13906": {
+    "img": "FtrIcon/RugRoundVineS00",
+    "clr": "green",
+    "sel": 400,
+    "hap": 103,
+    "has": [
+      "nature",
+      "local"
+    ],
+    "cat": true,
+    "sze": "2x2",
+    "src": "crafting",
+    "vad": "2.0.0",
+    "hui": [
+      "cat05",
+      "cow01",
+      "crd05",
+      "dog10",
+      "elp06",
+      "elp11",
+      "gor01",
+      "hip00",
+      "hrs00",
+      "pgn05",
+      "pig03",
+      "pig17",
+      "rbt16",
+      "squ05"
+    ],
+    "loc": {
+      "zh-cn": "藤蔓圆形地垫",
+      "de": "Rund-Rankenteppich",
+      "es-es": "estera enredadera redonda",
+      "it": "tappeto edera tondo",
+      "nl": "rond klimplanttapijt",
+      "ru": "круглый ковер из лозы",
+      "ja": "ツルのラウンドラグ",
+      "ko": "덩굴 라운드 러그",
+      "zh-tw": "藤蔓圓形地毯",
+      "es-us": "tapete enredadera redondo",
+      "en": "round vine rug",
+      "fr": "tapis rond vigne"
+    }
+  },
+  "14012": {
+    "img": "FtrIcon/RugSquareElegantL00",
+    "clr": "brown",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea13",
+      "brd05",
+      "brd08",
+      "bul00",
+      "cat10",
+      "cat17",
+      "chn05",
+      "chn10",
+      "der07",
+      "flg13",
+      "hrs04",
+      "hrs09",
+      "kgr10",
+      "lon06",
+      "mnk03",
+      "pig02",
+      "rhn07",
+      "rhn08",
+      "squ01",
+      "squ04",
+      "tig04"
+    ],
+    "loc": {
+      "zh-cn": "棕色优雅地毯",
+      "de": "Braun-Edelteppich",
+      "fr-fr": "tapis élégant marron",
+      "it": "tappeto marrone elegante",
+      "nl": "elegant bruin tapijt",
+      "ru": "элегантный коричн. ковер",
+      "ja": "ブラウンのエレガントなラグ",
+      "ko": "브라운 엘레강스 러그",
+      "zh-tw": "棕色優雅地毯",
+      "fr-us": "tapis élégant brun",
+      "en": "elegant brown rug",
+      "es": "alfombra elegante marrón"
+    }
+  },
+  "14035": {
+    "img": "FtrIcon/RugSquareDisplayStandS03",
+    "clr": "white",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "apparel_shop",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": "elp02",
+    "loc": {
+      "zh-cn": "白木色地砖地垫",
+      "de": "Weiß-Holzbodenfliese",
+      "es-es": "estera losa madera blanca",
+      "it": "piastr. finto parquet bianco",
+      "nl": "blank houten vloertegel",
+      "ru": "белая деревянн. плитка",
+      "ja": "ホワイトウッドなフロアタイル",
+      "ko": "화이트우드 플로어 타일",
+      "zh-tw": "白木色地磚地墊",
+      "es-us": "tapete losa madera blanca",
+      "en": "white-wood flooring tile",
+      "fr": "carré lino bois blanc"
+    }
+  },
+  "14036": {
+    "img": "FtrIcon/RugSquareDisplayStandS02",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "apparel_shop",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": "wol02",
+    "loc": {
+      "zh-cn": "深木色地砖地垫",
+      "de": "Dunkel-Holzbodenfliese",
+      "es-es": "estera losa madera oscura",
+      "it": "piastr. finto parquet scuro",
+      "nl": "donker houten vloertegel",
+      "ru": "темная деревянн. плитка",
+      "ja": "ダークウッドなフロアタイル",
+      "ko": "다크우드 플로어 타일",
+      "zh-tw": "深木色地磚地墊",
+      "es-us": "tapete losa madera oscura",
+      "en": "dark-wood flooring tile",
+      "fr": "carré lino bois foncé"
+    }
+  },
+  "14037": {
+    "img": "FtrIcon/RugSquareDisplayStandS01",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "apparel_shop",
+      "facility"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "自然木色地砖地垫",
+      "de": "Echtholz-Bodenfliese",
+      "es-es": "estera losa madera natural",
+      "it": "piast. finto parquet naturale",
+      "nl": "natuurhouten vloertegel",
+      "ru": "натуральн. дерев. плитка",
+      "ja": "ナチュラルウッドなフロアタイル",
+      "ko": "내추럴우드 플로어 타일",
+      "zh-tw": "自然木色地磚地墊",
+      "es-us": "tapete losa madera natural",
+      "en": "natural-wood flooring tile",
+      "fr": "carré lino bois naturel"
+    }
+  },
+  "14038": {
+    "img": "FtrIcon/RugRectDisplayStandS03",
+    "clr": "white",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "shop",
+      "apparel_shop"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd02",
+      "elp02",
+      "pig08"
+    ],
+    "loc": {
+      "zh-cn": "白木色地板铺巾",
+      "de": "Weiß-Holzbodenbelag",
+      "it": "finto parquet bianco",
+      "nl": "blankhoutlinoleum",
+      "ru": "белый деревянн. настил",
+      "ja": "ホワイトウッドなフロアシート",
+      "ko": "화이트우드 플로어 시트",
+      "zh-tw": "白木色地板鋪巾",
+      "en": "white-wood flooring sheet",
+      "es": "linóleo veta blanca",
+      "fr": "carpette lino bois blanc"
+    }
+  },
+  "14039": {
+    "img": "FtrIcon/RugRectDisplayStandS02",
+    "clr": "brown",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "shop",
+      "apparel_shop"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea11",
+      "wol02"
+    ],
+    "loc": {
+      "zh-cn": "深木色地板铺巾",
+      "de": "Dunkel-Holzbodenbelag",
+      "it": "finto parquet scuro",
+      "nl": "donkerhoutlinoleum",
+      "ru": "темный деревян. настил",
+      "ja": "ダークウッドなフロアシート",
+      "ko": "다크우드 플로어 시트",
+      "zh-tw": "深木色地板鋪巾",
+      "en": "dark-wood flooring sheet",
+      "es": "linóleo veta oscura",
+      "fr": "carpette lino bois foncé"
+    }
+  },
+  "14040": {
+    "img": "FtrIcon/RugRectDisplayStandS01",
+    "clr": "beige",
+    "sel": 250,
+    "buy": 1000,
+    "hap": 89,
+    "has": [
+      "shop",
+      "apparel_shop"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "2x1",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": "goa02",
+    "loc": {
+      "zh-cn": "自然木色地板铺巾",
+      "de": "Echtholz-Bodenbelag",
+      "it": "finto parquet naturale",
+      "nl": "natuurhoutlinoleum",
+      "ru": "натуральн. дерев. настил",
+      "ja": "ナチュラルウッドなフロアシート",
+      "ko": "내추럴우드 플로어 시트",
+      "zh-tw": "自然木色地板鋪巾",
+      "en": "natural-wood flooring sheet",
+      "es": "linóleo veta natural",
+      "fr": "carpette lino bois naturel"
+    }
+  },
+  "14144": {
+    "img": "FtrIcon/RugSquareElegantL01",
+    "clr": "beige",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd01",
+      "cat16",
+      "crd08",
+      "der01",
+      "dog03",
+      "elp01",
+      "goa04",
+      "hrs08",
+      "hrs16",
+      "mnk05",
+      "mus15",
+      "mus16",
+      "mus17",
+      "ost03",
+      "pig15",
+      "shp03",
+      "squ13",
+      "squ19",
+      "tig01"
+    ],
+    "loc": {
+      "zh-cn": "米色优雅地毯",
+      "de": "Beige-Edelteppich",
+      "es-es": "alfombra elegante beis",
+      "it": "tappeto beige elegante",
+      "nl": "elegant beige tapijt",
+      "ru": "элегантный бежев. ковер",
+      "ja": "ベージュのエレガントなラグ",
+      "ko": "베이지 엘레강스 러그",
+      "zh-tw": "米色優雅地毯",
+      "es-us": "alfombra elegante beige",
+      "en": "elegant beige rug",
+      "fr": "tapis élégant beige"
+    }
+  },
+  "14145": {
+    "img": "FtrIcon/RugSquareElegantL03",
+    "clr": [
+      "blue",
+      "aqua"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "bea15",
+      "cat02",
+      "cow06",
+      "duk01",
+      "elp07",
+      "mnk05",
+      "pbr07",
+      "pgn02",
+      "rbt03",
+      "rbt21",
+      "squ17",
+      "wol06"
+    ],
+    "loc": {
+      "zh-cn": "蓝色优雅地毯",
+      "de": "Blau-Edelteppich",
+      "it": "tappeto blu elegante",
+      "nl": "elegant blauw tapijt",
+      "ru": "элегантный синий ковер",
+      "ja": "ブルーのエレガントなラグ",
+      "ko": "블루 엘레강스 러그",
+      "zh-tw": "藍色優雅地毯",
+      "en": "elegant blue rug",
+      "es": "alfombra elegante azul",
+      "fr": "tapis élégant bleu"
+    }
+  },
+  "14146": {
+    "img": "FtrIcon/RugSquareElegantL02",
+    "clr": "black",
+    "sel": 500,
+    "buy": 2000,
+    "hap": 253,
+    "ord": true,
+    "cat": true,
+    "sze": "4x4",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "cat21",
+      "der01",
+      "flg19",
+      "ham06",
+      "hrs12",
+      "kal02",
+      "rhn01"
+    ],
+    "loc": {
+      "zh-cn": "黑色优雅地毯",
+      "de": "Schwarz-Edelteppich",
+      "it": "tappeto nero elegante",
+      "nl": "elegant zwart tapijt",
+      "ru": "элегантный черн. ковер",
+      "ja": "ブラックのエレガントなラグ",
+      "ko": "블랙 엘레강스 러그",
+      "zh-tw": "黑色優雅地毯",
+      "en": "elegant black rug",
+      "es": "alfombra elegante negra",
+      "fr": "tapis élégant noir"
+    }
+  },
+  "14191": {
+    "img": "FtrIcon/RugOtherAnimalM00",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd16",
+      "cbr01",
+      "cbr02",
+      "der04",
+      "elp10",
+      "goa01",
+      "gor00",
+      "ham06",
+      "hrs00",
+      "kgr10",
+      "rbt00",
+      "shp10"
+    ],
+    "loc": {
+      "de": "Dunkel-Kuhmusterteppich",
+      "fr-fr": "tapis vache marron",
+      "it": "tap. stampa mucca marrone",
+      "nl": "bruin koeienvlektapijt",
+      "ru": "коричн. ковер «Корова»",
+      "ja": "ブラウンのぎゅうがわラグ",
+      "ko": "브라운 소가죽 러그",
+      "fr-us": "tapis vache brun",
+      "en": "brown cow-print rug",
+      "es": "alfombra vaca marrón",
+      "zh": "棕色皮革地毯"
+    }
+  },
+  "14245": {
+    "img": "FtrIcon/RugOtherAnimalM01",
+    "clr": [
+      "brown",
+      "white"
+    ],
+    "sel": 375,
+    "buy": 1500,
+    "hap": 137,
+    "has": [
+      "living_room",
+      "expensive"
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "3x2",
+    "src": "saharah2",
+    "vad": "2.0.0",
+    "hui": [
+      "brd16",
+      "cbr01",
+      "cow00",
+      "der01",
+      "dog15",
+      "gor00",
+      "pbr00",
+      "pbr08",
+      "rbt00",
+      "shp14",
+      "squ21"
+    ],
+    "loc": {
+      "zh-cn": "浅棕色皮革地毯",
+      "de": "Hell-Kuhmusterteppich",
+      "it": "tap. stampa mucca beige",
+      "nl": "lichtbruin koeienvlektapijt",
+      "ru": "св.-кор. ковер «Корова»",
+      "ja": "ライトブラウンのぎゅうがわラグ",
+      "ko": "라이트 브라운 소가죽 러그",
+      "zh-tw": "淺棕色皮革地毯",
+      "en": "light-brown cow-print rug",
+      "es": "alfombra vaca ocre",
+      "fr": "tapis vache brun clair"
+    }
+  },
+  "14706": {
+    "img": "FtrIcon/RugSquarePatternL00",
+    "clr": "red",
+    "sel": 500,
+    "exp": 1800,
+    "exc": 2,
+    "hap": 151,
+    "cat": true,
+    "sze": "4x4",
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "de": "FHA-Teppich (L)",
+      "fr-fr": "tapis Les Villas de Lou L",
+      "it": "tappeto grande CV",
+      "nl": "resortplanbureautapijt",
+      "ru": "ковер курортного бюро",
+      "ja": "タクミライフのカーペット",
+      "ko": "파라다이스 플래닝 카펫",
+      "fr-us": "tapis Paradis sur mesure L",
+      "en": "large Paradise Planning rug",
+      "es": "alfombra Archipiélago",
+      "zh": "巧美生活地毯"
+    }
+  },
+  "14707": {
+    "img": "FtrIcon/RugRectPatternS00",
+    "clr": "red",
+    "sel": 250,
+    "exp": 900,
+    "exc": 2,
+    "hap": 151,
+    "has": "living_room",
+    "cat": true,
+    "sze": "2x1",
+    "src": [
+      "wardell",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "巧美生活小地垫",
+      "de": "FHA-Teppich (S)",
+      "es-es": "alfombrilla Archipiélago",
+      "fr-fr": "tapis Les Villas de Lou S",
+      "it": "tappetino Casimira vacanze",
+      "nl": "kleine resortplanbureaumat",
+      "ru": "коврик курортного бюро",
+      "ja": "タクミライフのミニマット",
+      "ko": "파라다이스 플래닝 미니 매트",
+      "zh-tw": "巧美生活小地墊",
+      "es-us": "alfombrita Archipiélago",
+      "fr-us": "tapis Paradis sur mesure S",
+      "en": "small Paradise Planning mat"
+    }
+  }
+}

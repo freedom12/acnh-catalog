@@ -1,0 +1,5280 @@
+{
+  "c386": {
+    "ipf": "FtrIcon/AccessoryGlassThreed",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black"
+    ],
+    "clr": [
+      [
+        "white",
+        "colorful"
+      ],
+      [
+        "black",
+        "colorful"
+      ]
+    ],
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": "party",
+    "iid": [
+      4463,
+      11020
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "3D眼镜",
+      "de": "3D-Brille",
+      "es-es": "gafa 3D",
+      "it": "paio di occhiali 3D",
+      "nl": "3D-bril",
+      "ru": "3D-очки",
+      "ja": "3Dめがね",
+      "ko": "3D안경",
+      "zh-tw": "3D眼鏡",
+      "es-us": "par de lentes 3D",
+      "en": "3D glasses",
+      "fr": "monture 3D"
+    }
+  },
+  "c1271": {
+    "img": "FtrIcon/AccessoryMouthHalloween0",
+    "clr": "black",
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party"
+    ],
+    "iid": 13018,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": [
+      "halloween_ready",
+      "halloween"
+    ],
+    "vad": "1.5.0",
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "动物假鼻子",
+      "de": "Tiernase",
+      "it": "muso animale",
+      "nl": "dierensnuit",
+      "ru": "звериная мордочка",
+      "ja": "アニマルなつけばな",
+      "ko": "동물 코",
+      "zh-tw": "動物鼻子道具",
+      "en": "animal nose",
+      "es": "nariz de animal",
+      "fr": "nez d'animal"
+    }
+  },
+  "c441": {
+    "ipf": "FtrIcon/AccessoryGlassDance",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "black"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "elegant",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      4561,
+      11159
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "prom",
+    "vad": "1.9.0",
+    "loc": {
+      "zh-cn": "舞会面具",
+      "de": "Maskenballmaske",
+      "it": "mascherina da ballo",
+      "nl": "simpel balmasker",
+      "ru": "бальная маска",
+      "ja": "ぶとうかいのかめん",
+      "ko": "무도회 가면",
+      "zh-tw": "舞會面具",
+      "en": "ballroom mask",
+      "es": "máscara de baile",
+      "fr": "masque de bal"
+    }
+  },
+  "c503": {
+    "img": "FtrIcon/AccessoryMouthBandageSkin",
+    "clr": [
+      "beige",
+      "white"
+    ],
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "sporty"
+    ],
+    "iid": 4677,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat12",
+      "der05",
+      "dog02"
+    ],
+    "loc": {
+      "zh-cn": "创可贴",
+      "de": "Pflaster",
+      "es-es": "par de tiritas",
+      "it": "set di cerotti",
+      "nl": "pleisters",
+      "ru": "пластырь",
+      "ja": "ばんそうこう",
+      "ko": "반창고",
+      "zh-tw": "絆創帶",
+      "es-us": "par de curitas",
+      "en": "bandage",
+      "fr": "assortiment de pansements"
+    }
+  },
+  "c184": {
+    "img": "FtrIcon/AccessoryMouthBeakYellow",
+    "clr": "yellow",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 3549,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "鸭嘴道具",
+      "de": "Schnabel",
+      "it": "becco",
+      "nl": "snavel",
+      "ru": "клюв",
+      "ja": "くちばし",
+      "ko": "부리",
+      "zh-tw": "鴨嘴道具",
+      "en": "beak",
+      "es": "pico",
+      "fr": "bec"
+    }
+  },
+  "c415": {
+    "ipf": "FtrIcon/AccessoryGlassBirthday",
+    "img": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "pink"
+      ],
+      "pink",
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "aqua",
+        "green"
+      ]
+    ],
+    "sel": 620,
+    "hap": 573,
+    "stl": "gorgeous",
+    "lbl": "party",
+    "iid": [
+      11218,
+      11217,
+      4510,
+      11219
+    ],
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "birthday",
+    "evt": "birthday",
+    "loc": {
+      "zh-cn": "生日眼镜",
+      "de": "Geburtstagsbrille",
+      "es-es": "gafa de cumpleaños",
+      "fr-fr": "monture anniversaire",
+      "it": "montatura da compleanno",
+      "nl": "verjaardagszonnebril",
+      "ru": "именинные очки",
+      "ja": "バースデーサングラス",
+      "ko": "생일 선글라스",
+      "zh-tw": "生日墨鏡",
+      "es-us": "par de lentes cumpleaños",
+      "fr-us": "monture de fête",
+      "en": "birthday shades"
+    }
+  },
+  "c463": {
+    "ipf": "FtrIcon/AccessoryGlassLoose",
+    "img": [
+      "6",
+      "0",
+      "5",
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy",
+      "work"
+    ],
+    "iid": [
+      11086,
+      4597,
+      11085,
+      11084,
+      11082,
+      11083,
+      11081
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "下半框眼镜",
+      "de": "Halbrandbrille",
+      "es-es": "gafa montura inferior",
+      "it": "montatura a mezzaluna",
+      "nl": "bril zonder bovenrand",
+      "ru": "очки-половинки",
+      "ja": "アンダーリムめがね",
+      "ko": "역반무테 안경",
+      "zh-tw": "下半框眼鏡",
+      "es-us": "par de lentes armazón bajo",
+      "en": "bottom-rimmed glasses",
+      "fr": "monture demi-lune"
+    }
+  },
+  "c260": {
+    "ipf": "FtrIcon/AccessoryGlassThurmont",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "brown",
+        "yellow"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11071,
+      4238,
+      11070,
+      11069
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat17",
+      "mnk03",
+      "pbr08"
+    ],
+    "loc": {
+      "zh-cn": "眉框眼镜",
+      "de": "Browline-Brille",
+      "es-es": "gafa montura superior",
+      "fr-fr": "monture browline",
+      "it": "montatura browline",
+      "nl": "browline-bril",
+      "ru": "броулайнеры",
+      "ja": "サーモントめがね",
+      "ko": "하금테 안경",
+      "zh-tw": "眉框眼鏡",
+      "es-us": "par de lentes armazón alto",
+      "fr-us": "monture papillon",
+      "en": "browline glasses"
+    }
+  },
+  "c856": {
+    "ipf": "FtrIcon/AccessoryMouthBubblegum",
+    "img": [
+      "4",
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "yellow",
+      "green",
+      "aqua"
+    ],
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": "comfy",
+    "iid": [
+      11030,
+      5738,
+      11028,
+      11029,
+      11027
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "rbt12",
+    "loc": {
+      "de": "Kaugummiblase",
+      "es-es": "pompa de chicle",
+      "fr-fr": "bulle de chewing-gum",
+      "it": "gomma con palloncino",
+      "nl": "kauwgombel",
+      "ru": "жвачка",
+      "ja": "ふうせんガム",
+      "ko": "풍선껌",
+      "es-us": "globo de chicle",
+      "fr-us": "boule de gomme",
+      "en": "bubblegum",
+      "zh": "泡泡口香糖"
+    }
+  },
+  "c466": {
+    "ipf": "FtrIcon/AccessoryMouthRabbit",
+    "img": [
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "yellow"
+    ],
+    "clr": [
+      [
+        "white",
+        "red"
+      ],
+      "pink",
+      [
+        "yellow",
+        "orange"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11024,
+      4600,
+      11023
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "rbt07",
+      "squ21"
+    ],
+    "loc": {
+      "de": "Hasenschnauze",
+      "it": "naso da coniglio",
+      "nl": "konijnensnuit",
+      "ru": "мордочка зайки",
+      "ja": "ウサギのつけばな",
+      "ko": "토끼 코",
+      "en": "bunny nose",
+      "es": "hocico de conejito",
+      "fr": "museau de lapin",
+      "zh": "兔鼻子道具"
+    }
+  },
+  "c474": {
+    "ipf": "FtrIcon/AccessoryGlassButterfly",
+    "img": [
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "blue",
+      "red",
+      "brown"
+    ],
+    "clr": [
+      [
+        "black",
+        "blue"
+      ],
+      [
+        "red",
+        "brown"
+      ],
+      "brown"
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": "outdoorsy",
+    "iid": [
+      4608,
+      11503,
+      11504
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "dog15",
+      "mnk03",
+      "tig05"
+    ],
+    "loc": {
+      "zh-cn": "蝴蝶框墨镜",
+      "de": "Schmetterlingsbrille",
+      "es-es": "gafa de sol mariposa",
+      "it": "montatura a farfalla",
+      "nl": "vlinderzonnebril",
+      "ru": "очки-бабочки",
+      "ja": "バタフライサングラス",
+      "ko": "나비 선글라스",
+      "zh-tw": "蝴蝶框墨鏡",
+      "es-us": "par de lentes sol mariposa",
+      "en": "butterfly shades",
+      "fr": "monture solaire papillon"
+    }
+  },
+  "c819": {
+    "ipf": "FtrIcon/AccessoryGlassmouthCatrina",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "orange",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "white",
+        "aqua"
+      ],
+      [
+        "white",
+        "purple"
+      ]
+    ],
+    "sel": 800,
+    "hap": 451,
+    "stl": "gorgeous",
+    "lbl": [
+      "formal",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11169,
+      11170,
+      5666
+    ],
+    "cat": true,
+    "sze": "1x1",
+    "src": "gulliver",
+    "loc": {
+      "zh-cn": "糖果色骷髅面具",
+      "de": "Calavera-Maske",
+      "es-es": "máscara de calavera dulce",
+      "it": "maschera calavera dolce",
+      "nl": "suikerschedelmasker",
+      "ru": "маска «Сахарный череп»",
+      "ja": "スカルキャンディマスク",
+      "ko": "슈가스컬 가면",
+      "zh-tw": "骷髏糖面具",
+      "es-us": "máscara calaverita",
+      "en": "candy-skull mask",
+      "fr": "masque calavera fleuri"
+    }
+  },
+  "c397": {
+    "ipf": "FtrIcon/AccessoryMouthCat",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "white",
+      "navy_blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "white",
+        "pink"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "brown",
+        "beige"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      4483,
+      11022,
+      11021
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "猫鼻子道具",
+      "de": "Katzenschnauze",
+      "it": "naso da gatto",
+      "nl": "kattensnuit",
+      "ru": "кошачья мордочка",
+      "ja": "ネコのつけばな",
+      "ko": "고양이 코",
+      "zh-tw": "貓鼻子道具",
+      "en": "cat nose",
+      "es": "hocico de gato",
+      "fr": "museau de chat"
+    }
+  },
+  "c405": {
+    "img": "FtrIcon/AccessoryMouthCucumber",
+    "clr": "green",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "comfy",
+    "iid": 4491,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ant02",
+      "flg13",
+      "kal07",
+      "rhn02"
+    ],
+    "loc": {
+      "zh-cn": "小黄瓜面膜",
+      "de": "Gurkenmaske",
+      "es-es": "mascarilla de pepino",
+      "it": "maschera al cetriolo",
+      "nl": "komkommerschijfjes",
+      "ru": "огуречная маска",
+      "ja": "きゅうりパック",
+      "ko": "오이 팩",
+      "zh-tw": "小黃瓜面膜",
+      "es-us": "mascarilla pepino",
+      "en": "cucumber pack",
+      "fr": "masque concombre"
+    }
+  },
+  "c498": {
+    "img": "FtrIcon/AccessoryMouthRollingmustacheBlack",
+    "clr": "colorful",
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party"
+    ],
+    "iid": 4672,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr02",
+      "hip05"
+    ],
+    "loc": {
+      "zh-cn": "翘胡子",
+      "de": "Schnauzbart",
+      "it": "baffo arricciato",
+      "nl": "krulsnor",
+      "ru": "закрученные усы",
+      "ja": "まきヒゲ",
+      "ko": "꼬부랑 수염",
+      "zh-tw": "翹鬍子",
+      "en": "curly mustache",
+      "es": "bigote de artista",
+      "fr": "moustache élégante"
+    }
+  },
+  "c433": {
+    "ipf": "FtrIcon/AccessoryGlassCyber",
+    "img": [
+      "2",
+      "1",
+      "0",
+      "5",
+      "4",
+      "3"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "red",
+      "yellow",
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11499,
+      11498,
+      4552,
+      11502,
+      11501,
+      11500
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd16",
+      "cat09",
+      "elp10",
+      "hip02",
+      "mnk03"
+    ],
+    "loc": {
+      "zh-cn": "太空墨镜",
+      "de": "Cyberbrille",
+      "es-es": "cibergafa",
+      "it": "visore da ciberspazio",
+      "nl": "cyberzonnebril",
+      "ru": "киберочки",
+      "ja": "サイバーサングラス",
+      "ko": "사이버 선글라스",
+      "zh-tw": "太空墨鏡",
+      "es-us": "par de ciberlentes",
+      "en": "cyber shades",
+      "fr": "monture futuriste"
+    }
+  },
+  "c1182": {
+    "img": "FtrIcon/AccessoryGlassDalmask0",
+    "clr": "blue",
+    "sel": 1010,
+    "hap": 251,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": 12128,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "dodo",
+    "loc": {
+      "de": "DAL-Augenmaske",
+      "it": "copriocchi DAL",
+      "nl": "DAL-slaapmasker",
+      "ru": "маска для сна DAL",
+      "ja": "ＤＡＬアイマスク",
+      "ko": "DAL 안대",
+      "en": "DAL eye mask",
+      "es": "antifaz para dormir de DAL",
+      "fr": "masque repos DAL",
+      "zh": "DAL眼罩"
+    }
+  },
+  "c1183": {
+    "img": "FtrIcon/AccessoryGlassDalglass0",
+    "clr": [
+      "yellow",
+      "blue"
+    ],
+    "sel": 1010,
+    "hap": 251,
+    "stl": [
+      "gorgeous",
+      "simple"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation"
+    ],
+    "iid": 12129,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "dodo",
+    "loc": {
+      "zh-cn": "DAL墨镜",
+      "de": "DAL-Sonnenbrille",
+      "es-es": "gafa de sol de DAL",
+      "it": "montatura da sole DAL",
+      "nl": "DAL-zonnebril",
+      "ru": "солнечные очки DAL",
+      "ja": "ＤＡＬサングラス",
+      "ko": "DAL 선글라스",
+      "zh-tw": "DAL墨鏡",
+      "es-us": "par de lentes de sol DAL",
+      "en": "DAL sunglasses",
+      "fr": "monture solaire DAL"
+    }
+  },
+  "c375": {
+    "img": "FtrIcon/AccessoryMouthMaskWhite",
+    "clr": "white",
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "goth",
+      "comfy"
+    ],
+    "iid": 4451,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr06",
+      "der05",
+      "flg12"
+    ],
+    "loc": {
+      "de": "Mundschutz",
+      "es-es": "mascarilla quirúrgica",
+      "it": "mascherina medica",
+      "nl": "doktersmasker",
+      "ru": "маска врача",
+      "ja": "マスク",
+      "ko": "마스크",
+      "es-us": "máscara cirujano",
+      "en": "doctor's mask",
+      "fr": "masque chirurgical",
+      "zh": "口罩"
+    }
+  },
+  "c630": {
+    "ipf": "FtrIcon/AccessoryMouthDog",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "white",
+      "black",
+      "beige"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "orange",
+        "black"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      5244,
+      11026,
+      11025
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "dog07",
+      "squ21"
+    ],
+    "loc": {
+      "de": "Hundeschnauze",
+      "it": "naso da cane",
+      "nl": "hondensnuit",
+      "ru": "собачья мордочка",
+      "ja": "イヌのつけばな",
+      "ko": "강아지 코",
+      "en": "dog nose",
+      "es": "hocico de perro",
+      "fr": "museau de chien",
+      "zh": "小狗鼻子道具"
+    }
+  },
+  "c1356": {
+    "img": "FtrIcon/AccessoryMouthTissuedouble0",
+    "clr": "white",
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "fairy_tale",
+      "outdoorsy",
+      "comfy"
+    ],
+    "iid": 14247,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "塞两侧鼻孔的纸巾",
+      "de": "Doppel-Nasentamponade",
+      "fr-fr": "double tampon nasal",
+      "it": "paio di tamponi nasali",
+      "nl": "dubbel neusstopdoekje",
+      "ru": "марлевые турунды",
+      "ja": "りょうばなのつめもの",
+      "ko": "양쪽 코 휴지",
+      "zh-tw": "塞兩邊鼻孔的面紙捲",
+      "fr-us": "double mouchoir nasal",
+      "en": "double nose tissues",
+      "es": "gasa doble para la nariz"
+    }
+  },
+  "c277": {
+    "ipf": "FtrIcon/AccessoryGlassDoublebridge",
+    "img": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "var": [
+      "silver",
+      "gold",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "gray",
+      "yellow",
+      "blue",
+      "purple"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "simple"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation",
+      "work"
+    ],
+    "iid": [
+      11077,
+      4263,
+      11078,
+      11076
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "mnk03",
+      "cbr02",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "双梁眼镜",
+      "de": "Doppelstegbrille",
+      "es-es": "gafa de doble puente",
+      "it": "montatura a doppio ponte",
+      "nl": "pilotenbril",
+      "ru": "очки с двойным мостом",
+      "ja": "ダブルブリッジめがね",
+      "ko": "더블 브리지 안경",
+      "zh-tw": "雙樑眼鏡",
+      "es-us": "par de lentes doble puente",
+      "en": "double-bridge glasses",
+      "fr": "monture double pont"
+    }
+  },
+  "c865": {
+    "ipf": "FtrIcon/AccessoryGlassmouthStraw",
+    "img": [
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "white",
+      "pink",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "white",
+      "pink",
+      "green",
+      "aqua"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": "party",
+    "iid": [
+      11012,
+      11011,
+      5773,
+      11010
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "吸管眼镜",
+      "de": "Strohhalmbrille",
+      "es-es": "gafa pajita de refresco",
+      "it": "montatura a cannuccia",
+      "nl": "rietjesbril",
+      "ru": "очки из трубочки",
+      "ja": "ストローメガネ",
+      "ko": "빨대 안경",
+      "zh-tw": "吸管眼鏡",
+      "es-us": "par de lentes tubito",
+      "en": "drinking-straw glasses",
+      "fr": "monture paille"
+    }
+  },
+  "c937": {
+    "ipf": "FtrIcon/AccessoryGlassMasquerade",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "red",
+      "blue"
+    ],
+    "clr": [
+      [
+        "red",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      6057,
+      11175
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "prom",
+    "vad": "1.9.0",
+    "loc": {
+      "zh-cn": "化装舞会面具",
+      "de": "Elegantmaske",
+      "it": "maschera decorata",
+      "nl": "chic balmasker",
+      "ru": "изысканная маска",
+      "ja": "マスカレードなマスク",
+      "ko": "가장무도회 가면",
+      "zh-tw": "化裝舞會面具",
+      "en": "elegant masquerade mask",
+      "es": "antifaz elegante",
+      "fr": "loup élégant"
+    }
+  },
+  "c1254": {
+    "img": "FtrIcon/AccessoryGlassGauze0",
+    "clr": "white",
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "goth",
+      "comfy"
+    ],
+    "iid": 12975,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": "cat11",
+    "loc": {
+      "zh-cn": "眼睛纱布",
+      "de": "Augenkompresse",
+      "it": "benda oculare",
+      "nl": "ooggaasje",
+      "ru": "повязка на глаз",
+      "ja": "めのガーゼ",
+      "ko": "눈 거즈",
+      "zh-tw": "眼睛紗布",
+      "en": "eye gauze",
+      "es": "gasa para el ojo",
+      "fr": "bandage oculaire"
+    }
+  },
+  "c358": {
+    "ipf": "FtrIcon/AccessoryGlassMask",
+    "img": [
+      "2",
+      "5",
+      "1",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "comfy",
+    "iid": [
+      11155,
+      11158,
+      11154,
+      11157,
+      11156,
+      4425
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "cat02",
+    "loc": {
+      "de": "Augenmaske",
+      "fr-fr": "masque repos",
+      "it": "mascherina per dormire",
+      "nl": "slaapmasker",
+      "ru": "маска для сна",
+      "ja": "アイマスク",
+      "ko": "아이마스크",
+      "fr-us": "masque de sommeil",
+      "en": "eye mask",
+      "es": "antifaz para dormir",
+      "zh": "眼罩"
+    }
+  },
+  "c380": {
+    "img": "FtrIcon/AccessoryGlassPatchBlack",
+    "clr": "black",
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "goth"
+    ],
+    "iid": 4457,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mus03",
+    "loc": {
+      "zh-cn": "单眼眼罩",
+      "de": "Augenklappe",
+      "it": "benda per occhio",
+      "nl": "ooglapje",
+      "ru": "глазная повязка",
+      "ja": "アイパッチ",
+      "ko": "검정 안대",
+      "zh-tw": "單眼眼罩",
+      "en": "eye patch",
+      "es": "parche",
+      "fr": "cache-œil"
+    }
+  },
+  "c417": {
+    "img": "FtrIcon/AccessoryGlassmouthPackWhite",
+    "clr": "white",
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "goth",
+      "comfy"
+    ],
+    "iid": 4512,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ant02",
+      "flg11",
+      "flg13",
+      "hrs05",
+      "pgn03"
+    ],
+    "loc": {
+      "de": "Kosmetikmaske",
+      "it": "maschera idratante",
+      "nl": "gezichtsmasker",
+      "ru": "косметическая маска",
+      "ja": "パック",
+      "ko": "팩",
+      "en": "facial mask",
+      "es": "mascarilla facial",
+      "fr": "masque de beauté",
+      "zh": "面膜"
+    }
+  },
+  "c407": {
+    "img": "FtrIcon/AccessoryGlassmouthNoseRed",
+    "clr": "red",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 4496,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "de": "Clownsnase",
+      "it": "naso finto",
+      "nl": "clownsneus",
+      "ru": "нос клоуна",
+      "ja": "つけばな",
+      "ko": "가짜 코",
+      "en": "fake nose",
+      "es": "nariz postiza",
+      "fr": "nez de clown",
+      "zh": "鼻子道具"
+    }
+  },
+  "c857": {
+    "ipf": "FtrIcon/AccessoryGlassFlower",
+    "img": [
+      "0",
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "var": [
+      "red",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      5739,
+      11228,
+      11231,
+      11229,
+      11230
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk05",
+    "loc": {
+      "zh-cn": "花朵墨镜",
+      "de": "Blumensonnenbrille",
+      "es-es": "gafa de sol floral",
+      "it": "montatura a fiori",
+      "nl": "bloemenzonnebril",
+      "ru": "очки-цветы",
+      "ja": "フラワーサングラス",
+      "ko": "플라워 선글라스",
+      "zh-tw": "花朵墨鏡",
+      "es-us": "par de lentes de sol florales",
+      "en": "flower sunglasses",
+      "fr": "monture solaire fleurs"
+    }
+  },
+  "c904": {
+    "img": "FtrIcon/AccessoryMouthPasta",
+    "clr": [
+      "orange",
+      "beige"
+    ],
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "comfy",
+    "iid": 5857,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "沾在嘴边的东西",
+      "de": "Essensrest",
+      "it": "resto di cibo",
+      "nl": "etensresten",
+      "ru": "остатки еды",
+      "ja": "たべこぼし",
+      "ko": "음식 부스러기",
+      "zh-tw": "沾到嘴邊的東西",
+      "en": "food mess",
+      "es": "resto de pasta",
+      "fr": "vestige de repas"
+    }
+  },
+  "c418": {
+    "ipf": "FtrIcon/AccessoryGlassEyes",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "pink",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11008,
+      11009,
+      4513
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "cat01",
+    "loc": {
+      "zh-cn": "搞笑眼镜",
+      "de": "Scherzbrille",
+      "es-es": "gafa graciosa",
+      "it": "montatura simpatica",
+      "nl": "fopbril",
+      "ru": "забавные очки",
+      "ja": "をかしなめがね",
+      "ko": "코믹한 안경",
+      "zh-tw": "搞笑眼鏡",
+      "es-us": "par de lentes graciosos",
+      "en": "funny glasses",
+      "fr": "monture farceuse"
+    }
+  },
+  "c487": {
+    "ipf": "FtrIcon/AccessoryGlassmouthGasmask",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "avocado"
+    ],
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "goth",
+      "work"
+    ],
+    "iid": [
+      4649,
+      11160
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr05",
+      "ham07"
+    ],
+    "loc": {
+      "de": "Gasmaske",
+      "it": "maschera antigas",
+      "nl": "gasmasker",
+      "ru": "противогаз",
+      "ja": "ガスマスク",
+      "ko": "가스 마스크",
+      "en": "gas mask",
+      "es": "máscara de gas",
+      "fr": "masque à gaz",
+      "zh": "防毒面具"
+    }
+  },
+  "c286": {
+    "img": "FtrIcon/AccessoryGlassBottleBlack",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "comfy",
+      "work"
+    ],
+    "iid": 4282,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "瓶底眼镜",
+      "de": "Flaschenglasbrille",
+      "es-es": "gafa de culo de vaso",
+      "it": "montatura con lenti spesse",
+      "nl": "jampotbril",
+      "ru": "очки с толстыми линзами",
+      "ja": "ビンぞこめがね",
+      "ko": "두꺼운 안경",
+      "zh-tw": "瓶底眼鏡",
+      "es-us": "par de lentes gruesos",
+      "en": "glass-bottle glasses",
+      "fr": "monture double foyer"
+    }
+  },
+  "c502": {
+    "img": "FtrIcon/AccessoryMouthBeardChinBlack",
+    "clr": "colorful",
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "theatrical"
+    ],
+    "iid": 4676,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "山羊胡",
+      "de": "Ziegenbart",
+      "es-es": "perilla",
+      "it": "pizzetto",
+      "nl": "sik",
+      "ru": "козлиная бородка",
+      "ja": "アゴひげ",
+      "ko": "턱수염",
+      "zh-tw": "山羊鬍",
+      "es-us": "barba de chivo",
+      "en": "goatee",
+      "fr": "barbiche"
+    }
+  },
+  "c378": {
+    "ipf": "FtrIcon/AccessoryGlassGoggles",
+    "img": [
+      "0",
+      "5",
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      4454,
+      11488,
+      11485,
+      11486,
+      11484,
+      11487
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "summer_shopping",
+    "hui": [
+      "crd02",
+      "dog17",
+      "duk08",
+      "kgr02",
+      "lon04"
+    ],
+    "loc": {
+      "zh-cn": "泳镜",
+      "de": "Schwimmbrille",
+      "es-es": "gafa para piscina",
+      "it": "paio di occhialini da nuoto",
+      "nl": "zwembril",
+      "ru": "очки для плавания",
+      "ja": "すいえいゴーグル",
+      "ko": "물안경",
+      "zh-tw": "泳鏡",
+      "es-us": "visor de natación",
+      "en": "goggles",
+      "fr": "monture piscine"
+    }
+  },
+  "c185": {
+    "img": "FtrIcon/AccessoryMouthBeardBlack",
+    "clr": "colorful",
+    "sel": 280,
+    "buy": 1120,
+    "exp": 1000,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "theatrical"
+    ],
+    "iid": 3550,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "kgr10",
+    "loc": {
+      "zh-cn": "八字翘胡",
+      "de": "Zwirbelbart",
+      "it": "baffo a manubrio",
+      "nl": "klassieke snor",
+      "ru": "большие усы",
+      "ja": "カイゼルひげ",
+      "ko": "콧수염",
+      "zh-tw": "八字翹鬍",
+      "en": "handlebar mustache",
+      "es": "bigote inglés",
+      "fr": "moustache en guidon"
+    }
+  },
+  "c259": {
+    "ipf": "FtrIcon/AccessoryGlassHeart",
+    "img": [
+      "0",
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "purple",
+        "blue"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      4237,
+      11188,
+      11191,
+      11189,
+      11190
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea07",
+      "crd06",
+      "duk03",
+      "elp02",
+      "ham09",
+      "mnk03",
+      "rbt15"
+    ],
+    "loc": {
+      "zh-cn": "爱心墨镜",
+      "de": "Herzchenbrille",
+      "es-es": "gafa corazón",
+      "it": "montatura a cuori",
+      "nl": "hartenzonnebril",
+      "ru": "очки-сердечки",
+      "ja": "ハートのサングラス",
+      "ko": "하트 선글라스",
+      "zh-tw": "愛心墨鏡",
+      "es-us": "par de lentes corazón",
+      "en": "heart shades",
+      "fr": "monture cœur"
+    }
+  },
+  "c614": {
+    "img": "FtrIcon/AccessoryGlassHmdWhite",
+    "clr": [
+      "white",
+      "black"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "exp": 1800,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": "comfy",
+    "iid": 5182,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "flg00",
+      "hip02",
+      "kal09"
+    ],
+    "loc": {
+      "zh-cn": "虚拟实境头戴式显示器",
+      "de": "Cyberhelm",
+      "it": "visore",
+      "nl": "VR-bril",
+      "ru": "цифровой шлем",
+      "ja": "HMD",
+      "ko": "HMD",
+      "zh-tw": "虛擬實境頭戴式顯示器",
+      "en": "HMD",
+      "es": "visor 3D",
+      "fr": "visiocasque"
+    }
+  },
+  "c504": {
+    "ipf": "FtrIcon/AccessoryGlassmouthPierrot",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "green",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 440,
+    "buy": 1760,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "party",
+      "theatrical",
+      "work"
+    ],
+    "iid": [
+      4678,
+      11166,
+      11167,
+      11168
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "shp11",
+      "cbr05"
+    ],
+    "loc": {
+      "de": "Clownsmaske",
+      "fr-fr": "masque de clown",
+      "it": "maschera da giullare",
+      "nl": "narrenmasker",
+      "ru": "маска шута",
+      "ja": "ピエロのかめん",
+      "ko": "피에로 가면",
+      "fr-us": "masque de bouffon",
+      "en": "jester's mask",
+      "es": "careta de bufón",
+      "zh": "小丑面具"
+    }
+  },
+  "c1137": {
+    "ipf": "FtrIcon/AccessoryGlassKate",
+    "img": [
+      "1",
+      "2",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "var": [
+      "midnight",
+      "passion",
+      "love",
+      "sunset",
+      "ocean",
+      "twilight"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "blue",
+      "purple"
+    ],
+    "sel": 500,
+    "buy": 2000,
+    "exp": 1800,
+    "exc": 2,
+    "hap": 351,
+    "stl": [
+      "gorgeous",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "party",
+      "theatrical",
+      "vacation"
+    ],
+    "iid": [
+      11776,
+      11777,
+      11780,
+      11779,
+      11778,
+      9887
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "label",
+    "loc": {
+      "zh-cn": "凯丝的墨镜",
+      "de": "Samthea-Sonnenbrille",
+      "es-es": "gafa de sol Trini",
+      "it": "montatura da sole Bice",
+      "nl": "Labelle-zonnebril",
+      "ru": "очки «Лэйблеск»",
+      "ja": "ケイトのサングラス",
+      "ko": "케이트의 선글라스",
+      "zh-tw": "凱絲墨鏡",
+      "es-us": "par de lentes de sol Trini",
+      "en": "Labelle sunglasses",
+      "fr": "monture solaire Maria"
+    }
+  },
+  "c387": {
+    "ipf": "FtrIcon/AccessoryGlassBlind",
+    "img": [
+      "0",
+      "3",
+      "4",
+      "2",
+      "1",
+      "5"
+    ],
+    "var": [
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "gold"
+    ],
+    "clr": [
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      4464,
+      11004,
+      11005,
+      11003,
+      11002,
+      11006
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd16",
+      "squ19"
+    ],
+    "loc": {
+      "zh-cn": "百叶窗墨镜",
+      "de": "Lamellenbrille",
+      "es-es": "gafa de rejilla",
+      "it": "montatura a tapparella",
+      "nl": "lamellenbril",
+      "ru": "очки-решетки",
+      "ja": "ブラインドサングラス",
+      "ko": "블라인드 선글라스",
+      "zh-tw": "百葉窗墨鏡",
+      "es-us": "par de lentes rejilla",
+      "en": "ladder shades",
+      "fr": "monture stores"
+    }
+  },
+  "c508": {
+    "img": "FtrIcon/AccessoryMouthLeafGreen",
+    "clr": "green",
+    "sel": 100,
+    "hap": 103,
+    "stl": "simple",
+    "lbl": [
+      "outdoorsy",
+      "comfy",
+      "vacation"
+    ],
+    "iid": 4682,
+    "cat": true,
+    "sze": "1x1",
+    "src": "crafting",
+    "hui": [
+      "kgr05",
+      "pig17"
+    ],
+    "loc": {
+      "zh-cn": "叶子",
+      "de": "Blatt",
+      "it": "foglia",
+      "nl": "blaadje",
+      "ru": "листик",
+      "ja": "はっぱ",
+      "ko": "나뭇잎",
+      "zh-tw": "葉子",
+      "en": "leaf",
+      "es": "hoja",
+      "fr": "feuille"
+    }
+  },
+  "c1325": {
+    "img": "FtrIcon/AccessoryGlassmouthLuigi0",
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party"
+    ],
+    "iid": 13559,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "路易吉胡子",
+      "de": "Luigi-Schnauzer",
+      "it": "baffo di Luigi",
+      "nl": "Luigi-snor",
+      "ru": "усы Луиджи",
+      "ja": "ルイージのひげ",
+      "ko": "루이지 수염",
+      "zh-tw": "路易吉鬍子",
+      "en": "Luigi 'stache",
+      "es": "bigote de Luigi",
+      "fr": "moustache de Luigi"
+    }
+  },
+  "c1324": {
+    "img": "FtrIcon/AccessoryGlassmouthMario0",
+    "clr": [
+      "black",
+      "beige"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party"
+    ],
+    "iid": 13558,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "马力欧胡子",
+      "de": "Mario-Schnauzer",
+      "it": "baffo di Mario",
+      "nl": "Mario-snor",
+      "ru": "усы Марио",
+      "ja": "マリオのひげ",
+      "ko": "마리오 수염",
+      "zh-tw": "瑪利歐鬍子",
+      "en": "Mario 'stache",
+      "es": "bigote de Mario",
+      "fr": "moustache de Mario"
+    }
+  },
+  "c494": {
+    "ipf": "FtrIcon/AccessoryGlassVenetian",
+    "img": [
+      "1",
+      "3",
+      "0",
+      "5",
+      "4",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "purple",
+      "gold",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "red",
+        "yellow"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "orange",
+        "yellow"
+      ],
+      [
+        "green",
+        "yellow"
+      ],
+      [
+        "blue",
+        "yellow"
+      ]
+    ],
+    "sel": 227,
+    "buy": 910,
+    "exp": 820,
+    "exc": 2,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      11161,
+      11163,
+      4667,
+      11165,
+      11164,
+      11162
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat07",
+      "shp11",
+      "squ19"
+    ],
+    "loc": {
+      "de": "Ballmaske",
+      "fr-fr": "loup",
+      "it": "mascherina festosa",
+      "nl": "elegant balmasker",
+      "ru": "маскарадная маска",
+      "ja": "ベネチアンマスク",
+      "ko": "베네치안 마스크",
+      "fr-us": "masque mascarade",
+      "en": "masquerade mask",
+      "es": "antifaz baile de máscaras",
+      "zh": "威尼斯面具"
+    }
+  },
+  "c385": {
+    "ipf": "FtrIcon/AccessoryGlassMonocle",
+    "img": [
+      "2",
+      "0",
+      "1"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "gold"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "yellow"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cool"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11001,
+      4462,
+      11000
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "单片眼镜",
+      "de": "Monokel",
+      "it": "monocolo",
+      "nl": "monocle",
+      "ru": "монокль",
+      "ja": "モノクル",
+      "ko": "모노클",
+      "zh-tw": "單片眼鏡",
+      "en": "monocle",
+      "es": "monóculo",
+      "fr": "monocle"
+    }
+  },
+  "c1438": {
+    "ipf": "FtrIcon/AccessoryGlassNeon",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "var": [
+      "light_blue_pink",
+      "pink_yellow",
+      "orange_lime",
+      "lime_purple_2"
+    ],
+    "clr": [
+      [
+        "aqua",
+        "pink"
+      ],
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "orange",
+        "green"
+      ],
+      [
+        "green",
+        "blue"
+      ]
+    ],
+    "sel": 440,
+    "buy": 1760,
+    "exp": 1600,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      14690,
+      271,
+      270,
+      272
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": [
+      "able_sisters",
+      "hhp_tailor"
+    ],
+    "vad": "2.0.0",
+    "hui": "wol05",
+    "loc": {
+      "zh-cn": "荧光色墨镜",
+      "de": "Neonbrille",
+      "es-es": "gafa de sol neón",
+      "it": "montatura neon",
+      "nl": "neonzonnebril",
+      "ru": "неоновые очки от солнца",
+      "ja": "ネオンのサングラス",
+      "ko": "네온 선글라스",
+      "zh-tw": "螢光色墨鏡",
+      "es-us": "par de lentes de sol neón",
+      "en": "neon shades",
+      "fr": "monture fluo"
+    }
+  },
+  "c615": {
+    "img": "FtrIcon/AccessoryGlassNightvisionBlack",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "cool"
+    ],
+    "lbl": "outdoorsy",
+    "iid": 5261,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "pig13",
+    "loc": {
+      "zh-cn": "夜视镜",
+      "de": "Nachtsichtbrille",
+      "es-es": "gafa de visión nocturna",
+      "fr-fr": "paire de jumelles IR",
+      "it": "visore notturno",
+      "nl": "nachtkijker",
+      "ru": "очки ночного видения",
+      "ja": "ナイトビジョン",
+      "ko": "나이트 비전 고글",
+      "zh-tw": "夜視鏡",
+      "es-us": "visor nocturno",
+      "fr-us": "lunettes de vision de nuit",
+      "en": "night-vision goggles"
+    }
+  },
+  "c1148": {
+    "img": "FtrIcon/AccessoryGlassNook0",
+    "clr": [
+      "green",
+      "white"
+    ],
+    "sel": 2000,
+    "exp": 400,
+    "exc": 0,
+    "hap": 151,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "comfy",
+    "iid": 9654,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "loc": {
+      "de": "Nook-Inc.-Augenmaske",
+      "it": "copriocchi Nook Inc.",
+      "nl": "Nook Inc.-slaapmasker",
+      "ru": "маска для сна Nook Inc.",
+      "ja": "たぬきかいはつアイマスク",
+      "ko": "Nook Inc. 안대",
+      "en": "Nook Inc. eye mask",
+      "es": "antifaz dormir de Nook Inc.",
+      "fr": "masque repos Nook Inc.",
+      "zh": "Nook Inc.眼罩"
+    }
+  },
+  "c1300": {
+    "img": "FtrIcon/AccessoryGlassmouthNook0",
+    "clr": [
+      "green",
+      "black"
+    ],
+    "sel": 2500,
+    "exp": 500,
+    "exc": 0,
+    "hap": 151,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation",
+      "work"
+    ],
+    "iid": 13215,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "Nook Inc.潜水镜附呼吸管",
+      "de": "Nook-Inc.-Taucherbrille",
+      "es-es": "gafa de buceo Nook Inc.",
+      "it": "maschera mare Nook Inc.",
+      "nl": "Nook Inc.-duikbril",
+      "ru": "подводная маска Nook Inc.",
+      "ja": "たぬきかいはつシュノーケル",
+      "ko": "Nook Inc. 스노클",
+      "zh-tw": "Nook Inc.潛水鏡附呼吸管",
+      "es-us": "visor de buceo Nook Inc.",
+      "en": "Nook Inc. snorkel",
+      "fr": "masque avec tuba Nook Inc."
+    }
+  },
+  "c899": {
+    "img": "FtrIcon/AccessoryMouthJokeDripCyan",
+    "clr": "aqua",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "comfy",
+    "iid": 5833,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "kgr08",
+    "loc": {
+      "de": "Rotznase",
+      "it": "goccia di moccio",
+      "nl": "snottebel",
+      "ru": "сопля",
+      "ja": "はなみず",
+      "ko": "콧물",
+      "en": "nose drip",
+      "es": "gota de moco",
+      "fr": "goutte de morve",
+      "zh": "鼻水"
+    }
+  },
+  "c1251": {
+    "img": "FtrIcon/AccessoryMouthTissue0",
+    "clr": "white",
+    "sel": 20,
+    "buy": 80,
+    "exp": 70,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": 12965,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "塞鼻孔的纸巾",
+      "de": "Nasentamponade",
+      "fr-fr": "tampon nasal",
+      "it": "tampone nasale",
+      "nl": "neusstopdoekje",
+      "ru": "марлевая турунда",
+      "ja": "はなのつめもの",
+      "ko": "코 휴지",
+      "zh-tw": "塞鼻孔的面紙捲",
+      "fr-us": "mouchoir nasal",
+      "en": "nose tissue",
+      "es": "gasa para la nariz"
+    }
+  },
+  "c261": {
+    "ipf": "FtrIcon/AccessoryGlassOctagon",
+    "img": [
+      "0",
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "green",
+      "purple",
+      "gold"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "green",
+      "purple",
+      "beige"
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "cool"
+    ],
+    "lbl": [
+      "comfy",
+      "vacation",
+      "work"
+    ],
+    "iid": [
+      4239,
+      11075,
+      11072,
+      11073,
+      11074
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "hip05",
+      "mnk03"
+    ],
+    "loc": {
+      "zh-cn": "八角形眼镜",
+      "de": "Achteckbrille",
+      "es-es": "gafa octogonal",
+      "it": "montatura ottagonale",
+      "nl": "achthoekige bril",
+      "ru": "восьмиугольные очки",
+      "ja": "オクタゴンめがね",
+      "ko": "팔각 안경",
+      "zh-tw": "八角形眼鏡",
+      "es-us": "par de lentes octogonales",
+      "en": "octagonal glasses",
+      "fr": "monture octogonale"
+    }
+  },
+  "c475": {
+    "ipf": "FtrIcon/AccessoryGlassOval",
+    "img": [
+      "6",
+      "4",
+      "1",
+      "5",
+      "0",
+      "2",
+      "3"
+    ],
+    "var": [
+      "black",
+      "magenta",
+      "orange",
+      "mustard",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "aqua",
+      "purple"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "work"
+    ],
+    "iid": [
+      11092,
+      11090,
+      11087,
+      11091,
+      4609,
+      11088,
+      11089
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "squ10",
+      "cat16",
+      "goa02",
+      "mnk03",
+      "hip09"
+    ],
+    "loc": {
+      "zh-cn": "椭圆形眼镜",
+      "de": "Eiformbrille",
+      "es-es": "gafa ovalada",
+      "it": "montatura tondeggiante",
+      "nl": "ovale bril",
+      "ru": "овальные очки",
+      "ja": "オーバルめがね",
+      "ko": "타원 안경",
+      "zh-tw": "橢圓形眼鏡",
+      "es-us": "par de lentes ovalados",
+      "en": "oval glasses",
+      "fr": "monture polymère ovale"
+    }
+  },
+  "c1055": {
+    "ipf": "FtrIcon/AccessoryMouthPacifier",
+    "img": [
+      "5",
+      "4",
+      "0",
+      "7",
+      "2",
+      "3",
+      "1",
+      "6"
+    ],
+    "var": [
+      "baby_gray",
+      "baby_pink",
+      "baby_purple",
+      "baby_orange",
+      "baby_yellow",
+      "baby_green",
+      "baby_mint",
+      "baby_blue"
+    ],
+    "clr": [
+      "gray",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "green",
+      "aqua",
+      "purple"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": "comfy",
+    "iid": [
+      11017,
+      11016,
+      2298,
+      11019,
+      11014,
+      11015,
+      11013,
+      11018
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "kgr00",
+      "kgr08"
+    ],
+    "loc": {
+      "de": "Schnuller",
+      "fr-fr": "tétine",
+      "it": "ciuccio",
+      "nl": "speen",
+      "ru": "соска-пустышка",
+      "ja": "おしゃぶり",
+      "ko": "노리개젖꼭지",
+      "fr-us": "suce",
+      "en": "pacifier",
+      "es": "chupete",
+      "zh": "奶嘴"
+    }
+  },
+  "c485": {
+    "img": "FtrIcon/AccessoryMouthPigPink",
+    "clr": "pink",
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cute",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": 4647,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "squ21",
+    "loc": {
+      "zh-cn": "猪鼻子道具",
+      "de": "Schweinsnase",
+      "fr-fr": "groin de cochon",
+      "it": "naso da maialino",
+      "nl": "varkenssnuit",
+      "ru": "свиной пятачок",
+      "ja": "ブタのつけばな",
+      "ko": "돼지 코",
+      "zh-tw": "豬鼻子道具",
+      "fr-us": "nez de cochon",
+      "en": "pig nose",
+      "es": "hocico de cerdo"
+    }
+  },
+  "c382": {
+    "ipf": "FtrIcon/AccessoryGlassPilot",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "gold"
+    ],
+    "clr": [
+      [
+        "black",
+        "brown"
+      ],
+      [
+        "yellow",
+        "black"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "sporty",
+      "work"
+    ],
+    "iid": [
+      4459,
+      11214
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cbr02",
+      "brd17",
+      "der05",
+      "mnk03",
+      "pig05",
+      "rbt13",
+      "tig05"
+    ],
+    "loc": {
+      "zh-cn": "飞行员墨镜",
+      "de": "Pilotenbrille",
+      "es-es": "gafa de sol piloto",
+      "it": "montatura a goccia",
+      "nl": "pilotenzonnebril",
+      "ru": "авиаторы",
+      "ja": "パイロットサングラス",
+      "ko": "파일럿 선글라스",
+      "zh-tw": "飛行員墨鏡",
+      "es-us": "par de lentes sol piloto",
+      "en": "pilot shades",
+      "fr": "monture pilote"
+    }
+  },
+  "c1226": {
+    "img": "FtrIcon/AccessoryMouthPirates0",
+    "clr": "colorful",
+    "sel": 245,
+    "hap": 451,
+    "stl": [
+      "cool",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "theatrical"
+    ],
+    "iid": 12663,
+    "cat": true,
+    "sze": "1x1",
+    "src": "gullivarrr",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "海盗胡子",
+      "de": "Piratenbart",
+      "it": "barba da pirata",
+      "nl": "piratenbaard",
+      "ru": "пиратская борода",
+      "ja": "かいぞくのひげ",
+      "ko": "해적 수염",
+      "zh-tw": "海盜鬍子",
+      "en": "pirate beard",
+      "es": "barba de pirata",
+      "fr": "barbe de pirate"
+    }
+  },
+  "c1225": {
+    "img": "FtrIcon/AccessoryGlassPiratespatch0",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "sel": 70,
+    "hap": 451,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "goth",
+      "theatrical"
+    ],
+    "iid": 12662,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "gullivarrr",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "海盗眼罩",
+      "de": "Piratenaugenklappe",
+      "it": "benda piratesca",
+      "nl": "piratenooglapje",
+      "ru": "пиратская повязка",
+      "ja": "かいぞくのアイパッチ",
+      "ko": "해적 안대",
+      "zh-tw": "海盜眼罩",
+      "en": "pirate eye patch",
+      "es": "parche pirata",
+      "fr": "cache-œil de pirate"
+    }
+  },
+  "c484": {
+    "ipf": "FtrIcon/AccessoryGlassDot",
+    "img": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "var": [
+      "black",
+      "red",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ]
+    ],
+    "sel": 330,
+    "buy": 1320,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      11225,
+      4646,
+      11223,
+      11224
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "tig05",
+    "loc": {
+      "zh-cn": "像素墨镜",
+      "de": "Pixelbrille",
+      "es-es": "gafa pixelada",
+      "it": "montatura pixellata",
+      "nl": "pixelzonnebril",
+      "ru": "пиксельные очки",
+      "ja": "ドットサングラス",
+      "ko": "도트 선글라스",
+      "zh-tw": "像素墨鏡",
+      "es-us": "par de lentes pixelados",
+      "en": "pixel shades",
+      "fr": "monture pixel"
+    }
+  },
+  "c1248": {
+    "ipf": "FtrIcon/AccessoryMouthSurgicalmask",
+    "img": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "var": [
+      "white",
+      "blue",
+      "pink",
+      "cream",
+      "black"
+    ],
+    "clr": [
+      "white",
+      "aqua",
+      "pink",
+      "beige",
+      "black"
+    ],
+    "sel": 35,
+    "buy": 140,
+    "exp": 130,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "comfy"
+    ],
+    "iid": [
+      12962,
+      14665,
+      14666,
+      14667,
+      14668
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "cat11",
+      "duk02",
+      "flg12"
+    ],
+    "loc": {
+      "de": "Chirurgenmaske",
+      "it": "mascherina chirurgica",
+      "nl": "mondkapje",
+      "ru": "хирургическая маска",
+      "ja": "プリーツマスク",
+      "ko": "덴탈 마스크",
+      "en": "pleated mask",
+      "es": "mascarilla quirúrgica",
+      "fr": "masque plissé",
+      "zh": "百褶口罩"
+    }
+  },
+  "c922": {
+    "img": "FtrIcon/AccessoryMouthLeatherBlack",
+    "clr": [
+      "black",
+      "gray"
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": "goth",
+    "iid": 6040,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "kgr01",
+    "loc": {
+      "zh-cn": "皮口罩",
+      "de": "Kunstledermaske",
+      "es-es": "máscara con tachuelas",
+      "it": "mascherina di ecopelle",
+      "nl": "kunstleren masker",
+      "ru": "маска из кожзама",
+      "ja": "レザーマスク",
+      "ko": "가죽 마스크",
+      "zh-tw": "皮面具",
+      "es-us": "máscara de cuero sintético",
+      "en": "pleather mask",
+      "fr": "masque en similicuir"
+    }
+  },
+  "c376": {
+    "img": "FtrIcon/AccessoryGlassEyepatchWhite",
+    "clr": "white",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": "goth",
+    "iid": 4452,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "医疗眼罩",
+      "de": "Augenverband",
+      "it": "benda postoperatoria",
+      "nl": "oogverband",
+      "ru": "глазной пластырь",
+      "ja": "がんたい",
+      "ko": "안대",
+      "zh-tw": "醫療眼罩",
+      "en": "post-op patch",
+      "es": "parche médico",
+      "fr": "pansement oculaire"
+    }
+  },
+  "c497": {
+    "img": "FtrIcon/AccessoryMouthCrowBlack",
+    "clr": "black",
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "goth",
+      "comfy"
+    ],
+    "iid": 4671,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "折叠口罩",
+      "de": "Inkognito-Maske",
+      "it": "mascherina da incognito",
+      "nl": "mondmasker",
+      "ru": "маска анонимности",
+      "ja": "カラスマスク",
+      "ko": "블랙 마스크",
+      "zh-tw": "黑色口罩",
+      "en": "privacy mask",
+      "es": "máscara anonimato",
+      "fr": "masque d'anonymat"
+    }
+  },
+  "c921": {
+    "img": "FtrIcon/AccessoryGlassMirrorGray",
+    "clr": [
+      "gray",
+      "black"
+    ],
+    "sel": 140,
+    "buy": 560,
+    "exp": 500,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": "work",
+    "iid": 6039,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "flg12",
+      "rbt02"
+    ],
+    "loc": {
+      "zh-cn": "反射镜",
+      "de": "Arztspiegel",
+      "it": "specchio ortodontico",
+      "nl": "oogspiegel",
+      "ru": "лобный рефлектор",
+      "ja": "はんしゃきょう",
+      "ko": "반사경",
+      "zh-tw": "反射鏡",
+      "en": "reflector",
+      "es": "espejo médico",
+      "fr": "réflecteur de dentiste"
+    }
+  },
+  "c379": {
+    "ipf": "FtrIcon/AccessoryGlassRetro",
+    "img": [
+      "0",
+      "5",
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "var": [
+      "yellow",
+      "gray",
+      "red",
+      "purple",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "purple"
+      ],
+      "green",
+      [
+        "aqua",
+        "green"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "elegant",
+      "cute"
+    ],
+    "lbl": [
+      "everyday",
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      4456,
+      11213,
+      11210,
+      11211,
+      11209,
+      11212
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat06",
+      "flg13",
+      "mnk03",
+      "wol06",
+      "squ10"
+    ],
+    "loc": {
+      "zh-cn": "复古墨镜",
+      "de": "Retro-Sonnenbrille",
+      "es-es": "gafa retro",
+      "it": "montatura rétro",
+      "nl": "retrozonnebril",
+      "ru": "солнечные ретро-очки",
+      "ja": "レトロなサングラス",
+      "ko": "레트로 선글라스",
+      "zh-tw": "復古墨鏡",
+      "es-us": "par de lentes retro",
+      "en": "retro shades",
+      "fr": "monture rétro irisée"
+    }
+  },
+  "c509": {
+    "ipf": "FtrIcon/AccessoryGlassRhinestone",
+    "img": [
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "red",
+      "purple",
+      "ochre"
+    ],
+    "clr": [
+      "red",
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "brown",
+        "black"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": "gorgeous",
+    "lbl": [
+      "party",
+      "theatrical",
+      "vacation"
+    ],
+    "iid": [
+      4683,
+      11227,
+      11226
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "水钻眼镜",
+      "de": "Strassbrille",
+      "es-es": "gafa de sol con bisutería",
+      "it": "montatura con strass",
+      "nl": "straszonnebril",
+      "ru": "очки со стразами",
+      "ja": "ラインストーンめがね",
+      "ko": "라인스톤 안경",
+      "zh-tw": "水鑽眼鏡",
+      "es-us": "par de lentes diva",
+      "en": "rhinestone shades",
+      "fr": "monture strass"
+    }
+  },
+  "c257": {
+    "ipf": "FtrIcon/AccessoryGlassCircle",
+    "img": [
+      "2",
+      "0",
+      "1",
+      "4",
+      "3"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "gold",
+      "purple",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "yellow",
+      "purple",
+      "brown"
+    ],
+    "sel": 157,
+    "buy": 630,
+    "exp": 570,
+    "exc": 2,
+    "hap": 51,
+    "stl": "elegant",
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11185,
+      4235,
+      11184,
+      11187,
+      11186
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "squ19",
+      "bea02",
+      "cbr05",
+      "der07",
+      "duk06",
+      "elp06",
+      "mnk03",
+      "rbt08",
+      "squ08",
+      "wol00",
+      "cat21"
+    ],
+    "loc": {
+      "zh-cn": "圆框眼镜",
+      "de": "Laborbrille",
+      "es-es": "gafa redonda",
+      "it": "montatura rotonda",
+      "nl": "ronde bril",
+      "ru": "очки в роговой оправе",
+      "ja": "まるめがね",
+      "ko": "동글 안경",
+      "zh-tw": "圓框眼鏡",
+      "es-us": "par de lentes redondos",
+      "en": "rimmed glasses",
+      "fr": "monture intello"
+    }
+  },
+  "c263": {
+    "ipf": "FtrIcon/AccessoryGlassBoston",
+    "img": [
+      "6",
+      "0",
+      "5",
+      "4",
+      "3",
+      "1",
+      "2",
+      "7"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "black"
+      ],
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "blue",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "everyday",
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      11201,
+      4241,
+      11200,
+      11199,
+      11198,
+      11196,
+      11197,
+      11202
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "duk16",
+      "mnk03",
+      "pbr06"
+    ],
+    "loc": {
+      "zh-cn": "波士顿框眼镜",
+      "de": "Rundsonnenbrille",
+      "es-es": "gafa de sol redonda",
+      "it": "montatura con lenti scure",
+      "nl": "ronde zonnebril",
+      "ru": "очки «Кошачий глаз»",
+      "ja": "ボストンめがね",
+      "ko": "둥근 선글라스",
+      "zh-tw": "波士頓框眼鏡",
+      "es-us": "par de lentes sol redondos",
+      "en": "round shades",
+      "fr": "monture solaire ronde"
+    }
+  },
+  "c473": {
+    "ipf": "FtrIcon/AccessoryGlassRound",
+    "img": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "var": [
+      "brown",
+      "light_brown",
+      "green",
+      "dark_brown"
+    ],
+    "clr": [
+      [
+        "orange",
+        "brown"
+      ],
+      [
+        "orange",
+        "brown"
+      ],
+      [
+        "green",
+        "brown"
+      ],
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      4607,
+      11220,
+      11222,
+      11221
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "brd05",
+      "mnk03"
+    ],
+    "loc": {
+      "zh-cn": "圆形墨镜",
+      "de": "Kunststoffsonnenbrille",
+      "es-es": "gafa de sol de carey",
+      "it": "montatura rotonda fumé",
+      "nl": "halfgetinte zonnebril",
+      "ru": "тонированные очки",
+      "ja": "ラウンドサングラス",
+      "ko": "얇은 테 둥근 선글라스",
+      "zh-tw": "圓形墨鏡",
+      "es-us": "par de lentes de sol carey",
+      "en": "round tinted shades",
+      "fr": "monture teintée ronde"
+    }
+  },
+  "c1369": {
+    "ipf": "FtrIcon/AccessoryGlassWellington",
+    "img": [
+      "2",
+      "0",
+      "4",
+      "3",
+      "1"
+    ],
+    "var": [
+      "silver",
+      "black",
+      "red",
+      "navy_blue",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "red",
+      "blue",
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      149,
+      14272,
+      151,
+      150,
+      148
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "圆形粗框眼镜",
+      "de": "Rundbrille",
+      "es-es": "gafa redonda de pasta",
+      "it": "montatura tonda",
+      "nl": "bril met rond montuur",
+      "ru": "очки с круглой оправой",
+      "ja": "まるぶちめがね",
+      "ko": "둥근 테 안경",
+      "zh-tw": "圓形粗框眼鏡",
+      "es-us": "par de lentes de pasta",
+      "en": "round-frame glasses",
+      "fr": "monture arrondie"
+    }
+  },
+  "c505": {
+    "img": "FtrIcon/AccessoryMouthBeardRoundBlack",
+    "clr": "colorful",
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "comfy",
+      "theatrical"
+    ],
+    "iid": 4679,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "络腮胡",
+      "de": "Rundbart",
+      "it": "barba rifinita",
+      "nl": "ringbaard",
+      "ru": "борода «Короб»",
+      "ja": "ラウンドひげ",
+      "ko": "둥근 수염",
+      "zh-tw": "絡腮鬍",
+      "en": "rounded beard",
+      "es": "barba perfilada",
+      "fr": "collier de barbe"
+    }
+  },
+  "c406": {
+    "img": "FtrIcon/AccessoryMouthSanta",
+    "clr": "white",
+    "sel": 370,
+    "buy": 1480,
+    "exp": 1300,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "work"
+    ],
+    "iid": 4492,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": [
+      "toy_day_ready_2",
+      "toy_day",
+      "toy_day_after"
+    ],
+    "vad": "1.6.0",
+    "loc": {
+      "zh-cn": "圣诞老人胡子",
+      "de": "Weihnachtsmannbart",
+      "it": "barba da Babbo Natale",
+      "nl": "kerstmanbaard",
+      "ru": "борода Санты",
+      "ja": "サンタのヒゲ",
+      "ko": "산타 수염",
+      "zh-tw": "聖誕老人鬍子",
+      "en": "Santa beard",
+      "es": "barba Papá Noel",
+      "fr": "barbe de père Noël"
+    }
+  },
+  "c1354": {
+    "img": "FtrIcon/AccessoryGlassShamrock0",
+    "clr": "green",
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "gorgeous"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical",
+      "vacation"
+    ],
+    "iid": 14238,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "shamrock_day",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "三叶草墨镜",
+      "de": "Kleeblattsonnenbrille",
+      "es-es": "gafa de sol trébol",
+      "it": "montatura trifoglio",
+      "nl": "klaverzonnebril",
+      "ru": "очки-трилистник",
+      "ja": "シャムロックサングラス",
+      "ko": "성 패트릭 선글라스",
+      "zh-tw": "三葉草墨鏡",
+      "es-us": "par de lentes de sol trébol",
+      "en": "shamrock sunglasses",
+      "fr": "monture solaire trèfle"
+    }
+  },
+  "c315": {
+    "img": "FtrIcon/AccessoryGlassCrackBlack",
+    "clr": [
+      "black",
+      "aqua"
+    ],
+    "sel": 10,
+    "hap": 53,
+    "stl": [
+      "simple",
+      "active"
+    ],
+    "lbl": "goth",
+    "iid": 4337,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "recycle_box",
+    "hui": "pig04",
+    "loc": {
+      "zh-cn": "有裂痕的眼镜",
+      "de": "Kaputte Brille",
+      "es-es": "gafa rota",
+      "it": "montatura con lenti rotte",
+      "nl": "kapotte bril",
+      "ru": "очки с трещинами",
+      "ja": "ヒビわれめがね",
+      "ko": "금이 간 안경",
+      "zh-tw": "有裂痕的眼鏡",
+      "es-us": "par de lentes rotos",
+      "en": "shattered glasses",
+      "fr": "monture à verres brisés"
+    }
+  },
+  "c1489": {
+    "ipf": "FtrIcon/AccessoryGlassSolideyes",
+    "img": [
+      "0",
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "var": [
+      "purple",
+      "pink",
+      "yellow",
+      "light_blue",
+      "blue",
+      "white"
+    ],
+    "clr": [
+      [
+        "purple",
+        "black"
+      ],
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "yellow",
+        "blue"
+      ],
+      [
+        "aqua",
+        "green"
+      ],
+      [
+        "blue",
+        "yellow"
+      ],
+      [
+        "gray",
+        "red"
+      ]
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "goth",
+      "party"
+    ],
+    "iid": [
+      14850,
+      441,
+      440,
+      442,
+      443,
+      444
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": [
+      "flg12",
+      "hip02",
+      "pig04"
+    ],
+    "loc": {
+      "zh-cn": "非常搞笑眼镜",
+      "de": "Blödelbrille",
+      "es-es": "gafa graciosa con párpados",
+      "fr-fr": "monture facétieuse",
+      "it": "montatura buffa",
+      "nl": "gekke fopbril",
+      "ru": "шуточные очки",
+      "ja": "いとをかしなメガネ",
+      "ko": "입체 코믹한 안경",
+      "zh-tw": "非常搞笑眼鏡",
+      "es-us": "par de lentes con párpados",
+      "fr-us": "monture rigolote",
+      "en": "silly glasses"
+    }
+  },
+  "c1461": {
+    "ipf": "FtrIcon/AccessoryGlassNomal",
+    "img": [
+      "0",
+      "4",
+      "5",
+      "2",
+      "3",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "lime",
+      "white"
+    ],
+    "clr": [
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "orange",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "white",
+        "black"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "everyday",
+      "vacation"
+    ],
+    "iid": [
+      14795,
+      157,
+      158,
+      155,
+      156,
+      154
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "hui": "ant01",
+    "loc": {
+      "zh-cn": "简约墨镜",
+      "de": "Einfach-Sonnenbrille",
+      "es-es": "gafa de sol simple",
+      "it": "montatura da sole semplice",
+      "nl": "eenvoudige zonnebril",
+      "ru": "простые очки от солнца",
+      "ja": "シンプルなサングラス",
+      "ko": "심플 선글라스",
+      "zh-tw": "簡約墨鏡",
+      "es-us": "par de lentes de sol simples",
+      "en": "simple sunglasses",
+      "fr": "monture solaire simple"
+    }
+  },
+  "c377": {
+    "ipf": "FtrIcon/AccessoryGlassGogglesski",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "5",
+      "4",
+      "3"
+    ],
+    "var": [
+      "yellow",
+      "white",
+      "purple",
+      "orange",
+      "green",
+      "pink"
+    ],
+    "clr": [
+      [
+        "pink",
+        "yellow"
+      ],
+      [
+        "orange",
+        "white"
+      ],
+      [
+        "green",
+        "blue"
+      ],
+      [
+        "aqua",
+        "orange"
+      ],
+      [
+        "blue",
+        "green"
+      ],
+      [
+        "purple",
+        "pink"
+      ]
+    ],
+    "sel": 245,
+    "buy": 980,
+    "exp": 880,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11479,
+      4453,
+      11480,
+      11483,
+      11482,
+      11481
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "evt": "winter_shopping",
+    "hui": [
+      "gor08",
+      "tig02"
+    ],
+    "loc": {
+      "zh-cn": "滑雪风镜",
+      "de": "Skibrille",
+      "es-es": "gafa de esquí",
+      "fr-fr": "masque de ski",
+      "it": "maschera da sci",
+      "nl": "skibril",
+      "ru": "лыжные очки",
+      "ja": "スキーゴーグル",
+      "ko": "스키 고글",
+      "zh-tw": "滑雪風鏡",
+      "es-us": "visor esquí",
+      "fr-us": "lunettes de skis",
+      "en": "ski goggles"
+    }
+  },
+  "c432": {
+    "ipf": "FtrIcon/AccessoryGlassmouthDiver",
+    "img": [
+      "5",
+      "2",
+      "3",
+      "1",
+      "4",
+      "0"
+    ],
+    "var": [
+      "black",
+      "red",
+      "pink",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "clr": [
+      [
+        "gray",
+        "black"
+      ],
+      "red",
+      "pink",
+      [
+        "yellow",
+        "orange"
+      ],
+      "green",
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 175,
+    "buy": 700,
+    "exp": 630,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation",
+      "work"
+    ],
+    "iid": [
+      11497,
+      11494,
+      11495,
+      11493,
+      11496,
+      4551
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": [
+      "nintendo",
+      "able_sisters"
+    ],
+    "evt": "summer_shopping",
+    "vad": "1.3.0",
+    "hui": [
+      "dog17",
+      "duk08",
+      "kgr09",
+      "lon04",
+      "mus18",
+      "ost09"
+    ],
+    "loc": {
+      "zh-cn": "潜水镜附呼吸管",
+      "de": "Taucherbrille",
+      "es-es": "gafa de buceo",
+      "fr-fr": "masque plongée",
+      "it": "maschera con boccaglio",
+      "nl": "duikbril",
+      "ru": "маска для ныряния",
+      "ja": "シュノーケル",
+      "ko": "스노클",
+      "zh-tw": "潛水鏡附呼吸管",
+      "es-us": "visor de buceo",
+      "fr-us": "masque de plongée",
+      "en": "snorkel mask"
+    }
+  },
+  "c381": {
+    "ipf": "FtrIcon/AccessoryGlassSports",
+    "img": [
+      "1",
+      "0",
+      "2",
+      "3",
+      "4"
+    ],
+    "var": [
+      "white",
+      "black",
+      "pink",
+      "lime",
+      "light_blue"
+    ],
+    "clr": [
+      [
+        "white",
+        "orange"
+      ],
+      [
+        "black",
+        "orange"
+      ],
+      "pink",
+      [
+        "green",
+        "aqua"
+      ],
+      [
+        "aqua",
+        "blue"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty"
+    ],
+    "iid": [
+      11489,
+      4458,
+      11490,
+      11491,
+      11492
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "squ10",
+      "brd09",
+      "goa09",
+      "mnk03",
+      "squ20"
+    ],
+    "loc": {
+      "zh-cn": "运动墨镜",
+      "de": "Sportbrille",
+      "es-es": "gafa de sol esquí",
+      "it": "montatura sportiva",
+      "nl": "sportieve zonnebril",
+      "ru": "спортивные очки",
+      "ja": "スポーツサングラス",
+      "ko": "스포츠 선글라스",
+      "zh-tw": "運動墨鏡",
+      "es-us": "par de lentes sol esquí",
+      "en": "sporty shades",
+      "fr": "monture sport"
+    }
+  },
+  "c258": {
+    "ipf": "FtrIcon/AccessoryGlassSquare",
+    "img": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "blue",
+      "brown"
+    ],
+    "clr": [
+      "gray",
+      "black",
+      "blue",
+      "brown"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": "simple",
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      11067,
+      11066,
+      11068,
+      4236
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "der04",
+      "duk02",
+      "mnk03"
+    ],
+    "loc": {
+      "zh-cn": "方框眼镜",
+      "de": "Rechteckbrille",
+      "es-es": "gafa rectangular",
+      "it": "montatura squadrata",
+      "nl": "rechthoekige bril",
+      "ru": "прямоугольные очки",
+      "ja": "スクエアめがね",
+      "ko": "사각 안경",
+      "zh-tw": "方框眼鏡",
+      "es-us": "par de lentes rectangulares",
+      "en": "square glasses",
+      "fr": "monture rectangulaire"
+    }
+  },
+  "c1391": {
+    "ipf": "FtrIcon/AccessoryGlassThurmontsquare",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "gray",
+      "black",
+      "green",
+      "brown"
+    ],
+    "clr": [
+      [
+        "gray",
+        "yellow"
+      ],
+      [
+        "black",
+        "yellow"
+      ],
+      [
+        "green",
+        "gray"
+      ],
+      [
+        "brown",
+        "yellow"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      165,
+      14362,
+      164,
+      163
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "方形眉框眼镜",
+      "de": "Quadrat-Browline-Brille",
+      "es-es": "gafa montura superior recta",
+      "fr-fr": "monture browline carrée",
+      "it": "montatura browline quadra",
+      "nl": "rechte-browlinebril",
+      "ru": "угловатые броулайнеры",
+      "ja": "スクエアサーモントめがね",
+      "ko": "사각 하금테 안경",
+      "zh-tw": "方形眉框眼鏡",
+      "es-us": "par de lentes rectos",
+      "fr-us": "monture carrée",
+      "en": "squared browline glasses"
+    }
+  },
+  "c408": {
+    "ipf": "FtrIcon/AccessoryGlassmouthBeard",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red"
+    ],
+    "clr": [
+      [
+        "black",
+        "orange"
+      ],
+      [
+        "red",
+        "black"
+      ]
+    ],
+    "sel": 192,
+    "buy": 770,
+    "exp": 690,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "gorgeous"
+    ],
+    "lbl": [
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      4501,
+      11007
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "胡子眼镜",
+      "de": "Schnauzerbrille",
+      "es-es": "gafa de broma",
+      "it": "montatura carnevalesca",
+      "nl": "bril met snor",
+      "ru": "очки с усами",
+      "ja": "ヒゲメガネ",
+      "ko": "수염 안경",
+      "zh-tw": "鬍子眼鏡",
+      "es-us": "par de lentes broma",
+      "en": "stache & glasses",
+      "fr": "kit rigolo"
+    }
+  },
+  "c262": {
+    "ipf": "FtrIcon/AccessoryGlassStar",
+    "img": [
+      "1",
+      "0",
+      "4",
+      "2",
+      "3"
+    ],
+    "var": [
+      "pink",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "pink",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      11192,
+      4240,
+      11195,
+      11193,
+      11194
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "ant09",
+      "cow07",
+      "mnk03",
+      "shp08"
+    ],
+    "loc": {
+      "zh-cn": "星形墨镜",
+      "de": "Sternenbrille",
+      "es-es": "gafa estrella",
+      "it": "montatura a stelle",
+      "nl": "sterrenzonnebril",
+      "ru": "очки-звездочки",
+      "ja": "ほしのサングラス",
+      "ko": "별 선글라스",
+      "zh-tw": "星形墨鏡",
+      "es-us": "par de lentes estrella",
+      "en": "star shades",
+      "fr": "monture étoiles"
+    }
+  },
+  "c511": {
+    "ipf": "FtrIcon/AccessoryGlassSteampunk",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "green",
+      "purple"
+    ],
+    "clr": [
+      [
+        "brown",
+        "green"
+      ],
+      [
+        "brown",
+        "purple"
+      ]
+    ],
+    "sel": 325,
+    "buy": 1300,
+    "exp": 1200,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "gorgeous",
+      "cool"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "theatrical"
+    ],
+    "iid": [
+      4685,
+      11505
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "lon02",
+      "mnk03",
+      "pgn00",
+      "pgn07",
+      "shp13",
+      "squ06"
+    ],
+    "loc": {
+      "zh-cn": "蒸汽庞克护目镜",
+      "de": "Steampunkbrille",
+      "es-es": "gafa steampunk",
+      "it": "montatura steampunk",
+      "nl": "steampunkbril",
+      "ru": "очки «Стимпанк»",
+      "ja": "スチームパンクなゴーグル",
+      "ko": "스팀펑크 안경",
+      "zh-tw": "蒸汽龐克護目鏡",
+      "es-us": "par de lentes steampunk",
+      "en": "steampunk glasses",
+      "fr": "monture steampunk"
+    }
+  },
+  "c489": {
+    "img": "FtrIcon/AccessoryMouthRice",
+    "clr": "white",
+    "sel": 122,
+    "buy": 490,
+    "exp": 440,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cute"
+    ],
+    "lbl": "comfy",
+    "iid": 4652,
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "loc": {
+      "zh-cn": "饭粒",
+      "de": "Reisrest",
+      "it": "riso appiccicoso",
+      "nl": "rijstkorrels",
+      "ru": "зернышки риса",
+      "ja": "ごはんつぶ",
+      "ko": "밥풀",
+      "zh-tw": "飯粒",
+      "en": "sticky rice",
+      "es": "resto de arroz",
+      "fr": "reste de riz"
+    }
+  },
+  "c1311": {
+    "img": "FtrIcon/AccessoryGlassSummer0",
+    "clr": [
+      "yellow",
+      "brown"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": [
+      "gorgeous",
+      "active"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "party",
+      "vacation"
+    ],
+    "iid": 13325,
+    "sea": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "summer_solstice",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "向日葵墨镜",
+      "de": "Sonnenblumenbrille",
+      "es-es": "gafa de sol girasol",
+      "it": "montatura girasole",
+      "nl": "zonnebloemzonnebril",
+      "ru": "очки-подсолнухи",
+      "ja": "ひまわりのサングラス",
+      "ko": "해바라기 선글라스",
+      "zh-tw": "向日葵墨鏡",
+      "es-us": "par de lentes de sol girasol",
+      "en": "sunflower sunglasses",
+      "fr": "monture solaire tournesol"
+    }
+  },
+  "c510": {
+    "img": "FtrIcon/AccessoryGlassHeromaskBlack",
+    "clr": "black",
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cool",
+      "active"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "theatrical",
+      "work"
+    ],
+    "iid": 4684,
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "elp00",
+    "loc": {
+      "de": "Superheldenmaske",
+      "it": "maschera da eroe",
+      "nl": "superheldenmasker",
+      "ru": "маска супергероя",
+      "ja": "ヒーローマスク",
+      "ko": "히어로 마스크",
+      "en": "superhero mask",
+      "es": "antifaz",
+      "fr": "masque de héros",
+      "zh": "英雄面具"
+    }
+  },
+  "c384": {
+    "ipf": "FtrIcon/AccessoryGlassMini",
+    "img": [
+      "1",
+      "2",
+      "0"
+    ],
+    "var": [
+      "black",
+      "berry_red",
+      "gold"
+    ],
+    "clr": [
+      "black",
+      [
+        "red",
+        "black"
+      ],
+      [
+        "yellow",
+        "black"
+      ]
+    ],
+    "sel": 275,
+    "buy": 1100,
+    "exp": 990,
+    "exc": 2,
+    "hap": 51,
+    "stl": "cool",
+    "lbl": [
+      "fairy_tale",
+      "formal"
+    ],
+    "iid": [
+      11215,
+      11216,
+      4461
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "cat06",
+      "ham06",
+      "mnk03",
+      "pig00"
+    ],
+    "loc": {
+      "zh-cn": "迷你墨镜",
+      "de": "Minisonnenbrille",
+      "es-es": "gafa de sol mini",
+      "it": "montatura piccola",
+      "nl": "kleine zonnebril",
+      "ru": "мини-очки",
+      "ja": "ちいさいサングラス",
+      "ko": "작은 선글라스",
+      "zh-tw": "迷你墨鏡",
+      "es-us": "par de lentes sol mini",
+      "en": "tiny shades",
+      "fr": "monture mini"
+    }
+  },
+  "c383": {
+    "ipf": "FtrIcon/AccessoryGlassTortoiseshell",
+    "img": [
+      "2",
+      "1",
+      "0"
+    ],
+    "var": [
+      "black",
+      "beige",
+      "brown"
+    ],
+    "clr": [
+      [
+        "black",
+        "beige"
+      ],
+      [
+        "orange",
+        "beige"
+      ],
+      [
+        "brown",
+        "orange"
+      ]
+    ],
+    "sel": 260,
+    "buy": 1040,
+    "exp": 940,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal"
+    ],
+    "iid": [
+      11080,
+      11079,
+      4460
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": "mnk03",
+    "loc": {
+      "zh-cn": "琥珀眼镜",
+      "de": "Kunststoffbrille",
+      "es-es": "gafa de carey",
+      "it": "montatura tartarugata",
+      "nl": "bril met schildpadmontuur",
+      "ru": "черепаховые очки",
+      "ja": "べっこうめがね",
+      "ko": "거북이 등껍질 안경",
+      "zh-tw": "琥珀眼鏡",
+      "es-us": "par de lentes de carey",
+      "en": "tortoise specs",
+      "fr": "monture tortue"
+    }
+  },
+  "c264": {
+    "ipf": "FtrIcon/AccessoryGlassTriangle",
+    "img": [
+      "5",
+      "6",
+      "0",
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "var": [
+      "white",
+      "black",
+      "red",
+      "orange",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "white",
+        "purple"
+      ],
+      [
+        "black",
+        "purple"
+      ],
+      [
+        "red",
+        "purple"
+      ],
+      [
+        "orange",
+        "purple"
+      ],
+      [
+        "green",
+        "purple"
+      ],
+      [
+        "aqua",
+        "purple"
+      ],
+      "purple"
+    ],
+    "sel": 220,
+    "buy": 880,
+    "exp": 790,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "cute",
+      "active"
+    ],
+    "lbl": [
+      "party",
+      "vacation"
+    ],
+    "iid": [
+      11207,
+      11208,
+      4242,
+      11203,
+      11206,
+      11204,
+      11205
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bea06",
+      "der04",
+      "der05",
+      "mnk03"
+    ],
+    "loc": {
+      "zh-cn": "三角形墨镜",
+      "de": "Dreiecksbrille",
+      "es-es": "gafa de sol roquera",
+      "it": "montatura triangolare",
+      "nl": "driehoekige zonnebril",
+      "ru": "треугольные очки",
+      "ja": "さんかくサングラス",
+      "ko": "삼각 선글라스",
+      "zh-tw": "三角形墨鏡",
+      "es-us": "par de lentes sol roqueros",
+      "en": "triangle shades",
+      "fr": "monture triangle"
+    }
+  },
+  "c1447": {
+    "ipf": "FtrIcon/AccessoryGlassmouthVenezia",
+    "img": [
+      "0",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "var": [
+      "gold",
+      "pink",
+      "blue",
+      "silver",
+      "white"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "red"
+      ],
+      [
+        "pink",
+        "purple"
+      ],
+      [
+        "aqua",
+        "blue"
+      ],
+      [
+        "gray",
+        "black"
+      ],
+      [
+        "white",
+        "colorful"
+      ]
+    ],
+    "sel": 600,
+    "buy": 2400,
+    "hap": 201,
+    "stl": [
+      "gorgeous",
+      "elegant"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "party",
+      "theatrical"
+    ],
+    "iid": [
+      14753,
+      268,
+      267,
+      266,
+      269
+    ],
+    "sea": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "nook_shopping_season",
+    "evt": "carnival_of_venice",
+    "vad": "2.0.0",
+    "loc": {
+      "zh-cn": "威尼斯狂欢节面具",
+      "de": "Karneval-in-Venedig-Maske",
+      "it": "maschera veneziana",
+      "nl": "Venetiaans carnavalsmasker",
+      "ru": "венецианск. карнав. маска",
+      "ja": "ヴェニスのカーニバルマスク",
+      "ko": "베네치아 카니발 가면",
+      "zh-tw": "威尼斯嘉年華面具",
+      "en": "Venetian carnival mask",
+      "es": "máscara carnaval veneciano",
+      "fr": "masque vénitien"
+    }
+  },
+  "c1326": {
+    "img": "FtrIcon/AccessoryGlassmouthWario0",
+    "clr": [
+      "black",
+      "pink"
+    ],
+    "sel": 300,
+    "buy": 1200,
+    "hap": 201,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "fairy_tale",
+      "formal",
+      "party"
+    ],
+    "iid": 13560,
+    "sze": "1x1",
+    "src": "nook_shopping_promo",
+    "vad": "1.8.0",
+    "loc": {
+      "zh-cn": "瓦力欧胡子",
+      "de": "Wario-Schnauzer",
+      "it": "baffo di Wario",
+      "nl": "Wario-snor",
+      "ru": "усы Варио",
+      "ja": "ワリオのひげ",
+      "ko": "와리오 수염",
+      "zh-tw": "瓦利歐鬍子",
+      "en": "Wario 'stache",
+      "es": "bigote de Wario",
+      "fr": "moustache de Wario"
+    }
+  },
+  "c496": {
+    "ipf": "FtrIcon/AccessoryGlassWood",
+    "img": [
+      "0",
+      "1"
+    ],
+    "var": [
+      "brown",
+      "dark_brown"
+    ],
+    "clr": [
+      [
+        "brown",
+        "gray"
+      ],
+      [
+        "brown",
+        "yellow"
+      ]
+    ],
+    "sel": 390,
+    "buy": 1560,
+    "exp": 1400,
+    "exc": 2,
+    "hap": 51,
+    "stl": [
+      "simple",
+      "cool"
+    ],
+    "lbl": [
+      "everyday",
+      "formal",
+      "work"
+    ],
+    "iid": [
+      4669,
+      11093
+    ],
+    "ord": true,
+    "cat": true,
+    "vec": true,
+    "sze": "1x1",
+    "src": "able_sisters",
+    "hui": [
+      "bul01",
+      "mnk03",
+      "shp03"
+    ],
+    "loc": {
+      "zh-cn": "木框眼镜",
+      "de": "Holzbrille",
+      "es-es": "montura de madera",
+      "it": "montatura di legno",
+      "nl": "bril met houten montuur",
+      "ru": "очки в дерев. оправе",
+      "ja": "ウッドフレームめがね",
+      "ko": "나무 프레임 안경",
+      "zh-tw": "木框眼鏡",
+      "es-us": "par de lentes madera",
+      "en": "wooden-frame glasses",
+      "fr": "demi-monture en bois"
+    }
+  }
+}

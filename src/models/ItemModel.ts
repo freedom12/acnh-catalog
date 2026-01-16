@@ -14,7 +14,6 @@ import {
   getHHASetName,
   getClothingThemeName,
   getHHACategoryName,
-  getActivityName,
   type Price,
   getItemVariantTitle,
   getPriceWithIcon,
@@ -38,7 +37,7 @@ import { useRecipesData } from '../composables/useRecipesData';
 import { useActivitysData } from '../composables/useActivitysData';
 
 const { recipeIdMap } = useRecipesData();
-const { getNamesByIds } = useActivitysData();
+const { getGroupsByIds, getGroupName } = useActivitysData();
 export class ItemModel {
   private readonly _data: Item;
   private _state: {
@@ -208,12 +207,12 @@ export class ItemModel {
     }));
   }
 
-  get activitys(): string[] {
-    return getNamesByIds(this._data.acts || []);
+  get activityGroups(): string[] {
+    return getGroupsByIds(this._data.acts || []);
   }
 
-  get activityNames(): string[] {
-    return this.activitys.map(getActivityName);
+  get activityGroupNames(): string[] {
+    return this.activityGroups.map(getGroupName);
   }
 
   get hhaPoints(): number | null {
@@ -577,7 +576,7 @@ export class ItemModel {
 
   matchesActivity(activity: string): boolean {
     if (!activity) return true;
-    return this.activitys.includes(activity);
+    return this.activityGroups.includes(activity);
   }
 
   matchesId(id: number): boolean {

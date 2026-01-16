@@ -1,0 +1,187 @@
+{
+  "c1260": {
+    "ipf": "FtrIcon/TopsTexMarinesuitNormalNGreco",
+    "img": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "var": [
+      "black",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "clr": [
+      [
+        "black",
+        "white"
+      ],
+      [
+        "red",
+        "white"
+      ],
+      [
+        "yellow",
+        "white"
+      ],
+      [
+        "blue",
+        "white"
+      ]
+    ],
+    "sel": 750,
+    "buy": 3000,
+    "hap": 51,
+    "stl": "active",
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      13103,
+      12986,
+      13102,
+      13101
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_store",
+    "vad": "1.3.0",
+    "hui": [
+      "pgn01",
+      "mus18",
+      "duk08"
+    ],
+    "loc": {
+      "zh-cn": "粗横纹潜水衣",
+      "de": "Streifen-Taucheranzug",
+      "it": "muta a righe orizzontali",
+      "nl": "gestreept duikpak",
+      "ru": "гидрокостюм в полоску",
+      "ja": "ボーダーのマリンスーツ",
+      "ko": "줄무늬 잠수복",
+      "zh-tw": "粗橫紋潛水衣",
+      "en": "horizontal-striped wet suit",
+      "es": "traje de buceo a rayas",
+      "fr": "combi plongée à rayures"
+    }
+  },
+  "c1259": {
+    "ipf": "FtrIcon/TopsTexMarinesuitNormalLRashguard",
+    "img": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "var": [
+      "yellow",
+      "green",
+      "light_blue",
+      "purple"
+    ],
+    "clr": [
+      [
+        "yellow",
+        "black"
+      ],
+      [
+        "green",
+        "black"
+      ],
+      [
+        "aqua",
+        "black"
+      ],
+      [
+        "purple",
+        "black"
+      ]
+    ],
+    "sel": 750,
+    "buy": 3000,
+    "hap": 51,
+    "stl": [
+      "active",
+      "gorgeous"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation"
+    ],
+    "iid": [
+      13099,
+      13100,
+      12981,
+      13098
+    ],
+    "ord": true,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_shopping_selection",
+    "vad": "1.3.0",
+    "hui": [
+      "duk08",
+      "dog17",
+      "lon04",
+      "ost09"
+    ],
+    "loc": {
+      "zh-cn": "叶子图案潜水衣",
+      "de": "Blattmuster-Taucheranzug",
+      "it": "muta con foglia",
+      "nl": "duikpak met bladerprint",
+      "ru": "гидрокостюм с листьями",
+      "ja": "はっぱがらマリンスーツ",
+      "ko": "나뭇잎 잠수복",
+      "zh-tw": "葉子圖案潛水衣",
+      "en": "leaf-print wet suit",
+      "es": "traje de buceo hoja",
+      "fr": "combi plongée motif feuille"
+    }
+  },
+  "c1258": {
+    "img": "FtrIcon/TopsTexMarinesuitNormalLNook0",
+    "clr": [
+      "black",
+      "green"
+    ],
+    "sel": 4000,
+    "exp": 800,
+    "exc": 0,
+    "hap": 151,
+    "stl": [
+      "active",
+      "simple"
+    ],
+    "lbl": [
+      "outdoorsy",
+      "sporty",
+      "vacation",
+      "work"
+    ],
+    "iid": 12970,
+    "cat": true,
+    "sze": "1x1",
+    "src": "nook_miles",
+    "vad": "1.3.0",
+    "loc": {
+      "zh-cn": "Nook Inc.潜水衣",
+      "de": "Nook-Inc.-Taucheranzug",
+      "it": "muta Nook Inc.",
+      "nl": "Nook Inc.-duikpak",
+      "ru": "гидрокостюм Nook Inc.",
+      "ja": "たぬきかいはつマリンスーツ",
+      "ko": "Nook Inc. 잠수복",
+      "zh-tw": "Nook Inc.潛水衣",
+      "en": "Nook Inc. wet suit",
+      "es": "traje de buceo de Nook Inc.",
+      "fr": "combi plongée Nook Inc."
+    }
+  }
+}

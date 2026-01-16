@@ -1,20 +1,21 @@
-import type { Version } from './item';
-
 export const ActivityType = {
-  BasegameEvent: 1,
+  CalendarSeason: 1,
   CraftingSeason: 2,
-  NookShoppingEvent: 3,
-  ShoppingSeason: 4,
-  SpecialEvent: 5,
-  ZodiacSeason: 6,
+  BloomingSeason: 3,
+  ZodiacSeason: 4,
+  BasegameEvent: 5,
+  SpecialEvent: 6,
+  NookShoppingEvent: 7,
 } as const;
 
 export type ActivityType = (typeof ActivityType)[keyof typeof ActivityType];
 
 export interface Activity {
-  id: number;
+  id: string;
+  order: number;
   name: string;
-  rawName: string;
-  ver: Version;
+  // rawName: string;
+  group: string;
+  // ver: Version;
   type: ActivityType;
 }

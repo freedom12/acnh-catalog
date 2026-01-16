@@ -1,0 +1,1783 @@
+{
+  "r1": {
+    "src": "vil_all",
+    "img": "ManpuIcon/Greeting",
+    "gso": 1,
+    "oid": "greeting",
+    "loc": {
+      "zh-cn": "你好！",
+      "de": "Winken",
+      "it": "Saluto",
+      "nl": "Zwaaien",
+      "ru": "Приветствие",
+      "ja": "やぁ！",
+      "ko": "안녕!",
+      "zh-tw": "嗨！",
+      "en": "Greetings",
+      "es": "Saludo",
+      "fr": "Salut"
+    }
+  },
+  "r2": {
+    "src": "vil_cranky",
+    "img": "ManpuIcon/Nodding",
+    "gso": 2,
+    "oid": "nodding",
+    "loc": {
+      "zh-cn": "点头",
+      "de": "Zustimmung",
+      "it": "Approvazione",
+      "nl": "Knikken",
+      "ru": "Согласие",
+      "ja": "うんうん",
+      "ko": "끄덕끄덕",
+      "zh-tw": "點頭",
+      "en": "Agreement",
+      "es": "Asentimiento",
+      "fr": "Acquiescement"
+    }
+  },
+  "r3": {
+    "src": "vil_big_sister",
+    "img": "ManpuIcon/Negative",
+    "gso": 3,
+    "oid": "negative",
+    "loc": {
+      "zh-cn": "不行不行",
+      "de": "Ablehnung",
+      "it": "Disaccordo",
+      "nl": "Weigeren",
+      "ru": "Несогласие",
+      "ja": "イヤイヤ",
+      "ko": "절레절레",
+      "zh-tw": "不要",
+      "en": "Disagreement",
+      "es": "Desacuerdo",
+      "fr": "Désaccord"
+    }
+  },
+  "r4": {
+    "src": "vil_normal",
+    "img": "ManpuIcon/Hello",
+    "gso": 4,
+    "oid": "hello",
+    "loc": {
+      "zh-cn": "对吧！",
+      "de": "Begrüßung",
+      "it": "Contentezza",
+      "nl": "Groeten",
+      "ru": "Удовольствие",
+      "ja": "ねっ",
+      "ko": "까딱",
+      "zh-tw": "對吧！",
+      "en": "Pleased",
+      "es": "Agrado",
+      "fr": "Enthousiasme"
+    }
+  },
+  "r5": {
+    "src": "vil_peppy",
+    "img": "ManpuIcon/Smiling",
+    "gso": 5,
+    "oid": "smiling",
+    "loc": {
+      "zh-cn": "笑眯眯",
+      "de": "Zufriedenheit",
+      "it": "Felicità",
+      "nl": "Glimlachen",
+      "ru": "Счастье",
+      "ja": "ニコニコ",
+      "ko": "싱글벙글",
+      "zh-tw": "笑瞇瞇",
+      "en": "Happiness",
+      "es": "Sonrisa",
+      "fr": "Sourire"
+    }
+  },
+  "r6": {
+    "src": "vil_all",
+    "img": "ManpuIcon/HappyFlower",
+    "gso": 6,
+    "oid": "happyflower",
+    "loc": {
+      "zh-cn": "开心",
+      "de": "Freude",
+      "it": "Gioia",
+      "nl": "Blijdschap",
+      "ru": "Радость",
+      "ja": "ハッピー",
+      "ko": "해피",
+      "zh-tw": "開心",
+      "en": "Joy",
+      "es": "Dicha",
+      "fr": "Joie"
+    }
+  },
+  "r7": {
+    "src": "vil_normal",
+    "img": "ManpuIcon/HappyDance",
+    "gso": 7,
+    "oid": "happydance",
+    "loc": {
+      "zh-cn": "兴高采烈",
+      "de": "Begeisterung",
+      "it": "Allegria",
+      "nl": "Enthousiasme",
+      "ru": "Ликование",
+      "ja": "ウキウキ",
+      "ko": "신바람",
+      "zh-tw": "高興",
+      "en": "Glee",
+      "es": "Júbilo",
+      "fr": "Euphorie"
+    }
+  },
+  "r8": {
+    "src": "vil_big_sister",
+    "img": "ManpuIcon/Laughing",
+    "gso": 8,
+    "oid": "laughing",
+    "loc": {
+      "de": "Lachen",
+      "it": "Riso",
+      "nl": "Lachen",
+      "ru": "Смех",
+      "ja": "わらう",
+      "ko": "웃기",
+      "en": "Laughter",
+      "es": "Risa",
+      "fr": "Rire",
+      "zh": "笑哈哈"
+    }
+  },
+  "r9": {
+    "src": "vil_snooty",
+    "img": "ManpuIcon/Love",
+    "gso": 9,
+    "oid": "love",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "喜欢",
+      "de": "Liebe",
+      "it": "Amore",
+      "nl": "Liefde",
+      "ru": "Обожание",
+      "ja": "ラブ",
+      "ko": "러브",
+      "zh-tw": "喜歡",
+      "en": "Love",
+      "es": "Amor",
+      "fr": "Amour"
+    }
+  },
+  "r10": {
+    "src": "vil_big_sister",
+    "img": "ManpuIcon/Assent",
+    "gso": 10,
+    "oid": "assent",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "交给我",
+      "de": "Verlässlichkeit",
+      "it": "Autostima",
+      "nl": "Zelfvertrouwen",
+      "ru": "Решимость",
+      "ja": "まかせて！",
+      "ko": "맡겨줘!",
+      "zh-tw": "交給我",
+      "en": "Confident",
+      "es": "Confianza",
+      "fr": "Confiance en soi"
+    }
+  },
+  "r11": {
+    "src": "vil_smug",
+    "img": "ManpuIcon/Shaki",
+    "gso": 11,
+    "oid": "shaki",
+    "hfl": true,
+    "loc": {
+      "de": "Angeberei",
+      "it": "Spavalderia",
+      "nl": "Pronken",
+      "ru": "Бахвальство",
+      "ja": "シャキーン",
+      "ko": "짜잔!",
+      "en": "Showmanship",
+      "es": "Descaro",
+      "fr": "Esbroufe",
+      "zh": "看我的"
+    }
+  },
+  "r12": {
+    "src": "vil_jock",
+    "img": "ManpuIcon/Dance",
+    "gso": 12,
+    "oid": "dance",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "舞动",
+      "de": "Pirouette",
+      "it": "Piroetta",
+      "nl": "Pirouette",
+      "ru": "Хвастовство",
+      "ja": "クルリンパ",
+      "ko": "댄스",
+      "zh-tw": "轉轉～將！",
+      "en": "Flourish",
+      "es": "Pirueta",
+      "fr": "Pirouette"
+    }
+  },
+  "r13": {
+    "src": "vil_lazy",
+    "img": "ManpuIcon/SmugFace",
+    "gso": 13,
+    "oid": "smugface",
+    "hfl": true,
+    "loc": {
+      "de": "Stolz",
+      "it": "Orgoglio",
+      "nl": "Trots",
+      "ru": "Гордость",
+      "ja": "ドヤ！",
+      "ko": "잘난체",
+      "en": "Pride",
+      "es": "Orgullo",
+      "fr": "Fierté",
+      "zh": "得意！"
+    }
+  },
+  "r14": {
+    "src": "vil_jock",
+    "img": "ManpuIcon/Cheering",
+    "gso": 14,
+    "oid": "cheering",
+    "loc": {
+      "de": "Anfeuern",
+      "it": "Incoraggiamento",
+      "nl": "Aanmoedigen",
+      "ru": "Ободрение",
+      "ja": "ガンバレー！",
+      "ko": "힘내!",
+      "en": "Encouraging",
+      "es": "Ánimo",
+      "fr": "Encouragement",
+      "zh": "加油～！"
+    }
+  },
+  "r15": {
+    "src": "vil_all",
+    "img": "ManpuIcon/Clapping",
+    "gso": 15,
+    "oid": "clapping",
+    "loc": {
+      "de": "Entzücken",
+      "it": "Applauso",
+      "nl": "Applaudisseren",
+      "ru": "Восхищение",
+      "ja": "パチパチ",
+      "ko": "박수",
+      "en": "Delight",
+      "es": "Aplauso",
+      "fr": "Applaudissements",
+      "zh": "拍手"
+    }
+  },
+  "r16": {
+    "src": "vil_big_sister",
+    "img": "ManpuIcon/Apologize",
+    "gso": 16,
+    "oid": "apologize",
+    "loc": {
+      "de": "Entschuldigung",
+      "it": "Scusa",
+      "nl": "Buigen",
+      "ru": "Извинение",
+      "ja": "ペコリ",
+      "ko": "꾸벅",
+      "en": "Apologetic",
+      "es": "Disculpa",
+      "fr": "Excuse",
+      "zh": "鞠躬"
+    }
+  },
+  "r17": {
+    "src": "vil_cranky",
+    "img": "ManpuIcon/Pardon",
+    "gso": 17,
+    "oid": "pardon",
+    "loc": {
+      "de": "Überraschung",
+      "it": "Incredulità",
+      "nl": "Nadruk",
+      "ru": "Недоумение",
+      "ja": "えっ？",
+      "ko": "뭐?",
+      "en": "Bewilderment",
+      "es": "Incredulidad",
+      "fr": "Perplexité",
+      "zh": "嗯？"
+    }
+  },
+  "r18": {
+    "src": "vil_peppy",
+    "img": "ManpuIcon/QuestionMark",
+    "gso": 18,
+    "oid": "questionmark",
+    "loc": {
+      "zh-cn": "什么？",
+      "de": "Neugier",
+      "it": "Curiosità",
+      "nl": "Nieuwsgierigheid",
+      "ru": "Любопытство",
+      "ja": "はて？",
+      "ko": "응?",
+      "zh-tw": "什麼？",
+      "en": "Curiosity",
+      "es": "Curiosidad",
+      "fr": "Curiosité"
+    }
+  },
+  "r19": {
+    "src": "vil_all",
+    "img": "ManpuIcon/Aha",
+    "gso": 19,
+    "oid": "aha",
+    "loc": {
+      "de": "Unglaube",
+      "it": "Sorpresa",
+      "nl": "Verrassing",
+      "ru": "Удивление",
+      "ja": "あっ！",
+      "ko": "아하!",
+      "en": "Surprise",
+      "es": "Asombro",
+      "fr": "Étonnement",
+      "zh": "啊！"
+    }
+  },
+  "r20": {
+    "src": "vil_snooty",
+    "img": "ManpuIcon/Shocked",
+    "gso": 20,
+    "oid": "shocked",
+    "loc": {
+      "zh-cn": "惊！",
+      "de": "Erstaunen",
+      "it": "Stupore",
+      "nl": "Verbazing",
+      "ru": "Изумление",
+      "ja": "ハッ！",
+      "ko": "깜짝!",
+      "zh-tw": "驚！",
+      "en": "Amazed",
+      "es": "Fascinación",
+      "fr": "Stupéfaction"
+    }
+  },
+  "r21": {
+    "src": "vil_cranky",
+    "img": "ManpuIcon/IdeaBulb",
+    "gso": 21,
+    "oid": "ideabulb",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "灵光一闪",
+      "de": "Inspiration",
+      "it": "Ispirazione",
+      "nl": "Inspiratie",
+      "ru": "Вдохновение",
+      "ja": "ひらめく",
+      "ko": "번뜩",
+      "zh-tw": "靈光乍現",
+      "en": "Inspiration",
+      "es": "Inspiración",
+      "fr": "Trouvaille"
+    }
+  },
+  "r22": {
+    "src": "vil_jock",
+    "img": "ManpuIcon/Surprised",
+    "gso": 22,
+    "oid": "surprised",
+    "loc": {
+      "zh-cn": "吓一跳！",
+      "de": "Schock",
+      "it": "Shock",
+      "nl": "Verbijstering",
+      "ru": "Шок",
+      "ja": "ガーン！",
+      "ko": "뜨악!",
+      "zh-tw": "嚇一跳！",
+      "en": "Shocked",
+      "es": "Sorpresa",
+      "fr": "Surprise"
+    }
+  },
+  "r23": {
+    "src": "vil_lazy",
+    "img": "ManpuIcon/Oops",
+    "gso": 23,
+    "oid": "oops",
+    "loc": {
+      "zh-cn": "糟糕！",
+      "de": "Missgeschick",
+      "it": "Goffaggine",
+      "nl": "Vergissing",
+      "ru": "Оплошность",
+      "ja": "しまった！",
+      "ko": "아차!",
+      "zh-tw": "糟了！",
+      "en": "Mistaken",
+      "es": "Equivocación",
+      "fr": "Gaffe"
+    }
+  },
+  "r24": {
+    "src": "vil_lazy",
+    "img": "ManpuIcon/Blushing",
+    "gso": 24,
+    "oid": "blushing",
+    "loc": {
+      "de": "Schüchternheit",
+      "it": "Imbarazzo",
+      "nl": "Blozen",
+      "ru": "Робость",
+      "ja": "テレる",
+      "ko": "부끄럼",
+      "en": "Bashfulness",
+      "es": "Sonrojo",
+      "fr": "Embarras",
+      "zh": "害羞"
+    }
+  },
+  "r25": {
+    "src": "vil_lazy",
+    "img": "ManpuIcon/Hesitate",
+    "gso": 25,
+    "oid": "hesitate",
+    "loc": {
+      "de": "Verlegenheit",
+      "it": "Timidezza",
+      "nl": "Verlegenheid",
+      "ru": "Застенчивость",
+      "ja": "もじもじ",
+      "ko": "머뭇",
+      "en": "Shyness",
+      "es": "Timidez",
+      "fr": "Timidité",
+      "zh": "不好意思"
+    }
+  },
+  "r26": {
+    "src": "vil_cranky",
+    "img": "ManpuIcon/WrySmile",
+    "gso": 26,
+    "oid": "wrysmile",
+    "loc": {
+      "de": "Schmunzeln",
+      "it": "Sarcasmo",
+      "nl": "Spotten",
+      "ru": "Насмешка",
+      "ja": "にがわらい",
+      "ko": "쓴웃음",
+      "en": "Sheepishness",
+      "es": "Sonrisa pícara",
+      "fr": "Dérision",
+      "zh": "苦笑"
+    }
+  },
+  "r27": {
+    "src": "vil_smug",
+    "img": "ManpuIcon/Grin",
+    "gso": 27,
+    "oid": "grin",
+    "loc": {
+      "de": "Grinsen",
+      "fr-fr": "Rire suffisant",
+      "it": "Sogghigno",
+      "nl": "Grinniken",
+      "ru": "Ухмылка",
+      "ja": "ニヤリ",
+      "ko": "씨익",
+      "fr-us": "Rire fourbe",
+      "en": "Smirking",
+      "es": "Sonrisa socarrona",
+      "zh": "微笑"
+    }
+  },
+  "r28": {
+    "src": "vil_peppy",
+    "img": "ManpuIcon/Scheming",
+    "gso": 28,
+    "oid": "scheming",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "坏笑",
+      "de": "Hinterhältigkeit",
+      "es-es": "Maquinación",
+      "it": "Malizia",
+      "nl": "Kattenkwaad",
+      "ru": "Озорство",
+      "ja": "わるだくみ",
+      "ko": "꿍꿍이",
+      "zh-tw": "奸笑",
+      "es-us": "Travesura",
+      "en": "Mischief",
+      "fr": "Malice"
+    }
+  },
+  "r29": {
+    "src": "vil_smug",
+    "img": "ManpuIcon/OhGeez",
+    "gso": 29,
+    "oid": "ohgeez",
+    "loc": {
+      "zh-cn": "好了好了",
+      "de": "Resignation",
+      "it": "Rassegnazione",
+      "nl": "Opgeven",
+      "ru": "Смирение",
+      "ja": "ヤレヤレ",
+      "ko": "나참…",
+      "zh-tw": "算了",
+      "en": "Resignation",
+      "es": "Resignación",
+      "fr": "Dépit"
+    }
+  },
+  "r30": {
+    "src": "vil_normal",
+    "img": "ManpuIcon/AbsentMindedness",
+    "gso": 30,
+    "oid": "absentmindedness",
+    "hfl": true,
+    "loc": {
+      "zh-cn": "想象中",
+      "de": "Tagtraum",
+      "it": "Sogno ad occhi aperti",
+      "nl": "Dromen",
+      "ru": "Мечтательность",
+      "ja": "そうぞうちゅう",
+      "ko": "상상",
+      "zh-tw": "想像中",
+      "en": "Daydreaming",
+      "es": "Ensoñación",
+      "fr": "Rêverie"
+    }
+  },
+  "r31": {
+    "src": "vil_snooty",
+    "img": "ManpuIcon/Thinking",
+    "gso": 31,
+    "oid": "thinking",
+    "loc": {
+      "zh-cn": "思考",
+      "de": "Denken",
+      "es-es": "Cavilación",
+      "it": "Riflessione",
+      "nl": "Nadenken",
+      "ru": "Размышление",
+      "ja": "うーん",
+      "ko": "고민",
+      "zh-tw": "思考中",
+      "es-us": "Reflexión",
+      "en": "Thought",
+      "fr": "Réflexion"
+    }
+  },
+  "r32": {
+    "src": "vil_peppy",
+    "img": "ManpuIcon/Sleepy",
+    "gso": 32,
+    "oid": "sleepy",
+    "loc": {
+      "zh-cn": "打哈欠",
+      "de": "Ermüdung",
+      "it": "Sonno",
+      "nl": "Gapen",
+      "ru": "Сонливость",
+      "ja": "あくび",
+      "ko": "하품",
+      "zh-tw": "打呵欠",
+      "en": "Sleepy",
+      "es": "Bostezo",
+      "fr": "Sommeil"
+    }
+  },
+  "r33": {
+    "src": "vil_smug",
+    "img": "ManpuIcon/Sleep",
+    "gso": 33,
+    "oid": "sleep",
+    "loc": {
+      "zh-cn": "睡着了",
+      "de": "Einnicken",
+      "it": "Sonnolenza",
+      "nl": "Slapen",
+      "ru": "Дремота",
+      "ja": "すやすや",
+      "ko": "쿨쿨",
+      "zh-tw": "睡著了",
+      "en": "Dozing",
+      "es": "Sueño",
+      "fr": "Somnolence"
+    }
+  },
+  "r34": {
+    "src": "vil_cranky",
+    "img": "ManpuIcon/Worried",
+    "gso": 34,
+    "oid": "worried",
+    "loc": {
+      "zh-cn": "烦恼",
+      "de": "Sorge",
+      "it": "Preoccupazione",
+      "nl": "Bezorgdheid",
+      "ru": "Расстройство",
+      "ja": "こまる",
+      "ko": "곤란",
+      "zh-tw": "煩惱",
+      "en": "Worry",
+      "es": "Preocupación",
+      "fr": "Tracas"
+    }
+  },
+  "r35": {
+    "src": "vil_snooty",
+    "img": "ManpuIcon/Sighing",
+    "gso": 35,
+    "oid": "sighing",
+    "loc": {
+      "zh-cn": "叹气",
+      "de": "Enttäuschung",
+      "it": "Delusione",
+      "nl": "Zuchten",
+      "ru": "Вздох",
+      "ja": "ためいき",
+      "ko": "한숨",
+      "zh-tw": "嘆氣",
+      "en": "Sighing",
+      "es": "Suspiro",
+      "fr": "Soupir"
+    }
+  },
+  "r36": {
+    "src": "vil_normal",
+    "img": "ManpuIcon/SadSpiral",
+    "gso": 36,
+    "oid": "sadspiral",
+    "loc": {
+      "de": "Traurigkeit",
+      "it": "Sconforto",
+      "nl": "Verdriet",
+      "ru": "Грусть",
+      "ja": "がっくり",
+      "ko": "실망",
+      "en": "Sadness",
+      "es": "Tristeza",
+      "fr": "Déprime",
+      "zh": "失落"
+    }
+  },
+  "r37": {
+    "src": "vil_smug",
+    "img": "ManpuIcon/BrokenHeart",
+    "gso": 37,
+    "oid": "brokenheart",
+    "loc": {
+      "de": "Herzschmerz",
+      "it": "Cuore infranto",
+      "nl": "Gebroken hart",
+      "ru": "Разбитое сердце",
+      "ja": "しつれん",
+      "ko": "실연",
+      "en": "Heartbreak",
+      "es": "Decepción",
+      "fr": "Cœur brisé",
+      "zh": "心碎"
+    }
+  },
+  "r38": {
+    "src": "vil_lazy",
+    "img": "ManpuIcon/Crying",
+    "gso": 38,
+    "oid": "crying",
+    "loc": {
+      "de": "Leid",
+      "it": "Tristezza",
+      "nl": "Huilen",
+      "ru": "Плач",
+      "ja": "わーん",
+      "ko": "울기",
+      "en": "Sorrow",
+      "es": "Llanto",
+      "fr": "Pleurs",
+      "zh": "大哭"
+    }
+  },
+  "r39": {
+    "src": "vil_snooty",
+    "img": "ManpuIcon/Silent",
+    "gso": 39,
+    "oid": "silent",
+    "loc": {
+      "de": "Starren",
+      "es-es": "Impasibilidad",
+      "it": "Occhiataccia",
+      "nl": "Staren",
+      "ru": "Напряжение",
+      "ja": "ジロッ",
+      "ko": "조용",
+      "es-us": "Seriedad",
+      "en": "Intense",
+      "fr": "Regard intense",
+      "zh": "瞪"
+    }
+  },
+  "r40": {
+    "src": "vil_peppy",
+    "img": "ManpuIcon/Outraged",
+    "gso": 40,
+    "oid": "outraged",
+    "loc": {
+      "zh-cn": "生气",
+      "de": "Wut",
+      "es-es": "Cabreo",
+      "it": "Rabbia",
+      "nl": "Woede",
+      "ru": "Ярость",
+      "ja": "ムカッ",
+      "ko": "버럭",
+      "zh-tw": "生氣",
+      "es-us": "Enojo",
+      "en": "Aggravation",
+      "fr": "Fureur"
+    }
+  },
+  "r41": {
+    "src": "vil_big_sister",
+    "img": "ManpuIcon/ColdChill",
+    "gso": 41,
+    "oid": "coldchill",
+    "loc": {
+      "de": "Schaudern",
+      "it": "Gelo",
+      "nl": "Bibberen",
+      "ru": "Озноб",
+      "ja": "ヒュー",
+      "ko": "씁쓸",
+      "en": "Cold Chill",
+      "es": "Escalofrío",
+      "fr": "Vent glacial",
+      "zh": "咻～"
+    }
+  },
+  "r42": {
+    "src": "vil_jock",
+    "img": "ManpuIcon/Frantic",
+    "gso": 42,
+    "oid": "frantic",
+    "loc": {
+      "zh-cn": "紧张",
+      "de": "Panik",
+      "es-es": "Apuro",
+      "it": "Agitazione",
+      "nl": "Paniek",
+      "ru": "Беспокойство",
+      "ja": "あせる",
+      "ko": "당황",
+      "zh-tw": "緊張",
+      "es-us": "Angustia",
+      "en": "Distress",
+      "fr": "Détresse"
+    }
+  },
+  "r43": {
+    "src": "vil_normal",
+    "img": "ManpuIcon/Shaking",
+    "gso": 43,
+    "oid": "shaking",
+    "loc": {
+      "zh-cn": "瑟瑟发抖",
+      "de": "Angst",
+      "es-es": "Tembleque",
+      "it": "Brivido",
+      "nl": "Angst",
+      "ru": "Дрожь",
+      "ja": "ブルブル",
+      "ko": "덜덜덜",
+      "zh-tw": "顫抖",
+      "es-us": "Tiritera",
+      "en": "Fearful",
+      "fr": "Frisson"
+    }
+  },
+  "r44": {
+    "src": "vil_jock",
+    "img": "ManpuIcon/Sneezing",
+    "gso": 44,
+    "oid": "sneezing",
+    "loc": {
+      "zh-cn": "阿嚏",
+      "de": "Niesen",
+      "it": "Starnuto",
+      "nl": "Niezen",
+      "ru": "Чихание",
+      "ja": "くしゃみ",
+      "ko": "재채기",
+      "zh-tw": "打噴嚏",
+      "en": "Sneezing",
+      "es": "Estornudo",
+      "fr": "Éternuement"
+    }
+  },
+  "r45": {
+    "src": "jack",
+    "evt": "halloween",
+    "vad": "1.5.0",
+    "img": "ManpuIcon/AddScaring",
+    "gso": 45,
+    "oid": "addscaring",
+    "loc": {
+      "zh-cn": "惊吓",
+      "de": "Schocken",
+      "it": "Terrore",
+      "nl": "Spoken",
+      "ru": "Испуг",
+      "ja": "こわがらせる",
+      "ko": "겁주기",
+      "zh-tw": "嚇人",
+      "en": "Haunt",
+      "es": "Espanto",
+      "fr": "Envoûtement"
+    }
+  },
+  "r46": {
+    "src": "vil_all",
+    "evt": "halloween",
+    "vad": "1.5.0",
+    "img": "ManpuIcon/AddPrank",
+    "gso": 46,
+    "oid": "addprank",
+    "loc": {
+      "zh-cn": "吓唬",
+      "de": "Erschrecken",
+      "it": "Spavento",
+      "nl": "Bang maken",
+      "ru": "Устрашение",
+      "ja": "おどかす",
+      "ko": "왁!",
+      "zh-tw": "驚嚇",
+      "en": "Scare",
+      "es": "Susto",
+      "fr": "Épouvante"
+    }
+  },
+  "r47": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddSitDown",
+    "gso": 47,
+    "oid": "addsitdown",
+    "loc": {
+      "de": "Hinsetzen",
+      "it": "Sedersi",
+      "nl": "Zitten",
+      "ru": "Сидение",
+      "ja": "すわる",
+      "ko": "앉기",
+      "en": "Sit Down",
+      "es": "Asiento",
+      "fr": "S'asseoir",
+      "zh": "坐"
+    }
+  },
+  "r48": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddWaveHands",
+    "gso": 48,
+    "oid": "addwavehands",
+    "loc": {
+      "zh-cn": "再见",
+      "de": "Verabschieden",
+      "it": "Arrivederci",
+      "nl": "Uitzwaaien",
+      "ru": "Прощание",
+      "ja": "バイバイ",
+      "ko": "바이바이",
+      "zh-tw": "掰掰",
+      "en": "Wave Goodbye",
+      "es": "Despedida",
+      "fr": "Bye bye"
+    }
+  },
+  "r49": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddTakePictures",
+    "gso": 49,
+    "oid": "addtakepictures",
+    "loc": {
+      "de": "Fotografieren",
+      "it": "Foto",
+      "nl": "Foto's maken",
+      "ru": "Фотосъемка",
+      "ja": "パシャリ",
+      "ko": "찰칵!",
+      "en": "Take a Picture",
+      "es": "Fotografías",
+      "fr": "Photo",
+      "zh": "拍照"
+    }
+  },
+  "r50": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddSmell",
+    "gso": 50,
+    "oid": "addsmell",
+    "loc": {
+      "zh-cn": "闻闻",
+      "de": "Schnüffeln",
+      "it": "Annusare",
+      "nl": "Ruiken",
+      "ru": "Принюхивание",
+      "ja": "クンクン",
+      "ko": "킁킁",
+      "zh-tw": "聞",
+      "en": "Sniff Sniff",
+      "es": "Olfateo",
+      "fr": "Snif snif"
+    }
+  },
+  "r51": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddGymnastics",
+    "gso": 51,
+    "oid": "addgymnastics",
+    "loc": {
+      "zh-cn": "体操",
+      "de": "Trainieren",
+      "it": "Allenamento",
+      "nl": "Rekken en strekken",
+      "ru": "Тренировка",
+      "ja": "たいそう",
+      "ko": "체조",
+      "zh-tw": "體操",
+      "en": "Work Out",
+      "es": "Gimnasia",
+      "fr": "Gymnastique"
+    }
+  },
+  "r52": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddYoga",
+    "gso": 52,
+    "oid": "addyoga",
+    "loc": {
+      "zh-cn": "瑜伽姿势",
+      "de": "Yoga",
+      "it": "Yoga",
+      "nl": "Yoga",
+      "ru": "Йога",
+      "ja": "ヨガのポーズ",
+      "ko": "요가",
+      "zh-tw": "瑜珈姿勢",
+      "en": "Yoga",
+      "es": "Yoga",
+      "fr": "Yoga"
+    }
+  },
+  "r53": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddHereYouGo",
+    "gso": 53,
+    "oid": "addhereyougo",
+    "loc": {
+      "zh-cn": "请",
+      "de": "Bitte schön",
+      "fr-fr": "Et voilà !",
+      "it": "Ecco qua",
+      "nl": "Alsjeblieft",
+      "ru": "Вуаля",
+      "ja": "さぁどうぞ",
+      "ko": "자 여기!",
+      "zh-tw": "請",
+      "fr-us": "Et voilà!",
+      "en": "Here You Go",
+      "es": "Para ti"
+    }
+  },
+  "r54": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddExcited",
+    "gso": 54,
+    "oid": "addexcited",
+    "loc": {
+      "de": "Aufregung",
+      "it": "Entusiasmo",
+      "nl": "Voorpret",
+      "ru": "Предвкушение",
+      "ja": "ワクワク",
+      "ko": "두근두근",
+      "en": "Excited",
+      "es": "Alegría",
+      "fr": "Enthousiasme",
+      "zh": "期待"
+    }
+  },
+  "r55": {
+    "src": "i=13610",
+    "vad": "1.6.0",
+    "img": "ManpuIcon/AddPraise",
+    "gso": 55,
+    "oid": "addpraise",
+    "loc": {
+      "zh-cn": "夸奖",
+      "de": "Loben",
+      "fr-fr": "Ta-daaa !",
+      "it": "Lode",
+      "nl": "Prijzen",
+      "ru": "Похвала",
+      "ja": "たたえる",
+      "ko": "대단해!",
+      "zh-tw": "誇獎",
+      "fr-us": "Ta-daaa!",
+      "en": "Ta-da",
+      "es": "Entusiasmo"
+    }
+  },
+  "r56": {
+    "src": "i=14030",
+    "evt": [
+      "festivale_ready",
+      "festivale"
+    ],
+    "vad": "1.7.0",
+    "img": "ManpuIcon/AddConfetti",
+    "gso": 56,
+    "oid": "addconfetti",
+    "loc": {
+      "zh-cn": "撒纸片",
+      "de": "Konfetti",
+      "it": "Coriandoli",
+      "nl": "Confetti",
+      "ru": "Конфетти",
+      "ja": "かみふぶき",
+      "ko": "종이 꽃가루",
+      "zh-tw": "撒紙片",
+      "en": "Confetti",
+      "es": "Confeti",
+      "fr": "Confettis"
+    }
+  },
+  "r57": {
+    "src": "i=14030",
+    "evt": [
+      "festivale_ready",
+      "festivale"
+    ],
+    "vad": "1.7.0",
+    "img": "ManpuIcon/AddViva",
+    "gso": 57,
+    "oid": "addviva",
+    "loc": {
+      "zh-cn": "欢乐！",
+      "de": "Viva",
+      "fr-fr": "Viva !",
+      "it": "Viva",
+      "nl": "Pavé-pas",
+      "ru": "Вива!",
+      "ja": "ビバ！",
+      "ko": "비바!",
+      "zh-tw": "歡樂！",
+      "fr-us": "Viva!",
+      "en": "Viva",
+      "es": "Viva"
+    }
+  },
+  "r58": {
+    "src": "i=14030",
+    "evt": [
+      "festivale_ready",
+      "festivale"
+    ],
+    "vad": "1.7.0",
+    "img": "ManpuIcon/AddEntice",
+    "gso": 58,
+    "oid": "addentice",
+    "loc": {
+      "zh-cn": "炒热气氛",
+      "de": "Aufforderung zum Tanz",
+      "fr-fr": "Avec moi !",
+      "it": "Coinvolgimento",
+      "nl": "Swingende hinkpas",
+      "ru": "Танцуем!",
+      "ja": "もりあげる",
+      "ko": "분위기 업",
+      "zh-tw": "炒熱氣氛",
+      "fr-us": "Avec moi!",
+      "en": "Let's Go",
+      "es": "Vamos"
+    }
+  },
+  "r59": {
+    "src": "i=14030",
+    "evt": [
+      "festivale_ready",
+      "festivale"
+    ],
+    "vad": "1.7.0",
+    "img": "ManpuIcon/AddDance",
+    "gso": 59,
+    "oid": "adddance",
+    "loc": {
+      "zh-cn": "跟着节奏",
+      "de": "Rhythmus im Blut",
+      "fr-fr": "Samba",
+      "it": "Ritmo nel sangue",
+      "nl": "Swingende heupenpas",
+      "ru": "В ритме",
+      "ja": "リズムにのる",
+      "ko": "리듬 타기",
+      "zh-tw": "跟著節奏",
+      "fr-us": "En rythme",
+      "en": "Feelin' It",
+      "es": "Coreografía"
+    }
+  },
+  "r60": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics01",
+    "gso": 60,
+    "oid": "addradiogymnastics01",
+    "loc": {
+      "de": "Aufwärmen",
+      "it": "Riscaldamento",
+      "nl": "Warming-up",
+      "ru": "Разминка",
+      "ja": "せすじのばし",
+      "ko": "숨쉬기 운동",
+      "en": "Posture Warm-Up",
+      "es": "Brazos",
+      "fr": "Échauffement",
+      "zh": "伸展背部"
+    }
+  },
+  "r61": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics02",
+    "gso": 61,
+    "oid": "addradiogymnastics02",
+    "loc": {
+      "zh-cn": "转动手臂",
+      "de": "Armkreisen",
+      "it": "Rotazioni delle braccia",
+      "nl": "Armcirkels",
+      "ru": "Вращение руками",
+      "ja": "うでまわし",
+      "ko": "팔 돌리기",
+      "zh-tw": "轉動前臂",
+      "en": "Arm Circles",
+      "es": "Mariposa",
+      "fr": "Cercles avec les bras"
+    }
+  },
+  "r62": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics03",
+    "gso": 62,
+    "oid": "addradiogymnastics03",
+    "loc": {
+      "zh-cn": "体侧伸展",
+      "de": "Seitbeugen",
+      "es-es": "Estiramiento",
+      "it": "Piegamenti laterali",
+      "nl": "Zijwaarts rekken",
+      "ru": "Наклоны в стороны",
+      "ja": "よこのばし",
+      "ko": "옆구리 운동",
+      "zh-tw": "側邊伸展",
+      "es-us": "Flexión lateral",
+      "en": "Side Bends",
+      "fr": "Souplesse latérale"
+    }
+  },
+  "r63": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics04",
+    "gso": 63,
+    "oid": "addradiogymnastics04",
+    "loc": {
+      "zh-cn": "扭转身体",
+      "de": "Rumpfdrehen",
+      "it": "Rotazioni del corpo",
+      "nl": "Staande draai",
+      "ru": "Повороты туловища",
+      "ja": "からだひねり",
+      "ko": "몸통 운동",
+      "zh-tw": "扭轉身體",
+      "en": "Body Twists",
+      "es": "Caderas",
+      "fr": "Souplesse du tronc"
+    }
+  },
+  "r64": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics05",
+    "gso": 64,
+    "oid": "addradiogymnastics05",
+    "loc": {
+      "zh-cn": "扩胸",
+      "de": "Armstrecken",
+      "it": "Apertura del torace",
+      "nl": "Diagonaal strekken",
+      "ru": "Наклоны / разведение рук",
+      "ja": "むねそらし",
+      "ko": "등배 운동",
+      "zh-tw": "展開胸口",
+      "en": "Wide Arm Stretch",
+      "es": "Inclinación",
+      "fr": "Expansion du thorax"
+    }
+  },
+  "r65": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics06",
+    "gso": 65,
+    "oid": "addradiogymnastics06",
+    "loc": {
+      "zh-cn": "转动上半身",
+      "de": "Oberkörperkreisen",
+      "it": "Rotazioni del busto",
+      "nl": "Grote cirkels",
+      "ru": "Вращение туловища",
+      "ja": "じょうたいまわし",
+      "ko": "상체 돌리기",
+      "zh-tw": "轉動上半身",
+      "en": "Upper-Body Circles",
+      "es": "Círculos",
+      "fr": "Rotation du tronc"
+    }
+  },
+  "r66": {
+    "src": "group_stretching",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRadioGymnastics07",
+    "gso": 66,
+    "oid": "addradiogymnastics07",
+    "loc": {
+      "zh-cn": "双脚跳",
+      "de": "Springen",
+      "it": "Salti",
+      "nl": "Springen",
+      "ru": "Прыжок",
+      "ja": "りょうあしとび",
+      "ko": "뜀뛰기",
+      "zh-tw": "雙腳跳",
+      "en": "Jump",
+      "es": "Salto",
+      "fr": "Sauts sur place"
+    }
+  },
+  "r67": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddGreetingBothHands",
+    "gso": 67,
+    "oid": "addgreetingbothhands",
+    "loc": {
+      "zh-cn": "挥手再见",
+      "de": "Tschüssi",
+      "it": "Doppio saluto",
+      "nl": "Enthousiast groeten",
+      "ru": "Двойная волна",
+      "ja": "りょうてバイバイ",
+      "ko": "양손 바이바이",
+      "zh-tw": "兩手掰掰",
+      "en": "Double Wave",
+      "es": "Doble saludo",
+      "fr": "Au revoir à deux mains"
+    }
+  },
+  "r68": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddStretch",
+    "gso": 68,
+    "oid": "addstretch",
+    "loc": {
+      "zh-cn": "伸懒腰",
+      "de": "Strecken",
+      "es-es": "Desperezo",
+      "it": "Stretching",
+      "nl": "Uitrekken",
+      "ru": "Растяжка",
+      "ja": "のびをする",
+      "ko": "기지개",
+      "zh-tw": "伸懶腰",
+      "es-us": "Estiramiento",
+      "en": "Stretch",
+      "fr": "Étirement"
+    }
+  },
+  "r69": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRhythm",
+    "gso": 69,
+    "oid": "addrhythm",
+    "loc": {
+      "zh-cn": "听音乐摇摆",
+      "de": "Mitwippen",
+      "es-es": "Vaivén",
+      "it": "A ritmo",
+      "nl": "Op het ritme",
+      "ru": "Ритмично",
+      "ja": "おんがくにのる",
+      "ko": "어깨춤",
+      "zh-tw": "聽音樂搖擺",
+      "es-us": "Al ritmo",
+      "en": "Jammin'",
+      "fr": "En rythme"
+    }
+  },
+  "r70": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddListen",
+    "gso": 70,
+    "oid": "addlisten",
+    "loc": {
+      "zh-cn": "聆听",
+      "de": "Wahrnehmung",
+      "es-es": "Escucha",
+      "it": "In ascolto",
+      "nl": "Luisteren",
+      "ru": "Внимательные уши",
+      "ja": "みみをすます",
+      "ko": "귀 기울이기",
+      "zh-tw": "聆聽",
+      "es-us": "Oídos atentos",
+      "en": "Listening Ears",
+      "fr": "Oreilles attentives"
+    }
+  },
+  "r71": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/RequestWillingness",
+    "gso": 71,
+    "oid": "requestwillingness",
+    "loc": {
+      "zh-cn": "笑一个",
+      "de": "Bitte lächeln",
+      "es-es": "Patataaa",
+      "fr-fr": "Ouistiti !",
+      "it": "Un bel sorriso!",
+      "nl": "Lach naar het vogeltje",
+      "ru": "Улыбка в объектив",
+      "ja": "はいチーズ",
+      "ko": "김치～!",
+      "zh-tw": "笑一個",
+      "es-us": "¡Foto!",
+      "fr-us": "Ouistiti!",
+      "en": "Say Cheese"
+    }
+  },
+  "r72": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddRequestLook",
+    "gso": 72,
+    "oid": "addrequestlook",
+    "loc": {
+      "zh-cn": "在这里",
+      "de": "Präsentieren",
+      "fr-fr": "Admirez !",
+      "it": "Ammirate!",
+      "nl": "Presenteren",
+      "ru": "Гляди-ка!",
+      "ja": "コチラです",
+      "ko": "이쪽이야!",
+      "zh-tw": "在這裡",
+      "fr-us": "Admirez!",
+      "en": "Behold",
+      "es": "Indicación"
+    }
+  },
+  "r73": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/RequestOkay",
+    "gso": 73,
+    "oid": "requestokay",
+    "loc": {
+      "zh-cn": "我会加油的",
+      "de": "Zu Befehl",
+      "it": "Ci penso io!",
+      "nl": "Gemotiveerd",
+      "ru": "Полная готовность",
+      "ja": "がんばるぞ",
+      "ko": "파이팅!",
+      "zh-tw": "我會加油的",
+      "en": "Eager",
+      "es": "Motivación",
+      "fr": "Motivation"
+    }
+  },
+  "r74": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddMusclePose",
+    "gso": 74,
+    "oid": "addmusclepose",
+    "loc": {
+      "zh-cn": "健美姿势",
+      "de": "Muskelspielen",
+      "es-es": "Musculitos",
+      "fr-fr": "Biscotos",
+      "it": "Muscoli in mostra",
+      "nl": "Spierbundel",
+      "ru": "Напряжение мышц",
+      "ja": "ムキムキ",
+      "ko": "불끈불끈",
+      "zh-tw": "健美姿勢",
+      "es-us": "Lucir musculatura",
+      "fr-us": "Biscoteaux",
+      "en": "Flex"
+    }
+  },
+  "r75": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddPoseCool",
+    "gso": 75,
+    "oid": "addposecool",
+    "loc": {
+      "zh-cn": "酷感姿势",
+      "de": "Cooles Posieren",
+      "es-es": "Pose de modelo",
+      "it": "Pose fashion",
+      "nl": "Coole poses",
+      "ru": "Позируем!",
+      "ja": "クールにキメる",
+      "ko": "쿨한 포즈",
+      "zh-tw": "酷感姿勢",
+      "es-us": "Modelaje",
+      "en": "Work It",
+      "fr": "Poses tendance"
+    }
+  },
+  "r76": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddPoseNaturel",
+    "gso": 76,
+    "oid": "addposenaturel",
+    "loc": {
+      "zh-cn": "优雅姿势",
+      "de": "Natürliches Posieren",
+      "it": "Pose naturali",
+      "nl": "Ontspannen poses",
+      "ru": "Естественная поза",
+      "ja": "しなやかにキメる",
+      "ko": "부드러운 포즈",
+      "zh-tw": "優雅姿勢",
+      "en": "Act Natural",
+      "es": "Pose natural",
+      "fr": "Poses naturelles"
+    }
+  },
+  "r77": {
+    "src": "i=14828",
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddHula",
+    "gso": 77,
+    "oid": "addhula",
+    "loc": {
+      "de": "Hula",
+      "it": "Hula",
+      "nl": "Hoelahoela",
+      "ru": "Хула",
+      "ja": "フラダンス",
+      "ko": "훌라 댄스",
+      "en": "Hula",
+      "es": "Hula",
+      "fr": "Hula",
+      "zh": "草裙舞"
+    }
+  },
+  "r78": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesUpper",
+    "gso": 78,
+    "oid": "addkkfesupper",
+    "loc": {
+      "zh-cn": "上下跳动",
+      "de": "Hüpftanz",
+      "es-es": "Salto rítmico",
+      "fr-fr": "Poing en l'air",
+      "it": "Salto ritmato",
+      "nl": "Vuist in de lucht",
+      "ru": "Подскоки в ритм",
+      "ja": "タテのりジャンプ",
+      "ko": "제자리 점프",
+      "zh-tw": "上下跳動",
+      "es-us": "Saltito",
+      "fr-us": "Sauts groovy",
+      "en": "Grooving Hop"
+    }
+  },
+  "r79": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesRight",
+    "gso": 79,
+    "oid": "addkkfesright",
+    "loc": {
+      "zh-cn": "向右舞动",
+      "de": "Seitwärtstanz links",
+      "it": "Danza a destra",
+      "nl": "Dans naar rechts",
+      "ru": "Подскоки вправо в ритм",
+      "ja": "みぎむきダンス",
+      "ko": "오른쪽 댄스",
+      "zh-tw": "向右舞動",
+      "en": "Groove Right",
+      "es": "Braceo derecho",
+      "fr": "Groove à droite"
+    }
+  },
+  "r80": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesLeft",
+    "gso": 80,
+    "oid": "addkkfesleft",
+    "loc": {
+      "zh-cn": "向左舞动",
+      "de": "Seitwärtstanz rechts",
+      "it": "Danza a sinistra",
+      "nl": "Dans naar links",
+      "ru": "Подскоки влево в ритм",
+      "ja": "ひだりむきダンス",
+      "ko": "왼쪽 댄스",
+      "zh-tw": "向左舞動",
+      "en": "Groove Left",
+      "es": "Braceo izquierdo",
+      "fr": "Groove à gauche"
+    }
+  },
+  "r81": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesLower",
+    "gso": 81,
+    "oid": "addkkfeslower",
+    "loc": {
+      "de": "Relax-Tanz",
+      "es-es": "Deleite",
+      "it": "Relax",
+      "nl": "Een met de wereld",
+      "ru": "Погружение",
+      "ja": "あびる",
+      "ko": "주목!",
+      "es-us": "Disfrute",
+      "en": "Soak It In",
+      "fr": "Bras en l'air",
+      "zh": "享受"
+    }
+  },
+  "r82": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing05",
+    "gso": 82,
+    "oid": "addkkfesposing05",
+    "loc": {
+      "zh-cn": "左右踏步舞动",
+      "de": "Tip-Tap-Tanz",
+      "it": "Passi di lato",
+      "nl": "Zijwaartse stappen",
+      "ru": "Сайд-ту-сайд",
+      "ja": "ステップダンス",
+      "ko": "좌우 스텝",
+      "zh-tw": "左右踏步舞動",
+      "en": "Side-to-Side",
+      "es": "Balanceo",
+      "fr": "Pas de côté"
+    }
+  },
+  "r83": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing04",
+    "gso": 83,
+    "oid": "addkkfesposing04",
+    "loc": {
+      "zh-cn": "踏脚舞动",
+      "de": "Stepper-Tanz",
+      "es-es": "Venid a mí",
+      "fr-fr": "Marche sur place",
+      "it": "Marcia sul posto",
+      "nl": "Pas op de plaats",
+      "ru": "Островной притоп",
+      "ja": "あしぶみダンス",
+      "ko": "제자리 스텝",
+      "zh-tw": "踏腳舞動",
+      "es-us": "Paso isleño",
+      "fr-us": "Pas insulaire",
+      "en": "Island Stomp"
+    }
+  },
+  "r84": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing01",
+    "gso": 84,
+    "oid": "addkkfesposing01",
+    "loc": {
+      "zh-cn": "飞机翼舞动",
+      "de": "Flugzeugtanz",
+      "it": "Aeroplano",
+      "nl": "Vliegtuig",
+      "ru": "Самолетик",
+      "ja": "ひこうきダンス",
+      "ko": "비행기 댄스",
+      "zh-tw": "飛機翼舞動",
+      "en": "Airplane",
+      "es": "Avión",
+      "fr": "Avion"
+    }
+  },
+  "r85": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing02",
+    "gso": 85,
+    "oid": "addkkfesposing02",
+    "loc": {
+      "de": "Twist",
+      "it": "Twist",
+      "nl": "Twist",
+      "ru": "Твист",
+      "ja": "ツイストダンス",
+      "ko": "트위스트 댄스",
+      "en": "Twisty Dance",
+      "es": "Twist",
+      "fr": "Twist",
+      "zh": "扭扭舞"
+    }
+  },
+  "r86": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing00",
+    "gso": 86,
+    "oid": "addkkfesposing00",
+    "loc": {
+      "zh-cn": "左右舞动",
+      "de": "Chill-Tanz",
+      "es-es": "Contoneo",
+      "fr-fr": "Gauche-droite",
+      "it": "Destra-sinistra",
+      "nl": "Links-rechts",
+      "ru": "Шимми",
+      "ja": "みぎひだりダンス",
+      "ko": "좌우 댄스",
+      "zh-tw": "左右舞動",
+      "es-us": "Meneo",
+      "fr-us": "Métronome",
+      "en": "Shimmy"
+    }
+  },
+  "r87": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing06",
+    "gso": 87,
+    "oid": "addkkfesposing06",
+    "loc": {
+      "zh-cn": "伸手臂舞动",
+      "de": "Rübenfeld-Tanz",
+      "it": "Avanti-indietro",
+      "nl": "Strekdans",
+      "ru": "Репка",
+      "ja": "うでのばしダンス",
+      "ko": "쭉쭉 댄스",
+      "zh-tw": "伸手臂舞動",
+      "en": "Turnip Patch",
+      "es": "Lados alternos",
+      "fr": "Rameur"
+    }
+  },
+  "r88": {
+    "src": [
+      "dj_kk",
+      "hhp"
+    ],
+    "vad": "2.0.0",
+    "img": "ManpuIcon/AddKKFesPosing03",
+    "gso": 88,
+    "oid": "addkkfesposing03",
+    "loc": {
+      "zh-cn": "摆手舞动",
+      "de": "Armschwenke-Tanz",
+      "fr-fr": "Battements de bras",
+      "it": "Danza delle braccia",
+      "nl": "Armzwaaien",
+      "ru": "Махи руками",
+      "ja": "うでふりダンス",
+      "ko": "팔 흔들기 댄스",
+      "zh-tw": "擺手舞動",
+      "fr-us": "Déhanché disco",
+      "en": "Arm-Swing Dance",
+      "es": "Braceo alterno"
+    }
+  }
+}
