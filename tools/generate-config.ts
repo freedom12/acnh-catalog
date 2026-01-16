@@ -48,9 +48,11 @@ import type { Plant } from '../src/types/plant';
 const __dirname = path.join(process.cwd(), 'tools');
 const outputPath = path.join(__dirname, '..', 'public', 'config');
 
-const acnhData = JSON.parse(
+const acnh = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'tools_new', 'data.json'), 'utf-8')
-).data as Record<string, any>;
+);
+const acnhData = acnh.data as Record<string, any>;
+const acnhLocale = acnh.locale as Record<string, any>;
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -85,8 +87,6 @@ function processImageUrl(imageUrl: string): string {
   }
   return url;
 }
-
-
 
 // 映射对象：字符串到数字枚举
 const sourceSheetMap: Record<string, ItemType> = {
@@ -560,8 +560,15 @@ const fossilTypeMap: Record<string, FossilType> = {
 };
 let newFossils: NewFossil[] = [];
 for (const [groupName, parts] of fossilGroups) {
+  console.log(`处理化石组: ${groupName}`);
+  let name = parts[0].translations?.cNzh || parts[0].name;
+  if (parts.length > 1) {
+    name = groupName.toLowerCase().replace(/ /g, '_').replace(/\./g, '');
+    name = acnhLocale.fgr[name]['zh-cn'] || acnhLocale.fgr[name]['zh'];
+  }
+
   const fossil: NewFossil = {
-    name: groupName,
+    name,
     type: fossilTypeMap[parts[0].museum!],
     parts: parts
       .sort((a, b) => a.internalId! - b.internalId!)
@@ -967,7 +974,6 @@ newConstructions.sort((a, b) => {
   if (a.type !== b.type) return a.type - b.type;
   return a.id - b.id;
 });
-
 
 let acnhAchievement = acnhData['achievements'] as Record<string, any>;
 let newAchievements: NewAchievement[] = [];
