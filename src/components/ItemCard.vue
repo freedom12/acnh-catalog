@@ -173,11 +173,13 @@ const handleClick = () => {
       <span class="detail-value highlight" v-html="itemModel.sellPriceStr"> </span>
     </div>
 
-    <div
-      v-if="itemModel.canCustomize"
-      class="variants-section"
-    >
-      <span class="variants-label">
+    <div v-if="itemModel.canCustomize" class="variants-section">
+      <span
+        class="variants-label"
+        :class="{
+          // blue: !itemModel.canCustomizeVariantBySelf,
+        }"
+      >
         <img
           :src="getImgUrl('img/icon/icon_cus_v.png')"
           class="inline-icon"
@@ -198,7 +200,15 @@ const handleClick = () => {
           :title="vg.name || `${itemModel.vTitleName} ${vIdx + 1}`"
           @click="variantIndex = vIdx"
         >
-          {{ vIdx + 1 }}
+          <img
+            v-if="itemModel.indexCustomizeVariantOnlyByCyrus === vIdx"
+            :src="getImgUrl('img/icon/icon_cus_v_cyrus.png')"
+            class="inline-icon"
+            loading="lazy"
+          />
+          <template v-if="itemModel.indexCustomizeVariantOnlyByCyrus !== vIdx">
+            {{ vIdx + 1 }}
+          </template>
         </span>
       </div>
 

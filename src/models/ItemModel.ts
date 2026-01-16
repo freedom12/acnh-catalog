@@ -299,9 +299,7 @@ export class ItemModel {
   }
   get hasVariations(): boolean {
     const groups = this.variantGroups;
-    return (
-      groups.length > 0 && (groups.length > 1 || (groups[0]?.ps.length ?? 0) > 1)
-    );
+    return groups.length > 0 && (groups.length > 1 || (groups[0]?.ps.length ?? 0) > 1);
   }
 
   get variantGroups(): Variant[] {
@@ -332,7 +330,7 @@ export class ItemModel {
 
   get canCustomizeVariantBySelf(): boolean {
     if (!this._data.iv) return false;
-    return this._data.iv && this._data.iv[0][0] > 0;
+    return this._data.iv[0];
   }
 
   get canCustomizeVariantByCyrus(): boolean {
@@ -340,12 +338,18 @@ export class ItemModel {
     return this._data.iv[1] > 0;
   }
 
+  get indexCustomizeVariantOnlyByCyrus(): number | null {
+    if (!this._data.iv) return null;
+    const index = this._data.iv[2];
+    return index;
+  }
+
   isCustomizeVariantOnlyByCyrus(vIndex: number): boolean {
     if (this.canCustomizeVariantByCyrus && !this.canCustomizeVariantBySelf) {
       return true;
     }
-    let index = this._data.iv ? this._data.iv[2] : undefined;
-    if (index === undefined) return false;
+    let index = this.indexCustomizeVariantOnlyByCyrus;
+    if (index === null) return false;
     return vIndex === index;
   }
 
@@ -362,14 +366,15 @@ export class ItemModel {
 
   get cusCostStrs(): string[] {
     if (!this._data.iv) return [];
-    const [cusCost, price, _] = this._data.iv;
+    const [_ , price, __] = this._data.iv;
     const parts: string[] = [];
     if (price) {
       parts.push(getPriceWithIcon(price));
     }
-    const [kitCost, __] = cusCost;
+    if (!this._data.cus) return parts;
+    const [kitCost, ___] = this._data.cus;
     if (kitCost) {
-      parts.push(getCusCost(cusCost));
+      parts.push(getCusCost(this._data.cus));
     }
     return parts;
   }

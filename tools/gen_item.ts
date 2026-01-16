@@ -195,12 +195,13 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
     iv:
-      cusKitCost || (acnhItemData && acnhItemData?.ccp)
-        ? [[cusKitCost, cusKitType], acnhItemData?.ccp || 0, acnhItemData?.nvc]
+      oldItem.bodyCustomize || (acnhItemData && acnhItemData?.ccp)
+        ? [!!oldItem.bodyCustomize, acnhItemData?.ccp || 0, acnhItemData?.nvc]
         : undefined,
     ip: oldItem.patternCustomize
       ? [!!oldItem.patternCustomize, !!acnhItemData?.spt, !!acnhItemData?.cpt]
       : undefined,
+    cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
     vfx: oldItem.vfx || undefined,
   };
 }
