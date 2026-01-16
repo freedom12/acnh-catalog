@@ -45,13 +45,13 @@ const handleImageIndexChanged = (index: number) => {
     </template>
     <span class="detail-row detail-center">
       <span class="detail-label">
+        {{ props.data.id }}
         <img
           :src="getGenderIcon(props.data.gender)"
           :alt="getGenderName(props.data.gender)"
           class="inline-icon"
           loading="lazy"
         />
-        {{ props.data.id }}
       </span>
     </span>
     <span class="detail-row">

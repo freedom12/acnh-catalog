@@ -14,6 +14,7 @@ import {
   getConstellation,
   getConstellationIcon,
   getConstellationName,
+  getGenderName,
 } from '../services/dataService';
 import { joinArray } from '../utils/common';
 import ColorBlock from './ColorBlock.vue';
@@ -73,7 +74,18 @@ const toggleFurnitureExpanded = () => {
     </template>
     <span class="detail-row detail-center">
       <span class="detail-label">
-        <img :src="getGenderIcon(props.data.gender)" class="inline-icon" loading="lazy" />
+        {{ props.data.id }}
+        <img
+          :src="getGenderIcon(props.data.gender)"
+          :alt="getGenderName(props.data.gender)"
+          class="inline-icon"
+          loading="lazy"
+        />
+      </span>
+    </span>
+    <span class="detail-row">
+      <span class="detail-label">物种</span>
+      <span class="detail-value">
         {{ getSpeciesName(props.data.species) }}
         <img
           :src="getSpeciesIcon(props.data.species)"
