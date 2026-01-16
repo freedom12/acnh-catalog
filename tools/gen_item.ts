@@ -7,7 +7,7 @@ import { ItemType, Version, Color, Currency } from '../src/types/item';
 import { type Activity } from '../src/types/activity';
 import type { CusCost } from '../src/services/dataService';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
-import { getAcnhItemData } from './acnh/index.js';
+import { getAcnhItemData, getAllAcnhItemData } from './acnh/index.js';
 import { genActivity } from './gen_activity';
 
 const __dirname = path.join(process.cwd(), 'tools');
@@ -61,9 +61,6 @@ const kitTypeMap: Record<string, KitType> = {
   'Rainbow feather': KitType.RainbowFeather,
 };
 
-/**
- * 处理变体数据
- */
 function processVariations(oldItem: OldItem): Variant[] {
   if (!oldItem.variations || oldItem.variations.length === 0) {
     return [];
@@ -72,6 +69,7 @@ function processVariations(oldItem: OldItem): Variant[] {
   let cusKitCost = oldItem.kitCost || 0;
   const variantMap = new Map<string, Variant>();
 
+  let index = 0;
   oldItem.variations.forEach((v) => {
     const variantName = String(v.variantTranslations?.cNzh || v.variation || '');
 
@@ -80,13 +78,19 @@ function processVariations(oldItem: OldItem): Variant[] {
         name: variantName,
         patterns: [],
       });
+      index += 1;
     }
 
     const variant = variantMap.get(variantName)!;
     const patternColors = v.colors || oldItem.colors || [];
+
     let cusKitType = v.kitType ? kitTypeMap[v.kitType] : KitType.Normal;
-    if (v.variation === 'Damaged') {
-      cusKitCost = 0;
+
+    let acnhItemData = getAcnhItemData(v.internalId);
+    if (acnhItemData?.nvc) {
+      if (acnhItemData?.nvc && acnhItemData?.nvc === index-1) {
+        cusKitCost = 0;
+      }
     }
     const cusPrice = v.cyrusCustomizePrice || 0;
     const cus = [cusPrice, [cusKitCost, cusKitType]] as [number, CusCost];
@@ -128,7 +132,7 @@ function getDefaultDisplayProperties(
   return { id, colors };
 }
 
-function convertItem(oldItem: OldItem): Item {
+function convertItemFromOldItem(oldItem: OldItem): Item {
   const name = oldItem.translations?.cNzh || oldItem.name;
   const variants = processVariations(oldItem);
   const { id, colors } = getDefaultDisplayProperties(oldItem, variants);
@@ -165,7 +169,6 @@ function convertItem(oldItem: OldItem): Item {
   if (typeof acts === 'string') {
     acts = [acts];
   }
-  const isContainsDamaged = oldItem.variations?.some((v) => v.variation === 'Damaged');
   return {
     id,
     order: 100000,
@@ -200,10 +203,34 @@ function convertItem(oldItem: OldItem): Item {
     variants: variants.length > 0 ? variants : undefined,
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
-    iv: oldItem.bodyCustomize || oldItem.customize || isContainsDamaged || undefined,
+    iv: acnhItemData?.bcu || acnhItemData?.ccv || undefined,
     ip: oldItem.patternCustomize || undefined,
     vfx: oldItem.vfx || undefined,
   };
+}
+
+function convertItemFromAcnhItemData(
+  id: string,
+  acnhItemData: Record<string, any>
+): Item {
+  let img: string = acnhItemData.img;
+  if (acnhItemData.ipf) {
+    img = acnhItemData.ipf + acnhItemData.img[0];
+  }
+  img = 'https://nh-cdn.catalogue.ac/' + img + '.png';
+  let item: Item = {
+    id: Number(id.startsWith('c') ? acnhItemData.iid : id),
+    order: 100000,
+    name: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
+    rawName: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
+    images: [img],
+    type: ItemType.Other,
+    ver: Version.The100,
+    colors: [Color.White],
+    cat: Catalog.NotInCatalog,
+  };
+
+  return item;
 }
 
 function applyOtherItemsOrder(
@@ -244,14 +271,14 @@ function applyOtherItemsOrder(
   }
 }
 
-export function genItem(activitys?: Activity[]): Item[] {
+export function genItemV1(activitys?: Activity[]): Item[] {
   activitys = activitys || genActivity();
 
   let items: Item[] = [];
   let itemMap = new Map<number, Item>();
   for (const oldItem of oldItems) {
     if (oldItem.sourceSheet !== ItemSourceSheet.MessageCards) {
-      const newItem = convertItem(oldItem);
+      const newItem = convertItemFromOldItem(oldItem);
       items.push(newItem);
       itemMap.set(newItem.id, newItem);
     }
@@ -290,7 +317,7 @@ export function genItem(activitys?: Activity[]): Item[] {
         variant.colors = [variant.color1, variant.color2]; // 修正变体颜色字段
       }
     }
-    const newItem = convertItem(structure);
+    const newItem = convertItemFromOldItem(structure);
     newItem.type = ItemType.InteriorStructures;
     items.push(newItem);
     itemMap.set(newItem.id, newItem);
@@ -317,6 +344,21 @@ export function genItem(activitys?: Activity[]): Item[] {
   });
   return items;
 }
+
+export function genItemV2(): Item[] {
+  const acnhItemDatas = getAllAcnhItemData();
+  let items: Item[] = [];
+  for (const [typeName, map] of Object.entries(acnhItemDatas)) {
+    console.log(`Processing category with ${typeName} items`);
+    for (const [id, acnhItemData] of Object.entries(map)) {
+      const newItem = convertItemFromAcnhItemData(id, acnhItemData);
+      items.push(newItem);
+    }
+  }
+  return items;
+}
+
+export const genItem = genItemV1;
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');

@@ -55,6 +55,41 @@ export function getAcnhReactionData(id: number): Record<string, any> | null {
     return subMap[idstr];
 }
 
+export function getAllAcnhItemData(): Record<string, Record<string, any>> {
+  let ret: Record<string, Record<string, any>> = {};
+  ret['housewares'] = acnhDataCfg['housewares'];
+  ret['misc'] = acnhDataCfg['misc'];
+  ret['wall_mounted'] = acnhDataCfg['wall_mounted'];
+  ret['walls'] = acnhDataCfg['walls'];
+  ret['ceiling'] = acnhDataCfg['ceiling'];
+  ret['structures'] = acnhDataCfg['structures'];
+  ret['floors'] = acnhDataCfg['floors'];
+  ret['rugs'] = acnhDataCfg['rugs'];
+  ret['other'] = acnhDataCfg['other'];
+  ret['fencing'] = acnhDataCfg['fencing'];
+  ret['tops'] = acnhDataCfg['tops'];
+  ret['bottoms'] = acnhDataCfg['bottoms'];
+  ret['dresses'] = acnhDataCfg['dresses'];
+  ret['hats'] = acnhDataCfg['hats'];
+  ret['accs'] = acnhDataCfg['accs'];
+  ret['shoes'] = acnhDataCfg['shoes'];
+  ret['socks'] = acnhDataCfg['socks'];
+  ret['bags'] = acnhDataCfg['bags'];
+  ret['umbrellas'] = acnhDataCfg['umbrellas'];
+  ret['wetsuits'] = acnhDataCfg['wetsuits'];
+  ret['fossils'] = acnhDataCfg['fossils'];
+  ret['fish'] = acnhDataCfg['fish'];
+  ret['bugs'] = acnhDataCfg['bugs'];
+  ret['sea'] = acnhDataCfg['sea'];
+  ret['art'] = acnhDataCfg['art'];
+  ret['photos'] = acnhDataCfg['photos'];
+  ret['posters'] = acnhDataCfg['posters'];
+  ret['music'] = acnhDataCfg['music'];
+  ret['gyroids'] = acnhDataCfg['gyroids'];
+  ret['tools'] = acnhDataCfg['tools'];
+  return ret;
+}
+
 export function getAcnhItemData(id: number, cid?: number): Record<string, any> | null {
   if (cid === undefined) {
     let idstr = id.toString();
