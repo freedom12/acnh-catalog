@@ -6,7 +6,7 @@
     "rawName": "K.K. Chorale",
     "image": "latest/Audio/mjk_Sanbika",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -16,7 +16,7 @@
     "rawName": "K.K. March",
     "image": "latest/Audio/mjk_March",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -26,7 +26,7 @@
     "rawName": "K.K. Waltz",
     "image": "latest/Audio/mjk_Waltz",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -36,7 +36,7 @@
     "rawName": "K.K. Swing",
     "image": "latest/Audio/mjk_Swing",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -46,7 +46,7 @@
     "rawName": "K.K. Jazz",
     "image": "latest/Audio/mjk_Jazz",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -56,7 +56,7 @@
     "rawName": "K.K. Fusion",
     "image": "latest/Audio/mjk_Fusion",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -66,7 +66,7 @@
     "rawName": "K.K. Étude",
     "image": "latest/Audio/mjk_Etude",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -76,7 +76,7 @@
     "rawName": "K.K. Lullaby",
     "image": "latest/Audio/mjk_Lullaby",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -86,7 +86,7 @@
     "rawName": "K.K. Aria",
     "image": "latest/Audio/mjk_Maria",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -96,7 +96,7 @@
     "rawName": "K.K. Samba",
     "image": "latest/Audio/mjk_Samba",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -106,7 +106,7 @@
     "rawName": "K.K. Bossa",
     "image": "latest/Audio/mjk_Bossa",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -116,7 +116,7 @@
     "rawName": "K.K. Calypso",
     "image": "latest/Audio/mjk_Caripso",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -126,7 +126,7 @@
     "rawName": "K.K. Salsa",
     "image": "latest/Audio/mjk_Salsa",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -136,7 +136,7 @@
     "rawName": "K.K. Mambo",
     "image": "latest/Audio/mjk_Mambo",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -146,7 +146,7 @@
     "rawName": "K.K. Reggae",
     "image": "latest/Audio/mjk_Reggae",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -156,7 +156,7 @@
     "rawName": "K.K. Ska",
     "image": "latest/Audio/mjk_Ska",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -166,7 +166,7 @@
     "rawName": "K.K. Tango",
     "image": "latest/Audio/mjk_Tango",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -176,7 +176,7 @@
     "rawName": "K.K. Faire",
     "image": "latest/Audio/mjk_Haisai",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -186,7 +186,7 @@
     "rawName": "Aloha K.K.",
     "image": "latest/Audio/mjk_Aloha",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -196,7 +196,7 @@
     "rawName": "Lucky K.K.",
     "image": "latest/Audio/mjk_Irish",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -206,7 +206,7 @@
     "rawName": "K.K. Condor",
     "image": "latest/Audio/mjk_Peru",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -216,7 +216,7 @@
     "rawName": "K.K. Steppe",
     "image": "latest/Audio/mjk_Cossack",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -226,7 +226,7 @@
     "rawName": "Imperial K.K.",
     "image": "latest/Audio/mjk_China",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -236,7 +236,7 @@
     "rawName": "K.K. Casbah",
     "image": "latest/Audio/mjk_Turkey",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -246,7 +246,7 @@
     "rawName": "K.K. Safari",
     "image": "latest/Audio/mjk_Afro",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -256,7 +256,7 @@
     "rawName": "K.K. Folk",
     "image": "latest/Audio/mjk_Minyo",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -266,7 +266,7 @@
     "rawName": "K.K. Rock",
     "image": "latest/Audio/mjk_Rock",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -276,7 +276,7 @@
     "rawName": "Rockin' K.K.",
     "image": "latest/Audio/mjk_RocknRoll",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -286,7 +286,7 @@
     "rawName": "K.K. Ragtime",
     "image": "latest/Audio/mjk_RagTime",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -296,7 +296,7 @@
     "rawName": "K.K. Gumbo",
     "image": "latest/Audio/mjk_NewOrleans",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -306,7 +306,7 @@
     "rawName": "The K. Funk",
     "image": "latest/Audio/mjk_Funk",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -316,7 +316,7 @@
     "rawName": "K.K. Blues",
     "image": "latest/Audio/mjk_Blues",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -326,7 +326,7 @@
     "rawName": "Soulful K.K.",
     "image": "latest/Audio/mjk_Gospel",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -336,7 +336,7 @@
     "rawName": "K.K. Soul",
     "image": "latest/Audio/mjk_Soul",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -346,7 +346,7 @@
     "rawName": "K.K. Cruisin'",
     "image": "latest/Audio/mjk_Urban",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -356,7 +356,7 @@
     "rawName": "K.K. Love Song",
     "image": "latest/Audio/mjk_LoveSong",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -366,7 +366,7 @@
     "rawName": "K.K. D&B",
     "image": "latest/Audio/mjk_Drumnbass",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -376,7 +376,7 @@
     "rawName": "K.K. Technopop",
     "image": "latest/Audio/mjk_TechnoBeat",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -386,7 +386,7 @@
     "rawName": "DJ K.K.",
     "image": "latest/Audio/mjk_EuroBeat",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -396,7 +396,7 @@
     "rawName": "Only Me",
     "image": "latest/Audio/mjk_OnlyMe",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -406,7 +406,7 @@
     "rawName": "K.K. Country",
     "image": "latest/Audio/mjk_Country",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -416,7 +416,7 @@
     "rawName": "Surfin' K.K.",
     "image": "latest/Audio/mjk_Eleki",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -426,7 +426,7 @@
     "rawName": "K.K. Ballad",
     "image": "latest/Audio/mjk_Ballad",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -436,7 +436,7 @@
     "rawName": "Comrade K.K.",
     "image": "latest/Audio/mjk_ShowaKayo",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -446,7 +446,7 @@
     "rawName": "K.K. Lament",
     "image": "latest/Audio/mjk_Enka",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -456,7 +456,7 @@
     "rawName": "Go K.K. Rider",
     "image": "latest/Audio/mjk_KekeRider",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -466,7 +466,7 @@
     "rawName": "K.K. Dirge",
     "image": "latest/Audio/mjk_KowaiUta",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -476,7 +476,7 @@
     "rawName": "K.K. Western",
     "image": "latest/Audio/mjk_Western",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -486,7 +486,7 @@
     "rawName": "Mr. K.K.",
     "image": "latest/Audio/mjk_Sensei",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -496,7 +496,7 @@
     "rawName": "Café K.K.",
     "image": "latest/Audio/mjk_Paris",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -506,7 +506,7 @@
     "rawName": "K.K. Parade",
     "image": "latest/Audio/mjk_Parade",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -516,7 +516,7 @@
     "rawName": "K.K. Mariachi",
     "image": "latest/Audio/mjk_Senor",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -526,7 +526,7 @@
     "rawName": "K.K. Song",
     "image": "latest/Audio/mjk_KekeSong",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -536,7 +536,7 @@
     "rawName": "I Love You",
     "image": "latest/Audio/mjk_Daisuki",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -546,7 +546,7 @@
     "rawName": "Two Days Ago",
     "image": "latest/Audio/mjk_Ototoi",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -556,7 +556,7 @@
     "rawName": "My Place",
     "image": "latest/Audio/mjk_BokuNoBasho",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -566,7 +566,7 @@
     "rawName": "Forest Life",
     "image": "latest/Audio/mjk_MoriNoSeikatsu",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -576,7 +576,7 @@
     "rawName": "To the Edge",
     "image": "latest/Audio/mjk_NamiNami",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -586,7 +586,7 @@
     "rawName": "Pondering",
     "image": "latest/Audio/mjk_KangaeChu",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -596,7 +596,7 @@
     "rawName": "K.K. Dixie",
     "image": "latest/Audio/mjk_Dixie",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -606,7 +606,7 @@
     "rawName": "K.K. Marathon",
     "image": "latest/Audio/mjk_Gamelan",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -616,7 +616,7 @@
     "rawName": "King K.K.",
     "image": "latest/Audio/mjk_Daimyo",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -626,7 +626,7 @@
     "rawName": "Mountain Song",
     "image": "latest/Audio/mjk_Alpine",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -636,7 +636,7 @@
     "rawName": "Marine Song 2001",
     "image": "latest/Audio/mjk_HunaUta2001",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -646,7 +646,7 @@
     "rawName": "Neapolitan",
     "image": "latest/Audio/mjk_Napolitan",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -656,7 +656,7 @@
     "rawName": "Steep Hill",
     "image": "latest/Audio/mjk_NiDanZaka",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -666,7 +666,7 @@
     "rawName": "K.K. Rockabilly",
     "image": "latest/Audio/mjk_KekeBilly",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -676,7 +676,7 @@
     "rawName": "Agent K.K.",
     "image": "latest/Audio/mjk_Keiji",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -686,7 +686,7 @@
     "rawName": "K.K. Rally",
     "image": "latest/Audio/mjk_Ondo",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -696,7 +696,7 @@
     "rawName": "K.K. Metal",
     "image": "latest/Audio/mjk_Metal",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -706,7 +706,7 @@
     "rawName": "Stale Cupcakes",
     "image": "latest/Audio/mjk_BlueOnigiri",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -716,7 +716,7 @@
     "rawName": "Spring Blossoms",
     "image": "latest/Audio/mjk_HaruNoKomorebi",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -726,7 +726,7 @@
     "rawName": "Wandering",
     "image": "latest/Audio/mjk_Horo",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -736,7 +736,7 @@
     "rawName": "K.K. House",
     "image": "latest/Audio/mjk_House",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -746,7 +746,7 @@
     "rawName": "K.K. Sonata",
     "image": "latest/Audio/mjk_Sonata",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -756,7 +756,7 @@
     "rawName": "Hypno K.K.",
     "image": "latest/Audio/mjk_UtataneNoYume",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -766,7 +766,7 @@
     "rawName": "K.K. Stroll",
     "image": "latest/Audio/mjk_Osanpo",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -776,7 +776,7 @@
     "rawName": "K.K. Island",
     "image": "latest/Audio/mjk_DoubutsuNoShima",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -786,7 +786,7 @@
     "rawName": "Space K.K.",
     "image": "latest/Audio/mjk_Minimal",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -796,7 +796,7 @@
     "rawName": "K.K. Adventure",
     "image": "latest/Audio/mjk_Hollywood",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -806,7 +806,7 @@
     "rawName": "K.K. Oasis",
     "image": "latest/Audio/mjk_Maharaja",
     "ver": 1,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -816,7 +816,7 @@
     "rawName": "K.K. Bazaar",
     "image": "latest/Audio/mjk_Roma",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -826,7 +826,7 @@
     "rawName": "K.K. Milonga",
     "image": "latest/Audio/mjk_Milonga",
     "ver": 1,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -836,7 +836,7 @@
     "rawName": "K.K. Groove",
     "image": "latest/Audio/mjk_Raregroove",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -846,7 +846,7 @@
     "rawName": "K.K. Jongara",
     "image": "latest/Audio/mjk_Jongara",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -856,7 +856,7 @@
     "rawName": "K.K. Flamenco",
     "image": "latest/Audio/mjk_Flamenco",
     "ver": 1,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -866,7 +866,7 @@
     "rawName": "K.K. Moody",
     "image": "latest/Audio/mjk_Bolero",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -876,7 +876,7 @@
     "rawName": "Bubblegum K.K.",
     "image": "latest/Audio/mjk_Idol",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -886,7 +886,7 @@
     "rawName": "K.K. Synth",
     "image": "latest/Audio/mjk_Electronica",
     "ver": 1,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -896,7 +896,7 @@
     "rawName": "K.K. Disco",
     "image": "latest/Audio/mjk_Disco",
     "ver": 1,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -956,7 +956,7 @@
     "rawName": "K.K. Fugue",
     "image": "latest/Audio/mjk_Fugue",
     "ver": 13,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -966,7 +966,7 @@
     "rawName": "K.K. Polka",
     "image": "latest/Audio/mjk_Polka",
     "ver": 13,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {
@@ -976,7 +976,7 @@
     "rawName": "K.K. Slack-Key",
     "image": "latest/Audio/mjk_Slackkey",
     "ver": 13,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -986,7 +986,7 @@
     "rawName": "K.K. Chorinho",
     "image": "latest/Audio/mjk_Choro",
     "ver": 13,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -996,7 +996,7 @@
     "rawName": "Chillwave",
     "image": "latest/Audio/mjk_Chillwave",
     "ver": 13,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -1006,7 +1006,7 @@
     "rawName": "K.K. Dub",
     "image": "latest/Audio/mjk_Dub",
     "ver": 13,
-    "mood": "Laid-back",
+    "mood": "很悠闲",
     "hasRadio": true
   },
   {
@@ -1016,7 +1016,7 @@
     "rawName": "K.K. Lovers",
     "image": "latest/Audio/mjk_Lovers",
     "ver": 13,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -1026,7 +1026,7 @@
     "rawName": "K.K. Bashment",
     "image": "latest/Audio/mjk_Bashment",
     "ver": 13,
-    "mood": "A little blue...",
+    "mood": "忧郁",
     "hasRadio": true
   },
   {
@@ -1036,7 +1036,7 @@
     "rawName": "K.K. Hop",
     "image": "latest/Audio/mjk_Hiphop",
     "ver": 13,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -1046,7 +1046,7 @@
     "rawName": "K.K. Break",
     "image": "latest/Audio/mjk_Break",
     "ver": 13,
-    "mood": "A little grumpy...",
+    "mood": "不开心",
     "hasRadio": true
   },
   {
@@ -1056,7 +1056,7 @@
     "rawName": "K.K. Khoomei",
     "image": "latest/Audio/mjk_Khoomii",
     "ver": 13,
-    "mood": "It's hard to say",
+    "mood": "不太清楚",
     "hasRadio": true
   },
   {
@@ -1066,7 +1066,7 @@
     "rawName": "K.K. Robot Synth",
     "image": "latest/Audio/mjk_Android",
     "ver": 13,
-    "mood": "I feel good!",
+    "mood": "心情舒畅",
     "hasRadio": true
   },
   {

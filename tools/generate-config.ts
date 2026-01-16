@@ -560,7 +560,6 @@ const fossilTypeMap: Record<string, FossilType> = {
 };
 let newFossils: NewFossil[] = [];
 for (const [groupName, parts] of fossilGroups) {
-  console.log(`处理化石组: ${groupName}`);
   let name = parts[0].translations?.cNzh || parts[0].name;
   if (parts.length > 1) {
     name = groupName.toLowerCase().replace(/ /g, '_').replace(/\./g, '');
@@ -593,6 +592,16 @@ for (const entry of musicCfg) {
     console.log(`音乐未找到物品: ${entry.rawName}`);
     continue;
   }
+  let mood = entry.mood;
+  mood = mood
+    .toLowerCase()
+    .replace(/ /g, '_')
+    .replace(/-/g, '_')
+    .replace(/\./g, '')
+    .replace(/'/g, '')
+    .replace(/!/g, '');
+  mood = acnhLocale.mmd[mood]?.['zh-cn'] || acnhLocale.mmd[mood]?.['zh'] || entry.mood;
+  
   const music: Music = {
     id: item.id,
     order: entry.order || 0,
@@ -602,7 +611,7 @@ for (const entry of musicCfg) {
       item.images?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
     ),
     ver: item.ver,
-    mood: entry.mood || '',
+    mood: mood || '',
     hasRadio: item.images?.[1] ? true : false,
   };
   musics.push(music);
