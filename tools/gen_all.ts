@@ -21,9 +21,6 @@ import { genAchievement } from './gen_achievement';
 const activitys = genActivity();
 save(activitys, 'acnh-activitys.json');
 
-const creatures = genCreature();
-save(creatures, 'acnh-creatures.json');
-
 const items = genItem(activitys);
 save(items, 'acnh-items.json');
 
@@ -35,6 +32,9 @@ save(npcs, 'acnh-npcs.json');
 
 const recipes = genRecipe(items);
 save(recipes, 'acnh-recipes.json');
+
+const creatures = genCreature();
+save(creatures, 'acnh-creatures.json');
 
 const fossils = genFossil();
 save(fossils, 'acnh-fossils.json');
