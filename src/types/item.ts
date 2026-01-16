@@ -178,7 +178,6 @@ export interface Pattern {
   image: string; // 图案图片
   id: number; // 图案ID
   colors: Color[]; // 图案颜色列表
-  cus?: [number, CusCost]; // 定制价格和材料
 }
 
 /**
@@ -188,7 +187,7 @@ export interface Pattern {
  */
 export interface Variant {
   name: string; // 变体名称
-  patterns: Pattern[]; // 该变体的所有图案
+  ps: Pattern[]; // 该变体的所有图案
 }
 
 /**
@@ -224,13 +223,12 @@ export interface Item {
   themes?: string[]; // 服饰主题（棉儿要求）
   styles?: string[]; // 服饰风格（村民喜好）
 
-  variants?: Variant[]; // 变体组列表
+  vs?: Variant[]; // 变体组列表
   vt?: string; // 变体标题
   pt?: string; // 图案标题
-  iv?: boolean;
-  ip?: boolean;
+  iv?: [CusCost, number, number]; // 改在样式的消耗/健兆改造花费/仅可通过健兆获得的款式index
+  ip?: [boolean, boolean, boolean]; // 是否可改造图案/麻儿图案/我的设计
   recipe?: number; // 配方数据
-
   vfx?: boolean; // 是否有特效(壁纸/地板)
 }
 

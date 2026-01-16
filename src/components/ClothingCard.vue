@@ -152,7 +152,6 @@ const handleClick = () => {
           class="variation-dot variant-dot"
           :class="{
             active: vIdx === variantIndex,
-            blue: itemModel.isVariantCusOnlyByCyrus(vIdx),
           }"
           :title="vg.name || `${vIdx + 1}`"
           @click="variantIndex = vIdx"

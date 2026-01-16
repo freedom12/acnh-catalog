@@ -41,7 +41,7 @@ const displayColors = computed(() => itemModel.getDisplayColors());
 // const displayName = computed(() => itemModel.getDisplayName());
 const displayImages = computed(() => itemModel.getDisplayImages());
 const displayCusCostStrs = computed(() => {
-  return itemModel.getCostStrs();
+  return itemModel.cusCostStrs;
 });
 const applyColorFilter = () => {
   if (props.colorFilter !== undefined && itemModel.hasVariations) {
@@ -145,10 +145,7 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">活动</span>
-      <ActivityList
-        class="detail-value"
-        :activitys="itemModel.activitys"
-      />
+      <ActivityList class="detail-value" :activitys="itemModel.activitys" />
     </div>
     <div class="detail-row source-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
@@ -176,7 +173,10 @@ const handleClick = () => {
       <span class="detail-value highlight" v-html="itemModel.sellPriceStr"> </span>
     </div>
 
-    <div v-if="itemModel.canCustomize" class="variants-section">
+    <div
+      v-if="itemModel.canCustomize"
+      class="variants-section"
+    >
       <span class="variants-label">
         <img
           :src="getImgUrl('img/icon/icon_cus_v.png')"
@@ -193,7 +193,7 @@ const handleClick = () => {
           class="variation-dot variant-dot"
           :class="{
             active: vIdx === variantIndex,
-            blue: itemModel.isVariantCusOnlyByCyrus(vIdx),
+            blue: itemModel.isCustomizeVariantOnlyByCyrus(vIdx),
           }"
           :title="vg.name || `${itemModel.vTitleName} ${vIdx + 1}`"
           @click="variantIndex = vIdx"
@@ -212,7 +212,7 @@ const handleClick = () => {
       </span>
       <div v-if="itemModel.hasPatterns" class="variants-list">
         <span
-          v-for="(p, pIdx) in currentVariant!.patterns"
+          v-for="(p, pIdx) in currentVariant!.ps"
           :key="pIdx"
           class="variation-dot"
           :class="{
@@ -222,6 +222,28 @@ const handleClick = () => {
           @click="patternIndex = pIdx"
         >
           {{ pIdx + 1 }}
+        </span>
+        <span
+          v-if="itemModel.canCustomizePatternWithSableDesign"
+          class="variation-dot"
+          title="使用麻儿的设计图案"
+        >
+          <img
+            :src="getImgUrl('img/icon/icon_cus_p_1.png')"
+            class="inline-icon"
+            loading="lazy"
+          />
+        </span>
+        <span
+          v-if="itemModel.canCustomizePatternWithMyDesign"
+          class="variation-dot"
+          title="使用我的设计图案"
+        >
+          <img
+            :src="getImgUrl('img/icon/icon_cus_p_2.png')"
+            class="inline-icon"
+            loading="lazy"
+          />
         </span>
       </div>
       <div class="detail-row" style="border: 2px #ffea9e solid; background: #fff9e6">

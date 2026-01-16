@@ -5,7 +5,6 @@ import { items as oldItems, creatures as oldCreatures } from 'animal-crossing';
 import { Catalog, KitType, type Item, type Variant } from '../src/types/item';
 import { ItemType, Version, Color, Currency } from '../src/types/item';
 import { type Activity } from '../src/types/activity';
-import type { CusCost } from '../src/services/dataService';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
 import { getAcnhItemData, getAllAcnhItemData } from './acnh/index.js';
 import { genActivity } from './gen_activity';
@@ -66,42 +65,27 @@ function processVariations(oldItem: OldItem): Variant[] {
     return [];
   }
 
-  let cusKitCost = oldItem.kitCost || 0;
   const variantMap = new Map<string, Variant>();
 
-  let index = 0;
   oldItem.variations.forEach((v) => {
     const variantName = String(v.variantTranslations?.cNzh || v.variation || '');
 
     if (!variantMap.has(variantName)) {
       variantMap.set(variantName, {
         name: variantName,
-        patterns: [],
+        ps: [],
       });
-      index += 1;
     }
 
     const variant = variantMap.get(variantName)!;
     const patternColors = v.colors || oldItem.colors || [];
-
-    let cusKitType = v.kitType ? kitTypeMap[v.kitType] : KitType.Normal;
-
-    let acnhItemData = getAcnhItemData(v.internalId);
-    if (acnhItemData?.nvc) {
-      if (acnhItemData?.nvc && acnhItemData?.nvc === index-1) {
-        cusKitCost = 0;
-      }
-    }
-    const cusPrice = v.cyrusCustomizePrice || 0;
-    const cus = [cusPrice, [cusKitCost, cusKitType]] as [number, CusCost];
-    variant.patterns.push({
+    variant.ps.push({
       name: v.patternTranslations?.cNzh || v.pattern || '',
       image: processImageUrl(v.image || v.storageImage || v.closetImage || ''),
       id: v.internalId,
       colors: Array.from(
         new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
       ),
-      cus: cus,
     });
   });
 
@@ -120,8 +104,8 @@ function getDefaultDisplayProperties(
   // 如果有变体，使用第一个变体的第一个图案
   if (variants.length > 0) {
     const firstVariant = variants[0];
-    if (firstVariant && firstVariant.patterns.length > 0) {
-      const firstPattern = firstVariant.patterns[0];
+    if (firstVariant && firstVariant.ps.length > 0) {
+      const firstPattern = firstVariant.ps[0];
       if (firstPattern) {
         id = firstPattern.id || id;
         colors = firstPattern.colors || colors;
@@ -169,6 +153,13 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   if (typeof acts === 'string') {
     acts = [acts];
   }
+
+  let cusKitCost = oldItem.kitCost || 0;
+  let kitType = oldItem.variations?.[0].kitType;
+  let cusKitType = kitType ? kitTypeMap[kitType] : KitType.Normal;
+  if (id === 3333) {
+    console.log(cusKitCost, cusKitType);
+  }
   return {
     id,
     order: 100000,
@@ -200,11 +191,16 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     exch: oldItem.exchangePrice
       ? [oldItem.exchangePrice, currencyMap[oldItem.exchangeCurrency!]]
       : undefined,
-    variants: variants.length > 0 ? variants : undefined,
+    vs: variants.length > 0 ? variants : undefined,
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
-    iv: acnhItemData?.bcu || acnhItemData?.ccv || undefined,
-    ip: oldItem.patternCustomize || undefined,
+    iv:
+      cusKitCost || (acnhItemData && acnhItemData?.ccp)
+        ? [[cusKitCost, cusKitType], acnhItemData?.ccp || 0, acnhItemData?.nvc]
+        : undefined,
+    ip: oldItem.patternCustomize
+      ? [!!oldItem.patternCustomize, !!acnhItemData?.spt, !!acnhItemData?.cpt]
+      : undefined,
     vfx: oldItem.vfx || undefined,
   };
 }

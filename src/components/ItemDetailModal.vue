@@ -46,7 +46,7 @@ const allVariants = computed(() => {
   }> = [];
 
   variants.forEach((variant) => {
-    variant.patterns.forEach((pattern) => {
+    variant.ps.forEach((pattern) => {
       flatVariants.push({
         variantName: variant.name,
         patternName: pattern.name,

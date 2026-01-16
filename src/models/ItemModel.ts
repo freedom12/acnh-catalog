@@ -285,10 +285,6 @@ export class ItemModel {
   }
 
   // ============ 变体相关 ============
-  get canCustomize(): boolean {
-    return !this.isClothing && this.hasVariations;
-  }
-
   get vTitle(): string {
     return this._data.vt || '';
   }
@@ -304,12 +300,12 @@ export class ItemModel {
   get hasVariations(): boolean {
     const groups = this.variantGroups;
     return (
-      groups.length > 0 && (groups.length > 1 || (groups[0]?.patterns.length ?? 0) > 1)
+      groups.length > 0 && (groups.length > 1 || (groups[0]?.ps.length ?? 0) > 1)
     );
   }
 
   get variantGroups(): Variant[] {
-    return this._data.variants || [];
+    return this._data.vs || [];
   }
 
   get variantCount(): number {
@@ -318,35 +314,62 @@ export class ItemModel {
 
   get hasPatterns(): boolean {
     const variant = this.currentVariant;
-    return variant ? variant.patterns.length > 1 : false;
+    return variant ? variant.ps.length > 1 : false;
   }
 
   get patternCount(): number {
     const variant = this.currentVariant;
-    return variant ? variant.patterns.length : 0;
+    return variant ? variant.ps.length : 0;
   }
 
-  isVariantCusOnlyByCyrus(vIndex?: number): boolean {
-    if (!this.canCustomize) return false;
-    if (!this._data.iv) return true;
-    const pattern = this.getPattern(vIndex, 0);
-    if (!pattern) return false;
-    if (!pattern.cus) return false;
-    if (pattern.cus[1][0]) return false;
-    return true;
+  get canCustomize(): boolean {
+    return this.canCustomizeVariant || this.canCustomizePattern;
   }
 
-  getCostStrs(vIndex?: number, pIndex?: number): string[] {
-    const pattern = this.getPattern(vIndex, pIndex);
-    if (!pattern || !pattern.cus) return [];
-    const [price, cusCost] = pattern.cus;
+  get canCustomizeVariant(): boolean {
+    return this.canCustomizeVariantByCyrus || this.canCustomizeVariantBySelf;
+  }
+
+  get canCustomizeVariantBySelf(): boolean {
+    if (!this._data.iv) return false;
+    return this._data.iv && this._data.iv[0][0] > 0;
+  }
+
+  get canCustomizeVariantByCyrus(): boolean {
+    if (!this._data.iv) return false;
+    return this._data.iv[1] > 0;
+  }
+
+  isCustomizeVariantOnlyByCyrus(vIndex: number): boolean {
+    if (this.canCustomizeVariantByCyrus && !this.canCustomizeVariantBySelf) {
+      return true;
+    }
+    let index = this._data.iv ? this._data.iv[2] : undefined;
+    if (index === undefined) return false;
+    return vIndex === index;
+  }
+
+  get canCustomizePattern(): boolean {
+    return this._data.ip ? this._data.ip[0] : false;
+  }
+
+  get canCustomizePatternWithSableDesign(): boolean {
+    return this._data.ip ? this._data.ip[1] : false;
+  }
+  get canCustomizePatternWithMyDesign(): boolean {
+    return this._data.ip ? this._data.ip[2] : false;
+  }
+
+  get cusCostStrs(): string[] {
+    if (!this._data.iv) return [];
+    const [cusCost, price, _] = this._data.iv;
     const parts: string[] = [];
     if (price) {
       parts.push(getPriceWithIcon(price));
     }
-    if (cusCost) {
-      const [kitCost, _] = cusCost;
-      if (kitCost) parts.push(getCusCost(cusCost));
+    const [kitCost, __] = cusCost;
+    if (kitCost) {
+      parts.push(getCusCost(cusCost));
     }
     return parts;
   }
@@ -368,7 +391,7 @@ export class ItemModel {
 
   set patternIndex(index: number) {
     const currentVariant = this.currentVariant;
-    if (currentVariant && index >= 0 && index < currentVariant.patterns.length) {
+    if (currentVariant && index >= 0 && index < currentVariant.ps.length) {
       this._state.currentPatternIndex = index;
     } else {
       this._state.currentPatternIndex = 0;
@@ -388,13 +411,13 @@ export class ItemModel {
 
   get currentPattern(): Pattern | null {
     const variant = this.currentVariant;
-    if (!variant || variant.patterns.length === 0) return null;
+    if (!variant || variant.ps.length === 0) return null;
 
     const index = Math.max(
       0,
-      Math.min(this._state.currentPatternIndex, variant.patterns.length - 1)
+      Math.min(this._state.currentPatternIndex, variant.ps.length - 1)
     );
-    return variant.patterns[index] || null;
+    return variant.ps[index] || null;
   }
 
   getDisplayId(): number {
@@ -431,7 +454,7 @@ export class ItemModel {
 
   getPatternById(id: number): Pattern | null {
     for (const variantGroup of this.variantGroups) {
-      for (const pattern of variantGroup.patterns) {
+      for (const pattern of variantGroup.ps) {
         if (pattern.id === id) {
           return pattern;
         }
@@ -457,8 +480,8 @@ export class ItemModel {
     for (let vIdx = 0; vIdx < variants.length; vIdx++) {
       const variant = variants[vIdx];
       if (variant) {
-        for (let pIdx = 0; pIdx < variant.patterns.length; pIdx++) {
-          const pattern = variant.patterns[pIdx];
+        for (let pIdx = 0; pIdx < variant.ps.length; pIdx++) {
+          const pattern = variant.ps[pIdx];
           if (pattern?.colors.includes(color)) {
             return { variantIndex: vIdx, patternIndex: pIdx };
           }
@@ -489,7 +512,7 @@ export class ItemModel {
       for (let vIdx = 0; vIdx < variants.length; vIdx++) {
         const variant = variants[vIdx];
         if (variant) {
-          const pIdx = variant.patterns.findIndex((p) => p.id === id);
+          const pIdx = variant.ps.findIndex((p) => p.id === id);
           if (pIdx >= 0) {
             this.variantIndex = vIdx;
             this.patternIndex = pIdx;
@@ -508,8 +531,8 @@ export class ItemModel {
     if (vIdx < 0 || vIdx >= variants.length) return null;
     const variant = variants[vIdx];
     if (!variant) return null;
-    if (pIdx < 0 || pIdx >= variant.patterns.length) return null;
-    return variant.patterns[pIdx] || null;
+    if (pIdx < 0 || pIdx >= variant.ps.length) return null;
+    return variant.ps[pIdx] || null;
   }
 
   // ============ 匹配筛选方法 ============
@@ -587,7 +610,7 @@ export class ItemModel {
     if (!id) return true;
     if (this.id === id) return true;
     for (const variant of this.variantGroups) {
-      for (const pattern of variant.patterns) {
+      for (const pattern of variant.ps) {
         if (pattern.id === id) {
           return true;
         }

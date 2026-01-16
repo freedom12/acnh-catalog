@@ -30,7 +30,7 @@ pat 图案 number[]
 pcu 可改图案
 sea 非贩卖期间
 sel 卖价
-spt 麻儿的tuan设计
+spt 麻儿的图案设计
 src 来源
 stp 播放器类型
 sur 有桌面
