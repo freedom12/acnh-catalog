@@ -42,7 +42,20 @@ export function getAcnhLocale(str: string, sub: string) {
 }
 
 let acnhDataCfg = getAcnhDataCfg();
-export function getAcnhData(id: number, cid?: number): Record<string, any> | null {
+
+export function getAcnhDiyData(id: number): Record<string, any> | null {
+  let idstr = 'd' + id;
+  let subMap = acnhDataCfg['diy'];
+  return subMap[idstr];
+}
+
+export function getAcnhReactionData(id: number): Record<string, any> | null {
+    let idstr = 'r' + id;
+    let subMap = acnhDataCfg['reactions'];
+    return subMap[idstr];
+}
+
+export function getAcnhItemData(id: number, cid?: number): Record<string, any> | null {
   if (cid === undefined) {
     let idstr = id.toString();
     for (const [_, subMap] of Object.entries(
@@ -53,7 +66,7 @@ export function getAcnhData(id: number, cid?: number): Record<string, any> | nul
       }
     }
   } else {
-    let idstr = 'c' + cid.toString();
+    let idstr = 'c' + cid;
     for (const [_, subMap] of Object.entries(
       acnhDataCfg as Record<string, Record<string, any>>
     )) {

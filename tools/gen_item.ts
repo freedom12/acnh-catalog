@@ -7,7 +7,7 @@ import { ItemType, Version, Color, Currency } from '../src/types/item';
 import { type Activity } from '../src/types/activity';
 import type { CusCost } from '../src/services/dataService';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
-import { getAcnhData } from './acnh/index.js';
+import { getAcnhItemData } from './acnh/index.js';
 import { genActivity } from './gen_activity';
 
 const __dirname = path.join(process.cwd(), 'tools');
@@ -157,13 +157,13 @@ function convertItem(oldItem: OldItem): Item {
   concepts = concepts && concepts.length > 0 ? concepts : undefined;
   let category = oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
   let clothGroupId = oldItem.clothGroupId || oldItem.variations?.[0].clothGroupId;
-  let acnhData = getAcnhData(id, clothGroupId);
-  if (!acnhData) {
-    console.warn(`acnhData not found: id=${id}, name=${name}`);
+  let acnhItemData = getAcnhItemData(id, clothGroupId);
+  if (!acnhItemData) {
+    console.warn(`acnhItemData not found: id=${id}, name=${name}`);
   }
-  let evt = acnhData?.evt;
-  if (typeof evt === 'string') {
-    evt = [evt];
+  let acts = acnhItemData?.evt;
+  if (typeof acts === 'string') {
+    acts = [acts];
   }
   const isContainsDamaged = oldItem.variations?.some((v) => v.variation === 'Damaged');
   return {
@@ -178,7 +178,7 @@ function convertItem(oldItem: OldItem): Item {
     cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
     source: oldItem.source,
     sourceNotes: oldItem.sourceNotes || undefined,
-    acts: evt,
+    acts: acts,
     size: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
     points: oldItem.hhaBasePoints || undefined,

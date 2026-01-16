@@ -1,7 +1,3 @@
-/**
- * 从 animal-crossing 包生成数据文件
- */
-
 import { save } from './util';
 import { genActivity } from './gen_activity';
 import { genItem } from './gen_item';

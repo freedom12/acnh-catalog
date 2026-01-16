@@ -2,12 +2,10 @@
 import type { Reaction } from '../types/reaction';
 import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
+import ActivityList from './ActivityList.vue';
 import SourceList from './SourceList.vue';
-import { getActivityName } from '../services/dataService';
-import { joinArray } from '../utils/common';
-import { useActivitysData } from '../composables/useActivitysData';
 
-const { getGroupsByIds: getNamesByIds } = useActivitysData();
+
 const props = defineProps<{
   data: Reaction;
 }>();
@@ -27,9 +25,10 @@ const handleClick = () => {
   >
     <div class="detail-row">
       <span class="detail-label">活动</span>
-      <span class="detail-value">{{
-        joinArray(getNamesByIds(props.data.acts || []).map(getActivityName))
-      }}</span>
+      <ActivityList
+        class="detail-value"
+        :activitys="props.data.acts"
+      />
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

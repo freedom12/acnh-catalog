@@ -345,10 +345,6 @@ export function getRecipeTypeIcon(type: RecipeType): string {
   return getImgUrl(`img/icon/recipe_type/recipe_type_${type}.png`);
 }
 
-export function getActivityName(name: string): string {
-  return getTranslation(name, translationsCache?.activitys);
-}
-
 export function getItemVariantTitle(title: string): string {
   return getTranslation(title, translationsCache?.itemVariantTitles);
 }

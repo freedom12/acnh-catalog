@@ -11,6 +11,7 @@ import {
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
 import ColorBlock from './ColorBlock.vue';
+import ActivityList from './ActivityList.vue';
 import SourceList from './SourceList.vue';
 import { UI_TEXT } from '../constants';
 import { Catalog, Color } from '../types/item';
@@ -144,7 +145,10 @@ const handleClick = () => {
     </div>
     <div class="detail-row">
       <span class="detail-label">活动</span>
-      <span class="detail-value">{{ joinArray(itemModel.activityGroupNames) }}</span>
+      <ActivityList
+        class="detail-value"
+        :activitys="itemModel.activitys"
+      />
     </div>
     <div class="detail-row source-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>

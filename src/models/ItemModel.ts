@@ -207,6 +207,10 @@ export class ItemModel {
     }));
   }
 
+  get activitys(): string[] {
+    return this._data.acts || [];
+  }
+
   get activityGroups(): string[] {
     return getGroupsByIds(this._data.acts || []);
   }

@@ -28,6 +28,10 @@
     "rawName": "Disagreement",
     "image": "latest/ManpuIcon/Negative",
     "ver": 1,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Big Sister villagers"
     ]
@@ -266,6 +270,10 @@
     "rawName": "Mistaken",
     "image": "latest/ManpuIcon/Oops",
     "ver": 1,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Lazy villagers"
     ]
@@ -288,6 +296,10 @@
     "rawName": "Shyness",
     "image": "latest/ManpuIcon/Hesitate",
     "ver": 1,
+    "acts": [
+      "festivale_ready",
+      "festivale"
+    ],
     "source": [
       "Lazy villagers"
     ]
@@ -321,6 +333,9 @@
     "rawName": "Mischief",
     "image": "latest/ManpuIcon/Scheming",
     "ver": 1,
+    "acts": [
+      "halloween"
+    ],
     "source": [
       "Peppy villagers"
     ],
@@ -335,6 +350,9 @@
     "rawName": "Resignation",
     "image": "latest/ManpuIcon/OhGeez",
     "ver": 1,
+    "acts": [
+      "halloween"
+    ],
     "source": [
       "Smug villagers"
     ]

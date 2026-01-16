@@ -1,10 +1,9 @@
-import {
-  recipes as oldRecipes,
-} from 'animal-crossing';
+import { recipes as oldRecipes } from 'animal-crossing';
 import { processImageUrl, save, versionMap } from './util.js';
 import { type Item } from '../src/types/index.js';
 import { genItem } from './gen_item.js';
 import { RecipeType, type Recipe } from '../src/types/recipe.js';
+import { getAcnhDiyData } from './acnh/index.js';
 
 const recipeCategoryMap: Record<string, RecipeType> = {
   Housewares: RecipeType.Housewares,
@@ -30,7 +29,7 @@ export function genRecipe(items?: Item[]) {
     if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
     let materials: [number, number][] = [];
     for (const [materialName, quantity] of Object.entries(oldRecipe.materials)) {
-      const item = items.find(i => i.rawName === materialName);
+      const item = items.find((i) => i.rawName === materialName);
       if (item) {
         materials.push([item.id, quantity]);
       } else {
@@ -46,7 +45,16 @@ export function genRecipe(items?: Item[]) {
         }
       }
     }
-
+    let acnhDiyData = getAcnhDiyData(oldRecipe.internalId);
+    if (!acnhDiyData) {
+      console.warn(
+        `acnhDiyData not found: id=${oldRecipe.internalId}, name=${oldRecipe.translations.cNzh}`
+      );
+    }
+    let acts = acnhDiyData?.evt;
+    if (typeof acts === 'string') {
+      acts = [acts];
+    }
     const recipe: Recipe = {
       id: oldRecipe.internalId,
       type: recipeCategoryMap[oldRecipe.category],
@@ -56,6 +64,7 @@ export function genRecipe(items?: Item[]) {
       ver: versionMap[oldRecipe.versionAdded],
       buy: oldRecipe.buy || undefined,
       sell: oldRecipe.sell || undefined,
+      acts: acts,
       source: oldRecipe.source,
       sourceNotes: oldRecipe.sourceNotes || undefined,
       itemId: oldRecipe.craftedItemInternalId,

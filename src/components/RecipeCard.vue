@@ -4,23 +4,20 @@ import type { Recipe } from '../types/recipe';
 import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
 import MaterialItem from './MaterialItem.vue';
+import ActivityList from './ActivityList.vue';
 import SourceList from './SourceList.vue';
 import { processImageUrl } from '../utils/imageUtils';
 import {
   getPriceWithIcon,
   getRecipeTypeName,
   getRecipeTypeIcon,
-  getActivityName,
 } from '../services/dataService';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
-import { joinArray } from '../utils';
-import { useActivitysData } from '../composables/useActivitysData';
 
 const props = defineProps<{
   data: Recipe;
 }>();
 const { openModal } = useItemDetailModal();
-const { getGroupsByIds: getNamesByIds } = useActivitysData();
 const handleClick = () => {
   openModal(props.data.itemId);
 };
@@ -106,11 +103,9 @@ const isShiny = computed(() => {
         />
       </span>
     </div>
-        <div class="detail-row">
+    <div class="detail-row">
       <span class="detail-label">活动</span>
-      <span class="detail-value">{{
-        joinArray(getNamesByIds(props.data.acts || []).map(getActivityName))
-      }}</span>
+      <ActivityList class="detail-value" :activitys="props.data.acts" />
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
