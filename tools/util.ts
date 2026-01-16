@@ -42,7 +42,8 @@ const outputPath = path.join(__dirname, '..', 'public', 'config');
 export function save(data: any, outputName: string) {
   fs.writeFileSync(
     path.join(outputPath, outputName),
-    JSON.stringify(data.map(removeNullFields), null, 2),
+    // JSON.stringify(data.map(removeNullFields), null, 2),
+    JSON.stringify(data.map(removeNullFields)),
     'utf-8'
   );
 }
