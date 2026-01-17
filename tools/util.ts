@@ -39,11 +39,11 @@ export function processImageUrl(imageUrl: string): string {
 const __dirname = path.join(process.cwd(), 'tools');
 const outputPath = path.join(__dirname, '..', 'public', 'config');
 
-export function save(data: any, outputName: string) {
+export function save(data: any, outputName: string, isBeautify = false) {
+  let spacing = isBeautify ? 2 : 0;
   fs.writeFileSync(
     path.join(outputPath, outputName),
-    // JSON.stringify(data.map(removeNullFields), null, 2),
-    JSON.stringify(data.map(removeNullFields)),
+    JSON.stringify(data.map(removeNullFields), null, spacing),
     'utf-8'
   );
 }
@@ -63,6 +63,7 @@ export const versionMap: Record<string, Version> = {
   '1.9.0': Version.The190,
   '2.0.0': Version.The200,
   '2.0.4': Version.The204,
+  '3.0.0': Version.The300,
 };
 
 export const sizeMap: Record<string, ItemSize> = {

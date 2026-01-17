@@ -95,6 +95,7 @@ export const Version = {
   The1110: 12,
   The200: 13,
   The204: 14,
+  The300: 15,
 } as const;
 
 export type Version = (typeof Version)[keyof typeof Version];
@@ -159,6 +160,7 @@ export const Currency = {
   NookMiles: 3,
   NookPoints: 4,
   Poki: 5,
+  HotelTickets: 6,
 } as const;
 
 export type Currency = (typeof Currency)[keyof typeof Currency];

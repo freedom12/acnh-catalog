@@ -58,7 +58,6 @@ for (const [key, value] of Object.entries(data)) {
 function convert(datas: any) {
   const maps = data.maps;
   const locale = data.locale;
-
   // 辅助函数：递归映射值
   function mapValue(val: any, mapEntry: any, localeEntry: any): any {
     if (typeof val === 'number') {
@@ -78,8 +77,12 @@ function convert(datas: any) {
 
   for (const [key, data] of Object.entries(datas)) {
     for (const [key, value] of Object.entries(data as Record<string, unknown>)) {
-      const mapEntry = maps[key];
-      const localeEntry = locale[key];
+      let mapEntry = maps[key];
+      let localeEntry = locale[key];
+      if (key === 'pat') {
+        mapEntry = maps['var'];
+        localeEntry = locale['var'];
+      }
       if (!mapEntry) continue;
       const mapped = mapValue(value, mapEntry, localeEntry);
       (data as Record<string, unknown>)[key] = mapped;

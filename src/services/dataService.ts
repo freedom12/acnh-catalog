@@ -83,6 +83,7 @@ export const versionNameMap: Record<Version, string> = {
   [Version.The1110]: '1.11.0',
   [Version.The200]: '2.0.0',
   [Version.The204]: '2.0.4',
+  [Version.The300]: '3.0.0',
 };
 
 export const itemSizeNameMap: Record<ItemSize, string> = {
@@ -155,6 +156,7 @@ export const CurrencyNameMap: Record<Currency, string> = {
   [Currency.NookMiles]: 'Nook里程',
   [Currency.NookPoints]: 'Nook点数',
   [Currency.Poki]: '波金',
+  [Currency.HotelTickets]: '旅店券',
 };
 
 export const getImgUrl = (path: string) => {
@@ -165,6 +167,8 @@ function getTranslation(
   key: string,
   translationMap: Record<string, string> | undefined
 ): string {
+  key = key.trim();
+  key = key.toLowerCase();
   return translationMap?.[key] || key;
 }
 
@@ -286,14 +290,7 @@ export function getCurrencyName(currency: Currency): string {
 }
 
 export function getCurrencyIcon(currency: Currency): string {
-  const iconMap: Record<Currency, string> = {
-    [Currency.Bells]: getImgUrl('img/icon/currency_1.png'),
-    [Currency.HeartCrystals]: getImgUrl('img/icon/currency_2.png'),
-    [Currency.NookMiles]: getImgUrl('img/icon/currency_3.png'),
-    [Currency.NookPoints]: getImgUrl('img/icon/currency_4.png'),
-    [Currency.Poki]: getImgUrl('img/icon/currency_5.png'),
-  };
-  return iconMap[currency];
+  return getImgUrl(`img/icon/currency_${currency}.png`);
 }
 
 export function getCreatureTypeIcon(type: CreatureType): string {
@@ -770,6 +767,14 @@ export async function loadTranslations(): Promise<Translations> {
     }
     const data: Translations = (await response.json()) as Translations;
     translationsCache = data;
+    // 把key小写
+    for (const sectionKey in data) {
+      const section = data[sectionKey as keyof Translations];
+      for (const [key, value] of Object.entries(section)) {
+        delete section[key];
+        section[key.toLowerCase()] = value;
+      }
+    }
     return data;
   } catch (error) {
     console.error('加载翻译数据失败:', error);

@@ -1107,14 +1107,14 @@
       "brass"
     ],
     "pat": [
-      1656,
-      1657,
-      1658,
-      1315,
-      1659,
-      1660,
-      1661,
-      1662
+      "fuku_good_fortune",
+      "flowers_10",
+      "matsuri_festival",
+      "crest",
+      "red_white_stripes_2",
+      "blue_white_stripes",
+      "yellow_white_stripes",
+      "green_white_stripes"
     ],
     "clr": [
       [
@@ -1783,14 +1783,14 @@
       "silver"
     ],
     "pat": [
-      1663,
-      1664,
-      1665,
-      1666,
-      1667,
-      1668,
-      1669,
-      1670
+      "cafe_menu",
+      "drink_menu",
+      "fast_food_menu",
+      "dinner_menu",
+      "ice_cream_menu",
+      "timetable",
+      "service_numbers",
+      "stock_updates"
     ],
     "clr": [
       "black",
@@ -2178,14 +2178,14 @@
       "brass"
     ],
     "pat": [
-      1656,
-      1657,
-      1658,
-      1315,
-      1659,
-      1660,
-      1661,
-      1662
+      "fuku_good_fortune",
+      "flowers_10",
+      "matsuri_festival",
+      "crest",
+      "red_white_stripes_2",
+      "blue_white_stripes",
+      "yellow_white_stripes",
+      "green_white_stripes"
     ],
     "clr": [
       [
@@ -3098,14 +3098,14 @@
       "0_7"
     ],
     "pat": [
-      32,
-      2,
-      3,
-      1872,
-      11,
-      5,
-      6,
-      1873
+      "berry_red",
+      "green",
+      "yellow",
+      "light_blue_2",
+      "white",
+      "navy_blue",
+      "black",
+      "purple_5"
     ],
     "clr": [
       "red",
@@ -3187,14 +3187,14 @@
       "0_7"
     ],
     "pat": [
-      11,
-      110,
-      12,
-      9,
-      1385,
-      1386,
-      1387,
-      1388
+      "white",
+      "light_gray",
+      "pink",
+      "light_blue",
+      "yellow_design",
+      "green_design",
+      "orange_design",
+      "navy_design"
     ],
     "clr": [
       [
@@ -3303,14 +3303,14 @@
       "0_7"
     ],
     "pat": [
-      11,
-      3,
-      10,
-      1,
-      12,
-      4,
-      0,
-      2
+      "white",
+      "yellow",
+      "orange",
+      "red",
+      "pink",
+      "purple",
+      "blue",
+      "green"
     ],
     "clr": [
       "white",
@@ -3437,14 +3437,14 @@
       "silver"
     ],
     "pat": [
-      1904,
-      1905,
-      1906,
-      1907,
-      1908,
-      1909,
-      1910,
-      1911
+      "presentation",
+      "video_meeting",
+      "currency_exchange",
+      "security_footage",
+      "weather_forecast",
+      "operations_data",
+      "sports_broadcast",
+      "error_screen"
     ],
     "clr": [
       [
@@ -3662,14 +3662,14 @@
       "brown"
     ],
     "pat": [
-      1912,
-      1913,
-      394,
-      393,
-      1914,
-      1915,
-      1916,
-      1917
+      "default",
+      "↑",
+      "→",
+      "←",
+      "no_entry_2",
+      "coffee_3",
+      "luggage",
+      "parking"
     ],
     "clr": [
       [
@@ -4117,13 +4117,13 @@
       "0_6"
     ],
     "pat": [
-      1938,
-      1939,
-      1940,
-      1941,
-      1599,
-      1942,
-      1943
+      "special",
+      "tableware",
+      "cafe_menu_3",
+      "warning_3",
+      "heart_2",
+      "hand_washing",
+      "vintage_sign_2"
     ],
     "clr": [
       "red",
@@ -4230,14 +4230,14 @@
       "white"
     ],
     "pat": [
-      1967,
-      1968,
-      1969,
-      1970,
-      1971,
-      830,
-      963,
-      1972
+      "plain_15",
+      "seven_treasures_shippou",
+      "arrow_fletchings_yagasuri",
+      "balloon_flowers",
+      "lucky_cats_maneki_neko",
+      "cranes",
+      "wisteria_3",
+      "circle_ensou"
     ],
     "clr": [
       [
@@ -4411,14 +4411,14 @@
       "white"
     ],
     "pat": [
-      1967,
-      1973,
-      1974,
-      354,
-      1975,
-      1976,
-      1977,
-      1978
+      "plain_15",
+      "cherry_blossoms_4",
+      "well_frame_pattern_igeta_2",
+      "bamboo",
+      "hemp_leaves_asanoha",
+      "maple_leaves_2",
+      "crests",
+      "koori_ice"
     ],
     "clr": [
       [
