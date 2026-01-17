@@ -29,7 +29,7 @@ export function genRecipe(items?: Item[]) {
     if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
     let materials: [number, number][] = [];
     for (const [materialName, quantity] of Object.entries(oldRecipe.materials)) {
-      const item = items.find((i) => i.rawName === materialName);
+      const item = items.find((i) => i.nr === materialName);
       if (item) {
         materials.push([item.id, quantity]);
       } else {

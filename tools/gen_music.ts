@@ -15,7 +15,7 @@ export function genMusic(items?: Item[]) {
   );
   let musics: Music[] = [];
   for (const entry of musicCfg) {
-    const item = items?.find((i) => i.rawName === entry.rawName);
+    const item = items?.find((i) => i.nr === entry.rawName);
     if (!item) {
       console.log(`音乐未找到物品: ${entry.rawName}`);
       continue;
@@ -34,13 +34,13 @@ export function genMusic(items?: Item[]) {
       id: item.id,
       order: entry.order || 0,
       name: entry.name,
-      rawName: item.rawName,
+      rawName: item.nr,
       image: processImageUrl(
-        item.images?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
+        item.imgs?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
       ),
       ver: item.ver,
       mood: mood || '',
-      hasRadio: item.images?.[1] ? true : false,
+      hasRadio: item.imgs?.[1] ? true : false,
     };
     musics.push(music);
   }

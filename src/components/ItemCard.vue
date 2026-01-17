@@ -200,19 +200,19 @@ const toggleHhaExpanded = () => {
           class="inline-icon"
           loading="lazy"
         />
-        {{ itemModel.vTitleName }} - {{ itemModel.currentVariant?.name }}
+        {{ itemModel.vTitleName }} - {{ itemModel.getVName() }}
       </span>
       <span class="variants-label"></span>
       <div class="variants-list">
         <span
-          v-for="(vg, vIdx) in itemModel.variantGroups"
+          v-for="(_, vIdx) in itemModel.variantGroups"
           :key="vIdx"
           class="variation-dot variant-dot"
           :class="{
             active: vIdx === variantIndex,
             blue: itemModel.isCustomizeVariantOnlyByCyrus(vIdx),
           }"
-          :title="vg.name || `${itemModel.vTitleName} ${vIdx + 1}`"
+          :title="itemModel.getVName(vIdx) || `${itemModel.vTitleName} ${vIdx + 1}`"
           @click="variantIndex = vIdx"
         >
           <img
@@ -233,17 +233,17 @@ const toggleHhaExpanded = () => {
           class="inline-icon"
           loading="lazy"
         />
-        {{ itemModel.pTitleName }} - {{ itemModel.currentPattern?.name }}
+        {{ itemModel.pTitleName }} - {{ itemModel.getPName() }}
       </span>
       <div v-if="itemModel.hasPatterns" class="variants-list">
         <span
-          v-for="(p, pIdx) in currentVariant!.ps"
+          v-for="(_, pIdx) in currentVariant!.ps"
           :key="pIdx"
           class="variation-dot"
           :class="{
             active: pIdx === patternIndex,
           }"
-          :title="p.name || `${itemModel.pTitleName} ${pIdx + 1}`"
+          :title="itemModel.getPName(pIdx) || `${itemModel.pTitleName} ${pIdx + 1}`"
           @click="patternIndex = pIdx"
         >
           {{ pIdx + 1 }}

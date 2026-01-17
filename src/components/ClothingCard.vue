@@ -142,18 +142,18 @@ const handleClick = () => {
       :class="['variants-section', { 'variants-section--pink': !itemModel.canCustomize }]"
     >
       <span class="variants-label">
-        {{ itemModel.currentVariant?.name }}
+        {{ itemModel.getVName()  }}
       </span>
       <span class="variants-label"></span>
       <div class="variants-list">
         <span
-          v-for="(vg, vIdx) in itemModel.variantGroups"
+          v-for="(_, vIdx) in itemModel.variantGroups"
           :key="vIdx"
           class="variation-dot variant-dot"
           :class="{
             active: vIdx === variantIndex,
           }"
-          :title="vg.name || `${vIdx + 1}`"
+          :title="itemModel.getVName(vIdx) || `${vIdx + 1}`"
           @click="variantIndex = vIdx"
         >
           {{ vIdx + 1 }}

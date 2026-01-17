@@ -33,10 +33,10 @@ export function genPlant(items?: Item[]) {
         }
         plants.push({
           id: item.id,
-          name: item.name,
-          rawName: item.rawName,
+          name: item.n,
+          rawName: item.nr,
           ver: item.ver,
-          images: item.images,
+          images: item.imgs,
           type: plantType,
           sell: item.sell ?? 0,
           product: product || undefined,

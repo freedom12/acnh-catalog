@@ -50,7 +50,7 @@ const image = computed(() => {
   if (!pattern) {
     return itemModel.value.image;
   }
-  return processImageUrl(pattern.image);
+  return processImageUrl(pattern.img);
 });
 
 const showPreview = ref(false);

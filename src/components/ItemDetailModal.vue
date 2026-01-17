@@ -48,11 +48,11 @@ const allVariants = computed(() => {
   variants.forEach((variant) => {
     variant.ps.forEach((pattern) => {
       flatVariants.push({
-        variantName: variant.name,
-        patternName: pattern.name,
-        image: pattern.image,
+        variantName: variant.n,
+        patternName: pattern.n,
+        image: pattern.img,
         id: pattern.id,
-        colors: pattern.colors,
+        colors: pattern.cols,
       });
     });
   });

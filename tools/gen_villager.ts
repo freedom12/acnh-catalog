@@ -87,7 +87,7 @@ export function genVillager(items?: Item[]) {
   items = items || genItem();
   let itemMap = new Map<string, Item>();
   for (const item of items) {
-    itemMap.set(item.rawName, item);
+    itemMap.set(item.nr, item);
   }
   let villagers: Villager[] = [];
   for (const oldVillager of oldVillagers) {

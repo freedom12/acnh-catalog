@@ -72,19 +72,19 @@ export class ItemModel {
   }
 
   get order(): number {
-    return this._data.order;
+    return this._data.order ?? 999999;
   }
 
   get name(): string {
-    return this._data.name;
+    return this._data.n;
   }
 
   get rawName(): string {
-    return this._data.rawName;
+    return this._data.nr;
   }
 
   get images(): string[] {
-    return this._data.images.map(processImageUrl);
+    return this._data.imgs.map(processImageUrl);
   }
 
   get image(): string {
@@ -128,7 +128,7 @@ export class ItemModel {
     return itemSizeNameMap[this.size] || '未知尺寸';
   }
   get colors(): Color[] {
-    return this._data.colors;
+    return this._data.cols;
   }
 
   hasColor(color: Color): boolean {
@@ -185,7 +185,7 @@ export class ItemModel {
   }
 
   get sources(): string[] {
-    return this._data.source || [];
+    return this._data.srcs || [];
   }
 
   hasSource(source: string): boolean {
@@ -197,7 +197,7 @@ export class ItemModel {
   }
 
   get sourceNotes(): string[] {
-    return this._data.sourceNotes || [];
+    return this._data.srcN || [];
   }
 
   get sourceWithNotes(): Array<{ name: string; note?: string }> {
@@ -220,11 +220,11 @@ export class ItemModel {
   }
 
   get hhaPoints(): number | null {
-    return this._data.points || null;
+    return this._data.hpt || null;
   }
 
   get hhaSeries(): string {
-    return this._data.series || '';
+    return this._data.hser || '';
   }
 
   get hhaSeriesName(): string {
@@ -232,7 +232,7 @@ export class ItemModel {
   }
 
   get hhaConcepts(): string[] {
-    return this._data.concepts || [];
+    return this._data.hcpt || [];
   }
 
   get hhaConceptNames(): string[] {
@@ -240,7 +240,7 @@ export class ItemModel {
   }
 
   get hhaSet(): string {
-    return this._data.set || '';
+    return this._data.hset || '';
   }
 
   get hhaSetName(): string {
@@ -248,7 +248,7 @@ export class ItemModel {
   }
 
   get hhaCategory(): string {
-    return this._data.category || '';
+    return this._data.hcat || '';
   }
 
   get hhaCategoryName(): string {
@@ -256,7 +256,7 @@ export class ItemModel {
   }
 
   get clothingThemes(): string[] {
-    return this._data.themes || [];
+    return this._data.thms || [];
   }
 
   get clothingThemeNames(): string[] {
@@ -264,7 +264,7 @@ export class ItemModel {
   }
 
   get clothingStyles(): string[] {
-    return this._data.styles || [];
+    return this._data.stls || [];
   }
 
   get clothingStyleNames(): string[] {
@@ -272,7 +272,7 @@ export class ItemModel {
   }
 
   get recipeId(): number | null {
-    return this._data.recipe || null;
+    return this._data.diy || null;
   }
 
   get canDIY(): boolean {
@@ -330,7 +330,7 @@ export class ItemModel {
 
   get canCustomizeVariantBySelf(): boolean {
     if (!this._data.iv) return false;
-    return this._data.iv[0];
+    return this._data.iv[0] === 1 || this.indexCustomizeVariantOnlyByCyrus !== null;
   }
 
   get canCustomizeVariantByCyrus(): boolean {
@@ -341,7 +341,7 @@ export class ItemModel {
   get indexCustomizeVariantOnlyByCyrus(): number | null {
     if (!this._data.iv) return null;
     const index = this._data.iv[2];
-    return index;
+    return index !== undefined ? index : null;
   }
 
   isCustomizeVariantOnlyByCyrus(vIndex: number): boolean {
@@ -354,19 +354,19 @@ export class ItemModel {
   }
 
   get canCustomizePattern(): boolean {
-    return this._data.ip ? this._data.ip[0] : false;
+    return this._data.ip ? this._data.ip[0] === 1 : false;
   }
 
   get canCustomizePatternWithSableDesign(): boolean {
-    return this._data.ip ? this._data.ip[1] : false;
+    return this._data.ip ? this._data.ip[1] === 1 : false;
   }
   get canCustomizePatternWithMyDesign(): boolean {
-    return this._data.ip ? this._data.ip[2] : false;
+    return this._data.ip ? this._data.ip[2] === 1 : false;
   }
 
   get cusCostStrs(): string[] {
     if (!this._data.iv) return [];
-    const [_ , price, __] = this._data.iv;
+    const [_, price, __] = this._data.iv;
     const parts: string[] = [];
     if (price) {
       parts.push(getPriceWithIcon(price));
@@ -425,6 +425,22 @@ export class ItemModel {
     return variant.ps[index] || null;
   }
 
+  getVName(vIndex?: number): string {
+    vIndex = vIndex !== undefined ? vIndex : this.variantIndex;
+    if (this._data.vn && vIndex >= 0 && vIndex < this._data.vn.length) {
+      return this._data.vn[vIndex] || '';
+    }
+    return '';
+  }
+
+  getPName(pIndex?: number): string {
+    pIndex = pIndex !== undefined ? pIndex : this.patternIndex;
+    if (this._data.pn && pIndex >= 0 && pIndex < this._data.pn.length) {
+      return this._data.pn[pIndex] || '';
+    }
+    return '';
+  }
+
   getDisplayId(): number {
     const pattern = this.currentPattern;
     return pattern?.id || this.id;
@@ -432,27 +448,20 @@ export class ItemModel {
 
   getDisplayColors(): Color[] {
     const pattern = this.currentPattern;
-    return pattern?.colors || this.colors;
+    return pattern?.cols || this.colors;
   }
 
   getDisplayImages(): string[] {
-    const pattern = this.currentPattern;
-    const imageUrl = pattern?.image || this.image;
-    // 拷贝一个images数组，替换第一个元素为当前图案图片
-    const images = [...this.images];
-    images[0] = imageUrl;
-    return images.map(processImageUrl);
+    return this.getPatternImages();
   }
 
   getDisplayName(): string {
     const parts = [this.name];
-    const variant = this.currentVariant;
-    if (variant?.name) {
-      parts.push(variant.name);
+    if (this._data.vn) {
+      parts.push(this._data.vn[this.variantIndex] || '');
     }
-    const pattern = this.currentPattern;
-    if (pattern?.name) {
-      parts.push(pattern.name);
+    if (this._data.pn) {
+      parts.push(this._data.pn[this.patternIndex] || '');
     }
     return parts.join(' - ');
   }
@@ -466,6 +475,35 @@ export class ItemModel {
       }
     }
     return null;
+  }
+
+  getPattern(vIndex?: number, pIndex?: number): Pattern | null {
+    let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
+    let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
+    const variants = this.variantGroups;
+    if (vIdx < 0 || vIdx >= variants.length) return null;
+    const variant = variants[vIdx];
+    if (!variant) return null;
+    if (pIdx < 0 || pIdx >= variant.ps.length) return null;
+    return variant.ps[pIdx] || null;
+  }
+
+  getPatternImages(vIndex?: number, pIndex?: number): string[] {
+    let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
+    let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
+    let rawImages = [...this._data.imgs];
+    let images = rawImages.map((img) => {
+      if (this.isClothing) {
+        let imgIndex = this.getPattern(vIdx, pIdx)?.i;
+        if (imgIndex !== undefined) {
+          img = img.slice(0, -1) + imgIndex;
+        }
+      } else if (img.includes('0_0')) {
+        img = img.replace('0_0', `${vIdx}_${pIdx}`);
+      }
+      return processImageUrl(img);
+    });
+    return images;
   }
   // ============ 工具方法 ============
 
@@ -487,7 +525,7 @@ export class ItemModel {
       if (variant) {
         for (let pIdx = 0; pIdx < variant.ps.length; pIdx++) {
           const pattern = variant.ps[pIdx];
-          if (pattern?.colors.includes(color)) {
+          if (pattern?.cols.includes(color)) {
             return { variantIndex: vIdx, patternIndex: pIdx };
           }
         }
@@ -527,17 +565,6 @@ export class ItemModel {
       }
     }
     return false;
-  }
-
-  getPattern(vIndex?: number, pIndex?: number): Pattern | null {
-    let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
-    let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
-    const variants = this.variantGroups;
-    if (vIdx < 0 || vIdx >= variants.length) return null;
-    const variant = variants[vIdx];
-    if (!variant) return null;
-    if (pIdx < 0 || pIdx >= variant.ps.length) return null;
-    return variant.ps[pIdx] || null;
   }
 
   // ============ 匹配筛选方法 ============

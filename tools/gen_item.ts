@@ -67,31 +67,26 @@ function processVariations(oldItem: OldItem): Variant[] {
     return [];
   }
 
-  const variantMap = new Map<string, Variant>();
-
+  const variants: Variant[] = [];
+  const variantNamesSet = new Set<string>();
   oldItem.variations.forEach((v) => {
-    const variantName = String(v.variantTranslations?.cNzh || v.variation || '');
-
-    if (!variantMap.has(variantName)) {
-      variantMap.set(variantName, {
-        name: variantName,
-        ps: [],
-      });
+    const variantName = String(v.variation || '');
+    if (!variantNamesSet.has(variantName)) {
+      variants.push({ ps: [] });
+      variantNamesSet.add(variantName);
     }
 
-    const variant = variantMap.get(variantName)!;
+    const variant = variants[variants.length - 1];
     const patternColors = v.colors || oldItem.colors || [];
     variant.ps.push({
-      name: v.patternTranslations?.cNzh || v.pattern || '',
-      image: processImageUrl(v.image || v.storageImage || v.closetImage || ''),
       id: v.internalId,
-      colors: Array.from(
+      cols: Array.from(
         new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
       ),
     });
   });
 
-  return Array.from(variantMap.values());
+  return variants;
 }
 
 function getDefaultDisplayProperties(
@@ -110,7 +105,7 @@ function getDefaultDisplayProperties(
       const firstPattern = firstVariant.ps[0];
       if (firstPattern) {
         id = firstPattern.id || id;
-        colors = firstPattern.colors || colors;
+        colors = firstPattern.cols || colors;
       }
     }
   }
@@ -122,6 +117,29 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   const name = oldItem.translations?.cNzh || oldItem.name;
   const variants = processVariations(oldItem);
   const { id, colors } = getDefaultDisplayProperties(oldItem, variants);
+  for (const variant of variants) {
+    for (const pattern of variant.ps) {
+      if (pattern.id === id) {
+        pattern.id = undefined;
+      }
+    }
+  }
+  let vNames = [];
+  let pNames = [];
+  let vNamesSet = new Set<string>();
+  let pNamesSet = new Set<string>();
+  for (const variant of oldItem.variations || []) {
+    let vName = String(variant.variantTranslations?.cNzh || variant.variation || '');
+    if (!vNamesSet.has(vName)) {
+      vNamesSet.add(vName);
+      vNames.push(vName);
+    }
+    let pName = String(variant.patternTranslations?.cNzh || variant.pattern || '');
+    if (!pNamesSet.has(pName)) {
+      pNamesSet.add(pName);
+      pNames.push(pName);
+    }
+  }
 
   let images = [];
   if (oldItem.inventoryImage) images.push(processImageUrl(oldItem.inventoryImage));
@@ -143,6 +161,17 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     images.push(processImageUrl(oldItem.recipe.image));
   }
 
+  //特殊处理服饰变体
+  let itemType = sourceSheetMap[oldItem.sourceSheet];
+  if (oldItem.variations && oldItem.variations[0].closetImage) {
+    for (const [i, v] of oldItem.variations.entries()) {
+      let variant = variants[i]?.ps[0];
+      if (variant && v.closetImage) {
+        let str = path.basename(v.closetImage).slice(-5, -4);
+        variant.i = Number(str);
+      }
+    }
+  }
   let concepts = oldItem.concepts || oldItem.variations?.[0].concepts || undefined;
   concepts = concepts && concepts.length > 0 ? concepts : undefined;
   let category = oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
@@ -159,35 +188,32 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   let cusKitCost = oldItem.kitCost || 0;
   let kitType = oldItem.variations?.[0].kitType;
   let cusKitType = kitType ? kitTypeMap[kitType] : KitType.Normal;
-  if (id === 3333) {
-    console.log(cusKitCost, cusKitType);
-  }
+
   return {
     id,
-    order: 100000,
-    name,
-    rawName: oldItem.name,
-    type: sourceSheetMap[oldItem.sourceSheet],
-    images,
-    colors,
+    n: name,
+    nr: oldItem.name,
+    type: itemType,
+    imgs: images,
+    cols: colors,
     ver: oldItem.versionAdded ? versionMap[oldItem.versionAdded] : Version.The100,
     cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
-    source: oldItem.source,
-    sourceNotes: oldItem.sourceNotes || undefined,
+    srcs: oldItem.source,
+    srcN: oldItem.sourceNotes || undefined,
     acts: acts,
     size: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
-    points: oldItem.hhaBasePoints || undefined,
-    series: oldItem.series || undefined,
-    themes: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
-    set: oldItem.set || undefined,
-    styles:
+    hpt: oldItem.hhaBasePoints || undefined,
+    hser: oldItem.series || undefined,
+    thms: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
+    hset: oldItem.set || undefined,
+    stls:
       oldItem.styles && oldItem.styles.length > 0
         ? Array.from(new Set(oldItem.styles))
         : undefined,
-    concepts,
-    category,
-    recipe: oldItem.recipe ? oldItem.recipe.internalId : undefined,
+    hcpt: concepts,
+    hcat: category,
+    diy: oldItem.recipe ? oldItem.recipe.internalId : undefined,
     buy: oldItem.buy || undefined,
     sell: oldItem.sell || undefined,
     exch: oldItem.exchangePrice
@@ -196,12 +222,14 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     vs: variants.length > 0 ? variants : undefined,
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
+    vn: vNames.length > 0 ? vNames : undefined,
+    pn: pNames.length > 0 ? pNames : undefined,
     iv:
       oldItem.bodyCustomize || (acnhItemData && acnhItemData?.ccp)
-        ? [!!oldItem.bodyCustomize, acnhItemData?.ccp || 0, acnhItemData?.nvc]
+        ? [oldItem.bodyCustomize ? 1 : 0, acnhItemData?.ccp || 0, acnhItemData?.nvc]
         : undefined,
     ip: oldItem.patternCustomize
-      ? [!!oldItem.patternCustomize, !!acnhItemData?.spt, !!acnhItemData?.cpt]
+      ? [oldItem.patternCustomize ? 1 : 0, acnhItemData?.spt ? 1 : 0, acnhItemData?.cpt ? 1 : 0]
       : undefined,
     cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
     vfx: oldItem.vfx || undefined,
@@ -261,19 +289,19 @@ export function genItemV1(activitys?: Activity[]): Item[] {
     const item: Item = {
       id: oldCreature.internalId,
       order: oldCreature.num,
-      name: oldCreature.translations?.cNzh || oldCreature.name,
-      rawName: oldCreature.name,
-      images: [processImageUrl(oldCreature.furnitureImage)],
+      n: oldCreature.translations?.cNzh || oldCreature.name,
+      nr: oldCreature.name,
+      imgs: [processImageUrl(oldCreature.furnitureImage)],
       type: ItemType.Creature,
       ver: oldCreature.versionAdded
         ? versionMap[oldCreature.versionAdded]
         : Version.The100,
-      colors: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
+      cols: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
       cat: Catalog.NotForSale,
       size: sizeMap[oldCreature.size],
       sell: oldCreature.sell,
-      points: oldCreature.hhaBasePoints,
-      category: oldCreature.hhaCategory ?? undefined,
+      hpt: oldCreature.hhaBasePoints,
+      hcat: oldCreature.hhaCategory ?? undefined,
       tag: oldCreature.sourceSheet,
     };
     items.push(item);
@@ -318,7 +346,7 @@ function sortItems(items: Item[]): Item[] {
       return a.type - b.type;
     }
     if (a.order !== b.order) {
-      return a.order - b.order;
+      return (a.order ?? 999999) - (b.order ?? 999999);
     }
     return a.id - b.id;
   });
@@ -395,28 +423,28 @@ function convertItemFromAcnhItemData(
   let item: Item = {
     id: Number(id.startsWith('c') ? acnhItemData.iid : id),
     order: 100000, //todo
-    name: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
-    rawName: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
-    images: [img], //todo
+    n: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
+    nr: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
+    imgs: [img], //todo
     type: ItemTypeMapV2[typeName],
     ver: acnhItemData.vad ? versionMap[acnhItemData.vad] : Version.The100,
-    colors: [Color.White],
+    cols: [Color.White],
     cat: Catalog.ForSale,
     buy: acnhItemData.buy,
     sell: acnhItemData.sel,
     exch: acnhItemData.exp
       ? [acnhItemData.exp, currencyMapV2[acnhItemData.exc]]
       : undefined,
-    source: ensureArray(acnhItemData.src)?.map(replaceStr),
+    srcs: ensureArray(acnhItemData.src)?.map(replaceStr),
     acts: ensureArray(acnhItemData.evt),
-    points: acnhItemData.hap,
-    series: acnhItemData.hat ? replaceStr(acnhItemData.hat) : undefined,
-    concepts: ensureArray(acnhItemData.has)?.map(replaceStr),
-    set: acnhItemData.hag ? replaceStr(acnhItemData.hag) : undefined,
-    category: acnhItemData.hac ? replaceStr(acnhItemData.hac) : undefined,
+    hpt: acnhItemData.hap,
+    hser: acnhItemData.hat ? replaceStr(acnhItemData.hat) : undefined,
+    hcpt: ensureArray(acnhItemData.has)?.map(replaceStr),
+    hset: acnhItemData.hag ? replaceStr(acnhItemData.hag) : undefined,
+    hcat: acnhItemData.hac ? replaceStr(acnhItemData.hac) : undefined,
 
-    themes: ensureArray(acnhItemData.lbl)?.map(replaceStr),
-    styles: ensureArray(acnhItemData.stl)?.map(replaceStr),
+    thms: ensureArray(acnhItemData.lbl)?.map(replaceStr),
+    stls: ensureArray(acnhItemData.stl)?.map(replaceStr),
   };
 
   return item;
@@ -437,7 +465,7 @@ export function genItemV2(): Item[] {
 }
 //#endregion
 
-function mergeItemV1AndV2(): Item[] {
+export function mergeItemV1AndV2(): Item[] {
   const itemsV1 = genItemV1();
   const itemsV2 = genItemV2();
   let itemMapV1 = new Map<number, Item>();
@@ -450,9 +478,7 @@ function mergeItemV1AndV2(): Item[] {
   }
 
   // 定义优先使用 v2 的字段列表
-  const v2Fields: (keyof Item)[] = [
-    'acts'
-  ];
+  const v2Fields: (keyof Item)[] = ['acts'];
 
   let mergedMap = new Map<number, Item>();
 
@@ -487,5 +513,5 @@ function mergeItemV1AndV2(): Item[] {
 export const genItem = genItemV1;
 
 if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
-  save(genItem(), 'acnh-items.json', true);
+  save(genItem(), 'acnh-items.json');
 }

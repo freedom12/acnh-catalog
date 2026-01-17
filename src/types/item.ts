@@ -176,10 +176,9 @@ export type KitType = (typeof KitType)[keyof typeof KitType];
  * 表示物品的一个具体图案（如家具的不同花纹）
  */
 export interface Pattern {
-  name: string; // 图案名称
-  image: string; // 图案图片
-  id: number; // 图案ID
-  colors: Color[]; // 图案颜色列表
+  id?: number; // 服饰ID
+  i?: number; // 服饰图片顺序
+  cols: Color[]; // 图案颜色列表
 }
 
 /**
@@ -188,7 +187,6 @@ export interface Pattern {
  * 一个变体可以包含多个图案
  */
 export interface Variant {
-  name: string; // 变体名称
   ps: Pattern[]; // 该变体的所有图案
 }
 
@@ -198,40 +196,42 @@ export interface Variant {
  */
 export interface Item {
   id: number; // 物品ID
-  order: number; // 物品排序
-  name: string; // 物品名称
-  rawName: string; // 物品原始名称
-  images: string[]; // 物品所有图片
+  order?: number; // 物品排序
+  n: string; // 物品名称
+  nr: string; // 物品原始名称
+  imgs: string[]; // 物品所有图片
   type: ItemType; // 物品类型
   ver: Version; // 添加版本
-  colors: Color[]; // 物品颜色列表
+  cols: Color[]; // 物品颜色列表
   size?: ItemSize; // 物品尺寸
   cat: Catalog; // 目录状态
   buy?: Price; // 购买价格
   sell?: Price; // 出售价格
   exch?: Price; // 兑换价格
 
-  source?: string[]; // 获取来源
-  sourceNotes?: string[];
+  srcs?: string[]; // 获取来源
+  srcN?: string[];
   acts?: string[];
 
   tag?: string; // 标签（家具）
-  points?: number; // HHA积分
-  series?: string; // HHA主题
-  concepts?: string[]; // HHA场景
-  set?: string; // HHA套组
-  category?: string; // HHA分类
+  hpt?: number; // HHA积分
+  hser?: string; // HHA主题
+  hcpt?: string[]; // HHA场景
+  hset?: string; // HHA套组
+  hcat?: string; // HHA分类
 
-  themes?: string[]; // 服饰主题（棉儿要求）
-  styles?: string[]; // 服饰风格（村民喜好）
+  thms?: string[]; // 服饰主题（棉儿要求）
+  stls?: string[]; // 服饰风格（村民喜好）
 
   vs?: Variant[]; // 变体组列表
   vt?: string; // 变体标题
   pt?: string; // 图案标题
-  iv?: [boolean, number, number]; // 是否可改造样式/健兆改造花费/仅可通过健兆获得的款式index
-  ip?: [boolean, boolean, boolean]; // 是否可改造图案/麻儿图案/我的设计
+  vn?: string[]; // 变体名称列表
+  pn?: string[]; // 图案名称列表
+  iv?: [number, number, number?]; // 是否可改造样式/健兆改造花费/仅可通过健兆获得的款式index
+  ip?: [number, number, number]; // 是否可改造图案/麻儿图案/我的设计
   cus?: CusCost; // 改造的消耗
-  recipe?: number; // 配方数据
+  diy?: number; // 配方数据
   vfx?: boolean; // 是否有特效(壁纸/地板)
 }
 
