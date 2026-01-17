@@ -98,6 +98,12 @@ const toggleHhaExpanded = () => {
         :title="itemModel.catalogName"
         class="inline-icon gray"
       />
+      <img
+        v-if="itemModel.canDIY"
+        :src="getImgUrl('img/icon/diy.png')"
+        title="可DIY"
+        class="inline-icon"
+      />
     </div>
     <div class="detail-row">
       <span class="detail-label">分类</span>

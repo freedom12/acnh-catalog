@@ -83,6 +83,12 @@ const handleClick = () => {
         :title="itemModel.catalogName"
         class="inline-icon gray"
       />
+      <img
+        v-if="itemModel.canDIY"
+        :src="getImgUrl('img/icon/diy.png')"
+        title="可DIY"
+        class="inline-icon"
+      />
     </div>
     <div class="detail-row">
       <span class="detail-label">分类</span>
@@ -143,7 +149,7 @@ const handleClick = () => {
       :class="['variants-section', { 'variants-section--pink': !itemModel.canCustomize }]"
     >
       <span class="variants-label">
-        {{ itemModel.getVName()  }}
+        {{ itemModel.getVName() }}
       </span>
       <span class="variants-label"></span>
       <div class="variants-list">
