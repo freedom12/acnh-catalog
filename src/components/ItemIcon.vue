@@ -42,7 +42,7 @@ const image = computed(() => {
   if (!pattern) {
     return itemModel.value.image;
   }
-  if (pattern.id != props.itemId) {
+  if (itemModel.value.id != props.itemId) {
     return itemModel.value.getPatternImagesById(props.itemId)[0];
   }
   return itemModel.value.getPatternImages(props.vIndex, props.pIndex)[0];
