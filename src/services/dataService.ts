@@ -16,6 +16,8 @@
   Hobby,
   Species,
   PlantType,
+  type Price,
+  type CusCost,
 } from '../types';
 import { RecipeType, type Recipe } from '../types/recipe';
 import { ConstructionType, type Construction } from '../types/construction';
@@ -33,9 +35,7 @@ import {
 } from '../types/item';
 import type { Activity } from '../types/activity';
 
-export type Price = [number, Currency] | number;
-export type CusCost = [number, KitType];
-let translationsCache: Translations | null = null;
+export let translationsCache: Translations | null = null;
 
 export const ItemTypeNameMap: Record<ItemType, string> = {
   [ItemType.Housewares]: '家具/家具',

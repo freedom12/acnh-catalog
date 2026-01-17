@@ -863,5 +863,24 @@
         "summer shells": "夏日贝壳",
         "young spring bamboo": "春竹",
         "π Day": "π日"
+    },
+    "regions": {
+        "eachcountry": "各国",
+        "asia": "亚洲",
+        "greaterchina": "大中华",
+        "europe": "欧洲",
+        "world": "全球"
+    },
+    "flags": {
+        "us": "美国",
+        "jp": "日本",
+        "br": "巴西",
+        "es": "西班牙",
+        "fr": "法国",
+        "de": "德国",
+        "it": "意大利",
+        "ru": "俄罗斯",
+        "kr": "韩国",
+        "mx": "墨西哥"
     }
 }

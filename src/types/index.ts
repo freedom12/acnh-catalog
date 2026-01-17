@@ -13,6 +13,9 @@ export * from './fossil';
 export * from './plant';
 export * from './achievement';
 
+export type Price = [number, import('./item').Currency] | number;
+export type CusCost = [number, import('./item').KitType];
+
 export interface Translations {
   sources: Record<string, string>;
   tags: Record<string, string>;
@@ -24,4 +27,6 @@ export interface Translations {
   categories: Record<string, string>;
   activitys: Record<string, string>;
   itemVariantTitles: Record<string, string>;
+  regions: Record<string, string>;
+  flags: Record<string, string>;
 }

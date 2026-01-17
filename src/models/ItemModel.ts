@@ -1,4 +1,4 @@
-import { type Item, type Variant, type Pattern } from '../types';
+import { type Item, type Variant, type Pattern, type Price } from '../types';
 import { reactive } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import {
@@ -14,7 +14,6 @@ import {
   getHHASetName,
   getClothingThemeName,
   getHHACategoryName,
-  type Price,
   getItemVariantTitle,
   getPriceWithIcon,
   getCusCost,
@@ -216,7 +215,7 @@ export class ItemModel {
   }
 
   get activityGroupNames(): string[] {
-    return this.activityGroups.map(getGroupName);
+    return this.activityGroups.map((group) => getGroupName(group, true) || group);
   }
 
   get hhaPoints(): number | null {

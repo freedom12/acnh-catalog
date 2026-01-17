@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { getSourceName } from '../services/dataService';
-import { useTooltip } from '../composables/useTooltip';
+import TooltipWrapper from './TooltipWrapper.vue';
 
 const props = defineProps<{
   sources: string[];
@@ -16,45 +16,27 @@ const sourceWithNotes = computed(() => {
     note: props.sourceNotes?.[index],
   }));
 });
-
-const { show, hide } = useTooltip();
-
-const showTooltip = (event: MouseEvent, note?: string) => {
-  if (!note) return;
-  show(event, note, props.tooltipMaxWidth);
-};
-
-const hideTooltip = () => {
-  hide();
-};
 </script>
 
 <template>
   <span v-if="inline" class="source-list-inline">
     <template v-for="(source, index) in sourceWithNotes" :key="index">
       <span v-if="index > 0">, </span>
-      <span
-        class="source-wrapper"
-        :class="{ 'has-note': source.note }"
-        @mouseenter="showTooltip($event, source.note)"
-        @mouseleave="hideTooltip"
-      >
+      <TooltipWrapper :tooltip="source.note" :maxWidth="tooltipMaxWidth">
         {{ source.name }}
-      </span>
+      </TooltipWrapper>
     </template>
   </span>
   <span v-else class="source-list-multi">
     <span v-if="sourceWithNotes.length === 0" class="source-wrapper"> -- </span>
-    <span
+    <TooltipWrapper
       v-for="(source, index) in sourceWithNotes"
       :key="index"
-      class="source-wrapper"
-      :class="{ 'has-note': source.note }"
-      @mouseenter="showTooltip($event, source.note)"
-      @mouseleave="hideTooltip"
+      :tooltip="source.note"
+      :maxWidth="tooltipMaxWidth"
     >
       {{ source.name }}
-    </span>
+    </TooltipWrapper>
   </span>
 </template>
 
@@ -69,10 +51,5 @@ const hideTooltip = () => {
 .source-wrapper {
   position: relative;
   display: inline-block;
-}
-
-.has-note {
-  border-bottom: 1px dashed #999;
-  cursor: help;
 }
 </style>

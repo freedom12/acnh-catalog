@@ -1,4 +1,4 @@
-import type { Price } from '../services/dataService';
+import type { Price } from './index';
 import type { ItemSize } from './item';
 
 export const FossilType = {

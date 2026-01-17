@@ -1,4 +1,4 @@
-import type { Price } from '../services/dataService';
+import type { Price } from './index';
 import { Color, type ItemSize, type Version } from './index';
 
 export const CreatureType = {
