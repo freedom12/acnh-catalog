@@ -1,5 +1,10 @@
 import { ref } from 'vue';
-import { loadActivityData, loadTranslations, translationsCache, getImgUrl } from '../services/dataService';
+import {
+  loadActivityData,
+  loadTranslations,
+  translationsCache,
+  getImgUrl,
+} from '../services/dataService';
 import type { Activity } from '../types/activity';
 
 const allActivitys = ref<Activity[]>([]);
@@ -10,7 +15,10 @@ let isDataLoaded = false;
 let loadingPromise: Promise<void> | null = null;
 
 export function useActivitysData() {
-  const getTranslation = (key: string, translationMap: Record<string, string> | undefined): string => {
+  const getTranslation = (
+    key: string,
+    translationMap: Record<string, string> | undefined
+  ): string => {
     key = key.trim().toLowerCase();
     return translationMap?.[key] || key;
   };
@@ -56,24 +64,39 @@ export function useActivitysData() {
     let name = activity.name;
     const parts: string[] = [];
     if (activity.region) {
-      const translatedRegion = getTranslation(activity.region, translationsCache?.regions);
-      parts.push(translatedRegion);
+      const translatedRegion = getTranslation(
+        activity.region,
+        translationsCache?.regions
+      );
+      if (isWithIcon) {
+        parts.push(
+          `<span style="background-color: #c1c1c1; padding: 0px 4px ; border-radius: 3px;">${translatedRegion}</span>`
+        );
+      } else {
+        parts.push(translatedRegion);
+      }
     }
     if (activity.flags && activity.flags.length > 0) {
       if (isWithIcon) {
-        const iconFlags = activity.flags.map(flag => {
+        const iconFlags = activity.flags.map((flag) => {
           const translatedFlag = getTranslation(flag, translationsCache?.flags);
           const iconUrl = getImgUrl(`img/icon/flag/${flag}.png`);
           return `<img src="${iconUrl}" title="${translatedFlag}" class="inline-icon" />`;
         });
         parts.push(iconFlags.join(''));
       } else {
-        const translatedFlags = activity.flags.map(flag => getTranslation(flag, translationsCache?.flags));
+        const translatedFlags = activity.flags.map((flag) =>
+          getTranslation(flag, translationsCache?.flags)
+        );
         parts.push(translatedFlags.join(','));
       }
     }
     if (parts.length > 0) {
-      name += '[' + parts.join(',') + ']';
+      if (isWithIcon) {
+        name += '' + parts.join('');
+      } else {
+        name += '[' + parts.join(',') + ']';
+      }
     }
     return name;
   };
@@ -116,8 +139,8 @@ export function useActivitysData() {
       if (!date) {
         // activity.years中选择首个
         console.log('使用years中的首个日期:', activity.name, activity.years);
-        if (activity.years) {
-          year = Object.keys(activity.years)[0];
+        if (activity.years && Object.keys(activity.years).length > 0) {
+          year = parseInt(Object.keys(activity.years)[0]!, 10);
           date = activity.years[year];
         }
         if (!date) {
