@@ -35,10 +35,10 @@ export function genPlant(items?: Item[]) {
           id: item.id,
           name: item.n,
           rawName: item.nr,
-          ver: item.ver,
-          images: item.imgs,
+          ver: item.v,
+          images: item.i,
           type: plantType,
-          sell: item.sell ?? 0,
+          sell: item.sel ?? 0,
           product: product || undefined,
           seeds: seeds || undefined,
         });

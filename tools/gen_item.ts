@@ -80,7 +80,7 @@ function processVariations(oldItem: OldItem): Variant[] {
     const patternColors = v.colors || oldItem.colors || [];
     variant.ps.push({
       id: v.internalId,
-      cols: Array.from(
+      c: Array.from(
         new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
       ),
     });
@@ -105,7 +105,7 @@ function getDefaultDisplayProperties(
       const firstPattern = firstVariant.ps[0];
       if (firstPattern) {
         id = firstPattern.id || id;
-        colors = firstPattern.cols || colors;
+        colors = firstPattern.c || colors;
       }
     }
   }
@@ -193,15 +193,15 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     id,
     n: name,
     nr: oldItem.name,
-    type: itemType,
-    imgs: images,
-    cols: colors,
-    ver: oldItem.versionAdded ? versionMap[oldItem.versionAdded] : Version.The100,
+    t: itemType,
+    i: images,
+    c: colors,
+    v: oldItem.versionAdded ? versionMap[oldItem.versionAdded] : Version.The100,
     cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
     srcs: oldItem.source,
     srcN: oldItem.sourceNotes || undefined,
     acts: acts,
-    size: oldItem.size ? sizeMap[oldItem.size] : undefined,
+    s: oldItem.size ? sizeMap[oldItem.size] : undefined,
     tag: oldItem.tag,
     hpt: oldItem.hhaBasePoints || undefined,
     hser: oldItem.series || undefined,
@@ -215,8 +215,8 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     hcat: category,
     diy: oldItem.recipe ? oldItem.recipe.internalId : undefined,
     buy: oldItem.buy || undefined,
-    sell: oldItem.sell || undefined,
-    exch: oldItem.exchangePrice
+    sel: oldItem.sell || undefined,
+    exc: oldItem.exchangePrice
       ? [oldItem.exchangePrice, currencyMap[oldItem.exchangeCurrency!]]
       : undefined,
     vs: variants.length > 0 ? variants : undefined,
@@ -263,13 +263,13 @@ function applyOtherItemsOrder(
       continue;
     }
 
-    if (item.type !== itemType) {
+    if (item.t !== itemType) {
       console.log(`其他物品排序类型不匹配: ${id} ${name}`);
       order += 1;
       continue;
     }
 
-    item.order = order;
+    item.o = order;
     order += 1;
   }
 }
@@ -288,18 +288,18 @@ export function genItemV1(activitys?: Activity[]): Item[] {
   for (const oldCreature of oldCreatures) {
     const item: Item = {
       id: oldCreature.internalId,
-      order: oldCreature.num,
+      o: oldCreature.num,
       n: oldCreature.translations?.cNzh || oldCreature.name,
       nr: oldCreature.name,
-      imgs: [processImageUrl(oldCreature.furnitureImage)],
-      type: ItemType.Creature,
-      ver: oldCreature.versionAdded
+      i: [processImageUrl(oldCreature.furnitureImage)],
+      t: ItemType.Creature,
+      v: oldCreature.versionAdded
         ? versionMap[oldCreature.versionAdded]
         : Version.The100,
-      cols: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
+      c: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
       cat: Catalog.NotForSale,
-      size: sizeMap[oldCreature.size],
-      sell: oldCreature.sell,
+      s: sizeMap[oldCreature.size],
+      sel: oldCreature.sell,
       hpt: oldCreature.hhaBasePoints,
       hcat: oldCreature.hhaCategory ?? undefined,
       tag: oldCreature.sourceSheet,
@@ -318,7 +318,7 @@ export function genItemV1(activitys?: Activity[]): Item[] {
       }
     }
     const newItem = convertItemFromOldItem(structure);
-    newItem.type = ItemType.InteriorStructures;
+    newItem.t = ItemType.InteriorStructures;
     items.push(newItem);
   }
 
@@ -342,11 +342,11 @@ function sortItems(items: Item[]): Item[] {
     ItemType.ToolsGoods
   );
   items.sort((a, b) => {
-    if (a.type !== b.type) {
-      return a.type - b.type;
+    if (a.t !== b.t) {
+      return a.t - b.t;
     }
-    if (a.order !== b.order) {
-      return (a.order ?? 999999) - (b.order ?? 999999);
+    if (a.o !== b.o) {
+      return (a.o ?? 999999) - (b.o ?? 999999);
     }
     return a.id - b.id;
   });
@@ -422,17 +422,17 @@ function convertItemFromAcnhItemData(
 
   let item: Item = {
     id: Number(id.startsWith('c') ? acnhItemData.iid : id),
-    order: 100000, //todo
+    o: 100000, //todo
     n: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
     nr: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
-    imgs: [img], //todo
-    type: ItemTypeMapV2[typeName],
-    ver: acnhItemData.vad ? versionMap[acnhItemData.vad] : Version.The100,
-    cols: [Color.White],
+    i: [img], //todo
+    t: ItemTypeMapV2[typeName],
+    v: acnhItemData.vad ? versionMap[acnhItemData.vad] : Version.The100,
+    c: [Color.White],
     cat: Catalog.ForSale,
     buy: acnhItemData.buy,
-    sell: acnhItemData.sel,
-    exch: acnhItemData.exp
+    sel: acnhItemData.sel,
+    exc: acnhItemData.exp
       ? [acnhItemData.exp, currencyMapV2[acnhItemData.exc]]
       : undefined,
     srcs: ensureArray(acnhItemData.src)?.map(replaceStr),

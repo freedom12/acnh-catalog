@@ -178,7 +178,7 @@ export type KitType = (typeof KitType)[keyof typeof KitType];
 export interface Pattern {
   id?: number; // 服饰ID
   i?: number; // 服饰图片顺序
-  cols: Color[]; // 图案颜色列表
+  c: Color[]; // 图案颜色列表
 }
 
 /**
@@ -196,18 +196,18 @@ export interface Variant {
  */
 export interface Item {
   id: number; // 物品ID
-  order?: number; // 物品排序
+  o?: number; // 物品排序
   n: string; // 物品名称
   nr: string; // 物品原始名称
-  imgs: string[]; // 物品所有图片
-  type: ItemType; // 物品类型
-  ver: Version; // 添加版本
-  cols: Color[]; // 物品颜色列表
-  size?: ItemSize; // 物品尺寸
+  i: string[]; // 物品所有图片
+  t: ItemType; // 物品类型
+  v: Version; // 添加版本
+  c: Color[]; // 物品颜色列表
+  s?: ItemSize; // 物品尺寸
   cat: Catalog; // 目录状态
   buy?: Price; // 购买价格
-  sell?: Price; // 出售价格
-  exch?: Price; // 兑换价格
+  sel?: Price; // 出售价格
+  exc?: Price; // 兑换价格
 
   srcs?: string[]; // 获取来源
   srcN?: string[];

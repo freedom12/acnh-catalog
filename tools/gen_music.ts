@@ -36,11 +36,11 @@ export function genMusic(items?: Item[]) {
       name: entry.name,
       rawName: item.nr,
       image: processImageUrl(
-        item.imgs?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
+        item.i?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
       ),
-      ver: item.ver,
+      ver: item.v,
       mood: mood || '',
-      hasRadio: item.imgs?.[1] ? true : false,
+      hasRadio: item.i?.[1] ? true : false,
     };
     musics.push(music);
   }

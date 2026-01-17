@@ -45,14 +45,14 @@ const allVariants = computed(() => {
     colors: Color[];
   }> = [];
 
-  variants.forEach((variant) => {
-    variant.ps.forEach((pattern) => {
+  variants.forEach((variant,vIndex) => {
+    variant.ps.forEach((pattern, pIndex) => {
       flatVariants.push({
-        variantName: variant.n,
-        patternName: pattern.n,
-        image: pattern.img,
-        id: pattern.id,
-        colors: pattern.cols,
+        variantName: itemModel.value?.getVName(vIndex) || '',
+        patternName: itemModel.value?.getPName(pIndex) || '',
+        image: itemModel.value?.getPatternImages(vIndex, pIndex)[0] || '',
+        id: pattern.id || itemModel.value?.id || 0,
+        colors: pattern.c,
       });
     });
   });

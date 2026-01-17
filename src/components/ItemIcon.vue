@@ -2,7 +2,6 @@
 import { computed, ref } from 'vue';
 import { useItemsData } from '../composables/useItemsData';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
-import { processImageUrl } from '../utils/imageUtils';
 
 const props = defineProps({
   itemId: {
@@ -39,18 +38,14 @@ const image = computed(() => {
     // console.warn(`ItemIcon: Item model not found for itemId ${props.itemId}`);
     return '';
   };
-
   let pattern = itemModel.value.getPattern(props.vIndex, props.pIndex);
   if (!pattern) {
     return itemModel.value.image;
   }
   if (pattern.id != props.itemId) {
-    pattern = itemModel.value.getPatternById(props.itemId);
+    return itemModel.value.getPatternImagesById(props.itemId)[0];
   }
-  if (!pattern) {
-    return itemModel.value.image;
-  }
-  return processImageUrl(pattern.img);
+  return itemModel.value.getPatternImages(props.vIndex, props.pIndex)[0];
 });
 
 const showPreview = ref(false);

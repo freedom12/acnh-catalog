@@ -72,7 +72,7 @@ export class ItemModel {
   }
 
   get order(): number {
-    return this._data.order ?? 999999;
+    return this._data.o ?? 999999;
   }
 
   get name(): string {
@@ -84,7 +84,7 @@ export class ItemModel {
   }
 
   get images(): string[] {
-    return this._data.imgs.map(processImageUrl);
+    return this._data.i.map(processImageUrl);
   }
 
   get image(): string {
@@ -92,7 +92,7 @@ export class ItemModel {
   }
 
   get type(): ItemType {
-    return this._data.type;
+    return this._data.t;
   }
 
   get isFurniture(): boolean {
@@ -112,7 +112,7 @@ export class ItemModel {
   }
 
   get version(): Version {
-    return this._data.ver;
+    return this._data.v;
   }
 
   get versionName(): string {
@@ -120,7 +120,7 @@ export class ItemModel {
   }
 
   get size(): ItemSize | undefined {
-    return this._data.size;
+    return this._data.s;
   }
 
   get sizeName(): string {
@@ -128,7 +128,7 @@ export class ItemModel {
     return itemSizeNameMap[this.size] || '未知尺寸';
   }
   get colors(): Color[] {
-    return this._data.cols;
+    return this._data.c;
   }
 
   hasColor(color: Color): boolean {
@@ -152,8 +152,8 @@ export class ItemModel {
     if (this._data.buy !== undefined && (this._data.buy as number) >= 0) {
       prices.push(this._data.buy);
     }
-    if (this._data.exch !== undefined) {
-      prices.push(this._data.exch);
+    if (this._data.exc !== undefined) {
+      prices.push(this._data.exc);
     }
     return prices;
   }
@@ -165,7 +165,7 @@ export class ItemModel {
   }
 
   get sellPrice(): Price | null {
-    return this._data.sell || null;
+    return this._data.sel || null;
   }
 
   get sellPriceStr(): string {
@@ -448,7 +448,7 @@ export class ItemModel {
 
   getDisplayColors(): Color[] {
     const pattern = this.currentPattern;
-    return pattern?.cols || this.colors;
+    return pattern?.c || this.colors;
   }
 
   getDisplayImages(): string[] {
@@ -488,10 +488,26 @@ export class ItemModel {
     return variant.ps[pIdx] || null;
   }
 
+  getPatternImagesById(id: number): string[] {
+    let vIndex = 0;
+    let pIndex = 0;
+
+    for (const variantGroup of this.variantGroups) {
+      for (const pattern of variantGroup.ps) {
+        if (pattern.id === id) {
+          return this.getPatternImages(vIndex, pIndex);
+        }
+        pIndex++;
+      }
+      vIndex++;
+    }
+    return this.images;
+  }
+
   getPatternImages(vIndex?: number, pIndex?: number): string[] {
     let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
     let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
-    let rawImages = [...this._data.imgs];
+    let rawImages = [...this._data.i];
     let images = rawImages.map((img) => {
       if (this.isClothing) {
         let imgIndex = this.getPattern(vIdx, pIdx)?.i;
@@ -525,7 +541,7 @@ export class ItemModel {
       if (variant) {
         for (let pIdx = 0; pIdx < variant.ps.length; pIdx++) {
           const pattern = variant.ps[pIdx];
-          if (pattern?.cols.includes(color)) {
+          if (pattern?.c.includes(color)) {
             return { variantIndex: vIdx, patternIndex: pIdx };
           }
         }
