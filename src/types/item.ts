@@ -186,9 +186,7 @@ export interface Pattern {
  * 表示物品的一个变体（如家具的不同款式）
  * 一个变体可以包含多个图案
  */
-export interface Variant {
-  ps: Pattern[]; // 该变体的所有图案
-}
+export type Variant = Pattern[];
 
 /**
  * 物品接口

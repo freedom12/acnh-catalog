@@ -299,7 +299,7 @@ export class ItemModel {
   }
   get hasVariations(): boolean {
     const groups = this.variantGroups;
-    return groups.length > 0 && (groups.length > 1 || (groups[0]?.ps.length ?? 0) > 1);
+    return groups.length > 0 && (groups.length > 1 || (groups[0]?.length ?? 0) > 1);
   }
 
   get variantGroups(): Variant[] {
@@ -312,12 +312,12 @@ export class ItemModel {
 
   get hasPatterns(): boolean {
     const variant = this.currentVariant;
-    return variant ? variant.ps.length > 1 : false;
+    return variant ? variant.length > 1 : false;
   }
 
   get patternCount(): number {
     const variant = this.currentVariant;
-    return variant ? variant.ps.length : 0;
+    return variant ? variant.length : 0;
   }
 
   get canCustomize(): boolean {
@@ -396,7 +396,7 @@ export class ItemModel {
 
   set patternIndex(index: number) {
     const currentVariant = this.currentVariant;
-    if (currentVariant && index >= 0 && index < currentVariant.ps.length) {
+    if (currentVariant && index >= 0 && index < currentVariant.length) {
       this._state.currentPatternIndex = index;
     } else {
       this._state.currentPatternIndex = 0;
@@ -416,13 +416,13 @@ export class ItemModel {
 
   get currentPattern(): Pattern | null {
     const variant = this.currentVariant;
-    if (!variant || variant.ps.length === 0) return null;
+    if (!variant || variant.length === 0) return null;
 
     const index = Math.max(
       0,
-      Math.min(this._state.currentPatternIndex, variant.ps.length - 1)
+      Math.min(this._state.currentPatternIndex, variant.length - 1)
     );
-    return variant.ps[index] || null;
+    return variant[index] || null;
   }
 
   getVName(vIndex?: number): string {
@@ -468,7 +468,7 @@ export class ItemModel {
 
   getPatternById(id: number): Pattern | null {
     for (const variantGroup of this.variantGroups) {
-      for (const pattern of variantGroup.ps) {
+      for (const pattern of variantGroup) {
         if (pattern.id === id) {
           return pattern;
         }
@@ -484,8 +484,8 @@ export class ItemModel {
     if (vIdx < 0 || vIdx >= variants.length) return null;
     const variant = variants[vIdx];
     if (!variant) return null;
-    if (pIdx < 0 || pIdx >= variant.ps.length) return null;
-    return variant.ps[pIdx] || null;
+    if (pIdx < 0 || pIdx >= variant.length) return null;
+    return variant[pIdx] || null;
   }
 
   getPatternImagesById(id: number): string[] {
@@ -493,7 +493,7 @@ export class ItemModel {
     let pIndex = 0;
 
     for (const variantGroup of this.variantGroups) {
-      for (const pattern of variantGroup.ps) {
+      for (const pattern of variantGroup) {
         if (pattern.id === id) {
           return this.getPatternImages(vIndex, pIndex);
         }
@@ -539,8 +539,8 @@ export class ItemModel {
     for (let vIdx = 0; vIdx < variants.length; vIdx++) {
       const variant = variants[vIdx];
       if (variant) {
-        for (let pIdx = 0; pIdx < variant.ps.length; pIdx++) {
-          const pattern = variant.ps[pIdx];
+        for (let pIdx = 0; pIdx < variant.length; pIdx++) {
+          const pattern = variant[pIdx];
           if (pattern?.c.includes(color)) {
             return { variantIndex: vIdx, patternIndex: pIdx };
           }
@@ -571,7 +571,7 @@ export class ItemModel {
       for (let vIdx = 0; vIdx < variants.length; vIdx++) {
         const variant = variants[vIdx];
         if (variant) {
-          const pIdx = variant.ps.findIndex((p) => p.id === id);
+          const pIdx = variant.findIndex((p) => p.id === id);
           if (pIdx >= 0) {
             this.variantIndex = vIdx;
             this.patternIndex = pIdx;
@@ -657,8 +657,8 @@ export class ItemModel {
   matchesId(id: number): boolean {
     if (!id) return true;
     if (this.id === id) return true;
-    for (const variant of this.variantGroups) {
-      for (const pattern of variant.ps) {
+    for (const variantGroup of this.variantGroups) {
+      for (const pattern of variantGroup) {
         if (pattern.id === id) {
           return true;
         }

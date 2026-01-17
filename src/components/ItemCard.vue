@@ -237,7 +237,7 @@ const toggleHhaExpanded = () => {
       </span>
       <div v-if="itemModel.hasPatterns" class="variants-list">
         <span
-          v-for="(_, pIdx) in currentVariant!.ps"
+          v-for="(_, pIdx) in currentVariant!"
           :key="pIdx"
           class="variation-dot"
           :class="{

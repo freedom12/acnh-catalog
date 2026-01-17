@@ -72,13 +72,13 @@ function processVariations(oldItem: OldItem): Variant[] {
   oldItem.variations.forEach((v) => {
     const variantName = String(v.variation || '');
     if (!variantNamesSet.has(variantName)) {
-      variants.push({ ps: [] });
+      variants.push([]);
       variantNamesSet.add(variantName);
     }
 
     const variant = variants[variants.length - 1];
     const patternColors = v.colors || oldItem.colors || [];
-    variant.ps.push({
+    variant.push({
       id: v.internalId,
       c: Array.from(
         new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
@@ -101,8 +101,8 @@ function getDefaultDisplayProperties(
   // 如果有变体，使用第一个变体的第一个图案
   if (variants.length > 0) {
     const firstVariant = variants[0];
-    if (firstVariant && firstVariant.ps.length > 0) {
-      const firstPattern = firstVariant.ps[0];
+    if (firstVariant && firstVariant.length > 0) {
+      const firstPattern = firstVariant[0];
       if (firstPattern) {
         id = firstPattern.id || id;
         colors = firstPattern.c || colors;
@@ -118,7 +118,7 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   const variants = processVariations(oldItem);
   const { id, colors } = getDefaultDisplayProperties(oldItem, variants);
   for (const variant of variants) {
-    for (const pattern of variant.ps) {
+    for (const pattern of variant) {
       if (pattern.id === id) {
         pattern.id = undefined;
       }
@@ -165,7 +165,7 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   let itemType = sourceSheetMap[oldItem.sourceSheet];
   if (oldItem.variations && oldItem.variations[0].closetImage) {
     for (const [i, v] of oldItem.variations.entries()) {
-      let variant = variants[i]?.ps[0];
+      let variant = variants[i]?.[0];
       if (variant && v.closetImage) {
         let str = path.basename(v.closetImage).slice(-5, -4);
         variant.i = Number(str);

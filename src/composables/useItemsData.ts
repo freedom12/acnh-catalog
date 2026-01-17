@@ -39,7 +39,7 @@ export function useItemsData() {
         allItems.value.forEach((item) => {
           itemIdMap.value[item.id] = item;
           item.variantGroups.forEach((group) => {
-            group.ps.forEach((pattern) => {
+            group.forEach((pattern) => {
               if (!pattern.id) return;
               itemIdMap.value[pattern.id] = item;
             });

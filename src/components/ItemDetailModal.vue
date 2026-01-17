@@ -45,8 +45,8 @@ const allVariants = computed(() => {
     colors: Color[];
   }> = [];
 
-  variants.forEach((variant,vIndex) => {
-    variant.ps.forEach((pattern, pIndex) => {
+  variants.forEach((variantGroup,vIndex) => {
+    variantGroup.forEach((pattern, pIndex) => {
       flatVariants.push({
         variantName: itemModel.value?.getVName(vIndex) || '',
         patternName: itemModel.value?.getPName(pIndex) || '',
