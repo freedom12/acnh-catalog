@@ -117,14 +117,11 @@ const toggleFurnitureExpanded = () => {
       </span>
     </span>
     <span class="detail-row">
-      <span class="detail-label">喜爱颜色</span>
-      <ColorBlock :colors="props.data.colors" :size="16" />
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">服饰风格</span>
-      <span class="detail-value">{{
-        joinArray(props.data.styles.map(getClothingStyleName))
-      }}</span>
+      <span class="detail-label">喜爱服饰</span>
+      <span class="detail-value">
+        {{ joinArray(props.data.styles.map(getClothingStyleName)) }}
+        <ColorBlock :colors="props.data.colors" :size="16" />
+      </span>
     </span>
     <span class="detail-row">
       <span class="detail-label">口头禅</span>

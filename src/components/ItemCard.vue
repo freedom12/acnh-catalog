@@ -144,7 +144,7 @@ const toggleHhaExpanded = () => {
       />
     </div>
 
-    <div v-if="itemModel.isStackable" class="detail-row">
+    <!-- <div v-if="itemModel.isStackable" class="detail-row">
       <span class="detail-label"> 堆叠数量 </span>
       <span class="detail-value">{{ itemModel.stackSize }}</span>
     </div>
@@ -158,7 +158,7 @@ const toggleHhaExpanded = () => {
           class="inline-icon"
         />
       </span>
-    </div>
+    </div> -->
     <div v-if="itemModel.isHandable" class="detail-row">
       <span class="detail-label"> 使用次数 </span>
       <span class="detail-value">{{
@@ -471,6 +471,6 @@ const toggleHhaExpanded = () => {
   font-size: 0.7em;
   color: #666;
   transition: transform 0.2s ease;
-  margin: 0px 2px;
+  margin: 0 2px;
 }
 </style>
