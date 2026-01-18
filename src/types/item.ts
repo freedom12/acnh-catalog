@@ -150,7 +150,7 @@ export const Catalog = {
   NotInCatalog: 1,
   NotForSale: 2,
   ForSale: 3,
-  Seasonal: 4
+  Seasonal: 4,
 } as const;
 export type Catalog = (typeof Catalog)[keyof typeof Catalog];
 
@@ -171,6 +171,60 @@ export const KitType = {
   RainbowFeather: 3,
 } as const;
 export type KitType = (typeof KitType)[keyof typeof KitType];
+
+export const InteractType = {
+  Normal: 1,
+  Bed: 2,
+  Chair: 3,
+  Kitchenware: 4,
+  Mirror: 5,
+  MusicPlayer: 6,
+  MusicalInstrument: 7,
+  Storage: 8,
+  Toilet: 9,
+  Trash: 10,
+  TV: 11,
+  Wardrobe: 12,
+  Workbench: 13,
+};
+export type InteractType = (typeof InteractType)[keyof typeof InteractType];
+
+export const SpeakerType = {
+  HiFi: 1,
+  Retro: 2,
+  Cheap: 3,
+  Phono: 4,
+  MusicBox: 5,
+} as const;
+export type SpeakerType = (typeof SpeakerType)[keyof typeof SpeakerType];
+
+export const LightType = {
+  Candle: 1,
+  Emission: 2,
+  Fluorescent: 3,
+  Monitor: 4,
+  Shade: 5,
+  Spotlight: 6,
+} as const;
+export type LightType = (typeof LightType)[keyof typeof LightType];
+
+export const SoundType = {
+  Crash: 1,
+  DrumSet: 2,
+  HiHat: 3,
+  Kick: 4,
+  Melody: 5,
+  Snare: 6,
+} as const;
+export type SoundType = (typeof SoundType)[keyof typeof SoundType];
+
+export const VfxType = {
+  Normal: 1,
+  LightOff: 2,
+  Random: 3,
+  Synchro: 4,
+} as const;
+export type VfxType = (typeof VfxType)[keyof typeof VfxType];
 /**
  * 图案接口
  * 表示物品的一个具体图案（如家具的不同花纹）
@@ -230,7 +284,20 @@ export interface Item {
   ip?: [number, number, number]; // 是否可改造图案/麻儿图案/我的设计
   cus?: CusCost; // 改造的消耗
   diy?: number; // 配方数据
-  vfx?: boolean; // 是否有特效(壁纸/地板)
+
+  fd?: number; // 食物的饱腹度
+  ss?: number; // 堆叠大小
+  us?: number; // 使用次数
+
+  iod?: boolean; // 是否为室外家具
+  isf?: boolean; // 是否为有桌面
+  idd?: boolean; // 是否为门饰
+
+  it?: InteractType; // 互动类型
+  st?: SpeakerType; // 音箱类型
+  lt?: LightType; // 灯光类型
+  sdt?: SoundType; // 声音类型(陶俑)
+  vfxt?: VfxType; // 特效类型(壁纸/地板)
 }
 
 /**

@@ -2,12 +2,23 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { ItemSourceSheet, type Item as OldItem } from 'animal-crossing/lib/types/Item';
 import { items as oldItems, creatures as oldCreatures } from 'animal-crossing';
-import { Catalog, KitType, type Item, type Variant } from '../src/types/item';
+import {
+  Catalog,
+  InteractType,
+  KitType,
+  LightType,
+  SoundType,
+  SpeakerType,
+  VfxType,
+  type Item,
+  type Variant,
+} from '../src/types/item';
 import { ItemType, Version, Color, Currency } from '../src/types/item';
 import { type Activity } from '../src/types/activity';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
 import { getAcnhItemData, getAllAcnhItemData } from './acnh/index.js';
 import { genActivity } from './gen_activity';
+import { console } from 'inspector';
 
 const __dirname = path.join(process.cwd(), 'tools');
 
@@ -60,6 +71,53 @@ const kitTypeMap: Record<string, KitType> = {
   Normal: KitType.Normal,
   Pumpkin: KitType.Pumpkin,
   'Rainbow feather': KitType.RainbowFeather,
+};
+
+const interactTypeMap: Record<string, InteractType> = {
+  Bed: InteractType.Bed,
+  Chair: InteractType.Chair,
+  Kitchenware: InteractType.Kitchenware,
+  Mirror: InteractType.Mirror,
+  'Music Player': InteractType.MusicPlayer,
+  'Musical Instrument': InteractType.MusicalInstrument,
+  Storage: InteractType.Storage,
+  Toilet: InteractType.Toilet,
+  Trash: InteractType.Trash,
+  TV: InteractType.TV,
+  Wardrobe: InteractType.Wardrobe,
+  Workbench: InteractType.Workbench,
+};
+
+const speakerTypeMap: Record<string, SpeakerType> = {
+  'Hi-fi': SpeakerType.HiFi,
+  Retro: SpeakerType.Retro,
+  Cheap: SpeakerType.Cheap,
+  Phono: SpeakerType.Phono,
+  'Music Box': SpeakerType.MusicBox,
+};
+
+const lightTypeMap: Record<string, LightType> = {
+  Candle: LightType.Candle,
+  Emission: LightType.Emission,
+  Fluorescent: LightType.Fluorescent,
+  Monitor: LightType.Monitor,
+  Shade: LightType.Shade,
+  Spotlight: LightType.Spotlight,
+};
+
+const soundTypeMap: Record<string, SoundType> = {
+  Crash: SoundType.Crash,
+  'Drum set': SoundType.DrumSet,
+  'Hi-hat': SoundType.HiHat,
+  Kick: SoundType.Kick,
+  Melody: SoundType.Melody,
+  Snare: SoundType.Snare,
+};
+
+const vfxTypeMap: Record<string, VfxType> = {
+  LightOff: VfxType.LightOff,
+  Random: VfxType.Random,
+  Synchro: VfxType.Synchro,
 };
 
 function processVariations(oldItem: OldItem): Variant[] {
@@ -160,7 +218,6 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   if (oldItem.recipe) {
     images.push(processImageUrl(oldItem.recipe.image));
   }
-
   //特殊处理服饰变体
   let itemType = sourceSheetMap[oldItem.sourceSheet];
   if (oldItem.variations && oldItem.variations[0].closetImage) {
@@ -189,6 +246,42 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   let kitType = oldItem.variations?.[0].kitType;
   let cusKitType = kitType ? kitTypeMap[kitType] : KitType.Normal;
 
+  let useTimes = oldItem.uses || oldItem.variations?.[0].uses;
+  useTimes = useTimes ? Number(useTimes) : undefined;
+
+  let interactType: InteractType | undefined = undefined;
+  if (oldItem.interact) {
+    if (typeof oldItem.interact === 'string') {
+      interactType = interactTypeMap[oldItem.interact];
+    } else {
+      interactType = InteractType.Normal;
+    }
+  }
+
+  let speakerType: SpeakerType | undefined = undefined;
+  if (oldItem.speakerType) {
+    speakerType = speakerTypeMap[oldItem.speakerType];
+  }
+
+  let lightType: LightType | undefined = undefined;
+  if (oldItem.lightingType) {
+    lightType = lightTypeMap[oldItem.lightingType];
+  }
+
+  let soundType: SoundType | undefined = undefined;
+  let st = oldItem.soundType || oldItem.variations?.[0].soundType;
+  if (st) {
+    soundType = soundTypeMap[st];
+  }
+
+  let vfxType: VfxType | undefined = undefined;
+  if (oldItem.vfx) {
+    if (oldItem.vfxType) {
+      vfxType = vfxTypeMap[oldItem.vfxType];
+    } else {
+      vfxType = VfxType.Normal;
+    }
+  }
   return {
     id,
     n: name,
@@ -229,10 +322,27 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
         ? [oldItem.bodyCustomize ? 1 : 0, acnhItemData?.ccp || 0, acnhItemData?.nvc]
         : undefined,
     ip: oldItem.patternCustomize
-      ? [oldItem.patternCustomize ? 1 : 0, acnhItemData?.spt ? 1 : 0, acnhItemData?.cpt ? 1 : 0]
+      ? [
+          oldItem.patternCustomize ? 1 : 0,
+          acnhItemData?.spt ? 1 : 0,
+          acnhItemData?.cpt ? 1 : 0,
+        ]
       : undefined,
     cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
-    vfx: oldItem.vfx || undefined,
+
+    fd: oldItem.foodPower || undefined,
+    ss: oldItem.stackSize || undefined,
+    us: useTimes,
+
+    iod: oldItem.outdoor || undefined,
+    isf: oldItem.surface || undefined,
+    idd: oldItem.doorDeco || undefined,
+
+    it: interactType,
+    st: speakerType,
+    lt: lightType,
+    sdt: soundType,
+    vfxt: vfxType,
   };
 }
 
@@ -293,9 +403,7 @@ export function genItemV1(activitys?: Activity[]): Item[] {
       nr: oldCreature.name,
       i: [processImageUrl(oldCreature.furnitureImage)],
       t: ItemType.Creature,
-      v: oldCreature.versionAdded
-        ? versionMap[oldCreature.versionAdded]
-        : Version.The100,
+      v: oldCreature.versionAdded ? versionMap[oldCreature.versionAdded] : Version.The100,
       c: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
       cat: Catalog.NotForSale,
       s: sizeMap[oldCreature.size],

@@ -143,6 +143,29 @@ const toggleHhaExpanded = () => {
         :sourceNotes="itemModel.sourceNotes"
       />
     </div>
+
+    <div v-if="itemModel.isStackable" class="detail-row">
+      <span class="detail-label"> 堆叠数量 </span>
+      <span class="detail-value">{{ itemModel.stackSize }}</span>
+    </div>
+    <div v-if="itemModel.isFood" class="detail-row">
+      <span class="detail-label"> 食物能量 </span>
+      <span class="detail-value">
+        {{ itemModel.foodPower }}
+        <img
+          :src="getImgUrl('img/icon/food_power.png')"
+          title="能量"
+          class="inline-icon"
+        />
+      </span>
+    </div>
+    <div v-if="itemModel.isHandable" class="detail-row">
+      <span class="detail-label"> 使用次数 </span>
+      <span class="detail-value">{{
+        itemModel.useTimes && itemModel.useTimes > 0 ? itemModel.useTimes : '永久'
+      }}</span>
+    </div>
+
     <div class="detail-row">
       <span class="detail-label">购买</span>
       <span class="detail-value highlight">

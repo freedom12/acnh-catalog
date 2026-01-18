@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from 'vue';
 import { joinArray } from '../utils/common';
-import { getCatalogIcon, getItemTypeIcon, getSizeIcon } from '../services/dataService';
+import { getCatalogIcon, getImgUrl, getItemTypeIcon, getSizeIcon } from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
 import ColorBlock from './ColorBlock.vue';

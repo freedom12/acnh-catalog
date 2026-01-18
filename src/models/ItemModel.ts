@@ -283,6 +283,41 @@ export class ItemModel {
     return recipeIdMap.value[this.recipeId] || null;
   }
 
+  get foodPower(): number | null {
+    return this._data.fd || null;
+  }
+
+  get isFood(): boolean {
+    return this.foodPower !== null;
+  }
+
+  get stackSize(): number | null {
+    return this._data.ss || null;
+  }
+
+  get isStackable(): boolean {
+    return this.stackSize !== null && this.stackSize > 1;
+  }
+
+  get useTimes(): number | null {
+    return this._data.us || null;
+  }
+
+  get isHandable(): boolean {
+    return this.useTimes !== null;
+  }
+
+  get isOutdoorFurniture(): boolean {
+    return this._data.iod === true;
+  }
+
+  get isSurfaceFurniture(): boolean {
+    return this._data.isf === true;
+  }
+
+  get isDoorDecoFurniture(): boolean {
+    return this._data.idd === true;
+  }
   // ============ 变体相关 ============
   get vTitle(): string {
     return this._data.vt || '';
@@ -511,7 +546,14 @@ export class ItemModel {
       if (this.isClothing) {
         let imgIndex = this.getPattern(vIdx, pIdx)?.i;
         if (imgIndex !== undefined) {
-          img = img.slice(0, -1) + imgIndex;
+          // 截取出最后一个字符
+          let lastChar = img.charAt(img.length - 1);
+          if (Number.isInteger(parseInt(lastChar))) {
+            // 如果最后一个字符是数字，则替换为图案图片序号
+            img = img.slice(0, -1) + imgIndex;
+          } else {
+            console.warn(`Clothing image URL format unexpected: ${this.name} ${img}`);
+          }
         }
       } else if (img.includes('0_0')) {
         img = img.replace('0_0', `${vIdx}_${pIdx}`);
@@ -684,7 +726,7 @@ export class ItemModel {
         return 2;
       }
     } else if (this.type === ItemType.Wallpaper || this.type === ItemType.Floors) {
-      if (this._data.vfx) {
+      if (this._data.vfxt) {
         return 2;
       } else {
         return 1;
