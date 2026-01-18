@@ -30,6 +30,11 @@ import {
   getHousewareTagGroupIndex,
   getMiscellaneousTagGroupIndex,
   Catalog,
+  InteractType,
+  SpeakerType,
+  LightType,
+  SoundType,
+  VfxType,
 } from '../types/item';
 import type { Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
@@ -318,6 +323,42 @@ export class ItemModel {
   get isDoorDecoFurniture(): boolean {
     return this._data.idd === true;
   }
+
+  get interactType(): InteractType | null {
+    return this._data.it || null;
+  }
+  get hasInteract(): boolean {
+    return this.interactType !== null;
+  }
+
+  get speakerType(): SpeakerType | null {
+    return this._data.st || null;
+  }
+  get hasSpeaker(): boolean {
+    return this.speakerType !== null;
+  }
+
+  get lightType(): LightType | null {
+    return this._data.lt || null;
+  }
+  get hasLight(): boolean {
+    return this.lightType !== null;
+  }
+
+  get soundType(): SoundType | null {
+    return this._data.sdt || null;
+  }
+  get hasSound(): boolean {
+    return this.soundType !== null;
+  }
+
+  get vfxType(): VfxType | null {
+    return this._data.vfxt || null;
+  }
+  get hasVfx(): boolean {
+    return this.vfxType !== null;
+  }
+
   // ============ 变体相关 ============
   get vTitle(): string {
     return this._data.vt || '';
