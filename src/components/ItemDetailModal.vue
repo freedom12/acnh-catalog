@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { useItemsData } from '../composables/useItemsData';
 import { getPriceWithIcon, getSourceName } from '../services/dataService';
 import { processImageUrl } from '../utils/imageUtils';
 import MaterialItem from './MaterialItem.vue';
 import ColorBlock from './ColorBlock.vue';
-import VersionBadge from './VersionBadge.vue';
 import type { Color } from '../types';
 import { joinArray } from '../utils';
 
@@ -19,6 +18,19 @@ const emit = defineEmits<{
 
 const { itemIdMap, loading, error, loadData } = useItemsData();
 const itemModel = computed(() => (props.itemId ? itemIdMap.value[props.itemId] : null));
+
+// 当前选中的变体索引
+const selectedVariantIndex = ref(0);
+
+// 当前选中的变体
+const selectedVariant = computed(() => {
+  return allVariants.value[selectedVariantIndex.value] || null;
+});
+
+// 选择变体
+const selectVariant = (index: number) => {
+  selectedVariantIndex.value = index;
+};
 
 // 获取配方数据
 const recipe = computed(() => itemModel.value?.recipe || null);
@@ -45,7 +57,7 @@ const allVariants = computed(() => {
     colors: Color[];
   }> = [];
 
-  variants.forEach((variantGroup,vIndex) => {
+  variants.forEach((variantGroup, vIndex) => {
     variantGroup.forEach((pattern, pIndex) => {
       flatVariants.push({
         variantName: itemModel.value?.getVName(vIndex) || '',
@@ -104,13 +116,20 @@ const handleOverlayClick = (e: MouseEvent) => {
             <div class="detail-content">
               <div class="title-section">
                 <h1>{{ itemModel.name }}</h1>
-                <VersionBadge :version="itemModel.version" />
               </div>
               <div class="top-section">
                 <div class="image-container">
                   <img
-                    :src="itemModel.image"
-                    :alt="itemModel.name"
+                    :src="
+                      selectedVariant
+                        ? processImageUrl(selectedVariant.image)
+                        : itemModel.image
+                    "
+                    :alt="
+                      selectedVariant
+                        ? `${selectedVariant.variantName} - ${selectedVariant.patternName}`
+                        : itemModel.name
+                    "
                     class="main-image"
                     @click="goToNookipedia"
                     title="点击查看Nookipedia页面"
@@ -120,57 +139,84 @@ const handleOverlayClick = (e: MouseEvent) => {
                     {{ isOwned ? '已拥有' : '未拥有' }}
                   </div>
                 </div>
-              </div>
 
-              <!-- 信息卡片区域 -->
-              <div class="cards-section">
-                <!-- 基本信息卡片 -->
+                <!-- 信息卡片区域 - 在图片右侧 -->
                 <div class="info-card">
-                  <h3>基本信息</h3>
                   <div class="card-content">
-                    <p><strong>ID:</strong> {{ itemModel.id }}</p>
-                    <p><strong>分类:</strong> {{ itemModel.typeName }}</p>
-                    <p v-if="itemModel.size">
-                      <strong>尺寸:</strong> {{ itemModel.sizeName }}
-                    </p>
-                    <p v-if="itemModel.colors.length > 0">
-                      <strong>颜色:</strong> {{ joinArray(itemModel.colorNames) }}
-                    </p>
-                    <p v-if="itemModel.sources.length > 0">
-                      <strong>来源:</strong> {{ joinArray(itemModel.sourceNames) }}
-                    </p>
-                    <p v-if="itemModel.tag">
-                      <strong>标签:</strong> {{ itemModel.tagName }}
-                    </p>
-                    <p v-if="itemModel.hhaSeries">
-                      <strong>系列:</strong> {{ itemModel.hhaSeriesName }}
-                    </p>
-                  </div>
-                </div>
+                    <div class="info-grid">
+                      <div class="info-row">
+                        <div class="info-item">
+                          <div class="item-label">ID:</div>
+                          <div class="item-value">
+                            {{ selectedVariant ? selectedVariant.id : itemModel.id }}
+                          </div>
+                        </div>
+                        <div class="info-item">
+                          <div class="item-label">分类:</div>
+                          <div class="item-value">{{ itemModel.typeName }}</div>
+                        </div>
+                      </div>
 
-                <!-- 价格信息卡片 -->
-                <div class="info-card">
-                  <h3>价格信息</h3>
-                  <div class="card-content">
-                    <p>
-                      <strong>购买价格:</strong>
-                      <template v-if="itemModel.buyPrices.length > 0">
-                        <span
-                          v-for="(priceStr, index) in itemModel.buyPriceStrs"
-                          :key="index"
-                        >
-                          <span v-html="priceStr"></span
-                          ><template v-if="index < itemModel.buyPriceStrs.length - 1"
-                            >,
-                          </template>
-                        </span>
-                      </template>
-                      <template v-else>不可购买</template>
-                    </p>
-                    <p>
-                      <strong>出售价格:</strong>
-                      <span v-html="itemModel.sellPriceStr"></span>
-                    </p>
+                      <div class="info-row">
+                        <div class="info-item">
+                          <div class="item-label">尺寸:</div>
+                          <div class="item-value">{{ itemModel.sizeName }}</div>
+                        </div>
+                        <div class="info-item">
+                          <div class="item-label">颜色:</div>
+                          <div class="item-value">
+                            <ColorBlock
+                              v-if="selectedVariant && selectedVariant.colors.length > 0"
+                              :colors="selectedVariant.colors"
+                              :size="16"
+                            />
+                            <template v-else>{{
+                              joinArray(itemModel.colorNames)
+                            }}</template>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="info-row">
+                        <div class="info-item full-width">
+                          <div class="item-label">活动:</div>
+                          <div class="item-value">
+                            {{ joinArray(itemModel.activityGroupNames) }}
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="info-row">
+                        <div class="info-item full-width">
+                          <div class="item-label">来源:</div>
+                          <div class="item-value">
+                            {{ joinArray(itemModel.sourceNames) }}
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- <div v-if="itemModel.tag" class="info-row">
+                        <div class="info-item full-width">
+                          <strong>标签:</strong> {{ itemModel.tagName }}
+                        </div>
+                      </div> -->
+
+                      <!-- <div v-if="itemModel.hhaSeries" class="info-row">
+                        <div class="info-item full-width">
+                          <strong>系列:</strong> {{ itemModel.hhaSeriesName }}
+                        </div>
+                      </div> -->
+
+                      <div class="info-row">
+                        <div class="info-item">
+                          <div class="item-label">添加版本:</div>
+                          <div class="item-value">{{ itemModel.versionName }}</div>
+                        </div>
+                        <div class="info-item">
+                          <div class="item-label">出售价格:</div>
+                          <div class="item-value" v-html="itemModel.sellPriceStr"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -235,6 +281,8 @@ const handleOverlayClick = (e: MouseEvent) => {
                     v-for="(variant, idx) in allVariants"
                     :key="idx"
                     class="variant-card"
+                    :class="{ selected: idx === selectedVariantIndex }"
+                    @click="selectVariant(idx)"
                   >
                     <div class="variant-image">
                       <img
@@ -369,11 +417,8 @@ const handleOverlayClick = (e: MouseEvent) => {
 /* 顶部区域 */
 .top-section {
   display: flex;
-  gap: 15px;
-  align-items: center;
-
-  // justify-content: flex-start;
-  // flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .image-container {
@@ -416,8 +461,9 @@ const handleOverlayClick = (e: MouseEvent) => {
 
 /* 卡片区域 */
 .cards-section {
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
 
@@ -426,6 +472,7 @@ const handleOverlayClick = (e: MouseEvent) => {
   border-radius: 15px;
   padding: 20px;
   border: 2px solid #e0e0e0;
+  flex: 1;
 }
 
 .info-card h3 {
@@ -442,13 +489,50 @@ const handleOverlayClick = (e: MouseEvent) => {
   gap: 10px;
 }
 
-.card-content p {
-  margin: 0;
-  line-height: 1.5;
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.card-content strong {
-  color: #555;
+.info-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.info-item {
+  padding: 8px 12px;
+  background: rgb(46, 125, 50, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgb(46, 125, 50, 0.1);
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.info-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.item-label {
+  font-weight: 600;
+  color: #2e7d32;
+  flex-shrink: 0;
+}
+
+.item-values {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item-value {
+  flex: 1;
+  line-height: 1.4;
+  text-align: right;
 }
 
 .price {
@@ -622,6 +706,11 @@ const handleOverlayClick = (e: MouseEvent) => {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
   border-color: #4a9b4f;
+}
+
+.variant-card.selected {
+  border-color: #2e7d32;
+  // background: rgb(46, 125, 50, 0.05);
 }
 
 .variant-image {
