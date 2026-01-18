@@ -374,7 +374,7 @@ export class ItemModel {
   }
   get hasVariations(): boolean {
     const groups = this.variantGroups;
-    return groups.length > 0 && (groups.length > 1 || (groups[0]?.length ?? 0) > 1);
+    return groups.length > 0 && groups.length > 1;
   }
 
   get variantGroups(): Variant[] {
@@ -400,7 +400,7 @@ export class ItemModel {
   }
 
   get canCustomizeVariant(): boolean {
-    return this.canCustomizeVariantByCyrus || this.canCustomizeVariantBySelf;
+    return this.hasVariations && (this.canCustomizeVariantByCyrus || this.canCustomizeVariantBySelf);
   }
 
   get canCustomizeVariantBySelf(): boolean {
@@ -429,7 +429,7 @@ export class ItemModel {
   }
 
   get canCustomizePattern(): boolean {
-    return this._data.ip ? this._data.ip[0] === 1 : false;
+    return this.hasPatterns && (this._data.ip ? this._data.ip[0] === 1 : false);
   }
 
   get canCustomizePatternWithSableDesign(): boolean {
@@ -503,17 +503,17 @@ export class ItemModel {
   getVName(vIndex?: number): string {
     vIndex = vIndex !== undefined ? vIndex : this.variantIndex;
     if (this._data.vn && vIndex >= 0 && vIndex < this._data.vn.length) {
-      return this._data.vn[vIndex] || '';
+      return this._data.vn[vIndex] || '无';
     }
-    return '';
+    return '无';
   }
 
   getPName(pIndex?: number): string {
     pIndex = pIndex !== undefined ? pIndex : this.patternIndex;
     if (this._data.pn && pIndex >= 0 && pIndex < this._data.pn.length) {
-      return this._data.pn[pIndex] || '';
+      return this._data.pn[pIndex] || '无';
     }
-    return '';
+    return '无';
   }
 
   getDisplayId(): number {

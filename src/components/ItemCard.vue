@@ -16,6 +16,7 @@ import SourceList from './SourceList.vue';
 import { UI_TEXT } from '../constants';
 import { Catalog, Color } from '../types/item';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
+import TooltipWrapper from './TooltipWrapper.vue';
 
 const props = defineProps<{
   data: ItemModel;
@@ -197,15 +198,21 @@ const toggleHhaExpanded = () => {
           <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">分类</span>
+          <span class="detail-label">
+            <TooltipWrapper tooltip="摆放3件或以上相同分类的家具，每件加500分"> 分类 </TooltipWrapper>
+          </span>
           <span class="detail-value">{{ itemModel.hhaCategoryName }}</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">主题</span>
+          <span class="detail-label">
+            <TooltipWrapper tooltip="摆放4件或以上相同主题的家具，每件加1000分"> 主题 </TooltipWrapper>
+          </span>
           <span class="detail-value">{{ itemModel.hhaSeriesName }}</span>
         </div>
         <div class="detail-row">
-          <span class="detail-label">套组</span>
+          <span class="detail-label">
+            <TooltipWrapper tooltip="摆放全部套组中的家具，每件加800分"> 套组 </TooltipWrapper>
+          </span>
           <span class="detail-value">{{ itemModel.hhaSetName }}</span>
         </div>
         <div class="detail-row">
@@ -231,8 +238,7 @@ const toggleHhaExpanded = () => {
         />
         {{ itemModel.vTitleName }} - {{ itemModel.getVName() }}
       </span>
-      <span class="variants-label"></span>
-      <div class="variants-list">
+      <div v-if="itemModel.hasVariations" class="variants-list">
         <span
           v-for="(_, vIdx) in itemModel.variantGroups"
           :key="vIdx"
