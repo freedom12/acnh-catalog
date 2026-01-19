@@ -196,7 +196,10 @@ const { filteredData, handleFiltersChanged } = useFilter(
         }
       } else {
         const lowerQuery = searchQuery.toLowerCase();
-        if (!item.name.toLowerCase().includes(lowerQuery)) {
+        if (
+          !item.name.toLowerCase().includes(lowerQuery) &&
+          !item.rawName.toLowerCase().includes(lowerQuery)
+        ) {
           return false;
         }
       }

@@ -42,8 +42,10 @@ export function useFilter<T>(
     // append 模式：使用默认筛选 + 自定义筛选
     // 搜索筛选
     if (searchQuery.value) {
+      const lowerQuery = searchQuery.value.toLowerCase();
       result = result.filter((item) =>
-        (item as any).name?.toLowerCase().includes(searchQuery.value.toLowerCase())
+        (item as any).name?.toLowerCase().includes(lowerQuery) ||
+        (item as any).rawName?.toLowerCase().includes(lowerQuery)
       );
     }
 

@@ -124,11 +124,14 @@ const { filteredData, handleFiltersChanged } = useFilter(
         const id = parseInt(searchQuery.slice(1), 10);
         if (!item.matchesId(id)) {
           return false;
-        } 
+        }
         item.switchToIdVariant(id);
       } else {
         const lowerQuery = searchQuery.toLowerCase();
-        if (!item.name.toLowerCase().includes(lowerQuery)) {
+        if (
+          !item.name.toLowerCase().includes(lowerQuery) &&
+          !item.rawName.toLowerCase().includes(lowerQuery)
+        ) {
           return false;
         }
       }

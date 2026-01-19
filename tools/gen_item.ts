@@ -235,7 +235,7 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
   let clothGroupId = oldItem.clothGroupId || oldItem.variations?.[0].clothGroupId;
   let acnhItemData = getAcnhItemData(id, clothGroupId);
   if (!acnhItemData) {
-    console.warn(`acnhItemData not found: id=${id}, name=${name}`);
+    // console.warn(`acnhItemData not found: id=${id}, name=${name}`);
   }
   let acts = acnhItemData?.evt;
   if (typeof acts === 'string') {
@@ -282,6 +282,28 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
       vfxType = VfxType.Normal;
     }
   }
+
+  // if (oldItem.seasonEvent && !oldItem.seasonEventExclusive) {
+  //   console.log(`警告: 物品 ${id} ${name} 存在 seasonEvent 但没有 seasonEventExclusive`);
+  // }
+  // if (oldItem.seasonalAvailability) {
+  //   console.log(
+  //     `警告: 物品 ${id} ${name} 存在 seasonalAvailability`,
+  //     oldItem.seasonalAvailability
+  //   );
+  // }
+  // if (oldItem.seasonality || oldItem.variations?.[0].seasonality) {
+  //   console.log(
+  //     `警告: 物品 ${id} ${name} 存在 seasonality`,
+  //     oldItem.seasonality || oldItem.variations?.[0].seasonality
+  //   );
+  // }
+  // if (oldItem.mannequinSeason || oldItem.variations?.[0].mannequinSeason) {
+  //   console.log(
+  //     `警告: 物品 ${id} ${name} 存在 mannequinSeason`,
+  //     oldItem.mannequinSeason || oldItem.variations?.[0].mannequinSeason
+  //   );
+  // }
   return {
     id,
     n: name,
@@ -620,6 +642,6 @@ export function mergeItemV1AndV2(): Item[] {
 
 export const genItem = genItemV1;
 
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
+if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');
 }

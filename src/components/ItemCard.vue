@@ -286,7 +286,7 @@ const toggleHhaExpanded = () => {
         <span
           v-if="itemModel.canCustomizePatternWithSableDesign"
           class="variation-dot"
-          title="使用麻儿的设计图案"
+          title="可以使用麻儿的设计图案"
         >
           <img
             :src="getImgUrl('img/icon/icon_cus_p_1.png')"
@@ -297,7 +297,7 @@ const toggleHhaExpanded = () => {
         <span
           v-if="itemModel.canCustomizePatternWithMyDesign"
           class="variation-dot"
-          title="使用我的设计图案"
+          title="可以使用我的设计图案"
         >
           <img
             :src="getImgUrl('img/icon/icon_cus_p_2.png')"
