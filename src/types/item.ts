@@ -231,7 +231,7 @@ export type VfxType = (typeof VfxType)[keyof typeof VfxType];
  */
 export interface Pattern {
   id?: number; // 服饰ID
-  i?: number; // 服饰图片顺序
+  i?: number | string; // 服饰图片顺序/名字
   c: Color[]; // 图案颜色列表
 }
 

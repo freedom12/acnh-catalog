@@ -373,8 +373,7 @@ export class ItemModel {
     return getItemVariantTitle(this.pTitle) || '图案';
   }
   get hasVariations(): boolean {
-    const groups = this.variantGroups;
-    return groups.length > 0 && groups.length > 1;
+    return this.variantCount > 1;
   }
 
   get variantGroups(): Variant[] {
@@ -594,6 +593,7 @@ export class ItemModel {
             img = img.slice(0, -1) + imgIndex;
           } else {
             console.warn(`Clothing image URL format unexpected: ${this.name} ${img}`);
+            img = imgIndex as string;
           }
         }
       } else if (img.includes('0_0')) {

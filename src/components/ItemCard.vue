@@ -199,19 +199,25 @@ const toggleHhaExpanded = () => {
         </div>
         <div class="detail-row">
           <span class="detail-label">
-            <TooltipWrapper tooltip="摆放3件或以上相同分类的家具，每件加500分"> 分类 </TooltipWrapper>
+            <TooltipWrapper tooltip="摆放3件或以上相同分类的家具，每件加500分">
+              分类
+            </TooltipWrapper>
           </span>
           <span class="detail-value">{{ itemModel.hhaCategoryName }}</span>
         </div>
         <div class="detail-row">
           <span class="detail-label">
-            <TooltipWrapper tooltip="摆放4件或以上相同主题的家具，每件加1000分"> 主题 </TooltipWrapper>
+            <TooltipWrapper tooltip="摆放4件或以上相同主题的家具，每件加1000分">
+              主题
+            </TooltipWrapper>
           </span>
           <span class="detail-value">{{ itemModel.hhaSeriesName }}</span>
         </div>
         <div class="detail-row">
           <span class="detail-label">
-            <TooltipWrapper tooltip="摆放全部套组中的家具，每件加800分"> 套组 </TooltipWrapper>
+            <TooltipWrapper tooltip="摆放全部套组中的家具，每件加800分">
+              套组
+            </TooltipWrapper>
           </span>
           <span class="detail-value">{{ itemModel.hhaSetName }}</span>
         </div>
@@ -226,6 +232,7 @@ const toggleHhaExpanded = () => {
 
     <div v-if="itemModel.canCustomize" class="variants-section">
       <span
+        v-if="itemModel.hasVariations"
         class="variants-label"
         :class="{
           // blue: !itemModel.canCustomizeVariantBySelf,

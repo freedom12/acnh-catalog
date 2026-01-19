@@ -5,6 +5,7 @@ import { items as oldItems, creatures as oldCreatures } from 'animal-crossing';
 import {
   Catalog,
   InteractType,
+  ItemSize,
   KitType,
   LightType,
   SoundType,
@@ -16,7 +17,7 @@ import {
 import { ItemType, Version, Color, Currency } from '../src/types/item';
 import { type Activity } from '../src/types/activity';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
-import { getAcnhItemData, getAllAcnhItemData } from './acnh/index.js';
+import { getAcnhItemData, getAcnhLocale, getAllAcnhItemData } from './acnh/index.js';
 import { genActivity } from './gen_activity';
 import { console } from 'inspector';
 
@@ -317,23 +318,26 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     srcN: oldItem.sourceNotes || undefined,
     acts: acts,
     s: oldItem.size ? sizeMap[oldItem.size] : undefined,
-    tag: oldItem.tag,
-    hpt: oldItem.hhaBasePoints || undefined,
-    hser: oldItem.series || undefined,
-    thms: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
-    hset: oldItem.set || undefined,
-    stls:
-      oldItem.styles && oldItem.styles.length > 0
-        ? Array.from(new Set(oldItem.styles))
-        : undefined,
-    hcpt: concepts,
-    hcat: category,
     diy: oldItem.recipe ? oldItem.recipe.internalId : undefined,
     buy: oldItem.buy || undefined,
     sel: oldItem.sell || undefined,
     exc: oldItem.exchangePrice
       ? [oldItem.exchangePrice, currencyMap[oldItem.exchangeCurrency!]]
       : undefined,
+
+    tag: oldItem.tag,
+    hpt: oldItem.hhaBasePoints || undefined,
+    hser: oldItem.series || undefined,
+    hset: oldItem.set || undefined,
+    hcpt: concepts,
+    hcat: category,
+
+    thms: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
+    stls:
+      oldItem.styles && oldItem.styles.length > 0
+        ? Array.from(new Set(oldItem.styles))
+        : undefined,
+
     vs: variants.length > 0 ? variants : undefined,
     vt: oldItem.bodyTitle || undefined,
     pt: oldItem.variations?.[0].patternTitle || undefined,
@@ -544,29 +548,111 @@ function convertItemFromAcnhItemData(
   typeName: string,
   acnhItemData: Record<string, any>
 ): Item {
+  let itemId: number = Number(id);
+  let isClothing = id.startsWith('c');
+  let ids = acnhItemData.iid;
+  if (isClothing) {
+    if (typeof ids === 'string' || typeof ids === 'number') {
+      ids = [ids];
+    }
+    itemId = Number(ids[0]);
+  }
   let img: string = acnhItemData.img;
   if (acnhItemData.ipf) {
     img = acnhItemData.ipf + acnhItemData.img[0];
   }
   img = 'https://nh-cdn.catalogue.ac/' + img + '.png';
 
+  let size: ItemSize | undefined = undefined;
+  if (acnhItemData.sze) {
+    size = sizeMap[acnhItemData.sze];
+  }
+  let cat: Catalog = Catalog.NotInCatalog;
+  if (acnhItemData.sea) {
+    cat = Catalog.Seasonal;
+  } else if (acnhItemData.ord) {
+    cat = Catalog.ForSale;
+  } else if (acnhItemData.cat) {
+    cat = Catalog.NotForSale;
+  }
+  let variants: Variant[] = [];
+
+  let imgs = acnhItemData.img;
+  let colors = acnhItemData.clr;
+  if (typeof imgs === 'string' || typeof imgs === 'number') {
+    imgs = [imgs];
+    if (colors) {
+      colors = [colors];
+    }
+  }
+
+  let index = 0;
+  for (const [vIndex, _] of ((acnhItemData.var as string[]) || ['']).entries()) {
+    for (const [pIndex, __] of ((acnhItemData.pat as string[]) || ['']).entries()) {
+      if (!variants[vIndex]) {
+        variants[vIndex] = [];
+      }
+      variants[vIndex][pIndex] = { c: [] };
+      if (colors) {
+        let color = colors[index];
+        if (typeof color === 'string') {
+          color = [color];
+        }
+        //首字母大写
+        color = color.map(
+          (colorStr: string) => colorStr.charAt(0).toUpperCase() + colorStr.slice(1)
+        );
+        variants[vIndex][pIndex].c = color.map((colorStr: string) => colorMap[colorStr]);
+        if (isClothing && ids[index] === 1150) {
+          console.log('debug');
+        }
+      }
+      if (isClothing) {
+        variants[vIndex][pIndex].id = ids[index];
+        let img = imgs[index];
+        if (!isNaN(Number(img))) {
+          variants[vIndex][pIndex].i = Number(img);
+        } else {
+          img = 'https://nh-cdn.catalogue.ac/' + img + '.png';
+          variants[vIndex][pIndex].i = img;
+        }
+      }
+      index += 1;
+    }
+  }
+
+  let vNames: string[] = [];
+  let pNames: string[] = [];
+  for (const variant of ensureArray(acnhItemData.var) || []) {
+    vNames.push(getAcnhLocale(variant, 'var'));
+  }
+  for (const pattern of ensureArray(acnhItemData.pat) || []) {
+    pNames.push(getAcnhLocale(pattern, 'var'));
+  }
+
+  let cusKitCost = acnhItemData.kit || 0;
+  let cusKitType = acnhItemData.ktt ? acnhItemData.ktt : KitType.Normal;
+
   let item: Item = {
-    id: Number(id.startsWith('c') ? acnhItemData.iid : id),
-    o: 100000, //todo
+    id: itemId,
     n: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
     nr: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
-    i: [img], //todo
     t: ItemTypeMapV2[typeName],
+    i: [img],
+    c: variants[0][0]!.c,
     v: acnhItemData.vad ? versionMap[acnhItemData.vad] : Version.The100,
-    c: [Color.White],
-    cat: Catalog.ForSale,
+    cat: cat,
+    srcs: ensureArray(acnhItemData.src)?.map(replaceStr),
+    acts: ensureArray(acnhItemData.evt),
+    s: size,
+    // diy: undefined,
     buy: acnhItemData.buy,
     sel: acnhItemData.sel,
     exc: acnhItemData.exp
       ? [acnhItemData.exp, currencyMapV2[acnhItemData.exc]]
       : undefined,
-    srcs: ensureArray(acnhItemData.src)?.map(replaceStr),
-    acts: ensureArray(acnhItemData.evt),
+
+    // tag: undefined,
     hpt: acnhItemData.hap,
     hser: acnhItemData.hat ? replaceStr(acnhItemData.hat) : undefined,
     hcpt: ensureArray(acnhItemData.has)?.map(replaceStr),
@@ -575,6 +661,36 @@ function convertItemFromAcnhItemData(
 
     thms: ensureArray(acnhItemData.lbl)?.map(replaceStr),
     stls: ensureArray(acnhItemData.stl)?.map(replaceStr),
+
+    vs: variants.length > 0 ? variants : undefined,
+    vn: vNames.length > 0 ? vNames : undefined,
+    pn: pNames.length > 0 ? pNames : undefined,
+    iv:
+      (acnhItemData.bcu && variants.length > 1) || acnhItemData.ccp
+        ? [
+            acnhItemData.bcu && variants.length > 1 ? 1 : 0,
+            acnhItemData.ccp || 0,
+            acnhItemData?.nvc,
+          ]
+        : undefined,
+    ip: acnhItemData.pcu
+      ? [acnhItemData.pcu ? 1 : 0, acnhItemData.spt ? 1 : 0, acnhItemData.cpt ? 1 : 0]
+      : undefined,
+    cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
+
+    fd: acnhItemData.fpw || undefined,
+    ss: acnhItemData.stk || undefined,
+    // us: undefined,
+
+    // iod: undefined,
+    isf: acnhItemData.sur || undefined,
+    idd: acnhItemData.dor || undefined,
+
+    // it: undefined,
+    // st: undefined,
+    // lt: undefined,
+    // sdt: undefined,
+    // vfxt: undefined,
   };
 
   return item;
@@ -595,8 +711,8 @@ export function genItemV2(): Item[] {
 }
 //#endregion
 
-export function mergeItemV1AndV2(): Item[] {
-  const itemsV1 = genItemV1();
+export function mergeItemV1AndV2(activitys?: Activity[]): Item[] {
+  const itemsV1 = genItemV1(activitys);
   const itemsV2 = genItemV2();
   let itemMapV1 = new Map<number, Item>();
   for (const item of itemsV1) {
@@ -608,7 +724,7 @@ export function mergeItemV1AndV2(): Item[] {
   }
 
   // 定义优先使用 v2 的字段列表
-  const v2Fields: (keyof Item)[] = ['acts'];
+  // const v2Fields: (keyof Item)[] = ['acts'];
 
   let mergedMap = new Map<number, Item>();
 
@@ -622,13 +738,13 @@ export function mergeItemV1AndV2(): Item[] {
     const existingItem = mergedMap.get(itemV2.id);
     if (existingItem) {
       // 交集：合并，使用 v2Fields 从 v2，否则从 v1
-      const mergedItem: Item = { ...existingItem };
-      for (const field of v2Fields) {
-        if (itemV2[field] !== undefined) {
-          (mergedItem as any)[field] = itemV2[field];
-        }
-      }
-      mergedMap.set(itemV2.id, mergedItem);
+      // const mergedItem: Item = { ...existingItem };
+      // for (const field of v2Fields) {
+      //   if (itemV2[field] !== undefined) {
+      //     (mergedItem as any)[field] = itemV2[field];
+      //   }
+      // }
+      // mergedMap.set(itemV2.id, mergedItem);
     } else {
       // v2 独有：直接添加
       mergedMap.set(itemV2.id, { ...itemV2 });
@@ -640,7 +756,7 @@ export function mergeItemV1AndV2(): Item[] {
   return mergedItems;
 }
 
-export const genItem = genItemV1;
+export const genItem = mergeItemV1AndV2;
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');
