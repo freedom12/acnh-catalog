@@ -57,7 +57,7 @@ const filters = computed<Filter[]>(() => {
   ];
 
   // 版本选项
-  const versionsOptions = Object.values(Version).map((version) => ({
+  const versionsOptions = Object.values(Version).reverse().map((version) => ({
     value: version,
     label: getVersionName(version),
   }));

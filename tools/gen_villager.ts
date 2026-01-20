@@ -1,89 +1,20 @@
 import { villagers as oldVillagers } from 'animal-crossing';
-import { colorMap, genderMap, processImageUrl, save, versionMap } from './util.js';
 import {
-  Hobby,
-  Personality,
-  Species,
-  type Item,
-  type Villager,
-} from '../src/types/index.js';
+  colorMap,
+  genderMap,
+  hobbyMap,
+  personalityMap,
+  processFurnitureString,
+  processImageUrl,
+  save,
+  speciesMap,
+  versionMap,
+} from './util.js';
+import { type Item, type Villager } from '../src/types/index.js';
 import { genItem } from './gen_item.js';
+import { getSheetDatas, getTrans } from './excel/excel.js';
 
-const personalityMap: Record<string, Personality> = {
-  Cranky: Personality.Cranky,
-  Jock: Personality.Jock,
-  Lazy: Personality.Lazy,
-  Smug: Personality.Smug,
-  Normal: Personality.Normal,
-  Peppy: Personality.Peppy,
-  Snooty: Personality.Snooty,
-  'Big Sister': Personality.BigSister,
-};
-
-const hobbyMap: Record<string, Hobby> = {
-  Education: Hobby.Education,
-  Fashion: Hobby.Fashion,
-  Fitness: Hobby.Fitness,
-  Music: Hobby.Music,
-  Nature: Hobby.Nature,
-  Play: Hobby.Play,
-};
-
-const speciesMap: Record<string, Species> = {
-  Alligator: Species.Alligator,
-  Anteater: Species.Anteater,
-  Bear: Species.Bear,
-  'Bear cub': Species.BearCub,
-  Bird: Species.Bird,
-  Bull: Species.Bull,
-  Cat: Species.Cat,
-  Chicken: Species.Chicken,
-  Cow: Species.Cow,
-  Deer: Species.Deer,
-  Dog: Species.Dog,
-  Duck: Species.Duck,
-  Eagle: Species.Eagle,
-  Elephant: Species.Elephant,
-  Frog: Species.Frog,
-  Goat: Species.Goat,
-  Gorilla: Species.Gorilla,
-  Hamster: Species.Hamster,
-  Hippo: Species.Hippo,
-  Horse: Species.Horse,
-  Kangaroo: Species.Kangaroo,
-  Koala: Species.Koala,
-  Lion: Species.Lion,
-  Monkey: Species.Monkey,
-  Mouse: Species.Mouse,
-  Octopus: Species.Octopus,
-  Ostrich: Species.Ostrich,
-  Penguin: Species.Penguin,
-  Pig: Species.Pig,
-  Rabbit: Species.Rabbit,
-  Rhinoceros: Species.Rhinoceros,
-  Sheep: Species.Sheep,
-  Squirrel: Species.Squirrel,
-  Tiger: Species.Tiger,
-  Wolf: Species.Wolf,
-};
-
-/**
- * 从字符串中提取3个数字，如果缺少后两个则用0填充
- * @param str 输入字符串，如 "3122,2_0" 或 "7142"
- * @returns 三个数字的数组
- */
-function processFurnitureString(str: string | number): [number, number, number] {
-  const parts = String(str).split(',');
-  const first = Number(parts[0]);
-  if (parts.length > 1) {
-    const secondParts = parts[1].split('_');
-    return [first, Number(secondParts[0] || 0), Number(secondParts[1] || 0)];
-  } else {
-    return [first, 0, 0];
-  }
-}
-
-export function genVillager(items?: Item[]) {
+export function genVillagerV1(items?: Item[]): Villager[] {
   items = items || genItem();
   let itemMap = new Map<string, Item>();
   for (const item of items) {
@@ -112,7 +43,7 @@ export function genVillager(items?: Item[]) {
       saying: oldVillager.favoriteSaying,
 
       song: itemMap.get(oldVillager.favoriteSong)?.id || 0,
-      cloting: itemMap.get(oldVillager.defaultClothing)?.id || 0,
+      clothing: itemMap.get(oldVillager.defaultClothing)?.id || 0,
       umbrella: itemMap.get(oldVillager.defaultUmbrella)?.id || 0,
       wallpaper: itemMap.get(oldVillager.wallpaper)?.id || 0,
       flooring: itemMap.get(oldVillager.flooring)?.id || 0,
@@ -130,6 +61,65 @@ export function genVillager(items?: Item[]) {
   villagers.sort((a, b) => a.id.localeCompare(b.id));
   return villagers;
 }
+
+export function genVillagerFromExcel(items?: Item[]): Villager[] {
+  const sheetDatas = getSheetDatas();
+  items = items || genItem();
+  const itemMap = new Map<string, Item>();
+  for (const item of items) {
+    itemMap.set(item.nr, item);
+  }
+  const villagers: Villager[] = [];
+  for (const sheetData of sheetDatas['Villagers']) {
+    const id = sheetData['Filename'];
+    const images = [sheetData['Icon Image'], sheetData['Photo Image']].map(
+      processImageUrl
+    );
+
+    let villager: Villager = {
+      id: id,
+      name: getTrans('Villagers', id) || sheetData['Name'],
+      rawName: sheetData['Name'],
+      images: images,
+      ver: versionMap[sheetData['Version Added']],
+      species: speciesMap[sheetData['Species']],
+      gender: genderMap[sheetData['Gender']],
+      personality: personalityMap[sheetData['Personality']],
+      subtype: sheetData['Subtype'],
+      hobby: hobbyMap[sheetData['Hobby']],
+      birthday: sheetData['Birthday'],
+      styles: Array.from(
+        new Set([sheetData['Style 1'], sheetData['Style 2']].filter(Boolean))
+      ),
+      colors: Array.from(
+        new Set([sheetData['Color 1'], sheetData['Color 2']].filter(Boolean))
+      ).map((c) => colorMap[c]),
+      catchphrase: getTrans('Villager Catchphrases', id) || sheetData['Catchphrase'],
+      saying: sheetData['Favorite Saying'],
+
+      song: itemMap.get(sheetData['Favorite Song'])?.id || 0,
+      clothing: sheetData['Default Clothing'] || 0,
+      umbrella: itemMap.get(sheetData['Default Umbrella'])?.id || 0,
+      wallpaper: itemMap.get(sheetData['Wallpaper'])?.id || 0,
+      flooring: itemMap.get(sheetData['Flooring'])?.id || 0,
+      furnitures: sheetData['Furniture List']
+        .split(';')
+        .map((s: string) => Number(s.trim())),
+      diyWorkbench: processFurnitureString(String(sheetData['DIY Workbench'])),
+      kitchenware: processFurnitureString(String(sheetData['Kitchen Equipment'])),
+      houseImage: sheetData['House Image']
+        ? processImageUrl(sheetData['House Image'])
+        : undefined,
+      bubbleColor: sheetData['Bubble Color'],
+      nameColor: sheetData['Name Color'],
+    };
+    villagers.push(villager);
+  }
+  villagers.sort((a, b) => a.id.localeCompare(b.id));
+  return villagers;
+}
+
+export const genVillager = genVillagerFromExcel;
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genVillager(), 'acnh-villagers.json');

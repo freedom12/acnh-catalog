@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "gencfg": "tsx tools/gen_all.ts",
-    "acnh": "tsx tools/acnh/acnh.ts",
+    "gen-cfg": "tsx tools/gen_all.ts",
+    "gen-acnh": "tsx tools/acnh/acnh.ts",
+    "gen-excel": "tsx tools/excel/excel.ts",
     "lint:style": "stylelint \"src/**/*.{vue,scss,css}\"",
     "lint:style:fix": "stylelint \"src/**/*.{vue,scss,css}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,vue,js,scss,css}\" \"*.{ts,js,md}\" \"tools/**/*.{ts,js}\""
@@ -30,6 +31,7 @@
     "tsx": "^4.21.0",
     "typescript": "~5.9.3",
     "vite": "^7.2.4",
-    "vue-tsc": "^3.1.4"
+    "vue-tsc": "^3.1.4",
+    "xlsx": "^0.18.5"
   }
 }

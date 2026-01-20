@@ -1,6 +1,14 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { Color, Gender, ItemSize, Version } from '../src/types';
+import {
+  Color,
+  Gender,
+  Hobby,
+  ItemSize,
+  Personality,
+  Species,
+  Version,
+} from '../src/types';
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -46,6 +54,22 @@ export function save(data: any, outputName: string, isBeautify = false) {
     JSON.stringify(data.map(removeNullFields), null, spacing),
     'utf-8'
   );
+}
+
+/**
+ * 从字符串中提取3个数字，如果缺少后两个则用0填充
+ * @param str 输入字符串，如 "3122,2_0" 或 "7142"
+ * @returns 三个数字的数组
+ */
+export function processFurnitureString(str: string | number): [number, number, number] {
+  const parts = String(str).split(',');
+  const first = Number(parts[0]);
+  if (parts.length > 1) {
+    const secondParts = parts[1].split('_');
+    return [first, Number(secondParts[0] || 0), Number(secondParts[1] || 0)];
+  } else {
+    return [first, 0, 0];
+  }
 }
 
 export const versionMap: Record<string, Version> = {
@@ -105,4 +129,62 @@ export const colorMap: Record<string, Color> = {
 export const genderMap: Record<string, Gender> = {
   Male: Gender.Male,
   Female: Gender.Female,
+};
+
+export const personalityMap: Record<string, Personality> = {
+  Cranky: Personality.Cranky,
+  Jock: Personality.Jock,
+  Lazy: Personality.Lazy,
+  Smug: Personality.Smug,
+  Normal: Personality.Normal,
+  Peppy: Personality.Peppy,
+  Snooty: Personality.Snooty,
+  'Big Sister': Personality.BigSister,
+};
+
+export const hobbyMap: Record<string, Hobby> = {
+  Education: Hobby.Education,
+  Fashion: Hobby.Fashion,
+  Fitness: Hobby.Fitness,
+  Music: Hobby.Music,
+  Nature: Hobby.Nature,
+  Play: Hobby.Play,
+};
+
+export const speciesMap: Record<string, Species> = {
+  Alligator: Species.Alligator,
+  Anteater: Species.Anteater,
+  Bear: Species.Bear,
+  'Bear cub': Species.BearCub,
+  Bird: Species.Bird,
+  Bull: Species.Bull,
+  Cat: Species.Cat,
+  Chicken: Species.Chicken,
+  Cow: Species.Cow,
+  Deer: Species.Deer,
+  Dog: Species.Dog,
+  Duck: Species.Duck,
+  Eagle: Species.Eagle,
+  Elephant: Species.Elephant,
+  Frog: Species.Frog,
+  Goat: Species.Goat,
+  Gorilla: Species.Gorilla,
+  Hamster: Species.Hamster,
+  Hippo: Species.Hippo,
+  Horse: Species.Horse,
+  Kangaroo: Species.Kangaroo,
+  Koala: Species.Koala,
+  Lion: Species.Lion,
+  Monkey: Species.Monkey,
+  Mouse: Species.Mouse,
+  Octopus: Species.Octopus,
+  Ostrich: Species.Ostrich,
+  Penguin: Species.Penguin,
+  Pig: Species.Pig,
+  Rabbit: Species.Rabbit,
+  Rhinoceros: Species.Rhinoceros,
+  Sheep: Species.Sheep,
+  Squirrel: Species.Squirrel,
+  Tiger: Species.Tiger,
+  Wolf: Species.Wolf,
 };

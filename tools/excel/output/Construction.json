@@ -1,0 +1,4182 @@
+[
+  {
+    "Name": "brick bridge",
+    "Image": "",
+    "Buy": 198000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeBricks",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Rvkrg9tcubTMakcBS"
+  },
+  {
+    "Name": "iron bridge",
+    "Image": "",
+    "Buy": 228000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeIron",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "RmQ6iiKkFf3Sy4iSQ"
+  },
+  {
+    "Name": "log bridge",
+    "Image": "",
+    "Buy": 98000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeLog",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Px55sTfjKSbbMtjAK"
+  },
+  {
+    "Name": "red zen bridge",
+    "Image": "",
+    "Buy": 228000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeRed",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jTziEHXkeYaugKDQQ"
+  },
+  {
+    "Name": "stone bridge",
+    "Image": "",
+    "Buy": 168000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeStone",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "JmrwC2tRRCCgbZnrp"
+  },
+  {
+    "Name": "suspension bridge",
+    "Image": "",
+    "Buy": 129800,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeSuspension",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "q52JebMTHDqHJKBba"
+  },
+  {
+    "Name": "wooden bridge",
+    "Image": "",
+    "Buy": 168000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeWood",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "7oZ7FMrJEpBLZzsmw"
+  },
+  {
+    "Name": "zen bridge",
+    "Image": "",
+    "Buy": 228000,
+    "Category": "Bridge",
+    "Source": "Resident Services Upgrade",
+    "Filename": "BridgeJapanese",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "TbKbHzJM8j8ezmAEF"
+  },
+  {
+    "Name": "basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "HrAsZSpm2pRj2u8ad"
+  },
+  {
+    "Name": "beige basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "uF4YeCTGBx4Tawcp8"
+  },
+  {
+    "Name": "beige simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jQFLgioHYBRbRkBYK"
+  },
+  {
+    "Name": "beige windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "oMqf22Pf8fZzeoJdY"
+  },
+  {
+    "Name": "beige wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "N5LASg9qjhgexBMe7"
+  },
+  {
+    "Name": "black common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "6mmdmWbK5ZRpbCsWc"
+  },
+  {
+    "Name": "black fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "3ZahH8gvtHGdkEM68"
+  },
+  {
+    "Name": "black imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "qT9ghD7YkZpMDgBDf"
+  },
+  {
+    "Name": "black latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Kzu4WsZwmSWzLdMC6"
+  },
+  {
+    "Name": "black rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "TKDhdqyJBdrz8yQt6"
+  },
+  {
+    "Name": "black vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Z4efmoeAjzYLhTsKJ"
+  },
+  {
+    "Name": "black zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "AxrkW9SNKqmh9kX4S"
+  },
+  {
+    "Name": "blue basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BxqZmtEty82NDo8J3"
+  },
+  {
+    "Name": "blue common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "hfWfx4mxev3qjp2zH"
+  },
+  {
+    "Name": "blue fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "fm6MupiuPAK6HPNNj"
+  },
+  {
+    "Name": "blue iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "5tgy5p3AE38NBeG9B"
+  },
+  {
+    "Name": "blue latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "JwdJLi5HHZe24DmkF"
+  },
+  {
+    "Name": "blue metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "YB3NZt9RRYJroWRcn"
+  },
+  {
+    "Name": "blue rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "8k4sCwWWqugmTYuw6"
+  },
+  {
+    "Name": "blue simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cN2eTBiAPt2Bv8GTK"
+  },
+  {
+    "Name": "blue vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "AJB8xQLjaJR2WrHBv"
+  },
+  {
+    "Name": "blue windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "i5JLZk2vdr5jZ9nBC"
+  },
+  {
+    "Name": "blue wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "okXxYSYZ8o2vceKQG"
+  },
+  {
+    "Name": "brown imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "SN5ik2H7HfGLuG9EN"
+  },
+  {
+    "Name": "brown latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "a4Mft9ihDSpo4jusc"
+  },
+  {
+    "Name": "brown metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "8eztTyD69pNsq7Eee"
+  },
+  {
+    "Name": "brown zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "3bWWrFPG7N5NcAKbS"
+  },
+  {
+    "Name": "burgundy basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "vuSF9u2vtgf95NREh"
+  },
+  {
+    "Name": "common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "8Gx8LKMb7ipbF9qKa"
+  },
+  {
+    "Name": "cyan vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CTyPWnQDRGqMcDEyf"
+  },
+  {
+    "Name": "dark-brown iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CQFAjS99WqxTu4QDJ"
+  },
+  {
+    "Name": "deep-green simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Gyibc6G9u5Zv4fMdJ"
+  },
+  {
+    "Name": "gray common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mEBW6Y6gLFpBpibwA"
+  },
+  {
+    "Name": "gray iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "27cPAfi2DYBEzzgto"
+  },
+  {
+    "Name": "gray iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "uzLEvMD46GzBZQ3mN"
+  },
+  {
+    "Name": "gray latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ZCfMjY9ED5jW87aZY"
+  },
+  {
+    "Name": "gray simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "QjS2nzSqHCLCcLGKQ"
+  },
+  {
+    "Name": "gray windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Y7W4HKFy49BLvabBD"
+  },
+  {
+    "Name": "gray wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "C2LhRZFynjh6x5gQB"
+  },
+  {
+    "Name": "green basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jDYnxjeL9zxWFsYM3"
+  },
+  {
+    "Name": "green common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "3xcS4XeYXbi6A4JJc"
+  },
+  {
+    "Name": "green imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "h59gk2epKc9ALPoF9"
+  },
+  {
+    "Name": "green iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CH2gZGRicug5TB5nF"
+  },
+  {
+    "Name": "green iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "fNwKPm8gu5pnoNZ2H"
+  },
+  {
+    "Name": "green metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "gveHmLcPh9uNLMFB8"
+  },
+  {
+    "Name": "green rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "YyyhicaCZuYCAd4hm"
+  },
+  {
+    "Name": "green vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "DAwzGNJimCfi6XuPY"
+  },
+  {
+    "Name": "green windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CHTZZvpsuYP2ZvEtm"
+  },
+  {
+    "Name": "green wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "qj2PXQwBkjoDPMSDc"
+  },
+  {
+    "Name": "green-apple basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mH3kwkiNAW9Tgg5XH"
+  },
+  {
+    "Name": "green-apple common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "oe58QsaRvnF9dQ9Eg"
+  },
+  {
+    "Name": "imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BbeW2wNrRMq4PkQB5"
+  },
+  {
+    "Name": "iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "yE4x5zcn95mcNNf2f"
+  },
+  {
+    "Name": "iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Cgd6XZxLfYLbuRqoC"
+  },
+  {
+    "Name": "lacquered zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "soxZojTeCikxb9q53"
+  },
+  {
+    "Name": "latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jexi2bbNCwn2j3JvC"
+  },
+  {
+    "Name": "light-green rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "n5cEgH77z99n3rT8i"
+  },
+  {
+    "Name": "maple iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "FW8NZXxWLT4hY6Nj3"
+  },
+  {
+    "Name": "maple rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cuDwoeXKD2jdQEPvQ"
+  },
+  {
+    "Name": "maple vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "uKkrQ5yBYWQMmerB7"
+  },
+  {
+    "Name": "maple windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "bTb3Quno8Hhs7ASK2"
+  },
+  {
+    "Name": "maple wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "zvWtASTxgTYBunTDz"
+  },
+  {
+    "Name": "metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "EivvfJTS98tFNbuno"
+  },
+  {
+    "Name": "pale-blue basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "LnLiK3nvaaGqMSJbo"
+  },
+  {
+    "Name": "pale-blue iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "LGernbHCg8R4Kcs8f"
+  },
+  {
+    "Name": "pale-purple rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "HEczAiQ4dHwB5zh5i"
+  },
+  {
+    "Name": "pink basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Xby3xZhQd3dMb4Coe"
+  },
+  {
+    "Name": "pink fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "2jbKjqmXXQddSvH26"
+  },
+  {
+    "Name": "pink iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BLseEGcXhw9dPreLx"
+  },
+  {
+    "Name": "pink iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "sjAoF3vsRF5J8jLdq"
+  },
+  {
+    "Name": "pink metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "TB89rf3ccaKip4QRz"
+  },
+  {
+    "Name": "pink rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "GANZwLknoRyyegbLM"
+  },
+  {
+    "Name": "pink simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "qvNBxg3CEWvEnoNpZ"
+  },
+  {
+    "Name": "pink windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "svRR2C9PSLt5ef3Su"
+  },
+  {
+    "Name": "pink wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "gPykmDtFtSdxotvrk"
+  },
+  {
+    "Name": "purple common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "XBquzTWPzAnHcKYBj"
+  },
+  {
+    "Name": "purple iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Q4GLiP3Kmurrk2WSB"
+  },
+  {
+    "Name": "purple metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "B6NfDDoKJXSTX6nEZ"
+  },
+  {
+    "Name": "purple simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "dmTdoj8NzL2jSKZHu"
+  },
+  {
+    "Name": "purple vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "JHMuJ2pSXBFsCGThM"
+  },
+  {
+    "Name": "purple windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "kiK57D48BgFz2LdAh"
+  },
+  {
+    "Name": "purple wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardJR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardJR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "oNx9giXYQZLfuCYq5"
+  },
+  {
+    "Name": "red common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "WmuaHC559AALWH2Bb"
+  },
+  {
+    "Name": "red fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "us8rFY2TSFXCx72kH"
+  },
+  {
+    "Name": "red imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "NtxTaTeTrzghsGS2W"
+  },
+  {
+    "Name": "red iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Bp9ysH2C4zeiScQXP"
+  },
+  {
+    "Name": "red iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillIR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillIR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "giywRE5qEmQZC6GAN"
+  },
+  {
+    "Name": "red latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Nnbfndanco3rvQgWf"
+  },
+  {
+    "Name": "red metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "XvgfNPwfYGffgE24X"
+  },
+  {
+    "Name": "red rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "RddBzpZ8QEcLWD4Gv"
+  },
+  {
+    "Name": "red vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jtHKujXtSxTwgmgiY"
+  },
+  {
+    "Name": "red windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Z4oGMDMqpFBdfYXsZ"
+  },
+  {
+    "Name": "red wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "h4LK4FrT733y64FZz"
+  },
+  {
+    "Name": "red zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "tdPuvQyRrRFiBEv7z"
+  },
+  {
+    "Name": "red-green imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "2mrsS49vJNZdWDQeD"
+  },
+  {
+    "Name": "rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mbsrSkG43TP7tA6e5"
+  },
+  {
+    "Name": "vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "aqhHtKKvCQQpb834t"
+  },
+  {
+    "Name": "walnut latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "xtvqjdafPWY4DF4ww"
+  },
+  {
+    "Name": "white basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "rrazQ4rMyTqvC3G3Y"
+  },
+  {
+    "Name": "white common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cFZFak2hPc3jBrpv8"
+  },
+  {
+    "Name": "white fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "r6k9ATzzAKaWMNJnQ"
+  },
+  {
+    "Name": "white imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "bthYBfAjTxo7F5dNi"
+  },
+  {
+    "Name": "white iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Zi4ndrFTFsEqhQPw9"
+  },
+  {
+    "Name": "white iron grill door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronGrillFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronGrillFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "bz47mYutYXduChB3P"
+  },
+  {
+    "Name": "white latticework door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorLatticeGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorLatticeGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ndjhLSHZXG4TrmXNS"
+  },
+  {
+    "Name": "white metal-accent door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronpartsHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronpartsHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "yDBA2qT5sGQAzt7eB"
+  },
+  {
+    "Name": "white rustic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimplicityBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimplicityBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Mu7FQYgoRajRuL5BD"
+  },
+  {
+    "Name": "white simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "q4CQF3zCDhorZ7fAc"
+  },
+  {
+    "Name": "white vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CxFPdgKzKg2ifRx62"
+  },
+  {
+    "Name": "white windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ZovDjWHe8YSZZKinn"
+  },
+  {
+    "Name": "white wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardHR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardHR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "h2ja68uKd7TxdEwQE"
+  },
+  {
+    "Name": "white zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseGR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseGR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wY7gy8YD2Y8ojnDnm"
+  },
+  {
+    "Name": "windowed door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorWindowAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorWindowAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "28wnpfEyGZCvdDsmc"
+  },
+  {
+    "Name": "wooden door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorStandardAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorStandardAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "4ovKGY9ZoiujvqkS8"
+  },
+  {
+    "Name": "yellow basic door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCercleWindowCR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCercleWindowCR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "yoMGH8LhL7mFWZiPD"
+  },
+  {
+    "Name": "yellow common door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorReliefER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorReliefER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "5ZKFC4ePpoYDqqJSu"
+  },
+  {
+    "Name": "yellow fancy door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorCarvingFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorCarvingFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "iNTxu4FaB6TC9pjni"
+  },
+  {
+    "Name": "yellow imperial door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorChineseDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorChineseDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "dBGXJ8LnHwDZciTRS"
+  },
+  {
+    "Name": "yellow iron door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorIronDR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorIronDR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wELe85t5gE9e5fZ7H"
+  },
+  {
+    "Name": "yellow simple door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorSimpleFR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorSimpleFR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "t8gHx6QjK9tFMmMna"
+  },
+  {
+    "Name": "yellow vertical-panes door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorVerticalWindowER.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorVerticalWindowER",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Aszgp3pAbCC75LNHd"
+  },
+  {
+    "Name": "yellow zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseBR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseBR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "yHJcPMRBWKZofvC4H"
+  },
+  {
+    "Name": "zen door",
+    "Image": "https://nh-cdn.catalogue.ac/HouseDoorIcon/HouseDoorJapaneseAR.png",
+    "Buy": 5000,
+    "Category": "Door",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseDoorJapaneseAR",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jGJNCRi6kcXXTD67g"
+  },
+  {
+    "Name": "blue steel staircase",
+    "Image": "",
+    "Buy": 228000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeIronStairBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wEC52Lc5cf8TcamMB"
+  },
+  {
+    "Name": "blue-plank ramp",
+    "Image": "",
+    "Buy": 128000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeWoodBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "gHnYrhHS9A7MrPdpr"
+  },
+  {
+    "Name": "brick staircase",
+    "Image": "",
+    "Buy": 198000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeBrickStair",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "A8AfTzxqpvzfcMeC5"
+  },
+  {
+    "Name": "log staircase",
+    "Image": "",
+    "Buy": 168000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeWoodStair",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wk6oQREwMmRAmkTWJ"
+  },
+  {
+    "Name": "natural ramp",
+    "Image": "",
+    "Buy": 98000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeNatural",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "m7jAPxsGCRgSWo6Ng"
+  },
+  {
+    "Name": "red steel staircase",
+    "Image": "",
+    "Buy": 228000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeIronStair",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "2nygbmutbmBfuzEXp"
+  },
+  {
+    "Name": "stone staircase",
+    "Image": "",
+    "Buy": 168000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeStoneStair",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "4zszj8KsBNe2XgeGq"
+  },
+  {
+    "Name": "white-plank ramp",
+    "Image": "",
+    "Buy": 128000,
+    "Category": "Incline",
+    "Source": "Resident Services Upgrade",
+    "Filename": "SlopeWood",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "aR8pTDNtanxDQt7MY"
+  },
+  {
+    "Name": "black large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeBlack.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeBlack",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "MfwnWmtJuJDAvc2Lz"
+  },
+  {
+    "Name": "black ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardBlack.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardBlack",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mrnKiTGF6ra4B8X2T"
+  },
+  {
+    "Name": "black square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareBlack.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareBlack",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "EePwSJwYCpQZacFqi"
+  },
+  {
+    "Name": "blue large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeBlue.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "PXyHoT3WdZxgZNngW"
+  },
+  {
+    "Name": "blue ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardBlue.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "RzqDEHhw3HSGjpavY"
+  },
+  {
+    "Name": "blue square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareBlue.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cP7bYmszxmrmW2ygL"
+  },
+  {
+    "Name": "blue wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodBlue.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodBlue",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "hc333N34upcNjSabw"
+  },
+  {
+    "Name": "chic wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodDark.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodDark",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "f2YBipw25G8BAxwSt"
+  },
+  {
+    "Name": "green large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeGreen.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeGreen",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "MkQ6G3TQ7YqhQToAi"
+  },
+  {
+    "Name": "green ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardGreen.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardGreen",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ujFMEsLrnERfkwfP9"
+  },
+  {
+    "Name": "green square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareGreen.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareGreen",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "xuTEi6Do6tN46d3q5"
+  },
+  {
+    "Name": "green wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodGreen.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodGreen",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "6bxdrutijtpzKv39F"
+  },
+  {
+    "Name": "large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLarge.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLarge",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "9mei7SoYtX9WhJqBx"
+  },
+  {
+    "Name": "ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandard.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandard",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "WiXx9pYfimxQTSAuF"
+  },
+  {
+    "Name": "pink large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargePink.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargePink",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "442cvvb6XZ2ykmMy9"
+  },
+  {
+    "Name": "pink ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardPink.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardPink",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "TimXNFMGAu2gEdSHg"
+  },
+  {
+    "Name": "pink square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquarePink.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquarePink",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wM9frkMp4Bw3j8siW"
+  },
+  {
+    "Name": "pink wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodPink.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodPink",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "rFbXYtTBoJmXaHs8o"
+  },
+  {
+    "Name": "red large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeRed.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeRed",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "dd7zAjPBuZzeepDg4"
+  },
+  {
+    "Name": "red ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardRed.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardRed",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "TBRuBdRZM6YmQPNHp"
+  },
+  {
+    "Name": "red square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareRed.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareRed",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "hnC7jsEoSKbk5RsEy"
+  },
+  {
+    "Name": "red wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodRed.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodRed",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "wuakRPNugQ72t832X"
+  },
+  {
+    "Name": "rustic mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSimple.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "Tent",
+    "Filename": "FtrPostSimple",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "vhd8waS64LR47ty8Q"
+  },
+  {
+    "Name": "square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquare.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquare",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BKJKu7xjhMajA2aFy"
+  },
+  {
+    "Name": "white large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeWhite.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeWhite",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "uEXJbNeCvpXGjCokH"
+  },
+  {
+    "Name": "white ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardWhite.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardWhite",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "QYJ4Xh4GSSi4iYzMb"
+  },
+  {
+    "Name": "white square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareWhite.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareWhite",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "62DZnrMMYjrk5jbS5"
+  },
+  {
+    "Name": "white wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodWhite.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodWhite",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "hs8QMbn7caa6z85ha"
+  },
+  {
+    "Name": "wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWood.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWood",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "iqx2M7qtMQjSr73dq"
+  },
+  {
+    "Name": "yellow large mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostLargeYellow.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostLargeYellow",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Ed6P9B4Y7y6TA99YS"
+  },
+  {
+    "Name": "yellow ordinary mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostStandardYellow.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostStandardYellow",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "egLw54yP3orauEyFd"
+  },
+  {
+    "Name": "yellow square mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostSquareYellow.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostSquareYellow",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Me97eMZ28yf3j8S8v"
+  },
+  {
+    "Name": "yellow wooden mailbox",
+    "Image": "https://nh-cdn.catalogue.ac/HousePostIcon/FtrPostWoodYellow.png",
+    "Buy": 5000,
+    "Category": "Mailbox",
+    "Source": "3rd House Upgrade (Left Room)",
+    "Filename": "FtrPostWoodYellow",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ZDcPaCBz24tNYiGe4"
+  },
+  {
+    "Name": "aqua tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardE.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Qnx2RexRkQSfFnLuB"
+  },
+  {
+    "Name": "beige curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileF.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "jX9sAaudmHztd6WoQ"
+  },
+  {
+    "Name": "beige stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneB.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "rJ4yqFWLmk6ykB5Et"
+  },
+  {
+    "Name": "black curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileH.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BdGehD5vw6WxG8efX"
+  },
+  {
+    "Name": "black stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneH.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "hyshRxYSTue2YG2zE"
+  },
+  {
+    "Name": "black thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedH.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "53msS63AkP5L46Bq7"
+  },
+  {
+    "Name": "black tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardH.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "aEXiJy3tnSJWNTBkv"
+  },
+  {
+    "Name": "blue curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileE.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mprPiQG9puuaCguod"
+  },
+  {
+    "Name": "blue stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneE.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "2q8sqokbgGi3mebNb"
+  },
+  {
+    "Name": "blue tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardF.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "B7gS5WW3ksnrfNeXK"
+  },
+  {
+    "Name": "brown curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileG.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "zKQZJpWoGzgw7orRW"
+  },
+  {
+    "Name": "brown stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneG.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "mapwfPNGnhg62uQkt"
+  },
+  {
+    "Name": "brown thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedB.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "N9gATxvMvWX5HLEhS"
+  },
+  {
+    "Name": "deep-green thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedG.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "vc6xgYJWGgA9cTkB7"
+  },
+  {
+    "Name": "fresh-grass thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedD.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Z5NELbfAsKrPcwy5L"
+  },
+  {
+    "Name": "golden-brown thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedA.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "roxKGs7uRQw2pw8to"
+  },
+  {
+    "Name": "gray stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneA.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ab33Skrb5b7oeha7y"
+  },
+  {
+    "Name": "gray thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedE.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "PpodDcgiEgAJiDiSS"
+  },
+  {
+    "Name": "green curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileD.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "zH9xBNwrWkv4JfBH3"
+  },
+  {
+    "Name": "green stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneF.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "T85hEMqZDuz32hnS2"
+  },
+  {
+    "Name": "green tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardD.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "pEWWGqpXPdLucubvS"
+  },
+  {
+    "Name": "orange curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileA.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "yfLcN39wQrmNt8WHH"
+  },
+  {
+    "Name": "orange stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneC.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ifhZHe9jHujeiSgAu"
+  },
+  {
+    "Name": "orange thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedC.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "KehTqxnW4g25qgMzj"
+  },
+  {
+    "Name": "pink curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileB.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Pcg6fSeBJ5C92kLPs"
+  },
+  {
+    "Name": "pink tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardB.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ve7xChDBdMDgb6nTS"
+  },
+  {
+    "Name": "purple tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardG.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "3dBXpZsj6tD2dBzwj"
+  },
+  {
+    "Name": "red stone roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StoneD.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04StoneD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "zPrrQagfzwkhtnAZT"
+  },
+  {
+    "Name": "red tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardA.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "uifwByFWdDXnTJ4vp"
+  },
+  {
+    "Name": "white thatch roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04ThatchedF.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04ThatchedF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "CGCfToQFCeeeMkRWc"
+  },
+  {
+    "Name": "yellow curved shingles",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04WesterntileC.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "4th House Upgrade (Right Room)",
+    "Filename": "HouseRoofPA04WesterntileC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "n5Gc39GsgiLg4ofb2"
+  },
+  {
+    "Name": "yellow tile roof",
+    "Image": "https://nh-cdn.catalogue.ac/HouseRoofIcon/HouseRoofPA04StandardC.png",
+    "Buy": 5000,
+    "Category": "Roof",
+    "Source": "Initial House",
+    "Filename": "HouseRoofPA04StandardC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "2aQvQYwCsSQyRGyvF"
+  },
+  {
+    "Name": "ash-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "agcGhdCB4SMtDAhW5"
+  },
+  {
+    "Name": "ash-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "hzkYgksv2Thc29DPH"
+  },
+  {
+    "Name": "basic zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "v5hSQEnvqgvnMxNf6"
+  },
+  {
+    "Name": "basic zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "kap6r2JcTCR6pk2xB"
+  },
+  {
+    "Name": "beige & red woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "2wGaRW2eSYHCGjQo5"
+  },
+  {
+    "Name": "beige & red woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Ytum7hzNR2CoPJuxs"
+  },
+  {
+    "Name": "beige brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "LS7badPhZ8J7y5geJ"
+  },
+  {
+    "Name": "beige clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Nfhad3MKWWEYfgYbd"
+  },
+  {
+    "Name": "beige cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "5cGobyNcFy94sRxr3"
+  },
+  {
+    "Name": "beige striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "XEGM8kgj83EXZGces"
+  },
+  {
+    "Name": "beige stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "qbKmPn2exhSsqLCw5"
+  },
+  {
+    "Name": "beige stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "XXRmNQ6rGhkh5AMAa"
+  },
+  {
+    "Name": "beige stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "7rumCEEPaziHSSRLX"
+  },
+  {
+    "Name": "beige two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "iZkEyFJnxZhPFKuQ2"
+  },
+  {
+    "Name": "beige woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "RaWKak29F7NfxGA3A"
+  },
+  {
+    "Name": "beige woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "fjh8WedLELC3jPeap"
+  },
+  {
+    "Name": "black & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "LQBASL33D4MonSqYw"
+  },
+  {
+    "Name": "black & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Ctd337LzqYesoqjw4"
+  },
+  {
+    "Name": "black & white panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "z2w7oAQd7wfWfzfzN"
+  },
+  {
+    "Name": "black brick-trim exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "h5FGYpsGfxEYvpwyt"
+  },
+  {
+    "Name": "black castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "TZ2mm8TQzyythG5YH"
+  },
+  {
+    "Name": "black chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "kYAfpnwSRtZfZs4SG"
+  },
+  {
+    "Name": "black cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "rPxNkakgwQ5rkg7jq"
+  },
+  {
+    "Name": "black common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "di7Pmwx9aDN4v4Xfc"
+  },
+  {
+    "Name": "black log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HBduEun9nEfa43fdJ"
+  },
+  {
+    "Name": "black log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "piKD5D7LQPLkMHiTN"
+  },
+  {
+    "Name": "black panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "gFWvG2DuFfXAFqsuo"
+  },
+  {
+    "Name": "black striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "8ezwCcMzih4cP6S34"
+  },
+  {
+    "Name": "black stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "gJeYNSQ4cBQuMiJXS"
+  },
+  {
+    "Name": "black stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "FboEwmNMpyRN7zET2"
+  },
+  {
+    "Name": "blue & black panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "cQ5Kat5xj9t3e57an"
+  },
+  {
+    "Name": "blue & orange woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ZtTX4WXtduwizR5a4"
+  },
+  {
+    "Name": "blue & orange woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "YumxsZgapdBAaDQi6"
+  },
+  {
+    "Name": "blue & white panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xMG6H4mPRsQ45vHqX"
+  },
+  {
+    "Name": "blue brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "EPQBZs37HWgd2W2Lf"
+  },
+  {
+    "Name": "blue castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "nYogCLCgq65Mh76me"
+  },
+  {
+    "Name": "blue cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "eTg7RcPdjkGPBeWL4"
+  },
+  {
+    "Name": "blue panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "T95FhcWw9umLm3Jnp"
+  },
+  {
+    "Name": "blue striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "kK26gaagd9nDGWtJo"
+  },
+  {
+    "Name": "blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "g6d8pc3feddvfd3wm"
+  },
+  {
+    "Name": "blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "vao77AKRbiSCKLLPH"
+  },
+  {
+    "Name": "blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "azyK8onQ9GwkRA6ex"
+  },
+  {
+    "Name": "blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KakS3oHuNipYfpujt"
+  },
+  {
+    "Name": "blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "28mC6z7b8pZfPeTvs"
+  },
+  {
+    "Name": "blue-trim common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "9gtBjJE4tYb6wQczz"
+  },
+  {
+    "Name": "brown brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "8bEGpsoBoFsZr3i4p"
+  },
+  {
+    "Name": "brown chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "xAmRhhZacLmi3ySCm"
+  },
+  {
+    "Name": "brown clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "cMuyGzRWprwsFruor"
+  },
+  {
+    "Name": "brown cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "NL3LEQdCu2TtcE9eW"
+  },
+  {
+    "Name": "brown cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "n2R7SMBY4CyMMx9mn"
+  },
+  {
+    "Name": "brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "rioZpHGa2GY5sDugy"
+  },
+  {
+    "Name": "brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xGNS9qrkubzXHyo7X"
+  },
+  {
+    "Name": "brown stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "jWELhm74YSRfpKTuW"
+  },
+  {
+    "Name": "brown stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "sGD4DTjq4TcLwpMnu"
+  },
+  {
+    "Name": "brown two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KjCmBEn6DtkwCmNjA"
+  },
+  {
+    "Name": "chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "RBTZCSQfgD2vQH3Ze"
+  },
+  {
+    "Name": "chic cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Lms2QszBWsfaCCxGf"
+  },
+  {
+    "Name": "chic zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "wDY4RfZ7j2rtyDf5r"
+  },
+  {
+    "Name": "chic zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KMxDjNZDirGaGCqiE"
+  },
+  {
+    "Name": "classy zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "D4HRimNjSCs3MacMS"
+  },
+  {
+    "Name": "classy zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "p6P4N76nkGpzgTeYY"
+  },
+  {
+    "Name": "common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "tvSkijt9ictdZ5haB"
+  },
+  {
+    "Name": "cream & gray panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "43fZsai5kuZCeRyf2"
+  },
+  {
+    "Name": "cream chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "KAwpDuD4BQAodaghb"
+  },
+  {
+    "Name": "cream panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "qSAYK7KRYjZ8ejbCh"
+  },
+  {
+    "Name": "dark-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "kvvCDgujneJJ7xeY4"
+  },
+  {
+    "Name": "dark-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "9Smq3cNo7NBxDemnp"
+  },
+  {
+    "Name": "dark-brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "P8GtnqAu2gsrcbcK2"
+  },
+  {
+    "Name": "gold castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "QEoZTPE83uQqaoNGv"
+  },
+  {
+    "Name": "gray & black panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "5rpWDknseFb9uZWbS"
+  },
+  {
+    "Name": "gray brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "pdA7Jb66DBuj4FCTE"
+  },
+  {
+    "Name": "gray cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneH",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "8GYy5WLx9jCpap6uY"
+  },
+  {
+    "Name": "gray cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "E6fbKkKbHAAy5LePJ"
+  },
+  {
+    "Name": "gray panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "JBns8QjhTJpRe56W4"
+  },
+  {
+    "Name": "gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "niRaBvHzn59TEuTtu"
+  },
+  {
+    "Name": "gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "r2DWjrbR34FwRRNZL"
+  },
+  {
+    "Name": "gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "QHsrt84KFH5RP4W2J"
+  },
+  {
+    "Name": "gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ajZsKgrvwxqj8FdCG"
+  },
+  {
+    "Name": "gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "znu62t8nrf7tYTBkz"
+  },
+  {
+    "Name": "gray-trim common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "JfXXtqNSk5D2jYMYf"
+  },
+  {
+    "Name": "green & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Bd9kJXQKcMvGGHg3t"
+  },
+  {
+    "Name": "green & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ukYJn8MXADYFSbEK6"
+  },
+  {
+    "Name": "green & brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "rLyeE59wcGNj63kxc"
+  },
+  {
+    "Name": "green & brown woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "X5J7BiDDeGX8e4ovC"
+  },
+  {
+    "Name": "green & brown woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ijSD8ucXhRsvpDkhm"
+  },
+  {
+    "Name": "green & orange woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HCgSntTapsbjqvP2w"
+  },
+  {
+    "Name": "green & orange woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Mso24dF3RAyQSzihs"
+  },
+  {
+    "Name": "green brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "DWfEiB2GJ9y6JR8s2"
+  },
+  {
+    "Name": "green brick-trim exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "TwzGfbBAjLJ8cq8Qm"
+  },
+  {
+    "Name": "green castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "zhGtAZB89xtfyrnvm"
+  },
+  {
+    "Name": "green clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "SrRuBietDPv5QarSz"
+  },
+  {
+    "Name": "green cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Jiy9DpvuhLX6skBrR"
+  },
+  {
+    "Name": "green panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "nL6sJ5fRNcg7P8npw"
+  },
+  {
+    "Name": "green striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ngqgTxENDENDu2v7y"
+  },
+  {
+    "Name": "green stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "vChjafXsrdRBkTxbk"
+  },
+  {
+    "Name": "green stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KJFFvxnH6cxfPr74G"
+  },
+  {
+    "Name": "green two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "mvFPXSD8sac4E6QNh"
+  },
+  {
+    "Name": "light-blue chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "9SCJMuao7JJBS3iry"
+  },
+  {
+    "Name": "light-blue cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "YrGKk3uFZ5GA4Mx5L"
+  },
+  {
+    "Name": "light-brown cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Aa7FWnHaZ6mpCdipJ"
+  },
+  {
+    "Name": "light-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "e75K3EMygFAArxDDX"
+  },
+  {
+    "Name": "light-brown log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "43G7yna6392MAJvqo"
+  },
+  {
+    "Name": "light-brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xuGe4uvN7v6tkWH3P"
+  },
+  {
+    "Name": "light-brown stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "2QegXP8oQWqKN4kSn"
+  },
+  {
+    "Name": "light-gray cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ZH4zSM5t8CkRN6WL7"
+  },
+  {
+    "Name": "light-gray cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HFpwxjZokzm92XR5t"
+  },
+  {
+    "Name": "light-gray stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "8KaQYBJxWggZzkJGS"
+  },
+  {
+    "Name": "mint-blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "NWbw4muaEMp7egxST"
+  },
+  {
+    "Name": "mint-blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "n7xsWtKc9caDeRhqH"
+  },
+  {
+    "Name": "mint-blue stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "tuFwLBPyQSqZPcnT8"
+  },
+  {
+    "Name": "natural log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "sdeaNfBhNoDMX69pj"
+  },
+  {
+    "Name": "natural log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "oz9vcn3haXFxT7GH8"
+  },
+  {
+    "Name": "natural panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KNQHAFN4mQ3EGJRou"
+  },
+  {
+    "Name": "natural woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "tdoxZcRhxYhFMtMD2"
+  },
+  {
+    "Name": "natural woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "uR25vwZFbwdFKap9f"
+  },
+  {
+    "Name": "natural zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HzZZRy4wfMv4EdbYK"
+  },
+  {
+    "Name": "natural zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "fhnuLatWR3BawC2bp"
+  },
+  {
+    "Name": "orange chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ug4QTydifE3YXJqHR"
+  },
+  {
+    "Name": "orange clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xDw86YCeCnBuPBX6v"
+  },
+  {
+    "Name": "orange cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "Xs4kXRbnMnnkzzdGm"
+  },
+  {
+    "Name": "orange stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "crt2gKoFQwerNHfuD"
+  },
+  {
+    "Name": "orange stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Ld8FWPkGFByYvHwBa"
+  },
+  {
+    "Name": "orange two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "pxrCfEzS4S8yoqmPe"
+  },
+  {
+    "Name": "pale-green brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "pmoDuJDLoxqDLmDrM"
+  },
+  {
+    "Name": "pink & black woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "jXCPAqfP4CM8Pazmj"
+  },
+  {
+    "Name": "pink & black woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "tp52iHmLaPZbfZTcE"
+  },
+  {
+    "Name": "pink & brown panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "LBzSEticEDLRdyGpE"
+  },
+  {
+    "Name": "pink & purple panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ZLFPNXCdxM2mCexTQ"
+  },
+  {
+    "Name": "pink & white Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "PABW6hziCXkqQKWqu"
+  },
+  {
+    "Name": "pink & white Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "X8WwpdPonWE5cn6zi"
+  },
+  {
+    "Name": "pink & white panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingJ.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingJ",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Mirnta8rgXYuBfHNo"
+  },
+  {
+    "Name": "pink brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xr7hcs8eiGaeYCG7E"
+  },
+  {
+    "Name": "pink clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "baDmBTzvFSMedHSsZ"
+  },
+  {
+    "Name": "pink common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ceKL4XwfZzkGoYpg9"
+  },
+  {
+    "Name": "pink log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "bfWX3tzhwSLhxMAd4"
+  },
+  {
+    "Name": "pink log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "F2GxTFDQSC3KXPR5o"
+  },
+  {
+    "Name": "pink panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "AzqnNFfYq4bNhnyEf"
+  },
+  {
+    "Name": "pink striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "W9RLxtwXnRCjeXwYC"
+  },
+  {
+    "Name": "pink stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "xmPeJk2bKkAWYtF64"
+  },
+  {
+    "Name": "pink stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KDAhNBGwQLcCjXC3r"
+  },
+  {
+    "Name": "pink two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "eibQLwBJTJQSLN7fY"
+  },
+  {
+    "Name": "plain zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "GraQmcPMnRydx7DJ4"
+  },
+  {
+    "Name": "plain zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "PKFr3hM9cKs3n86s7"
+  },
+  {
+    "Name": "popular zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "55aQmqfJyGJAXKSbW"
+  },
+  {
+    "Name": "popular zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "4n7v3CbSNMmvbaXKm"
+  },
+  {
+    "Name": "purple & white panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingI.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingI",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "moRCgCDGDDFEeBrfR"
+  },
+  {
+    "Name": "purple castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "XuYf9HFidxss8w4oy"
+  },
+  {
+    "Name": "red & green Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "D8fabk22gSJzacdHh"
+  },
+  {
+    "Name": "red & green Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "69koFkRDMabasrrEe"
+  },
+  {
+    "Name": "red brick exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04BrickA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04BrickA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "kGXCqHaQbSJ4H8vkx"
+  },
+  {
+    "Name": "red castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Xp3QhTcH6nGEx84Mx"
+  },
+  {
+    "Name": "red chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeC",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cA9eF8iCxf8nJhZMy"
+  },
+  {
+    "Name": "red cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StoneD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StoneD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "xXRQfdAGyLJCXSbY6"
+  },
+  {
+    "Name": "red common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardG",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "cwEx7XyAwefNQJ8Rr"
+  },
+  {
+    "Name": "red striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "cvFqhzYySPfNpGaQ9"
+  },
+  {
+    "Name": "red stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoD",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "c27kqMPWnha8RjEki"
+  },
+  {
+    "Name": "red stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Aim6T9TrmipdQQBas"
+  },
+  {
+    "Name": "red stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "gyxHNDN2Gr3QoQCbG"
+  },
+  {
+    "Name": "red stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "cdqd3rEsWqfHXdYjH"
+  },
+  {
+    "Name": "red-trim common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardB",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "ckT8w7sPNqY2aRMcH"
+  },
+  {
+    "Name": "sage clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "zmRnFRYnYQqiwZbj6"
+  },
+  {
+    "Name": "sage two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "344Xu4durvD6gLYQH"
+  },
+  {
+    "Name": "silver castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneH.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneH",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "hZdJZvySwnwFFPgJk"
+  },
+  {
+    "Name": "simple black-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Wu5L8rZytQ8Msw5R2"
+  },
+  {
+    "Name": "simple brown-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "vQeA4vyuXmx4yyhpw"
+  },
+  {
+    "Name": "simple red-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "osbinqGeRWD6aT5zg"
+  },
+  {
+    "Name": "simple tan-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "GNWYodDYkeFKcvg2m"
+  },
+  {
+    "Name": "simple white-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "3xiDTaNBb5Doq53yy"
+  },
+  {
+    "Name": "simple yellow-brick trim",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNABrickE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNABrickE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "s9LDqHL4MCxcH454B"
+  },
+  {
+    "Name": "simple zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "aQEwQzPQfqGZkcZ9n"
+  },
+  {
+    "Name": "simple zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "jJCMZiZSutXLCjEAc"
+  },
+  {
+    "Name": "standard zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCJapaneseB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCJapaneseB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HyzzRrfudwfFnxiHT"
+  },
+  {
+    "Name": "standard zen exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04JapaneseB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04JapaneseB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "5qr2mkABSq3nv4NBD"
+  },
+  {
+    "Name": "tan panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "yQW28dXnqS8KAbMMo"
+  },
+  {
+    "Name": "walnut panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "JQHgLTMS6Ca92uxeJ"
+  },
+  {
+    "Name": "white & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "kNDBEjxazTjoMnkaj"
+  },
+  {
+    "Name": "white & brown Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "b4CM3MSzrJDQSDyDs"
+  },
+  {
+    "Name": "white & natural Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "n2ZJ7tZJhapDMW8e7"
+  },
+  {
+    "Name": "white & natural Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "iGZTvtqtZdgDTK6Hz"
+  },
+  {
+    "Name": "white & red Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "d2QmygGP4CqmJ3aRp"
+  },
+  {
+    "Name": "white & red Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "HvmS5DH5BfMNyPjPP"
+  },
+  {
+    "Name": "white & red panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAWoodsidingC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAWoodsidingC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "958t3sG7S6bGsv636"
+  },
+  {
+    "Name": "white castle exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04StoneA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04StoneA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "8Es45bW3RHZRFLhmz"
+  },
+  {
+    "Name": "white clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "SHXXSozrkbX579ofe"
+  },
+  {
+    "Name": "white cobblestones",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStoneA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStoneA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "mzEQGfjjeo2mJHain"
+  },
+  {
+    "Name": "white log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "nMQa7rPp2Ft866nMa"
+  },
+  {
+    "Name": "white log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ApQ35h6mnmdi25iW4"
+  },
+  {
+    "Name": "white panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCWoodG.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCWoodG",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "gWaWehTzbBqz5tS7T"
+  },
+  {
+    "Name": "white striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "j3zWLuerp3mcWhr4a"
+  },
+  {
+    "Name": "white stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoA",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "QkWc3tQAiWrNhewAw"
+  },
+  {
+    "Name": "white stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBStuccoA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBStuccoA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ENGNAgCSrnAz8ecq6"
+  },
+  {
+    "Name": "white stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "cfWMYhEY5RaRDLcuN"
+  },
+  {
+    "Name": "white stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "bz4gXLXyCwCT8H7Sk"
+  },
+  {
+    "Name": "white two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "6dwacA4gLfamai6jk"
+  },
+  {
+    "Name": "yellow & green woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDWoodB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDWoodB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xQ5Q5RKZ5DMufgfjm"
+  },
+  {
+    "Name": "yellow & green woodwork",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04WoodB.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04WoodB",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "A3ZJ7JzrrjsXZZF9m"
+  },
+  {
+    "Name": "yellow & ochre panel siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04WoodsidngD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04WoodsidngD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "yCa5Tur8a2669hopn"
+  },
+  {
+    "Name": "yellow & white Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNCOrientalC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNCOrientalC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "E9ReAMTNmxtSr8SpE"
+  },
+  {
+    "Name": "yellow & white Asian siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPC04OrientalC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPC04OrientalC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "Fi2WahXNxBjJwadcy"
+  },
+  {
+    "Name": "yellow chalet exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04WoodframeE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04WoodframeE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "t7eP9mfhqemhFXnBh"
+  },
+  {
+    "Name": "yellow clay exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDSoilA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDSoilA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "sGghant9wMantXqw7"
+  },
+  {
+    "Name": "yellow common exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StandardE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StandardE",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "BGfRq5YPPAt93qsms"
+  },
+  {
+    "Name": "yellow log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPB04LogE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPB04LogE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "QotP3o6f54HD8fujT"
+  },
+  {
+    "Name": "yellow log exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNBLogE.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNBLogE",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "qWFo5ESr4YiSRwjLk"
+  },
+  {
+    "Name": "yellow striped siding",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAMetalF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAMetalF",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "5gsDfPeZdQ6HaXLEJ"
+  },
+  {
+    "Name": "yellow stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA04StuccoF.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA04StuccoF",
+    "Version Added": "1.0.0",
+    "Unique Entry ID": "78XQwM8DMwK8YsJig"
+  },
+  {
+    "Name": "yellow stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNAStuccoD.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNAStuccoD",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "BuyDh6eoYjsKAv9QQ"
+  },
+  {
+    "Name": "yellow stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04StuccoC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04StuccoC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "dgeqhkzf9RFR3MHqP"
+  },
+  {
+    "Name": "yellow stucco exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallNDStuccoC.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallNDStuccoC",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "ThkLS9YC4NaJrzkgv"
+  },
+  {
+    "Name": "yellow two-tone exterior",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPD04SoilA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPD04SoilA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "dXR67qxGi2AmwNHcD"
+  },
+  {
+    "Name": "よくあるかべ",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA02StandardA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA02StandardA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "DH8rXHLs2pDdLijtp"
+  },
+  {
+    "Name": "よくあるかべ",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA03StandardA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA03StandardA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "xQsbC7idyLeaaLDfC"
+  },
+  {
+    "Name": "よくあるかべ",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA00StandardA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA00StandardA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "mjqvXbH7cr3A6TDF5"
+  },
+  {
+    "Name": "よくあるかべ",
+    "Image": "https://nh-cdn.catalogue.ac/HouseWallIcon/HouseWallPA01StandardA.png",
+    "Buy": 5000,
+    "Category": "Siding",
+    "Source": "5th House Upgrade (2nd Floor)",
+    "Filename": "HouseWallPA01StandardA",
+    "Version Added": "2.0.0",
+    "Unique Entry ID": "KzhwPpG4X5fLN9Tfx"
+  }
+]

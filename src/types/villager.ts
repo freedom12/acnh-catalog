@@ -96,7 +96,7 @@ export interface Villager {
   saying: string;
 
   song: number;
-  cloting: number;
+  clothing: number;
   umbrella: number;
   furnitures: number[];
   wallpaper: number;

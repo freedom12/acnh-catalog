@@ -40,7 +40,7 @@ const furnitureList = computed(() => {
 });
 
 const defaultItems = computed(() => {
-  return [props.data.cloting, props.data.umbrella, props.data.song];
+  return [props.data.clothing, props.data.umbrella, props.data.song];
 });
 
 const handleClick = () => {

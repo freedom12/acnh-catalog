@@ -52,7 +52,7 @@ const filters = computed(() => [
   {
     label: '版本',
     value: 'ver',
-    options: Object.values(Version).map((version) => ({
+    options: Object.values(Version).reverse().map((version) => ({
       value: version,
       label: getVersionName(version),
     })),
