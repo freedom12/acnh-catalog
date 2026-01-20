@@ -575,6 +575,7 @@ function applyOtherItemsOrder(
   const lines = fs.readFileSync(orderFilePath, 'utf-8').split(/\r?\n/);
   let order = 1;
 
+  let orderedIds = new Set<number>();
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) continue;
@@ -582,24 +583,40 @@ function applyOtherItemsOrder(
     const match = trimmed.match(/^(\d+)\s+(.+)$/);
     if (!match) continue;
 
+    if (trimmed.startsWith('#')) {
+      continue;
+    }
+
     const id = Number(match[1]);
     const name = match[2];
     const item = itemMap.get(id);
 
     if (!item) {
-      console.log(`其他物品排序未找到: ${id} ${name}`);
+      console.log(`物品排序未找到: ${id} ${name}`);
       order += 1;
       continue;
     }
 
     if (item.t !== itemType) {
-      console.log(`其他物品排序类型不匹配: ${id} ${name}`);
+      console.log(`物品排序类型不匹配: ${id} ${name}`);
       order += 1;
       continue;
     }
 
     item.o = order;
     order += 1;
+    orderedIds.add(id);
+  }
+  let addLines: string[] = [];
+  for (const [id, item] of itemMap.entries()) {
+    if (item.t === itemType && !orderedIds.has(id)) {
+      console.warn(`物品排序未包含: ${id} ${item.n}`);
+      addLines.push(`${id} ${item.n}`);
+    }
+  }
+  if (addLines.length > 0) {
+    const content = '\n#新增道具\n' + addLines.join('\n');
+    fs.appendFileSync(orderFilePath, content);
   }
 }
 
@@ -630,6 +647,6 @@ function sortItems(items: Item[]): Item[] {
   return items;
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
+if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');
 }
