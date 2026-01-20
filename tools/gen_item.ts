@@ -480,8 +480,12 @@ export function genItem(): Item[] {
         sheetData['Image'] = sheetData['Framed Image'];
       }
       if (sheetName === 'Other') {
-        sheetData['Image'] = sheetData['Inventory Image'];
-        sheetData['ImageAlt'] = sheetData['Storage Image'];
+        if (sheetData['Inventory Image'] && sheetData['Inventory Image'] !== 'NA') {
+          sheetData['Image'] = sheetData['Inventory Image'];
+          sheetData['ImageAlt'] = sheetData['Storage Image'];
+        } else {
+          sheetData['Image'] = sheetData['Storage Image'];
+        }
       }
       if (
         sheetName === 'Insects' ||
