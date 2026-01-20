@@ -101,7 +101,7 @@ const toggleHhaExpanded = () => {
       />
       <img
         v-if="itemModel.canDIY"
-        :src="getImgUrl('img/icon/diy.png')"
+        :src="getImgUrl(`img/icon/diy_${itemModel.diyType}.png`)"
         title="可DIY"
         class="inline-icon"
       />

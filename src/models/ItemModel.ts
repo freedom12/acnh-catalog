@@ -36,7 +36,7 @@ import {
   SoundType,
   VfxType,
 } from '../types/item';
-import type { Recipe } from '../types/recipe';
+import { RecipeType, type Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
 import { useActivitysData } from '../composables/useActivitysData';
 
@@ -290,6 +290,17 @@ export class ItemModel {
 
   get canDIY(): boolean {
     return !!this.recipeId;
+  }
+
+  get diyType(): number {
+    if (!this.canDIY) return 0;
+    const recipe = this.recipe;
+    if (!recipe) return 0;
+    if (recipe.type === RecipeType.Savory || recipe.type === RecipeType.Sweet) {
+      return 2;
+    } else {
+      return 1;
+    }
   }
 
   get recipe(): Recipe | null {

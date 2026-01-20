@@ -90,7 +90,7 @@ const handleClick = () => {
       />
       <img
         v-if="itemModel.canDIY"
-        :src="getImgUrl('img/icon/diy.png')"
+        :src="getImgUrl('img/icon/diy_1.png')"
         title="可DIY"
         class="inline-icon"
       />
