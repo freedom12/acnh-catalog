@@ -5,7 +5,7 @@
 /**
  * CDN 主机地址
  */
-const CDN_HOST = 'https://acnhcdn.com/';
+export const CDN_HOST = 'https://nh-cdn.catalogue.ac/';
 
 /**
  * 处理图片 URL，如果不是完整 URL 则添加 CDN 前缀

@@ -1,57 +1,57 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { ItemSourceSheet, type Item as OldItem } from 'animal-crossing/lib/types/Item';
-import { items as oldItems, creatures as oldCreatures } from 'animal-crossing';
 import {
   Catalog,
   InteractType,
-  ItemSize,
   KitType,
   LightType,
   SoundType,
   SpeakerType,
   VfxType,
+  ItemType,
+  Version,
+  Currency,
   type Item,
   type Variant,
 } from '../src/types/item';
-import { ItemType, Version, Color, Currency } from '../src/types/item';
-import { type Activity } from '../src/types/activity';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
-import { getAcnhItemData, getAcnhLocale, getAllAcnhItemData } from './acnh/index.js';
-import { genActivity } from './gen_activity';
-import { console } from 'inspector';
+import { getAcnhItemData } from './acnh/index.js';
+import { getSheetDatas, getTrans } from './excel/excel.js';
 
 const __dirname = path.join(process.cwd(), 'tools');
 
 //#region v1
-const sourceSheetMap: Record<string, ItemType> = {
-  Accessories: ItemType.Accessories,
-  Artwork: ItemType.Artwork,
-  Bags: ItemType.Bags,
-  Bottoms: ItemType.Bottoms,
-  'Ceiling Decor': ItemType.CeilingDecor,
-  'Clothing Other': ItemType.ClothingOther,
-  'Dress-Up': ItemType.DressUp,
-  Fencing: ItemType.Fencing,
-  Floors: ItemType.Floors,
-  Fossils: ItemType.Fossils,
-  Gyroids: ItemType.Gyroids,
-  Headwear: ItemType.Headwear,
+const sheetNameMap: Record<string, ItemType> = {
   Housewares: ItemType.Housewares,
   Miscellaneous: ItemType.Miscellaneous,
-  Music: ItemType.Music,
-  Other: ItemType.Other,
+  'Wall-mounted': ItemType.WallMounted,
+  'Ceiling Decor': ItemType.CeilingDecor,
+  'Interior Structures': ItemType.InteriorStructures,
+  Wallpaper: ItemType.Wallpaper,
+  Floors: ItemType.Floors,
+  Rugs: ItemType.Rugs,
   Photos: ItemType.Photos,
   Posters: ItemType.Posters,
-  Rugs: ItemType.Rugs,
-  Shoes: ItemType.Shoes,
-  Socks: ItemType.Socks,
-  'Tools/Goods': ItemType.ToolsGoods,
+  ToolsGoods: ItemType.ToolsGoods,
+  Fencing: ItemType.Fencing,
   Tops: ItemType.Tops,
+  Bottoms: ItemType.Bottoms,
+  'Dress-Up': ItemType.DressUp,
+  Headwear: ItemType.Headwear,
+  Accessories: ItemType.Accessories,
+  Socks: ItemType.Socks,
+  Shoes: ItemType.Shoes,
+  Bags: ItemType.Bags,
   Umbrellas: ItemType.Umbrellas,
-  'Wall-mounted': ItemType.WallMounted,
-  Wallpaper: ItemType.Wallpaper,
-  Creature: ItemType.Creature,
+  'Clothing Other': ItemType.Wetsuits,
+  Music: ItemType.Music,
+  Insects: ItemType.Creatures,
+  Fish: ItemType.Creatures,
+  'Sea Creatures': ItemType.Creatures,
+  Fossils: ItemType.Fossils,
+  Artwork: ItemType.Artwork,
+  Gyroids: ItemType.Gyroids,
+  Other: ItemType.Other,
 };
 
 const catalogMap: Record<string, Catalog> = {
@@ -66,6 +66,7 @@ const currencyMap: Record<string, Currency> = {
   'Nook Miles': Currency.NookMiles,
   'Nook Points': Currency.NookPoints,
   Poki: Currency.Poki,
+  'Hotel Tickets': Currency.HotelTickets,
 };
 
 const kitTypeMap: Record<string, KitType> = {
@@ -121,248 +122,216 @@ const vfxTypeMap: Record<string, VfxType> = {
   Synchro: VfxType.Synchro,
 };
 
-function processVariations(oldItem: OldItem): Variant[] {
-  if (!oldItem.variations || oldItem.variations.length === 0) {
-    return [];
+function convertFurnitureItemFromSheetData(
+  sheetDatas: any,
+  reciepeSheetDataMap: Map<number, any>
+): Item {
+  const sheetData = sheetDatas[0];
+  const itemType = sheetNameMap[sheetData.sheetName];
+  const id = Number(sheetData['Internal ID']);
+  const name = getTrans('Items', id);
+  if (!name) {
+    console.warn(`物品翻译未找到: ${id}`);
+  }
+  const images = [processImageUrl(sheetData['Image'])];
+  if (sheetData['ImageAlt'] && sheetData['ImageAlt'] !== 'NA') {
+    images.push(processImageUrl(sheetData['ImageAlt']));
+  }
+  const colors = Array.from(
+    new Set([sheetData['Color 1'], sheetData['Color 2']].filter(Boolean))
+  ).map((c) => colorMap[c]);
+  let acnhItemData = getAcnhItemData(id);
+  let activitys = acnhItemData?.evt;
+  if (typeof activitys === 'string') {
+    activitys = [activitys];
   }
 
-  const variants: Variant[] = [];
-  const variantNamesSet = new Set<string>();
-  oldItem.variations.forEach((v) => {
-    const variantName = String(v.variation || '');
-    if (!variantNamesSet.has(variantName)) {
-      variants.push([]);
-      variantNamesSet.add(variantName);
+  let variants: Variant[] = [];
+  let vNames: string[] = [];
+  let pNames: string[] = [];
+  for (const sd of sheetDatas) {
+    if (!sd['Variant ID'] || sd['Variant ID'] === 'NA') {
+      continue;
     }
-
-    const variant = variants[variants.length - 1];
-    const patternColors = v.colors || oldItem.colors || [];
-    variant.push({
-      id: v.internalId,
-      c: Array.from(
-        new Set(patternColors.map((c) => colorMap[c]).filter((c) => c !== undefined))
+    const l: [number, number] = sd['Variant ID'].split('_').map((s: string) => Number(s));
+    const [vIndex, pIndex] = l;
+    if (!variants[vIndex]) {
+      variants[vIndex] = [];
+    }
+    variants[vIndex][pIndex] = {
+      c: Array.from(new Set([sd['Color 1'], sd['Color 2']].filter(Boolean))).map(
+        (c) => colorMap[c]
       ),
-    });
-  });
+    };
+    if (sd['Variation'] && sd['Variation'] !== 'NA') {
+      let vName = getTrans('Item Variant Names', `${id}_${vIndex}`);
+      if (!vName) {
+        // console.warn(`物品变体名称翻译未找到: ${id}_${vIndex}`);
+        vName = sd['Variation'] as string;
+      }
+      vNames[vIndex] = vName;
+    }
+    if (sd['Pattern'] && sd['Pattern'] !== 'NA') {
+      let pName = getTrans('Item Pattern Names', `${id}_${pIndex}`);
+      if (!pName) {
+        // console.warn(`物品图案名称翻译未找到: ${id}_${pIndex}`);
+        pName = sd['Pattern'] as string;
+      }
+      pNames[pIndex] = pName;
+    }
+  }
 
-  return variants;
-}
+  let vTitle: string | undefined = undefined;
+  if (sheetData['Body Title'] && sheetData['Body Title'] !== 'NA') {
+    vTitle = getTrans('Item Variant Types', id) || undefined;
+    if (!vTitle) {
+      // console.warn(`物品变体标题翻译未找到: ${id}`);
+      vTitle = sheetData['Body Title'];
+    }
+  }
+  let pTitle: string | undefined = undefined;
+  if (sheetData['Pattern Title'] && sheetData['Pattern Title'] !== 'NA') {
+    pTitle = getTrans('Item Pattern Types', id) || undefined;
+    if (!pTitle) {
+      // console.warn(`物品图案标题翻译未找到: ${id}`);
+      pTitle = sheetData['Pattern Title'];
+    }
+  }
 
-function getDefaultDisplayProperties(
-  oldItem: OldItem,
-  variants: Variant[]
-): { id: number; colors: Color[] } {
-  let id = oldItem.internalId ?? 0;
-  let colors = Array.from(
-    new Set((oldItem.colors || []).map((c) => colorMap[c]).filter((c) => c !== undefined))
+  let recipeId: number | undefined = undefined;
+  if (reciepeSheetDataMap.has(id)) {
+    const recipeSheetData = reciepeSheetDataMap.get(id);
+    recipeId = recipeSheetData['Internal ID'];
+    images.push(processImageUrl(recipeSheetData['Image']));
+  }
+
+  let concept = [sheetData['HHA Concept 1'], sheetData['HHA Concept 2']].filter(
+    (s) => s && !!s && s !== 'None'
   );
 
-  // 如果有变体，使用第一个变体的第一个图案
-  if (variants.length > 0) {
-    const firstVariant = variants[0];
-    if (firstVariant && firstVariant.length > 0) {
-      const firstPattern = firstVariant[0];
-      if (firstPattern) {
-        id = firstPattern.id || id;
-        colors = firstPattern.c || colors;
-      }
-    }
-  }
-
-  return { id, colors };
-}
-
-function convertItemFromOldItem(oldItem: OldItem): Item {
-  const name = oldItem.translations?.cNzh || oldItem.name;
-  const variants = processVariations(oldItem);
-  const { id, colors } = getDefaultDisplayProperties(oldItem, variants);
-  for (const variant of variants) {
-    for (const pattern of variant) {
-      if (pattern.id === id) {
-        pattern.id = undefined;
-      }
-    }
-  }
-  let vNames = [];
-  let pNames = [];
-  let vNamesSet = new Set<string>();
-  let pNamesSet = new Set<string>();
-  for (const variant of oldItem.variations || []) {
-    let vName = String(variant.variantTranslations?.cNzh || variant.variation || '');
-    if (!vNamesSet.has(vName)) {
-      vNamesSet.add(vName);
-      vNames.push(vName);
-    }
-    let pName = String(variant.patternTranslations?.cNzh || variant.pattern || '');
-    if (!pNamesSet.has(pName)) {
-      pNamesSet.add(pName);
-      pNames.push(pName);
-    }
-  }
-
-  let images = [];
-  if (oldItem.inventoryImage) images.push(processImageUrl(oldItem.inventoryImage));
-  if (oldItem.image) images.push(processImageUrl(oldItem.image));
-  if (oldItem.storageImage) images.push(processImageUrl(oldItem.storageImage));
-  if (oldItem.closetImage) images.push(processImageUrl(oldItem.closetImage));
-  if (oldItem.framedImage) images.push(processImageUrl(oldItem.framedImage));
-  if (oldItem.albumImage) images.push(processImageUrl(oldItem.albumImage));
-
-  if (images.length === 0) {
-    let variation = oldItem.variations?.[0];
-    if (variation) {
-      if (variation.image) images.push(processImageUrl(variation.image));
-      if (variation.storageImage) images.push(processImageUrl(variation.storageImage));
-      if (variation.closetImage) images.push(processImageUrl(variation.closetImage));
-    }
-  }
-  if (oldItem.recipe) {
-    images.push(processImageUrl(oldItem.recipe.image));
-  }
-  //特殊处理服饰变体
-  let itemType = sourceSheetMap[oldItem.sourceSheet];
-  if (oldItem.variations && oldItem.variations[0].closetImage) {
-    for (const [i, v] of oldItem.variations.entries()) {
-      let variant = variants[i]?.[0];
-      if (variant && v.closetImage) {
-        let str = path.basename(v.closetImage).slice(-5, -4);
-        variant.i = Number(str);
-      }
-    }
-  }
-  let concepts = oldItem.concepts || oldItem.variations?.[0].concepts || undefined;
-  concepts = concepts && concepts.length > 0 ? concepts : undefined;
-  let category = oldItem.hhaCategory || oldItem.variations?.[0].hhaCategory || undefined;
-  let clothGroupId = oldItem.clothGroupId || oldItem.variations?.[0].clothGroupId;
-  let acnhItemData = getAcnhItemData(id, clothGroupId);
-  if (!acnhItemData) {
-    // console.warn(`acnhItemData not found: id=${id}, name=${name}`);
-  }
-  let acts = acnhItemData?.evt;
-  if (typeof acts === 'string') {
-    acts = [acts];
-  }
-
-  let cusKitCost = oldItem.kitCost || 0;
-  let kitType = oldItem.variations?.[0].kitType;
-  let cusKitType = kitType ? kitTypeMap[kitType] : KitType.Normal;
-
-  let useTimes = oldItem.uses || oldItem.variations?.[0].uses;
-  useTimes = useTimes ? Number(useTimes) : undefined;
-
-  let interactType: InteractType | undefined = undefined;
-  if (oldItem.interact) {
-    if (typeof oldItem.interact === 'string') {
-      interactType = interactTypeMap[oldItem.interact];
-    } else {
-      interactType = InteractType.Normal;
-    }
-  }
-
-  let speakerType: SpeakerType | undefined = undefined;
-  if (oldItem.speakerType) {
-    speakerType = speakerTypeMap[oldItem.speakerType];
-  }
-
-  let lightType: LightType | undefined = undefined;
-  if (oldItem.lightingType) {
-    lightType = lightTypeMap[oldItem.lightingType];
-  }
-
-  let soundType: SoundType | undefined = undefined;
-  let st = oldItem.soundType || oldItem.variations?.[0].soundType;
-  if (st) {
-    soundType = soundTypeMap[st];
-  }
-
   let vfxType: VfxType | undefined = undefined;
-  if (oldItem.vfx) {
-    if (oldItem.vfxType) {
-      vfxType = vfxTypeMap[oldItem.vfxType];
+  if (sheetData['VFX'] && sheetData['VFX'] === 'Yes') {
+    if (sheetData['VFX Type'] && sheetData['VFX Type'] !== 'NA') {
+      vfxType = vfxTypeMap[sheetData['VFX Type']];
     } else {
       vfxType = VfxType.Normal;
     }
   }
 
-  // if (oldItem.seasonEvent && !oldItem.seasonEventExclusive) {
-  //   console.log(`警告: 物品 ${id} ${name} 存在 seasonEvent 但没有 seasonEventExclusive`);
-  // }
-  // if (oldItem.seasonalAvailability) {
-  //   console.log(
-  //     `警告: 物品 ${id} ${name} 存在 seasonalAvailability`,
-  //     oldItem.seasonalAvailability
-  //   );
-  // }
-  // if (oldItem.seasonality || oldItem.variations?.[0].seasonality) {
-  //   console.log(
-  //     `警告: 物品 ${id} ${name} 存在 seasonality`,
-  //     oldItem.seasonality || oldItem.variations?.[0].seasonality
-  //   );
-  // }
-  // if (oldItem.mannequinSeason || oldItem.variations?.[0].mannequinSeason) {
-  //   console.log(
-  //     `警告: 物品 ${id} ${name} 存在 mannequinSeason`,
-  //     oldItem.mannequinSeason || oldItem.variations?.[0].mannequinSeason
-  //   );
-  // }
-  return {
-    id,
-    n: name,
-    nr: oldItem.name,
+  let useTimes: number | undefined = undefined;
+  if (sheetData['Uses'] && sheetData['Uses'] !== 'NA') {
+    if (sheetData['Uses'] === 'Infinite') {
+      useTimes = -1;
+    } else {
+      useTimes = Number(sheetData['Uses']);
+    }
+  }
+
+  let interactType: InteractType | undefined = undefined;
+  if (sheetData['Interact Type'] && sheetData['Interact Type'] !== 'No') {
+    if (sheetData['Interact Type'] === 'Yes') {
+      interactType = InteractType.Normal;
+    } else {
+      interactType = interactTypeMap[sheetData['Interact Type']];
+    }
+  }
+
+  let speakerType: SpeakerType | undefined = undefined;
+  if (sheetData['Speaker Type'] && sheetData['Speaker Type'] !== 'Does not play music') {
+    speakerType = speakerTypeMap[sheetData['Speaker Type']];
+  }
+
+  let lightType: LightType | undefined = undefined;
+  if (sheetData['Lighting Type'] && sheetData['Lighting Type'] !== 'No lighting') {
+    lightType = lightTypeMap[sheetData['Lighting Type']];
+  }
+
+  let soundType: SoundType | undefined = undefined;
+  if (sheetData['Sound Type']) {
+    soundType = soundTypeMap[sheetData['Sound Type']];
+  }
+
+  const item: Item = {
+    id: id,
+    n: name || sheetData['Name'],
+    nr: sheetData['Name'],
     t: itemType,
+
     i: images,
     c: colors,
-    v: oldItem.versionAdded ? versionMap[oldItem.versionAdded] : Version.The100,
-    cat: oldItem.catalog ? catalogMap[oldItem.catalog] : Catalog.NotInCatalog,
-    srcs: oldItem.source,
-    srcN: oldItem.sourceNotes || undefined,
-    acts: acts,
-    s: oldItem.size ? sizeMap[oldItem.size] : undefined,
-    diy: oldItem.recipe ? oldItem.recipe.internalId : undefined,
-    buy: oldItem.buy || undefined,
-    sel: oldItem.sell || undefined,
-    exc: oldItem.exchangePrice
-      ? [oldItem.exchangePrice, currencyMap[oldItem.exchangeCurrency!]]
-      : undefined,
-
-    tag: oldItem.tag,
-    hpt: oldItem.hhaBasePoints || undefined,
-    hser: oldItem.series || undefined,
-    hset: oldItem.set || undefined,
-    hcpt: concepts,
-    hcat: category,
-
-    thms: oldItem.themes && oldItem.themes.length > 0 ? oldItem.themes : undefined,
-    stls:
-      oldItem.styles && oldItem.styles.length > 0
-        ? Array.from(new Set(oldItem.styles))
+    v: sheetData['Version Added']
+      ? versionMap[sheetData['Version Added']]
+      : Version.The100,
+    cat: sheetData['Catalog'] ? catalogMap[sheetData['Catalog']] : Catalog.NotInCatalog,
+    srcs: sheetData['Source'] ? sheetData['Source'].split(';') : undefined,
+    srcN: sheetData['Source Notes'] ? sheetData['Source Notes'].split(';') : undefined,
+    acts: activitys,
+    s: sheetData['Size'] ? sizeMap[sheetData['Size']] : undefined,
+    diy: recipeId,
+    buy: sheetData['Buy'] && sheetData['Buy'] !== 'NFS' ? sheetData['Buy'] : undefined,
+    sel: sheetData['Sell'] && sheetData['Sell'] !== 'NA' ? sheetData['Sell'] : undefined,
+    exc:
+      sheetData['Exchange Price'] && sheetData['Exchange Price'] !== 'NA'
+        ? [sheetData['Exchange Price'], currencyMap[sheetData['Exchange Currency']!]]
         : undefined,
 
-    vs: variants.length > 0 ? variants : undefined,
-    vt: oldItem.bodyTitle || undefined,
-    pt: oldItem.variations?.[0].patternTitle || undefined,
+    tag: sheetData['Tag'] || undefined,
+    hpt: sheetData['HHA Base Points'] || undefined,
+    hser:
+      sheetData['HHA Series'] && sheetData['HHA Series'] !== 'None'
+        ? sheetData['HHA Series']
+        : undefined,
+    hset:
+      sheetData['HHA Set'] && sheetData['HHA Set'] !== 'None'
+        ? sheetData['HHA Set']
+        : undefined,
+    hcpt: concept.length > 0 ? concept : undefined,
+    hcat:
+      sheetData['HHA Category'] && sheetData['HHA Category'] !== 'None'
+        ? sheetData['HHA Category']
+        : undefined,
+
+    vs: variants.length > 1 ? variants : undefined,
+    vt: vTitle,
+    pt: pTitle,
     vn: vNames.length > 0 ? vNames : undefined,
     pn: pNames.length > 0 ? pNames : undefined,
     iv:
-      oldItem.bodyCustomize || (acnhItemData && acnhItemData?.ccp)
-        ? [oldItem.bodyCustomize ? 1 : 0, acnhItemData?.ccp || 0, acnhItemData?.nvc]
+      sheetData['Body Customize'] === 'Yes' || sheetData['Cyrus Customize Price'] !== 'NA'
+        ? [
+            sheetData['Body Customize'] === 'Yes' ? 1 : 0,
+            sheetData['Cyrus Customize Price'] !== 'NA'
+              ? Number(sheetData['Cyrus Customize Price'])
+              : 0,
+            acnhItemData?.nvc,
+          ]
         : undefined,
-    ip: oldItem.patternCustomize
-      ? [
-          oldItem.patternCustomize ? 1 : 0,
-          acnhItemData?.spt ? 1 : 0,
-          acnhItemData?.cpt ? 1 : 0,
-        ]
-      : undefined,
-    cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
+    ip:
+      sheetData['Pattern Customize'] === 'Yes'
+        ? [
+            sheetData['Pattern Customize'] === 'Yes' ? 1 : 0,
+            acnhItemData?.spt ? 1 : 0,
+            acnhItemData?.cpt ? 1 : 0,
+          ]
+        : undefined,
+    cus:
+      sheetData['Kit Cost'] !== 'NA'
+        ? [sheetData['Kit Cost'], kitTypeMap[sheetData['Kit Type']] || KitType.Normal]
+        : undefined,
 
-    fd: oldItem.foodPower || undefined,
-    ss: oldItem.stackSize || undefined,
+    fd:
+      sheetData['Food Power'] && sheetData['Food Power'] !== 'NA'
+        ? Number(sheetData['Food Power'])
+        : undefined,
+    ss:
+      sheetData['Stack Size'] && sheetData['Stack Size'] !== 'NA'
+        ? Number(sheetData['Stack Size'])
+        : undefined,
     us: useTimes,
 
-    iod: oldItem.outdoor || undefined,
-    isf: oldItem.surface || undefined,
-    idd: oldItem.doorDeco || undefined,
+    iod: sheetData['Outdoor'] && sheetData['Outdoor'] === 'Yes' ? true : undefined,
+    isf: sheetData['Surface'] && sheetData['Surface'] === 'Yes' ? true : undefined,
+    idd: sheetData['Door Deco'] && sheetData['Door Deco'] === 'Yes' ? true : undefined,
 
     it: interactType,
     st: speakerType,
@@ -370,6 +339,213 @@ function convertItemFromOldItem(oldItem: OldItem): Item {
     sdt: soundType,
     vfxt: vfxType,
   };
+  return item;
+}
+
+function convertClothingItemFromSheetData(
+  sheetDatas: any,
+  reciepeSheetDataMap: Map<number, any>
+): Item {
+  const sheetData = sheetDatas[0];
+  const itemType = sheetNameMap[sheetData.sheetName];
+  const id = Number(sheetData['Internal ID']);
+  const groupId = Number(sheetData['ClothGroup ID']);
+  let name: string | null = null;
+  if (!isNaN(groupId)) {
+    name = getTrans('Clothing', groupId);
+  } else {
+    name = getTrans('Items', id);
+  }
+  if (!name) {
+    console.warn(`物品翻译未找到: ${id}`);
+  }
+
+  const images = [processImageUrl(sheetData['Storage Image'])];
+  if (sheetData['Closet Image'] && sheetData['Closet Image'] !== 'NA') {
+    images.push(processImageUrl(sheetData['Closet Image']));
+  }
+  const colors = Array.from(
+    new Set([sheetData['Color 1'], sheetData['Color 2']].filter(Boolean))
+  ).map((c) => colorMap[c]);
+  let acnhItemData = getAcnhItemData(id);
+  let activitys = acnhItemData?.evt;
+  if (typeof activitys === 'string') {
+    activitys = [activitys];
+  }
+
+  let variants: Variant[] = [];
+  let vNames: string[] = [];
+  for (const sd of sheetDatas) {
+    if (!sd['Sort Order'] || sd['Sort Order'] === 'NA') {
+      continue;
+    }
+    const vIndex = Number(sd['Sort Order']);
+    const pIndex = 0;
+    if (!variants[vIndex]) {
+      variants[vIndex] = [];
+    }
+    const subId = Number(sd['Internal ID']);
+    const sunImages = [processImageUrl(sd['Storage Image'])];
+    if (sd['Closet Image'] && sd['Closet Image'] !== 'NA') {
+      sunImages.push(processImageUrl(sd['Closet Image']));
+    }
+    variants[vIndex][pIndex] = {
+      id: subId,
+      i: sunImages,
+      c: Array.from(new Set([sd['Color 1'], sd['Color 2']].filter(Boolean))).map(
+        (c) => colorMap[c]
+      ),
+    };
+    if (sd['Variation'] && sd['Variation'] !== 'NA') {
+      let vName = getTrans('Clothing Variant', `${groupId}_${subId}`);
+      if (!vName) {
+        console.warn(`服饰变体名称翻译未找到: ${groupId}_${subId}`);
+        vName = sd['Variation'] as string;
+      }
+      vNames[vIndex] = vName;
+    }
+  }
+
+  let recipeId: number | undefined = undefined;
+  if (reciepeSheetDataMap.has(id)) {
+    const recipeSheetData = reciepeSheetDataMap.get(id);
+    recipeId = recipeSheetData['Internal ID'];
+    images.push(processImageUrl(recipeSheetData['Image']));
+  }
+
+  let styles = [sheetData['Style 1'], sheetData['Style 2']].filter(
+    (s) => s && !!s && s !== 'None'
+  );
+  styles = Array.from(new Set(styles));
+
+  let item: Item = {
+    id: id,
+    n: name || sheetData['Name'],
+    nr: sheetData['Name'],
+    t: itemType,
+
+    i: images,
+    c: colors,
+    v: sheetData['Version Added']
+      ? versionMap[sheetData['Version Added']]
+      : Version.The100,
+    cat: sheetData['Catalog'] ? catalogMap[sheetData['Catalog']] : Catalog.NotInCatalog,
+    srcs: sheetData['Source'] ? sheetData['Source'].split(';') : undefined,
+    srcN: sheetData['Source Notes'] ? sheetData['Source Notes'].split(';') : undefined,
+    acts: activitys,
+    s: sheetData['Size'] ? sizeMap[sheetData['Size']] : undefined,
+    diy: recipeId,
+    buy: sheetData['Buy'] && sheetData['Buy'] !== 'NFS' ? sheetData['Buy'] : undefined,
+    sel: sheetData['Sell'] && sheetData['Sell'] !== 'NA' ? sheetData['Sell'] : undefined,
+    exc:
+      sheetData['Exchange Price'] && sheetData['Exchange Price'] !== 'NA'
+        ? [sheetData['Exchange Price'], currencyMap[sheetData['Exchange Currency']!]]
+        : undefined,
+
+    hpt: sheetData['HHA Base Points'] || undefined,
+
+    vs: variants.length > 1 ? variants : undefined,
+    vn: vNames.length > 0 ? vNames : undefined,
+
+    thms: sheetData['Label Themes'] ? sheetData['Label Themes'].split(';') : undefined,
+    stls: styles.length > 0 ? styles : undefined,
+  };
+  return item;
+}
+
+export function genItem(): Item[] {
+  const sheetDatas = getSheetDatas();
+
+  const reciepeSheetDataMap = new Map<number, any>();
+  for (const sheetData of sheetDatas['Recipes']) {
+    const resultId = Number(sheetData['Crafted Item Internal ID']);
+    reciepeSheetDataMap.set(resultId, sheetData);
+  }
+
+  let furnitureMap = new Map<number, any[]>();
+  let clothingMap = new Map<number, any[]>();
+  for (const [sheetName, _] of Object.entries(sheetNameMap)) {
+    for (const sheetData of sheetDatas[sheetName]) {
+      if (sheetName === 'Music') {
+        sheetData['Image'] = sheetData['Framed Image'];
+      }
+      if (sheetName === 'Other') {
+        sheetData['Image'] = sheetData['Inventory Image'];
+        sheetData['ImageAlt'] = sheetData['Storage Image'];
+      }
+      if (
+        sheetName === 'Insects' ||
+        sheetName === 'Fish' ||
+        sheetName === 'Sea Creatures'
+      ) {
+        sheetData['Image'] = sheetData['Furniture Image'];
+        sheetData['Tag'] = sheetName;
+      }
+      if (
+        sheetName === 'Housewares' ||
+        sheetName === 'Miscellaneous' ||
+        sheetName === 'Wall-mounted' ||
+        sheetName === 'Ceiling Decor' ||
+        sheetName === 'Interior Structures' ||
+        sheetName === 'Wallpaper' ||
+        sheetName === 'Floors' ||
+        sheetName === 'Rugs' ||
+        sheetName === 'Photos' ||
+        sheetName === 'Posters' ||
+        sheetName === 'ToolsGoods' ||
+        sheetName === 'Fencing' ||
+        sheetName === 'Insects' ||
+        sheetName === 'Fish' ||
+        sheetName === 'Sea Creatures' ||
+        sheetName === 'Fossils' ||
+        sheetName === 'Artwork' ||
+        sheetName === 'Music' ||
+        sheetName === 'Gyroids' ||
+        sheetName === 'Other'
+      ) {
+        let id = Number(sheetData['Internal ID']);
+        sheetData.sheetName = sheetName;
+        if (!furnitureMap.get(id)) {
+          furnitureMap.set(id, []);
+        }
+        furnitureMap.get(id)!.push(sheetData);
+      } else if (
+        sheetName === 'Tops' ||
+        sheetName === 'Bottoms' ||
+        sheetName === 'Dress-Up' ||
+        sheetName === 'Headwear' ||
+        sheetName === 'Accessories' ||
+        sheetName === 'Socks' ||
+        sheetName === 'Shoes' ||
+        sheetName === 'Bags' ||
+        sheetName === 'Umbrellas' ||
+        sheetName === 'Clothing Other'
+      ) {
+        let id = Number(sheetData['ClothGroup ID']);
+        if (isNaN(id)) {
+          id = Number(sheetData['Internal ID']);
+        } else {
+          id = id * 1000000;
+        }
+        sheetData.sheetName = sheetName;
+        if (!clothingMap.get(id)) {
+          clothingMap.set(id, []);
+        }
+        clothingMap.get(id)!.push(sheetData);
+      }
+    }
+  }
+  let items: Item[] = [];
+  for (const [_, sheetDatas] of furnitureMap.entries()) {
+    const item = convertFurnitureItemFromSheetData(sheetDatas, reciepeSheetDataMap);
+    items.push(item);
+  }
+  for (const [_, sheetDatas] of clothingMap.entries()) {
+    const item = convertClothingItemFromSheetData(sheetDatas, reciepeSheetDataMap);
+    items.push(item);
+  }
+  items = sortItems(items);
+  return items;
 }
 
 function applyOtherItemsOrder(
@@ -410,56 +586,6 @@ function applyOtherItemsOrder(
   }
 }
 
-export function genItemV1(activitys?: Activity[]): Item[] {
-  activitys = activitys || genActivity();
-
-  let items: Item[] = [];
-  for (const oldItem of oldItems) {
-    if (oldItem.sourceSheet !== ItemSourceSheet.MessageCards) {
-      const newItem = convertItemFromOldItem(oldItem);
-      items.push(newItem);
-    }
-  }
-
-  for (const oldCreature of oldCreatures) {
-    const item: Item = {
-      id: oldCreature.internalId,
-      o: oldCreature.num,
-      n: oldCreature.translations?.cNzh || oldCreature.name,
-      nr: oldCreature.name,
-      i: [processImageUrl(oldCreature.furnitureImage)],
-      t: ItemType.Creature,
-      v: oldCreature.versionAdded ? versionMap[oldCreature.versionAdded] : Version.The100,
-      c: Array.from(new Set(oldCreature.colors.map((c) => colorMap[c]))),
-      cat: Catalog.NotForSale,
-      s: sizeMap[oldCreature.size],
-      sel: oldCreature.sell,
-      hpt: oldCreature.hhaBasePoints,
-      hcat: oldCreature.hhaCategory ?? undefined,
-      tag: oldCreature.sourceSheet,
-    };
-    items.push(item);
-  }
-
-  const interiorStructures = JSON.parse(
-    fs.readFileSync(path.join(__dirname, 'Interior Structures.json'), 'utf-8')
-  );
-  for (const structure of interiorStructures) {
-    structure.colors = [structure.color1, structure.color2]; // 修正颜色字段
-    if (structure.variations) {
-      for (const variant of structure.variations) {
-        variant.colors = [variant.color1, variant.color2]; // 修正变体颜色字段
-      }
-    }
-    const newItem = convertItemFromOldItem(structure);
-    newItem.t = ItemType.InteriorStructures;
-    items.push(newItem);
-  }
-
-  items = sortItems(items);
-  return items;
-}
-
 function sortItems(items: Item[]): Item[] {
   let itemMap = new Map<number, Item>();
   for (const item of items) {
@@ -486,277 +612,6 @@ function sortItems(items: Item[]): Item[] {
   });
   return items;
 }
-//#endregion
-
-//#region v2
-const ItemTypeMapV2: Record<string, ItemType> = {
-  housewares: ItemType.Housewares,
-  misc: ItemType.Miscellaneous,
-  wall_mounted: ItemType.WallMounted,
-  walls: ItemType.Wallpaper,
-  ceiling: ItemType.CeilingDecor,
-  structures: ItemType.InteriorStructures,
-  floors: ItemType.Floors,
-  rugs: ItemType.Rugs,
-  fencing: ItemType.Fencing,
-  tops: ItemType.Tops,
-  bottoms: ItemType.Bottoms,
-  dresses: ItemType.DressUp,
-  hats: ItemType.Headwear,
-  accs: ItemType.Accessories,
-  shoes: ItemType.Shoes,
-  socks: ItemType.Socks,
-  bags: ItemType.Bags,
-  umbrellas: ItemType.Umbrellas,
-  wetsuits: ItemType.ClothingOther,
-  fossils: ItemType.Fossils,
-  fish: ItemType.Creature,
-  bugs: ItemType.Creature,
-  sea: ItemType.Creature,
-  art: ItemType.Artwork,
-  photos: ItemType.Photos,
-  posters: ItemType.Posters,
-  music: ItemType.Music,
-  gyroids: ItemType.Gyroids,
-  tools: ItemType.ToolsGoods,
-  other: ItemType.Other,
-};
-
-// todo 需要确认对应关系
-const currencyMapV2: Record<number, Currency> = {
-  1: Currency.Bells,
-  2: Currency.HeartCrystals,
-  3: Currency.NookMiles,
-  4: Currency.NookPoints,
-  5: Currency.Poki,
-  6: Currency.HotelTickets,
-};
-
-function ensureArray(value: any): string[] | undefined {
-  if (!value) return undefined;
-  if (Array.isArray(value)) return value;
-  return [value];
-}
-
-function replaceStr(str: string): string {
-  // 下划线换为空格
-  return str.replace(/_/g, ' ');
-}
-
-function convertItemFromAcnhItemData(
-  id: string,
-  typeName: string,
-  acnhItemData: Record<string, any>
-): Item {
-  let itemId: number = Number(id);
-  let isClothing = id.startsWith('c');
-  let ids = acnhItemData.iid;
-  if (isClothing) {
-    if (typeof ids === 'string' || typeof ids === 'number') {
-      ids = [ids];
-    }
-    itemId = Number(ids[0]);
-  }
-  let img: string = acnhItemData.img;
-  if (acnhItemData.ipf) {
-    img = acnhItemData.ipf + acnhItemData.img[0];
-  }
-  img = 'https://nh-cdn.catalogue.ac/' + img + '.png';
-
-  let size: ItemSize | undefined = undefined;
-  if (acnhItemData.sze) {
-    size = sizeMap[acnhItemData.sze];
-  }
-  let cat: Catalog = Catalog.NotInCatalog;
-  if (acnhItemData.sea) {
-    cat = Catalog.Seasonal;
-  } else if (acnhItemData.ord) {
-    cat = Catalog.ForSale;
-  } else if (acnhItemData.cat) {
-    cat = Catalog.NotForSale;
-  }
-  let variants: Variant[] = [];
-
-  let imgs = acnhItemData.img;
-  let colors = acnhItemData.clr;
-  if (typeof imgs === 'string' || typeof imgs === 'number') {
-    imgs = [imgs];
-    if (colors) {
-      colors = [colors];
-    }
-  }
-
-  let index = 0;
-  for (const [vIndex, _] of ((acnhItemData.var as string[]) || ['']).entries()) {
-    for (const [pIndex, __] of ((acnhItemData.pat as string[]) || ['']).entries()) {
-      if (!variants[vIndex]) {
-        variants[vIndex] = [];
-      }
-      variants[vIndex][pIndex] = { c: [] };
-      if (colors) {
-        let color = colors[index];
-        if (typeof color === 'string') {
-          color = [color];
-        }
-        //首字母大写
-        color = color.map(
-          (colorStr: string) => colorStr.charAt(0).toUpperCase() + colorStr.slice(1)
-        );
-        variants[vIndex][pIndex].c = color.map((colorStr: string) => colorMap[colorStr]);
-        if (isClothing && ids[index] === 1150) {
-          console.log('debug');
-        }
-      }
-      if (isClothing) {
-        variants[vIndex][pIndex].id = ids[index];
-        let img = imgs[index];
-        if (!isNaN(Number(img))) {
-          variants[vIndex][pIndex].i = Number(img);
-        } else {
-          img = 'https://nh-cdn.catalogue.ac/' + img + '.png';
-          variants[vIndex][pIndex].i = img;
-        }
-      }
-      index += 1;
-    }
-  }
-
-  let vNames: string[] = [];
-  let pNames: string[] = [];
-  for (const variant of ensureArray(acnhItemData.var) || []) {
-    vNames.push(getAcnhLocale(variant, 'var'));
-  }
-  for (const pattern of ensureArray(acnhItemData.pat) || []) {
-    pNames.push(getAcnhLocale(pattern, 'var'));
-  }
-
-  let cusKitCost = acnhItemData.kit || 0;
-  let cusKitType = acnhItemData.ktt ? acnhItemData.ktt : KitType.Normal;
-
-  let item: Item = {
-    id: itemId,
-    n: acnhItemData.loc['zh-cn'] || acnhItemData.loc['zh'],
-    nr: acnhItemData.loc['en-us'] || acnhItemData.loc['en'],
-    t: ItemTypeMapV2[typeName],
-    i: [img],
-    c: variants[0][0]!.c,
-    v: acnhItemData.vad ? versionMap[acnhItemData.vad] : Version.The100,
-    cat: cat,
-    srcs: ensureArray(acnhItemData.src)?.map(replaceStr),
-    acts: ensureArray(acnhItemData.evt),
-    s: size,
-    // diy: undefined,
-    buy: acnhItemData.buy,
-    sel: acnhItemData.sel,
-    exc: acnhItemData.exp
-      ? [acnhItemData.exp, currencyMapV2[acnhItemData.exc]]
-      : undefined,
-
-    // tag: undefined,
-    hpt: acnhItemData.hap,
-    hser: acnhItemData.hat ? replaceStr(acnhItemData.hat) : undefined,
-    hcpt: ensureArray(acnhItemData.has)?.map(replaceStr),
-    hset: acnhItemData.hag ? replaceStr(acnhItemData.hag) : undefined,
-    hcat: acnhItemData.hac ? replaceStr(acnhItemData.hac) : undefined,
-
-    thms: ensureArray(acnhItemData.lbl)?.map(replaceStr),
-    stls: ensureArray(acnhItemData.stl)?.map(replaceStr),
-
-    vs: variants.length > 0 ? variants : undefined,
-    vn: vNames.length > 0 ? vNames : undefined,
-    pn: pNames.length > 0 ? pNames : undefined,
-    iv:
-      (acnhItemData.bcu && variants.length > 1) || acnhItemData.ccp
-        ? [
-            acnhItemData.bcu && variants.length > 1 ? 1 : 0,
-            acnhItemData.ccp || 0,
-            acnhItemData?.nvc,
-          ]
-        : undefined,
-    ip: acnhItemData.pcu
-      ? [acnhItemData.pcu ? 1 : 0, acnhItemData.spt ? 1 : 0, acnhItemData.cpt ? 1 : 0]
-      : undefined,
-    cus: cusKitCost > 0 ? [cusKitCost, cusKitType] : undefined,
-
-    fd: acnhItemData.fpw || undefined,
-    ss: acnhItemData.stk || undefined,
-    // us: undefined,
-
-    // iod: undefined,
-    isf: acnhItemData.sur || undefined,
-    idd: acnhItemData.dor || undefined,
-
-    // it: undefined,
-    // st: undefined,
-    // lt: undefined,
-    // sdt: undefined,
-    // vfxt: undefined,
-  };
-
-  return item;
-}
-
-export function genItemV2(): Item[] {
-  const acnhItemDatas = getAllAcnhItemData();
-  let items: Item[] = [];
-  for (const [typeName, map] of Object.entries(acnhItemDatas)) {
-    console.log(`Processing category with ${typeName} items`);
-    for (const [id, acnhItemData] of Object.entries(map)) {
-      const newItem = convertItemFromAcnhItemData(id, typeName, acnhItemData);
-      items.push(newItem);
-    }
-  }
-  items = sortItems(items);
-  return items;
-}
-//#endregion
-
-export function mergeItemV1AndV2(activitys?: Activity[]): Item[] {
-  const itemsV1 = genItemV1(activitys);
-  const itemsV2 = genItemV2();
-  let itemMapV1 = new Map<number, Item>();
-  for (const item of itemsV1) {
-    itemMapV1.set(item.id, item);
-  }
-  let itemMapV2 = new Map<number, Item>();
-  for (const item of itemsV2) {
-    itemMapV2.set(item.id, item);
-  }
-
-  // 定义优先使用 v2 的字段列表
-  // const v2Fields: (keyof Item)[] = ['acts'];
-
-  let mergedMap = new Map<number, Item>();
-
-  // 先添加所有 v1 物品
-  for (const item of itemsV1) {
-    mergedMap.set(item.id, { ...item });
-  }
-
-  // 处理 v2 物品
-  for (const itemV2 of itemsV2) {
-    const existingItem = mergedMap.get(itemV2.id);
-    if (existingItem) {
-      // 交集：合并，使用 v2Fields 从 v2，否则从 v1
-      // const mergedItem: Item = { ...existingItem };
-      // for (const field of v2Fields) {
-      //   if (itemV2[field] !== undefined) {
-      //     (mergedItem as any)[field] = itemV2[field];
-      //   }
-      // }
-      // mergedMap.set(itemV2.id, mergedItem);
-    } else {
-      // v2 独有：直接添加
-      mergedMap.set(itemV2.id, { ...itemV2 });
-    }
-  }
-
-  let mergedItems: Item[] = Array.from(mergedMap.values());
-  mergedItems = sortItems(mergedItems);
-  return mergedItems;
-}
-
-export const genItem = mergeItemV1AndV2;
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');

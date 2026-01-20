@@ -9,6 +9,7 @@ import {
   Species,
   Version,
 } from '../src/types';
+import { CDN_HOST } from '../src/utils/imageUtils';
 
 /**
  * 递归移除对象中的 null 和 undefined 字段
@@ -33,10 +34,9 @@ export function removeNullFields(obj: any): any {
 
 export function processImageUrl(imageUrl: string): string {
   if (!imageUrl) return '';
-  const CDN_PREFIX = 'https://acnhcdn.com/';
   let url = imageUrl;
-  if (url.startsWith(CDN_PREFIX)) {
-    url = url.substring(CDN_PREFIX.length);
+  if (url.startsWith(CDN_HOST)) {
+    url = url.substring(CDN_HOST.length);
   }
   if (url.endsWith('.png')) {
     url = url.substring(0, url.length - 4);

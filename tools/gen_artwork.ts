@@ -14,7 +14,7 @@ const sourceSheetMap: Record<string, ItemType> = {
   Bags: ItemType.Bags,
   Bottoms: ItemType.Bottoms,
   'Ceiling Decor': ItemType.CeilingDecor,
-  'Clothing Other': ItemType.ClothingOther,
+  'Clothing Other': ItemType.Wetsuits,
   'Dress-Up': ItemType.DressUp,
   Fencing: ItemType.Fencing,
   Floors: ItemType.Floors,
@@ -35,7 +35,7 @@ const sourceSheetMap: Record<string, ItemType> = {
   Umbrellas: ItemType.Umbrellas,
   'Wall-mounted': ItemType.WallMounted,
   Wallpaper: ItemType.Wallpaper,
-  Creature: ItemType.Creature,
+  Creature: ItemType.Creatures,
 };
 
 export function genArtwork() {

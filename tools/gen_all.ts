@@ -17,7 +17,7 @@ import { genAchievement } from './gen_achievement';
 const activitys = genActivity();
 save(activitys, 'acnh-activitys.json');
 
-const items = genItem(activitys);
+const items = genItem();
 save(items, 'acnh-items.json');
 
 const villagers = genVillager(items);
@@ -41,7 +41,7 @@ save(artworks, 'acnh-artworks.json');
 const plants = genPlant(items);
 save(plants, 'acnh-plants.json');
 
-const musics = genMusic(items);
+const musics = genMusic();
 save(musics, 'acnh-musics.json');
 
 const reactions = genReaction();

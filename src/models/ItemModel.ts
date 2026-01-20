@@ -88,7 +88,7 @@ export class ItemModel {
   }
 
   get images(): string[] {
-    return this._data.i.map(processImageUrl);
+    return this._data.i.map((img) => processImageUrl(img));
   }
 
   get image(): string {
@@ -399,7 +399,10 @@ export class ItemModel {
   }
 
   get canCustomizeVariant(): boolean {
-    return this.hasVariations && (this.canCustomizeVariantByCyrus || this.canCustomizeVariantBySelf);
+    return (
+      this.hasVariations &&
+      (this.canCustomizeVariantByCyrus || this.canCustomizeVariantBySelf)
+    );
   }
 
   get canCustomizeVariantBySelf(): boolean {
@@ -581,22 +584,13 @@ export class ItemModel {
   getPatternImages(vIndex?: number, pIndex?: number): string[] {
     let vIdx = vIndex !== undefined ? vIndex : this.variantIndex;
     let pIdx = pIndex !== undefined ? pIndex : this.patternIndex;
-    let rawImages = [...this._data.i];
-    let images = rawImages.map((img) => {
-      if (this.isClothing) {
-        let imgIndex = this.getPattern(vIdx, pIdx)?.i;
-        if (imgIndex !== undefined) {
-          // 截取出最后一个字符
-          let lastChar = img.charAt(img.length - 1);
-          if (Number.isInteger(parseInt(lastChar))) {
-            // 如果最后一个字符是数字，则替换为图案图片序号
-            img = img.slice(0, -1) + imgIndex;
-          } else {
-            console.warn(`Clothing image URL format unexpected: ${this.name} ${img}`);
-            img = imgIndex as string;
-          }
-        }
-      } else if (img.includes('0_0')) {
+    let images = [...this.images];
+    let pattern = this.getPattern(vIndex, pIndex);
+    if (pattern && pattern.i) {
+      images = pattern.i;
+    }
+    images = images.map((img) => {
+      if (img.includes('0_0')) {
         img = img.replace('0_0', `${vIdx}_${pIdx}`);
       }
       return processImageUrl(img);
@@ -772,7 +766,7 @@ export class ItemModel {
       } else {
         return 1;
       }
-    } else if (this.type === ItemType.Creature) {
+    } else if (this.type === ItemType.Creatures) {
       const tag = this.tag;
       if (tag === 'Insects') {
         return 1;

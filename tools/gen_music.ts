@@ -1,22 +1,22 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { processImageUrl, save } from './util.js';
-import { type Item } from '../src/types/index.js';
 import type { Music } from '../src/types/music.js';
 import { getAcnhLocale } from './acnh/index.js';
-import { genItem } from './gen_item.js';
+import { getSheetDatas } from './excel/excel.js';
 
 const __dirname = path.join(process.cwd(), 'tools');
 
-export function genMusic(items?: Item[]) {
-  items = items || genItem();
+export function genMusic() {
+  const sheetDatas = getSheetDatas();
+  const musicSheetDatas = sheetDatas['Music'];
   const musicCfg = JSON.parse(
     fs.readFileSync(path.join(__dirname, 'Music.json'), 'utf-8')
   );
   let musics: Music[] = [];
   for (const entry of musicCfg) {
-    const item = items?.find((i) => i.nr === entry.rawName);
-    if (!item) {
+    const data = musicSheetDatas?.find((data) => data['Name'] === entry.rawName);
+    if (!data) {
       console.log(`音乐未找到物品: ${entry.rawName}`);
       continue;
     }
@@ -29,18 +29,19 @@ export function genMusic(items?: Item[]) {
       .replace(/'/g, '')
       .replace(/!/g, '');
     mood = getAcnhLocale(mood, 'mmd') || entry.mood;
-
+    let image =
+      data['Album Image'] && data['Album Image'] !== 'NA'
+        ? data['Album Image']
+        : 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png';
     const music: Music = {
-      id: item.id,
+      id: data.id,
       order: entry.order || 0,
       name: entry.name,
-      rawName: item.nr,
-      image: processImageUrl(
-        item.i?.[1] || 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png'
-      ),
-      ver: item.v,
+      rawName: entry.rawName,
+      image: processImageUrl(image),
+      ver: data.v,
       mood: mood || '',
-      hasRadio: item.i?.[1] ? true : false,
+      hasRadio: data['Album Image'] && data['Album Image'] !== 'NA' ? true : false,
     };
     musics.push(music);
   }

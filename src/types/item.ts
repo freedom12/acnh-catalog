@@ -18,13 +18,13 @@ export const ItemType = {
   Shoes: 12,
   Bags: 13,
   Umbrellas: 14,
-  ClothingOther: 15,
+  Wetsuits: 15,
   ToolsGoods: 16,
   Fencing: 17,
   Wallpaper: 18,
   Floors: 19,
   Rugs: 20,
-  Creature: 21,
+  Creatures: 21,
   Fossils: 22,
   Artwork: 23,
   Gyroids: 24,
@@ -52,7 +52,7 @@ export const ClothingTypes: ItemType[] = [
   ItemType.Shoes,
   ItemType.Bags,
   ItemType.Umbrellas,
-  ItemType.ClothingOther,
+  ItemType.Wetsuits,
 ];
 
 export const InteriorTypes: ItemType[] = [
@@ -62,7 +62,7 @@ export const InteriorTypes: ItemType[] = [
 ];
 
 export const MuseumTypes: ItemType[] = [
-  ItemType.Creature,
+  ItemType.Creatures,
   ItemType.Fossils,
   ItemType.Artwork,
 ];
@@ -231,7 +231,7 @@ export type VfxType = (typeof VfxType)[keyof typeof VfxType];
  */
 export interface Pattern {
   id?: number; // 服饰ID
-  i?: number | string; // 服饰图片顺序/名字
+  i?: string[]; // 服饰图片名字
   c: Color[]; // 图案颜色列表
 }
 
@@ -251,7 +251,7 @@ export interface Item {
   o?: number; // 物品排序
   n: string; // 物品名称
   nr: string; // 物品原始名称
-  i: string[]; // 物品所有图片
+  i: string[]; // 物品图片
   t: ItemType; // 物品类型
   v: Version; // 添加版本
   c: Color[]; // 物品颜色列表
