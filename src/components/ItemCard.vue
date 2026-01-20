@@ -115,18 +115,20 @@ const toggleHhaExpanded = () => {
           :alt="itemModel.typeName"
           :title="itemModel.typeName"
           class="inline-icon gray"
-          loading="lazy" />
-        <template v-if="itemModel.subtype">
+          loading="lazy"
+        />
+        <template v-if="itemModel.tag">
           -
           {{ itemModel.tagName }}
-          <img
+          <img v-if="itemModel.subtype"
             :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
             :alt="itemModel.tagName"
             :title="itemModel.tagName"
             class="inline-icon gray"
             loading="lazy"
-          /> </template
-      ></span>
+          />
+        </template>
+      </span>
     </div>
     <!-- <div class="detail-row">
       <span class="detail-label">尺寸</span>
