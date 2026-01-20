@@ -18,6 +18,9 @@ import {
   getHHACategoryName,
   getTagName,
   getCatalogName,
+  getHHASetsOrder,
+  getHHASeriesOrder,
+  getHHAConceptsOrder,
 } from '../services/dataService';
 import {
   ItemType,
@@ -57,10 +60,12 @@ const filters = computed<Filter[]>(() => {
   ];
 
   // 版本选项
-  const versionsOptions = Object.values(Version).reverse().map((version) => ({
-    value: version,
-    label: getVersionName(version),
-  }));
+  const versionsOptions = Object.values(Version)
+    .reverse()
+    .map((version) => ({
+      value: version,
+      label: getVersionName(version),
+    }));
 
   // 尺寸选项
   const sizesOptions = Object.values(ItemSize).map((size) => ({
@@ -121,7 +126,12 @@ const filters = computed<Filter[]>(() => {
       value: ser,
       label: getHHASeriesName(ser),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
+    .sort((a, b) => {
+      const order = getHHASeriesOrder();
+      const indexA = order.indexOf(a.value.toLowerCase());
+      const indexB = order.indexOf(b.value.toLowerCase());
+      return indexA - indexB;
+    });
 
   // HHA场景选项
   const conceptsOptions = [...conceptsSet]
@@ -129,7 +139,12 @@ const filters = computed<Filter[]>(() => {
       value: concept,
       label: getHHAConceptName(concept),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
+    .sort((a, b) => {
+      const order = getHHAConceptsOrder();
+      const indexA = order.indexOf(a.value.toLowerCase());
+      const indexB = order.indexOf(b.value.toLowerCase());
+      return indexA - indexB;
+    });
 
   // HHA套组选项
   const setsOptions = [...setsSet]
@@ -137,7 +152,12 @@ const filters = computed<Filter[]>(() => {
       value: set,
       label: getHHASetName(set),
     }))
-    .sort((a, b) => a.label.localeCompare(b.label, 'zh-CN'));
+    .sort((a, b) => {
+      const order = getHHASetsOrder();
+      const indexA = order.indexOf(a.value.toLowerCase());
+      const indexB = order.indexOf(b.value.toLowerCase());
+      return indexA - indexB;
+    });
 
   // HHA分类选项
   const categoriesOptions = [...categoriesSet]

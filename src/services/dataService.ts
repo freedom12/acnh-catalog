@@ -313,13 +313,23 @@ export function getTagName(tag: string): string {
 export function getHHASeriesName(series: string): string {
   return getTranslation(series, translationsCache?.series);
 }
-
+export function getHHASeriesOrder(): string[] {
+  return Object.keys(translationsCache?.series || {});
+}
 export function getHHASetName(set: string): string {
   return getTranslation(set, translationsCache?.sets);
 }
 
+export function getHHASetsOrder(): string[] {
+  return Object.keys(translationsCache?.sets || {});
+}
+
 export function getHHAConceptName(concept: string): string {
   return getTranslation(concept, translationsCache?.concepts);
+}
+
+export function getHHAConceptsOrder(): string[] {
+  return Object.keys(translationsCache?.concepts || {});
 }
 
 export function getHHACategoryName(category: string): string {

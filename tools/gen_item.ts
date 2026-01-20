@@ -498,6 +498,9 @@ export function genItem(): Item[] {
         sheetData['Image'] = sheetData['Furniture Image'];
         sheetData['Tag'] = sheetName;
       }
+      if (sheetName === 'ToolsGoods') {
+        sheetData['HHA Set'] = sheetData['Set'];
+      }
       if (
         sheetName === 'Housewares' ||
         sheetName === 'Miscellaneous' ||
