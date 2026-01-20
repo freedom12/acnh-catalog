@@ -95,6 +95,10 @@ export class ItemModel {
     return this.images[0] || '';
   }
 
+  get icon(): string {
+    return this._data.icon ? processImageUrl(this._data.icon) : this.image;
+  }
+
   get type(): ItemType {
     return this._data.t;
   }

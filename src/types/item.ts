@@ -252,6 +252,7 @@ export interface Item {
   n: string; // 物品名称
   nr: string; // 物品原始名称
   i: string[]; // 物品图片
+  icon?: string; // 物品图标
   t: ItemType; // 物品类型
   v: Version; // 添加版本
   c: Color[]; // 物品颜色列表

@@ -40,9 +40,9 @@ const iconSize = computed(() => 24);
   <div :class="themeClasses" @click="handleClick">
     <div class="material-info">
       <img
-        v-if="material?.image"
-        :src="material.image"
-        :alt="material?.name"
+        v-if="material?.icon"
+        :src="material.icon"
+        :alt="material.name"
         class="material-icon"
         :style="{ width: iconSize + 'px', height: iconSize + 'px' }"
         loading="lazy"

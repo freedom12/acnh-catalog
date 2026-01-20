@@ -134,9 +134,11 @@ function convertFurnitureItemFromSheetData(
     console.warn(`物品翻译未找到: ${id}`);
   }
   const images = [processImageUrl(sheetData['Image'])];
-  if (sheetData['ImageAlt'] && sheetData['ImageAlt'] !== 'NA') {
-    images.push(processImageUrl(sheetData['ImageAlt']));
+  let icon: string | undefined = undefined;
+  if (sheetData['Icon Image'] && sheetData['Icon Image'] !== 'NA') {
+    icon = processImageUrl(sheetData['Icon Image']);
   }
+
   const colors = Array.from(
     new Set([sheetData['Color 1'], sheetData['Color 2']].filter(Boolean))
   ).map((c) => colorMap[c]);
@@ -258,6 +260,7 @@ function convertFurnitureItemFromSheetData(
     t: itemType,
 
     i: images,
+    icon: icon,
     c: colors,
     v: sheetData['Version Added']
       ? versionMap[sheetData['Version Added']]
@@ -480,12 +483,12 @@ export function genItem(): Item[] {
         sheetData['Image'] = sheetData['Framed Image'];
       }
       if (sheetName === 'Other') {
-        if (sheetData['Inventory Image'] && sheetData['Inventory Image'] !== 'NA') {
-          sheetData['Image'] = sheetData['Inventory Image'];
-          sheetData['ImageAlt'] = sheetData['Storage Image'];
-        } else {
+        if (sheetData['Storage Image'] && sheetData['Storage Image'] !== 'NA') {
           sheetData['Image'] = sheetData['Storage Image'];
+        } else {
+          sheetData['Image'] = sheetData['Inventory Image'];
         }
+        sheetData['Icon Image'] = sheetData['Inventory Image'];
       }
       if (
         sheetName === 'Insects' ||
