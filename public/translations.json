@@ -182,7 +182,25 @@
         "Wood Rugs": "木质地毯",
         "Wood Tile Walls": "木瓷砖墙",
         "Wood Walls": "木墙",
-        "Work Bench": "工作台"
+        "Work Bench": "工作台",
+        "Animal Floors": "动物地板",
+        "Insects": "昆虫",
+        "LEGO": "乐高",
+        "LEGO Floors": "乐高地板",
+        "LEGO Walls": "乐高墙",
+        "Mario Floors": "马力欧地板",
+        "Mario Walls": "马力欧墙",
+        "Machine Floors": "机械地板",
+        "RugLEGO": "乐高地毯",
+        "Sanrio Floors": "三丽鸥地板",
+        "Sea Creatures": "海洋生物",
+        "Splatoon": "喷射战士",
+        "Splatoon Floors": "喷射战士地板",
+        "Splatoon Walls": "喷射战士墙",
+        "Sports Floors": "运动地板",
+        "Zelda": "塞尔达",
+        "Zelda Floors": "塞尔达地板",
+        "Zelda Walls": "塞尔达墙"
     },
     "sources": {
         "Nook Shopping": "狸猫商店",
@@ -383,7 +401,11 @@
         "5th House Upgrade (2nd Floor)": "第五次房屋升级（二楼）",
         "3rd House Upgrade (Left Room)": "第三次房屋升级（左房间）",
         "Resident Services Upgrade": "居民服务升级",
-        "Tent": "帐篷"
+        "Tent": "帐篷",
+        "Hotel Souvenir Shop": "酒店纪念品店",
+        "Resetti": "雷塞蒂",
+        "Slumber Islands": "睡梦岛屿",
+        "Wrapping bells": "包装铃钱"
     },
     "series": {
         "bamboo": "竹子",
@@ -434,7 +456,14 @@
         "dreamy": "梦幻可爱",
         "patchwork": "拼布",
         "Festivale": "狂欢节",
-        "Mario": "马力欧"
+        "Mario": "马力欧",
+        "kids": "儿童",
+        "LEGO®": "LEGO®",
+        "marble": "大理石",
+        "Splatoon": "喷射战士",
+        "The Legend of Zelda": "塞尔达传说",
+        "tubular": "管状",
+        "zen modern": "禅意现代"
     },
     "concepts": {
         "amusement park": "游乐园",

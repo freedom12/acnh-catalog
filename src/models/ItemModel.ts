@@ -115,6 +115,11 @@ export class ItemModel {
     return ItemTypeNameMap[this.type] || '未知分类';
   }
 
+  get typeNameShort(): string {
+    const l = this.typeName.split('/');
+    return l[l.length - 1] || this.typeName;
+  }
+
   get version(): Version {
     return this._data.v;
   }

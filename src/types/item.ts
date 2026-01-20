@@ -456,6 +456,9 @@ export const housewareTagGroups = [
     'My Melody',
     'Pompompurin',
     'Mario',
+    'Zelda',
+    'Splatoon',
+    'LEGO'
   ],
 ];
 
@@ -503,6 +506,9 @@ export const miscellaneousTagGroups = [
     'My Melody',
     'Pompompurin',
     'Mario',
+    'Zelda',
+    'Splatoon',
+    'LEGO'
   ],
 ];
 
