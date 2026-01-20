@@ -263,8 +263,12 @@ function convertFurnitureItemFromSheetData(
       ? versionMap[sheetData['Version Added']]
       : Version.The100,
     cat: sheetData['Catalog'] ? catalogMap[sheetData['Catalog']] : Catalog.NotInCatalog,
-    srcs: sheetData['Source'] ? sheetData['Source'].split(';') : undefined,
-    srcN: sheetData['Source Notes'] ? sheetData['Source Notes'].split(';') : undefined,
+    srcs: sheetData['Source']
+      ? sheetData['Source'].split(';').map((s: string) => s.trim())
+      : undefined,
+    srcN: sheetData['Source Notes']
+      ? sheetData['Source Notes'].split(';').map((s: string) => s.trim())
+      : undefined,
     acts: activitys,
     s: sheetData['Size'] ? sizeMap[sheetData['Size']] : undefined,
     diy: recipeId,
@@ -430,8 +434,12 @@ function convertClothingItemFromSheetData(
       ? versionMap[sheetData['Version Added']]
       : Version.The100,
     cat: sheetData['Catalog'] ? catalogMap[sheetData['Catalog']] : Catalog.NotInCatalog,
-    srcs: sheetData['Source'] ? sheetData['Source'].split(';') : undefined,
-    srcN: sheetData['Source Notes'] ? sheetData['Source Notes'].split(';') : undefined,
+    srcs: sheetData['Source']
+      ? sheetData['Source'].split(';').map((s: string) => s.trim())
+      : undefined,
+    srcN: sheetData['Source Notes']
+      ? sheetData['Source Notes'].split(';').map((s: string) => s.trim())
+      : undefined,
     acts: activitys,
     s: sheetData['Size'] ? sizeMap[sheetData['Size']] : undefined,
     diy: recipeId,
@@ -447,7 +455,9 @@ function convertClothingItemFromSheetData(
     vs: variants.length > 1 ? variants : undefined,
     vn: vNames.length > 0 ? vNames : undefined,
 
-    thms: sheetData['Label Themes'] ? sheetData['Label Themes'].split(';') : undefined,
+    thms: sheetData['Label Themes']
+      ? sheetData['Label Themes'].split(';').map((s: string) => s.trim())
+      : undefined,
     stls: styles.length > 0 ? styles : undefined,
   };
   return item;
