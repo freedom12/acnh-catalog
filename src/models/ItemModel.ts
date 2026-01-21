@@ -97,11 +97,11 @@ export class ItemModel {
   }
 
   get icon(): string {
-    if (this._data.icon) {
-      return processImageUrl(this._data.icon);
+    if (this._data.ic) {
+      return processImageUrl(this._data.ic);
     }
-    if (this.type === ItemType.Housewares || this.type === ItemType.Miscellaneous || this.type === ItemType.WallMounted || this.type === ItemType.CeilingDecor) {
-      return getImgUrl('img/icon/inventory/furniture.png');
+    if (this._data.ict) {
+      return getImgUrl(`img/icon/inventory/${this._data.ict}.png`);
     }
     return this.image;
   }

@@ -15,7 +15,7 @@ import {
 } from '../src/types/item';
 import { colorMap, currencyMap, processImageUrl, save, sizeMap, versionMap } from './util';
 import { getAcnhItemData } from './acnh/index.js';
-import { getSheetDatas, getTrans } from './excel/excel.js';
+import { getIconType, getSheetDatas, getTrans } from './excel/excel.js';
 
 const __dirname = path.join(process.cwd(), 'tools');
 
@@ -251,7 +251,8 @@ function convertFurnitureItemFromSheetData(
     t: itemType,
 
     i: images,
-    icon: icon,
+    ic: icon,
+    ict: getIconType(id),
     c: colors,
     v: sheetData['Version Added']
       ? versionMap[sheetData['Version Added']]
@@ -423,6 +424,7 @@ function convertClothingItemFromSheetData(
     t: itemType,
 
     i: images,
+    ict: getIconType(id),
     c: colors,
     v: sheetData['Version Added']
       ? versionMap[sheetData['Version Added']]
@@ -650,6 +652,6 @@ function sortItems(items: Item[]): Item[] {
   return items;
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
+if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');
 }

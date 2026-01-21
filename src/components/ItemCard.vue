@@ -40,7 +40,7 @@ const patternIndex = computed({
 const icon = computed(() => {
   if (itemModel.hasIcon) {
     return itemModel.icon;
-  } 
+  }
   return '';
 });
 const currentVariant = computed(() => itemModel.currentVariant);
@@ -92,6 +92,10 @@ const toggleHhaExpanded = () => {
     @click="handleClick"
   >
     <div class="detail-row detail-center">
+      <span class="detail-label">{{ itemModel.raw.ict || '' }}</span>
+    </div>
+
+    <div class="detail-row detail-center">
       <span class="detail-label"> ID: {{ displayId }} </span>
       <img
         v-if="itemModel.size"
@@ -127,7 +131,8 @@ const toggleHhaExpanded = () => {
         <template v-if="itemModel.tag">
           -
           {{ itemModel.tagName }}
-          <img v-if="itemModel.subtype"
+          <img
+            v-if="itemModel.subtype"
             :src="getItemSubtypeIcon(itemModel.type, itemModel.subtype)"
             :alt="itemModel.tagName"
             :title="itemModel.tagName"

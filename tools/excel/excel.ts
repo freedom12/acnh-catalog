@@ -113,6 +113,7 @@ function loadTransExcel() {
   return translations;
 }
 
+const iconTypeMap: Record<number, string> = {};
 function mergeTranslations(
   translations: Record<string, Record<string, Record<string, string>>>
 ) {
@@ -164,9 +165,10 @@ function mergeTranslations(
         console.warn(`Invalid number in id: ${idstr} in sheet ${key}`);
         continue;
       }
+      const id = Number(l[1]);
       const iconType = l[0];
       iconTypeSet.add(iconType);
-      const id = Number(l[1]);
+      iconTypeMap[id] = iconType;
       if (merged['Items'][id]) {
         console.warn(`Duplicate id ${id} in Items from sheet ${key}`);
         continue;
@@ -214,9 +216,10 @@ function mergeTranslations(
         console.warn(`Invalid number in id: ${idstr} in sheet Clothing Variant`);
         continue;
       }
+      const id = Number(l[2]);
       const iconType = l[1];
       iconTypeSet.add(iconType);
-      const id = Number(l[2]);
+      iconTypeMap[id] = iconType;
       if (isNaN(id)) {
         console.warn(`Invalid number in id: ${idstr} in sheet Clothing Variant`);
         continue;
@@ -345,4 +348,8 @@ export function getTrans(
     return str;
   }
   return null;
+}
+
+export function getIconType(id: number): string {
+  return iconTypeMap[id];
 }
