@@ -107,7 +107,7 @@ export class ItemModel {
   }
 
   get hasIcon(): boolean {
-    return this.icon !== this.image;
+    return true; //this.icon !== this.image;
   }
 
   get type(): ItemType {
