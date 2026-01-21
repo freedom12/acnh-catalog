@@ -23,6 +23,7 @@ import {
 } from './util';
 import { getAcnhItemData } from './acnh/index.js';
 import { getIconType, getSheetDatas, getTrans } from './excel/excel.js';
+import { get } from 'http';
 
 const __dirname = path.join(process.cwd(), 'tools');
 

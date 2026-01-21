@@ -33,7 +33,12 @@ const patternIndex = computed({
   get: () => itemModel.patternIndex,
   set: (val: number) => (itemModel.patternIndex = val),
 });
-
+const icon = computed(() => {
+  if (itemModel.hasIcon) {
+    return itemModel.icon;
+  }
+  return '';
+});
 const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
 const displayImages = computed(() => itemModel.getDisplayImages());
@@ -69,6 +74,7 @@ const handleClick = () => {
     :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
+    :icon="icon"
     :displayName="itemModel.name"
     :shape="'rounded'"
     @click="handleClick"

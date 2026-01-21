@@ -91,9 +91,9 @@ const toggleHhaExpanded = () => {
     :shape="'rounded'"
     @click="handleClick"
   >
-    <div class="detail-row detail-center">
+    <!-- <div class="detail-row detail-center">
       <span class="detail-label">{{ itemModel.raw.ict || '' }}</span>
-    </div>
+    </div> -->
 
     <div class="detail-row detail-center">
       <span class="detail-label"> ID: {{ displayId }} </span>
