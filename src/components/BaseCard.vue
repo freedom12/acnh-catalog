@@ -41,6 +41,9 @@ const currentImage = computed(() =>
   processImageUrl(props.images[currentImageIndex.value] || '')
 );
 
+// 图片加载状态
+const imageLoaded = ref(false);
+
 // 是否有多个图片
 const hasMultipleImages = computed(() => props.images.length > 1);
 
@@ -49,6 +52,7 @@ const prevImage = () => {
   if (hasMultipleImages.value) {
     currentImageIndex.value =
       currentImageIndex.value > 0 ? currentImageIndex.value - 1 : props.images.length - 1;
+    imageLoaded.value = false; // 重置加载状态
     emit('image-index-changed', currentImageIndex.value);
   }
 };
@@ -58,6 +62,7 @@ const nextImage = () => {
   if (hasMultipleImages.value) {
     currentImageIndex.value =
       currentImageIndex.value < props.images.length - 1 ? currentImageIndex.value + 1 : 0;
+    imageLoaded.value = false; // 重置加载状态
     emit('image-index-changed', currentImageIndex.value);
   }
 };
@@ -65,6 +70,7 @@ const nextImage = () => {
 // 切换到指定索引的图片
 const goToImage = (index: number) => {
   currentImageIndex.value = index;
+  imageLoaded.value = false; // 重置加载状态
   emit('image-index-changed', index);
 };
 
@@ -112,11 +118,13 @@ const cardStyles = computed(() => {
         @click="$emit('click', $event)"
       >
         <img
-          :src="currentImage"
+          :src="imageLoaded ? currentImage : (icon || currentImage)"
           :alt="displayName"
           class="card-image"
           :class="{ 'large-image': !detailed }"
           loading="lazy"
+          @load="imageLoaded = true"
+          @error="imageLoaded = true"
         />
       </div>
 

@@ -633,7 +633,7 @@ function applyItemsOrder(
 }
 
 function applyIconType(itemMap: Map<number, Item>) {
-  const iconTypeFilePath = path.join(__dirname, 'icon-type-sp.txt');
+  const iconTypeFilePath = path.join(__dirname, 'icon-type.txt');
   if (!fs.existsSync(iconTypeFilePath)) return;
   const lines = fs.readFileSync(iconTypeFilePath, 'utf-8').split(/\r?\n/);
 
