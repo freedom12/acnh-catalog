@@ -10,6 +10,7 @@ interface Props {
   colorTheme?: string;
   version?: Version;
   images: string[];
+  icon?: string;
   displayName: string;
   shape?: 'circle' | 'rounded' | 'square';
   detailed?: boolean;
@@ -119,6 +120,9 @@ const cardStyles = computed(() => {
         />
       </div>
 
+      <!-- 右下角图标 -->
+      <img v-if="icon" :src="icon" alt="icon" class="card-corner-icon" />
+
       <!-- 图片指示器 -->
       <div v-if="hasMultipleImages" class="image-indicators">
         <span
@@ -148,7 +152,9 @@ const cardStyles = computed(() => {
     </div>
     <div class="card-info">
       <slot name="name">
-        <h3 class="card-name">{{ displayName }}</h3>
+        <h3 class="card-name">
+          {{ displayName }}
+        </h3>
       </slot>
       <div v-if="detailed" class="card-details">
         <slot></slot>

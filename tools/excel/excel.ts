@@ -116,6 +116,7 @@ function loadTransExcel() {
 function mergeTranslations(
   translations: Record<string, Record<string, Record<string, string>>>
 ) {
+  const iconTypeSet = new Set<string>();
   const merged: Record<string, Record<number | string, Record<string, string>>> = {};
   let keys = [
     'Furniture',
@@ -163,6 +164,8 @@ function mergeTranslations(
         console.warn(`Invalid number in id: ${idstr} in sheet ${key}`);
         continue;
       }
+      const iconType = l[0];
+      iconTypeSet.add(iconType);
       const id = Number(l[1]);
       if (merged['Items'][id]) {
         console.warn(`Duplicate id ${id} in Items from sheet ${key}`);
@@ -211,6 +214,8 @@ function mergeTranslations(
         console.warn(`Invalid number in id: ${idstr} in sheet Clothing Variant`);
         continue;
       }
+      const iconType = l[1];
+      iconTypeSet.add(iconType);
       const id = Number(l[2]);
       if (isNaN(id)) {
         console.warn(`Invalid number in id: ${idstr} in sheet Clothing Variant`);
@@ -224,6 +229,11 @@ function mergeTranslations(
       merged['Clothing Variant'][key] = trans;
     }
   }
+
+  const iconTypesArray = Array.from(iconTypeSet);
+  const iconTypesFilePath = path.join(outputDir, 'iconTypes.txt');
+  fs.writeFileSync(iconTypesFilePath, iconTypesArray.join('\n'));
+
   merged['Item Variant Types'] = {};
   for (const [idstr, trans] of Object.entries(translations['Item Variant Types'])) {
     const l = idstr.split('_');

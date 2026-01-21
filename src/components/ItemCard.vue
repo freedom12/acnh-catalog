@@ -37,6 +37,12 @@ const patternIndex = computed({
   set: (val: number) => (itemModel.patternIndex = val),
 });
 
+const icon = computed(() => {
+  if (itemModel.hasIcon) {
+    return itemModel.icon;
+  } 
+  return '';
+});
 const currentVariant = computed(() => itemModel.currentVariant);
 const displayId = computed(() => itemModel.getDisplayId());
 const displayColors = computed(() => itemModel.getDisplayColors());
@@ -80,6 +86,7 @@ const toggleHhaExpanded = () => {
     :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
+    :icon="icon"
     :displayName="itemModel.name"
     :shape="'rounded'"
     @click="handleClick"

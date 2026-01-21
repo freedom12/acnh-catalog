@@ -18,6 +18,7 @@ import {
   getPriceWithIcon,
   getCusCost,
   getCatalogName,
+  getImgUrl,
 } from '../services/dataService';
 import {
   Color,
@@ -96,7 +97,17 @@ export class ItemModel {
   }
 
   get icon(): string {
-    return this._data.icon ? processImageUrl(this._data.icon) : this.image;
+    if (this._data.icon) {
+      return processImageUrl(this._data.icon);
+    }
+    if (this.type === ItemType.Housewares || this.type === ItemType.Miscellaneous || this.type === ItemType.WallMounted || this.type === ItemType.CeilingDecor) {
+      return getImgUrl('img/icon/inventory/furniture.png');
+    }
+    return this.image;
+  }
+
+  get hasIcon(): boolean {
+    return this.icon !== this.image;
   }
 
   get type(): ItemType {
