@@ -1,22 +1,21 @@
 Counter
 Ftr
 FtrWall
-# OneRoomBox
+OneRoomBox
 Pillar
 InsectToy
 FishToy
 RoomWall
 RoomFloor
 Rug
-# RugMyDesign
+RugMyDesign
 DoorDeco
 Fence
 BdayCupcake
 Candy
 EasterEgg
 Feather
------
-# HarvestDish
+HarvestDish
 JohnnyQuest
 JohnnyQuestDust
 LostQuest
@@ -31,8 +30,6 @@ TailorTicket
 TreasureQuest
 TreasureQuestDust
 YutaroWisp
------
-
 Balloon
 Basket
 BigbagPresent
@@ -96,12 +93,9 @@ Trash
 Uchiwa
 Windmill
 WrappingPaper
--------
-
 Gyroid
 Dishes
 Drink
-
 Axe
 ChangeStick
 CliffMaker
@@ -117,8 +111,6 @@ SpeakerMegaphone
 Timer
 Watering
 WoodenStickTool
-
-
 Insect
 Fish
 DiveFish
@@ -130,7 +122,6 @@ Sculpture
 SculptureFake
 Music
 MusicMiss
-
 AutumnLeaf
 CraftMaterial
 CraftPhoneCase
@@ -160,7 +151,6 @@ Turnip
 TurnipExpired
 Money
 PhotoStudioList
-
 Bromide
 Poster
 Umbrella

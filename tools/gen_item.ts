@@ -13,7 +13,14 @@ import {
   type Item,
   type Variant,
 } from '../src/types/item';
-import { colorMap, currencyMap, processImageUrl, save, sizeMap, versionMap } from './util';
+import {
+  colorMap,
+  currencyMap,
+  processImageUrl,
+  save,
+  sizeMap,
+  versionMap,
+} from './util';
 import { getAcnhItemData } from './acnh/index.js';
 import { getIconType, getSheetDatas, getTrans } from './excel/excel.js';
 
@@ -570,7 +577,7 @@ export function genItem(): Item[] {
   return items;
 }
 
-function applyOtherItemsOrder(
+function applyItemsOrder(
   itemMap: Map<number, Item>,
   orderFilePath: string,
   itemType: ItemType = ItemType.Other
@@ -625,21 +632,47 @@ function applyOtherItemsOrder(
   }
 }
 
+function applyIconType(itemMap: Map<number, Item>) {
+  const iconTypeFilePath = path.join(__dirname, 'icon-type-sp.txt');
+  if (!fs.existsSync(iconTypeFilePath)) return;
+  const lines = fs.readFileSync(iconTypeFilePath, 'utf-8').split(/\r?\n/);
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    if (trimmed.startsWith('#')) {
+      continue;
+    }
+
+    const match = trimmed.match(/^(\d+)\s+(.+)$/);
+    if (!match) continue;
+
+    const id = Number(match[1]);
+    const name = match[2];
+    const item = itemMap.get(id);
+
+    if (!item) {
+      console.log(`物品图标类型未找到: ${id} ${name}`);
+      continue;
+    }
+
+    item.ict = `${id}`;
+  }
+}
+
 function sortItems(items: Item[]): Item[] {
   let itemMap = new Map<number, Item>();
   for (const item of items) {
     itemMap.set(item.id, item);
   }
-  applyOtherItemsOrder(
-    itemMap,
-    path.join(__dirname, 'other-item-order.txt'),
-    ItemType.Other
-  );
-  applyOtherItemsOrder(
+  applyItemsOrder(itemMap, path.join(__dirname, 'other-item-order.txt'), ItemType.Other);
+  applyItemsOrder(
     itemMap,
     path.join(__dirname, 'tools-item-order.txt'),
     ItemType.ToolsGoods
   );
+  applyIconType(itemMap);
   items.sort((a, b) => {
     if (a.t !== b.t) {
       return a.t - b.t;
