@@ -29,13 +29,16 @@ const filters = computed<Filter[]>(() => {
     { value: 'Seafood', label: '海鲜' },
     { value: 'Smartphone', label: '手机' },
     { value: 'Vegetable', label: '蔬菜' },
+    { value: 'Hotel', label: '酒店' },
   ];
 
   // 版本选项
-  const versionsOptions = Object.values(Version).map((version) => ({
-    value: version,
-    label: getVersionName(version),
-  }));
+  const versionsOptions = Object.values(Version)
+    .reverse()
+    .map((version) => ({
+      value: version,
+      label: getVersionName(version),
+    }));
 
   return [
     {

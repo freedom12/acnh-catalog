@@ -650,6 +650,6 @@ function sortItems(items: Item[]): Item[] {
   return items;
 }
 
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
+if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genItem(), 'acnh-items.json');
 }

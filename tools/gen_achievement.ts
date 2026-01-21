@@ -1,41 +1,38 @@
 import { Version, type Achievement, type Tier } from '../src/types/index.js';
 import { getAcnhDataCfg } from './acnh/index.js';
+import { getSheetDatas } from './excel/excel.js';
 import { save, versionMap } from './util.js';
-import { achievements as oldAchievements } from 'animal-crossing';
 
 export function genAchievement() {
+  let sheetDatas = getSheetDatas();
+  const achievementSheetDatas = sheetDatas['Achievements'];
   let acnhDataCfg = getAcnhDataCfg();
   let acnhAchievements = acnhDataCfg['achievements'] as Record<string, any>;
   let achievements: Achievement[] = [];
-  for (const oldAchievement of oldAchievements) {
-    let acnhAch = acnhAchievements['a' + oldAchievement.internalId] as Record<
-      string,
-      any
-    >;
+  for (const sheetData of achievementSheetDatas) {
+    let acnhAch = acnhAchievements['a' + sheetData['Internal ID']] as Record<string, any>;
     let name = acnhAch.loc['zh-cn'] || acnhAch.loc['zh'];
     let desc = acnhAch.des['zh-cn'] || acnhAch.des['zh'];
     let tiers: Tier[] = [];
-    let oldTiers = oldAchievement.tiers;
-    for (let i = 1; i <= Number(oldAchievement.numOfTiers); i++) {
-      const oldTier = oldTiers[`${i}`];
-      if (!oldTier) break;
+    let count = Number(sheetData['Num of Tiers']);
+    for (let i = 1; i <= count; i++) {
       tiers.push({
-        num: Number(oldTier.required),
-        reward: Number(oldTier.reward),
-        modifier: oldTier.modifier,
-        nouns: oldTier.nouns,
+        num: Number(sheetData[`Tier ${i}`]),
+        reward: Number(sheetData[`Tier ${i} Reward`]),
+        modifier: sheetData[`Tier ${i} Modifier`],
+        nouns: sheetData[`Tier ${i} Noun`].split(';').map((s: string) => s.trim()),
       });
     }
     const achievement: Achievement = {
-      id: Number(oldAchievement.internalId),
-      order: oldAchievement.num,
+      id: Number(sheetData['Internal ID']),
+      order: Number(sheetData['#']),
       name,
-      rawName: oldAchievement.internalName,
-      type: oldAchievement.internalCategory,
-      ver: versionMap[oldAchievement.versionAdded] || Version.The100,
+      rawName: sheetData['Internal Name'],
+      type: sheetData['Internal Category'],
+      ver: versionMap[sheetData['Version Added']] || Version.The100,
       desc,
-      criteria: oldAchievement.achievementCriteria,
-      isSeq: oldAchievement.sequential,
+      criteria: sheetData['Achievement Criteria'],
+      isSeq: sheetData['Sequential'] === 'Yes' ? true : false,
       tiers: tiers,
     };
     achievements.push(achievement);
