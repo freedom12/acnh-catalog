@@ -1,25 +1,41 @@
-import { npcs as oldNpcs } from 'animal-crossing';
-import { genderMap, processImageUrl, save, versionMap } from './util.js';
-import { Version, type NPC } from '../src/types/index.js';
+import { genderMap, hobbyMap, processImageUrl, save, versionMap } from './util.js';
+import { Version, type Item, type NPC } from '../src/types/index.js';
+import { getSheetDatas } from './excel/excel.js';
+import { genItem } from './gen_item.js';
 
-export function genNpc() {
+export function genNpc(items?: Item[]) {
+  items = items || genItem();
+  let itemMap = new Map<string, Item>();
+  for (const item of items) {
+    itemMap.set(item.nr, item);
+  }
+
+  const sheetDatas = getSheetDatas();
+  const npcSheetDatas = sheetDatas['Special NPCs'];
+
   let npcs: NPC[] = [];
-  for (const oldNpc of oldNpcs) {
-    if (!oldNpc.iconImage) continue; // 跳过无效数据
+  for (const sheetData of npcSheetDatas) {
+    if (!sheetData['Icon Image'] || sheetData['Icon Image'] === 'NA') continue; // 跳过无效数据
     const npc: NPC = {
-      id: oldNpc.npcId,
-      order: oldNpc.internalId,
-      name: oldNpc.translations?.cNzh || oldNpc.name,
-      rawName: oldNpc.name,
+      id: sheetData['NPC ID'],
+      order: sheetData['Internal ID'],
+      name: sheetData['Name'],
+      rawName: sheetData['Name'],
       images: [
-        processImageUrl(oldNpc.iconImage),
-        processImageUrl(oldNpc.photoImage || ''),
-      ].filter((url) => url !== ''),
-      ver: oldNpc.versionAdded ? versionMap[oldNpc.versionAdded] : Version.The100,
-      gender: genderMap[oldNpc.gender],
-      birthday: oldNpc.birthday,
-      nameColor: oldNpc.nameColor!,
-      bubbleColor: oldNpc.bubbleColor!,
+        processImageUrl(sheetData['Icon Image']),
+        processImageUrl(sheetData['Photo Image']),
+      ].filter((url) => url !== 'NA'),
+      ver:
+        sheetData['Version Added'] && sheetData['Version Added'] !== 'NA'
+          ? versionMap[sheetData['Version Added']]
+          : Version.The100,
+      gender: genderMap[sheetData['Gender']],
+      birthday: sheetData['Birthday'],
+      hobby: hobbyMap[sheetData['Hobby']],
+      umbrella: itemMap.get(sheetData['Umbrella'])?.id,
+      umbrellaHHP: itemMap.get(sheetData['Umbrella (HHP)'])?.id,
+      nameColor: sheetData['Name Color'],
+      bubbleColor: sheetData['Bubble Color'],
     };
     npcs.push(npc);
   }

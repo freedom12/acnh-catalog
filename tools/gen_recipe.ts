@@ -1,9 +1,9 @@
-import { recipes as oldRecipes } from 'animal-crossing';
-import { processImageUrl, save, versionMap } from './util.js';
+import { currencyMap, processImageUrl, save, versionMap } from './util.js';
 import { type Item } from '../src/types/index.js';
 import { genItem } from './gen_item.js';
 import { RecipeType, type Recipe } from '../src/types/recipe.js';
 import { getAcnhDiyData } from './acnh/index.js';
+import { getSheetDatas } from './excel/excel.js';
 
 const recipeCategoryMap: Record<string, RecipeType> = {
   Housewares: RecipeType.Housewares,
@@ -22,20 +22,38 @@ const recipeCategoryMap: Record<string, RecipeType> = {
 
 export function genRecipe(items?: Item[]) {
   items = items || genItem();
+  const itemMap = new Map<string, Item>();
+  for (const item of items) {
+    itemMap.set(item.nr, item);
+  }
+  const sheetDatas = getSheetDatas();
+  const recipeSheetDatas = sheetDatas['Recipes'];
   let recipes: Recipe[] = [];
-  for (const oldRecipe of oldRecipes) {
+  for (const sheetData of recipeSheetDatas) {
+    let id = Number(sheetData['Internal ID']);
+    let itemId = Number(sheetData['Crafted Item Internal ID']);
+    let item = items.find((it) => it.id === itemId);
+    if (!item) {
+      console.log(`配方 ${sheetData['Name']} 制作的物品 ID=${itemId} 未找到对应物品`);
+      continue;
+    }
+    let name = item.n;
     let images = [];
-    images.push(processImageUrl(oldRecipe.image));
-    if (oldRecipe.imageSh) images.push(processImageUrl(oldRecipe.imageSh));
+    images.push(processImageUrl(sheetData['Image']));
+    if (sheetData['Image SH'] && sheetData['Image SH'] !== 'NA') {
+      images.push(processImageUrl(sheetData['Image SH']));
+    }
+
     let materials: [number, number][] = [];
-    for (const [materialName, quantity] of Object.entries(oldRecipe.materials)) {
-      const item = items.find((i) => i.nr === materialName);
+    for (let i = 1; i <= 6; i++) {
+      const materialName = sheetData[`Material ${i}`];
+      const quantity = sheetData[`#${i}`];
+      if (!materialName) continue;
+      const item = itemMap.get(materialName);
       if (item) {
         materials.push([item.id, quantity]);
       } else {
-        console.log(
-          `配方 ${oldRecipe.translations.cNzh} 所需材料 ${materialName} 未找到对应物品`
-        );
+        console.log(`配方 ${name} 所需材料 ${materialName} 未找到对应物品`);
         if (materialName.indexOf('Bells') !== -1) {
           let l = materialName.split(' ');
           materials.push([7730, parseInt(l[0].replace(/,/g, ''))]);
@@ -45,31 +63,46 @@ export function genRecipe(items?: Item[]) {
         }
       }
     }
-    let acnhDiyData = getAcnhDiyData(oldRecipe.internalId);
+    let acnhDiyData = getAcnhDiyData(id);
     if (!acnhDiyData) {
-      console.warn(
-        `acnhDiyData not found: id=${oldRecipe.internalId}, name=${oldRecipe.translations.cNzh}`
-      );
+      console.warn(`acnhDiyData not found: id=${id}, name=${name}`);
     }
     let acts = acnhDiyData?.evt;
     if (typeof acts === 'string') {
       acts = [acts];
     }
     const recipe: Recipe = {
-      id: oldRecipe.internalId,
-      type: recipeCategoryMap[oldRecipe.category],
-      name: oldRecipe.translations.cNzh,
-      rawName: oldRecipe.name,
+      id: id,
+      type: recipeCategoryMap[sheetData['Category']],
+      name: name,
+      rawName: sheetData['Name'],
       images: images,
-      ver: versionMap[oldRecipe.versionAdded],
-      buy: oldRecipe.buy || undefined,
-      sell: oldRecipe.sell || undefined,
+      ver: versionMap[sheetData['Version Added']],
+      buy:
+        sheetData['Buy'] && sheetData['Buy'] !== 'NFS'
+          ? Number(sheetData['Buy'])
+          : undefined,
+      sell:
+        sheetData['Sell'] && sheetData['Sell'] !== 'NA'
+          ? Number(sheetData['Sell'])
+          : undefined,
+      exc:
+        sheetData['Exchange Price'] && sheetData['Exchange Price'] !== 'NA'
+          ? [
+              Number(sheetData['Exchange Price']),
+              currencyMap[sheetData['Exchange Currency']!],
+            ]
+          : undefined,
       acts: acts,
-      source: oldRecipe.source,
-      sourceNotes: oldRecipe.sourceNotes || undefined,
-      itemId: oldRecipe.craftedItemInternalId,
-      serialId: oldRecipe.serialId,
-      cardColor: oldRecipe.cardColor || undefined,
+      source: sheetData['Source']
+        ? sheetData['Source'].split(';').map((s: string) => s.trim())
+        : undefined,
+      sourceNotes: sheetData['Source Notes']
+        ? sheetData['Source Notes'].split(';').map((s: string) => s.trim())
+        : undefined,
+      itemId: itemId,
+      serialId: Number(sheetData['Serial ID']),
+      cardColor: sheetData['Card Color'] || undefined,
       materials: materials,
     };
     recipes.push(recipe);

@@ -4,16 +4,22 @@ import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import NPCCard from '../components/NPCCard.vue';
 import FilterSection from '../components/FilterSection.vue';
+import { useItemsData } from '../composables';
 
-const { allNPCs, loading, error, loadData } = useNPCsData();
+const { loadData: loadItems } = useItemsData();
+const { allNPCs, loading, error, loadData: loadNPCs } = useNPCsData();
 const { filteredData, handleFiltersChanged } = useFilter(allNPCs);
+function onLoad() {
+  loadNPCs();
+  loadItems();
+}
 </script>
 
 <template>
   <DataView
     :loading="loading"
     :error="error"
-    :on-load="loadData"
+    :on-load="onLoad"
     :datas="filteredData"
     :card-component="NPCCard"
   >

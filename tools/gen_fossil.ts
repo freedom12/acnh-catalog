@@ -1,11 +1,6 @@
-import {
-  ItemSourceSheet as OldItemSourceSheet,
-  type Item as OldItem,
-} from 'animal-crossing/lib/types/Item';
-import { items as oldItems } from 'animal-crossing';
 import { processImageUrl, save, sizeMap } from './util.js';
 import { FossilType, type Fossil } from '../src/types/index.js';
-import { getAcnhLocale } from './acnh/index.js';
+import { getSheetDatas, getTransDatas } from './excel/excel.js';
 
 const fossilTypeMap: Record<string, FossilType> = {
   'Room 1': FossilType.PZ,
@@ -14,37 +9,42 @@ const fossilTypeMap: Record<string, FossilType> = {
 };
 
 export function genFossil() {
-  let fossilGroups = new Map<string, OldItem[]>();
-  for (const oldItem of oldItems) {
-    if (oldItem.sourceSheet === OldItemSourceSheet.Fossils) {
-      let groupName = oldItem.fossilGroup!;
-      if (!fossilGroups.has(groupName)) {
-        fossilGroups.set(groupName, []);
-      }
-      fossilGroups.get(groupName)!.push(oldItem);
+  const transDatas = getTransDatas();
+  const fossilTransMap: Record<string, string> = {};
+  for (const [_, trans] of Object.entries(transDatas['Fossil Groups'])) {
+    fossilTransMap[trans['USen']] = trans['CNzh'];
+  }
+  const sheetDatas = getSheetDatas();
+  const fossilSheetDatas = sheetDatas['Fossils'];
+  let fossilGroupMap: Record<string, any[]> = {};
+  for (const sheetData of fossilSheetDatas) {
+    let groupName: string = sheetData['Fossil Group'];
+    if (!fossilGroupMap[groupName]) {
+      fossilGroupMap[groupName] = [];
     }
+    fossilGroupMap[groupName].push(sheetData);
   }
   let fossils: Fossil[] = [];
-  for (const [groupName, parts] of fossilGroups) {
-    let name = parts[0].translations?.cNzh || parts[0].name;
-    if (parts.length > 1) {
-      name = groupName.toLowerCase().replace(/ /g, '_').replace(/\./g, '');
-      name = getAcnhLocale(name, 'fgr');
+  for (const [groupName, parts] of Object.entries(fossilGroupMap)) {
+    let name = fossilTransMap[groupName];
+    if (!name) {
+      console.warn(`Missing translation for fossil group: ${groupName}`);
+      name = groupName;
     }
-
+    const sheetData = parts[0];
     const fossil: Fossil = {
       name,
-      type: fossilTypeMap[parts[0].museum!],
+      type: fossilTypeMap[sheetData['Museum']],
       parts: parts
-        .sort((a, b) => a.internalId! - b.internalId!)
+        .sort((a, b) => Number(a['Internal ID']) - Number(b['Internal ID']))
         .map((part) => ({
-          id: part.internalId!,
-          name: part.name,
-          image: processImageUrl(part.image!),
-          size: sizeMap[part.size!],
-          sell: part.sell!,
+          id: Number(part['Internal ID']),
+          name: part['Name'],
+          image: processImageUrl(part['Image']),
+          size: sizeMap[part['Size']],
+          sell: Number(part['Sell']),
         })),
-      desc: parts[0].description![0]!,
+      desc: sheetData['Description'],
     };
     fossils.push(fossil);
   }

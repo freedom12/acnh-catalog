@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import {
   Color,
+  Currency,
   Gender,
   Hobby,
   ItemSize,
@@ -187,4 +188,13 @@ export const speciesMap: Record<string, Species> = {
   Squirrel: Species.Squirrel,
   Tiger: Species.Tiger,
   Wolf: Species.Wolf,
+};
+
+export const currencyMap: Record<string, Currency> = {
+  Bells: Currency.Bells,
+  'Heart Crystals': Currency.HeartCrystals,
+  'Nook Miles': Currency.NookMiles,
+  'Nook Points': Currency.NookPoints,
+  Poki: Currency.Poki,
+  'Hotel Tickets': Currency.HotelTickets,
 };

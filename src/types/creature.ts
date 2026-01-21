@@ -12,10 +12,8 @@ export type CreatureType = (typeof CreatureType)[keyof typeof CreatureType];
  * 半球时间信息
  */
 export interface HemisphereInfo {
-  time: string[];
-  timeArray: Array<number[] | number>;
-  months: string[];
-  monthsArray: number[];
+  hours: number[];
+  months: number[];
 }
 
 /**

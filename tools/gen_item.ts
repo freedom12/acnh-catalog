@@ -10,11 +10,10 @@ import {
   VfxType,
   ItemType,
   Version,
-  Currency,
   type Item,
   type Variant,
 } from '../src/types/item';
-import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util';
+import { colorMap, currencyMap, processImageUrl, save, sizeMap, versionMap } from './util';
 import { getAcnhItemData } from './acnh/index.js';
 import { getSheetDatas, getTrans } from './excel/excel.js';
 
@@ -59,14 +58,6 @@ const catalogMap: Record<string, Catalog> = {
   'Not for sale': Catalog.NotForSale,
   'For sale': Catalog.ForSale,
   Seasonal: Catalog.Seasonal,
-};
-const currencyMap: Record<string, Currency> = {
-  Bells: Currency.Bells,
-  'Heart Crystals': Currency.HeartCrystals,
-  'Nook Miles': Currency.NookMiles,
-  'Nook Points': Currency.NookPoints,
-  Poki: Currency.Poki,
-  'Hotel Tickets': Currency.HotelTickets,
 };
 
 const kitTypeMap: Record<string, KitType> = {
@@ -446,14 +437,23 @@ function convertClothingItemFromSheetData(
     acts: activitys,
     s: sheetData['Size'] ? sizeMap[sheetData['Size']] : undefined,
     diy: recipeId,
-    buy: sheetData['Buy'] && sheetData['Buy'] !== 'NFS' ? sheetData['Buy'] : undefined,
-    sel: sheetData['Sell'] && sheetData['Sell'] !== 'NA' ? sheetData['Sell'] : undefined,
+    buy:
+      sheetData['Buy'] && sheetData['Buy'] !== 'NFS'
+        ? Number(sheetData['Buy'])
+        : undefined,
+    sel:
+      sheetData['Sell'] && sheetData['Sell'] !== 'NA'
+        ? Number(sheetData['Sell'])
+        : undefined,
     exc:
       sheetData['Exchange Price'] && sheetData['Exchange Price'] !== 'NA'
-        ? [sheetData['Exchange Price'], currencyMap[sheetData['Exchange Currency']!]]
+        ? [
+            Number(sheetData['Exchange Price']),
+            currencyMap[sheetData['Exchange Currency']!],
+          ]
         : undefined,
 
-    hpt: sheetData['HHA Base Points'] || undefined,
+    hpt: sheetData['HHA Base Points'] ? Number(sheetData['HHA Base Points']) : undefined,
 
     vs: variants.length > 1 ? variants : undefined,
     vn: vNames.length > 0 ? vNames : undefined,

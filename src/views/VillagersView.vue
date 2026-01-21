@@ -14,8 +14,10 @@ import {
   getSpeciesName,
   getVersionName,
 } from '../services/dataService';
+import { useItemsData } from '../composables';
 
-const { allVillagers, loading, error, loadData } = useVillagersData();
+const { loadData: loadItems } = useItemsData();
+const { allVillagers, loading, error, loadData:loadVillagers } = useVillagersData();
 const filters = computed(() => [
   {
     label: '种族',
@@ -59,13 +61,18 @@ const filters = computed(() => [
   },
 ]);
 const { filteredData, handleFiltersChanged } = useFilter(allVillagers);
+
+function onLoad() {
+  loadVillagers();
+  loadItems();
+}
 </script>
 
 <template>
   <DataView
     :loading="loading"
     :error="error"
-    :on-load="loadData"
+    :on-load="onLoad"
     :datas="filteredData"
     :per-page="100"
     :card-component="VillagerCard"

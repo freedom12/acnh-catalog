@@ -34,6 +34,7 @@ export interface Recipe {
   ver: Version;
   buy?: Price;
   sell?: Price;
+  exc?: Price;
   cardColor?: string;
   itemId: number;
   serialId: number;

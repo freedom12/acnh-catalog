@@ -1,4 +1,4 @@
-import type { Gender, Version } from './index';
+import type { Gender, Hobby, Version } from './index';
 
 /**
  * NPC数据类型
@@ -12,6 +12,10 @@ export interface NPC {
   ver: Version;
   gender: Gender;
   birthday: string;
+
+  hobby: Hobby;
+  umbrella?: number;
+  umbrellaHHP?: number;
 
   nameColor: string;
   bubbleColor: string;

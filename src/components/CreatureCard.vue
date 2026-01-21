@@ -16,16 +16,56 @@ const props = defineProps<{
   hemisphere: 'north' | 'south';
 }>();
 
-// 获取月份信息
 const getMonths = (creature: Creature): string => {
   const hemisphere = creature.hemispheres[props.hemisphere];
-  return hemisphere.months.join(', ');
+  const months = hemisphere.months;
+  if (!months || months.length === 0) return '无';
+  if (months.length === 12) return '全年';
+  const sortedMonths = [...months].sort((a, b) => a - b);
+  const ranges: string[] = [];
+  let start = sortedMonths[0]!;
+  let end = sortedMonths[0]!;
+  for (let i = 1; i < sortedMonths.length; i++) {
+    if (sortedMonths[i] === end + 1) {
+      end = sortedMonths[i]!;
+    } else {
+      ranges.push(start === end ? `${start}月` : `${start}月-${end}月`);
+      start = sortedMonths[i]!;
+      end = sortedMonths[i]!;
+    }
+  }
+  ranges.push(start === end ? `${start}月` : `${start}月-${end}月`);
+  return ranges.join(', ');
+};
+
+const hourToString = (hour: number): string => {
+  if (hour === 0) return '0AM';
+  if (hour === 12) return '12PM';
+  if (hour < 12) return `${hour}AM`;
+  return `${hour - 12}PM`;
 };
 
 // 获取时间信息
 const getTime = (creature: Creature): string => {
   const hemisphere = creature.hemispheres[props.hemisphere];
-  return hemisphere.time.join(', ');
+  const hours = hemisphere.hours;
+  if (!hours || hours.length === 0) return '无';
+  if (hours.length === 24) return '全天';
+  const sortedHours = [...hours].sort((a, b) => a - b);
+  const ranges: string[] = [];
+  let start = sortedHours[0]!;
+  let end = sortedHours[0]!;
+  for (let i = 1; i < sortedHours.length; i++) {
+    if (sortedHours[i] === end + 1) {
+      end = sortedHours[i]!;
+    } else {
+      ranges.push(start === end ? hourToString(start) : `${hourToString(start)}-${hourToString(end)}`);
+      start = sortedHours[i]!;
+      end = sortedHours[i]!;
+    }
+  }
+  ranges.push(start === end ? hourToString(start) : `${hourToString(start)}-${hourToString(end)}`);
+  return ranges.join(', ');
 };
 
 const handleClick = () => {
@@ -55,14 +95,14 @@ const currentHour = new Date().getHours();
 // 检查当前月份是否可捕捉
 const isCurrentMonthAvailable = computed(() => {
   const hemisphere = props.data.hemispheres[props.hemisphere];
-  return hemisphere.monthsArray.includes(currentMonth);
+  return hemisphere.months.includes(currentMonth);
 });
 
 // 检查当前时间是否可用（仅当月份可用时）
 const isCurrentTimeAvailable = computed(() => {
   if (!isCurrentMonthAvailable.value) return false;
   const hemisphere = props.data.hemispheres[props.hemisphere];
-  return hemisphere.timeArray.includes(currentHour);
+  return hemisphere.hours.includes(currentHour);
 });
 
 // 检查当前月份是否可捕捉

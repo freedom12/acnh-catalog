@@ -1,100 +1,71 @@
-import {
-  ItemSourceSheet as OldItemSourceSheet,
-  type Item as OldItem,
-} from 'animal-crossing/lib/types/Item';
-import { items as oldItems } from 'animal-crossing';
 import { ItemSize } from '../src/types/item.js';
 import { ItemType, Version } from '../src/types/item.js';
 import { colorMap, processImageUrl, save, sizeMap, versionMap } from './util.js';
 import type { Artwork } from '../src/types/index.js';
-
-const sourceSheetMap: Record<string, ItemType> = {
-  Accessories: ItemType.Accessories,
-  Artwork: ItemType.Artwork,
-  Bags: ItemType.Bags,
-  Bottoms: ItemType.Bottoms,
-  'Ceiling Decor': ItemType.CeilingDecor,
-  'Clothing Other': ItemType.Wetsuits,
-  'Dress-Up': ItemType.DressUp,
-  Fencing: ItemType.Fencing,
-  Floors: ItemType.Floors,
-  Fossils: ItemType.Fossils,
-  Gyroids: ItemType.Gyroids,
-  Headwear: ItemType.Headwear,
-  Housewares: ItemType.Housewares,
-  Miscellaneous: ItemType.Miscellaneous,
-  Music: ItemType.Music,
-  Other: ItemType.Other,
-  Photos: ItemType.Photos,
-  Posters: ItemType.Posters,
-  Rugs: ItemType.Rugs,
-  Shoes: ItemType.Shoes,
-  Socks: ItemType.Socks,
-  'Tools/Goods': ItemType.ToolsGoods,
-  Tops: ItemType.Tops,
-  Umbrellas: ItemType.Umbrellas,
-  'Wall-mounted': ItemType.WallMounted,
-  Wallpaper: ItemType.Wallpaper,
-  Creature: ItemType.Creatures,
-};
+import { getSheetDatas, getTrans } from './excel/excel.js';
 
 export function genArtwork() {
-  let fakeArtworks = new Map<string, OldItem>();
-  let realArtworks = new Map<string, OldItem>();
-  for (const oldItem of oldItems) {
-    if (oldItem.sourceSheet === OldItemSourceSheet.Artwork) {
-      if (oldItem.genuine === true) {
-        realArtworks.set(oldItem.name, oldItem);
-      } else {
-        fakeArtworks.set(oldItem.name, oldItem);
-      }
+  let fakeArtworks = new Map<string, any>();
+  let realArtworks = new Map<string, any>();
+
+  const sheetDatas = getSheetDatas();
+  const artworkSheetDatas = sheetDatas['Artwork'];
+  for (const sheetData of artworkSheetDatas) {
+    if (sheetData['Genuine'] === 'Yes') {
+      realArtworks.set(sheetData['Name'], sheetData);
+    } else {
+      fakeArtworks.set(sheetData['Name'], sheetData);
     }
   }
 
   let artworks: Artwork[] = [];
   for (const [name, realArtwork] of realArtworks) {
     const fakeArtwork = fakeArtworks.get(name);
-    const l = realArtwork.artist!.split(',');
-
-    const newArtwork: Artwork = {
-      id: realArtwork.internalId!,
-      name: realArtwork.translations!.cNzh,
-      rawName: realArtwork.name,
-      image: processImageUrl(realArtwork.image!),
-      texture: realArtwork.highResTexture
-        ? processImageUrl(realArtwork.highResTexture)
-        : undefined,
-      ver: realArtwork.versionAdded
-        ? versionMap[realArtwork.versionAdded]
+    const l = realArtwork['Artist']!.split(',').map((s: string) => s.trim());
+    let id = Number(realArtwork['Internal ID']);
+    let itemType: ItemType = ItemType.Artwork;
+    if (realArtwork['Category'] === 'Housewares') {
+      itemType = ItemType.Housewares;
+    } else if (realArtwork['Category'] === 'Wall-mounted') {
+      itemType = ItemType.WallMounted;
+    }
+    const artwork: Artwork = {
+      id: id,
+      name: getTrans('Items', id)!,
+      rawName: name,
+      image: processImageUrl(realArtwork['Image']),
+      texture:
+        realArtwork['High-Res Texture'] && realArtwork['High-Res Texture'] !== 'NA'
+          ? processImageUrl(realArtwork['High-Res Texture'])
+          : undefined,
+      ver: realArtwork['Version Added']
+        ? versionMap[realArtwork['Version Added']]
         : Version.The100,
-      size: realArtwork.size ? sizeMap[realArtwork.size] : ItemSize.The1X1,
+      size: realArtwork['Size'] ? sizeMap[realArtwork['Size']] : ItemSize.The1X1,
       colors: Array.from(
-        new Set(
-          (realArtwork.colors || [])
-            .map((c) => colorMap[c])
-            .filter((c) => c !== undefined)
-        )
-      ),
-      title: realArtwork.realArtworkTitle!,
-      artist: l[0]!.trim(),
-      age: l[1]!.trim(),
-      technique: l[2]!.trim(),
-      desc: realArtwork.description![0]!,
-      itemType: sourceSheetMap[realArtwork.category!],
-      source: realArtwork.source!,
-      buy: realArtwork.buy!,
-      sell: realArtwork.sell!,
+        new Set([realArtwork['Color 1'], realArtwork['Color 2']].filter(Boolean))
+      ).map((c) => colorMap[c]),
+      title: realArtwork['Real Artwork Title'],
+      artist: l[0],
+      age: l[1],
+      technique: l[2],
+      desc: realArtwork['Description'],
+      itemType: itemType,
+      source: [realArtwork['Source']],
+      buy: Number(realArtwork['Buy']),
+      sell: Number(realArtwork['Sell']),
       fake: fakeArtwork
         ? {
-            id: fakeArtwork.internalId || 0,
-            image: processImageUrl(fakeArtwork.image!),
-            texture: fakeArtwork.highResTexture
-              ? processImageUrl(fakeArtwork.highResTexture)
-              : undefined,
+            id: fakeArtwork['Internal ID'] || 0,
+            image: processImageUrl(fakeArtwork['Image']!),
+            texture:
+              fakeArtwork['High-Res Texture'] && fakeArtwork['High-Res Texture'] !== 'NA'
+                ? processImageUrl(fakeArtwork['High-Res Texture'])
+                : undefined,
           }
         : undefined,
     };
-    artworks.push(newArtwork);
+    artworks.push(artwork);
   }
   artworks.sort((a, b) => a.id - b.id);
   return artworks;

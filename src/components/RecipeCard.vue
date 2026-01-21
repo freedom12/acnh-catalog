@@ -13,6 +13,7 @@ import {
   getRecipeTypeIcon,
 } from '../services/dataService';
 import { useItemDetailModal } from '../composables/useItemDetailModal';
+import type { Price } from '../types';
 
 const props = defineProps<{
   data: Recipe;
@@ -79,6 +80,23 @@ const isShiny = computed(() => {
   const color = props.data.cardColor;
   return color === 'gold' || color === 'silver';
 });
+
+const buyPrices = computed((): Price[] => {
+  let prices: Price[] = [];
+  if (props.data.buy !== undefined && (props.data.buy as number) >= 0) {
+    prices.push(props.data.buy);
+  }
+  if (props.data.exc !== undefined) {
+    prices.push(props.data.exc);
+  }
+  return prices;
+});
+
+const buyPriceStrs = computed((): string[] => {
+  return buyPrices.value
+    .map((price) => getPriceWithIcon(price))
+    .filter((str) => str !== '');
+});
 </script>
 
 <template>
@@ -114,6 +132,19 @@ const isShiny = computed(() => {
         :sources="props.data.source"
         :sourceNotes="props.data.sourceNotes"
       />
+    </div>
+    <div class="detail-row">
+      <span class="detail-label">购买</span>
+      <span class="detail-value highlight">
+        <template v-if="buyPrices.length > 0">
+          <div
+            v-for="(priceStr, index) in buyPriceStrs"
+            :key="index"
+            v-html="priceStr"
+          ></div>
+        </template>
+        <div v-else>不可购买</div>
+      </span>
     </div>
     <div class="detail-row">
       <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>

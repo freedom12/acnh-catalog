@@ -1,4 +1,3 @@
-import { villagers as oldVillagers } from 'animal-crossing';
 import {
   colorMap,
   genderMap,
@@ -14,63 +13,16 @@ import { type Item, type Villager } from '../src/types/index.js';
 import { genItem } from './gen_item.js';
 import { getSheetDatas, getTrans } from './excel/excel.js';
 
-export function genVillagerV1(items?: Item[]): Villager[] {
+export function genVillager(items?: Item[]): Villager[] {
   items = items || genItem();
-  let itemMap = new Map<string, Item>();
-  for (const item of items) {
-    itemMap.set(item.nr, item);
-  }
-  let villagers: Villager[] = [];
-  for (const oldVillager of oldVillagers) {
-    const newVillager: Villager = {
-      id: oldVillager.filename,
-      name: oldVillager.translations?.cNzh || oldVillager.name,
-      rawName: oldVillager.name,
-      images: [
-        processImageUrl(oldVillager.iconImage),
-        processImageUrl(oldVillager.photoImage),
-      ].filter((url) => url !== ''),
-      ver: versionMap[oldVillager.versionAdded],
-      species: speciesMap[oldVillager.species],
-      gender: genderMap[oldVillager.gender],
-      personality: personalityMap[oldVillager.personality],
-      subtype: oldVillager.subtype,
-      hobby: hobbyMap[oldVillager.hobby],
-      birthday: oldVillager.birthday,
-      styles: Array.from(new Set(oldVillager.styles)),
-      colors: Array.from(new Set(oldVillager.colors.map((c) => colorMap[c]))),
-      catchphrase: oldVillager.catchphrases.cNzh,
-      saying: oldVillager.favoriteSaying,
-
-      song: itemMap.get(oldVillager.favoriteSong)?.id || 0,
-      clothing: itemMap.get(oldVillager.defaultClothing)?.id || 0,
-      umbrella: itemMap.get(oldVillager.defaultUmbrella)?.id || 0,
-      wallpaper: itemMap.get(oldVillager.wallpaper)?.id || 0,
-      flooring: itemMap.get(oldVillager.flooring)?.id || 0,
-      furnitures: oldVillager.furnitureList,
-      diyWorkbench: processFurnitureString(String(oldVillager.diyWorkbench)),
-      kitchenware: processFurnitureString(String(oldVillager.kitchenEquipment)),
-      houseImage: oldVillager.houseImage
-        ? processImageUrl(oldVillager.houseImage)
-        : undefined,
-      bubbleColor: oldVillager.bubbleColor,
-      nameColor: oldVillager.nameColor,
-    };
-    villagers.push(newVillager);
-  }
-  villagers.sort((a, b) => a.id.localeCompare(b.id));
-  return villagers;
-}
-
-export function genVillagerFromExcel(items?: Item[]): Villager[] {
   const sheetDatas = getSheetDatas();
-  items = items || genItem();
+  const villagerSheetDatas = sheetDatas['Villagers'];
   const itemMap = new Map<string, Item>();
   for (const item of items) {
     itemMap.set(item.nr, item);
   }
   const villagers: Villager[] = [];
-  for (const sheetData of sheetDatas['Villagers']) {
+  for (const sheetData of villagerSheetDatas) {
     const id = sheetData['Filename'];
     const images = [sheetData['Icon Image'], sheetData['Photo Image']].map(
       processImageUrl
@@ -118,8 +70,6 @@ export function genVillagerFromExcel(items?: Item[]): Villager[] {
   villagers.sort((a, b) => a.id.localeCompare(b.id));
   return villagers;
 }
-
-export const genVillager = genVillagerFromExcel;
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   save(genVillager(), 'acnh-villagers.json');

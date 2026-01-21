@@ -23,7 +23,7 @@ save(items, 'acnh-items.json');
 const villagers = genVillager(items);
 save(villagers, 'acnh-villagers.json');
 
-const npcs = genNpc();
+const npcs = genNpc(items);
 save(npcs, 'acnh-npcs.json');
 
 const recipes = genRecipe(items);

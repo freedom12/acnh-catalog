@@ -2,13 +2,13 @@ import type { Price } from './index';
 import type { Version } from './index';
 
 export const ConstructionType = {
-  Roofing: 1,
+  Roof: 1,
   Siding: 2,
   Door: 3,
   Mailbox: 4,
   Bridge: 5,
   Incline: 6,
-  Other: 7,
+  // Other: 7,
 } as const;
 
 export type ConstructionType = (typeof ConstructionType)[keyof typeof ConstructionType];
@@ -17,6 +17,7 @@ export type ConstructionType = (typeof ConstructionType)[keyof typeof Constructi
  */
 export interface Construction {
   id: number;
+  order: number;
   name: string;
   rawName: string;
   image: string;

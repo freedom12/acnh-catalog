@@ -2,12 +2,14 @@
 import { ref, computed } from 'vue';
 import type { NPC } from '../types/npc';
 import BaseCard from './BaseCard.vue';
+import ItemIcon from './ItemIcon.vue';
 import {
   getGenderIcon,
   getGenderName,
   getConstellation,
   getConstellationIcon,
   getConstellationName,
+  getHobbyName,
 } from '../services/dataService';
 
 const props = defineProps<{
@@ -67,5 +69,24 @@ const handleImageIndexChanged = (index: number) => {
         />
       </span>
     </span>
+    <span class="detail-row">
+      <span class="detail-label">爱好</span>
+      <span class="detail-value">
+        {{ getHobbyName(props.data.hobby) }}
+      </span>
+    </span>
+    <div class="item-icons">
+      <ItemIcon v-if="props.data.umbrella" :itemId="props.data.umbrella" :size="60" />
+      <ItemIcon v-if="props.data.umbrellaHHP" :itemId="props.data.umbrellaHHP" :size="60" />
+    </div>
   </BaseCard>
 </template>
+
+<style scoped>
+.item-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+</style>

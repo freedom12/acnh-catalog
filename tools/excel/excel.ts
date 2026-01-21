@@ -39,8 +39,8 @@ function loadDataExcel() {
           const cellRef = XLSX.utils.encode_cell({ r: rowIndex, c: colIndex });
           const cellObj = worksheet[cellRef];
           if (cellObj && cellObj.f) {
-            if (cellObj.f.startsWith('IMAGE(')) {
-              const match = cellObj.f.match(/IMAGE\((.+)\)/);
+            if (cellObj.f.match(/^IMAGE\(/i)) {
+              const match = cellObj.f.match(/IMAGE\((.+)\)/i);
               if (match) {
                 let url = match[1];
                 if (url.startsWith('"') && url.endsWith('"')) {
@@ -311,6 +311,14 @@ const mergedTranslations = mergeTranslations(translations);
 console.log('Loaded sheet data and translations.');
 export function getSheetDatas() {
   return sheetDatas;
+}
+
+export function getTransDatas() {
+  return translations;
+}
+
+export function getMergedTransDatas() {
+  return mergedTranslations;
 }
 
 export function getTrans(

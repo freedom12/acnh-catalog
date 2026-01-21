@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import type { Villager } from '../types/villager';
-import { useItemsData } from '../composables/useItemsData';
 import BaseCard from './BaseCard.vue';
 import ItemIcon from './ItemIcon.vue';
 import {
@@ -23,11 +22,6 @@ import { processImageUrl } from '../utils/imageUtils';
 const props = defineProps<{
   data: Villager;
 }>();
-const { loadData } = useItemsData();
-
-onMounted(() => {
-  loadData();
-});
 
 const currentImageIndex = ref(0);
 const isFurnitureExpanded = ref(false);
