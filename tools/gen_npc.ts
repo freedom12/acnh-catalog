@@ -1,6 +1,6 @@
 import { genderMap, hobbyMap, processImageUrl, save, versionMap } from './util.js';
 import { Version, type Item, type NPC } from '../src/types/index.js';
-import { getSheetDatas } from './excel/excel.js';
+import { getSheetDatas, getTrans } from './excel/excel.js';
 import { genItem } from './gen_item.js';
 
 export function genNpc(items?: Item[]) {
@@ -16,10 +16,17 @@ export function genNpc(items?: Item[]) {
   let npcs: NPC[] = [];
   for (const sheetData of npcSheetDatas) {
     if (!sheetData['Icon Image'] || sheetData['Icon Image'] === 'NA') continue; // 跳过无效数据
+
+    let id = sheetData['NPC ID'];
+    let name = getTrans('Special NPCs', id);
+    if (!name) {
+      name = sheetData['Name'];
+      console.log(`Missing translation for NPC ID: ${id}, using raw name: ${name}`);
+    }
     const npc: NPC = {
-      id: sheetData['NPC ID'],
+      id: id,
       order: sheetData['Internal ID'],
-      name: sheetData['Name'],
+      name: name || '',
       rawName: sheetData['Name'],
       images: [
         processImageUrl(sheetData['Icon Image']),
