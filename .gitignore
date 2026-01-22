@@ -28,6 +28,8 @@ dist-ssr
 
 public/sound
 public/img_original
+public/img_tmp
+
 
 # 忽略excel临时文件
 ~$*.xlsx
