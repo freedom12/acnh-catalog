@@ -1,9 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { processImageUrl, save } from './util.js';
+import { processImageUrl, save, versionMap } from './util.js';
 import type { Music } from '../src/types/music.js';
 import { getAcnhLocale } from './acnh/index.js';
 import { getSheetDatas } from './excel/excel.js';
+import { Version } from '../src/types/index.js';
 
 const __dirname = path.join(process.cwd(), 'tools');
 
@@ -15,11 +16,13 @@ export function genMusic() {
   );
   let musics: Music[] = [];
   for (const entry of musicCfg) {
-    const data = musicSheetDatas?.find((data) => data['Name'] === entry.rawName);
-    if (!data) {
+    const sheetData = musicSheetDatas?.find((data) => data['Name'] === entry.rawName);
+    if (!sheetData) {
       console.log(`音乐未找到物品: ${entry.rawName}`);
       continue;
     }
+
+    let id = Number(sheetData['Internal ID']);
     let mood = entry.mood;
     mood = mood
       .toLowerCase()
@@ -30,18 +33,21 @@ export function genMusic() {
       .replace(/!/g, '');
     mood = getAcnhLocale(mood, 'mmd') || entry.mood;
     let image =
-      data['Album Image'] && data['Album Image'] !== 'NA'
-        ? data['Album Image']
+      sheetData['Album Image'] && sheetData['Album Image'] !== 'NA'
+        ? sheetData['Album Image']
         : 'https://acnhcdn.com/latest/NpcBromide/NpcSpTkkA.png';
     const music: Music = {
-      id: data.id,
+      id: id,
       order: entry.order || 0,
       name: entry.name,
       rawName: entry.rawName,
       image: processImageUrl(image),
-      ver: data.v,
+      ver: sheetData['Version Added']
+        ? versionMap[sheetData['Version Added']]
+        : Version.The100,
       mood: mood || '',
-      hasRadio: data['Album Image'] && data['Album Image'] !== 'NA' ? true : false,
+      hasRadio:
+        sheetData['Album Image'] && sheetData['Album Image'] !== 'NA' ? true : false,
     };
     musics.push(music);
   }

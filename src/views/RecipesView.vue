@@ -39,12 +39,14 @@ const onLoad = () => {
     :datas="filteredData"
     :per-page="100"
     :card-component="RecipeCard"
+    selection-key="recipes"
   >
     <template #filters>
       <FilterSection
         :filters="filters"
         :total-count="allRecipes.length"
         :current-count="filteredData.length"
+        selection-key="recipes"
         @filters-changed="handleFiltersChanged"
       />
     </template>

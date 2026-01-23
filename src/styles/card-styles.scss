@@ -16,6 +16,18 @@
     box-shadow: 0 6px 20px var(--shadow-color);
   }
 
+  /* Checkmark点击区域 */
+  .checkmark-click-area {
+    position: absolute;
+    top: var(--spacing-sm);
+    left: var(--spacing-sm);
+    z-index: 15; // 高于checkmark
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
   /* 对号图标 */
   &--with-checkmark::before {
     content: '✓';
@@ -29,10 +41,18 @@
     align-items: center;
     justify-content: center;
     background: var(--main-color);
+    border: 2px solid var(--main-color);
     border-radius: 50%;
     color: white;
     font-size: 14px;
     font-weight: bold;
+  }
+
+  /* 灰色对号图标（未选中状态）- 空心样式 */
+  &--gray-checkmark::before {
+    background: transparent !important;
+    border-color: rgba(128, 128, 128, 0.6);
+    color: rgba(128, 128, 128, 0.6);
   }
 
   /* ==================== 卡片变体样式 ==================== */

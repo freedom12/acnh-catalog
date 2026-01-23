@@ -7,6 +7,8 @@ import { computed } from 'vue';
 
 interface Props {
   data: Music;
+  selectable?: boolean;
+  selectionKey?: string;
 }
 
 const props = defineProps<Props>();
@@ -46,6 +48,9 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
+
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.id"
     :shape="'square'"
     @click="handleClick"
   >

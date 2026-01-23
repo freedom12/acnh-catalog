@@ -14,12 +14,15 @@ interface Props {
   // Grid相关的props
   cardComponent: any;
   cardProps?: Record<string, any>;
+  // 勾选相关的props
+  selectionKey?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   loading: false,
   error: '',
   perPage: 100,
+  selectionKey: '',
 });
 const hasError = computed(() => !!props.error);
 
@@ -36,6 +39,7 @@ const { viewMode } = useViewMode();
 const mergedCardProps = computed(() => ({
   ...props.cardProps,
   detailed: viewMode.value === 'detailed',
+  selectionKey: props.selectionKey,
 }));
 
 // 监听数据变化，重置到首页

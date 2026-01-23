@@ -18,3 +18,4 @@ export { useArtworkData } from './useArtworkData';
 export { usePlantsData } from './usePlantsData';
 export { useAudioPlayer } from './useAudioPlayer';
 export { useAchievementsData } from './useAchievementsData';
+export { useSelection } from './useSelection';

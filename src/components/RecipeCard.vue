@@ -17,6 +17,8 @@ import type { Price } from '../types';
 
 const props = defineProps<{
   data: Recipe;
+  selectable?: boolean;
+  selectionKey?: string;
 }>();
 const { openModal } = useItemDetailModal();
 const handleClick = () => {
@@ -106,6 +108,8 @@ const buyPriceStrs = computed((): string[] => {
     :images="props.data.images.map(processImageUrl)"
     :displayName="props.data.name"
     :shiny="isShiny"
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.id"
     variant="dark"
     class="recipe-bg"
     @click="handleClick"

@@ -16,11 +16,13 @@ const { filteredData, handleFiltersChanged } = useFilter(allReactions);
     :on-load="loadData"
     :datas="filteredData"
     :card-component="ReactionCard"
+    selection-key="reactions"
   >
     <template #filters>
       <FilterSection
         :total-count="allReactions.length"
         :current-count="filteredData.length"
+        selection-key="reactions"
         @filters-changed="handleFiltersChanged"
       />
     </template>

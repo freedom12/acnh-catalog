@@ -13,6 +13,8 @@ import { UI_TEXT } from '../constants';
 
 interface Props {
   data: Artwork;
+  selectable?: boolean;
+  selectionKey?: string;
 }
 
 const props = defineProps<Props>();
@@ -81,6 +83,8 @@ const handleTitleClick = () => {
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.id"
     :shape="'rounded'"
     @click="handleClick"
   >

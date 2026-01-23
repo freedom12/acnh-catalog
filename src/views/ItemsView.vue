@@ -332,7 +332,7 @@ const ownedItemsCount = computed(
 const handleCatalogUpload = (data: {
   items: Array<{ label: string; unique_id: number }>;
 }) => {
-  updateCatalogData(data);
+  updateCatalogData(data, 'items');
 };
 </script>
 
@@ -344,6 +344,7 @@ const handleCatalogUpload = (data: {
     :datas="sortedItems"
     :per-page="100"
     :card-component="ItemCard"
+    selection-key="items"
   >
     <template #filters>
       <FilterSection
@@ -351,6 +352,7 @@ const handleCatalogUpload = (data: {
         :total-count="allItems.length"
         :current-count="filteredData.length"
         :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
+        selection-key="items"
         @filters-changed="handleFiltersChanged"
       >
         <template #action-buttons>

@@ -46,10 +46,12 @@ const filters = computed<Filter[]>(() => {
   ];
 
   // 版本选项
-  const versionsOptions = Object.values(Version).reverse().map((version) => ({
-    value: version,
-    label: getVersionName(version),
-  }));
+  const versionsOptions = Object.values(Version)
+    .reverse()
+    .map((version) => ({
+      value: version,
+      label: getVersionName(version),
+    }));
 
   // 颜色选项
   const colorsOptions = Object.values(Color).map((color) => ({
@@ -227,6 +229,7 @@ const handleCatalogUpload = (data: {
     :datas="sortedItems"
     :per-page="100"
     :card-component="ClothingCard"
+    selection-key="items"
   >
     <template #filters>
       <FilterSection
@@ -234,6 +237,7 @@ const handleCatalogUpload = (data: {
         :total-count="allItems.length"
         :current-count="filteredData.length"
         :extra-stats="[{ label: '已拥有', value: ownedItemsCount }]"
+        selection-key="items"
         @filters-changed="handleFiltersChanged"
       >
         <template #action-buttons>

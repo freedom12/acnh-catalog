@@ -39,11 +39,13 @@ const hasAnyRadio = computed(() => filteredData.value.some((item) => item.hasRad
     :datas="filteredData"
     :per-page="100"
     :card-component="MusicCard"
+    selection-key="musics"
   >
     <template #filters>
       <FilterSection
         :total-count="allMusic.length"
         :current-count="filteredData.length"
+        selection-key="musics"
         @filters-changed="handleFiltersChanged"
       >
         <template #action-buttons>

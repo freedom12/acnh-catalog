@@ -17,11 +17,13 @@ const { filteredData, handleFiltersChanged } = useFilter(allArtwork);
     :datas="filteredData"
     :per-page="100"
     :card-component="ArtworkCard"
+    selection-key="artworks"
   >
     <template #filters>
       <FilterSection
         :total-count="allArtwork.length"
         :current-count="filteredData.length"
+        selection-key="artworks"
         @filters-changed="handleFiltersChanged"
       />
     </template>

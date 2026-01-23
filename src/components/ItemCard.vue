@@ -82,13 +82,15 @@ const toggleHhaExpanded = () => {
   <BaseCard
     colorClass="card--green"
     :class="{ 'recipe-bg': itemModel.canDIY }"
-    :variant="itemModel.owned ? 'dark' : 'light'"
+    variant="dark"
     :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
     :icon="icon"
     :displayName="itemModel.name"
     :shape="'rounded'"
+    :getSelectId="() => itemModel.id"
+    v-bind="$attrs"
     @click="handleClick"
   >
     <!-- <div class="detail-row detail-center">

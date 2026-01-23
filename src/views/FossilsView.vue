@@ -17,11 +17,13 @@ const { filteredData, handleFiltersChanged } = useFilter(allFossils);
     :datas="filteredData"
     :per-page="100"
     :card-component="FossilCard"
+    selection-key="fossils"
   >
     <template #filters>
       <FilterSection
         :total-count="allFossils.length"
         :current-count="filteredData.length"
+        selection-key="fossils"
         @filters-changed="handleFiltersChanged"
       />
     </template>

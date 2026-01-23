@@ -15,6 +15,14 @@
       </div>
       <div class="action-buttons">
         <slot name="action-buttons"></slot>
+        <button 
+          v-if="props.selectionKey"
+          class="reset-button" 
+          @click="handleResetSelections"
+          title="清空所有勾选状态"
+        >
+          重置
+        </button>
         <ToggleGroup v-model="viewMode" :options="viewModeOptions" />
         <button class="action-btn primary round-btn" @click="toggle">
           <span class="icon">{{ isExpanded ? '▲' : '▼' }}</span>
@@ -102,6 +110,7 @@
 import { ref, watch } from 'vue';
 import { useViewMode } from '../composables/useViewMode';
 import { useDebounce } from '../composables/useDebounce';
+import { useSelection } from '../composables/useSelection';
 import ToggleGroup from './ToggleGroup.vue';
 
 export type FilterOptionValue = string | number;
@@ -134,9 +143,6 @@ const debouncedSearchQuery = useDebounce(searchQuery, 300);
 const selectedFilters = ref<Record<string, FilterOptionValue>>({});
 const filters = ref<Filter[]>([]);
 
-// 使用全局共享的视图模式
-const { viewMode } = useViewMode();
-
 // 视图模式选项
 const viewModeOptions = [
   { value: 'detailed', label: '详细' },
@@ -148,7 +154,21 @@ const props = defineProps<{
   totalCount?: number;
   currentCount?: number;
   extraStats?: Array<{ label: string; value: number }>;
+  selectionKey?: string;
 }>();
+
+// 使用全局共享的视图模式
+const { viewMode } = useViewMode();
+
+// 使用勾选功能（如果有selectionKey）
+const { clearSelections } = props.selectionKey ? useSelection(props.selectionKey) : { clearSelections: () => {} };
+
+// 处理重置勾选
+const handleResetSelections = () => {
+  if (confirm('确定要清空所有勾选状态吗？')) {
+    clearSelections();
+  }
+};
 // 并为每个筛选维度添加"全部"选项
 const initializeDefaultFilters = () => {
   if (props.filters) {
@@ -398,5 +418,41 @@ const handleClearSearch = () => {
   background: var(--success-color, #28a745);
   color: white;
   border-color: var(--success-color, #28a745);
+}
+
+/* 重置按钮 */
+.reset-button {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-xl);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+  background: linear-gradient(135deg, var(--danger-color) 0%, #e53935 100%);
+  font-weight: 600;
+
+  &:hover:not(:disabled) {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, #d32f2f 0%, var(--danger-color) 100%);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+    background: #b71c1c;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 }
 </style>

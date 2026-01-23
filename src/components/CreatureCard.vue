@@ -14,6 +14,8 @@ import {
 const props = defineProps<{
   data: Creature;
   hemisphere: 'north' | 'south';
+  selectable?: boolean;
+  selectionKey?: string;
 }>();
 
 const getMonths = (creature: Creature): string => {
@@ -118,6 +120,8 @@ const variant = computed(() => {
     :version="props.data.ver"
     :images="props.data.images.map(processImageUrl)"
     :displayName="props.data.name"
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.id"
     shape="rounded"
     @click="handleClick"
   >

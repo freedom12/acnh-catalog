@@ -4,6 +4,7 @@ import { processImageUrl } from '../utils/imageUtils';
 import { adjustBrightness } from '../utils/common';
 import VersionBadge from './VersionBadge.vue';
 import type { Version } from '../types/item';
+import { useSelection } from '../composables/useSelection';
 
 interface Props {
   colorClass?: string;
@@ -17,18 +18,75 @@ interface Props {
   variant?: 'light' | 'dark';
   showCheckmark?: boolean;
   shiny?: boolean;
+  selectionKey?: string;
+  getSelectId?: () => string | number;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   variant: 'light',
   shape: 'circle',
   shiny: false,
+  selectionKey: '',
 });
 
 const emit = defineEmits<{
   'image-index-changed': [index: number];
   click: [event: Event];
 }>();
+
+// 获取选择ID的函数，默认返回undefined（表示不支持选择）
+const getSelectId = () => {
+  if (props.getSelectId) {
+    return props.getSelectId();
+  }
+  return undefined; // 默认不支持选择，除非提供getSelectId函数
+};
+
+// 是否启用选择功能
+const isSelectable = computed(() => {
+  return !!(props.getSelectId && props.selectionKey);
+});
+
+// 勾选相关
+const selectionComposable = isSelectable.value ? useSelection(props.selectionKey!) : null;
+
+const isSelected = (id: string | number) => {
+  return selectionComposable ? selectionComposable.isSelected(id) : false;
+};
+
+const toggleSelected = (id: string | number) => {
+  if (selectionComposable) {
+    selectionComposable.toggleSelected(id);
+  }
+};
+
+const isItemSelected = computed(() => {
+  if (!isSelectable.value) return false;
+  const id = getSelectId();
+  return id !== undefined && id !== null ? isSelected(id) : false;
+});
+
+const handleCardClick = (event: Event) => {
+  if (isSelectable.value) {
+    // 如果是可勾选的，优先处理勾选
+    const id = getSelectId();
+    if (id !== undefined && id !== null) {
+      toggleSelected(id);
+    }
+  } else {
+    // 否则触发原来的点击事件
+    emit('click', event);
+  }
+};
+
+const handleCheckmarkClick = (_event: Event) => {
+  if (isSelectable.value) {
+    const id = getSelectId();
+    if (id !== undefined && id !== null) {
+      toggleSelected(id);
+    }
+  }
+};;
 
 // 当前图片形状
 const currentShape = computed(() => props.shape);
@@ -79,6 +137,16 @@ const variantClass = computed(() => {
   return props.variant === 'light' ? 'card--variant-light' : 'card--variant-dark';
 });
 
+// 是否显示勾选标记
+const shouldShowCheckmark = computed(() => {
+  return props.showCheckmark || isSelectable.value;
+});
+
+// 是否为灰色checkmark（未选中状态）
+const isGrayCheckmark = computed(() => {
+  return isSelectable.value && !isItemSelected.value;
+});
+
 // 卡片样式
 const cardStyles = computed(() => {
   const styles: Record<string, string> = {};
@@ -99,13 +167,16 @@ const cardStyles = computed(() => {
       colorClass,
       variantClass,
       {
-        'card--with-checkmark': showCheckmark,
+        'card--with-checkmark': shouldShowCheckmark,
+        'card--gray-checkmark': isGrayCheckmark,
         'card--custom-theme': colorTheme,
         'card--shiny': shiny,
       },
     ]"
     :style="cardStyles"
   >
+    <!-- Checkmark点击区域 -->
+    <div v-if="isSelectable" class="checkmark-click-area" @click.stop="handleCheckmarkClick"></div>
     <VersionBadge :version="version" />
     <div class="card-image-container" :class="{ 'large-image': !detailed }">
       <div
@@ -115,7 +186,7 @@ const cardStyles = computed(() => {
           square: currentShape === 'square',
           'large-image': !detailed,
         }"
-        @click="$emit('click', $event)"
+        @click="handleCardClick"
       >
         <img
           :src="imageLoaded ? currentImage : (icon || currentImage)"

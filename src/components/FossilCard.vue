@@ -8,6 +8,8 @@ import { getFossilTypeName, ItemSize } from '../types';
 
 const props = defineProps<{
   data: Fossil;
+  selectable?: boolean;
+  selectionKey?: string;
 }>();
 
 const currentPartIndex = ref(0);
@@ -35,6 +37,8 @@ const handleClick = () => {
     :version="1"
     :images="props.data.parts.map((part) => part.image)"
     :displayName="props.data.name"
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.parts[0]?.id || props.data.rawName"
     :shape="'rounded'"
     @image-index-changed="handleImageIndexChanged"
     @click="handleClick"

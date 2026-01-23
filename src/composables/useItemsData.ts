@@ -1,7 +1,8 @@
 import { ref, type Ref } from 'vue';
 import { ItemModel } from '../models/ItemModel';
-import { loadItemsData, loadCatalogData } from '../services/dataService';
+import { loadItemsData } from '../services/dataService';
 import { useRecipesData } from './useRecipesData';
+import { selections, saveSelections } from './useSelection';
 
 const allItems = ref<ItemModel[]>([]) as Ref<ItemModel[]>;
 const itemIdMap = ref<Record<number, ItemModel>>({});
@@ -25,25 +26,17 @@ export function useItemsData() {
       try {
         loading.value = true;
         error.value = '';
-        const [acnhItems, ownedIds] = await Promise.all([
-          loadItemsData(),
-          loadCatalogData(),
-          loadRecipes(),
-        ]);
-
+        const [acnhItems] = await Promise.all([loadItemsData(), loadRecipes()]);
         allItems.value = acnhItems.map((item) => {
-          const model = new ItemModel(item);
-          model.owned = ownedIds.has(item.id);
-          return model;
-        });
-        allItems.value.forEach((item) => {
-          itemIdMap.value[item.id] = item;
-          item.variantGroups.forEach((group) => {
+          let itemModel = new ItemModel(item);
+          itemIdMap.value[item.id] = itemModel;
+          itemModel.variantGroups.forEach((group) => {
             group.forEach((pattern) => {
               if (!pattern.id) return;
-              itemIdMap.value[pattern.id] = item;
+              itemIdMap.value[pattern.id] = itemModel;
             });
           });
+          return itemModel;
         });
         isDataLoaded = true;
       } catch (err) {
@@ -59,20 +52,23 @@ export function useItemsData() {
   };
 
   /**
-   * 使用上传的目录数据更新物品拥有状态
+   * 使用上传的目录数据更新物品勾选状态
    */
   const updateCatalogData = (catalogData: {
     items: Array<{ label: string; unique_id: number }>;
-  }): void => {
-    const ownedIds = new Set<number>();
+  }, selectionKey: string = 'items'): void => {
+    // 确保指定字段存在
+    if (!selections.value[selectionKey]) {
+      selections.value[selectionKey] = {};
+    }
+
+    // 设置上传的物品为已勾选
     catalogData.items.forEach((item) => {
-      ownedIds.add(item.unique_id);
+      selections.value[selectionKey]![String(item.unique_id)] = true;
     });
 
-    // 更新所有物品的拥有状态
-    allItems.value.forEach((item) => {
-      item.owned = ownedIds.has(item.id);
-    });
+    // 保存到 localStorage
+    saveSelections();
   };
 
   return {

@@ -46,12 +46,14 @@ const { filteredData, handleFiltersChanged } = useFilter(allCreatures);
     :datas="filteredData"
     :card-component="CreatureCard"
     :card-props="{ hemisphere: selectedHemisphere }"
+    selection-key="creatures"
   >
     <template #filters>
       <FilterSection
         :filters="filters"
         :total-count="allCreatures.length"
         :current-count="filteredData.length"
+        selection-key="creatures"
         @filters-changed="handleFiltersChanged"
       >
         <template #action-buttons>

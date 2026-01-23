@@ -8,6 +8,8 @@ import SourceList from './SourceList.vue';
 
 const props = defineProps<{
   data: Reaction;
+  selectable?: boolean;
+  selectionKey?: string;
 }>();
 
 const handleClick = () => {
@@ -18,9 +20,12 @@ const handleClick = () => {
 <template>
   <BaseCard
     colorClass="card--purple"
+    variant="dark"
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
+    :selectionKey="selectionKey"
+    :getSelectId="() => props.data.id"
     @click="handleClick"
   >
     <div class="detail-row">
