@@ -14,15 +14,10 @@ export default defineConfig({
     vue(),
     viteStaticCopy({
       targets: [
-        { src: 'public/catalog_items.json', dest: '.' },
+        // { src: 'public/catalog_items.json', dest: '.' },
         { src: 'public/translations.json', dest: '.' },
         { src: 'public/config/**', dest: 'config' },
-        { src: 'public/img/hhp_island_icon/**', dest: 'img/hhp_island_icon' },
-        { src: 'public/img/hhp_island_img/**', dest: 'img/hhp_island_img' },
-        { src: 'public/img/icon/**', dest: 'img/icon' },
-        { src: 'public/img/pattern/**', dest: 'img/pattern' },
-        { src: 'public/img/polishing/**', dest: 'img/polishing' },
-        { src: 'public/img/soundscape/**', dest: 'img/soundscape' },
+        { src: 'public/img/**', dest: 'img' },
         // { src: 'public/sound/**', dest: 'sound' },
       ],
     }),

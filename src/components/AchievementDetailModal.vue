@@ -22,9 +22,9 @@ const getIconSrc = (index: number) => {
   if (!achievement.value) return '';
   const typeLower = achievement.value.type.toLowerCase();
   if (achievement.value.isSeq) {
-    return getImgUrl(`/img/icon/achievement/${typeLower}.png`);
+    return getImgUrl(`img/icon/achievement/${typeLower}.png`);
   } else {
-    return getImgUrl(`/img/icon/achievement/${typeLower}${index + 1}.png`);
+    return getImgUrl(`img/icon/achievement/${typeLower}${index + 1}.png`);
   }
 };
 

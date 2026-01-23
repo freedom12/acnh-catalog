@@ -18,9 +18,9 @@ const handleClick = () => {
 const getIconSrc = (index: number) => {
   const typeLower = props.data.type.toLowerCase();
   if (props.data.isSeq) {
-    return getImgUrl(`/img/icon/achievement/${typeLower}.png`);
+    return getImgUrl(`img/icon/achievement/${typeLower}.png`);
   } else {
-    return getImgUrl(`/img/icon/achievement/${typeLower}${index + 1}.png`);
+    return getImgUrl(`img/icon/achievement/${typeLower}${index + 1}.png`);
   }
 };
 
