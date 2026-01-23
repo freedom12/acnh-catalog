@@ -23,6 +23,13 @@ const hemisphereOptions = [
 watch(selectedHemisphere, (newHemisphere) => {
   localStorage.setItem('hemisphere', newHemisphere);
 });
+
+// 当前月份
+const currentMonth = new Date().getMonth() + 1;
+
+// 当前小时（0-23）
+const currentHour = new Date().getHours();
+
 const filters = computed(() => [
   {
     label: '类别',
@@ -34,8 +41,35 @@ const filters = computed(() => [
       })`,
     })),
   },
+  {
+    label: '可捕捉',
+    value: 'availability',
+    options: [
+      { value: 'currentMonth', label: '当前月份' },
+      { value: 'currentTime', label: '当前时间' },
+    ],
+  },
 ]);
-const { filteredData, handleFiltersChanged } = useFilter(allCreatures);
+
+const customFilterFn = (
+  creature: any,
+  _searchQuery: string,
+  selectedFilters: Record<string, any>
+) => {
+  if (selectedFilters.availability === 'currentMonth') {
+    const hemisphere = creature.hemispheres[selectedHemisphere.value];
+    return hemisphere.months.includes(currentMonth);
+  }
+  if (selectedFilters.availability === 'currentTime') {
+    const hemisphere = creature.hemispheres[selectedHemisphere.value];
+    return (
+      hemisphere.months.includes(currentMonth) && hemisphere.hours.includes(currentHour)
+    );
+  }
+  return true;
+};
+
+const { filteredData, handleFiltersChanged } = useFilter(allCreatures, customFilterFn);
 </script>
 
 <template>

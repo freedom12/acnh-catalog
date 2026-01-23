@@ -43,16 +43,19 @@ export function useFilter<T>(
     // 搜索筛选
     if (searchQuery.value) {
       const lowerQuery = searchQuery.value.toLowerCase();
-      result = result.filter((item) =>
-        (item as any).name?.toLowerCase().includes(lowerQuery) ||
-        (item as any).rawName?.toLowerCase().includes(lowerQuery)
+      result = result.filter(
+        (item) =>
+          (item as any).name?.toLowerCase().includes(lowerQuery) ||
+          (item as any).rawName?.toLowerCase().includes(lowerQuery)
       );
     }
 
     // 类别筛选（基于 selectedFilters）
     Object.entries(selectedFilters.value).forEach(([key, value]) => {
       if (value) {
-        result = result.filter((item) => (item as any)[key] === value);
+        result = result.filter(
+          (item) => (item as any)[key] === value || (item as any)[key] === undefined
+        );
       }
     });
 

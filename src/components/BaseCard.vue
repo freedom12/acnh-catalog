@@ -51,7 +51,6 @@ const selectionComposable = isSelectable.value ? useSelection(props.selectionKey
 
 const isSelected = (id: string | number) => {
   const result = selectionComposable ? selectionComposable.isSelected(id) : false;
-  console.log('isSelected(', id, ') =', result);
   return result;
 };
 
@@ -87,7 +86,6 @@ const isPartiallySelected = computed(() => {
 const getSelectIds = computed(() => {
   const id = getSelectId();
   const ids = Array.isArray(id) ? id : id !== undefined && id !== null ? [id] : [];
-  console.log('getSelectIds:', ids, 'length:', ids.length);
   return ids;
 });
 
