@@ -71,7 +71,6 @@ const handleClick = () => {
     colorClass="card--pink"
     :class="{ 'recipe-bg': itemModel.canDIY }"
     variant="dark"
-    :showCheckmark="itemModel.owned"
     :version="itemModel.version"
     :images="displayImages"
     :icon="icon"

@@ -38,7 +38,7 @@ const handleClick = () => {
     :images="props.data.parts.map((part) => part.image)"
     :displayName="props.data.name"
     :selectionKey="selectionKey"
-    :getSelectId="() => props.data.parts[0]?.id || props.data.rawName"
+    :getSelectId="() => props.data.parts.map((part) => part.id)"
     :shape="'rounded'"
     @image-index-changed="handleImageIndexChanged"
     @click="handleClick"
