@@ -10,7 +10,7 @@ interface Props {
 
 const props = defineProps<Props>();
 const { openModal } = useItemDetailModal();
-const { itemIdMap } = useItemsData();
+const { idMap: itemIdMap } = useItemsData();
 
 const material = computed(() => {
   let itemModel = itemIdMap.value[props.material];

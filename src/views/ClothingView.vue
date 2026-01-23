@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useItemsData } from '../composables/useItemsData';
+import { updateSelections } from '../composables/useSelection';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import FilterSection, { type Filter } from '../components/FilterSection.vue';
@@ -20,12 +21,12 @@ import { useActivitysData } from '../composables/useActivitysData';
 
 const { getOptions } = useActivitysData();
 const {
-  allItems: _allItems,
-  loading,
+  data: _allItems,
+  status,
   error,
   loadData,
-  updateCatalogData,
 } = useItemsData();
+const loading = computed(() => status.value === 'loading');
 const allItems = computed(() => _allItems.value.filter((item) => item.isClothing));
 
 const filters = computed<Filter[]>(() => {
@@ -217,7 +218,7 @@ const ownedItemsCount = computed(
 const handleCatalogUpload = (data: {
   items: Array<{ label: string; unique_id: number }>;
 }) => {
-  updateCatalogData(data);
+  updateSelections(data);
 };
 </script>
 

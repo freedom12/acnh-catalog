@@ -16,7 +16,8 @@ const emit = defineEmits<{
   close: [];
 }>();
 
-const { itemIdMap, loading, error, loadData } = useItemsData();
+const { idMap: itemIdMap, status, error, loadData } = useItemsData();
+const loading = computed(() => status.value === 'loading');
 const itemModel = computed(() => (props.itemId ? itemIdMap.value[props.itemId] : null));
 
 // 当前选中的变体索引

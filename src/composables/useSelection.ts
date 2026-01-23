@@ -34,6 +34,32 @@ loadSelections();
 
 export { selections, saveSelections };
 
+/**
+ * 使用上传的目录数据更新勾选状态
+ */
+export const updateSelections = (
+  catalogData: {
+    items: Array<{ unique_id: number; variations?: Array<{ unique_id: number }> }>;
+  },
+  selectionKey: string = 'items'
+): void => {
+  // 确保指定字段存在
+  if (!selections.value[selectionKey]) {
+    selections.value[selectionKey] = {};
+  }
+
+  // 设置上传的物品为已勾选
+  catalogData.items.forEach((item) => {
+    selections.value[selectionKey]![String(item.unique_id)] = true;
+    item.variations?.forEach((variation) => {
+      selections.value[selectionKey]![String(variation.unique_id)] = true;
+    });
+  });
+
+  // 保存到 localStorage
+  saveSelections();
+};
+
 export const useSelection = (key: string) => {
   if (!key) {
     throw new Error('Selection key is required');

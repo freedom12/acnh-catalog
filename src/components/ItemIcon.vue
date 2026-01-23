@@ -23,7 +23,7 @@ const props = defineProps({
 });
 
 const { openModal } = useItemDetailModal();
-const { itemIdMap } = useItemsData();
+const { idMap: itemIdMap } = useItemsData();
 
 const itemModel = computed(() => {
   let item = itemIdMap.value[props.itemId]
