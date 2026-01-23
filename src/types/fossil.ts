@@ -11,6 +11,7 @@ export type FossilType = (typeof FossilType)[keyof typeof FossilType];
 
 export interface Fossil {
   name: string;
+  rawName: string;
   type: FossilType;
   parts: {
     id: number;

@@ -577,6 +577,10 @@ export async function loadItemsData(): Promise<Item[]> {
 }
 
 export async function loadCatalogData(): Promise<Set<number>> {
+  if (!import.meta.env.DEV) {
+    return new Set();
+  }
+
   try {
     const response = await fetch(CONFIG.DATA_FILES.CATALOG);
     if (!response.ok) {

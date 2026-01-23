@@ -25,7 +25,7 @@ const handleImageIndexChanged = (index: number) => {
 };
 
 const handleClick = () => {
-  window.open(`https://nookipedia.com/wiki/${props.data.name}`, '_blank');
+  window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 </script>
 

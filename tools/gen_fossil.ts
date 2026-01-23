@@ -34,6 +34,7 @@ export function genFossil() {
     const sheetData = parts[0];
     const fossil: Fossil = {
       name,
+      rawName: groupName,
       type: fossilTypeMap[sheetData['Museum']],
       parts: parts
         .sort((a, b) => Number(a['Internal ID']) - Number(b['Internal ID']))
@@ -48,7 +49,7 @@ export function genFossil() {
     };
     fossils.push(fossil);
   }
-  fossils.sort((a, b) => a.type - b.type);
+  fossils.sort((a, b) => a.type - b.type || a.parts.length - b.parts.length);
   return fossils;
 }
 
