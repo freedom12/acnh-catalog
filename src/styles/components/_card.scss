@@ -205,6 +205,10 @@
 .card-info {
   width: 100%;
   min-height: 60px;
+
+  &--simple {
+    min-height: auto;
+  }
 }
 
 .card-name {

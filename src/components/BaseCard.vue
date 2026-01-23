@@ -275,7 +275,7 @@ const cardStyles = computed(() => {
         ›
       </button>
     </div>
-    <div class="card-info">
+    <div class="card-info" :class="{ 'card-info--simple': !detailed }">
       <slot name="name">
         <h3 class="card-name">
           {{ displayName }}
