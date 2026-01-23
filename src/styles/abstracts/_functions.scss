@@ -1,0 +1,74 @@
+// ============================================
+// 函数 - Utility Functions
+// ============================================
+
+@use 'sass:map';
+@use 'sass:color';
+@use 'variables' as *;
+
+// --------------------------------------------
+// 主题色获取函数
+// --------------------------------------------
+
+/// 获取主题色
+/// @param {String} $theme - 主题名称 (green, brown, orange, etc.)
+/// @param {String} $key - 颜色键 (main, base, shadow)
+/// @return {Color} 对应的颜色值
+@function theme-color($theme, $key: 'main') {
+  $theme-map: map.get($theme-colors, $theme);
+
+  @if $theme-map {
+    @return map.get($theme-map, $key);
+  }
+
+  @warn "Theme '#{$theme}' not found in $theme-colors.";
+
+  @return null;
+}
+
+// --------------------------------------------
+// 颜色操作函数
+// --------------------------------------------
+
+/// 调整颜色亮度
+/// @param {Color} $color - 基础颜色
+/// @param {Number} $amount - 调整量 (-1 到 1)
+/// @return {Color} 调整后的颜色
+@function adjust-brightness($color, $amount) {
+  @if $amount > 0 {
+    @return color.mix(white, $color, $amount * 100%);
+  } @else {
+    @return color.mix(black, $color, $amount * -100%);
+  }
+}
+
+/// 创建透明色
+/// @param {Color} $color - 基础颜色
+/// @param {Number} $alpha - 透明度 (0 到 1)
+/// @return {Color} 带透明度的颜色
+@function alpha($color, $alpha) {
+  @return rgba($color, $alpha);
+}
+
+// --------------------------------------------
+// 间距计算函数
+// --------------------------------------------
+
+/// 计算间距倍数
+/// @param {Number} $multiplier - 倍数
+/// @return {Length} 计算后的间距
+@function space($multiplier) {
+  @return $spacing-unit * $multiplier;
+}
+
+// --------------------------------------------
+// 字体大小计算函数
+// --------------------------------------------
+
+/// 将 px 转换为 rem
+/// @param {Number} $px - 像素值
+/// @param {Number} $base - 基础字体大小 (默认 16)
+/// @return {Length} rem 值
+@function px-to-rem($px, $base: 16) {
+  @return calc($px / $base) * 1rem;
+}

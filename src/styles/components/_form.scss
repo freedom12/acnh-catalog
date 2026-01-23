@@ -1,0 +1,66 @@
+// ============================================
+// 表单组件样式 - Form Components
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 输入框
+// --------------------------------------------
+
+.input {
+  @include input-base;
+}
+
+// --------------------------------------------
+// 搜索输入框
+// --------------------------------------------
+
+.search-input-wrapper {
+  position: relative;
+  flex: 1;
+
+  input {
+    @include input-base;
+    padding-right: 40px; // 为清除按钮留空间
+  }
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: $color-text-muted;
+  cursor: pointer;
+  font-size: $font-size-sm;
+  padding: $spacing-xs;
+  line-height: 1;
+  @include transition(color);
+
+  &:hover {
+    color: $color-text-primary;
+  }
+}
+
+// --------------------------------------------
+// 下拉选择框
+// --------------------------------------------
+
+.filter-select {
+  padding: $spacing-sm $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $radius-2xl;
+  background: $color-white;
+  cursor: pointer;
+  font-size: $font-size-sm;
+  min-width: 120px;
+  @include transition(border-color);
+
+  &:focus {
+    outline: none;
+    border-color: $color-primary;
+  }
+}

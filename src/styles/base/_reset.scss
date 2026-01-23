@@ -1,0 +1,71 @@
+// ============================================
+// CSS Reset / Normalize
+// ============================================
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+// 移除列表默认样式
+ul,
+ol {
+  list-style: none;
+}
+
+// 图片基础样式 - 不强制尺寸限制
+// 如需响应式图片，请在具体组件中添加 max-width: 100%
+img,
+picture,
+video,
+canvas,
+svg {
+  vertical-align: middle;
+}
+
+// 继承字体
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+// 移除按钮默认样式
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+// 链接样式
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// 表格边框合并
+table {
+  border-collapse: collapse;
+}
+
+// 隐藏元素
+[hidden] {
+  display: none !important;
+}

@@ -151,6 +151,7 @@ const handleProgressClick = (e: MouseEvent) => {
   background: rgb(255, 255, 255, 0.15);
   color: white;
   font-size: 22px;
+  line-height: 1;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -161,6 +162,7 @@ const handleProgressClick = (e: MouseEvent) => {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  padding-bottom: 2px; /* 视觉微调，让符号看起来居中 */
 }
 
 .primary-btn:hover {
@@ -171,8 +173,10 @@ const handleProgressClick = (e: MouseEvent) => {
 .audio-player:hover .primary-btn,
 .audio-player:focus-within .primary-btn {
   position: absolute;
-  inset: auto 12px 12px auto;
-  transform: none;
+  left: auto;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .info-block,
@@ -366,8 +370,10 @@ const handleProgressClick = (e: MouseEvent) => {
 
   .audio-player:hover .primary-btn,
   .audio-player:focus-within .primary-btn {
+    left: auto;
     right: 10px;
-    bottom: 10px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .track-title {

@@ -159,20 +159,20 @@ const handleClick = () => {
 
     <div
       v-if="itemModel.hasVariations"
-      :class="['variants-section', { 'variants-section--pink': !itemModel.canCustomize }]"
+      :class="['panel', itemModel.canCustomize ? 'panel--yellow' : 'panel--pink']"
     >
-      <span class="variants-label">
+      <span class="panel-title">
         {{ itemModel.getVName() }}
       </span>
-      <span class="variants-label"></span>
-      <div class="variants-list">
+      <div class="dot-selector">
         <span
           v-for="(_, vIdx) in itemModel.variantGroups"
           :key="vIdx"
-          class="variation-dot variant-dot"
-          :class="{
-            active: vIdx === variantIndex,
-          }"
+          :class="[
+            'dot-item',
+            itemModel.canCustomize ? 'dot-item--yellow' : 'dot-item--pink',
+            { 'dot-item--active': vIdx === variantIndex }
+          ]"
           :title="itemModel.getVName(vIdx) || `${vIdx + 1}`"
           @click="variantIndex = vIdx"
         >
@@ -184,105 +184,5 @@ const handleClick = () => {
 </template>
 
 <style scoped lang="scss">
-@use '../styles/card-styles';
-
-.variants-section {
-  background: #fff9e6;
-  border-radius: var(--border-radius-xl);
-  padding: 8px;
-  border: 2px solid #ffea9e;
-  margin-top: 8px;
-
-  /* Pink theme override */
-  &--pink {
-    background: #fff0f6;
-    border-color: #ffd0e6;
-  }
-}
-
-.variants-label {
-  font-weight: 600;
-  color: #b07a00;
-  font-size: 0.85em;
-  display: block;
-
-  &.blue {
-    color: #0b4f80;
-  }
-
-  /* Pink theme override */
-  .variants-section--pink & {
-    color: #b0005a;
-  }
-}
-
-.variants-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  padding: 4px;
-}
-
-.variation-dot {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #fff9e6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 600;
-  color: #b07a00;
-  cursor: pointer;
-  transition: all 0.2s;
-  border: 2px #ffea9e solid;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-
-  &.active {
-    background: #ffea9e;
-  }
-
-  &.blue {
-    background: #e6f4ff;
-    color: #0b4f80;
-    border-color: #bfe8ff;
-
-    &.active {
-      background: #2b8cff;
-      color: #fff;
-      border-color: #1976d2;
-    }
-  }
-
-  /* Pink theme overrides */
-  .variants-section--pink & {
-    background: #fff0f6;
-    color: #b0005a;
-    border-color: #ffd0e6;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-
-    &.active {
-      background: #ffd0e6;
-    }
-
-    &.blue {
-      background: #fff0f6;
-      color: #7a003a;
-      border-color: #ffd6e8;
-
-      &.active {
-        background: #ff4d9e;
-        color: #fff;
-        border-color: #e60073;
-      }
-    }
-  }
-}
+// 使用全局样式
 </style>

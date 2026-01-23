@@ -1,0 +1,159 @@
+// ============================================
+// 可折叠面板组件 - Panel Component
+// 用于: 变体选择、材料列表、家具列表、HHA信息等
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 面板基础样式
+// --------------------------------------------
+
+.panel {
+  border-radius: $radius-2xl;
+  padding: $spacing-sm;
+  border: 2px solid var(--panel-border);
+  background: var(--panel-bg);
+  margin-top: $spacing-sm;
+
+  // 默认主题变量
+  --panel-bg: #{$color-gray-100};
+  --panel-border: #{$color-gray-300};
+  --panel-text: #{$color-text-secondary};
+  --panel-hover: #{$color-gray-200};
+}
+
+// --------------------------------------------
+// 面板头部
+// --------------------------------------------
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $radius-2xl;
+  cursor: pointer;
+  user-select: none;
+  @include transition(background-color);
+
+  &:hover {
+    background-color: var(--panel-hover);
+  }
+}
+
+.panel-title {
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  color: var(--panel-text);
+}
+
+.panel-toggle {
+  font-size: 0.7em;
+  color: $color-text-secondary;
+  @include transition(transform);
+}
+
+// --------------------------------------------
+// 面板内容
+// --------------------------------------------
+
+.panel-content {
+  margin-top: $spacing-sm;
+}
+
+.panel-inner {
+  background: rgba($color-white, 0.5);
+  padding: $spacing-xs;
+  border: 2px solid var(--panel-border);
+  border-radius: $radius-lg;
+}
+
+// --------------------------------------------
+// 面板主题色
+// --------------------------------------------
+
+.panel--yellow {
+  --panel-bg: #fff9e6;
+  --panel-border: #ffea9e;
+  --panel-text: #b07a00;
+  --panel-hover: rgba(255, 234, 158, 0.5);
+}
+
+.panel--orange {
+  --panel-bg: #fff9f0;
+  --panel-border: #ffe0b2;
+  --panel-text: #e65100;
+  --panel-hover: rgba(255, 224, 178, 0.5);
+}
+
+.panel--red {
+  --panel-bg: #ffeaea;
+  --panel-border: #ffcccc;
+  --panel-text: #8b0000;
+  --panel-hover: rgba(255, 204, 204, 0.5);
+}
+
+.panel--green {
+  --panel-bg: #f0f9f0;
+  --panel-border: #c8e6c8;
+  --panel-text: #{$color-primary};
+  --panel-hover: #{$color-primary-light};
+}
+
+.panel--pink {
+  --panel-bg: #fff0f6;
+  --panel-border: #ffd0e6;
+  --panel-text: #b0005a;
+  --panel-hover: rgba(255, 208, 230, 0.5);
+}
+
+.panel--blue {
+  --panel-bg: #e6f4ff;
+  --panel-border: #bfe8ff;
+  --panel-text: #0b4f80;
+  --panel-hover: rgba(191, 232, 255, 0.5);
+}
+
+// --------------------------------------------
+// 面板内的详情行特殊处理
+// --------------------------------------------
+
+.panel .detail-row {
+  background-color: transparent;
+}
+
+.panel--red .panel-inner {
+  background: #fff6f6;
+
+  .detail-row {
+    border-radius: 0;
+
+    &:not(:last-child) {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        height: 2px;
+        background: var(--panel-border);
+        border-radius: 1px;
+      }
+    }
+  }
+}
+
+// --------------------------------------------
+// 面板内高亮行（继承面板主题色）
+// --------------------------------------------
+
+.panel .detail-row--highlight {
+  background: var(--panel-bg);
+  border: 2px solid var(--panel-border);
+  border-radius: $radius-lg;
+  margin-top: $spacing-xs;
+  padding: $spacing-xs $spacing-sm;
+}

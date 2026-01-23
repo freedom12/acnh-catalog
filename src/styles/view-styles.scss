@@ -1,212 +1,23 @@
-/* ==================== 状态提示 ==================== */
-.loading,
-.error {
-  text-align: center;
-  padding: 40px;
-  font-size: 1.2em;
-}
+// ============================================
+// 视图样式入口 - View Styles Entry
+// 用于视图组件级别的样式导入
+// ============================================
 
-.error {
-  color: var(--danger-color);
-}
+// 导入抽象层
+@use 'abstracts' as *;
 
-/* ==================== 统计信息 ==================== */
-.stats {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--spacing-xl);
-}
+// 导入布局样式
+@use 'layout/grid';
+@use 'layout/container';
 
-.stats-content {
-  display: flex;
-  gap: var(--spacing-xl);
-  flex-wrap: wrap;
-  flex: 1;
-  justify-content: center;
-}
+// 导入按钮组件
+@use 'components/button';
 
-.stat-item {
-  font-size: 1.1em;
-  font-weight: 600;
-  margin: 0;
-}
+// 导入表单组件
+@use 'components/form';
 
-/* ==================== 按钮组件 ==================== */
-.action-btn {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-md);
-  color: white;
-  border: none;
-  border-radius: var(--border-radius-xl);
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: var(--transition-normal);
-  box-shadow: var(--shadow-sm);
-  white-space: nowrap;
+// 导入状态样式
+@use 'utilities/states';
 
-  &:hover:not(:disabled) {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-1px);
-  }
-
-  &:active:not(:disabled) {
-    transform: translateY(0);
-    box-shadow: var(--shadow-sm);
-  }
-
-  &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-
-  .icon {
-    font-size: 12px;
-  }
-
-  &.primary {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #5dade2 100%);
-
-    &:hover:not(:disabled) {
-      background: linear-gradient(135deg, var(--primary-hover) 0%, #3498db 100%);
-    }
-  }
-
-  &.success {
-    background: linear-gradient(135deg, var(--success-color) 0%, #5db663 100%);
-
-    &:hover:not(:disabled) {
-      background: linear-gradient(135deg, #3d8342 0%, var(--success-color) 100%);
-    }
-  }
-
-  &.danger {
-    background: linear-gradient(135deg, var(--danger-color) 0%, #e53935 100%);
-    font-weight: 600;
-
-    &:hover:not(:disabled) {
-      background: linear-gradient(135deg, #d32f2f 0%, var(--danger-color) 100%);
-    }
-
-    &:active:not(:disabled) {
-      background: #b71c1c;
-    }
-  }
-}
-
-.round-btn {
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border-radius: 50%;
-  justify-content: center;
-}
-
-/* ==================== 切换组件 ==================== */
-.toggle-group {
-  display: inline-flex;
-  margin-left: auto;
-  background: var(--border-color);
-  border-radius: var(--border-radius-xl);
-  padding: var(--spacing-xs);
-  box-shadow: var(--shadow-sm);
-}
-
-.toggle-btn {
-  padding: var(--spacing-xs) var(--spacing-sm);
-  background: transparent;
-  border: none;
-  border-radius: 21px;
-  cursor: pointer;
-  transition: var(--transition-normal);
-  font-size: 0.9em;
-  font-weight: 600;
-  color: var(--secondary-color);
-
-  &:hover {
-    color: var(--secondary-color);
-  }
-
-  &.active {
-    background: white;
-    color: var(--success-color);
-    box-shadow: var(--shadow-sm);
-  }
-}
-
-/* ==================== 网格布局 ==================== */
-.generic-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: var(--spacing-lg, 20px);
-  margin: var(--spacing-lg, 20px) 0;
-  align-items: start;
-}
-
-/* ==================== 空状态 ==================== */
-.no-results {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 60px var(--spacing-lg, 20px);
-  color: var(--text-muted, #666);
-  text-align: center;
-}
-
-.no-results-title {
-  color: var(--text-light, #999);
-  font-weight: 400;
-  font-size: 1.2em;
-  margin: 0;
-}
-
-/* ==================== 响应式设计 ==================== */
-@media (width <= 1200px) {
-  .generic-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-}
-
-@media (width <= 768px) {
-  .stats {
-    padding: 15px;
-  }
-
-  .stat-item {
-    font-size: 1em;
-  }
-
-  .category-btn {
-    padding: 10px 16px;
-    font-size: 0.9em;
-  }
-
-  .category-icon {
-    font-size: 1.2em;
-  }
-
-  .generic-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: var(--spacing-md, 15px);
-  }
-
-  .no-results {
-    padding: 40px var(--spacing-md, 15px);
-  }
-
-  .no-results-title {
-    font-size: 1em;
-  }
-}
-
-@media (width <= 480px) {
-  .generic-grid {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: var(--spacing-sm, 10px);
-  }
-}
+// 导入页面样式
+@use 'pages/view';

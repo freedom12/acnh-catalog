@@ -59,40 +59,20 @@ const handleClick = () => {
     </div>
     <div
       v-if="showProduct || showSeeds"
-      :class="['grow-section', { 'two-cols': showProduct && showSeeds }]"
+      :class="['icon-grid', { 'icon-grid--cols-2': showProduct && showSeeds }]"
     >
-      <div v-if="showSeeds" class="grow-item">
+      <div v-if="showSeeds" class="icon-grid-item">
         <ItemIcon :itemId="props.data.seeds!" :size="72" />
-        <span class="grow-label">种子</span>
+        <span class="icon-grid-label">种子</span>
       </div>
-      <div v-if="showProduct" class="grow-item">
+      <div v-if="showProduct" class="icon-grid-item">
         <ItemIcon :itemId="props.data.product!" :size="72" />
-        <span class="grow-label">产出</span>
+        <span class="icon-grid-label">产出</span>
       </div>
     </div>
   </BaseCard>
 </template>
 
 <style scoped lang="scss">
-.grow-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 0;
-  margin-top: 8px;
-}
-
-.grow-section.two-cols {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grow-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.grow-label {
-  font-weight: 600;
-  color: var(--secondary-color);
-}
+// 使用全局样式
 </style>

@@ -98,19 +98,9 @@ const getSelectIds = computed(() => {
 });
 
 const handleCardClick = (event: Event) => {
-  if (isSelectable.value) {
-    const id = getSelectId();
-    if (!Array.isArray(id) && id !== undefined && id !== null) {
-      // 只有单个ID时才处理卡片点击
-      toggleSelected(id);
-    } else {
-      // 数组ID时，触发原来的点击事件（可能打开详情等）
-      emit('click', event);
-    }
-  } else {
-    // 否则触发原来的点击事件
-    emit('click', event);
-  }
+  // 点击卡片图片区域始终触发 click 事件（打开详情等）
+  // 勾选状态只通过点击 Checkmark 来改变
+  emit('click', event);
 };
 
 const handleCheckmarkClick = (event: Event) => {
@@ -309,5 +299,5 @@ const cardStyles = computed(() => {
 </template>
 
 <style lang="scss">
-@use '../styles/card-styles';
+@use '../styles/card-styles.scss';
 </style>

@@ -1,0 +1,53 @@
+// ============================================
+// 视图页面样式 - View Page Styles
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 统计信息
+// --------------------------------------------
+
+.stats {
+  text-align: center;
+  @include flex-between;
+  gap: $spacing-xl;
+
+  @include respond-below('md') {
+    padding: 15px;
+  }
+}
+
+.stats-content {
+  @include flex-row($spacing-xl);
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.stat-item {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  margin: 0;
+
+  @include respond-below('md') {
+    font-size: $font-size-base;
+  }
+}
+
+// --------------------------------------------
+// 分类按钮 (响应式)
+// --------------------------------------------
+
+.category-btn {
+  @include respond-below('md') {
+    padding: 10px 16px;
+    font-size: $font-size-sm;
+  }
+}
+
+.category-icon {
+  @include respond-below('md') {
+    font-size: $font-size-xl;
+  }
+}

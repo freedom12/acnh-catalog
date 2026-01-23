@@ -1,0 +1,73 @@
+// ============================================
+// 媒体操作组件 - Media Component
+// 用于: 音乐播放按钮等
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 媒体操作容器
+// --------------------------------------------
+
+.media-actions {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-sm;
+  margin-top: 12px;
+}
+
+// --------------------------------------------
+// 媒体按钮
+// --------------------------------------------
+
+.media-btn {
+  @include flex-center;
+  gap: 6px;
+  padding: $spacing-sm $spacing-md;
+  border: none;
+  border-radius: $radius-2xl;
+  font-size: 13px;
+  font-weight: $font-weight-semibold;
+  color: $color-white;
+  cursor: pointer;
+  @include transition;
+
+  // 默认渐变
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.media-btn-icon {
+  font-size: $font-size-xs;
+}
+
+// --------------------------------------------
+// 媒体按钮变体
+// --------------------------------------------
+
+.media-btn--radio {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 2px 8px rgba(240, 147, 251, 0.3);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(240, 147, 251, 0.4);
+  }
+}
+
+.media-btn--green {
+  background: linear-gradient(135deg, $color-success 0%, #5db663 100%);
+  box-shadow: 0 2px 8px rgba($color-success, 0.3);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba($color-success, 0.4);
+  }
+}

@@ -158,41 +158,22 @@ const buyPriceStrs = computed((): string[] => {
       >
       </span>
     </div>
-    <div v-if="Object.keys(props.data.materials).length > 0" class="materials-section">
-      <span class="materials-label">所需材料</span>
-      <div class="materials-list">
-        <MaterialItem
-          v-for="[material, quantity] in props.data.materials"
-          :key="material"
-          :material="material"
-          :quantity="quantity"
-        />
+    <div v-if="Object.keys(props.data.materials).length > 0" class="panel panel--orange">
+      <span class="panel-title">所需材料</span>
+      <div class="panel-content">
+        <div class="icon-grid icon-grid--vertical">
+          <MaterialItem
+            v-for="[material, quantity] in props.data.materials"
+            :key="material"
+            :material="material"
+            :quantity="quantity"
+          />
+        </div>
       </div>
     </div>
   </BaseCard>
 </template>
 
 <style scoped lang="scss">
-/* RecipeCard特殊样式 */
-.materials-section {
-  background: #fff9f0;
-  border-radius: var(--border-radius-xl);
-  padding: 8px;
-  border: 2px solid #ffe0b2;
-  margin-top: 8px;
-}
-
-.materials-label {
-  font-weight: 600;
-  color: #e65100;
-  font-size: 0.85em;
-  display: block;
-  margin-bottom: 8px;
-}
-
-.materials-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
+// 使用全局样式
 </style>

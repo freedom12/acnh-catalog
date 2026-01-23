@@ -1,0 +1,86 @@
+// ============================================
+// CSS 自定义属性 (CSS Variables)
+// 用于运行时动态值
+// ============================================
+
+@use '../abstracts' as *;
+
+:root {
+  // 颜色
+  --color-primary: #{$color-primary};
+  --color-primary-hover: #{$color-primary-hover};
+  --color-primary-light: #{$color-primary-light};
+  --color-success: #{$color-success};
+  --color-warning: #{$color-warning};
+  --color-danger: #{$color-danger};
+  --color-info: #{$color-info};
+  --color-white: #{$color-white};
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  --color-text-muted: #{$color-text-muted};
+  --color-border: #{$color-border};
+  --color-bg-light: #{$color-bg-light};
+
+  // 间距
+  --spacing-xs: #{$spacing-xs};
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
+  --spacing-2xl: #{$spacing-2xl};
+
+  // 圆角
+  --radius-sm: #{$radius-sm};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+  --radius-xl: #{$radius-xl};
+  --radius-2xl: #{$radius-2xl};
+  --radius-full: #{$radius-full};
+
+  // 向后兼容的变量名
+  --border-radius-sm: #{$radius-sm};
+  --border-radius-md: #{$radius-md};
+  --border-radius-lg: #{$radius-lg};
+  --border-radius-xl: #{$radius-2xl};
+
+  // 旧变量名兼容
+  --primary-color: #{$color-primary};
+  --primary-hover: #{$color-primary-hover};
+  --secondary-color: #{$color-text-secondary};
+  --accent-color: #{$color-warning};
+  --danger-color: #{$color-danger};
+  --success-color: #{$color-success};
+  --warning-color: #{$color-warning};
+  --info-color: #{$color-info};
+  --border-color: #{$color-border};
+  --background-light: #{$color-bg-light};
+
+  // 阴影
+  --shadow-sm: #{$shadow-sm};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+
+  // 过渡
+  --transition-fast: #{$transition-fast};
+  --transition-normal: #{$transition-normal};
+
+  // 卡片主题色（动态覆盖）
+  --main-color: #{$color-primary};
+  --base-color: #{$color-primary-light};
+  --shadow-color: #{rgba($color-primary, 0.2)};
+
+  // 页面背景
+  color-scheme: light;
+  background-color: $color-bg-page;
+  background-image:
+    linear-gradient(rgba($color-bg-page, 0.4), rgba($color-bg-page, 0.8)),
+    url('@/assets/img/bg.jpg');
+  background-size: auto;
+  background-position: top;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#app {
+  min-height: 100vh;
+}

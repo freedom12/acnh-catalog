@@ -1,0 +1,78 @@
+// ============================================
+// 图标网格组件 - Icon Grid Component
+// 用于: 家具列表、材料列表、物品展示等
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 网格容器
+// --------------------------------------------
+
+.icon-grid {
+  display: grid;
+  gap: $spacing-sm;
+  margin-top: $spacing-sm;
+
+  // 默认3列
+  grid-template-columns: repeat(3, 1fr);
+}
+
+// --------------------------------------------
+// 列数变体
+// --------------------------------------------
+
+.icon-grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-grid--cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-grid--cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-grid--auto {
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+}
+
+// --------------------------------------------
+// 内联模式（flex 居中）
+// --------------------------------------------
+
+.icon-grid--inline {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+}
+
+// --------------------------------------------
+// 垂直列表模式
+// --------------------------------------------
+
+.icon-grid--vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+// --------------------------------------------
+// 网格项
+// --------------------------------------------
+
+.icon-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
+.icon-grid-label {
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  text-align: center;
+}

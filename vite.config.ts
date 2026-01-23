@@ -18,7 +18,7 @@ export default defineConfig({
         { src: 'public/translations.json', dest: '.' },
         { src: 'public/config/**', dest: 'config' },
         { src: 'public/img/**', dest: 'img' },
-        // { src: 'public/sound/**', dest: 'sound' },
+        { src: 'public/sound/**', dest: 'sound' },
       ],
     }),
   ],

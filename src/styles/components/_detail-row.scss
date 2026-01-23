@@ -1,0 +1,113 @@
+// ============================================
+// 详情行组件 - Detail Row Component
+// 用于: 卡片内的键值对展示
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 详情行容器
+// --------------------------------------------
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: $spacing-xs 10px;
+  background-color: $color-bg-light;
+  border-radius: $radius-lg;
+  font-size: $font-size-sm;
+  line-height: 1.4;
+}
+
+// --------------------------------------------
+// 详情行变体
+// --------------------------------------------
+
+// 全宽模式 - 标签和值垂直排列
+.detail-row--full {
+  display: block;
+
+  .detail-label {
+    display: block;
+    margin-bottom: $spacing-xs;
+    text-align: left;
+  }
+
+  .detail-value {
+    display: block;
+    max-width: 100%;
+    padding-left: 0;
+    text-align: left;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+}
+
+// 居中模式
+.detail-row--center {
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-sm;
+}
+
+// 高亮模式
+.detail-row--highlight {
+  border: 2px solid var(--main-color);
+}
+
+// --------------------------------------------
+// 标签
+// --------------------------------------------
+
+.detail-label {
+  flex-shrink: 0;
+  font-weight: $font-weight-semibold;
+  color: $color-text-secondary;
+
+  &--highlight {
+    color: var(--main-color);
+  }
+}
+
+// --------------------------------------------
+// 值
+// --------------------------------------------
+
+.detail-value {
+  max-width: 80%;
+  color: $color-text-secondary;
+  text-align: right;
+  overflow-wrap: break-word;
+
+  &--highlight {
+    font-weight: $font-weight-semibold;
+    color: var(--main-color);
+  }
+}
+
+// --------------------------------------------
+// 向后兼容的类名
+// --------------------------------------------
+
+.full {
+  @extend .detail-row--full;
+}
+
+.detail-center {
+  @extend .detail-row--center;
+}
+
+.highlight {
+  &.detail-row {
+    @extend .detail-row--highlight;
+  }
+
+  &.detail-label {
+    @extend .detail-label--highlight;
+  }
+
+  &.detail-value {
+    @extend .detail-value--highlight;
+  }
+}

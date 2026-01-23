@@ -1,0 +1,68 @@
+// ============================================
+// 排版基础样式 - Typography
+// ============================================
+
+@use '../abstracts' as *;
+
+// 导入字体
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap');
+
+// 基础排版
+:root {
+  font-family: $font-family-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-normal;
+  color: $color-text-primary;
+}
+
+// 标题样式
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+}
+
+h1 {
+  font-size: $font-size-2xl;
+}
+
+h2 {
+  font-size: $font-size-xl;
+}
+
+h3 {
+  font-size: $font-size-lg;
+}
+
+// 段落
+p {
+  margin-bottom: $spacing-md;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// 小字
+small {
+  font-size: $font-size-sm;
+}
+
+// 强调
+strong,
+b {
+  font-weight: $font-weight-semibold;
+}
+
+// 代码
+code {
+  font-family: 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  background: $color-gray-100;
+  border-radius: $radius-sm;
+}

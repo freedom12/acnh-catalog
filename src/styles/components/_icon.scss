@@ -1,0 +1,25 @@
+// ============================================
+// 图标样式 - Icon Styles
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 内联图标
+// --------------------------------------------
+
+.inline-icon {
+  @include inline-icon;
+
+  &.gray {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(0deg);
+  }
+
+  &.small {
+    height: 1em;
+  }
+
+  &.large {
+    height: 1.5em;
+  }
+}

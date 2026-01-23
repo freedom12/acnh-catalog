@@ -1,0 +1,116 @@
+// ============================================
+// 点选择器组件 - Dot Selector Component
+// 用于: 变体选择、图案选择等
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 选择器容器
+// --------------------------------------------
+
+.dot-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: $spacing-xs;
+}
+
+// --------------------------------------------
+// 单个点
+// --------------------------------------------
+
+.dot-item {
+  @include flex-center;
+  width: 24px;
+  height: 24px;
+  border-radius: $radius-full;
+  font-size: 11px;
+  font-weight: $font-weight-semibold;
+  cursor: pointer;
+  border: 2px solid var(--dot-border);
+  background: var(--dot-bg);
+  color: var(--dot-text);
+  @include transition;
+
+  // 默认主题
+  --dot-bg: #{$color-gray-100};
+  --dot-border: #{$color-gray-300};
+  --dot-text: #{$color-text-secondary};
+  --dot-active-bg: #{$color-gray-300};
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &--active {
+    background: var(--dot-active-bg);
+  }
+}
+
+// --------------------------------------------
+// 点主题色
+// --------------------------------------------
+
+.dot-item--yellow {
+  --dot-bg: #fff9e6;
+  --dot-border: #ffea9e;
+  --dot-text: #b07a00;
+  --dot-active-bg: #ffea9e;
+}
+
+.dot-item--pink {
+  --dot-bg: #fff0f6;
+  --dot-border: #ffd0e6;
+  --dot-text: #b0005a;
+  --dot-active-bg: #ffd0e6;
+}
+
+.dot-item--blue {
+  --dot-bg: #e6f4ff;
+  --dot-border: #bfe8ff;
+  --dot-text: #0b4f80;
+  --dot-active-bg: #2b8cff;
+
+  &--active {
+    color: $color-white;
+    border-color: #1976d2;
+  }
+}
+
+.dot-item--green {
+  --dot-bg: #e8f5e9;
+  --dot-border: #c8e6c9;
+  --dot-text: #{$color-primary};
+  --dot-active-bg: #c8e6c9;
+}
+
+// --------------------------------------------
+// 继承面板主题
+// --------------------------------------------
+
+.panel--yellow .dot-item {
+  --dot-bg: #fff9e6;
+  --dot-border: #ffea9e;
+  --dot-text: #b07a00;
+  --dot-active-bg: #ffea9e;
+}
+
+.panel--pink .dot-item {
+  --dot-bg: #fff0f6;
+  --dot-border: #ffd0e6;
+  --dot-text: #b0005a;
+  --dot-active-bg: #ffd0e6;
+}
+
+.panel--blue .dot-item {
+  --dot-bg: #e6f4ff;
+  --dot-border: #bfe8ff;
+  --dot-text: #0b4f80;
+  --dot-active-bg: #2b8cff;
+
+  &--active {
+    color: $color-white;
+    border-color: #1976d2;
+  }
+}

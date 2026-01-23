@@ -63,64 +63,21 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
       <span class="detail-label">心情</span>
       <span class="detail-value">{{ props.data.mood || "--"}}</span>
     </div>
-    <div class="music-actions">
-      <button @click="(e) => handlePlayClick(e, 'live')" class="play-button">
-        <span class="play-icon">{{ isLivePlaying ? '⏸' : '▶' }}</span> 现场
+    <div class="media-actions">
+      <button @click="(e) => handlePlayClick(e, 'live')" class="media-btn">
+        <span class="media-btn-icon">{{ isLivePlaying ? '⏸' : '▶' }}</span> 现场
       </button>
       <button
         v-if="props.data.hasRadio"
         @click="(e) => handlePlayClick(e, 'radio')"
-        class="play-button play-button--radio"
+        class="media-btn media-btn--radio"
       >
-        <span class="play-icon">{{ isRadioPlaying ? '⏸' : '▶' }}</span> 广播
+        <span class="media-btn-icon">{{ isRadioPlaying ? '⏸' : '▶' }}</span> 广播
       </button>
     </div>
   </BaseCard>
 </template>
 
-<style scoped>
-.music-actions {
-  margin-top: 12px;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-
-.play-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgb(102, 126, 234, 0.3);
-}
-
-.play-button--radio {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  box-shadow: 0 2px 8px rgb(240, 147, 251, 0.3);
-}
-
-.play-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgb(102, 126, 234, 0.4);
-}
-
-.play-button--radio:hover {
-  box-shadow: 0 4px 12px rgb(240, 147, 251, 0.4);
-}
-
-.play-button:active {
-  transform: translateY(0);
-}
-
-.play-icon {
-  font-size: 12px;
-}
+<style scoped lang="scss">
+// 使用全局样式
 </style>

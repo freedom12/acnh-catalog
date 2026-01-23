@@ -1,0 +1,82 @@
+// ============================================
+// 容器布局 - Container Layout
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 筛选器容器
+// --------------------------------------------
+
+.filter-container {
+  @include card-base($radius-2xl, $spacing-md);
+  margin-bottom: $spacing-lg;
+  @include transition;
+}
+
+// --------------------------------------------
+// 操作按钮区
+// --------------------------------------------
+
+.action-buttons {
+  @include flex-row(12px);
+}
+
+// --------------------------------------------
+// 展开内容区
+// --------------------------------------------
+
+.filter-expanded-content {
+  margin-top: $spacing-md;
+  padding-top: $spacing-md;
+  border-top: 1px solid $color-border;
+}
+
+// --------------------------------------------
+// 搜索栏
+// --------------------------------------------
+
+.filter-search {
+  @include flex-row(10px);
+  margin-bottom: 10px;
+}
+
+// --------------------------------------------
+// 筛选选项容器
+// --------------------------------------------
+
+.filter-options {
+  @include flex-center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+// --------------------------------------------
+// 筛选选项组
+// --------------------------------------------
+
+.filter-option-group {
+  @include flex-row(10px);
+  flex-wrap: wrap;
+}
+
+// --------------------------------------------
+// 筛选标签
+// --------------------------------------------
+
+.filter-label {
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  white-space: nowrap;
+  margin: 0;
+}
+
+// --------------------------------------------
+// 筛选按钮容器
+// --------------------------------------------
+
+.filter-buttons {
+  @include flex-row($spacing-sm);
+  flex-wrap: wrap;
+}

@@ -129,94 +129,47 @@ const toggleFurnitureExpanded = () => {
       <span class="detail-value">{{ props.data.saying }}</span>
     </span>
     <!-- 默认物品图片 -->
-    <div v-if="defaultItems.length > 0" class="default-items-section">
-      <div class="default-items-list">
-        <ItemIcon v-for="item in defaultItems" :key="item" :itemId="item" :size="60" />
-      </div>
+    <div v-if="defaultItems.length > 0" class="icon-grid icon-grid--inline">
+      <ItemIcon v-for="item in defaultItems" :key="item" :itemId="item" :size="60" />
     </div>
 
     <!-- 家具列表 -->
-    <div v-if="furnitureList.length > 0" class="furniture-section">
-      <span class="furniture-label" @click="toggleFurnitureExpanded">
-        家具 ({{ furnitureList.length }})
-        <span class="toggle-icon">{{ isFurnitureExpanded ? '▼' : '▶' }}</span>
-      </span>
-      <div v-if="isFurnitureExpanded" class="furniture-list">
-        <div v-for="furniture in furnitureList" :key="furniture">
-          <ItemIcon :itemId="furniture" :size="60" />
+    <div v-if="furnitureList.length > 0" class="panel panel--green">
+      <div class="panel-header" @click="toggleFurnitureExpanded">
+        <span class="panel-title">家具 ({{ furnitureList.length }})</span>
+        <span class="panel-toggle">{{ isFurnitureExpanded ? '▼' : '▶' }}</span>
+      </div>
+      <div v-if="isFurnitureExpanded" class="panel-content">
+        <div class="icon-grid icon-grid--cols-3">
+          <div v-for="furniture in furnitureList" :key="furniture">
+            <ItemIcon :itemId="furniture" :size="60" />
+          </div>
+          <ItemIcon
+            :itemId="props.data.diyWorkbench[0]"
+            :vIndex="props.data.diyWorkbench[1]"
+            :pIndex="props.data.diyWorkbench[2]"
+            :size="60"
+          />
+          <ItemIcon
+            :itemId="props.data.kitchenware[0]"
+            :vIndex="props.data.kitchenware[1]"
+            :pIndex="props.data.kitchenware[2]"
+            :size="60"
+          />
+          <img
+            v-if="props.data.houseImage"
+            :src="processImageUrl(props.data.houseImage)"
+            :alt="'House Image'"
+            :style="{ width: '60px', height: '60px', borderRadius: '4px' }"
+            :key="'houseImage'"
+            loading="lazy"
+          />
         </div>
-        <ItemIcon
-          :itemId="props.data.diyWorkbench[0]"
-          :vIndex="props.data.diyWorkbench[1]"
-          :pIndex="props.data.diyWorkbench[2]"
-          :size="60"
-        />
-        <ItemIcon
-          :itemId="props.data.kitchenware[0]"
-          :vIndex="props.data.kitchenware[1]"
-          :pIndex="props.data.kitchenware[2]"
-          :size="60"
-        />
-        <img
-          v-if="props.data.houseImage"
-          :src="processImageUrl(props.data.houseImage)"
-          :alt="'House Image'"
-          :style="{ width: '60px', height: '60px', borderRadius: '4px' }"
-          :key="'houseImage'"
-          loading="lazy"
-        />
       </div>
     </div>
   </BaseCard>
 </template>
 
 <style scoped lang="scss">
-.default-items-section {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.default-items-list {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-}
-
-.furniture-section {
-  background: #f0f9f0;
-  border-radius: var(--border-radius-xl);
-  padding: 8px;
-  border: 2px solid #c8e6c8;
-}
-
-.furniture-label {
-  font-weight: 600;
-  color: #4a9b4f;
-  font-size: 0.85em;
-  cursor: pointer;
-  user-select: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px 8px;
-  border-radius: var(--border-radius-xl);
-  transition: background-color 0.2s ease;
-}
-
-.furniture-label:hover {
-  background-color: #e8f5e9;
-}
-
-.toggle-icon {
-  font-size: 0.7em;
-  color: #666;
-  transition: transform 0.2s ease;
-}
-
-.furniture-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-top: 8px;
-}
+// 使用全局样式，无需额外定义
 </style>

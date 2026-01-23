@@ -1,0 +1,129 @@
+// ============================================
+// 辅助类 - Helper Classes
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 显示/隐藏
+// --------------------------------------------
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+// --------------------------------------------
+// 文本对齐
+// --------------------------------------------
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+// --------------------------------------------
+// 文本颜色
+// --------------------------------------------
+
+.text-primary {
+  color: $color-primary !important;
+}
+
+.text-success {
+  color: $color-success !important;
+}
+
+.text-warning {
+  color: $color-warning !important;
+}
+
+.text-danger {
+  color: $color-danger !important;
+}
+
+.text-muted {
+  color: $color-text-muted !important;
+}
+
+// --------------------------------------------
+// 间距辅助类
+// --------------------------------------------
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-sm {
+  margin-top: $spacing-sm !important;
+}
+
+.mt-md {
+  margin-top: $spacing-md !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-sm {
+  margin-bottom: $spacing-sm !important;
+}
+
+.mb-md {
+  margin-bottom: $spacing-md !important;
+}
+
+// --------------------------------------------
+// Flex 辅助类
+// --------------------------------------------
+
+.flex {
+  display: flex !important;
+}
+
+.flex-center {
+  @include flex-center;
+}
+
+.flex-between {
+  @include flex-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.gap-sm {
+  gap: $spacing-sm !important;
+}
+
+.gap-md {
+  gap: $spacing-md !important;
+}
+
+// --------------------------------------------
+// 宽度辅助类
+// --------------------------------------------
+
+.w-full {
+  width: 100% !important;
+}
+
+.w-auto {
+  width: auto !important;
+}

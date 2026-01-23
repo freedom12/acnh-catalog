@@ -1,0 +1,310 @@
+// ============================================
+// Mixins - 可复用的样式模式
+// ============================================
+
+@use 'variables' as *;
+
+// --------------------------------------------
+// 布局 Mixins
+// --------------------------------------------
+
+/// Flexbox 居中
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/// Flexbox 列布局居中
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/// Flexbox 两端对齐
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/// Flexbox 行布局带间距
+@mixin flex-row($gap: $spacing-sm) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+}
+
+/// Flexbox 列布局带间距
+@mixin flex-column($gap: $spacing-sm) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+// --------------------------------------------
+// 响应式 Mixins
+// --------------------------------------------
+
+/// 移动端优先的媒体查询
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'sm' {
+    @media (min-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == 'md' {
+    @media (min-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == 'lg' {
+    @media (min-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == 'xl' {
+    @media (min-width: $breakpoint-xl) {
+      @content;
+    }
+  } @else if $breakpoint == '2xl' {
+    @media (min-width: $breakpoint-2xl) {
+      @content;
+    }
+  }
+}
+
+/// 最大宽度媒体查询
+@mixin respond-below($breakpoint) {
+  @if $breakpoint == 'sm' {
+    @media (max-width: #{$breakpoint-sm - 1px}) {
+      @content;
+    }
+  } @else if $breakpoint == 'md' {
+    @media (max-width: #{$breakpoint-md - 1px}) {
+      @content;
+    }
+  } @else if $breakpoint == 'lg' {
+    @media (max-width: #{$breakpoint-lg - 1px}) {
+      @content;
+    }
+  } @else if $breakpoint == 'xl' {
+    @media (max-width: #{$breakpoint-xl - 1px}) {
+      @content;
+    }
+  }
+}
+
+// --------------------------------------------
+// 交互效果 Mixins
+// --------------------------------------------
+
+/// 过渡效果
+@mixin transition($properties: all, $duration: $transition-normal) {
+  transition: $properties $duration;
+}
+
+/// 悬停上浮效果
+@mixin hover-lift($y: -4px, $shadow: $shadow-lg) {
+  @include transition;
+
+  &:hover {
+    transform: translateY($y);
+    box-shadow: $shadow;
+  }
+}
+
+/// 悬停缩放效果
+@mixin hover-scale($scale: 1.05) {
+  @include transition(transform);
+
+  &:hover {
+    transform: scale($scale);
+  }
+}
+
+/// 按钮按下效果
+@mixin active-press {
+  &:active {
+    transform: translateY(0) scale(0.98);
+  }
+}
+
+/// 焦点环
+@mixin focus-ring($color: $color-primary) {
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba($color, 0.3);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color;
+    outline-offset: 2px;
+  }
+}
+
+// --------------------------------------------
+// 视觉效果 Mixins
+// --------------------------------------------
+
+/// 卡片基础样式
+@mixin card-base($radius: $radius-2xl, $padding: $spacing-md) {
+  background: $color-white;
+  border-radius: $radius;
+  padding: $padding;
+  box-shadow: $shadow-sm;
+}
+
+/// 圆形容器
+@mixin circle($size) {
+  width: $size;
+  height: $size;
+  border-radius: $radius-full;
+}
+
+/// 文本截断（单行）
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/// 文本截断（多行）
+@mixin text-clamp($lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/// 绝对定位填充
+@mixin absolute-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/// 绝对定位居中
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// --------------------------------------------
+// 组件 Mixins
+// --------------------------------------------
+
+/// 图标样式
+@mixin inline-icon($size: 1.2em) {
+  height: $size;
+  width: auto;
+  vertical-align: text-bottom;
+  display: inline-block;
+  margin-inline: 2px;
+}
+
+/// 按钮基础样式
+@mixin button-base {
+  @include flex-center;
+  gap: $spacing-sm;
+  padding: $spacing-sm $spacing-md;
+  border: none;
+  border-radius: $radius-2xl;
+  cursor: pointer;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+  white-space: nowrap;
+  @include transition;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+/// 渐变按钮
+@mixin button-gradient($color-start, $color-end) {
+  background: linear-gradient(135deg, $color-start 0%, $color-end 100%);
+  color: $color-white;
+  box-shadow: $shadow-sm;
+
+  &:hover:not(:disabled) {
+    box-shadow: $shadow-md;
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: $shadow-sm;
+  }
+}
+
+/// 输入框基础样式
+@mixin input-base {
+  width: 100%;
+  padding: $spacing-sm $spacing-md;
+  font-size: $font-size-base;
+  border: 2px solid $color-border;
+  border-radius: $radius-2xl;
+  @include transition(border-color);
+
+  &:focus {
+    outline: none;
+    border-color: $color-primary;
+  }
+
+  &::placeholder {
+    color: $color-text-muted;
+  }
+}
+
+// --------------------------------------------
+// 网格 Mixins
+// --------------------------------------------
+
+/// 自适应网格
+@mixin auto-grid($min-width: 250px, $gap: $spacing-lg) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($min-width, 1fr));
+  gap: $gap;
+}
+
+// --------------------------------------------
+// 动画 Mixins
+// --------------------------------------------
+
+/// 闪光动画
+@mixin shine-effect {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.3) 50%,
+      transparent 70%
+    );
+    animation: shine 3s infinite;
+    pointer-events: none;
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}

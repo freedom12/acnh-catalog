@@ -75,18 +75,13 @@ const handleImageIndexChanged = (index: number) => {
         {{ getHobbyName(props.data.hobby) }}
       </span>
     </span>
-    <div class="item-icons">
+    <div class="icon-grid icon-grid--inline">
       <ItemIcon v-if="props.data.umbrella" :itemId="props.data.umbrella" :size="60" />
       <ItemIcon v-if="props.data.umbrellaHHP" :itemId="props.data.umbrellaHHP" :size="60" />
     </div>
   </BaseCard>
 </template>
 
-<style scoped>
-.item-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
+<style scoped lang="scss">
+// 使用全局样式
 </style>

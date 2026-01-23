@@ -1,0 +1,53 @@
+// ============================================
+// 状态样式 - State Styles
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 加载状态
+// --------------------------------------------
+
+.loading {
+  text-align: center;
+  padding: $spacing-2xl;
+  font-size: $font-size-xl;
+  color: $color-text-secondary;
+}
+
+// --------------------------------------------
+// 错误状态
+// --------------------------------------------
+
+.error {
+  text-align: center;
+  padding: $spacing-2xl;
+  font-size: $font-size-xl;
+  color: $color-danger;
+}
+
+// --------------------------------------------
+// 空状态
+// --------------------------------------------
+
+.no-results {
+  @include flex-column-center;
+  padding: 60px $spacing-lg;
+  color: $color-text-muted;
+  text-align: center;
+
+  @include respond-below('md') {
+    padding: $spacing-2xl $spacing-md;
+  }
+}
+
+.no-results-title {
+  color: $color-text-muted;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-xl;
+  margin: 0;
+
+  @include respond-below('md') {
+    font-size: $font-size-base;
+  }
+}

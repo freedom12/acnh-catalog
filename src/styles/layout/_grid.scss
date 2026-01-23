@@ -1,0 +1,49 @@
+// ============================================
+// 网格布局 - Grid Layout
+// ============================================
+
+@use '../abstracts' as *;
+
+// --------------------------------------------
+// 通用网格
+// --------------------------------------------
+
+.generic-grid {
+  @include auto-grid(250px, $spacing-lg);
+  margin: $spacing-lg 0;
+  align-items: start;
+
+  @include respond-below('xl') {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  @include respond-below('md') {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: $spacing-md;
+  }
+
+  @include respond-below('sm') {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: $spacing-sm;
+  }
+}
+
+// --------------------------------------------
+// 紧凑网格
+// --------------------------------------------
+
+.compact-grid {
+  @include auto-grid(180px, $spacing-md);
+  margin: $spacing-md 0;
+  align-items: start;
+}
+
+// --------------------------------------------
+// 宽松网格
+// --------------------------------------------
+
+.loose-grid {
+  @include auto-grid(300px, $spacing-xl);
+  margin: $spacing-xl 0;
+  align-items: start;
+}
