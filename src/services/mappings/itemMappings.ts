@@ -42,7 +42,7 @@ export const ItemTypeNameMap: Record<ItemType, string> = {
   [ItemType.Other]: '其他',
 };
 
-export const versionNameMap: Record<Version, string> = {
+export const VersionNameMap: Record<Version, string> = {
   [Version.The100]: '1.0.0',
   [Version.The110]: '1.1.0',
   [Version.The120]: '1.2.0',
@@ -60,7 +60,7 @@ export const versionNameMap: Record<Version, string> = {
   [Version.The300]: '3.0.0',
 };
 
-export const itemSizeNameMap: Record<ItemSize, string> = {
+export const ItemSizeNameMap: Record<ItemSize, string> = {
   [ItemSize.The05X1]: '0.5x1',
   [ItemSize.The1X05]: '1x0.5',
   [ItemSize.The1X1]: '1x1',
@@ -79,7 +79,7 @@ export const itemSizeNameMap: Record<ItemSize, string> = {
   [ItemSize.The5X5]: '5x5',
 };
 
-export const colorNameMap: Record<Color, string> = {
+export const ColorNameMap: Record<Color, string> = {
   [Color.Red]: '红色',
   [Color.Orange]: '橙色',
   [Color.Yellow]: '黄色',

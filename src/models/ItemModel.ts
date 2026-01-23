@@ -2,9 +2,6 @@ import { type Item, type Variant, type Pattern, type Price } from '../types';
 import { reactive } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import {
-  ItemTypeNameMap,
-  versionNameMap,
-  itemSizeNameMap,
   getHHASeriesName,
   getTagName,
   getSourceName,
@@ -20,6 +17,11 @@ import {
   getCatalogName,
   getImgUrl,
 } from '../services/dataService';
+import {
+  ItemTypeNameMap,
+  VersionNameMap,
+  ItemSizeNameMap,
+} from '../services/mappings/itemMappings';
 import {
   Color,
   Version,
@@ -144,7 +146,7 @@ export class ItemModel {
   }
 
   get versionName(): string {
-    return versionNameMap[this.version] || '未知版本';
+    return VersionNameMap[this.version] || '未知版本';
   }
 
   get size(): ItemSize | undefined {
@@ -153,7 +155,7 @@ export class ItemModel {
 
   get sizeName(): string {
     if (this.size === undefined) return '未知尺寸';
-    return itemSizeNameMap[this.size] || '未知尺寸';
+    return ItemSizeNameMap[this.size] || '未知尺寸';
   }
   get colors(): Color[] {
     return this._data.c;
