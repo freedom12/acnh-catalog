@@ -3,6 +3,7 @@ import { ref, computed } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import { adjustBrightness } from '../utils/common';
 import VersionBadge from './VersionBadge.vue';
+import Checkmark from './Checkmark.vue';
 import type { Version } from '../types/item';
 import { useSelection } from '../composables/useSelection';
 
@@ -43,20 +44,27 @@ const getSelectId = () => {
 
 // 是否启用选择功能
 const isSelectable = computed(() => {
-  return !!(props.getSelectId && props.selectionKey);
+  const result = !!(props.getSelectId && props.selectionKey);
+  return result;
 });
 
-// 勾选相关
-const selectionComposable = isSelectable.value ? useSelection(props.selectionKey!) : null;
+// 勾选相关 - 使用 computed 确保响应式
+const selectionComposable = computed(() => {
+  if (props.selectionKey) {
+    return useSelection(props.selectionKey);
+  }
+  return null;
+});
 
 const isSelected = (id: string | number) => {
-  const result = selectionComposable ? selectionComposable.isSelected(id) : false;
-  return result;
+  const composable = selectionComposable.value;
+  return composable ? composable.isSelected(id) : false;
 };
 
 const toggleSelected = (id: string | number) => {
-  if (selectionComposable) {
-    selectionComposable.toggleSelected(id);
+  const composable = selectionComposable.value;
+  if (composable) {
+    composable.toggleSelected(id);
   }
 };
 
@@ -87,14 +95,6 @@ const getSelectIds = computed(() => {
   const id = getSelectId();
   const ids = Array.isArray(id) ? id : id !== undefined && id !== null ? [id] : [];
   return ids;
-});
-
-// 计算checkmark状态类
-const checkmarkStateClass = computed(() => {
-  if (!isSelectable.value) return '';
-  if (isPartiallySelected.value) return 'partial';
-  if (isItemSelected.value) return 'selected';
-  return 'unselected';
 });
 
 const handleCardClick = (event: Event) => {
@@ -226,12 +226,13 @@ const cardStyles = computed(() => {
     ]"
     :style="cardStyles"
   >
-    <div
+    <Checkmark
       v-if="isSelectable"
-      class="checkmark-click-area"
-      :class="checkmarkStateClass"
-      @click.stop="handleCheckmarkClick"
-    ></div>
+      class="card-checkmark"
+      :selected="isItemSelected"
+      :partial="isPartiallySelected"
+      @click="handleCheckmarkClick"
+    />
     <VersionBadge :version="version" />
     <div class="card-image-container" :class="{ 'large-image': !detailed }">
       <div
@@ -292,17 +293,13 @@ const cardStyles = computed(() => {
       </slot>
       <!-- 多个parts的对号显示 -->
       <div v-if="getSelectIds.length > 1" class="parts-checkmarks">
-        <span
+        <Checkmark
           v-for="partId in getSelectIds"
           :key="partId"
-          class="part-checkmark"
-          :class="
-            isSelected(partId) ? 'part-checkmark--selected' : 'part-checkmark--unselected'
-          "
-          @click.stop="handlePartCheckmarkClick(partId, $event)"
-        >
-          ✓
-        </span>
+          size="small"
+          :selected="isSelected(partId)"
+          @click="handlePartCheckmarkClick(partId, $event)"
+        />
       </div>
       <div v-if="detailed" class="card-details">
         <slot></slot>

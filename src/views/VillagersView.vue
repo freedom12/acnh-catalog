@@ -76,12 +76,14 @@ function onLoad() {
     :datas="filteredData"
     :per-page="100"
     :card-component="VillagerCard"
+    selection-key="villagers"
   >
     <template #filters>
       <FilterSection
         :filters="filters"
         :total-count="allVillagers.length"
         :current-count="filteredData.length"
+        selection-key="villagers"
         @filters-changed="handleFiltersChanged"
       />
     </template>

@@ -21,6 +21,7 @@ import { processImageUrl } from '../utils/imageUtils';
 
 const props = defineProps<{
   data: Villager;
+  selectionKey?: string;
 }>();
 
 const currentImageIndex = ref(0);
@@ -58,6 +59,8 @@ const toggleFurnitureExpanded = () => {
     :displayName="props.data.name"
     :shape="currentShape"
     variant="dark"
+    :selectionKey="props.selectionKey"
+    :getSelectId="() => props.data.id"
     @click="handleClick"
     @image-index-changed="handleImageIndexChanged"
   >
