@@ -6,7 +6,7 @@
         <img
           v-for="col in 7"
           :key="col"
-          :src="getImgUrl(`/img/hhp_island_icon/hhp_island_${row}_${col}_icon.png`)"
+          :src="getImgUrl(`img/hhp_island_icon/hhp_island_${row}_${col}_icon.png`)"
           :alt="`${row}-${col}`"
           class="island-icon"
           :class="{ transparent: row === 4 && col === 4 }"
@@ -29,14 +29,14 @@
             <img
               :src="
                 getImgUrl(
-                  `/img/hhp_island_img/hhp_island_${selectedIsland?.row}_${selectedIsland?.col}_${i}_img.jpg`
+                  `img/hhp_island_img/hhp_island_${selectedIsland?.row}_${selectedIsland?.col}_${i}_img.jpg`
                 )
               "
               :alt="`${selectedIsland?.row}-${selectedIsland?.col} view ${i}`"
               class="modal-image"
             />
             <img
-              :src="getImgUrl(`/img/icon/season_${i}.png`)"
+              :src="getImgUrl(`img/icon/season_${i}.png`)"
               :alt="['春', '夏', '秋', '冬'][i - 1]"
               class="season-icon"
             />
