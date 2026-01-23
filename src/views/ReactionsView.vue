@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useReactionsData } from '../composables/useReactionsData';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import ReactionCard from '../components/ReactionCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 
-const { allReactions, loading, error, loadData } = useReactionsData();
+const { data: allReactions, status, error, loadData } = useReactionsData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allReactions);
 </script>
 

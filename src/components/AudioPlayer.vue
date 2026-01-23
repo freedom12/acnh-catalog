@@ -124,7 +124,7 @@ const handleProgressClick = (e: MouseEvent) => {
   grid-template-columns: auto;
   place-items: center center;
   gap: 0;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
   border-radius: 50%;
   border: 1px solid rgb(255, 255, 255, 0.14);
   box-shadow: var(--shadow-lg);

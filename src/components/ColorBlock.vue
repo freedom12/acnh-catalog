@@ -69,5 +69,6 @@ const blockStyle = computed(() => {
   border: 2px solid #ddd;
   flex-shrink: 0;
   display: inline-block;
+  vertical-align: text-bottom;
 }
 </style>

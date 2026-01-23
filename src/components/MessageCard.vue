@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { MessageCard } from '../types/messagecard';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
 import { selectHighestContrastColor } from '../utils/common';
 import { getPriceWithIcon } from '../services/dataService';
 import { computed } from 'vue';
@@ -35,14 +36,11 @@ const nameColor = computed(() => {
         {{ props.data.name }}
       </h3>
     </template>
-    <div class="detail-row">
-      <span class="detail-label">价格</span>
-      <span
-        class="detail-value highlight"
-        v-html="getPriceWithIcon(props.data.buy) || '不可购买'"
-      >
-      </span>
-    </div>
+    <DetailRow
+      label="价格"
+      :value="getPriceWithIcon(props.data.buy) || '不可购买'"
+      variant="value-highlight"
+    />
   </BaseCard>
 </template>
 

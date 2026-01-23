@@ -7,8 +7,10 @@ import MusicCard from '../components/MusicCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 import { useAudioPlayer } from '../composables/useAudioPlayer';
 import { BASE_PATH } from '../config';
+import type { Music } from '../types/music';
 
-const { allMusic, loading, error, loadData } = useMusicData();
+const { data: allMusic, status, error, loadData } = useMusicData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allMusic);
 const { playTracks } = useAudioPlayer();
 
@@ -19,8 +21,8 @@ const getAudioPath = (name: string, type: 'live' | 'radio') => {
 
 const playAll = (type: 'live' | 'radio') => {
   const tracks = filteredData.value
-    .filter((item) => (type === 'live' ? true : item.hasRadio))
-    .map((item) => ({
+    .filter((item: Music) => (type === 'live' ? true : item.hasRadio))
+    .map((item: Music) => ({
       title: type === 'radio' ? `${item.name} (Radio)` : item.name,
       url: getAudioPath(item.order + '', type),
     }));
@@ -28,7 +30,7 @@ const playAll = (type: 'live' | 'radio') => {
   playTracks(tracks);
 };
 
-const hasAnyRadio = computed(() => filteredData.value.some((item) => item.hasRadio));
+const hasAnyRadio = computed(() => filteredData.value.some((item: Music) => item.hasRadio));
 </script>
 
 <template>

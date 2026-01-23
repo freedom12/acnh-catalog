@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useNPCsData } from '../composables/useNPCsData';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
@@ -7,7 +8,8 @@ import FilterSection from '../components/FilterSection.vue';
 import { useItemsData } from '../composables';
 
 const { loadData: loadItems } = useItemsData();
-const { allNPCs, loading, error, loadData: loadNPCs } = useNPCsData();
+const { data: allNPCs, status, error, loadData: loadNPCs } = useNPCsData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allNPCs);
 function onLoad() {
   loadNPCs();

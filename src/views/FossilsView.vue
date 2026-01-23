@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useFossilsData } from '../composables/useFossilsData';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import FossilCard from '../components/FossilCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 
-const { allFossils, loading, error, loadData } = useFossilsData();
+const { data: allFossils, status, error, loadData } = useFossilsData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allFossils);
 </script>
 

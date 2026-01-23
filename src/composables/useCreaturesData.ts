@@ -1,42 +1,14 @@
-import { ref } from 'vue';
 import { type Creature } from '../types';
-import { loadCreaturesData } from '../services/dataService';
+import { CONFIG } from '../config';
+import { createDataLoader } from './core/useDataLoader';
 
-const allCreatures = ref<Creature[]>([]);
-const loading = ref(false);
-const error = ref('');
-let isDataLoaded = false;
-let loadingPromise: Promise<void> | null = null;
+const loadCreaturesData = async (): Promise<Creature[]> => {
+  const response = await fetch(CONFIG.DATA_FILES.CREATURES);
+  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+  return response.json();
+};
 
-export function useCreaturesData() {
-  const loadData = async (): Promise<void> => {
-    if (isDataLoaded) {
-      return;
-    }
-    if (loadingPromise) {
-      return loadingPromise;
-    }
-    loadingPromise = (async () => {
-      try {
-        loading.value = true;
-        error.value = '';
-        allCreatures.value = await loadCreaturesData();
-        isDataLoaded = true;
-      } catch (err) {
-        error.value = '加载数据失败';
-        console.error('加载数据失败:', err);
-        loadingPromise = null;
-      } finally {
-        loading.value = false;
-      }
-    })();
-    return loadingPromise;
-  };
-
-  return {
-    allCreatures,
-    loading,
-    error,
-    loadData,
-  };
-}
+export const useCreaturesData = createDataLoader<Creature>({
+  loader: loadCreaturesData,
+  errorMessage: '加载生物数据失败',
+});

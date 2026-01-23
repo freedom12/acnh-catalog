@@ -2,6 +2,8 @@
 import type { Creature } from '../types/creature';
 import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import { computed } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import {
@@ -47,7 +49,6 @@ const hourToString = (hour: number): string => {
   return `${hour - 12}PM`;
 };
 
-// 获取时间信息
 const getTime = (creature: Creature): string => {
   const hemisphere = creature.hemispheres[props.hemisphere];
   const hours = hemisphere.hours;
@@ -61,12 +62,18 @@ const getTime = (creature: Creature): string => {
     if (sortedHours[i] === end + 1) {
       end = sortedHours[i]!;
     } else {
-      ranges.push(start === end ? hourToString(start) : `${hourToString(start)}-${hourToString(end)}`);
+      ranges.push(
+        start === end
+          ? hourToString(start)
+          : `${hourToString(start)}-${hourToString(end)}`
+      );
       start = sortedHours[i]!;
       end = sortedHours[i]!;
     }
   }
-  ranges.push(start === end ? hourToString(start) : `${hourToString(start)}-${hourToString(end)}`);
+  ranges.push(
+    start === end ? hourToString(start) : `${hourToString(start)}-${hourToString(end)}`
+  );
   return ranges.join(', ');
 };
 
@@ -74,40 +81,33 @@ const handleClick = () => {
   window.open(`https://nookipedia.com/wiki/${props.data.rawName}`, '_blank');
 };
 
-// 根据生物类型选择颜色主题
 const colorClass = computed(() => {
   switch (props.data.type) {
-    case 1: // Insects
+    case 1:
       return 'card--red';
-    case 2: // Fish
+    case 2:
       return 'card--blue';
-    case 3: // SeaCreatures
+    case 3:
       return 'card--yellow';
     default:
       return 'card--green';
   }
 });
 
-// 当前月份
 const currentMonth = new Date().getMonth() + 1;
-
-// 当前小时（0-23）
 const currentHour = new Date().getHours();
 
-// 检查当前月份是否可捕捉
 const isCurrentMonthAvailable = computed(() => {
   const hemisphere = props.data.hemispheres[props.hemisphere];
   return hemisphere.months.includes(currentMonth);
 });
 
-// 检查当前时间是否可用（仅当月份可用时）
 const isCurrentTimeAvailable = computed(() => {
   if (!isCurrentMonthAvailable.value) return false;
   const hemisphere = props.data.hemispheres[props.hemisphere];
   return hemisphere.hours.includes(currentHour);
 });
 
-// 检查当前月份是否可捕捉
 const variant = computed(() => {
   return isCurrentTimeAvailable.value ? 'dark' : 'light';
 });
@@ -125,70 +125,37 @@ const variant = computed(() => {
     shape="rounded"
     @click="handleClick"
   >
-    <div class="detail-row">
-      <span class="detail-label">分类</span>
-      <span class="detail-value">
-        {{ getCreatureTypeName(props.data.type) }}
-        <img
-          :src="getCreatureTypeIcon(props.data.type)"
-          :alt="getCreatureTypeName(props.data.type)"
-          class="inline-icon gray"
-          loading="lazy"
-        />
-      </span>
-    </div>
-    <div class="detail-row" :class="{ highlight: isCurrentMonthAvailable }">
-      <span class="detail-label">月份</span>
-      <span class="detail-value" :class="{ highlight: isCurrentMonthAvailable }">{{
-        getMonths(props.data)
-      }}</span>
-    </div>
-    <div class="detail-row" :class="{ highlight: isCurrentTimeAvailable }">
-      <span class="detail-label">时间</span>
-      <span class="detail-value" :class="{ highlight: isCurrentTimeAvailable }">{{
-        getTime(props.data)
-      }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">解锁</span>
-      <span class="detail-value">{{ props.data.unlock }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">出现概率</span>
-      <span class="detail-value">{{ props.data.rate }}</span>
-    </div>
-    <div v-if="props.data.shadowSize" class="detail-row">
-      <span class="detail-label">阴影尺寸</span>
-      <span class="detail-value">{{ props.data.shadowSize }}</span>
-    </div>
-    <div v-if="props.data.difficulty" class="detail-row">
-      <span class="detail-label">捕获难度</span>
-      <span class="detail-value">{{ props.data.difficulty }}</span>
-    </div>
-    <div v-if="props.data.weather" class="detail-row">
-      <span class="detail-label">天气</span>
-      <span class="detail-value">{{ props.data.weather }}</span>
-    </div>
-    <div v-if="props.data.whereHow" class="detail-row full">
-      <span class="detail-label">地点</span>
-      <span class="detail-value">{{ props.data.whereHow }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">捕获台词</span>
-      <span class="detail-value">{{ props.data.catchPhrase }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">描述</span>
-      <span class="detail-value">{{ props.data.desc }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">尺寸</span>
-      <span class="detail-value" v-html="getSizeWithIcon(props.data.size)"> </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell)">
-      </span>
-    </div>
+    <DetailRow label="分类">
+      {{ getCreatureTypeName(props.data.type) }}
+      <InlineIcon
+        :src="getCreatureTypeIcon(props.data.type)"
+        :alt="getCreatureTypeName(props.data.type)"
+        gray
+      />
+    </DetailRow>
+    <DetailRow
+      label="月份"
+      :value="getMonths(props.data)"
+      :variant="isCurrentMonthAvailable ? 'bg-highlight value-highlight' : ''"
+    />
+    <DetailRow
+      label="时间"
+      :value="getTime(props.data)"
+      :variant="isCurrentTimeAvailable ? 'bg-highlight value-highlight' : ''"
+    />
+    <DetailRow label="解锁" :value="props.data.unlock" />
+    <DetailRow label="出现概率" :value="props.data.rate" />
+    <DetailRow v-if="props.data.shadowSize" label="阴影尺寸" :value="props.data.shadowSize" />
+    <DetailRow v-if="props.data.difficulty" label="捕获难度" :value="props.data.difficulty" />
+    <DetailRow v-if="props.data.weather" label="天气" :value="props.data.weather" />
+    <DetailRow v-if="props.data.whereHow" label="地点" :value="props.data.whereHow" layout="full" />
+    <DetailRow label="捕获台词" :value="props.data.catchPhrase" layout="full" />
+    <DetailRow label="描述" :value="props.data.desc" layout="full" />
+    <DetailRow label="尺寸" :value="getSizeWithIcon(props.data.size)" />
+    <DetailRow
+      :label="UI_TEXT.LABELS.PRICE"
+      :value="getPriceWithIcon(props.data.sell)"
+      variant="value-highlight"
+    />
   </BaseCard>
 </template>

@@ -1,35 +1,12 @@
-import { ref, type Ref } from 'vue';
 import type { Reaction } from '../types';
-import { loadReactionsData } from '../services/dataService';
+import { CONFIG } from '../config';
+import { createDataLoader } from './core/useDataLoader';
 
-export interface UseReactionsDataReturn {
-  allReactions: Ref<Reaction[]>;
-  loading: Ref<boolean>;
-  error: Ref<string>;
-  loadData: () => Promise<void>;
-}
-
-export function useReactionsData(): UseReactionsDataReturn {
-  const allReactions = ref<Reaction[]>([]);
-  const loading = ref(false);
-  const error = ref('');
-  const loadData = async (): Promise<void> => {
-    try {
-      loading.value = true;
-      error.value = '';
-      allReactions.value = await loadReactionsData();
-    } catch (err) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', err);
-    } finally {
-      loading.value = false;
-    }
-  };
-
-  return {
-    allReactions,
-    loading,
-    error,
-    loadData,
-  };
-}
+export const useReactionsData = createDataLoader<Reaction>({
+  loader: async () => {
+    const response = await fetch(CONFIG.DATA_FILES.REACTIONS);
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return response.json() as Promise<Reaction[]>;
+  },
+  errorMessage: '加载表情数据失败',
+});

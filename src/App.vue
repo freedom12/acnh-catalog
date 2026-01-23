@@ -116,7 +116,7 @@ onUnmounted(() => {
   width: 50px;
   height: 50px;
   border: 4px solid #f3f3f3;
-  border-top: 4px solid var(--primary-color);
+  border-top: 4px solid var(--color-primary);
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: var(--spacing-md);
@@ -134,7 +134,7 @@ onUnmounted(() => {
 
 .error-container button {
   padding: var(--spacing-sm) var(--spacing-md);
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
   color: white;
   border: none;
   border-radius: 4px;
@@ -143,7 +143,7 @@ onUnmounted(() => {
 }
 
 .error-container button:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--color-primary-hover);
 }
 
 .container {
@@ -158,7 +158,7 @@ header {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 2.5em;
   margin: 0;
 }
@@ -169,7 +169,7 @@ h1 {
   right: var(--spacing-xl);
   width: 50px;
   height: 50px;
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
   color: white;
   border: none;
   border-radius: 50%;
@@ -181,7 +181,7 @@ h1 {
 }
 
 .back-to-top:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--color-primary-hover);
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }

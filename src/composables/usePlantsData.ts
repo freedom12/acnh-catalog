@@ -1,29 +1,14 @@
-import { ref } from 'vue';
 import type { Plant } from '../types/plant';
-import { loadPlantsData } from '../services/dataService';
+import { CONFIG } from '../config';
+import { createDataLoader } from './core/useDataLoader';
 
-export function usePlantsData() {
-  const allPlants = ref<Plant[]>([]);
-  const loading = ref(false);
-  const error = ref('');
+const loadPlantsData = async (): Promise<Plant[]> => {
+  const response = await fetch(CONFIG.DATA_FILES.PLANTS);
+  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+  return response.json();
+};
 
-  const loadData = async () => {
-    try {
-      loading.value = true;
-      error.value = '';
-      allPlants.value = await loadPlantsData();
-    } catch (e) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', e);
-    } finally {
-      loading.value = false;
-    }
-  };
-
-  return {
-    allPlants,
-    loading,
-    error,
-    loadData,
-  };
-}
+export const usePlantsData = createDataLoader<Plant>({
+  loader: loadPlantsData,
+  errorMessage: '加载植物数据失败',
+});

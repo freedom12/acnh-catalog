@@ -2,6 +2,8 @@
 import { ref, computed } from 'vue';
 import type { NPC } from '../types/npc';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import ItemIcon from './ItemIcon.vue';
 import {
   getGenderIcon,
@@ -45,43 +47,25 @@ const handleImageIndexChanged = (index: number) => {
         {{ props.data.name }}
       </h3>
     </template>
-    <span class="detail-row detail-center">
-      <span class="detail-label">
-        {{ props.data.id }}
-        <img
-          :src="getGenderIcon(props.data.gender)"
-          :alt="getGenderName(props.data.gender)"
-          class="inline-icon"
-          loading="lazy"
-        />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">生日</span>
-      <span class="detail-value">
-        {{ props.data.birthday }}
-        <img
-          class="inline-icon"
-          :src="getConstellationIcon(getConstellation(props.data.birthday))"
-          :alt="getConstellationName(getConstellation(props.data.birthday))"
-          :title="getConstellationName(getConstellation(props.data.birthday))"
-          loading="lazy"
-        />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">爱好</span>
-      <span class="detail-value">
-        {{ getHobbyName(props.data.hobby) }}
-      </span>
-    </span>
+    <DetailRow layout="center">
+      {{ props.data.id }}
+      <InlineIcon
+        :src="getGenderIcon(props.data.gender)"
+        :alt="getGenderName(props.data.gender)"
+      />
+    </DetailRow>
+    <DetailRow label="生日">
+      {{ props.data.birthday }}
+      <InlineIcon
+        :src="getConstellationIcon(getConstellation(props.data.birthday))"
+        :alt="getConstellationName(getConstellation(props.data.birthday))"
+        :title="getConstellationName(getConstellation(props.data.birthday))"
+      />
+    </DetailRow>
+    <DetailRow label="爱好" :value="getHobbyName(props.data.hobby)" />
     <div class="icon-grid icon-grid--inline">
       <ItemIcon v-if="props.data.umbrella" :itemId="props.data.umbrella" :size="60" />
       <ItemIcon v-if="props.data.umbrellaHHP" :itemId="props.data.umbrellaHHP" :size="60" />
     </div>
   </BaseCard>
 </template>
-
-<style scoped lang="scss">
-// 使用全局样式
-</style>

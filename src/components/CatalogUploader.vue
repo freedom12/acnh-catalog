@@ -106,17 +106,17 @@ const handleFileChange = async (event: Event) => {
 
 .upload-status {
   padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--radius-sm);
   font-size: 13px;
   background-color: var(--gradient-success-light);
   color: #2e7d32;
-  border: 1px solid var(--success-color);
+  border: 1px solid var(--color-success);
   white-space: nowrap;
 }
 
 .upload-status.error {
   background-color: #ffebee;
   color: #c62828;
-  border: 1px solid var(--danger-color);
+  border: 1px solid var(--color-danger);
 }
 </style>

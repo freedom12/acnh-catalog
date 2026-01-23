@@ -2,9 +2,9 @@
 import type { Reaction } from '../types/reaction';
 import { UI_TEXT } from '../constants';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
 import ActivityList from './ActivityList.vue';
 import SourceList from './SourceList.vue';
-
 
 const props = defineProps<{
   data: Reaction;
@@ -28,20 +28,11 @@ const handleClick = () => {
     :getSelectId="() => props.data.id"
     @click="handleClick"
   >
-    <div class="detail-row">
-      <span class="detail-label">活动</span>
-      <ActivityList
-        class="detail-value"
-        :activitys="props.data.acts"
-      />
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-      <SourceList
-        class="detail-value"
-        :sources="props.data.source"
-        :sourceNotes="props.data.sourceNotes"
-      />
-    </div>
+    <DetailRow label="活动">
+      <ActivityList :activitys="props.data.acts" />
+    </DetailRow>
+    <DetailRow :label="UI_TEXT.LABELS.SOURCE">
+      <SourceList :sources="props.data.source" :sourceNotes="props.data.sourceNotes" />
+    </DetailRow>
   </BaseCard>
 </template>

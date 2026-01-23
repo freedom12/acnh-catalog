@@ -1,28 +1,14 @@
-import { ref } from 'vue';
 import type { Music } from '../types/music';
-import { loadMusicData } from '../services/dataService';
+import { CONFIG } from '../config';
+import { createDataLoader } from './core/useDataLoader';
 
-export function useMusicData() {
-  const allMusic = ref<Music[]>([]);
-  const loading = ref(false);
-  const error = ref('');
-  const loadData = async () => {
-    try {
-      loading.value = true;
-      error.value = '';
-      allMusic.value = await loadMusicData();
-    } catch (e) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', e);
-    } finally {
-      loading.value = false;
-    }
-  };
+const loadMusicData = async (): Promise<Music[]> => {
+  const response = await fetch(CONFIG.DATA_FILES.MUSICS);
+  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+  return response.json();
+};
 
-  return {
-    allMusic,
-    loading,
-    error,
-    loadData,
-  };
-}
+export const useMusicData = createDataLoader<Music>({
+  loader: loadMusicData,
+  errorMessage: '加载音乐数据失败',
+});

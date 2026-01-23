@@ -6,6 +6,7 @@ import {
 } from '../services/dataService';
 import type { Artwork } from '../types/artwork';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
 import { computed, ref } from 'vue';
 import { processImageUrl } from '../utils/imageUtils';
 import { Teleport } from 'vue';
@@ -99,38 +100,20 @@ const handleTitleClick = () => {
         <span class="image-title">{{ img.title }}</span>
       </div>
     </div>
-    <div class="detail-row detail-center">
+    <DetailRow layout="center">
       <span class="clickable" @click="handleTitleClick">{{ props.data.title }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">艺术家</span>
-      <span class="detail-value">{{ props.data.artist }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">年代</span>
-      <span class="detail-value">{{ props.data.age }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">技法</span>
-      <span class="detail-value">{{ props.data.technique }}</span>
-    </div>
-    <div class="detail-row full">
-      <span class="detail-label">描述</span>
-      <span class="detail-value">{{ props.data.desc }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">分类</span>
-      <span class="detail-value">{{ getItemTypeName(props.data.itemType) }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">尺寸</span>
-      <span class="detail-value" v-html="getSizeWithIcon(props.data.size)"> </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell)">
-      </span>
-    </div>
+    </DetailRow>
+    <DetailRow label="艺术家" :value="props.data.artist" layout="full" />
+    <DetailRow label="年代" :value="props.data.age" layout="full" />
+    <DetailRow label="技法" :value="props.data.technique" layout="full" />
+    <DetailRow label="描述" :value="props.data.desc" layout="full" />
+    <DetailRow label="分类" :value="getItemTypeName(props.data.itemType)" />
+    <DetailRow label="尺寸" :value="getSizeWithIcon(props.data.size)" />
+    <DetailRow
+      :label="UI_TEXT.LABELS.PRICE"
+      :value="getPriceWithIcon(props.data.sell)"
+      variant="value-highlight"
+    />
 
     <!-- 预览窗口 -->
     <Teleport to="body">
@@ -140,7 +123,6 @@ const handleTitleClick = () => {
         @click="handleClosePreview"
       >
         <div class="preview-content" @click.stop>
-          <!-- 上一张按钮 -->
           <button
             v-if="imgs.findIndex((img) => img.id === hoveredImageId) > 0"
             class="nav-btn nav-btn-prev"
@@ -149,7 +131,6 @@ const handleTitleClick = () => {
           >
             ‹
           </button>
-
           <img
             :src="
               imgs.find((img) => img.id === hoveredImageId)?.texture ||
@@ -159,13 +140,9 @@ const handleTitleClick = () => {
             class="preview-image"
             loading="lazy"
           />
-
-          <!-- 预览标题 -->
           <div class="preview-title">
             {{ imgs.find((img) => img.id === hoveredImageId)?.title }}
           </div>
-
-          <!-- 下一张按钮 -->
           <button
             v-if="imgs.findIndex((img) => img.id === hoveredImageId) < imgs.length - 1"
             class="nav-btn nav-btn-next"
@@ -202,7 +179,7 @@ const handleTitleClick = () => {
   width: 40px;
   height: 40px;
   object-fit: cover;
-  border-radius: var(--border-radius-md);
+  border-radius: var(--radius-md);
   border: 2px solid #ddd;
   padding: 3px;
 }
@@ -231,18 +208,6 @@ const handleTitleClick = () => {
   color: #0056b3;
 }
 
-.hover-preview {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10000;
-  background: white;
-  border-radius: 8px;
-  padding: 8px;
-  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.3);
-}
-
 .preview-overlay {
   position: fixed;
   top: 0;
@@ -258,7 +223,7 @@ const handleTitleClick = () => {
 
 .preview-content {
   background: white;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   padding: 25px;
   box-shadow: 0 4px 20px rgb(0, 0, 0, 0.3);
   max-width: 90vw;

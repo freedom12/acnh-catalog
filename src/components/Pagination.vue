@@ -69,6 +69,6 @@ const showPagination = computed(() => {
 .page-info {
   margin: 0 15px;
   font-weight: 600;
-  color: var(--secondary-color);
+  color: var(--color-text-secondary);
 }
 </style>

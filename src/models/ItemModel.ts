@@ -41,7 +41,7 @@ import { RecipeType, type Recipe } from '../types/recipe';
 import { useRecipesData } from '../composables/useRecipesData';
 import { useActivitysData } from '../composables/useActivitysData';
 
-const { recipeIdMap } = useRecipesData();
+const { idMap: recipeIdMap } = useRecipesData();
 const { getGroupsByIds, getGroupName } = useActivitysData();
 export class ItemModel {
   private readonly _data: Item;

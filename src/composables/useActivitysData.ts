@@ -1,10 +1,6 @@
 import { ref } from 'vue';
-import {
-  loadActivityData,
-  loadTranslations,
-  translationsCache,
-  getImgUrl,
-} from '../services/dataService';
+import { loadTranslations, translationsCache, getImgUrl } from '../services/dataService';
+import { CONFIG } from '../config';
 import type { Activity } from '../types/activity';
 
 const allActivitys = ref<Activity[]>([]);
@@ -35,7 +31,9 @@ export function useActivitysData() {
         loading.value = true;
         error.value = '';
 
-        allActivitys.value = await loadActivityData();
+        const response = await fetch(CONFIG.DATA_FILES.ACTIVITYS);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        allActivitys.value = (await response.json()) as Activity[];
         await loadTranslations();
         allActivitys.value.forEach((activity) => {
           if (!activityGroupMap.value[activity.group]) {

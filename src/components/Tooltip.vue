@@ -21,7 +21,7 @@ const { visible, position, content, maxWidth } = useTooltip();
   background: rgb(0, 0, 0, 0.9);
   color: #fff;
   font-size: 12px;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   white-space: pre-wrap;
   overflow-wrap: break-word;
   pointer-events: none;

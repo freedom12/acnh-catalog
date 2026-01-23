@@ -5,10 +5,11 @@ import PlantCard from '../components/PlantCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 import { usePlantsData } from '../composables/usePlantsData';
 import { useFilter } from '../composables/useFilter';
-import { PlantType } from '../types/plant';
+import { PlantType, type Plant } from '../types/plant';
 import { getPlantTypeName } from '../services/dataService';
 
-const { allPlants, loading, error, loadData } = usePlantsData();
+const { data: allPlants, status, error, loadData } = usePlantsData();
+const loading = computed(() => status.value === 'loading');
 
 const filters = computed(() => [
   {
@@ -16,7 +17,7 @@ const filters = computed(() => [
     value: 'type',
     options: Object.values(PlantType).map((type) => ({
       value: type,
-      label: `${getPlantTypeName(type)} (${allPlants.value.filter((p) => p.type === type).length})`,
+      label: `${getPlantTypeName(type)} (${allPlants.value.filter((p: Plant) => p.type === type).length})`,
     })),
   },
 ]);

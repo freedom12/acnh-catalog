@@ -6,10 +6,11 @@ import DataView from '../components/DataView.vue';
 import CreatureCard from '../components/CreatureCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 import ToggleGroup from '../components/ToggleGroup.vue';
-import { CreatureType } from '../types';
+import { CreatureType, type Creature } from '../types';
 import { getCreatureTypeName } from '../services/dataService';
 
-const { allCreatures, loading, error, loadData } = useCreaturesData();
+const { data: allCreatures, status, error, loadData } = useCreaturesData();
+const loading = computed(() => status.value === 'loading');
 
 // 当前选择的半球（默认北半球）
 const selectedHemisphere = ref<'north' | 'south'>(
@@ -37,7 +38,7 @@ const filters = computed(() => [
     options: Object.values(CreatureType).map((type) => ({
       value: type,
       label: `${getCreatureTypeName(type)} (${
-        allCreatures.value.filter((r) => r.type === type).length
+        allCreatures.value.filter((r: Creature) => r.type === type).length
       })`,
     })),
   },

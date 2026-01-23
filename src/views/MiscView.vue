@@ -468,14 +468,14 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   margin-bottom: 40px;
   padding: 20px;
   background: #f8f9fb;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   box-shadow: 0 4px 12px rgb(0, 0, 0, 0.06);
 }
 
 .section h2 {
   margin-bottom: 20px;
   font-size: 1.5em;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .section-header {
@@ -484,7 +484,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   align-items: center;
   margin-bottom: 20px;
   font-size: 1.5em;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .toggle-icon {
@@ -518,7 +518,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   width: 150px;
   height: 150px;
   border: 3px solid #ddd;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   padding: 10px;
   background: white;
   box-sizing: border-box;
@@ -533,7 +533,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
 .misc-item.clickable:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgb(0, 0, 0, 0.15);
-  border-color: var(--primary-color);
+  border-color: var(--color-primary);
 }
 
 .misc-item.unclickable {
@@ -569,7 +569,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   font-weight: 500;
   background: #ddd;
   padding: 4px 20px;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
 }
 
 .group-header {
@@ -578,7 +578,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
   align-items: center;
   margin: 15px 0 10px;
   font-size: 1.2em;
-  color: var(--secondary-color);
+  color: var(--color-text-secondary);
   font-weight: 600;
 }
 
@@ -602,7 +602,7 @@ const playSoundscape = (soundscape: { name: string; file: string; audio: string 
 .modal-content {
   background: white;
   padding: 20px;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   max-width: 400px;
   width: 90%;
   max-height: 80vh;

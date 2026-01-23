@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useMessageCardsData } from '../composables/useMessageCardsData';
 import { useFilter } from '../composables/useFilter';
 import DataView from '../components/DataView.vue';
 import MessageCard from '../components/MessageCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 
-const { allMessageCards, loading, error, loadData } = useMessageCardsData();
+const { data: allMessageCards, status, error, loadData } = useMessageCardsData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allMessageCards);
 </script>
 

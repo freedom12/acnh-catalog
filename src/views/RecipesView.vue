@@ -3,13 +3,14 @@ import { computed } from 'vue';
 import { useRecipesData } from '../composables/useRecipesData';
 import { useItemsData } from '../composables/useItemsData';
 import { useFilter } from '../composables/useFilter';
-import { RecipeType } from '../types/recipe';
+import { RecipeType, type Recipe } from '../types/recipe';
 import DataView from '../components/DataView.vue';
 import RecipeCard from '../components/RecipeCard.vue';
 import FilterSection from '../components/FilterSection.vue';
 import { getRecipeTypeName } from '../services/dataService';
 
-const { allRecipes, loading, error, loadData } = useRecipesData();
+const { data: allRecipes, status, error, loadData } = useRecipesData();
+const loading = computed(() => status.value === 'loading');
 const { loadData: loadItemsData } = useItemsData();
 const filters = computed(() => [
   {
@@ -18,7 +19,7 @@ const filters = computed(() => [
     options: Object.values(RecipeType).map((type) => ({
       value: type,
       label: `${getRecipeTypeName(type)} (${
-        allRecipes.value.filter((r) => r.type === type).length
+        allRecipes.value.filter((r: Recipe) => r.type === type).length
       })`,
     })),
   },

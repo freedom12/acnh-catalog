@@ -2,6 +2,8 @@
 import { ref, computed } from 'vue';
 import type { Villager } from '../types/villager';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import ItemIcon from './ItemIcon.vue';
 import {
   getClothingStyleName,
@@ -69,65 +71,41 @@ const toggleFurnitureExpanded = () => {
         {{ props.data.name }}
       </h3>
     </template>
-    <span class="detail-row detail-center">
-      <span class="detail-label">
-        {{ props.data.id }}
-        <img
-          :src="getGenderIcon(props.data.gender)"
-          :alt="getGenderName(props.data.gender)"
-          class="inline-icon"
-          loading="lazy"
-        />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">物种</span>
-      <span class="detail-value">
-        {{ getSpeciesName(props.data.species) }}
-        <img
-          :src="getSpeciesIcon(props.data.species)"
-          :alt="getSpeciesName(props.data.species)"
-          :title="getSpeciesName(props.data.species)"
-          class="inline-icon gray"
-          loading="lazy"
-        />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">生日</span>
-      <span class="detail-value">
-        {{ props.data.birthday }}
-        <img
-          class="inline-icon"
-          :src="getConstellationIcon(getConstellation(props.data.birthday))"
-          :alt="getConstellationName(getConstellation(props.data.birthday))"
-          :title="getConstellationName(getConstellation(props.data.birthday))"
-          loading="lazy"
-        />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">性格/爱好</span>
-      <span class="detail-value">
-        {{ getPersonalityName(props.data.personality) }}({{ props.data.subtype }}) /
-        {{ getHobbyName(props.data.hobby) }}
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">喜爱服饰</span>
-      <span class="detail-value">
-        {{ joinArray(props.data.styles.map(getClothingStyleName)) }}
-        <ColorBlock :colors="props.data.colors" :size="16" />
-      </span>
-    </span>
-    <span class="detail-row">
-      <span class="detail-label">口头禅</span>
-      <span class="detail-value">{{ props.data.catchphrase }}</span>
-    </span>
-    <span class="detail-row full">
-      <span class="detail-label">个性签名</span>
-      <span class="detail-value">{{ props.data.saying }}</span>
-    </span>
+    <DetailRow layout="center">
+      {{ props.data.id }}
+      <InlineIcon
+        :src="getGenderIcon(props.data.gender)"
+        :alt="getGenderName(props.data.gender)"
+      />
+    </DetailRow>
+    <DetailRow label="物种">
+      {{ getSpeciesName(props.data.species) }}
+      <InlineIcon
+        :src="getSpeciesIcon(props.data.species)"
+        :alt="getSpeciesName(props.data.species)"
+        :title="getSpeciesName(props.data.species)"
+        gray
+      />
+    </DetailRow>
+    <DetailRow label="生日">
+      {{ props.data.birthday }}
+      <InlineIcon
+        :src="getConstellationIcon(getConstellation(props.data.birthday))"
+        :alt="getConstellationName(getConstellation(props.data.birthday))"
+        :title="getConstellationName(getConstellation(props.data.birthday))"
+      />
+    </DetailRow>
+    <DetailRow
+      label="性格/爱好"
+      :value="`${getPersonalityName(props.data.personality)}(${props.data.subtype}) / ${getHobbyName(props.data.hobby)}`"
+    />
+    <DetailRow label="喜爱服饰">
+      {{ joinArray(props.data.styles.map(getClothingStyleName)) }}
+      <ColorBlock :colors="props.data.colors" :size="16" />
+    </DetailRow>
+    <DetailRow label="口头禅" :value="props.data.catchphrase" />
+    <DetailRow label="个性签名" :value="props.data.saying" layout="full" />
+
     <!-- 默认物品图片 -->
     <div v-if="defaultItems.length > 0" class="icon-grid icon-grid--inline">
       <ItemIcon v-for="item in defaultItems" :key="item" :itemId="item" :size="60" />
@@ -169,7 +147,3 @@ const toggleFurnitureExpanded = () => {
     </div>
   </BaseCard>
 </template>
-
-<style scoped lang="scss">
-// 使用全局样式，无需额外定义
-</style>

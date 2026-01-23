@@ -108,7 +108,7 @@ const handleClick = () => {
   align-items: center;
   gap: 4px;
   background: white;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   transition: all 0.2s ease;
 
   &.item-icon-clickable {
@@ -122,7 +122,7 @@ const handleClick = () => {
   left: 50%;
   transform: translate(-50%, -50%);
   background: white;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
   align-items: center;

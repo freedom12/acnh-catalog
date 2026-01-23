@@ -9,6 +9,8 @@ import {
 } from '../services/dataService';
 import { ItemModel } from '../models';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import ColorBlock from './ColorBlock.vue';
 import SourceList from './SourceList.vue';
 import ActivityList from './ActivityList.vue';
@@ -80,82 +82,55 @@ const handleClick = () => {
     v-bind="$attrs"
     @click="handleClick"
   >
-    <div class="detail-row detail-center">
-      <span class="detail-label"> ID: {{ displayId }} </span>
-      <img
+    <DetailRow layout="center">
+      ID: {{ displayId }}
+      <InlineIcon
         v-if="itemModel.size"
         :src="getSizeIcon(itemModel.size)"
         :title="itemModel.sizeName"
-        class="inline-icon"
       />
       <ColorBlock :colors="displayColors" :size="16" />
-      <img
+      <InlineIcon
         v-if="itemModel.catalog !== Catalog.NotInCatalog"
         :src="getCatalogIcon(itemModel.catalog)"
         :title="itemModel.catalogName"
-        class="inline-icon gray"
+        gray
       />
-      <img
+      <InlineIcon
         v-if="itemModel.canDIY"
         :src="getImgUrl('img/icon/diy_1.png')"
         title="可DIY"
-        class="inline-icon"
       />
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">分类</span>
-      <span class="detail-value">
-        {{ itemModel.typeNameShort }}
-        <img
-          :src="getItemTypeIcon(itemModel.type)"
-          :alt="itemModel.typeName"
-          :title="itemModel.typeName"
-          class="inline-icon gray"
-          loading="lazy"
-        />
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">HHA分数</span>
-      <span class="detail-value">{{ itemModel.hhaPoints || '--' }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">服饰风格</span>
-      <span class="detail-value">{{ joinArray(itemModel.clothingStyleNames) }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">服饰主题</span>
-      <span class="detail-value">{{ joinArray(itemModel.clothingThemeNames) }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">活动</span>
-      <ActivityList class="detail-value" :activitys="itemModel.activitys" />
-    </div>
-    <div class="detail-row source-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-      <SourceList
-        class="detail-value"
-        :sources="itemModel.sources"
-        :sourceNotes="itemModel.sourceNotes"
+    </DetailRow>
+    <DetailRow label="分类">
+      {{ itemModel.typeNameShort }}
+      <InlineIcon
+        :src="getItemTypeIcon(itemModel.type)"
+        :alt="itemModel.typeName"
+        :title="itemModel.typeName"
+        gray
       />
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">购买</span>
-      <span class="detail-value highlight">
-        <template v-if="itemModel.buyPrices.length > 0">
-          <div
-            v-for="(priceStr, index) in itemModel.buyPriceStrs"
-            :key="index"
-            v-html="priceStr"
-          ></div>
-        </template>
-        <div v-else>不可购买</div>
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight" v-html="itemModel.sellPriceStr"> </span>
-    </div>
+    </DetailRow>
+    <DetailRow label="HHA分数" :value="itemModel.hhaPoints || '--'" />
+    <DetailRow label="服饰风格" :value="joinArray(itemModel.clothingStyleNames)" />
+    <DetailRow label="服饰主题" :value="joinArray(itemModel.clothingThemeNames)" />
+    <DetailRow label="活动">
+      <ActivityList :activitys="itemModel.activitys" />
+    </DetailRow>
+    <DetailRow :label="UI_TEXT.LABELS.SOURCE" class="source-row">
+      <SourceList :sources="itemModel.sources" :sourceNotes="itemModel.sourceNotes" />
+    </DetailRow>
+    <DetailRow label="购买" variant="value-highlight">
+      <template v-if="itemModel.buyPrices.length > 0">
+        <div
+          v-for="(priceStr, index) in itemModel.buyPriceStrs"
+          :key="index"
+          v-html="priceStr"
+        ></div>
+      </template>
+      <div v-else>不可购买</div>
+    </DetailRow>
+    <DetailRow :label="UI_TEXT.LABELS.PRICE" :value="itemModel.sellPriceStr" variant="value-highlight" />
 
     <div
       v-if="itemModel.hasVariations"

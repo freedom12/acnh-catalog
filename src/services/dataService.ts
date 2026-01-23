@@ -1,15 +1,6 @@
 ﻿import {
   type CatalogItem,
   type Translations,
-  type Item,
-  type Villager,
-  type NPC,
-  type Creature,
-  type Reaction,
-  type Artwork,
-  type Fossil,
-  type Plant,
-  type Achievement,
   CreatureType,
   Gender,
   Personality,
@@ -19,10 +10,8 @@
   type Price,
   type CusCost,
 } from '../types';
-import { RecipeType, type Recipe } from '../types/recipe';
-import { ConstructionType, type Construction } from '../types/construction';
-import type { MessageCard } from '../types/messagecard';
-import type { Music } from '../types/music';
+import { RecipeType } from '../types/recipe';
+import { ConstructionType } from '../types/construction';
 import { BASE_PATH, CONFIG } from '../config';
 import {
   ItemType,
@@ -33,7 +22,6 @@ import {
   KitType,
   Catalog,
 } from '../types/item';
-import type { Activity } from '../types/activity';
 
 export let translationsCache: Translations | null = null;
 
@@ -563,19 +551,6 @@ export function getPlantTypeIcon(type: PlantType): string {
   return getImgUrl(`img/icon/plant_type/plant_type_${type}.png`);
 }
 
-export async function loadItemsData(): Promise<Item[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.ITEMS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Item[];
-  } catch (error) {
-    console.error('加载物品数据失败:', error);
-    throw error;
-  }
-}
-
 export async function loadCatalogData(): Promise<Set<number>> {
   if (!import.meta.env.DEV) {
     return new Set();
@@ -601,175 +576,6 @@ export async function loadCatalogData(): Promise<Set<number>> {
   } catch (error) {
     console.log('无法加载 catalog_items.json，将不显示拥有状态');
     return new Set();
-  }
-}
-
-export async function loadVillagersData(): Promise<Villager[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.VILLAGERS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Villager[];
-  } catch (error) {
-    console.error('加载村民数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadNPCsData(): Promise<NPC[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.NPCS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as NPC[];
-  } catch (error) {
-    console.error('加载NPC数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadCreaturesData(): Promise<Creature[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.CREATURES);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Creature[];
-  } catch (error) {
-    console.error('加载生物数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadReactionsData(): Promise<Reaction[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.REACTIONS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Reaction[];
-  } catch (error) {
-    console.error('加载反应数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadRecipesData(): Promise<Recipe[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.RECIPES);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Recipe[];
-  } catch (error) {
-    console.error('加载配方数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadConstructionsData(): Promise<Construction[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.CONSTRUCTIONS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Construction[];
-  } catch (error) {
-    console.error('加载改建数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadMessageCardsData(): Promise<MessageCard[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.MESSAGE_CARDS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as MessageCard[];
-  } catch (error) {
-    console.error('加载贺卡数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadArtworkData(): Promise<Artwork[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.ARTWORKS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Artwork[];
-  } catch (error) {
-    console.error('加载艺术品数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadPlantsData(): Promise<Plant[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.PLANTS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Plant[];
-  } catch (error) {
-    console.error('加载植物数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadFossilsData(): Promise<Fossil[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.FOSSILS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Fossil[];
-  } catch (error) {
-    console.error('加载化石数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadMusicData(): Promise<Music[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.MUSICS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Music[];
-  } catch (error) {
-    console.error('加载音乐数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadActivityData(): Promise<Activity[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.ACTIVITYS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Activity[];
-  } catch (error) {
-    console.error('加载活动数据失败:', error);
-    throw error;
-  }
-}
-
-export async function loadAchievementsData(): Promise<Achievement[]> {
-  try {
-    const response = await fetch(CONFIG.DATA_FILES.ACHIEVEMENTS);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return (await response.json()) as Achievement[];
-  } catch (error) {
-    console.error('加载成就数据失败:', error);
-    throw error;
   }
 }
 

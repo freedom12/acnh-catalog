@@ -61,7 +61,7 @@ const iconSize = computed(() => 24);
   align-items: center;
   padding: 8px;
   background: white;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   border: 2px solid #ffcc80;
   transition: all 0.2s;
 
@@ -95,7 +95,7 @@ const iconSize = computed(() => 24);
   background: #ff9800;
   color: white;
   padding: 3px 10px;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   font-weight: 700;
   font-size: 0.8em;
 }

@@ -155,7 +155,7 @@ const lines = computed(() => {
 .achievement-card {
   background: #e0f7fa;
   border: 10px solid white;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--radius-2xl);
   padding: 0;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.05);
   text-align: center;
@@ -178,7 +178,7 @@ const lines = computed(() => {
   .tier-lab {
     position: absolute;
     font-size: 0.8rem;
-    color: var(--secondary-color);
+    color: var(--color-text-secondary);
     white-space: nowrap;
   }
 

@@ -12,7 +12,8 @@ const emit = defineEmits<{
   close: [];
 }>();
 
-const { achievementIdMap, loading, error, loadData } = useAchievementsData();
+const { idMap: achievementIdMap, status, error, loadData } = useAchievementsData();
+const loading = computed(() => status.value === 'loading');
 
 const achievement = computed(() =>{
   return props.achievementId !== null ? achievementIdMap.value[props.achievementId] : null;

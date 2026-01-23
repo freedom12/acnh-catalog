@@ -8,7 +8,8 @@ import AchievementCard from '../components/AchievementCard.vue';
 import { getVersionName } from '../services/dataService';
 import { Version } from '../types/item';
 
-const { allAchievements, loading, error, loadData } = useAchievementsData();
+const { data: allAchievements, status, error, loadData } = useAchievementsData();
+const loading = computed(() => status.value === 'loading');
 const { filteredData, handleFiltersChanged } = useFilter(allAchievements);
 
 const filters = computed<Filter[]>(() => {

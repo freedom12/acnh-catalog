@@ -1,28 +1,14 @@
-import { ref } from 'vue';
 import type { Artwork } from '../types/artwork';
-import { loadArtworkData } from '../services/dataService';
+import { CONFIG } from '../config';
+import { createDataLoader } from './core/useDataLoader';
 
-export function useArtworkData() {
-  const allArtwork = ref<Artwork[]>([]);
-  const loading = ref(false);
-  const error = ref('');
-  const loadData = async () => {
-    try {
-      loading.value = true;
-      error.value = '';
-      allArtwork.value = await loadArtworkData();
-    } catch (e) {
-      error.value = '加载数据失败';
-      console.error('加载数据失败:', e);
-    } finally {
-      loading.value = false;
-    }
-  };
+const loadArtworkData = async (): Promise<Artwork[]> => {
+  const response = await fetch(CONFIG.DATA_FILES.ARTWORKS);
+  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+  return response.json();
+};
 
-  return {
-    allArtwork,
-    loading,
-    error,
-    loadData,
-  };
-}
+export const useArtworkData = createDataLoader<Artwork>({
+  loader: loadArtworkData,
+  errorMessage: '加载艺术品数据失败',
+});

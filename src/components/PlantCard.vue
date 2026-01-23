@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import type { Plant } from '../types/plant';
 import { UI_TEXT } from '../constants';
 import {
@@ -38,25 +40,20 @@ const handleClick = () => {
     :shape="'rounded'"
     @click="handleClick"
   >
-    <div class="detail-row detail-center">
-      <span class="detail-label">ID: {{ props.data.id }}</span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">分类</span>
-      <span class="detail-value"
-        >{{ getPlantTypeName(props.data.type) }}
-        <img
-          :src="getPlantTypeIcon(props.data.type)"
-          :alt="getPlantTypeName(props.data.type)"
-          class="inline-icon gray"
-        />
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.PRICE }}</span>
-      <span class="detail-value highlight" v-html="getPriceWithIcon(props.data.sell)">
-      </span>
-    </div>
+    <DetailRow :label="`ID: ${props.data.id}`" layout="center" />
+    <DetailRow label="分类">
+      {{ getPlantTypeName(props.data.type) }}
+      <InlineIcon
+        :src="getPlantTypeIcon(props.data.type)"
+        :alt="getPlantTypeName(props.data.type)"
+        gray
+      />
+    </DetailRow>
+    <DetailRow
+      :label="UI_TEXT.LABELS.PRICE"
+      :value="getPriceWithIcon(props.data.sell)"
+      variant="value-highlight"
+    />
     <div
       v-if="showProduct || showSeeds"
       :class="['icon-grid', { 'icon-grid--cols-2': showProduct && showSeeds }]"
@@ -72,7 +69,3 @@ const handleClick = () => {
     </div>
   </BaseCard>
 </template>
-
-<style scoped lang="scss">
-// 使用全局样式
-</style>

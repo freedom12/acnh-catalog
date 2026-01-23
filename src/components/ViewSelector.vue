@@ -62,27 +62,27 @@ const isActive = (path: string) => {
   align-items: center;
   gap: var(--spacing-xs);
   padding: var(--spacing-sm) var(--spacing-md);
-  border: 2px solid var(--border-color);
-  border-radius: var(--border-radius-xl);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-2xl);
   background-color: white;
   cursor: pointer;
   font-size: 1em;
   font-weight: 500;
   transition: var(--transition-normal);
-  color: var(--secondary-color);
+  color: var(--color-text-secondary);
   text-decoration: none;
 }
 
 .view-button:hover {
-  border-color: var(--primary-color);
+  border-color: var(--color-primary);
   background-color: #f0f8f0;
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }
 
 .view-button.active {
-  border-color: var(--primary-color);
-  background-color: var(--primary-color);
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
   color: white;
   box-shadow: var(--shadow-md);
 }

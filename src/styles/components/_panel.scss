@@ -150,7 +150,7 @@
 // 面板内高亮行（继承面板主题色）
 // --------------------------------------------
 
-.panel .detail-row--highlight {
+.panel .detail-row--bg-highlight {
   background: var(--panel-bg);
   border: 2px solid var(--panel-border);
   border-radius: $radius-lg;

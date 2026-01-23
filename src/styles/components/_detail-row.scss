@@ -51,8 +51,8 @@
   gap: $spacing-sm;
 }
 
-// 高亮模式
-.detail-row--highlight {
+// 高亮模式 - 背景高亮
+.detail-row--bg-highlight {
   border: 2px solid var(--main-color);
 }
 
@@ -86,28 +86,3 @@
   }
 }
 
-// --------------------------------------------
-// 向后兼容的类名
-// --------------------------------------------
-
-.full {
-  @extend .detail-row--full;
-}
-
-.detail-center {
-  @extend .detail-row--center;
-}
-
-.highlight {
-  &.detail-row {
-    @extend .detail-row--highlight;
-  }
-
-  &.detail-label {
-    @extend .detail-label--highlight;
-  }
-
-  &.detail-value {
-    @extend .detail-value--highlight;
-  }
-}

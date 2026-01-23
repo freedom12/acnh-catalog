@@ -8,7 +8,8 @@ import FilterSection from '../components/FilterSection.vue';
 import { ConstructionType } from '../types/construction';
 import { getConstructionTypeName } from '../services/dataService';
 
-const { allConstruction, loading, error, loadData } = useConstructionData();
+const { data: allConstruction, status, error, loadData } = useConstructionData();
+const loading = computed(() => status.value === 'loading');
 const filters = computed(() => [
   {
     label: '分类',

@@ -7,6 +7,8 @@ import {
 } from '../services/dataService';
 import type { Construction } from '../types/construction';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
+import InlineIcon from './common/InlineIcon.vue';
 import SourceList from './SourceList.vue';
 
 const props = defineProps<{
@@ -27,29 +29,21 @@ const handleClick = () => {
     :shape="'rounded'"
     @click="handleClick"
   >
-    <div class="detail-row">
-      <span class="detail-label">分类</span>
-      <span class="detail-value">
-        {{ getConstructionTypeName(props.data.type) }}
-        <img
-          :src="getConstructionTypeIcon(props.data.type)"
-          :alt="getConstructionTypeName(props.data.type)"
-          class="inline-icon gray"
-          loading="lazy"
-        />
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">{{ UI_TEXT.LABELS.SOURCE }}</span>
-      <SourceList class="detail-value" :sources="props.data.source" />
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">购买</span>
-      <span
-        class="detail-value highlight"
-        v-html="getPriceWithIcon(props.data.buy) || '不可购买'"
-      >
-      </span>
-    </div>
+    <DetailRow label="分类">
+      {{ getConstructionTypeName(props.data.type) }}
+      <InlineIcon
+        :src="getConstructionTypeIcon(props.data.type)"
+        :alt="getConstructionTypeName(props.data.type)"
+        gray
+      />
+    </DetailRow>
+    <DetailRow :label="UI_TEXT.LABELS.SOURCE">
+      <SourceList :sources="props.data.source" />
+    </DetailRow>
+    <DetailRow
+      label="购买"
+      :value="getPriceWithIcon(props.data.buy) || '不可购买'"
+      variant="value-highlight"
+    />
   </BaseCard>
 </template>

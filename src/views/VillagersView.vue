@@ -17,7 +17,8 @@ import {
 import { useItemsData } from '../composables';
 
 const { loadData: loadItems } = useItemsData();
-const { allVillagers, loading, error, loadData:loadVillagers } = useVillagersData();
+const { data: allVillagers, status, error, loadData: loadVillagers } = useVillagersData();
+const loading = computed(() => status.value === 'loading');
 const filters = computed(() => [
   {
     label: '种族',

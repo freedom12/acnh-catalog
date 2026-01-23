@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Music } from '../types/music';
 import BaseCard from './BaseCard.vue';
+import DetailRow from './common/DetailRow.vue';
 import { useAudioPlayer } from '../composables/useAudioPlayer';
 import { BASE_PATH } from '../config';
 import { computed } from 'vue';
@@ -48,21 +49,13 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
     :version="props.data.ver"
     :images="[props.data.image]"
     :displayName="props.data.name"
-
     :selectionKey="selectionKey"
     :getSelectId="() => props.data.id"
     :shape="'square'"
     @click="handleClick"
   >
-    <div class="detail-row detail-center">
-      <span class="detail-label">
-        {{ props.data.rawName }}
-      </span>
-    </div>
-    <div class="detail-row">
-      <span class="detail-label">心情</span>
-      <span class="detail-value">{{ props.data.mood || "--"}}</span>
-    </div>
+    <DetailRow :label="props.data.rawName" layout="center" />
+    <DetailRow label="心情" :value="props.data.mood || '--'" />
     <div class="media-actions">
       <button @click="(e) => handlePlayClick(e, 'live')" class="media-btn">
         <span class="media-btn-icon">{{ isLivePlaying ? '⏸' : '▶' }}</span> 现场
@@ -77,7 +70,3 @@ const isRadioPlaying = isCurrentlyPlaying('radio');
     </div>
   </BaseCard>
 </template>
-
-<style scoped lang="scss">
-// 使用全局样式
-</style>
